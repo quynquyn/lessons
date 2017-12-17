@@ -4,7 +4,7 @@ post_title: Are you learning English?
 author: Till Carlos
 post_excerpt: ""
 layout: page
-permalink: https://englishletics.com/start/
+permalink: start/
 published: true
 post_date: 2017-12-12 09:17:45
 ---

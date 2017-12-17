@@ -4,8 +4,7 @@ post_title: privacy-policy
 author: Till Carlos
 post_excerpt: ""
 layout: page
-permalink: >
-  https://englishletics.com/privacy-policy/
+permalink: blog/privacy-policy/
 published: true
 post_date: 2017-12-01 09:39:13
 ---

@@ -4,7 +4,7 @@ post_title: Sample Page
 author: adm1noto
 post_excerpt: ""
 layout: page
-permalink: https://englishletics.com/sample-page/
+permalink: sample-page/
 published: true
 post_date: 2017-11-28 07:46:11
 ---
