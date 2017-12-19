@@ -6,9 +6,11 @@ kramdown:
 future: true
 jailed: false
 gfm_quirks: paragraph_end
+collections:
+  lessons:
+    output: true
 include: ['_pages', '.htaccess']
-exclude: [not-in-git, node_modules, artwork]
-
+exclude: [not-in-git, node_modules, artwork, csv_to_html]
 
 
 

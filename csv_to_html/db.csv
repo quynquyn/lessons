@@ -1,0 +1,10 @@
+File,order,audio_en,text_en,text_vn,template
+00001,1,http://www.ourmp3server.com/asttsr/00001-001.mp3,Hello,XIn Chào,word_with_mp3
+00001,2,http://www.ourmp3server.com/asttsr/00001-001.mp3,morning,buổi sáng,word_with_mp3
+00001,3,http://www.ourmp3server.com/asttsr/00001-001.mp3,motorbike,xe máy,word_with_mp3
+00001,4,http://www.ourmp3server.com/asttsr/00001-001.mp3,delicious,"ngon",word_with_mp3
+00001,5,http://www.ourmp3server.com/asttsr/00001-001.mp3,happy,"vui",word_with_mp3
+00001,6,http://www.ourmp3server.com/asttsr/00001-001.mp3,sad,"buồn ",word_with_mp3
+0002,1,http://www.ourmp3server.com/asttsr/00002-002.mp3,Another word,vn,word_with_mp3
+0002,2,http://www.ourmp3server.com/asttsr/00002-002.mp3,in EN,vn,word_with_mp3
+0002,3,http://www.ourmp3server.com/asttsr/00002-002.mp3,in EN,vn,word_with_mp3
