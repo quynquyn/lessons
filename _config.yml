@@ -1,3 +1,4 @@
+baseurl: /daily
 github: [metadata]
 encoding: UTF-8
 kramdown:
