@@ -5,6 +5,11 @@ kramdown:
  hard_wrap: false
 future: true
 jailed: false
-theme: jekyll-theme-minimal
 gfm_quirks: paragraph_end
-include:    _pages
+include: ['_pages', '.htaccess']
+exclude: [not-in-git, node_modules, artwork]
+
+
+
+
+
