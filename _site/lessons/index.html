@@ -10,6 +10,23 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <script>
+      
+        function play(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+            }else{
+                audio.pause();
+                audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+    </script>
+        
+        
   </head>
 
   <body>
@@ -23,9 +40,6 @@
       <span class="navbar-text">
         <a class="nav-link" href="#">English for<br/><strong>Business</strong></a>
       </span>
-      <span class="navbar-text">
-        <a class="nav-link" href="#">English for<br/><strong>Flirting</strong></a>
-      </span>
   
        
     </nav>
@@ -36,9 +50,9 @@
     <div class="row">
       <div class="col-12">
           
-<h2>00001</h2>
+<h2>0001</h2>
 <p></p>
-<p><a href="/daily/lessons/00001.html">00001</a></p>
+<p><a href="/daily/lessons/0001.html">0001</a></p>
 
 <h2>0002</h2>
 <p></p>

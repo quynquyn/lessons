@@ -10,6 +10,23 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <script>
+      
+        function play(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+            }else{
+                audio.pause();
+                audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+    </script>
+        
+        
   </head>
 
   <body>
@@ -22,9 +39,6 @@
       </span>
       <span class="navbar-text">
         <a class="nav-link" href="#">English for<br/><strong>Business</strong></a>
-      </span>
-      <span class="navbar-text">
-        <a class="nav-link" href="#">English for<br/><strong>Flirting</strong></a>
       </span>
   
        
@@ -42,129 +56,309 @@
 <h3>Level: Basic<h3>
 
 
-<audio controls class='linkAudio'>
-  <source src="https://TODOTill">
-  Your browser does not support the audio element
-</audio>
-<p>chưa có — <b>Hurts</b></p>
 
+<audio src="https://TODOTill" id="audio_035226647"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_035226647" onclick="play('035226647')">▶</strong>
+  </div>
+  <div class="col-5">
+    Hurts
+  </div>
+  <div class="col-4">
+    chưa có
+  </div>
+</div>
+    
 <hr />
+    
+    
+    
 
-<audio controls class='linkAudio'>
-  <source src="https://TODOTill">
-  Your browser does not support the audio element
-</audio>
-<p>chưa có — <b>Sick</b></p>
 
+<audio src="https://TODOTill" id="audio_113909635"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_113909635" onclick="play('113909635')">▶</strong>
+  </div>
+  <div class="col-5">
+    Sick
+  </div>
+  <div class="col-4">
+    chưa có
+  </div>
+</div>
+    
 <hr />
+    
+    
+    
 
-<audio controls class='linkAudio'>
-  <source src="https://TODOTill">
-  Your browser does not support the audio element
-</audio>
-<p>chưa có — <b>Blood</b></p>
 
+<audio src="https://TODOTill" id="audio_930816885"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_930816885" onclick="play('930816885')">▶</strong>
+  </div>
+  <div class="col-5">
+    Blood
+  </div>
+  <div class="col-4">
+    chưa có
+  </div>
+</div>
+    
 <hr />
+    
+    
+    
 
-<audio controls class='linkAudio'>
-  <source src="https://TODOTill">
-  Your browser does not support the audio element
-</audio>
-<p>chưa có — <b>Hot</b></p>
 
+<audio src="https://TODOTill" id="audio_761753661"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_761753661" onclick="play('761753661')">▶</strong>
+  </div>
+  <div class="col-5">
+    Hot
+  </div>
+  <div class="col-4">
+    chưa có
+  </div>
+</div>
+    
 <hr />
+    
+    
+    
 
-<audio controls class='linkAudio'>
-  <source src="https://TODOTill">
-  Your browser does not support the audio element
-</audio>
-<p>chưa có — <b>Drug</b></p>
 
+<audio src="https://TODOTill" id="audio_070742442"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_070742442" onclick="play('070742442')">▶</strong>
+  </div>
+  <div class="col-5">
+    Drug
+  </div>
+  <div class="col-4">
+    chưa có
+  </div>
+</div>
+    
 <hr />
+    
+    
+    
 <h3>Level: Advanced<h3>
 
 
-<audio controls class='linkAudio'>
-  <source src="https://TODOTill">
-  Your browser does not support the audio element
-</audio>
-<p>chưa có — <b>Ache - Head ache</b></p>
 
+<audio src="https://TODOTill" id="audio_027613522"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_027613522" onclick="play('027613522')">▶</strong>
+  </div>
+  <div class="col-5">
+    Ache - Head ache
+  </div>
+  <div class="col-4">
+    chưa có
+  </div>
+</div>
+    
 <hr />
+    
+    
+    
 
-<audio controls class='linkAudio'>
-  <source src="https://TODOTill">
-  Your browser does not support the audio element
-</audio>
-<p>chưa có — <b>Sore - Sore throat</b></p>
 
+<audio src="https://TODOTill" id="audio_634397475"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_634397475" onclick="play('634397475')">▶</strong>
+  </div>
+  <div class="col-5">
+    Sore - Sore throat
+  </div>
+  <div class="col-4">
+    chưa có
+  </div>
+</div>
+    
 <hr />
+    
+    
+    
 
-<audio controls class='linkAudio'>
-  <source src="https://TODOTill">
-  Your browser does not support the audio element
-</audio>
-<p>chưa có — <b>Medicine</b></p>
 
+<audio src="https://TODOTill" id="audio_334761947"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_334761947" onclick="play('334761947')">▶</strong>
+  </div>
+  <div class="col-5">
+    Medicine
+  </div>
+  <div class="col-4">
+    chưa có
+  </div>
+</div>
+    
 <hr />
+    
+    
+    
 
-<audio controls class='linkAudio'>
-  <source src="https://TODOTill">
-  Your browser does not support the audio element
-</audio>
-<p>chưa có — <b>Throw up</b></p>
 
+<audio src="https://TODOTill" id="audio_690751029"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_690751029" onclick="play('690751029')">▶</strong>
+  </div>
+  <div class="col-5">
+    Throw up
+  </div>
+  <div class="col-4">
+    chưa có
+  </div>
+</div>
+    
 <hr />
+    
+    
+    
 
-<audio controls class='linkAudio'>
-  <source src="https://TODOTill">
-  Your browser does not support the audio element
-</audio>
-<p>chưa có — <b>Fever</b></p>
 
+<audio src="https://TODOTill" id="audio_580625989"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_580625989" onclick="play('580625989')">▶</strong>
+  </div>
+  <div class="col-5">
+    Fever
+  </div>
+  <div class="col-4">
+    chưa có
+  </div>
+</div>
+    
 <hr />
+    
+    
+    
 <h3>Level: Professional<h3>
 
 
-<audio controls class='linkAudio'>
-  <source src="https://TODOTill">
-  Your browser does not support the audio element
-</audio>
-<p>chưa có — <b>Appointment</b></p>
 
+<audio src="https://TODOTill" id="audio_011902629"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_011902629" onclick="play('011902629')">▶</strong>
+  </div>
+  <div class="col-5">
+    Appointment
+  </div>
+  <div class="col-4">
+    chưa có
+  </div>
+</div>
+    
 <hr />
+    
+    
+    
 
-<audio controls class='linkAudio'>
-  <source src="https://TODOTill">
-  Your browser does not support the audio element
-</audio>
-<p>chưa có — <b>Diarrhea</b></p>
 
+<audio src="https://TODOTill" id="audio_835190782"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_835190782" onclick="play('835190782')">▶</strong>
+  </div>
+  <div class="col-5">
+    Diarrhea
+  </div>
+  <div class="col-4">
+    chưa có
+  </div>
+</div>
+    
 <hr />
+    
+    
+    
 
-<audio controls class='linkAudio'>
-  <source src="https://TODOTill">
-  Your browser does not support the audio element
-</audio>
-<p>chưa có — <b>Nausea</b></p>
 
+<audio src="https://TODOTill" id="audio_941630425"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_941630425" onclick="play('941630425')">▶</strong>
+  </div>
+  <div class="col-5">
+    Nausea
+  </div>
+  <div class="col-4">
+    chưa có
+  </div>
+</div>
+    
 <hr />
+    
+    
+    
 
-<audio controls class='linkAudio'>
-  <source src="https://TODOTill">
-  Your browser does not support the audio element
-</audio>
-<p>chưa có — <b>Vomit</b></p>
 
+<audio src="https://TODOTill" id="audio_537828312"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_537828312" onclick="play('537828312')">▶</strong>
+  </div>
+  <div class="col-5">
+    Vomit
+  </div>
+  <div class="col-4">
+    chưa có
+  </div>
+</div>
+    
 <hr />
+    
+    
+    
 
-<audio controls class='linkAudio'>
-  <source src="https://TODOTill">
-  Your browser does not support the audio element
-</audio>
-<p>chưa có — <b>Prescription</b></p>
 
+<audio src="https://TODOTill" id="audio_281042828"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_281042828" onclick="play('281042828')">▶</strong>
+  </div>
+  <div class="col-5">
+    Prescription
+  </div>
+  <div class="col-4">
+    chưa có
+  </div>
+</div>
+    
 <hr />
+    
+    
+    
 
       </div>
     </div>

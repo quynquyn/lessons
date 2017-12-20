@@ -1,8 +1,23 @@
+<% idrand = Array.new(9){rand 10}.join %>
 
-<audio controls class='linkAudio'>
-  <source src="<%= audio_en %>">
-  Your browser does not support the audio element
-</audio>
-<p><%= text_vn %> — <b><%= text_en %></b></p>
+<audio src="<%= audio_en %>" id="audio_<%= idrand %>"></audio>
 
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_<%= idrand %>" onclick="play('<%= idrand %>')">▶</strong>
+  </div>
+  <div class="col-5">
+    <%= text_en %>
+  </div>
+  <div class="col-4">
+    <%= text_vn %>
+  </div>
+</div>
+    
 <hr />
+    
+    
+    
+<%#
+// from here: https://stackoverflow.com/questions/18826147/javascript-audio-play-on-click
+%>
