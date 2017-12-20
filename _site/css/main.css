@@ -6357,3 +6357,10 @@ nav.el-offer-bar {
   background-color: #C52033 !important; }
   nav.el-offer-bar .navbar-brand {
     color: white; }
+
+section.el-lesson h1 {
+  font-size: 140%; }
+section.el-lesson h2 {
+  font-size: 110%; }
+section.el-lesson h3 {
+  font-size: 110%; }
