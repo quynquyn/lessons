@@ -3,3 +3,12 @@
 
 @import "theme";
 
+
+
+nav.el-offer-bar{
+	background-color: $primary !important;
+	
+	.navbar-brand {
+		color: white;
+	}
+}

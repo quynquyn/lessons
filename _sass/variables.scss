@@ -34,6 +34,9 @@ $grays: map-merge((
   "900": $gray-900
 ), $grays);
 
+$elred:    #C52033 !default; //EL EDIT
+$elblue:    #202844 !default; //EL EDIT
+
 $blue:    #007bff !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
@@ -62,8 +65,9 @@ $colors: map-merge((
   "gray-dark":  $gray-800
 ), $colors);
 
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
+
+$primary:       $elred !default; //EL EDIT
+$secondary:     $elblue !default; //EL EDIT
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
