@@ -11,13 +11,26 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
     
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
     <script>
       
-        function play(audio_id) {
+        function play(audio_id, lesson, word) {
             var audio = document.getElementById("audio_"+ audio_id);
             if (audio.paused) {
                 audio.play();
                 document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                gtag('send', 'event', "useraction", "playsound", lesson, word);
+                
             }else{
                 audio.pause();
                 audio.currentTime = 0
@@ -26,6 +39,8 @@
         }
     </script>
         
+        
+
         
   </head>
 
@@ -59,11 +74,11 @@
 
 
 
-<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-4-Line.mp3" id="audio_886650049"  preload="none"></audio>
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-4-Line.mp3" id="audio_422810564"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_886650049" onclick="play('886650049')">▶</strong>
+    <strong class="" id="play_422810564" onclick="play('422810564', 'word_with_mp3', 'Line')">▶</strong>
   </div>
   <div class="col-5">
     Line
@@ -79,11 +94,11 @@
     
 
 
-<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-5-That-makes-12-and-50Cts.mp3" id="audio_677219694"  preload="none"></audio>
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-5-That-makes-12-and-50Cts.mp3" id="audio_691784544"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_677219694" onclick="play('677219694')">▶</strong>
+    <strong class="" id="play_691784544" onclick="play('691784544', 'word_with_mp3', 'That makes 12$ and 50Cts')">▶</strong>
   </div>
   <div class="col-5">
     That makes 12$ and 50Cts
@@ -99,11 +114,11 @@
     
 
 
-<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-6-Cash.mp3" id="audio_366300839"  preload="none"></audio>
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-6-Cash.mp3" id="audio_047661367"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_366300839" onclick="play('366300839')">▶</strong>
+    <strong class="" id="play_047661367" onclick="play('047661367', 'word_with_mp3', 'Cash')">▶</strong>
   </div>
   <div class="col-5">
     Cash
@@ -119,11 +134,11 @@
     
 
 
-<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-7-Basket.mp3" id="audio_919054472"  preload="none"></audio>
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-7-Basket.mp3" id="audio_303403048"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_919054472" onclick="play('919054472')">▶</strong>
+    <strong class="" id="play_303403048" onclick="play('303403048', 'word_with_mp3', 'Basket')">▶</strong>
   </div>
   <div class="col-5">
     Basket
@@ -139,11 +154,11 @@
     
 
 
-<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-8-Milk.mp3" id="audio_245368461"  preload="none"></audio>
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-8-Milk.mp3" id="audio_117954257"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_245368461" onclick="play('245368461')">▶</strong>
+    <strong class="" id="play_117954257" onclick="play('117954257', 'word_with_mp3', 'Milk')">▶</strong>
   </div>
   <div class="col-5">
     Milk
@@ -161,11 +176,11 @@
 
 
 
-<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-10-Change.mp3" id="audio_136242226"  preload="none"></audio>
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-10-Change.mp3" id="audio_803611498"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_136242226" onclick="play('136242226')">▶</strong>
+    <strong class="" id="play_803611498" onclick="play('803611498', 'word_with_mp3', 'Change')">▶</strong>
   </div>
   <div class="col-5">
     Change
@@ -181,11 +196,11 @@
     
 
 
-<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-11-Discount.mp3" id="audio_658126242"  preload="none"></audio>
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-11-Discount.mp3" id="audio_859970629"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_658126242" onclick="play('658126242')">▶</strong>
+    <strong class="" id="play_859970629" onclick="play('859970629', 'word_with_mp3', 'Discount')">▶</strong>
   </div>
   <div class="col-5">
     Discount
@@ -201,11 +216,11 @@
     
 
 
-<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-12-Register.mp3" id="audio_944789262"  preload="none"></audio>
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-12-Register.mp3" id="audio_505604439"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_944789262" onclick="play('944789262')">▶</strong>
+    <strong class="" id="play_505604439" onclick="play('505604439', 'word_with_mp3', 'Register')">▶</strong>
   </div>
   <div class="col-5">
     Register
@@ -221,11 +236,11 @@
     
 
 
-<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-13-Cart.mp3" id="audio_438892016"  preload="none"></audio>
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-13-Cart.mp3" id="audio_931047740"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_438892016" onclick="play('438892016')">▶</strong>
+    <strong class="" id="play_931047740" onclick="play('931047740', 'word_with_mp3', 'Cart')">▶</strong>
   </div>
   <div class="col-5">
     Cart
@@ -241,11 +256,11 @@
     
 
 
-<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-14-Baked.mp3" id="audio_191013848"  preload="none"></audio>
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-14-Baked.mp3" id="audio_039499467"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_191013848" onclick="play('191013848')">▶</strong>
+    <strong class="" id="play_039499467" onclick="play('039499467', 'word_with_mp3', 'Baked')">▶</strong>
   </div>
   <div class="col-5">
     Baked
@@ -263,11 +278,11 @@
 
 
 
-<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-16-Queue.mp3" id="audio_791881708"  preload="none"></audio>
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-16-Queue.mp3" id="audio_644539896"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_791881708" onclick="play('791881708')">▶</strong>
+    <strong class="" id="play_644539896" onclick="play('644539896', 'word_with_mp3', 'Queue')">▶</strong>
   </div>
   <div class="col-5">
     Queue
@@ -283,11 +298,11 @@
     
 
 
-<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-17-Purchase.mp3" id="audio_055288820"  preload="none"></audio>
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-17-Purchase.mp3" id="audio_882514600"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_055288820" onclick="play('055288820')">▶</strong>
+    <strong class="" id="play_882514600" onclick="play('882514600', 'word_with_mp3', 'Purchase')">▶</strong>
   </div>
   <div class="col-5">
     Purchase
@@ -303,11 +318,11 @@
     
 
 
-<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-18-Cashier.mp3" id="audio_371054689"  preload="none"></audio>
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-18-Cashier.mp3" id="audio_835645839"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_371054689" onclick="play('371054689')">▶</strong>
+    <strong class="" id="play_835645839" onclick="play('835645839', 'word_with_mp3', 'Cashier')">▶</strong>
   </div>
   <div class="col-5">
     Cashier
@@ -323,11 +338,11 @@
     
 
 
-<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-19-Dairy-product.mp3" id="audio_284160867"  preload="none"></audio>
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-19-Dairy-product.mp3" id="audio_483806223"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_284160867" onclick="play('284160867')">▶</strong>
+    <strong class="" id="play_483806223" onclick="play('483806223', 'word_with_mp3', 'Dairy product')">▶</strong>
   </div>
   <div class="col-5">
     Dairy product
@@ -343,11 +358,11 @@
     
 
 
-<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-20-Overcharged.mp3" id="audio_150638284"  preload="none"></audio>
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0001-20-Overcharged.mp3" id="audio_199808742"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_150638284" onclick="play('150638284')">▶</strong>
+    <strong class="" id="play_199808742" onclick="play('199808742', 'word_with_mp3', 'Overcharged')">▶</strong>
   </div>
   <div class="col-5">
     Overcharged

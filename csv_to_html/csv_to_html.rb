@@ -11,6 +11,7 @@ layout: lesson
 HTML
   row.each do |r|
     b = binding
+    b.local_variable_set('lesson', r[5])
     b.local_variable_set('audio_en', r[2])
     b.local_variable_set('text_en', r[3])
     b.local_variable_set('text_vn', r[4])

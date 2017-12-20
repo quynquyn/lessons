@@ -11,13 +11,26 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
     
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
     <script>
       
-        function play(audio_id) {
+        function play(audio_id, lesson, word) {
             var audio = document.getElementById("audio_"+ audio_id);
             if (audio.paused) {
                 audio.play();
                 document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                gtag('send', 'event', "useraction", "playsound", lesson, word);
+                
             }else{
                 audio.pause();
                 audio.currentTime = 0
@@ -26,6 +39,8 @@
         }
     </script>
         
+        
+
         
   </head>
 
@@ -59,11 +74,11 @@
 
 
 
-<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_522212424"  preload="none"></audio>
+<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_060307686"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_522212424" onclick="play('522212424')">▶</strong>
+    <strong class="" id="play_060307686" onclick="play('060307686', 'word_with_mp3', 'Beer')">▶</strong>
   </div>
   <div class="col-5">
     Beer
@@ -79,11 +94,11 @@
     
 
 
-<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_313373267"  preload="none"></audio>
+<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_618491606"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_313373267" onclick="play('313373267')">▶</strong>
+    <strong class="" id="play_618491606" onclick="play('618491606', 'word_with_mp3', 'Wine')">▶</strong>
   </div>
   <div class="col-5">
     Wine
@@ -99,11 +114,11 @@
     
 
 
-<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_510084100"  preload="none"></audio>
+<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_408605880"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_510084100" onclick="play('510084100')">▶</strong>
+    <strong class="" id="play_408605880" onclick="play('408605880', 'word_with_mp3', 'Glass')">▶</strong>
   </div>
   <div class="col-5">
     Glass
@@ -119,11 +134,11 @@
     
 
 
-<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_266195183"  preload="none"></audio>
+<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_667436742"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_266195183" onclick="play('266195183')">▶</strong>
+    <strong class="" id="play_667436742" onclick="play('667436742', 'word_with_mp3', 'Bottle')">▶</strong>
   </div>
   <div class="col-5">
     Bottle
@@ -139,11 +154,11 @@
     
 
 
-<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_465204527"  preload="none"></audio>
+<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_825603807"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_465204527" onclick="play('465204527')">▶</strong>
+    <strong class="" id="play_825603807" onclick="play('825603807', 'word_with_mp3', 'Drink')">▶</strong>
   </div>
   <div class="col-5">
     Drink
@@ -161,11 +176,11 @@
 
 
 
-<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_677672839"  preload="none"></audio>
+<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_714046268"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_677672839" onclick="play('677672839')">▶</strong>
+    <strong class="" id="play_714046268" onclick="play('714046268', 'word_with_mp3', 'Draft')">▶</strong>
   </div>
   <div class="col-5">
     Draft
@@ -181,11 +196,11 @@
     
 
 
-<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_502976102"  preload="none"></audio>
+<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_353306992"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_502976102" onclick="play('502976102')">▶</strong>
+    <strong class="" id="play_353306992" onclick="play('353306992', 'word_with_mp3', 'Open a tab')">▶</strong>
   </div>
   <div class="col-5">
     Open a tab
@@ -201,11 +216,11 @@
     
 
 
-<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_557849697"  preload="none"></audio>
+<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_148268497"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_557849697" onclick="play('557849697')">▶</strong>
+    <strong class="" id="play_148268497" onclick="play('148268497', 'word_with_mp3', 'Restroom')">▶</strong>
   </div>
   <div class="col-5">
     Restroom
@@ -221,11 +236,11 @@
     
 
 
-<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_887736045"  preload="none"></audio>
+<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_223408296"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_887736045" onclick="play('887736045')">▶</strong>
+    <strong class="" id="play_223408296" onclick="play('223408296', 'word_with_mp3', 'Peanuts')">▶</strong>
   </div>
   <div class="col-5">
     Peanuts
@@ -241,11 +256,11 @@
     
 
 
-<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_938857868"  preload="none"></audio>
+<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_930597277"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_938857868" onclick="play('938857868')">▶</strong>
+    <strong class="" id="play_930597277" onclick="play('930597277', 'word_with_mp3', 'House special')">▶</strong>
   </div>
   <div class="col-5">
     House special
@@ -263,11 +278,11 @@
 
 
 
-<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_204373764"  preload="none"></audio>
+<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_300479010"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_204373764" onclick="play('204373764')">▶</strong>
+    <strong class="" id="play_300479010" onclick="play('300479010', 'word_with_mp3', 'Champagne / Sparkling wine')">▶</strong>
   </div>
   <div class="col-5">
     Champagne / Sparkling wine
@@ -283,11 +298,11 @@
     
 
 
-<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_938915473"  preload="none"></audio>
+<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_725059381"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_938915473" onclick="play('938915473')">▶</strong>
+    <strong class="" id="play_725059381" onclick="play('725059381', 'word_with_mp3', 'Cocktail')">▶</strong>
   </div>
   <div class="col-5">
     Cocktail
@@ -303,11 +318,11 @@
     
 
 
-<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_037978152"  preload="none"></audio>
+<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_245132055"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_037978152" onclick="play('037978152')">▶</strong>
+    <strong class="" id="play_245132055" onclick="play('245132055', 'word_with_mp3', 'Mixology')">▶</strong>
   </div>
   <div class="col-5">
     Mixology
@@ -323,11 +338,11 @@
     
 
 
-<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_919302004"  preload="none"></audio>
+<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_664887092"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_919302004" onclick="play('919302004')">▶</strong>
+    <strong class="" id="play_664887092" onclick="play('664887092', 'word_with_mp3', 'Imported beer')">▶</strong>
   </div>
   <div class="col-5">
     Imported beer
@@ -343,11 +358,11 @@
     
 
 
-<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_053665962"  preload="none"></audio>
+<audio src="http://www.noiseaddicts.com/samples_1w72b820/3740.mp3" id="audio_735023517"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <strong class="" id="play_053665962" onclick="play('053665962')">▶</strong>
+    <strong class="" id="play_735023517" onclick="play('735023517', 'word_with_mp3', 'Happy hour')">▶</strong>
   </div>
   <div class="col-5">
     Happy hour
