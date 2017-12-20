@@ -29,7 +29,7 @@
             if (audio.paused) {
                 audio.play();
                 document.getElementById('play_'+ audio_id).innerHTML = '✔';
-                gtag('send', 'event', "useraction", "playsound", lesson, word);
+                gtag('event', "useraction", "playsound", lesson, word);
                 
             }else{
                 audio.pause();
