@@ -1,18 +1,21 @@
 <% idrand = Array.new(9){rand 10}.join %>
 
-<audio src="<%= audio_en %>" id="audio_<%= idrand %>"  preload="none"></audio>
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/<%= media_name %>.mp3" id="audio_<%= idrand %>"  preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
     <strong class="" id="play_<%= idrand %>" onclick="play('<%= idrand %>', '<%= lesson %>', '<%= text_en %>');">▶</strong>
   </div>
   <div class="col-5">
-    <%= text_en %>
-  </div>
-  <div class="col-4">
+    <strong><%= text_en %></strong>
+    <br />
     <%= text_vn %>
   </div>
+  <div class="col-4">
+    <img src="http://englishletics.imgix.net/images/<%= media_name %>.jpg?w=200" />
+  </div>
 </div>
+
     
 <hr />
     

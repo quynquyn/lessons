@@ -4,6 +4,9 @@
 @import "theme";
 
 
+body {
+	padding-bottom: 100px;
+}
 
 nav.el-offer-bar{
 	background-color: $primary !important;
@@ -12,6 +15,8 @@ nav.el-offer-bar{
 		color: white;
 	}
 }
+
+
 
 section.el-lesson {
 	h1 {
