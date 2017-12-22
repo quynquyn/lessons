@@ -24,7 +24,7 @@ HTML
     template = File.read(File.dirname(__FILE__)+'/templates/' + r[5] + '.erb')
     file.write ERB.new(template).result(b)
     
-    image_output_file = File.dirname(__FILE__)+"/images_dl/#{r[9]}.jpg"
+    image_output_file = File.dirname(__FILE__)+"/../not-in-git/images_dl/#{r[9]}.jpg"
     unless r[8].nil? or r[9].nil? or File.exists?(image_output_file)
       #File.write("file_name", Net::HTTP.get(URI.parse(r[8])))
       `wget  -O #{image_output_file}  #{r[8]}`
