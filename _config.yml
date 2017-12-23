@@ -10,7 +10,9 @@ gfm_quirks: paragraph_end
 collections:
   lessons:
     output: true
-include: ['_pages', '.htaccess']
+  pages:
+    output: true
+include: ['.htaccess']
 exclude: [not-in-git, node_modules, artwork, csv_to_html]
 
 

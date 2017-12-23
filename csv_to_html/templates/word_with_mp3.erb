@@ -12,7 +12,9 @@
     <strong><%= word_vn %></strong> : <%= text_vn %>
   </div>
   <div class="col-7">
-    <img src="http://englishletics.imgix.net/images/<%= media_name %>.jpg?w=200" />
+    <% if has_image  %>
+      <img src="http://englishletics.imgix.net/images/<%= media_name %>.jpg?w=200" />
+    <% end %>
   </div>
 </div>
 
