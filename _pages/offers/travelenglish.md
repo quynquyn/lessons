@@ -1,7 +1,0 @@
----
-layout: offer
----
-
-
-# coming soon
-

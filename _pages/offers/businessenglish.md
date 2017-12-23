@@ -7,39 +7,42 @@ layout: offer
 
 Do you want to learn **even faster** and specifically to improve your **career outlook**?
 
-You will receive a daily lesson packed with real-life examples for business interactions.
+ - You will receive a daily lesson that only take 15 minutes to complete
+ - With real-life business interactions, used by millions of business people
+ - We keep you learning through daily messages and easy to complete lessons
+ - Affordable price of 9.99 USD / month or 99 USD/year (save 20%)  
+ - Cancel anytime, no expensive contract at a school
+ - 14 days money-back guarantee
 
- - 4000 new words related to business
- - daily lessons
- - 9.99 USD / month or 99 USD/year (save 20%)  
+{% include_relative email_form.md %}
 
 
-<div class="card text-white bg-dark  bg-dark mb-3" style="max-width: 40rem;">
-  <div class="card-header">Buy now (9.99USD/m)</div>
-  <div class="card-body">
-    <h3 class="card-title">Step 1: confirm your email</h3>
-	
-	<p>
-		We will send you payment information after you put in your email.
-	</p>
-	
 
-	<form class="form-inline" action="https://mailservice.maerketing.com/subscribe" method="POST" accept-charset="utf-8">
-	   <input type="hidden" name="list" value="P9pBtaZR7xl892iAFN88f892CA"/>
- 	   <div class="form-row">
-		    <div class="col-6">
-			   <input type="email" name="email" class="form-control" placeholder="Your email address">
-			</div>
-  
-		    <div class="col">
-				<button type="submit" class="btn btn-primary">Sign Up</button>
-			</div>
-		</div>
-	</form>
-			<i>You don't pay anything yet</i>
+## Details about the EnglishLetics Method
+We believe in learning every day. Only if you learn constantly, you can achieve proficiency. Science has shown that a new skill needs 60 days to become a habit.
 
-  </div>
-</div>
+Imagine you learn just a bit every day. Where would you be after only one short year?
+
+
+## Questions and answers
+
+### How can I pay?
+Paypal and credit card. We charge every month and you can stop anytime.
+
+### What if I don't like it?
+You just write us an email at support@englishletics.com. If your first payment was less than 14 days ago, we will refund you the payment without questions asked.
+
+### How do I learn?
+We send you a daily message through facebook messenger. You can study right there and then. If you want we can send you the lesson via email as well. Please email us if you want that.
+
+
+
+
+
+{% include_relative email_form.md %}
+
+
+
 
 
 
