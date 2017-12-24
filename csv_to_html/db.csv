@@ -22,128 +22,128 @@ file,order,word_en,word_vn,text_en,text_vn,template,Level,Area,ImageSourceURL,me
 0002,1,Lesson 2,Bài 2,,,structure_h1,,,,
 0002,2,Area: Waiter in a restaurant,Chủ đề: Phục vụ nhà hàng,,,structure_h2,,,,
 0002,3,Level: Basic,Trình độ: Cơ bản,,,structure_h3,,,,
-0002,4,Table,Bàn,,,word_with_mp3,basic,restaurant,https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-4-Table
-0002,5,Water,Nước,,,word_with_mp3,basic,restaurant,https://images.pexels.com/photos/113734/pexels-photo-113734.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-5-Water
-0002,6,Order,Món đã chọn,,,word_with_mp3,basic,restaurant,https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-6-Order
-0002,7,Tip,Tiền boa,,,word_with_mp3,basic,restaurant,https://images.unsplash.com/photo-1475650522725-015d35677789?auto=format&fit=crop&w=1050&q=80,en_0002-7-Tip
-0002,8,Bill,Hóa đơn,,,word_with_mp3,basic,restaurant,https://images.unsplash.com/44/fN6hZMWqRHuFET5YoApH_StBalmainCoffee.jpg?auto=format&fit=crop&w=1050&q=80,en_0002-8-Bill
+0002,4,Table,Bàn,Your table is ready.,,word_with_mp3,basic,restaurant,https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-4-Table
+0002,5,Water,Nước,May I have some water?,,word_with_mp3,basic,restaurant,https://images.pexels.com/photos/113734/pexels-photo-113734.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-5-Water
+0002,6,Order,Món đã chọn,Are you ready to order?,,word_with_mp3,basic,restaurant,https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-6-Order
+0002,7,Tip,Tiền boa,Tip the waiter.,,word_with_mp3,basic,restaurant,https://images.unsplash.com/photo-1475650522725-015d35677789?auto=format&fit=crop&w=1050&q=80,en_0002-7-Tip
+0002,8,Bill,Hóa đơn,May I have the bill.,,word_with_mp3,basic,restaurant,https://images.unsplash.com/44/fN6hZMWqRHuFET5YoApH_StBalmainCoffee.jpg?auto=format&fit=crop&w=1050&q=80,en_0002-8-Bill
 0002,9,Level: Advanced,Trình độ: Nâng cao,,,structure_h3,,,,
-0002,10,Reservation,Việc đặt chỗ trước,,,word_with_mp3,advanced,restaurant,https://images.pexels.com/photos/697057/pexels-photo-697057.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-10-Reservation
-0002,11,Fork,Nĩa,,,word_with_mp3,advanced,restaurant,https://images.pexels.com/photos/39552/cake-fork-metal-cutlery-small-fork-39552.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-11-Fork
-0002,12,Knife - knives,Dao,,,word_with_mp3,advanced,restaurant,https://images.pexels.com/photos/8446/food-vegetables-wood-knife.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-12-Knife-knives
-0002,13,Menu,Thực đơn,,,word_with_mp3,advanced,restaurant,https://images.pexels.com/photos/313700/pexels-photo-313700.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-13-Menu
-0002,14,Check,Hóa đơn,,,word_with_mp3,advanced,restaurant,https://images.unsplash.com/photo-1507138262977-663e8efcde9d?auto=format&fit=crop&w=1053&q=80,en_0002-14-Check
+0002,10,Reservation,Việc đặt chỗ trước,I called ahead and reserved a table.,,word_with_mp3,advanced,restaurant,https://images.pexels.com/photos/697057/pexels-photo-697057.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-10-Reservation
+0002,11,Fork,Nĩa,Hold the fork with your left hand.,,word_with_mp3,advanced,restaurant,https://images.pexels.com/photos/39552/cake-fork-metal-cutlery-small-fork-39552.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-11-Fork
+0002,12,Knife - knives,Dao,Hold the knife with your right hand.,,word_with_mp3,advanced,restaurant,https://images.pexels.com/photos/8446/food-vegetables-wood-knife.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-12-Knife-knives
+0002,13,Menu,Thực đơn,I'm not sure what to order. May I look at the menu first?,,word_with_mp3,advanced,restaurant,https://images.pexels.com/photos/313700/pexels-photo-313700.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-13-Menu
+0002,14,Check,Hóa đơn,I have to go. Can you pay the check?,,word_with_mp3,advanced,restaurant,https://images.unsplash.com/photo-1507138262977-663e8efcde9d?auto=format&fit=crop&w=1053&q=80,en_0002-14-Check
 0002,15,Level: Professional,Trình độ: Cao cấp/ Chuyên nghiệp,,,structure_h3,,,,
-0002,16,Napkin,Khăn ăn,,,word_with_mp3,professional,restaurant,https://images.pexels.com/photos/210897/pexels-photo-210897.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-16-Napkin
-0002,17,Cutlery,"Bộ dụng cụ ăn (dao, nĩa, muỗng)",,,word_with_mp3,professional,restaurant,https://images.pexels.com/photos/33718/cutlery-knife-fork-spoon.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-17-Cutlery
-0002,18,Chef,Bếp trưởng,,,word_with_mp3,professional,restaurant,https://images.pexels.com/photos/33614/cooking-eat-cut-food.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-18-Chef
-0002,19,Entree,Món chính,,,word_with_mp3,professional,restaurant,https://images.pexels.com/photos/9532/food-plate-restaurant-eating.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-19-Entree
-0002,20,Appetizer,Món khai vị,,,word_with_mp3,professional,restaurant,https://images.pexels.com/photos/2666/food-restaurant-eat-snack.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-20-Appetizer
+0002,16,Napkin,Khăn ăn,"My napkin fell on the floor. May I get another one, please?",,word_with_mp3,professional,restaurant,https://images.pexels.com/photos/210897/pexels-photo-210897.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-16-Napkin
+0002,17,Cutlery,"Bộ dụng cụ ăn (dao, nĩa, muỗng)","They brought us the food, but no cutlery! We can't eat without cutlery!",,word_with_mp3,professional,restaurant,https://images.pexels.com/photos/33718/cutlery-knife-fork-spoon.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-17-Cutlery
+0002,18,Chef,Bếp trưởng,The pasta was delicious!. My compliments to the chef!,,word_with_mp3,professional,restaurant,https://images.pexels.com/photos/33614/cooking-eat-cut-food.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-18-Chef
+0002,19,Entree,Món chính,"There are so many delicious entrées on this menu, I'm not sure what to have.",,word_with_mp3,professional,restaurant,https://images.pexels.com/photos/9532/food-plate-restaurant-eating.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-19-Entree
+0002,20,Appetizer,Món khai vị,Let's order an appetizer as we wait for the main dish.,,word_with_mp3,professional,restaurant,https://images.pexels.com/photos/2666/food-restaurant-eat-snack.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0002-20-Appetizer
 0003,1,Lesson 3,Bài 3,,,structure_h1,,,,
 0003,2,Area: At the reception,Chủ đề?Khu vực: Tại quầy lễ tân,,,structure_h2,,,,
 0003,3,Level: Basic,Trình độ: Cơ bản,,,structure_h3,,,,
-0003,4,Booked,Đã đặt phòng,,,word_with_mp3,basic,reception,https://images.unsplash.com/photo-1416453072034-c8dbfa2856b5?auto=format&fit=crop&w=1058&q=80,en_0003-4-Booked
-0003,5,Room,Phòng,,,word_with_mp3,basic,reception,https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-5-Room
-0003,6,Bed,Giường,,,word_with_mp3,basic,reception,https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-6-Bed
-0003,7,Fan,Quạt,,,word_with_mp3,basic,reception,https://images.pexels.com/photos/42220/air-blade-blowing-chrome-42220.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-7-Fan
-0003,8,Shower,Vòi tắm hoa sen,,,word_with_mp3,basic,reception,https://images.pexels.com/photos/161502/shower-shower-head-water-drop-of-water-161502.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-8-Shower
+0003,4,Booked,Đã đặt phòng,"Hello, I booked a room in this hotel.",,word_with_mp3,basic,reception,https://images.unsplash.com/photo-1416453072034-c8dbfa2856b5?auto=format&fit=crop&w=1058&q=80,en_0003-4-Booked
+0003,5,Room,Phòng,"I would like a room, please.",,word_with_mp3,basic,reception,https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-5-Room
+0003,6,Bed,Giường,I would like a twin-bed room.,,word_with_mp3,basic,reception,https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-6-Bed
+0003,7,Fan,Quạt,Is there a fan in the room?,,word_with_mp3,basic,reception,https://images.pexels.com/photos/42220/air-blade-blowing-chrome-42220.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-7-Fan
+0003,8,Shower,Vòi tắm hoa sen,Is there a shower in the room?,,word_with_mp3,basic,reception,https://images.pexels.com/photos/161502/shower-shower-head-water-drop-of-water-161502.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-8-Shower
 0003,9,Level: Advanced,Trình độ: Nâng cao,,,structure_h3,,,,
-0003,10,Reservation,Việc đặt phòng trước,,,word_with_mp3,advanced,reception,https://images.pexels.com/photos/60258/pexels-photo-60258.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-10-Reservation
-0003,11,Breakfast,Bữa sáng,,,word_with_mp3,advanced,reception,https://images.pexels.com/photos/103124/pexels-photo-103124.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-11-Breakfast
-0003,12,Pillow,Gối,,,word_with_mp3,advanced,reception,https://images.pexels.com/photos/262103/pexels-photo-262103.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-12-Pillow
-0003,13,Blanket,Chăn/mền,,,word_with_mp3,advanced,reception,https://images.pexels.com/photos/57686/pexels-photo-57686.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-13-Blanket
-0003,14,Air condition,Máy điều hoa,,,word_with_mp3,advanced,reception,,
+0003,10,Reservation,Việc đặt phòng trước,I reserved a room for us yesterday.,,word_with_mp3,advanced,reception,https://images.pexels.com/photos/60258/pexels-photo-60258.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-10-Reservation
+0003,11,Breakfast,Bữa sáng,Is breakfast included in the price?,,word_with_mp3,advanced,reception,https://images.pexels.com/photos/103124/pexels-photo-103124.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-11-Breakfast
+0003,12,Pillow,Gối,I will ask for another pillow at reception. This one is too flat!,,word_with_mp3,advanced,reception,https://images.pexels.com/photos/262103/pexels-photo-262103.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-12-Pillow
+0003,13,Blanket,Chăn/mền,It's a bit chilly! I think we'll need another blanket.,,word_with_mp3,advanced,reception,https://images.pexels.com/photos/57686/pexels-photo-57686.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-13-Blanket
+0003,14,Air condition,Máy điều hoa,It's hot outside. Is there air conditioning in the room? ,,word_with_mp3,advanced,reception,https://images.unsplash.com/photo-1509187150977-254fd58ed4de?auto=format&fit=crop&w=800&q=80,
 0003,15,Level: Professional,Trình độ:Chuyên nghiệp/ cao cấp,,,structure_h3,,,,
-0003,16,Restaurant,Nhà hàng,,,word_with_mp3,professional,reception,https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-16-Restaurant
-0003,17,Wake up call,Dịch vụ đánh thức,,,word_with_mp3,professional,reception,https://images.pexels.com/photos/33999/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-17-Wake-up-call
-0003,18,Luggage,Hành lý,,,word_with_mp3,professional,reception,https://images.pexels.com/photos/160483/hiker-traveler-trip-travel-160483.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-18-Luggage
-0003,19,Storage,Chi phí cất giữ hành lý???,,,word_with_mp3,professional,reception,,
-0003,20,Bathtub,Bồn tắm,,,word_with_mp3,professional,reception,https://images.pexels.com/photos/716437/pexels-photo-716437.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-20-Bathtub
+0003,16,Restaurant,Nhà hàng,This looks like a fancy restaurant! Let's go see what they have on the menu.,,word_with_mp3,professional,reception,https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-16-Restaurant
+0003,17,Wake up call,Dịch vụ đánh thức,"I have to get up early. I would like a wake up call at 7AM, please.",,word_with_mp3,professional,reception,https://images.pexels.com/photos/33999/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-17-Wake-up-call
+0003,18,Luggage,Hành lý,I think I may have packed too much luggage for this trip. ,,word_with_mp3,professional,reception,https://images.pexels.com/photos/160483/hiker-traveler-trip-travel-160483.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-18-Luggage
+0003,19,Storage,Chi phí cất giữ hành lý???,Where is the storage in this room? I want to put my luggage away.,,word_with_mp3,professional,reception,https://images.pexels.com/photos/170453/pexels-photo-170453.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,
+0003,20,Bathtub,Bồn tắm,The bathub is very big. I think I'll enjoy a good soak tonight!,,word_with_mp3,professional,reception,https://images.pexels.com/photos/716437/pexels-photo-716437.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0003-20-Bathtub
 0004,1,Lesson 4,Bài 4,,,structure_h1,,,,
 0004,2,Area: At the bar,Khu vực: Quán bar,,,structure_h2,,,,
 0004,3,Level: Basic,Trình độ: Cơ bản,,,structure_h3,,,,
-0004,4,Beer,Bia,,,word_with_mp3,basic,bar,https://images.pexels.com/photos/681847/pexels-photo-681847.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-4-Beer
-0004,5,Wine,Rượu,,,word_with_mp3,basic,bar,https://images.pexels.com/photos/66636/pexels-photo-66636.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-5-Wine
-0004,6,Glass,Ly,,,word_with_mp3,basic,bar,https://images.pexels.com/photos/85406/empty-glass-drink-85406.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-6-Glass
-0004,7,Bottle,Chai,,,word_with_mp3,basic,bar,https://images.pexels.com/photos/292426/pexels-photo-292426.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-7-Bottle
-0004,8,Drink,Thức uống/ Uống,,,word_with_mp3,basic,bar,https://images.pexels.com/photos/109275/pexels-photo-109275.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-8-Drink
+0004,4,Beer,Bia,"I would like a beer, please.",,word_with_mp3,basic,bar,https://images.pexels.com/photos/681847/pexels-photo-681847.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-4-Beer
+0004,5,Wine,Rượu,I'd love a glass of red wine.,,word_with_mp3,basic,bar,https://images.pexels.com/photos/66636/pexels-photo-66636.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-5-Wine
+0004,6,Glass,Ly,May I have a glass of water?,,word_with_mp3,basic,bar,https://images.pexels.com/photos/85406/empty-glass-drink-85406.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-6-Glass
+0004,7,Bottle,Chai,A glass? Bring me the whole bottle!,,word_with_mp3,basic,bar,https://images.pexels.com/photos/292426/pexels-photo-292426.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-7-Bottle
+0004,8,Drink,Thức uống/ Uống,Let's go out and have a drink.,,word_with_mp3,basic,bar,https://images.pexels.com/photos/109275/pexels-photo-109275.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-8-Drink
 0004,9,Level: Advanced,Trình độ: Nâng cao,,,structure_h3,,,,
-0004,10,Draft,????,,,word_with_mp3,advanced,bar,,
-0004,11,Open a tab,Thanh toán một lần,,,word_with_mp3,advanced,bar,https://images.pexels.com/photos/164686/pexels-photo-164686.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-11-Open-a-tab
-0004,12,Restroom,Nhà vệ sinh,,,word_with_mp3,advanced,bar,https://images.pexels.com/photos/280209/pexels-photo-280209.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-12-Restroom
-0004,13,Peanuts,Đậu phộng,,,word_with_mp3,advanced,bar,https://images.pexels.com/photos/39345/peanut-food-nuts-39345.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-13-Peanuts
-0004,14,House special,Món đặc biệt/ đặc trưng của quán,,,word_with_mp3,advanced,bar,https://images.pexels.com/photos/54455/cook-food-kitchen-eat-54455.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-14-House-special
+0004,10,Draft,????,I'd like a draft beer. I don't like imported beers.,,word_with_mp3,advanced,bar,https://images.pexels.com/photos/459280/pexels-photo-459280.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,
+0004,11,Open a tab,Thanh toán một lần,We'll be here for a while. I better open a tab.,,word_with_mp3,advanced,bar,https://images.pexels.com/photos/164686/pexels-photo-164686.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-11-Open-a-tab
+0004,12,Restroom,Nhà vệ sinh,Where is the restroom?,,word_with_mp3,advanced,bar,https://images.pexels.com/photos/280209/pexels-photo-280209.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-12-Restroom
+0004,13,Peanuts,Đậu phộng,They brought us peanuts with the drink.,,word_with_mp3,advanced,bar,https://images.pexels.com/photos/39345/peanut-food-nuts-39345.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-13-Peanuts
+0004,14,House special,Món đặc biệt/ đặc trưng của quán,"Excuse me, can you tell me what the house special is?",,word_with_mp3,advanced,bar,https://images.pexels.com/photos/54455/cook-food-kitchen-eat-54455.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-14-House-special
 0004,15,Level: Professional,Trình độ: chuyên nghiệp,,,structure_h3,,,,
-0004,16,Champagne / Sparkling wine,Rượu sâm-panh/ Rượu vang sủi,,,word_with_mp3,professional,bar,https://images.pexels.com/photos/170366/pexels-photo-170366.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-16-Champagne-Sparkling-wine
-0004,17,Cocktail,Cốc-tai,,,word_with_mp3,professional,bar,https://images.pexels.com/photos/605408/pexels-photo-605408.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-17-Cocktail
-0004,18,Mixology,Pha chế chuyên nghiệp,,,word_with_mp3,professional,bar,https://images.pexels.com/photos/274131/pexels-photo-274131.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-18-Mixology
-0004,19,Imported beer,Bia nhập khẩu,,,word_with_mp3,professional,bar,https://images.pexels.com/photos/8859/drink-beer.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-19-Imported-beer
-0004,20,Happy hour,Giờ vàng giảm giá,,,word_with_mp3,professional,bar,https://images.pexels.com/photos/613037/pexels-photo-613037.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-20-Happy-hour
+0004,16,Champagne / Sparkling wine,Rượu sâm-panh/ Rượu vang sủi,This calls for a celebration! Champagne for everyone!,,word_with_mp3,professional,bar,https://images.pexels.com/photos/170366/pexels-photo-170366.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-16-Champagne-Sparkling-wine
+0004,17,Cocktail,Cốc-tai,Let's go to a cocktail bar tonight. We'll have a great time.,,word_with_mp3,professional,bar,https://images.pexels.com/photos/605408/pexels-photo-605408.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-17-Cocktail
+0004,18,Mixology,Pha chế chuyên nghiệp,I love to watch the bartender mix the drinks. He is a great mixologist!,,word_with_mp3,professional,bar,https://images.pexels.com/photos/274131/pexels-photo-274131.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-18-Mixology
+0004,19,Imported beer,Bia nhập khẩu,Heineken is one of my favourite imported beers.,,word_with_mp3,professional,bar,https://images.pexels.com/photos/8859/drink-beer.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-19-Imported-beer
+0004,20,Happy hour,Giờ vàng giảm giá,There is a happy hour in this bar tonight. 20% off on all drinks!,,word_with_mp3,professional,bar,https://images.pexels.com/photos/613037/pexels-photo-613037.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0004-20-Happy-hour
 0005,1,Lesson 5,Bài 5,,,structure_h1,,,,
 0005,2,Area: At the doctor,Khu vực: Phòng khám,,,structure_h2,,,,
 0005,3,Level: Basic,Trình độ: Cơ bản,,,structure_h3,,,,
-0005,4,Hurts,Đau,,,word_with_mp3,basic,doctor,https://images.pexels.com/photos/128597/pexels-photo-128597.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-4-Hurts
-0005,5,Sick,Ốm,,,word_with_mp3,basic,doctor,https://images.pexels.com/photos/41284/allergy-cold-disease-flu-41284.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-5-Sick
-0005,6,Blood,Máu,,,word_with_mp3,basic,doctor,https://images.pexels.com/photos/673862/pexels-photo-673862.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-6-Blood
-0005,7,Hot,Nóng,,,word_with_mp3,basic,doctor,https://images.pexels.com/photos/1749/fire-orange-emergency-burning.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-7-Hot
-0005,8,Drug,Thuốc,,,word_with_mp3,basic,doctor,https://images.pexels.com/photos/208512/pexels-photo-208512.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-8-Drug
+0005,4,Hurts,Đau,My head hurts.,,word_with_mp3,basic,doctor,https://images.pexels.com/photos/128597/pexels-photo-128597.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-4-Hurts
+0005,5,Sick,Ốm,I don't feel well. I feel sick.,,word_with_mp3,basic,doctor,https://images.pexels.com/photos/41284/allergy-cold-disease-flu-41284.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-5-Sick
+0005,6,Blood,Máu,My blood group is A positive.,,word_with_mp3,basic,doctor,https://images.pexels.com/photos/673862/pexels-photo-673862.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-6-Blood
+0005,7,Hot,Nóng,I have a fever. I'm very hot.,,word_with_mp3,basic,doctor,https://images.pexels.com/photos/1749/fire-orange-emergency-burning.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-7-Hot
+0005,8,Drug,Thuốc,Where is the nearest drug store?,,word_with_mp3,basic,doctor,https://images.pexels.com/photos/208512/pexels-photo-208512.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-8-Drug
 0005,9,Level: Advanced,Trình độ: Nâng cao,,,structure_h3,,,,
-0005,10,Ache - Head ache,Đau- Đau đầu,,,word_with_mp3,advanced,doctor,https://images.pexels.com/photos/41253/ache-adult-depression-expression-41253.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-10-Ache-Head-ache
-0005,11,Sore - Sore throat,Đau( nghiêm trọng hơn)- Đau họng,,,word_with_mp3,advanced,doctor,https://images.pexels.com/photos/682501/pexels-photo-682501.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-11-Sore-Sore-throat
-0005,12,Medicine,Thuốc,,,word_with_mp3,advanced,doctor,https://images.pexels.com/photos/415825/pexels-photo-415825.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-12-Medicine
-0005,13,Throw up,Nôn/ói,,,word_with_mp3,advanced,doctor,https://images.pexels.com/photos/36479/man-stress-male-face.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-13-Throw-up
-0005,14,Fever,Sốt,,,word_with_mp3,advanced,doctor,https://images.pexels.com/photos/34670/thermometer-temperature-fever-flu.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-14-Fever
+0005,10,Ache - Head ache,Đau- Đau đầu,This headache is making it difficult to focus.,,word_with_mp3,advanced,doctor,https://images.pexels.com/photos/41253/ache-adult-depression-expression-41253.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-10-Ache-Head-ache
+0005,11,Sore - Sore throat,Đau( nghiêm trọng hơn)- Đau họng,I have a sore throat. I better make myself a cup of tea.,,word_with_mp3,advanced,doctor,https://images.pexels.com/photos/682501/pexels-photo-682501.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-11-Sore-Sore-throat
+0005,12,Medicine,Thuốc,Do we have any flu medicine?,,word_with_mp3,advanced,doctor,https://images.pexels.com/photos/415825/pexels-photo-415825.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-12-Medicine
+0005,13,Throw up,Nôn/ói,I don't feel well. I think I'm going to throw up.,,word_with_mp3,advanced,doctor,https://images.pexels.com/photos/36479/man-stress-male-face.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-13-Throw-up
+0005,14,Fever,Sốt,I think I have a fever. I should check my temperature.,,word_with_mp3,advanced,doctor,https://images.pexels.com/photos/34670/thermometer-temperature-fever-flu.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-14-Fever
 0005,15,Level: Professional,Trình độ: chuyên nghiệp,,,structure_h3,,,,
-0005,16,Appointment,Buổi hẹn khám,,,word_with_mp3,professional,doctor,https://images.pexels.com/photos/260759/pexels-photo-260759.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-16-Appointment
-0005,17,Diarrhea,Bệnh tiêu chảy,,,word_with_mp3,professional,doctor,https://images.pexels.com/photos/164492/pexels-photo-164492.jpeg?h=350&auto=compress&cs=tinysrgb,en_0005-17-Diarrhea
-0005,18,Nausea,Sự buồn nôn,,,word_with_mp3,professional,doctor,https://images.pexels.com/photos/23591/woman-street-friends-fun-23591.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-18-Nausea
-0005,19,Vomit,Nôn/ nhả,,,word_with_mp3,professional,doctor,https://images.pexels.com/photos/339353/blonde-towel-portrait-glamour-339353.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-19-Vomit
-0005,20,Prescription,Toa thuốc,,,word_with_mp3,professional,doctor,https://images.pexels.com/photos/163944/pexels-photo-163944.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-20-Prescription
+0005,16,Appointment,Buổi hẹn khám,You have to make an appointment before going to the doctor.,,word_with_mp3,professional,doctor,https://images.pexels.com/photos/260759/pexels-photo-260759.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-16-Appointment
+0005,17,Diarrhea,Bệnh tiêu chảy,Diarrhea can cause dehydration. Make sure you drink plenty of water.,,word_with_mp3,professional,doctor,https://images.pexels.com/photos/164492/pexels-photo-164492.jpeg?h=350&auto=compress&cs=tinysrgb,en_0005-17-Diarrhea
+0005,18,Nausea,Sự buồn nôn,I have been feeling nauseous the entire day today. I better visit the doctor.,,word_with_mp3,professional,doctor,https://images.pexels.com/photos/23591/woman-street-friends-fun-23591.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-18-Nausea
+0005,19,Vomit,Nôn/ nhả,The sickly stench of my neighbors cooking made me want to vomit.,,word_with_mp3,professional,doctor,https://images.pexels.com/photos/339353/blonde-towel-portrait-glamour-339353.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-19-Vomit
+0005,20,Prescription,Toa thuốc,I just got back from the pharmacy. My doctor gave me a prescription for heartburn.,,word_with_mp3,professional,doctor,https://images.pexels.com/photos/163944/pexels-photo-163944.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0005-20-Prescription
 0006,1,Lesson 6,Bài 6,,,structure_h1,,,,
 0006,2,Area: In the pharmacy,Khu vực: Nhà thuốc,,,structure_h2,,,,
 0006,3,Level: Basic,Trình độ: Cơ bản,,,structure_h3,,,,
-0006,4,Pain,Cơn đau,,,word_with_mp3,basic,pharmacy,https://images.pexels.com/photos/34667/person-human-male-man.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0006-4-Pain
-0006,5,Pill,Viên thuốc,,,word_with_mp3,basic,pharmacy,https://images.pexels.com/photos/576831/pexels-photo-576831.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0006-5-Pill
-0006,6,Patch,Miếng băng/gạc,,,word_with_mp3,basic,pharmacy,https://www.stockvault.net/data/2013/01/11/140143/preview16.jpg,en_0006-6-Patch
-0006,7,Cut,Cắt/ Vết cắt,,,word_with_mp3,basic,pharmacy,https://images.pexels.com/photos/271402/pexels-photo-271402.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0006-7-Cut
-0006,8,Rash,"Chứng phát ban/ Vùng da nổi ban, mụn",,,word_with_mp3,basic,pharmacy,https://www.stockvault.net/data/2016/04/07/192475/preview16.jpg,en_0006-8-Rash
+0006,4,Pain,Cơn đau,I feel a sharp pain in my chest.,,word_with_mp3,basic,pharmacy,https://images.pexels.com/photos/34667/person-human-male-man.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0006-4-Pain
+0006,5,Pill,Viên thuốc,I need some headache pills.,,word_with_mp3,basic,pharmacy,https://images.pexels.com/photos/576831/pexels-photo-576831.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0006-5-Pill
+0006,6,Patch,Miếng băng/gạc,I need a patch in case I cut myself.,,word_with_mp3,basic,pharmacy,https://www.stockvault.net/data/2013/01/11/140143/preview16.jpg,en_0006-6-Patch
+0006,7,Cut,Cắt/ Vết cắt,I cut myself while chopping onions.,,word_with_mp3,basic,pharmacy,https://images.pexels.com/photos/271402/pexels-photo-271402.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0006-7-Cut
+0006,8,Rash,"Chứng phát ban/ Vùng da nổi ban, mụn",I need a cream for this rash.,,word_with_mp3,basic,pharmacy,https://www.stockvault.net/data/2016/04/07/192475/preview16.jpg,en_0006-8-Rash
 0006,9,Level: Advanced,Trình độ: Nâng cao,,,structure_h3,,,,
-0006,10,Headache pill,Thuốc đau đầu,,,word_with_mp3,advanced,pharmacy,https://images.pexels.com/photos/415804/pexels-photo-415804.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0006-10-Headache-pill
-0006,11,Sunscreen,Kem chống nắng,,,word_with_mp3,advanced,pharmacy,https://images.pexels.com/photos/161608/sunblock-skincare-healthy-skin-heart-161608.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0006-11-Sunscreen
-0006,12,Band-aid,Băng keo cá nhân,,,word_with_mp3,advanced,pharmacy,https://www.stockvault.net/data/2013/01/11/140141/preview16.jpg,en_0006-12-Band-aid
-0006,13,Condom,Bao cao su,,,word_with_mp3,advanced,pharmacy,https://www.stockvault.net/data/2012/10/22/136655/preview16.jpg,en_0006-13-Condom
-0006,14,Wound,Vết thương,,,word_with_mp3,advanced,pharmacy,https://www.stockvault.net/data/2007/03/01/99218/thumb16.jpg,en_0006-14-Wound
+0006,10,Headache pill,Thuốc đau đầu,I need a headache pill for this pulsing headache.,,word_with_mp3,advanced,pharmacy,https://images.pexels.com/photos/415804/pexels-photo-415804.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0006-10-Headache-pill
+0006,11,Sunscreen,Kem chống nắng,Summer is just around the corner. I better get some sunscreen.,,word_with_mp3,advanced,pharmacy,https://images.pexels.com/photos/161608/sunblock-skincare-healthy-skin-heart-161608.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0006-11-Sunscreen
+0006,12,Band-aid,Băng keo cá nhân,I need a band-aid for this cut. It's nothing too sever though.,,word_with_mp3,advanced,pharmacy,https://www.stockvault.net/data/2013/01/11/140141/preview16.jpg,en_0006-12-Band-aid
+0006,13,Condom,Bao cao su,I should buy some new condoms. The ones in my wallet expired long ago.,,word_with_mp3,advanced,pharmacy,https://www.stockvault.net/data/2012/10/22/136655/preview16.jpg,en_0006-13-Condom
+0006,14,Wound,Vết thương,It's going to take more than a band-aid to cover that wound.,,word_with_mp3,advanced,pharmacy,https://www.stockvault.net/data/2007/03/01/99218/thumb16.jpg,en_0006-14-Wound
 0006,15,Level: Professional,Trình độ: chuyên nghiệp,,,structure_h3,,,,
-0006,16,Morning-after pill,Thuốc tránh thai khẩn cấp,,,word_with_mp3,professional,pharmacy,https://images.pexels.com/photos/54289/pexels-photo-54289.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0006-16-Morning-after-pill
-0006,17,Pregnancy test,Que thử thai,,,word_with_mp3,professional,pharmacy,https://www.stockvault.net/data/2012/05/19/131027/preview16.jpg,en_0006-17-Pregnancy-test
-0006,18,Prescription,Toa thuốc,,,word_with_mp3,professional,pharmacy,https://www.stockvault.net/data/2011/10/28/127705/preview16.jpg,en_0006-18-Prescription
-0006,19,(clinical) Thermometer,Nhiệt kế,,,word_with_mp3,professional,pharmacy,https://www.stockvault.net/data/2013/12/01/151402/preview16.jpg,en_0006-19--clinical-Thermometer
-0006,20,Lesion,Thương tổn,,,word_with_mp3,professional,pharmacy,https://cdn.pixabay.com/photo/2014/10/05/02/13/hand-474278_1280.jpg,en_0006-20-Lesion
+0006,16,Morning-after pill,Thuốc tránh thai khẩn cấp,My cousin forgot to take the morning-after pill and she got pregnant.,,word_with_mp3,professional,pharmacy,https://images.pexels.com/photos/54289/pexels-photo-54289.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0006-16-Morning-after-pill
+0006,17,Pregnancy test,Que thử thai,You can get a pregnancy test at any pharmacy. But they aren't always 100% accurate.,,word_with_mp3,professional,pharmacy,https://www.stockvault.net/data/2012/05/19/131027/preview16.jpg,en_0006-17-Pregnancy-test
+0006,18,Prescription,Toa thuốc,I just got back from the pharmacy. They didn't want to give me the medicine without a prescription.,,word_with_mp3,professional,pharmacy,https://www.stockvault.net/data/2011/10/28/127705/preview16.jpg,en_0006-18-Prescription
+0006,19,(clinical) Thermometer,Nhiệt kế,This is a rectal thermometer. Make sure you use it correctly every time!,,word_with_mp3,professional,pharmacy,https://www.stockvault.net/data/2013/12/01/151402/preview16.jpg,en_0006-19--clinical-Thermometer
+0006,20,Lesion,Thương tổn,"I thought I had a lesion on my back, but the doctor said it was just a mole.",,word_with_mp3,professional,pharmacy,https://cdn.pixabay.com/photo/2014/10/05/02/13/hand-474278_1280.jpg,en_0006-20-Lesion
 0007,1,Lesson 7,Bài 7,,,structure_h1,,,,
 0007,2,Area: At the laundry,Khu vực: Tiệm giặt ủi,,,structure_h2,,,,
 0007,3,Level: Basic,Trình độ: Cơ bản,,,structure_h3,,,,
-0007,4,Soap,Xà phòng,,,word_with_mp3,basic,laundry,https://images.pexels.com/photos/206285/pexels-photo-206285.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-4-Soap
-0007,5,Peg,Kẹp quần áo/ Móc treo,,,word_with_mp3,basic,laundry,https://images.pexels.com/photos/366/wooden-laundry-washing-clothes-line.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-5-Peg
-0007,6,Press,Là/ủi,,,word_with_mp3,basic,laundry, ,
-0007,7,Sheets,Khăn trải giường/ chăn,,,word_with_mp3,basic,laundry,https://images.pexels.com/photos/212269/pexels-photo-212269.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-7-Sheets
-0007,8,Pants,Quần,,,word_with_mp3,basic,laundry,https://images.pexels.com/photos/53528/belly-body-clothes-diet-53528.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-8-Pants
+0007,4,Soap,Xà phòng,People used to do laundry with soap.,,word_with_mp3,basic,laundry,https://images.pexels.com/photos/206285/pexels-photo-206285.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-4-Soap
+0007,5,Peg,Kẹp quần áo/ Móc treo,You can't hang the laundry without pegs.,,word_with_mp3,basic,laundry,https://images.pexels.com/photos/366/wooden-laundry-washing-clothes-line.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-5-Peg
+0007,6,Press,Là/ủi,Most laundry places have a press.,,word_with_mp3,basic,laundry, ,
+0007,7,Sheets,Khăn trải giường/ chăn,I wash my sheets every week.,,word_with_mp3,basic,laundry,https://images.pexels.com/photos/212269/pexels-photo-212269.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-7-Sheets
+0007,8,Pants,Quần,My pants leak dye so I wash them in cold water.,,word_with_mp3,basic,laundry,https://images.pexels.com/photos/53528/belly-body-clothes-diet-53528.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-8-Pants
 0007,9,Level: Advanced,Trình độ: Nâng cao,,,structure_h3,,,,
-0007,10,Delicates,Quần lót nữ,,,word_with_mp3,advanced,laundry,https://images.pexels.com/photos/9445/clothes-sweater-colors-wardrobe.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-10-Delicates
-0007,11,Dry-cleaner,Máy giặt khô,,,word_with_mp3,advanced,laundry,https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-11-Dry-cleaner
-0007,12,Iron,Ủi,,,word_with_mp3,advanced,laundry,https://images.pexels.com/photos/53422/ironing-iron-press-clothing-53422.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-12-Iron
-0007,13,Towel,Khăn,,,word_with_mp3,advanced,laundry,https://images.pexels.com/photos/45980/pexels-photo-45980.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-13-Towel
-0007,14,Hot / cold / hand wash,Giặt với nước nóng/lạnh/ giặt tay,,,word_with_mp3,advanced,laundry,https://images.pexels.com/photos/257279/pexels-photo-257279.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-14-Hot-cold-hand-wash
+0007,10,Delicates,Quần lót nữ,Sweaters should be put on the delicates washing cycle.,,word_with_mp3,advanced,laundry,https://images.pexels.com/photos/9445/clothes-sweater-colors-wardrobe.jpg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-10-Delicates
+0007,11,Dry-cleaner,Máy giặt khô,"My suit has a label which says ""dry-clean only.""",,word_with_mp3,advanced,laundry,https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-11-Dry-cleaner
+0007,12,Iron,Ủi,I like to iron my underwear. Don't ask me why.,,word_with_mp3,advanced,laundry,https://images.pexels.com/photos/53422/ironing-iron-press-clothing-53422.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-12-Iron
+0007,13,Towel,Khăn,Towels should be washed in warm water.,,word_with_mp3,advanced,laundry,https://images.pexels.com/photos/45980/pexels-photo-45980.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-13-Towel
+0007,14,Hot / cold / hand wash,Giặt với nước nóng/lạnh/ giặt tay,Dirty clothes should be washed at a hot temperature.,,word_with_mp3,advanced,laundry,https://images.unsplash.com/photo-1510551310160-589462daf284?auto=format&fit=crop&w=1049&q=80,en_0007-14-Hot-cold-hand-wash
 0007,15,Level: Professional,Trình độ: chuyên nghiệp,,,structure_h3,,,,
-0007,16,Fabric softener,Chất làm mềm vải,,,word_with_mp3,professional,laundry,"https://thumb7.shutterstock.com/mosaic_250/367204/367204,1249588936,1/stock-photo-flow-out-of-the-gel-for-toilet-bowl-washing-34854763.jpg",en_0007-16-Fabric-softener
-0007,17,Detergent,Thuốc tẩy,,,word_with_mp3,professional,laundry,https://images.pexels.com/photos/216794/pexels-photo-216794.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-17-Detergent
-0007,18,Clothesline,Dây phơi quần áo,,,word_with_mp3,professional,laundry,https://images.pexels.com/photos/510436/pexels-photo-510436.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-18-Clothesline
-0007,19,Folding,Việc gấp quần áo,,,word_with_mp3,professional,laundry,https://images.pexels.com/photos/581087/pexels-photo-581087.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-19-Folding
+0007,16,Fabric softener,Chất làm mềm vải,"If you want your clothes to smell really nice, use a fabric softener with a pleasant scent.",,word_with_mp3,professional,laundry,"https://thumb7.shutterstock.com/mosaic_250/367204/367204,1249588936,1/stock-photo-flow-out-of-the-gel-for-toilet-bowl-washing-34854763.jpg",en_0007-16-Fabric-softener
+0007,17,Detergent,Thuốc tẩy,I started using a new detergent. It does a much better job than my old one!,,word_with_mp3,professional,laundry,https://images.pexels.com/photos/216794/pexels-photo-216794.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-17-Detergent
+0007,18,Clothesline,Dây phơi quần áo,My clothesline broke and all my clothes got dirty.,,word_with_mp3,professional,laundry,https://images.pexels.com/photos/510436/pexels-photo-510436.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-18-Clothesline
+0007,19,Folding,Việc gấp quần áo,My son never folds his clothes. He just throws them in his closet.,,word_with_mp3,professional,laundry,https://images.pexels.com/photos/581087/pexels-photo-581087.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-19-Folding
 0007,20,By weight,Cân kí để thanh toán,,,word_with_mp3,professional,laundry,https://images.pexels.com/photos/50634/pexels-photo-50634.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0007-20-By-weight
 0008,1,Lesson 1,,,,structure_h1,,,,
 0008,2,Area: In the supermarket,,,,structure_h2,,,,
 0008,3,Level: Basic,,,,structure_h3,,,,
 0008,4,line,từ,The line starts here.,chưa có câu với từ đó,word_with_mp3,basic,supermarket,https://images.unsplash.com/photo-1461411250718-4b4a5c0b270a?auto=format&fit=crop&w=1037&q=80,en_0008-4-The-line-starts-here-
-0008,5,makes,từ,That makes 12$ and 50Cts.,chưa có câu với từ đó,word_with_mp3,basic,supermarket,https://images.pexels.com/photos/332304/money-euro-coins-currency-332304.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0008-5-That-makes-12-and-50Cts-
+0008,5,makes,từ,That makes 12 dollars and 50 cents.,chưa có câu với từ đó,word_with_mp3,basic,supermarket,https://images.pexels.com/photos/332304/money-euro-coins-currency-332304.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0008-5-That-makes-12-dollars-and-50-cents-
 0008,6,cash,từ,Cash or credit card?,chưa có câu với từ đó,word_with_mp3,basic,supermarket,https://images.pexels.com/photos/545065/pexels-photo-545065.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0008-6-Cash-or-credit-card-
 0008,7,basket,từ,Put the items in the basket.,chưa có câu với từ đó,word_with_mp3,basic,supermarket,https://cdn.pixabay.com/photo/2013/07/13/10/10/basket-156678_1280.png,en_0008-7-Put-the-items-in-the-basket-
 0008,8,milk,từ,Where is the milk?,chưa có câu với từ đó,word_with_mp3,basic,supermarket,https://images.pexels.com/photos/248412/pexels-photo-248412.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb,en_0008-8-Where-is-the-milk-

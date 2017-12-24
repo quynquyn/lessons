@@ -6372,3 +6372,6 @@ section.el-lesson h2 {
   font-size: 110%; }
 section.el-lesson h3 {
   font-size: 110%; }
+section.el-lesson blockquote {
+  padding-left: 20px;
+  border-left: 4px solid #DDD; }

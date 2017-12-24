@@ -1,0 +1,41 @@
+---
+layout: englishletics_bot
+---
+
+    <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <a class="navbar-brand" href="#">EnglishLetics</a>
+
+
+      <span class="navbar-text">
+        <a class="nav-link" href="/daily/pages/offers/businessenglish.html">English for<br/><strong>Business</strong></a>
+      </span>
+    </nav>
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+
+          <div class="row">
+            <div class="col-12">
+              <audio src="{{ page.audiofile }}" id="audio_primary123" preload="none"></audio>
+
+              <div class="row">
+                <div class="col-1">
+                  <strong class="" id="play_primary123" onclick="play('primary123', 'dialogue', 'dialoguename');">▶</strong>
+                </div>
+              </div>
+          </div>
+                
+          <div class="row">
+            <div class="col-12 el-text-content">
+                {{ content }}
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div> <!-- /container -->
+    
+    
