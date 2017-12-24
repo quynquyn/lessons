@@ -41,5 +41,11 @@ section.el-lesson {
 	blockquote {
 		padding-left: 20px;
 		border-left: 4px solid #DDD;
+		font-weight: 800;
+		em {
+			padding-left: 20px;
+			color: #666;
+			font-weight: 400;
+		}
 	}
 }

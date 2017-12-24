@@ -13,35 +13,35 @@ Let's start with the generic greetings that you can use everywhere.
 
 or
 
-> Ich grüße Sie!
-> Seien Sie gegrüßt!
+> Ich grüße Sie! *(I greet you)*  
+> Seien Sie gegrüßt! *(Be greeted)*  
 
 or just
 
-> Hallo!
+> Hallo! *(Hello)*
 
 Depending on the time of the day you have different greetings, like that:
 
-> Guten morgen!  
-> Guten Tag!  
-> Guten Abend!  
+> Guten morgen!  *(Good morning)*  
+> Guten Tag!  *(Good day)*  
+> Guten Abend!  *(Good evening)*  
 
 Let's assume you are in Bayern, Hessen, or Baden-Württemberg. Everyone will greet you with:
 
-> Grüß Gott!  
-> Servus!  
+> Grüß Gott!  *(Greet god)*  
+> Servus!  *(something like: I be at your service)*  
 
 In the north of Germany people will say this:
 
-> Moin!  
-> Moin Moin!  
+> Moin!  *(Something like: good morning, good day, and good everning)*  
+> Moin Moin!  *(Something like: good morning, good day, and good everning)*    
 
 On the more informal side, people use these:
 
-> Hi!  
-> Na du?  
-> Hey!   
-> Ahoi!  
+> Hi!  *(Same as English: Hi)*  
+> Na du?  *(Like: hey, how are you?)*  
+> Hey!   *(From English: Hey)*  
+> Ahoi!  *(Sailors use this)*  
 
  
 
