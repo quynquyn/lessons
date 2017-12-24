@@ -5,11 +5,11 @@ audiofile: https://englishletics.s3.amazonaws.com/audio/dialogue_greetings_01.mp
 
 # Greeting somebody
 
-In German you can greet someone in many ways. Normally it depends on where come from. A Bavarian will greet someone differently than some from Hamburg or Berlin. Here we will cover generic greetings and then location-specific ones.
+In German you can greet someone in many ways. Normally it depends on where come from. A Bavarian will greet someone differently than someone from Hamburg or Berlin. Here we will cover generic greetings and then location-specific ones.
 
 Let's start with the generic greetings that you can use everywhere.
 
-> Guten Tag!
+> Guten Tag!  *(Good day)*   
 
 or
 
@@ -36,7 +36,7 @@ In the north of Germany people will say this:
 > Moin!  *(Something like: good morning, good day, and good everning)*  
 > Moin Moin!  *(Something like: good morning, good day, and good everning)*    
 
-On the more informal side, people use these:
+On the informal side, people use these:
 
 > Hi!  *(Same as English: Hi)*  
 > Na du?  *(Like: hey, how are you?)*  
