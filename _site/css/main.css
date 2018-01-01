@@ -6380,3 +6380,5 @@ section.el-lesson blockquote {
     padding-left: 20px;
     color: #666;
     font-weight: 400; }
+section.el-lesson table {
+  width: 100%; }
