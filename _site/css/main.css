@@ -6369,16 +6369,21 @@ nav.el-offer-bar {
 section.el-lesson h1 {
   font-size: 140%; }
 section.el-lesson h2 {
+  margin-top: 40px;
   font-size: 110%; }
 section.el-lesson h3 {
+  margin-top: 40px;
   font-size: 110%; }
 section.el-lesson blockquote {
   padding-left: 20px;
-  border-left: 4px solid #DDD;
-  font-weight: 800; }
-  section.el-lesson blockquote em {
+  border-left: 4px solid #DDD; }
+section.el-lesson blockquote, section.el-lesson li {
+  font-weight: 400; }
+  section.el-lesson blockquote em, section.el-lesson li em {
     padding-left: 20px;
     color: #666;
     font-weight: 400; }
+  section.el-lesson blockquote strong, section.el-lesson li strong {
+    font-weight: 800; }
 section.el-lesson table {
   width: 100%; }

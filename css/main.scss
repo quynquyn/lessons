@@ -33,20 +33,29 @@ section.el-lesson {
 		font-size: 140%;
 	}
 	h2 {
+		margin-top: 40px;
 		font-size: 110%;
 	}
 	h3 {
+		margin-top: 40px;
 		font-size: 110%;
 	}
 	blockquote {
 		padding-left: 20px;
 		border-left: 4px solid #DDD;
-		font-weight: 800;
+	}
+	blockquote, li {
+		font-weight: 400;
+		
 		em {
 			padding-left: 20px;
 			color: #666;
 			font-weight: 400;
 		}
+		strong {
+			font-weight: 800;
+		}
+		
 	}
 	table {
 		width: 100%;
