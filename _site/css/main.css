@@ -6363,6 +6363,8 @@ nav.el-offer-bar {
   nav.el-offer-bar .nav-link {
     color: white;
     padding: 0; }
+  nav.el-offer-bar .offer {
+    display: none; }
   nav.el-offer-bar .navbar-brand, nav.el-offer-bar .nav-link {
     font-size: 80%; }
 
