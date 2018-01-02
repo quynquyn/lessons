@@ -6370,10 +6370,13 @@ section.el-lesson h1 {
   font-size: 140%; }
 section.el-lesson h2 {
   margin-top: 40px;
-  font-size: 110%; }
+  font-size: 130%;
+  border-bottom: 2px solid #DDD;
+  margin-bottom: 15px; }
 section.el-lesson h3 {
-  margin-top: 40px;
-  font-size: 110%; }
+  margin-top: 50px;
+  font-size: 120%;
+  margin-bottom: 15px; }
 section.el-lesson blockquote {
   padding-left: 20px;
   border-left: 4px solid #DDD; }

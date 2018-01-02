@@ -42,6 +42,30 @@
                 document.getElementById('play_'+ audio_id).innerHTML = '▶';
             }
         }
+        function playat(audio_id, start, stop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = start;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
     </script>
         
         

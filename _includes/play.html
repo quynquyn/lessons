@@ -1,1 +1,4 @@
-<strong class="" id="" onclick="play('primary123', 'dialogue', 'dialoguename');">▶ {{ include.testvar }}</strong> 
+<strong class="" id="playat_{{ include.identifier }}" 
+  onclick="playat('{{ include.identifier }}', 
+    {{ include.start }}, {{ include.stop }}, 
+    '{{ include.lesson }}', '{{ include.identifier }}');">▶</strong>
