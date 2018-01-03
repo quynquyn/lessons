@@ -1,5 +1,5 @@
 ---
-layout: dialogue
+layout: lesson
 audiofile: https://englishletics.s3.amazonaws.com/audio/dialogue_greetings_01.mp3
 ---
 
