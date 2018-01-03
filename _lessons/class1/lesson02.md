@@ -3,11 +3,11 @@ layout: lesson
 ---
 
 
-# Lesson 1.2: Verb
+# Lesson 2: Verb
 
 ## Vocabulary
 
-{% include player.html identifier="vocab-Dialogue" lesson="C1L01" file="C1L02-Verbs.mp3" %}
+{% include player.html identifier="vocab-Verbs" lesson="C1L02" file="C1L02-Verbs.mp3" %}
 
 ### Eyes
 {% include image.html class=1 lesson="02" name="Eyes1_Grid" %}
@@ -54,7 +54,7 @@ layout: lesson
 ## Dialogue
 
 
-{% include player.html identifier="vocab-Dialogue" lesson="C1L01" file="C1L02-Native-Dialogue.mp3" %}
+{% include player.html identifier="vocab-Dialogue" lesson="C1L02" file="C1L02-Native-Dialogue.mp3" %}
 
 ### A1.- I chase a dog
 

@@ -2,7 +2,7 @@
 layout: lesson
 ---
 
-# Lesson 2.2: What I hate 
+# Lesson 2: What I hate 
 
 
 ## Vocabulary
