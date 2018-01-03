@@ -624,11 +624,11 @@ FILE 1
 
 1. **Playing football/ ping-pong/ badminton/ games/cards/chess **
 
-**(**Đá banh/ bóng bàn/ cầu lông/ chơi game/ đánh bài/ chơi cờ)
+**(**Đá banh / bóng bàn/ cầu lông / chơi game / đánh bài / chơi cờ)
 
 2. **Doing aerobics / yoga**
 
-**	(**aerobic/ yoga)
+**	(**aerobic / yoga)
 
 3. **Working out at the gym**
 
@@ -636,7 +636,7 @@ FILE 1
 
 4. **Going swimming/ shopping/ fishing/ jogging/ rollerblading/ roller skating/ skateboarding **
 
-**	**(Bơi/ mua sắm/ câu cá/ đi bộ nhanh/ trượt pa tinh (4 bánh nhỏ mỗi bên 2 bánh)/ trượt pa tin (4 bánh nhỏ thành 1 hàng dọc)/ trượt pa tin ván)
+**	**(Bơi / mua sắm / câu cá/ đi bộ nhanh/ trượt pa tinh (4 bánh nhỏ mỗi bên 2 bánh) / trượt pa tin (4 bánh nhỏ thành 1 hàng dọc) / trượt pa tin ván)
 
 5. **Going for a picnic / Going for a walk.**
 
@@ -792,39 +792,81 @@ FILE 1
 
 **VOCABULARY **
 
-1. Talking to unfriendly people
+1. **Talking to unfriendly people**
 
-2. Arguing with overly emotional people 
+Nói chuyện với người không thân thiện 
 
-3. Getting up early in the morning
+2. **Arguing with overly emotional people **
 
-4. Doing homework 
+Cãi nhau với người thái quá cảm xúc 
 
-5. Doing housework- Washing dishes- Washes clothes- Doing laundry- Cleaning the house
+3. **Getting up early in the morning**
 
-6. Being alone/ hungry/ sick
+Thức dậy sớm 
 
-7. Being told "you are short"
+4. **Doing homework **
 
-8. Thinking about my ex
+Làm bài tập về nhà 
 
-9. Riding my motorbike in the traffic jam
+5. **Doing housework- Washing dishes- Washes clothes- Doing laundry- Cleaning the house**
 
-10. Loneliness
+Làm việc nhà
 
-11. Hot weather
+* Rửa bát đĩa
 
-12. Dogs/ cats/ snakes
+* Giặt quần áo 
 
-13. Racism 
+* Giặt ủi
 
-14. Sexism
+* Lau chùi nhà cửa 
 
-15. Slow Internet Connection 
+6. **Being alone / hungry / sick**
 
-16. Being early to the airport 
+* Cô đơn / Đói bụng/ Bị ốm 
 
-17. Arriving at the destination and realizing that you forget something 
+7. **Being told "you are short"**
+
+Bị nói rằng "bạn lùn"
+
+8. **Thinking about my ex**
+
+Nghĩ về người yêu cũ 
+
+9. **Riding my motorbike in the traffic jam**
+
+Lái xe trong sự kẹt xe 
+
+10. **Loneliness**
+
+Sự cô đơn
+
+11. **Hot weather**
+
+Thời tiết nóng 
+
+12. **Dogs / cats / snakes**
+
+Chó / mèo / rắn 
+
+13. **Racism **
+
+Nạn phân biệt chủng tộc 
+
+14. **Sexism**
+
+Sự phân biệt giới tính 
+
+15. **Slow Internet Connection **
+
+Mạng Internet chậm
+
+16. **Being early to the airport**
+
+Tới sân bay sớm ** **
+
+17. **Arriving at the destination and realizing that you forget something **
+
+Tới điểm đến và nhận ra rằng bạn quên gì đó 
 
 FILE 2: 
 
@@ -846,47 +888,55 @@ FILE 3:
 
 **P1: ****#1. Why do you look so annoyed?**
 
+Sao trông bạn khó chịu thế?
+
 **Why do you look …?**
 
-* Why do you look so sad today?
+* **Why do you look so sad today? **(Sao hôm nay trông bạn buồn thế?) 
 
-* Why do you look so angry?
+* **Why do you look so angry? (**Sao trông bạn giận dữ vậy?)
 
-* Why do you look so happy today?
+* **Why do you look so happy today? **(Sao hôm nay trông bạn vui vẻ vậy?)
 
 **P2: ****#2. I hate doing housework **
 
+Tôi ghét làm việc nhà
+
 **I hate/I am sick of/ I am tired of/ I can’t stand it **
 
-* **I** hate arguing with overly emotional people 
+* **I hate arguing with overly emotional people **(Tôi ghét cãi nhau với người cảm xúc thái quá)
 
-* I am sick of listening to the song "Despacito" again and again 
+* **I am sick of listening to the song "Despacito" again and again (**Tôi phát ngán với việc nghe đi nghe lại bài hát Despacito)
 
-* I am tired of being told that I am short 
+* **I am tired of being told that I am short **(Tôi mệt mỏi với việc bị nói là tôi lùn)
 
-* I can’t stand sexism  
+* **I can’t stand sexism  **(Tôi không chịu được sự phân biệt giới tính)
 
 **P1: ****#3. Talking to unfriendly people drives me crazy **
 
+Nói chuyện với những người thân thiện khiến tôi phát điên lên 
+
 **It drives me crazy/ it gets on my nerves **
 
-* Racism drives me crazy
+* **Racism drives me crazy **(Nạn phân biệt chủng tộc khiến tôi nổi điên lên)
 
-* Getting stuck in the traffic jam drives me crazy 
+* **Getting stuck in the traffic jam drives me crazy **(Bị kẹt xe khiến tôi nổi đóa)
 
-* Doing homework every day drives me crazy
+* **Doing homework every day drives me crazy **(Làm bài tập về nhà mỗi ngày khiến tôi nổi điên)
 
-* Being told that I am fat gets on my nerves  
+* **Being told that I am fat gets on my nerves **(Bị nói rằng tôi mập khiến tôi nổi đóa)
 
-* Slow internet connection drives me crazy 
+* **Slow internet connection drives me crazy **(Mạng Internet chậm khiến nôi tức giận)
 
 **P2: ****#4. ** **Definitely**
 
-* absolutely 
+Chắc chắn rồi 
 
-* of course 
+* **Absolutely **(Đương nhiên rồi)
 
-* sure** **
+* **Of course **(Chắc chắn rồi)
+
+* **Sure **(Chắc chắn)
 
 # Lesson 2.3: Daily Routine 
 
@@ -894,41 +944,77 @@ FILE 1
 
 VOCABULARY
 
-1. Get up/ wake up 
+1. **Get up/ wake up **
 
-2. Make my bed 
+Thức dậy
 
-3. Brush my teeth 
+2. **Make my bed **
 
-4. Wash my face 
+Gấp chăn màn 
 
-5. Comb my hair
+3. **Brush my teeth **
 
-6. Get dressed 
+Đánh răng
 
-7. Put on makeup 
+4. **Wash my face**
 
-8. have breakfast/ lunch/ dinner 
+Rửa mặt ** **
 
-9. Have a cup of coffee/tea 
+5. **Comb my hair**
 
-10. Go to work/ school by taxi/ bus/ car/motorbike
+Chải tóc 
 
-11. Finish my work and come back home
+6. **Get dressed **
 
-12. Do some exercises/ Play sports 
+Thay quần áo 
 
-13. Take a bath/take a shower
+7. **Put on makeup**
 
-14. Watch TV 
+Trang điểm ** **
 
-15. Talk to my mother on the phone 
+8. **Have breakfast/ lunch/ dinner**
 
-16. Surf facebook 
+Ăn sáng/ trưa/ tối ** **
 
-17. Go to bed
+9. **Have a cup of coffee/tea **
 
-18. Set an alarm clock at 7 for the next morning 
+Uống ly cà phê/ trà
+
+10. **Go to work/ school by taxi/ bus/ car/motorbike**
+
+Đi làm/ học bằng xe taxi/ buýt/ hơi/ máy
+
+11. **Finish my work and come back home**
+
+Xong việc và trở về nhà
+
+12. **Do some exercises/ Play sports**
+
+Tập thể dục/ chơi thể thao** **
+
+13. **Take a bath/take a shower**
+
+Tắm bồn tắm/ tắm vòi hoa sen 
+
+14. **Watch TV **
+
+Xem TV
+
+15. **Talk to my mother on the phone **
+
+Nói chuyện với mẹ qua điện thoại
+
+16. **Surf facebook **
+
+Lướt facebook
+
+17. **Go to bed**
+
+Đi ngủ 
+
+18. **Set an alarm clock at 7 for the next morning **
+
+Hẹn báo thức vào 7 giờ cho buổi sáng hôm sau 
 
 FILE 2
 
@@ -948,7 +1034,9 @@ FILE 2
 
 **P1:**** No, I am not a night owl. I am an early bird **
 
-**P2:** John gets up around 7 and then he brushes his teeth and washes his face. After that, he gets dressed. He usually gets ready around 8AM. After breakfast, he goes to work at around 8.30. It takes him about 20 minutes to go to work by bus. He doesn’t stay up late so he is not a night owl. He is an early bird because he gets up at 7AM  
+**P2:**** John**** gets up around 7 and then he brushes his teeth and washes his face. After that, he gets dressed. He usually gets ready around 8AM. After breakfast, he goes to work at around 8.30. It takes him about 20 minutes to go to work by bus. He doesn’t stay up late so he is not a night owl. He is an early bird because he gets up at 7AM  **
+
+(John thức dậy lúc 7h sáng sau đó, anh ấy đánh răng và rửa  mặt. Sau đó, anh ấy thay đồ. Anh thường chuẩn bị xong lúc khoảng 8h sáng. Sau bữa ăn sáng, anh đi làm khoảng 8h30. Anh ta mất khoảng 20 phút để đi làm bằng xe buýt. Anh ấy không thức đêm muộn vì anh không phải là cú đêm. Anh ấy là một con chim thức dậy lúc sáng sớm vì anh ngủ dậy lúc 7h sáng)
 
  
 
@@ -976,7 +1064,9 @@ FILE 2
 
 **P2: **** Sounds great!**
 
-**P2 **I want to meet Kurt on Saturday and he thinks that’s great idea. Kurt gets up at 7:30AM and then he goes to his Taekwondo lesson at 9:00. At 11:00 he doesn’t have time because he starts school at that time and he finishes school at 5:30 PM. At 5:45 he meets me for dinner 
+**P2 ****I**** want to meet Kurt on Saturday and he thinks that’s great idea. Kurt gets up at 7:30AM and then he goes to his Taekwondo lesson at 9:00. At 11:00 he doesn’t have time because he starts school at that time and he finishes school at 5:30 PM. At 5:45 he meets me for dinner **
+
+(Tôi muốn gặp Kurt vào thứ Bảy và anh ta nghĩ rằng đó là một ý hay. Kurt thức dậy lúc 7h30 và sau đó, anh ta học Taekwondo vào lúc 9h. Lúc 11h, anh ta không có thời gian rảnh vì anh ta bắt đầu giờ học lúc đó và anh ta học xong lúc 5h:30 chiều. Lúc 5h:45 anh ta gặp tôi cho bữa ăn tối. 
 
 **FILE 4**
 
@@ -992,7 +1082,9 @@ FILE 2
 
 5. ** I like to watch sports. My favorites are football and basketball. But I don’t play any sports  **
 
-**P2: **Can you say what Ted likes to do in his daily routine?
+**P2: ****Can you say what Ted likes to do in his daily routine?**
+
+(Bạn có thể nói Ted thích gì vào thời gian biểu hằng ngày của anh ta không?)
 
 # **Lesson 2.4: movies **
 
@@ -1004,51 +1096,51 @@ FILE 2
 
 **My favorite kind of movie is ...**
 
-1. Comedy 
+1. **Comedy **Phim hài
 
-2. Drama 
+2. **Drama** Kịch
 
-3. Romantic movie 
+3. **Romantic movie **Phim lãng mạng** **
 
-4. Horror movie
+4. **Horror movie **Phim kinh dị
 
-5. Science – fiction movie
+5. **Science – fiction movie **Phim khoa học viễn tưởng
 
-6. Cartoon 
+6. **Cartoon **Phim hoạt hìn
 
-7. Action movie
+7. **Action movie **Phim hành động
 
-8. Western movie
+8. **Western movie **Phim tây
 
-9. Korean movie
+9. **Korean movie **Phim Hàn Quốc
 
-10. Fantasy movie 
+10. **Fantasy movie **Phim giả tưởng
 
-11. Documentary
+11. **Documentary **Phim tài liệu 
 
 **What is the movie like?**
 
 **The movie is **
 
-1. Interesting / Exciting 
+1. **Interesting / Exciting **Thú vị/ Hào hứng 
 
-2. Funny/ Amusing/ Hilarious 
+2. **Funny/ Amusing/ Hilarious **Vui/ Hài hước/ Rất hài hước 
 
-3. Touching/ Moving/ Heart - warming
+3. **Touching/ Moving/ Heart - warming **Cảm động/ Cảm động/ Sưởi ấm trái tim
 
-4. Romantic/ sweet
+4. **Romantic/ sweet **Lãng mạng/ Ngọt ngào 
 
-5. Shocking/ Impressive 
+5. **Shocking/ Impressive **Sốc/ Ấn tượng 
 
-6. Scary/ Terrifying  
+6. **Scary/ Terrifying  **Sợ/ Hoảng sợ 
 
-7. Instructive/ Informative/ educational 
+7. **Instructive/ Informative/ educational  **Hướng dẫn/ Bổ ích/ Mang tính giáo dục 
 
-8. Thought - provoking 
+8. **Thought - provoking **Kích thích suy nghĩ 
 
-9. Amazing/ wonderful/fantastic/ awesome/ great
+9. **Amazing/ wonderful/fantastic/ awesome/ great **Tuyệt vời 
 
-10. Terrible/ awful/ disgusting/ disappointing/ silly/ boring/ weird 
+10. **Terrible/ awful/ disgusting/ disappointing/ silly/ boring/ weird **Tệ/ Tệ/ Thấy gớm/ Gây thất vọng/ Ngớ ngần/ Chán/ Kì cục 
 
 **FILE 2**
 
@@ -1084,83 +1176,97 @@ FILE 2
 
 **Note: this could just be one person. Or switch people. Both is fine**
 
-**#1. ****The early show of dangerous city is sold out**
+**#1. ****The early show of "Dangerous city" is sold out**
+
+Suất chiếu sớm của "Dangerous city" đã bán hết rồi 
 
 **Be sold out.**
 
-* The movie is sold out 
+* **The movie is sold out **(Bộ phim đã bán hết vé rồi)
 
-* The concert was sold out 
+* **The concert was sold out** (Buổi hòa nhạc đã bán hết vé rồi)
 
 **#2. What are we gonna do now?**
 
-**Be gonna = be going to  **
+Chúng ta sẽ làm gì bây giờ 
 
-* I am gonna go.
+**Be gonna = be going to  **Sẽ
 
-* She’s gonna cry.
+* **I am gonna go**. (Tôi sẽ đi)
 
-* What I am gonna say is … I like you. 
+* **She’s gonna cry**. (Cô ấy sẽ khóc)
+
+* **What I am gonna say is … I like you**. (Điều tôi sắp nói là … Tôi thích bạn) 
 
 **#3. Why don’t we see "Beyond Everest?**
 
+Hay là chúng ta xem phim "Beyond Everest"
+
 **Why don’t we…?**
 
-* Why don’t we go to the beach?
+* **Why don’t we go to the beach? **(Hay là chúng ta đi biển nhé)
 
-* Why don’t you come with us
+* **Why don’t you come with us **(Hay là bạn cùng đi với chúng tôi nhé)
 
-* Why don’t we take a lunch break?
+* **Why don’t we take a lunch break? **(Hay là chúng ta nghỉ trưa nhé)
 
 **#4.  It’s based on a true story **
 
+Nó được dựa trên một câu chuyện có thật 
+
 **It’s based on… **
 
-* It’s based on a book 
+* **It’s based on a book **(Nó được dựa trên một quyển sách)
 
-* It’s based on an actual event 
+* **It’s based on an actual event **(Nó được dựa trên một sự kiện có thật)
 
-* The movie is based on a real-life story 
+* **The movie is based on a real-life story** (Bộ phim được dựa trên một câu chuyện có thật ngoài đời)
 
 **#5.  I get tired of just looking at all that action**
 
+Tôi mệt mỏi xem những ca hành động đó
+
 **I get tired of…**
 
-* I get tired of waiting for him 
+* **I get tired of waiting for him **(Tôi mệt mỏi vì phải chờ đợi anh ấy)
 
-* I get tired of doing the same job, day after day
+* **I get tired of doing the same job, day after day (**Tôi mệt mỏi vì phải làm công việc giống nhau ngày này qua ngày khác)
 
-* I get tired of arguing with her all the time
+* **I get tired of arguing with her all the time (**Tôi mệt mỏi vì luôn luôn cãi nhau với cô ấy)
 
-**#6. What is "lost and found in new York" about?**
+**#6. What is "lost and found in New York" about?**
+
+Bộ phim "lost and found in New York" nói về điều gì?
 
 **What is it about?**
 
-* What is the movie about?
+* **What is the movie about?** (Bộ phim nói về điều gì?)
 
-* What is the story about?
+* **What is the story about?** (Câu chuyện nói về điều gì?)
 
-* I want to know what the song is about
+* **I want to know what the song is about** (Tôi muốn biết bài hát đó nói về điều gì
 
 **#7. It’s kinda of amusing**
 
+Nó kiểu như cũng hài hước 
+
 **Kinda **
 
-* I am kinda bored now 
+* **I am kinda bored now **(Bây giờ tôi kiểu như cũng chán rồi í)
 
-* It’s kinda hard for me to understand 
+* **It’s kinda hard for me to understand **(Nó đại loại cũng khó cho tôi để hiểu được)
 
-* She’s kinda hot 
+* **She’s kinda hot **(Cô ta đại loại là cũng nóng bỏng)
 
 **#8. I can’t stand science - fiction movies**
 
 **I can’t stand … **
 
-* I can’t stand her 
+* **I can’t stand her **(Tôi không thể chịu đựng cô ta)
 
-* I can’t stand working 8 hours a day 
+* **I can’t stand working 8 hours a day **(Tôi không thể chịu đựng được làm việc 8 tiếng một ngày)
 
-* I can’t stand it anymore 
+* **I can’t stand it anymore **(Tôi không thể chịu đựng được nữa)
 
  
 
