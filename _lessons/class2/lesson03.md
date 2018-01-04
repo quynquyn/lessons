@@ -12,36 +12,33 @@ layout: lesson
 
 {% include image.html class=2 lesson="03" name="Grid1" %}
 
+|**Get up/ wake up** | **Make my bed**  | **Brush my teeth**  | **Wash my face**  | **Comb my hair**  | **Get dressed**  | **Put on makeup**  | 
+| *Thức dậy*  | *Gấp chăn màn* | *Đánh răng* | *Rửa mặt* | *Chải tóc* | *Thay quần áo* | *Trang điểm* | 
 
-1. **Get up/ wake up** *Thức dậy*
-2. **Make my bed** *Gấp chăn màn*
-3. **Brush my teeth** *Đánh răng*
-4. **Wash my face** *Rửa mặt*
-5. **Comb my hair** *Chải tóc*
-6. **Get dressed** *Thay quần áo*
-7. **Put on makeup** *Trang điểm*
 
 {% include image.html class=2 lesson="03" name="Grid2" %}
 
+| **Have breakfast** | **lunch** | **dinner** | **Have a cup of coffee** | **tea** | **Go to work** | **school** | **by taxi** | 
+| *Ăn sáng* | *trưa* | *tối* |  *Uống ly cà phê* | *trà* |  *Đi làm* | *học* | *bằng xe taxi* |
 
-8. **Have breakfast/ lunch/ dinner** *Ăn sáng / trưa / tối*
-9. **Have a cup of coffee/tea** *Uống ly cà phê / trà*
-10. **Go to work/ school by taxi/ bus/ car/motorbike** *Đi làm/ học bằng xe taxi / buýt / hơi / máy*
+
 
 {% include image.html class=2 lesson="03" name="Grid3" %}
 
+| **by bus** | **by car** | **by motorbike** | **Finish my work** | **and come back home** | **Do some exercises** | **Play sports**
+| *buýt* | *hơi* | *máy* | *Xong việc* | *và trở về nhà* | *Tập thể dục* | *chơi thể thao*
 
-11. **Finish my work and come back home** *Xong việc và trở về nhà*
-12. **Do some exercises/ Play sports** *Tập thể dục / chơi thể thao*
 
 {% include image.html class=2 lesson="03" name="Grid4" %}
 
-13. **Take a bath/take a shower** *Tắm bồn tắm / tắm vòi hoa sen*
-14. **Watch TV** *Xem TV*
-15. **Talk to my mother on the phone** *Nói chuyện với mẹ qua điện thoại*
-16. **Surf facebook** *Lướt facebook*
-17. **Go to bed** *Đi ngủ*
-18. **Set an alarm clock at 7 for the next morning** *Hẹn báo thức vào 7 giờ cho buổi sáng hôm sau *
+| **Take a bath** | **take a shower**  | **Watch TV**  | **Talk to my mother on the phone** | **Surf facebook**  | **Go to bed**  | **Set an alarm clock at 7 for the next morning**  | 
+| *Tắm bồn tắm* | *tắm vòi hoa sen* | *Xem TV* | *Nói chuyện với mẹ qua điện thoại* | *Lướt facebook* | *Đi ngủ* | *Hẹn báo thức vào 7 giờ cho buổi sáng hôm sau* | 
+
+
+
+
+
+
 
 
 ## Dialogue 1
