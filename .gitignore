@@ -4,6 +4,7 @@ _site
 .DS_Store
 not-in-git
 node_modules
+_lessons
 
 
 
