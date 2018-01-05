@@ -7,33 +7,55 @@ layout: lesson
 ## Vocabulary
 {% include player.html identifier="vocab-Words" lesson="C1L04" file="C1L04-Words.mp3" %}
 
-- Like
-- Love
-- Hate
-- Have
-- Try
-- Need
-- Want
-- Intend
-- Pretend 
-- Expect
+{% include image.html class=1 lesson="04" name="Grid1" %}
+
+| Like| Love| Hate| Have| 
+
+
+{% include image.html class=1 lesson="04" name="Grid2" %}
+
+| Try | Need | Want | Intend | 
+
+{% include image.html class=1 lesson="04" name="Grid3" %}
+
+| Pretend  | Expect |
+
+
+
+
 
 {% include play.html identifier="vocab-Words" lesson="C1L04" start=25 stop=666 %}
 
-- Listen to music
-- Hang out with friends
-- Travel to Korea
-- Read books
-- Get up early 
-- Stay up late 
-- Study English
-- Smile
-- Call my mother / talk to my mother on the phone
-- Take a selfie / Take a photo 
-- Know how to swim
-- Visit relatives 
-- Go shopping / Go fishing
-- Smoke cigarettes 
+{% include image.html class=1 lesson="04" name="Grid4" %}
+
+| Listen to music | Hang out with friends | Travel to Korea | Read books | 
+
+{% include image.html class=1 lesson="04" name="Grid5" %}
+
+| Get up early  | Stay up late  | Study English | Smile | 
+
+{% include image.html class=1 lesson="04" name="Grid6" %}
+
+| Call my mother | Take a selfie / Take a photo  | Know how to swim | Visit relatives  | 
+
+{% include image.html class=1 lesson="04" name="Grid7" %}
+
+| Go shopping | Go fishing |  Smoke cigarettes  |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Dialogue

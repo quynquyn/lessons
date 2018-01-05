@@ -29,7 +29,7 @@ layout: lesson
 14. **Sexism** *Sự phân biệt giới tính*
 15. **Slow Internet Connection** *Mạng Internet chậm*
 16. **Being early to the airport** *Tới sân bay sớm*
-17. **Arriving at the destination and realizing that you forget something** *Tới điểm đến và nhận ra rằng bạn quên gì đó*
+17. **Arriving at the destination and realizing that you forgot something** *Tới điểm đến và nhận ra rằng bạn quên gì đó*
 
 
 ## Dialogue

@@ -39,21 +39,21 @@ layout: lesson
  
 | Always | Usually | Often  | Sometimes |  Rarely | Never | 
 
-## 1. Yes/ No Questions 
+## 1. Yes/ No Questions
 {% include player.html identifier="vocab-Native-Dialogue" lesson="C1L01" file="C1L01-Native-Dialogue.mp3" %}
 
-1. **- Does the manager have to make a decision?** 
-**- Yes, he has to make a decision** 
-*- Có phải người giám đốc phải đưa ra quyết định không?*  
-*- Phải, ông ta phải đưa ra quyết định.*
-2. **- Does the man always want to follow the crowd?**
-**- No, the man doesn't always want to follow the crowd**
-*- Có phải người đàn ông đó luôn muốn đi theo đám đông không??*
-*- Không phải, người đàn ông đó không phải lúc nào cũng muốn đi theo đám đông*
-3. **- Do your parents yell at you when you come home late?** 
-**- No, they don't yell at me when I come home late**
-*- Có phải ba mẹ bạn la bạn khi bạn về nhà trễ?*
-*- Không, họ không la tôi khi tôi về nhà trễ*
+1. **- Does the manager have to make a decision?**  
+**- Yes, he has to make a decision**  
+*- Có phải người giám đốc phải đưa ra quyết định không?*    
+*- Phải, ông ta phải đưa ra quyết định.*  
+2. **- Does the man always want to follow the crowd?**  
+**- No, the man doesn't always want to follow the crowd**  
+*- Có phải người đàn ông đó luôn muốn đi theo đám đông không??*  
+*- Không phải, người đàn ông đó không phải lúc nào cũng muốn đi theo đám đông*  
+3. **- Do your parents yell at you when you come home late?**  
+**- No, they don't yell at me when I come home late**  
+*- Có phải ba mẹ bạn la bạn khi bạn về nhà trễ?*  
+*- Không, họ không la tôi khi tôi về nhà trễ*  
 4. **- Does the secretary need to borrow money from her manager?**
 **- No, the secretary doesn't need to borrow money from her manager. She needs to borrow money from her friend**
 *-Có phải cô thư kí cần mượn tiền từ người giám đốc không?*

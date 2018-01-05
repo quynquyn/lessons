@@ -6391,4 +6391,8 @@ section.el-lesson blockquote, section.el-lesson li {
   section.el-lesson blockquote strong, section.el-lesson li strong {
     font-weight: 800; }
 section.el-lesson table {
-  width: 100%; }
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px; }
+  section.el-lesson table td {
+    text-align: center; }
