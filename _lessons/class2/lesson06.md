@@ -2,20 +2,19 @@
 layout: lesson
 ---
 
+{% include player.html identifier="lesson-vocabulary" lesson="C2L06" file="C2L06-Vocabulary.mp3" %}
 # Lesson 2.6: Travel 
-
-{% include player.html identifier="lesson-vocabulary" lesson="C2L04" file="C2L04-Native-Dialogue1.mp3" %}
 
 
 ## Vocabulary
 
 ### What can you do there?
 
-1. **Go sightseeing/ Enjoy the beauty of the landscape/** *Đi ngắm cảnh/ Tận hưởng vẻ đẹp của phong cảnh*
-2. **Visit the museum/monument/ aquarium/ night market/ white sandy beaches** *Thăm viện bảo tàng/ tượng đài/ thủy cung/ chợ đêm*
+1. **Go sightseeing / Enjoy the beauty of the landscape /** *Đi ngắm cảnh/ Tận hưởng vẻ đẹp của phong cảnh*
+2. **Visit the museum / monument / aquarium / night market / white sandy beaches** *Thăm viện bảo tàng/ tượng đài/ thủy cung/ chợ đêm*
 3. **Build sandcastles** *Xây lâu đài cát*
 4. **Watch the wildlife** *Ngắm cuộc sống hoang dã*
-5. **Get a tan/ get tanned skin** *Tắm nắng cho ngăm da*
+5. **Get a tan / get tanned skin** *Tắm nắng cho ngăm da*
 6. **Explore caves** *Thám hiểm hang động*
 7. **Go hiking** *Đi bộ leo núi*
 8. **Ride a cable Car** *Đi cáp treo*
@@ -29,16 +28,16 @@ layout: lesson
 2. **Take pictures and capture the moments** *Chụp hình và chụp những khoảnh khắc*
 3. **Learn about the world** *Học thêm về thế giới*
 4. **Know more about other countries and regions** *Biết hơn về những đất nước và vùng miền khác*
-5. **Visit friends/ relatives** *Thăm bạn bè/ họ hàng*
+5. **Visit friends / relatives** *Thăm bạn bè/ họ hàng*
 6. **Take a break from work** *Giải lao cho công việc*
 7. **Go on vacation/ go on a business trip** *Đi kì nghỉ/ Đi công tác*
 8. **Learn about new cultures and explore new places.** *Học về những văn hóa mới và thám hiểm những nơi mới*
    
 
 
-## Dialogue
+{% include player.html identifier="lesson-conversation" lesson="C2L06" file="C2L06-Conversation.mp3" %}
+## Conversation
 
-{% include player.html identifier="lesson-dialogue" lesson="C2L04" file="C2L04-Native-Dialogue2.mp3" %}
 
 > Person 1: **Did you pack everything you need?**  
 > Person 2: **Uh-huh. I just need to buy a travel pillow at the airport.**  
@@ -53,9 +52,9 @@ layout: lesson
 > P1: **That sounds amazing. I hope you have a nice flight**  
 
 
+{% include player.html identifier="lesson-explanation" lesson="C2L06" file="C2L06-Explanation.mp3" %}
 ## Explanation
 
-{% include player.html identifier="lesson-explanation" lesson="C2L04" file="C2L04-Native-Dialogue3.mp3" %}
 
 ### 1. I just need to buy a travel pillow at the airport.
 
@@ -69,6 +68,7 @@ Tôi cần mua một cái gối du lịch tại sân bay
 ### 2. This is your first overseas trip
 
 Đây là chuyến đi nước ngoài đầu tiên của bạn
+
 **one's first ...**
 
 - **This is my first kiss** *Đây là nụ hôn đầu của tôi*
@@ -77,6 +77,7 @@ Tôi cần mua một cái gối du lịch tại sân bay
 
 ### 3.  You’re not allowed to take liquids on the plane
 Bạn không được phép mang chất lỏng lên máy bay 
+
 **You are not allowed to ...**
 
 - **You are not allowed to smoke in the building** *Bạn không được phép hút thuốc trong tòa nhà này*
@@ -102,7 +103,8 @@ Nó là một cách thú vị để biết hơn về văn hóa mới và khám p
 - **It's a simple way to solve the problem** *Nó là một cách đơn giản để giải quyết vấn đề*
 
 ### 6.   It’s also the best way to find a quiet place
-Nó là cách tốt nhất để tìm một nơi yên tĩnh 
+Nó là cách tốt nhất để tìm một nơi yên tĩnh
+
 **It's the best way to...**
 
 - **It's the best way to ask him** *Nó là cách tốt nhất để hỏi anh ấy*

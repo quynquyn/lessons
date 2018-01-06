@@ -2,9 +2,9 @@
 layout: lesson
 ---
 
-# Lesson 2.4: Family
+# Lesson 2.5: Family
 
-{% include player.html identifier="lesson-vocabulary" lesson="C2L04" file="C2L04-Native-Dialogue1.mp3" %}
+{% include player.html identifier="lesson-vocabulary" lesson="C2L05" file="C2L05-Vocabulary.mp3" %}
 
 
 ## Vocabulary
@@ -41,29 +41,24 @@ layout: lesson
 8. **Mature - Childist** *Trưởng thành/ Con nít*
 
 ### Who cooks meals in your family?
-1. **Smoke cigarettes**
-2. **Get up early/ go to bed late**
-3. **Eat a lot of candies**
-4. **Cook meals**
-5. **Do the laundry**
-6. **Mop the floor**
-7. **Feed the dog**
-8. **Make most of the decisions**
-9. **Argue with you**
-10. **Call you when you go out late at night**
+1. **Smoke cigarettes** *TODO*
+2. **Get up early/ go to bed late** *TODO*
+3. **Eat a lot of candies** *TODO*
+4. **Cook meals** *TODO*
+5. **Do the laundry** *TODO*
+6. **Mop the floor** *TODO*
+7. **Feed the dog** *TODO*
+8. **Make most of the decisions** *TODO*
+9. **Argue with you** *TODO*
+10. **Call you when you go out late at night** *TODO*
  
 
 
 
 
- 
+{% include player.html identifier="lesson-dialogue" lesson="C2L05" file="C2L05-Conversation.mp3" %}
+## Conversation
 
-
-
-
-## Dialogue
-
-{% include player.html identifier="lesson-dialogue" lesson="C2L04" file="C2L04-Native-Dialogue2.mp3" %}
 
 
 > Person 1: **Are you waiting for someone? Where are you going?**  
@@ -80,9 +75,9 @@ layout: lesson
 > P2: **Really? Sometimes, I want to be alone!**  
 
 
+{% include player.html identifier="lesson-explanation" lesson="C2L05" file="C2L05-Native-Explanation.mp3" %}
 ## Explanation
 
-{% include player.html identifier="lesson-explanation" lesson="C2L04" file="C2L04-Native-Dialogue3.mp3" %}
 
 ### 1. He’s going to give me a ride home
 

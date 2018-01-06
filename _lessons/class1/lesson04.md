@@ -46,18 +46,6 @@ layout: lesson
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 ## Dialogue
 {% include player.html identifier="vocab-Dialogue" lesson="C1L04" file="C1L04-Native-Dialogue.mp3" %}
 
