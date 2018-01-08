@@ -145,6 +145,7 @@ layout: lesson
 **- Yes, he is an extremely important person in the company**  
 *-Có phải anh ấy là người quan trọng trong công ty không?*  
 *-Phải, anh ta là người cực kì quan trọng trong công ty này*  
+
 7. **- Is it an expensive cellphone?**   
 **- Yes, it's a very expensive cellphone**  
 *- Nó có phải là điện thoại mắc tiền không?*  

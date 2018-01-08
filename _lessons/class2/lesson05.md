@@ -32,15 +32,15 @@ layout: lesson
 **My father is...**
 
 1. **Confident / Shy** *Tự tin/ Nhút nhát*
-2. **Strict/ Easy - going** *Nghiêm khắc/ Dễ tính*
-3. **Talkative/ Quiet** *Nói nhiều/ Trầm tính*
-4. **Interesting/ Boring** *Thú vị/ Nhàm chán*
-5. **Caring/ Carefree** *Quan tâm/ Vô tâm*
-6. **Dependent/ Independent** *Độc lập/ Phụ thuộc*
-7. **Hot-temperer/ Even - tempered** *Nóng tính/ Điềm tĩnh* 
-8. **Mature - Childist** *Trưởng thành/ Con nít*
+2. **Strict/ Easy - going** *Nghiêm khắc / Dễ tính*
+3. **Talkative/ Quiet** *Nói nhiều / Trầm tính*
+4. **Interesting/ Boring** *Thú vị / Nhàm chán*
+5. **Caring/ Carefree** *Quan tâm / Vô tâm*
+6. **Dependent/ Independent** *Độc lập / Phụ thuộc*
+7. **Hot-temperer/ Even - tempered** *Nóng tính / Điềm tĩnh* 
+8. **Mature - Childist** *Trưởng thành / Con nít*
 
-### Who cooks meals in your family?
+### Other things parents do
 1. **Smoke cigarettes** *TODO*
 2. **Get up early/ go to bed late** *TODO*
 3. **Eat a lot of candies** *TODO*
@@ -68,7 +68,7 @@ layout: lesson
 > P1: **Wow! You have a big family. I didn’t know that. What does your father do for a living?**  
 > P2: **He’s a doctor. He works at a local hospital.**  
 > P1: **You must be proud of him. What is your mother like?**  
-> P2: **My mother is talkative. She talks a lot about all sorts of things. She’s also very caring. She always prepares delicious meals for out family**  
+> P2: **My mother is talkative. She talks a lot about all sorts of things. She’s also very caring. She always prepares delicious meals for our family**  
 > P1: **You are so lucky. Who makes most of the decisions in your family?**  
 > P2: **My mom and my dad. But I and my siblings can share our opinions and my parents will listen. How about you? Do you have any siblings?**  
 > P1: **No, I’m an only child. It gets lonely sometimes.**  
@@ -92,8 +92,7 @@ Anh ta sẽ cho tôi quá giang về nhà
 
 Bố bạn làm nghề gì
 
-**What does your mother do for a living?** *Mẹ bạn làm nghề gì?*
-
+- **What does your mother do for a living?** *Mẹ bạn làm nghề gì?*
 - **What do you do for a living?**. *Bạn làm nghề gì?*
 
 ### 3. I have three older brothers and two sisters
@@ -107,9 +106,9 @@ Tôi có 3 anh trai và 2 chị/em gái
 
 ### 4.  What is your mother like?
 Mẹ bạn là người như thế nào?
-**What is your sister like?** *Chị bạn là ngươi như thế nào?*
-**What is your manager like?** *Giám đốc bạn là ngươi như thế nào?*
-**What is the weather like?** *Thời tiết như thế nào?*
+ - **What is your sister like?** *Chị bạn là ngươi như thế nào?*
+ - **What is your manager like?** *Giám đốc bạn là ngươi như thế nào?*
+ - **What is the weather like?** *Thời tiết như thế nào?*
 
 ### 5.  Who makes most of the decisions in your family?
 
