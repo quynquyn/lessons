@@ -6,64 +6,64 @@ layout: lesson
 # Lesson 1.5: Pronoun 
 
 
-## Vocabulary *TODO*
+## Vocabulary 
 
-### Pronoun *TODO*
+### Pronoun 
 
 
 {% include image.html class=1 lesson="05" name="Grid1" %}
 
 | **I** | **We**  | **You** | **They** |
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 {% include image.html class=1 lesson="05" name="Grid2" %}
 
 | **He**  | **She**  | **It** | 
-| *TODO*   |  *TODO*     |  *TODO*   | 
+|    |       |     | 
 
-### People in your family *TODO*
+### People in your family 
 {% include image.html class=1 lesson="05" name="Grid3" %}
 
 | **Father** | **Mother** | **Parents** | **Sister** | 
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 
 {% include image.html class=1 lesson="05" name="Grid4" %}
 
 | **Brother** | **Grandmother** | **Grandfather** | **Son** | 
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 
 {% include image.html class=1 lesson="05" name="Grid5" %}
 
 | **Daughter** | **Children** | **Aunt** | **Uncle** |
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 
 {% include image.html class=1 lesson="05" name="Grid6" %}
 
 | **Wife** | **Husband** |
-| *TODO*   |  *TODO*     |  
+|    |       |  
 
 
-### Jobs *TODO*
+### Jobs 
 
 {% include image.html class=1 lesson="05" name="Grid7" %}
 
 | **Waiter** | **Waitress**  | **Actor** | **Actress** | 
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 
 {% include image.html class=1 lesson="05" name="Grid8" %}
 
 | **Manager** | **Secretary** | **Engineer**  | **Singer**  | 
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 
 {% include image.html class=1 lesson="05" name="Grid9" %}
 
 |**Dentist**  | **Accountant** | 
-| *TODO*   |  *TODO*     | 
+|    |       | 
 
 
 ## Verbs
@@ -71,28 +71,28 @@ layout: lesson
 {% include image.html class=1 lesson="05" name="Grid10" %}
 
 | **Travel to Korea** | **Malaysia** | **Cambodia**  | **Italy**  |
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 
 {% include image.html class=1 lesson="05" name="Grid11" %}
 
 | **Study English** | **Spanish**  | **Korean** | **Chinese** |
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 
 {% include image.html class=1 lesson="05" name="Grid12" %}
 
 | **Reserve a room** | **Make a presentation** | **Practice speaking English**   | 
-| *TODO*   |  *TODO*     |  *TODO*   | 
+|    |       |     | 
 
 
 {% include image.html class=1 lesson="05" name="Grid13" %}
 
-- **Talk to a stranger** *TODO*
-- **Fall in love with someone** *TODO* 
-- **Ask someone out**   *TODO*
-- **Break up with someone**  *TODO*
-- **Marry someone / Get married to someone** *TODO*
+- **Talk to a stranger** 
+- **Fall in love with someone**  
+- **Ask someone out**   
+- **Break up with someone**  
+- **Marry someone / Get married to someone** 
 
 
 
