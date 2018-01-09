@@ -10,44 +10,44 @@ layout: lesson
 {% include image.html class=1 lesson="06" name="TEST" %}
 
 | **Know how to make a cake** | **Plant a tree**  | **Lock a door** | **Color a picture** |  
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 {% include image.html class=1 lesson="06" name="TEST" %}
 
 | **Sneeze** | **Snore** | **Yawn** | 
-| *TODO*   |  *TODO*     |  *TODO*   |
+|    |       |     |
 
 
 {% include image.html class=1 lesson="06" name="TEST" %}
 
 | **Mop the floor** | **Wash my clothes**  | **Brush my teeth**  | **Comb my hair** |  
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 
 {% include image.html class=1 lesson="06" name="TEST" %}
  
 | **Change my mind** | **Follow the crowd** | **Sing a song**  | **Clap one’s hands**  |
- | *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+ |    |       |     |     | 
  
 {% include image.html class=1 lesson="06" name="TEST" %}
  
 | **Make a decision** | **Give someone a hug**  | **Make a wish**  | **Borrow money** |  
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 {% include image.html class=1 lesson="06" name="TEST" %}
  
 | **Have a crush on someone** | **Cheat on someone** | **Make a wish**  | **Yell at someone** | 
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 {% include image.html class=1 lesson="06" name="TEST" %}
  
 | **Always** | **Usually** | **Often**  | **Sometimes** |  
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 {% include image.html class=1 lesson="06" name="TEST" %}
 
 | **Rarely** | **Never** | 
-| *TODO*   |  *TODO*     | 
+|    |       | 
 
 
 {% include player.html identifier="lesson-conversation" lesson="C1L06" file="C1L06-Conversation.mp3" %}

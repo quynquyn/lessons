@@ -13,113 +13,113 @@ layout: lesson
 {% include image.html class=1 lesson="07" name="TEST" %}
 
 | **Beautiful** | **Cute**  | **Pretty** | **Handsome** | 
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 
 {% include image.html class=1 lesson="07" name="TEST" %}
 
 | **Attractive** | **Ugly** |  **Good-looking** | **Bad-looking** |
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 {% include image.html class=1 lesson="07" name="TEST" %}
 
 |  **Rich** | **Poor** | **Easy-going** | **Strict** | 
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 {% include image.html class=1 lesson="07" name="TEST" %}
 
 | **Tall** | **Short**  | **Slow**  | **Fast** | 
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 {% include image.html class=1 lesson="07" name="TEST" %}
 
 | **Hot** | **Cold**  | **Fat** | **Thin** | 
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 {% include image.html class=1 lesson="07" name="TEST" %}
  
 | **Confident** | **Shy** | **Patient** | **Impatient** | 
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
  
 {% include image.html class=1 lesson="07" name="TEST" %}
  
 | **Strong** | **Weak** | **Active** | **Passive** |
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
  
 {% include image.html class=1 lesson="07" name="TEST" %}
  
 | **Talented** | **Untalented**  | **Important** | **Unimportant** |  
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 {% include image.html class=1 lesson="07" name="TEST" %}
 
 | **Untalented**  | **Useful**  | **Useless** | **Big >< Small** | 
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 {% include image.html class=1 lesson="07" name="TEST" %} 
 
 | **Lazy** | **Hard–working** | **Friendly**  | **Unfriendly** | 
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 
 {% include image.html class=1 lesson="07" name="TEST" %}
 
 | **Happy**  | **Sad** | **Stupid** | **Smart** |
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 
 {% include image.html class=1 lesson="07" name="TEST" %}
 
 | **Hungry** | **Full** | **Interesting** | **Boring** |  
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 
 {% include image.html class=1 lesson="07" name="TEST" %}
 
 | **Cheap** | **Expensive** | **Funny** | **Serious** |
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 
 {% include image.html class=1 lesson="07" name="TEST" %}
  
 | **Easy** | **Difficult** | **Clean** | **Dirty** |  
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 
 {% include image.html class=1 lesson="07" name="TEST" %}
 
 | **Dangerous** | **Safe** | **Necessary** | **Unnecessary** |
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 {% include image.html class=1 lesson="07" name="TEST" %}
 
 | **Red** | **Yellow** | **Blue** | **Pink** |  
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 {% include image.html class=1 lesson="07" name="TEST" %}
 
 | **Black** | **White** | **Green** | **Purple** |
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 {% include image.html class=1 lesson="07" name="TEST" %} 
 
 | **Cloudy** | **Windy** | **Rainy** | **Sunny** | 
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 {% include image.html class=1 lesson="07" name="TEST" %} 
 
 | **Fantastic** | **Wonderful** | **Awesome** | **Great** |
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 {% include image.html class=1 lesson="07" name="TEST" %}
 
 | **Very** | **Extremely** | **Quite = Pretty** | **A little** | 
-| *TODO*   |  *TODO*     |  *TODO*   |  *TODO*   | 
+|    |       |     |     | 
 
 
 
 ## 1. Yes/ No Questions 
-{% include player.html identifier="vocab-Native-Dialogue" lesson="C1L01" file="C1L01-Conversation.mp3" %}
+{% include player.html identifier="vocab-Native-Dialogue" lesson="C1L07" file="C1L07-Conversation.mp3" %}
 
 1. **- Are your hands clean?**     
 **- Yes, They are clean**   

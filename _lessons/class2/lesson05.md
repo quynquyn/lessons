@@ -7,51 +7,85 @@ layout: lesson
 {% include player.html identifier="lesson-vocabulary" lesson="C2L05" file="C2L05-Vocabulary.mp3" %}
 
 
+
+
 ## Vocabulary
 
 ### What does your father do for a living?
 
-**He is a doctor/ He works as a doctor**
+**He is a doctor / He works as a doctor**
 
-1. **Farmer** *Nông dân*
-2. **Baker** *Thợ làm bánh*
-3. **Driver** *Người lái xe*
-4. **Housewife** *Bà nội trợ*
-5. **Businessman** *Doanh nhân*
-6. **Cameraman** *Người quay phim*
-7. **Postman** *Người đưa thư*
-8. **Mechanic** *Thợ sửa máy móc*
-9. **Receptionist** *Tiếp tân*
-10. **Dentist** *Nha sĩ*
-11. **Artist** *Nghệ sĩ*
-12. **Supervisor** *Người giám sát*
-13. **Professor** *Giáo sư*
+{% include image.html class=2 lesson="05" name="Grid1" %}
+
+| **Farmer** | **Baker**  | **Driver** | **Housewife** | 
+|  *Nông dân*  |    *Thợ làm bánh*   |  *Người lái xe*   |   *Bà nội trợ*  | 
+
+
+{% include image.html class=2 lesson="05" name="Grid2" %}
+
+| **Businessman** | **Cameraman**  | **Postman** | **Mechanic** | 
+|  *Doanh nhân*  |    *Người quay phim*   |  *Người đưa thư*   |   *Thợ sửa máy móc*  | 
+
+
+{% include image.html class=2 lesson="05" name="Grid3" %}
+
+| **Receptionist** | **Dentist**  | **Artist** | **Supervisor** | 
+|  *Tiếp tân*  |    *Nha sĩ*   |  *Nghệ sĩ*   |   *Người giám sát*  | 
+
+
+{% include image.html class=2 lesson="05" name="Grid4" %}
+
+| **Professor** |
+| *Giáo sư* |
+
+
+
+
+
 
 ### What is your father like?
 
 **My father is...**
 
-1. **Confident / Shy** *Tự tin/ Nhút nhát*
-2. **Strict/ Easy - going** *Nghiêm khắc / Dễ tính*
-3. **Talkative/ Quiet** *Nói nhiều / Trầm tính*
-4. **Interesting/ Boring** *Thú vị / Nhàm chán*
-5. **Caring/ Carefree** *Quan tâm / Vô tâm*
-6. **Dependent/ Independent** *Độc lập / Phụ thuộc*
-7. **Hot-temperer/ Even - tempered** *Nóng tính / Điềm tĩnh* 
-8. **Mature - Childist** *Trưởng thành / Con nít*
+{% include image.html class=2 lesson="05" name="Grid5" %}
+
+| **Confident** | **Shy**  | **Strict** | **Easy - going** | 
+|  *Tự tin*  |    *Nhút nhát*   |  *Nghiêm khắc*   |   *Dễ tính*  | 
+
+
+{% include image.html class=2 lesson="05" name="Grid6" %}
+
+| **Talkative** | **Quiet**  | **Interesting** | **Boring** | 
+|  *Nói nhiều*  |    *Trầm tính*   |  *Thú vị*   |   *Nhàm chán*  | 
+
+
+{% include image.html class=2 lesson="05" name="Grid7" %}
+
+| **Caring** | **Carefree**  | **Dependent** | **Independent** | 
+|  *Quan tâm*  |    *Vô tâm*   |  *Độc lập*   |   *Phụ thuộc*  | 
+
+{% include image.html class=2 lesson="05" name="Grid8" %}
+
+| **Hot-tempered** | **Even - tempered**  | **Mature** | **Childish** | 
+|  *Nóng tính*  |    *Điềm tĩnh*   |  *Trưởng thành*   |   *Con nít*  | 
+
 
 ### Other things parents do
-1. **Smoke cigarettes** *TODO*
-2. **Get up early/ go to bed late** *TODO*
-3. **Eat a lot of candies** *TODO*
-4. **Cook meals** *TODO*
-5. **Do the laundry** *TODO*
-6. **Mop the floor** *TODO*
-7. **Feed the dog** *TODO*
-8. **Make most of the decisions** *TODO*
-9. **Argue with you** *TODO*
-10. **Call you when you go out late at night** *TODO*
- 
+
+{% include image.html class=2 lesson="05" name="Grid9" %}
+
+| **Smoke cigarettes** | **Get up early**  | **go to bed late** | **Eat a lot of candies** | 
+|    |      |     |     | 
+
+{% include image.html class=2 lesson="05" name="Grid10" %}
+
+| **Cook meals** | **Do the laundry**  | **Mop the floor** | **Feed the dog** | 
+|    |      |     |     | 
+
+{% include image.html class=2 lesson="05" name="Grid11" %}
+
+| **Make most of the decisions** | **Argue with you**  | **Call you when you go out late at night** | 
+|    |      |     |     | 
 
 
 

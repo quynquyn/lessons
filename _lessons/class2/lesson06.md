@@ -10,27 +10,56 @@ layout: lesson
 
 ### What can you do there?
 
-1. **Go sightseeing / Enjoy the beauty of the landscape /** *Đi ngắm cảnh/ Tận hưởng vẻ đẹp của phong cảnh*
-2. **Visit the museum / monument / aquarium / night market / white sandy beaches** *Thăm viện bảo tàng/ tượng đài/ thủy cung/ chợ đêm*
-3. **Build sandcastles** *Xây lâu đài cát*
-4. **Watch the wildlife** *Ngắm cuộc sống hoang dã*
-5. **Get a tan / get tanned skin** *Tắm nắng cho ngăm da*
-6. **Explore caves** *Thám hiểm hang động*
-7. **Go hiking** *Đi bộ leo núi*
-8. **Ride a cable Car** *Đi cáp treo*
-9. **Wander the bustling streets** *Lang thang trên đường phố đông đúc*
-10. **Try local food** *Ăn thực phẩm địa phương*
+{% include image.html class=2 lesson="06" name="Grid1" %}
+
+| **Go sightseeing** | **Enjoy the beauty of the landscape**  | **Visit the museum** | **monument** | 
+|  *Đi ngắm cảnh*  |    *Tận hưởng vẻ đẹp của phong cảnh*   |  *Thăm viện bảo tàng*   |   *tượng đài*  | 
+
+
+{% include image.html class=2 lesson="06" name="Grid2" %}
+
+| **Aquarium** | **night market**  | **white sandy beaches** | **Build sandcastles** | 
+|  *thủy cung*  |    *chợ đêm*   |  **   |   *Xây lâu đài cát*  | 
+
+{% include image.html class=2 lesson="06" name="Grid3" %}
+
+| **Watch the wildlife** | **Get a tan**  | **get tanned skin** | **Explore caves** | 
+|  *Ngắm cuộc sống hoang dã*  |    *Tắm nắng cho ngăm da*   |  **   |   *Thám hiểm hang động*  | 
+
+
+{% include image.html class=2 lesson="06" name="Grid4" %}
+
+| **Go hiking** | **Ride a cable Car**  | **Wander the bustling streets** | **Try local food** | 
+|  *Đi bộ leo núi*  |    *Đi cáp treo*   |  *Lang thang trên đường phố đông đúc*   |   *Ăn thực phẩm địa phương*  | 
+
+
 
 ### Purpose 
+
+
+
+
+
+
 **I travel there to...**
+
+{% include image.html class=2 lesson="06" name="Grid5" %}
 
 1. **Find a quiet place to avoid the noise of the city** *Tìm nơi yên tĩnh để tránh sự ồn ào của thành phố*
 2. **Take pictures and capture the moments** *Chụp hình và chụp những khoảnh khắc*
 3. **Learn about the world** *Học thêm về thế giới*
 4. **Know more about other countries and regions** *Biết hơn về những đất nước và vùng miền khác*
+
+{% include image.html class=2 lesson="06" name="Grid6" %}
+
+
 5. **Visit friends / relatives** *Thăm bạn bè/ họ hàng*
 6. **Take a break from work** *Giải lao cho công việc*
-7. **Go on vacation/ go on a business trip** *Đi kì nghỉ/ Đi công tác*
+7. **Go on vacation** *Đi kì nghỉ*
+
+{% include image.html class=2 lesson="06" name="Grid7" %}
+
+7. **go on a business trip** *Đi công tác*
 8. **Learn about new cultures and explore new places.** *Học về những văn hóa mới và thám hiểm những nơi mới*
    
 
