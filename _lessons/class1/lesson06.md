@@ -7,44 +7,45 @@ layout: lesson
 
 ## Vocabulary
 
-{% include image.html class=1 lesson="06" name="TEST" %}
+
+{% include image.html class=1 lesson="06" name="Grid1" %}
 
 | **Know how to make a cake** | **Plant a tree**  | **Lock a door** | **Color a picture** |  
 |    |       |     |     | 
 
-{% include image.html class=1 lesson="06" name="TEST" %}
+{% include image.html class=1 lesson="06" name="Grid2" %}
 
 | **Sneeze** | **Snore** | **Yawn** | 
 |    |       |     |
 
 
-{% include image.html class=1 lesson="06" name="TEST" %}
+{% include image.html class=1 lesson="06" name="Grid3" %}
 
 | **Mop the floor** | **Wash my clothes**  | **Brush my teeth**  | **Comb my hair** |  
 |    |       |     |     | 
 
 
-{% include image.html class=1 lesson="06" name="TEST" %}
+{% include image.html class=1 lesson="06" name="Grid4" %}
  
 | **Change my mind** | **Follow the crowd** | **Sing a song**  | **Clap one’s hands**  |
  |    |       |     |     | 
  
-{% include image.html class=1 lesson="06" name="TEST" %}
+{% include image.html class=1 lesson="06" name="Grid5" %}
  
 | **Make a decision** | **Give someone a hug**  | **Make a wish**  | **Borrow money** |  
 |    |       |     |     | 
 
-{% include image.html class=1 lesson="06" name="TEST" %}
+{% include image.html class=1 lesson="06" name="Grid6" %}
  
-| **Have a crush on someone** | **Cheat on someone** | **Make a wish**  | **Yell at someone** | 
-|    |       |     |     | 
+| **Have a crush on someone** | **Cheat on someone** | **Yell at someone** | 
+|    |     |     | 
 
-{% include image.html class=1 lesson="06" name="TEST" %}
+{% include image.html class=1 lesson="06" name="Grid7" %}
  
 | **Always** | **Usually** | **Often**  | **Sometimes** |  
 |    |       |     |     | 
 
-{% include image.html class=1 lesson="06" name="TEST" %}
+{% include image.html class=1 lesson="06" name="Grid8" %}
 
 | **Rarely** | **Never** | 
 |    |       | 
@@ -94,9 +95,9 @@ layout: lesson
 *- Có phải bạn của bạn sống ở Hà Nội không?*  
 *- Phải, họ sống ở Hà Nội*  
   
-9. **Does a three-year-old kid know how to brush his teeth?**
-**No, a three-year-old kid doesn't know how to brush his teeth. But a four-year-old kid knows how to to brush his   teeth**
-*-Một đứa trẻ 3 tuổi có biết đánh răng không?*  
+9. **Does a three-year-old kid know how to brush his teeth?**  
+**No, a three-year-old kid doesn't know how to brush his teeth. But a four-year-old kid knows how to to brush his teeth**  
+*-Một đứa trẻ 3 tuổi có biết đánh răng không?*   
 *-Không, Một đứa trẻ 3 tuổi không biết đánh răng. Nhưng một đứa trẻ 4 tuổi biết đánh răng rôi*  
   
 10. **Does your friend have a crush on me?**  
