@@ -9,34 +9,47 @@ layout: lesson
 
 ## Vocabulary
 
-### What’s your favorite kind of movies?
-1. **Accountants** *Kế toán*
-2. **Bakers** *Thợ làm bánh*
-3. **Barbers** *Người hớt tóc nam*
-4. **Barmen/women** *Người pha chế*
-5. **Butchers** *Người bán thịt heo*
-6. **Chambermaids** *Người dọn phòng*
-7. **Chefs** *Đầu bếp trưởng*
-8. **Dentists** *Nha sĩ*
-9. **Doctors** *Bác sĩ*
-10. **Fishmongers** *Người bán cá*
-11. **Flight attendants** *Tiếp viên hàng không*
-12. **Hairdressers** *Người làm tóc*
-13. **Judges** *Quan tòa*
-14. **Lawyers** *Luật sư*
-15. **Nurses** *Y tá*
-16. **Opticians** *Bác sĩ mắt*
-17. **Porters** *Người khuân vác*
-18. **Receptionists** *Tiếp tân*
-19. **Sales Assistants** *Trợ lí bán hàng*
-20. **Secretaries** *Thư kí*
-21. **Surgeons** *Bác sĩ phẩu thuật*
-22. **Tailors** *Thợ may*
-23. **Teachers** *Giáo viên*
-24. **Technicians** *Kĩ thuật viên*
-25. **Vets** *Bác sĩ thú y*
-26. **Waiters/Waitresses** *Phụ vụ nam/ nữ*
-27. **Welders** *Thợ hàn*
+### What’s your favorite kind of job?
+
+{% include image.html class=2 lesson="07" name="Grid1" %}
+
+| **Accountants** | **Bakers**  | **Barbers**  | **Barmen/women**  | 
+| *Kế toán* | *Thợ làm bánh* | *Người hớt tóc nam* | *Người pha chế* |
+
+
+{% include image.html class=2 lesson="07" name="Grid2" %}
+
+| **Butchers** | **Chambermaids**  |**Chefs** |**Dentists** |
+|  *Người bán thịt heo* |  *Người dọn phòng* |  *Đầu bếp trưởng*  | *Nha sĩ* |
+
+{% include image.html class=2 lesson="07" name="Grid3" %}
+
+| **Doctors**  |  **Fishmongers**|  **Flight attendants**  |  **Hairdressers**  | 
+| *Bác sĩ* | *Người bán cá* | *Tiếp viên hàng không* |  *Người làm tóc* |
+
+
+
+{% include image.html class=2 lesson="07" name="Grid4" %}
+
+| **Judges** | **Lawyers**| **Nurses**| **Opticians** | 
+| *Quan tòa* | *Luật sư* | *Y tá* | *Bác sĩ mắt* |
+
+{% include image.html class=2 lesson="07" name="Grid5" %}
+
+| **Porters** | **Receptionists**| **Sales Assistants** | **Secretaries** | 
+| *Người khuân vác* | *Tiếp tân*  |*Trợ lí bán hàng*  |  *Thư kí*  | 
+
+
+{% include image.html class=2 lesson="07" name="Grid6" %}
+
+| **Surgeons**  | **Tailors** | **Teachers**|**Technicians** |
+| *Bác sĩ phẩu thuật* |  *Thợ may*  | *Giáo viên*  |*Kĩ thuật viên* | 
+
+{% include image.html class=2 lesson="07" name="Grid7" %}
+
+| **Vets** | **Waiters / Waitresses**| **Welders**| 
+| *Bác sĩ thú y*| *Phụ vụ nam / nữ* | *Thợ hàn* |
+
 
 {% include player.html identifier="lesson-conversation" lesson="C2L07" file="C2L07-Conversation.mp3" %}
 ## Conversation
