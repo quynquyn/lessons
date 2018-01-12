@@ -14,7 +14,7 @@ collections:
     output: true
 include: ['.htaccess']
 exclude: [not-in-git, node_modules, artwork, csv_to_html]
-trialdeploy: false
+trialdeploy: true
 
 
 

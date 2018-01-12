@@ -51,7 +51,7 @@ layout: lesson
 
 {% include image.html class=1 lesson="14" name="Grid1" %}
 
-| **September** | **Octber**  | **November**  | **December**  | 
+| **September** | **October**  | **November**  | **December**  | 
 | *Kế toán* | *Thợ làm bánh* | *Người hớt tóc nam* | *Người pha chế* |
 
 ### Frequency
@@ -116,9 +116,13 @@ layout: lesson
 3. **When do you finish school?** **I finish school at half past five**
 4. **When does the class start?** **The class starts at a quarter to seven**
 5. **When do you have lunch?** **I have lunch at noon**
-6. **When do you feel happy?** **I feel happy whenever I hang out with my friends and family**
-7. **When do you feel sad?** **I feel sad whenever I think about my ex boyfriend**
-8. **When do you get angry?** **I get angry every time I talk to the crazy girl**
-9. **When do you intend to get married?** **I intend to get married after I become financially stable**
-10. **When do you get disappointed?** **I get disappointed every time you lie to me**
+6. **When does the sun rise?** **The sun rises in the morning**
+7. **When do flowers bloom?** **Flowers bloom in Spring**
+8. **When do the tree leaves change color and fall?** **It happens in Autumn**
+9. **When do people go back to their hometown and reunite with their families?** **It happens on Tet holiday**
+10. **When do you feel happy?** **I feel happy whenever I hang out with my friends and family**
+11. **When do you feel sad?** **I feel sad whenever I think about my ex boyfriend**
+12. **When do you get angry?** **I get angry every time I talk to the crazy girl**
+13. **When do you intend to get married?** **I intend to get married after I become financially stable**
+14. **When do you get disappointed?** **I get disappointed every time you lie to me**
 
