@@ -2,6 +2,8 @@
 layout: lesson
 ---
 
+
+
 {% include player.html identifier="lesson-vocabulary" lesson="C1L05" file="C1L05-Vocabulary.mp3" %}
 # Lesson 1.5: Pronoun 
 
@@ -22,10 +24,12 @@ layout: lesson
 |    |       |     | 
 
 ### People in your family 
+
 {% include image.html class=1 lesson="05" name="Grid3" %}
 
 | **Father** | **Mother** | **Parents** | **Sister** | 
 |    |       |     |     | 
+
 
 
 {% include image.html class=1 lesson="05" name="Grid4" %}

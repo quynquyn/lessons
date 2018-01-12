@@ -3,7 +3,7 @@ layout: lesson
 ---
 
 {% include player.html identifier="lesson-vocabulary" lesson="C2L10" file="C2L04-Native-Vocabulary1.mp3" %}
-# Lesson 2.10: Surfing the Internet
+# Lesson 2.14: Friendship
 
 ## Vocabulary
 

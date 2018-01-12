@@ -74,4 +74,9 @@ layout: lesson
 3. **Is it easy to learn Japanese?** *Có dễ để học tiếng Nhật không?*
 4. **Is it interesting to talk to the teacher?** *Có phải nói chuyện với người giáo viên đó rất thú vị không?*
 5. **Is it bad to cry in public** *Có xấu khi khóc trước công cộng không?*
+6. **Is it terrible to get married without love?**
+*Có tệ khi phải kết hôn mà không có tình yêu không?*
+7. **Is it possible to speak English fluently when you don't practice it every day?**
+*Nói Tiếng Anh lưu loát khi bạn không thực hành mỗi ngày thì có thể nào không?*
+8. **Is it good to follow the crowd?** *Theo đám đông có tốt không?*
  

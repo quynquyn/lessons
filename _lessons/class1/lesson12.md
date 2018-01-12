@@ -7,69 +7,110 @@ layout: lesson
 
 
 ## Vocabulary 
-{% include player.html identifier="vocab-Animals" lesson="C1L01" file="C1L01-Animals.mp3" %}
+{% include player.html identifier="lesson-vocabulary" lesson="C1L01" file="C1L12-Vocabulary.mp3" %}
 
-{% include image.html class=1 lesson="01" name="Animals_1" %}
+{% include image.html class=1 lesson="01" name="C1L12-Grid1" %}
 
 | Shoe shop | Cinema   | Beach | Coffee shop |   
 
-{% include image.html class=1 lesson="01" name="Animals_2" %}
+{% include image.html class=1 lesson="01" name="C1L12-Grid2" %}
 
-| Disappointed with  | Satisfied with  | Impressed with | Addicted to  | 
+| Bakers  | School  | Restaurant | Church  | 
 
-{% include image.html class=1 lesson="01" name="Animals_2" %}
+{% include image.html class=1 lesson="01" name=" C1L12-Grid3" %}
 
-| Worried about  | Nervous about  | Good at | Bad at | 
+| Bank  | Hospital  | Supermarket | Factory | 
 
-{% include image.html class=1 lesson="01" name="Animals_2" %}
+{% include image.html class=1 lesson="01" name=" C1L12-Grid4" %}
 
-| angry about something/ angry at someone  | Tired of/ sick of  | Afraid of | full of |
+| Airport  | Hotel  | Bus Stop | Street |
 
-{% include image.html class=1 lesson="01" name="Animals_2" %}
+{% include image.html class=1 lesson="01" name=" C1L12-Grid5" %}
 
-| angry about / angry at someone  | Tired of/ sick of  | Afraid of | full of |
+| Drugstore  | Clothes Store | Kitchen  | Wall |
 
-{% include image.html class=1 lesson="01" name="Animals_2" %}
+{% include image.html class=1 lesson="01" name=" C1L12-Grid6" %}
 
-| Responsible for  | Known for  | Discouraged by | used to | sorry for | thankful for |
+| Park   | Bookstore  | Museum | Swimming Pool |
 
+{% include image.html class=1 lesson="01" name=" C1L12-Grid7" %}
 
+| Ground  | Hand | Fridge  | Trash Can |
 
-## 1. Examples
-{% include player.html identifier="vocab-conversation" lesson="C1L01" file="C1L10-Conversation.mp3" %}
+{% include image.html class=1 lesson="01" name=" C1L12-Grid8" %}
 
-1. **I am sorry for hurting your feelings** *Tôi xin lỗi vì làm tổn thương cảm giác của bạn* 
-2. **I am used to loneliness** *Tôi đã quen với cô đơn*
-3. **The accountant is not responsible for taking care of customers** *Người kế toán thì không chịu trách nhiệm cho việc chăm sóc khách hàng*
-4. **I am tired of waiting for him** *Tôi mệt mỏi vì chờ đợi anh ấy*
-5. **I am afraid of speaking in public** *Tôi sợ phải nói trước đám đông*
-6. **I am discouraged by what he said** *Tôi nản với những điều anh ta nói*
-7. **I am sick of doing homework every day** *Tôi phát ốm vì làm bài tập hằng ngày*
-8. **The restaurant is full of customers** *Nhà hàng thì đầy khách*
-9. **Claudia is known for being the most beautiful woman in town** *Claudia được biết đến như là người phụ nự đẹp nhất trong vùng* 
-10. **I am quite nervous about the presentation tomorrow** *Tôi khá hồi hộp về bài thuyết trình ngày mai*
+| Hair Salon  | Post Office | Library  |
+
+{% include image.html class=1 lesson="01" name=" C1L12-Grid9" %}
 
 
-## 2. Examples 
+
+
+
+## 1. Where 
+{% include player.html identifier="lesson-vocabulary" lesson="C1L01" file="C1L12-Vocabulary.mp3" %}
+
+1. - **Where is the restroom?** 
+- **The restroom is upstairs** 
+**
+2. - **Where is it?** 
+- **It's in the classroom**
+**
+3. - **Where are my cats?** 
+- **Your cars are under the tables**
+**
+4. - **Where are John and Jack?**
+- **They are behind the door**
+**
+5. - **Where is the restaurant?**
+- **The restaurant is across from the park**
+**
+6. - **Where is the library?** 
+- **The library is between the post office and the hair salon**
+**
+7. - **Where is the supermarket?** 
+- **The supermarket is far from here**
+**
+8. - **Where is the boy?**
+- **The boy is among the girls**
+**
+9. - **Where is my key?**.
+- **The key is in your hand**
+**
+10. - **Where is the birthday cake?**.
+- **It is in the fridge**
+**
+
+## 2. Where 
 {% include player.html identifier="vocab-Examples" lesson="C1L01" file="C1L10-Examples.mp3" %}
 
-1. **Are you angry at me?**
-*Bạn đang giận tôi hả?*  
-2. **Is the manager responsible for contacting customers?**
-*Có phải người giám đốc chịu trách nhiệm cho việc liên lạc với khách hàng?*
-3. **Is the student good at learning languages?**.
-*Có phải người học sinh đó giỏi học ngôn ngữ không?*
-4. **Are you disappointed with the result of the exam?**
-*Có phải bạn thất vọng với kết quả của bài kiểm tra không?*
-5. **Are you interested in becoming a singer?**
-   *Bạn có hứng thú trở thành ca sĩ không?*
-6. **Is the secretary excited about the upcoming holiday?**
-*Cô thư kí đó có hào hứng về kì nghỉ sắp tới không?*
-7. **Are the man and the woman satisfied with the service at the hotel?**
-*Người đàn ông và phụ nữ đó có hài lòng với dịch vụ tại khách sạn không?*
-9. **Are you bored with doing the same job again and again?**
-*Bạn có chán với việc làm đi làm lại cùng một công việc không?*
-11. **Is she good at solving problems?**
-*Cô ta có giỏi giải quyết vấn đề không?*
-13. **Are you used to the terrible traffic jam in Saigon?**
-*Bạn có quen với giao thông kinh khủng ở Sài Gòn chưa?*
+1. - **Where do you usually go on your vacation, Robert?**
+- **I usually go to Canada in the summer**
+**  
+2. - **Where do you usually buy clothes?**
+- **I usually shop on the Internet**
+**
+3. - **Where do you usually go on the weekends?**.
+- **I usually stay home**
+**
+4. - **Where does your mother usually buy bread and cakes?**.
+- **She always buys bread and cakes at the baker's**
+**
+5. - **Where does your friend often borrow books?**.
+- **She usually borrows books at the library**
+**
+6. - **Where does the actor want to hold his wedding ceremony?**.
+- **He wants to hold his wedding ceremony at a church**
+**
+7. - **Where do your parents often celebrate a wedding anniversary?**
+- **They always celebrate a wedding anniversary at home but sometimes they want to celebrate it at a fancy restaurant**
+**
+8. - **Where does the singer keep his money?**.
+- **He keeps it in a bank**
+**
+9. - **Where does your uncle want to travel to?**
+- **He wants to travel to Europe**
+**
+10. -  **Where do you need to meet him?**
+- **I need to meet him in a coffee shop**
+**

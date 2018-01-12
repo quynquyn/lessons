@@ -1,5 +1,7 @@
 ---
 layout: lesson
+class: "2"
+lesson: "05"
 ---
 
 # Lesson 2.5: Family
@@ -9,41 +11,23 @@ layout: lesson
 
 
 
+
 ## Vocabulary
 
 ### What does your father do for a living?
 
-**He is a doctor / He works as a doctor**
 
-{% include image.html class=2 lesson="05" name="Grid1" %}
-
-| **Farmer** | **Baker**  | **Driver** | **Housewife** | 
-|  *Nông dân*  |    *Thợ làm bánh*   |  *Người lái xe*   |   *Bà nội trợ*  | 
-
-
-{% include image.html class=2 lesson="05" name="Grid2" %}
-
-| **Businessman** | **Cameraman**  | **Postman** | **Mechanic** | 
-|  *Doanh nhân*  |    *Người quay phim*   |  *Người đưa thư*   |   *Thợ sửa máy móc*  | 
-
-
-{% include image.html class=2 lesson="05" name="Grid3" %}
-
-| **Receptionist** | **Dentist**  | **Artist** | **Supervisor** | 
-|  *Tiếp tân*  |    *Nha sĩ*   |  *Nghệ sĩ*   |   *Người giám sát*  | 
-
-
-{% include image.html class=2 lesson="05" name="Grid4" %}
-
-| **Professor** |
-| *Giáo sư* |
-
-
-
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 
 ### What is your father like?
+
+
 
 **My father is...**
 
@@ -68,6 +52,7 @@ layout: lesson
 
 | **Hot-tempered** | **Even - tempered**  | **Mature** | **Childish** | 
 |  *Nóng tính*  |    *Điềm tĩnh*   |  *Trưởng thành*   |   *Con nít*  | 
+
 
 
 ### Other things parents do
@@ -112,7 +97,6 @@ layout: lesson
 {% include player.html identifier="lesson-explanation" lesson="C2L05" file="C2L05-Native-Explanation.mp3" %}
 ## Explanation
 
-
 ### 1. He’s going to give me a ride home
 
 Anh ta sẽ cho tôi quá giang về nhà 
@@ -121,6 +105,14 @@ Anh ta sẽ cho tôi quá giang về nhà
 
 - **He's going to propose to her** *Anh ta sẽ cầu hôn cô ấy*
 - **He's going to study abroad** *Anh ta sẽ đi du học*
+
+{% if site.trialdeploy %}
+	{% include explanation_placeholder.html start=2 stop=6 %}
+	{% else %}
+
+
+
+
 
 ### 2. What does your father do for a living??
 
@@ -161,3 +153,5 @@ Nhà bạn có đông không?
 - **Do you have a big family?** *Nhà bạn có đông không?*
 - **Do you have any siblings?** *Bạn có anh chị em gì không?*
 - **How many people are there in your family?** *Nhà bạn có bao nhiêu người?*
+
+{% endif %}
