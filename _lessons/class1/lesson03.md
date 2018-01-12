@@ -1,5 +1,7 @@
 ---
 layout: lesson
+class: "1"
+lesson: "03"
 ---
 
 # Lesson 1.3. Noun + verb (what + do)

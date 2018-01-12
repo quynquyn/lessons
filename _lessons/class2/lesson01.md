@@ -1,6 +1,8 @@
 ---
 layout: lesson
 audiofile: https://englishletics.s3.amazonaws.com/audio/dialogue_greetings_01.mp3
+class: "2"
+lesson: "01"
 ---
 
 # lesson 2.1: Hobbies 

@@ -1,5 +1,7 @@
 ---
 layout: lesson
+class: "2"
+lesson: "02"
 ---
 
 # Lesson 2: What I hate 

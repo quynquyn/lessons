@@ -1,5 +1,7 @@
 ---
 layout: lesson
+class: "2"
+lesson: "04"
 ---
 
 # Lesson 2.4: movies

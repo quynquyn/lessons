@@ -1,5 +1,7 @@
 ---
 layout: lesson
+class: "1"
+lesson: "04"
 ---
 
 # lesson 1.4: verb to verb 
