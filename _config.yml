@@ -14,8 +14,10 @@ collections:
     output: true
 include: ['.htaccess']
 exclude: [not-in-git, node_modules, artwork, csv_to_html]
-trialdeploy: true
-upgrade_level1: https://get.englishletics.com/product/english-beginner-course-5-weeks/
-upgrade_level2: https://get.englishletics.com/
+trialdeploy: false
+upgrade_level1: "#"
+upgrade_level2: "#"
+
+
 
 
