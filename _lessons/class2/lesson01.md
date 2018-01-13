@@ -3,6 +3,7 @@ layout: lesson
 audiofile: https://englishletics.s3.amazonaws.com/audio/dialogue_greetings_01.mp3
 class: "2"
 lesson: "01"
+salestext: "Free full version (3 days left)"
 ---
 
 # lesson 2.1: Hobbies 

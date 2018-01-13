@@ -1,5 +1,7 @@
 ---
 layout: lesson
+class: "2"
+lesson: "14"	
 ---
 
 {% include player.html identifier="lesson-vocabulary" lesson="C2L14" file="C2L14-Vocabulary.mp3" %}
@@ -15,12 +17,12 @@ layout: lesson
 
 {% include image.html class=2 lesson="14" name="Grid2" %}
 
-| **Housemate** | **Lifelong** | **Acquaintance** |**Mine**| 
+| **Housemate**  | **Acquaintance** | **A stranger** | 
 | | | | |
 
 {% include image.html class=2 lesson="14" name="Grid3" %}
 
-| **Close** | **Old** | **Best** |
+| **Close** | **Old** | **Best** | **Lifelong**
 | | | | 
 
 
@@ -33,12 +35,13 @@ layout: lesson
 ### Friends
 
 1. **A best friend**
-2. **A close friend**
-3. **A true friend**
-4. **A lifelong friend**
-5. **An acquaintance**
-6. **A fair-weather friend**
-7. **A stranger**
+2. **A pen friend**
+3. **A close friend**
+4. **A true friend**
+5. **A lifelong friend**
+6. **An acquaintance**
+7. **A fair-weather friend**
+8. **A stranger**
 
 
 ### Friendship

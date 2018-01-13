@@ -14,7 +14,10 @@ collections:
     output: true
 include: ['.htaccess']
 exclude: [not-in-git, node_modules, artwork, csv_to_html]
-trialdeploy: true
+trialdeploy: false
+upgrade_level1: "#"
+upgrade_level2: "#"
+
 
 
 

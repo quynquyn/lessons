@@ -1,5 +1,7 @@
 ---
 layout: lesson
+class: "1"
+lesson: "14"
 ---
 
 {% include player.html identifier="lesson-vocabulary" lesson="C1L14" file="C1L14-Vocabulary.mp3" %}
@@ -14,7 +16,7 @@ layout: lesson
 {% include image.html class=1 lesson="14" name="Grid1" %}
  
 | **Morning** | **Afternoon**  | **Evening**  | **Night**  | 
-| * * | * * | * * | * * |
+|  |  |  |  |
 
 ### Seasons
 

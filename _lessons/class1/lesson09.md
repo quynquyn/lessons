@@ -5,7 +5,10 @@ lesson: "09"
 ---
 
 
-{% include player.html identifier="vocab-Animals" lesson="C1L09" file="C1L09-Animals.mp3" %}
+{% include player.html identifier="lesson-vocabulary" lesson="C1L09" file="C1L09-Vocabulary.mp3" %}
+
+
+
 # Lesson 9: Comparison 
 
 
@@ -22,7 +25,8 @@ lesson: "09"
 | **Sensitive** | **Adventurous** | **Proud** | **Wild** |
 
 ## 1. Comparative
-{% include player.html identifier="vocab-Native-Dialogue" lesson="C1L09" file="C1L09-Native-Dialogue.mp3" %}
+{% include player.html identifier="lesson-ex1" lesson="C1L09" file="C1L09-Explanation1.mp3" %}
+
 1. **She is older than I am** *Cô ta lớn hơn tôi*
 2. **These shoes are more expensive than those shoes** *Những đối giày này thì mắc hơn những đôi giày đó*
 3. **I think this pizza tastes better than that pizza** *Tôi nghĩ cái bánh pizza này ăn ngon hơn cái bánh pizza kia*
@@ -35,7 +39,8 @@ lesson: "09"
 10. **Elephants have a better memory than crocodiles** *Voi có trí nhất tốt hơn cá sấu*
 
 ## 2. Superlative
-{% include player.html identifier="vocab-Native-Dialogue" lesson="C1L09" file="C1L09-Native-Dialogue.mp3" %}
+{% include player.html identifier="lesson-ex2" lesson="C1L09" file="C1L09-Explanation2.mp3" %}
+
 1. **This is the most expensive car I have every owned** *Đây là cái xe hơi đắt nhất mà tôi từng có*
 2. **Maria is one of the best players on the team** *Maria là một trong những người chơi giỏi nhất trong đội*
 3. **The coldest month of the year in Minnesota is January** *Tháng lạnh nhất của năm ở Minnesota là tháng một*

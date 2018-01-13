@@ -2,6 +2,7 @@
 layout: lesson
 class: "2"
 lesson: "04"
+salestext: "Free full version (last day)"
 ---
 
 # Lesson 2.4: movies

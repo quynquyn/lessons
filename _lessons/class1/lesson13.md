@@ -1,11 +1,11 @@
 ---
 layout: lesson
+class: "1"
+lesson: "13"
 ---
 
 {% include player.html identifier="lesson-vocabulary" lesson="C1L13" file="C1L13-Vocabulary.mp3" %}
 # Lesson 1.13: Who
-
-
 
 ## Vocabulary
 
@@ -108,6 +108,8 @@ layout: lesson
 13. - **Who is next to Mr.Jones?**
 - **Mrs.Jones is next to him**
 **- 
+
+{% include player.html identifier="lesson-ex" lesson="C1L13" file="C1L13-Examples.mp3" %}
 
 ## Example 
 1. - **Who do you want to talk to?**

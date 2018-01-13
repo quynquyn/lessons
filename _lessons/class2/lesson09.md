@@ -2,6 +2,11 @@
 layout: lesson
 class: "2"
 lesson: "09"
+
+test1: ### Styles  - *TODO*
+test1: ### Shopping place  - *TODO*
+test1: ### Have you ever - *TODO*
+
 ---
 
 {% include player.html identifier="lesson-vocabulary" lesson="C2L09" file="C2L09-Vocabulary.mp3" %}
@@ -10,79 +15,13 @@ lesson: "09"
 
 ## Vocabulary
 
-### Shopping items - *TODO*
+### Shopping items
 
-{% include image.html class=2 lesson="09" name="Grid1" %}
-
-| **Tie** |  **Hat** |  **cap**  |
-| *TODO* |  *TODO* |  *TODO*  |
-
-{% include image.html class=2 lesson="09" name="Grid2" %}
-
-| **Clothes** |  **shirt** |  **t–shirt** |  **tank top**  |  
-|  *TODO*  |    *TODO*  |    *TODO*  |    *TODO*  |
-
-{% include image.html class=2 lesson="09" name="Grid3" %}
-
-| **jacket** |  **sweater** |  **dress** |  **skirt** |  
-|  *TODO*  |    *TODO*  |    *TODO*  |    *TODO*  |
-
-{% include image.html class=2 lesson="09" name="Grid4" %}
-
-| **Jeans** |  **trousers** |  **shorts** |  **leggings** |  
-|    *TODO*  |    *TODO*  |    *TODO*  |    *TODO*  |
-
-{% include image.html class=2 lesson="09" name="Grid5" %}
-
-| **pants** |  **swimsuit** |  **underwear** |
-|     *TODO*  |    *TODO*  |    *TODO*  |
-
-{% include image.html class=2 lesson="09" name="Grid6" %}
-
-| **Shoes** | **sneakers** |  **high heels** |  **sandals** |
-|    *TODO*  |    *TODO*  |    *TODO*  |    *TODO*  |
-
-{% include image.html class=2 lesson="09" name="Grid7" %}
-
-| **Glasses** |  **sunglasses** |
-|    *TODO*  |    *TODO*  |
-
-
-### Styles  - *TODO*
-
-{% include image.html class=2 lesson="09" name="Grid8" %}
-
-| **Casual** | **Elegant**  |  **Conservative >< provocative**   |
-|     *TODO*  |       *TODO*  |        *TODO*  |
-  
-{% include image.html class=2 lesson="09" name="Grid9" %}
-
-| **Stylish = fashionable = trendy** |  **Shocking** | **Classic**  |
-|                     *TODO*  |        *TODO*  |    *TODO*  |
-
-{% include image.html class=2 lesson="09" name="Grid10" %}
-
-| **Glamorous**  | **traditional** | **Comfortable**  | **Old–fashioned** |
-|     *TODO*  |            *TODO*  |           *TODO*  |    *TODO*  |
-
-
-### Shopping place  - *TODO*
-
-{% include image.html class=2 lesson="09" name="Grid10" %}
-
-| **Shopping center/ mall** | **Clothes store/shop** | **Boutique**  |  **Thrift shop** |
-|     *TODO*  |    *TODO*  |    *TODO*  |    *TODO*  |
-
-
-### Have you ever - *TODO*
-
- - **Buy second -hand clothes**     *TODO* 
- - **Wear high heels**     *TODO*  
- - **Wear make – up**    *TODO*  
- - **Wear men’s clothes / women’s clothes / swimsuit**    *TODO*  
- - **Want to have a tattoo/ a pierced ear**    *TODO*  
- - **See a man who wears make – up / earrings**    *TODO*  
- - **Buy clothes on sales**    *TODO*  
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 

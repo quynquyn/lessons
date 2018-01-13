@@ -112,6 +112,10 @@ lesson: "05"
 *Kim thấy rắn / Kim ghét thấy rắn*  
 2. **The secretary studies English / The secretary tries to study English**   
 *Cô thư kí học Tiếng Anh / Cô Thư kí cố gắng học Tiếng Anh*
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html start=3 stop=7 %}
+	{% else %}
 3. **The engineer reserves a room / The engineer wants to reserve a room at a hotel**   
 *Người kĩ sư đặt phòng / Người kĩ sư muốn đặt phòng tại một khách sạn*
 4. **The student practices speaking English every day / The student needs to practice speaking English every day**  
@@ -122,7 +126,7 @@ lesson: "05"
 *Người kĩ sư đi du lịch Hàn Quốc / Người kĩ sư dự định đi du lịch Hàn Quốc khi anh ta có đủ tiền*
 7. **The accountant dances in her room / The accountant likes to dance in her room**   
 *Người kế toán nhảy trong phòng cô ấy / Người kế toàn thích nhảy trong phòng của cô ấy*  
-
+{% endif %}
 
 {% include player.html identifier="lesson-explanation2" lesson="C1L05" file="C1L05-Explanation2.mp3" %}
 ## 1. More examples: 
@@ -131,6 +135,11 @@ lesson: "05"
 *Con gái tôi cần làm bài thuyết trình trong lớp học*
 2. **The actor wants to break up with the waitress because he wants to ask the singer out**   
 *Người diễn viên nam muốn chia tay với cô gái phục vụ vì anh ta muốn mời cô ca sĩ đi hẹn hò*
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html start=3 stop=6 %}
+	{% else %}
+
 3. **His wife washes clothes and he watches TV**  
  *Vợ anh ta giặt quần áo và anh ta xem TV*
 4. **The dog chases cats**  
@@ -139,3 +148,5 @@ lesson: "05"
 *Người nha sĩ phải nói chuyện với người phụ nữ*
 6. **The child gets up at 6AM. And then, she brushes her teeth and washes her face**  
 *Đứa bé thức dậy lúc 6 giờ. Sau đó, bé đánh răng và rửa mặt*
+{% endif %}
+

@@ -7,8 +7,8 @@ lesson: "11"
 
 # lesson 1.11: Review 
 
-## 1. yes/ no questions
-{% include player.html identifier="vocab-Animals" lesson="C1L01" file="C1L01-Animals.mp3" %}
+## 1. yes / no questions
+{% include player.html identifier="lesson-vocab" lesson="C1L01" file="C1L11-Vocabulary.mp3" %}
 
 1.  **Do you need this pen?** *Bạn có cần cây bút này không?*
 2.  **Is he the most talented person?** *Có phải anh ta là người tài năng nhất không?*
@@ -32,7 +32,7 @@ lesson: "11"
 20. **Do your parents live in HCMC?** *Có phải bố mẹ bạn sống ở thành phố HCM không?*
 
 ## 2. So/ such
-{% include player.html identifier="vocab-Animals" lesson="C1L01" file="C1L01-Animals.mp3" %}
+{% include player.html identifier="lesson-ex1" lesson="C1L01" file="C1L11-Explanation1.mp3" %}
 
 1. **You are such a good friend** *Bạn thật là người bạn tốt*
 2. **Russia is such a big country** *Nga quả là một đất nước lớn*
@@ -47,7 +47,7 @@ lesson: "11"
 11. **The question is so easy** *Câu hỏi quá dễ*
 
 ## 3. comparison
-{% include player.html identifier="vocab-Animals" lesson="C1L01" file="C1L01-Animals.mp3" %}
+{% include player.html identifier="lesson-ex2" lesson="C1L01" file="C1L11-Explanation2.mp3" %}
 1.  **My house is bigger than yours.** *Nhà tôi thì to hơn nhà bạn*
 2.  **This flower is more beautiful than that one.** *Hoa này thì đẹp hơn hoa kia*
 3.  **This is the most interesting book I have ever read.** *Đây là quyển sách thú vị nhất mà tôi từng đọc*
@@ -60,7 +60,7 @@ lesson: "11"
 10.  **He was the smartest thief of all** *Anh ta là tên cướp thông minh nhất*
 
 ## 4. There is/ there are
-{% include player.html identifier="vocab-Animals" lesson="C1L01" file="C1L01-Animals.mp3" %}
+{% include player.html identifier="lesson-ex3" lesson="C1L01" file="C1L11-Explanation3.mp3" %}
 
 1. **Are there any crocodiles in the lake?** *Có con cá sấu này trong hồ không?*
 2. **Are there any museums in district 7?** *Có viện bảo tàng nào trong quận 7 không?*
@@ -69,7 +69,7 @@ lesson: "11"
 5. **Is there any water in the bottle?** *Có miếng nước nào trong chai nước không?*
 
 ## 5. It is Adjective to Verb
-{% include player.html identifier="vocab-Animals" lesson="C1L01" file="C1L01-Animals.mp3" %}
+{% include player.html identifier="lesson-ex4" lesson="C1L01" file="C1L11-Explanation4.mp3" %}
 
 1. **Is it stupid to love a married man?** *Thật ngu ngốc khi yêu một người đàn ông đã có vợ phải không?*
 2. **Is it crazy to quit such a good job?** *Thật ngu ngốc khi nghỉ việc tốt như vậy phải không*

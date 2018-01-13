@@ -5,35 +5,44 @@ lesson: "10"
 ---
 
 
-# Lesson 1.10: ADJECTIVE + PREPOSISTION 
+# Lesson 1.10: Adjective + Preposition 
 
 
 ## Vocabulary 
-{% include player.html identifier="vocab-Animals" lesson="C1L01" file="C1L01-Animals.mp3" %}
+{% include player.html identifier="lesson-vocabulary" lesson="C1L01" file="C1L10-Vocabulary.mp3" %}
+
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+
+
+
 
 {% include image.html class=1 lesson="01" name="Animals_1" %}
 
-| Excited about | Interested in   | Bored with | Happy with   
+| **Excited about** | **Interested in**   | **Bored with** | **Happy with**   
 
 {% include image.html class=1 lesson="01" name="Animals_2" %}
 
-| Disappointed with  | Satisfied with  | Impressed with | Addicted to  | 
+| **Disappointed with**  | **Satisfied with**  | **Impressed with** | **Addicted to**  | 
 
 {% include image.html class=1 lesson="01" name="Animals_2" %}
 
-| Worried about  | Nervous about  | Good at | Bad at | 
+| **Worried about**  | **Nervous about**  | **Good at** | **Bad at** | 
 
 {% include image.html class=1 lesson="01" name="Animals_2" %}
 
-| angry about something/ angry at someone  | Tired of/ sick of  | Afraid of | full of |
+| **angry about something / angry at someone**  | **Tired of / sick of**  | **Afraid of** | **full of** |
 
 {% include image.html class=1 lesson="01" name="Animals_2" %}
 
-| angry about / angry at someone  | Tired of/ sick of  | Afraid of | full of |
+| **angry about / angry at someone** | **Tired of/ sick of**  | **Afraid of** | **full of** |
 
 {% include image.html class=1 lesson="01" name="Animals_2" %}
 
-| Responsible for  | Known for  | Discouraged by | used to | sorry for | thankful for |
+| **Responsible for**  | **Known for**  | **Discouraged by** | **used to** | **sorry for** | **thankful for** |
 
 
 
@@ -53,7 +62,7 @@ lesson: "10"
 
 
 ## 2. Examples 
-{% include player.html identifier="vocab-Examples" lesson="C1L01" file="C1L10-Examples.mp3" %}
+{% include player.html identifier="vocab-examples" lesson="C1L01" file="C1L10-Examples.mp3" %}
 
 1. **Are you angry at me?**
 *Bạn đang giận tôi hả?*  

@@ -9,8 +9,16 @@ lesson: "06"
 
 
 ## Vocabulary
-
 ### What can you do there?
+
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+
+
+
 
 {% include image.html class=2 lesson="06" name="Grid1" %}
 
@@ -37,8 +45,6 @@ lesson: "06"
 
 
 ### Purpose 
-
-
 
 
 
@@ -96,6 +102,12 @@ Tôi cần mua một cái gối du lịch tại sân bay
 - **I want to buy new shoes** *Tôi cần mua đôi giày mới*
 - **My mother tries to call me** **Mẹ tôi cố gắng gọi điện cho tôi*
 
+{% if site.trialdeploy %}
+	{% include explanation_placeholder.html start=2 stop=6 %}
+	{% else %}
+
+
+
 ### 2. This is your first overseas trip
 
 Đây là chuyến đi nước ngoài đầu tiên của bạn
@@ -141,3 +153,6 @@ Nó là cách tốt nhất để tìm một nơi yên tĩnh
 - **It's the best way to ask him** *Nó là cách tốt nhất để hỏi anh ấy*
 - **It's the best way to get success** *Nó là cách tốt nhất để đạt thành công*
 - **It's the worst way to break up with someone** *Nó là cách tệ nhất để chia tay ai đó*
+
+
+{% endif %}

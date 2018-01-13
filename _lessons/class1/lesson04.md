@@ -2,6 +2,7 @@
 layout: lesson
 class: "1"
 lesson: "04"
+salestext: "Free full version (last day)"
 ---
 
 # lesson 1.4: verb to verb 

@@ -1,5 +1,7 @@
 ---
 layout: lesson
+class: "1"
+lesson: "12"
 ---
 
 
@@ -11,35 +13,35 @@ layout: lesson
 
 {% include image.html class=1 lesson="01" name="C1L12-Grid1" %}
 
-| Shoe shop | Cinema   | Beach | Coffee shop |   
+| **Shoe shop** | **Cinema**   | **Beach** | **Coffee shop** |   
 
 {% include image.html class=1 lesson="01" name="C1L12-Grid2" %}
 
-| Bakers  | School  | Restaurant | Church  | 
+| **Bakers**  | **School**  | **Restaurant** | **Church**  | 
 
 {% include image.html class=1 lesson="01" name=" C1L12-Grid3" %}
 
-| Bank  | Hospital  | Supermarket | Factory | 
+| **Bank**  | **Hospital**  | **Supermarket** | **Factory** | 
 
 {% include image.html class=1 lesson="01" name=" C1L12-Grid4" %}
 
-| Airport  | Hotel  | Bus Stop | Street |
+| **Airport**  | **Hotel**  | **Bus Stop** | **Street** |
 
 {% include image.html class=1 lesson="01" name=" C1L12-Grid5" %}
 
-| Drugstore  | Clothes Store | Kitchen  | Wall |
+| **Drugstore**  | **Clothes Store** | **Kitchen**  | **Wall** |
 
 {% include image.html class=1 lesson="01" name=" C1L12-Grid6" %}
 
-| Park   | Bookstore  | Museum | Swimming Pool |
+| **Park**   | **Bookstore**  | **Museum** | **Swimming Pool** |
 
 {% include image.html class=1 lesson="01" name=" C1L12-Grid7" %}
 
-| Ground  | Hand | Fridge  | Trash Can |
+| **Ground**  | **Hand** | **Fridge**  | **Trash Can** |
 
 {% include image.html class=1 lesson="01" name=" C1L12-Grid8" %}
 
-| Hair Salon  | Post Office | Library  |
+| **Hair Salon**  | **Post Office** | **Library**  |
 
 {% include image.html class=1 lesson="01" name=" C1L12-Grid9" %}
 
@@ -48,7 +50,7 @@ layout: lesson
 
 
 ## 1. Where 
-{% include player.html identifier="lesson-vocabulary" lesson="C1L01" file="C1L12-Vocabulary.mp3" %}
+{% include player.html identifier="lesson-ex1" lesson="C1L01" file="C1L12-Explanation1.mp3" %}
 
 1. - **Where is the restroom?** 
 - **The restroom is upstairs** 
@@ -82,7 +84,7 @@ layout: lesson
 **
 
 ## 2. Where 
-{% include player.html identifier="vocab-Examples" lesson="C1L01" file="C1L10-Examples.mp3" %}
+{% include player.html identifier="lesson-ex2" lesson="C1L01" file="C1L12-Explanation2.mp3" %}
 
 1. - **Where do you usually go on your vacation, Robert?**
 - **I usually go to Canada in the summer**

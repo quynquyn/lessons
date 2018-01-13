@@ -9,10 +9,9 @@ lesson: "10"
 
 ## Vocabulary
 
-### Purpose - *TODO*
+### Purpose
 
-
-#### For fun - *TODO*
+#### For fun
 
 {% include image.html class=2 lesson="10" name="Grid1" %}
 
@@ -24,7 +23,7 @@ lesson: "10"
 |  **To play online games**  | **To chat with my friends** |
 | *TODO* |  *TODO* | 
 
-#### For education  - *TODO*
+#### For education
 {% include image.html class=2 lesson="10" name="Grid1" %}
 
  - **To read news** *TODO*
@@ -32,7 +31,7 @@ lesson: "10"
  - **To check e-mails** *TODO*
 
 
-#### For other purposes - *TODO*
+#### For other purposes
 {% include image.html class=2 lesson="10" name="Grid1" %}
 
 - **To order/buy/ sell/ advertise products online (food, clothes, cosmetics…)** *TODO*
@@ -45,7 +44,7 @@ lesson: "10"
 
 
 
-{% include player.html identifier="lesson-conversation" lesson="C2L10" file="C2L10-Native-Explanations1.mp3" %}
+{% include player.html identifier="lesson-conversation" lesson="C2L10" file="C2L10-Conversation.mp3" %}
 ## Conversation
 
 > Person1: 	**What are you doing? Are you busy?**
@@ -56,7 +55,7 @@ lesson: "10"
 > Person2: 	**I often use it to play games. A lot of my friends watch movies, but I find the screen too small.**
 > Person1:	**Do you use it for social networking?**
 > Person2: 	**Sure, all the time. Say, I don’t think we’re friends online**
-> Person1: **How many hours a day do you use the internet?**
+> Person1: **How many hours a day do you use the Internet?**
 > Person2: **10 hours a day, I guess.**
 > Person1: **Really? Then I think you are definitely addicted to it. When did you first use the Internet?**
 > Person2: **I’m not really sure. Maybe I first used it when I was 12**
@@ -68,7 +67,7 @@ lesson: "10"
 
 
 
-{% include player.html identifier="lesson-explanations" lesson="C2L10" file="C2L10-Native-Explanation.mp3" %}
+{% include player.html identifier="lesson-explanations" lesson="C2L10" file="C2L10-Explanation.mp3" %}
 
 
 ## Explanations

@@ -1,9 +1,11 @@
 ---
 layout: lesson
+class: "2"
+lesson: "11"
 ---
 
-{% include player.html identifier="lesson-vocabulary" lesson="C2L08" file="C2L08-Vocabulary.mp3" %}
-# Lesson 2.11: APPEARANCE  
+{% include player.html identifier="lesson-vocabulary" lesson="C2L11" file="C2L11-Vocabulary.mp3" %}
+# Lesson 2.11: Appearance  
 
 
 
@@ -79,15 +81,15 @@ layout: lesson
 
 
 
+{% include player.html identifier="lesson-mono" lesson="C2L11" file="C2L11-Monologue.mp3" %}
 ## Describe someone's appearance 
-{% include player.html identifier="lesson-vocabulary" lesson="C2L08" file="C2L08-Vocabulary.mp3" %}
 
 **Let me introduce my ex - boyfriend. He is Daniel. He is a quite handsome man. He is in his mid – twenties, but he looks young for his age. He is of medium – height and well – built. He has a square face with brown eyes,  a straight nose and full lips. He has short black wavy hair.  He looks even more attractive with his glasses. I’ve always thought he bears a striking resemblance to someone on TV. He cut himself climbing a tree when he was ten and he's got a scar just below his ear. Oh, I wish he were here. I miss him so such**
 
 
 
 
-{% include player.html identifier="lesson-explanation" lesson="C2L08" file="C2L08-Explanation.mp3" %}
+{% include player.html identifier="lesson-explanation" lesson="C2L11" file="C2L11-Explanation.mp3" %}
 ## Explanation
 
 

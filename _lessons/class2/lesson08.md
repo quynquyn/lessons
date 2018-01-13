@@ -7,6 +7,12 @@ lesson: "08"
 {% include player.html identifier="lesson-vocabulary" lesson="C2L08" file="C2L08-Vocabulary.mp3" %}
 # Lesson 2.8: Working life 
 
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+
 
 
 ## Vocabulary

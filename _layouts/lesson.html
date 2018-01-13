@@ -7,9 +7,20 @@ body_classes:
       <a class="navbar-brand" href="#">EnglishLetics</a>
 
 
+    {% if site.trialdeploy %}
       <span class="navbar-text offer">
-        <a class="nav-link" href="/daily/pages/offers/businessenglish.html">English for<br/><strong>Business</strong></a>
+        {{page.salestext | default:"Free version"}}
+        
+        
+        {% if page.class == "1" %}
+          <a class="nav-link" href="{{ site.upgrade_level1 }}">Upgrade now</a>
+        {% else %}
+          <a class="nav-link" href="{{ site.upgrade_level2 }}">Upgrade now</a>
+        {% endif %}
+        
       </span>
+    {% endif %}
+    
   
        
     </nav>

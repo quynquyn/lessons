@@ -2,6 +2,7 @@
 layout: lesson
 class: "1"
 lesson: "03"
+salestext: "Free full version (1 days left)"
 ---
 
 # Lesson 1.3. Noun + verb (what + do)

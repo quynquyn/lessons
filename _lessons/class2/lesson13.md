@@ -1,5 +1,7 @@
 ---
 layout: lesson
+class: "2"
+lesson: "13"	
 ---
 
 {% include player.html identifier="lesson-vocabulary" lesson="C2L13" file="C2L13-Vocabulary.mp3" %}
