@@ -6360,9 +6360,10 @@ nav.el-offer-bar {
   background-color: #C52033 !important; }
   nav.el-offer-bar .navbar-brand {
     color: white; }
-  nav.el-offer-bar .nav-link, nav.el-offer-bar .navbar-text {
-    color: white;
+  nav.el-offer-bar .nav-item, nav.el-offer-bar .nav-link, nav.el-offer-bar .navbar-text {
     padding: 0; }
+    nav.el-offer-bar .nav-item, nav.el-offer-bar .nav-item:visited, nav.el-offer-bar .nav-item:hover, nav.el-offer-bar .nav-item:active, nav.el-offer-bar .nav-link, nav.el-offer-bar .nav-link:visited, nav.el-offer-bar .nav-link:hover, nav.el-offer-bar .nav-link:active, nav.el-offer-bar .navbar-text, nav.el-offer-bar .navbar-text:visited, nav.el-offer-bar .navbar-text:hover, nav.el-offer-bar .navbar-text:active {
+      color: white; }
   nav.el-offer-bar .navbar-brand, nav.el-offer-bar .nav-link {
     font-size: 80%; }
 
