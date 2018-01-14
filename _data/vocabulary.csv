@@ -1,86 +1,88 @@
-class,lesson,word_en,word_vn,image_name,image_url
-2,05,Farmer,Nông dân,C2L05-Farmer.jpg,class2/images/C2L05-Farmer.jpg
-2,05,Baker,Thợ làm bánh,C2L05-Baker.jpg,class2/images/C2L05-Baker.jpg
-2,05,Driver,Người lái xe,C2L05-Driver.jpg,class2/images/C2L05-Driver.jpg
-2,05,Housewife,Bà nội trợ,C2L05-Housewife.jpg,class2/images/C2L05-Housewife.jpg
-2,05,Businessman,Doanh nhân,C2L05-Businessman.jpg,class2/images/C2L05-Businessman.jpg
-2,05,Cameraman,Người quay phim,C2L05-Cameraman.jpg,class2/images/C2L05-Cameraman.jpg
-2,05,Postman,Người đưa thư,C2L05-Postman.jpg,class2/images/C2L05-Postman.jpg
-2,05,Mechanic,Thợ sửa máy móc,C2L05-Mechanic.jpg,class2/images/C2L05-Mechanic.jpg
-2,05,Receptionist,Tiếp tân,C2L05-Receptionist.jpg,class2/images/C2L05-Receptionist.jpg
-2,05,Dentist,Nha sĩ,C2L05-Dentist.jpg,class2/images/C2L05-Dentist.jpg
-2,05,Artist,Nghệ sĩ,C2L05-Artist.jpg,class2/images/C2L05-Artist.jpg
-2,05,Supervisor,Người giám sát,C2L05-Supervisor.jpg,class2/images/C2L05-Supervisor.jpg
-2,05,Professor,Giáo sư,C2L05-Professor.jpg,class2/images/C2L05-Professor.jpg
-1,10,Excited About,,C1L10-Excited-About.jpg,class1/images/C1L10-Excited-About.jpg
-1,10,Interested In,,C1L10-Interested-In.jpg,class1/images/C1L10-Interested-In.jpg
-1,10,Bored With,,C1L10-Bored-With.jpg,class1/images/C1L10-Bored-With.jpg
-1,10,Happy With,,C1L10-Happy-With.jpg,class1/images/C1L10-Happy-With.jpg
-1,10,Disappointed With,,C1L10-Disappointed-With.jpg,class1/images/C1L10-Disappointed-With.jpg
-1,10,Satisfied With,,C1L10-Satisfied-With.jpg,class1/images/C1L10-Satisfied-With.jpg
-1,10,Impressed With,,C1L10-Impressed-With.jpg,class1/images/C1L10-Impressed-With.jpg
-1,10,Addicted To,,C1L10-Addicted-To.jpg,class1/images/C1L10-Addicted-To.jpg
-1,10,Worried About,,C1L10-Worried-About.jpg,class1/images/C1L10-Worried-About.jpg
-1,10,Nervous About,,C1L10-Nervous-About.jpg,class1/images/C1L10-Nervous-About.jpg
-1,10,Good At,,C1L10-Good-At.jpg,class1/images/C1L10-Good-At.jpg
-1,10,Bad At,,C1L10-Bad-At.jpg,class1/images/C1L10-Bad-At.jpg
-1,10,Angry About Something/ Angry at Someone,,C1L10-Angry-About-Something-Angry-at-Someone.jpg,class1/images/C1L10-Angry-About-Something-Angry-at-Someone.jpg
-1,10,Tired Of/ Sick Of,,C1L10-Tired-Of-Sick-Of.jpg,class1/images/C1L10-Tired-Of-Sick-Of.jpg
-1,10,Afraid Of,,C1L10-Afraid-Of.jpg,class1/images/C1L10-Afraid-Of.jpg
-1,10,Full Of,,C1L10-Full-Of.jpg,class1/images/C1L10-Full-Of.jpg
-1,10,Responsible For,,C1L10-Responsible-For.jpg,class1/images/C1L10-Responsible-For.jpg
-1,10,Known For,,C1L10-Known-For.jpg,class1/images/C1L10-Known-For.jpg
-1,10,Discouraged By,,C1L10-Discouraged-By.jpg,class1/images/C1L10-Discouraged-By.jpg
-1,10,Used To,,C1L10-Used-To.jpg,class1/images/C1L10-Used-To.jpg
-1,10,Sorry For,,C1L10-Sorry-For.jpg,class1/images/C1L10-Sorry-For.jpg
-1,10,Thankful For,,C1L10-Thankful-For.jpg,class1/images/C1L10-Thankful-For.jpg
-2,09,Tie,,C2L09-Tie.jpg,class2/images/C2L09-Tie.jpg
-2,09,Hat,,C2L09-Hat.jpg,class2/images/C2L09-Hat.jpg
-2,09,Cap,,C2L09-Cap.jpg,class2/images/C2L09-Cap.jpg
-2,09,Clothes,,C2L09-Clothes.jpg,class2/images/C2L09-Clothes.jpg
-2,09,Shirt,,C2L09-Shirt.jpg,class2/images/C2L09-Shirt.jpg
-2,09,T-shirt,,C2L09-T-shirt.jpg,class2/images/C2L09-T-shirt.jpg
-2,09,Tank-top,,C2L09-Tank-top.jpg,class2/images/C2L09-Tank-top.jpg
-2,09,Jacket,,C2L09-Jacket.jpg,class2/images/C2L09-Jacket.jpg
-2,09,Sweater,,C2L09-Sweater.jpg,class2/images/C2L09-Sweater.jpg
-2,09,Dress,,C2L09-Dress.jpg,class2/images/C2L09-Dress.jpg
-2,09,Skirt,,C2L09-Skirt.jpg,class2/images/C2L09-Skirt.jpg
-2,09,Jeans,,C2L09-Jeans.jpg,class2/images/C2L09-Jeans.jpg
-2,09,Trousers,,C2L09-Trousers.jpg,class2/images/C2L09-Trousers.jpg
-2,09,Shorts,,C2L09-Shorts.jpg,class2/images/C2L09-Shorts.jpg
-2,09,Leggings,,C2L09-Leggings.jpg,class2/images/C2L09-Leggings.jpg
-2,09,Pants,,C2L09-Pants.jpg,class2/images/C2L09-Pants.jpg
-2,09,Swimsuit,,C2L09-Swimsuit.jpg,class2/images/C2L09-Swimsuit.jpg
-2,09,Underwear,,C2L09-Underwear.jpg,class2/images/C2L09-Underwear.jpg
-2,09,Shoes,,C2L09-Shoes.jpg,class2/images/C2L09-Shoes.jpg
-2,09,Sneakers,,C2L09-Sneakers.jpg,class2/images/C2L09-Sneakers.jpg
-2,09,High heels,,C2L09-High-heels.jpg,class2/images/C2L09-High-heels.jpg
-2,09,Sandals,,C2L09-Sandals.jpg,class2/images/C2L09-Sandals.jpg
-2,09,Glasses,,C2L09-Glasses.jpg,class2/images/C2L09-Glasses.jpg
-2,09,Sunglasses,,C2L09-Sunglasses.jpg,class2/images/C2L09-Sunglasses.jpg
-2,09,Casual,,C2L09-Casual.jpg,class2/images/C2L09-Casual.jpg
-2,09,Elegant,,C2L09-Elegant.jpg,class2/images/C2L09-Elegant.jpg
-2,09,Conservative,,C2L09-Conservative.jpg,class2/images/C2L09-Conservative.jpg
-2,09,provocative,,C2L09-provocative.jpg,class2/images/C2L09-provocative.jpg
-2,09,Stylish,,C2L09-Stylish.jpg,class2/images/C2L09-Stylish.jpg
-2,09,fashionable,,C2L09-fashionable.jpg,class2/images/C2L09-fashionable.jpg
-2,09,trendy,,C2L09-trendy.jpg,class2/images/C2L09-trendy.jpg
-2,09,Shocking,,C2L09-Shocking.jpg,class2/images/C2L09-Shocking.jpg
-2,09,Classic,,C2L09-Classic.jpg,class2/images/C2L09-Classic.jpg
-2,09,Glamorous,,,
-2,09,traditional,,C2L09-traditional.jpg,class2/images/C2L09-traditional.jpg
-2,09,Comfortable,,C2L09-Comfortable.jpg,class2/images/C2L09-Comfortable.jpg
-2,09,Old-fashioned,,C2L09-Old-fashioned.jpg,class2/images/C2L09-Old-fashioned.jpg
-2,09,Shopping center / mall,,C2L09-Shopping-center-mall.jpg,class2/images/C2L09-Shopping-center-mall.jpg
-2,09,Clothes store / shop,,C2L09-Clothes-store-shop.jpg,class2/images/C2L09-Clothes-store-shop.jpg
-2,09,Boutique,,C2L09-Boutique.jpg,class2/images/C2L09-Boutique.jpg
-2,09,Buy second-hand clothes,,,
-2,09,Wear high heels,,C2L09-Wear-high-heels.jpg,class2/images/C2L09-Wear-high-heels.jpg
-2,09,Wear make-up,,C2L09-Wear-make-up.jpg,class2/images/C2L09-Wear-make-up.jpg
-2,09,Wear men-s clothes,,C2L09-Wear-men-s-clothes.jpg,class2/images/C2L09-Wear-men-s-clothes.jpg
-2,09,Women-s clothes,,C2L09-Women-s-clothes.jpg,class2/images/C2L09-Women-s-clothes.jpg
-2,09,Want to have a tattoo,,C2L09-Want-to-have-a-tattoo.jpg,class2/images/C2L09-Want-to-have-a-tattoo.jpg
-2,09,A pierced ear,,C2L09-A-pierced-ear.jpg,class2/images/C2L09-A-pierced-ear.jpg
-2,09,See a man who wears make-up,,C2L09-See-a-man-who-wears-make-up.jpg,class2/images/C2L09-See-a-man-who-wears-make-up.jpg
-2,09,Earrings,,C2L09-Earrings.jpg,class2/images/C2L09-Earrings.jpg
-2,09,Buy clothes on sales,,C2L09-Buy-clothes-on-sales.jpg,class2/images/C2L09-Buy-clothes-on-sales.jpg
+class,lesson,section,word_en,word_vn,image_name,image_url
+2,05,all,Farmer,Nông dân,C2L05-Farmer.jpg,class2/images/C2L05-Farmer.jpg
+2,05,all,Baker,Thợ làm bánh,C2L05-Baker.jpg,class2/images/C2L05-Baker.jpg
+2,05,all,Driver,Người lái xe,C2L05-Driver.jpg,class2/images/C2L05-Driver.jpg
+2,05,all,Housewife,Bà nội trợ,C2L05-Housewife.jpg,class2/images/C2L05-Housewife.jpg
+2,05,all,Businessman,Doanh nhân,C2L05-Businessman.jpg,class2/images/C2L05-Businessman.jpg
+2,05,all,Cameraman,Người quay phim,C2L05-Cameraman.jpg,class2/images/C2L05-Cameraman.jpg
+2,05,all,Postman,Người đưa thư,C2L05-Postman.jpg,class2/images/C2L05-Postman.jpg
+2,05,all,Mechanic,Thợ sửa máy móc,C2L05-Mechanic.jpg,class2/images/C2L05-Mechanic.jpg
+2,05,all,Receptionist,Tiếp tân,C2L05-Receptionist.jpg,class2/images/C2L05-Receptionist.jpg
+2,05,all,Dentist,Nha sĩ,C2L05-Dentist.jpg,class2/images/C2L05-Dentist.jpg
+2,05,all,Artist,Nghệ sĩ,C2L05-Artist.jpg,class2/images/C2L05-Artist.jpg
+2,05,all,Supervisor,Người giám sát,C2L05-Supervisor.jpg,class2/images/C2L05-Supervisor.jpg
+2,05,all,Professor,Giáo sư,C2L05-Professor.jpg,class2/images/C2L05-Professor.jpg
+1,10,all,Excited About,,C1L10-Excited-About.jpg,class1/images/C1L10-Excited-About.jpg
+1,10,all,Interested In,,C1L10-Interested-In.jpg,class1/images/C1L10-Interested-In.jpg
+1,10,all,Bored With,,C1L10-Bored-With.jpg,class1/images/C1L10-Bored-With.jpg
+1,10,all,Happy With,,C1L10-Happy-With.jpg,class1/images/C1L10-Happy-With.jpg
+1,10,all,Disappointed With,,C1L10-Disappointed-With.jpg,class1/images/C1L10-Disappointed-With.jpg
+1,10,all,Satisfied With,,C1L10-Satisfied-With.jpg,class1/images/C1L10-Satisfied-With.jpg
+1,10,all,Impressed With,,C1L10-Impressed-With.jpg,class1/images/C1L10-Impressed-With.jpg
+1,10,all,Addicted To,,C1L10-Addicted-To.jpg,class1/images/C1L10-Addicted-To.jpg
+1,10,all,Worried About,,C1L10-Worried-About.jpg,class1/images/C1L10-Worried-About.jpg
+1,10,all,Nervous About,,C1L10-Nervous-About.jpg,class1/images/C1L10-Nervous-About.jpg
+1,10,all,Good At,,C1L10-Good-At.jpg,class1/images/C1L10-Good-At.jpg
+1,10,all,Bad At,,C1L10-Bad-At.jpg,class1/images/C1L10-Bad-At.jpg
+1,10,all,Angry About Something/ Angry at Someone,,C1L10-Angry-About-Something-Angry-at-Someone.jpg,class1/images/C1L10-Angry-About-Something-Angry-at-Someone.jpg
+1,10,all,Tired Of/ Sick Of,,C1L10-Tired-Of-Sick-Of.jpg,class1/images/C1L10-Tired-Of-Sick-Of.jpg
+1,10,all,Afraid Of,,C1L10-Afraid-Of.jpg,class1/images/C1L10-Afraid-Of.jpg
+1,10,all,Full Of,,C1L10-Full-Of.jpg,class1/images/C1L10-Full-Of.jpg
+1,10,all,Responsible For,,C1L10-Responsible-For.jpg,class1/images/C1L10-Responsible-For.jpg
+1,10,all,Known For,,C1L10-Known-For.jpg,class1/images/C1L10-Known-For.jpg
+1,10,all,Discouraged By,,C1L10-Discouraged-By.jpg,class1/images/C1L10-Discouraged-By.jpg
+1,10,all,Used To,,C1L10-Used-To.jpg,class1/images/C1L10-Used-To.jpg
+1,10,all,Sorry For,,C1L10-Sorry-For.jpg,class1/images/C1L10-Sorry-For.jpg
+1,10,all,Thankful For,,C1L10-Thankful-For.jpg,class1/images/C1L10-Thankful-For.jpg
+2,09,items,Tie,,C2L09-Tie.jpg,class2/images/C2L09-Tie.jpg
+2,09,items,Hat,,C2L09-Hat.jpg,class2/images/C2L09-Hat.jpg
+2,09,items,Cap,,C2L09-Cap.jpg,class2/images/C2L09-Cap.jpg
+2,09,items,Clothes,,C2L09-Clothes.jpg,class2/images/C2L09-Clothes.jpg
+2,09,items,Shirt,,C2L09-Shirt.jpg,class2/images/C2L09-Shirt.jpg
+2,09,items,T-shirt,,C2L09-T-shirt.jpg,class2/images/C2L09-T-shirt.jpg
+2,09,items,Tank-top,,C2L09-Tank-top.jpg,class2/images/C2L09-Tank-top.jpg
+2,09,items,Jacket,,C2L09-Jacket.jpg,class2/images/C2L09-Jacket.jpg
+2,09,items,Sweater,,C2L09-Sweater.jpg,class2/images/C2L09-Sweater.jpg
+2,09,items,Dress,,C2L09-Dress.jpg,class2/images/C2L09-Dress.jpg
+2,09,items,Skirt,,C2L09-Skirt.jpg,class2/images/C2L09-Skirt.jpg
+2,09,items,Jeans,,C2L09-Jeans.jpg,class2/images/C2L09-Jeans.jpg
+2,09,items,Trousers,,C2L09-Trousers.jpg,class2/images/C2L09-Trousers.jpg
+2,09,items,Shorts,,C2L09-Shorts.jpg,class2/images/C2L09-Shorts.jpg
+2,09,items,Leggings,,C2L09-Leggings.jpg,class2/images/C2L09-Leggings.jpg
+2,09,items,Pants,,C2L09-Pants.jpg,class2/images/C2L09-Pants.jpg
+2,09,items,Swimsuit,,C2L09-Swimsuit.jpg,class2/images/C2L09-Swimsuit.jpg
+2,09,items,Underwear,,C2L09-Underwear.jpg,class2/images/C2L09-Underwear.jpg
+2,09,items,Shoes,,C2L09-Shoes.jpg,class2/images/C2L09-Shoes.jpg
+2,09,items,Sneakers,,C2L09-Sneakers.jpg,class2/images/C2L09-Sneakers.jpg
+2,09,items,High heels,,C2L09-High-heels.jpg,class2/images/C2L09-High-heels.jpg
+2,09,items,Sandals,,C2L09-Sandals.jpg,class2/images/C2L09-Sandals.jpg
+2,09,items,Glasses,,C2L09-Glasses.jpg,class2/images/C2L09-Glasses.jpg
+2,09,items,Sunglasses,,C2L09-Sunglasses.jpg,class2/images/C2L09-Sunglasses.jpg
+2,09,styles,Casual,,C2L09-Casual.jpg,class2/images/C2L09-Casual.jpg
+2,09,styles,Elegant,,C2L09-Elegant.jpg,class2/images/C2L09-Elegant.jpg
+2,09,styles,Conservative,,C2L09-Conservative.jpg,class2/images/C2L09-Conservative.jpg
+2,09,styles,provocative,,C2L09-provocative.jpg,class2/images/C2L09-provocative.jpg
+2,09,styles,Stylish,,C2L09-Stylish.jpg,class2/images/C2L09-Stylish.jpg
+2,09,styles,fashionable,,C2L09-fashionable.jpg,class2/images/C2L09-fashionable.jpg
+2,09,styles,trendy,,C2L09-trendy.jpg,class2/images/C2L09-trendy.jpg
+2,09,styles,Shocking,,C2L09-Shocking.jpg,class2/images/C2L09-Shocking.jpg
+2,09,styles,Classic,,C2L09-Classic.jpg,class2/images/C2L09-Classic.jpg
+2,09,styles,Glamorous,,,
+2,09,styles,traditional,,C2L09-traditional.jpg,class2/images/C2L09-traditional.jpg
+2,09,styles,Comfortable,,C2L09-Comfortable.jpg,class2/images/C2L09-Comfortable.jpg
+2,09,styles,Old-fashioned,,C2L09-Old-fashioned.jpg,class2/images/C2L09-Old-fashioned.jpg
+2,09,shoppingplaces,Shopping center / mall,,C2L09-Shopping-center-mall.jpg,class2/images/C2L09-Shopping-center-mall.jpg
+2,09,shoppingplaces,Clothes store / shop,,C2L09-Clothes-store-shop.jpg,class2/images/C2L09-Clothes-store-shop.jpg
+2,09,shoppingplaces,Boutique,,C2L09-Boutique.jpg,class2/images/C2L09-Boutique.jpg
+2,09,shoppingplaces,Thrift shop,,,
+2,09,haveyouever,Buy second-hand clothes,,,
+2,09,haveyouever,Wear high heels,,C2L09-Wear-high-heels.jpg,class2/images/C2L09-Wear-high-heels.jpg
+2,09,haveyouever,Wear make-up,,C2L09-Wear-make-up.jpg,class2/images/C2L09-Wear-make-up.jpg
+2,09,haveyouever,Wear men's clothes,,C2L09-Wear-men-s-clothes.jpg,class2/images/C2L09-Wear-men-s-clothes.jpg
+2,09,haveyouever,Women's clothes,,C2L09-Women-s-clothes.jpg,class2/images/C2L09-Women-s-clothes.jpg
+2,09,haveyouever,Swimsuit,,C2L09-Swimsuit.jpg,class2/images/C2L09-Swimsuit.jpg
+2,09,haveyouever,Want to have a tattoo,,C2L09-Want-to-have-a-tattoo.jpg,class2/images/C2L09-Want-to-have-a-tattoo.jpg
+2,09,haveyouever,A pierced ear,,C2L09-A-pierced-ear.jpg,class2/images/C2L09-A-pierced-ear.jpg
+2,09,haveyouever,See a man who wears make-up,,C2L09-See-a-man-who-wears-make-up.jpg,class2/images/C2L09-See-a-man-who-wears-make-up.jpg
+2,09,haveyouever,Earrings,,C2L09-Earrings.jpg,class2/images/C2L09-Earrings.jpg
+2,09,haveyouever,Buy clothes on sales,,C2L09-Buy-clothes-on-sales.jpg,class2/images/C2L09-Buy-clothes-on-sales.jpg

@@ -13,44 +13,36 @@ lesson: "06"
 {% include image.html class=1 lesson="06" name="Grid1" %}
 
 | **Know how to make a cake** | **Plant a tree**  | **Lock a door** | **Color a picture** |  
-|    |       |     |     | 
 
 {% include image.html class=1 lesson="06" name="Grid2" %}
 
 | **Sneeze** | **Snore** | **Yawn** | 
-|    |       |     |
 
 
 {% include image.html class=1 lesson="06" name="Grid3" %}
 
 | **Mop the floor** | **Wash my clothes**  | **Brush my teeth**  | **Comb my hair** |  
-|    |       |     |     | 
 
 
 {% include image.html class=1 lesson="06" name="Grid4" %}
  
 | **Change my mind** | **Follow the crowd** | **Sing a song**  | **Clap one’s hands**  |
- |    |       |     |     | 
  
 {% include image.html class=1 lesson="06" name="Grid5" %}
  
 | **Make a decision** | **Give someone a hug**  | **Make a wish**  | **Borrow money** |  
-|    |       |     |     | 
 
 {% include image.html class=1 lesson="06" name="Grid6" %}
  
 | **Have a crush on someone** | **Cheat on someone** | **Yell at someone** | 
-|    |     |     | 
 
 {% include image.html class=1 lesson="06" name="Grid7" %}
  
 | **Always** | **Usually** | **Often**  | **Sometimes** |  
-|    |       |     |     | 
 
 {% include image.html class=1 lesson="06" name="Grid8" %}
 
 | **Rarely** | **Never** | 
-|    |       | 
 
 
 {% include player.html identifier="lesson-conversation" lesson="C1L06" file="C1L06-Conversation.mp3" %}
@@ -66,6 +58,11 @@ lesson: "06"
 **No, the man doesn't always want to follow the crowd**    
 *- Có phải người đàn ông đó luôn muốn đi theo đám đông không??*    
 *- Không phải, người đàn ông đó không phải lúc nào cũng muốn đi theo đám đông*    
+
+
+{% if site.trialdeploy %}
+	{% include explanation_placeholder.html start=3 stop=7 %}
+	{% else %}
 
 3. **Do your parents yell at you when you come home late?**    
 **No, they don't yell at me when I come home late**    
@@ -106,3 +103,5 @@ lesson: "06"
 **No, my friend doesn't have a crush on you. I have a crush on you**  
 *-Có phải bạn của bạn cảm nắng mình không?*  
 *-Không, bạn ấy không cảm nắng bạn. Mình cảm nắng bạn*  
+
+	{% endif %}

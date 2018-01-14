@@ -4,7 +4,7 @@ class: "2"
 lesson: "09"
 
 test1: ### Styles  - *TODO*
-test1: ### Shopping place  - *TODO*
+test1: ### Shopping places  - *TODO*
 test1: ### Have you ever - *TODO*
 
 ---
@@ -12,21 +12,48 @@ test1: ### Have you ever - *TODO*
 {% include player.html identifier="lesson-vocabulary" lesson="C2L09" file="C2L09-Vocabulary.mp3" %}
 # Lesson 2.9: Shopping 
 
-
 ## Vocabulary
 
-### Shopping items
+### Shopping items 
 
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		section="items"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+
+
+### Styles
+
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="styles"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
 
 
+### Shopping places
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="shoppingplaces"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+
+### Have you ever
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="haveyouever"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+
+
 {% include player.html identifier="lesson-conversation" lesson="C2L09" file="C2L09-Conversation.mp3" %}
-## Conversation - *TODO*
+## Conversation
 
 
 > Stuart: **Hey, great shoes!**  
@@ -61,12 +88,16 @@ Bạn có phải là người nghiện mua sắm không?
 
 ### 2. How  important is fashion to you?
 Bạn có phải là người nghiện mua sắm không?
+
 **How + adjective**
 
-- **How important am I to you?** *Tôi quan trọng với bạn như thế nào?
+- **How important am I to you?** *Tôi quan trọng với bạn như thế nào?*
 - **How rich is he?** *Anh ta giàu như thế nào?*
 - **How tall are you?** *Bạn cao bao nhiêu?*
 
+{% if site.trialdeploy %}
+	{% include explanation_placeholder.html start=3 stop=7 %}
+	{% else %}
 
 ### 3. I got it
 Tôi hiểu tồi 
@@ -100,3 +131,5 @@ Nó trông thật hợp với bạn
 - **This dress looks great on you** *Cái đầm trông thật tuyệt vì bạn mặc*
 - **You really know how to mix and match** *Bạn thật biết cách phối đồ*
 - **You have a good taste in fashion** *Bạn thật có gu thời trang*
+
+{% endif %}

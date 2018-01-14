@@ -19,33 +19,6 @@ lesson: "10"
 
 
 
-
-{% include image.html class=1 lesson="01" name="Animals_1" %}
-
-| **Excited about** | **Interested in**   | **Bored with** | **Happy with**   
-
-{% include image.html class=1 lesson="01" name="Animals_2" %}
-
-| **Disappointed with**  | **Satisfied with**  | **Impressed with** | **Addicted to**  | 
-
-{% include image.html class=1 lesson="01" name="Animals_2" %}
-
-| **Worried about**  | **Nervous about**  | **Good at** | **Bad at** | 
-
-{% include image.html class=1 lesson="01" name="Animals_2" %}
-
-| **angry about something / angry at someone**  | **Tired of / sick of**  | **Afraid of** | **full of** |
-
-{% include image.html class=1 lesson="01" name="Animals_2" %}
-
-| **angry about / angry at someone** | **Tired of/ sick of**  | **Afraid of** | **full of** |
-
-{% include image.html class=1 lesson="01" name="Animals_2" %}
-
-| **Responsible for**  | **Known for**  | **Discouraged by** | **used to** | **sorry for** | **thankful for** |
-
-
-
 ## 1. Examples
 {% include player.html identifier="vocab-conversation" lesson="C1L01" file="C1L10-Conversation.mp3" %}
 
@@ -68,6 +41,11 @@ lesson: "10"
 *Bạn đang giận tôi hả?*  
 2. **Is the manager responsible for contacting customers?**
 *Có phải người giám đốc chịu trách nhiệm cho việc liên lạc với khách hàng?*
+
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html start=3 stop=13 %}
+	{% else %}
 3. **Is the student good at learning languages?**.
 *Có phải người học sinh đó giỏi học ngôn ngữ không?*
 4. **Are you disappointed with the result of the exam?**
@@ -84,3 +62,4 @@ lesson: "10"
 *Cô ta có giỏi giải quyết vấn đề không?*
 13. **Are you used to the terrible traffic jam in Saigon?**
 *Bạn có quen với giao thông kinh khủng ở Sài Gòn chưa?*
+	{% endif %}

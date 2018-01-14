@@ -49,7 +49,7 @@ lesson: "12"
 
 {% include image.html class=2 lesson="12" name="Grid7" %}
 
-| **Open - minded** | **Narrow - minded**  | **Two-faced** | **Warm - hearted**
+| **Open-minded** | **Narrow - minded**  | **Two-faced** | **Warm-hearted**
 
 {% include player.html identifier="lesson-conversation" lesson="C2L12" file="C2L12-Conversation.mp3" %}
 ## Monologue
@@ -62,36 +62,36 @@ lesson: "12"
 
 
 ### 1. I’m the type of person who tries to avoid dramas 
-- **I’m the type of person who always want to cheer people up** **
-- **She is the type the person who doesn't care anybody else but herself** **
-- **He is the type of person who thinks that he is the center of the universe** ** 
+- **I’m the type of person who always want to cheer people up**
+- **She is the type the person who doesn't care anybody else but herself**
+- **He is the type of person who thinks that he is the center of the universe** 
 
 
 ### 2. That's why I have a lot of friends
-- **That's why I love you** **
-- **She talks and acts like a kid. That's why it's hard for her to have a job** **
+- **That's why I love you**
+- **She talks and acts like a kid. That's why it's hard for her to have a job**
 - **He is super humorous. That's why he's always the life the soul of the party**
-- **It's a very important and sensitive issue. That's why I have to think twice before saying something** ** - 
+- **It's a very important and sensitive issue. That's why I have to think twice before saying something** - 
 
 
 ### 3. That's definitely the reason why I love her 
-- **She always lies to me. That's absolutely the reason why I don't trust her at all** **
-- **The student doesn't do homework. That's definitely the reason why he doesn't get improved** **
-- **She is so rude. She yells at the waiters and waitresses at the restaurant. That's probably the reason why she doesn't really have any friends** ** - 
+- **She always lies to me. That's absolutely the reason why I don't trust her at all**
+- **The student doesn't do homework. That's definitely the reason why he doesn't get improved**
+- **She is so rude. She yells at the waiters and waitresses at the restaurant. That's probably the reason why she doesn't really have any friends** - 
 
 
 ### 4. She prefers staying at home and being on her own
 prefer can be followed either by Verb-ing or  to verb
-- **He prefers staying at home and watching football to playing it.** **
-- **I'd prefer not to discuss the topic** **
-- **Some people prefer to have dogs as pets, while others prefer to have cats** ** - 
+- **He prefers staying at home and watching football to playing it.**
+- **I'd prefer not to discuss the topic**
+- **Some people prefer to have dogs as pets, while others prefer to have cats** - 
 
 
 ### 5. Listening to her voice can make all of my stress and pressure melt away 
 **melt**
-- **My anger melted away when she said sorry to me.** **
-- **He only has to look at her, and she melts.** **
-- **I tried to be chill but you're so hot I melted** ** - 
+- **My anger melted away when she said sorry to me.**
+- **He only has to look at her, and she melts.**
+- **I tried to be chill but you're so hot I melted** - 
 
 
 

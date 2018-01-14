@@ -15,19 +15,19 @@ lesson: "11"
 3. **Gorgeous**
 4. **stunning**
 5. **Plain**
-6. **ordinary - looking**
-7. **Bad - looking**
+6. **ordinary-looking**
+7. **Bad-looking**
 8. **Bear a strong resemblance to**
 
 ### Age
 1. **Young** **He is in his  early twenties**
 2. **Old** **She is in her late sixties**
-3. **Middle - aged**  **She is in her mid forties**
+3. **Middle-aged**  **She is in her mid forties**
 
 ### Build 
 1. **Thin**
 2. **Slim**
-3. **Well - built**
+3. **Well-built**
 4. **muscular**
 5. **overweight**
 6. **Fat**
@@ -84,7 +84,7 @@ lesson: "11"
 {% include player.html identifier="lesson-mono" lesson="C2L11" file="C2L11-Monologue.mp3" %}
 ## Describe someone's appearance 
 
-**Let me introduce my ex - boyfriend. He is Daniel. He is a quite handsome man. He is in his mid – twenties, but he looks young for his age. He is of medium – height and well – built. He has a square face with brown eyes,  a straight nose and full lips. He has short black wavy hair.  He looks even more attractive with his glasses. I’ve always thought he bears a striking resemblance to someone on TV. He cut himself climbing a tree when he was ten and he's got a scar just below his ear. Oh, I wish he were here. I miss him so such**
+**Let me introduce my ex-boyfriend. He is Daniel. He is a quite handsome man. He is in his mid–twenties, but he looks young for his age. He is of medium height and well–built. He has a square face with brown eyes,  a straight nose and full lips. He has short black wavy hair.  He looks even more attractive with his glasses. I've always thought he bears a striking resemblance to someone on TV. He cut himself climbing a tree when he was ten and he's got a scar just below his ear. Oh, I wish he were here. I miss him so such**
 
 
 
@@ -93,7 +93,7 @@ lesson: "11"
 ## Explanation
 
 
-### 1. He is in his mid – twenties
+### 1. He is in his mid–twenties
 
 Anh đang trong độ tuổi giữa 20
 
@@ -102,7 +102,7 @@ Anh đang trong độ tuổi giữa 20
 - **My younger sister is a lovely teenager** **
 
 
-### 2. He is of medium – height and well – built
+### 2. He is of medium height and well–built
 
 Anh ta cao trung bình và cường tráng 
 

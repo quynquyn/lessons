@@ -5,7 +5,7 @@ lesson: "13"
 ---
 
 {% include player.html identifier="lesson-vocabulary" lesson="C2L13" file="C2L13-Vocabulary.mp3" %}
-# Lesson 1.13: PERSONALITY
+# Lesson 1.13: Personality 2
 
 
 
@@ -14,22 +14,18 @@ lesson: "13"
 {% include image.html class=2 lesson="13" name="Grid1" %}
 
 | **Sensitive** | **Proud**  | **Aggressive**  | **Honest**  | 
-| | | | |
 
 {% include image.html class=2 lesson="13" name="Grid2" %}
 
-|**Self  confident**|**Moody**|**Absent-minded**|**Amusing**| 
-| | | | |
+|**Self-confident**|**Moody**|**Absent-minded**|**Amusing**| 
 
 {% include image.html class=2 lesson="13" name="Grid3" %}
 
 | **Thoughtful** |**Arrogant**|**Hardworking**  | **Selfish** | 
-| | | | |
 
 {% include image.html class=2 lesson="13" name="Grid4" %}
 
-|**Out  going**|**A gossip**|**Easygoing**|**An extrovert**| 
-| | | | |
+|**Outgoing**|**A gossip**|**Easygoing**|**An extrovert**| 
 
 {% include image.html class=2 lesson="13" name="Grid5" %}
 
@@ -39,14 +35,14 @@ lesson: "13"
 {% include image.html class=2 lesson="13" name="Grid6" %}
 
 |**Modest**| **Sensible** |**Shy**|**Loyal** | 
-| | | | |
 
 {% include image.html class=2 lesson="13" name="Grid7" %}
 
 | **A laugh** |**A big-head** | **A snob**| |**A liar**| 
 
 {% include image.html class=2 lesson="13" name="Grid7" %}
-|**A coward**  | **A couch potato** | | |
+
+| **A coward**  | **A couch potato** |
 
 
 

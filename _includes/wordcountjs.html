@@ -6,7 +6,10 @@
             javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
 	
         	setTimeout(function(){
-        	    alert("Counting all headlines and bold words... " + countEnglishWords() );
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
         	}, 1000);
 	
         	function countEnglishWords() {

@@ -1,5 +1,7 @@
+{% assign section = include.section  | default:"all"  %}
 {% assign words = include.database  | where:"lesson",include.lesson  %}
 {% assign words = words  | where:"class",include.class  %}
+{% assign words = words  | where:"section",section  %}
 {% assign count = 0 %}
 {% assign WORDS_IN_TRIAL = 7 %}
 
