@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, start, stop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = start;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Free full version (last day)
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/product/english-beginner-course-5-weeks/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-14-verb-to-verb">lesson 1.4: verb to verb</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L04-Words.mp3" id="audio_vocab-Words" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocab-Words" onclick="play('vocab-Words', 'C1L04', 'vocab-Words');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L04-Words.mp3</div>
+
+<p><img src="/daily/lessons/class1/lesson04/C1L04-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Like</td>
+      <td>Love</td>
+      <td>Hate</td>
+      <td>Have</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson04/C1L04-Grid2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Try</td>
+      <td>Need</td>
+      <td>Want</td>
+      <td>Intend</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson04/C1L04-Grid3.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Pretend</td>
+      <td>Expect</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong class="" id="playat_vocab-Words" onclick="playat('vocab-Words',      25, 666,      'C1L04', 'vocab-Words');">▶</strong></p>
+
+<p><img src="/daily/lessons/class1/lesson04/C1L04-Grid4.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Listen to music</td>
+      <td>Hang out with friends</td>
+      <td>Travel to Korea</td>
+      <td>Read books</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson04/C1L04-Grid5.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Get up early</td>
+      <td>Stay up late</td>
+      <td>Study English</td>
+      <td>Smile</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson04/C1L04-Grid6.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Call my mother</td>
+      <td>Take a selfie / Take a photo</td>
+      <td>Know how to swim</td>
+      <td>Visit relatives</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson04/C1L04-Grid7.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Go shopping</td>
+      <td>Go fishing</td>
+      <td>Smoke cigarettes</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="dialogue">Dialogue</h2>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L04-Native-Dialogue.mp3" id="audio_vocab-Dialogue" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocab-Dialogue" onclick="play('vocab-Dialogue', 'C1L04', 'vocab-Dialogue');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L04-Native-Dialogue.mp3</div>
+
+<blockquote>
+  <p><strong>Do you love to listen to music?</strong> <em>Bạn có thích nghe nhạc không?</em><br />
+<strong>Yes, I love to listen to music</strong> <em>Có, tôi thích nghe nhạc</em></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Do you like to hang out with friends?</strong> <em>Bạn có thích chơi chơi với bạn bè không?</em>  <br />
+<strong>Yes, I like to hang out with friends</strong> *Có, tôi thích chơi chơi với bạn bè *</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Do you try to learn English?</strong> <em>Bạn có cố gắng học tiếng Anh không?</em><br />
+<strong>No, I don’t try to learn English. I try to learn Japanese</strong> <em>Không, tôi không cố gắng học tiếng Anh. Tôi cố gắng học tiếng Nhật</em></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Do you want to travel to Korea?</strong> <em>Bạn có muốn đi du lịch Hàn Quốc không?</em><br />
+<strong>No, I don’t want to travel to Korea. I want to travel to Malaysia</strong> <em>Không, tôi không muốn đi du lịch Hàn Quốc. Tôi muốn đi du lịch Mã Lai</em></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Do you need to take a selfie?</strong> <em>Bạn có cần chụp tự sướng không?</em><br />
+<strong>No, I don’t need to take a selfie. I need to take a photo</strong> <em>Không, tôi không cần chụp tự sướng. Tôi cần chụp bức hình.</em></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Do you have to call your mother?</strong> <em>Bạn có phải gọi điện cho mẹ của bạn không?</em><br />
+<strong>No, I don’t have to call my mother. I have to call my sister</strong> <em>Không, tôi không phải gọi điện cho mẹ của tôi. Tôi phải gọi điện cho chị gái của tôi</em></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Do you hate to do homework?</strong> <em>Bạn có ghét làm bài tập về nhà không?</em><br />
+<strong>No, I don’t hate to do homework. I hate to do housework</strong> <em>Không, tôi không ghét làm bài tập về nhà. Tôi ghét làm việc nhà</em></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Do you intend to talk to the doctor?</strong> <em>Bạn có dự định nói chuyện với người bác sĩ đó không</em><br />
+<strong>Yes, I intend to talk to the doctor and I also intend to talk to the nurse</strong> <em>Có, cô định nói chuyện với người bác sĩ đó và tôi cũng định nói chuyện với cái người y tá đó</em></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Do you expect to have a baby next year?</strong> <em>Bạn có mong đợi có em bé năm tới không?</em><br />
+<strong>No, I don’t expect to have a baby next year. I expect to have a baby in 3 years</strong> <em>Không, tôi không mong đợi có em bé năm tới. Tôi mong đợi có em bé trong 3 năm nữa</em></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Do you pretend to like her?</strong> <em>Bạn có giả vờ thích cô không?</em><br />
+<strong>Yes, I just pretend to like her</strong> <em>Uhm, tôi chỉ giả vờ thích cô ta thôi</em></p>
+</blockquote>
+
+<h2 id="b">B.</h2>
+<p><strong class="" id="playat_vocab-Dialogue" onclick="playat('vocab-Dialogue',      68, 666,      'C1L04', 'vocab-Dialogue');">▶</strong></p>
+
+<ul>
+  <li><strong>What do you love to do?</strong> <em>Bạn thích làm gì?</em></li>
+  <li>
+    <p><strong>I love to dance</strong> <em>Tôi thích nhảy</em></p>
+  </li>
+  <li><strong>What do you like to do?</strong> <em>Bạn thích làm gì?</em></li>
+  <li>
+    <p><strong>I like to read books</strong> *Tôi thích đọc sách *</p>
+  </li>
+  <li>** What do you try to do?** <em>Bạn cố gắng làm gì?</em></li>
+  <li>
+    <p><strong>I try to get up early</strong> <em>Tôi cố gắng dậy sớm</em></p>
+  </li>
+  <li><strong>What do you want to do?</strong> <em>Bạn muốn làm gì?</em></li>
+  <li>
+    <p><strong>I want to read books</strong> <em>Tôi muốn đọc sách</em></p>
+  </li>
+  <li><strong>What do you need to do?</strong> <em>Bạn cần làm gì?</em></li>
+  <li>
+    <p><strong>I need to reserve a room at a hotel</strong> <em>Tôi cần đặt phòng trước ở khách sạn</em></p>
+  </li>
+  <li><strong>What do you have to do?</strong> <em>Bạn phải làm gì?</em></li>
+  <li>
+    <p><strong>I have to take off my shoes</strong> <em>Tôi phải cởi giày ra</em></p>
+  </li>
+  <li><strong>What do you hate to do?</strong> <em>Bạn ghét làm gì?</em></li>
+  <li>
+    <p><strong>I hate to talk to the manager</strong> <em>Tôi ghét nói chuyện với người giám đốc</em></p>
+  </li>
+  <li><strong>What do you intend to do?</strong> <em>Bạn dự định làm gì?</em></li>
+  <li>
+    <p><strong>I intend to get married next year</strong> <em>Tôi dự định kết hôn năm tới</em></p>
+  </li>
+  <li><strong>What do you expect to do?</strong> <em>Bạn mong làm gì?</em></li>
+  <li>
+    <p><strong>I expect to borrow some money</strong> <em>Tôi mong mượn một ít tiền</em></p>
+  </li>
+  <li><strong>What do you pretend to do?</strong> <em>Bạn giả bộ làm điều gì?</em></li>
+  <li><strong>I pretend to smile.</strong> <em>Tôi giả bộ cười</em></li>
+</ul>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

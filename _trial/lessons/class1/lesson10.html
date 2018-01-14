@@ -1,0 +1,610 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, start, stop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = start;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Limited Trial version
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/product/english-beginner-course-5-weeks/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-110-adjective--preposition">Lesson 1.10: Adjective + Preposition</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L10-Vocabulary.mp3" id="audio_lesson-vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-vocabulary" onclick="play('lesson-vocabulary', 'C1L01', 'lesson-vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L10-Vocabulary.mp3</div>
+
+<table>
+<tr class="row1">
+<td class="col1">
+
+  
+    <img src="/daily/lessons/class1/images/C1L10-Excited-About.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  <strong>Excited About</strong>
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+
+  
+    <img src="/daily/lessons/class1/images/C1L10-Interested-In.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  <strong>Interested In</strong>
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col3">
+
+  
+    <img src="/daily/lessons/class1/images/C1L10-Bored-With.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  <strong>Bored With</strong>
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col4">
+
+  
+    <img src="/daily/lessons/class1/images/C1L10-Happy-With.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  <strong>Happy With</strong>
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+
+  
+    <img src="/daily/lessons/class1/images/C1L10-Disappointed-With.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  <strong>Disappointed With</strong>
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+
+  
+    <img src="/daily/lessons/class1/images/C1L10-Satisfied-With.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  <strong>Satisfied With</strong>
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col3">
+
+  
+    <img src="/daily/lessons/class1/images/C1L10-Impressed-With.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  <strong>Impressed With</strong>
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col4">
+
+  
+    <img src="/daily/lessons/class1/images/C1L10-Addicted-To.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  <strong>Addicted To</strong>
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  <strong>Worried About</strong>
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  <strong>Nervous About</strong>
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  <strong>Good At</strong>
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col4">
+
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  <strong>Bad At</strong>
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  <strong>Angry About Something/ Angry at Someone</strong>
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  <strong>Tired Of/ Sick Of</strong>
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  <strong>Afraid Of</strong>
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col4">
+
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  <strong>Full Of</strong>
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  <strong>Responsible For</strong>
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  <strong>Known For</strong>
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  <strong>Discouraged By</strong>
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col4">
+
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  <strong>Used To</strong>
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row6"><td class="col1">
+
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  <strong>Sorry For</strong>
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  <strong>Thankful For</strong>
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2 id="1-examples">1. Examples</h2>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L10-Conversation.mp3" id="audio_vocab-conversation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocab-conversation" onclick="play('vocab-conversation', 'C1L01', 'vocab-conversation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L10-Conversation.mp3</div>
+
+<ol>
+  <li><strong>I am sorry for hurting your feelings</strong> <em>Tôi xin lỗi vì làm tổn thương cảm giác của bạn</em></li>
+  <li><strong>I am used to loneliness</strong> <em>Tôi đã quen với cô đơn</em></li>
+  <li><strong>The accountant is not responsible for taking care of customers</strong> <em>Người kế toán thì không chịu trách nhiệm cho việc chăm sóc khách hàng</em></li>
+  <li><strong>I am tired of waiting for him</strong> <em>Tôi mệt mỏi vì chờ đợi anh ấy</em></li>
+  <li><strong>I am afraid of speaking in public</strong> <em>Tôi sợ phải nói trước đám đông</em></li>
+  <li><strong>I am discouraged by what he said</strong> <em>Tôi nản với những điều anh ta nói</em></li>
+  <li><strong>I am sick of doing homework every day</strong> <em>Tôi phát ốm vì làm bài tập hằng ngày</em></li>
+  <li><strong>The restaurant is full of customers</strong> <em>Nhà hàng thì đầy khách</em></li>
+  <li><strong>Claudia is known for being the most beautiful woman in town</strong> <em>Claudia được biết đến như là người phụ nự đẹp nhất trong vùng</em></li>
+  <li><strong>I am quite nervous about the presentation tomorrow</strong> <em>Tôi khá hồi hộp về bài thuyết trình ngày mai</em></li>
+</ol>
+
+<h2 id="2-examples">2. Examples</h2>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L10-Examples.mp3" id="audio_vocab-examples" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocab-examples" onclick="play('vocab-examples', 'C1L01', 'vocab-examples');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L10-Examples.mp3</div>
+
+<ol>
+  <li><strong>Are you angry at me?</strong>
+<em>Bạn đang giận tôi hả?</em></li>
+  <li>
+    <p><strong>Is the manager responsible for contacting customers?</strong>
+<em>Có phải người giám đốc chịu trách nhiệm cho việc liên lạc với khách hàng?</em></p>
+  </li>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+  <li><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></li>
+</ol>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

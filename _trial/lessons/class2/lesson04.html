@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, start, stop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = start;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Free full version (last day)
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-24-movies">Lesson 2.4: movies</h1>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L04-Native-Dialogue1.mp3" id="audio_lesson-vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-vocabulary" onclick="play('lesson-vocabulary', 'C2L04', 'lesson-vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L04-Native-Dialogue1.mp3</div>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<h3 id="whats-your-favorite-kind-of-movies">What’s your favorite kind of movies?</h3>
+
+<p><strong>My favorite kind of movie is …</strong></p>
+
+<ol>
+  <li><strong>Comedy</strong> <em>Phim hài</em></li>
+  <li><strong>Drama</strong> <em>Kịch</em></li>
+  <li><strong>Romantic movie</strong> <em>Phim lãng mạng</em></li>
+  <li><strong>Horror movie</strong> <em>Phim kinh dị</em></li>
+  <li><strong>Science – fiction movie</strong> <em>Phim khoa học viễn tưởng</em></li>
+  <li><strong>Cartoon</strong> <em>Phim hoạt hìn</em></li>
+  <li><strong>Action movie</strong> <em>Phim hành động</em></li>
+  <li><strong>Western movie</strong> <em>Phim tây</em></li>
+  <li><strong>Korean movie</strong> <em>Phim Hàn Quốc</em></li>
+  <li><strong>Fantasy movie</strong> <em>Phim giả tưởng</em></li>
+  <li><strong>Documentary</strong> <em>Phim tài liệu</em></li>
+</ol>
+
+<h3 id="what-is-the-movie-like">What is the movie like?</h3>
+
+<p><strong>The movie is…</strong></p>
+
+<ol>
+  <li><strong>Interesting / Exciting</strong> <em>Thú vị / Hào hứng</em></li>
+  <li><strong>Funny/ Amusing/ Hilarious</strong> <em>Vui / Hài hước / Rất hài hước</em></li>
+  <li><strong>Touching/ Moving/ Heart - warming</strong> <em>Cảm động / Cảm động/ Sưởi ấm trái tim</em></li>
+  <li><strong>Romantic/ sweet</strong> <em>Lãng mạng/ Ngọt ngào</em></li>
+  <li><strong>Shocking/ Impressive</strong> <em>Sốc / Ấn tượng</em></li>
+  <li><strong>Scary/ Terrifying</strong> <em>Sợ / Hoảng sợ</em></li>
+  <li><strong>Instructive/ Informative/ educational</strong> <em>Hướng dẫn/ Bổ ích / Mang tính giáo dục</em></li>
+  <li><strong>Thought - provoking</strong> <em>Kích thích suy nghĩ</em></li>
+  <li><strong>Amazing / wonderful / fantastic/ awesome / great</strong> <em>Tuyệt vời</em></li>
+  <li><strong>Terrible / awful / disgusting/ disappointing / silly / boring / weird</strong> <em>Tệ / Tệ / Thấy gớm/ Gây thất vọng/ Ngớ ngần / Chán / Kì cục</em></li>
+</ol>
+
+<h2 id="dialogue">Dialogue</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L04-Native-Dialogue2.mp3" id="audio_lesson-dialogue" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-dialogue" onclick="play('lesson-dialogue', 'C2L04', 'lesson-dialogue');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L04-Native-Dialogue2.mp3</div>
+
+<blockquote>
+  <p>Person 1: <strong>The early show of dangerous city is sold out</strong><br />
+Person 2: <strong>What are we gonna do now?</strong><br />
+P1: <strong>Well, let’s see .. maybe we should wait for the next show</strong><br />
+P2: <strong>I can’t. I am meeting Olivia tonight. We are going to a new restaurant together</strong><br />
+P1: <strong>Ok, why don’t we see “Beyond Everest”. It’s a new action adventure movie. It’s based on a true story</strong><br />
+P2: <strong>Nah, I get tired of just looking at all that action.</strong><br />
+P1: <strong>What is “lost and found in new York” about?</strong><br />
+P2: <strong>That’s a comedy. I saw it last week. It’s kinda of amusing. But I am not seeing it again</strong><br />
+P1: <strong>“Ok, how about “Aliens from Planet X”?</strong><br />
+P2: <strong>No, I can’t stand science - fiction movies.</strong><br />
+P1: <strong>Really? I think they are exciting. I really like the special effects</strong><br />
+P2: <strong>Not for me, too. I’ll get bored. I will fall asleep by the end of the movie</strong><br />
+P1: <strong>Come on. It’s only a movie. Let’s find one we all agree, ok? ok, how about “Screaming monsters want blood part2”?</strong><br />
+P2: <strong>No, not another disgusting horror movie</strong><br />
+P1: <strong>Why not? My friends liked it. They said it’s very scary. You are so picky, Jessica. What’s your favorite kind of movie?</strong></p>
+</blockquote>
+
+<h2 id="explanation">Explanation</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L04-Native-Dialogue3.mp3" id="audio_lesson-explanation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-explanation" onclick="play('lesson-explanation', 'C2L04', 'lesson-explanation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L04-Native-Dialogue3.mp3</div>
+
+<h3 id="1-the-early-show-of-dangerous-city-is-sold-out">1. The early show of “Dangerous city” is sold out</h3>
+
+<p>Suất chiếu sớm của “Dangerous city” đã bán hết rồi</p>
+
+<p><strong>Be sold out.</strong></p>
+
+<ul>
+  <li><strong>The movie is sold out</strong> <em>Bộ phim đã bán hết vé rồi</em></li>
+  <li><strong>The concert was sold out</strong> <em>Buổi hòa nhạc đã bán hết vé rồi</em></li>
+</ul>
+
+<h3 id="2-what-are-we-gonna-do-now">2. What are we gonna do now?</h3>
+
+<p><em>Chúng ta sẽ làm gì bây giờ</em></p>
+
+<p><strong>Be gonna = be going to</strong> <em>Sẽ</em></p>
+
+<ul>
+  <li><strong>I am gonna go</strong>. <em>Tôi sẽ đi</em></li>
+  <li><strong>She’s gonna cry</strong>. <em>Cô ấy sẽ khóc</em></li>
+  <li><strong>What I am gonna say is … I like you</strong>. <em>Điều tôi sắp nói là … Tôi thích bạn</em></li>
+</ul>
+
+<h3 id="3-why-dont-we-see-beyond-everest">3. Why don’t we see “Beyond Everest?</h3>
+
+<p><em>Hay là chúng ta xem phim “Beyond Everest”</em></p>
+
+<p><strong>Why don’t we…?</strong></p>
+
+<ul>
+  <li><strong>Why don’t we go to the beach?</strong> <em>Hay là chúng ta đi biển nhé</em></li>
+  <li><strong>Why don’t you come with us</strong> <em>Hay là bạn cùng đi với chúng tôi nhé</em></li>
+  <li><strong>Why don’t we take a lunch break?</strong> <em>Hay là chúng ta nghỉ trưa nhé</em></li>
+</ul>
+
+<h3 id="4--its-based-on-a-true-story">4.  It’s based on a true story</h3>
+
+<p><em>Nó được dựa trên một câu chuyện có thật</em></p>
+
+<p><strong>It’s based on…</strong></p>
+
+<ul>
+  <li><strong>It’s based on a book</strong> <em>Nó được dựa trên một quyển sách</em></li>
+  <li><strong>It’s based on an actual event</strong> <em>Nó được dựa trên một sự kiện có thật</em></li>
+  <li><strong>The movie is based on a real-life story</strong> <em>Bộ phim được dựa trên một câu chuyện có thật ngoài đời</em></li>
+</ul>
+
+<h3 id="5--i-get-tired-of-just-looking-at-all-that-action">5.  I get tired of just looking at all that action</h3>
+
+<p><em>Tôi mệt mỏi xem những ca hành động đó</em></p>
+
+<p><strong>I get tired of…</strong></p>
+
+<ul>
+  <li><strong>I get tired of waiting for him</strong> <em>Tôi mệt mỏi vì phải chờ đợi anh ấy</em></li>
+  <li><strong>I get tired of doing the same job, day after day</strong> <em>Tôi mệt mỏi vì phải làm công việc giống nhau ngày này qua ngày khác</em></li>
+  <li><strong>I get tired of arguing with her all the time</strong> <em>Tôi mệt mỏi vì luôn luôn cãi nhau với cô ấy</em></li>
+</ul>
+
+<h3 id="6-what-is-lost-and-found-in-new-york-about">6. What is “lost and found in New York” about?</h3>
+
+<p><em>Bộ phim “lost and found in New York” nói về điều gì?</em></p>
+
+<p><strong>What is it about?</strong></p>
+<ul>
+  <li><strong>What is the movie about?</strong> <em>Bộ phim nói về điều gì?</em></li>
+  <li><strong>What is the story about?</strong> <em>Câu chuyện nói về điều gì?</em></li>
+  <li><strong>I want to know what the song is about</strong> <em>Tôi muốn biết bài hát đó nói về điều gì</em></li>
+</ul>
+
+<h3 id="7-its-kinda-amusing">7. It’s kinda amusing</h3>
+
+<p><em>Nó kiểu như cũng hài hước</em></p>
+
+<p><strong>Kinda (kind of)</strong></p>
+
+<ul>
+  <li><strong>I am kinda bored now</strong> <em>Bây giờ tôi kiểu như cũng chán rồi í</em></li>
+  <li><strong>It’s kinda hard for me to understand</strong> <em>Nó đại loại cũng khó cho tôi để hiểu được</em></li>
+  <li><strong>She’s kinda hot</strong> <em>Cô ta đại loại là cũng nóng bỏng</em></li>
+</ul>
+
+<h3 id="8-i-cant-stand-science---fiction-movies">8. I can’t stand science - fiction movies**</h3>
+
+<p><strong>I can’t stand …</strong></p>
+
+<ul>
+  <li><strong>I can’t stand her</strong> <em>Tôi không thể chịu đựng cô ta</em></li>
+  <li><strong>I can’t stand working 8 hours a day</strong> <em>Tôi không thể chịu đựng được làm việc 8 tiếng một ngày</em></li>
+  <li><strong>I can’t stand it anymore</strong> <em>Tôi không thể chịu đựng được nữa</em></li>
+</ul>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

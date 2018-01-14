@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, start, stop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = start;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Limited Trial version
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <audio src="https://englishletics.s3.amazonaws.com/audio/C2L07-Vocabulary.mp3" id="audio_lesson-vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-vocabulary" onclick="play('lesson-vocabulary', 'C2L07', 'lesson-vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L07-Vocabulary.mp3</div>
+<h1 id="lesson-27-dream-jobs">Lesson 2.7: Dream jobs</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<h3 id="whats-your-favorite-kind-of-job">What’s your favorite kind of job?</h3>
+
+<p><img src="/daily/lessons/class2/lesson07/C2L07-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Accountants</strong></td>
+      <td><strong>Bakers</strong></td>
+      <td><strong>Barbers</strong></td>
+      <td><strong>Barmen/women</strong></td>
+    </tr>
+    <tr>
+      <td><em>Kế toán</em></td>
+      <td><em>Thợ làm bánh</em></td>
+      <td><em>Người hớt tóc nam</em></td>
+      <td><em>Người pha chế</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson07/C2L07-Grid2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Butchers</strong></td>
+      <td><strong>Chambermaids</strong></td>
+      <td><strong>Chefs</strong></td>
+      <td><strong>Dentists</strong></td>
+    </tr>
+    <tr>
+      <td><em>Người bán thịt heo</em></td>
+      <td><em>Người dọn phòng</em></td>
+      <td><em>Đầu bếp trưởng</em></td>
+      <td><em>Nha sĩ</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson07/C2L07-Grid3.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Doctors</strong></td>
+      <td><strong>Fishmongers</strong></td>
+      <td><strong>Flight attendants</strong></td>
+      <td><strong>Hairdressers</strong></td>
+    </tr>
+    <tr>
+      <td><em>Bác sĩ</em></td>
+      <td><em>Người bán cá</em></td>
+      <td><em>Tiếp viên hàng không</em></td>
+      <td><em>Người làm tóc</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson07/C2L07-Grid4.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Judges</strong></td>
+      <td><strong>Lawyers</strong></td>
+      <td><strong>Nurses</strong></td>
+      <td><strong>Opticians</strong></td>
+    </tr>
+    <tr>
+      <td><em>Quan tòa</em></td>
+      <td><em>Luật sư</em></td>
+      <td><em>Y tá</em></td>
+      <td><em>Bác sĩ mắt</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson07/C2L07-Grid5.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Porters</strong></td>
+      <td><strong>Receptionists</strong></td>
+      <td><strong>Sales Assistants</strong></td>
+      <td><strong>Secretaries</strong></td>
+    </tr>
+    <tr>
+      <td><em>Người khuân vác</em></td>
+      <td><em>Tiếp tân</em></td>
+      <td><em>Trợ lí bán hàng</em></td>
+      <td><em>Thư kí</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson07/C2L07-Grid6.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Surgeons</strong></td>
+      <td><strong>Tailors</strong></td>
+      <td><strong>Teachers</strong></td>
+      <td><strong>Technicians</strong></td>
+    </tr>
+    <tr>
+      <td><em>Bác sĩ phẩu thuật</em></td>
+      <td><em>Thợ may</em></td>
+      <td><em>Giáo viên</em></td>
+      <td><em>Kĩ thuật viên</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson07/C2L07-Grid7.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Vets</strong></td>
+      <td><strong>Waiters / Waitresses</strong></td>
+      <td><strong>Welders</strong></td>
+    </tr>
+    <tr>
+      <td><em>Bác sĩ thú y</em></td>
+      <td><em>Phụ vụ nam / nữ</em></td>
+      <td><em>Thợ hàn</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L07-Conversation.mp3" id="audio_lesson-conversation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-conversation" onclick="play('lesson-conversation', 'C2L07', 'lesson-conversation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L07-Conversation.mp3</div>
+<h2 id="conversation">Conversation</h2>
+
+<blockquote>
+  <p>Person 1: <strong>What is your job?</strong><br />
+Person 2: <strong>I am a sales assistant</strong><br />
+P1: <strong>Is it your dream job?</strong><br />
+P2: <strong>Not really</strong><br />
+P1: <strong>What do you do as a sales assistant?</strong><br />
+P2: <strong>I am responsible for selling goods and looking after customers</strong><br />
+P1: <strong>Where do you work?</strong><br />
+P2: <strong>I work in a shoe shop</strong><br />
+P1: <strong>“What do you like most about your job?</strong><br />
+P2: <strong>What I like most about my job is that the atmosphere is really nice there, and I’m working with a great group of people.</strong><br />
+P1: <strong>Is there anything that you don’t like about your job?</strong><br />
+P2: <strong>The job can get really stressful at times</strong><br />
+P1: <strong>Do you think it is more important to make a lot of money or to enjoy your job?</strong><br />
+P2: <strong>Honestly, I believe that the most important thing in a job is that you are able to enjoy what you do</strong></p>
+</blockquote>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L07-Explanation.mp3" id="audio_lesson-explanation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-explanation" onclick="play('lesson-explanation', 'C2L07', 'lesson-explanation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L07-Explanation.mp3</div>
+<h2 id="explanation">Explanation</h2>
+
+<h3 id="1-i-am-responsible-for-selling-goods-and-looking-after-customers">1. I am responsible for selling goods and looking after customers</h3>
+<p>Suất chiếu sớm của “Dangerous city” đã bán hết rồi</p>
+
+<p><strong>Be sold out.</strong></p>
+
+<ul>
+  <li><strong>The movie is sold out</strong> <em>Bộ phim đã bán hết vé rồi</em></li>
+  <li><strong>The concert was sold out</strong> <em>Buổi hòa nhạc đã bán hết vé rồi</em></li>
+</ul>
+
+<h3 id="2-what-do-you-like-most-about-your-job">2. What do you like most about your job?</h3>
+<p>Bạn thích gì nhất về công việc của bạn?</p>
+
+<p><strong>What do you like most about…</strong></p>
+
+<ul>
+  <li><strong>What do you like most about yourself</strong>. <em>Bạn thích gì nhất về bản thân?</em></li>
+  <li><strong>What does he like most about his trip in Vietnam</strong>. <em>Anh ta thích gì nhất từ chuyến đi Việt nam?</em></li>
+  <li><strong>What do you hate most about your job?</strong>. <em>Bạn ghét điều gì nhất trong công việc</em></li>
+</ul>
+
+<h3 id="3-is-there-anything-that-you-dont-like-about-your-job">3. Is there anything that you don’t like about your job?</h3>
+<p>Có điều gì bạn không thích về công việc không?
+<strong>Is there anything that …?</strong></p>
+
+<ul>
+  <li><strong>Is there anything that you feel annoyed about your boyfriend?</strong> <em>Có điều gì bạn cảm thấy khó chịu về bạn trai không?</em></li>
+  <li><strong>Is there anything that you know that you should do but you don’t?</strong> <em>Có điều gì bạn biết là bạn nên làm nhưng bạn không làm không?</em></li>
+  <li><strong>Is there anything that can make you smile immediately?</strong> <em>Có điều gì có thể khiến bạn cười ngay lập tức không?</em></li>
+</ul>
+
+<h3 id="4--the-job-can-get-really-stressful-at-times">4.  The job can get really stressful at times</h3>
+<p>Công vệc có thể rất căng thẳng nhiều lúc</p>
+
+<ul>
+  <li><strong>I get stressed</strong> <em>Tôi bị căng thẳng</em></li>
+  <li><strong>The job is stressful</strong> <em>Công vệc rất căng thẳng</em></li>
+  <li><strong>It’s a stressful job</strong> <em>Nó là một công việc căng thẳng</em></li>
+</ul>
+
+<h3 id="5--do-you-think-it-is-more-important-to-make-a-lot-of-money-or-to-enjoy-your-job">5.  Do you think it is more important to make a lot of money or to enjoy your job?**</h3>
+<p>Bạn nghĩ rằng kiếm nhiều tiền hay tận hưởng công việc thì quan trọng hơn?</p>
+
+<ul>
+  <li><strong>Do you think it’s more important to be polite or to be honest?</strong> <em>Bạn nghĩ rằng lịch sự hay thành thật thì quan trọng hơn</em></li>
+  <li><strong>Do you think it’s more important to give or take</strong> <em>Bạn nghĩ rằng cho đi hay nhận về thì quan trọng hơn?</em></li>
+</ul>
+
+<h3 id="6-honestly">6. Honestly,</h3>
+<p>Thật lòng mà nói
+<strong>Honestly/ to be honest</strong></p>
+
+<ul>
+  <li><strong>Honestly, I have no interest in him</strong> <em>Thật lòng, tôi chẳng thích anh ta tí nào</em></li>
+  <li><strong>To be honest, I’ll do it tomorrow</strong> <em>Thật lòng, mai tôi sẽ làm</em></li>
+</ul>
+
+<h3 id="7-you-are-able-to-enjoy-what-you-do">7. You are able to enjoy what you do</h3>
+<p>Bạn có thể thích điều bạn làm 
+<strong>be able to</strong> có thể</p>
+<ul>
+  <li><strong>I am able to speak English fluently</strong> <em>Tôi có thể nói Tiếng Anh thành thạo</em></li>
+  <li><strong>I’m sorry that I wasn’t able to phone you yesterday</strong> <em>Xin lỗi hôm qua tôi không thể gọi cho bạn được</em></li>
+</ul>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

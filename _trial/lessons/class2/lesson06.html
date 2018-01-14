@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, start, stop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = start;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Limited Trial version
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <audio src="https://englishletics.s3.amazonaws.com/audio/C2L06-Vocabulary.mp3" id="audio_lesson-vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-vocabulary" onclick="play('lesson-vocabulary', 'C2L06', 'lesson-vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L06-Vocabulary.mp3</div>
+<h1 id="lesson-26-travel">Lesson 2.6: Travel</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+<h3 id="what-can-you-do-there">What can you do there?</h3>
+
+<table>
+<tr class="row1">
+</tr>
+
+</table>
+
+<p><img src="/daily/lessons/class2/lesson06/C2L06-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Go sightseeing</strong></td>
+      <td><strong>Enjoy the beauty of the landscape</strong></td>
+      <td><strong>Visit the museum</strong></td>
+      <td><strong>monument</strong></td>
+    </tr>
+    <tr>
+      <td><em>Đi ngắm cảnh</em></td>
+      <td><em>Tận hưởng vẻ đẹp của phong cảnh</em></td>
+      <td><em>Thăm viện bảo tàng</em></td>
+      <td><em>tượng đài</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson06/C2L06-Grid2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Aquarium</strong></td>
+      <td><strong>night market</strong></td>
+      <td><strong>white sandy beaches</strong></td>
+      <td><strong>Build sandcastles</strong></td>
+    </tr>
+    <tr>
+      <td><em>thủy cung</em></td>
+      <td><em>chợ đêm</em></td>
+      <td> </td>
+      <td><em>Xây lâu đài cát</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson06/C2L06-Grid3.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Watch the wildlife</strong></td>
+      <td><strong>Get a tan</strong></td>
+      <td><strong>get tanned skin</strong></td>
+      <td><strong>Explore caves</strong></td>
+    </tr>
+    <tr>
+      <td><em>Ngắm cuộc sống hoang dã</em></td>
+      <td><em>Tắm nắng cho ngăm da</em></td>
+      <td> </td>
+      <td><em>Thám hiểm hang động</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson06/C2L06-Grid4.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Go hiking</strong></td>
+      <td><strong>Ride a cable Car</strong></td>
+      <td><strong>Wander the bustling streets</strong></td>
+      <td><strong>Try local food</strong></td>
+    </tr>
+    <tr>
+      <td><em>Đi bộ leo núi</em></td>
+      <td><em>Đi cáp treo</em></td>
+      <td><em>Lang thang trên đường phố đông đúc</em></td>
+      <td><em>Ăn thực phẩm địa phương</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="purpose">Purpose</h3>
+
+<p><strong>I travel there to…</strong></p>
+
+<p><img src="/daily/lessons/class2/lesson06/C2L06-Grid5.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<ol>
+  <li><strong>Find a quiet place to avoid the noise of the city</strong> <em>Tìm nơi yên tĩnh để tránh sự ồn ào của thành phố</em></li>
+  <li><strong>Take pictures and capture the moments</strong> <em>Chụp hình và chụp những khoảnh khắc</em></li>
+  <li><strong>Learn about the world</strong> <em>Học thêm về thế giới</em></li>
+  <li><strong>Know more about other countries and regions</strong> <em>Biết hơn về những đất nước và vùng miền khác</em></li>
+</ol>
+
+<p><img src="/daily/lessons/class2/lesson06/C2L06-Grid6.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<ol>
+  <li><strong>Visit friends / relatives</strong> <em>Thăm bạn bè/ họ hàng</em></li>
+  <li><strong>Take a break from work</strong> <em>Giải lao cho công việc</em></li>
+  <li><strong>Go on vacation</strong> <em>Đi kì nghỉ</em></li>
+</ol>
+
+<p><img src="/daily/lessons/class2/lesson06/C2L06-Grid7.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<ol>
+  <li><strong>go on a business trip</strong> <em>Đi công tác</em></li>
+  <li><strong>Learn about new cultures and explore new places.</strong> <em>Học về những văn hóa mới và thám hiểm những nơi mới</em></li>
+</ol>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L06-Conversation.mp3" id="audio_lesson-conversation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-conversation" onclick="play('lesson-conversation', 'C2L06', 'lesson-conversation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L06-Conversation.mp3</div>
+<h2 id="conversation">Conversation</h2>
+
+<blockquote>
+  <p>Person 1: <strong>Did you pack everything you need?</strong><br />
+Person 2: <strong>Uh-huh. I just need to buy a travel pillow at the airport.</strong><br />
+P1: <strong>So, this is your first overseas trip and your first flight! Are you nervous?</strong><br />
+P2: <strong>Not at all</strong><br />
+P1: <strong>Remember, you’re not allowed to take liquids on the plane.</strong><br />
+P2: <strong>Really? OK. I hope I didn’t forget anything</strong><br />
+P1: <strong>You must take your passport!</strong><br />
+P2: <strong>Oh, of course. Thank you</strong><br />
+P1: <strong>You travel a lot. Why do you love traveling so much?</strong><br />
+P2: <strong>It’s an interesting way to know more about new cultures and explore new places. I love to go sightseeing and enjoy the beauty of the landscape. It’s also the best way to find a quiet place to avoid the noise of the city</strong><br />
+P1: <strong>That sounds amazing. I hope you have a nice flight</strong></p>
+</blockquote>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L06-Explanation.mp3" id="audio_lesson-explanation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-explanation" onclick="play('lesson-explanation', 'C2L06', 'lesson-explanation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L06-Explanation.mp3</div>
+<h2 id="explanation">Explanation</h2>
+
+<h3 id="1-i-just-need-to-buy-a-travel-pillow-at-the-airport">1. I just need to buy a travel pillow at the airport.</h3>
+
+<p>Tôi cần mua một cái gối du lịch tại sân bay
+<strong>Verb to verb</strong></p>
+
+<ul>
+  <li><strong>He needs to go to the museum</strong> <em>Anh ta cần đi tới viện bảo tàng</em></li>
+  <li><strong>I want to buy new shoes</strong> <em>Tôi cần mua đôi giày mới</em></li>
+  <li><strong>My mother tries to call me</strong> <em>*Mẹ tôi cố gắng gọi điện cho tôi</em></li>
+</ul>
+
+<h3 id="2-this-content-is-available-in-the-premium-version">2. This content is available in the premium version.</h3>
+
+<p><em>Nội dung này có sẵn trong phiên bản cao cấp</em></p>
+
+<ul>
+  <li><strong>Purchase the full version and get access right now.</strong> <em>Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></li>
+  <li><strong><a href="#">Get access here</a></strong> <em><a href="#">Được truy cập ở đây</a></em></li>
+</ul>
+
+<h3 id="3-this-content-is-available-in-the-premium-version">3. This content is available in the premium version.</h3>
+
+<p><em>Nội dung này có sẵn trong phiên bản cao cấp</em></p>
+
+<ul>
+  <li><strong>Purchase the full version and get access right now.</strong> <em>Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></li>
+  <li><strong><a href="#">Get access here</a></strong> <em><a href="#">Được truy cập ở đây</a></em></li>
+</ul>
+
+<h3 id="4-this-content-is-available-in-the-premium-version">4. This content is available in the premium version.</h3>
+
+<p><em>Nội dung này có sẵn trong phiên bản cao cấp</em></p>
+
+<ul>
+  <li><strong>Purchase the full version and get access right now.</strong> <em>Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></li>
+  <li><strong><a href="#">Get access here</a></strong> <em><a href="#">Được truy cập ở đây</a></em></li>
+</ul>
+
+<h3 id="5-this-content-is-available-in-the-premium-version">5. This content is available in the premium version.</h3>
+
+<p><em>Nội dung này có sẵn trong phiên bản cao cấp</em></p>
+
+<ul>
+  <li><strong>Purchase the full version and get access right now.</strong> <em>Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></li>
+  <li><strong><a href="#">Get access here</a></strong> <em><a href="#">Được truy cập ở đây</a></em></li>
+</ul>
+
+<h3 id="6-this-content-is-available-in-the-premium-version">6. This content is available in the premium version.</h3>
+
+<p><em>Nội dung này có sẵn trong phiên bản cao cấp</em></p>
+
+<ul>
+  <li><strong>Purchase the full version and get access right now.</strong> <em>Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></li>
+  <li><strong><a href="#">Get access here</a></strong> <em><a href="#">Được truy cập ở đây</a></em></li>
+</ul>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

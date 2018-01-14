@@ -1,0 +1,669 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, start, stop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = start;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Free full version (3 days left)
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/product/english-beginner-course-5-weeks/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-11-noun-what">Lesson 1.1: Noun (what)</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<h3 id="animals">Animals</h3>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L01-Animals.mp3" id="audio_vocab-Animals" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocab-Animals" onclick="play('vocab-Animals', 'C1L01', 'vocab-Animals');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L01-Animals.mp3</div>
+
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Animals_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Pig</td>
+      <td>Horse</td>
+      <td>Elephant</td>
+      <td>Fish</td>
+      <td>Snake</td>
+      <td>Giraffe</td>
+      <td>Dog</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Animals_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Cat</td>
+      <td>Lion</td>
+      <td>tiger</td>
+      <td>Chicken</td>
+      <td>Bird</td>
+      <td>Turtle</td>
+      <td>Rabbit</td>
+      <td>Crocodile</td>
+      <td>Bear</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="fruits">Fruits</h3>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L01-Fruits.mp3" id="audio_vocab-Fruits" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocab-Fruits" onclick="play('vocab-Fruits', 'C1L01', 'vocab-Fruits');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L01-Fruits.mp3</div>
+
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Fruits_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Avocado</td>
+      <td>Apple</td>
+      <td>Banana</td>
+      <td>Grape</td>
+      <td>Lemon</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Fruits_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Watermelon</td>
+      <td>Strawberry</td>
+      <td>Papaya</td>
+      <td>Mango</td>
+      <td>Orange</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="things-in-class">Things in class</h3>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L01-ThingsInClass.mp3" id="audio_vocab-ThingsInClass" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocab-ThingsInClass" onclick="play('vocab-ThingsInClass', 'C1L01', 'vocab-ThingsInClass');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L01-ThingsInClass.mp3</div>
+
+<p><img src="/daily/lessons/class1/lesson01/C1L01-ThingsInClass_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Board</td>
+      <td>Chair</td>
+      <td>Table</td>
+      <td>Air conditioner</td>
+      <td>Pen</td>
+      <td>Pencil</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson01/C1L01-ThingsInClass_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Book</td>
+      <td>Marker</td>
+      <td>Door</td>
+      <td>Window</td>
+      <td>Light</td>
+      <td>Wall</td>
+      <td>Picture</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="vehicles">Vehicles</h3>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L01-Vehicles.mp3" id="audio_vocab-Vehicles" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocab-Vehicles" onclick="play('vocab-Vehicles', 'C1L01', 'vocab-Vehicles');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L01-Vehicles.mp3</div>
+
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Vehicles_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Car</td>
+      <td>Motorbike</td>
+      <td>Bike</td>
+      <td>Truck</td>
+      <td>Train</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Vehicles_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Plane</td>
+      <td>Bus</td>
+      <td>Taxi</td>
+      <td>Boat</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="people">People</h3>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L01-People.mp3" id="audio_vocab-People" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocab-People" onclick="play('vocab-People', 'C1L01', 'vocab-People');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L01-People.mp3</div>
+
+<p><img src="/daily/lessons/class1/lesson01/C1L01-People.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Teacher</td>
+      <td>Student</td>
+      <td>Doctor</td>
+      <td>Nurse</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="uncountable-nouns">Uncountable nouns</h2>
+
+<h3 id="important-things-in-your-life">Important things in your life</h3>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L01-Important.mp3" id="audio_vocab-Important" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocab-Important" onclick="play('vocab-Important', 'C1L01', 'vocab-Important');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L01-Important.mp3</div>
+
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Important_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Air</td>
+      <td>Food</td>
+      <td>Money</td>
+      <td>Health</td>
+      <td>Happiness</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Important_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Love</td>
+      <td>Sadness</td>
+      <td>Time</td>
+      <td>Water</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="other-uncountable-things">Other uncountable things</h3>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L01-Other.mp3" id="audio_vocab-Other" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocab-Other" onclick="play('vocab-Other', 'C1L01', 'vocab-Other');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L01-Other.mp3</div>
+
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Other_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+| Homework  | Housework  | Vietnamese  | Tea, milk Coffee  |</p>
+
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Other_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Rice</td>
+      <td>Hair</td>
+      <td>Sugar</td>
+      <td>Salt</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="some-common-verbs">Some common verbs</h2>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L01-Verbs.mp3" id="audio_vocab-Verbs" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocab-Verbs" onclick="play('vocab-Verbs', 'C1L01', 'vocab-Verbs');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L01-Verbs.mp3</div>
+
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Verbs_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>See</td>
+      <td>Watch</td>
+      <td>Look at</td>
+      <td>Look for</td>
+      <td>Observe</td>
+      <td>Buy</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Verbs_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Sell</td>
+      <td>Hate</td>
+      <td>Like</td>
+      <td>Love</td>
+      <td>Want</td>
+      <td>Need</td>
+      <td>Choose</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="1-countable-nouns">1. Countable nouns</h2>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L01-Native-Dialogue.mp3" id="audio_vocab-Native-Dialogue" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocab-Native-Dialogue" onclick="play('vocab-Native-Dialogue', 'C1L01', 'vocab-Native-Dialogue');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L01-Native-Dialogue.mp3</div>
+
+<ol>
+  <li><strong>I like a book / I like books</strong> <em>(Tôi thích một quyển sách / Tôi thích sách)</em></li>
+  <li><strong>I like a horse / I like horses</strong> <em>(Tôi thích một con ngựa / Tôi thích ngựa )</em></li>
+  <li><strong>I hate a snake / I hate snakes</strong> <em>(Tôi ghét một con rắn / Tôi ghét rắn )</em></li>
+  <li><strong>I see a bus / I see 5 buses</strong> <em>(Tôi thấy một cái xe buýt / Tôi thấy 5 cái xe buýt)</em></li>
+  <li><strong>I want an orange / I want some oranges</strong> <em>(Tôi muốn một trái cam / Tôi muốn một vài trái cam)</em></li>
+  <li><strong>I need a marker / I need markers</strong> <em>(Tôi cần một cây bút lông / Tôi cần bút lông)</em></li>
+  <li><strong>I talk to a nurse everyday / I talk to nurses everyday</strong> <em>(Tôi nói chuyện với một cô y tá mỗi ngày / Tôi nói chuyện với các y tá mỗi ngày)</em></li>
+</ol>
+
+<h2 id="2-uncountable-nouns">2. Uncountable nouns</h2>
+<p><strong class="" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      59, 666,      'C1L01', 'vocab-Native-Dialogue');">▶</strong></p>
+
+<ol>
+  <li><strong>I do homework</strong> <em>(Tôi làm bài tập về nhà )</em></li>
+  <li><strong>I need money</strong> <em>(Tôi cần tiền)</em></li>
+  <li><strong>I want water</strong> <em>(Tôi muốn nước)</em></li>
+  <li><strong>I choose happiness</strong> <em>(Tôi chọn hạnh phúc)</em></li>
+  <li><strong>I like sugar</strong> <em>(Tôi thích đường)</em></li>
+  <li><strong>I hate housework</strong> <em>(Tôi ghét công việc nhà)</em></li>
+  <li><strong>I love English</strong> <em>(Tôi thích Tiếng Anh)</em></li>
+</ol>
+
+<h2 id="3-more-of-examples">3. More of examples</h2>
+<p><strong class="" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      90, 666,      'C1L01', 'vocab-Native-Dialogue');">▶</strong></p>
+
+<h3 id="a-what-do-you-choose">a. What do you choose?</h3>
+
+<ul>
+  <li>I choose happiness. How about you?</li>
+  <li>I choose money</li>
+</ul>
+
+<p><em>Bạn chọn gì?</em></p>
+<ul>
+  <li><em>Tôi chọn hạnh phúc. Còn bạn?</em></li>
+  <li><em>Tôi chọn tiền</em></li>
+</ul>
+
+<h3 id="b-what-do-you-like">b. What do you like?</h3>
+<p><strong class="" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      103, 666,      'C1L01', 'vocab-Native-Dialogue');">▶</strong></p>
+
+<ul>
+  <li><strong>I like strawberries. How about you?</strong></li>
+  <li><strong>I like bananas</strong></li>
+</ul>
+
+<p><em>Bạn thích gì?</em></p>
+
+<ul>
+  <li><em>Tôi thích dâu. Còn bạn</em></li>
+  <li><em>Tôi thích chuối</em></li>
+</ul>
+
+<h3 id="c-what-do-you-need">c. What do you need?</h3>
+<p><strong class="" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      110, 666,      'C1L01', 'vocab-Native-Dialogue');">▶</strong></p>
+
+<ul>
+  <li><strong>I need a chair. And you?</strong></li>
+  <li><strong>I need a board</strong></li>
+</ul>
+
+<p><em>Bạn cần gì?</em></p>
+
+<ul>
+  <li><em>Tôi cần một cái ghế. Còn bạn?</em></li>
+  <li><em>Tôi cần một cái bảng</em></li>
+</ul>
+
+<h3 id="d-what-do-you-have">d. What do you have?</h3>
+<p><strong class="" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      116, 666,      'C1L01', 'vocab-Native-Dialogue');">▶</strong></p>
+
+<ul>
+  <li><strong>I have some markers. How about you?</strong></li>
+  <li><strong>I have some pencils</strong></li>
+</ul>
+
+<p><em>Bạn có gì?</em></p>
+
+<ul>
+  <li><em>Tôi có vài cây bút lông. Còn bạn?</em></li>
+  <li><em>Tôi có vài cây bút chì</em></li>
+</ul>
+
+<h3 id="e-what-do-you-want">e. What do you want?</h3>
+<p><strong class="" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      124, 666,      'C1L01', 'vocab-Native-Dialogue');">▶</strong></p>
+
+<ul>
+  <li><strong>I want water. And you?</strong></li>
+  <li><strong>I want tea</strong></li>
+</ul>
+
+<p><em>Bạn muốn gì?</em></p>
+
+<ul>
+  <li><em>Tôi muốn nước. Còn bạn?</em></li>
+  <li><em>Tôi muốn trà</em></li>
+</ul>
+
+<h3 id="f-what-do-you-hate">f. What do you hate?</h3>
+<p><strong class="" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      130, 666,      'C1L01', 'vocab-Native-Dialogue');">▶</strong></p>
+
+<ul>
+  <li><strong>I hate crocodiles. How about you?</strong></li>
+  <li><strong>I hate snakes</strong></li>
+</ul>
+
+<p><em>Bạn ghét gì?</em></p>
+
+<ul>
+  <li><em>Tôi ghét cá xấu. Còn bạn?</em></li>
+  <li><em>Tôi ghét rắn</em></li>
+</ul>
+
+<h3 id="g-what-do-you-look-for">g. What do you look for?</h3>
+<p><strong class="" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      137, 666,      'C1L01', 'vocab-Native-Dialogue');">▶</strong></p>
+
+<ul>
+  <li><strong>I look for a pen. And you?</strong></li>
+  <li><strong>I look for some milk</strong></li>
+</ul>
+
+<p><em>Bạn tìm gì?</em></p>
+
+<ul>
+  <li><em>Tôi tìm cây bút. Còn bạn?</em></li>
+  <li><em>Tôi tìm một ít sữa</em></li>
+</ul>
+
+<h3 id="h-what-do-you-look-at">h. What do you look at?</h3>
+<p><strong class="" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      143, 666,      'C1L01', 'vocab-Native-Dialogue');">▶</strong></p>
+
+<ul>
+  <li><strong>I look at a tiger. What about you?</strong></li>
+  <li><strong>I look at bears</strong></li>
+</ul>
+
+<p><em>Bạn nhìn gì vậy?</em></p>
+
+<ul>
+  <li><em>Tôi nhìn một con hổ. Còn bạn?</em></li>
+  <li><em>Tôi nhìn những con gấu</em></li>
+</ul>
+
+<h3 id="i-what-do-you-observe">i. What do you observe?</h3>
+<p><strong class="" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      150, 666,      'C1L01', 'vocab-Native-Dialogue');">▶</strong></p>
+
+<ul>
+  <li><strong>I observe planes and birds. What about you?</strong></li>
+  <li><strong>I observe cars and giraffes</strong></li>
+</ul>
+
+<p><em>Bạn quan sát gì?</em></p>
+
+<ul>
+  <li><em>Tôi quan sát nhiều máy bay và chim. Còn bạn?</em></li>
+  <li><em>Tôi quan sát nhiều xe hơi và hưu cao cổ</em></li>
+</ul>
+
+<h3 id="j-what-do-you-study">j. What do you study?</h3>
+<p><strong class="" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      158, 666,      'C1L01', 'vocab-Native-Dialogue');">▶</strong></p>
+
+<ul>
+  <li><strong>I study English. How about you?</strong></li>
+  <li><strong>I study Vietnamese</strong></li>
+</ul>
+
+<p><em>Bạn học gì?</em></p>
+
+<ul>
+  <li><em>Tôi học Tiếng Anh. Còn bạn?</em></li>
+  <li><em>Tôi học Tiếng Việt</em></li>
+</ul>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

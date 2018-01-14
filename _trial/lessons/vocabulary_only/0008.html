@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, start, stop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = start;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Limited Trial version
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1>Lesson 1</h1>
+
+<h2>Area: In the supermarket</h2>
+
+<h3>Level: Basic</h3>
+
+
+
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0008-4-The-line-starts-here-.mp3" id="audio_991814887"  preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_991814887" onclick="play('991814887', '0008', 'The line starts here.');">▶</strong>
+  </div>
+  <div class="col-4">
+    <strong>line</strong> : The line starts here.
+    <br />
+    <strong>từ</strong> : chưa có câu với từ đó
+  </div>
+  <div class="col-7">
+    
+      <img src="http://englishletics.imgix.net/images/en_0008-4-The-line-starts-here-.jpg?w=200" />
+    
+  </div>
+</div>
+
+    
+<hr />
+    
+    
+    
+
+
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0008-5-That-makes-12-dollars-and-50-cents-.mp3" id="audio_856567057"  preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_856567057" onclick="play('856567057', '0008', 'That makes 12 dollars and 50 cents.');">▶</strong>
+  </div>
+  <div class="col-4">
+    <strong>makes</strong> : That makes 12 dollars and 50 cents.
+    <br />
+    <strong>từ</strong> : chưa có câu với từ đó
+  </div>
+  <div class="col-7">
+    
+      <img src="http://englishletics.imgix.net/images/en_0008-5-That-makes-12-dollars-and-50-cents-.jpg?w=200" />
+    
+  </div>
+</div>
+
+    
+<hr />
+    
+    
+    
+
+
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0008-6-Cash-or-credit-card-.mp3" id="audio_397170137"  preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_397170137" onclick="play('397170137', '0008', 'Cash or credit card?');">▶</strong>
+  </div>
+  <div class="col-4">
+    <strong>cash</strong> : Cash or credit card?
+    <br />
+    <strong>từ</strong> : chưa có câu với từ đó
+  </div>
+  <div class="col-7">
+    
+      <img src="http://englishletics.imgix.net/images/en_0008-6-Cash-or-credit-card-.jpg?w=200" />
+    
+  </div>
+</div>
+
+    
+<hr />
+    
+    
+    
+
+
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0008-7-Put-the-items-in-the-basket-.mp3" id="audio_425287948"  preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_425287948" onclick="play('425287948', '0008', 'Put the items in the basket.');">▶</strong>
+  </div>
+  <div class="col-4">
+    <strong>basket</strong> : Put the items in the basket.
+    <br />
+    <strong>từ</strong> : chưa có câu với từ đó
+  </div>
+  <div class="col-7">
+    
+      <img src="http://englishletics.imgix.net/images/en_0008-7-Put-the-items-in-the-basket-.jpg?w=200" />
+    
+  </div>
+</div>
+
+    
+<hr />
+    
+    
+    
+
+
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0008-8-Where-is-the-milk-.mp3" id="audio_431110576"  preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_431110576" onclick="play('431110576', '0008', 'Where is the milk?');">▶</strong>
+  </div>
+  <div class="col-4">
+    <strong>milk</strong> : Where is the milk?
+    <br />
+    <strong>từ</strong> : chưa có câu với từ đó
+  </div>
+  <div class="col-7">
+    
+      <img src="http://englishletics.imgix.net/images/en_0008-8-Where-is-the-milk-.jpg?w=200" />
+    
+  </div>
+</div>
+
+    
+<hr />
+    
+    
+    
+<h3>Level: Advanced</h3>
+
+
+
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0008-10-Here-is-your-change-sir-.mp3" id="audio_807609894"  preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_807609894" onclick="play('807609894', '0008', 'Here is your change, sir.');">▶</strong>
+  </div>
+  <div class="col-4">
+    <strong>change</strong> : Here is your change, sir.
+    <br />
+    <strong>từ</strong> : chưa có câu với từ đó
+  </div>
+  <div class="col-7">
+    
+      <img src="http://englishletics.imgix.net/images/en_0008-10-Here-is-your-change-sir-.jpg?w=200" />
+    
+  </div>
+</div>
+
+    
+<hr />
+    
+    
+    
+
+
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0008-11-Can-I-get-a-discount-on-this-.mp3" id="audio_564575587"  preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_564575587" onclick="play('564575587', '0008', 'Can I get a discount on this?');">▶</strong>
+  </div>
+  <div class="col-4">
+    <strong>discount</strong> : Can I get a discount on this?
+    <br />
+    <strong>từ</strong> : chưa có câu với từ đó
+  </div>
+  <div class="col-7">
+    
+      <img src="http://englishletics.imgix.net/images/en_0008-11-Can-I-get-a-discount-on-this-.jpg?w=200" />
+    
+  </div>
+</div>
+
+    
+<hr />
+    
+    
+    
+
+
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0008-12-Sorry-this-register-is-closed-.mp3" id="audio_129218559"  preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_129218559" onclick="play('129218559', '0008', 'Sorry, this register is closed.');">▶</strong>
+  </div>
+  <div class="col-4">
+    <strong>cart</strong> : Sorry, this register is closed.
+    <br />
+    <strong>từ</strong> : chưa có câu với từ đó
+  </div>
+  <div class="col-7">
+    
+      <img src="http://englishletics.imgix.net/images/en_0008-12-Sorry-this-register-is-closed-.jpg?w=200" />
+    
+  </div>
+</div>
+
+    
+<hr />
+    
+    
+    
+
+
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0008-13-I-need-a-cart-not-a-basket-.mp3" id="audio_815941824"  preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_815941824" onclick="play('815941824', '0008', 'I need a cart, not a basket.');">▶</strong>
+  </div>
+  <div class="col-4">
+    <strong>baked</strong> : I need a cart, not a basket.
+    <br />
+    <strong>từ</strong> : chưa có câu với từ đó
+  </div>
+  <div class="col-7">
+    
+      <img src="http://englishletics.imgix.net/images/en_0008-13-I-need-a-cart-not-a-basket-.jpg?w=200" />
+    
+  </div>
+</div>
+
+    
+<hr />
+    
+    
+    
+
+
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0008-14-Try-our-freshly-baked-bread-We-bake-everyday-.mp3" id="audio_671797741"  preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_671797741" onclick="play('671797741', '0008', 'Try our freshly baked bread. We bake everyday.');">▶</strong>
+  </div>
+  <div class="col-4">
+    <strong></strong> : Try our freshly baked bread. We bake everyday.
+    <br />
+    <strong>từ</strong> : chưa có câu với từ đó
+  </div>
+  <div class="col-7">
+    
+      <img src="http://englishletics.imgix.net/images/en_0008-14-Try-our-freshly-baked-bread-We-bake-everyday-.jpg?w=200" />
+    
+  </div>
+</div>
+
+    
+<hr />
+    
+    
+    
+<h3>Level: Professional</h3>
+
+
+
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0008-16-We-appreciate-your-patience-in-the-queue-.mp3" id="audio_428282682"  preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_428282682" onclick="play('428282682', '0008', 'We appreciate your patience in the queue.');">▶</strong>
+  </div>
+  <div class="col-4">
+    <strong>queue</strong> : We appreciate your patience in the queue.
+    <br />
+    <strong></strong> : 
+  </div>
+  <div class="col-7">
+    
+      <img src="http://englishletics.imgix.net/images/en_0008-16-We-appreciate-your-patience-in-the-queue-.jpg?w=200" />
+    
+  </div>
+</div>
+
+    
+<hr />
+    
+    
+    
+
+
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0008-17-Thank-you-for-your-purchase-with-us-today-Please-come-again-.mp3" id="audio_182607790"  preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_182607790" onclick="play('182607790', '0008', 'Thank you for your purchase with us today. Please come again.');">▶</strong>
+  </div>
+  <div class="col-4">
+    <strong>purchase</strong> : Thank you for your purchase with us today. Please come again.
+    <br />
+    <strong></strong> : 
+  </div>
+  <div class="col-7">
+    
+      <img src="http://englishletics.imgix.net/images/en_0008-17-Thank-you-for-your-purchase-with-us-today-Please-come-again-.jpg?w=200" />
+    
+  </div>
+</div>
+
+    
+<hr />
+    
+    
+    
+
+
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0008-18-The-cashier-at-the-grocery-store-was-very-kind-.mp3" id="audio_250511025"  preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_250511025" onclick="play('250511025', '0008', 'The cashier at the grocery store was very kind.');">▶</strong>
+  </div>
+  <div class="col-4">
+    <strong>cashier</strong> : The cashier at the grocery store was very kind.
+    <br />
+    <strong></strong> : 
+  </div>
+  <div class="col-7">
+    
+      <img src="http://englishletics.imgix.net/images/en_0008-18-The-cashier-at-the-grocery-store-was-very-kind-.jpg?w=200" />
+    
+  </div>
+</div>
+
+    
+<hr />
+    
+    
+    
+
+
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0008-19-I-can-t-eat-any-dairy-products-Do-you-have-lactose-free-milk-.mp3" id="audio_169658909"  preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_169658909" onclick="play('169658909', '0008', 'I can't eat any dairy products! Do you have lactose-free milk?');">▶</strong>
+  </div>
+  <div class="col-4">
+    <strong>dairy product</strong> : I can't eat any dairy products! Do you have lactose-free milk?
+    <br />
+    <strong></strong> : 
+  </div>
+  <div class="col-7">
+    
+      <img src="http://englishletics.imgix.net/images/en_0008-19-I-can-t-eat-any-dairy-products-Do-you-have-lactose-free-milk-.jpg?w=200" />
+    
+  </div>
+</div>
+
+    
+<hr />
+    
+    
+    
+
+
+<audio src="https://englishletics.s3-ap-southeast-1.amazonaws.com/audio/en_0008-20-The-price-tag-on-this-shirt-was-10-dollars-not-15-You-overcharged-by-5-dollars-.mp3" id="audio_986713442"  preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <strong class="" id="play_986713442" onclick="play('986713442', '0008', 'The price tag on this shirt was 10 dollars, not 15! You overcharged by 5 dollars!');">▶</strong>
+  </div>
+  <div class="col-4">
+    <strong>overcharge</strong> : The price tag on this shirt was 10 dollars, not 15! You overcharged by 5 dollars!
+    <br />
+    <strong></strong> : 
+  </div>
+  <div class="col-7">
+    
+      <img src="http://englishletics.imgix.net/images/en_0008-20-The-price-tag-on-this-shirt-was-10-dollars-not-15-You-overcharged-by-5-dollars-.jpg?w=200" />
+    
+  </div>
+</div>
+
+    
+<hr />
+    
+    
+    
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

@@ -33,7 +33,7 @@ lesson: "05"
 
 {% include image.html class=2 lesson="05" name="Grid5" %}
 
-| **Confident** | **Shy**  | **Strict** | **Easy - going** | 
+| **Confident** | **Shy**  | **Strict** | **Easy-going** | 
 |  *Tự tin*  |    *Nhút nhát*   |  *Nghiêm khắc*   |   *Dễ tính*  | 
 
 
@@ -50,7 +50,7 @@ lesson: "05"
 
 {% include image.html class=2 lesson="05" name="Grid8" %}
 
-| **Hot-tempered** | **Even - tempered**  | **Mature** | **Childish** | 
+| **Hot-tempered** | **Even-tempered**  | **Mature** | **Childish** | 
 |  *Nóng tính*  |    *Điềm tĩnh*   |  *Trưởng thành*   |   *Con nít*  | 
 
 

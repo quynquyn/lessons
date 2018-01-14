@@ -15,14 +15,17 @@ nav.el-offer-bar{
 		color: white;
 	}
 	
-	.nav-link, .navbar-text {
-		color: white;
+	.nav-item, .nav-link, .navbar-text  {
+		&, &:visited, &:hover, &:active { 
+			color: white;
+		}
 		padding: 0;
 	}
 
 	.navbar-brand, .nav-link {
 		font-size: 80%;
 	}
+	
 	
 }
 

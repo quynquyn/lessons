@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, start, stop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = start;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Free full version (2 days left)
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/product/english-beginner-course-5-weeks/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-2-verb">Lesson 2: Verb</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L02-Verbs.mp3" id="audio_vocab-Verbs" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocab-Verbs" onclick="play('vocab-Verbs', 'C1L02', 'vocab-Verbs');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L02-Verbs.mp3</div>
+
+<h3 id="eyes">Eyes</h3>
+<p><img src="/daily/lessons/class1/lesson02/C1L02-Eyes1_Grid.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Look at</td>
+      <td>Look for</td>
+      <td>Watch</td>
+      <td>See</td>
+      <td>Observe</td>
+      <td>Study</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson02/C1L02-Eyes2_Grid.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Learn</td>
+      <td>Review</td>
+      <td>Check</td>
+      <td>Cry</td>
+      <td>Sleep</td>
+      <td>Dream</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="leg">Leg</h3>
+<p><img src="/daily/lessons/class1/lesson02/C1L02-Leg1_Grid.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Chase</td>
+      <td>Kick</td>
+      <td>Climb</td>
+      <td>Leave</td>
+      <td>Move</td>
+      <td>Stand</td>
+      <td>Sit</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson02/C1L02-Leg2_Grid.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Lie</td>
+      <td>Go</td>
+      <td>Walk</td>
+      <td>Run</td>
+      <td>Dance</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="mouth">Mouth</h3>
+<p><img src="/daily/lessons/class1/lesson02/C1L02-Mouth1_Grid.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Talk to</td>
+      <td>Talk about</td>
+      <td>Whisper</td>
+      <td>Interview</td>
+      <td>Eat</td>
+      <td>Drink</td>
+      <td>Lie to</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson02/C1L02-Mouth2_Grid.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Smile</td>
+      <td>Laugh</td>
+      <td>Ask</td>
+      <td>Answer</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="hand">Hand</h3>
+<p><img src="/daily/lessons/class1/lesson02/C1L02-Hand1_Grid.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Make / do</td>
+      <td>Paint/ draw</td>
+      <td>Hold / keep</td>
+      <td>Pull / Push</td>
+      <td>Use</td>
+      <td>Play</td>
+      <td>Throw</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson02/C1L02-Hand2_Grid.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Clean</td>
+      <td>Ride / drive</td>
+      <td>Swim</td>
+      <td>Choose</td>
+      <td>Work</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="dialogue">Dialogue</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L02-Native-Dialogue.mp3" id="audio_vocab-Dialogue" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocab-Dialogue" onclick="play('vocab-Dialogue', 'C1L02', 'vocab-Dialogue');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L02-Native-Dialogue.mp3</div>
+
+<h3 id="a1--i-chase-a-dog">A1.- I chase a dog</h3>
+
+<ul>
+  <li><strong>Do you chase a horse?</strong></li>
+  <li><strong>No, I don’t chase a horse. I chase a dog</strong></li>
+</ul>
+
+<p><em>Tôi đuổi theo một con chó?</em></p>
+
+<ul>
+  <li><em>Có phải bạn đuổi theo một con ngựa không?</em></li>
+  <li><em>Không. Tôi không đuổi theo một con chó. Tôi đuổi theo một con chó</em></li>
+</ul>
+
+<h3 id="a2---i-look-at-a-teacher">A2. - I look at a teacher</h3>
+
+<ul>
+  <li><strong>Do you look for a teacher?</strong></li>
+  <li><strong>No, I don’t look for a teacher, I look at a teacher</strong></li>
+</ul>
+
+<p><em>Tôi nhìn một giáo viên</em></p>
+
+<ul>
+  <li><em>Bạn kiếm một giáo viên hả?</em></li>
+  <li><em>Không, tôi không tìm kiếm một giáo viên. Tôi nhìn một giáo viên</em></li>
+</ul>
+
+<h3 id="b1--i-like-dolls">B1.- I like dolls</h3>
+
+<ul>
+  <li><strong>Do you like doors ?</strong></li>
+  <li><strong>No, I don’t like doors. I like dolls.</strong></li>
+</ul>
+
+<p><em>Tôi thích búp bê</em></p>
+
+<ul>
+  <li><em>Có phải bạn thích những cái cửa hả?</em></li>
+  <li><em>Không, tôi không thích cửa. Tôi thích búp bê</em></li>
+</ul>
+
+<h3 id="b2---i-kick-a-chair">B2.-  I kick a chair</h3>
+
+<ul>
+  <li><strong>Do you kiss a chair?</strong></li>
+  <li><strong>No, I don’t kiss a chair. I kick it</strong></li>
+</ul>
+
+<p><em>B2. Tôi đá một cá ghế</em></p>
+
+<ul>
+  <li><em>Bạn hôn một cái ghế hả?</em></li>
+  <li><em>Không, tôi không hôn cá ghế. Tôi đá nó</em></li>
+</ul>
+
+<h3 id="c1---i-interview-doctors">C1.-  I interview doctors</h3>
+
+<ul>
+  <li><strong>Do you interview teachers?</strong></li>
+  <li><strong>No. I don’t interview teachers. I interview doctors</strong></li>
+</ul>
+
+<p><em>Tôi phỏng vấn bác sĩ</em></p>
+
+<ul>
+  <li><em>Bạn phỏng vấn giáo viên hả?</em></li>
+  <li><em>Không, tôi không phỏng vấn giáo viên. Tôi phỏng vấn bác sĩ</em></li>
+</ul>
+
+<h3 id="c2---i-talk-to-students">C2. - I talk to students</h3>
+
+<ul>
+  <li><strong>Do you talk about students?</strong></li>
+  <li><strong>No, I don’t talk about students? I talk to students</strong></li>
+</ul>
+
+<p><em>Tôi nói chuyện với những  học sinh</em></p>
+
+<ul>
+  <li><em>Có phải bạn nói chuyện về những học sinh không?</em></li>
+  <li>*Không. Tôi không nói về những người học sinh. Tôi nói với họ *</li>
+</ul>
+
+<h3 id="d1--i-see-planes">D1.- I see planes</h3>
+
+<ul>
+  <li><strong>Do you see some trains?</strong></li>
+  <li><strong>No,  don’t see some trains. I see some planes</strong></li>
+</ul>
+
+<p><em>Tôi thấy những cái máy bay</em></p>
+
+<ul>
+  <li><em>Có phải bạn thấy xe lửa?</em></li>
+  <li><em>Không, tôi không thấy xe lửa. Tôi thấy máy bay</em></li>
+</ul>
+
+<h3 id="d2---i-pull-a-door">D2. - I pull a door</h3>
+
+<ul>
+  <li><strong>Do you push a door?</strong></li>
+  <li><strong>No, I don’t push a door. I pull a door</strong></li>
+</ul>
+
+<p><em>Tôi kéo một cái cửa</em></p>
+
+<ul>
+  <li><em>Bạn đẩy một cái cửa phải không?</em></li>
+  <li><em>Không. Tôi không đẩy cái cửa. Tôi kéo nó</em></li>
+</ul>
+
+<h3 id="e1--i-do-homework-everyday">E1.- I do homework everyday</h3>
+
+<ul>
+  <li><strong>Do you do housework everyday?</strong></li>
+  <li><strong>No. I don’t do housework everyday. I do homework everyday</strong></li>
+</ul>
+
+<p><em>Tôi bài tập mỗi ngày.</em></p>
+
+<ul>
+  <li><em>Bạn làm việc nhà mỗi ngày hả?</em></li>
+  <li><em>Không, tôi không làm việc nhà mỗi ngày. Tôi làm bài tập về nhà mỗi ngày</em></li>
+</ul>
+
+<h3 id="e2---i-lie-to-him">E2. - I lie to him</h3>
+
+<ul>
+  <li><strong>Do you lie next to him?</strong></li>
+  <li><strong>No, I don’t lie next to to him. I lie to him</strong></li>
+</ul>
+
+<p><em>Tôi nói dối anh ấy</em></p>
+
+<ul>
+  <li><em>Bạn nằm kế anh ta hả?</em></li>
+  <li><em>Không, tôi không nằm kế anh ta. Tôi nói dối với anh ta</em></li>
+</ul>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

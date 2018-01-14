@@ -1,0 +1,77 @@
+
+# turn off directory browsing
+IndexIgnore *
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  
+  RewriteCond %{THE_REQUEST} ^(GET|HEAD)\ /.+\.html\ HTTP
+  RewriteRule ^(.+)\.html$ http://%{HTTP_HOST}/$1 [R=301,L]
+  
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule ^.+$ %{REQUEST_FILENAME}.html [L]
+</IfModule>
+
+
+# show custom error pages for these HTTP statuses
+ErrorDocument 404 /system/error
+ErrorDocument 403 /system/error
+ErrorDocument 401 /system/error
+
+
+# Redirect the Blog
+# https://gist.github.com/ScottPhillips/1721489
+
+
+
+
+# some manual redirects
+# https://docs.google.com/spreadsheets/d/11QbKKPCBgIvNy_xsxD8rAsG_zj9xg4i5M5DdoJ4ZERg/edit#gid=0
+Redirect 301	/blog	https://medium.com/@tillcarlos
+
+Redirect 301	/slideshare-saas-power-points-getting-traffic/	https://medium.com/@maerketing/slideshare-for-saas-5-power-points-for-getting-traffic-b31e35683373
+Redirect 301	/saas-testimonials-tips-tricks/	https://medium.com/@maerketing/saas-testimonials-tips-tricks-77abf10221e8
+Redirect 301	/saas-onboarding-concepts/	https://medium.com/@maerketing/saas-onboarding-concepts-aa835aeb31d1
+Redirect 301	/aplos-marketing-teardown/	https://medium.com/@maerketing/aplos-marketing-teardown-5e579fee053b
+Redirect 301	/electricitybilling-marketing-teardown/	https://medium.com/@maerketing/electricitybilling-marketing-teardown-4947a054fd0a
+Redirect 301	/inflectra-complete-software-suite-development-teams/	https://medium.com/@maerketing/inflectra-the-complete-software-suite-for-development-teams-e6cb08a93b3f
+Redirect 301	/chatra-marketing-teardown/	https://medium.com/@maerketing/chatra-marketing-teardown-fdb426a69ea3
+Redirect 301	/trackduck-saas-marketing-teardown/	https://medium.com/@maerketing/trackduck-saas-marketing-teardown-f8392df25229
+Redirect 301	/ementorconnect-saas-marketing-teardown/	https://medium.com/@maerketing/ementorconnect-saas-marketing-teardown-2705377db22f
+Redirect 301	/smoolis-saas-marketing-teardown/	https://medium.com/@maerketing/smoolis-saas-marketing-teardown-d6a53e76577a
+Redirect 301	/ethoos-marketing-analysis/	https://medium.com/@maerketing/ethoos-marketing-analysis-ab0a30f8cab3
+Redirect 301	/sellbeing-smart-ecommerce-platform/	https://medium.com/@maerketing/sellbeing-the-smart-ecommerce-platform-a8f05ec79056
+Redirect 301	/webflow-marketing-analysis/	https://medium.com/@maerketing/webflow-marketing-analysis-website-construction-saas-6375aaa3f083
+Redirect 301	/upwork-hiring-process/	https://medium.com/@maerketing/upwork-hiring-process-how-to-create-a-pool-of-workers-and-use-them-all-at-once-39bc98d9fb3e
+Redirect 301	/email-barrier/	https://medium.com/@maerketing/the-email-barrier-kill-email-anxiety-once-and-for-all-with-2-simple-rules-1c0b9f778c1f
+Redirect 301 /cash-aint-help/	https://medium.com/@maerketing/cash-aint-gonna-help-you-8ce4050268c2
+Redirect 301	/know-like-trust/	https://medium.com/@maerketing/know-like-and-trust-9-ways-to-improve-your-marketing-in-only-1-hour-per-day-d3437050bb61
+Redirect 301	/meshfire-marketing-analysis/	https://medium.com/@tillcarlos/how-to-market-social-media-saas-129c2d5d388d
+Redirect 301	/saas-emails/	https://medium.com/@tillcarlos/essential-knowledge-for-saas-emails-c74eff96f3f9
+Redirect 301	/softwaresales/	https://medium.com/@tillcarlos/software-salesman-mindset-38ae390d2ba4
+Redirect 301	/sunk-cost/	https://medium.com/@tillcarlos/university-degree-ef6058c58e73
+Redirect 301	/get-interviews/	https://medium.com/@tillcarlos/get-interviews-from-busy-people-d04f665746e5
+Redirect 301	/avoid-odesk-spam/	https://medium.com/@tillcarlos/avoid-odesk-spam-with-this-question-cc5c69cd678a
+Redirect 301	/startup-list-building/	https://medium.com/@tillcarlos/list-building-as-the-first-step-e5cb75a5cde
+Redirect 301	/peter-shankman-haro-interview-till-carlos/	https://medium.com/@tillcarlos/peter-shankman-e2bbd96007cf
+Redirect 301	/cater-vietnamese-audience/	https://medium.com/@tillcarlos/how-to-cater-a-vietnamese-audience-cba47e4dde5d
+Redirect 301	/7-worst-personal-branding-mistakes/	https://medium.com/@tillcarlos/the-7-worst-personal-branding-mistakes-9ebb11a9a470
+Redirect 301	/kraken-image-optimizer-saas/	https://medium.com/@tillcarlos/kraken-io-marketing-of-an-image-optimizer-saas-d0256a4dd18b
+Redirect 301	/ben-hebert-naturalstacks-com-bootstrap-process/	https://medium.com/@tillcarlos/ben-hebert-naturalstacks-com-bootstrap-process-46c1f1d399c7
+Redirect 301	/dr-shannon-weeks-kinesiologist-interview-with-till-carlos/	https://medium.com/@tillcarlos/dr-shannon-weeks-patients-are-customers-e169c7909a39
+Redirect 301	/john-mcintyre-email-marketing-interview-till-carlos/	https://medium.com/@tillcarlos/john-mcintyre-authority-for-email-autoresponder-e1dffc3be4a
+Redirect 301	/eric-liguori-fresno-state-university-interview-with-till-carlos/	https://medium.com/@tillcarlos/eric-liguori-training-leaders-and-entrepreneurs-in-universities-5317c4ec950d
+Redirect 301	/chris-chidgey-app-expert-interview-with-till-carlos/	https://medium.com/@tillcarlos/chris-chidgey-app-expert-in-one-year-741ced69cf49
+Redirect 301	/stavros-messinis-coworkingspace-interview-with-till-carlos/	https://medium.com/@tillcarlos/stavros-messinis-home-and-guidance-for-entrepreneurs-62d3a9f19ddc
+Redirect 301	/7-josh-stanton-effective-outsourcing/	https://medium.com/@tillcarlos/josh-stanton-effective-outsourcing-79dd7ab670fa
+Redirect 301	/value-requires-attention/	https://medium.com/@tillcarlos/perceived-value-requires-attention-e6823c44547a
+Redirect 301	/8-paula-stern/	https://medium.com/@tillcarlos/paula-stern-asking-the-right-questions-39aa3a317155
+Redirect 301	/leon-jay-fusionhq-interview-with-till-carlos/	https://medium.com/@tillcarlos/leon-jay-do-less-work-make-more-money-6a5c8e191a5e
+Redirect 301	/fridtjof-detzner-jimdo-interview-with-till-carlos/	https://medium.com/@tillcarlos/fridtjof-detzner-putting-the-power-of-the-internet-in-everyones-hands-dabef6699170
+Redirect 301	/company-reflection/	https://medium.com/@tillcarlos/company-reflection-the-new-must-do-for-thriving-companies-f1800cbef8e7
+Redirect 301	/5-assumptions-that-kill-your-entrepreneurial-career/	https://medium.com/@tillcarlos/5-assumptions-that-kill-your-entrepreneurial-career-e3f91c9f58d3
+Redirect 301	/guerilla-networking-preparation/	https://medium.com/@tillcarlos/network-with-guerilla-preparation-f85a127bb279
+Redirect 301	/childhood-habits-dont-change/	https://medium.com/@tillcarlos/childhood-habits-dont-change-d30d8a54fa44
+Redirect 301	/michael-waitze-investing-thailand/	https://medium.com/@tillcarlos/michael-waitze-investing-thailand-saas-d45b0f840073

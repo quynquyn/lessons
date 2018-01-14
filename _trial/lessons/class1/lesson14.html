@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, start, stop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = start;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Limited Trial version
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/product/english-beginner-course-5-weeks/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <audio src="https://englishletics.s3.amazonaws.com/audio/C1L14-Vocabulary.mp3" id="audio_lesson-vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-vocabulary" onclick="play('lesson-vocabulary', 'C1L14', 'lesson-vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L14-Vocabulary.mp3</div>
+<h1 id="lesson-114-when">Lesson 1.14: WHEN</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<h3 id="parts-of-the-day">Parts of the Day</h3>
+
+<p><img src="/daily/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Morning</strong></td>
+      <td><strong>Afternoon</strong></td>
+      <td><strong>Evening</strong></td>
+      <td><strong>Night</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="seasons">Seasons</h3>
+
+<p><img src="/daily/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Spring</strong></td>
+      <td><strong>Summer</strong></td>
+      <td><strong>Autumn</strong></td>
+      <td><strong>Winter</strong></td>
+    </tr>
+    <tr>
+      <td><em>Kế toán</em></td>
+      <td><em>Thợ làm bánh</em></td>
+      <td><em>Người hớt tóc nam</em></td>
+      <td><em>Người pha chế</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="days-of-the-week">Days of the Week</h3>
+
+<p><img src="/daily/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Monday</strong></td>
+      <td><strong>Tuesday</strong></td>
+      <td><strong>Wednesday</strong></td>
+      <td><strong>Thursday</strong></td>
+    </tr>
+    <tr>
+      <td><em>Kế toán</em></td>
+      <td><em>Thợ làm bánh</em></td>
+      <td><em>Người hớt tóc nam</em></td>
+      <td><em>Người pha chế</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Friday</strong></td>
+      <td><strong>Saturday</strong></td>
+      <td><strong>Sunday</strong></td>
+    </tr>
+    <tr>
+      <td><em>Kế toán</em></td>
+      <td><em>Thợ làm bánh</em></td>
+      <td><em>Người hớt tóc nam</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="months-of-the-year">Months of the Year</h3>
+
+<p><img src="/daily/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>January</strong></td>
+      <td><strong>February</strong></td>
+      <td><strong>March</strong></td>
+      <td><strong>April</strong></td>
+    </tr>
+    <tr>
+      <td><em>Kế toán</em></td>
+      <td><em>Thợ làm bánh</em></td>
+      <td><em>Người hớt tóc nam</em></td>
+      <td><em>Người pha chế</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>May</strong></td>
+      <td><strong>June</strong></td>
+      <td><strong>July</strong></td>
+      <td><strong>August</strong></td>
+    </tr>
+    <tr>
+      <td><em>Kế toán</em></td>
+      <td><em>Thợ làm bánh</em></td>
+      <td><em>Người hớt tóc nam</em></td>
+      <td><em>Người pha chế</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>September</strong></td>
+      <td><strong>October</strong></td>
+      <td><strong>November</strong></td>
+      <td><strong>December</strong></td>
+    </tr>
+    <tr>
+      <td><em>Kế toán</em></td>
+      <td><em>Thợ làm bánh</em></td>
+      <td><em>Người hớt tóc nam</em></td>
+      <td><em>Người pha chế</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="frequency">Frequency</h3>
+
+<p><img src="/daily/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Always</strong></td>
+      <td><strong>Usually/Often</strong></td>
+      <td><strong>Sometimes</strong></td>
+      <td><strong>Rarely</strong></td>
+    </tr>
+    <tr>
+      <td><em>Kế toán</em></td>
+      <td><em>Thợ làm bánh</em></td>
+      <td><em>Người hớt tóc nam</em></td>
+      <td><em>Người pha chế</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Never</strong></td>
+    </tr>
+    <tr>
+      <td><em>Kế toán</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="days">Days</h3>
+<p><img src="/daily/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>First</strong></td>
+      <td><strong>Second</strong></td>
+      <td><strong>Third</strong></td>
+      <td><strong>Fourth</strong></td>
+    </tr>
+    <tr>
+      <td><em>Kế toán</em></td>
+      <td><em>Thợ làm bánh</em></td>
+      <td><em>Người hớt tóc nam</em></td>
+      <td><em>Người pha chế</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Fifth</strong></td>
+      <td><strong>Sixth</strong></td>
+      <td><strong>Seventh</strong></td>
+      <td><strong>Eigth</strong></td>
+    </tr>
+    <tr>
+      <td><em>Kế toán</em></td>
+      <td><em>Thợ làm bánh</em></td>
+      <td><em>Người hớt tóc nam</em></td>
+      <td><em>Người pha chế</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Ninth</strong></td>
+      <td><strong>Tenth</strong></td>
+    </tr>
+    <tr>
+      <td><em>Kế toán</em></td>
+      <td><em>Thợ làm bánh</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L14-Conversation.mp3" id="audio_lesson-conversation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-conversation" onclick="play('lesson-conversation', 'C1L14', 'lesson-conversation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L14-Conversation.mp3</div>
+<h2 id="example">Example</h2>
+
+<ol>
+  <li><strong>When is your birthday?</strong> <strong>My birthday is on January 1st</strong></li>
+  <li><strong>When is Valentine’s day</strong> <strong>Valentine’s day is on February 14th, isn’t it?</strong></li>
+  <li><strong>When is Tet holiday?</strong> <strong>Tet holiday is the first day of January in the lunar calendar</strong></li>
+  <li><strong>When is Vietnamese Independence day?</strong> <strong>Vietnamese Independence day is on September second</strong></li>
+  <li><strong>When is Halloween?</strong> <strong>Halloween is on the thirty first of October</strong></li>
+  <li><strong>When are you free?</strong> <strong>I am free after 6PM on weekdays and on weekends</strong></li>
+  <li><strong>When were you born?</strong> <strong>I was born on December 9th, 1992</strong></li>
+  <li><strong>What time is it?</strong> <strong>It’s five to nine</strong></li>
+  <li><strong>What time is it?</strong> <strong>It’s ten to ten</strong></li>
+  <li><strong>What time is it?</strong> <strong>It’s a quarter to six</strong></li>
+</ol>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L14-Explanation.mp3" id="audio_lesson-explanation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-explanation" onclick="play('lesson-explanation', 'C1L14', 'lesson-explanation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L14-Explanation.mp3</div>
+<h2 id="more-examples">More examples</h2>
+<ol>
+  <li><strong>When do you do homework?</strong> <strong>I do homework whenever I have free time</strong></li>
+  <li><strong>When do you intend to buy a computer?</strong> <strong>I intend to buy a computer whenever I have enough money</strong></li>
+  <li><strong>When do you finish school?</strong> <strong>I finish school at half past five</strong></li>
+  <li><strong>When does the class start?</strong> <strong>The class starts at a quarter to seven</strong></li>
+  <li><strong>When do you have lunch?</strong> <strong>I have lunch at noon</strong></li>
+  <li><strong>When does the sun rise?</strong> <strong>The sun rises in the morning</strong></li>
+  <li><strong>When do flowers bloom?</strong> <strong>Flowers bloom in Spring</strong></li>
+  <li><strong>When do the tree leaves change color and fall?</strong> <strong>It happens in Autumn</strong></li>
+  <li><strong>When do people go back to their hometown and reunite with their families?</strong> <strong>It happens on Tet holiday</strong></li>
+  <li><strong>When do you feel happy?</strong> <strong>I feel happy whenever I hang out with my friends and family</strong></li>
+  <li><strong>When do you feel sad?</strong> <strong>I feel sad whenever I think about my ex boyfriend</strong></li>
+  <li><strong>When do you get angry?</strong> <strong>I get angry every time I talk to the crazy girl</strong></li>
+  <li><strong>When do you intend to get married?</strong> <strong>I intend to get married after I become financially stable</strong></li>
+  <li><strong>When do you get disappointed?</strong> <strong>I get disappointed every time you lie to me</strong></li>
+</ol>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

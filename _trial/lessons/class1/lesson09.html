@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, start, stop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = start;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Limited Trial version
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/product/english-beginner-course-5-weeks/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <audio src="https://englishletics.s3.amazonaws.com/audio/C1L09-Vocabulary.mp3" id="audio_lesson-vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-vocabulary" onclick="play('lesson-vocabulary', 'C1L09', 'lesson-vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L09-Vocabulary.mp3</div>
+
+<h1 id="lesson-9-comparison">Lesson 9: Comparison</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Animals_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Sociable</strong></td>
+      <td><strong>Aggressive</strong></td>
+      <td><strong>Peaceful</strong></td>
+      <td><strong>Intelligent</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Animals_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Sensitive</strong></td>
+      <td><strong>Adventurous</strong></td>
+      <td><strong>Proud</strong></td>
+      <td><strong>Wild</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="1-comparative">1. Comparative</h2>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L09-Explanation1.mp3" id="audio_lesson-ex1" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-ex1" onclick="play('lesson-ex1', 'C1L09', 'lesson-ex1');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L09-Explanation1.mp3</div>
+
+<ol>
+  <li><strong>She is older than I am</strong> <em>Cô ta lớn hơn tôi</em></li>
+  <li><strong>These shoes are more expensive than those shoes</strong> <em>Những đối giày này thì mắc hơn những đôi giày đó</em></li>
+  <li><strong>I think this pizza tastes better than that pizza</strong> <em>Tôi nghĩ cái bánh pizza này ăn ngon hơn cái bánh pizza kia</em></li>
+  <li><strong>The weather today is worse than it was yesterday</strong> <em>Thời tiết hôm nay thì tệ hơn hôm qua</em></li>
+  <li><strong>The state of Minnesota is a lot bigger than the state of Delaware</strong> <em>Bang Minnesota thì lớn hơn bang Delaware nhiều</em></li>
+  <li><strong>He is more adventurous than I am</strong> <em>Anh ta phiêu lưu hơn tôi</em></li>
+  <li><strong>This problem is more important than that one</strong> <em>Vấn đề này quan trọng hơn vấn đề kia</em></li>
+  <li><strong>Spanish is an easier language to learn than English</strong> <em>Tiếng Tây Ban Nha là ngôn ngữ dễ hơn là Tiếng Anh</em></li>
+  <li><strong>Riding a motorcycle is more dangerous than riding a bike</strong>. <em>Lái xe máy thì nguy hiểm hơn lái xe đạp</em></li>
+  <li><strong>Elephants have a better memory than crocodiles</strong> <em>Voi có trí nhất tốt hơn cá sấu</em></li>
+</ol>
+
+<h2 id="2-superlative">2. Superlative</h2>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L09-Explanation2.mp3" id="audio_lesson-ex2" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-ex2" onclick="play('lesson-ex2', 'C1L09', 'lesson-ex2');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L09-Explanation2.mp3</div>
+
+<ol>
+  <li><strong>This is the most expensive car I have every owned</strong> <em>Đây là cái xe hơi đắt nhất mà tôi từng có</em></li>
+  <li><strong>Maria is one of the best players on the team</strong> <em>Maria là một trong những người chơi giỏi nhất trong đội</em></li>
+  <li><strong>The coldest month of the year in Minnesota is January</strong> <em>Tháng lạnh nhất của năm ở Minnesota là tháng một</em></li>
+  <li><strong>He is the most hard -working employee in the company</strong> <em>Anh ta là người nhân viên chăm chỉ nhất trong công ty</em></li>
+  <li><strong>Who has the best solution?</strong> <em>Ai có giải pháp tốt nhất?</em></li>
+  <li><strong>Many Americans think George Bush has been the worst President they have ever had</strong> <em>Nhiều người Mỹ nghĩ rằng George Bursh là tổng thống tệ nhất mà họ từng có</em></li>
+  <li><strong>A good education is the most important experience for a young person</strong> <em>Giáo dục tốt là một trải nghiệm quan trọng nhất của một người trẻ</em></li>
+  <li><strong>Who has the longest hair in our class?</strong> <em>Ai có tóc dài nhất trong lớp?</em></li>
+  <li><strong>He is the richest man in the world</strong> <em>Anh ta là người giàu nhất thế giới</em></li>
+  <li><strong>Daniel is the most sensitive person I’ve known</strong> <em>Daniel là người nhạy cảm nhất mà tôi biết</em></li>
+</ol>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, start, stop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = start;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Limited Trial version
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <audio src="https://englishletics.s3.amazonaws.com/audio/C2L13-Vocabulary.mp3" id="audio_lesson-vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-vocabulary" onclick="play('lesson-vocabulary', 'C2L13', 'lesson-vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L13-Vocabulary.mp3</div>
+<h1 id="lesson-113-personality-2">Lesson 1.13: Personality 2</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<p><img src="/daily/lessons/class2/lesson13/C2L13-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Sensitive</strong></td>
+      <td><strong>Proud</strong></td>
+      <td><strong>Aggressive</strong></td>
+      <td><strong>Honest</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson13/C2L13-Grid2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Self-confident</strong></td>
+      <td><strong>Moody</strong></td>
+      <td><strong>Absent-minded</strong></td>
+      <td><strong>Amusing</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson13/C2L13-Grid3.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Thoughtful</strong></td>
+      <td><strong>Arrogant</strong></td>
+      <td><strong>Hardworking</strong></td>
+      <td><strong>Selfish</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson13/C2L13-Grid4.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Outgoing</strong></td>
+      <td><strong>A gossip</strong></td>
+      <td><strong>Easygoing</strong></td>
+      <td><strong>An extrovert</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson13/C2L13-Grid5.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Cheerful</strong></td>
+      <td><strong>Miserable</strong></td>
+      <td><strong>Sociable</strong></td>
+      <td><strong>Reliable</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson13/C2L13-Grid6.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Modest</strong></td>
+      <td><strong>Sensible</strong></td>
+      <td><strong>Shy</strong></td>
+      <td><strong>Loyal</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson13/C2L13-Grid7.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>A laugh</strong></td>
+      <td><strong>A big-head</strong></td>
+      <td><strong>A snob</strong></td>
+      <td> </td>
+      <td><strong>A liar</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson13/C2L13-Grid7.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>A coward</strong></td>
+      <td><strong>A couch potato</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L13-Conversation.mp3" id="audio_lesson-conversation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-conversation" onclick="play('lesson-conversation', 'C2L13', 'lesson-conversation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L13-Conversation.mp3</div>
+<h2 id="monologue">Monologue</h2>
+
+<p><strong>When I think about things, I try not to think too much about the negative side of things. I try to focus on the positive. I think things will work out for the best, and they usually do. Some of my friends are just the opposite, they always keeping complaining and I tell them that I don’t wanna hang out with them unless they get more positive. I guess I prefer to be around people who also focus more on the positive. But I get that not everyone is the same. Some people are introverted and others are extroverted. Some people are sensitive and others are thick - skinned</strong></p>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L13-Explanation.mp3" id="audio_lesson-explanation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-explanation" onclick="play('lesson-explanation', 'C2L13', 'lesson-explanation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L13-Explanation.mp3</div>
+<h2 id="explanation">Explanation</h2>
+
+<h3 id="1-i-try-to-focus-on-the-positive-side-of-things">1. I try to focus on the positive side of things</h3>
+<p>Tôi cố gắng tập trung vào mặt tích cực
+<strong>focus on</strong></p>
+<ul>
+  <li><strong>I guess I prefer to be around people who also focus more on the positive</strong> **</li>
+  <li><strong>You must focus on the details</strong> **</li>
+  <li><strong>I can’t focus on two things at the same time</strong> **</li>
+</ul>
+
+<h3 id="2-they-always-keeping-complaining">2. they always keeping complaining</h3>
+<p>Họ luôn than vãn 
+<strong>Keep + Verbing</strong></p>
+<ul>
+  <li><strong>I keep smiling</strong></li>
+  <li><strong>I kept walking though the man told me to stop</strong></li>
+  <li><strong>I kept believing in what he told me until I met his wife</strong></li>
+</ul>
+
+<h3 id="3-i-dont-wanna-hang-out-with-them-unless-they-get-more-positive">3. I don’t wanna hang out with them unless they get more positive</h3>
+<p>Tôi không muốn đi chơi với họ trừ khi họ trở nên lạc quan hơn</p>
+<ul>
+  <li><strong>You can’t have a job unless you have experience</strong></li>
+  <li><strong>You can’t pass the exam unless you study harder</strong></li>
+  <li><strong>The kid won’t go to sleep unless you tell him a story</strong></li>
+</ul>
+
+<h3 id="4--some-people-are-introverted-and-others-are-extroverted">4.  Some people are introverted and others are extroverted</h3>
+<p>Một vài người thì hướng nội và những người khác thì hướng ngoại</p>
+<ul>
+  <li><strong>Some people are honest and others are liars</strong></li>
+  <li><strong>Why some people succeed and others don’t?</strong></li>
+  <li><strong>Why some people get promoted and others don’t?</strong></li>
+</ul>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

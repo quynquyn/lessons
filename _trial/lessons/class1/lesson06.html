@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, start, stop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = start;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Limited Trial version
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/product/english-beginner-course-5-weeks/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <audio src="https://englishletics.s3.amazonaws.com/audio/C1L06-Vocabulary.mp3" id="audio_lesson-vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-vocabulary" onclick="play('lesson-vocabulary', 'C1L06', 'lesson-vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L06-Vocabulary.mp3</div>
+<h1 id="lesson-16-yesno-dodoes">Lesson 1.6: Yes/No (Do/Does)</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<p><img src="/daily/lessons/class1/lesson06/C1L06-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Know how to make a cake</strong></td>
+      <td><strong>Plant a tree</strong></td>
+      <td><strong>Lock a door</strong></td>
+      <td><strong>Color a picture</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson06/C1L06-Grid2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Sneeze</strong></td>
+      <td><strong>Snore</strong></td>
+      <td><strong>Yawn</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson06/C1L06-Grid3.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Mop the floor</strong></td>
+      <td><strong>Wash my clothes</strong></td>
+      <td><strong>Brush my teeth</strong></td>
+      <td><strong>Comb my hair</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson06/C1L06-Grid4.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Change my mind</strong></td>
+      <td><strong>Follow the crowd</strong></td>
+      <td><strong>Sing a song</strong></td>
+      <td><strong>Clap one’s hands</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson06/C1L06-Grid5.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Make a decision</strong></td>
+      <td><strong>Give someone a hug</strong></td>
+      <td><strong>Make a wish</strong></td>
+      <td><strong>Borrow money</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson06/C1L06-Grid6.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Have a crush on someone</strong></td>
+      <td><strong>Cheat on someone</strong></td>
+      <td><strong>Yell at someone</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson06/C1L06-Grid7.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Always</strong></td>
+      <td><strong>Usually</strong></td>
+      <td><strong>Often</strong></td>
+      <td><strong>Sometimes</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson06/C1L06-Grid8.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Rarely</strong></td>
+      <td><strong>Never</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L06-Conversation.mp3" id="audio_lesson-conversation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-conversation" onclick="play('lesson-conversation', 'C1L06', 'lesson-conversation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L06-Conversation.mp3</div>
+
+<h2 id="1-yes-no-questions">1. Yes/ No Questions</h2>
+
+<ol>
+  <li>
+    <p><strong>Does the manager have to make a decision?</strong>  <br />
+<strong>Yes, he has to make a decision</strong>  <br />
+<em>- Có phải người giám đốc phải đưa ra quyết định không?</em>    <br />
+<em>- Phải, ông ta phải đưa ra quyết định.</em></p>
+  </li>
+  <li>
+    <p><strong>Does the man always want to follow the crowd?</strong>  <br />
+<strong>No, the man doesn’t always want to follow the crowd</strong>  <br />
+<em>- Có phải người đàn ông đó luôn muốn đi theo đám đông không??</em>  <br />
+<em>- Không phải, người đàn ông đó không phải lúc nào cũng muốn đi theo đám đông</em></p>
+  </li>
+</ol>
+
+<h3 id="3-this-content-is-available-in-the-premium-version">3. This content is available in the premium version.</h3>
+
+<p><em>Nội dung này có sẵn trong phiên bản cao cấp</em></p>
+
+<ul>
+  <li><strong>Purchase the full version and get access right now.</strong> <em>Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></li>
+  <li><strong><a href="#">Get access here</a></strong> <em><a href="#">Được truy cập ở đây</a></em></li>
+</ul>
+
+<h3 id="4-this-content-is-available-in-the-premium-version">4. This content is available in the premium version.</h3>
+
+<p><em>Nội dung này có sẵn trong phiên bản cao cấp</em></p>
+
+<ul>
+  <li><strong>Purchase the full version and get access right now.</strong> <em>Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></li>
+  <li><strong><a href="#">Get access here</a></strong> <em><a href="#">Được truy cập ở đây</a></em></li>
+</ul>
+
+<h3 id="5-this-content-is-available-in-the-premium-version">5. This content is available in the premium version.</h3>
+
+<p><em>Nội dung này có sẵn trong phiên bản cao cấp</em></p>
+
+<ul>
+  <li><strong>Purchase the full version and get access right now.</strong> <em>Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></li>
+  <li><strong><a href="#">Get access here</a></strong> <em><a href="#">Được truy cập ở đây</a></em></li>
+</ul>
+
+<h3 id="6-this-content-is-available-in-the-premium-version">6. This content is available in the premium version.</h3>
+
+<p><em>Nội dung này có sẵn trong phiên bản cao cấp</em></p>
+
+<ul>
+  <li><strong>Purchase the full version and get access right now.</strong> <em>Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></li>
+  <li><strong><a href="#">Get access here</a></strong> <em><a href="#">Được truy cập ở đây</a></em></li>
+</ul>
+
+<h3 id="7-this-content-is-available-in-the-premium-version">7. This content is available in the premium version.</h3>
+
+<p><em>Nội dung này có sẵn trong phiên bản cao cấp</em></p>
+
+<ul>
+  <li><strong>Purchase the full version and get access right now.</strong> <em>Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></li>
+  <li><strong><a href="#">Get access here</a></strong> <em><a href="#">Được truy cập ở đây</a></em></li>
+</ul>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

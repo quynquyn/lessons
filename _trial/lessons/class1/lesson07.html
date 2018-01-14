@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, start, stop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = start;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Limited Trial version
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/product/english-beginner-course-5-weeks/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <audio src="https://englishletics.s3.amazonaws.com/audio/C1L07-Vocabulary.mp3" id="audio_lesson-vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-vocabulary" onclick="play('lesson-vocabulary', 'C1L07', 'lesson-vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L07-Vocabulary.mp3</div>
+<h1 id="lesson-17-adjective">Lesson 1.7: Adjective</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<p><img src="/daily/lessons/class1/lesson07/C1L07-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Beautiful</strong></td>
+      <td><strong>Cute</strong></td>
+      <td><strong>Pretty</strong></td>
+      <td><strong>Handsome</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson07/C1L07-Grid2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Attractive</strong></td>
+      <td><strong>Ugly</strong></td>
+      <td><strong>Good-looking</strong></td>
+      <td><strong>Bad-looking</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson07/C1L07-Grid3.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Rich</strong></td>
+      <td><strong>Poor</strong></td>
+      <td><strong>Easy-going</strong></td>
+      <td><strong>Strict</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson07/C1L07-Grid4.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Tall</strong></td>
+      <td><strong>Short</strong></td>
+      <td><strong>Slow</strong></td>
+      <td><strong>Fast</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson07/C1L07-Grid5.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Hot</strong></td>
+      <td><strong>Cold</strong></td>
+      <td><strong>Fat</strong></td>
+      <td><strong>Thin</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson07/C1L07-Grid6.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Confident</strong></td>
+      <td><strong>Shy</strong></td>
+      <td><strong>Patient</strong></td>
+      <td><strong>Impatient</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson07/C1L07-Grid7.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Strong</strong></td>
+      <td><strong>Weak</strong></td>
+      <td><strong>Active</strong></td>
+      <td><strong>Passive</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson07/C1L07-Grid8.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Talented</strong></td>
+      <td><strong>Untalented</strong></td>
+      <td><strong>Important</strong></td>
+      <td><strong>Unimportant</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson07/C1L07-Grid9.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Untalented</strong></td>
+      <td><strong>Useful</strong></td>
+      <td><strong>Useless</strong></td>
+      <td><strong>Big &gt;&lt; Small</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson07/C1L07-Grid10.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Lazy</strong></td>
+      <td><strong>Hard–working</strong></td>
+      <td><strong>Friendly</strong></td>
+      <td><strong>Unfriendly</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson07/C1L07-Grid11.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Happy</strong></td>
+      <td><strong>Sad</strong></td>
+      <td><strong>Stupid</strong></td>
+      <td><strong>Smart</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson07/C1L07-Grid12.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Hungry</strong></td>
+      <td><strong>Full</strong></td>
+      <td><strong>Interesting</strong></td>
+      <td><strong>Boring</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson07/C1L07-Grid13.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Cheap</strong></td>
+      <td><strong>Expensive</strong></td>
+      <td><strong>Funny</strong></td>
+      <td><strong>Serious</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson07/C1L07-Grid14.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Easy</strong></td>
+      <td><strong>Difficult</strong></td>
+      <td><strong>Clean</strong></td>
+      <td><strong>Dirty</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson07/C1L07-Grid15.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Dangerous</strong></td>
+      <td><strong>Safe</strong></td>
+      <td><strong>Necessary</strong></td>
+      <td><strong>Unnecessary</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson07/C1L07-Grid16.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Red</strong></td>
+      <td><strong>Yellow</strong></td>
+      <td><strong>Blue</strong></td>
+      <td><strong>Pink</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson07/C1L07-Grid17.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Black</strong></td>
+      <td><strong>White</strong></td>
+      <td><strong>Green</strong></td>
+      <td><strong>Purple</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson07/C1L07-Grid18.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Cloudy</strong></td>
+      <td><strong>Windy</strong></td>
+      <td><strong>Rainy</strong></td>
+      <td><strong>Sunny</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson07/C1L07-Grid19.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Fantastic</strong></td>
+      <td><strong>Wonderful</strong></td>
+      <td><strong>Awesome</strong></td>
+      <td><strong>Great</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson07/C1L07-Grid20.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Very</strong></td>
+      <td><strong>Extremely</strong></td>
+      <td><strong>Quite = Pretty</strong></td>
+      <td><strong>A little</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="1-yes-no-questions">1. Yes/ No Questions</h2>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L07-Conversation.mp3" id="audio_vocab-conversation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocab-conversation" onclick="play('vocab-conversation', 'C1L07', 'vocab-conversation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L07-Conversation.mp3</div>
+
+<ol>
+  <li>
+    <p><strong>Are your hands clean?</strong>   <br />
+<strong>Yes, They are clean</strong> <br />
+<em>- Tay bạn có sạch không?</em>  <br />
+<em>- Có, tay tôi sạch.</em></p>
+  </li>
+  <li>
+    <p><strong>Is Jane a manager?</strong><br />
+<strong>No, She is not a manager. She is a secretary</strong><br />
+<em>- Có phải Jane là giám đốc không??</em><br />
+<em>- Không phải, cô ấy không phải là giám đốc. Cô ấy là thư kí thôi</em></p>
+  </li>
+  <li>
+    <p><strong>Are the students in the classroom?</strong> <br />
+<strong>Yes, the students are in the classroom</strong><br />
+<em>- Có phải học sinh đang trong lớp không?</em><br />
+<em>- Phải, học sinh đang trong lớp học</em></p>
+  </li>
+  <li>
+    <p><strong>Is it a good book?</strong><br />
+<strong>No, it’s not a good book. It’s pretty boring</strong><br />
+<em>- Có phải đó là một quyển sách hay?</em><br />
+<em>- Không,nó không phải là một quyển sách hay. Nó khá là chán</em></p>
+  </li>
+  <li>
+    <p><strong>Is the weather hot outside?</strong> <br />
+<strong>Yes, it’s quite hot outside</strong> <br />
+<em>- Thời tiết bên ngoài có nóng không?</em><br />
+<em>- Phải, trời khá là nóng bên ngoài</em></p>
+  </li>
+  <li>
+    <p><strong>Is he an important person in the company?</strong> <br />
+<strong>Yes, he is an extremely important person in the company</strong><br />
+<em>- Có phải anh ấy là người quan trọng trong công ty không?</em><br />
+<em>- Phải, anh ta là người cực kì quan trọng trong công ty này</em></p>
+  </li>
+  <li>
+    <p><strong>Is it an expensive cellphone?</strong> <br />
+<strong>Yes, it’s a very expensive cellphone</strong><br />
+<em>- Nó có phải là điện thoại mắc tiền không?</em><br />
+<em>- Có, Nó là một cái điện thoại rất mắc tiền</em></p>
+  </li>
+  <li>
+    <p><strong>Is it an interesting movie?</strong> <br />
+<strong>No, it’s not an interesting movie. It’s quite boring</strong><br />
+<em>- Nó có phải là bộ phim thú vị không?</em><br />
+<em>- Không, nó không phải là bộ phim thú vị. Nó khá chán</em></p>
+  </li>
+  <li>
+    <p><strong>Is the story interesting?</strong><br />
+<strong>Yes, it’s an interesting story</strong><br />
+<em>- Câu chuyện có thụ vị không?</em><br />
+<em>- Có, nó là một câu chuyện thú vị</em></p>
+  </li>
+  <li>
+    <p><strong>Is he a patient teacher?</strong><br />
+<strong>Yes, he is extremely patient to his students</strong><br />
+<em>- Anh ta có phải là một giáo viên kiên nhẫn không?</em><br />
+<em>-Phải, anh ta cực kì kiên nhẫn với học sinh</em></p>
+  </li>
+  <li>
+    <p><strong>Is your manager from Germany?</strong><br />
+<strong>Yes, he is from Germany</strong><br />
+<em>-Có phải xếp bạn từ Đức không?</em><br />
+<em>-Phải, anh ấy từ Đức</em></p>
+  </li>
+</ol>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

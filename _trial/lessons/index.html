@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, start, stop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = start;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Limited Trial version
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <div class="container">
+  <div class="row">
+    <div class="col">
+				<h2>Class 1</h2>
+		
+  
+  
+	  <h4><a href="/daily/lessons/class1/lesson01.html">Lesson01</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class1/lesson02.html">Lesson02</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class1/lesson03.html">Lesson03</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class1/lesson04.html">Lesson04</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class1/lesson05.html">Lesson05</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class1/lesson06.html">Lesson06</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class1/lesson07.html">Lesson07</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class1/lesson08.html">Lesson08</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class1/lesson09.html">Lesson09</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class1/lesson10.html">Lesson10</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class1/lesson11.html">Lesson11</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class1/lesson12.html">Lesson12</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class1/lesson13.html">Lesson13</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class1/lesson14.html">Lesson14</a></h4>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </div>
+    <div class="col">
+		<h2>Class 2</h2>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+	  <h4><a href="/daily/lessons/class2/lesson01.html">Lesson01</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class2/lesson02.html">Lesson02</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class2/lesson03.html">Lesson03</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class2/lesson04.html">Lesson04</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class2/lesson05.html">Lesson05</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class2/lesson06.html">Lesson06</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class2/lesson07.html">Lesson07</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class2/lesson08.html">Lesson08</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class2/lesson09.html">Lesson09</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class2/lesson10.html">Lesson10</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class2/lesson11.html">Lesson11</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class2/lesson12.html">Lesson12</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class2/lesson13.html">Lesson13</a></h4>
+  
+  
+  
+	  <h4><a href="/daily/lessons/class2/lesson14.html">Lesson14</a></h4>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+    </div>
+  </div>
+</div>
+
+<h2>Unassigned</h2>
+
+<h4> /  <a href="/daily/lessons/dialogues/greetings.html">Greetings</a></h4>
+
+<h4> /  <a href="/daily/lessons/index.html">Index</a></h4>
+
+<h4> /  <a href="/daily/lessons/lessonSAMPLE.html">Lessonsample</a></h4>
+
+<h4> /  <a href="/daily/lessons/old/lesson1-1_backup.html">Lesson1 1_backup</a></h4>
+
+<h4> /  <a href="/daily/lessons/old/selftest_lesson002.html">Selftest_lesson002</a></h4>
+
+<h4> /  <a href="/daily/lessons/vocabulary_only/0001.html">0001</a></h4>
+
+<h4> /  <a href="/daily/lessons/vocabulary_only/0002.html">0002</a></h4>
+
+<h4> /  <a href="/daily/lessons/vocabulary_only/0003.html">0003</a></h4>
+
+<h4> /  <a href="/daily/lessons/vocabulary_only/0004.html">0004</a></h4>
+
+<h4> /  <a href="/daily/lessons/vocabulary_only/0005.html">0005</a></h4>
+
+<h4> /  <a href="/daily/lessons/vocabulary_only/0006.html">0006</a></h4>
+
+<h4> /  <a href="/daily/lessons/vocabulary_only/0007.html">0007</a></h4>
+
+<h4> /  <a href="/daily/lessons/vocabulary_only/0008.html">0008</a></h4>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

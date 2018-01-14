@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, start, stop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = start;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Free full version (1 days left)
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/product/english-beginner-course-5-weeks/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-13-noun--verb-what--do">Lesson 1.3. Noun + verb (what + do)</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L03-Words.mp3" id="audio_lesson-Verbs" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-Verbs" onclick="play('lesson-Verbs', 'C1L03', 'lesson-Verbs');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L03-Words.mp3</div>
+
+<h3 id="verbs">Verbs</h3>
+
+<p><img src="/daily/lessons/class1/lesson03/C1L03-Verb1-Grid.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Cover</td>
+      <td>Wear</td>
+      <td>Put on</td>
+      <td>Take off</td>
+      <td>Shake</td>
+      <td>Operate</td>
+      <td>Decorate</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson03/C1L03-Verb2-Grid.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Change</td>
+      <td>Write</td>
+      <td>Buy</td>
+      <td>Sell</td>
+      <td>Build</td>
+      <td>Touch</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="nouns">Nouns</h3>
+<p><strong class="" id="playat_lesson-Verbs" onclick="playat('lesson-Verbs',      34, 666,      'C1L03', 'lesson-Verbs');">▶</strong></p>
+
+<p><img src="/daily/lessons/class1/lesson03/C1L03-Noun1-Grid.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Tree / flower</td>
+      <td>Mountain</td>
+      <td>River</td>
+      <td>Ocean / sea</td>
+      <td>Shirt / T - shirt</td>
+      <td>Skirt / dress</td>
+      <td>Trousers / Jeans</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class1/lesson03/C1L03-Noun2-Grid.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Hat / Cap</td>
+      <td>Shoes</td>
+      <td>Football / tennis</td>
+      <td>Piano/ guitar</td>
+      <td>People / things</td>
+      <td>Student / teacher</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="a-what">A. What…?</h2>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L03-Native-Dialogue.mp3" id="audio_lesson-Dialogue" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-Dialogue" onclick="play('lesson-Dialogue', 'C1L03', 'lesson-Dialogue');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L03-Native-Dialogue.mp3</div>
+
+<h3 id="a1-what-do-you-cover">A1. What do you cover?</h3>
+
+<ul>
+  <li><strong>I cover a table, a chair and a board. What do you cover?</strong></li>
+  <li><strong>I cover a book, a pen and a marker</strong></li>
+</ul>
+
+<p><em>A1. - Bạn che phủ cái gì vậy?</em></p>
+
+<ul>
+  <li><em>Tôi che phủ cái bàn, cái ghế và bảng. Bạn che phủ cái gì?</em></li>
+  <li><em>Tôi che phủ quyển sách, cây bút mực và cây bút lông</em></li>
+</ul>
+
+<h3 id="a2-what-do-you-wear">A2. What do you wear?</h3>
+<p><strong class="" id="playat_lesson-Dialogue" onclick="playat('lesson-Dialogue',      16, 666,      'C1L03', 'lesson-Dialogue');">▶</strong></p>
+
+<ul>
+  <li><strong>I wear a t-skirt and and a skirt. what do you wear?</strong></li>
+  <li><strong>I wear a shirt and trousers</strong></li>
+</ul>
+
+<p><em>A2. - Bạn mặc gì vậy?</em></p>
+
+<ul>
+  <li><em>Tôi mặc áo thun và váy ngắn. Bạn mặc gì?</em></li>
+  <li><em>Tôi mặc áo sơ mi và quần tây</em></li>
+</ul>
+
+<h3 id="a3-what-do-you-decorate">A3. What do you decorate?</h3>
+<p><strong class="" id="playat_lesson-Dialogue" onclick="playat('lesson-Dialogue',      24, 666,      'C1L03', 'lesson-Dialogue');">▶</strong></p>
+
+<ul>
+  <li><strong>I decorate a room, a house and 2 classrooms. What do you decorate?</strong></li>
+  <li><strong>I decorate a cake.</strong></li>
+</ul>
+
+<p><em>A3. Bạn trang trí gì?</em></p>
+
+<ul>
+  <li><em>Tôi trang trí một căn phòng, một căn nhà và hai lớp học. Bạn trang trí gì?</em></li>
+  <li><em>Tôi trang trí bánh</em></li>
+</ul>
+
+<h3 id="a4-what-do-you-touch">A4. What do you touch?</h3>
+<p><strong class="" id="playat_lesson-Dialogue" onclick="playat('lesson-Dialogue',      34, 666,      'C1L03', 'lesson-Dialogue');">▶</strong></p>
+
+<ul>
+  <li><strong>I touch a crocodile, a giraffe and a monkey. What do you touch?</strong></li>
+  <li><strong>I touch a wall, a picture and an air-conditioner</strong></li>
+</ul>
+
+<p><em>A4. Bạn chạm gì?</em></p>
+
+<ul>
+  <li><em>Tôi chạm vào con cá sấu, hưu cao cổ và con khỉ. Bạn chạm gì?</em></li>
+  <li><em>Tôi chạm bước tường, bức tranh và cái máy lạnh</em></li>
+</ul>
+
+<h3 id="a5-what-do-you-play">A5. What do you play?</h3>
+<p><strong class="" id="playat_lesson-Dialogue" onclick="playat('lesson-Dialogue',      46, 666,      'C1L03', 'lesson-Dialogue');">▶</strong></p>
+
+<ul>
+  <li><strong>I play football and tennis. What do you play?</strong></li>
+  <li><strong>I play the piano and the guitar</strong></li>
+</ul>
+
+<p><em>A5. - Bạn chơi gì?</em></p>
+
+<ul>
+  <li>
+    <ul>
+      <li>Tôi chơi đá banhh và quần vợt. Bạn chơi gì?*</li>
+    </ul>
+  </li>
+  <li><em>Tôi chơi đàn Ppano và gita</em></li>
+</ul>
+
+<h2 id="b-do-you">B. Do you…?</h2>
+<p><strong class="" id="playat_lesson-Dialogue" onclick="playat('lesson-Dialogue',      55, 666,      'C1L03', 'lesson-Dialogue');">▶</strong></p>
+
+<h3 id="b1-do-you-sell-cars">B1. Do you sell cars?*</h3>
+
+<ul>
+  <li><strong>No, I don’t sell cars</strong></li>
+  <li><strong>Do you sell trucks?</strong></li>
+  <li><strong>No, don’t sell trucks?</strong></li>
+  <li><strong>Do you sell motorbikes?</strong></li>
+  <li><strong>No, I don’t sell motorbikes</strong></li>
+  <li><strong>What do you sell?</strong></li>
+  <li><strong>I sell bikes</strong></li>
+</ul>
+
+<p><em>B1. Bạn có bán xe hơi không?</em></p>
+
+<ul>
+  <li><em>Không, tôi không bán xe hơi</em></li>
+  <li><em>Bạn có bán xe tải không?</em></li>
+  <li><em>Không, tôi không bán xe tải</em></li>
+  <li><em>Bạn có bán xe máy không?</em></li>
+  <li><em>Không, tôi không bán xe máy</em></li>
+  <li><em>Vậy bạn bán gì?</em></li>
+  <li><em>Tôi bán xe đạp</em></li>
+</ul>
+
+<h3 id="b2--do-you-play-the-piano">B2.  Do you play the piano?</h3>
+<p><strong class="" id="playat_lesson-Dialogue" onclick="playat('lesson-Dialogue',      71, 666,      'C1L03', 'lesson-Dialogue');">▶</strong></p>
+
+<ul>
+  <li><strong>No, I don’t play the piano</strong></li>
+  <li><strong>Do you play the guitar?</strong></li>
+  <li><strong>No, I don’t play the guitar</strong></li>
+  <li><strong>What do you play?</strong></li>
+  <li><strong>I play the violin</strong></li>
+</ul>
+
+<p><em>B2. Bạn có chơi piano không?</em></p>
+
+<ul>
+  <li><em>Không, tôi không chơi đàn piano</em></li>
+  <li><em>Bạn có chơi gita không?</em></li>
+  <li><em>Không, tôi không chơi gita</em></li>
+  <li><em>Vậy bạn chơi gì?</em></li>
+  <li><em>Tôi chơi đàn violin</em></li>
+</ul>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

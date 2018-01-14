@@ -36,6 +36,7 @@ test1: ### Have you ever - *TODO*
 
 
 ### Shopping places
+
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
@@ -44,6 +45,7 @@ test1: ### Have you ever - *TODO*
 		trial=site.trialdeploy %}
 
 ### Have you ever
+
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 

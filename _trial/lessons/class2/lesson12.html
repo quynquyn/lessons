@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, start, stop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = start;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Limited Trial version
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <audio src="https://englishletics.s3.amazonaws.com/audio/C2L12-Vocabulary.mp3" id="audio_lesson-vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-vocabulary" onclick="play('lesson-vocabulary', 'C2L12', 'lesson-vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L12-Vocabulary.mp3</div>
+<h1 id="lesson-112-personality">Lesson 1.12: Personality</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<p><img src="/daily/lessons/class2/lesson12/C2L12-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Humorous</strong></td>
+      <td><strong>Boring</strong></td>
+      <td><strong>Rude</strong></td>
+      <td><strong>Polite</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson12/C2L12-Grid2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Peaceful</strong></td>
+      <td><strong>Aggressive</strong></td>
+      <td><strong>Obedient</strong></td>
+      <td><strong>Stubborn</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson12/C2L12-Grid3.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Active</strong></td>
+      <td><strong>Passive</strong></td>
+      <td><strong>Cheerful</strong></td>
+      <td><strong>Depressed</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson12/C2L12-Grid4.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Extroverted</strong></td>
+      <td><strong>Introverted</strong></td>
+      <td><strong>Shy</strong></td>
+      <td><strong>Confident</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson12/C2L12-Grid5.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Simple</strong></td>
+      <td><strong>Complicated</strong></td>
+      <td><strong>Helpful</strong></td>
+      <td><strong>Bossy</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson12/C2L12-Grid6.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Honest</strong></td>
+      <td><strong>Dishonest</strong></td>
+      <td><strong>Humble</strong></td>
+      <td><strong>Self-centered</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson12/C2L12-Grid7.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Mature</strong></td>
+      <td><strong>Immature</strong></td>
+      <td><strong>Generous</strong></td>
+      <td><strong>Selfish</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/daily/lessons/class2/lesson12/C2L12-Grid7.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Open-minded</strong></td>
+      <td><strong>Narrow - minded</strong></td>
+      <td><strong>Two-faced</strong></td>
+      <td><strong>Warm-hearted</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L12-Conversation.mp3" id="audio_lesson-conversation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-conversation" onclick="play('lesson-conversation', 'C2L12', 'lesson-conversation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L12-Conversation.mp3</div>
+<h2 id="monologue">Monologue</h2>
+
+<p><strong>I’m the type of person who tries to avoid dramas. I also have a good sense of humor. That’s why I have a lot of friends and we have a lot of fun together. My girlfriend is just the opposite. She is a quite helpful person. That’s definitely the reason why I love her. She always helps people without expecting something in return. But I guess she prefers staying at home and being on her own. Listening to her voice can make all of my stresses and pressure melt away</strong></p>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L12-Explanation.mp3" id="audio_lesson-explanation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-explanation" onclick="play('lesson-explanation', 'C2L12', 'lesson-explanation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L12-Explanation.mp3</div>
+<h2 id="explanation">Explanation</h2>
+
+<h3 id="1-im-the-type-of-person-who-tries-to-avoid-dramas">1. I’m the type of person who tries to avoid dramas</h3>
+<ul>
+  <li><strong>I’m the type of person who always want to cheer people up</strong></li>
+  <li><strong>She is the type the person who doesn’t care anybody else but herself</strong></li>
+  <li><strong>He is the type of person who thinks that he is the center of the universe</strong></li>
+</ul>
+
+<h3 id="2-thats-why-i-have-a-lot-of-friends">2. That’s why I have a lot of friends</h3>
+<ul>
+  <li><strong>That’s why I love you</strong></li>
+  <li><strong>She talks and acts like a kid. That’s why it’s hard for her to have a job</strong></li>
+  <li><strong>He is super humorous. That’s why he’s always the life the soul of the party</strong></li>
+  <li><strong>It’s a very important and sensitive issue. That’s why I have to think twice before saying something</strong> -</li>
+</ul>
+
+<h3 id="3-thats-definitely-the-reason-why-i-love-her">3. That’s definitely the reason why I love her</h3>
+<ul>
+  <li><strong>She always lies to me. That’s absolutely the reason why I don’t trust her at all</strong></li>
+  <li><strong>The student doesn’t do homework. That’s definitely the reason why he doesn’t get improved</strong></li>
+  <li><strong>She is so rude. She yells at the waiters and waitresses at the restaurant. That’s probably the reason why she doesn’t really have any friends</strong> -</li>
+</ul>
+
+<h3 id="4-she-prefers-staying-at-home-and-being-on-her-own">4. She prefers staying at home and being on her own</h3>
+<p>prefer can be followed either by Verb-ing or  to verb</p>
+<ul>
+  <li><strong>He prefers staying at home and watching football to playing it.</strong></li>
+  <li><strong>I’d prefer not to discuss the topic</strong></li>
+  <li><strong>Some people prefer to have dogs as pets, while others prefer to have cats</strong> -</li>
+</ul>
+
+<h3 id="5-listening-to-her-voice-can-make-all-of-my-stress-and-pressure-melt-away">5. Listening to her voice can make all of my stress and pressure melt away</h3>
+<p><strong>melt</strong></p>
+<ul>
+  <li><strong>My anger melted away when she said sorry to me.</strong></li>
+  <li><strong>He only has to look at her, and she melts.</strong></li>
+  <li><strong>I tried to be chill but you’re so hot I melted</strong> -</li>
+</ul>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>
