@@ -6394,6 +6394,10 @@ section.el-lesson table {
   margin-bottom: 20px; }
   section.el-lesson table td {
     text-align: center; }
+section.el-lesson .el-player-icon {
+  font-size: 180%;
+  font-weight: bold;
+  cursor: pointer; }
 
 .audiofile-info {
   color: blue;

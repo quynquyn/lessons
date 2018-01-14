@@ -29,12 +29,12 @@ lesson: "06"
 {% include image.html class=2 lesson="06" name="Grid2" %}
 
 | **Aquarium** | **night market**  | **white sandy beaches** | **Build sandcastles** | 
-|  *thủy cung*  |    *chợ đêm*   |  **   |   *Xây lâu đài cát*  | 
+|  *thủy cung*  |    *chợ đêm*   |     |   *Xây lâu đài cát*  | 
 
 {% include image.html class=2 lesson="06" name="Grid3" %}
 
 | **Watch the wildlife** | **Get a tan**  | **get tanned skin** | **Explore caves** | 
-|  *Ngắm cuộc sống hoang dã*  |    *Tắm nắng cho ngăm da*   |  **   |   *Thám hiểm hang động*  | 
+|  *Ngắm cuộc sống hoang dã*  |    *Tắm nắng cho ngăm da*   |     |   *Thám hiểm hang động*  | 
 
 
 {% include image.html class=2 lesson="06" name="Grid4" %}
