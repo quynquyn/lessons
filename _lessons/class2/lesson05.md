@@ -20,6 +20,7 @@ lesson: "05"
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		section="job"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -27,51 +28,24 @@ lesson: "05"
 
 ### What is your father like?
 
-
-
 **My father is...**
 
-{% include image.html class=2 lesson="05" name="Grid5" %}
-
-| **Confident** | **Shy**  | **Strict** | **Easy-going** | 
-|  *Tự tin*  |    *Nhút nhát*   |  *Nghiêm khắc*   |   *Dễ tính*  | 
-
-
-{% include image.html class=2 lesson="05" name="Grid6" %}
-
-| **Talkative** | **Quiet**  | **Interesting** | **Boring** | 
-|  *Nói nhiều*  |    *Trầm tính*   |  *Thú vị*   |   *Nhàm chán*  | 
-
-
-{% include image.html class=2 lesson="05" name="Grid7" %}
-
-| **Caring** | **Carefree**  | **Dependent** | **Independent** | 
-|  *Quan tâm*  |    *Vô tâm*   |  *Độc lập*   |   *Phụ thuộc*  | 
-
-{% include image.html class=2 lesson="05" name="Grid8" %}
-
-| **Hot-tempered** | **Even-tempered**  | **Mature** | **Childish** | 
-|  *Nóng tính*  |    *Điềm tĩnh*   |  *Trưởng thành*   |   *Con nít*  | 
-
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="father"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 ### Other things parents do
 
-{% include image.html class=2 lesson="05" name="Grid9" %}
-
-| **Smoke cigarettes** | **Get up early**  | **go to bed late** | **Eat a lot of candies** | 
-|    |      |     |     | 
-
-{% include image.html class=2 lesson="05" name="Grid10" %}
-
-| **Cook meals** | **Do the laundry**  | **Mop the floor** | **Feed the dog** | 
-|    |      |     |     | 
-
-{% include image.html class=2 lesson="05" name="Grid11" %}
-
-| **Make most of the decisions** | **Argue with you**  | **Call you when you go out late at night** | 
-|    |      |     |     | 
-
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="parentsdo"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 

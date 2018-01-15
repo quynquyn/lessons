@@ -1,0 +1,23 @@
+baseurl: /daily
+github: [metadata]
+encoding: UTF-8
+kramdown:
+ input: GFM
+ hard_wrap: false
+future: true
+jailed: false
+gfm_quirks: paragraph_end
+collections:
+  lessons:
+    output: true
+  pages:
+    output: true
+include: ['.htaccess']
+exclude: [not-in-git, node_modules, artwork, csv_to_html]
+trialdeploy: false
+upgrade_level1: "#"
+upgrade_level2: "#"
+
+
+
+

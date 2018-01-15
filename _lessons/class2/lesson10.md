@@ -4,7 +4,7 @@ class: "2"
 lesson: "10"
 ---
 
-{% include player.html identifier="lesson-vocabulary" lesson="C2L10" file="C2L04-Native-Vocabulary1.mp3" %}
+{% include player.html identifier="lesson-vocabulary" lesson="C2L10" file="C2L10-Vocabulary.mp3" %}
 # Lesson 2.14: Friendship
 
 ## Vocabulary
