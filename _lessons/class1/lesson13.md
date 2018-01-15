@@ -7,7 +7,7 @@ lesson: "13"
 # Lesson 1.13: Who
 
 ## Vocabulary
-{% include player2.html identifier="vocabulary" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 
 {% include image.html class=1 lesson="13" name="Grid1" %}
 
@@ -54,7 +54,7 @@ lesson: "13"
 
 
 ## Example 
-{% include player2.html identifier="examples1" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
 
 1. **Who is she?**
 - **She is my mother**
@@ -85,7 +85,7 @@ lesson: "13"
 
 
 ## Example 
-{% include player2.html identifier="examples2" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
 
 1. **Who do you want to talk to?**
 - **I want to talk to a reporter**

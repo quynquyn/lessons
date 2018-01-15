@@ -4,7 +4,7 @@ class: "2"
 lesson: "11"
 ---
 
-{% include player2.html identifier="vocabulary" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 # Lesson 2.11: Appearance  
 
 
@@ -80,14 +80,14 @@ lesson: "11"
  
 
 
-{% include player2.html identifier="monologue" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="monologue" class=page.class lesson=page.lesson %}
 ## Describe someone's appearance 
 
 **Let me introduce my ex-boyfriend. He is Daniel. He is a quite handsome man. He is in his mid–twenties, but he looks young for his age. He is of medium height and well–built. He has a square face with brown eyes,  a straight nose and full lips. He has short black wavy hair.  He looks even more attractive with his glasses. I've always thought he bears a striking resemblance to someone on TV. He cut himself climbing a tree when he was ten and he's got a scar just below his ear. Oh, I wish he were here. I miss him so such**
 
 
 
-{% include player2.html identifier="explanation" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="explanation" class=page.class lesson=page.lesson %}
 ## Explanation
 
 

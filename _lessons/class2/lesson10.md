@@ -4,7 +4,7 @@ class: "2"
 lesson: "10"
 ---
 
-{% include player2.html identifier="vocabulary" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 
 # Lesson 2.14: Friendship
 
@@ -43,7 +43,7 @@ lesson: "10"
 		trial=site.trialdeploy %}
 		
 
-{% include player2.html identifier="conversation" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
 ## Conversation
 
 > Person1: 	**What are you doing? Are you busy?**  
@@ -65,7 +65,7 @@ lesson: "10"
 > Person1: **Thank you. By the way, you should change your sleeping schedule.**  
 
 
-{% include player2.html identifier="explanations" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="explanations" class=page.class lesson=page.lesson %}
 
 
 ## Explanations

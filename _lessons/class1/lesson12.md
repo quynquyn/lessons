@@ -8,7 +8,7 @@ lesson: "12"
 # Lesson 1.12: Where 
 
 ## Vocabulary 
-{% include player2.html identifier="vocabulary" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 
 {% include image.html class=1 lesson="01" name="C1L12-Grid1" %}
 
@@ -49,7 +49,7 @@ lesson: "12"
 
 
 ## 1. Where 
-{% include player2.html identifier="examples1" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
 
 
 1.  **Where is the restroom?** - **The restroom is upstairs** 
@@ -65,7 +65,7 @@ lesson: "12"
 
 
 ## 2. Where 
-{% include player2.html identifier="examples2" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
 
 1. **Where do you usually go on your vacation, Robert?**
 - **I usually go to Canada in the summer**

@@ -9,7 +9,7 @@ lesson: "10"
 
 
 ## Vocabulary 
-{% include player2.html identifier="vocabulary" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 
 {% include wordgrid.html 
 		class=page.class 
@@ -19,7 +19,7 @@ lesson: "10"
 
 
 
-{% include player2.html identifier="examples1" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
 
 ## 1. Examples
 
@@ -35,7 +35,7 @@ lesson: "10"
 10. **I am quite nervous about the presentation tomorrow** *Tôi khá hồi hộp về bài thuyết trình ngày mai*
 
 
-{% include player2.html identifier="examples2" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
 ## 2. Examples 
 
 1. **Are you angry at me?**

@@ -4,7 +4,7 @@ class: "2"
 lesson: "14"	
 ---
 
-{% include player2.html identifier="vocabulary" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 # Lesson 2.14: Friendship
 
 
@@ -66,7 +66,7 @@ lesson: "14"
 18. **Talk behind someone's back**
 
 
-{% include player2.html identifier="conversation" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
 ## Conversation
 
 
@@ -87,7 +87,7 @@ lesson: "14"
 
 
 
-{% include player2.html identifier="explanation" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="explanation" class=page.class lesson=page.lesson %}
 ## Explanation
 
 

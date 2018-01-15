@@ -9,7 +9,7 @@ lesson: "11"
 
 
 ## 1. yes / no questions
-{% include player2.html identifier="examples1" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
 
 1.  **Do you need this pen?** *Bạn có cần cây bút này không?*
 2.  **Is he the most talented person?** *Có phải anh ta là người tài năng nhất không?*
@@ -34,7 +34,7 @@ lesson: "11"
 
 
 ## 2. So/ such
-{% include player2.html identifier="examples2" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
 
 1. **You are such a good friend** *Bạn thật là người bạn tốt*
 2. **Russia is such a big country** *Nga quả là một đất nước lớn*
@@ -50,7 +50,7 @@ lesson: "11"
 
 
 ## 3. comparison
-{% include player2.html identifier="examples3" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="examples3" class=page.class lesson=page.lesson %}
 
 1.  **My house is bigger than yours.** *Nhà tôi thì to hơn nhà bạn*
 2.  **This flower is more beautiful than that one.** *Hoa này thì đẹp hơn hoa kia*
@@ -65,7 +65,7 @@ lesson: "11"
 
 
 ## 4. There is/ there are
-{% include player2.html identifier="examples4" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="examples4" class=page.class lesson=page.lesson %}
 
 1. **Are there any crocodiles in the lake?** *Có con cá sấu này trong hồ không?*
 2. **Are there any museums in district 7?** *Có viện bảo tàng nào trong quận 7 không?*
@@ -76,7 +76,7 @@ lesson: "11"
 
 
 ## 5. It is Adjective to Verb
-{% include player2.html identifier="examples5" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="examples5" class=page.class lesson=page.lesson %}
 
 1. **Is it stupid to love a married man?** *Thật ngu ngốc khi yêu một người đàn ông đã có vợ phải không?*
 2. **Is it crazy to quit such a good job?** *Thật ngu ngốc khi nghỉ việc tốt như vậy phải không*

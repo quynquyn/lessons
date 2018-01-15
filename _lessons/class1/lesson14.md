@@ -9,7 +9,7 @@ lesson: "14"
 
 
 ## Vocabulary
-{% include player2.html identifier="vocabulary" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 
 ### Parts of the Day
 
@@ -95,7 +95,7 @@ lesson: "14"
 
 
 ## Example
-{% include player2.html identifier="examples1" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
 
 1. **When is your birthday?** **My birthday is on January 1st**
 2. **When is Valentine's day** **Valentine's day is on February 14th, isn't it?**
@@ -112,7 +112,7 @@ lesson: "14"
 
 
 ## More examples
-{% include player2.html identifier="examples2" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
 
 1. **When do you do homework?** **I do homework whenever I have free time**
 2. **When do you intend to buy a computer?** **I intend to buy a computer whenever I have enough money**

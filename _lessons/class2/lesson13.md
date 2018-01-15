@@ -4,7 +4,7 @@ class: "2"
 lesson: "13"	
 ---
 
-{% include player2.html identifier="vocabulary" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 # Lesson 2.13: Personality 2
 
 
@@ -45,14 +45,14 @@ lesson: "13"
 | **A coward**  | **A couch potato** |
 
 
-{% include player2.html identifier="monologue" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="monologue" class=page.class lesson=page.lesson %}
 ## Monologue
 
 **When I think about things, I try not to think too much about the negative side of things. I try to focus on the positive. I think things will work out for the best, and they usually do. Some of my friends are just the opposite, they always keeping complaining and I tell them that I don't wanna hang out with them unless they get more positive. I guess I prefer to be around people who also focus more on the positive. But I get that not everyone is the same. Some people are introverted and others are extroverted. Some people are sensitive and others are thick - skinned**
 
 
 
-{% include player2.html identifier="explanation" class=lesson.class lesson=page.lesson %}
+{% include player2.html identifier="explanation" class=page.class lesson=page.lesson %}
 ## Explanation
 
 
