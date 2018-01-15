@@ -6,7 +6,7 @@ lesson: "10"
 
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 
-# Lesson 2.14: Friendship
+# Lesson 2.10: Friendship
 
 ## Vocabulary
 
