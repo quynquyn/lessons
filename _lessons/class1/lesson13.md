@@ -4,11 +4,10 @@ class: "1"
 lesson: "13"
 ---
 
-{% include player.html identifier="lesson-vocabulary" lesson="C1L13" file="C1L13-Vocabulary.mp3" %}
 # Lesson 1.13: Who
 
 ## Vocabulary
-
+{% include player2.html identifier="vocabulary" class=lesson.class lesson=page.lesson %}
 
 {% include image.html class=1 lesson="13" name="Grid1" %}
 
@@ -54,9 +53,9 @@ lesson: "13"
 
 
 
-
-{% include player.html identifier="lesson-conversation" lesson="C1L13" file="C1L13-Conversation.mp3" %}
 ## Example 
+{% include player2.html identifier="examples1" class=lesson.class lesson=page.lesson %}
+
 1. **Who is she?**
 - **She is my mother**
 2. **Who is he?**
@@ -85,9 +84,9 @@ lesson: "13"
 - **Mrs.Jones is next to him**
 
 
-{% include player.html identifier="lesson-ex" lesson="C1L13" file="C1L13-Examples.mp3" %}
-
 ## Example 
+{% include player2.html identifier="examples2" class=lesson.class lesson=page.lesson %}
+
 1. **Who do you want to talk to?**
 - **I want to talk to a reporter**
 2. **Who do you want to become?**

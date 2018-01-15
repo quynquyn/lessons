@@ -14,15 +14,14 @@ lesson: "09"
 
 ## Vocabulary
 
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="comparison"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
-{% include image.html class=1 lesson="01" name="Animals_1" %}
 
-| **Sociable** | **Aggressive**  | **Peaceful** | **Intelligent** |  
-
-
-{% include image.html class=1 lesson="01" name="Animals_2" %}
-
-| **Sensitive** | **Adventurous** | **Proud** | **Wild** |
 
 ## 1. Comparative
 {% include player.html identifier="lesson-ex1" lesson="C1L09" file="C1L09-Explanation1.mp3" %}

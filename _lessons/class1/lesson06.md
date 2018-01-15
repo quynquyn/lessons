@@ -9,40 +9,12 @@ lesson: "06"
 
 ## Vocabulary
 
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
-{% include image.html class=1 lesson="06" name="Grid1" %}
-
-| **Know how to make a cake** | **Plant a tree**  | **Lock a door** | **Color a picture** |  
-
-{% include image.html class=1 lesson="06" name="Grid2" %}
-
-| **Sneeze** | **Snore** | **Yawn** | 
-
-
-{% include image.html class=1 lesson="06" name="Grid3" %}
-
-| **Mop the floor** | **Wash my clothes**  | **Brush my teeth**  | **Comb my hair** |  
-
-
-{% include image.html class=1 lesson="06" name="Grid4" %}
- 
-| **Change my mind** | **Follow the crowd** | **Sing a song**  | **Clap one’s hands**  |
- 
-{% include image.html class=1 lesson="06" name="Grid5" %}
- 
-| **Make a decision** | **Give someone a hug**  | **Make a wish**  | **Borrow money** |  
-
-{% include image.html class=1 lesson="06" name="Grid6" %}
- 
-| **Have a crush on someone** | **Cheat on someone** | **Yell at someone** | 
-
-{% include image.html class=1 lesson="06" name="Grid7" %}
- 
-| **Always** | **Usually** | **Often**  | **Sometimes** |  
-
-{% include image.html class=1 lesson="06" name="Grid8" %}
-
-| **Rarely** | **Never** | 
 
 
 {% include player.html identifier="lesson-conversation" lesson="C1L06" file="C1L06-Conversation.mp3" %}

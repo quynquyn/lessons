@@ -4,12 +4,12 @@ class: "1"
 lesson: "14"
 ---
 
-{% include player.html identifier="lesson-vocabulary" lesson="C1L14" file="C1L14-Vocabulary.mp3" %}
-# Lesson 1.14: WHEN
+# Lesson 1.14: When
 
 
 
 ## Vocabulary
+{% include player2.html identifier="vocabulary" class=lesson.class lesson=page.lesson %}
 
 ### Parts of the Day
 
@@ -94,8 +94,8 @@ lesson: "14"
 
 
 
-{% include player.html identifier="lesson-conversation" lesson="C1L14" file="C1L14-Conversation.mp3" %}
-## Example 
+## Example
+{% include player2.html identifier="examples1" class=lesson.class lesson=page.lesson %}
 
 1. **When is your birthday?** **My birthday is on January 1st**
 2. **When is Valentine's day** **Valentine's day is on February 14th, isn't it?**
@@ -111,8 +111,9 @@ lesson: "14"
 
 
 
-{% include player.html identifier="lesson-explanation" lesson="C1L14" file="C1L14-Explanation.mp3" %}
 ## More examples
+{% include player2.html identifier="examples2" class=lesson.class lesson=page.lesson %}
+
 1. **When do you do homework?** **I do homework whenever I have free time**
 2. **When do you intend to buy a computer?** **I intend to buy a computer whenever I have enough money**
 3. **When do you finish school?** **I finish school at half past five**

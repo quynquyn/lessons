@@ -4,7 +4,8 @@ class: "2"
 lesson: "12"	
 ---
 
-{% include player.html identifier="lesson-vocabulary" lesson="C2L12" file="C2L12-Vocabulary.mp3" %}
+
+{% include player2.html identifier="vocabulary" class=lesson.class lesson=page.lesson %}
 # Lesson 2.12: Personality
 
 
@@ -51,13 +52,12 @@ lesson: "12"
 
 | **Open-minded** | **Narrow - minded**  | **Two-faced** | **Warm-hearted**
 
-{% include player.html identifier="lesson-conversation" lesson="C2L12" file="C2L12-Conversation.mp3" %}
+{% include player2.html identifier="monologue" class=lesson.class lesson=page.lesson %}
 ## Monologue
 
 **I’m the type of person who tries to avoid dramas. I also have a good sense of humor. That's why I have a lot of friends and we have a lot of fun together. My girlfriend is just the opposite. She is a quite helpful person. That's definitely the reason why I love her. She always helps people without expecting something in return. But I guess she prefers staying at home and being on her own. Listening to her voice can make all of my stresses and pressure melt away** 
  
-
-{% include player.html identifier="lesson-explanation" lesson="C2L12" file="C2L12-Explanation.mp3" %}
+{% include player2.html identifier="explanation" class=lesson.class lesson=page.lesson %}
 ## Explanation
 
 

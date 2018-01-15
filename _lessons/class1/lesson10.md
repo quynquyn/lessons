@@ -9,7 +9,7 @@ lesson: "10"
 
 
 ## Vocabulary 
-{% include player.html identifier="lesson-vocabulary" lesson="C1L01" file="C1L10-Vocabulary.mp3" %}
+{% include player2.html identifier="vocabulary" class=lesson.class lesson=page.lesson %}
 
 {% include wordgrid.html 
 		class=page.class 
@@ -19,8 +19,9 @@ lesson: "10"
 
 
 
+{% include player2.html identifier="examples1" class=lesson.class lesson=page.lesson %}
+
 ## 1. Examples
-{% include player.html identifier="vocab-conversation" lesson="C1L01" file="C1L10-Conversation.mp3" %}
 
 1. **I am sorry for hurting your feelings** *Tôi xin lỗi vì làm tổn thương cảm giác của bạn* 
 2. **I am used to loneliness** *Tôi đã quen với cô đơn*
@@ -34,8 +35,8 @@ lesson: "10"
 10. **I am quite nervous about the presentation tomorrow** *Tôi khá hồi hộp về bài thuyết trình ngày mai*
 
 
+{% include player2.html identifier="examples2" class=lesson.class lesson=page.lesson %}
 ## 2. Examples 
-{% include player.html identifier="vocab-examples" lesson="C1L01" file="C1L10-Examples.mp3" %}
 
 1. **Are you angry at me?**
 *Bạn đang giận tôi hả?*  

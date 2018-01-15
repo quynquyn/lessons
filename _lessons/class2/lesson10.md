@@ -4,7 +4,8 @@ class: "2"
 lesson: "10"
 ---
 
-{% include player.html identifier="lesson-vocabulary" lesson="C2L10" file="C2L10-Vocabulary.mp3" %}
+{% include player2.html identifier="vocabulary" class=lesson.class lesson=page.lesson %}
+
 # Lesson 2.14: Friendship
 
 ## Vocabulary
@@ -13,38 +14,36 @@ lesson: "10"
 
 #### For fun
 
-{% include image.html class=2 lesson="10" name="Grid1" %}
-
-| **To watch interesting videos** |  **To listen to music** 
-|  |   | 
-
-{% include image.html class=2 lesson="10" name="Grid1" %}
-
-|  **To play online games**  | **To chat with my friends** |
-|  |   | 
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="forfun"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+		
 
 #### For education
-{% include image.html class=2 lesson="10" name="Grid1" %}
 
- - **To read news** 
- - **To search for some information I need** 
- - **To check e-mails** 
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="foreducation"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 #### For other purposes
-{% include image.html class=2 lesson="10" name="Grid1" %}
 
-- **To order/buy/ sell/ advertise products online (food, clothes, cosmetics…)** 
-- **To compare prices** 
-- **To read the reviews of the products I want to buy/ the movie they intend to watch** 
+		
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="forotherpurposes"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+		
 
-
-
-
-
-
-
-{% include player.html identifier="lesson-conversation" lesson="C2L10" file="C2L10-Conversation.mp3" %}
+{% include player2.html identifier="conversation" class=lesson.class lesson=page.lesson %}
 ## Conversation
 
 > Person1: 	**What are you doing? Are you busy?**  
@@ -66,8 +65,7 @@ lesson: "10"
 > Person1: **Thank you. By the way, you should change your sleeping schedule.**  
 
 
-
-{% include player.html identifier="lesson-explanations" lesson="C2L10" file="C2L10-Explanation.mp3" %}
+{% include player2.html identifier="explanations" class=lesson.class lesson=page.lesson %}
 
 
 ## Explanations

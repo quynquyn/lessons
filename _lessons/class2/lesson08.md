@@ -4,43 +4,30 @@ class: "2"
 lesson: "08"
 ---
 
-{% include player.html identifier="lesson-vocabulary" lesson="C2L08" file="C2L08-Vocabulary.mp3" %}
 # Lesson 2.8: Working life 
+
+## Vocabulary
+{% include player.html identifier="lesson-vocabulary" lesson="C2L08" file="C2L08-Vocabulary.mp3" %}
+
+### Working Condition
 
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		section="workingcondition"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
 
 
-## Vocabulary
-
-### Working Condition
-
-1. **A well – paid job**
-2. **Six weeks’ paid holiday**
-3. **A company car**
-4. **A very good pension scheme**
-5. **A pretty good salary**
-6. **Getting promoted**
-7. **Working overtime**
-8. **Working long hours**
-9. **A system of flexi-time**
-10. **Health insurance**
-11. **Taking a few days off**
-12. **The career ladder**
-13. **Bonus**
-
-
 ### Describing your job
-1. **Satisfying / Rewarding** 
-2. . **Challenging**
-3. **Stressful** 
-4. **Glamorous** 
-5. **Repetitive / Boring**
 
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="describingyourjob"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 

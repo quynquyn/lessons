@@ -4,57 +4,25 @@ class: "2"
 lesson: "07"
 ---
 
-{% include player.html identifier="lesson-vocabulary" lesson="C2L07" file="C2L07-Vocabulary.mp3" %}
 # Lesson 2.7: Dream jobs
 
 
-
 ## Vocabulary
+{% include player.html identifier="lesson-vocabulary" lesson="C2L07" file="C2L07-Vocabulary.mp3" %}
 
 ### What’s your favorite kind of job?
 
-{% include image.html class=2 lesson="07" name="Grid1" %}
-
-| **Accountants** | **Bakers**  | **Barbers**  | **Barmen/women**  | 
-| *Kế toán* | *Thợ làm bánh* | *Người hớt tóc nam* | *Người pha chế* |
-
-
-{% include image.html class=2 lesson="07" name="Grid2" %}
-
-| **Butchers** | **Chambermaids**  |**Chefs** |**Dentists** |
-|  *Người bán thịt heo* |  *Người dọn phòng* |  *Đầu bếp trưởng*  | *Nha sĩ* |
-
-{% include image.html class=2 lesson="07" name="Grid3" %}
-
-| **Doctors**  |  **Fishmongers**|  **Flight attendants**  |  **Hairdressers**  | 
-| *Bác sĩ* | *Người bán cá* | *Tiếp viên hàng không* |  *Người làm tóc* |
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="favoritekindofjob"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 
-{% include image.html class=2 lesson="07" name="Grid4" %}
-
-| **Judges** | **Lawyers**| **Nurses**| **Opticians** | 
-| *Quan tòa* | *Luật sư* | *Y tá* | *Bác sĩ mắt* |
-
-{% include image.html class=2 lesson="07" name="Grid5" %}
-
-| **Porters** | **Receptionists**| **Sales Assistants** | **Secretaries** | 
-| *Người khuân vác* | *Tiếp tân*  |*Trợ lí bán hàng*  |  *Thư kí*  | 
-
-
-{% include image.html class=2 lesson="07" name="Grid6" %}
-
-| **Surgeons**  | **Tailors** | **Teachers**|**Technicians** |
-| *Bác sĩ phẩu thuật* |  *Thợ may*  | *Giáo viên*  |*Kĩ thuật viên* | 
-
-{% include image.html class=2 lesson="07" name="Grid7" %}
-
-| **Vets** | **Waiters / Waitresses**| **Welders**| 
-| *Bác sĩ thú y*| *Phụ vụ nam / nữ* | *Thợ hàn* |
-
-
-{% include player.html identifier="lesson-conversation" lesson="C2L07" file="C2L07-Conversation.mp3" %}
 ## Conversation
+{% include player.html identifier="lesson-conversation" lesson="C2L07" file="C2L07-Conversation.mp3" %}
 
 
 > Person 1: **What is your job?**  
@@ -76,10 +44,8 @@ lesson: "07"
 
 
 
-
-
-{% include player.html identifier="lesson-explanation" lesson="C2L07" file="C2L07-Explanation.mp3" %}
 ## Explanation
+{% include player.html identifier="lesson-explanation" lesson="C2L07" file="C2L07-Explanation.mp3" %}
 
 
 ### 1. I am responsible for selling goods and looking after customers
@@ -122,7 +88,7 @@ Bạn nghĩ rằng kiếm nhiều tiền hay tận hưởng công việc thì qu
 
 ### 6. Honestly, 
 Thật lòng mà nói
-**Honestly/ to be honest**
+**Honestly / to be honest**
 
 - **Honestly, I have no interest in him** *Thật lòng, tôi chẳng thích anh ta tí nào*
 - **To be honest, I'll do it tomorrow** *Thật lòng, mai tôi sẽ làm*

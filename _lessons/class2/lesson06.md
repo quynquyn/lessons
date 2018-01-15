@@ -14,62 +14,24 @@ lesson: "06"
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		section="whatcanyoudothere"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
 
 
 
-{% include image.html class=2 lesson="06" name="Grid1" %}
-
-| **Go sightseeing** | **Enjoy the beauty of the landscape**  | **Visit the museum** | **monument** | 
-|  *Đi ngắm cảnh*  |    *Tận hưởng vẻ đẹp của phong cảnh*   |  *Thăm viện bảo tàng*   |   *tượng đài*  | 
-
-
-{% include image.html class=2 lesson="06" name="Grid2" %}
-
-| **Aquarium** | **night market**  | **white sandy beaches** | **Build sandcastles** | 
-|  *thủy cung*  |    *chợ đêm*   |     |   *Xây lâu đài cát*  | 
-
-{% include image.html class=2 lesson="06" name="Grid3" %}
-
-| **Watch the wildlife** | **Get a tan**  | **get tanned skin** | **Explore caves** | 
-|  *Ngắm cuộc sống hoang dã*  |    *Tắm nắng cho ngăm da*   |     |   *Thám hiểm hang động*  | 
-
-
-{% include image.html class=2 lesson="06" name="Grid4" %}
-
-| **Go hiking** | **Ride a cable Car**  | **Wander the bustling streets** | **Try local food** | 
-|  *Đi bộ leo núi*  |    *Đi cáp treo*   |  *Lang thang trên đường phố đông đúc*   |   *Ăn thực phẩm địa phương*  | 
-
-
-
 ### Purpose 
-
-
-
 
 **I travel there to...**
 
-{% include image.html class=2 lesson="06" name="Grid5" %}
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="purpose"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
-1. **Find a quiet place to avoid the noise of the city** *Tìm nơi yên tĩnh để tránh sự ồn ào của thành phố*
-2. **Take pictures and capture the moments** *Chụp hình và chụp những khoảnh khắc*
-3. **Learn about the world** *Học thêm về thế giới*
-4. **Know more about other countries and regions** *Biết hơn về những đất nước và vùng miền khác*
-
-{% include image.html class=2 lesson="06" name="Grid6" %}
-
-
-5. **Visit friends / relatives** *Thăm bạn bè/ họ hàng*
-6. **Take a break from work** *Giải lao cho công việc*
-7. **Go on vacation** *Đi kì nghỉ*
-
-{% include image.html class=2 lesson="06" name="Grid7" %}
-
-7. **go on a business trip** *Đi công tác*
-8. **Learn about new cultures and explore new places.** *Học về những văn hóa mới và thám hiểm những nơi mới*
-   
 
 
 {% include player.html identifier="lesson-conversation" lesson="C2L06" file="C2L06-Conversation.mp3" %}

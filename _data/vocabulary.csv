@@ -120,45 +120,45 @@ class,lesson,section,word_en,word_vn,image_name,image_url
 1,05,pronoun,He,,C1L05-He.jpg,class1/images/C1L05-He.jpg
 1,05,pronoun,She,,C1L05-She.jpg,class1/images/C1L05-She.jpg
 1,05,pronoun,It,,C1L05-It.jpg,class1/images/C1L05-It.jpg
-1,05,Peopleinyourfamily,Father,,C1L05-Father.jpg,class1/images/C1L05-Father.jpg
-1,05,Peopleinyourfamily,Mother,,C1L05-Mother.jpg,class1/images/C1L05-Mother.jpg
-1,05,Peopleinyourfamily,Parents,,C1L05-Parents.jpg,class1/images/C1L05-Parents.jpg
-1,05,Peopleinyourfamily,Sister,,C1L05-Sister.jpg,class1/images/C1L05-Sister.jpg
-1,05,Peopleinyourfamily,Brother,,C1L05-Brother.jpg,class1/images/C1L05-Brother.jpg
-1,05,Peopleinyourfamily,Grandmother,,C1L05-Grandmother.jpg,class1/images/C1L05-Grandmother.jpg
-1,05,Peopleinyourfamily,Grandfather,,C1L05-Grandfather.jpg,class1/images/C1L05-Grandfather.jpg
-1,05,Peopleinyourfamily,Son,,C1L05-Son.jpg,class1/images/C1L05-Son.jpg
-1,05,Peopleinyourfamily,Daughter,,C1L05-Daughter.jpg,class1/images/C1L05-Daughter.jpg
-1,05,Peopleinyourfamily,Children,,C1L05-Children.jpg,class1/images/C1L05-Children.jpg
-1,05,Peopleinyourfamily,Aunt,,C1L05-Aunt.jpg,class1/images/C1L05-Aunt.jpg
-1,05,Peopleinyourfamily,Uncle,,C1L05-Uncle.jpg,class1/images/C1L05-Uncle.jpg
-1,05,Peopleinyourfamily,Wife,,C1L05-Wife.jpg,class1/images/C1L05-Wife.jpg
-1,05,Peopleinyourfamily,Husband,,C1L05-Husband.jpg,class1/images/C1L05-Husband.jpg
-1,05,Jobs,Waiter,,C1L05-Waiter.jpg,class1/images/C1L05-Waiter.jpg
-1,05,Jobs,Waitress,,C1L05-Waitress.jpg,class1/images/C1L05-Waitress.jpg
-1,05,Jobs,Actor,,C1L05-Actor.jpg,class1/images/C1L05-Actor.jpg
-1,05,Jobs,Actress,,C1L05-Actress.jpg,class1/images/C1L05-Actress.jpg
-1,05,Jobs,Manager,,C1L05-Manager.jpg,class1/images/C1L05-Manager.jpg
-1,05,Jobs,Secretary,,C1L05-Secretary.jpg,class1/images/C1L05-Secretary.jpg
-1,05,Jobs,Engineer,,C1L05-Engineer.jpg,class1/images/C1L05-Engineer.jpg
-1,05,Jobs,Singer,,C1L05-Singer.jpg,class1/images/C1L05-Singer.jpg
-1,05,Jobs,Dentist,,C1L05-Dentist.jpg,class1/images/C1L05-Dentist.jpg
-1,05,Verbs,Accountant,,C1L05-Accountant.jpg,class1/images/C1L05-Accountant.jpg
-1,05,Verbs,Travel to Korea,,C1L05-Travel-to-Korea.jpg,class1/images/C1L05-Travel-to-Korea.jpg
-1,05,Verbs,Travel to Malaysia,,C1L05-Travel-to-Malaysia.jpg,class1/images/C1L05-Travel-to-Malaysia.jpg
-1,05,Verbs,Travel to Cambodia,,C1L05-Travel-to-Cambodia.jpg,class1/images/C1L05-Travel-to-Cambodia.jpg
-1,05,Verbs,Travel to Italy,,C1L05-Travel-to-Italy.jpg,class1/images/C1L05-Travel-to-Italy.jpg
-1,05,Verbs,Study English,,C1L05-Study-English.jpg,class1/images/C1L05-Study-English.jpg
-1,05,Verbs,Study Spanish,,C1L05-Study-Spanish.jpg,class1/images/C1L05-Study-Spanish.jpg
-1,05,Verbs,Study Korean,,C1L05-Study-Korean.jpg,class1/images/C1L05-Study-Korean.jpg
-1,05,Verbs,Study Chinese,,C1L05-Study-Chinese.jpg,class1/images/C1L05-Study-Chinese.jpg
-1,05,Verbs,Reserve a room,,C1L05-Reserve-a-room.jpg,class1/images/C1L05-Reserve-a-room.jpg
-1,05,Verbs,Make a presentation,,C1L05-Make-a-presentation.jpg,class1/images/C1L05-Make-a-presentation.jpg
-1,05,Verbs,Practice speaking English,,C1L05-Practice-speaking-English.jpg,class1/images/C1L05-Practice-speaking-English.jpg
-1,05,Verbs,Talk to a stranger,,C1L05-Talk-to-a-stranger.jpg,class1/images/C1L05-Talk-to-a-stranger.jpg
-1,05,Verbs,Ask someone out,,C1L05-Ask-someone-out.jpg,class1/images/C1L05-Ask-someone-out.jpg
-1,05,Verbs,Break up with someone,,C1L05-Break-up-with-someone.jpg,class1/images/C1L05-Break-up-with-someone.jpg
-1,05,Verbs,Marry someone / Get married to someone,,C1L05-Marry-someone-Get-married-to-someone.jpg,class1/images/C1L05-Marry-someone-Get-married-to-someone.jpg
+1,05,peopleinyourfamily,Father,,C1L05-Father.jpg,class1/images/C1L05-Father.jpg
+1,05,peopleinyourfamily,Mother,,C1L05-Mother.jpg,class1/images/C1L05-Mother.jpg
+1,05,peopleinyourfamily,Parents,,C1L05-Parents.jpg,class1/images/C1L05-Parents.jpg
+1,05,peopleinyourfamily,Sister,,C1L05-Sister.jpg,class1/images/C1L05-Sister.jpg
+1,05,peopleinyourfamily,Brother,,C1L05-Brother.jpg,class1/images/C1L05-Brother.jpg
+1,05,peopleinyourfamily,Grandmother,,C1L05-Grandmother.jpg,class1/images/C1L05-Grandmother.jpg
+1,05,peopleinyourfamily,Grandfather,,C1L05-Grandfather.jpg,class1/images/C1L05-Grandfather.jpg
+1,05,peopleinyourfamily,Son,,C1L05-Son.jpg,class1/images/C1L05-Son.jpg
+1,05,peopleinyourfamily,Daughter,,C1L05-Daughter.jpg,class1/images/C1L05-Daughter.jpg
+1,05,peopleinyourfamily,Children,,C1L05-Children.jpg,class1/images/C1L05-Children.jpg
+1,05,peopleinyourfamily,Aunt,,C1L05-Aunt.jpg,class1/images/C1L05-Aunt.jpg
+1,05,peopleinyourfamily,Uncle,,C1L05-Uncle.jpg,class1/images/C1L05-Uncle.jpg
+1,05,peopleinyourfamily,Wife,,C1L05-Wife.jpg,class1/images/C1L05-Wife.jpg
+1,05,peopleinyourfamily,Husband,,C1L05-Husband.jpg,class1/images/C1L05-Husband.jpg
+1,05,jobs,Waiter,,C1L05-Waiter.jpg,class1/images/C1L05-Waiter.jpg
+1,05,jobs,Waitress,,C1L05-Waitress.jpg,class1/images/C1L05-Waitress.jpg
+1,05,jobs,Actor,,C1L05-Actor.jpg,class1/images/C1L05-Actor.jpg
+1,05,jobs,Actress,,C1L05-Actress.jpg,class1/images/C1L05-Actress.jpg
+1,05,jobs,Manager,,C1L05-Manager.jpg,class1/images/C1L05-Manager.jpg
+1,05,jobs,Secretary,,C1L05-Secretary.jpg,class1/images/C1L05-Secretary.jpg
+1,05,jobs,Engineer,,C1L05-Engineer.jpg,class1/images/C1L05-Engineer.jpg
+1,05,jobs,Singer,,C1L05-Singer.jpg,class1/images/C1L05-Singer.jpg
+1,05,jobs,Dentist,,C1L05-Dentist.jpg,class1/images/C1L05-Dentist.jpg
+1,05,verbs,Accountant,,C1L05-Accountant.jpg,class1/images/C1L05-Accountant.jpg
+1,05,verbs,Travel to Korea,,C1L05-Travel-to-Korea.jpg,class1/images/C1L05-Travel-to-Korea.jpg
+1,05,verbs,Travel to Malaysia,,C1L05-Travel-to-Malaysia.jpg,class1/images/C1L05-Travel-to-Malaysia.jpg
+1,05,verbs,Travel to Cambodia,,C1L05-Travel-to-Cambodia.jpg,class1/images/C1L05-Travel-to-Cambodia.jpg
+1,05,verbs,Travel to Italy,,C1L05-Travel-to-Italy.jpg,class1/images/C1L05-Travel-to-Italy.jpg
+1,05,verbs,Study English,,C1L05-Study-English.jpg,class1/images/C1L05-Study-English.jpg
+1,05,verbs,Study Spanish,,C1L05-Study-Spanish.jpg,class1/images/C1L05-Study-Spanish.jpg
+1,05,verbs,Study Korean,,C1L05-Study-Korean.jpg,class1/images/C1L05-Study-Korean.jpg
+1,05,verbs,Study Chinese,,C1L05-Study-Chinese.jpg,class1/images/C1L05-Study-Chinese.jpg
+1,05,verbs,Reserve a room,,C1L05-Reserve-a-room.jpg,class1/images/C1L05-Reserve-a-room.jpg
+1,05,verbs,Make a presentation,,C1L05-Make-a-presentation.jpg,class1/images/C1L05-Make-a-presentation.jpg
+1,05,verbs,Practice speaking English,,C1L05-Practice-speaking-English.jpg,class1/images/C1L05-Practice-speaking-English.jpg
+1,05,verbs,Talk to a stranger,,C1L05-Talk-to-a-stranger.jpg,class1/images/C1L05-Talk-to-a-stranger.jpg
+1,05,verbs,Ask someone out,,C1L05-Ask-someone-out.jpg,class1/images/C1L05-Ask-someone-out.jpg
+1,05,verbs,Break up with someone,,C1L05-Break-up-with-someone.jpg,class1/images/C1L05-Break-up-with-someone.jpg
+1,05,verbs,Marry someone / Get married to someone,,C1L05-Marry-someone-Get-married-to-someone.jpg,class1/images/C1L05-Marry-someone-Get-married-to-someone.jpg
 2,07,favoritekindofjob,Accountants,,C2L07-Accountants.jpg,class2/images/C2L07-Accountants.jpg
 2,07,favoritekindofjob,Bakers,,C2L07-Bakers.jpg,class2/images/C2L07-Bakers.jpg
 2,07,favoritekindofjob,Barbers,,C2L07-Barbers.jpg,class2/images/C2L07-Barbers.jpg
@@ -186,82 +186,113 @@ class,lesson,section,word_en,word_vn,image_name,image_url
 2,07,favoritekindofjob,Vets,,C2L07-Vets.jpg,class2/images/C2L07-Vets.jpg
 2,07,favoritekindofjob,Waiters / Waitresses,,C2L07-Waiters-Waitresses.jpg,class2/images/C2L07-Waiters-Waitresses.jpg
 2,07,favoritekindofjob,Welders,,C2L07-Welders.jpg,class2/images/C2L07-Welders.jpg
-1,06,Vocabulary,Know how to make a cake,,C1L06-Know-how-to-make-a-cake.jpg,class1/images/C1L06-Know-how-to-make-a-cake.jpg
-1,06,Vocabulary,Plant a tree,,C1L06-Plant-a-tree.jpg,class1/images/C1L06-Plant-a-tree.jpg
-1,06,Vocabulary,Lock a door,,C1L06-Lock-a-door.jpg,class1/images/C1L06-Lock-a-door.jpg
-1,06,Vocabulary,Color a picture,,C1L06-Color-a-picture.jpg,class1/images/C1L06-Color-a-picture.jpg
-1,06,Vocabulary,Sneeze,,C1L06-Sneeze.jpg,class1/images/C1L06-Sneeze.jpg
-1,06,Vocabulary,Snore,,C1L06-Snore.jpg,class1/images/C1L06-Snore.jpg
-1,06,Vocabulary,Yawn,,C1L06-Yawn.jpg,class1/images/C1L06-Yawn.jpg
-1,06,Vocabulary,Mop the floor,,C1L06-Mop-the-floor.jpg,class1/images/C1L06-Mop-the-floor.jpg
-1,06,Vocabulary,Wash my clothes,,C1L06-Wash-my-clothes.jpg,class1/images/C1L06-Wash-my-clothes.jpg
-1,06,Vocabulary,Brush my teeth,,C1L06-Brush-my-teeth.jpg,class1/images/C1L06-Brush-my-teeth.jpg
-1,06,Vocabulary,Comb my hair,,C1L06-Comb-my-hair.jpg,class1/images/C1L06-Comb-my-hair.jpg
-1,06,Vocabulary,Change my mind,,C1L06-Change-my-mind.jpg,class1/images/C1L06-Change-my-mind.jpg
-1,06,Vocabulary,Follow the crowd,,C1L06-Follow-the-crowd.jpg,class1/images/C1L06-Follow-the-crowd.jpg
-1,06,Vocabulary,Sing a song,,C1L06-Sing-a-song.jpg,class1/images/C1L06-Sing-a-song.jpg
-1,06,Vocabulary,Clap one’s hands,,C1L06-Clap-one-s-hands.jpg,class1/images/C1L06-Clap-one-s-hands.jpg
-1,06,Vocabulary,Make a decision,,C1L06-Make-a-decision.jpg,class1/images/C1L06-Make-a-decision.jpg
-1,06,Vocabulary,Give someone a hug,,C1L06-Give-someone-a-hug.jpg,class1/images/C1L06-Give-someone-a-hug.jpg
-1,06,Vocabulary,Make a wish,,C1L06-Make-a-wish.jpg,class1/images/C1L06-Make-a-wish.jpg
-1,06,Vocabulary,Borrow money,,C1L06-Borrow-money.jpg,class1/images/C1L06-Borrow-money.jpg
-1,06,Vocabulary,Have a crush on someone,,C1L06-Have-a-crush-on-someone.jpg,class1/images/C1L06-Have-a-crush-on-someone.jpg
-1,06,Vocabulary,Cheat on someone,,C1L06-Cheat-on-someone.jpg,class1/images/C1L06-Cheat-on-someone.jpg
-1,06,Vocabulary,Yell at someone,,C1L06-Yell-at-someone.jpg,class1/images/C1L06-Yell-at-someone.jpg
-1,06,Vocabulary,Always,,C1L06-Always.jpg,class1/images/C1L06-Always.jpg
-1,06,Vocabulary,Usually,,C1L06-Usually.jpg,class1/images/C1L06-Usually.jpg
-1,06,Vocabulary,Often,,C1L06-Often.jpg,class1/images/C1L06-Often.jpg
-1,06,Vocabulary,Sometimes,,C1L06-Sometimes.jpg,class1/images/C1L06-Sometimes.jpg
-1,06,Vocabulary,Rarely,,C1L06-Rarely.jpg,class1/images/C1L06-Rarely.jpg
-1,06,Vocabulary,Never,,C1L06-Never.jpg,class1/images/C1L06-Never.jpg
-1,09,Comparison,Sociable,,C1L09-Sociable.jpg,class1/images/C1L09-Sociable.jpg
-1,09,Comparison,Aggressive,,C1L09-Aggressive.jpg,class1/images/C1L09-Aggressive.jpg
-1,09,Comparison,Peaceful,,C1L09-Peaceful.jpg,class1/images/C1L09-Peaceful.jpg
-1,09,Comparison,Intelligent,,C1L09-Intelligent.jpg,class1/images/C1L09-Intelligent.jpg
-1,09,Comparison,Sensitive,,C1L09-Sensitive.jpg,class1/images/C1L09-Sensitive.jpg
-1,09,Comparison,Adventurous,,C1L09-Adventurous.jpg,class1/images/C1L09-Adventurous.jpg
-1,09,Comparison,Proud,,C1L09-Proud.jpg,class1/images/C1L09-Proud.jpg
-1,09,Comparison,Wild,,C1L09-Wild.jpg,class1/images/C1L09-Wild.jpg
-2,08,Workingcondition,A well – paid job,,C2L08-A-well-paid-job.jpg,class2/images/C2L08-A-well-paid-job.jpg
-2,08,Workingcondition,Six weeks’ paid holiday,,C2L08-Six-weeks-paid-holiday.jpg,class2/images/C2L08-Six-weeks-paid-holiday.jpg
-2,08,Workingcondition,A company car,,C2L08-A-company-car.jpg,class2/images/C2L08-A-company-car.jpg
-2,08,Workingcondition,A very good pension scheme,,C2L08-A-very-good-pension-scheme.jpg,class2/images/C2L08-A-very-good-pension-scheme.jpg
-2,08,Workingcondition,A pretty good salary,,C2L08-A-pretty-good-salary.jpg,class2/images/C2L08-A-pretty-good-salary.jpg
-2,08,Workingcondition,Getting promoted,,C2L08-Getting-promoted.jpg,class2/images/C2L08-Getting-promoted.jpg
-2,08,Workingcondition,Working overtime,,C2L08-Working-overtime.jpg,class2/images/C2L08-Working-overtime.jpg
-2,08,Workingcondition,Working long hours,,C2L08-Working-long-hours.jpg,class2/images/C2L08-Working-long-hours.jpg
-2,08,Workingcondition,A system of flexi-time,,C2L08-A-system-of-flexi-time.jpg,class2/images/C2L08-A-system-of-flexi-time.jpg
-2,08,Workingcondition,Health insurance,,C2L08-Health-insurance.jpg,class2/images/C2L08-Health-insurance.jpg
-2,08,Workingcondition,Taking a few days off,,C2L08-Taking-a-few-days-off.jpg,class2/images/C2L08-Taking-a-few-days-off.jpg
-2,08,Workingcondition,The career ladder,,C2L08-The-career-ladder.jpg,class2/images/C2L08-The-career-ladder.jpg
-2,08,Workingcondition,Bonus,,C2L08-Bonus.jpg,class2/images/C2L08-Bonus.jpg
-2,08,Describingyourjob,Satisfying / Rewarding,,C2L08-Satisfying-Rewarding.jpg,class2/images/C2L08-Satisfying-Rewarding.jpg
-2,08,Describingyourjob,Challenging,,C2L08-Challenging.jpg,class2/images/C2L08-Challenging.jpg
-2,08,Describingyourjob,Stressful,,C2L08-Stressful.jpg,class2/images/C2L08-Stressful.jpg
-2,08,Describingyourjob,Glamorous,,C2L08-Glamorous.jpg,class2/images/C2L08-Glamorous.jpg
-2,08,Describingyourjob,Repetitive / Boring,,C2L08-Repetitive-Boring.jpg,class2/images/C2L08-Repetitive-Boring.jpg
-2,06,What can you do there?,Go sightseeing,Đi ngắm cảnh,C2L06-Go-sightseeing.jpg,class2/images/C2L06-Go-sightseeing.jpg
-2,06,What can you do there?,Enjoy the beauty of the landscape,Tận hưởng vẻ đẹp của phong cảnh,C2L06-Enjoy-the-beauty-of-the-landscape.jpg,class2/images/C2L06-Enjoy-the-beauty-of-the-landscape.jpg
-2,06,What can you do there?,Visit the museum,Thăm viện bảo tàng,C2L06-Visit-the-museum.jpg,class2/images/C2L06-Visit-the-museum.jpg
-2,06,What can you do there?,monument,tượng đài,C2L06-monument.jpg,class2/images/C2L06-monument.jpg
-2,06,What can you do there?,Aquarium,thủy cung,C2L06-Aquarium.jpg,class2/images/C2L06-Aquarium.jpg
-2,06,What can you do there?,night market,chợ đêm,C2L06-night-market.jpg,class2/images/C2L06-night-market.jpg
-2,06,What can you do there?,white sandy beaches,,C2L06-white-sandy-beaches.jpg,class2/images/C2L06-white-sandy-beaches.jpg
-2,06,What can you do there?,Build sandcastles,Xây lâu đài cát,C2L06-Build-sandcastles.jpg,class2/images/C2L06-Build-sandcastles.jpg
-2,06,What can you do there?,Watch the wildlife,Ngắm cuộc sống hoang dã,C2L06-Watch-the-wildlife.jpg,class2/images/C2L06-Watch-the-wildlife.jpg
-2,06,What can you do there?,Get a tan,Tắm nắng cho ngăm da,C2L06-Get-a-tan.jpg,class2/images/C2L06-Get-a-tan.jpg
-2,06,What can you do there?,get tanned skin,,C2L06-get-tanned-skin.jpg,class2/images/C2L06-get-tanned-skin.jpg
-2,06,What can you do there?,Explore caves,Thám hiểm hang động,C2L06-Explore-caves.jpg,class2/images/C2L06-Explore-caves.jpg
-2,06,What can you do there?,Go hiking,Đi bộ leo núi,C2L06-Go-hiking.jpg,class2/images/C2L06-Go-hiking.jpg
-2,06,What can you do there?,Ride a cable Car,Đi cáp treo,C2L06-Ride-a-cable-Car.jpg,class2/images/C2L06-Ride-a-cable-Car.jpg
-2,06,What can you do there?,Wander the bustling streets,Lang thang trên đường phố đông đúc,C2L06-Wander-the-bustling-streets.jpg,class2/images/C2L06-Wander-the-bustling-streets.jpg
-2,06,What can you do there?,Try local food,Ăn thực phẩm địa phương,C2L06-Try-local-food.jpg,class2/images/C2L06-Try-local-food.jpg
-2,06,Purpose,Find a quiet place to avoid the noise of the city,Tìm nơi yên tĩnh để tránh sự ồn ào của thành phố,C2L06-Find-a-quiet-place-to-avoid-the-noise-of-the-city.jpg,class2/images/C2L06-Find-a-quiet-place-to-avoid-the-noise-of-the-city.jpg
-2,06,Purpose,Take pictures and capture the moments,Chụp hình và chụp những khoảnh khắc,C2L06-Take-pictures-and-capture-the-moments.jpg,class2/images/C2L06-Take-pictures-and-capture-the-moments.jpg
-2,06,Purpose,Learn about the world,Học thêm về thế giới,C2L06-Learn-about-the-world.jpg,class2/images/C2L06-Learn-about-the-world.jpg
-2,06,Purpose,Know more about other countries and regions,Biết hơn về những đất nước và vùng miền khác,C2L06-Know-more-about-other-countries-and-regions.jpg,class2/images/C2L06-Know-more-about-other-countries-and-regions.jpg
-2,06,Purpose,Visit friends / relatives,,C2L06-Visit-friends-relatives.jpg,class2/images/C2L06-Visit-friends-relatives.jpg
-2,06,Purpose,Take a break from work,,C2L06-Take-a-break-from-work.jpg,class2/images/C2L06-Take-a-break-from-work.jpg
-2,06,Purpose,Go on vacation,,C2L06-Go-on-vacation.jpg,class2/images/C2L06-Go-on-vacation.jpg
-2,06,Purpose,go on a business trip,,C2L06-go-on-a-business-trip.jpg,class2/images/C2L06-go-on-a-business-trip.jpg
-2,06,Purpose,Learn about new cultures and explore new places,,C2L06-Learn-about-new-cultures-and-explore-new-places.jpg,class2/images/C2L06-Learn-about-new-cultures-and-explore-new-places.jpg
+1,06,all,Know how to make a cake,,C1L06-Know-how-to-make-a-cake.jpg,class1/images/C1L06-Know-how-to-make-a-cake.jpg
+1,06,all,Plant a tree,,C1L06-Plant-a-tree.jpg,class1/images/C1L06-Plant-a-tree.jpg
+1,06,all,Lock a door,,C1L06-Lock-a-door.jpg,class1/images/C1L06-Lock-a-door.jpg
+1,06,all,Color a picture,,C1L06-Color-a-picture.jpg,class1/images/C1L06-Color-a-picture.jpg
+1,06,all,Sneeze,,C1L06-Sneeze.jpg,class1/images/C1L06-Sneeze.jpg
+1,06,all,Snore,,C1L06-Snore.jpg,class1/images/C1L06-Snore.jpg
+1,06,all,Yawn,,C1L06-Yawn.jpg,class1/images/C1L06-Yawn.jpg
+1,06,all,Mop the floor,,C1L06-Mop-the-floor.jpg,class1/images/C1L06-Mop-the-floor.jpg
+1,06,all,Wash my clothes,,C1L06-Wash-my-clothes.jpg,class1/images/C1L06-Wash-my-clothes.jpg
+1,06,all,Brush my teeth,,C1L06-Brush-my-teeth.jpg,class1/images/C1L06-Brush-my-teeth.jpg
+1,06,all,Comb my hair,,C1L06-Comb-my-hair.jpg,class1/images/C1L06-Comb-my-hair.jpg
+1,06,all,Change my mind,,C1L06-Change-my-mind.jpg,class1/images/C1L06-Change-my-mind.jpg
+1,06,all,Follow the crowd,,C1L06-Follow-the-crowd.jpg,class1/images/C1L06-Follow-the-crowd.jpg
+1,06,all,Sing a song,,C1L06-Sing-a-song.jpg,class1/images/C1L06-Sing-a-song.jpg
+1,06,all,Clap one’s hands,,C1L06-Clap-one-s-hands.jpg,class1/images/C1L06-Clap-one-s-hands.jpg
+1,06,all,Make a decision,,C1L06-Make-a-decision.jpg,class1/images/C1L06-Make-a-decision.jpg
+1,06,all,Give someone a hug,,C1L06-Give-someone-a-hug.jpg,class1/images/C1L06-Give-someone-a-hug.jpg
+1,06,all,Make a wish,,C1L06-Make-a-wish.jpg,class1/images/C1L06-Make-a-wish.jpg
+1,06,all,Borrow money,,C1L06-Borrow-money.jpg,class1/images/C1L06-Borrow-money.jpg
+1,06,all,Have a crush on someone,,C1L06-Have-a-crush-on-someone.jpg,class1/images/C1L06-Have-a-crush-on-someone.jpg
+1,06,all,Cheat on someone,,C1L06-Cheat-on-someone.jpg,class1/images/C1L06-Cheat-on-someone.jpg
+1,06,all,Yell at someone,,C1L06-Yell-at-someone.jpg,class1/images/C1L06-Yell-at-someone.jpg
+1,06,all,Always,,C1L06-Always.jpg,class1/images/C1L06-Always.jpg
+1,06,all,Usually,,C1L06-Usually.jpg,class1/images/C1L06-Usually.jpg
+1,06,all,Often,,C1L06-Often.jpg,class1/images/C1L06-Often.jpg
+1,06,all,Sometimes,,C1L06-Sometimes.jpg,class1/images/C1L06-Sometimes.jpg
+1,06,all,Rarely,,C1L06-Rarely.jpg,class1/images/C1L06-Rarely.jpg
+1,06,all,Never,,C1L06-Never.jpg,class1/images/C1L06-Never.jpg
+1,09,comparison,Sociable,,C1L09-Sociable.jpg,class1/images/C1L09-Sociable.jpg
+1,09,comparison,Aggressive,,C1L09-Aggressive.jpg,class1/images/C1L09-Aggressive.jpg
+1,09,comparison,Peaceful,,C1L09-Peaceful.jpg,class1/images/C1L09-Peaceful.jpg
+1,09,comparison,Intelligent,,C1L09-Intelligent.jpg,class1/images/C1L09-Intelligent.jpg
+1,09,comparison,Sensitive,,C1L09-Sensitive.jpg,class1/images/C1L09-Sensitive.jpg
+1,09,comparison,Adventurous,,C1L09-Adventurous.jpg,class1/images/C1L09-Adventurous.jpg
+1,09,comparison,Proud,,C1L09-Proud.jpg,class1/images/C1L09-Proud.jpg
+1,09,comparison,Wild,,C1L09-Wild.jpg,class1/images/C1L09-Wild.jpg
+2,08,workingcondition,A well – paid job,,C2L08-A-well-paid-job.jpg,class2/images/C2L08-A-well-paid-job.jpg
+2,08,workingcondition,Six weeks’ paid holiday,,C2L08-Six-weeks-paid-holiday.jpg,class2/images/C2L08-Six-weeks-paid-holiday.jpg
+2,08,workingcondition,A company car,,C2L08-A-company-car.jpg,class2/images/C2L08-A-company-car.jpg
+2,08,workingcondition,A very good pension scheme,,C2L08-A-very-good-pension-scheme.jpg,class2/images/C2L08-A-very-good-pension-scheme.jpg
+2,08,workingcondition,A pretty good salary,,C2L08-A-pretty-good-salary.jpg,class2/images/C2L08-A-pretty-good-salary.jpg
+2,08,workingcondition,Getting promoted,,C2L08-Getting-promoted.jpg,class2/images/C2L08-Getting-promoted.jpg
+2,08,workingcondition,Working overtime,,C2L08-Working-overtime.jpg,class2/images/C2L08-Working-overtime.jpg
+2,08,workingcondition,Working long hours,,C2L08-Working-long-hours.jpg,class2/images/C2L08-Working-long-hours.jpg
+2,08,workingcondition,A system of flexi-time,,C2L08-A-system-of-flexi-time.jpg,class2/images/C2L08-A-system-of-flexi-time.jpg
+2,08,workingcondition,Health insurance,,C2L08-Health-insurance.jpg,class2/images/C2L08-Health-insurance.jpg
+2,08,workingcondition,Taking a few days off,,C2L08-Taking-a-few-days-off.jpg,class2/images/C2L08-Taking-a-few-days-off.jpg
+2,08,workingcondition,The career ladder,,C2L08-The-career-ladder.jpg,class2/images/C2L08-The-career-ladder.jpg
+2,08,workingcondition,Bonus,,C2L08-Bonus.jpg,class2/images/C2L08-Bonus.jpg
+2,08,describingyourjob,Satisfying / Rewarding,,C2L08-Satisfying-Rewarding.jpg,class2/images/C2L08-Satisfying-Rewarding.jpg
+2,08,describingyourjob,Challenging,,C2L08-Challenging.jpg,class2/images/C2L08-Challenging.jpg
+2,08,describingyourjob,Stressful,,C2L08-Stressful.jpg,class2/images/C2L08-Stressful.jpg
+2,08,describingyourjob,Glamorous,,C2L08-Glamorous.jpg,class2/images/C2L08-Glamorous.jpg
+2,08,describingyourjob,Repetitive / Boring,,C2L08-Repetitive-Boring.jpg,class2/images/C2L08-Repetitive-Boring.jpg
+2,06,whatcanyoudothere,Go sightseeing,Đi ngắm cảnh,C2L06-Go-sightseeing.jpg,class2/images/C2L06-Go-sightseeing.jpg
+2,06,whatcanyoudothere,Enjoy the beauty of the landscape,Tận hưởng vẻ đẹp của phong cảnh,C2L06-Enjoy-the-beauty-of-the-landscape.jpg,class2/images/C2L06-Enjoy-the-beauty-of-the-landscape.jpg
+2,06,whatcanyoudothere,Visit the museum,Thăm viện bảo tàng,C2L06-Visit-the-museum.jpg,class2/images/C2L06-Visit-the-museum.jpg
+2,06,whatcanyoudothere,monument,tượng đài,C2L06-monument.jpg,class2/images/C2L06-monument.jpg
+2,06,whatcanyoudothere,Aquarium,thủy cung,C2L06-Aquarium.jpg,class2/images/C2L06-Aquarium.jpg
+2,06,whatcanyoudothere,night market,chợ đêm,C2L06-night-market.jpg,class2/images/C2L06-night-market.jpg
+2,06,whatcanyoudothere,white sandy beaches,,C2L06-white-sandy-beaches.jpg,class2/images/C2L06-white-sandy-beaches.jpg
+2,06,whatcanyoudothere,Build sandcastles,Xây lâu đài cát,C2L06-Build-sandcastles.jpg,class2/images/C2L06-Build-sandcastles.jpg
+2,06,whatcanyoudothere,Watch the wildlife,Ngắm cuộc sống hoang dã,C2L06-Watch-the-wildlife.jpg,class2/images/C2L06-Watch-the-wildlife.jpg
+2,06,whatcanyoudothere,Get a tan,Tắm nắng cho ngăm da,C2L06-Get-a-tan.jpg,class2/images/C2L06-Get-a-tan.jpg
+2,06,whatcanyoudothere,get tanned skin,,C2L06-get-tanned-skin.jpg,class2/images/C2L06-get-tanned-skin.jpg
+2,06,whatcanyoudothere,Explore caves,Thám hiểm hang động,C2L06-Explore-caves.jpg,class2/images/C2L06-Explore-caves.jpg
+2,06,whatcanyoudothere,Go hiking,Đi bộ leo núi,C2L06-Go-hiking.jpg,class2/images/C2L06-Go-hiking.jpg
+2,06,whatcanyoudothere,Ride a cable Car,Đi cáp treo,C2L06-Ride-a-cable-Car.jpg,class2/images/C2L06-Ride-a-cable-Car.jpg
+2,06,whatcanyoudothere,Wander the bustling streets,Lang thang trên đường phố đông đúc,C2L06-Wander-the-bustling-streets.jpg,class2/images/C2L06-Wander-the-bustling-streets.jpg
+2,06,whatcanyoudothere,Try local food,Ăn thực phẩm địa phương,C2L06-Try-local-food.jpg,class2/images/C2L06-Try-local-food.jpg
+2,06,purpose,Find a quiet place to avoid the noise of the city,Tìm nơi yên tĩnh để tránh sự ồn ào của thành phố,C2L06-Find-a-quiet-place-to-avoid-the-noise-of-the-city.jpg,class2/images/C2L06-Find-a-quiet-place-to-avoid-the-noise-of-the-city.jpg
+2,06,purpose,Take pictures and capture the moments,Chụp hình và chụp những khoảnh khắc,C2L06-Take-pictures-and-capture-the-moments.jpg,class2/images/C2L06-Take-pictures-and-capture-the-moments.jpg
+2,06,purpose,Learn about the world,Học thêm về thế giới,C2L06-Learn-about-the-world.jpg,class2/images/C2L06-Learn-about-the-world.jpg
+2,06,purpose,Know more about other countries and regions,Biết hơn về những đất nước và vùng miền khác,C2L06-Know-more-about-other-countries-and-regions.jpg,class2/images/C2L06-Know-more-about-other-countries-and-regions.jpg
+2,06,purpose,Visit friends / relatives,,C2L06-Visit-friends-relatives.jpg,class2/images/C2L06-Visit-friends-relatives.jpg
+2,06,purpose,Take a break from work,,C2L06-Take-a-break-from-work.jpg,class2/images/C2L06-Take-a-break-from-work.jpg
+2,06,purpose,Go on vacation,,C2L06-Go-on-vacation.jpg,class2/images/C2L06-Go-on-vacation.jpg
+2,06,purpose,go on a business trip,,C2L06-go-on-a-business-trip.jpg,class2/images/C2L06-go-on-a-business-trip.jpg
+2,06,purpose,Learn about new cultures and explore new places,,C2L06-Learn-about-new-cultures-and-explore-new-places.jpg,class2/images/C2L06-Learn-about-new-cultures-and-explore-new-places.jpg
+2,10,forfun,To watch interesting videos,,C2L10-To-watch-interesting-videos.jpg,class2/images/C2L10-To-watch-interesting-videos.jpg
+2,10,forfun,To listen to music,,C2L10-To-listen-to-music.jpg,class2/images/C2L10-To-listen-to-music.jpg
+2,10,forfun,To play online games,,C2L10-To-play-online-games.jpg,class2/images/C2L10-To-play-online-games.jpg
+2,10,forfun,To chat with my friends,,C2L10-To-chat-with-my-friends.jpg,class2/images/C2L10-To-chat-with-my-friends.jpg
+2,10,foreducation,To read news,,C2L10-To-read-news.jpg,class2/images/C2L10-To-read-news.jpg
+2,10,foreducation,To search for some information I need,,C2L10-To-search-for-some-information-I-need.jpg,class2/images/C2L10-To-search-for-some-information-I-need.jpg
+2,10,foreducation,To check e-mails,,C2L10-To-check-e-mails.jpg,class2/images/C2L10-To-check-e-mails.jpg
+2,10,forotherpurposes,"To order/buy/ sell/ advertise products online (food, clothes, cosmetics…)",,C2L10-To-order-buy-sell-advertise-products-online-food-clothes-cosmetics-.jpg,class2/images/C2L10-To-order-buy-sell-advertise-products-online-food-clothes-cosmetics-.jpg
+2,10,forotherpurposes,To compare prices,,C2L10-To-compare-prices.jpg,class2/images/C2L10-To-compare-prices.jpg
+2,10,forotherpurposes,To read the reviews of the products I want to buy/ the movie they intend to watch,,C2L10-To-read-the-reviews-of-the-products-I-want-to-buy-the-movie-they-intend-to-watch.jpg,class2/images/C2L10-To-read-the-reviews-of-the-products-I-want-to-buy-the-movie-they-intend-to-watch.jpg
+2,04,favoritekindofmovie,Comedy,Phim hài,C2L04-Comedy.jpg,class2/images/C2L04-Comedy.jpg
+2,04,favoritekindofmovie,Drama,Kịch,C2L04-Drama.jpg,class2/images/C2L04-Drama.jpg
+2,04,favoritekindofmovie,Romantic movie,Phim lãng mạng,C2L04-Romantic-movie.jpg,class2/images/C2L04-Romantic-movie.jpg
+2,04,favoritekindofmovie,Horror movie,Phim kinh dị,C2L04-Horror-movie.jpg,class2/images/C2L04-Horror-movie.jpg
+2,04,favoritekindofmovie,Science – fiction movie,Phim khoa học viễn tưởng,C2L04-Science-fiction-movie.jpg,class2/images/C2L04-Science-fiction-movie.jpg
+2,04,favoritekindofmovie,Cartoon,Phim hoạt hìn,C2L04-Cartoon.jpg,class2/images/C2L04-Cartoon.jpg
+2,04,favoritekindofmovie,Action movie,Phim hành động,C2L04-Action-movie.jpg,class2/images/C2L04-Action-movie.jpg
+2,04,favoritekindofmovie,Western movie ,Phim tây,C2L04-Western-movie-.jpg,class2/images/C2L04-Western-movie-.jpg
+2,04,favoritekindofmovie,Korean movie,Phim Hàn Quốc,C2L04-Korean-movie.jpg,class2/images/C2L04-Korean-movie.jpg
+2,04,favoritekindofmovie,Fantasy movie,Phim giả tưởng,C2L04-Fantasy-movie.jpg,class2/images/C2L04-Fantasy-movie.jpg
+2,04,favoritekindofmovie,Documentary ,Phim tài liệu,C2L04-Documentary-.jpg,class2/images/C2L04-Documentary-.jpg
+2,04,movielike,Interesting / Exciting,Thú vị / Hào hứng,C2L04-Interesting-Exciting.jpg,class2/images/C2L04-Interesting-Exciting.jpg
+2,04,movielike,Funny/ Amusing/ Hilarious,Vui / Hài hước / Rất hài hước,C2L04-Funny-Amusing-Hilarious.jpg,class2/images/C2L04-Funny-Amusing-Hilarious.jpg
+2,04,movielike,Touching/ Moving/ Heart - warming,Cảm động / Cảm động/ Sưởi ấm trái tim,C2L04-Touching-Moving-Heart-warming.jpg,class2/images/C2L04-Touching-Moving-Heart-warming.jpg
+2,04,movielike,Romantic/ sweet,Lãng mạng/ Ngọt ngào,C2L04-Romantic-sweet.jpg,class2/images/C2L04-Romantic-sweet.jpg
+2,04,movielike,Shocking/ Impressive,Sốc / Ấn tượng,C2L04-Shocking-Impressive.jpg,class2/images/C2L04-Shocking-Impressive.jpg
+2,04,movielike,Scary/ Terrifying ,Sợ / Hoảng sợ,C2L04-Scary-Terrifying-.jpg,class2/images/C2L04-Scary-Terrifying-.jpg
+2,04,movielike,Instructive/ Informative/ educational,Hướng dẫn/ Bổ ích / Mang tính giáo dục,C2L04-Instructive-Informative-educational.jpg,class2/images/C2L04-Instructive-Informative-educational.jpg
+2,04,movielike,Thought - provoking,Kích thích suy nghĩ,C2L04-Thought-provoking.jpg,class2/images/C2L04-Thought-provoking.jpg
+2,04,movielike,Amazing / wonderful / fantastic/ awesome / great,Tuyệt vời,C2L04-Amazing-wonderful-fantastic-awesome-great.jpg,class2/images/C2L04-Amazing-wonderful-fantastic-awesome-great.jpg
+2,04,movielike,Terrible / awful / disgusting/ disappointing / silly / boring / weird,Tệ / Tệ / Thấy gớm/ Gây thất vọng/ Ngớ ngần / Chán / Kì cục,C2L04-Terrible-awful-disgusting-disappointing-silly-boring-weird.jpg,class2/images/C2L04-Terrible-awful-disgusting-disappointing-silly-boring-weird.jpg

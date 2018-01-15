@@ -16,33 +16,26 @@ salestext: "Free full version (last day)"
 
 **My favorite kind of movie is ...**
 
-1. **Comedy** *Phim hài*
-2. **Drama** *Kịch*
-3. **Romantic movie** *Phim lãng mạng*
-4. **Horror movie** *Phim kinh dị*
-5. **Science – fiction movie** *Phim khoa học viễn tưởng*
-6. **Cartoon** *Phim hoạt hìn*
-7. **Action movie** *Phim hành động*
-8. **Western movie** *Phim tây*
-9. **Korean movie** *Phim Hàn Quốc*
-10. **Fantasy movie** *Phim giả tưởng*
-11. **Documentary** *Phim tài liệu*
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="favoritekindofmovie"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+		
 
 ### What is the movie like?
 
 **The movie is...**
 
-1. **Interesting / Exciting** *Thú vị / Hào hứng*
-2. **Funny/ Amusing/ Hilarious** *Vui / Hài hước / Rất hài hước*
-3. **Touching/ Moving/ Heart - warming** *Cảm động / Cảm động/ Sưởi ấm trái tim*
-4. **Romantic/ sweet** *Lãng mạng/ Ngọt ngào*
-5. **Shocking/ Impressive** *Sốc / Ấn tượng*
-6. **Scary/ Terrifying** *Sợ / Hoảng sợ*
-7. **Instructive/ Informative/ educational** *Hướng dẫn/ Bổ ích / Mang tính giáo dục* 
-8. **Thought - provoking** *Kích thích suy nghĩ*
-9. **Amazing / wonderful / fantastic/ awesome / great** *Tuyệt vời*
-10. **Terrible / awful / disgusting/ disappointing / silly / boring / weird** *Tệ / Tệ / Thấy gớm/ Gây thất vọng/ Ngớ ngần / Chán / Kì cục*
-
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="movielike"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+		
+	
 ## Dialogue
 
 {% include player.html identifier="lesson-dialogue" lesson="C2L04" file="C2L04-Native-Dialogue2.mp3" %}

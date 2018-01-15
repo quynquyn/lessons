@@ -12,94 +12,47 @@ lesson: "05"
 
 ## Vocabulary 
 
-### Pronoun 
+### Pronoun  
+
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="pronoun"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
-{% include image.html class=1 lesson="05" name="Grid1" %}
-
-| **I** | **We**  | **You** | **They** |
-|    |       |     |     | 
-
-{% include image.html class=1 lesson="05" name="Grid2" %}
-
-| **He**  | **She**  | **It** | 
-|    |       |     | 
 
 ### People in your family 
 
-{% include image.html class=1 lesson="05" name="Grid3" %}
-
-| **Father** | **Mother** | **Parents** | **Sister** | 
-|    |       |     |     | 
-
-
-
-{% include image.html class=1 lesson="05" name="Grid4" %}
-
-| **Brother** | **Grandmother** | **Grandfather** | **Son** | 
-|    |       |     |     | 
-
-
-{% include image.html class=1 lesson="05" name="Grid5" %}
-
-| **Daughter** | **Children** | **Aunt** | **Uncle** |
-|    |       |     |     | 
-
-
-{% include image.html class=1 lesson="05" name="Grid6" %}
-
-| **Wife** | **Husband** |
-|    |       |  
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="peopleinyourfamily"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 ### Jobs 
 
-{% include image.html class=1 lesson="05" name="Grid7" %}
-
-| **Waiter** | **Waitress**  | **Actor** | **Actress** | 
-|    |       |     |     | 
-
-
-{% include image.html class=1 lesson="05" name="Grid8" %}
-
-| **Manager** | **Secretary** | **Engineer**  | **Singer**  | 
-|    |       |     |     | 
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="jobs"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
-{% include image.html class=1 lesson="05" name="Grid9" %}
-
-|**Dentist**  | **Accountant** | 
-|    |       | 
 
 
 ## Verbs
 
-{% include image.html class=1 lesson="05" name="Grid10" %}
-
-| **Travel to Korea** | **Malaysia** | **Cambodia**  | **Italy**  |
-|    |       |     |     | 
-
-
-{% include image.html class=1 lesson="05" name="Grid11" %}
-
-| **Study English** | **Spanish**  | **Korean** | **Chinese** |
-|    |       |     |     | 
-
-
-{% include image.html class=1 lesson="05" name="Grid12" %}
-
-| **Reserve a room** | **Make a presentation** | **Practice speaking English**   | 
-|    |       |     | 
-
-
-{% include image.html class=1 lesson="05" name="Grid13" %}
-
-- **Talk to a stranger** 
-- **Fall in love with someone**  
-- **Ask someone out**   
-- **Break up with someone**  
-- **Marry someone / Get married to someone** 
-
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="verbs"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 

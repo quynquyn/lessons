@@ -5,11 +5,10 @@ lesson: "12"
 ---
 
 
-# Lesson 1.12: WHERE 
-
+# Lesson 1.12: Where 
 
 ## Vocabulary 
-{% include player.html identifier="lesson-vocabulary" lesson="C1L01" file="C1L12-Vocabulary.mp3" %}
+{% include player2.html identifier="vocabulary" class=lesson.class lesson=page.lesson %}
 
 {% include image.html class=1 lesson="01" name="C1L12-Grid1" %}
 
@@ -50,7 +49,8 @@ lesson: "12"
 
 
 ## 1. Where 
-{% include player.html identifier="lesson-ex1" lesson="C1L01" file="C1L12-Explanation1.mp3" %}
+{% include player2.html identifier="examples1" class=lesson.class lesson=page.lesson %}
+
 
 1.  **Where is the restroom?** - **The restroom is upstairs** 
 2.  **Where is it?** - **It's in the classroom**
@@ -65,7 +65,7 @@ lesson: "12"
 
 
 ## 2. Where 
-{% include player.html identifier="lesson-ex2" lesson="C1L01" file="C1L12-Explanation2.mp3" %}
+{% include player2.html identifier="examples2" class=lesson.class lesson=page.lesson %}
 
 1. **Where do you usually go on your vacation, Robert?**
 - **I usually go to Canada in the summer**

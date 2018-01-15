@@ -4,7 +4,7 @@ class: "2"
 lesson: "14"	
 ---
 
-{% include player.html identifier="lesson-vocabulary" lesson="C2L14" file="C2L14-Vocabulary.mp3" %}
+{% include player2.html identifier="vocabulary" class=lesson.class lesson=page.lesson %}
 # Lesson 2.14: Friendship
 
 
@@ -66,9 +66,7 @@ lesson: "14"
 18. **Talk behind someone's back**
 
 
-
-
-{% include player.html identifier="lesson-conversation" lesson="C2L14" file="C2L14-Conversation.mp3" %}
+{% include player2.html identifier="conversation" class=lesson.class lesson=page.lesson %}
 ## Conversation
 
 
@@ -89,8 +87,7 @@ lesson: "14"
 
 
 
-
-{% include player.html identifier="lesson-explanation" lesson="C2L14" file="C2L14-Explanation.mp3" %}
+{% include player2.html identifier="explanation" class=lesson.class lesson=page.lesson %}
 ## Explanation
 
 
