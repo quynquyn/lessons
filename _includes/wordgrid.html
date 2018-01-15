@@ -8,11 +8,10 @@
 
 <table>
 {% tablerow word in words cols:4 %}
-
   {% if include.trial and count > WORDS_IN_TRIAL %}
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="{{site.baseurl}}/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
   {% else %}
-    <img src="/daily/lessons/{{ word.image_url }}"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="{{site.baseurl}}/lessons/{{ word.image_url }}"  class="img-fluid img-thumbnail mx-auto d-block"  />
   {% endif %}
   
   <strong>{{ word.word_en }}</strong>
