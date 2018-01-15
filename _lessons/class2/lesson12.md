@@ -5,7 +5,7 @@ lesson: "12"
 ---
 
 {% include player.html identifier="lesson-vocabulary" lesson="C2L12" file="C2L12-Vocabulary.mp3" %}
-# Lesson 1.12: Personality
+# Lesson 2.12: Personality
 
 
 

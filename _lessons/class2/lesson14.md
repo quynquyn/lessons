@@ -5,7 +5,7 @@ lesson: "14"
 ---
 
 {% include player.html identifier="lesson-vocabulary" lesson="C2L14" file="C2L14-Vocabulary.mp3" %}
-# Lesson 1.14: Friendship
+# Lesson 2.14: Friendship
 
 
 ## Vocabulary
