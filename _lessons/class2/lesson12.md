@@ -12,45 +12,14 @@ lesson: "12"
 
 ## Vocabulary
 
+{% include wordgrid.html 
+    class=page.class 
+    lesson=page.lesson 
+    section="personality"
+    database=site.data.vocabulary 
+    trial=site.trialdeploy %}
 
-{% include image.html class=2 lesson="12" name="Grid1" %}
 
-| **Humorous** | **Boring**  | **Rude**  | **Polite**  | 
-| | | | |
-
-{% include image.html class=2 lesson="12" name="Grid2" %}
-
-| **Peaceful** | **Aggressive**  | **Obedient**  | **Stubborn**| 
-| | | | |
-
-{% include image.html class=2 lesson="12" name="Grid3" %}
-
-| **Active** | **Passive**  | **Cheerful**  | **Depressed**  | 
-| | | | |
-
-{% include image.html class=2 lesson="12" name="Grid4" %}
-
-| **Extroverted** | **Introverted**  | **Shy**  | **Confident**| 
-| | | | |
-
-{% include image.html class=2 lesson="12" name="Grid5" %}
-
-| **Simple** | **Complicated**  | **Helpful**  | **Bossy**| 
-| | | | |
-
-{% include image.html class=2 lesson="12" name="Grid6" %}
-
-| **Honest** | **Dishonest**  | **Humble**  | **Self-centered**| 
-| | | | |
-
-{% include image.html class=2 lesson="12" name="Grid7" %}
-
-| **Mature** | **Immature**  | **Generous** | **Selfish**
-| | |
-
-{% include image.html class=2 lesson="12" name="Grid7" %}
-
-| **Open-minded** | **Narrow - minded**  | **Two-faced** | **Warm-hearted**
 
 {% include player2.html identifier="monologue" class=page.class lesson=page.lesson %}
 ## Monologue
