@@ -8,73 +8,102 @@ lesson: "11"
 # Lesson 2.11: Appearance  
 
 
-
 ## Vocabulary
-1. **Beautiful**
-2. **Attractive**
-3. **Gorgeous**
-4. **stunning**
-5. **Plain**
-6. **ordinary-looking**
-7. **Bad-looking**
-8. **Bear a strong resemblance to**
+
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+
 
 ### Age
-1. **Young**He is in his  early twenties**
-2. **Old**She is in her late sixties**
-3. **Middle-aged**  **She is in her mid forties**
+
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="age"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+
+
+1. **Young: He is in his  early twenties**
+2. **Old: She is in her late sixties**
+3. **Middle-aged: She is in her mid forties**
 
 ### Build 
-1. **Thin**
-2. **Slim**
-3. **Well-built**
-4. **muscular**
-5. **overweight**
-6. **Fat**
-7. **obese**
+
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="build"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+
+
+
 ### Height 
-1. **Tall**
-2. **Of medium height**
-3. **Short**
+
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="height"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+
 
 ### Face
-1. **Oval** 
-2. **Round**
-3. **Square**
-4. **Long**
 
-#### Lips 
-1. **Full**
-2. **Thick**
-3. **Thin**
-4. **Glossy**
-5. **Cracked**
-6. 
-#### Skin 
-1. **Fair**
-2. **Dark**
-3. **Tanned** 
-4. **Smooth**
-5. **Soft**
-6. **Wrinkled** 
-7. **Radiant**
-8. **Pale**
-9. **Flawless**
-10. **Freckled**
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="face"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
-#### Nose 
-1. **Big**
-2. **Small**
-3. **Straight**
-4. **Hooked**
-5. **upturned**
-6. **Flat**
+### Lips 
 
-#### Eyebrows
-1. **Thick**
-2. **Bushy** 
-3. **Thin**
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="lips"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+
+
+
+### Skin 
+
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="skin"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+
+
+
+### Nose 
+
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="nose"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+
+
+### Eyebrows
+
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="eyebrows"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+
 
 
  
@@ -104,8 +133,8 @@ Anh đang trong độ tuổi giữa 20
 
 Anh ta cao trung bình và cường tráng 
 
-- **He is tall and muscular**. **
-- **He's short and a little bit overweight**
+- **He is tall and muscular.**
+- **He's short and a little bit overweight.**
 
 ### 3. He has a square face with brown eyes,  a straight nose and full lips
 

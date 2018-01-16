@@ -39,6 +39,35 @@ class,lesson,section,word_en,word_vn,image_name,image_url
 2,05,parentsdo,Make most of the decisions,,C2L05-Make-most-of-the-decisions.jpg,class2/images/C2L05-Make-most-of-the-decisions.jpg
 2,05,parentsdo,Argue with you,,C2L05-Argue-with-you.jpg,class2/images/C2L05-Argue-with-you.jpg
 2,05,parentsdo,Call you when you go out late at night,,C2L05-Call-you-when-you-go-out-late-at-night.jpg,class2/images/C2L05-Call-you-when-you-go-out-late-at-night.jpg
+2,03,dailyroutine,Get up/ wake up,Thức dậy,C2L03-Get-up-wake-up.jpg,class2/images/C2L03-Get-up-wake-up.jpg
+2,03,dailyroutine,Make my bed,Gấp chăn màn,C2L03-Make-my-bed.jpg,class2/images/C2L03-Make-my-bed.jpg
+2,03,dailyroutine,Brush my teeth,Đánh răng,C2L03-Brush-my-teeth.jpg,class2/images/C2L03-Brush-my-teeth.jpg
+2,03,dailyroutine,Wash my face,Rửa mặt,C2L03-Wash-my-face.jpg,class2/images/C2L03-Wash-my-face.jpg
+2,03,dailyroutine,Comb my hair,Chải tóc,C2L03-Comb-my-hair.jpg,class2/images/C2L03-Comb-my-hair.jpg
+2,03,dailyroutine,Get dressed,Thay quần áo,C2L03-Get-dressed.jpg,class2/images/C2L03-Get-dressed.jpg
+2,03,dailyroutine,Put on makeup,Trang điểm,C2L03-Put-on-makeup.jpg,class2/images/C2L03-Put-on-makeup.jpg
+2,03,dailyroutine,Have breakfast,Ăn sáng,C2L03-Have-breakfast.jpg,class2/images/C2L03-Have-breakfast.jpg
+2,03,dailyroutine,lunch,trưa,C2L03-lunch.jpg,class2/images/C2L03-lunch.jpg
+2,03,dailyroutine,dinner,tối,C2L03-dinner.jpg,class2/images/C2L03-dinner.jpg
+2,03,dailyroutine,Have a cup of coffee,Uống ly cà phê,C2L03-Have-a-cup-of-coffee.jpg,class2/images/C2L03-Have-a-cup-of-coffee.jpg
+2,03,dailyroutine,tea,trà,C2L03-tea.jpg,class2/images/C2L03-tea.jpg
+2,03,dailyroutine,Go to work,Đi làm,C2L03-Go-to-work.jpg,class2/images/C2L03-Go-to-work.jpg
+2,03,dailyroutine,school,học,C2L03-school.jpg,class2/images/C2L03-school.jpg
+2,03,dailyroutine,by taxi,bằng xe taxi,C2L03-by-taxi.jpg,class2/images/C2L03-by-taxi.jpg
+2,03,dailyroutine,by bus,buýt,C2L03-by-bus.jpg,class2/images/C2L03-by-bus.jpg
+2,03,dailyroutine,by car,hơi,C2L03-by-car.jpg,class2/images/C2L03-by-car.jpg
+2,03,dailyroutine,by motorbike,máy,C2L03-by-motorbike.jpg,class2/images/C2L03-by-motorbike.jpg
+2,03,dailyroutine,Finish my work,Xong việc,C2L03-Finish-my-work.jpg,class2/images/C2L03-Finish-my-work.jpg
+2,03,dailyroutine,and come back home,và trở về nhà,C2L03-and-come-back-home.jpg,class2/images/C2L03-and-come-back-home.jpg
+2,03,dailyroutine,Do some exercises,Tập thể dục,C2L03-Do-some-exercises.jpg,class2/images/C2L03-Do-some-exercises.jpg
+2,03,dailyroutine,Play sports,chơi thể thao,C2L03-Play-sports.jpg,class2/images/C2L03-Play-sports.jpg
+2,03,dailyroutine,Take a bath,Tắm bồn tắm,C2L03-Take-a-bath.jpg,class2/images/C2L03-Take-a-bath.jpg
+2,03,dailyroutine,take a shower,tắm vòi hoa sen,C2L03-take-a-shower.jpg,class2/images/C2L03-take-a-shower.jpg
+2,03,dailyroutine,Watch TV,Xem TV,C2L03-Watch-TV.jpg,class2/images/C2L03-Watch-TV.jpg
+2,03,dailyroutine,Talk to my mother on the phone,Nói chuyện với mẹ qua điện thoại,C2L03-Talk-to-my-mother-on-the-phone.jpg,class2/images/C2L03-Talk-to-my-mother-on-the-phone.jpg
+2,03,dailyroutine,Surf facebook,Lướt facebook,C2L03-Surf-facebook.jpg,class2/images/C2L03-Surf-facebook.jpg
+2,03,dailyroutine,Go to bed,Đi ngủ,C2L03-Go-to-bed.jpg,class2/images/C2L03-Go-to-bed.jpg
+2,03,dailyroutine,Set an alarm clock at 7 for the next morning,Hẹn báo thức vào 7 giờ cho buổi sáng hôm sau,C2L03-Set-an-alarm-clock-at-7-for-the-next-morning.jpg,class2/images/C2L03-Set-an-alarm-clock-at-7-for-the-next-morning.jpg
 1,10,all,Excited About,,C1L10-Excited-About.jpg,class1/images/C1L10-Excited-About.jpg
 1,10,all,Interested In,,C1L10-Interested-In.jpg,class1/images/C1L10-Interested-In.jpg
 1,10,all,Bored With,,C1L10-Bored-With.jpg,class1/images/C1L10-Bored-With.jpg
@@ -52,7 +81,7 @@ class,lesson,section,word_en,word_vn,image_name,image_url
 1,10,all,Good At,,C1L10-Good-At.jpg,class1/images/C1L10-Good-At.jpg
 1,10,all,Bad At,,C1L10-Bad-At.jpg,class1/images/C1L10-Bad-At.jpg
 1,10,all,Angry About Something/ Angry at Someone,,C1L10-Angry-About-Something-Angry-at-Someone.jpg,class1/images/C1L10-Angry-About-Something-Angry-at-Someone.jpg
-1,10,all,Tired Of/ Sick Of,,C1L10-Tired-Of-Sick-Of.jpg,class1/images/C1L10-Tired-Of-Sick-Of.jpg
+1,10,all,Tired Of / Sick Of,,C1L10-Tired-Of-Sick-Of.jpg,class1/images/C1L10-Tired-Of-Sick-Of.jpg
 1,10,all,Afraid Of,,C1L10-Afraid-Of.jpg,class1/images/C1L10-Afraid-Of.jpg
 1,10,all,Full Of,,C1L10-Full-Of.jpg,class1/images/C1L10-Full-Of.jpg
 1,10,all,Responsible For,,C1L10-Responsible-For.jpg,class1/images/C1L10-Responsible-For.jpg
@@ -296,3 +325,116 @@ class,lesson,section,word_en,word_vn,image_name,image_url
 2,04,movielike,Thought - provoking,Kích thích suy nghĩ,C2L04-Thought-provoking.jpg,class2/images/C2L04-Thought-provoking.jpg
 2,04,movielike,Amazing / wonderful / fantastic/ awesome / great,Tuyệt vời,C2L04-Amazing-wonderful-fantastic-awesome-great.jpg,class2/images/C2L04-Amazing-wonderful-fantastic-awesome-great.jpg
 2,04,movielike,Terrible / awful / disgusting/ disappointing / silly / boring / weird,Tệ / Tệ / Thấy gớm/ Gây thất vọng/ Ngớ ngần / Chán / Kì cục,C2L04-Terrible-awful-disgusting-disappointing-silly-boring-weird.jpg,class2/images/C2L04-Terrible-awful-disgusting-disappointing-silly-boring-weird.jpg
+2,11,vocabulary,Beautiful,,C2L11-Beautiful.jpg,class2/images/C2L11-Beautiful.jpg
+2,11,vocabulary,Attractive,,C2L11-Attractive.jpg,class2/images/C2L11-Attractive.jpg
+2,11,vocabulary,Gorgeous,,C2L11-Gorgeous.jpg,class2/images/C2L11-Gorgeous.jpg
+2,11,vocabulary,stunning,,C2L11-stunning.jpg,class2/images/C2L11-stunning.jpg
+2,11,vocabulary,Plain,,C2L11-Plain.jpg,class2/images/C2L11-Plain.jpg
+2,11,vocabulary,ordinary-looking,,C2L11-ordinary-looking.jpg,class2/images/C2L11-ordinary-looking.jpg
+2,11,vocabulary,Bad-looking,,C2L11-Bad-looking.jpg,class2/images/C2L11-Bad-looking.jpg
+2,11,vocabulary,Bear a strong resemblance to,,C2L11-Bear-a-strong-resemblance-to.jpg,class2/images/C2L11-Bear-a-strong-resemblance-to.jpg
+2,11,age,Young,,C2L11-Young.jpg,class2/images/C2L11-Young.jpg
+2,11,age,Old,,C2L11-Old.jpg,class2/images/C2L11-Old.jpg
+2,11,age,Middle-aged,,C2L11-Middle-aged.jpg,class2/images/C2L11-Middle-aged.jpg
+2,11,build,Thin,,C2L11-Thin.jpg,class2/images/C2L11-Thin.jpg
+2,11,build,Slim,,C2L11-Slim.jpg,class2/images/C2L11-Slim.jpg
+2,11,build,Well-built,,C2L11-Well-built.jpg,class2/images/C2L11-Well-built.jpg
+2,11,build,muscular,,C2L11-muscular.jpg,class2/images/C2L11-muscular.jpg
+2,11,build,overweight,,C2L11-overweight.jpg,class2/images/C2L11-overweight.jpg
+2,11,build,Fat,,C2L11-Fat.jpg,class2/images/C2L11-Fat.jpg
+2,11,build,obese,,C2L11-obese.jpg,class2/images/C2L11-obese.jpg
+2,11,height,Tall,,C2L11-Tall.jpg,class2/images/C2L11-Tall.jpg
+2,11,height,Of medium height,,C2L11-Of-medium-height.jpg,class2/images/C2L11-Of-medium-height.jpg
+2,11,height,Short,,C2L11-Short.jpg,class2/images/C2L11-Short.jpg
+2,11,face,Oval,,C2L11-Oval.jpg,class2/images/C2L11-Oval.jpg
+2,11,face,Round,,C2L11-Round.jpg,class2/images/C2L11-Round.jpg
+2,11,face,Square,,C2L11-Square.jpg,class2/images/C2L11-Square.jpg
+2,11,face,Long,,C2L11-Long.jpg,class2/images/C2L11-Long.jpg
+2,11,lips,Full,,C2L11-Full.jpg,class2/images/C2L11-Full.jpg
+2,11,lips,Thick,,C2L11-Thick.jpg,class2/images/C2L11-Thick.jpg
+2,11,lips,Thin,,C2L11-Thin.jpg,class2/images/C2L11-Thin.jpg
+2,11,lips,Glossy,,C2L11-Glossy.jpg,class2/images/C2L11-Glossy.jpg
+2,11,lips,Cracked,,C2L11-Cracked.jpg,class2/images/C2L11-Cracked.jpg
+2,11,skin,Skin,,C2L11-Skin.jpg,class2/images/C2L11-Skin.jpg
+2,11,skin,Fair,,C2L11-Fair.jpg,class2/images/C2L11-Fair.jpg
+2,11,skin,Dark,,C2L11-Dark.jpg,class2/images/C2L11-Dark.jpg
+2,11,skin,Tanned,,C2L11-Tanned.jpg,class2/images/C2L11-Tanned.jpg
+2,11,skin,Smooth,,C2L11-Smooth.jpg,class2/images/C2L11-Smooth.jpg
+2,11,skin,Soft,,C2L11-Soft.jpg,class2/images/C2L11-Soft.jpg
+2,11,skin,Wrinkled,,C2L11-Wrinkled.jpg,class2/images/C2L11-Wrinkled.jpg
+2,11,skin,Radiant,,C2L11-Radiant.jpg,class2/images/C2L11-Radiant.jpg
+2,11,skin,Pale,,C2L11-Pale.jpg,class2/images/C2L11-Pale.jpg
+2,11,skin,Flawless,,C2L11-Flawless.jpg,class2/images/C2L11-Flawless.jpg
+2,11,skin,Freckled,,C2L11-Freckled.jpg,class2/images/C2L11-Freckled.jpg
+2,11,nose,Big,,C2L11-Big.jpg,class2/images/C2L11-Big.jpg
+2,11,nose,Small,,C2L11-Small.jpg,class2/images/C2L11-Small.jpg
+2,11,nose,Straight,,C2L11-Straight.jpg,class2/images/C2L11-Straight.jpg
+2,11,nose,Hooked,,C2L11-Hooked.jpg,class2/images/C2L11-Hooked.jpg
+2,11,nose,upturned,,C2L11-upturned.jpg,class2/images/C2L11-upturned.jpg
+2,11,nose,Flat,,C2L11-Flat.jpg,class2/images/C2L11-Flat.jpg
+2,11,eyebrows,Thick,,C2L11-Thick.jpg,class2/images/C2L11-Thick.jpg
+2,11,eyebrows,Bushy,,C2L11-Bushy.jpg,class2/images/C2L11-Bushy.jpg
+2,11,eyebrows,Thin,,C2L11-Thin.jpg,class2/images/C2L11-Thin.jpg
+2,12,personality,Humorous,,C2L12-Humorous.jpg,class2/images/C2L12-Humorous.jpg
+2,12,personality,Boring,,C2L12-Boring.jpg,class2/images/C2L12-Boring.jpg
+2,12,personality,Rude,,C2L12-Rude.jpg,class2/images/C2L12-Rude.jpg
+2,12,personality,Polite,,C2L12-Polite.jpg,class2/images/C2L12-Polite.jpg
+2,12,personality,Peaceful,,C2L12-Peaceful.jpg,class2/images/C2L12-Peaceful.jpg
+2,12,personality,Aggressive,,C2L12-Aggressive.jpg,class2/images/C2L12-Aggressive.jpg
+2,12,personality,Obedient,,C2L12-Obedient.jpg,class2/images/C2L12-Obedient.jpg
+2,12,personality,Stubborn,,C2L12-Stubborn.jpg,class2/images/C2L12-Stubborn.jpg
+2,12,personality,Active,,C2L12-Active.jpg,class2/images/C2L12-Active.jpg
+2,12,personality,Passive,,C2L12-Passive.jpg,class2/images/C2L12-Passive.jpg
+2,12,personality,Cheerful,,C2L12-Cheerful.jpg,class2/images/C2L12-Cheerful.jpg
+2,12,personality,Depressed,,C2L12-Depressed.jpg,class2/images/C2L12-Depressed.jpg
+2,12,personality,Extroverted,,C2L12-Extroverted.jpg,class2/images/C2L12-Extroverted.jpg
+2,12,personality,Introverted,,C2L12-Introverted.jpg,class2/images/C2L12-Introverted.jpg
+2,12,personality,Shy,,C2L12-Shy.jpg,class2/images/C2L12-Shy.jpg
+2,12,personality,Confident,,C2L12-Confident.jpg,class2/images/C2L12-Confident.jpg
+2,12,personality,Simple,,C2L12-Simple.jpg,class2/images/C2L12-Simple.jpg
+2,12,personality,Complicated,,C2L12-Complicated.jpg,class2/images/C2L12-Complicated.jpg
+2,12,personality,Helpful,,C2L12-Helpful.jpg,class2/images/C2L12-Helpful.jpg
+2,12,personality,Bossy,,C2L12-Bossy.jpg,class2/images/C2L12-Bossy.jpg
+2,12,personality,Honest,,C2L12-Honest.jpg,class2/images/C2L12-Honest.jpg
+2,12,personality,Dishonest,,C2L12-Dishonest.jpg,class2/images/C2L12-Dishonest.jpg
+2,12,personality,Humble,,C2L12-Humble.jpg,class2/images/C2L12-Humble.jpg
+2,12,personality,Self-centered,,C2L12-Self-centered.jpg,class2/images/C2L12-Self-centered.jpg
+2,12,personality,Mature,,C2L12-Mature.jpg,class2/images/C2L12-Mature.jpg
+2,12,personality,Immature,,C2L12-Immature.jpg,class2/images/C2L12-Immature.jpg
+2,12,personality,Generous,,C2L12-Generous.jpg,class2/images/C2L12-Generous.jpg
+2,12,personality,Selfish,,C2L12-Selfish.jpg,class2/images/C2L12-Selfish.jpg
+2,12,personality,Open-minded,,C2L12-Open-minded.jpg,class2/images/C2L12-Open-minded.jpg
+2,12,personality,Narrow - minded,,C2L12-Narrow-minded.jpg,class2/images/C2L12-Narrow-minded.jpg
+2,12,personality,Two-faced,,C2L12-Two-faced.jpg,class2/images/C2L12-Two-faced.jpg
+2,12,personality,Warm-hearted,,C2L12-Warm-hearted.jpg,class2/images/C2L12-Warm-hearted.jpg
+1,12,vocabulary,Shoe shop,,C1L12-Shoe-shop.jpg,class1/images/C1L12-Shoe-shop.jpg
+1,12,vocabulary,Cinema,,C1L12-Cinema.jpg,class1/images/C1L12-Cinema.jpg
+1,12,vocabulary,Beach,,C1L12-Beach.jpg,class1/images/C1L12-Beach.jpg
+1,12,vocabulary,Coffee shop,,C1L12-Coffee-shop.jpg,class1/images/C1L12-Coffee-shop.jpg
+1,12,vocabulary,Bakers,,C1L12-Bakers.jpg,class1/images/C1L12-Bakers.jpg
+1,12,vocabulary,School,,C1L12-School.jpg,class1/images/C1L12-School.jpg
+1,12,vocabulary,Restaurant,,C1L12-Restaurant.jpg,class1/images/C1L12-Restaurant.jpg
+1,12,vocabulary,Church,,C1L12-Church.jpg,class1/images/C1L12-Church.jpg
+1,12,vocabulary,Bank,,C1L12-Bank.jpg,class1/images/C1L12-Bank.jpg
+1,12,vocabulary,Hospital,,C1L12-Hospital.jpg,class1/images/C1L12-Hospital.jpg
+1,12,vocabulary,Supermarket,,C1L12-Supermarket.jpg,class1/images/C1L12-Supermarket.jpg
+1,12,vocabulary,Factory,,C1L12-Factory.jpg,class1/images/C1L12-Factory.jpg
+1,12,vocabulary,Airport,,C1L12-Airport.jpg,class1/images/C1L12-Airport.jpg
+1,12,vocabulary,Hotel,,C1L12-Hotel.jpg,class1/images/C1L12-Hotel.jpg
+1,12,vocabulary,Bus Stop,,C1L12-Bus-Stop.jpg,class1/images/C1L12-Bus-Stop.jpg
+1,12,vocabulary,Street,,C1L12-Street.jpg,class1/images/C1L12-Street.jpg
+1,12,vocabulary,Drugstore,,C1L12-Drugstore.jpg,class1/images/C1L12-Drugstore.jpg
+1,12,vocabulary,Clothes Store,,C1L12-Clothes-Store.jpg,class1/images/C1L12-Clothes-Store.jpg
+1,12,vocabulary,Kitchen,,C1L12-Kitchen.jpg,class1/images/C1L12-Kitchen.jpg
+1,12,vocabulary,Wall,,C1L12-Wall.jpg,class1/images/C1L12-Wall.jpg
+1,12,vocabulary,Park,,C1L12-Park.jpg,class1/images/C1L12-Park.jpg
+1,12,vocabulary,Bookstore,,C1L12-Bookstore.jpg,class1/images/C1L12-Bookstore.jpg
+1,12,vocabulary,Museum,,C1L12-Museum.jpg,class1/images/C1L12-Museum.jpg
+1,12,vocabulary,Swimming Pool,,C1L12-Swimming-Pool.jpg,class1/images/C1L12-Swimming-Pool.jpg
+1,12,vocabulary,Ground,,C1L12-Ground.jpg,class1/images/C1L12-Ground.jpg
+1,12,vocabulary,Hand,,C1L12-Hand.jpg,class1/images/C1L12-Hand.jpg
+1,12,vocabulary,Fridge,,C1L12-Fridge.jpg,class1/images/C1L12-Fridge.jpg
+1,12,vocabulary,Trash Can,,C1L12-Trash-Can.jpg,class1/images/C1L12-Trash-Can.jpg
+1,12,vocabulary,Hair Salon,,C1L12-Hair-Salon.jpg,class1/images/C1L12-Hair-Salon.jpg
+1,12,vocabulary,Post Office,,C1L12-Post-Office.jpg,class1/images/C1L12-Post-Office.jpg
+1,12,vocabulary,Library,,C1L12-Library.jpg,class1/images/C1L12-Library.jpg
