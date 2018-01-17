@@ -1,33 +1,58 @@
 ---
 layout: lesson
 class: "2"
-lesson: "18"
+lesson: "17"
 ---
 
 
-# Lesson 2.18: FEELINGS (2)
+# Lesson 2.18: Feelings 
 
 
 ## Vocabulary 
-{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
+jealous                   
+confident   
+curious  
+happy
+blessed
+glad       
+tired      
+surprised      
+depressed     
+hopeful     
+cheerful     
+peaceful     
+calm     
+angry       
+bored     
+cautious     
+frustrated     
+shocked     
+disappointed      
+annoyed  
+pissed off
+lonely                                                                                       
+neutral     
+frightened            
+guilty        
+ashamed       
+hysterical         
+sad - downhearted     
+depressed         
+scared           
+satisfied     
+excited         
+embarrassed     
+mad     
+worried     
+exhausted     
+confused     
+shy        
+disgusted     
+anxious     
+empty 
+lost 
+relieved
 
-
-
-### Expressing your feelings
-Over the moon
-on top of the world
-jump for joy 
-break someone's heart 
-burst into tears
-
-### Supporting someone 
-Congratulations
-Cheer up 
-Good job 
-Well-done 
-I feel a bit sorry for her 
-I am sorry to hear that
-That's a pity
 
 
 ### ____Vocab [cat 1]____________ 
@@ -59,15 +84,15 @@ NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVn
 
 ## Conversation
 
-> Person 1: **What is your job?** Make sure to have 2 spaces (or more) after every line to make it break -->   
-> Person 2: **I am a sales assistant**   Make sure to have 2 spaces (or more) after this -->   
-> P1: **Is it your dream job?**  
-> P2: **Not really**  
+> Person 1: **A** Make sure to have 2 spaces (or more) after every line to make it break -->   
+> Person 2: **A**   Make sure to have 2 spaces (or more) after this -->   
+> P1: **A?**  
+> P2: **A**  
 
 
 
 {% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
-## 2. Examples 
+## 2. Explanations
 
 1. **THIS IS A FREE EXPLANATION**
 *Bạn đang giận tôi hả AND VIETNAMESE TRANSLATION?*  

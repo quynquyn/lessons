@@ -5,11 +5,68 @@ lesson: "18"
 ---
 
 
-# Lesson 1.19: ________________
+# Lesson 1.19: What
 
 
 ## Vocabulary 
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
+### in the bedroom 
+Bed     
+Picture      
+Flower vase     
+Shelf      
+Lamp      
+Pillow      
+Blanket      
+Alarm clock      
+Dresser      
+Teddy bear 
+### In the Bathroom 
+Curtain 
+Window
+Faucet 
+Bathtub
+Sink 
+Towel 
+Mirror
+Towel rack 
+Toilet
+Toilet paper
+Shampoo 
+Soap 
+Toothbrush 
+Toothpaste
+### In the kitchen 
+Pan 
+Pot
+Cooker
+Cupboard
+Cutting board 
+Knife
+Blender
+Sink
+Dishwasher
+Freezer 
+Fridge
+Microwave
+Oven
+### Living room 
+Chair 
+Armchair 
+Rocking chair 
+Stool 
+Book 
+Couch
+Sofa
+Cushion 
+Fireplace
+Coffee table 
+Rug
+
+
+
+
+
 
 
 ### ____Vocab [cat 1]____________ 
@@ -37,19 +94,34 @@ NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVn
 
 
 
+
 {% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
 
-## Conversation
+## Example
+1. what is this?
+2. what is that?
+3. What are those?
+4. What are these?
+5. What is under the table?
+6. What is on the floor?
+7. What is on top of the tree?
+8. What is your favorite animal?
+9. What is your favorite coffee shop?
+10. What is your favorite movie?
+11. What are you doing?
+12. What is Peter doing?
+13. What do you want for your birthday?
+14. What does your friend hate? 
+15. What does the nurse want to buy?
+16. What does your wife look like?
+17. What does your mother look like?
+18. What does the news reporter intend to talk about?
+19. What did the businessman tell you?
+20. What did you do yesterday?
+21. What did you say?
+22. What did the smart student pay attention to?
 
-> Person 1: **What is your job?** Make sure to have 2 spaces (or more) after every line to make it break -->   
-> Person 2: **I am a sales assistant**   Make sure to have 2 spaces (or more) after this -->   
-> P1: **Is it your dream job?**  
-> P2: **Not really**  
 
-
-
-{% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
-## 2. Examples 
 
 1. **THIS IS A FREE EXPLANATION**
 *Bạn đang giận tôi hả AND VIETNAMESE TRANSLATION?*  
@@ -62,18 +134,9 @@ NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVn
 	{% else %}
 3. **NOTE: THIS IS ONLY DISPLAYED IN THE PREMIUM VERSION. PUT EXPLANATIONS IN HERE.**.
 *Có phải người học sinh đó giỏi học ngôn ngữ không?*
-4. **Are you disappointed with the result of the exam?**
-*Có phải bạn thất vọng với kết quả của bài kiểm tra không?*
-5. **Are you interested in becoming a singer?**
-   *Bạn có hứng thú trở thành ca sĩ không?*
-6. **Is the secretary excited about the upcoming holiday?**
-*Cô thư kí đó có hào hứng về kì nghỉ sắp tới không?*
-7. **Are the man and the woman satisfied with the service at the hotel?**
-*Người đàn ông và phụ nữ đó có hài lòng với dịch vụ tại khách sạn không?*
-9. **Are you bored with doing the same job again and again?**
-*Bạn có chán với việc làm đi làm lại cùng một công việc không?*
-11. **Is she good at solving problems?**
-*Cô ta có giỏi giải quyết vấn đề không?*
-13. **Are you used to the terrible traffic jam in Saigon?**
-*Bạn có quen với giao thông kinh khủng ở Sài Gòn chưa?*
-	{% endif %}
+
+
+
+
+
+{% endif %}

@@ -5,14 +5,14 @@ lesson: "15"
 ---
 
 
-# Lesson 1.15: SIMPLE PAST TENSE
+# Lesson 1.15: Simple Past Tense
 
 
 ## Vocabulary 
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 
 
-### *** Periods in the past
+### Periods in the past
 
 
 | **Two days ago** | **Six weeks before that** | **An hour earlier** |

@@ -21,8 +21,15 @@ lesson: "15"
 **Fall head over heels in love**
 **Ask someone out**
 **Break up with someone**
-...
-...
+Share the housework 
+Share the ups and downs in life
+Show that you care
+Move on 
+Get over someone
+Let bygones be bygones
+Remember that there are plenty of fish in the sea
+Hang out with your friends
+
 
 
 ### Conversation

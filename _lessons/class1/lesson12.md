@@ -10,39 +10,13 @@ lesson: "12"
 ## Vocabulary 
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 
-{% include image.html class=1 lesson="01" name="C1L12-Grid1" %}
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
-| **Shoe shop** | **Cinema** | **Beach** | **Coffee shop** |   
-
-{% include image.html class=1 lesson="01" name="C1L12-Grid2" %}
-
-| **Bakers** | **School** | **Restaurant** | **Church** | 
-
-{% include image.html class=1 lesson="01" name=" C1L12-Grid3" %}
-
-| **Bank** | **Hospital** | **Supermarket** | **Factory** | 
-
-{% include image.html class=1 lesson="01" name=" C1L12-Grid4" %}
-
-| **Airport** | **Hotel** | **Bus Stop** | **Street** |
-
-{% include image.html class=1 lesson="01" name=" C1L12-Grid5" %}
-
-| **Drugstore** | **Clothes Store** | **Kitchen** | **Wall** |
-
-{% include image.html class=1 lesson="01" name=" C1L12-Grid6" %}
-
-| **Park** | **Bookstore** | **Museum** | **Swimming Pool** |
-
-{% include image.html class=1 lesson="01" name=" C1L12-Grid7" %}
-
-| **Ground** | **Hand** | **Fridge** | **Trash Can** |
-
-{% include image.html class=1 lesson="01" name=" C1L12-Grid8" %}
-
-| **Hair Salon** | **Post Office** | **Library** |
-
-{% include image.html class=1 lesson="01" name=" C1L12-Grid9" %}
 
 
 

@@ -59,6 +59,7 @@ lesson: "13"
 
 ### 1. I try to focus on the positive side of things
 Tôi cố gắng tập trung vào mặt tích cực
+
 **focus on**
 - **I guess I prefer to be around people who also focus more on the positive** **
 - **You must focus on the details** **
@@ -66,6 +67,7 @@ Tôi cố gắng tập trung vào mặt tích cực
 
 ### 2. they always keeping complaining
 Họ luôn than vãn 
+
 **Keep + Verbing**
 - **I keep smiling**
 - **I kept walking though the man told me to stop**
