@@ -26,40 +26,65 @@ lesson: "18"
 ## Conversation
 {% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
 
-> Person 1: **A** Make sure to have 2 spaces (or more) after every line to make it break -->   
-> Person 2: **A**   Make sure to have 2 spaces (or more) after this -->   
-> P1: **A?**  
-> P2: **A**  
+> Person 1: **Oh my god, I am so bored.**    
+> Person 2: **Turn on the TV. I'm sure there is something on that isn't boring.**        
+> P1: **I already checked. There are only reruns of the shows I saw yesterday.**  
+> P2: **Why don't you read a nice book then? I'm sure you won't be bored then.**  
+> P1: **Which book did you have in mind?**   
+> P2: **How about Harry Potter?**  
+> P1: **I started reading it, but then I got bored.**  
+> P2: **You think Harry Potter is boring?**  
+> P1: **It's not that the book is boring, it's just that I am bored by fantasy. However, reading non-fiction makes me happy.**  
+> P2: **If that's the case, you should visit the library. There are plenty of interesting non-fiction books there.**  
+> P1: **I'm not interested in visiting the library.**  
+> P2: **Why aren't you interested to do it?**  
+> P1: **Because I'm too lazy.**  
 
 
 
-## 2. Explanations
+## Explanations
 {% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
 
+### 1. I hope I am not boring you with my life story.
+- **John thinks he's boring, but I find him to be interesting.**
+- **There is nothing more boring than a bad story.**
+- **I can help the fact that I think Harry Potter is boring.**
 
-1. **THIS IS A FREE EXPLANATION**
-*Bạn đang giận tôi hả AND VIETNAMESE TRANSLATION?*  
-2. **Is the manager responsible for contacting customers?**
-*Có phải người giám đốc chịu trách nhiệm cho việc liên lạc với khách hàng?*
+### 2. I'm very bored by classical music. I prefer rock music instead.
+- **Anne said she is bored of her job and that she is thinking about looking for a new one.**
+- **Christopher is bored with eating out all the time.**
+- **I am so bored of these songs on the radio. They make me angry.**
+
+### 3. I feel loved by my wife and children.
+- **I feel appreciated and valued in my school.**
+- **I feel like I'm going to be sick.**
+- **I feel the warmth of the Sun on my skin.**
+
+### 4. I like to see snow in winter and rain in summer
+- **I appreciate it when people don't litter.**
+- **I respect the high school teachers who helped me learn more about myself.**
+- **I adore pop. It's my favourite genre of music.**
+
+### 5. I hate it when people talk to me on the bus.
+- **I dislike being interrupted while I'm speaking.**
+- **I don't appreciate it when Robert takes my phone without asking first.**
+- **I despise people who cheat on exams because that is immoral.**
 
 
 {% if site.trialdeploy %}
 	{% include list_placeholder.html start=3 stop=13 %}
 	{% else %}
-3. **NOTE: THIS IS ONLY DISPLAYED IN THE PREMIUM VERSION. PUT EXPLANATIONS IN HERE.**.
-*Có phải người học sinh đó giỏi học ngôn ngữ không?*
-4. **Are you disappointed with the result of the exam?**
-*Có phải bạn thất vọng với kết quả của bài kiểm tra không?*
-5. **Are you interested in becoming a singer?**
-   *Bạn có hứng thú trở thành ca sĩ không?*
-6. **Is the secretary excited about the upcoming holiday?**
-*Cô thư kí đó có hào hứng về kì nghỉ sắp tới không?*
-7. **Are the man and the woman satisfied with the service at the hotel?**
-*Người đàn ông và phụ nữ đó có hài lòng với dịch vụ tại khách sạn không?*
-9. **Are you bored with doing the same job again and again?**
-*Bạn có chán với việc làm đi làm lại cùng một công việc không?*
-11. **Is she good at solving problems?**
-*Cô ta có giỏi giải quyết vấn đề không?*
-13. **Are you used to the terrible traffic jam in Saigon?**
-*Bạn có quen với giao thông kinh khủng ở Sài Gòn chưa?*
+**NOTE: THIS IS ONLY DISPLAYED IN THE PREMIUM VERSION. PUT EXPLANATIONS IN HERE.**.
+
+1.**I fear it is too late for you to start preparing for the exam.**  
+2.**Reading the latest news makes me sad. There is so much tragedy in the world.**  
+3.**My daughter bought me a birthday gift. I was really surprised!**  
+4.**I trust that everything will go according to plan.**  
+5.**I anticipate good results from my doctor. I've really been watching my diet.**  
+6.**I am very joyful about the fact that my son is getting married.**  
+7.**I'm ashamed that I didn't teach my daughter how to tie her shoelaces before she was 39.**  
+8.**I hate vanilla. It's such a boring flavour. I prefer chocolate.**  
+9.**If you like Christina, you should make the first move. She's very shy.**  
+10.**Don't be modest, have a piece of cake! I made it myself.**  
+ 
 	{% endif %}
