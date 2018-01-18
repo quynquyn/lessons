@@ -22,8 +22,7 @@ lesson: "17"
 
 
 ### Example of WH questions with Simple Past Tense, Simple Present Tense, Simple Future tense 
-1. **Where are you going to go?**
-1. **I am going to go to the U.S**
+1. **Where are you going to go? - I am going to go to the U.S**
 2. **Where did you first meet her?**
 3. **Where will you propose to her?**
 4. **Where do bananas grow?**
@@ -55,3 +54,17 @@ lesson: "17"
 30. **Who stole the manager's cellphone?**
 
 
+##Conversation
+
+> Person 1: **Jamie, I told you to go to school. Why are you home so early?**  
+> Person 2: **Hi mom. We didn't have class today.**  
+> P1: **What? Who told you to go home so early?**  
+> P2: **Miss Jenkins. She said that the other teachers aren't in school today.**  
+> P1: **Oh? Where are they?**  
+> P2: **Miss Jenkins said they all went home.**  
+> P1: **That's strange. When did they all go home?**  
+> P2: **She said they went home yesterday.**  
+> P1: **When are they coming back?**  
+> P2: **They're coming back on Monday, mom. Today is Saturday.**  
+> P1: **Oh. I see. But if it's Saturday, what is miss Jenkins doing in school?**  
+> P2: **She's the janitor, mom.**  

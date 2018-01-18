@@ -112,7 +112,7 @@ lesson: "18"
 26. **Do you want to be a farmer when you grow up?**
 27. **Does that singer sound good to you?**
 28. **Did the mechanic fix your car?**
-29. **Did your favourite athlete win the gold medal?**
+29. **Did your favorite athlete win the gold medal?**
 30. **Are you going to get married in July?**
 31. **Does the hairdresser work on Sundays?**
 32. **Will you pilot the airplane if Mary can't?**
@@ -125,4 +125,14 @@ lesson: "18"
 39. **Are the teachers bothering the students?**
 40. **Is there an easy way to learn a language?**
 
-
+##Conversation 
+> Person 1: **Does the cinema in the centre of the city play good movies?**  
+> Person 2: **I think so. We went there last week and they had over 5 movies playing at once!**  
+> P1: **That sounds cool. My cousin is visiting us this weekend and I don't know where to take her.**  
+> P2: **I'm going to play a game of paintball this weekend. Would you and your cousin like to join?**  
+> P1: **That sounds really cool! But I think she probably won't like it.**  
+> P2: **That's a shame. Will you ask her?**  
+> P1: **Of course. I will let you know what she says.**  
+> P2: **Cool. I have to go now. I'm teaching German to a friend.**  
+> P1: **Alright. Good luck!**  
+> P2: **Thanks! I think I'll need it...**  

@@ -20,7 +20,7 @@ lesson: "16"
 
 ### Examples of Present Continuous tense 
 #### Be + verb ing 
-1. **He is watering flowers. **
+1. **He is watering flowers.**
 2. **Chris is feeding the cats.**
 3. **Mary is sweeping the floor because her parents are coming over.**
 4. **Why is that man waving to us?**
@@ -51,7 +51,7 @@ lesson: "16"
 4. **I'm sure you will like this movie.**
 5. **My two best are going to get married next year.**
 6. **We still can't decide where we'll spend our honeymoon.**
-7. **Don't forget that we are going to dinner with John and Alex tonight.**
+7. **Don't forget that we are going to have dinner with John and Alex tonight.**
 8. **I don't see a cloud in the sky. Today is going to be a lovely day.**
 9. **Will you make dinner?**
 10. **Christopher is going to begin medical school next year.**
@@ -89,3 +89,15 @@ For fixed planned events in the future. Often used with a word for future events
 18. **Is my sister a good singer or am I just tone-deaf?**
 19. **Are you listening to what I am saying?**
 20. **Will America be your home for the next three years?**
+
+### Conversation
+> Person 1: **Will you be a guest at our wedding next month?**  
+> Person 2: **Yes I will. I wouldn't miss my best friend's wedding.**  
+> P1: **I'm glad to hear that. Are you going to bring anyone?**  
+> P2: **Yes I am. I'm thinking about bringing my girlfriend Gina, but I'm not too sure.**  
+> P1: **Why not? Does she dislike weddings?**  
+> P2: **She loves weddings, but I think she might be working on that weekend.**  
+> P1: **I see. Are you thinking about bringing someone else?**  
+> P2: **If Gina isn't free, I will probably come with my parents.**  
+> P1: **That's a good plan. Let me know how it goes.**  
+> P2: **I will!**  

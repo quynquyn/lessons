@@ -29,9 +29,6 @@ lesson: "14"
 
 
 
-
-
-
 ### Friends
 
 1. **A best friend**
