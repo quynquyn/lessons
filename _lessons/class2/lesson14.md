@@ -4,28 +4,19 @@ class: "2"
 lesson: "14"	
 ---
 
-{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 # Lesson 2.14: Friendship
 
 
 ## Vocabulary
-
-{% include image.html class=2 lesson="14" name="Grid1" %}
-
-| **A workmate** | **Partner** | **Classmate** |**Pen-friend**| 
-| | | | |
-
-{% include image.html class=2 lesson="14" name="Grid2" %}
-
-| **Housemate**  | **Acquaintance** | **A stranger** | 
-| | | | |
-
-{% include image.html class=2 lesson="14" name="Grid3" %}
-
-| **Close** | **Old** | **Best** | **Lifelong**
-| | | | 
+{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 
 
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="friendship"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 

@@ -10,85 +10,42 @@ lesson: "18"
 
 ## Vocabulary 
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
+
+[comment]: <>  all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
+
 ### In the bedroom
-Bed
-Picture
-Flower vase
-Shelf
-Lamp
-Pillow
-Blanket
-Alarm clock
-Dresser
-Teddy bear
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="bedroom"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+
 ### In the Bathroom 
-Curtain
-Window
-Faucet
-Bathtub
-Sink
-Towel
-Mirror
-Towel rack
-Toilet
-Toilet paper
-Shampoo
-Soap
-Toothbrush
-Toothpaste
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="bathroom"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+		
 ### In the kitchen 
-Pan 
-Pot
-Cooker
-Cupboard
-Cutting board 
-Knife
-Blender
-Sink
-Dishwasher
-Freezer 
-Fridge
-Microwave
-Oven
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="kitchen"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+		
 ### Living room 
-Chair 
-Armchair 
-Rocking chair 
-Stool 
-Book 
-Couch
-Sofa
-Cushion 
-Fireplace
-Coffee table 
-Rug
-
-
-
-
-
-
-
-### ____Vocab [cat 1]____________ 
-
-NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
-
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
-		section="[cat1]"
+		section="livingroom"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
 
-### ____Vocab [cat 2]____________ 
-
-{% include wordgrid.html 
-		class=page.class 
-		lesson=page.lesson 
-		section="[cat2]"
-		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
 
 
 

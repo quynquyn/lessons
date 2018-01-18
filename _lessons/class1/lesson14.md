@@ -13,84 +13,64 @@ lesson: "14"
 
 ### Parts of the Day
 
-{% include image.html class=1 lesson="14" name="Grid1" %}
- 
-| **Morning** | **Afternoon**  | **Evening**  | **Night**  | 
-|  |  |  |  |
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="partsoftheday"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+
 
 ### Seasons
 
-{% include image.html class=1 lesson="14" name="Grid1" %}
-
-| **Spring** | **Summer**  | **Autumn**  | **Winter**  | 
-| *Kế toán* | *Thợ làm bánh* | *Người hớt tóc nam* | *Người pha chế* |
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="seasons"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+		
 
 ### Days of the Week
 
-{% include image.html class=1 lesson="14" name="Grid1" %}
 
-| **Monday** | **Tuesday**  | **Wednesday**  | **Thursday**  | 
-| *Kế toán* | *Thợ làm bánh* | *Người hớt tóc nam* | *Người pha chế* |
-
-{% include image.html class=1 lesson="14" name="Grid1" %}
-
-| **Friday** | **Saturday**  | **Sunday**  |
-| *Kế toán* | *Thợ làm bánh* | *Người hớt tóc nam* |  
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="daysoftheweek"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 
 ### Months of the Year
 
-{% include image.html class=1 lesson="14" name="Grid1" %}
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="months"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
-| **January** | **February**  | **March**  | **April**  | 
-| *Kế toán* | *Thợ làm bánh* | *Người hớt tóc nam* | *Người pha chế* |
 
-{% include image.html class=1 lesson="14" name="Grid1" %}
-
-| **May** | **June**  | **July**  | **August**  | 
-| *Kế toán* | *Thợ làm bánh* | *Người hớt tóc nam* | *Người pha chế* |
-
-{% include image.html class=1 lesson="14" name="Grid1" %}
-
-| **September** | **October**  | **November**  | **December**  | 
-| *Kế toán* | *Thợ làm bánh* | *Người hớt tóc nam* | *Người pha chế* |
 
 ### Frequency
 
-{% include image.html class=1 lesson="14" name="Grid1" %}
-
-| **Always** | **Usually/Often**  | **Sometimes**  | **Rarely**  | 
-| *Kế toán* | *Thợ làm bánh* | *Người hớt tóc nam* | *Người pha chế* |
-
-{% include image.html class=1 lesson="14" name="Grid1" %}
-
-| **Never** | 
-| *Kế toán* | 
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="frequency"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 ### Days
-{% include image.html class=1 lesson="14" name="Grid1" %}
 
-| **First** | **Second**  | **Third**  | **Fourth**  | 
-| *Kế toán* | *Thợ làm bánh* | *Người hớt tóc nam* | *Người pha chế* |
-
-{% include image.html class=1 lesson="14" name="Grid1" %}
-
-| **Fifth** | **Sixth**  | **Seventh**  | **Eigth**  | 
-| *Kế toán* | *Thợ làm bánh* | *Người hớt tóc nam* | *Người pha chế* |
-
-{% include image.html class=1 lesson="14" name="Grid1" %}
-
-| **Ninth** | **Tenth**  | 
-| *Kế toán* | *Thợ làm bánh* | 
-
-{% include image.html class=1 lesson="14" name="Grid1" %}
-
-
-
-
-
-
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="days"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 

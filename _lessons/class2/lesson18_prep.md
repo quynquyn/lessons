@@ -1,7 +1,7 @@
 ---
 layout: lesson
 class: "2"
-lesson: "17"
+lesson: "18"
 ---
 
 
@@ -9,80 +9,22 @@ lesson: "17"
 
 
 ## Vocabulary 
-jealous                   
-confident   
-curious  
-happy
-blessed
-glad       
-tired      
-surprised      
-depressed     
-hopeful     
-cheerful     
-peaceful     
-calm     
-angry       
-bored     
-cautious     
-frustrated     
-shocked     
-disappointed      
-annoyed  
-pissed off
-lonely                                                                                       
-neutral     
-frightened            
-guilty        
-ashamed       
-hysterical         
-sad - downhearted     
-depressed         
-scared           
-satisfied     
-excited         
-embarrassed     
-mad     
-worried     
-exhausted     
-confused     
-shy        
-disgusted     
-anxious     
-empty 
-lost 
-relieved
+{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 
-
-
-### ____Vocab [cat 1]____________ 
-
-NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
+[comment]: <>  all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
 
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
-		section="[cat1]"
-		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
-
-
-### ____Vocab [cat 2]____________ 
-
-{% include wordgrid.html 
-		class=page.class 
-		lesson=page.lesson 
-		section="[cat2]"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
 
 
 
-
-{% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
 
 ## Conversation
+{% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
 
 > Person 1: **A** Make sure to have 2 spaces (or more) after every line to make it break -->   
 > Person 2: **A**   Make sure to have 2 spaces (or more) after this -->   
@@ -91,8 +33,9 @@ NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVn
 
 
 
-{% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
 ## 2. Explanations
+{% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
+
 
 1. **THIS IS A FREE EXPLANATION**
 *Bạn đang giận tôi hả AND VIETNAMESE TRANSLATION?*  
