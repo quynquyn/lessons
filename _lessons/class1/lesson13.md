@@ -9,47 +9,13 @@ lesson: "13"
 ## Vocabulary
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 
-{% include image.html class=1 lesson="13" name="Grid1" %}
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
-| **Farmer** | **Priest**  | **Mechanic**  | **Artist**  | 
-|  |   |  |  |
-
-{% include image.html class=1 lesson="13" name="Grid2" %}
-
-| **Businessman** | **Football Player**  | **Fireman**  | **Waiter**  | 
-|  |   |  |  |
-
-{% include image.html class=1 lesson="13" name="Grid3" %}
-
-| **Reporter** | **Engineer**  | **Office Worker**  | **Policeman**  | 
-|  |   |  |  |
-
-{% include image.html class=1 lesson="13" name="Grid4" %}
-
-| **Singer** | **Pilot**  | **Swimmer**  | **Postman**  | 
-|  |   |  |  |
-
-{% include image.html class=1 lesson="13" name="Grid5" %}
-
-| **Doctor** | **Artist**  | **Boxer**  | **Judge**  | 
-|  |   |  |  |
-
-{% include image.html class=1 lesson="13" name="Grid6" %}
-
-| **Scientist** | **Astronaut**  | **Nurse**  | **Cameraman**  | 
-|  |   |  |  |
-
-{% include image.html class=1 lesson="13" name="Grid7" %}
-
-| **Athlete** | **Teacher**  | **Waitress**  | **Hairdresser**  | 
-|  |   |  |  |
-
-{% include image.html class=1 lesson="13" name="Grid8" %}
-
-| **Cook** | **Dentist**  | 
-|  |   |  |  |
-
-{% include image.html class=1 lesson="13" name="Grid9" %}
 
 
 

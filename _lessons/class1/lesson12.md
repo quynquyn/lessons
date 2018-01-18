@@ -42,24 +42,45 @@ lesson: "12"
 {% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
 
 1. **Where do you usually go on your vacation, Robert?**
-- **I usually go to Canada in the summer**
+- **I usually go to Canada in the summer**    
+*Bạn thường đi kì nghỉ ở đâu, Robert?*    
+*Tôi thường đi Canada vào mùa hè*
 2. **Where do you usually buy clothes?**
 - **I usually shop on the Internet**
+*Bạn thường mua quần áo ở đâu*
+*Tôi thường mua qua mạng*
 3. **Where do you usually go on the weekends?**.
-- **I usually stay home**
+- **I usually stay home**     
+*Bạn thường đi đâu cuối tuần?*     
+*Tôi thường ở nhà*
+
 4. **Where does your mother usually buy bread and cakes?**.
-- **She always buys bread and cakes at the baker's**
+- **She always buys bread and cakes at the baker's**      
+*Mẹ bạn thường mua bánh mì và bánh ở đâu?*     
+*Mẹ tôi thường mua bánh mì và bánh tại tiệm bánh*    
+
 5. **Where does your friend often borrow books?**.
-- **She usually borrows books at the library**
+- **She usually borrows books at the library**     
+*Bạn của bạn thường mượn sách ở đâu?*      
+*Cô ấy thường mượn sách tại thư viện*      
 6. **Where does the actor want to hold his wedding ceremony?**.
-- **He wants to hold his wedding ceremony at a church**
+- **He wants to hold his wedding ceremony at a church**      
+*Người diễn viên muốn tổ chức đám cưới ở đâu?*
+*Anh ta muốn tổ chức đám cưới tại nhà thờ* 
 7. **Where do your parents often celebrate a wedding anniversary?**
 - **They always celebrate a wedding anniversary at home but sometimes they want to celebrate it at a fancy restaurant**
+*Ba mẹ của bạn thường tổ chức kỉ niệm ngày cưới ở đâu?*    
+*Họ tổ chức kỉ niệm ngày cưới ở nhà nhưng thỉnh thoảng họ muốn tổ chức tại một nhà hàng sang trọng*    
 8. **Where does the singer keep his money?**.
 - **He keeps it in a bank**
+*Người ca sĩ cất tiền ở đâu?*
+*Anh ta cất tiền trong ngân hàng*
 9. **Where does your uncle want to travel to?**
 - **He wants to travel to Europe**
+*Bác của bạn muốn du lịch tới đâu?*
+*Ông ấy muốn đi du lịch tới Châu Âu*
 10. **Where do you need to meet him?**
 - **I need to meet him in a coffee shop**
-
+*Bạn cần gặp anh ấy ở đâu?*
+*Tôi cần gặp anh ấy tại coffee shop*
 

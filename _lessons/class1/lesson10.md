@@ -38,6 +38,8 @@ lesson: "10"
 {% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
 ## 2. Examples 
 
+[comment]: <> "Angry at someone" although it's understandable, it should be "angry with someone"
+
 1. **Are you angry at me?**
 *Bạn đang giận tôi hả?*  
 2. **Is the manager responsible for contacting customers?**

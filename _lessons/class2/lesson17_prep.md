@@ -11,34 +11,34 @@ lesson: "16"
 ## Vocabulary 
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 ### Subject 
-Mathematics/ Maths     
-Literature     
-Chemistry     
-Biology     
-Economics     
-History     
-Computer Science     
-Arts     
-Geography     
-Physics     
-Physical Education/ PE     
-Psychology     
-Marxist – Leninist philosophy     
-Statistics      
-History of Communist Party            
-Ho Chi Minh ideology     
-Consumer/ customer behavior      
+**Mathematics**    
+**Literature**     
+**Chemistry**     
+**Biology**     
+**Economics**     
+**History**     
+**Computer Science**     
+**Arts**     
+**Geography**     
+**Physics**     
+**Physical Education/ PE**     
+**Psychology**     
+**Marxist – Leninist philosophy**     
+**Statistics**      
+**History of Communist Party**            
+**Ho Chi Minh ideology**     
+**Consumer/ customer behavior**      
 
 ### Major 
-Architecture      
-Engineering     
-Journalism      
-Medicine     
-Sociology      
-Tourism and hospitality management      
-Information technology      
-Business Administration      
-Accounting      
+**Architecture**      
+**Engineering**     
+**Journalism**      
+**Medicine**     
+**Sociology**      
+**Tourism and hospitality management**      
+**Information technology**      
+**Business Administration**      
+**Accounting**      
 
 ### exams
 Re-sit     

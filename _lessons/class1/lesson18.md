@@ -14,70 +14,64 @@ lesson: "18"
 [comment]: <> Quyn :) 
 
 ## Who
-1. **Who is tall in your class?**
-2. **Who is important in a company?**
-3. **Who is the richest man in the world?**
-4. **Who is the most beautiful girl you’ve ever met?**
-5. **Who do you want to talk to?**
-6. **Who do you try to become?**
-7. **Who does your teacher want to teach?**
-8. **Who does your mother miss?**
-9. **Who does the kid want to draw?**
-10. **Who does your friend want to get married to?**
-11. **Who did the businessman argue with?**
-12. **Who did the priest pray for?**
-13. **Who did the nurse want to keep in touch with?**
-14. **Who did the policeman catch?**
-15. **Who won the first prize in the competition?**
-16. **Who passed the exam?**
-17. **Who failed the exam in your class?**
-18. **Who lost money yesterday?**
-19. **Who didn’t do their homework?**
-20. **Who called you every day?**
-21. **Who is wearing a dress in your class?**
-22. **Who is wearing glasses in your class?**
-23. **Who are you going to agree with?**
+1. **Who is tall in your class?** Ai thì cao trong lớp của bạn?
+2. **Who is important in a company?** Ai thì quan trọng trong công ty?
+3. **Who is the richest man in the world?** Ai là người đàn ông giàu nhất thế giới?
+4. **Who is the most beautiful girl you’ve ever met?** Ai là cô gái đẹp nhất mà bạn từng gặp?
+5. **Who do you want to talk to?** Bạn muốn nói chuyện với ai?
+6. **Who do you try to become?** Bạn cố gắng trở thành ai?
+7. **Who does your teacher want to discuss the problem with?** Giáo viên bạn muốn thảo luận vấn đề với ai? 
+8. **Who does your mother miss?** Mẹ bạn nhớ ai?
+9. **Who does the kid want to draw?** Đứa bé muốn vẽ ai?
+10. **Who does your friend want to get married to?** Bạn của bạn muốn kết hôn với ai?
+11. **Who did the businessman argue with?** Người doanh nhân cãi nhau với ai
+12. **Who did the priest pray for?** Người cha xứ cầu nguyện cho ai?
+13. **Who did the nurse want to keep in touch with?** Người y tá muốn giữ liên lạc với ai?
+14. **Who did the policeman catch?** Cảnh sát đã bắt giữ ai?
+15. **Who won the first prize in the competition?** Ai thắng hạng nhất trong cuộc thi?
+16. **Who passed the exam?** Ai đã vượt qua bài kiểm tra?
+17. **Who failed the exam in your class?** Ai rớt bài kiểm tra trong lớp?
+18. **Who lost money yesterday?** Hôm qua ai làm mất tiền?
+19. **Who didn’t do their homework?** Ai không làm bài tập về nhà ngày hôm qua?
+20. **Who called you every day?** Ai gọi điện cho bạn mỗi ngày?
+21. **Who is wearing a dress in your class?** Ai đang mặc đầm trong lớp?
+22. **Who is wearing glasses in your class?** Ai đang mang mắt kiếng trong lớp
+23. **Who are you going to agree with?** Bạn sắp cãi nhau với ai?
 
 ## Where 
-1.   **Where is your teacher?**
-2. **Where is your bag?**
-3.  **Where is the Ben Thanh market?**
-4.  **Where is his house?**
-5.  **Where is DongNai province?**
-6.  **Where are your books?**
-7.  **Where do you read books?**
-8.  **Where do you buy new clothes/ new shoes?**
-9.  **Where do you watch a movie?**
-10.  **Where do you see a doctor?**
-11.  **Where does your mother usually go shopping?**
-12.  **Where does your brother hang out with his friends?**
-13.  **Where does the doctor catch the mouse?**
-14.  **Where did you sleep last night?**
-15.  **Where did the student throw the book?**
-16.  **Where did the reporter sleep last night?**
-17.  **Where did you first meet your friend?**
-18.  **Where did you buy that shirt?**
-19.  **Where did the teacher drink beer with his friend yesterday?**
-20. **Where are you going?**
-21. **Where are you going to go after class?**
-22. **Where will you apply for a job?**
+1.   **Where is your teacher?** Giáo viên bạn đâu?
+2. **Where is your bag?** Cặp của bạn đâu?
+3.  **Where is the Ben Thanh market?** Chợ Bến Thành ở đâu?
+4.  **Where is his house?** Nhà anh ấy ở đâu?
+5.  **Where is DongNai province?** Tỉnh Đồng Nai ở đâu?
+6.  **Where are your books?** Những quyển sách của bạn ở đâu?
+7.  **Where do you read books?** Bạn thường đọc sách ở đâu?
+8.  **Where do you buy new shoes?** Bạn thường mua giày mới ở đâu?
+9.  **Where do you watch a movie?** Bạn thường xem phim ở đâu?
+11.  **Where does your mother usually go shopping?** Mẹ bạn thường đi mua sắm ở đâu?
+12.  **Where does your brother hang out with his friends?** Anh trai của bạn thường đi chơi với bạn bè ở đâu?
+13.  **Where did the doctor catch the mouse?** Người bác sĩ bắt con chuột ở đâu?
+14.  **Where did the reporter sleep last night?** Người đưa tin ngủ ở đâu tối qua?
+15.  **Where did your father first meet your mother?** Ba bạn gặp mẹ bạn lần đầu ở đâu?
+16.  **Where did you buy that shirt?** Bạn mua cái áo đó ở đâu?
+17. **Where are you going?** Bạn đang đi đâu đấy?
+18. **Where are you going to go after class?** Bạn sẽ đi đâu sau giờ học
+19. **Where will you go fishing?** Bạn sẽ đi câu cá ở đâu? 
 
 ## When 
-1.  **When is Valentine’s day?**
-2.  **When is Halloween?**
-3.  **When is your birthday?**
-4.  **When is your best friend’s birthday?**
-5.  **When are you free?**
-6.  **When do you need to borrow his motorbike?**
-7. **When do you intend to invest in the business?**
-8. **When does your mother usually get up?**
-9.  **When did you first ride a bicycle?**
-10.  **When did you first study English?**
-11.  **When did you first fall in love?**
-12.  **When did you first meet her?**
-13.  **When did you first write a letter?**
-14.  **When did you first go to a bank?**
-15.  **When did you get up this morning?**
+1.  **When is Valentine’s day?** Valentine là khi nào?
+2.  **When is Halloween?** Halloween là khi nào?
+3.  **When is your birthday?** Sinh nhật bạn là khi nào?
+4.  **When is your best friend’s birthday?** Sinh nhật bạn thân của bạn là khi nào?
+5.  **When are you free?** Khi nào bạn rảnh?
+6.  **When do you need to borrow his motorbike?** Khi nào bạn cần mượn xe máy của anh ấy?
+7. **When do you intend to invest in the business?** Khi nào bạn định đầu tư vào việc kinh doanh đó
+8. **When does your mother usually get up?** Mẹ bạn thường thức dậy lúc mấy giờ?
+9.  **When did you first ride a bicycle?** Bạn lái xe đạp lần đâu là khi nào? 
+10.  **When did you first study English?** Bạn lần đầu tiên học tiếng Anh là khi nào?
+11.  **When did you first fall in love?** Bạn yêu là đầu là khi nào?
+12.  **When did you first meet her?** Bạn gặp cô ấy lần đâu khi nào? 
+13.  **When did you get up this morning?** Bạn thức dậy khi nào sáng nay?
 
 ## Yes/no questions
 
