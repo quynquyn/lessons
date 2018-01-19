@@ -81,9 +81,9 @@ NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVn
 > Person 2: **What?! What exam?**     
 > P1: **The English exam. It is today. Didn't you know?**    
 > P2: **Are you kidding? I had no idea!**  
-> P1: **Really? Despite the professor saying it multiple times last week?**  
+> P1: **Really? Even though the professor said it multiple times last week?**  
 > P2: **Although I wanted to, I wasn't able to come to class last week. I was sick.**  
-> P1: **Oh, I didn't know. Although — now that you mention it — I remember the lesson being a bit quiet. I didn't hear you talking in class.**  
+> P1: **Oh, I didn't know. That's why I didn't hear you talking in class.**  
 > P2: **Yes, it was quiet because I wasn't there. Despite my will to learn, I always get bored in class.**  
 > P1: **What are you going to do now? Although I want to, I can't help you learn the entire exam in one hour.**  
 > P2: **I don't know. Maybe I can ask the professor to let me take the exam next week.**  
@@ -102,8 +102,8 @@ NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVn
 - **Did you study for the exam in English? They say it's quite difficult.**
 
 ### 2. Despite studying math for 3 years, I'm considering switching to English.
-- **Despite the teacher telling me I should keep practicing, I just can't. I hate math!**
-- **Despite the alarm ringing at 6 AM, I still couldn't wake up in time.**
+- **Despite the low salary, he enjoys his job!**
+- **Despite the ringing alarm at 6 AM, I still couldn't wake up in time.**
 - **Despite the time I spent studying, I don't remember a thing!**
 
 ### 3. Although I really like our Physics teacher, I don't like Physics.
@@ -123,7 +123,7 @@ NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVn
 - **I hope I ace my Psychology exam, even though I hate Psychology.**
 - **Sociology is such a boring subject, but the professor who teaches it is interesting.**
 
-
+## More examples 
 1.**I love literature. There are so many different stories out there.**  
 2.**Chemistry and Biology are very related sciences.**  
 3.**What is your favourite subject?**  

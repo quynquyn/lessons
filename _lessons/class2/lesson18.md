@@ -19,6 +19,49 @@ lesson: "18"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
+**jealous**  
+**confident**  
+**curious**    
+**happy**   
+**blessed**   
+**glad**   
+**tired**    
+**surprised**    
+**depressed**      
+**hopeful**    
+**cheerful**    
+**peaceful**  
+**calm**  
+**angry**  
+**bored**  
+**cautious**  
+**frustrated**  
+**shocked**  
+**disappointed**  
+**annoyed**  
+**pissed off**  
+**lonely**  
+**neutral**  
+**frightened**  
+**guilty**  
+**ashamed**  
+**hysterical**  
+**sad - downhearted**  
+**depressed**  
+**scared**  
+**satisfied**  
+**excited**  
+**embarrassed**  
+**mad**  
+**worried**  
+**exhausted**  
+**confused**  
+**shy**  
+**disgusted**  
+**anxious**  
+**empty**  
+**lost**  
+**relieved**  
 
 
 
@@ -60,10 +103,12 @@ lesson: "18"
 - **I feel like I'm going to be sick.**
 - **I feel the warmth of the Sun on my skin.**
 
-### 4. I like to see snow in winter and rain in summer
-- **I appreciate it when people don't litter.**
-- **I respect the high school teachers who helped me learn more about myself.**
-- **I adore pop. It's my favourite genre of music.**
+### 4. Reading non-fiction makes me happy
+**Verb + ing can be used in the same way as a noun**
+
+- **I don't want to hang out with Steven. Seeing him is the last thing I want to do.**
+- **Being single helped me learn more about myself.**
+- **Thinking about Robert makes me smile.**
 
 ### 5. I hate it when people talk to me on the bus.
 - **I dislike being interrupted while I'm speaking.**

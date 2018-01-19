@@ -1,44 +1,44 @@
 class,lesson,section,word_en,word_vn,word_pt,image_name,image_url
-2,05,job,Farmer,Nông dân,,C2L05-Farmer.jpg,class2/images/C2L05-Farmer.jpg
-2,05,job,Baker,Thợ làm bánh,,C2L05-Baker.jpg,class2/images/C2L05-Baker.jpg
-2,05,job,Driver,Người lái xe,,C2L05-Driver.jpg,class2/images/C2L05-Driver.jpg
-2,05,job,Housewife,Bà nội trợ,,C2L05-Housewife.jpg,class2/images/C2L05-Housewife.jpg
-2,05,job,Businessman,Doanh nhân,,C2L05-Businessman.jpg,class2/images/C2L05-Businessman.jpg
-2,05,job,Cameraman,Người quay phim,,C2L05-Cameraman.jpg,class2/images/C2L05-Cameraman.jpg
-2,05,job,Postman,Người đưa thư,,C2L05-Postman.jpg,class2/images/C2L05-Postman.jpg
-2,05,job,Mechanic,Thợ sửa máy móc,,C2L05-Mechanic.jpg,class2/images/C2L05-Mechanic.jpg
-2,05,job,Receptionist,Tiếp tân,,C2L05-Receptionist.jpg,class2/images/C2L05-Receptionist.jpg
-2,05,job,Dentist,Nha sĩ,,C2L05-Dentist.jpg,class2/images/C2L05-Dentist.jpg
-2,05,job,Artist,Nghệ sĩ,,C2L05-Artist.jpg,class2/images/C2L05-Artist.jpg
-2,05,job,Supervisor,Người giám sát,,C2L05-Supervisor.jpg,class2/images/C2L05-Supervisor.jpg
-2,05,job,Professor,Giáo sư,,C2L05-Professor.jpg,class2/images/C2L05-Professor.jpg
-2,05,father,Confident,Tự tin,,C2L05-Confident.jpg,class2/images/C2L05-Confident.jpg
-2,05,father,Shy,Nhút nhát,,C2L05-Shy.jpg,class2/images/C2L05-Shy.jpg
-2,05,father,Strict,Nghiêm khắc,,C2L05-Strict.jpg,class2/images/C2L05-Strict.jpg
-2,05,father,Easy-going,Dễ tính,,C2L05-Easy-going.jpg,class2/images/C2L05-Easy-going.jpg
-2,05,father,Talkative,Nói nhiều,,C2L05-Talkative.jpg,class2/images/C2L05-Talkative.jpg
-2,05,father,Quiet,Trầm tính,,C2L05-Quiet.jpg,class2/images/C2L05-Quiet.jpg
-2,05,father,Interesting,Thú vị,,C2L05-Interesting.jpg,class2/images/C2L05-Interesting.jpg
-2,05,father,Boring,Nhàm chán,,C2L05-Boring.jpg,class2/images/C2L05-Boring.jpg
-2,05,father,Caring,Quan tâm,,C2L05-Caring.jpg,class2/images/C2L05-Caring.jpg
-2,05,father,Carefree,Vô tâm,,C2L05-Carefree.jpg,class2/images/C2L05-Carefree.jpg
-2,05,father,Dependent,Độc lập,,C2L05-Dependent.jpg,class2/images/C2L05-Dependent.jpg
-2,05,father,Independent,Phụ thuộc,,C2L05-Independent.jpg,class2/images/C2L05-Independent.jpg
-2,05,father,Hot-tempered,Nóng tính,,C2L05-Hot-tempered.jpg,class2/images/C2L05-Hot-tempered.jpg
-2,05,father,Even-tempered,Điềm tĩnh,,C2L05-Even-tempered.jpg,class2/images/C2L05-Even-tempered.jpg
-2,05,father,Mature,Trưởng thành,,C2L05-Mature.jpg,class2/images/C2L05-Mature.jpg
-2,05,father,Childish,Con nít,,C2L05-Childish.jpg,class2/images/C2L05-Childish.jpg
-2,05,parentsdo,Smoke cigarettes,,,C2L05-Smoke-cigarettes.jpg,class2/images/C2L05-Smoke-cigarettes.jpg
-2,05,parentsdo,Get up early,,,C2L05-Get-up-early.jpg,class2/images/C2L05-Get-up-early.jpg
-2,05,parentsdo,go to bed late,,,C2L05-go-to-bed-late.jpg,class2/images/C2L05-go-to-bed-late.jpg
-2,05,parentsdo,Eat a lot of candies,,,C2L05-Eat-a-lot-of-candies.jpg,class2/images/C2L05-Eat-a-lot-of-candies.jpg
-2,05,parentsdo,Cook meals,,,C2L05-Cook-meals.jpg,class2/images/C2L05-Cook-meals.jpg
-2,05,parentsdo,Do the laundry,,,C2L05-Do-the-laundry.jpg,class2/images/C2L05-Do-the-laundry.jpg
-2,05,parentsdo,Mop the floor,,,C2L05-Mop-the-floor.jpg,class2/images/C2L05-Mop-the-floor.jpg
-2,05,parentsdo,Feed the dog,,,C2L05-Feed-the-dog.jpg,class2/images/C2L05-Feed-the-dog.jpg
-2,05,parentsdo,Make most of the decisions,,,C2L05-Make-most-of-the-decisions.jpg,class2/images/C2L05-Make-most-of-the-decisions.jpg
-2,05,parentsdo,Argue with you,,,C2L05-Argue-with-you.jpg,class2/images/C2L05-Argue-with-you.jpg
-2,05,parentsdo,Call you when you go out late at night,,,C2L05-Call-you-when-you-go-out-late-at-night.jpg,class2/images/C2L05-Call-you-when-you-go-out-late-at-night.jpg
+2,05,job,Farmer,Nông dân,fazendeiro,C2L05-Farmer.jpg,class2/images/C2L05-Farmer.jpg
+2,05,job,Baker,Thợ làm bánh,padeiro,C2L05-Baker.jpg,class2/images/C2L05-Baker.jpg
+2,05,job,Driver,Người lái xe,motorista,C2L05-Driver.jpg,class2/images/C2L05-Driver.jpg
+2,05,job,Housewife,Bà nội trợ,dona de casa,C2L05-Housewife.jpg,class2/images/C2L05-Housewife.jpg
+2,05,job,Businessman,Doanh nhân,empresário,C2L05-Businessman.jpg,class2/images/C2L05-Businessman.jpg
+2,05,job,Cameraman,Người quay phim,cinegrafista,C2L05-Cameraman.jpg,class2/images/C2L05-Cameraman.jpg
+2,05,job,Postman,Người đưa thư,carteiro,C2L05-Postman.jpg,class2/images/C2L05-Postman.jpg
+2,05,job,Mechanic,Thợ sửa máy móc,mecânico,C2L05-Mechanic.jpg,class2/images/C2L05-Mechanic.jpg
+2,05,job,Receptionist,Tiếp tân,recepcionista,C2L05-Receptionist.jpg,class2/images/C2L05-Receptionist.jpg
+2,05,job,Dentist,Nha sĩ,dentista,C2L05-Dentist.jpg,class2/images/C2L05-Dentist.jpg
+2,05,job,Artist,Nghệ sĩ,artista,C2L05-Artist.jpg,class2/images/C2L05-Artist.jpg
+2,05,job,Supervisor,Người giám sát,gerente,C2L05-Supervisor.jpg,class2/images/C2L05-Supervisor.jpg
+2,05,job,Professor,Giáo sư,professor,C2L05-Professor.jpg,class2/images/C2L05-Professor.jpg
+2,05,father,Confident,Tự tin,seguro,C2L05-Confident.jpg,class2/images/C2L05-Confident.jpg
+2,05,father,Shy,Nhút nhát,tímido,C2L05-Shy.jpg,class2/images/C2L05-Shy.jpg
+2,05,father,Strict,Nghiêm khắc,rigoroso,C2L05-Strict.jpg,class2/images/C2L05-Strict.jpg
+2,05,father,Easy-going,Dễ tính,descontraído,C2L05-Easy-going.jpg,class2/images/C2L05-Easy-going.jpg
+2,05,father,Talkative,Nói nhiều,falante,C2L05-Talkative.jpg,class2/images/C2L05-Talkative.jpg
+2,05,father,Quiet,Trầm tính,quieto,C2L05-Quiet.jpg,class2/images/C2L05-Quiet.jpg
+2,05,father,Interesting,Thú vị,interessante,C2L05-Interesting.jpg,class2/images/C2L05-Interesting.jpg
+2,05,father,Boring,Nhàm chán,chato,C2L05-Boring.jpg,class2/images/C2L05-Boring.jpg
+2,05,father,Caring,Quan tâm,cuidadoso,C2L05-Caring.jpg,class2/images/C2L05-Caring.jpg
+2,05,father,Carefree,Vô tâm,despreocupado,C2L05-Carefree.jpg,class2/images/C2L05-Carefree.jpg
+2,05,father,Dependent,Độc lập,dependente,C2L05-Dependent.jpg,class2/images/C2L05-Dependent.jpg
+2,05,father,Independent,Phụ thuộc,independente,C2L05-Independent.jpg,class2/images/C2L05-Independent.jpg
+2,05,father,Hot-tempered,Nóng tính,colérico,C2L05-Hot-tempered.jpg,class2/images/C2L05-Hot-tempered.jpg
+2,05,father,Even-tempered,Điềm tĩnh,equilibrado,C2L05-Even-tempered.jpg,class2/images/C2L05-Even-tempered.jpg
+2,05,father,Mature,Trưởng thành,maduro,C2L05-Mature.jpg,class2/images/C2L05-Mature.jpg
+2,05,father,Childish,Con nít,infantil,C2L05-Childish.jpg,class2/images/C2L05-Childish.jpg
+2,05,parentsdo,Smoke cigarettes,,fumar cigarros,C2L05-Smoke-cigarettes.jpg,class2/images/C2L05-Smoke-cigarettes.jpg
+2,05,parentsdo,Get up early,,levantar-se cedo,C2L05-Get-up-early.jpg,class2/images/C2L05-Get-up-early.jpg
+2,05,parentsdo,Go to bed late,,deitar-se tarde,C2L05-Go-to-bed-late.jpg,class2/images/C2L05-Go-to-bed-late.jpg
+2,05,parentsdo,Eat a lot of candies,,comer muitos doces,C2L05-Eat-a-lot-of-candies.jpg,class2/images/C2L05-Eat-a-lot-of-candies.jpg
+2,05,parentsdo,Cook meals,,cozinhar refeições,C2L05-Cook-meals.jpg,class2/images/C2L05-Cook-meals.jpg
+2,05,parentsdo,Do the laundry,,lavar as roupas,C2L05-Do-the-laundry.jpg,class2/images/C2L05-Do-the-laundry.jpg
+2,05,parentsdo,Mop the floor,,esfregar o chão,C2L05-Mop-the-floor.jpg,class2/images/C2L05-Mop-the-floor.jpg
+2,05,parentsdo,Feed the dog,,alimentar o cachorro,C2L05-Feed-the-dog.jpg,class2/images/C2L05-Feed-the-dog.jpg
+2,05,parentsdo,Make most of the decisions,,tomar a maioria das decisões,C2L05-Make-most-of-the-decisions.jpg,class2/images/C2L05-Make-most-of-the-decisions.jpg
+2,05,parentsdo,Argue with you,,brigar com você,C2L05-Argue-with-you.jpg,class2/images/C2L05-Argue-with-you.jpg
+2,05,parentsdo,Call you when you go out late at night,,ligar para você se sair tarde de noite,C2L05-Call-you-when-you-go-out-late-at-night.jpg,class2/images/C2L05-Call-you-when-you-go-out-late-at-night.jpg
 2,03,dailyroutine,Get up/ wake up,Thức dậy,,C2L03-Get-up-wake-up.jpg,class2/images/C2L03-Get-up-wake-up.jpg
 2,03,dailyroutine,Make my bed,Gấp chăn màn,,C2L03-Make-my-bed.jpg,class2/images/C2L03-Make-my-bed.jpg
 2,03,dailyroutine,Brush my teeth,Đánh răng,,C2L03-Brush-my-teeth.jpg,class2/images/C2L03-Brush-my-teeth.jpg
