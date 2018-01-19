@@ -7,10 +7,10 @@ lesson: "19"
 
 # Lesson 2.19: Feelings 2
 
+[comment]: <> NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
 
-## Vocabulary 
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
-
+## Vocabulary 
 
 
 ### Expressing your feelings
@@ -62,32 +62,9 @@ lesson: "19"
 **Get ahold of yourself**  
 
 
-### ____Vocab [cat 1]____________ 
-
-NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
-
-{% include wordgrid.html 
-		class=page.class 
-		lesson=page.lesson 
-		section="[cat1]"
-		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
 
 
-### ____Vocab [cat 2]____________ 
-
-{% include wordgrid.html 
-		class=page.class 
-		lesson=page.lesson 
-		section="[cat2]"
-		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
-
-
-
-
-
-{% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
+{% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
 
 ## Conversation
 
@@ -106,12 +83,19 @@ NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVn
 
 
 
-{% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
+{% include player2.html identifier="explanation" class=page.class lesson=page.lesson %}
+
 ## Explanation
 ### 1. If I get hungry, will you bring me something to eat?**
 - **Today's lesson bores me to tears! If the bell doesn't ring soon, I will leave.**
 - **If I buy Chris a new phone, he will start crying with joy.**
 - **I am so fed up with my children fighting! If they don't stop, I will go crazy.** 
+
+
+{% if site.trialdeploy %}
+  {% include list_placeholder.html start=3 stop=6 %}
+  {% else %}
+
 
 ### 2. Congratulations! You won the lottery!
 - **Good job for doing your homework in time. I never thought I'd see that happen.**
@@ -145,17 +129,6 @@ NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVn
 8. **It will be such a pity if you miss the movie.**
 9. **If you don't get ahold of yourself, I will slap you!**
 10. **I'm so happy, I feel like I'm walking on air.**
-
-
-{% if site.trialdeploy %}
-	{% include list_placeholder.html start=3 stop=13 %}
-	{% else %}
-3. **NOTE: THIS IS ONLY DISPLAYED IN THE PREMIUM VERSION. PUT EXPLANATIONS IN HERE.**.
-*Có phải người học sinh đó giỏi học ngôn ngữ không?*
-
-
-
-
 
 
 

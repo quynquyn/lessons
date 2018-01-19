@@ -19,7 +19,7 @@ lesson: "15"
 | **When I was a child** | **When I lived with my parents** |
 | **Last night** | **Last week** | **Last summer** | **Last Christmas** |
 
-### I. The verb “To be”
+## I. The verb “To be”
 
 | **I was** | **You were** | **He/she/it was** |
 | **We were** | **You were** | **They were** |
@@ -41,9 +41,9 @@ Không, cô ta không có nhà tuần trước*
 *Jane không đến lớp hôm qua. Cô ta ốm à?     
 Uh, cô ta ốm* 
 
-{% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
+{% include player2.html identifier="regular" class=page.class lesson=page.lesson %}
 
-### II. Action Verbs 
+## II. Action Verbs 
 1. **Did you sister help you do homework?**
 **No, My sister didn’t help me do anything.**
 *Chị của bạn có giúp bạn làm bài tập về nhà không?   
@@ -63,6 +63,7 @@ Có, anh ta có yêu nhưng anh không muốn lấy cô ấy*
 Có, anh có đến lớp hôm qua*     
 
 #### a. Regular verbs (Verb + ed)
+
 ##### | ed = t sound for verbs ending in k, p, s, ch, sh, f |
 **I looked at her.**     *Tôi nhìn cô ấy*   
 **She stopped staring at me.**   *Cô ta dừng nhìn chằm chằm vào tôi*  
@@ -84,6 +85,7 @@ Có, anh có đến lớp hôm qua*
 **Who laughed behind my back?**      *Ai cười sau lưng tôi?*    
 **The dog chased the cat again yesterday** *Hôm qua con chó lại đuổi theo con mèo*     
 **Joanne laughed when Chris asked her out.**   *Joanne cười lớn khi Chris mời cô ta ra ngoài chơi*      
+
 ##### | ed = ed sound for verbs ending with a t or d |
 **We visited our parents.**   *Chúng tôi thăm bố mẹ*     
 **My sister finally graduated!**     *Chị tôi cuối cùng cũng tốt nghiệp*    
@@ -106,7 +108,10 @@ Có, anh có đến lớp hôm qua*
 **His aunt raised him.**     *Cô của anh ấy đã nuôi nấng anh*   
 **I traveled all across Europe last year.**     *Tôi đi du lịch khắp Châu Âu năm ngoái*   
 
+{% include player2.html identifier="irregular" class=page.class lesson=page.lesson %}
 #### b. Irregular verbs (The second column of irregular verbs)
+
+
 **break / broke**      
 **speak / spoke**      
 **steal / stole**      
@@ -159,7 +164,7 @@ Có, anh có đến lớp hôm qua*
 **She stole my wallet.**   *Cô ta đã lấy cắp ví của tôi*        
 **I drove my daughter to school.**          *Cô đưa con gái đi học*   
 **Sarah wrote a book.**   *Sarah viết một quyển sách*     
-**John sold his house.**     *John đã bán nhà anh ấy*
+**John sold his house.**     *John đã bán nhà anh ấy*  
 **She threw her bag at me.**     *Cô ta chọi cái túi của cô ấy vào tôi*   
 **I thought about it.**     *Tôi đã suy nghĩ về chuyện ấy*   
 **My mother taught me a lot.**     *Mẹ của tôi dạy cho tôi rất nhiều*   

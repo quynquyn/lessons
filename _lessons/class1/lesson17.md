@@ -8,8 +8,8 @@ lesson: "17"
 # Lesson 1.17: Who – Where - When
 
 
-## Vocabulary 
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
+## Vocabulary 
 
 
 {% include wordgrid.html 
@@ -18,8 +18,7 @@ lesson: "17"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-
-
+{% include player2.html identifier="examples" class=page.class lesson=page.lesson %}
 
 ### Example of WH questions with Simple Past Tense, Simple Present Tense, Present Continuous Tense and Simple Future tense 
 1. **Where are you going to go?** *Bạn sẽ đi đâu?*
@@ -53,7 +52,7 @@ lesson: "17"
 29. **Who complained about the service of the hotel?** *Ai đã than phiền về dịch vụ khách sạn?*
 30. **Who stole the manager's cellphone?** *Ai đã lấy cắp điện thoại của giám đốc?*
 
-
+{% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
 ## Conversation
 
 > Person 1: **Jamie, I told you to go to school. Why are you home so early?**  

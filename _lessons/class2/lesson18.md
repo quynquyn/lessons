@@ -7,9 +7,9 @@ lesson: "18"
 
 # Lesson 2.18: Feelings 
 
+{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 
 ## Vocabulary 
-{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 
 [comment]: <>  all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
 
@@ -18,56 +18,11 @@ lesson: "18"
 		lesson=page.lesson 
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
+		
 
-**jealous**  
-**confident**  
-**curious**    
-**happy**   
-**blessed**   
-**glad**   
-**tired**    
-**surprised**    
-**depressed**      
-**hopeful**    
-**cheerful**    
-**peaceful**  
-**calm**  
-**angry**  
-**bored**  
-**cautious**  
-**frustrated**  
-**shocked**  
-**disappointed**  
-**annoyed**  
-**pissed off**  
-**lonely**  
-**neutral**  
-**frightened**  
-**guilty**  
-**ashamed**  
-**hysterical**  
-**sad - downhearted**  
-**depressed**  
-**scared**  
-**satisfied**  
-**excited**  
-**embarrassed**  
-**mad**  
-**worried**  
-**exhausted**  
-**confused**  
-**shy**  
-**disgusted**  
-**anxious**  
-**empty**  
-**lost**  
-**relieved**  
-
-
-
+{% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
 
 ## Conversation
-{% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
 
 > Person 1: **Oh my god, I am so bored.**    
 > Person 2: **Turn on the TV. I'm sure there is something on that isn't boring.**        
@@ -85,13 +40,20 @@ lesson: "18"
 
 
 
+{% include player2.html identifier="explanations" class=page.class lesson=page.lesson %}
 ## Explanations
-{% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
+
 
 ### 1. I hope I am not boring you with my life story.
 - **John thinks he's boring, but I find him to be interesting.**
 - **There is nothing more boring than a bad story.**
 - **I can help the fact that I think Harry Potter is boring.**
+
+
+{% if site.trialdeploy %}
+  {% include list_placeholder.html start=3 stop=6 %}
+  {% else %}
+
 
 ### 2. I'm very bored by classical music. I prefer rock music instead.
 - **Anne said she is bored of her job and that she is thinking about looking for a new one.**
@@ -116,10 +78,7 @@ lesson: "18"
 - **I despise people who cheat on exams because that is immoral.**
 
 
-{% if site.trialdeploy %}
-	{% include list_placeholder.html start=3 stop=13 %}
-	{% else %}
-**NOTE: THIS IS ONLY DISPLAYED IN THE PREMIUM VERSION. PUT EXPLANATIONS IN HERE.**.
+## More explanations
 
 1.**I fear it is too late for you to start preparing for the exam.**  
 2.**Reading the latest news makes me sad. There is so much tragedy in the world.**  

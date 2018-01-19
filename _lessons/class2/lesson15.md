@@ -33,11 +33,6 @@ lesson: "15"
 
 
 
-### Conversation
-
-
-
-
 {% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
 
 ## Conversation

@@ -5,11 +5,12 @@ lesson: "16"
 ---
 
 
-# Lesson 2.16: LOVE 2
+# Lesson 2.16: Love 2
 
+[comment]: <> NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
 
-## Vocabulary 
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
+## Vocabulary 
 
 **Get on like a house on fire**  
 **Get on well with**  
@@ -34,46 +35,23 @@ lesson: "16"
 **See eye to eye**  
 **Settle down**  
 
-### ____Vocab [cat 1]____________ 
-
-NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
-
-{% include wordgrid.html 
-		class=page.class 
-		lesson=page.lesson 
-		section="[cat1]"
-		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
-
-
-### ____Vocab [cat 2]____________ 
-
-{% include wordgrid.html 
-		class=page.class 
-		lesson=page.lesson 
-		section="[cat2]"
-		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
-
-
-
 
 
 {% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
 
 ## Conversation
 
-> Person 1 (female): **Listen, I want to clear up a few things with you right away. You know what I mean, right?**   
-> Person 2 (Male): **Of course.**   
-> P1: **After finding out about this, I realized that I need to talk to you straight away, but I didn’t have the courage. We’ve known each other for a long time. I’ve always thought a lot about you. Oh god, I don’t know how to tell you this...**  
-> P2: **Come on, don’t be shy. Actually, you don’t need to tell me this, we don’t need words anymore. You are my true friend, only a true friend, nothing more**  
-> P1: **Really? What an idiot I am. I thought you felt an interest for me. I thought there was more between us than just a simple friendship. Is it because tennis is the only passion in your life?**  
-> P2: **Sorry. I didn’t mean to upset you. The truth is that there is someone else in my heart.**
-> P1: **Oh. Ok, it’s better the true reason for your refusal was because of another woman, and not tennis.**  
-> P2: **I think of you more than sports, you know.**
-> P1: **Don’t worry. Let’s pretend none of this happened. Let bygones be bygones. Ok?**  
-> P2: **Of course, and no hard feelings.**
-> P1: **Sure. See you in a bit.**  
+> Person 1 (female): **Listen, I want to clear up a few things with you right away. You know what I mean, right?**     
+> Person 2 (Male): **Of course.**     
+> P1: **After finding out about this, I realized that I need to talk to you straight away, but I didn’t have the courage. We’ve known each other   for a long time. I’ve always thought a lot about you. Oh god, I don’t know how to tell you this...**  
+> P2: **Come on, don’t be shy. Actually, you don’t need to tell me this, we don’t need words anymore. You are my true friend, only a true friend,   nothing more**  
+> P1: **Really? What an idiot I am. I thought you felt an interest for me. I thought there was more between us than just a simple friendship. Is it   because tennis is the only passion in your life?**  
+> P2: **Sorry. I didn’t mean to upset you. The truth is that there is someone else in my heart.**  
+> P1: **Oh. Ok, it’s better the true reason for your refusal was because of another woman, and not tennis.**    
+> P2: **I think of you more than sports, you know.**  
+> P1: **Don’t worry. Let’s pretend none of this happened. Let bygones be bygones. Ok?**    
+> P2: **Of course, and no hard feelings.**  
+> P1: **Sure. See you in a bit.**    
 
 
 {% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
@@ -85,6 +63,12 @@ Sau khi phát hiện ra điều này, tôi nhận ra rằng tôi phải nói v�
 - **After finding out that Jane likes me too, I asked her out.** *Sau khi nhận ra rằng Jane cũng thích tôi, tôi rủ cô ấy ra ngoài hẹn hò*
 - **After finding out about how he feels, I became sad.** *Sau khi nhận ra anh ấy cảm thấy như thế nào, tôi trở nên buồn*
 - **After realizing that I didn't love her anymore, I decided to break up with her.** *Sau khi nhận ra rằng tôi không yêu cô ấy nữa, tôi quyết định chia tay với cô ấy*
+
+
+{% if site.trialdeploy %}
+  {% include list_placeholder.html start=3 stop=6 %}
+  {% else %}
+
 
 ### 2. I think that if you really like someone, you should say it.
 Tôi nghĩ nếu bạn thật sự thích ai, bạn nên nói ra 
@@ -122,12 +106,4 @@ Thật hả, bạn thật sự thích tôi hả?
 - **Really? Don't be ridiculous, there is nothing called "love at first sight"!** *Thật á. Đừng nực cười như vậy, chằng có gì gọi là "tình yêu sét đánh"*
 - **Really? He told you that he wanted to settle down?** *Thật ư? Anh ấy nói rằng anh ấy muốn yên bề gia thất ư?*
 
-
-
-
-
-
-1. **THIS IS A FREE EXPLANATION**
-
-
-3. **NOTE: THIS IS ONLY DISPLAYED IN THE PREMIUM VERSION. PUT EXPLANATIONS IN HERE.**
+  {% endif %}

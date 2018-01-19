@@ -13,6 +13,8 @@ lesson: "18"
 [comment]: <> The outcome of course number 1 is that students are able to understand and answer almost all of yes/no and Wh Questions 
 [comment]: <> Quyn :) 
 
+{% include player2.html identifier="who" class=page.class lesson=page.lesson %}
+
 ## Who
 1. **Who is tall in your class?** Ai thì cao trong lớp của bạn?
 2. **Who is important in a company?** Ai thì quan trọng trong công ty?
@@ -38,6 +40,7 @@ lesson: "18"
 22. **Who is wearing glasses in your class?** Ai đang mang mắt kiếng trong lớp
 23. **Who are you going to agree with?** Bạn sắp cãi nhau với ai?
 
+{% include player2.html identifier="where" class=page.class lesson=page.lesson %}
 ## Where 
 1.   **Where is your teacher?** Giáo viên bạn đâu?
 2. **Where is your bag?** Cặp của bạn đâu?
@@ -58,6 +61,7 @@ lesson: "18"
 18. **Where are you going to go after class?** Bạn sẽ đi đâu sau giờ học
 19. **Where will you go fishing?** Bạn sẽ đi câu cá ở đâu? 
 
+{% include player2.html identifier="when" class=page.class lesson=page.lesson %}
 ## When 
 1.  **When is Valentine’s day?** Valentine là khi nào?
 2.  **When is Halloween?** Halloween là khi nào?
@@ -72,6 +76,8 @@ lesson: "18"
 11.  **When did you first fall in love?** Bạn yêu là đầu là khi nào?
 12.  **When did you first meet her?** Bạn gặp cô ấy lần đâu khi nào? 
 13.  **When did you get up this morning?** Bạn thức dậy khi nào sáng nay?
+
+{% include player2.html identifier="yesnoquestions" class=page.class lesson=page.lesson %}
 
 ## Yes/no questions
 
@@ -118,6 +124,8 @@ lesson: "18"
 38. **Are the students going to plan the party?**
 39. **Are the teachers bothering the students?**
 40. **Is there an easy way to learn a language?**
+
+{% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
 
 ##Conversation 
 > Person 1: **Does the cinema in the centre of the city play good movies?**  

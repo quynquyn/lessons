@@ -7,9 +7,10 @@ lesson: "17"
 
 # Lesson 2.17: University life
 
+[comment]: <> NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
 
-## Vocabulary 
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
+## Vocabulary 
 ### Subject 
 **Mathematics**    
 **Literature**     
@@ -40,40 +41,15 @@ lesson: "17"
 **Business Administration**      
 **Accounting**      
 
-### exams
-Re-sit     
-Pass                           
-Fail                          
-Revise
-
-
-### ____Vocab [cat 1]____________ 
-
-NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
-
-{% include wordgrid.html 
-    class=page.class 
-    lesson=page.lesson 
-    section="[cat1]"
-    database=site.data.vocabulary 
-    trial=site.trialdeploy %}
-
-
-### ____Vocab [cat 2]____________ 
-
-{% include wordgrid.html 
-    class=page.class 
-    lesson=page.lesson 
-    section="[cat2]"
-    database=site.data.vocabulary 
-    trial=site.trialdeploy %}
+### Exams
+**Re-sit**
+**Pass**
+**Fail**
+**Revise**
 
 
 
-
-
-
-{% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
+{% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
 
 ## Conversation
 
@@ -93,13 +69,19 @@ NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVn
 
 
 
-{% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
+{% include player2.html identifier="explanation" class=page.class lesson=page.lesson %}
 ## Explanation
 
 ### 1. Did you prepare for this week's exam?
 - **Did you practice mathematics?**
 - **Did you finish the assignment the professor gave us last week?**
 - **Did you study for the exam in English? They say it's quite difficult.**
+
+
+{% if site.trialdeploy %}
+  {% include list_placeholder.html start=3 stop=6 %}
+  {% else %}
+
 
 ### 2. Despite studying math for 3 years, I'm considering switching to English.
 - **Despite the low salary, he enjoys his job!**
@@ -135,11 +117,5 @@ NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVn
 9.**Do you know when the first computer was created?**  
 10.**Despite already having two degrees, she told me she wants to get a third.**  
 
-
-
-{% if site.trialdeploy %}
-	{% include list_placeholder.html start=3 stop=13 %}
-	{% else %}
-3. **NOTE: THIS IS ONLY DISPLAYED IN THE PREMIUM VERSION. PUT EXPLANATIONS IN HERE.**.
 
   {% endif %}

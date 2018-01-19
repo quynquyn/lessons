@@ -8,6 +8,8 @@ lesson: "16"
 # Lesson 1.16: Present Continuous and Simple future tense 
 
 
+{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
+
 ## Vocabulary 
 
 {% include wordgrid.html 
@@ -41,6 +43,8 @@ lesson: "16"
 19. **I'm drinking my morning coffee. Don't bother me.** *Tôi đang uống cà phê sáng. Đừng làm phiền tôi* 
 20. **Larry is always talking on the phone! Is he talking to a girl?** *Larry thì luôn nói chuyện trên điện thoại. Có phải anh ấy đang nói chuyện với một cô gái không?*
 
+{% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
+
 ### Examples of Future simple tense 
 ##### Will - when making a decision / volunteer
 ##### Going to - after the decision is made / plans
@@ -68,6 +72,8 @@ For fixed planned events in the future. Often used with a word for future events
 4. **I just heard my wife is pregnant. I am getting drunk tonight!** *Tôi vừa nghe vợ tôi đang có thai. Hôm nay tôi sẽ say*
 5. **Tonight we are listening to an audiobook my father downloaded.** *Tối nay chúng tôi đang nghe một quyển sách Audio mà bố vừa tải xuống*
 
+{% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
+
 ### Example of Yes/no questions with Simple Future Tense and Present Continuous
 1. **Are you going to feed the dog?** *Bạn sẽ cho chó ăn phải không?*
 2. **Will you marry me?** *Em làm vợ anh nhá?*
@@ -90,6 +96,7 @@ For fixed planned events in the future. Often used with a word for future events
 19. **Are you listening to what I am saying?** *Bạn có đang nghe điều tô đang nói không?*
 20. **Will America be your home for the next three years?** *Có phải nước Mỹ sẽ là nhà của bạn trong vòng ba năm tới?*
 
+{% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
 ### Conversation
 > Person 1: **Will you be a guest at our wedding next month?**  *Bạn sẽ là khách mời tại tiệc cưới của chúng tôi tháng tới nhé*      
 > Person 2: **Yes, I will. I wouldn't miss my best friend's wedding.**  *Vâng, chắc chắn. Tôi sẽ không nhỡ đám cưới của bạn thân đâu*    
