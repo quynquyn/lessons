@@ -14,7 +14,17 @@
     <img src="{{site.baseurl}}/lessons/{{ word.image_url }}"  class="img-fluid img-thumbnail mx-auto d-block"  />
   {% endif %}
   
-  <strong>{{ word.word_en }}</strong>
+  
+  {% if include.voiceover and word.ts_start and word.ts_stop %}
+    <a class="el-vocab-play" id="play_{{ include.voiceover }}" 
+      onclick="playat('{{ include.voiceover }}', {{ word.ts_start }}, {{ word.ts_stop }}, 
+      '{{ include.class }}-{{ include.lesson }}', '{{ word.word_en }}');">▶ <strong>{{ word.word_en }}</strong></a>
+  {% else %}
+    <strong>{{ word.word_en }}</strong> 
+  {% endif %}
+  
+  
+  
   <br />
   
   {% if include.trial and count > WORDS_IN_TRIAL %}

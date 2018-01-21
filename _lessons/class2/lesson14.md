@@ -15,6 +15,7 @@ lesson: "14"
 		class=page.class 
 		lesson=page.lesson 
 		section="friendship"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
