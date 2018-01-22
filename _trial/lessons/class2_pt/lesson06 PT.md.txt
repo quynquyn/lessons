@@ -9,7 +9,7 @@
     <title>EnglishLetics</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/quyn/css/main.css" />
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
@@ -150,26 +150,12 @@
       </div>
 
     
-      <span class="navbar-text offer">
-        Limited Trial version
-        
-        
-        
-          <a class="nav-link btn btn-info" href="https://get.englishletics.com/">Upgrade me!</a>
-        
-        
-      </span>
-    
     
   
        
     </nav>
     
 
-    
-      <style>
-    	  body { background-color: #ddd;}
-      </style>
     
     
     <div class="container">
@@ -206,7 +192,7 @@
 <tr class="row1">
 <td class="col1">
   
-    <img src="/daily/lessons/class2/images/C2L06-Go-sightseeing.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L06-Go-sightseeing.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -226,7 +212,7 @@
   
 </td><td class="col2">
   
-    <img src="/daily/lessons/class2/images/C2L06-Enjoy-the-beauty-of-the-landscape.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L06-Enjoy-the-beauty-of-the-landscape.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -246,7 +232,7 @@
   
 </td><td class="col3">
   
-    <img src="/daily/lessons/class2/images/C2L06-Visit-the-museum.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L06-Visit-the-museum.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -266,7 +252,7 @@
   
 </td><td class="col4">
   
-    <img src="/daily/lessons/class2/images/C2L06-monument.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L06-monument.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -287,7 +273,7 @@
 </td></tr>
 <tr class="row2"><td class="col1">
   
-    <img src="/daily/lessons/class2/images/C2L06-Aquarium.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L06-Aquarium.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -307,7 +293,7 @@
   
 </td><td class="col2">
   
-    <img src="/daily/lessons/class2/images/C2L06-night-market.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L06-night-market.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -327,7 +313,7 @@
   
 </td><td class="col3">
   
-    <img src="/daily/lessons/class2/images/C2L06-white-sandy-beaches.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L06-white-sandy-beaches.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -347,7 +333,7 @@
   
 </td><td class="col4">
   
-    <img src="/daily/lessons/class2/images/C2L06-Build-sandcastles.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L06-Build-sandcastles.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -368,7 +354,7 @@
 </td></tr>
 <tr class="row3"><td class="col1">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L06-Watch-the-wildlife.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -381,13 +367,14 @@
   <br />
   
   
+    <em>Ngắm cuộc sống hoang dã</em>
   
   
   
   
 </td><td class="col2">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L06-Get-a-tan.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -400,13 +387,14 @@
   <br />
   
   
+    <em>Tắm nắng cho ngăm da</em>
   
   
   
   
 </td><td class="col3">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L06-get-tanned-skin.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -419,13 +407,14 @@
   <br />
   
   
+    <em></em>
   
   
   
   
 </td><td class="col4">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L06-Explore-caves.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -438,6 +427,7 @@
   <br />
   
   
+    <em>Thám hiểm hang động</em>
   
   
   
@@ -445,7 +435,7 @@
 </td></tr>
 <tr class="row4"><td class="col1">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L06-Go-hiking.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -458,13 +448,14 @@
   <br />
   
   
+    <em>Đi bộ leo núi</em>
   
   
   
   
 </td><td class="col2">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L06-Ride-a-cable-car.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -477,13 +468,14 @@
   <br />
   
   
+    <em>Đi cáp treo</em>
   
   
   
   
 </td><td class="col3">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L06-Wander-the-bustling-streets.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -496,13 +488,14 @@
   <br />
   
   
+    <em>Lang thang trên đường phố đông đúc</em>
   
   
   
   
 </td><td class="col4">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L06-Try-local-food.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -515,6 +508,7 @@
   <br />
   
   
+    <em>Ăn thực phẩm địa phương</em>
   
   
   
@@ -543,7 +537,7 @@
 <tr class="row1">
 <td class="col1">
   
-    <img src="/daily/lessons/class2/images/C2L06-Find-a-quiet-place-to-avoid-the-noise-of-the-city.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L06-Find-a-quiet-place-to-avoid-the-noise-of-the-city.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -563,7 +557,7 @@
   
 </td><td class="col2">
   
-    <img src="/daily/lessons/class2/images/C2L06-Take-pictures-and-capture-the-moments.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L06-Take-pictures-and-capture-the-moments.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -583,7 +577,7 @@
   
 </td><td class="col3">
   
-    <img src="/daily/lessons/class2/images/C2L06-Learn-about-the-world.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L06-Learn-about-the-world.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -603,7 +597,7 @@
   
 </td><td class="col4">
   
-    <img src="/daily/lessons/class2/images/C2L06-Know-more-about-other-countries-and-regions.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L06-Know-more-about-other-countries-and-regions.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -624,7 +618,7 @@
 </td></tr>
 <tr class="row2"><td class="col1">
   
-    <img src="/daily/lessons/class2/images/C2L06-Visit-friends-relatives.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L06-Visit-friends-relatives.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -644,7 +638,7 @@
   
 </td><td class="col2">
   
-    <img src="/daily/lessons/class2/images/C2L06-Take-a-break-from-work.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L06-Take-a-break-from-work.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -664,7 +658,7 @@
   
 </td><td class="col3">
   
-    <img src="/daily/lessons/class2/images/C2L06-Go-on-vacation.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L06-Go-on-vacation.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -684,7 +678,7 @@
   
 </td><td class="col4">
   
-    <img src="/daily/lessons/class2/images/C2L06-go-on-a-business-trip.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L06-go-on-a-business-trip.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -705,7 +699,7 @@
 </td></tr>
 <tr class="row3"><td class="col1">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L06-Learn-about-new-cultures-and-explore-new-places.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -718,6 +712,7 @@
   <br />
   
   
+    <em></em>
   
   
   
@@ -776,60 +771,60 @@ Eu só preciso comprar um travesseiro de viagem no aeroporto.
 - **My mother tries to call me** **A minha mãe tenta me chamar*
 
 
-	
-
-### 2. This content is available in the premium version.
-
-*Nội dung này có sẵn trong phiên bản cao cấp*
-
-- **Purchase the full version and get access right now.** *Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.*
-- **[Get access here](#)** *[Được truy cập ở đây](#)*
 
 
 
+### 2. This is your first overseas trip.
 
-### 3. This content is available in the premium version.
+Esta é a sua primeira viagem no exterior.
 
-*Nội dung này có sẵn trong phiên bản cao cấp*
+**one's first ...**
 
-- **Purchase the full version and get access right now.** *Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.*
-- **[Get access here](#)** *[Được truy cập ở đây](#)*
-
-
-
-
-### 4. This content is available in the premium version.
-
-*Nội dung này có sẵn trong phiên bản cao cấp*
-
-- **Purchase the full version and get access right now.** *Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.*
-- **[Get access here](#)** *[Được truy cập ở đây](#)*
+- **This is my first kiss** *Este é o meu primeiro beijo*
+- **That is her first tattoo** *Essa é a sua primeira tatuagem*
 
 
+### 3.  You’re not allowed to take liquids on the plane
+
+Não é permitido levar liquidos no avião. 
+
+**You are not allowed to ...**
+
+- **You are not allowed to smoke in the building** *Não é permitido fumar no prédio*
+- **You are not allowed to park your car here** *Não é permitido estacionar seu carro aqui*
+- **You are not allowed to talk during the exam** *Não é permitido conversar durante o exame*
 
 
-### 5. This content is available in the premium version.
+### 4.  You travel a lot.
 
-*Nội dung này có sẵn trong phiên bản cao cấp*
+Você viaja muito.  
 
-- **Purchase the full version and get access right now.** *Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.*
-- **[Get access here](#)** *[Được truy cập ở đây](#)*
+**I cried a lot** *Eu chorei muito*
+**I eat a lot** *Eu como muito*
+**She talks a lot** *Ela fala muito*
+
+### 5.  It’s an interesting way to know more about new cultures and explore new places.
+
+É uma maneira interessante de conhecer mais sobre novas culturas e explorar novos lugares.
+
+**It's an interesting way to...**
+
+- **It's an interesting way to get to know someone** *É uma maneira interessante de conhecer alguém*
+- **It's an interesting way to impress someone** *É uma maneira interessante de impressionar alguém*
+- **It's a simple way to solve the problem** *É uma maneira simples de resolver o problema*
+
+### 6.   It’s also the best way to find a quiet place.
+
+É também a melhor maneira de encontrar um lugar calmo.
+
+**It's the best way to...**
+
+- **It's the best way to ask him** *É a melhor maneira de perguntar a ele*
+- **It's the best way to get success** *É a melhor maneira de obter sucesso*
+- **It's the worst way to break up with someone** *É a pior maneira de separer-se de alguém*
 
 
 
-
-### 6. This content is available in the premium version.
-
-*Nội dung này có sẵn trong phiên bản cao cấp*
-
-- **Purchase the full version and get access right now.** *Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.*
-- **[Get access here](#)** *[Được truy cập ở đây](#)*
-
-
-
-  
-  
-	
             </div>
           </div>
         </div>

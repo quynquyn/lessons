@@ -9,7 +9,7 @@
     <title>EnglishLetics</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/quyn/css/main.css" />
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
@@ -150,26 +150,12 @@
       </div>
 
     
-      <span class="navbar-text offer">
-        Limited Trial version
-        
-        
-        
-          <a class="nav-link btn btn-info" href="https://get.englishletics.com/">Upgrade me!</a>
-        
-        
-      </span>
-    
     
   
        
     </nav>
     
 
-    
-      <style>
-    	  body { background-color: #ddd;}
-      </style>
     
     
     <div class="container">
@@ -212,7 +198,7 @@
 <tr class="row1">
 <td class="col1">
   
-    <img src="/daily/lessons/class2/images/C2L05-Farmer.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Farmer.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -232,7 +218,7 @@
   
 </td><td class="col2">
   
-    <img src="/daily/lessons/class2/images/C2L05-Baker.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Baker.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -252,7 +238,7 @@
   
 </td><td class="col3">
   
-    <img src="/daily/lessons/class2/images/C2L05-Driver.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Driver.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -272,7 +258,7 @@
   
 </td><td class="col4">
   
-    <img src="/daily/lessons/class2/images/C2L05-Housewife.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Housewife.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -293,7 +279,7 @@
 </td></tr>
 <tr class="row2"><td class="col1">
   
-    <img src="/daily/lessons/class2/images/C2L05-Businessman.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Businessman.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -313,7 +299,7 @@
   
 </td><td class="col2">
   
-    <img src="/daily/lessons/class2/images/C2L05-Cameraman.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Cameraman.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -333,7 +319,7 @@
   
 </td><td class="col3">
   
-    <img src="/daily/lessons/class2/images/C2L05-Postman.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Postman.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -353,7 +339,7 @@
   
 </td><td class="col4">
   
-    <img src="/daily/lessons/class2/images/C2L05-Mechanic.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Mechanic.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -374,7 +360,7 @@
 </td></tr>
 <tr class="row3"><td class="col1">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L05-Receptionist.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -387,13 +373,14 @@
   <br />
   
   
+    <em>Tiếp tân</em>
   
   
   
   
 </td><td class="col2">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L05-Dentist.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -406,13 +393,14 @@
   <br />
   
   
+    <em>Nha sĩ</em>
   
   
   
   
 </td><td class="col3">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L05-Artist.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -425,13 +413,14 @@
   <br />
   
   
+    <em>Nghệ sĩ</em>
   
   
   
   
 </td><td class="col4">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L05-Supervisor.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -444,6 +433,7 @@
   <br />
   
   
+    <em>Người giám sát</em>
   
   
   
@@ -451,7 +441,7 @@
 </td></tr>
 <tr class="row4"><td class="col1">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L05-Professor.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -464,6 +454,7 @@
   <br />
   
   
+    <em>Giáo sư</em>
   
   
   
@@ -491,7 +482,7 @@
 <tr class="row1">
 <td class="col1">
   
-    <img src="/daily/lessons/class2/images/C2L05-Confident.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Confident.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -511,7 +502,7 @@
   
 </td><td class="col2">
   
-    <img src="/daily/lessons/class2/images/C2L05-Shy.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Shy.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -531,7 +522,7 @@
   
 </td><td class="col3">
   
-    <img src="/daily/lessons/class2/images/C2L05-Strict.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Strict.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -551,7 +542,7 @@
   
 </td><td class="col4">
   
-    <img src="/daily/lessons/class2/images/C2L05-Easy-going.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Easy-going.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -572,7 +563,7 @@
 </td></tr>
 <tr class="row2"><td class="col1">
   
-    <img src="/daily/lessons/class2/images/C2L05-Talkative.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Talkative.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -592,7 +583,7 @@
   
 </td><td class="col2">
   
-    <img src="/daily/lessons/class2/images/C2L05-Quiet.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Quiet.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -612,7 +603,7 @@
   
 </td><td class="col3">
   
-    <img src="/daily/lessons/class2/images/C2L05-Interesting.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Interesting.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -632,7 +623,7 @@
   
 </td><td class="col4">
   
-    <img src="/daily/lessons/class2/images/C2L05-Boring.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Boring.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -653,7 +644,7 @@
 </td></tr>
 <tr class="row3"><td class="col1">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L05-Caring.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -666,13 +657,14 @@
   <br />
   
   
+    <em>Quan tâm</em>
   
   
   
   
 </td><td class="col2">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L05-Carefree.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -685,13 +677,14 @@
   <br />
   
   
+    <em>Vô tâm</em>
   
   
   
   
 </td><td class="col3">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L05-Dependent.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -704,13 +697,14 @@
   <br />
   
   
+    <em>Độc lập</em>
   
   
   
   
 </td><td class="col4">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L05-Independent.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -723,6 +717,7 @@
   <br />
   
   
+    <em>Phụ thuộc</em>
   
   
   
@@ -730,7 +725,7 @@
 </td></tr>
 <tr class="row4"><td class="col1">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L05-Hot-tempered.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -743,13 +738,14 @@
   <br />
   
   
+    <em>Nóng tính</em>
   
   
   
   
 </td><td class="col2">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L05-Even-tempered.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -762,13 +758,14 @@
   <br />
   
   
+    <em>Điềm tĩnh</em>
   
   
   
   
 </td><td class="col3">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L05-Mature.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -781,13 +778,14 @@
   <br />
   
   
+    <em>Trưởng thành</em>
   
   
   
   
 </td><td class="col4">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L05-Childish.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -800,6 +798,7 @@
   <br />
   
   
+    <em>Con nít</em>
   
   
   
@@ -824,7 +823,7 @@
 <tr class="row1">
 <td class="col1">
   
-    <img src="/daily/lessons/class2/images/C2L05-Smoke-cigarettes.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Smoke-cigarettes.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -844,7 +843,7 @@
   
 </td><td class="col2">
   
-    <img src="/daily/lessons/class2/images/C2L05-Get-up-early.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Get-up-early.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -864,7 +863,7 @@
   
 </td><td class="col3">
   
-    <img src="/daily/lessons/class2/images/C2L05-Go-to-bed-late.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Go-to-bed-late.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -884,7 +883,7 @@
   
 </td><td class="col4">
   
-    <img src="/daily/lessons/class2/images/C2L05-Eat-a-lot-of-candies.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Eat-a-lot-of-candies.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -905,7 +904,7 @@
 </td></tr>
 <tr class="row2"><td class="col1">
   
-    <img src="/daily/lessons/class2/images/C2L05-Cook-meals.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Cook-meals.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -925,7 +924,7 @@
   
 </td><td class="col2">
   
-    <img src="/daily/lessons/class2/images/C2L05-Do-the-laundry.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Do-the-laundry.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -945,7 +944,7 @@
   
 </td><td class="col3">
   
-    <img src="/daily/lessons/class2/images/C2L05-Mop-the-floor.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Mop-the-floor.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -965,7 +964,7 @@
   
 </td><td class="col4">
   
-    <img src="/daily/lessons/class2/images/C2L05-Feed-the-dog.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L05-Feed-the-dog.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -986,7 +985,7 @@
 </td></tr>
 <tr class="row3"><td class="col1">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L05-Make-most-of-the-decisions.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -999,13 +998,14 @@
   <br />
   
   
+    <em></em>
   
   
   
   
 </td><td class="col2">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L05-Argue-with-you.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -1018,13 +1018,14 @@
   <br />
   
   
+    <em>Tranh cãi với bạn</em>
   
   
   
   
 </td><td class="col3">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L05-Call-you-when-you-go-out-late-at-night.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -1037,6 +1038,7 @@
   <br />
   
   
+    <em>Bạn có thể ra khỏi nhà lúc đêm muộn không</em>
   
   
   
@@ -1096,60 +1098,54 @@ Ele vai me dar uma carona para casa
 - **He's going to study abroad** *Ele vai estudar no exterior*
 
 
-	
-
-### 2. This content is available in the premium version.
-
-*Nội dung này có sẵn trong phiên bản cao cấp*
-
-- **Purchase the full version and get access right now.** *Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.*
-- **[Get access here](#)** *[Được truy cập ở đây](#)*
 
 
 
 
-### 3. This content is available in the premium version.
 
-*Nội dung này có sẵn trong phiên bản cao cấp*
+### 2. What does your father do for a living?
 
-- **Purchase the full version and get access right now.** *Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.*
-- **[Get access here](#)** *[Được truy cập ở đây](#)*
+O que seu pai faz para ganhar a vida?
 
+- **What does your mother do for a living?** *O que sua mãe faz para ganhar a vida?*
+- **What do you do for a living?**. *Qual é a sua profissão?*
 
+### 3. I have three older brothers and two sisters
 
+Eu tenho três irmãos mais velhos e duas irmãs
 
-### 4. This content is available in the premium version.
-
-*Nội dung này có sẵn trong phiên bản cao cấp*
-
-- **Purchase the full version and get access right now.** *Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.*
-- **[Get access here](#)** *[Được truy cập ở đây](#)*
-
+- **I have an older brother and 2 younger sisters** *Eu tenho um irmão mais velho e duas irmãs mais novas*
+- **I have an older sister, 2 older brothers and a younger sister** *Eu tenho uma irmã mais velha, 2 irmãos mais velhos e uma irmã mais nova*
+- **I am an only child** *Eu sou filho único*
 
 
+### 4.  What is your mother like?
 
-### 5. This content is available in the premium version.
+Como é a sua mãe?
 
-*Nội dung này có sẵn trong phiên bản cao cấp*
+ - **What is your sister like?** *Como é a sua irmã?*
+ - **What is your manager like?** *Como é o seu gerente?*
+ - **What is the weather like?** *Como é o clima?*
 
-- **Purchase the full version and get access right now.** *Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.*
-- **[Get access here](#)** *[Được truy cập ở đây](#)*
+### 5.  Who makes most of the decisions in your family?
+
+Quem toma a maioria das decisões em sua família?
+
+**Who + verb (s/es)**
+
+- **Who feeds the dog in your family?** *Quem alimenta o cachorro em sua família?*
+- **Who does the shopping in your family?** *Quem faz as compras na sua família?*
+- **Who gets up early in your family?** *Quem se levanta cedo na sua família?*
+
+### 6.  Do you have a large family?
+
+Você tem uma família grande?
+
+- **Do you have a big family?** *Você tem uma família grande?*
+- **Do you have any siblings?** *Você tem algum irmão?*
+- **How many people are there in your family?** *Quantas pessoas tem em sua família?*
 
 
-
-
-### 6. This content is available in the premium version.
-
-*Nội dung này có sẵn trong phiên bản cao cấp*
-
-- **Purchase the full version and get access right now.** *Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.*
-- **[Get access here](#)** *[Được truy cập ở đây](#)*
-
-
-
-  
-  
-	
             </div>
           </div>
         </div>

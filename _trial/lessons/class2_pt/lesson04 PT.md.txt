@@ -9,7 +9,7 @@
     <title>EnglishLetics</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/quyn/css/main.css" />
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
@@ -150,26 +150,12 @@
       </div>
 
     
-      <span class="navbar-text offer">
-        Free full version (last day)
-        
-        
-        
-          <a class="nav-link btn btn-info" href="https://get.englishletics.com/">Upgrade me!</a>
-        
-        
-      </span>
-    
     
   
        
     </nav>
     
 
-    
-      <style>
-    	  body { background-color: #ddd;}
-      </style>
     
     
     <div class="container">
@@ -210,7 +196,7 @@
 <tr class="row1">
 <td class="col1">
   
-    <img src="/daily/lessons/class2/images/C2L04-Comedy.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L04-Comedy.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -230,7 +216,7 @@
   
 </td><td class="col2">
   
-    <img src="/daily/lessons/class2/images/C2L04-Drama.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L04-Drama.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -250,7 +236,7 @@
   
 </td><td class="col3">
   
-    <img src="/daily/lessons/class2/images/C2L04-Romantic-movie.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L04-Romantic-movie.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -270,7 +256,7 @@
   
 </td><td class="col4">
   
-    <img src="/daily/lessons/class2/images/C2L04-Horror-movie.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L04-Horror-movie.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -291,7 +277,7 @@
 </td></tr>
 <tr class="row2"><td class="col1">
   
-    <img src="/daily/lessons/class2/images/C2L04-Science-fiction-movie.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L04-Science-fiction-movie.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -311,7 +297,7 @@
   
 </td><td class="col2">
   
-    <img src="/daily/lessons/class2/images/C2L04-Cartoon.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L04-Cartoon.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -331,7 +317,7 @@
   
 </td><td class="col3">
   
-    <img src="/daily/lessons/class2/images/C2L04-Action-movie.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L04-Action-movie.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -351,7 +337,7 @@
   
 </td><td class="col4">
   
-    <img src="/daily/lessons/class2/images/C2L04-Western-movie.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L04-Western-movie.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -372,7 +358,7 @@
 </td></tr>
 <tr class="row3"><td class="col1">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L04-Korean-movie.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -385,13 +371,14 @@
   <br />
   
   
+    <em>Phim Hàn Quốc</em>
   
   
   
   
 </td><td class="col2">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L04-Fantasy-movie.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -404,13 +391,14 @@
   <br />
   
   
+    <em>Phim giả tưởng</em>
   
   
   
   
 </td><td class="col3">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L04-Documentary.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -423,6 +411,7 @@
   <br />
   
   
+    <em>Phim tài liệu</em>
   
   
   
@@ -449,7 +438,7 @@
 <tr class="row1">
 <td class="col1">
   
-    <img src="/daily/lessons/class2/images/C2L04-Interesting-Exciting.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L04-Interesting-Exciting.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -469,7 +458,7 @@
   
 </td><td class="col2">
   
-    <img src="/daily/lessons/class2/images/C2L04-Funny-Amusing-Hilarious.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L04-Funny-Amusing-Hilarious.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -489,7 +478,7 @@
   
 </td><td class="col3">
   
-    <img src="/daily/lessons/class2/images/C2L04-Touching-Moving-Heart-warming.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L04-Touching-Moving-Heart-warming.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -509,7 +498,7 @@
   
 </td><td class="col4">
   
-    <img src="/daily/lessons/class2/images/C2L04-Romantic-sweet.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L04-Romantic-sweet.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -530,7 +519,7 @@
 </td></tr>
 <tr class="row2"><td class="col1">
   
-    <img src="/daily/lessons/class2/images/C2L04-Shocking-Impressive.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L04-Shocking-Impressive.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -550,7 +539,7 @@
   
 </td><td class="col2">
   
-    <img src="/daily/lessons/class2/images/C2L04-Scary-Terrifying.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L04-Scary-Terrifying.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -570,7 +559,7 @@
   
 </td><td class="col3">
   
-    <img src="/daily/lessons/class2/images/C2L04-Instructive-Informative-educational.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L04-Instructive-Informative-educational.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -590,7 +579,7 @@
   
 </td><td class="col4">
   
-    <img src="/daily/lessons/class2/images/C2L04-Thought-provoking.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+    <img src="/quyn/lessons/class2/images/C2L04-Thought-provoking.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -611,7 +600,7 @@
 </td></tr>
 <tr class="row3"><td class="col1">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L04-Amazing-wonderful-fantastic-awesome-great.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -624,13 +613,14 @@
   <br />
   
   
+    <em>Tuyệt vời</em>
   
   
   
   
 </td><td class="col2">
   
-    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/quyn/lessons/class2/images/C2L04-Terrible-awful-disgusting-disappointing-silly-boring-weird.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
   
   
   
@@ -643,6 +633,7 @@
   <br />
   
   
+    <em>Tệ / Tệ / Thấy gớm/ Gây thất vọng/ Ngớ ngần / Chán / Kì cục</em>
   
   
   
