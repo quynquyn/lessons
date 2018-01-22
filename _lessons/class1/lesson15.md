@@ -14,10 +14,14 @@ lesson: "15"
 
 ### Periods in the past
 
-
-| **Two days ago** | **Six weeks before that** | **An hour earlier** |
-| **When I was a child** | **When I lived with my parents** |
-| **Last night** | **Last week** | **Last summer** | **Last Christmas** |
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="simplepasttense"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+		
 
 ## I. The verb “To be”
 

@@ -11,27 +11,15 @@ lesson: "15"
 ## Vocabulary 
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 
-**Get engaged**     
-**Get married**      
-**Get divorced**     
-**Fancy someone**     
-**Share so many common interests**     
-**Have a crush on someone**     
-**Fall in love**     
-**Be in love with someone**     
-**Fall head over heels in love**     
-**Ask someone out**     
-**Break up with someone**     
-**Share the housework**     
-**Share the ups and downs in life**     
-**Show that you care**     
-**Move on**      
-**Get over someone**     
-**Let bygones be bygones**     
-**Remember that there are plenty of fish in the sea**     
 
-
-
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="love"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+	
 
 {% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
 
