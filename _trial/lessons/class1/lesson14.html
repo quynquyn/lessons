@@ -9,7 +9,7 @@
     <title>EnglishLetics</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
@@ -24,11 +24,15 @@
     
     <script>
       
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
         function play(audio_id, lesson, word) {
             var audio = document.getElementById("audio_"+ audio_id);
             if (audio.paused) {
                 audio.play();
-                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
                 
                 gtag('event', 'playsound', {
                   'event_category': 'useraction',
@@ -38,27 +42,32 @@
                 
             }else{
                 audio.pause();
-                audio.currentTime = 0
+                //audio.currentTime = 0
                 document.getElementById('play_'+ audio_id).innerHTML = '▶';
             }
         }
-        function playat(audio_id, start, stop, lesson, word) {
+        function playat(audio_id, astart, astop, lesson, word) {
       // TODO
       // stop all other players
       // start at timestamp, stop at timestamp
       
       
             var audio = document.getElementById("audio_"+ audio_id);
-            audio.currentTime = start;
+            audio.currentTime = astart;
             if (audio.paused) {
                 audio.play();
-                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
                 
                 gtag('event', 'playsound', {
                   'event_category': 'useraction',
                   'event_label': lesson,
                   'value': word, 
                 });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
                 
             }else{
                 audio.pause();
@@ -94,6 +103,7 @@
         						|| jQuery(this).is('h2')
         						|| jQuery(this).is('h3')
         						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
         						;
         		        })
         		        .map(function () { /*create a new object using these elements*/
@@ -169,258 +179,919 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-                <audio src="https://englishletics.s3.amazonaws.com/audio/C1L14-Vocabulary.mp3" id="audio_lesson-vocabulary" preload="none"></audio>
-
-<div class="row">
-  <div class="col-1">
-    <span class="el-player-icon" id="play_lesson-vocabulary" onclick="play('lesson-vocabulary', 'C1L14', 'lesson-vocabulary');">▶</span>
-  </div>
-</div>
-
-<div class="audiofile-info">C1L14-Vocabulary.mp3</div>
-<h1 id="lesson-114-when">Lesson 1.14: WHEN</h1>
+                <h1 id="lesson-114-when">Lesson 1.14: When</h1>
 
 <h2 id="vocabulary">Vocabulary</h2>
 
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L14-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '14', 'vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L14-vocabulary.mp3</div>
+
 <h3 id="parts-of-the-day">Parts of the Day</h3>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
 <table>
-  <tbody>
-    <tr>
-      <td><strong>Morning</strong></td>
-      <td><strong>Afternoon</strong></td>
-      <td><strong>Evening</strong></td>
-      <td><strong>Night</strong></td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-    </tr>
-  </tbody>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Morning.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Morning</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Afternoon.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Afternoon</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Evening.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Evening</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Night.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Night</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
+
 </table>
 
 <h3 id="seasons">Seasons</h3>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
 <table>
-  <tbody>
-    <tr>
-      <td><strong>Spring</strong></td>
-      <td><strong>Summer</strong></td>
-      <td><strong>Autumn</strong></td>
-      <td><strong>Winter</strong></td>
-    </tr>
-    <tr>
-      <td><em>Kế toán</em></td>
-      <td><em>Thợ làm bánh</em></td>
-      <td><em>Người hớt tóc nam</em></td>
-      <td><em>Người pha chế</em></td>
-    </tr>
-  </tbody>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Spring.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Spring</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Summer.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Summer</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Autumn.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Autumn</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Winter.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Winter</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
+
 </table>
 
 <h3 id="days-of-the-week">Days of the Week</h3>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
 <table>
-  <tbody>
-    <tr>
-      <td><strong>Monday</strong></td>
-      <td><strong>Tuesday</strong></td>
-      <td><strong>Wednesday</strong></td>
-      <td><strong>Thursday</strong></td>
-    </tr>
-    <tr>
-      <td><em>Kế toán</em></td>
-      <td><em>Thợ làm bánh</em></td>
-      <td><em>Người hớt tóc nam</em></td>
-      <td><em>Người pha chế</em></td>
-    </tr>
-  </tbody>
-</table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Monday.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Monday</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Tuesday.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Tuesday</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Wednesday.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Wednesday</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Thursday.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Thursday</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Friday.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Friday</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Saturday.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Saturday</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Sunday.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Sunday</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
-<table>
-  <tbody>
-    <tr>
-      <td><strong>Friday</strong></td>
-      <td><strong>Saturday</strong></td>
-      <td><strong>Sunday</strong></td>
-    </tr>
-    <tr>
-      <td><em>Kế toán</em></td>
-      <td><em>Thợ làm bánh</em></td>
-      <td><em>Người hớt tóc nam</em></td>
-    </tr>
-  </tbody>
 </table>
 
 <h3 id="months-of-the-year">Months of the Year</h3>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
 <table>
-  <tbody>
-    <tr>
-      <td><strong>January</strong></td>
-      <td><strong>February</strong></td>
-      <td><strong>March</strong></td>
-      <td><strong>April</strong></td>
-    </tr>
-    <tr>
-      <td><em>Kế toán</em></td>
-      <td><em>Thợ làm bánh</em></td>
-      <td><em>Người hớt tóc nam</em></td>
-      <td><em>Người pha chế</em></td>
-    </tr>
-  </tbody>
-</table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class1/images/C1L14-January.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>January</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/C1L14-February.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>February</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/C1L14-March.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>March</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/C1L14-April.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>April</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class1/images/C1L14-May.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>May</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/C1L14-June.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>June</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/C1L14-July.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>July</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/C1L14-August.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>August</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>September</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>October</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>November</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>December</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
-<table>
-  <tbody>
-    <tr>
-      <td><strong>May</strong></td>
-      <td><strong>June</strong></td>
-      <td><strong>July</strong></td>
-      <td><strong>August</strong></td>
-    </tr>
-    <tr>
-      <td><em>Kế toán</em></td>
-      <td><em>Thợ làm bánh</em></td>
-      <td><em>Người hớt tóc nam</em></td>
-      <td><em>Người pha chế</em></td>
-    </tr>
-  </tbody>
-</table>
-
-<p><img src="{{site.baseurl}}/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
-<table>
-  <tbody>
-    <tr>
-      <td><strong>September</strong></td>
-      <td><strong>October</strong></td>
-      <td><strong>November</strong></td>
-      <td><strong>December</strong></td>
-    </tr>
-    <tr>
-      <td><em>Kế toán</em></td>
-      <td><em>Thợ làm bánh</em></td>
-      <td><em>Người hớt tóc nam</em></td>
-      <td><em>Người pha chế</em></td>
-    </tr>
-  </tbody>
 </table>
 
 <h3 id="frequency">Frequency</h3>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
 <table>
-  <tbody>
-    <tr>
-      <td><strong>Always</strong></td>
-      <td><strong>Usually/Often</strong></td>
-      <td><strong>Sometimes</strong></td>
-      <td><strong>Rarely</strong></td>
-    </tr>
-    <tr>
-      <td><em>Kế toán</em></td>
-      <td><em>Thợ làm bánh</em></td>
-      <td><em>Người hớt tóc nam</em></td>
-      <td><em>Người pha chế</em></td>
-    </tr>
-  </tbody>
-</table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Always.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Always</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Usually-Often.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Usually/Often</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Sometimes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Sometimes</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Rarely.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Rarely</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Never.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Never</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
-<table>
-  <tbody>
-    <tr>
-      <td><strong>Never</strong></td>
-    </tr>
-    <tr>
-      <td><em>Kế toán</em></td>
-    </tr>
-  </tbody>
 </table>
 
 <h3 id="days">Days</h3>
-<p><img src="{{site.baseurl}}/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <table>
-  <tbody>
-    <tr>
-      <td><strong>First</strong></td>
-      <td><strong>Second</strong></td>
-      <td><strong>Third</strong></td>
-      <td><strong>Fourth</strong></td>
-    </tr>
-    <tr>
-      <td><em>Kế toán</em></td>
-      <td><em>Thợ làm bánh</em></td>
-      <td><em>Người hớt tóc nam</em></td>
-      <td><em>Người pha chế</em></td>
-    </tr>
-  </tbody>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class1/images/C1L14-First.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>First</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Second.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Second</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Third.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Third</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Fourth.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Fourth</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Fifth.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Fifth</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Sixth.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Sixth</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Seventh.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Seventh</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/C1L14-Eigth.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Eigth</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Ninth</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Tenth</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
 </table>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<h2 id="example">Example</h2>
 
-<table>
-  <tbody>
-    <tr>
-      <td><strong>Fifth</strong></td>
-      <td><strong>Sixth</strong></td>
-      <td><strong>Seventh</strong></td>
-      <td><strong>Eigth</strong></td>
-    </tr>
-    <tr>
-      <td><em>Kế toán</em></td>
-      <td><em>Thợ làm bánh</em></td>
-      <td><em>Người hớt tóc nam</em></td>
-      <td><em>Người pha chế</em></td>
-    </tr>
-  </tbody>
-</table>
-
-<p><img src="{{site.baseurl}}/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
-<table>
-  <tbody>
-    <tr>
-      <td><strong>Ninth</strong></td>
-      <td><strong>Tenth</strong></td>
-    </tr>
-    <tr>
-      <td><em>Kế toán</em></td>
-      <td><em>Thợ làm bánh</em></td>
-    </tr>
-  </tbody>
-</table>
-
-<p><img src="{{site.baseurl}}/lessons/class1/lesson14/C1L14-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
-<audio src="https://englishletics.s3.amazonaws.com/audio/C1L14-Conversation.mp3" id="audio_lesson-conversation" preload="none"></audio>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L14-examples1.mp3" id="audio_examples1" preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <span class="el-player-icon" id="play_lesson-conversation" onclick="play('lesson-conversation', 'C1L14', 'lesson-conversation');">▶</span>
+    <span class="el-player-icon" id="play_examples1" onclick="play('examples1', '14', 'examples1');">▶</span>
   </div>
 </div>
 
-<div class="audiofile-info">C1L14-Conversation.mp3</div>
-<h2 id="example">Example</h2>
+<div class="audiofile-info">C1L14-examples1.mp3</div>
 
 <ol>
   <li><strong>When is your birthday?</strong> <strong>My birthday is on January 1st</strong></li>
@@ -435,16 +1106,18 @@
   <li><strong>What time is it?</strong> <strong>It’s a quarter to six</strong></li>
 </ol>
 
-<audio src="https://englishletics.s3.amazonaws.com/audio/C1L14-Explanation.mp3" id="audio_lesson-explanation" preload="none"></audio>
+<h2 id="more-examples">More examples</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L14-examples2.mp3" id="audio_examples2" preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <span class="el-player-icon" id="play_lesson-explanation" onclick="play('lesson-explanation', 'C1L14', 'lesson-explanation');">▶</span>
+    <span class="el-player-icon" id="play_examples2" onclick="play('examples2', '14', 'examples2');">▶</span>
   </div>
 </div>
 
-<div class="audiofile-info">C1L14-Explanation.mp3</div>
-<h2 id="more-examples">More examples</h2>
+<div class="audiofile-info">C1L14-examples2.mp3</div>
+
 <ol>
   <li><strong>When do you do homework?</strong> <strong>I do homework whenever I have free time</strong></li>
   <li><strong>When do you intend to buy a computer?</strong> <strong>I intend to buy a computer whenever I have enough money</strong></li>

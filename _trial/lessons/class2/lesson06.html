@@ -9,7 +9,7 @@
     <title>EnglishLetics</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
@@ -24,11 +24,15 @@
     
     <script>
       
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
         function play(audio_id, lesson, word) {
             var audio = document.getElementById("audio_"+ audio_id);
             if (audio.paused) {
                 audio.play();
-                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
                 
                 gtag('event', 'playsound', {
                   'event_category': 'useraction',
@@ -38,27 +42,32 @@
                 
             }else{
                 audio.pause();
-                audio.currentTime = 0
+                //audio.currentTime = 0
                 document.getElementById('play_'+ audio_id).innerHTML = '▶';
             }
         }
-        function playat(audio_id, start, stop, lesson, word) {
+        function playat(audio_id, astart, astop, lesson, word) {
       // TODO
       // stop all other players
       // start at timestamp, stop at timestamp
       
       
             var audio = document.getElementById("audio_"+ audio_id);
-            audio.currentTime = start;
+            audio.currentTime = astart;
             if (audio.paused) {
                 audio.play();
-                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
                 
                 gtag('event', 'playsound', {
                   'event_category': 'useraction',
                   'event_label': lesson,
                   'value': word, 
                 });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
                 
             }else{
                 audio.pause();
@@ -94,6 +103,7 @@
         						|| jQuery(this).is('h2')
         						|| jQuery(this).is('h3')
         						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
         						;
         		        })
         		        .map(function () { /*create a new object using these elements*/
@@ -185,113 +195,515 @@
 
 <table>
 <tr class="row1">
-</tr>
+<td class="col1">
+  
+    <img src="/daily/lessons/class2/images/C2L06-Go-sightseeing.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Go sightseeing</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Đi ngắm cảnh</em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/C2L06-Enjoy-the-beauty-of-the-landscape.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Enjoy the beauty of the landscape</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Tận hưởng vẻ đẹp của phong cảnh</em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/C2L06-Visit-the-museum.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Visit the museum</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Thăm viện bảo tàng</em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class2/images/C2L06-monument.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>monument</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>tượng đài</em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class2/images/C2L06-Aquarium.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Aquarium</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>thủy cung</em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/C2L06-night-market.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>night market</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>chợ đêm</em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/C2L06-white-sandy-beaches.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>white sandy beaches</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class2/images/C2L06-Build-sandcastles.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Build sandcastles</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Xây lâu đài cát</em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Watch the wildlife</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Get a tan</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>get tanned skin</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Explore caves</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Go hiking</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Ride a cable car</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Wander the bustling streets</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Try local food</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
 
-</table>
-
-<p><img src="{{site.baseurl}}/lessons/class2/lesson06/C2L06-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
-<table>
-  <tbody>
-    <tr>
-      <td><strong>Go sightseeing</strong></td>
-      <td><strong>Enjoy the beauty of the landscape</strong></td>
-      <td><strong>Visit the museum</strong></td>
-      <td><strong>monument</strong></td>
-    </tr>
-    <tr>
-      <td><em>Đi ngắm cảnh</em></td>
-      <td><em>Tận hưởng vẻ đẹp của phong cảnh</em></td>
-      <td><em>Thăm viện bảo tàng</em></td>
-      <td><em>tượng đài</em></td>
-    </tr>
-  </tbody>
-</table>
-
-<p><img src="{{site.baseurl}}/lessons/class2/lesson06/C2L06-Grid2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
-<table>
-  <tbody>
-    <tr>
-      <td><strong>Aquarium</strong></td>
-      <td><strong>night market</strong></td>
-      <td><strong>white sandy beaches</strong></td>
-      <td><strong>Build sandcastles</strong></td>
-    </tr>
-    <tr>
-      <td><em>thủy cung</em></td>
-      <td><em>chợ đêm</em></td>
-      <td> </td>
-      <td><em>Xây lâu đài cát</em></td>
-    </tr>
-  </tbody>
-</table>
-
-<p><img src="{{site.baseurl}}/lessons/class2/lesson06/C2L06-Grid3.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
-<table>
-  <tbody>
-    <tr>
-      <td><strong>Watch the wildlife</strong></td>
-      <td><strong>Get a tan</strong></td>
-      <td><strong>get tanned skin</strong></td>
-      <td><strong>Explore caves</strong></td>
-    </tr>
-    <tr>
-      <td><em>Ngắm cuộc sống hoang dã</em></td>
-      <td><em>Tắm nắng cho ngăm da</em></td>
-      <td> </td>
-      <td><em>Thám hiểm hang động</em></td>
-    </tr>
-  </tbody>
-</table>
-
-<p><img src="{{site.baseurl}}/lessons/class2/lesson06/C2L06-Grid4.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
-<table>
-  <tbody>
-    <tr>
-      <td><strong>Go hiking</strong></td>
-      <td><strong>Ride a cable Car</strong></td>
-      <td><strong>Wander the bustling streets</strong></td>
-      <td><strong>Try local food</strong></td>
-    </tr>
-    <tr>
-      <td><em>Đi bộ leo núi</em></td>
-      <td><em>Đi cáp treo</em></td>
-      <td><em>Lang thang trên đường phố đông đúc</em></td>
-      <td><em>Ăn thực phẩm địa phương</em></td>
-    </tr>
-  </tbody>
 </table>
 
 <h3 id="purpose">Purpose</h3>
 
 <p><strong>I travel there to…</strong></p>
 
-<p><img src="{{site.baseurl}}/lessons/class2/lesson06/C2L06-Grid5.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class2/images/C2L06-Find-a-quiet-place-to-avoid-the-noise-of-the-city.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Find a quiet place to avoid the noise of the city</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Tìm nơi yên tĩnh để tránh sự ồn ào của thành phố</em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/C2L06-Take-pictures-and-capture-the-moments.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Take pictures and capture the moments</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Chụp hình và chụp những khoảnh khắc</em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/C2L06-Learn-about-the-world.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Learn about the world</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Học thêm về thế giới</em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class2/images/C2L06-Know-more-about-other-countries-and-regions.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Know more about other countries and regions</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Biết hơn về những đất nước và vùng miền khác</em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class2/images/C2L06-Visit-friends-relatives.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Visit friends / relatives</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/C2L06-Take-a-break-from-work.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Take a break from work</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/C2L06-Go-on-vacation.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Go on vacation</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class2/images/C2L06-go-on-a-business-trip.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>go on a business trip</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Learn about new cultures and explore new places</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
 
-<ol>
-  <li><strong>Find a quiet place to avoid the noise of the city</strong> <em>Tìm nơi yên tĩnh để tránh sự ồn ào của thành phố</em></li>
-  <li><strong>Take pictures and capture the moments</strong> <em>Chụp hình và chụp những khoảnh khắc</em></li>
-  <li><strong>Learn about the world</strong> <em>Học thêm về thế giới</em></li>
-  <li><strong>Know more about other countries and regions</strong> <em>Biết hơn về những đất nước và vùng miền khác</em></li>
-</ol>
-
-<p><img src="{{site.baseurl}}/lessons/class2/lesson06/C2L06-Grid6.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
-<ol>
-  <li><strong>Visit friends / relatives</strong> <em>Thăm bạn bè/ họ hàng</em></li>
-  <li><strong>Take a break from work</strong> <em>Giải lao cho công việc</em></li>
-  <li><strong>Go on vacation</strong> <em>Đi kì nghỉ</em></li>
-</ol>
-
-<p><img src="{{site.baseurl}}/lessons/class2/lesson06/C2L06-Grid7.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
-<ol>
-  <li><strong>go on a business trip</strong> <em>Đi công tác</em></li>
-  <li><strong>Learn about new cultures and explore new places.</strong> <em>Học về những văn hóa mới và thám hiểm những nơi mới</em></li>
-</ol>
+</table>
 
 <audio src="https://englishletics.s3.amazonaws.com/audio/C2L06-Conversation.mp3" id="audio_lesson-conversation" preload="none"></audio>
 
@@ -331,7 +743,7 @@ P1: <strong>That sounds amazing. I hope you have a nice flight</strong></p>
 
 <h3 id="1-i-just-need-to-buy-a-travel-pillow-at-the-airport">1. I just need to buy a travel pillow at the airport.</h3>
 
-<p>Tôi cần mua một cái gối du lịch tại sân bay
+<p>Tôi cần mua một cái gối du lịch tại sân bay.
 <strong>Verb to verb</strong></p>
 
 <ul>

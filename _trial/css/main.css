@@ -6399,6 +6399,8 @@ section.el-lesson .el-player-icon {
   font-size: 180%;
   font-weight: bold;
   cursor: pointer; }
+section.el-lesson .el-vocab-play {
+  cursor: pointer; }
 
 .audiofile-info {
   color: blue;

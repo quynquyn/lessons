@@ -9,7 +9,7 @@
     <title>EnglishLetics</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
@@ -24,11 +24,15 @@
     
     <script>
       
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
         function play(audio_id, lesson, word) {
             var audio = document.getElementById("audio_"+ audio_id);
             if (audio.paused) {
                 audio.play();
-                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
                 
                 gtag('event', 'playsound', {
                   'event_category': 'useraction',
@@ -38,27 +42,32 @@
                 
             }else{
                 audio.pause();
-                audio.currentTime = 0
+                //audio.currentTime = 0
                 document.getElementById('play_'+ audio_id).innerHTML = '▶';
             }
         }
-        function playat(audio_id, start, stop, lesson, word) {
+        function playat(audio_id, astart, astop, lesson, word) {
       // TODO
       // stop all other players
       // start at timestamp, stop at timestamp
       
       
             var audio = document.getElementById("audio_"+ audio_id);
-            audio.currentTime = start;
+            audio.currentTime = astart;
             if (audio.paused) {
                 audio.play();
-                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
                 
                 gtag('event', 'playsound', {
                   'event_category': 'useraction',
                   'event_label': lesson,
                   'value': word, 
                 });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
                 
             }else{
                 audio.pause();
@@ -94,6 +103,7 @@
         						|| jQuery(this).is('h2')
         						|| jQuery(this).is('h3')
         						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
         						;
         		        })
         		        .map(function () { /*create a new object using these elements*/
@@ -184,60 +194,60 @@
 
 <h3 id="1-playing-football-ping-pong-badminton-gamescardschess">1. Playing football/ ping-pong/ badminton/ games/cards/chess</h3>
 <p><em>(Đá banh/ bóng bàn/ cầu lông/ chơi game/ đánh bài/ chơi cờ)</em>
-<img src="{{site.baseurl}}/lessons/class2/lesson01/C2L01-Hobbies_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<img src="/daily/lessons/class2/lesson01/C2L01-Hobbies_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <h3 id="2-doing-aerobics--yoga-aerobic-yoga">2. Doing aerobics / yoga <em>(aerobic/ yoga)</em></h3>
-<p><img src="{{site.baseurl}}/lessons/class2/lesson01/C2L01-Hobbies_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class2/lesson01/C2L01-Hobbies_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <h3 id="3-working-out-at-the-gym-tập-luyện-ở-phòng-gym">3. Working out at the gym <em>(Tập luyện ở phòng gym)</em></h3>
-<p><img src="{{site.baseurl}}/lessons/class2/lesson01/C2L01-Hobbies_3.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class2/lesson01/C2L01-Hobbies_3.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <h3 id="4-going-swimming-shopping-fishing-jogging-rollerblading--roller-skating-skateboarding">4. Going swimming/ shopping/ fishing/ jogging/ rollerblading / roller skating/ skateboarding</h3>
 <p><em>(Bơi/ mua sắm/ câu cá/ đi bộ nhanh/ trượt pa tinh (4 bánh nhỏ mỗi bên 2 bánh)/ trượt pa tin (4 bánh nhỏ thành 1 hàng dọc)/ trượt pa tin ván)</em></p>
 
-<p><img src="{{site.baseurl}}/lessons/class2/lesson01/C2L01-Hobbies_4.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class2/lesson01/C2L01-Hobbies_4.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <h3 id="5-going-for-a-picnic--going-for-a-walk">5. Going for a picnic / Going for a walk.</h3>
 <p><em>(Đi picnic/ đi bộ đi dạo)</em></p>
 
-<p><img src="{{site.baseurl}}/lessons/class2/lesson01/C2L01-Hobbies_5.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class2/lesson01/C2L01-Hobbies_5.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <h3 id="6-reading-books-đọc-sách">6. Reading books <em>(Đọc sách)</em></h3>
-<p><img src="{{site.baseurl}}/lessons/class2/lesson01/C2L01-Hobbies_6.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class2/lesson01/C2L01-Hobbies_6.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <h3 id="7-surfing-kitesurfing-windsurfing">7. Surfing/ Kitesurfing/ Windsurfing</h3>
 <p><em>(lướt ván / lướt ván diều kéo / trượt ván buồm)</em></p>
 
-<p><img src="{{site.baseurl}}/lessons/class2/lesson01/C2L01-Hobbies_7.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class2/lesson01/C2L01-Hobbies_7.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <h3 id="8-hanging-out--with-my-family-my-close-friends-by-myself">8. Hanging out + with my family/ my close friends/ by myself</h3>
 <p><em>(Đi chơi với gia đình/ bạn thân/ một mình)</em></p>
 
-<p><img src="{{site.baseurl}}/lessons/class2/lesson01/C2L01-Hobbies_8.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class2/lesson01/C2L01-Hobbies_8.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <h3 id="9-walking-the-dog-taking-photos-taking-selfies">9. Walking the dog/ Taking photos/ taking selfies</h3>
 <p><em>(Dắt chó đi dạo/ chụp hình/ tự sướng)</em></p>
 
-<p><img src="{{site.baseurl}}/lessons/class2/lesson01/C2L01-Hobbies_9.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class2/lesson01/C2L01-Hobbies_9.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <h3 id="10-riding-a-smart-balance-wheel-ride-a-hoverboard">10. Riding a smart balance wheel/ ride a hoverboard</h3>
 <p><em>(Ván trượt thông mình tự cân bằng)</em></p>
 
-<p><img src="{{site.baseurl}}/lessons/class2/lesson01/C2L01-Hobbies_10.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class2/lesson01/C2L01-Hobbies_10.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <h3 id="11-drawing-paintingvẽ-tô-màu">11. Drawing/ painting<em>(Vẽ/ tô màu)</em></h3>
-<p><img src="{{site.baseurl}}/lessons/class2/lesson01/C2L01-Hobbies_11.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class2/lesson01/C2L01-Hobbies_11.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <h3 id="12-collecting-stamps-dolls-coins">12. Collecting stamps/ dolls/ coins</h3>
 <p><em>(Thu thập tem/ búp bê/ đồng xu)</em></p>
 
-<p><img src="{{site.baseurl}}/lessons/class2/lesson01/C2L01-Hobbies_12.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class2/lesson01/C2L01-Hobbies_12.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <h3 id="13-horse-riding-cưỡi-ngựa">13. Horse riding <em>(Cưỡi ngựa)</em></h3>
-<p><img src="{{site.baseurl}}/lessons/class2/lesson01/C2L01-Hobbies_13.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class2/lesson01/C2L01-Hobbies_13.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <h3 id="14-bird-watching-ngắm-chim">14. Bird watching <em>(Ngắm chim)</em></h3>
-<p><img src="{{site.baseurl}}/lessons/class2/lesson01/C2L01-Hobbies_14.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class2/lesson01/C2L01-Hobbies_14.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <h2 id="dialogue">Dialogue</h2>
 <audio src="https://englishletics.s3.amazonaws.com/audio/C2L01-Native-Dialogue2.mp3" id="audio_File2-Dialogue" preload="none"></audio>

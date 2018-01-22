@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Limited Trial version
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-215-love">Lesson 2.15: LOVE</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L15-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '15', 'vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L15-vocabulary.mp3</div>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class2/images/C2L15-Get-engaged.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Get engaged</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/C2L15-Get-married.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Get married</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/C2L15-Get-divorced.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Get divorced</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class2/images/C2L15-Fancy-someone.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Fancy someone</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class2/images/C2L15-Share-so-many-common-interests.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Share so many common interests</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/C2L15-Have-a-crush-on-someone.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Have a crush on someone</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/C2L15-Fall-in-love.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Fall in love</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class2/images/C2L15-Be-in-love-with-someone.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Be in love with someone</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Fall head over heels in love</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Ask someone out</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Break up with someone</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Share the housework</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Share the ups and downs in life</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Show that you care</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Move on</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Get over someone</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Let bygones be bygones</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Remember that there are plenty of fish in the sea</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L15-examples1.mp3" id="audio_examples1" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples1" onclick="play('examples1', '15', 'examples1');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L15-examples1.mp3</div>
+
+<h2 id="conversation">Conversation</h2>
+
+<blockquote>
+  <p>Person 1 (Female): <strong>What do you think of Andy?</strong>        <br />
+Person 2 (Male): <strong>In what sense? As a man or as a tennis player</strong>     <br />
+P1: <strong>Do you have to ask? As a man, of course</strong>     <br />
+P2: <strong>I’ve just met him. So I can’t really say</strong>     <br />
+P1: <strong>In my opinion, I think he is just great</strong>   <br />
+P2: <strong>Oooh, what’s this I am hearing? You might be in love</strong>   <br />
+P1: <strong>Yes, it is the first time I’ve fallen head over heels in love. So much in love… but he doesn’t even notice me. We share so many common interests and we see things in the same way, we can talk for hours. But that’s it. He just looks at me as a good friend, nothing less, nothing more</strong>   <br />
+P2: <strong>How long have you been in love with him? Have you asked him how he feels about you?</strong>   <br />
+P1: <strong>No, of course not. He is not interested in a relationship now. He just cares about his career</strong>   <br />
+P2: <strong>I think you should tell him. Who knows? He might be in love with you, too</strong>   <br />
+P1: <strong>It’s not so easy to say certain things. You know what it’s like. Put yourself in my shoes and you’ll understand</strong>   <br />
+P2: <strong>If you keep quiet, you might lose him forever. If you like him, you should ask him out</strong>   <br />
+P1: <strong>Maybe you’re right. Maybe I have to think of a special way to show him just how I feel</strong>   <br />
+P2: <strong>I just got a brilliant idea. You should cook lunch for him. Write a small note which says “I like you.” You can surprise him by hiding it in a napkin</strong>   <br />
+P1: <strong>What a romantic idea! Do you think it will work?</strong>   <br />
+P2: <strong>I think it will go straight to his heart</strong></p>
+</blockquote>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L15-examples2.mp3" id="audio_examples2" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples2" onclick="play('examples2', '15', 'examples2');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L15-examples2.mp3</div>
+
+<h2 id="2-explanation">2. Explanation</h2>
+
+<h3 id="1-it-is-the-first-time-ive-fallen-head-over-heels-in-love">1. It is the first time I’ve fallen head over heels in love</h3>
+<p>Đây là lần đầu tiên tôi yêu say đắm như vậy</p>
+
+<ul>
+  <li><strong>This is the first time I’ve been to New York</strong> <em>Đây là lần đầu tiên tôi đến New York</em></li>
+  <li><strong>This is the first time someone told me that I can sing</strong> <em>Đây là lần đầu tiên ai đó nói rằng tôi có thể hát</em></li>
+  <li><strong>This is not my first time at the club</strong> <em>Đây không phải là lần đầu tôi đến câu lạc bộ</em></li>
+</ul>
+
+<ol>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+</ol>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

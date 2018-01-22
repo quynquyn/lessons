@@ -9,7 +9,7 @@
     <title>EnglishLetics</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
@@ -24,11 +24,15 @@
     
     <script>
       
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
         function play(audio_id, lesson, word) {
             var audio = document.getElementById("audio_"+ audio_id);
             if (audio.paused) {
                 audio.play();
-                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
                 
                 gtag('event', 'playsound', {
                   'event_category': 'useraction',
@@ -38,27 +42,32 @@
                 
             }else{
                 audio.pause();
-                audio.currentTime = 0
+                //audio.currentTime = 0
                 document.getElementById('play_'+ audio_id).innerHTML = '▶';
             }
         }
-        function playat(audio_id, start, stop, lesson, word) {
+        function playat(audio_id, astart, astop, lesson, word) {
       // TODO
       // stop all other players
       // start at timestamp, stop at timestamp
       
       
             var audio = document.getElementById("audio_"+ audio_id);
-            audio.currentTime = start;
+            audio.currentTime = astart;
             if (audio.paused) {
                 audio.play();
-                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
                 
                 gtag('event', 'playsound', {
                   'event_category': 'useraction',
                   'event_label': lesson,
                   'value': word, 
                 });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
                 
             }else{
                 audio.pause();
@@ -94,6 +103,7 @@
         						|| jQuery(this).is('h2')
         						|| jQuery(this).is('h3')
         						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
         						;
         		        })
         		        .map(function () { /*create a new object using these elements*/

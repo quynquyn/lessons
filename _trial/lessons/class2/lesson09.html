@@ -9,7 +9,7 @@
     <title>EnglishLetics</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
@@ -24,11 +24,15 @@
     
     <script>
       
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
         function play(audio_id, lesson, word) {
             var audio = document.getElementById("audio_"+ audio_id);
             if (audio.paused) {
                 audio.play();
-                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
                 
                 gtag('event', 'playsound', {
                   'event_category': 'useraction',
@@ -38,27 +42,32 @@
                 
             }else{
                 audio.pause();
-                audio.currentTime = 0
+                //audio.currentTime = 0
                 document.getElementById('play_'+ audio_id).innerHTML = '▶';
             }
         }
-        function playat(audio_id, start, stop, lesson, word) {
+        function playat(audio_id, astart, astop, lesson, word) {
       // TODO
       // stop all other players
       // start at timestamp, stop at timestamp
       
       
             var audio = document.getElementById("audio_"+ audio_id);
-            audio.currentTime = start;
+            audio.currentTime = astart;
             if (audio.paused) {
                 audio.play();
-                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
                 
                 gtag('event', 'playsound', {
                   'event_category': 'useraction',
                   'event_label': lesson,
                   'value': word, 
                 });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
                 
             }else{
                 audio.pause();
@@ -94,6 +103,7 @@
         						|| jQuery(this).is('h2')
         						|| jQuery(this).is('h3')
         						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
         						;
         		        })
         		        .map(function () { /*create a new object using these elements*/
@@ -187,134 +197,179 @@
 <table>
 <tr class="row1">
 <td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Tie.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Tie.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Tie</strong>
+  
+  
+    <strong>Tie</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Cà vạt</em>
   
   
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Hat.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Hat.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Hat</strong>
+  
+  
+    <strong>Hat</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Mũ/nón</em>
   
   
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Cap.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Cap.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Cap</strong>
+  
+  
+    <strong>Cap</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Mũ lưỡi trai</em>
   
   
   
   
 </td><td class="col4">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Clothes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Clothes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Clothes</strong>
+  
+  
+    <strong>Clothes</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Quần áo</em>
   
   
   
   
 </td></tr>
 <tr class="row2"><td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Shirt.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Shirt.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Shirt</strong>
+  
+  
+    <strong>Shirt</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Áo sơ mi</em>
   
   
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-T-shirt.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-T-shirt.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>T-shirt</strong>
+  
+  
+    <strong>T-shirt</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Áo thun</em>
   
   
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Tank-top.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Tank-top.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Tank-top</strong>
+  
+  
+    <strong>Tank-top</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Áo ba lỗ</em>
   
   
   
   
 </td><td class="col4">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Jacket.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Jacket.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Jacket</strong>
+  
+  
+    <strong>Jacket</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Áo khoác</em>
   
   
   
   
 </td></tr>
 <tr class="row3"><td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Sweater</strong>
+  
+  
+    <strong>Sweater</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -323,12 +378,17 @@
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Dress</strong>
+  
+  
+    <strong>Dress</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -337,12 +397,17 @@
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Skirt</strong>
+  
+  
+    <strong>Skirt</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -351,12 +416,17 @@
   
   
 </td><td class="col4">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Jeans</strong>
+  
+  
+    <strong>Jeans</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -366,12 +436,17 @@
   
 </td></tr>
 <tr class="row4"><td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Trousers</strong>
+  
+  
+    <strong>Trousers</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -380,12 +455,17 @@
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Shorts</strong>
+  
+  
+    <strong>Shorts</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -394,12 +474,17 @@
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Leggings</strong>
+  
+  
+    <strong>Leggings</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -408,12 +493,17 @@
   
   
 </td><td class="col4">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Pants</strong>
+  
+  
+    <strong>Pants</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -423,12 +513,17 @@
   
 </td></tr>
 <tr class="row5"><td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Swimsuit</strong>
+  
+  
+    <strong>Swimsuit</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -437,12 +532,17 @@
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Underwear</strong>
+  
+  
+    <strong>Underwear</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -451,12 +551,17 @@
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Shoes</strong>
+  
+  
+    <strong>Shoes</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -465,12 +570,17 @@
   
   
 </td><td class="col4">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Sneakers</strong>
+  
+  
+    <strong>Sneakers</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -480,12 +590,17 @@
   
 </td></tr>
 <tr class="row6"><td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>High heels</strong>
+  
+  
+    <strong>High heels</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -494,12 +609,17 @@
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Sandals</strong>
+  
+  
+    <strong>Sandals</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -508,12 +628,17 @@
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Glasses</strong>
+  
+  
+    <strong>Glasses</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -522,12 +647,17 @@
   
   
 </td><td class="col4">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Sunglasses</strong>
+  
+  
+    <strong>Sunglasses</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -544,57 +674,77 @@
 <table>
 <tr class="row1">
 <td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Casual.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Casual.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Casual</strong>
+  
+  
+    <strong>Casual</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Giản dị</em>
   
   
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Elegant.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Elegant.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Elegant</strong>
+  
+  
+    <strong>Elegant</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Thanh lịch</em>
   
   
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Conservative.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Conservative.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Conservative</strong>
+  
+  
+    <strong>Conservative</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Thận trọng </em>
   
   
   
   
 </td><td class="col4">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-provocative.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-provocative.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>provocative</strong>
+  
+  
+    <strong>provocative</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -605,27 +755,37 @@
   
 </td></tr>
 <tr class="row2"><td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Stylish.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Stylish.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Stylish</strong>
+  
+  
+    <strong>Stylish</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Phong cách</em>
   
   
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-fashionable.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-fashionable.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>fashionable</strong>
+  
+  
+    <strong>fashionable</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -635,12 +795,17 @@
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-trendy.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-trendy.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>trendy</strong>
+  
+  
+    <strong>trendy</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -650,12 +815,17 @@
   
   
 </td><td class="col4">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Shocking.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Shocking.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Shocking</strong>
+  
+  
+    <strong>Shocking</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -666,12 +836,17 @@
   
 </td></tr>
 <tr class="row3"><td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Classic</strong>
+  
+  
+    <strong>Classic</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -680,12 +855,17 @@
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Glamorous</strong>
+  
+  
+    <strong>Glamorous</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -694,12 +874,17 @@
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>traditional</strong>
+  
+  
+    <strong>traditional</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -708,12 +893,17 @@
   
   
 </td><td class="col4">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Comfortable</strong>
+  
+  
+    <strong>Comfortable</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -723,12 +913,17 @@
   
 </td></tr>
 <tr class="row4"><td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Old-fashioned</strong>
+  
+  
+    <strong>Old-fashioned</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -745,61 +940,81 @@
 <table>
 <tr class="row1">
 <td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Shopping-center-mall.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Shopping-center-mall.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Shopping center / mall</strong>
+  
+  
+    <strong>Shopping center / mall</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Trung tâm thương mại</em>
   
   
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Clothes-store-shop.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Clothes-store-shop.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Clothes store / shop</strong>
+  
+  
+    <strong>Clothes store / shop</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Cửa hàng quần áo</em>
   
   
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Boutique.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Boutique.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Boutique</strong>
+  
+  
+    <strong>Boutique</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Cửa hàng  </em>
   
   
   
   
 </td><td class="col4">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Thrift-shop.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Thrift-shop.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Thrift shop</strong>
+  
+  
+    <strong>Thrift shop</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Cửa hàng giá rẻ</em>
   
   
   
@@ -813,42 +1028,57 @@
 <table>
 <tr class="row1">
 <td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Buy-second-hand-clothes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Buy-second-hand-clothes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Buy second-hand clothes</strong>
+  
+  
+    <strong>Buy second-hand clothes</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Mua quần áo đã qua sử dụng</em>
   
   
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Wear-high-heels.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Wear-high-heels.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Wear high heels</strong>
+  
+  
+    <strong>Wear high heels</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Đi giày cao gót</em>
   
   
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Wear-make-up.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Wear-make-up.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Wear make-up</strong>
+  
+  
+    <strong>Wear make-up</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -858,12 +1088,17 @@
   
   
 </td><td class="col4">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Wear-men-s-clothes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Wear-men-s-clothes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Wear men's clothes</strong>
+  
+  
+    <strong>Wear men's clothes</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -874,42 +1109,57 @@
   
 </td></tr>
 <tr class="row2"><td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Women-s-clothes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Women-s-clothes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Women's clothes</strong>
+  
+  
+    <strong>Women's clothes</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Quần áo nữ</em>
   
   
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Swimsuit.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Swimsuit.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Swimsuit</strong>
+  
+  
+    <strong>Swimsuit</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Đồ bơi</em>
   
   
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-Want-to-have-a-tattoo.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-Want-to-have-a-tattoo.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Want to have a tattoo</strong>
+  
+  
+    <strong>Want to have a tattoo</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -919,12 +1169,17 @@
   
   
 </td><td class="col4">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L09-A-pierced-ear.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L09-A-pierced-ear.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>A pierced ear</strong>
+  
+  
+    <strong>A pierced ear</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -935,12 +1190,17 @@
   
 </td></tr>
 <tr class="row3"><td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>See a man who wears make-up</strong>
+  
+  
+    <strong>See a man who wears make-up</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -949,12 +1209,17 @@
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Earrings</strong>
+  
+  
+    <strong>Earrings</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -963,12 +1228,17 @@
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Buy clothes on sales</strong>
+  
+  
+    <strong>Buy clothes on sales</strong> 
+  
+  
+  
+  
   <br />
   
   

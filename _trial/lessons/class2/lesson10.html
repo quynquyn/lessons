@@ -9,7 +9,7 @@
     <title>EnglishLetics</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
@@ -24,11 +24,15 @@
     
     <script>
       
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
         function play(audio_id, lesson, word) {
             var audio = document.getElementById("audio_"+ audio_id);
             if (audio.paused) {
                 audio.play();
-                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
                 
                 gtag('event', 'playsound', {
                   'event_category': 'useraction',
@@ -38,27 +42,32 @@
                 
             }else{
                 audio.pause();
-                audio.currentTime = 0
+                //audio.currentTime = 0
                 document.getElementById('play_'+ audio_id).innerHTML = '▶';
             }
         }
-        function playat(audio_id, start, stop, lesson, word) {
+        function playat(audio_id, astart, astop, lesson, word) {
       // TODO
       // stop all other players
       // start at timestamp, stop at timestamp
       
       
             var audio = document.getElementById("audio_"+ audio_id);
-            audio.currentTime = start;
+            audio.currentTime = astart;
             if (audio.paused) {
                 audio.play();
-                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
                 
                 gtag('event', 'playsound', {
                   'event_category': 'useraction',
                   'event_label': lesson,
                   'value': word, 
                 });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
                 
             }else{
                 audio.pause();
@@ -94,6 +103,7 @@
         						|| jQuery(this).is('h2')
         						|| jQuery(this).is('h3')
         						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
         						;
         		        })
         		        .map(function () { /*create a new object using these elements*/
@@ -169,16 +179,18 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-                <audio src="https://englishletics.s3.amazonaws.com/audio/C2L10-Vocabulary.mp3" id="audio_lesson-vocabulary" preload="none"></audio>
+                
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L10-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <span class="el-player-icon" id="play_lesson-vocabulary" onclick="play('lesson-vocabulary', 'C2L10', 'lesson-vocabulary');">▶</span>
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '10', 'vocabulary');">▶</span>
   </div>
 </div>
 
-<div class="audiofile-info">C2L10-Vocabulary.mp3</div>
-<h1 id="lesson-214-friendship">Lesson 2.14: Friendship</h1>
+<div class="audiofile-info">C2L10-vocabulary.mp3</div>
+
+<h1 id="lesson-210-friendship">Lesson 2.10: Friendship</h1>
 
 <h2 id="vocabulary">Vocabulary</h2>
 
@@ -186,63 +198,238 @@
 
 <h4 id="for-fun">For fun</h4>
 
-<p><img src="{{site.baseurl}}/lessons/class2/lesson10/C2L10-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
 <table>
-  <tbody>
-    <tr>
-      <td><strong>To watch interesting videos</strong></td>
-      <td><strong>To listen to music</strong></td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class2/images/C2L10-To-watch-interesting-videos.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>To watch interesting videos</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/C2L10-To-listen-to-music.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>To listen to music</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/C2L10-To-play-online-games.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>To play online games</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class2/images/C2L10-To-chat-with-my-friends.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>To chat with my friends</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
 
-<p><img src="{{site.baseurl}}/lessons/class2/lesson10/C2L10-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
-<table>
-  <tbody>
-    <tr>
-      <td><strong>To play online games</strong></td>
-      <td><strong>To chat with my friends</strong></td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td> </td>
-    </tr>
-  </tbody>
 </table>
 
 <h4 id="for-education">For education</h4>
-<p><img src="{{site.baseurl}}/lessons/class2/lesson10/C2L10-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
-<ul>
-  <li><strong>To read news</strong></li>
-  <li><strong>To search for some information I need</strong></li>
-  <li><strong>To check e-mails</strong></li>
-</ul>
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class2/images/C2L10-To-read-news.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>To read news</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/C2L10-To-search-for-some-information-I-need.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>To search for some information I need</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/C2L10-To-check-e-mails.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>To check e-mails</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
+
+</table>
 
 <h4 id="for-other-purposes">For other purposes</h4>
-<p><img src="{{site.baseurl}}/lessons/class2/lesson10/C2L10-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
-<ul>
-  <li><strong>To order/buy/ sell/ advertise products online (food, clothes, cosmetics…)</strong></li>
-  <li><strong>To compare prices</strong></li>
-  <li><strong>To read the reviews of the products I want to buy/ the movie they intend to watch</strong></li>
-</ul>
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class2/images/C2L10-To-order-buy-sell-advertise-products-online-food-clothes-cosmetics-.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>To order/buy/ sell/ advertise products online (food, clothes, cosmetics…)</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/C2L10-To-compare-prices.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>To compare prices</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/C2L10-To-read-the-reviews-of-the-products-I-want-to-buy-the-movie-they-intend-to-watch.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>To read the reviews of the products I want to buy/ the movie they intend to watch</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
 
-<audio src="https://englishletics.s3.amazonaws.com/audio/C2L10-Conversation.mp3" id="audio_lesson-conversation" preload="none"></audio>
+</table>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L10-conversation.mp3" id="audio_conversation" preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <span class="el-player-icon" id="play_lesson-conversation" onclick="play('lesson-conversation', 'C2L10', 'lesson-conversation');">▶</span>
+    <span class="el-player-icon" id="play_conversation" onclick="play('conversation', '10', 'conversation');">▶</span>
   </div>
 </div>
 
-<div class="audiofile-info">C2L10-Conversation.mp3</div>
+<div class="audiofile-info">C2L10-conversation.mp3</div>
+
 <h2 id="conversation">Conversation</h2>
 
 <blockquote>
@@ -265,15 +452,15 @@ Person2: <strong>That’s why you are always full of energy and you don’t have
 Person1: <strong>Thank you. By the way, you should change your sleeping schedule.</strong></p>
 </blockquote>
 
-<audio src="https://englishletics.s3.amazonaws.com/audio/C2L10-Explanation.mp3" id="audio_lesson-explanations" preload="none"></audio>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L10-explanations.mp3" id="audio_explanations" preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <span class="el-player-icon" id="play_lesson-explanations" onclick="play('lesson-explanations', 'C2L10', 'lesson-explanations');">▶</span>
+    <span class="el-player-icon" id="play_explanations" onclick="play('explanations', '10', 'explanations');">▶</span>
   </div>
 </div>
 
-<div class="audiofile-info">C2L10-Explanation.mp3</div>
+<div class="audiofile-info">C2L10-explanations.mp3</div>
 
 <h2 id="explanations">Explanations</h2>
 <h3 id="1-what-do-you-use-your-phone-for">1. what do you use your phone for?</h3>

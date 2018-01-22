@@ -9,7 +9,7 @@
     <title>EnglishLetics</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
@@ -24,11 +24,15 @@
     
     <script>
       
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
         function play(audio_id, lesson, word) {
             var audio = document.getElementById("audio_"+ audio_id);
             if (audio.paused) {
                 audio.play();
-                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
                 
                 gtag('event', 'playsound', {
                   'event_category': 'useraction',
@@ -38,27 +42,32 @@
                 
             }else{
                 audio.pause();
-                audio.currentTime = 0
+                //audio.currentTime = 0
                 document.getElementById('play_'+ audio_id).innerHTML = '▶';
             }
         }
-        function playat(audio_id, start, stop, lesson, word) {
+        function playat(audio_id, astart, astop, lesson, word) {
       // TODO
       // stop all other players
       // start at timestamp, stop at timestamp
       
       
             var audio = document.getElementById("audio_"+ audio_id);
-            audio.currentTime = start;
+            audio.currentTime = astart;
             if (audio.paused) {
                 audio.play();
-                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
                 
                 gtag('event', 'playsound', {
                   'event_category': 'useraction',
                   'event_label': lesson,
                   'value': word, 
                 });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
                 
             }else{
                 audio.pause();
@@ -94,6 +103,7 @@
         						|| jQuery(this).is('h2')
         						|| jQuery(this).is('h3')
         						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
         						;
         		        })
         		        .map(function () { /*create a new object using these elements*/
@@ -184,7 +194,7 @@
 
 <div class="audiofile-info">C1L01-Animals.mp3</div>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01-Animals_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Animals_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <table>
   <tbody>
@@ -200,7 +210,7 @@
   </tbody>
 </table>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01-Animals_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Animals_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <table>
   <tbody>
@@ -229,7 +239,7 @@
 
 <div class="audiofile-info">C1L01-Fruits.mp3</div>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01-Fruits_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Fruits_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <table>
   <tbody>
@@ -243,7 +253,7 @@
   </tbody>
 </table>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01-Fruits_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Fruits_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <table>
   <tbody>
@@ -268,7 +278,7 @@
 
 <div class="audiofile-info">C1L01-ThingsInClass.mp3</div>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01-ThingsInClass_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class1/lesson01/C1L01-ThingsInClass_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <table>
   <tbody>
@@ -283,7 +293,7 @@
   </tbody>
 </table>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01-ThingsInClass_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class1/lesson01/C1L01-ThingsInClass_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <table>
   <tbody>
@@ -310,7 +320,7 @@
 
 <div class="audiofile-info">C1L01-Vehicles.mp3</div>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01-Vehicles_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Vehicles_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <table>
   <tbody>
@@ -324,7 +334,7 @@
   </tbody>
 </table>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01-Vehicles_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Vehicles_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <table>
   <tbody>
@@ -348,7 +358,7 @@
 
 <div class="audiofile-info">C1L01-People.mp3</div>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01-People.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class1/lesson01/C1L01-People.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <table>
   <tbody>
@@ -374,7 +384,7 @@
 
 <div class="audiofile-info">C1L01-Important.mp3</div>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01-Important_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Important_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <table>
   <tbody>
@@ -388,7 +398,7 @@
   </tbody>
 </table>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01-Important_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Important_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <table>
   <tbody>
@@ -412,10 +422,10 @@
 
 <div class="audiofile-info">C1L01-Other.mp3</div>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01-Other_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Other_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
 | Homework  | Housework  | Vietnamese  | Tea, milk Coffee  |</p>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01-Other_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Other_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <table>
   <tbody>
@@ -439,7 +449,7 @@
 
 <div class="audiofile-info">C1L01-Verbs.mp3</div>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01-Verbs_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Verbs_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <table>
   <tbody>
@@ -454,7 +464,7 @@
   </tbody>
 </table>
 
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01-Verbs_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<p><img src="/daily/lessons/class1/lesson01/C1L01-Verbs_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <table>
   <tbody>
@@ -492,7 +502,7 @@
 </ol>
 
 <h2 id="2-uncountable-nouns">2. Uncountable nouns</h2>
-<p><strong class="" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      59, 666,      'C1L01', 'vocab-Native-Dialogue');">▶</strong></p>
+<p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      59, 666,      'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
 
 <ol>
   <li><strong>I do homework</strong> <em>(Tôi làm bài tập về nhà )</em></li>
@@ -505,7 +515,7 @@
 </ol>
 
 <h2 id="3-more-of-examples">3. More of examples</h2>
-<p><strong class="" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      90, 666,      'C1L01', 'vocab-Native-Dialogue');">▶</strong></p>
+<p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      90, 666,      'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
 
 <h3 id="a-what-do-you-choose">a. What do you choose?</h3>
 
@@ -521,7 +531,7 @@
 </ul>
 
 <h3 id="b-what-do-you-like">b. What do you like?</h3>
-<p><strong class="" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      103, 666,      'C1L01', 'vocab-Native-Dialogue');">▶</strong></p>
+<p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      103, 666,      'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
 
 <ul>
   <li><strong>I like strawberries. How about you?</strong></li>
@@ -536,7 +546,7 @@
 </ul>
 
 <h3 id="c-what-do-you-need">c. What do you need?</h3>
-<p><strong class="" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      110, 666,      'C1L01', 'vocab-Native-Dialogue');">▶</strong></p>
+<p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      110, 666,      'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
 
 <ul>
   <li><strong>I need a chair. And you?</strong></li>
@@ -551,7 +561,7 @@
 </ul>
 
 <h3 id="d-what-do-you-have">d. What do you have?</h3>
-<p><strong class="" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      116, 666,      'C1L01', 'vocab-Native-Dialogue');">▶</strong></p>
+<p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      116, 666,      'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
 
 <ul>
   <li><strong>I have some markers. How about you?</strong></li>
@@ -566,7 +576,7 @@
 </ul>
 
 <h3 id="e-what-do-you-want">e. What do you want?</h3>
-<p><strong class="" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      124, 666,      'C1L01', 'vocab-Native-Dialogue');">▶</strong></p>
+<p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      124, 666,      'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
 
 <ul>
   <li><strong>I want water. And you?</strong></li>
@@ -581,7 +591,7 @@
 </ul>
 
 <h3 id="f-what-do-you-hate">f. What do you hate?</h3>
-<p><strong class="" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      130, 666,      'C1L01', 'vocab-Native-Dialogue');">▶</strong></p>
+<p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      130, 666,      'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
 
 <ul>
   <li><strong>I hate crocodiles. How about you?</strong></li>
@@ -596,7 +606,7 @@
 </ul>
 
 <h3 id="g-what-do-you-look-for">g. What do you look for?</h3>
-<p><strong class="" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      137, 666,      'C1L01', 'vocab-Native-Dialogue');">▶</strong></p>
+<p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      137, 666,      'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
 
 <ul>
   <li><strong>I look for a pen. And you?</strong></li>
@@ -611,7 +621,7 @@
 </ul>
 
 <h3 id="h-what-do-you-look-at">h. What do you look at?</h3>
-<p><strong class="" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      143, 666,      'C1L01', 'vocab-Native-Dialogue');">▶</strong></p>
+<p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      143, 666,      'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
 
 <ul>
   <li><strong>I look at a tiger. What about you?</strong></li>
@@ -626,7 +636,7 @@
 </ul>
 
 <h3 id="i-what-do-you-observe">i. What do you observe?</h3>
-<p><strong class="" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      150, 666,      'C1L01', 'vocab-Native-Dialogue');">▶</strong></p>
+<p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      150, 666,      'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
 
 <ul>
   <li><strong>I observe planes and birds. What about you?</strong></li>
@@ -641,7 +651,7 @@
 </ul>
 
 <h3 id="j-what-do-you-study">j. What do you study?</h3>
-<p><strong class="" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      158, 666,      'C1L01', 'vocab-Native-Dialogue');">▶</strong></p>
+<p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      158, 666,      'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
 
 <ul>
   <li><strong>I study English. How about you?</strong></li>

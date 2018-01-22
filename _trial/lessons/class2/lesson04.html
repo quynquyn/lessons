@@ -9,7 +9,7 @@
     <title>EnglishLetics</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
@@ -24,11 +24,15 @@
     
     <script>
       
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
         function play(audio_id, lesson, word) {
             var audio = document.getElementById("audio_"+ audio_id);
             if (audio.paused) {
                 audio.play();
-                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
                 
                 gtag('event', 'playsound', {
                   'event_category': 'useraction',
@@ -38,27 +42,32 @@
                 
             }else{
                 audio.pause();
-                audio.currentTime = 0
+                //audio.currentTime = 0
                 document.getElementById('play_'+ audio_id).innerHTML = '▶';
             }
         }
-        function playat(audio_id, start, stop, lesson, word) {
+        function playat(audio_id, astart, astop, lesson, word) {
       // TODO
       // stop all other players
       // start at timestamp, stop at timestamp
       
       
             var audio = document.getElementById("audio_"+ audio_id);
-            audio.currentTime = start;
+            audio.currentTime = astart;
             if (audio.paused) {
                 audio.play();
-                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
                 
                 gtag('event', 'playsound', {
                   'event_category': 'useraction',
                   'event_label': lesson,
                   'value': word, 
                 });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
                 
             }else{
                 audio.pause();
@@ -94,6 +103,7 @@
         						|| jQuery(this).is('h2')
         						|| jQuery(this).is('h3')
         						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
         						;
         		        })
         		        .map(function () { /*create a new object using these elements*/
@@ -183,40 +193,444 @@
 
 <h2 id="vocabulary">Vocabulary</h2>
 
-<h3 id="whats-your-favorite-kind-of-movies">What’s your favorite kind of movies?</h3>
+<h3 id="whats-your-favorite-kind-of-movie">What’s your favorite kind of movie?</h3>
 
 <p><strong>My favorite kind of movie is …</strong></p>
 
-<ol>
-  <li><strong>Comedy</strong> <em>Phim hài</em></li>
-  <li><strong>Drama</strong> <em>Kịch</em></li>
-  <li><strong>Romantic movie</strong> <em>Phim lãng mạng</em></li>
-  <li><strong>Horror movie</strong> <em>Phim kinh dị</em></li>
-  <li><strong>Science – fiction movie</strong> <em>Phim khoa học viễn tưởng</em></li>
-  <li><strong>Cartoon</strong> <em>Phim hoạt hìn</em></li>
-  <li><strong>Action movie</strong> <em>Phim hành động</em></li>
-  <li><strong>Western movie</strong> <em>Phim tây</em></li>
-  <li><strong>Korean movie</strong> <em>Phim Hàn Quốc</em></li>
-  <li><strong>Fantasy movie</strong> <em>Phim giả tưởng</em></li>
-  <li><strong>Documentary</strong> <em>Phim tài liệu</em></li>
-</ol>
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class2/images/C2L04-Comedy.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Comedy</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Phim hài</em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/C2L04-Drama.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Drama</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Kịch</em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/C2L04-Romantic-movie.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Romantic movie</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Phim lãng mạng</em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class2/images/C2L04-Horror-movie.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Horror movie</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Phim kinh dị</em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class2/images/C2L04-Science-fiction-movie.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Science-fiction movie</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Phim khoa học viễn tưởng</em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/C2L04-Cartoon.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Cartoon</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Phim hoạt hìn</em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/C2L04-Action-movie.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Action movie</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Phim hành động</em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class2/images/C2L04-Western-movie.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Western movie</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Phim tây</em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Korean movie</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Fantasy movie</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Documentary</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
 
 <h3 id="what-is-the-movie-like">What is the movie like?</h3>
 
 <p><strong>The movie is…</strong></p>
 
-<ol>
-  <li><strong>Interesting / Exciting</strong> <em>Thú vị / Hào hứng</em></li>
-  <li><strong>Funny/ Amusing/ Hilarious</strong> <em>Vui / Hài hước / Rất hài hước</em></li>
-  <li><strong>Touching/ Moving/ Heart - warming</strong> <em>Cảm động / Cảm động/ Sưởi ấm trái tim</em></li>
-  <li><strong>Romantic/ sweet</strong> <em>Lãng mạng/ Ngọt ngào</em></li>
-  <li><strong>Shocking/ Impressive</strong> <em>Sốc / Ấn tượng</em></li>
-  <li><strong>Scary/ Terrifying</strong> <em>Sợ / Hoảng sợ</em></li>
-  <li><strong>Instructive/ Informative/ educational</strong> <em>Hướng dẫn/ Bổ ích / Mang tính giáo dục</em></li>
-  <li><strong>Thought - provoking</strong> <em>Kích thích suy nghĩ</em></li>
-  <li><strong>Amazing / wonderful / fantastic/ awesome / great</strong> <em>Tuyệt vời</em></li>
-  <li><strong>Terrible / awful / disgusting/ disappointing / silly / boring / weird</strong> <em>Tệ / Tệ / Thấy gớm/ Gây thất vọng/ Ngớ ngần / Chán / Kì cục</em></li>
-</ol>
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class2/images/C2L04-Interesting-Exciting.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Interesting / Exciting</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Thú vị / Hào hứng</em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/C2L04-Funny-Amusing-Hilarious.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Funny / Amusing / Hilarious</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Vui / Hài hước / Rất hài hước</em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/C2L04-Touching-Moving-Heart-warming.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Touching / Moving / Heart-warming</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Cảm động / Cảm động/ Sưởi ấm trái tim</em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class2/images/C2L04-Romantic-sweet.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Romantic / sweet</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Lãng mạng/ Ngọt ngào</em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class2/images/C2L04-Shocking-Impressive.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Shocking / Impressive</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Sốc / Ấn tượng</em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/C2L04-Scary-Terrifying.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Scary / Terrifying</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Sợ / Hoảng sợ</em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/C2L04-Instructive-Informative-educational.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Instructive / Informative / educational</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Hướng dẫn/ Bổ ích / Mang tính giáo dục</em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class2/images/C2L04-Thought-provoking.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Thought-provoking</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em>Kích thích suy nghĩ</em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Amazing / wonderful / fantastic / awesome / great</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Terrible / awful / disgusting / disappointing / silly / boring / weird</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
 
 <h2 id="dialogue">Dialogue</h2>
 
@@ -231,7 +645,7 @@
 <div class="audiofile-info">C2L04-Native-Dialogue2.mp3</div>
 
 <blockquote>
-  <p>Person 1: <strong>The early show of dangerous city is sold out</strong><br />
+  <p>Person 1: <strong>The early show of “Dangerous City” is sold out</strong><br />
 Person 2: <strong>What are we gonna do now?</strong><br />
 P1: <strong>Well, let’s see .. maybe we should wait for the next show</strong><br />
 P2: <strong>I can’t. I am meeting Olivia tonight. We are going to a new restaurant together</strong><br />
@@ -275,7 +689,7 @@ P1: <strong>Why not? My friends liked it. They said it’s very scary. You are s
 
 <p><em>Chúng ta sẽ làm gì bây giờ</em></p>
 
-<p><strong>Be gonna = be going to</strong> <em>Sẽ</em></p>
+<p><strong>Be gonna = be going to</strong></p>
 
 <ul>
   <li><strong>I am gonna go</strong>. <em>Tôi sẽ đi</em></li>
@@ -283,15 +697,15 @@ P1: <strong>Why not? My friends liked it. They said it’s very scary. You are s
   <li><strong>What I am gonna say is … I like you</strong>. <em>Điều tôi sắp nói là … Tôi thích bạn</em></li>
 </ul>
 
-<h3 id="3-why-dont-we-see-beyond-everest">3. Why don’t we see “Beyond Everest?</h3>
+<h3 id="3-why-dont-we-see-beyond-everest">3. Why don’t we see “Beyond Everest”?</h3>
 
-<p><em>Hay là chúng ta xem phim “Beyond Everest”</em></p>
+<p><em>Hay là chúng ta xem phim “Beyond Everest”?</em></p>
 
 <p><strong>Why don’t we…?</strong></p>
 
 <ul>
   <li><strong>Why don’t we go to the beach?</strong> <em>Hay là chúng ta đi biển nhé</em></li>
-  <li><strong>Why don’t you come with us</strong> <em>Hay là bạn cùng đi với chúng tôi nhé</em></li>
+  <li><strong>Why don’t you come with us?</strong> <em>Hay là bạn cùng đi với chúng tôi nhé</em></li>
   <li><strong>Why don’t we take a lunch break?</strong> <em>Hay là chúng ta nghỉ trưa nhé</em></li>
 </ul>
 
@@ -319,11 +733,12 @@ P1: <strong>Why not? My friends liked it. They said it’s very scary. You are s
   <li><strong>I get tired of arguing with her all the time</strong> <em>Tôi mệt mỏi vì luôn luôn cãi nhau với cô ấy</em></li>
 </ul>
 
-<h3 id="6-what-is-lost-and-found-in-new-york-about">6. What is “lost and found in New York” about?</h3>
+<h3 id="6-what-is-lost-and-found-in-new-york-about">6. What is “Lost and Found in New York” about?</h3>
 
-<p><em>Bộ phim “lost and found in New York” nói về điều gì?</em></p>
+<p><em>Bộ phim “Lost and Found in New York” nói về điều gì?</em></p>
 
 <p><strong>What is it about?</strong></p>
+
 <ul>
   <li><strong>What is the movie about?</strong> <em>Bộ phim nói về điều gì?</em></li>
   <li><strong>What is the story about?</strong> <em>Câu chuyện nói về điều gì?</em></li>
@@ -334,7 +749,7 @@ P1: <strong>Why not? My friends liked it. They said it’s very scary. You are s
 
 <p><em>Nó kiểu như cũng hài hước</em></p>
 
-<p><strong>Kinda (kind of)</strong></p>
+<p><strong>Kinda = kind of</strong></p>
 
 <ul>
   <li><strong>I am kinda bored now</strong> <em>Bây giờ tôi kiểu như cũng chán rồi í</em></li>
@@ -342,7 +757,7 @@ P1: <strong>Why not? My friends liked it. They said it’s very scary. You are s
   <li><strong>She’s kinda hot</strong> <em>Cô ta đại loại là cũng nóng bỏng</em></li>
 </ul>
 
-<h3 id="8-i-cant-stand-science---fiction-movies">8. I can’t stand science - fiction movies**</h3>
+<h3 id="8-i-cant-stand-science-fiction-movies">8. I can’t stand science-fiction movies**</h3>
 
 <p><strong>I can’t stand …</strong></p>
 

@@ -9,7 +9,7 @@
     <title>EnglishLetics</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
@@ -24,11 +24,15 @@
     
     <script>
       
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
         function play(audio_id, lesson, word) {
             var audio = document.getElementById("audio_"+ audio_id);
             if (audio.paused) {
                 audio.play();
-                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
                 
                 gtag('event', 'playsound', {
                   'event_category': 'useraction',
@@ -38,27 +42,32 @@
                 
             }else{
                 audio.pause();
-                audio.currentTime = 0
+                //audio.currentTime = 0
                 document.getElementById('play_'+ audio_id).innerHTML = '▶';
             }
         }
-        function playat(audio_id, start, stop, lesson, word) {
+        function playat(audio_id, astart, astop, lesson, word) {
       // TODO
       // stop all other players
       // start at timestamp, stop at timestamp
       
       
             var audio = document.getElementById("audio_"+ audio_id);
-            audio.currentTime = start;
+            audio.currentTime = astart;
             if (audio.paused) {
                 audio.play();
-                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
                 
                 gtag('event', 'playsound', {
                   'event_category': 'useraction',
                   'event_label': lesson,
                   'value': word, 
                 });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
                 
             }else{
                 audio.pause();
@@ -94,6 +103,7 @@
         						|| jQuery(this).is('h2')
         						|| jQuery(this).is('h3')
         						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
         						;
         		        })
         		        .map(function () { /*create a new object using these elements*/
@@ -169,134 +179,641 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-                <h1 id="lesson-112-where">Lesson 1.12: WHERE</h1>
+                <h1 id="lesson-112-where">Lesson 1.12: Where</h1>
 
 <h2 id="vocabulary">Vocabulary</h2>
-<audio src="https://englishletics.s3.amazonaws.com/audio/C1L12-Vocabulary.mp3" id="audio_lesson-vocabulary" preload="none"></audio>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L12-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <span class="el-player-icon" id="play_lesson-vocabulary" onclick="play('lesson-vocabulary', 'C1L01', 'lesson-vocabulary');">▶</span>
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '12', 'vocabulary');">▶</span>
   </div>
 </div>
 
-<div class="audiofile-info">C1L12-Vocabulary.mp3</div>
-
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01-C1L12-Grid1.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
+<div class="audiofile-info">C1L12-vocabulary.mp3</div>
 
 <table>
-  <tbody>
-    <tr>
-      <td><strong>Shoe shop</strong></td>
-      <td><strong>Cinema</strong></td>
-      <td><strong>Beach</strong></td>
-      <td><strong>Coffee shop</strong></td>
-    </tr>
-  </tbody>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class1/images/C1L12-Shoe-shop.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Shoe shop</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/C1L12-Cinema.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Cinema</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/C1L12-Beach.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Beach</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/C1L12-Coffee-shop.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Coffee shop</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class1/images/C1L12-Bakers.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Bakers</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/C1L12-School.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>School</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/C1L12-Restaurant.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Restaurant</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/C1L12-Church.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Church</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Bank</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Hospital</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Supermarket</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Factory</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Airport</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Hotel</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Bus Stop</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Street</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Drugstore</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Clothes Store</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Kitchen</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Wall</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row6"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Park</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Bookstore</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Museum</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Swimming Pool</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row7"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Ground</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Hand</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Fridge</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Trash Can</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row8"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Hair Salon</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Post Office</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Library</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
 </table>
-
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01-C1L12-Grid2.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
-<table>
-  <tbody>
-    <tr>
-      <td><strong>Bakers</strong></td>
-      <td><strong>School</strong></td>
-      <td><strong>Restaurant</strong></td>
-      <td><strong>Church</strong></td>
-    </tr>
-  </tbody>
-</table>
-
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01- C1L12-Grid3.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
-<table>
-  <tbody>
-    <tr>
-      <td><strong>Bank</strong></td>
-      <td><strong>Hospital</strong></td>
-      <td><strong>Supermarket</strong></td>
-      <td><strong>Factory</strong></td>
-    </tr>
-  </tbody>
-</table>
-
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01- C1L12-Grid4.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
-<table>
-  <tbody>
-    <tr>
-      <td><strong>Airport</strong></td>
-      <td><strong>Hotel</strong></td>
-      <td><strong>Bus Stop</strong></td>
-      <td><strong>Street</strong></td>
-    </tr>
-  </tbody>
-</table>
-
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01- C1L12-Grid5.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
-<table>
-  <tbody>
-    <tr>
-      <td><strong>Drugstore</strong></td>
-      <td><strong>Clothes Store</strong></td>
-      <td><strong>Kitchen</strong></td>
-      <td><strong>Wall</strong></td>
-    </tr>
-  </tbody>
-</table>
-
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01- C1L12-Grid6.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
-<table>
-  <tbody>
-    <tr>
-      <td><strong>Park</strong></td>
-      <td><strong>Bookstore</strong></td>
-      <td><strong>Museum</strong></td>
-      <td><strong>Swimming Pool</strong></td>
-    </tr>
-  </tbody>
-</table>
-
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01- C1L12-Grid7.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
-<table>
-  <tbody>
-    <tr>
-      <td><strong>Ground</strong></td>
-      <td><strong>Hand</strong></td>
-      <td><strong>Fridge</strong></td>
-      <td><strong>Trash Can</strong></td>
-    </tr>
-  </tbody>
-</table>
-
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01- C1L12-Grid8.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
-
-<table>
-  <tbody>
-    <tr>
-      <td><strong>Hair Salon</strong></td>
-      <td><strong>Post Office</strong></td>
-      <td><strong>Library</strong></td>
-    </tr>
-  </tbody>
-</table>
-
-<p><img src="{{site.baseurl}}/lessons/class1/lesson01/C1L01- C1L12-Grid9.jpg" class="img-fluid img-thumbnail mx-auto d-block" /></p>
 
 <h2 id="1-where">1. Where</h2>
-<audio src="https://englishletics.s3.amazonaws.com/audio/C1L12-Explanation1.mp3" id="audio_lesson-ex1" preload="none"></audio>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L12-examples1.mp3" id="audio_examples1" preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <span class="el-player-icon" id="play_lesson-ex1" onclick="play('lesson-ex1', 'C1L01', 'lesson-ex1');">▶</span>
+    <span class="el-player-icon" id="play_examples1" onclick="play('examples1', '12', 'examples1');">▶</span>
   </div>
 </div>
 
-<div class="audiofile-info">C1L12-Explanation1.mp3</div>
+<div class="audiofile-info">C1L12-examples1.mp3</div>
 
 <ol>
   <li><strong>Where is the restroom?</strong> - <strong>The restroom is upstairs</strong></li>
@@ -312,65 +829,86 @@
 </ol>
 
 <h2 id="2-where">2. Where</h2>
-<audio src="https://englishletics.s3.amazonaws.com/audio/C1L12-Explanation2.mp3" id="audio_lesson-ex2" preload="none"></audio>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L12-examples2.mp3" id="audio_examples2" preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <span class="el-player-icon" id="play_lesson-ex2" onclick="play('lesson-ex2', 'C1L01', 'lesson-ex2');">▶</span>
+    <span class="el-player-icon" id="play_examples2" onclick="play('examples2', '12', 'examples2');">▶</span>
   </div>
 </div>
 
-<div class="audiofile-info">C1L12-Explanation2.mp3</div>
+<div class="audiofile-info">C1L12-examples2.mp3</div>
 
 <ol>
   <li><strong>Where do you usually go on your vacation, Robert?</strong>
     <ul>
-      <li><strong>I usually go to Canada in the summer</strong></li>
+      <li><strong>I usually go to Canada in the summer</strong>  <br />
+<em>Bạn thường đi kì nghỉ ở đâu, Robert?</em>  <br />
+<em>Tôi thường đi Canada vào mùa hè</em></li>
     </ul>
   </li>
   <li><strong>Where do you usually buy clothes?</strong>
     <ul>
-      <li><strong>I usually shop on the Internet</strong></li>
+      <li><strong>I usually shop on the Internet</strong>
+<em>Bạn thường mua quần áo ở đâu</em>
+<em>Tôi thường mua qua mạng</em></li>
     </ul>
   </li>
   <li><strong>Where do you usually go on the weekends?</strong>.
     <ul>
-      <li><strong>I usually stay home</strong></li>
+      <li><strong>I usually stay home</strong>   <br />
+<em>Bạn thường đi đâu cuối tuần?</em>   <br />
+<em>Tôi thường ở nhà</em></li>
     </ul>
   </li>
   <li><strong>Where does your mother usually buy bread and cakes?</strong>.
     <ul>
-      <li><strong>She always buys bread and cakes at the baker’s</strong></li>
+      <li><strong>She always buys bread and cakes at the baker’s</strong>    <br />
+<em>Mẹ bạn thường mua bánh mì và bánh ở đâu?</em>   <br />
+<em>Mẹ tôi thường mua bánh mì và bánh tại tiệm bánh</em></li>
     </ul>
   </li>
   <li><strong>Where does your friend often borrow books?</strong>.
     <ul>
-      <li><strong>She usually borrows books at the library</strong></li>
+      <li><strong>She usually borrows books at the library</strong>   <br />
+<em>Bạn của bạn thường mượn sách ở đâu?</em>    <br />
+<em>Cô ấy thường mượn sách tại thư viện</em></li>
     </ul>
   </li>
   <li><strong>Where does the actor want to hold his wedding ceremony?</strong>.
     <ul>
-      <li><strong>He wants to hold his wedding ceremony at a church</strong></li>
+      <li><strong>He wants to hold his wedding ceremony at a church</strong>    <br />
+<em>Người diễn viên muốn tổ chức đám cưới ở đâu?</em>
+<em>Anh ta muốn tổ chức đám cưới tại nhà thờ</em></li>
     </ul>
   </li>
   <li><strong>Where do your parents often celebrate a wedding anniversary?</strong>
     <ul>
-      <li><strong>They always celebrate a wedding anniversary at home but sometimes they want to celebrate it at a fancy restaurant</strong></li>
+      <li><strong>They always celebrate a wedding anniversary at home but sometimes they want to celebrate it at a fancy restaurant</strong>
+<em>Ba mẹ của bạn thường tổ chức kỉ niệm ngày cưới ở đâu?</em>  <br />
+<em>Họ tổ chức kỉ niệm ngày cưới ở nhà nhưng thỉnh thoảng họ muốn tổ chức tại một nhà hàng sang trọng</em></li>
     </ul>
   </li>
   <li><strong>Where does the singer keep his money?</strong>.
     <ul>
-      <li><strong>He keeps it in a bank</strong></li>
+      <li><strong>He keeps it in a bank</strong>
+<em>Người ca sĩ cất tiền ở đâu?</em>
+<em>Anh ta cất tiền trong ngân hàng</em></li>
     </ul>
   </li>
   <li><strong>Where does your uncle want to travel to?</strong>
     <ul>
-      <li><strong>He wants to travel to Europe</strong></li>
+      <li><strong>He wants to travel to Europe</strong>
+<em>Bác của bạn muốn du lịch tới đâu?</em>
+<em>Ông ấy muốn đi du lịch tới Châu Âu</em></li>
     </ul>
   </li>
   <li><strong>Where do you need to meet him?</strong>
     <ul>
-      <li><strong>I need to meet him in a coffee shop</strong></li>
+      <li><strong>I need to meet him in a coffee shop</strong>
+<em>Bạn cần gặp anh ấy ở đâu?</em>
+<em>Tôi cần gặp anh ấy tại coffee shop</em></li>
     </ul>
   </li>
 </ol>

@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Limited Trial version
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-217-university-life">Lesson 2.17: University life</h1>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L17-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '17', 'vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L17-vocabulary.mp3</div>
+
+<h2 id="vocabulary">Vocabulary</h2>
+<h3 id="subject">Subject</h3>
+<p><strong>Mathematics</strong>  <br />
+<strong>Literature</strong>   <br />
+<strong>Chemistry</strong>   <br />
+<strong>Biology</strong>   <br />
+<strong>Economics</strong>   <br />
+<strong>History</strong>   <br />
+<strong>Computer Science</strong>   <br />
+<strong>Arts</strong>   <br />
+<strong>Geography</strong>   <br />
+<strong>Physics</strong>   <br />
+<strong>Physical Education/ PE</strong>   <br />
+<strong>Psychology</strong>   <br />
+<strong>Marxist – Leninist philosophy</strong>   <br />
+<strong>Statistics</strong>    <br />
+<strong>History of Communist Party</strong>          <br />
+<strong>Ho Chi Minh ideology</strong>   <br />
+<strong>Consumer/ customer behavior</strong></p>
+
+<h3 id="major">Major</h3>
+<p><strong>Architecture</strong>    <br />
+<strong>Engineering</strong>   <br />
+<strong>Journalism</strong>    <br />
+<strong>Medicine</strong>   <br />
+<strong>Sociology</strong>    <br />
+<strong>Tourism and hospitality management</strong>    <br />
+<strong>Information technology</strong>    <br />
+<strong>Business Administration</strong>    <br />
+<strong>Accounting</strong></p>
+
+<h3 id="exams">Exams</h3>
+<p><strong>Re-sit</strong>
+<strong>Pass</strong>
+<strong>Fail</strong>
+<strong>Revise</strong></p>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L17-conversation.mp3" id="audio_conversation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_conversation" onclick="play('conversation', '17', 'conversation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L17-conversation.mp3</div>
+
+<h2 id="conversation">Conversation</h2>
+
+<blockquote>
+  <p>Person 1: <strong>Did you study for today’s exam?</strong><br />
+Person 2: <strong>What?! What exam?</strong>   <br />
+P1: <strong>The English exam. It is today. Didn’t you know?</strong>  <br />
+P2: <strong>Are you kidding? I had no idea!</strong><br />
+P1: <strong>Really? Even though the professor said it multiple times last week?</strong><br />
+P2: <strong>Although I wanted to, I wasn’t able to come to class last week. I was sick.</strong><br />
+P1: <strong>Oh, I didn’t know. That’s why I didn’t hear you talking in class.</strong><br />
+P2: <strong>Yes, it was quiet because I wasn’t there. Despite my will to learn, I always get bored in class.</strong><br />
+P1: <strong>What are you going to do now? Although I want to, I can’t help you learn the entire exam in one hour.</strong><br />
+P2: <strong>I don’t know. Maybe I can ask the professor to let me take the exam next week.</strong><br />
+P1: <strong>Are you sure? You know he has a rule about taking exams.</strong> 
+P2: <strong>Yes, I know. But despite his rule, I have to ask!</strong><br />
+P1: <strong>Good luck! Although I doubt he will do so, I hope he lets you take the exam next week.</strong></p>
+</blockquote>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L17-explanation.mp3" id="audio_explanation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_explanation" onclick="play('explanation', '17', 'explanation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L17-explanation.mp3</div>
+
+<h2 id="explanation">Explanation</h2>
+
+<h3 id="1-did-you-prepare-for-this-weeks-exam">1. Did you prepare for this week’s exam?</h3>
+<ul>
+  <li><strong>Did you practice mathematics?</strong></li>
+  <li><strong>Did you finish the assignment the professor gave us last week?</strong></li>
+  <li><strong>Did you study for the exam in English? They say it’s quite difficult.</strong></li>
+</ul>
+
+<ol>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+</ol>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

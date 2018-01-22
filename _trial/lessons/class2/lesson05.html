@@ -9,7 +9,7 @@
     <title>EnglishLetics</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
@@ -24,11 +24,15 @@
     
     <script>
       
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
         function play(audio_id, lesson, word) {
             var audio = document.getElementById("audio_"+ audio_id);
             if (audio.paused) {
                 audio.play();
-                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
                 
                 gtag('event', 'playsound', {
                   'event_category': 'useraction',
@@ -38,27 +42,32 @@
                 
             }else{
                 audio.pause();
-                audio.currentTime = 0
+                //audio.currentTime = 0
                 document.getElementById('play_'+ audio_id).innerHTML = '▶';
             }
         }
-        function playat(audio_id, start, stop, lesson, word) {
+        function playat(audio_id, astart, astop, lesson, word) {
       // TODO
       // stop all other players
       // start at timestamp, stop at timestamp
       
       
             var audio = document.getElementById("audio_"+ audio_id);
-            audio.currentTime = start;
+            audio.currentTime = astart;
             if (audio.paused) {
                 audio.play();
-                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
                 
                 gtag('event', 'playsound', {
                   'event_category': 'useraction',
                   'event_label': lesson,
                   'value': word, 
                 });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
                 
             }else{
                 audio.pause();
@@ -94,6 +103,7 @@
         						|| jQuery(this).is('h2')
         						|| jQuery(this).is('h3')
         						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
         						;
         		        })
         		        .map(function () { /*create a new object using these elements*/
@@ -188,12 +198,17 @@
 <table>
 <tr class="row1">
 <td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Farmer.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Farmer.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Farmer</strong>
+  
+  
+    <strong>Farmer</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -203,12 +218,17 @@
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Baker.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Baker.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Baker</strong>
+  
+  
+    <strong>Baker</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -218,12 +238,17 @@
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Driver.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Driver.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Driver</strong>
+  
+  
+    <strong>Driver</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -233,12 +258,17 @@
   
   
 </td><td class="col4">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Housewife.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Housewife.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Housewife</strong>
+  
+  
+    <strong>Housewife</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -249,12 +279,17 @@
   
 </td></tr>
 <tr class="row2"><td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Businessman.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Businessman.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Businessman</strong>
+  
+  
+    <strong>Businessman</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -264,12 +299,17 @@
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Cameraman.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Cameraman.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Cameraman</strong>
+  
+  
+    <strong>Cameraman</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -279,12 +319,17 @@
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Postman.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Postman.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Postman</strong>
+  
+  
+    <strong>Postman</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -294,12 +339,17 @@
   
   
 </td><td class="col4">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Mechanic.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Mechanic.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Mechanic</strong>
+  
+  
+    <strong>Mechanic</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -310,12 +360,17 @@
   
 </td></tr>
 <tr class="row3"><td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Receptionist</strong>
+  
+  
+    <strong>Receptionist</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -324,12 +379,17 @@
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Dentist</strong>
+  
+  
+    <strong>Dentist</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -338,12 +398,17 @@
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Artist</strong>
+  
+  
+    <strong>Artist</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -352,12 +417,17 @@
   
   
 </td><td class="col4">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Supervisor</strong>
+  
+  
+    <strong>Supervisor</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -367,12 +437,17 @@
   
 </td></tr>
 <tr class="row4"><td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Professor</strong>
+  
+  
+    <strong>Professor</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -391,12 +466,17 @@
 <table>
 <tr class="row1">
 <td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Confident.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Confident.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Confident</strong>
+  
+  
+    <strong>Confident</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -406,12 +486,17 @@
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Shy.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Shy.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Shy</strong>
+  
+  
+    <strong>Shy</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -421,12 +506,17 @@
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Strict.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Strict.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Strict</strong>
+  
+  
+    <strong>Strict</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -436,12 +526,17 @@
   
   
 </td><td class="col4">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Easy-going.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Easy-going.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Easy-going</strong>
+  
+  
+    <strong>Easy-going</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -452,12 +547,17 @@
   
 </td></tr>
 <tr class="row2"><td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Talkative.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Talkative.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Talkative</strong>
+  
+  
+    <strong>Talkative</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -467,12 +567,17 @@
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Quiet.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Quiet.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Quiet</strong>
+  
+  
+    <strong>Quiet</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -482,12 +587,17 @@
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Interesting.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Interesting.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Interesting</strong>
+  
+  
+    <strong>Interesting</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -497,12 +607,17 @@
   
   
 </td><td class="col4">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Boring.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Boring.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Boring</strong>
+  
+  
+    <strong>Boring</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -513,12 +628,17 @@
   
 </td></tr>
 <tr class="row3"><td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Caring</strong>
+  
+  
+    <strong>Caring</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -527,12 +647,17 @@
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Carefree</strong>
+  
+  
+    <strong>Carefree</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -541,12 +666,17 @@
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Dependent</strong>
+  
+  
+    <strong>Dependent</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -555,12 +685,17 @@
   
   
 </td><td class="col4">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Independent</strong>
+  
+  
+    <strong>Independent</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -570,12 +705,17 @@
   
 </td></tr>
 <tr class="row4"><td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Hot-tempered</strong>
+  
+  
+    <strong>Hot-tempered</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -584,12 +724,17 @@
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Even-tempered</strong>
+  
+  
+    <strong>Even-tempered</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -598,12 +743,17 @@
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Mature</strong>
+  
+  
+    <strong>Mature</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -612,12 +762,17 @@
   
   
 </td><td class="col4">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Childish</strong>
+  
+  
+    <strong>Childish</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -634,134 +789,179 @@
 <table>
 <tr class="row1">
 <td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Smoke-cigarettes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Smoke-cigarettes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Smoke cigarettes</strong>
+  
+  
+    <strong>Smoke cigarettes</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Hút thuốc</em>
   
   
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Get-up-early.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Get-up-early.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Get up early</strong>
+  
+  
+    <strong>Get up early</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Thức dậy sớm</em>
   
   
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-go-to-bed-late.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Go-to-bed-late.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>go to bed late</strong>
+  
+  
+    <strong>Go to bed late</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Đi ngủ trễ</em>
   
   
   
   
 </td><td class="col4">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Eat-a-lot-of-candies.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Eat-a-lot-of-candies.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Eat a lot of candies</strong>
+  
+  
+    <strong>Eat a lot of candies</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Ăn nhiều kẹo</em>
   
   
   
   
 </td></tr>
 <tr class="row2"><td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Cook-meals.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Cook-meals.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Cook meals</strong>
+  
+  
+    <strong>Cook meals</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Nấu ăn</em>
   
   
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Do-the-laundry.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Do-the-laundry.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Do the laundry</strong>
+  
+  
+    <strong>Do the laundry</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Giặt quần áo</em>
   
   
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Mop-the-floor.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Mop-the-floor.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Mop the floor</strong>
+  
+  
+    <strong>Mop the floor</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Lau sàn</em>
   
   
   
   
 </td><td class="col4">
-
   
-    <img src="{{site.baseurl}}/lessons/class2/images/C2L05-Feed-the-dog.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/class2/images/C2L05-Feed-the-dog.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Feed the dog</strong>
+  
+  
+    <strong>Feed the dog</strong> 
+  
+  
+  
+  
   <br />
   
   
-    <em></em>
+    <em>Cho chó ăn</em>
   
   
   
   
 </td></tr>
 <tr class="row3"><td class="col1">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Make most of the decisions</strong>
+  
+  
+    <strong>Make most of the decisions</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -770,12 +970,17 @@
   
   
 </td><td class="col2">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Argue with you</strong>
+  
+  
+    <strong>Argue with you</strong> 
+  
+  
+  
+  
   <br />
   
   
@@ -784,12 +989,17 @@
   
   
 </td><td class="col3">
-
   
-    <img src="{{site.baseurl}}/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
   
   
-  <strong>Call you when you go out late at night</strong>
+  
+  
+    <strong>Call you when you go out late at night</strong> 
+  
+  
+  
+  
   <br />
   
   

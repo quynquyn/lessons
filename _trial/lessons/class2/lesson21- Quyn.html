@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Limited Trial version
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-221-sickness">Lesson 2.21: Sickness</h1>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L21-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '21', 'vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L21-vocabulary.mp3</div>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<h3 id="sickness">Sickness</h3>
+<p>I don’t feel well  <br />
+I sneeze  <br />
+It’s itchy   <br />
+It’s painful   <br />
+My back hurts  <br />
+I have a cough   <br />
+My leg is broken   <br />
+My nose is running   <br />
+My finger is bleeding   <br />
+My finger is swollen  <br />
+I have a headache  <br />
+I have a stomachache   <br />
+I have a toothache   <br />
+I have a sore throat   <br />
+I have a bad cold   <br />
+I have a temperature</p>
+
+<h3 id="advice">Advice</h3>
+<p>Take some vitamin tablets  <br />
+go on a diet.  <br />
+Drink a lot of water  <br />
+Stay at home and have a rest   <br />
+Eat healthy food   <br />
+Put a bandage   <br />
+Put a plaster  <br />
+Put a sling   <br />
+Try not to eat anything too oily or spicy for a few days  <br />
+Have an X-ray   <br />
+Wear something warm  <br />
+Take an aspirin   <br />
+Get an injection   <br />
+Massage your head   <br />
+Take antiseptics</p>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L21-conversation.mp3" id="audio_conversation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_conversation" onclick="play('conversation', '21', 'conversation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L21-conversation.mp3</div>
+
+<h2 id="conversation">Conversation</h2>
+
+<blockquote>
+  <p>Person 1: <strong>Hi, I’m not feeling too well</strong> <br />
+Person 2: <strong>Yes, you look tired. What’s the matter</strong>  <br />
+P1: <strong>I have a sore throat</strong> 
+P2: <strong>Do you have a cough?</strong>
+P1: <strong>No, I don’t</strong>
+P2: <strong>Do u have an earache?</strong>
+P1: <strong>Kind of, my right ear hurts a little and I have a runny nose and a bad headache</strong>
+P2: <strong>That’s too bad. Have you seen a doctor?</strong><br />
+P1: <strong>No. I’m fine, really. I think I just have a cold</strong><br />
+P2: <strong>You have a fever. Take some vitamin C, drink lots of water and get some sleep. Relax, don’t work to hard or you are gonna get worse.  Why don’t you go home and have a rest now?</strong>
+P1: <strong>Good idea. Can you take notes for me in class?</strong>
+P2: <strong>Sure. I hope you feel better soon</strong>
+P1: <strong>Thanks</strong></p>
+</blockquote>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L21-explanation.mp3" id="audio_explanation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_explanation" onclick="play('explanation', '21', 'explanation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L21-explanation.mp3</div>
+
+<h2 id="explanation">Explanation</h2>
+<h3 id="1">1.</h3>
+
+<ol>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+</ol>
+
+<h3 id="2">2.</h3>
+
+<h3 id="3">3.</h3>
+
+<h3 id="4">4.</h3>
+
+<h3 id="5">5.</h3>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

@@ -1,0 +1,707 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Limited Trial version
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/product/english-beginner-course-5-weeks/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-115-simple-past-tense">Lesson 1.15: Simple Past Tense</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L15-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '15', 'vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L15-vocabulary.mp3</div>
+
+<h3 id="periods-in-the-past">Periods in the past</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class1/images/C1L15-Two-days-ago.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 10.4, 12.3, 
+      '1-15', 'Two days ago');">▷ <strong>Two days ago</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/C1L15-When-I-was-a-child.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 12.3, 14.1, 
+      '1-15', 'When I was a child');">▷ <strong>When I was a child</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/C1L15-Last-night.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 14.1, 16.4, 
+      '1-15', 'Last night');">▷ <strong>Last night</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/C1L15-Six-weeks-before-that.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 16.4, 19, 
+      '1-15', 'Six weeks before that');">▷ <strong>Six weeks before that</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class1/images/C1L15-When-I-lived-with-my-parents.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 19, 22, 
+      '1-15', 'When I lived with my parents');">▷ <strong>When I lived with my parents</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/C1L15-Last-week.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 22, 24.1, 
+      '1-15', 'Last week');">▷ <strong>Last week</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/C1L15-An-hour-earlier.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 24.1, 26.2, 
+      '1-15', 'An hour earlier');">▷ <strong>An hour earlier</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/C1L15-Last-summer.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 26.2, 28.1, 
+      '1-15', 'Last summer');">▷ <strong>Last summer</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 28.1, 30, 
+      '1-15', 'Last Christmas');">▷ <strong>Last Christmas</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2 id="i-the-verb-to-be">I. The verb “To be”</h2>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class1/images/C1L15-I-was.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>I was</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/C1L15-You-were.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>You were</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/C1L15-He-she-it-was.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>He/she/it was</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/C1L15-We-were.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>We were</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class1/images/C1L15-You-were.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>You were</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/C1L15-They-were.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>They were</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    <em></em>
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<ol>
+  <li><strong>I was tired last night. Were you?</strong><br />
+ <strong>Yes, I was tired last night.</strong>    <br />
+ <em>Hôm qua tôi mệt. Còn bạn?   <br />
+Có, hôm qua tôi cũng mệt</em></li>
+  <li><strong>Were you bored without me yesterday?</strong>    <br />
+<strong>No, I wasn’t bored without you yesterday.</strong>    <br />
+<em>Hôm qua không có tôi, bạn có chán không?          <br />
+Không, hôm qua không có bạn, tôi không chán</em></li>
+  <li><strong>Was she at home last week?</strong>    <br />
+<strong>No, She was not at home last week</strong>
+<em>Tuần trước, cô ta có nhà không?  <br />
+Không, cô ta không có nhà tuần trước</em></li>
+  <li><strong>Jane didn’t come to class yesterday. Was she sick?</strong>    <br />
+<strong>Yes, she was sick</strong>    <br />
+<em>Jane không đến lớp hôm qua. Cô ta ốm à?   <br />
+Uh, cô ta ốm</em></li>
+</ol>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L15-regular.mp3" id="audio_regular" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_regular" onclick="play('regular', '15', 'regular');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L15-regular.mp3</div>
+
+<h2 id="ii-action-verbs">II. Action Verbs</h2>
+<ol>
+  <li><strong>Did you sister help you do homework?</strong>
+<strong>No, My sister didn’t help me do anything.</strong>
+<em>Chị của bạn có giúp bạn làm bài tập về nhà không? <br />
+Không, chị tôi không giúp tôi làm gì hết</em></li>
+  <li>
+    <p><strong>Did Sarah finish her homework?</strong>
+<strong>Yes, Sarah finished it</strong>
+<em>Sarah hoàn thành bài tập về nhà chưa?   <br />
+Rồi, Sarah hoàn thành rồi</em></p>
+  </li>
+  <li><strong>Did he love her?</strong>
+<strong>Yes, he loved her but he didn’t want to marry her</strong>
+<em>Anh ta có yêu cô ta không?  <br />
+Có, anh ta có yêu nhưng anh không muốn lấy cô ấy</em></li>
+  <li><strong>Did James come to class yesterday?</strong>
+<strong>Yes, he came to class yesterday</strong>
+<em>Hôm qua James có đến lớp không?  <br />
+Có, anh có đến lớp hôm qua</em></li>
+</ol>
+
+<h4 id="a-regular-verbs-verb--ed">a. Regular verbs (Verb + ed)</h4>
+
+<h5 id="-ed--t-sound-for-verbs-ending-in-k-p-s-ch-sh-f-">| ed = t sound for verbs ending in k, p, s, ch, sh, f |</h5>
+<ul>
+  <li><strong>I looked at her.</strong>     <em>Tôi nhìn cô ấy</em></li>
+  <li><strong>She stopped staring at me.</strong>   <em>Cô ta dừng nhìn chằm chằm vào tôi</em></li>
+  <li><strong>You looked at me.</strong>  <em>Bạn đã nhìn tôi</em></li>
+  <li><strong>She washed her hands</strong>     <em>Cô ta đã rửa tay</em></li>
+  <li><strong>He popped the balloon.</strong>     <em>Anh ta làm bể bong bóng</em></li>
+  <li><strong>I missed him.</strong>     <em>Tôi đã nhớ anh ấy</em></li>
+  <li><strong>He watched TV all day yesterday.</strong>  <em>Anh ta xem TV cả ngày hôm qua</em></li>
+  <li><strong>We looked for the keys everywhere!</strong>  <em>Chúng tôi đã tìm chìa khóa khắp nơi</em></li>
+  <li><strong>He laughed at my dancing skills.</strong> <em>Anh ta cười kĩ năng nhảy của tôi</em></li>
+  <li><strong>He stopped laughing after I slapped him.</strong>  <em>Anh ta ngưng cười sau khi tôi tát anh ta</em></li>
+  <li><strong>We watched a film together</strong>  <em>Chúng tôi xem phim cùng nhau</em></li>
+  <li><strong>John looked ridiculous last night.</strong> <em>Anh ta trông nham nhở hôm qua</em></li>
+  <li><strong>Sarah finished her homework</strong>  <em>Sarah đã hoàn thành bài tập về nhà</em></li>
+  <li><strong>The dog sniffed his hand</strong>    <em>Con chó ngửi bàn tay anh ta</em></li>
+  <li><strong>I told Christina your joke and she laughed out loud.</strong>  <em>Tôi kể cho Christina câu chuyện cười của bạn và cô ta cười lớn</em></li>
+  <li><strong>I stopped to take a picture of his house.</strong>  <em>Tôi dừng lại để chụp hình căn nhà của anh ấy</em></li>
+  <li><strong>They talked to the athlete an hour earlier!</strong>  <em>Họ nói chuyện với người vận động viên một tiếng trước</em></li>
+  <li><strong>Who laughed behind my back?</strong>      <em>Ai cười sau lưng tôi?</em></li>
+  <li><strong>The dog chased the cat again yesterday</strong> <em>Hôm qua con chó lại đuổi theo con mèo</em></li>
+  <li><strong>Joanne laughed when Chris asked her out.</strong>   <em>Joanne cười lớn khi Chris mời cô ta ra ngoài chơi</em></li>
+</ul>
+
+<h5 id="-ed--ed-sound-for-verbs-ending-with-a-t-or-d-">| ed = ed sound for verbs ending with a t or d |</h5>
+<ul>
+  <li><strong>We visited our parents.</strong>   <em>Chúng tôi thăm bố mẹ</em></li>
+  <li><strong>My sister finally graduated!</strong>     <em>Chị tôi cuối cùng cũng tốt nghiệp</em></li>
+  <li><strong>I visited my old friend from school.</strong>   <em>tôi thăm bạn học cũ</em></li>
+  <li><strong>My husband and I intended to travel to Australia last year</strong>     <em>Chồng và tôi dự định đi Úc nắm ngoài</em></li>
+  <li><strong>Sarah and Michael dated for a week.</strong>     <em>Sarah và Michael hẹn hò trong một tuần</em></li>
+  <li><strong>I attended the event. It bored me.</strong> <em>Tôi tham gia sự kiện. Nó làm tôi thấy chán</em></li>
+  <li><strong>I needed some help last night.</strong> <em>Hôm qua tôi cần sự giúp đỡ</em></li>
+  <li><strong>My dog wanted to go outside.</strong>     <em>Con chó của tôi muốn ra ngoài</em></li>
+  <li><strong>She invited us to her birthday party.</strong>    <em>Cô ta mời chúng tôi tới bữa tiệc sinh nhật của cô ấy</em></li>
+</ul>
+
+<h5 id="-ed--d-for-all-other-verbs-">| ed = d for all other verbs |</h5>
+<ul>
+  <li><strong>The dog followed me home.</strong>    <em>Con chó theo tôi về nhà</em></li>
+  <li><strong>I cleaned the entire house by myself.</strong>  <em>Tôi tự lau dọn cả căn nhà</em></li>
+  <li><strong>My sister played music until 3 a.m.</strong>     <em>Em gái tôi bật nhà tới 3h sáng</em></li>
+  <li><strong>Her hair smelled really bad.</strong>  <em>Tóc cô ta có mùi rất ghê</em></li>
+  <li><strong>My neighbor moved to Chicago.</strong>     <em>Hàng xóm tôi chuyển chỗ tới Chicago</em></li>
+  <li><strong>I returned my library books in time.</strong> <em>Tôi trả lại mấy quyển sách thư viện vừa kịp lúc</em></li>
+  <li><strong>His aunt raised him.</strong>     <em>Cô của anh ấy đã nuôi nấng anh</em></li>
+  <li><strong>I traveled all across Europe last year.</strong>     <em>Tôi đi du lịch khắp Châu Âu năm ngoái</em></li>
+</ul>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L15-irregular.mp3" id="audio_irregular" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_irregular" onclick="play('irregular', '15', 'irregular');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L15-irregular.mp3</div>
+
+<h4 id="b-irregular-verbs-the-second-column-of-irregular-verbs">b. Irregular verbs (The second column of irregular verbs)</h4>
+
+<p><strong>break / broke</strong>    <br />
+<strong>speak / spoke</strong>    <br />
+<strong>steal / stole</strong>    <br />
+<strong>wake / woke</strong>        <br />
+<strong>drive / drove</strong>    <br />
+<strong>ride / rode</strong>   <br />
+<strong>rise / rose</strong>   <br />
+<strong>write / wrote</strong>    <br />
+<strong>sell / sold</strong>   <br />
+<strong>tell / told</strong>   <br />
+<strong>speak / spoke</strong></p>
+
+<p><strong>blow / blew</strong>   <br />
+<strong>draw / drew</strong>   <br />
+<strong>fly / flew</strong>   <br />
+<strong>grow / grew</strong>   <br />
+<strong>know / knew</strong>    <br />
+<strong>throw / threw</strong></p>
+
+<p><strong>bring / brought</strong>        <br />
+<strong>buy / bought</strong>        <br />
+<strong>fight / fought</strong>   <br />
+<strong>think / thought</strong>   <br />
+<strong>teach/ taught</strong></p>
+
+<p><strong>begin / began</strong>   <br />
+<strong>drink / drank</strong>    <br />
+<strong>ring / rang</strong>    <br />
+<strong>sing / sang</strong>    <br />
+<strong>swim / swam</strong></p>
+
+<p><strong>feed / fed</strong>   <br />
+<strong>feel / felt</strong>    <br />
+<strong>keep / kept</strong>    <br />
+<strong>fall / fell</strong>   <br />
+<strong>mean / meant</strong>    <br />
+<strong>meet / met</strong>    <br />
+<strong>sleep / slept</strong>   <br />
+<strong>sweep / swept</strong></p>
+
+<p><strong>see/saw</strong>        <br />
+<strong>eat/ ate</strong> 
+<strong>find/ found</strong>  <br />
+<strong>go/went</strong>   <br />
+<strong>get / got</strong>   <br />
+<strong>read/read</strong></p>
+
+<p><strong>Your son broke my window!</strong>     <em>Con trai bạn làm vỡ cửa sổ của tôi</em> <br />
+<strong>She stole my wallet.</strong>   <em>Cô ta đã lấy cắp ví của tôi</em>      <br />
+<strong>I drove my daughter to school.</strong>          <em>Cô đưa con gái đi học</em> <br />
+<strong>Sarah wrote a book.</strong>   <em>Sarah viết một quyển sách</em>   <br />
+<strong>John sold his house.</strong>     <em>John đã bán nhà anh ấy</em><br />
+<strong>She threw her bag at me.</strong>     <em>Cô ta chọi cái túi của cô ấy vào tôi</em> <br />
+<strong>I thought about it.</strong>     <em>Tôi đã suy nghĩ về chuyện ấy</em> <br />
+<strong>My mother taught me a lot.</strong>     <em>Mẹ của tôi dạy cho tôi rất nhiều</em> <br />
+<strong>She swept the dirt under the rug</strong>.     <em>Cô ta quét bụi dưới tấm thảm</em> <br />
+<strong>Who forgot to close the door?</strong> <em>Ai quên đóng cửa vậy?</em></p>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

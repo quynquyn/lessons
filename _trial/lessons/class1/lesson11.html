@@ -9,7 +9,7 @@
     <title>EnglishLetics</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
@@ -24,11 +24,15 @@
     
     <script>
       
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
         function play(audio_id, lesson, word) {
             var audio = document.getElementById("audio_"+ audio_id);
             if (audio.paused) {
                 audio.play();
-                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
                 
                 gtag('event', 'playsound', {
                   'event_category': 'useraction',
@@ -38,27 +42,32 @@
                 
             }else{
                 audio.pause();
-                audio.currentTime = 0
+                //audio.currentTime = 0
                 document.getElementById('play_'+ audio_id).innerHTML = '▶';
             }
         }
-        function playat(audio_id, start, stop, lesson, word) {
+        function playat(audio_id, astart, astop, lesson, word) {
       // TODO
       // stop all other players
       // start at timestamp, stop at timestamp
       
       
             var audio = document.getElementById("audio_"+ audio_id);
-            audio.currentTime = start;
+            audio.currentTime = astart;
             if (audio.paused) {
                 audio.play();
-                document.getElementById('play_'+ audio_id).innerHTML = '✔';
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
                 
                 gtag('event', 'playsound', {
                   'event_category': 'useraction',
                   'event_label': lesson,
                   'value': word, 
                 });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
                 
             }else{
                 audio.pause();
@@ -94,6 +103,7 @@
         						|| jQuery(this).is('h2')
         						|| jQuery(this).is('h3')
         						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
         						;
         		        })
         		        .map(function () { /*create a new object using these elements*/
@@ -169,18 +179,19 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-                <h1 id="lesson-111-review">lesson 1.11: Review</h1>
+                <h1 id="lesson-111-review">Lesson 1.11: Review</h1>
 
 <h2 id="1-yes--no-questions">1. yes / no questions</h2>
-<audio src="https://englishletics.s3.amazonaws.com/audio/C1L11-Vocabulary.mp3" id="audio_lesson-vocab" preload="none"></audio>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L11-examples1.mp3" id="audio_examples1" preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <span class="el-player-icon" id="play_lesson-vocab" onclick="play('lesson-vocab', 'C1L01', 'lesson-vocab');">▶</span>
+    <span class="el-player-icon" id="play_examples1" onclick="play('examples1', '11', 'examples1');">▶</span>
   </div>
 </div>
 
-<div class="audiofile-info">C1L11-Vocabulary.mp3</div>
+<div class="audiofile-info">C1L11-examples1.mp3</div>
 
 <ol>
   <li><strong>Do you need this pen?</strong> <em>Bạn có cần cây bút này không?</em></li>
@@ -206,15 +217,16 @@
 </ol>
 
 <h2 id="2-so-such">2. So/ such</h2>
-<audio src="https://englishletics.s3.amazonaws.com/audio/C1L11-Explanation1.mp3" id="audio_lesson-ex1" preload="none"></audio>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L11-examples2.mp3" id="audio_examples2" preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <span class="el-player-icon" id="play_lesson-ex1" onclick="play('lesson-ex1', 'C1L01', 'lesson-ex1');">▶</span>
+    <span class="el-player-icon" id="play_examples2" onclick="play('examples2', '11', 'examples2');">▶</span>
   </div>
 </div>
 
-<div class="audiofile-info">C1L11-Explanation1.mp3</div>
+<div class="audiofile-info">C1L11-examples2.mp3</div>
 
 <ol>
   <li><strong>You are such a good friend</strong> <em>Bạn thật là người bạn tốt</em></li>
@@ -231,15 +243,17 @@
 </ol>
 
 <h2 id="3-comparison">3. comparison</h2>
-<audio src="https://englishletics.s3.amazonaws.com/audio/C1L11-Explanation2.mp3" id="audio_lesson-ex2" preload="none"></audio>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L11-examples3.mp3" id="audio_examples3" preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <span class="el-player-icon" id="play_lesson-ex2" onclick="play('lesson-ex2', 'C1L01', 'lesson-ex2');">▶</span>
+    <span class="el-player-icon" id="play_examples3" onclick="play('examples3', '11', 'examples3');">▶</span>
   </div>
 </div>
 
-<div class="audiofile-info">C1L11-Explanation2.mp3</div>
+<div class="audiofile-info">C1L11-examples3.mp3</div>
+
 <ol>
   <li><strong>My house is bigger than yours.</strong> <em>Nhà tôi thì to hơn nhà bạn</em></li>
   <li><strong>This flower is more beautiful than that one.</strong> <em>Hoa này thì đẹp hơn hoa kia</em></li>
@@ -254,15 +268,16 @@
 </ol>
 
 <h2 id="4-there-is-there-are">4. There is/ there are</h2>
-<audio src="https://englishletics.s3.amazonaws.com/audio/C1L11-Explanation3.mp3" id="audio_lesson-ex3" preload="none"></audio>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L11-examples4.mp3" id="audio_examples4" preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <span class="el-player-icon" id="play_lesson-ex3" onclick="play('lesson-ex3', 'C1L01', 'lesson-ex3');">▶</span>
+    <span class="el-player-icon" id="play_examples4" onclick="play('examples4', '11', 'examples4');">▶</span>
   </div>
 </div>
 
-<div class="audiofile-info">C1L11-Explanation3.mp3</div>
+<div class="audiofile-info">C1L11-examples4.mp3</div>
 
 <ol>
   <li><strong>Are there any crocodiles in the lake?</strong> <em>Có con cá sấu này trong hồ không?</em></li>
@@ -273,15 +288,16 @@
 </ol>
 
 <h2 id="5-it-is-adjective-to-verb">5. It is Adjective to Verb</h2>
-<audio src="https://englishletics.s3.amazonaws.com/audio/C1L11-Explanation4.mp3" id="audio_lesson-ex4" preload="none"></audio>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L11-examples5.mp3" id="audio_examples5" preload="none"></audio>
 
 <div class="row">
   <div class="col-1">
-    <span class="el-player-icon" id="play_lesson-ex4" onclick="play('lesson-ex4', 'C1L01', 'lesson-ex4');">▶</span>
+    <span class="el-player-icon" id="play_examples5" onclick="play('examples5', '11', 'examples5');">▶</span>
   </div>
 </div>
 
-<div class="audiofile-info">C1L11-Explanation4.mp3</div>
+<div class="audiofile-info">C1L11-examples5.mp3</div>
 
 <ol>
   <li><strong>Is it stupid to love a married man?</strong> <em>Thật ngu ngốc khi yêu một người đàn ông đã có vợ phải không?</em></li>

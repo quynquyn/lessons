@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Limited Trial version
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-216-love-2">Lesson 2.16: Love 2</h1>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L16-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '16', 'vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L16-vocabulary.mp3</div>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<p><strong>Get on like a house on fire</strong><br />
+<strong>Get on well with</strong><br />
+<strong>Get to know</strong><br />
+<strong>Have a lot in common</strong><br />
+<strong>Have ups and downs</strong><br />
+<strong>A healthy relationship</strong><br />
+<strong>Hit it off</strong><br />
+<strong>Be in a relationship</strong><br />
+<strong>Have good chemistry</strong><br />
+<strong>Play hard to get</strong><br />
+<strong>Enjoy someone’s company</strong><br />
+<strong>Fall for someone</strong><br />
+<strong>Fall out with</strong><br />
+<strong>Drift apart</strong><br />
+<strong>Be just good friends</strong><br />
+<strong>Keep in touch with</strong><br />
+<strong>Lose touch with</strong><br />
+<strong>Love at first sight</strong><br />
+<strong>Pop the question</strong><br />
+<strong>Tie the knot</strong><br />
+<strong>See eye to eye</strong><br />
+<strong>Settle down</strong></p>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L16-examples1.mp3" id="audio_examples1" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples1" onclick="play('examples1', '16', 'examples1');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L16-examples1.mp3</div>
+
+<h2 id="conversation">Conversation</h2>
+
+<blockquote>
+  <p>Person 1 (female): <strong>Listen, I want to clear up a few things with you right away. You know what I mean, right?</strong>   <br />
+Person 2 (Male): <strong>Of course.</strong>   <br />
+P1: <strong>After finding out about this, I realized that I need to talk to you straight away, but I didn’t have the courage. We’ve known each other   for a long time. I’ve always thought a lot about you. Oh god, I don’t know how to tell you this…</strong><br />
+P2: <strong>Come on, don’t be shy. Actually, you don’t need to tell me this, we don’t need words anymore. You are my true friend, only a true friend,   nothing more</strong><br />
+P1: <strong>Really? What an idiot I am. I thought you felt an interest for me. I thought there was more between us than just a simple friendship. Is it   because tennis is the only passion in your life?</strong><br />
+P2: <strong>Sorry. I didn’t mean to upset you. The truth is that there is someone else in my heart.</strong><br />
+P1: <strong>Oh. Ok, it’s better the true reason for your refusal was because of another woman, and not tennis.</strong>  <br />
+P2: <strong>I think of you more than sports, you know.</strong><br />
+P1: <strong>Don’t worry. Let’s pretend none of this happened. Let bygones be bygones. Ok?</strong>  <br />
+P2: <strong>Of course, and no hard feelings.</strong><br />
+P1: <strong>Sure. See you in a bit.</strong></p>
+</blockquote>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L16-examples2.mp3" id="audio_examples2" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples2" onclick="play('examples2', '16', 'examples2');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L16-examples2.mp3</div>
+
+<h2 id="2-explanation">2. Explanation</h2>
+<h3 id="1-after-finding-out-about-this-i-realized-that-i-need-to-talk-to-you-straight-away">1. After finding out about this, I realized that I need to talk to you straight away</h3>
+<p>Sau khi phát hiện ra điều này, tôi nhận ra rằng tôi phải nói với bạn ngay
+.</p>
+<ul>
+  <li><strong>After finding out that Jane likes me too, I asked her out.</strong> <em>Sau khi nhận ra rằng Jane cũng thích tôi, tôi rủ cô ấy ra ngoài hẹn hò</em></li>
+  <li><strong>After finding out about how he feels, I became sad.</strong> <em>Sau khi nhận ra anh ấy cảm thấy như thế nào, tôi trở nên buồn</em></li>
+  <li><strong>After realizing that I didn’t love her anymore, I decided to break up with her.</strong> <em>Sau khi nhận ra rằng tôi không yêu cô ấy nữa, tôi quyết định chia tay với cô ấy</em></li>
+</ul>
+
+<ol>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+  <li>
+    <p><strong>Purchase the full version and <a href="#">get access</a> right now.</strong> <br />
+<em><a href="#">Mua phiên</a> bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></p>
+  </li>
+</ol>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>
