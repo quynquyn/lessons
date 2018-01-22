@@ -243,14 +243,14 @@ class,lesson,section,word_en,word_vn,word_pt,image_name,image_url,ts_start,ts_st
 1,06,all,Sometimes,,,C1L06-Sometimes.jpg,class1/images/C1L06-Sometimes.jpg,,
 1,06,all,Rarely,,,C1L06-Rarely.jpg,class1/images/C1L06-Rarely.jpg,,
 1,06,all,Never,,,C1L06-Never.jpg,class1/images/C1L06-Never.jpg,,
-1,09,comparison,Sociable,,,C1L09-Sociable.jpg,class1/images/C1L09-Sociable.jpg,,
-1,09,comparison,Aggressive,,,C1L09-Aggressive.jpg,class1/images/C1L09-Aggressive.jpg,,
-1,09,comparison,Peaceful,,,C1L09-Peaceful.jpg,class1/images/C1L09-Peaceful.jpg,,
-1,09,comparison,Intelligent,,,C1L09-Intelligent.jpg,class1/images/C1L09-Intelligent.jpg,,
-1,09,comparison,Sensitive,,,C1L09-Sensitive.jpg,class1/images/C1L09-Sensitive.jpg,,
-1,09,comparison,Adventurous,,,C1L09-Adventurous.jpg,class1/images/C1L09-Adventurous.jpg,,
-1,09,comparison,Proud,,,C1L09-Proud.jpg,class1/images/C1L09-Proud.jpg,,
-1,09,comparison,Wild,,,C1L09-Wild.jpg,class1/images/C1L09-Wild.jpg,,
+1,09,comparison,Sociable,,,C1L09-Sociable.jpg,class1/images/C1L09-Sociable.jpg,6,7.6
+1,09,comparison,Aggressive,,,C1L09-Aggressive.jpg,class1/images/C1L09-Aggressive.jpg,7.6,9.5
+1,09,comparison,Peaceful,,,C1L09-Peaceful.jpg,class1/images/C1L09-Peaceful.jpg,9.5,11.5
+1,09,comparison,Intelligent,,,C1L09-Intelligent.jpg,class1/images/C1L09-Intelligent.jpg,11.5,13
+1,09,comparison,Sensitive,,,C1L09-Sensitive.jpg,class1/images/C1L09-Sensitive.jpg,13,15.4
+1,09,comparison,Adventurous,,,C1L09-Adventurous.jpg,class1/images/C1L09-Adventurous.jpg,15.4,17
+1,09,comparison,Proud,,,C1L09-Proud.jpg,class1/images/C1L09-Proud.jpg,17,19.3
+1,09,comparison,Wild,,,C1L09-Wild.jpg,class1/images/C1L09-Wild.jpg,19.3,21
 2,08,workingcondition,A well – paid job,,,C2L08-A-well-paid-job.jpg,class2/images/C2L08-A-well-paid-job.jpg,,
 2,08,workingcondition,Six weeks’ paid holiday,,,C2L08-Six-weeks-paid-holiday.jpg,class2/images/C2L08-Six-weeks-paid-holiday.jpg,,
 2,08,workingcondition,A company car,,,C2L08-A-company-car.jpg,class2/images/C2L08-A-company-car.jpg,,
@@ -551,15 +551,21 @@ class,lesson,section,word_en,word_vn,word_pt,image_name,image_url,ts_start,ts_st
 1,14,days,Eigth,,,C1L14-Eigth.jpg,class1/images/C1L14-Eigth.jpg,,
 1,14,days,Ninth,,,C1L14-Ninth.jpg,class1/images/C1L14-Ninth.jpg,,
 1,14,days,Tenth,,,C1L14-Tenth.jpg,class1/images/C1L14-Tenth.jpg,,
-1,15,simplepasttense,Two days ago,,,C1L15-Two-days-ago.jpg,class1/images/C1L15-Two-days-ago.jpg,,
-1,15,simplepasttense,Six weeks before that,,,C1L15-Six-weeks-before-that.jpg,class1/images/C1L15-Six-weeks-before-that.jpg,,
-1,15,simplepasttense,An hour earlier,,,C1L15-An-hour-earlier.jpg,class1/images/C1L15-An-hour-earlier.jpg,,
-1,15,simplepasttense,When I was a child,,,C1L15-When-I-was-a-child.jpg,class1/images/C1L15-When-I-was-a-child.jpg,,
-1,15,simplepasttense,When I lived with my parents,,,C1L15-When-I-lived-with-my-parents.jpg,class1/images/C1L15-When-I-lived-with-my-parents.jpg,,
-1,15,simplepasttense,Last night,,,C1L15-Last-night.jpg,class1/images/C1L15-Last-night.jpg,,
-1,15,simplepasttense,Last week,,,C1L15-Last-week.jpg,class1/images/C1L15-Last-week.jpg,,
-1,15,simplepasttense,Last summer,,,C1L15-Last-summer.jpg,class1/images/C1L15-Last-summer.jpg,,
-1,15,simplepasttense,Last Christmas,,,C1L15-Last-Christmas.jpg,class1/images/C1L15-Last-Christmas.jpg,,
+1,15,simplepasttense,Two days ago,,,C1L15-Two-days-ago.jpg,class1/images/C1L15-Two-days-ago.jpg,10.4,12.3
+1,15,simplepasttense,When I was a child,,,C1L15-When-I-was-a-child.jpg,class1/images/C1L15-When-I-was-a-child.jpg,12.3,14.1
+1,15,simplepasttense,Last night,,,C1L15-Last-night.jpg,class1/images/C1L15-Last-night.jpg,14.1,16.4
+1,15,simplepasttense,Six weeks before that,,,C1L15-Six-weeks-before-that.jpg,class1/images/C1L15-Six-weeks-before-that.jpg,16.4,19
+1,15,simplepasttense,When I lived with my parents,,,C1L15-When-I-lived-with-my-parents.jpg,class1/images/C1L15-When-I-lived-with-my-parents.jpg,19,22
+1,15,simplepasttense,Last week,,,C1L15-Last-week.jpg,class1/images/C1L15-Last-week.jpg,22,24.1
+1,15,simplepasttense,An hour earlier,,,C1L15-An-hour-earlier.jpg,class1/images/C1L15-An-hour-earlier.jpg,24.1,26.2
+1,15,simplepasttense,Last summer,,,C1L15-Last-summer.jpg,class1/images/C1L15-Last-summer.jpg,26.2,28.1
+1,15,simplepasttense,Last Christmas,,,C1L15-Last-Christmas.jpg,class1/images/C1L15-Last-Christmas.jpg,28.1,30
+1,15,tobe,I was,,,C1L15-I-was.jpg,class1/images/C1L15-I-was.jpg,,
+1,15,tobe,You were,,,C1L15-You-were.jpg,class1/images/C1L15-You-were.jpg,,
+1,15,tobe,He/she/it was,,,C1L15-He-she-it-was.jpg,class1/images/C1L15-He-she-it-was.jpg,,
+1,15,tobe,We were,,,C1L15-We-were.jpg,class1/images/C1L15-We-were.jpg,,
+1,15,tobe,You were,,,C1L15-You-were.jpg,class1/images/C1L15-You-were.jpg,,
+1,15,tobe,They were,,,C1L15-They-were.jpg,class1/images/C1L15-They-were.jpg,,
 2,15,love,Get engaged,,,C2L15-Get-engaged.jpg,class2/images/C2L15-Get-engaged.jpg,,
 2,15,love,Get married,,,C2L15-Get-married.jpg,class2/images/C2L15-Get-married.jpg,,
 2,15,love,Get divorced,,,C2L15-Get-divorced.jpg,class2/images/C2L15-Get-divorced.jpg,,

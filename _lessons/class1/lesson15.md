@@ -25,12 +25,17 @@ lesson: "15"
 
 ## I. The verb “To be”
 
-| **I was** | **You were** | **He/she/it was** |
-| **We were** | **You were** | **They were** |
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="tobe"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
-1.**I was tired last night. Were you?**  
+1. **I was tired last night. Were you?**  
  **Yes, I was tired last night.**      
-*Hôm qua tôi mệt. Còn bạn?     
+ *Hôm qua tôi mệt. Còn bạn?     
 Có, hôm qua tôi cũng mệt*      
 2. **Were you bored without me yesterday?**      
 **No, I wasn’t bored without you yesterday.**      
@@ -69,48 +74,48 @@ Có, anh có đến lớp hôm qua*
 #### a. Regular verbs (Verb + ed)
 
 ##### | ed = t sound for verbs ending in k, p, s, ch, sh, f |
-**I looked at her.**     *Tôi nhìn cô ấy*   
-**She stopped staring at me.**   *Cô ta dừng nhìn chằm chằm vào tôi*  
-**You looked at me.**  *Bạn đã nhìn tôi*   
-**She washed her hands**     *Cô ta đã rửa tay*   
-**He popped the balloon.**     *Anh ta làm bể bong bóng*   
-**I missed him.**     *Tôi đã nhớ anh ấy*     
-**He watched TV all day yesterday.**  *Anh ta xem TV cả ngày hôm qua*       
-**We looked for the keys everywhere!**  *Chúng tôi đã tìm chìa khóa khắp nơi*        
-**He laughed at my dancing skills.** *Anh ta cười kĩ năng nhảy của tôi*        
-**He stopped laughing after I slapped him.**  *Anh ta ngưng cười sau khi tôi tát anh ta*       
-**We watched a film together**  *Chúng tôi xem phim cùng nhau*        
-**John looked ridiculous last night.** *Anh ta trông nham nhở hôm qua*         
-**Sarah finished her homework**  *Sarah đã hoàn thành bài tập về nhà*       
-**The dog sniffed his hand**    *Con chó ngửi bàn tay anh ta*     
-**I told Christina your joke and she laughed out loud.**  *Tôi kể cho Christina câu chuyện cười của bạn và cô ta cười lớn*         
-**I stopped to take a picture of his house.**  *Tôi dừng lại để chụp hình căn nhà của anh ấy*       
-**They talked to the athlete an hour earlier!**  *Họ nói chuyện với người vận động viên một tiếng trước*         
-**Who laughed behind my back?**      *Ai cười sau lưng tôi?*    
-**The dog chased the cat again yesterday** *Hôm qua con chó lại đuổi theo con mèo*     
-**Joanne laughed when Chris asked her out.**   *Joanne cười lớn khi Chris mời cô ta ra ngoài chơi*      
+ - **I looked at her.**     *Tôi nhìn cô ấy*   
+ - **She stopped staring at me.**   *Cô ta dừng nhìn chằm chằm vào tôi*  
+ - **You looked at me.**  *Bạn đã nhìn tôi*   
+ - **She washed her hands**     *Cô ta đã rửa tay*   
+ - **He popped the balloon.**     *Anh ta làm bể bong bóng*   
+ - **I missed him.**     *Tôi đã nhớ anh ấy*     
+ - **He watched TV all day yesterday.**  *Anh ta xem TV cả ngày hôm qua*       
+ - **We looked for the keys everywhere!**  *Chúng tôi đã tìm chìa khóa khắp nơi*        
+ - **He laughed at my dancing skills.** *Anh ta cười kĩ năng nhảy của tôi*        
+ - **He stopped laughing after I slapped him.**  *Anh ta ngưng cười sau khi tôi tát anh ta*       
+ - **We watched a film together**  *Chúng tôi xem phim cùng nhau*        
+ - **John looked ridiculous last night.** *Anh ta trông nham nhở hôm qua*         
+ - **Sarah finished her homework**  *Sarah đã hoàn thành bài tập về nhà*       
+ - **The dog sniffed his hand**    *Con chó ngửi bàn tay anh ta*     
+ - **I told Christina your joke and she laughed out loud.**  *Tôi kể cho Christina câu chuyện cười của bạn và cô ta cười lớn*         
+ - **I stopped to take a picture of his house.**  *Tôi dừng lại để chụp hình căn nhà của anh ấy*       
+ - **They talked to the athlete an hour earlier!**  *Họ nói chuyện với người vận động viên một tiếng trước*         
+ - **Who laughed behind my back?**      *Ai cười sau lưng tôi?*    
+ - **The dog chased the cat again yesterday** *Hôm qua con chó lại đuổi theo con mèo*     
+ - **Joanne laughed when Chris asked her out.**   *Joanne cười lớn khi Chris mời cô ta ra ngoài chơi*      
 
 ##### | ed = ed sound for verbs ending with a t or d |
-**We visited our parents.**   *Chúng tôi thăm bố mẹ*     
-**My sister finally graduated!**     *Chị tôi cuối cùng cũng tốt nghiệp*    
-**I visited my old friend from school.**   *tôi thăm bạn học cũ*      
-**My husband and I intended to travel to Australia last year**     *Chồng và tôi dự định đi Úc nắm ngoài*    
-**Sarah and Michael dated for a week.**     *Sarah và Michael hẹn hò trong một tuần*    
-**I attended the event. It bored me.** *Tôi tham gia sự kiện. Nó làm tôi thấy chán*     
-**I needed some help last night.** *Hôm qua tôi cần sự giúp đỡ*          
-**My dog wanted to go outside.**     *Con chó của tôi muốn ra ngoài*   
-**She invited us to her birthday party.**    *Cô ta mời chúng tôi tới bữa tiệc sinh nhật của cô ấy* 
+ - **We visited our parents.**   *Chúng tôi thăm bố mẹ*     
+ - **My sister finally graduated!**     *Chị tôi cuối cùng cũng tốt nghiệp*    
+ - **I visited my old friend from school.**   *tôi thăm bạn học cũ*      
+ - **My husband and I intended to travel to Australia last year**     *Chồng và tôi dự định đi Úc nắm ngoài*    
+ - **Sarah and Michael dated for a week.**     *Sarah và Michael hẹn hò trong một tuần*    
+ - **I attended the event. It bored me.** *Tôi tham gia sự kiện. Nó làm tôi thấy chán*     
+ - **I needed some help last night.** *Hôm qua tôi cần sự giúp đỡ*          
+ - **My dog wanted to go outside.**     *Con chó của tôi muốn ra ngoài*   
+ - **She invited us to her birthday party.**    *Cô ta mời chúng tôi tới bữa tiệc sinh nhật của cô ấy* 
 
 
 ##### | ed = d for all other verbs |
-**The dog followed me home.**    *Con chó theo tôi về nhà*   
-**I cleaned the entire house by myself.**  *Tôi tự lau dọn cả căn nhà*     
-**My sister played music until 3 a.m.**     *Em gái tôi bật nhà tới 3h sáng*   
-**Her hair smelled really bad.**  *Tóc cô ta có mùi rất ghê*    
-**My neighbor moved to Chicago.**     *Hàng xóm tôi chuyển chỗ tới Chicago*   
-**I returned my library books in time.** *Tôi trả lại mấy quyển sách thư viện vừa kịp lúc*       
-**His aunt raised him.**     *Cô của anh ấy đã nuôi nấng anh*   
-**I traveled all across Europe last year.**     *Tôi đi du lịch khắp Châu Âu năm ngoái*   
+ - **The dog followed me home.**    *Con chó theo tôi về nhà*   
+ - **I cleaned the entire house by myself.**  *Tôi tự lau dọn cả căn nhà*     
+ - **My sister played music until 3 a.m.**     *Em gái tôi bật nhà tới 3h sáng*   
+ - **Her hair smelled really bad.**  *Tóc cô ta có mùi rất ghê*    
+ - **My neighbor moved to Chicago.**     *Hàng xóm tôi chuyển chỗ tới Chicago*   
+ - **I returned my library books in time.** *Tôi trả lại mấy quyển sách thư viện vừa kịp lúc*       
+ - **His aunt raised him.**     *Cô của anh ấy đã nuôi nấng anh*   
+ - **I traveled all across Europe last year.**     *Tôi đi du lịch khắp Châu Âu năm ngoái*   
 
 {% include player2.html identifier="irregular" class=page.class lesson=page.lesson %}
 #### b. Irregular verbs (The second column of irregular verbs)
