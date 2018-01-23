@@ -5,7 +5,7 @@ lesson: "15"
 ---
 
 
-# Lesson 2.15: LOVE 
+# Lesson 2.15: Love 
 
 
 ## Vocabulary 

@@ -12,12 +12,15 @@ lesson: "16"
 
 ## Vocabulary 
 
+
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		section="all"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
-
+	
 
 
 ### Examples of Present Continuous tense 

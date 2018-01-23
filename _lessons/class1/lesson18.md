@@ -127,7 +127,7 @@ lesson: "18"
 
 {% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
 
-##Conversation 
+## Conversation 
 > Person 1: **Does the cinema in the centre of the city play good movies?**  
 > Person 2: **I think so. We went there last week and they had over 5 movies playing at once!**  
 > P1: **That sounds cool. My cousin is visiting us this weekend and I don't know where to take her.**  

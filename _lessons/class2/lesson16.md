@@ -12,29 +12,15 @@ lesson: "16"
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 ## Vocabulary 
 
-**Get on like a house on fire**  
-**Get on well with**  
-**Get to know**  
-**Have a lot in common**  
-**Have ups and downs**  
-**A healthy relationship**  
-**Hit it off**  
-**Be in a relationship**  
-**Have good chemistry**  
-**Play hard to get**  
-**Enjoy someone’s company**  
-**Fall for someone**  
-**Fall out with**  
-**Drift apart**  
-**Be just good friends**  
-**Keep in touch with**  
-**Lose touch with**  
-**Love at first sight**  
-**Pop the question**  
-**Tie the knot**  
-**See eye to eye**  
-**Settle down**  
 
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="vocabulary"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+	
 
 
 {% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}

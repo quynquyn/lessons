@@ -4,23 +4,23 @@ class: "2"
 lesson: "10"
 ---
 
-{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
-
 # Lesson 2.10: Friendship
 
 ## Vocabulary
+{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %} 
 
 ### Purpose
 
 #### For fun
 
-{% include wordgrid.html 
+
+{% include wordgrid.html   
 		class=page.class 
 		lesson=page.lesson 
 		section="forfun"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
-		
 
 #### For education
 
