@@ -1,4 +1,4 @@
-﻿---
+---
 layout: lesson
 class: "2"
 lesson: "17"
@@ -11,7 +11,7 @@ lesson: "17"
 
 
 ## Vocabulary 
-{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
+{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %} 
 
 ### Subject 
 

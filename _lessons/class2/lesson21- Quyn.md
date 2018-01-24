@@ -77,10 +77,10 @@ lesson: "21"
 {% include player2.html identifier="explanation" class=page.class lesson=page.lesson %}
 
 ## Explanation
-### I have a runny nose and a bad headache.
-1. **I have a massive headache and my stomach hurts.**
-2. **My right ear hurts and I feel a sharp pain in it every time I yawn.**
-3. **I have a cold so bad, I threw up at least 6 times today.**
+### 1. I have a runny nose and a bad headache.
+- **I have a massive headache and my stomach hurts.**  
+- **My right ear hurts and I feel a sharp pain in it every time I yawn.**  
+- **I have a cold so bad, I threw up at least 6 times today.**  
 
 
 {% if site.trialdeploy %}
@@ -88,23 +88,24 @@ lesson: "21"
   {% else %}
   
 
-### That's too bad. Have you seen a doctor?
-1. **I'm so sorry to hear that. Have you been to a doctor?**
-2. **That is horrible! Call the ambulance ASAP!**
-3. **I can't believe she is sick. She probably ate something spoiled.**
+### 2. That's too bad. Have you seen a doctor?
+- **I'm so sorry to hear that. Have you been to a doctor?**
+- **That is horrible! Call the ambulance ASAP!**
+- **I can't believe she is sick. She probably ate something spoiled.**
 
-### You have a fever. Take some vitamin C and drink lots of water.
-1. **You have a headache? Take a headache pill and try to get some rest.**
-2. **Jane said she has a toothache. I told her to go to a dentist immediately.**
-3. **Her nosebleed won't stop. Take her to a doctor immediately.**
-### I hope you feel better soon.
-1. **I hope your headache subsides and you feel a lot better.**
-2. **You'll feel better in no time. Trust me.**
-3. **Don't worry, the nausea will wear off in an hour or two.**
+### 3. You have a fever. Take some vitamin C and drink lots of water.
+- **You have a headache? Take a headache pill and try to get some rest.**
+- **Jane said she has a toothache. I told her to go to a dentist immediately.**
+- **Her nosebleed won't stop. Take her to a doctor immediately.**  
 
-### Try not to eat anything oily or spicy for a few days
+### 4. I hope you feel better soon.  
+- **I hope your headache subsides and you feel a lot better.**
+- **You'll feel better in no time. Trust me.**
+- **Don't worry, the nausea will wear off in an hour or two.**
 
-1. **Avoid working if you don't feel well.**
-2. **You shouldn't stop taking antibiotics just because you feel slight improvement.**
-3. **Try not to eat anything a day before your surgery.**
+### 5. Try not to eat anything oily or spicy for a few days
+
+- **Avoid working if you don't feel well.**
+- **You shouldn't stop taking antibiotics just because you feel slight improvement.**
+- **Try not to eat anything a day before your surgery.**
 {% endif %}

@@ -74,10 +74,10 @@ lesson: "20"
 {% include player2.html identifier="explanation" class=page.class lesson=page.lesson %}
 
 ## Explanation
-### Did you do a lot of physical activity yesterday?
-1. **You need to do more exercise.**
-2. **She told me she only works out once a month.**
-3. **Get plenty of exercise every week if you want a healthy body.**
+### 1. Did you do a lot of physical activity yesterday?
+- **You need to do more exercise.**
+- **She told me she only works out once a month.**
+- **Get plenty of exercise every week if you want a healthy body.**
 
 {% if site.trialdeploy %}
   {% include list_placeholder.html start=3 stop=6 %}
@@ -85,22 +85,22 @@ lesson: "20"
 
 
 
-### You should eat more vegetables and fruits if you want to stay healthy. 
-1. **Sherry should stop eating all that junk food. She's pregnant after all.**
-2. **You should sit straight. Your posture is really bad. You'll regret it when you're older.**
-3. **You should stop drinking so much. Instead, maybe you should drink a healthy juice.**
+### 2. You should eat more vegetables and fruits if you want to stay healthy. 
+- **Sherry should stop eating all that junk food. She's pregnant after all.**
+- **You should sit straight. Your posture is really bad. You'll regret it when you're older.**
+- **You should stop drinking so much. Instead, maybe you should drink a healthy juice.**
 
-### I got more than 8 hours of sleep last night. 
-1. **I got only 4 hours of sleep last night because my sister kept snoring.**
-2. **I slept for only 2 hours last night because it was too hot in the house.**
-3. **I slept for 8 hours and I feel really great! I heard that's a healthy amount of sleep.**
+### 3. I got more than 8 hours of sleep last night. 
+- **I got only 4 hours of sleep last night because my sister kept snoring.**
+- **I slept for only 2 hours last night because it was too hot in the house.**
+- **I slept for 8 hours and I feel really great! I heard that's a healthy amount of sleep.**
 ### 4. So what? One or two bad decisions won't ruin my life.
-1. **So what if I eat plenty of junk food? I exercise once a week!**
-2. **I don't get enough sleep. So what? It's not the end of the world.**
-3. **So what if I sometimes eat chocolate? It's nice to treat yourself every now and then.**
+- **So what if I eat plenty of junk food? I exercise once a week!**
+- **I don't get enough sleep. So what? It's not the end of the world.**
+- **So what if I sometimes eat chocolate? It's nice to treat yourself every now and then.**
 
 ### 5. Are you alright? You look a bit tired.
-1. **Is Mary okay? She looks like she didn't sleep for two days.**
-2. **You look sad. Is everything okay with you and Christopher?**
-3. **Do you need help getting up the stairs? You look like you're about to faint.**
+- **Is Mary okay? She looks like she didn't sleep for two days.**
+- **You look sad. Is everything okay with you and Christopher?**
+- **Do you need help getting up the stairs? You look like you're about to faint.**  
   {% endif %}
