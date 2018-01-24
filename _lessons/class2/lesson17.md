@@ -9,8 +9,10 @@ lesson: "17"
 
 [comment]: <> NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
 
-{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
+
 ## Vocabulary 
+{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
+
 ### Subject 
 
 {% include wordgrid.html 
@@ -20,6 +22,7 @@ lesson: "17"
 		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
+
 
 
 ### Major 
@@ -32,7 +35,7 @@ lesson: "17"
 		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
-     
+
 
 ### Exams
 
@@ -44,7 +47,6 @@ lesson: "17"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 		
-
 
 {% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
 

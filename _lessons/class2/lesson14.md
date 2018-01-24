@@ -88,6 +88,11 @@ Cô ta hơn tôi 1 tuổi
 - **She is 2 years younger than me** *Cô ấy thua tôi 2 tuổi*
 - **She is the same age as me** *Cô ấy bằng tuổi tôi*
 
+{% if site.trialdeploy %}
+	{% include explanation_placeholder.html start=2 stop=5 %}
+	{% else %}
+
+
 ###  2. How long have you been friends?
 
 {% include play.html identifier="explanation" start=19.7 stop=34 %}
@@ -127,3 +132,5 @@ Không bao giờ nói dối, theo ý kiến của tôi, là điều quan trọng
 - **In my point of view, trust is the most important thing in friendship** *Theo quan điểm của tôi, niềm tin là điều quan trọng nhất trong tình bạn**
 - **I believe the most essential factor in his success is his great sense of humor** *Tôi tin rằng yếu tố quan trọng nhất trong sự thành công của anh ấy là khiếu hài hước*
 
+
+{% endif %}
