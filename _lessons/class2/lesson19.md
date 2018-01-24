@@ -14,54 +14,26 @@ lesson: "19"
 
 
 ### Expressing your feelings
-**Over the moon**   
-**On top of the world**  
-**Jump for joy**  
-**Break someone's heart**  
-**Burst into tears**  
-**Feeling blue**  
-**On cloud nine**    
-**Fed up**  
-**Under the weather**  
-**Bored to tears**  
-**Green with envy**    
-**Go bananas**  
-**Change of heart**  
-**Look on the bright side**  
-**Make your skin crawl**  
-**A soft spot**  
-**Pour your heart out**    
-**Reduced to tears**  
-**Let off steam**  
-**Walking on air**  
-**Swell with pride**  
-**Carry away**  
-**Eat a horse**    
-**Not be yourself**  
-**Foul mood**  
 
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="expressing"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+		
 
 ### Supporting someone 
-**Congratulations**  
-**Cheer up**   
-**Good job**  
-**Well-done**  
-**I feel a bit sorry for her**  
-**I am sorry to hear that**  
-**That's a pity**  
-**That's a shame**  
-**that's unfortunate**  
-**Keep your chin up!**  
-**Be there for you**  
-**Tables have turned**  
-**Take for granted**  
-**Take the bull by the horns**  
-**Take the plunge**  
-**The ball is in your court**  
-**Tomorrow's another day**   
-**Get ahold of yourself**  
 
-
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="supporting"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+		
 
 
 {% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}

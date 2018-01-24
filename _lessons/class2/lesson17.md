@@ -12,41 +12,38 @@ lesson: "17"
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 ## Vocabulary 
 ### Subject 
-**Mathematics**    
-**Literature**     
-**Chemistry**     
-**Biology**     
-**Economics**     
-**History**     
-**Computer Science**     
-**Arts**     
-**Geography**     
-**Physics**     
-**Physical Education/ PE**     
-**Psychology**     
-**Marxist – Leninist philosophy**     
-**Statistics**      
-**History of Communist Party**            
-**Ho Chi Minh ideology**     
-**Consumer/ customer behavior**      
+
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="subject"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+
 
 ### Major 
-**Architecture**      
-**Engineering**     
-**Journalism**      
-**Medicine**     
-**Sociology**      
-**Tourism and hospitality management**      
-**Information technology**      
-**Business Administration**      
-**Accounting**      
+
+	
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="major"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+     
 
 ### Exams
-**Re-sit**
-**Pass**
-**Fail**
-**Revise**
 
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="exams"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+		
 
 
 {% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
@@ -79,7 +76,7 @@ lesson: "17"
 
 
 {% if site.trialdeploy %}
-  {% include list_placeholder.html start=3 stop=6 %}
+  {% include list_placeholder.html start=3 stop=5 %}
   {% else %}
 
 
