@@ -1,7 +1,7 @@
 ---
 layout: lesson
 class: "1"
-lesson: "18"
+lesson: "20"
 ---
 
 
@@ -47,13 +47,14 @@ lesson: "18"
 {% include player2.html identifier="examples" class=page.class lesson=page.lesson %}
 
 ## Example
-1. **What time is it?**
-2. **What time is the concert?** 
-3. **What time is the movie?** 
-4. **What time is dinner with your sister?**
-5. **What makes you sad?**
-6. **What makes you disappointed?**
-7. **What makes you annoyed?**
+
+1. **What makes you sad?**
+2. . **What makes you disappointed?**
+3. **What makes you annoyed?**
+4. **What time is it?**
+5. **What time is the concert?** 
+6. **What time is the movie?** 
+7. **What time is dinner with your sister?**
 8. **What kind of books do you read?**
 9. **What kind of movie do you like to watch?**
 10. **What type of people do you like?**

@@ -1,7 +1,7 @@
 ---
 layout: lesson
 class: "1"
-lesson: "18"
+lesson: "21"
 ---
 
 
@@ -69,7 +69,7 @@ Responsibility
 4. Whose pencils are on the table?
 5. Whose birthday is on Christmas?
 6. Whose Email address is this?
-7. ...
-8. ...
-9. ...
-10. ... 
+7. . Whose birthday is it today?
+8. Whose little brother is he?
+9. Whose room did you sleep in yesterday?
+10. Whose shoe did he put the key in?8. 
