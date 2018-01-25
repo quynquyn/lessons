@@ -16,6 +16,7 @@ lesson: "18"
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 		

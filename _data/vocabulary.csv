@@ -608,8 +608,8 @@ se casar com alguém",C1L05-Marry-someone-Get-married-to-someone.jpg,class1/imag
 1,16,all,Replace,,,C1L16-Replace.jpg,class1/images/C1L16-Replace.jpg,,
 1,16,all,Protect,,,C1L16-Protect.jpg,class1/images/C1L16-Protect.jpg,,
 1,16,all,Support,,,C1L16-Support.jpg,class1/images/C1L16-Support.jpg,,
-1,17,all,apply for a job,,,C1L17-apply-for-a-job.jpg,class1/images/C1L17-apply-for-a-job.jpg,,
-1,17,all,compare,,,C1L17-compare.jpg,class1/images/C1L17-compare.jpg,,
+1,17,all,apply for a job,,,C1L17-apply-for-a-job.jpg,class1/images/C1L17-apply-for-a-job.jpg,8.16,10.25
+1,17,all,compare,,,C1L17-compare.jpg,class1/images/C1L17-compare.jpg,10.25,
 1,17,all,complain,,,C1L17-complain.jpg,class1/images/C1L17-complain.jpg,,
 1,17,all,imagine,,,C1L17-imagine.jpg,class1/images/C1L17-imagine.jpg,,
 1,17,all,encourage,,,C1L17-encourage.jpg,class1/images/C1L17-encourage.jpg,,
@@ -724,54 +724,54 @@ se casar com alguém",C1L05-Marry-someone-Get-married-to-someone.jpg,class1/imag
 2,17,exams,Pass,,,C2L17-Pass.jpg,class2/images/C2L17-Pass.jpg,62.74,63.1
 2,17,exams,Fail,,,C2L17-Fail.jpg,class2/images/C2L17-Fail.jpg,63.1,63.4
 2,17,exams,Revise,,,C2L17-Revise.jpg,class2/images/C2L17-Revise.jpg,63.4,64.55
-1,19,bedroom,Bed,,,C1L19-Bed.jpg,class1/images/C1L19-Bed.jpg,,
-1,19,bedroom,Picture,,,C1L19-Picture.jpg,class1/images/C1L19-Picture.jpg,,
-1,19,bedroom,Flower vase,,,C1L19-Flower-vase.jpg,class1/images/C1L19-Flower-vase.jpg,,
-1,19,bedroom,Shelf,,,C1L19-Shelf.jpg,class1/images/C1L19-Shelf.jpg,,
-1,19,bedroom,Lamp,,,C1L19-Lamp.jpg,class1/images/C1L19-Lamp.jpg,,
-1,19,bedroom,Pillow,,,C1L19-Pillow.jpg,class1/images/C1L19-Pillow.jpg,,
-1,19,bedroom,Blanket,,,C1L19-Blanket.jpg,class1/images/C1L19-Blanket.jpg,,
-1,19,bedroom,Alarm clock,,,C1L19-Alarm-clock.jpg,class1/images/C1L19-Alarm-clock.jpg,,
-1,19,bedroom,Dresser,,,C1L19-Dresser.jpg,class1/images/C1L19-Dresser.jpg,,
-1,19,bedroom,Teddy bear,,,C1L19-Teddy-bear.jpg,class1/images/C1L19-Teddy-bear.jpg,,
-1,19,bathroom,Curtain,,,C1L19-Curtain.jpg,class1/images/C1L19-Curtain.jpg,,
-1,19,bathroom,Window,,,C1L19-Window.jpg,class1/images/C1L19-Window.jpg,,
-1,19,bathroom,Faucet,,,C1L19-Faucet.jpg,class1/images/C1L19-Faucet.jpg,,
-1,19,bathroom,Bathtub,,,C1L19-Bathtub.jpg,class1/images/C1L19-Bathtub.jpg,,
-1,19,bathroom,Sink,,,C1L19-Sink.jpg,class1/images/C1L19-Sink.jpg,,
-1,19,bathroom,Towel,,,C1L19-Towel.jpg,class1/images/C1L19-Towel.jpg,,
-1,19,bathroom,Mirror,,,C1L19-Mirror.jpg,class1/images/C1L19-Mirror.jpg,,
-1,19,bathroom,Towel rack,,,C1L19-Towel-rack.jpg,class1/images/C1L19-Towel-rack.jpg,,
-1,19,bathroom,Toilet,,,C1L19-Toilet.jpg,class1/images/C1L19-Toilet.jpg,,
-1,19,bathroom,Toilet paper,,,C1L19-Toilet-paper.jpg,class1/images/C1L19-Toilet-paper.jpg,,
-1,19,bathroom,Shampoo,,,C1L19-Shampoo.jpg,class1/images/C1L19-Shampoo.jpg,,
-1,19,bathroom,Soap,,,C1L19-Soap.jpg,class1/images/C1L19-Soap.jpg,,
-1,19,bathroom,Toothbrush,,,C1L19-Toothbrush.jpg,class1/images/C1L19-Toothbrush.jpg,,
-1,19,bathroom,Toothpaste,,,C1L19-Toothpaste.jpg,class1/images/C1L19-Toothpaste.jpg,,
-1,19,kitchen,Pan,,,C1L19-Pan.jpg,class1/images/C1L19-Pan.jpg,,
-1,19,kitchen,Pot,,,C1L19-Pot.jpg,class1/images/C1L19-Pot.jpg,,
-1,19,kitchen,Cooker,,,C1L19-Cooker.jpg,class1/images/C1L19-Cooker.jpg,,
-1,19,kitchen,Cupboard,,,C1L19-Cupboard.jpg,class1/images/C1L19-Cupboard.jpg,,
-1,19,kitchen,Cutting board,,,C1L19-Cutting-board.jpg,class1/images/C1L19-Cutting-board.jpg,,
-1,19,kitchen,Knife,,,C1L19-Knife.jpg,class1/images/C1L19-Knife.jpg,,
-1,19,kitchen,Blender,,,C1L19-Blender.jpg,class1/images/C1L19-Blender.jpg,,
-1,19,kitchen,Sink,,,C1L19-Sink.jpg,class1/images/C1L19-Sink.jpg,,
-1,19,kitchen,Dishwasher,,,C1L19-Dishwasher.jpg,class1/images/C1L19-Dishwasher.jpg,,
-1,19,kitchen,Freezer,,,C1L19-Freezer.jpg,class1/images/C1L19-Freezer.jpg,,
-1,19,kitchen,Fridge,,,C1L19-Fridge.jpg,class1/images/C1L19-Fridge.jpg,,
-1,19,kitchen,Microwave,,,C1L19-Microwave.jpg,class1/images/C1L19-Microwave.jpg,,
-1,19,kitchen,Oven,,,C1L19-Oven.jpg,class1/images/C1L19-Oven.jpg,,
-1,19,livingroom,Chair,,,C1L19-Chair.jpg,class1/images/C1L19-Chair.jpg,,
-1,19,livingroom,Armchair,,,C1L19-Armchair.jpg,class1/images/C1L19-Armchair.jpg,,
-1,19,livingroom,Rocking chair,,,C1L19-Rocking-chair.jpg,class1/images/C1L19-Rocking-chair.jpg,,
-1,19,livingroom,Stool,,,C1L19-Stool.jpg,class1/images/C1L19-Stool.jpg,,
-1,19,livingroom,Book,,,C1L19-Book.jpg,class1/images/C1L19-Book.jpg,,
-1,19,livingroom,Couch,,,C1L19-Couch.jpg,class1/images/C1L19-Couch.jpg,,
-1,19,livingroom,Sofa,,,C1L19-Sofa.jpg,class1/images/C1L19-Sofa.jpg,,
-1,19,livingroom,Cushion,,,C1L19-Cushion.jpg,class1/images/C1L19-Cushion.jpg,,
-1,19,livingroom,Fireplace,,,C1L19-Fireplace.jpg,class1/images/C1L19-Fireplace.jpg,,
-1,19,livingroom,Coffee table,,,C1L19-Coffee-table.jpg,class1/images/C1L19-Coffee-table.jpg,,
-1,19,livingroom,Rug,,,C1L19-Rug.jpg,class1/images/C1L19-Rug.jpg,,
+1,19,bedroom,Bed,,,C1L19-Bed.jpg,class1/images/C1L19-Bed.jpg,9.68,10.43
+1,19,bedroom,Picture,,,C1L19-Picture.jpg,class1/images/C1L19-Picture.jpg,10.43,11.97
+1,19,bedroom,Flower vase,,,C1L19-Flower-vase.jpg,class1/images/C1L19-Flower-vase.jpg,11.97,13.1
+1,19,bedroom,Shelf,,,C1L19-Shelf.jpg,class1/images/C1L19-Shelf.jpg,13.1,14.62
+1,19,bedroom,Lamp,,,C1L19-Lamp.jpg,class1/images/C1L19-Lamp.jpg,14.62,15.87
+1,19,bedroom,Pillow,,,C1L19-Pillow.jpg,class1/images/C1L19-Pillow.jpg,15.87,17.43
+1,19,bedroom,Blanket,,,C1L19-Blanket.jpg,class1/images/C1L19-Blanket.jpg,17.43,18.7
+1,19,bedroom,Alarm clock,,,C1L19-Alarm-clock.jpg,class1/images/C1L19-Alarm-clock.jpg,18.7,20.35
+1,19,bedroom,Dresser,,,C1L19-Dresser.jpg,class1/images/C1L19-Dresser.jpg,20.35,21.62
+1,19,bedroom,Teddy bear,,,C1L19-Teddy-bear.jpg,class1/images/C1L19-Teddy-bear.jpg,21.62,23.16
+1,19,bathroom,Curtain,,,C1L19-Curtain.jpg,class1/images/C1L19-Curtain.jpg,25.43,27.47
+1,19,bathroom,Window,,,C1L19-Window.jpg,class1/images/C1L19-Window.jpg,27.47,28.6
+1,19,bathroom,Faucet,,,C1L19-Faucet.jpg,class1/images/C1L19-Faucet.jpg,28.6,29.96
+1,19,bathroom,Bathtub,,,C1L19-Bathtub.jpg,class1/images/C1L19-Bathtub.jpg,29.96,31.7
+1,19,bathroom,Sink,,,C1L19-Sink.jpg,class1/images/C1L19-Sink.jpg,31.7,33.11
+1,19,bathroom,Towel,,,C1L19-Towel.jpg,class1/images/C1L19-Towel.jpg,33.11,34.74
+1,19,bathroom,Mirror,,,C1L19-Mirror.jpg,class1/images/C1L19-Mirror.jpg,34.74,36.17
+1,19,bathroom,Towel rack,,,C1L19-Towel-rack.jpg,class1/images/C1L19-Towel-rack.jpg,36.17,37.68
+1,19,bathroom,Toilet,,,C1L19-Toilet.jpg,class1/images/C1L19-Toilet.jpg,37.68,39.66
+1,19,bathroom,Toilet paper,,,C1L19-Toilet-paper.jpg,class1/images/C1L19-Toilet-paper.jpg,39.66,41.4
+1,19,bathroom,Shampoo,,,C1L19-Shampoo.jpg,class1/images/C1L19-Shampoo.jpg,41.4,43.12
+1,19,bathroom,Soap,,,C1L19-Soap.jpg,class1/images/C1L19-Soap.jpg,43.12,44.64
+1,19,bathroom,Toothbrush,,,C1L19-Toothbrush.jpg,class1/images/C1L19-Toothbrush.jpg,44.64,46.43
+1,19,bathroom,Toothpaste,,,C1L19-Toothpaste.jpg,class1/images/C1L19-Toothpaste.jpg,46.43,48.05
+1,19,kitchen,Pan,,,C1L19-Pan.jpg,class1/images/C1L19-Pan.jpg,50.27,52.04
+1,19,kitchen,Pot,,,C1L19-Pot.jpg,class1/images/C1L19-Pot.jpg,52.04,53
+1,19,kitchen,Cooker,,,C1L19-Cooker.jpg,class1/images/C1L19-Cooker.jpg,53,54.39
+1,19,kitchen,Cupboard,,,C1L19-Cupboard.jpg,class1/images/C1L19-Cupboard.jpg,54.39,55.6
+1,19,kitchen,Cutting board,,,C1L19-Cutting-board.jpg,class1/images/C1L19-Cutting-board.jpg,55.6,57.49
+1,19,kitchen,Knife,,,C1L19-Knife.jpg,class1/images/C1L19-Knife.jpg,57.49,58.85
+1,19,kitchen,Blender,,,C1L19-Blender.jpg,class1/images/C1L19-Blender.jpg,58.85,60.44
+1,19,kitchen,Sink,,,C1L19-Sink.jpg,class1/images/C1L19-Sink.jpg,60.44,61.97
+1,19,kitchen,Dishwasher,,,C1L19-Dishwasher.jpg,class1/images/C1L19-Dishwasher.jpg,61.97,63.62
+1,19,kitchen,Freezer,,,C1L19-Freezer.jpg,class1/images/C1L19-Freezer.jpg,63.62,65.03
+1,19,kitchen,Fridge,,,C1L19-Fridge.jpg,class1/images/C1L19-Fridge.jpg,65.03,66.8
+1,19,kitchen,Microwave,,,C1L19-Microwave.jpg,class1/images/C1L19-Microwave.jpg,66.8,68.41
+1,19,kitchen,Oven,,,C1L19-Oven.jpg,class1/images/C1L19-Oven.jpg,68.41,70.02
+1,19,livingroom,Chair,,,C1L19-Chair.jpg,class1/images/C1L19-Chair.jpg,71.97,73.41
+1,19,livingroom,Armchair,,,C1L19-Armchair.jpg,class1/images/C1L19-Armchair.jpg,73.41,75.27
+1,19,livingroom,Rocking chair,,,C1L19-Rocking-chair.jpg,class1/images/C1L19-Rocking-chair.jpg,75.27,77.06
+1,19,livingroom,Stool,,,C1L19-Stool.jpg,class1/images/C1L19-Stool.jpg,77.06,78.33
+1,19,livingroom,Book,,,C1L19-Book.jpg,class1/images/C1L19-Book.jpg,78.33,79.91
+1,19,livingroom,Couch,,,C1L19-Couch.jpg,class1/images/C1L19-Couch.jpg,79.91,81.55
+1,19,livingroom,Sofa,,,C1L19-Sofa.jpg,class1/images/C1L19-Sofa.jpg,81.55,83.34
+1,19,livingroom,Cushion,,,C1L19-Cushion.jpg,class1/images/C1L19-Cushion.jpg,83.34,85.01
+1,19,livingroom,Fireplace,,,C1L19-Fireplace.jpg,class1/images/C1L19-Fireplace.jpg,85.01,87.12
+1,19,livingroom,Coffee table,,,C1L19-Coffee-table.jpg,class1/images/C1L19-Coffee-table.jpg,87.12,88.77
+1,19,livingroom,Rug,,,C1L19-Rug.jpg,class1/images/C1L19-Rug.jpg,88.77,90.39
 2,19,expressing,Over the moon,,,C2L19-Over-the-moon.jpg,class2/images/C2L19-Over-the-moon.jpg,9.05,11.22
 2,19,expressing,On top of the world,,,C2L19-On-top-of-the-world.jpg,class2/images/C2L19-On-top-of-the-world.jpg,11.22,13.17
 2,19,expressing,Jump for joy,,,C2L19-Jump-for-joy.jpg,class2/images/C2L19-Jump-for-joy.jpg,13.17,14.94

@@ -40,18 +40,18 @@ lesson: "19"
 
 ## Conversation
 
-> Person 1: **I am so under the weather, I have no idea what I'm going to do.**   
-> Person 2: **Why? What happened?**    
-> P1: **My daughter Anna doesn't want to go to preschool. She says she's scared.**    
-> P2: **Oh I know exactly how you feel. My son Jamie burst into tears the first time I left him at preschool.**  
-> P1: **Really? I thought I was the only parent with that problem.**  
-> P2: **Oh trust me, you're not alone. Just keep your chin up and be patient.**  
-> P1: **But how do I make her like preschool? As soon as I mention it, she starts crying and I feel like I'm breaking her heart.**  
-> P2: **Talk to her about it and tell her to look on the bright side. She's afraid of the unknown. She'll enjoy herself when she gets used to preschool.**  
-> P1: **Hmm, I'll try. I get carried away with trying to make her feel happy, I forget about the bigger picture. Preschool will teach her and prepare her for life.**  
-> P2: **Absolutely! Tell her to be strong and get ahold of herself. She's a big girl!**  
-> P1: **I will do that. Thank you for helping me look on the bright side.**  
-> P2: **You're welcome. Let me know how it goes, and remember that I'm always here for you.**     
+> {% include play.html identifier="conversation" start=2.05 stop=5.75 %}Person 1: **I am so under the weather, I have no idea what I'm going to do.**   
+> {% include play.html identifier="conversation" start=5.75 stop=7.18 %}Person 2: **Why? What happened?**    
+> {% include play.html identifier="conversation" start=7.18 stop=11.80 %}P1: **My daughter Anna doesn't want to go to preschool. She says she's scared.**    
+> {% include play.html identifier="conversation" start=11.80 stop=18.61 %}P2: **Oh I know exactly how you feel. My son Jamie burst into tears the first time I left him at preschool.**  
+> {% include play.html identifier="conversation" start=18.61 stop=21.87 %}P1: **Really? I thought I was the only parent with that problem.**  
+> {% include play.html identifier="conversation" start=21.87 stop=26.35 %}P2: **Oh trust me, you're not alone. Just keep your chin up and be patient.**  
+> {% include play.html identifier="conversation" start=26.35 stop=32.57 %}P1: **But how do I make her like preschool? As soon as I mention it, she starts crying and I feel like I'm breaking her heart.**  
+> {% include play.html identifier="conversation" start=32.57 stop=40.94 %}P2: **Talk to her about it and tell her to look on the bright side. She's afraid of the unknown. She'll enjoy herself when she gets used to preschool.**  
+> {% include play.html identifier="conversation" start=40.94 stop=49.43 %}P1: **Hmm, I'll try. I get carried away with trying to make her feel happy, I forget about the bigger picture. Preschool will teach her and prepare her for life.**  
+> {% include play.html identifier="conversation" start=49.43 stop=54.25 %}P2: **Absolutely! Tell her to be strong and get ahold of herself. She's a big girl!**  
+> {% include play.html identifier="conversation" start=54.25 stop=58.15 %}P1: **I will do that. Thank you for helping me look on the bright side.**  
+> {% include play.html identifier="conversation" start=58.15 stop=63.03 %}P2: **You're welcome. Let me know how it goes, and remember that I'm always here for you.**     
 
 
 

@@ -18,6 +18,7 @@ lesson: "19"
 		class=page.class 
 		lesson=page.lesson 
 		section="bedroom"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
