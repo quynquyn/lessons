@@ -40,7 +40,7 @@ lesson: "19"
 
 ## Conversation
 
-> {% include play.html identifier="conversation" start=2.05 stop=5.75 %}Person 1: **I am so under the weather, I have no idea what I'm going to do.**   
+> {% include play.html identifier="conversation" start=2.05 stop=5.74 %}Person 1: **I am so under the weather, I have no idea what I'm going to do.**   
 > {% include play.html identifier="conversation" start=5.75 stop=7.18 %}Person 2: **Why? What happened?**    
 > {% include play.html identifier="conversation" start=7.18 stop=11.80 %}P1: **My daughter Anna doesn't want to go to preschool. She says she's scared.**    
 > {% include play.html identifier="conversation" start=11.80 stop=18.61 %}P2: **Oh I know exactly how you feel. My son Jamie burst into tears the first time I left him at preschool.**  
