@@ -33,19 +33,19 @@ lesson: "15"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-1. **I was tired last night. Were you??**  
+1. {% include play.html identifier="vocabulary" start=51.10 stop=56.38 %} **I was tired last night. Were you??**  
  **Yes, I was tired last night.**      
  *Hôm qua tôi mệt. Còn bạn?     
 Có, hôm qua tôi cũng mệt*      
-2. **Were you bored without me yesterday?**      
+2. {% include play.html identifier="vocabulary" start=57.30 stop=62.35 %} **Were you bored without me yesterday?**      
 **No, I wasn’t bored without you yesterday.**      
 *Hôm qua không có tôi, bạn có chán không?            
 Không, hôm qua không có bạn, tôi không chán*           
-3. **Was she at home last week?**      
+3. {% include play.html identifier="vocabulary" start=63.35 stop=67.76 %} **Was she at home last week?**      
 **No, She was not at home last week**
 *Tuần trước, cô ta có nhà không?    
 Không, cô ta không có nhà tuần trước*       
-4. **Jane didn’t come to class yesterday. Was she sick?**      
+4. {% include play.html identifier="vocabulary" start=68.86 stop=74 %} **Jane didn’t come to class yesterday. Was she sick?**      
 **Yes, she was sick**      
 *Jane không đến lớp hôm qua. Cô ta ốm à?     
 Uh, cô ta ốm* 

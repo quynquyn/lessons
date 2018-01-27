@@ -14,28 +14,28 @@ lesson: "23"
 
 
 ### Company 
-I work for a _______ company
+**I work for a _______ company**
 
-* Publishing   
-* Television   
-* Insurance    
-* Pharmaceutical  
-* Computer    
-* Engineering  
-* Electronics  
+* **Publishing** 
+* **Television** 
+* **Insurance**  
+* **Pharmaceutical**
+* **Computer**  
+* **Engineering**
+* **Electronics**
 
 
 ### Qualities 
-* Ambitious
-* Reliable     
-* Lazy     
-* Conscientious 
-* Flexible  
-* Adaptive
-* Confident     
-* Punctual
-* Enthusiastic 
-* Independent 
+* **Ambitious**
+* **Reliable**     
+* **Lazy**     
+* **Conscientious** 
+* **Flexible**  
+* **Adaptive**
+* **Confident**     
+* **Punctual**
+* **Enthusiastic** 
+* **Independent** 
 
 {% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
 

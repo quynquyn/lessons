@@ -25,22 +25,22 @@ lesson: "15"
 
 ## Conversation
 
-> Person 1 (Female): **What do you think of Andy?**          
-> Person 2 (Male): **In what sense? As a man or as a tennis player**       
-> P1: **Do you have to ask? As a man, of course**       
-> P2: **I’ve just met him. So I can’t really say**       
-> P1: **In my opinion, I think he is just great**     
-> P2: **Oooh, what’s this I am hearing? You might be in love**     
-> P1: **Yes, it is the first time I’ve fallen head over heels in love. So much in love… but he doesn’t even notice me. We share so many common interests and we see things in the same way, we can talk for hours. But that’s it. He just looks at me as a good friend, nothing less, nothing more**     
-> P2: **How long have you been in love with him? Have you asked him how he feels about you?**     
-> P1: **No, of course not. He is not interested in a relationship now. He just cares about his career**     
-> P2: **I think you should tell him. Who knows? He might be in love with you, too**     
-> P1: **It’s not so easy to say certain things. You know what it's like. Put yourself in my shoes and you'll understand**     
-> P2: **If you keep quiet, you might lose him forever. If you like him, you should ask him out**     
-> P1: **Maybe you’re right. Maybe I have to think of a special way to show him just how I feel**     
-> P2: **I just got a brilliant idea. You should cook lunch for him. Write a small note which says “I like you." You can surprise him by hiding it in a napkin**     
-> P1: **What a romantic idea! Do you think it will work?**     
-> P2: **I think it will go straight to his heart**
+> {% include play.html identifier="examples1" start=2.11 stop=3.73 %} Person 1 (Female): **What do you think of Andy?**          
+> {% include play.html identifier="examples1" start=3.73 stop=6.44 %} Person 2 (Male): **In what sense? As a man or as a tennis player**      
+> {% include play.html identifier="examples1" start=6.44 stop=9.02 %} P1: **Do you have to ask? As a man, of course**       
+> {% include play.html identifier="examples1" start=9.02 stop=11.48 %} P2: **I’ve just met him. So I can’t really say**       
+> {% include play.html identifier="examples1" start=11.48 stop=14.17 %} P1: **In my opinion, I think he is just great**     
+> {% include play.html identifier="examples1" start=14.17 stop=16.85 %} P2: **Oooh, what’s this I am hearing? You might be in love**     
+> {% include play.html identifier="examples1" start=16.85 stop=35.71 %} P1: **Yes, it is the first time I’ve fallen head over heels in love. So much in love… but he doesn’t even notice me. We share so many common interests and we see things in the same way, we can talk for hours. But that’s it. He just looks at me as a good friend, nothing less, nothing more**     
+> {% include play.html identifier="examples1" start=35.71 stop=39.74 %} P2: **How long have you been in love with him? Have you asked him how he feels about you?**     
+> {% include play.html identifier="examples1" start=39.74 stop=46.06 %} P1: **No, of course not. He is not interested in a relationship now. He just cares about his career**     
+> {% include play.html identifier="examples1" start=46.06 stop=50.06 %} P2: **I think you should tell him. Who knows? He might be in love with you, too**     
+> {% include play.html identifier="examples1" start=50.06 stop=56.62 %} P1: **It’s not so easy to say certain things. You know what it's like. Put yourself in my shoes and you'll understand**     
+> {% include play.html identifier="examples1" start=56.62 stop=61.84 %} P2: **If you keep quiet, you might lose him forever. If you like him, you should ask him out**     
+> {% include play.html identifier="examples1" start=61.84 stop=67.15 %} P1: **Maybe you’re right. Maybe I have to think of a special way to show him just how I feel**     
+> {% include play.html identifier="examples1" start=67.15 stop=76.34 %} P2: **I just got a brilliant idea. You should cook lunch for him. Write a small note which says “I like you." You can surprise him by hiding it in a napkin**     
+> {% include play.html identifier="examples1" start=76.34 stop=79.54 %} P1: **What a romantic idea! Do you think it will work?**     
+> {% include play.html identifier="examples1" start=79.54 stop=81.74 %} P2: **I think it will go straight to his heart**
 
 {% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
 ## 2. Explanation

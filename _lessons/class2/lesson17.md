@@ -61,7 +61,7 @@ lesson: "17"
 > {% include play.html identifier="conversation" start=31.47 stop=37.21 %} P1: **What are you going to do now? Although I want to, I can't help you learn the entire exam in one hour.**  
 > {% include play.html identifier="conversation" start=37.21 stop=42.09 %} P2: **I don't know. Maybe I can ask the professor to let me take the exam next week.**  
 > {% include play.html identifier="conversation" start=42.09 stop=45.87 %} P1: **Are you sure? You know he has a rule about taking exams.** 
-> {% include play.html identifier="conversation" start=45.87 stop=49.85 %} P2: **Yes, I know. But despite his rule, I have to ask!**  
+> {% include play.html identifier="conversation" start=45.87 stop=49.85 %} P2: **Yes, I know. But despite his rule, I have to ask!**
 > {% include play.html identifier="conversation" start=49.85 stop=55.02 %} P1: **Good luck! Although I doubt he will do so, I hope he lets you take the exam next week.**
 
 
@@ -85,7 +85,6 @@ lesson: "17"
 
 ### 2. Despite studying math for 3 years, I'm considering switching to English.
 
-{% include play.html identifier="explanation" start=23.97 stop=29.7 %} 
 
 - **Despite the low salary, he enjoys his job!**
 - **Despite the ringing alarm at 6 AM, I still couldn't wake up in time.**

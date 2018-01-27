@@ -5,10 +5,10 @@ lesson: "25"
 ---
 
 
-# Lesson 1.24: Review
+# Lesson 1.25: Review
 
 
-{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
+{% include player2.html identifier="review" class=page.class lesson=page.lesson %}
 
 1. **What is this?**
 2. **What are those?**

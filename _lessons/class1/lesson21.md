@@ -5,7 +5,7 @@ lesson: "21"
 ---
 
 
-# Lesson 1.21: Which/ whose 
+# Lesson 1.21: Which / whose 
 
 
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}

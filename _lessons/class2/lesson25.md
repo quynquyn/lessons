@@ -11,7 +11,7 @@ lesson: "25"
 
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 ## Vocabulary 
-**Beat one’s self up**  
+**Beat oneself up**  
 **Break in**  
 **Break up with someone**  
 **Bring something up**  

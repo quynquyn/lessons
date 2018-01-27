@@ -27,17 +27,17 @@ lesson: "16"
 
 ## Conversation
 
-> Person 1 (female): **Listen, I want to clear up a few things with you right away. You know what I mean, right?**     
-> Person 2 (Male): **Of course.**     
-> P1: **After finding out about this, I realized that I need to talk to you straight away, but I didn’t have the courage. We’ve known each other   for a long time. I’ve always thought a lot about you. Oh god, I don’t know how to tell you this...**  
-> P2: **Come on, don’t be shy. Actually, you don’t need to tell me this, we don’t need words anymore. You are my true friend, only a true friend,   nothing more**  
-> P1: **Really? What an idiot I am. I thought you felt an interest for me. I thought there was more between us than just a simple friendship. Is it   because tennis is the only passion in your life?**  
-> P2: **Sorry. I didn’t mean to upset you. The truth is that there is someone else in my heart.**  
-> P1: **Oh. Ok, it’s better the true reason for your refusal was because of another woman, and not tennis.**    
-> P2: **I think of you more than sports, you know.**  
-> P1: **Don’t worry. Let’s pretend none of this happened. Let bygones be bygones. Ok?**    
-> P2: **Of course, and no hard feelings.**  
-> P1: **Sure. See you in a bit.**    
+> {% include play.html identifier="examples1" start=1.84 stop=7.23 %} Person 1 (female): **Listen, I want to clear up a few things with you right away. You know what I mean, right?**     
+> {% include play.html identifier="examples1" start=7.23 stop=8.08 %} Person 2 (Male): **Of course.**     
+> {% include play.html identifier="examples1" start=8.08 stop=21.72 %} P1: **After finding out about this, I realized that I need to talk to you straight away, but I didn’t have the courage. We’ve known each other   for a long time. I’ve always thought a lot about you. Oh god, I don’t know how to tell you this...**  
+> {% include play.html identifier="examples1" start=21.72 stop=30.83 %} P2: **Come on, don’t be shy. Actually, you don’t need to tell me this, we don’t need words anymore. You are my true friend, only a true friend,   nothing more**  
+> {% include play.html identifier="examples1" start=30.83 stop=42.24 %} P1: **Really? What an idiot I am. I thought you felt an interest for me. I thought there was more between us than just a simple friendship. Is it   because tennis is the only passion in your life?**  
+> {% include play.html identifier="examples1" start=42.24 stop=47.21 %} P2: **Sorry. I didn’t mean to upset you. The truth is that there is someone else in my heart.**  
+> {% include play.html identifier="examples1" start=47.21 stop=53.38 %} P1: **Oh. Ok, it’s better the true reason for your refusal was because of another woman, and not tennis.**    
+> {% include play.html identifier="examples1" start=53.38 stop=55.51 %} P2: **I think of you more than sports, you know.**  
+> {% include play.html identifier="examples1" start=55.51 stop=60.96 %} P1: **Don’t worry. Let’s pretend none of this happened. Let bygones be bygones. Ok?**    
+> {% include play.html identifier="examples1" start=60.96 stop=63.30 %} P2: **Of course, and no hard feelings.**
+> {% include play.html identifier="examples1" start=63.30 stop=65.31 %} P1: **Sure. See you in a bit.**    
 
 
 {% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}

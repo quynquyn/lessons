@@ -16,26 +16,26 @@ salestext: "Free full version (1 days left)"
 {% include image.html class=2 lesson="03" name="Grid1" %}
 
 |**Get up / wake up** | **Make my bed**  | **Brush my teeth**  | **Wash my face**  | **Comb my hair**  | **Get dressed**  | **Put on makeup**  | 
-| *Thức dậy*  | *Gấp chăn màn* | *Đánh răng* | *Rửa mặt* | *Chải tóc* | *Thay quần áo* | *Trang điểm* | 
+| *levantar-se / acordar*  | *fazer minha cama* | *escovar meus dentes* | *lavar meu rosto* | *pentear meu cabelo* | *vestir-se* | *maquiar-se* | 
 
 
 {% include image.html class=2 lesson="03" name="Grid2" %}
 
 | **Have breakfast** | **lunch** | **dinner** | **Have a cup of coffee** | **tea** | **Go to work** | **school** | **by taxi** | 
-| *Ăn sáng* | *trưa* | *tối* | *Uống ly cà phê* | *trà* |  *Đi làm* | *học* | *bằng xe taxi* |
+| *tomar café da manhã* | *almoço* | *jantar* | *tomar uma xícara de café* | *chá* |  *ir trabalhar* | *escola / faculdade* | *de táxi* |
 
 
 
 {% include image.html class=2 lesson="03" name="Grid3" %}
 
 | **by bus** | **by car** | **by motorbike** | **Finish my work** | **and come back home** | **Do some exercises** | **Play sports**
-| *buýt* | *hơi* | *máy* | *Xong việc* | *và trở về nhà* | *Tập thể dục* | *chơi thể thao*
+| *de ônibus* | *de carro* | *de moto* | *terminar meu trabalho* | *e voltar para casa* | *fazer alguns exercícios* | *praticar esportes*
 
 
 {% include image.html class=2 lesson="03" name="Grid4" %}
 
 | **Take a bath** | **take a shower**  | **Watch TV**  | **Talk to my mother on the phone** | **Surf facebook**  | **Go to bed**  | **Set an alarm clock at 7 for the next morning**  | 
-| *Tắm bồn tắm* | *tắm vòi hoa sen* | *Xem TV* | *Nói chuyện với mẹ qua điện thoại* | *Lướt facebook* | *Đi ngủ* | *Hẹn báo thức vào 7 giờ cho buổi sáng hôm sau* | 
+| *tomar banho* | *tomar banho* | *assistir televisão* | *Falar com a minha mãe ao telefone* | *navegar no facebook* | *ir para a cama / deitar-se* | *ajustir o despertador para 7 na manhã seguinte* | 
 
 
 
@@ -66,7 +66,8 @@ salestext: "Free full version (1 days left)"
 
 P2: **John gets up around 7 and then he brushes his teeth and washes his face. After that, he gets dressed. He usually gets ready around 8AM. After breakfast, he goes to work at around 8.30. It takes him about 20 minutes to go to work by bus. He doesn’t stay up late so he is not a night owl. He is an early bird because he gets up at 7AM.**
 
-*John thức dậy lúc 7h sáng sau đó, anh ấy đánh răng và rửa  mặt. Sau đó, anh ấy thay đồ. Anh thường chuẩn bị xong lúc khoảng 8h sáng. Sau bữa ăn sáng, anh đi làm khoảng 8h30. Anh ta mất khoảng 20 phút để đi làm bằng xe buýt. Anh ấy không thức đêm muộn vì anh không phải là cú đêm. Anh ấy là một con chim thức dậy lúc sáng sớm vì anh ngủ dậy lúc 7h sáng*
+*
+John se levanta por volta das 7 e depois ele escova seus dentes e lava seu rosto. Depois disso, ele se veste. Ele geralmente se apronta por volta das 8 da manhã. Após o café da manhã, ele vai trabalhar às 8h30. Leva cerca de 20 minutos para chegar ao trabalho de ônibus. Ele não fica acordado até o tarde, então ele não é um notívago. Ele é um madrugador porque ele se levanta às 7 da manhã*
 
  
 ## Dialogue 2
@@ -98,7 +99,7 @@ P2: **John gets up around 7 and then he brushes his teeth and washes his face. A
 
 Person 2: **I want to meet Kurt on Saturday and he thinks that’s great idea. Kurt gets up at 7:30AM and then he goes to his Taekwondo lesson at 9:00. At 11:00 he doesn’t have time because he starts school at that time and he finishes school at 5:30 PM. At 5:45 he meets me for dinner.**
 
-*Tôi muốn gặp Kurt vào thứ Bảy và anh ta nghĩ rằng đó là một ý hay. Kurt thức dậy lúc 7h30 và sau đó, anh ta học Taekwondo vào lúc 9h. Lúc 11h, anh ta không có thời gian rảnh vì anh ta bắt đầu giờ học lúc đó và anh ta học xong lúc 5h:30 chiều. Lúc 5h:45 anh ta gặp tôi cho bữa ăn tối.*
+*Quero encontrar Kurt no sábado e ele acha que é uma ótima idéia. Kurt se levanta às 7h30 da manhã e então ele vai para sua aula de Taekwondo às 9. Às 11:00, ele não tem tempo porque começa a escola naquela hora e ele termina a escola às 17h30 da tarde. Às 17h45 ele se encontra comigo para jantar.*
 
 ## Exercise
 
@@ -115,4 +116,4 @@ P1: **My name is Ted. There are a couple of things that I like to do in my daily
 
 P2: **Can you say what Ted likes to do in his daily routine?**
 
-*Bạn có thể nói Ted thích gì vào thời gian biểu hằng ngày của anh ta không?*
+*Você pode dizer o que Ted gosta de fazer em sua rotina diária?*
