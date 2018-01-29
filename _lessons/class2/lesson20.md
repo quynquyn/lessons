@@ -14,43 +14,26 @@ lesson: "20"
 
 
 ### Healthy lifestyle 
-**Fresh fruit**  
-**Plenty of fresh air**   
-**Fish**   
-**Regular exercise**  
-**Salad**  
-**Greens**  
-**Vegetables**  
-**Fresh air**  
-**Work out**  
-**Take some time for yourself**  
-**Relax**  
-**Meditate**  
-**Hydrate**  
-**Regular sleep schedule**  
-**Vitamin-rich diet**  
-**Physical activity**  
-**Go outside more**  
-**Healthy snacks**  
-**Go for a jog**  
-**Dance**  
-**Brush your teeth**  
-**Sit straight**  
+
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="healthylifestyle"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+		
 
 
 ### Unhealthy lifestyle  
 
-**Smoking**  
-**A lot of stress at work**  
-**Lots of sugar**  
-**Too much salt**  
-**Too much alcohol**  
-**Not enough rest**  
-**Staying up late**  
-**Fast food**  
-**Bad posture**  
-**Too much work**  
-**Too little physical activity**  
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="unhealthylifestyle"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 {% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}

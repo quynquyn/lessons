@@ -14,6 +14,14 @@ lesson: "23"
 [comment]: <>  all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0  
 **HOW DO YOU GET THERE?**  
 
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="vocabulary"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+		
 **I GET THERE** 
 
 - **By car/ bus/ train/ plane** 

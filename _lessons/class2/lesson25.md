@@ -11,6 +11,16 @@ lesson: "25"
 
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 ## Vocabulary 
+
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="vocabulary"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+		
+		
 **Beat oneself up**  
 **Break in**  
 **Break up with someone**  
@@ -69,9 +79,10 @@ lesson: "25"
 
 ## Explanation
 ### 1.  I broke up with Janice. I couldn't be with her anymore.
-- **Emily and Alex broke up when she caught him breaking into her house.**
-- **When she left me, I felt broken. She broke my heart.**
-- **Don't bring up their break-up. You know Alex is still very sensitive about it.**
+Tôi đã chia tay với Janice. Tôi không thể bên cạnh cô ta nữa
+- **Emily and Alex broke up when she caught him breaking into her house.** *Emily và Alex chia tay khi cô ta bắt gặp anh ta đột nhập vào nhà của mình*
+- **When she left me, I felt broken. She broke my heart.** *Khi cô ta bỏ tôi, tôi cảm thấy tan vỡ. Cô ta làm tan nát trái tim tôi*
+- **Don't bring up their break-up. You know Alex is still very sensitive about it.** *Đừng nhắc tới việc họ chia tay. Tôi biết Alex vẫn rất nhạy cảm về việc này*
 
 
 {% if site.trialdeploy %}
@@ -79,24 +90,28 @@ lesson: "25"
   {% else %}
 
 
-### 2. Don't beat yourself up about it. She'll get over it.
-- **I'm so tired of hearing him cry about his ex girlfriend. Tell him to get over it!**
-- **Once I got over my break-up, I found a new girlfriend and I'm getting along with her just fine.**
-- **I don't know how I'll go on without my boyfriend. I thought we were going to settle down and start a family.**
+### 2. Don't beat yourself up about it. She'll get over it. 
+Đừng giận mình nữa. Cô ta sẽ vượt qua được điều đó thôi
+- **I'm so tired of hearing him cry about his ex girlfriend. Tell him to get over it!** *Tôi quá mệt mỏi vì phải ngh anh ta khóc lóc về bạn gái cũ. Hãy nói anh ta vượt qua chuyện đó đi*
+- **Once I got over my break-up, I found a new girlfriend and I'm getting along with her just fine.** *Khi tôi vượt qua việc chia tay của mình, tôi tìm thấy một người bạn gái mới và tôi hợp với cô ta rất nhiều*
+- **I don't know how I'll go on without my boyfriend. I thought we were going to settle down and start a family.** *Tôi không biết làm cách nào tôi có thể tiếp tục mà không có bạn trai của mình. Tôi tưởng chúng tôi sẽ kết hôn và có một gia đình*
 
 ### 3. If I end up feeling worse, I'll give you a call.
-- **If you stay in this relationship, you'll end up in a horrible marriage.**
-- **Most people who try drugs end up addicted to it.**
-- **You need friends you can count on if you end up in a bad situation.**
+Nếu cuối cùng tôi vẫn cảm thấy tệ hơn, tôi sẽ gọi điện cho bạn
+- **If you stay in this relationship, you'll end up in a horrible marriage.** *Nếu bạn vẫn trong mối quan hệ này, bạn sẽ cuối cùng kết thúc trong một cuộc hôn nhân khủng khiếp*
+- **Most people who try drugs end up addicted to it.** *Hầu hết người thử thuốc phiện cuối cùng kết thúc là nghiện nó*
+- **You need friends you can count on if you end up in a bad situation.** *Bạn cần những người bạn mà bạn có thể dựa dẫm vào nếu bạn kết thúc trong một tình huống xấu*
 
 ### 4. I finally figured out she isn't going to change.
-- **Listening to my parents helped me figure out I have a lot to learn.**
-- **My brother helped me figure out this math assignment. I was really stuck.**
-- **Anna needs to figure out what she's going to do with her life.**
+Tôi cuối cùng hiểu được tại sao cô ta không thay đổi
+- **Listening to my parents helped me figure out I have a lot to learn.** *Nói chuyện với ba mẹ giúp tôi hiểu ra rằng tôi có nhiều thứ phải học*
+- **My brother helped me figure out this math assignment. I was really stuck.** *Anh trai giúp tôi hiểu ra bài toán này. Tôi đã bị bí* 
+- **Anna needs to figure out what she's going to do with her life.** *Anna cần phải tìm ra cô ta phải làm gì với cuộc đời mình*
 
 ### 5. Try not to run into her anytime soon.
-- **I ran into my sister this morning. I didn't see her since April.**
-- **Guess who I ran into at the bank! My best friend from high school. We went for coffee afterward.**
-- **I'm going to the supermarket. I really hope I don't run into my math teacher like I did last week.**  
+Cố gắng đừng gặp cô ta sớm quá
+- **I ran into my sister this morning. I didn't see her since April.** *Cô vô tình gặp chị tôi sáng nay. Tôi không gặp chị từ tháng 4*
+- **Guess who I ran into at the bank! My best friend from high school. We went for coffee afterwards.** *Đoán xem tôi đã vô tình gặp ai tại ngân hàng! Bạn thân nhất của tôi từ trung học. Sau đó chúng tôi đi cà phê*
+- **I'm going to the supermarket. I really hope I don't run into my math teacher like I did last week.**  *Tôi sẽ đi siêu thị. Tôi thật sự hi vọng tôi không vô tình gặp giáo viên dạy toán như lần trước tuần vừa rồi*
 
   {% endif %}

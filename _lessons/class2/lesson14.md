@@ -20,39 +20,38 @@ lesson: "14"
 		trial=site.trialdeploy %}
 
 
-
 ### Friends
 
-1. {% include play.html identifier="vocabulary" start=31 stop=34 %} **A best friend**
-2. {% include play.html identifier="vocabulary" start=34 stop=37 %} **A pen friend**
-3. {% include play.html identifier="vocabulary" start=37 stop=40 %} **A close friend**
-4. {% include play.html identifier="vocabulary" start=40 stop=43 %} **A true friend**
-5. {% include play.html identifier="vocabulary" start=43 stop=46.5 %} **A lifelong friend**
-6. {% include play.html identifier="vocabulary" start=46.5 stop=49.5 %} **An acquaintance**
-7. {% include play.html identifier="vocabulary" start=49.5 stop=53.5 %} **A fair-weather friend**
-8. {% include play.html identifier="vocabulary" start=53.5 stop=56 %} **A stranger**
+1. {% include play.html identifier="vocabulary" start=31 stop=34 %} **A best friend** *Một người bạn thân*
+2. {% include play.html identifier="vocabulary" start=34 stop=37 %} **A pen friend** *Một người bạn qua thư từ*
+3. {% include play.html identifier="vocabulary" start=37 stop=40 %} **A close friend** *Một người bạn gần gũi*
+4. {% include play.html identifier="vocabulary" start=40 stop=43 %} **A true friend** *Một người bạn thực sự*
+5. {% include play.html identifier="vocabulary" start=43 stop=46.5 %} **A lifelong friend** *Bạn tri kỉ*
+6. {% include play.html identifier="vocabulary" start=46.5 stop=49.5 %} **An acquaintance** *Người quen*
+7. {% include play.html identifier="vocabulary" start=49.5 stop=53.5 %} **A fair-weather friend** *Một người bạn chỉ trong lúc vui, hoàn cảnh thuận lợi còn khi khó khăn thì bỏ mình liền*
+8. {% include play.html identifier="vocabulary" start=53.5 stop=56 %} **A stranger** *Một người lạ*
 
 
-### Friendship
+### Friendship *Tình bạn*
 
-1. {% include play.html identifier="vocabulary" start=58 stop=62 %}  **Have a lot in common**
-2. {% include play.html identifier="vocabulary" start=62 stop=66 %}  **Enjoy each other's company**
-3. {% include play.html identifier="vocabulary" start=66 stop=69 %}  **Go through thick and thin**
-4. {% include play.html identifier="vocabulary" start=69.5 stop=72.2 %}  **Share ups and downs**
-5. {% include play.html identifier="vocabulary" start=72.2 stop=76 %}  **Share sorrows and joys**
-6. {% include play.html identifier="vocabulary" start=76 stop=79.7 %}  **Keep each other's secrets**
-7. {% include play.html identifier="vocabulary" start=79.7 stop=83 %}  **Give emotional support**
-8. {% include play.html identifier="vocabulary" start=83 stop=87.5 %}  **Encourage me when I am in trouble**
-9. {% include play.html identifier="vocabulary" start=87.5 stop=91 %}  **Respect each other**
-10. {% include play.html identifier="vocabulary" start=91 stop=94 %}  **Be helpful**
-11. {% include play.html identifier="vocabulary" start=94 stop=97.5 %}  **Cheer someone up**
-12. {% include play.html identifier="vocabulary" start=97.5 stop=100.5 %}  **Keep in touch**
-13. {% include play.html identifier="vocabulary" start=100.5 stop=106 %}  **Have a person who be there for you whenever you need**
-14. {% include play.html identifier="vocabulary" start=106 stop=110 %}  **Be true to someone**
-15. {% include play.html identifier="vocabulary" start=110 stop=113.5 %}  **Tell lies**
-16. {% include play.html identifier="vocabulary" start=113.5 stop=118.7 %}  **Turn one's back on someone**
-17. {% include play.html identifier="vocabulary" start=118.7 stop=121.5 %}  **Lose touch**
-18. {% include play.html identifier="vocabulary" start=121.5 stop=126 %}  **Talk behind someone's back**
+1. {% include play.html identifier="vocabulary" start=58 stop=62 %}  **Have a lot in common** *Có nhiều điểm chung*
+2. {% include play.html identifier="vocabulary" start=62 stop=66 %}  **Enjoy each other's company** *thật sự vui khi ở bên nhau*
+3. {% include play.html identifier="vocabulary" start=66 stop=69 %}  **Go through thick and thin** *Trải qua mọi vui buồn cùng nhau*
+4. {% include play.html identifier="vocabulary" start=69.5 stop=72.2 %}  **Share ups and downs** *Cùng nhau trải qua thăng trầm*
+5. {% include play.html identifier="vocabulary" start=72.2 stop=76 %}  **Share sorrows and joys** *Cùng chia sẻ niềm vui và nỗi buồn*
+6. {% include play.html identifier="vocabulary" start=76 stop=79.7 %}  **Keep each other's secrets** *Gữi bí mật cho nhau*
+7. {% include play.html identifier="vocabulary" start=79.7 stop=83 %}  **Give emotional support** *Hỗ trợ về mặt tinh thần*
+8. {% include play.html identifier="vocabulary" start=83 stop=87.5 %}  **Encourage me when I am in trouble** *Khích lệ tôi khi tôi gặp khó khăn*
+9. {% include play.html identifier="vocabulary" start=87.5 stop=91 %}  **Respect each other** *Tôn trọng lẫn nhau*
+10. {% include play.html identifier="vocabulary" start=91 stop=94 %}  **Be helpful** *Có ích, giúp đỡ*
+11. {% include play.html identifier="vocabulary" start=94 stop=97.5 %}  **Cheer someone up** *Làm ai đó vui lên*
+12. {% include play.html identifier="vocabulary" start=97.5 stop=100.5 %}  **Keep in touch** *Giữ liên lạc*
+13. {% include play.html identifier="vocabulary" start=100.5 stop=106 %}  **Have a person who be there for you whenever you need** *Có một ai đó luôn ở bên khi bạn cần giúp đỡ*
+14. {% include play.html identifier="vocabulary" start=106 stop=110 %}  **Be true to someone** *Thật lòng với ai đó*
+15. {% include play.html identifier="vocabulary" start=110 stop=113.5 %}  **Tell lies** *Nói dối*
+16. {% include play.html identifier="vocabulary" start=113.5 stop=118.7 %}  **Turn one's back on someone** *Quay lưng lại với ai đó*
+17. {% include play.html identifier="vocabulary" start=118.7 stop=121.5 %}  **Lose touch** *Mất liên lạc*
+18. {% include play.html identifier="vocabulary" start=121.5 stop=126 %}  **Talk behind someone's back** *Nói xấu sau lưng ai đó*
 
 
 {% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}

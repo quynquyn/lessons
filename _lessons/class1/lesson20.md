@@ -14,33 +14,24 @@ lesson: "20"
 [comment]: <>  all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
 ### Things that can make you smile 
 
--  **Playing sports**
--  **Drinking alcohol/ getting drunk** 
--  **Playing with pets/ children** 
--  **Sleeping/ resting/ relaxing** 
--  **Sunshine** 
--  **Trees with pretty flowers**
--  **Disney movies** 
--  **Smell of fresh-cut grass**
--  **Being promoted**
--  **Hot showers**
--  **Thinking about my crush**
--  **Winning the lottery**
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="makesmile"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+		
 
 ### Things that can make you cry 
 
--  **Laughing really hard**
--  **Seeing my mother cry** 
--  **Saying goodbye**
--  **The death of a loved one**
--  **Bad grades**
--  **Failure** 
--  **Missing my parents** 
--  **Breakup**
--  **Nightmares** 
--  **Losing lots of money**
-
-
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="makecry"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 

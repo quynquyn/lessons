@@ -14,12 +14,17 @@ lesson: "22"
 
 
 ### Describe your hometown 
-**Small**  
-**Quiet**   
-**Big**   
-**Modern**   
-**Well - developed**  
-**Bustling**  
+
+
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="describe"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+
+
  
 •  **It’s a lovely place to live in.**   
 •  **It’s a popular tourist destination.**  
@@ -40,16 +45,17 @@ lesson: "22"
 •  **Tea plantation**   
 
 ### Problems: 
-* **Homelessness** 
-* **Beggars** 
-* **Traffic congestion** 
-* **Sub-standard housing** 
-* **Prostitution** 
-* **Pollution** 
-* **A high crime rate**
-* **High unemployment** 
-* **Overcrowding** 
-* **Unsafe areas** 
+
+
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="problems"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+
+
 
 {% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
 

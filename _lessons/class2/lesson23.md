@@ -16,26 +16,25 @@ lesson: "23"
 ### Company 
 **I work for a _______ company**
 
-* **Publishing** 
-* **Television** 
-* **Insurance**  
-* **Pharmaceutical**
-* **Computer**  
-* **Engineering**
-* **Electronics**
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="company"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 ### Qualities 
-* **Ambitious**
-* **Reliable**     
-* **Lazy**     
-* **Conscientious** 
-* **Flexible**  
-* **Adaptive**
-* **Confident**     
-* **Punctual**
-* **Enthusiastic** 
-* **Independent** 
+
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="qualities"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+		
 
 {% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
 

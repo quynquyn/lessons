@@ -13,28 +13,14 @@ lesson: "21"
 
 [comment]: <>  all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
 
-**Calendar**   
-**Subject**   
-**Toothpaste**   
-**Toothbrush**   
-**Doll**  
-**Crayon**   
-**Magazine**   
-**Luggage**  
-**Crown**  
-**Dinosaur**    
-**Butterfly**     
-**Mosquito**     
-**Spider**  
-**Circus**  
-**island**  
-**Marriage**  
-**Religion**  
-**Region**  
-**Responsibility**  
-
-
-
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="vocabulary"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+		
 
 {% include player2.html identifier="examples" class=page.class lesson=page.lesson %}
 

@@ -5,7 +5,8 @@ lesson: "17"
 ---
 
 
-# Lesson 1.17: ________________
+# Lesson 1.17: ________________ (ALL words normal case. Never write LIKE THIS)
+Why? Because IF WE WANT CAPITALIZATION - we'll do it in the style sheets (CSS) :)
 
 
 ## Vocabulary 

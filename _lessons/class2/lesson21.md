@@ -14,43 +14,25 @@ lesson: "21"
 
 
 ### Sickness 
-**I don't feel well**    
-**I sneeze**    
-**It's itchy**     
-**It's painful**     
-**My back hurts**    
-**I have a cough**     
-**My leg is broken**     
-**My nose is running**     
-**My finger is bleeding**     
-**My finger is swollen**    
-**I have a headache**    
-**I have a stomachache**     
-**I have a toothache**     
-**I have a sore throat**     
-**I have a bad cold**     
-**I have a temperature**     
+
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="sickness"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
+
 
 ### Advice 
-**Take some vitamin tablets**    
-**Go on a diet**    
-**Drink a lot of water**    
-**Stay at home and have a rest**     
-**Eat healthy food**     
-**Put a bandage**     
-**Put a plaster**    
-**Put a sling**     
-**Try not to eat anything too oily or spicy for a few days**    
-**Have an X-ray**     
-**Wear something warm**    
-**Take an aspirin**     
-**Get an injection**     
-**Massage your head**     
-**Take antiseptics**     
 
-
-
-
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="advice"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 
