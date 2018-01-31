@@ -10,43 +10,12 @@ salestext: "Free full version (last day)"
 ## Vocabulary
 {% include player.html identifier="vocab-Words" lesson="C1L04" file="C1L04-Words.mp3" %}
 
-{% include image.html class=1 lesson="04" name="Grid1" %}
-
-| Like| Love| Hate| Have| 
-
-
-{% include image.html class=1 lesson="04" name="Grid2" %}
-
-| Try | Need | Want | Intend | 
-
-{% include image.html class=1 lesson="04" name="Grid3" %}
-
-| Pretend  | Expect |
-
-
-
-
-
-{% include play.html identifier="vocab-Words" lesson="C1L04" start=25 stop=666 %}
-
-{% include image.html class=1 lesson="04" name="Grid4" %}
-
-| Listen to music | Hang out with friends | Travel to Korea | Read books | 
-
-{% include image.html class=1 lesson="04" name="Grid5" %}
-
-| Get up early  | Stay up late  | Study English | Smile | 
-
-{% include image.html class=1 lesson="04" name="Grid6" %}
-
-| Call my mother | Take a selfie / Take a photo  | Know how to swim | Visit relatives  | 
-
-{% include image.html class=1 lesson="04" name="Grid7" %}
-
-| Go shopping | Go fishing |  Smoke cigarettes  |
-
-
-
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 ## Dialogue
