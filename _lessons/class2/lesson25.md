@@ -19,42 +19,7 @@ lesson: "25"
 		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
-		
-		
-**Beat oneself up**  
-**Break in**  
-**Break up with someone**  
-**Bring something up**  
-**Bring someone up**  
-**Catch up with someone**  
-**Come across**  
-**Run into**  
-**Come up with**  
-**Count on someone**    
-**Cut down on something**  
-**Dress up**  
-**Drop by**  
-**Drop someone off**  
-**End up**  
-**Figure out**  
-**Get along with someone**  
-**Get rid of something**  
-**Get up**  
-**Go off**  
-**Go on**  
-**Grow up**  
-**Make something up**  
-**Make up one’s mind**  
-**Move on**  
-**Pick someone up**  
-**Pick something up**  
-**Put someone down**   
-**let someone down**  
-**Look up to someone**  
-**Look down on someone**  
-**Settle down**   
-**Show up**   
-**Show off**  
+
 
 {% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
 

@@ -4,7 +4,7 @@ class: "2"
 lesson: "06"
 ---
 
-{% include player.html identifier="lesson-vocabulary" lesson="C2L06" file="C2L06-Vocabulary.mp3" %}
+{% include player2.html identifier="Vocabulary" class=page.class lesson=page.lesson %}
 # Lesson 2.6: Travel 
 
 
@@ -15,6 +15,7 @@ lesson: "06"
 		class=page.class 
 		lesson=page.lesson 
 		section="whatcanyoudothere"
+		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -29,6 +30,7 @@ lesson: "06"
 		class=page.class 
 		lesson=page.lesson 
 		section="purpose"
+		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 

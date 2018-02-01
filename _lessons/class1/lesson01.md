@@ -12,117 +12,80 @@ salestext: "Free full version (3 days left)"
 ## Vocabulary
 
 ### Animals
-{% include player.html identifier="vocab-Animals" lesson="C1L01" file="C1L01-Animals.mp3" %}
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="animals"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
-{% include image.html class=1 lesson="01" name="Animals_1" %}
 
-| Pig | Horse  | Elephant | Fish | Snake  | Giraffe  | Dog | 
-
-
-{% include image.html class=1 lesson="01" name="Animals_2" %}
-
-| Cat | Lion | tiger | Chicken | Bird | Turtle | Rabbit | Crocodile  | Bear  | 
 
 ### Fruits
-{% include player.html identifier="vocab-Fruits" lesson="C1L01" file="C1L01-Fruits.mp3" %}
-
-{% include image.html class=1 lesson="01" name="Fruits_1" %}
-
-| Avocado | Apple  | Banana | Grape | Lemon | 
-
-
-{% include image.html class=1 lesson="01" name="Fruits_2" %}
-
-| Watermelon | Strawberry | Papaya   | Mango  | Orange  | 
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="fruits"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 ### Things in class
-{% include player.html identifier="vocab-ThingsInClass" lesson="C1L01" file="C1L01-ThingsInClass.mp3" %}
-
-{% include image.html class=1 lesson="01" name="ThingsInClass_1" %}
-
-| Board | Chair | Table | Air conditioner | Pen | Pencil | 
-
-
-{% include image.html class=1 lesson="01" name="ThingsInClass_2" %}
-
-| Book | Marker  | Door | Window | Light | Wall  | Picture  | 
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="class"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 ### Vehicles
-{% include player.html identifier="vocab-Vehicles" lesson="C1L01" file="C1L01-Vehicles.mp3" %}
-
-{% include image.html class=1 lesson="01" name="Vehicles_1" %}
-
-| Car | Motorbike | Bike | Truck  | Train | 
-
-
-{% include image.html class=1 lesson="01" name="Vehicles_2" %}
-
-| Plane | Bus |  Taxi |  Boat  |
-
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="vehicles"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 ### People
-{% include player.html identifier="vocab-People" lesson="C1L01" file="C1L01-People.mp3" %}
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="people"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
-{% include image.html class=1 lesson="01" name="People" %}
-
-| Teacher | Student | Doctor | Nurse |
 
 
 
 ## Uncountable nouns
 
 ### Important things in your life
-{% include player.html identifier="vocab-Important" lesson="C1L01" file="C1L01-Important.mp3" %}
-
-{% include image.html class=1 lesson="01" name="Important_1" %}
-
-| Air | Food | Money | Health  | Happiness | 
-
-{% include image.html class=1 lesson="01" name="Important_2" %}
-
-| Love | Sadness  | Time | Water | 
-
-
-
-
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="thingslife"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 ### Other uncountable things
-{% include player.html identifier="vocab-Other" lesson="C1L01" file="C1L01-Other.mp3" %}
-
-{% include image.html class=1 lesson="01" name="Other_1" %}
-| Homework  | Housework  | Vietnamese  | Tea, milk Coffee  | 
-
-
-
-{% include image.html class=1 lesson="01" name="Other_2" %}
-
-| Rice | Hair | Sugar |  Salt | 
-
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="uncountable"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 ## Some common verbs
-{% include player.html identifier="vocab-Verbs" lesson="C1L01" file="C1L01-Verbs.mp3" %}
-
-{% include image.html class=1 lesson="01" name="Verbs_1" %}
-
-| See | Watch | Look at | Look for  | Observe  | Buy | 
-
-
-{% include image.html class=1 lesson="01" name="Verbs_2" %}
-
-| Sell  | Hate | Like  | Love | Want  | Need  | Choose  | 
-
-
-
-
-
-
-
-
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="commonverb"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 
@@ -138,6 +101,7 @@ salestext: "Free full version (3 days left)"
 6. **I need a marker / I need markers** *(Tôi cần một cây bút lông / Tôi cần bút lông)*
 7. **I talk to a nurse everyday / I talk to nurses everyday** *(Tôi nói chuyện với một cô y tá mỗi ngày / Tôi nói chuyện với các y tá mỗi ngày)*
 
+
 ## 2. Uncountable nouns
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=59 stop=666 %}
 
@@ -149,10 +113,6 @@ salestext: "Free full version (3 days left)"
 6. **I hate housework** *(Tôi ghét công việc nhà)*
 7. **I love English** *(Tôi thích Tiếng Anh)*
 
-
-
-
- 
 
 ## 3. More of examples
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=90 stop=666 %}

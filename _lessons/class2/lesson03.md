@@ -12,35 +12,12 @@ salestext: "Free full version (1 days left)"
 
 ## Vocabulary
 
-
-{% include image.html class=2 lesson="03" name="Grid1" %}
-
-|**Get up / wake up** | **Make my bed**  | **Brush my teeth**  | **Wash my face**  | **Comb my hair**  | **Get dressed**  | **Put on makeup**  | 
-| *Thức dậy*  | *Gấp chăn màn* | *Đánh răng* | *Rửa mặt* | *Chải tóc* | *Thay quần áo* | *Trang điểm* | 
-
-
-{% include image.html class=2 lesson="03" name="Grid2" %}
-
-| **Have breakfast** | **lunch** | **dinner** | **Have a cup of coffee** | **tea** | **Go to work** | **school** | **by taxi** | 
-| *Ăn sáng* | *trưa* | *tối* | *Uống ly cà phê* | *trà* |  *Đi làm* | *học* | *bằng xe taxi* |
-
-
-
-{% include image.html class=2 lesson="03" name="Grid3" %}
-
-| **by bus** | **by car** | **by motorbike** | **Finish my work** | **and come back home** | **Do some exercises** | **Play sports**
-| *buýt* | *hơi* | *máy* | *Xong việc* | *và trở về nhà* | *Tập thể dục* | *chơi thể thao*
-
-
-{% include image.html class=2 lesson="03" name="Grid4" %}
-
-| **Take a bath** | **take a shower**  | **Watch TV**  | **Talk to my mother on the phone** | **Surf facebook**  | **Go to bed**  | **Set an alarm clock at 7 for the next morning**  | 
-| *Tắm bồn tắm* | *tắm vòi hoa sen* | *Xem TV* | *Nói chuyện với mẹ qua điện thoại* | *Lướt facebook* | *Đi ngủ* | *Hẹn báo thức vào 7 giờ cho buổi sáng hôm sau* | 
-
-
-
-
-
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 

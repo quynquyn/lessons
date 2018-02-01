@@ -14,6 +14,7 @@ lesson: "10"
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		section="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 

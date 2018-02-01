@@ -121,7 +121,6 @@ class,lesson,section,word_en,word_vn,word_pt,image_name,image_url,ts_start,ts_st
 2,09,styles,Stylish,Phong cách,à moda,C2L09-Stylish.jpg,class2/images/C2L09-Stylish.jpg,,
 2,09,styles,Fashionable,,moderno,C2L09-Fashionable.jpg,class2/images/C2L09-Fashionable.jpg,,
 2,09,styles,Trendy,,na moda,C2L09-Trendy.jpg,class2/images/C2L09-Trendy.jpg,,
-2,09,styles,clássico,,chocante,C2L09-cl-ssico.jpg,class2/images/C2L09-cl-ssico.jpg,,
 2,09,styles,Classic,Cổ điển,clássico,C2L09-Classic.jpg,class2/images/C2L09-Classic.jpg,,
 2,09,styles,Glamorous,,glamoroso,C2L09-Glamorous.jpg,class2/images/C2L09-Glamorous.jpg,,
 2,09,styles,Traditional,Truyền thống,tradicional,C2L09-Traditional.jpg,class2/images/C2L09-Traditional.jpg,,
@@ -601,7 +600,7 @@ se casar com alguém",C1L05-Marry-someone-Get-married-to-someone.jpg,class1/imag
 1,16,all,Invite,Mời ,convidar,C1L16-Invite.jpg,class1/images/C1L16-Invite.jpg,29.57,30.5
 1,16,all,receive,Nhận,receber,C1L16-receive.jpg,class1/images/C1L16-receive.jpg,31.24,32.42
 1,16,all,give,Cho ,dar,C1L16-give.jpg,class1/images/C1L16-give.jpg,33.16,34.24
-1,16,all,Return,Trở về,voltar,C1L16-Return.jpg,class1/images/C1L16-Return.jpg,34.96,35.86
+1,16,all,Return,Trở về,voltar,C1L16-Return.jpg,class1/images/C1L16-Return.jpg,34.85,35.86
 1,16,all,Compete,Cạnh tranh,concorrer,C1L16-Compete.jpg,class1/images/C1L16-Compete.jpg,36.5,37.52
 1,16,all,Describe,Miêu tả,descrever,C1L16-Describe.jpg,class1/images/C1L16-Describe.jpg,38.42,39.6
 1,16,all,Respect,Sự tôn trọng,respeitar,C1L16-Respect.jpg,class1/images/C1L16-Respect.jpg,40.25,41.38
@@ -645,165 +644,165 @@ se casar com alguém",C1L05-Marry-someone-Get-married-to-someone.jpg,class1/imag
 2,18,all,calm,Điềm tĩnh,calmo,C2L18-calm.jpg,class2/images/C2L18-calm.jpg,24.24,26.15
 2,18,all,angry,Tức giận,bravo,C2L18-angry.jpg,class2/images/C2L18-angry.jpg,26.15,27.69
 2,18,all,bored,Chán nản,entediado ,C2L18-bored.jpg,class2/images/C2L18-bored.jpg,27.69,29.34
-2,18,all,cautious,Dè dặt,,C2L18-cautious.jpg,class2/images/C2L18-cautious.jpg,29.34,31.08
-2,18,all,frustrated,Bực bội,,C2L18-frustrated.jpg,class2/images/C2L18-frustrated.jpg,31.08,32.94
-2,18,all,shocked,Bị sốc,,C2L18-shocked.jpg,class2/images/C2L18-shocked.jpg,32.94,34.46
-2,18,all,disappointed,Thất vọng,,C2L18-disappointed.jpg,class2/images/C2L18-disappointed.jpg,34.46,36.37
-2,18,all,annoyed,Khó chịu,,C2L18-annoyed.jpg,class2/images/C2L18-annoyed.jpg,36.37,38.05
-2,18,all,pissed off,Bực mình,,C2L18-pissed-off.jpg,class2/images/C2L18-pissed-off.jpg,38.05,39.69
-2,18,all,lonely,Cô đơn,,C2L18-lonely.jpg,class2/images/C2L18-lonely.jpg,39.69,41.28
-2,18,all,neutral,Trung tính,,C2L18-neutral.jpg,class2/images/C2L18-neutral.jpg,41.28,42.98
-2,18,all,frightened,Sợ hãi ,,C2L18-frightened.jpg,class2/images/C2L18-frightened.jpg,42.98,44.64
-2,18,all,guilty,Tội lỗi,,C2L18-guilty.jpg,class2/images/C2L18-guilty.jpg,44.64,46.98
-2,18,all,ashamed,Xấu hổ,,C2L18-ashamed.jpg,class2/images/C2L18-ashamed.jpg,46.98,48.62
-2,18,all,hysterical,Hỗn loạn,,C2L18-hysterical.jpg,class2/images/C2L18-hysterical.jpg,48.62,50.04
-2,18,all,sad - downhearted,Buồn - suy thoái,,C2L18-sad-downhearted.jpg,class2/images/C2L18-sad-downhearted.jpg,50.04,52.41
-2,18,all,scared,Sợ hãi ,,C2L18-scared.jpg,class2/images/C2L18-scared.jpg,52.41,54.17
-2,18,all,satisfied,Hài lòng ,,C2L18-satisfied.jpg,class2/images/C2L18-satisfied.jpg,54.17,55.76
-2,18,all,excited,Bị kích thích,,C2L18-excited.jpg,class2/images/C2L18-excited.jpg,55.76,57.58
-2,18,all,embarrassed,Xấu hổ,,C2L18-embarrassed.jpg,class2/images/C2L18-embarrassed.jpg,57.58,59.52
-2,18,all,mad,Điên,,C2L18-mad.jpg,class2/images/C2L18-mad.jpg,59.52,61.29
-2,18,all,worried,Lo lắng,,C2L18-worried.jpg,class2/images/C2L18-worried.jpg,61.29,63.2
-2,18,all,exhausted,Kiệt sức,,C2L18-exhausted.jpg,class2/images/C2L18-exhausted.jpg,63.2,64.86
-2,18,all,confused,Bối rối,,C2L18-confused.jpg,class2/images/C2L18-confused.jpg,64.86,66.82
-2,18,all,shy,Nhút nhát,,C2L18-shy.jpg,class2/images/C2L18-shy.jpg,66.82,68.59
-2,18,all,disgusted,Chán ghét,,C2L18-disgusted.jpg,class2/images/C2L18-disgusted.jpg,68.59,70.39
-2,18,all,anxious,Lo lắng,,C2L18-anxious.jpg,class2/images/C2L18-anxious.jpg,70.39,72.59
-2,18,all,empty,Trống rỗng,,C2L18-empty.jpg,class2/images/C2L18-empty.jpg,72.59,74.08
-2,18,all,lost,Mất đi,,C2L18-lost.jpg,class2/images/C2L18-lost.jpg,74.08,75.71
-2,18,all,relieved,An tâm,,C2L18-relieved.jpg,class2/images/C2L18-relieved.jpg,75.71,77.47
-2,16,vocabulary,Get on like a house on fire,Có một mối quan hệ tốt đẹp với ai đó,,C2L16-Get-on-like-a-house-on-fire.jpg,class2/images/C2L16-Get-on-like-a-house-on-fire.jpg,6.85,9.45
-2,16,vocabulary,Get on well with,Hòa đồng với ai đó,,C2L16-Get-on-well-with.jpg,class2/images/C2L16-Get-on-well-with.jpg,9.45,11.16
-2,16,vocabulary,Get to know,Tìm hiểu ai đó,,C2L16-Get-to-know.jpg,class2/images/C2L16-Get-to-know.jpg,11.16,12.75
-2,16,vocabulary,Have a lot in common,Có nhiều điểm chung,,C2L16-Have-a-lot-in-common.jpg,class2/images/C2L16-Have-a-lot-in-common.jpg,12.75,14.52
-2,16,vocabulary,Have ups and downs,Có lúc thăng lúc trầm,,C2L16-Have-ups-and-downs.jpg,class2/images/C2L16-Have-ups-and-downs.jpg,14.52,16.32
-2,16,vocabulary,A healthy relationship,Một mối quan hệ tốt,,C2L16-A-healthy-relationship.jpg,class2/images/C2L16-A-healthy-relationship.jpg,16.32,18.61
-2,16,vocabulary,Hit it off,Tâm đầu ý hợp,,C2L16-Hit-it-off.jpg,class2/images/C2L16-Hit-it-off.jpg,18.61,19.86
-2,16,vocabulary,Be in a relationship,Đang trong một mối quan hệ,,C2L16-Be-in-a-relationship.jpg,class2/images/C2L16-Be-in-a-relationship.jpg,19.86,22.03
-2,16,vocabulary,Have good chemistry,Có cảm xúc mãnh liệt,,C2L16-Have-good-chemistry.jpg,class2/images/C2L16-Have-good-chemistry.jpg,22.03,24.08
-2,16,vocabulary,Play hard to get,Giả vờ kiêu kì,,C2L16-Play-hard-to-get.jpg,class2/images/C2L16-Play-hard-to-get.jpg,24.08,25.68
-2,16,vocabulary,Enjoy someone’s company,Thích ở cùng ai đó,,C2L16-Enjoy-someone-s-company.jpg,class2/images/C2L16-Enjoy-someone-s-company.jpg,25.68,28.04
-2,16,vocabulary,Fall for someone,,,C2L16-Fall-for-someone.jpg,class2/images/C2L16-Fall-for-someone.jpg,28.04,29.92
-2,16,vocabulary,Fall out with,,,C2L16-Fall-out-with.jpg,class2/images/C2L16-Fall-out-with.jpg,29.92,31.87
-2,16,vocabulary,Drift apart,,,C2L16-Drift-apart.jpg,class2/images/C2L16-Drift-apart.jpg,31.87,33.28
-2,16,vocabulary,Be just good friends,,,C2L16-Be-just-good-friends.jpg,class2/images/C2L16-Be-just-good-friends.jpg,33.28,35.5
-2,16,vocabulary,Keep in touch with,,,C2L16-Keep-in-touch-with.jpg,class2/images/C2L16-Keep-in-touch-with.jpg,35.5,37.47
-2,16,vocabulary,Lose touch with,,,C2L16-Lose-touch-with.jpg,class2/images/C2L16-Lose-touch-with.jpg,37.47,39.35
-2,16,vocabulary,Love at first sight,,,C2L16-Love-at-first-sight.jpg,class2/images/C2L16-Love-at-first-sight.jpg,39.35,41.61
-2,16,vocabulary,Pop the question,,,C2L16-Pop-the-question.jpg,class2/images/C2L16-Pop-the-question.jpg,41.61,43.46
-2,16,vocabulary,Tie the knot,,,C2L16-Tie-the-knot.jpg,class2/images/C2L16-Tie-the-knot.jpg,43.46,45.28
-2,16,vocabulary,See eye to eye,,,C2L16-See-eye-to-eye.jpg,class2/images/C2L16-See-eye-to-eye.jpg,45.28,47.47
-2,16,vocabulary,Settle down,,,C2L16-Settle-down.jpg,class2/images/C2L16-Settle-down.jpg,47.47,48.85
-2,17,subject,Mathematics,,,C2L17-Mathematics.jpg,class2/images/C2L17-Mathematics.jpg,9,10.2
-2,17,subject,Literature,,,C2L17-Literature.jpg,class2/images/C2L17-Literature.jpg,10.2,11.78
-2,17,subject,Chemistry,,,C2L17-Chemistry.jpg,class2/images/C2L17-Chemistry.jpg,11.78,12.8
-2,17,subject,Biology,,,C2L17-Biology.jpg,class2/images/C2L17-Biology.jpg,12.8,14.82
-2,17,subject,Economics,,,C2L17-Economics.jpg,class2/images/C2L17-Economics.jpg,14.82,16.47
-2,17,subject,History,,,C2L17-History.jpg,class2/images/C2L17-History.jpg,16.47,17.79
-2,17,subject,Computer Science,,,C2L17-Computer-Science.jpg,class2/images/C2L17-Computer-Science.jpg,17.79,19.58
-2,17,subject,Arts,,,C2L17-Arts.jpg,class2/images/C2L17-Arts.jpg,19.58,21.26
-2,17,subject,Geography,,,C2L17-Geography.jpg,class2/images/C2L17-Geography.jpg,21.26,22.56
-2,17,subject,Physics,,,C2L17-Physics.jpg,class2/images/C2L17-Physics.jpg,22.56,23.86
-2,17,subject,Physical Education/ PE,,,C2L17-Physical-Education-PE.jpg,class2/images/C2L17-Physical-Education-PE.jpg,23.86,27.37
-2,17,subject,Psychology,,,C2L17-Psychology.jpg,class2/images/C2L17-Psychology.jpg,27.37,28.7
-2,17,subject,Marxist – Leninist philosophy,,,C2L17-Marxist-Leninist-philosophy.jpg,class2/images/C2L17-Marxist-Leninist-philosophy.jpg,28.7,31.73
-2,17,subject,Statistics,,,C2L17-Statistics.jpg,class2/images/C2L17-Statistics.jpg,31.73,33.24
-2,17,subject,History of the Communist Party,,,C2L17-History-of-the-Communist-Party.jpg,class2/images/C2L17-History-of-the-Communist-Party.jpg,33.24,35.27
-2,17,subject,Ho Chi Minh ideology,,,C2L17-Ho-Chi-Minh-ideology.jpg,class2/images/C2L17-Ho-Chi-Minh-ideology.jpg,35.27,37.98
-2,17,subject,Consumer/ customer behavior,,,C2L17-Consumer-customer-behavior.jpg,class2/images/C2L17-Consumer-customer-behavior.jpg,37.98,41.21
-2,17,major,Architecture,,,C2L17-Architecture.jpg,class2/images/C2L17-Architecture.jpg,43.45,45.31
-2,17,major,Engineering,,,C2L17-Engineering.jpg,class2/images/C2L17-Engineering.jpg,45.31,46.73
-2,17,major,Journalism,,,C2L17-Journalism.jpg,class2/images/C2L17-Journalism.jpg,46.73,48.3
-2,17,major,Medicine,,,C2L17-Medicine.jpg,class2/images/C2L17-Medicine.jpg,48.3,49.33
-2,17,major,Sociology,,,C2L17-Sociology.jpg,class2/images/C2L17-Sociology.jpg,49.33,50.68
-2,17,major,Tourism and hospitality management,,,C2L17-Tourism-and-hospitality-management.jpg,class2/images/C2L17-Tourism-and-hospitality-management.jpg,50.68,53.56
-2,17,major,Information technology,,,C2L17-Information-technology.jpg,class2/images/C2L17-Information-technology.jpg,53.56,55.66
-2,17,major,Business Administration,,,C2L17-Business-Administration.jpg,class2/images/C2L17-Business-Administration.jpg,55.66,58.11
-2,17,major,Accounting,,,C2L17-Accounting.jpg,class2/images/C2L17-Accounting.jpg,58.11,59.78
-2,17,exams,Re-sit,,,C2L17-Re-sit.jpg,class2/images/C2L17-Re-sit.jpg,61.95,62.74
-2,17,exams,Pass,,,C2L17-Pass.jpg,class2/images/C2L17-Pass.jpg,62.74,63.1
-2,17,exams,Fail,,,C2L17-Fail.jpg,class2/images/C2L17-Fail.jpg,63.1,63.4
-2,17,exams,Revise,,,C2L17-Revise.jpg,class2/images/C2L17-Revise.jpg,63.4,64.55
-1,19,bedroom,Bed,,,C1L19-Bed.jpg,class1/images/C1L19-Bed.jpg,9.68,10.43
-1,19,bedroom,Picture,,,C1L19-Picture.jpg,class1/images/C1L19-Picture.jpg,10.43,11.97
-1,19,bedroom,Flower vase,,,C1L19-Flower-vase.jpg,class1/images/C1L19-Flower-vase.jpg,11.97,13.1
-1,19,bedroom,Shelf,,,C1L19-Shelf.jpg,class1/images/C1L19-Shelf.jpg,13.1,14.62
-1,19,bedroom,Lamp,,,C1L19-Lamp.jpg,class1/images/C1L19-Lamp.jpg,14.62,15.87
-1,19,bedroom,Pillow,,,C1L19-Pillow.jpg,class1/images/C1L19-Pillow.jpg,15.87,17.43
-1,19,bedroom,Blanket,,,C1L19-Blanket.jpg,class1/images/C1L19-Blanket.jpg,17.43,18.7
-1,19,bedroom,Alarm clock,,,C1L19-Alarm-clock.jpg,class1/images/C1L19-Alarm-clock.jpg,18.7,20.35
-1,19,bedroom,Dresser,,,C1L19-Dresser.jpg,class1/images/C1L19-Dresser.jpg,20.35,21.62
-1,19,bedroom,Teddy bear,,,C1L19-Teddy-bear.jpg,class1/images/C1L19-Teddy-bear.jpg,21.62,23.16
-1,19,bathroom,Curtain,,,C1L19-Curtain.jpg,class1/images/C1L19-Curtain.jpg,25.43,27.47
-1,19,bathroom,Window,,,C1L19-Window.jpg,class1/images/C1L19-Window.jpg,27.47,28.6
-1,19,bathroom,Faucet,,,C1L19-Faucet.jpg,class1/images/C1L19-Faucet.jpg,28.6,29.96
-1,19,bathroom,Bathtub,,,C1L19-Bathtub.jpg,class1/images/C1L19-Bathtub.jpg,29.96,31.7
-1,19,bathroom,Sink,,,C1L19-Sink.jpg,class1/images/C1L19-Sink.jpg,31.7,33.11
-1,19,bathroom,Towel,,,C1L19-Towel.jpg,class1/images/C1L19-Towel.jpg,33.11,34.74
-1,19,bathroom,Mirror,,,C1L19-Mirror.jpg,class1/images/C1L19-Mirror.jpg,34.74,36.17
-1,19,bathroom,Towel rack,,,C1L19-Towel-rack.jpg,class1/images/C1L19-Towel-rack.jpg,36.17,37.68
-1,19,bathroom,Toilet,,,C1L19-Toilet.jpg,class1/images/C1L19-Toilet.jpg,37.68,39.66
-1,19,bathroom,Toilet paper,,,C1L19-Toilet-paper.jpg,class1/images/C1L19-Toilet-paper.jpg,39.66,41.4
-1,19,bathroom,Shampoo,,,C1L19-Shampoo.jpg,class1/images/C1L19-Shampoo.jpg,41.4,43.12
-1,19,bathroom,Soap,,,C1L19-Soap.jpg,class1/images/C1L19-Soap.jpg,43.12,44.64
-1,19,bathroom,Toothbrush,,,C1L19-Toothbrush.jpg,class1/images/C1L19-Toothbrush.jpg,44.64,46.43
-1,19,bathroom,Toothpaste,,,C1L19-Toothpaste.jpg,class1/images/C1L19-Toothpaste.jpg,46.43,48.05
-1,19,kitchen,Pan,,,C1L19-Pan.jpg,class1/images/C1L19-Pan.jpg,50.27,52.04
-1,19,kitchen,Pot,,,C1L19-Pot.jpg,class1/images/C1L19-Pot.jpg,52.04,53
-1,19,kitchen,Cooker,,,C1L19-Cooker.jpg,class1/images/C1L19-Cooker.jpg,53,54.39
-1,19,kitchen,Cupboard,,,C1L19-Cupboard.jpg,class1/images/C1L19-Cupboard.jpg,54.39,55.6
-1,19,kitchen,Cutting board,,,C1L19-Cutting-board.jpg,class1/images/C1L19-Cutting-board.jpg,55.6,57.49
-1,19,kitchen,Knife,,,C1L19-Knife.jpg,class1/images/C1L19-Knife.jpg,57.49,58.85
-1,19,kitchen,Blender,,,C1L19-Blender.jpg,class1/images/C1L19-Blender.jpg,58.85,60.44
-1,19,kitchen,Sink,,,C1L19-Sink.jpg,class1/images/C1L19-Sink.jpg,60.44,61.97
-1,19,kitchen,Dishwasher,,,C1L19-Dishwasher.jpg,class1/images/C1L19-Dishwasher.jpg,61.97,63.62
-1,19,kitchen,Freezer,,,C1L19-Freezer.jpg,class1/images/C1L19-Freezer.jpg,63.62,65.03
-1,19,kitchen,Fridge,,,C1L19-Fridge.jpg,class1/images/C1L19-Fridge.jpg,65.03,66.8
-1,19,kitchen,Microwave,,,C1L19-Microwave.jpg,class1/images/C1L19-Microwave.jpg,66.8,68.41
-1,19,kitchen,Oven,,,C1L19-Oven.jpg,class1/images/C1L19-Oven.jpg,68.41,70.02
-1,19,livingroom,Chair,,,C1L19-Chair.jpg,class1/images/C1L19-Chair.jpg,71.97,73.41
-1,19,livingroom,Armchair,,,C1L19-Armchair.jpg,class1/images/C1L19-Armchair.jpg,73.41,75.27
-1,19,livingroom,Rocking chair,,,C1L19-Rocking-chair.jpg,class1/images/C1L19-Rocking-chair.jpg,75.27,77.06
-1,19,livingroom,Stool,,,C1L19-Stool.jpg,class1/images/C1L19-Stool.jpg,77.06,78.33
-1,19,livingroom,Book,,,C1L19-Book.jpg,class1/images/C1L19-Book.jpg,78.33,79.91
-1,19,livingroom,Couch,,,C1L19-Couch.jpg,class1/images/C1L19-Couch.jpg,79.91,81.55
-1,19,livingroom,Sofa,,,C1L19-Sofa.jpg,class1/images/C1L19-Sofa.jpg,81.55,83.34
-1,19,livingroom,Cushion,,,C1L19-Cushion.jpg,class1/images/C1L19-Cushion.jpg,83.34,85.01
-1,19,livingroom,Fireplace,,,C1L19-Fireplace.jpg,class1/images/C1L19-Fireplace.jpg,85.01,87.12
-1,19,livingroom,Coffee table,,,C1L19-Coffee-table.jpg,class1/images/C1L19-Coffee-table.jpg,87.12,88.77
-1,19,livingroom,Rug,,,C1L19-Rug.jpg,class1/images/C1L19-Rug.jpg,88.77,90.39
-2,19,expressing,Over the moon,,,C2L19-Over-the-moon.jpg,class2/images/C2L19-Over-the-moon.jpg,9.05,11.22
-2,19,expressing,On top of the world,,,C2L19-On-top-of-the-world.jpg,class2/images/C2L19-On-top-of-the-world.jpg,11.22,13.17
-2,19,expressing,Jump for joy,,,C2L19-Jump-for-joy.jpg,class2/images/C2L19-Jump-for-joy.jpg,13.17,14.82
-2,19,expressing,Break someone's heart,,,C2L19-Break-someone-s-heart.jpg,class2/images/C2L19-Break-someone-s-heart.jpg,14.82,16.86
-2,19,expressing,Burst into tears,,,C2L19-Burst-into-tears.jpg,class2/images/C2L19-Burst-into-tears.jpg,16.86,18.78
-2,19,expressing,Feeling blue,,,C2L19-Feeling-blue.jpg,class2/images/C2L19-Feeling-blue.jpg,18.78,20.88
-2,19,expressing,On cloud nine,,,C2L19-On-cloud-nine.jpg,class2/images/C2L19-On-cloud-nine.jpg,20.88,23.04
-2,19,expressing,Fed up,,,C2L19-Fed-up.jpg,class2/images/C2L19-Fed-up.jpg,23.04,24.59
-2,19,expressing,Under the weather,,,C2L19-Under-the-weather.jpg,class2/images/C2L19-Under-the-weather.jpg,24.59,26.51
-2,19,expressing,Bored to tears,,,C2L19-Bored-to-tears.jpg,class2/images/C2L19-Bored-to-tears.jpg,26.51,28.67
-2,19,expressing,Green with envy,,,C2L19-Green-with-envy.jpg,class2/images/C2L19-Green-with-envy.jpg,28.67,30.92
-2,19,expressing,Go bananas,,,C2L19-Go-bananas.jpg,class2/images/C2L19-Go-bananas.jpg,30.92,32.9
-2,19,expressing,Change of heart,,,C2L19-Change-of-heart.jpg,class2/images/C2L19-Change-of-heart.jpg,32.9,34.96
-2,19,expressing,Look on the bright side,,,C2L19-Look-on-the-bright-side.jpg,class2/images/C2L19-Look-on-the-bright-side.jpg,34.96,37.45
-2,19,expressing,Make your skin crawl,,,C2L19-Make-your-skin-crawl.jpg,class2/images/C2L19-Make-your-skin-crawl.jpg,37.45,40.06
-2,19,expressing,A soft spot,,,C2L19-A-soft-spot.jpg,class2/images/C2L19-A-soft-spot.jpg,40.06,42.44
-2,19,expressing,Pour your heart out,,,C2L19-Pour-your-heart-out.jpg,class2/images/C2L19-Pour-your-heart-out.jpg,42.44,44.48
-2,19,expressing,Reduced to tears,,,C2L19-Reduced-to-tears.jpg,class2/images/C2L19-Reduced-to-tears.jpg,44.48,47.36
-2,19,expressing,Let off steam,,,C2L19-Let-off-steam.jpg,class2/images/C2L19-Let-off-steam.jpg,47.36,48.89
-2,19,expressing,Walking on air,,,C2L19-Walking-on-air.jpg,class2/images/C2L19-Walking-on-air.jpg,48.89,50.74
-2,19,expressing,Swell with pride,,,C2L19-Swell-with-pride.jpg,class2/images/C2L19-Swell-with-pride.jpg,50.74,52.66
-2,19,expressing,Carry away,,,C2L19-Carry-away.jpg,class2/images/C2L19-Carry-away.jpg,52.66,54.54
-2,19,expressing,Eat a horse,,,C2L19-Eat-a-horse.jpg,class2/images/C2L19-Eat-a-horse.jpg,54.54,56.25
-2,19,expressing,Not be yourself,,,C2L19-Not-be-yourself.jpg,class2/images/C2L19-Not-be-yourself.jpg,56.25,59.07
-2,19,expressing,Foul mood,,,C2L19-Foul-mood.jpg,class2/images/C2L19-Foul-mood.jpg,59.07,60.65
-2,19,supporting,Congratulations,,,C2L19-Congratulations.jpg,class2/images/C2L19-Congratulations.jpg,63.6,65.41
-2,19,supporting,Cheer up,,,C2L19-Cheer-up.jpg,class2/images/C2L19-Cheer-up.jpg,65.41,67.17
-2,19,supporting,Good job,,,C2L19-Good-job.jpg,class2/images/C2L19-Good-job.jpg,67.17,69.02
-2,19,supporting,Well-done,,,C2L19-Well-done.jpg,class2/images/C2L19-Well-done.jpg,69.02,70.74
-2,19,supporting,I feel a bit sorry for her,,,C2L19-I-feel-a-bit-sorry-for-her.jpg,class2/images/C2L19-I-feel-a-bit-sorry-for-her.jpg,70.74,73.11
-2,19,supporting,I am sorry to hear that,,,C2L19-I-am-sorry-to-hear-that.jpg,class2/images/C2L19-I-am-sorry-to-hear-that.jpg,73.11,75.75
-2,19,supporting,That's a pity,,,C2L19-That-s-a-pity.jpg,class2/images/C2L19-That-s-a-pity.jpg,75.75,77.77
+2,18,all,cautious,Dè dặt,cauteloso,C2L18-cautious.jpg,class2/images/C2L18-cautious.jpg,29.34,31.08
+2,18,all,frustrated,Bực bội,frustrado,C2L18-frustrated.jpg,class2/images/C2L18-frustrated.jpg,31.08,32.94
+2,18,all,shocked,Bị sốc,chocado,C2L18-shocked.jpg,class2/images/C2L18-shocked.jpg,32.94,34.46
+2,18,all,disappointed,Thất vọng,desapontado,C2L18-disappointed.jpg,class2/images/C2L18-disappointed.jpg,34.46,36.37
+2,18,all,annoyed,Khó chịu,irritado,C2L18-annoyed.jpg,class2/images/C2L18-annoyed.jpg,36.37,38.05
+2,18,all,pissed off,Bực mình,chateado,C2L18-pissed-off.jpg,class2/images/C2L18-pissed-off.jpg,38.05,39.69
+2,18,all,lonely,Cô đơn,sozinho,C2L18-lonely.jpg,class2/images/C2L18-lonely.jpg,39.69,41.28
+2,18,all,neutral,Trung tính,imparcial,C2L18-neutral.jpg,class2/images/C2L18-neutral.jpg,41.28,42.98
+2,18,all,frightened,Sợ hãi ,assustado,C2L18-frightened.jpg,class2/images/C2L18-frightened.jpg,42.98,44.64
+2,18,all,guilty,Tội lỗi,culpado,C2L18-guilty.jpg,class2/images/C2L18-guilty.jpg,44.64,46.98
+2,18,all,ashamed,Xấu hổ,envergonhado,C2L18-ashamed.jpg,class2/images/C2L18-ashamed.jpg,46.98,48.62
+2,18,all,hysterical,Hỗn loạn,histérico,C2L18-hysterical.jpg,class2/images/C2L18-hysterical.jpg,48.62,50.04
+2,18,all,sad - downhearted,Buồn - suy thoái,triste - desanimado,C2L18-sad-downhearted.jpg,class2/images/C2L18-sad-downhearted.jpg,50.04,52.41
+2,18,all,scared,Sợ hãi ,apavorado,C2L18-scared.jpg,class2/images/C2L18-scared.jpg,52.41,54.17
+2,18,all,satisfied,Hài lòng ,satisfeito,C2L18-satisfied.jpg,class2/images/C2L18-satisfied.jpg,54.17,55.76
+2,18,all,excited,Bị kích thích,animado,C2L18-excited.jpg,class2/images/C2L18-excited.jpg,55.76,57.58
+2,18,all,embarrassed,Xấu hổ,embaraçado,C2L18-embarrassed.jpg,class2/images/C2L18-embarrassed.jpg,57.58,59.52
+2,18,all,mad,Điên,raivoso,C2L18-mad.jpg,class2/images/C2L18-mad.jpg,59.52,61.29
+2,18,all,worried,Lo lắng,preocupado,C2L18-worried.jpg,class2/images/C2L18-worried.jpg,61.29,63.2
+2,18,all,exhausted,Kiệt sức,exausto,C2L18-exhausted.jpg,class2/images/C2L18-exhausted.jpg,63.2,64.86
+2,18,all,confused,Bối rối,perplexo,C2L18-confused.jpg,class2/images/C2L18-confused.jpg,64.86,66.82
+2,18,all,shy,Nhút nhát,tímido,C2L18-shy.jpg,class2/images/C2L18-shy.jpg,66.82,68.59
+2,18,all,disgusted,Chán ghét,com nojo,C2L18-disgusted.jpg,class2/images/C2L18-disgusted.jpg,68.59,70.39
+2,18,all,anxious,Lo lắng,inquieto,C2L18-anxious.jpg,class2/images/C2L18-anxious.jpg,70.39,72.59
+2,18,all,empty,Trống rỗng,vazio,C2L18-empty.jpg,class2/images/C2L18-empty.jpg,72.59,74.08
+2,18,all,lost,Mất đi,perdido,C2L18-lost.jpg,class2/images/C2L18-lost.jpg,74.08,75.71
+2,18,all,relieved,An tâm,aliviado,C2L18-relieved.jpg,class2/images/C2L18-relieved.jpg,75.71,77.47
+2,16,vocabulary,Get on like a house on fire,Có một mối quan hệ tốt đẹp với ai đó,imediatamente ficar bem com alguém,C2L16-Get-on-like-a-house-on-fire.jpg,class2/images/C2L16-Get-on-like-a-house-on-fire.jpg,6.85,9.45
+2,16,vocabulary,Get on well with,Hòa đồng với ai đó,dar-se bem com,C2L16-Get-on-well-with.jpg,class2/images/C2L16-Get-on-well-with.jpg,9.45,11.16
+2,16,vocabulary,Get to know,Tìm hiểu ai đó,conhecer,C2L16-Get-to-know.jpg,class2/images/C2L16-Get-to-know.jpg,11.16,12.75
+2,16,vocabulary,Have a lot in common,Có nhiều điểm chung,ter muito em comum,C2L16-Have-a-lot-in-common.jpg,class2/images/C2L16-Have-a-lot-in-common.jpg,12.75,14.52
+2,16,vocabulary,Have ups and downs,Có lúc thăng lúc trầm,ter altos e baixos,C2L16-Have-ups-and-downs.jpg,class2/images/C2L16-Have-ups-and-downs.jpg,14.52,16.32
+2,16,vocabulary,A healthy relationship,Một mối quan hệ tốt,um relacionamento saudável,C2L16-A-healthy-relationship.jpg,class2/images/C2L16-A-healthy-relationship.jpg,16.32,18.61
+2,16,vocabulary,Hit it off,Tâm đầu ý hợp,dar-se muito bem,C2L16-Hit-it-off.jpg,class2/images/C2L16-Hit-it-off.jpg,18.61,19.86
+2,16,vocabulary,Be in a relationship,Đang trong một mối quan hệ,estar em um relacionamento,C2L16-Be-in-a-relationship.jpg,class2/images/C2L16-Be-in-a-relationship.jpg,19.86,22.03
+2,16,vocabulary,Have good chemistry,Có cảm xúc mãnh liệt,ter boa química,C2L16-Have-good-chemistry.jpg,class2/images/C2L16-Have-good-chemistry.jpg,22.03,24.08
+2,16,vocabulary,Play hard to get,Giả vờ kiêu kì,fazer-se rogar ,C2L16-Play-hard-to-get.jpg,class2/images/C2L16-Play-hard-to-get.jpg,24.08,25.68
+2,16,vocabulary,Enjoy someone’s company,Thích ở cùng ai đó,desfrutar da companhia de alguém,C2L16-Enjoy-someone-s-company.jpg,class2/images/C2L16-Enjoy-someone-s-company.jpg,25.68,28.04
+2,16,vocabulary,Fall for someone,,apaixonar-se por alguém,C2L16-Fall-for-someone.jpg,class2/images/C2L16-Fall-for-someone.jpg,28.04,29.92
+2,16,vocabulary,Fall out with,,cair em desgraça ,C2L16-Fall-out-with.jpg,class2/images/C2L16-Fall-out-with.jpg,29.92,31.87
+2,16,vocabulary,Drift apart,,afastar-se,C2L16-Drift-apart.jpg,class2/images/C2L16-Drift-apart.jpg,31.87,33.28
+2,16,vocabulary,Be just good friends,,ser apenas bons amigos,C2L16-Be-just-good-friends.jpg,class2/images/C2L16-Be-just-good-friends.jpg,33.28,35.5
+2,16,vocabulary,Keep in touch with,,manter contato com,C2L16-Keep-in-touch-with.jpg,class2/images/C2L16-Keep-in-touch-with.jpg,35.5,37.47
+2,16,vocabulary,Lose touch with,,perder o contato com,C2L16-Lose-touch-with.jpg,class2/images/C2L16-Lose-touch-with.jpg,37.47,39.35
+2,16,vocabulary,Love at first sight,,amor à primeira vista,C2L16-Love-at-first-sight.jpg,class2/images/C2L16-Love-at-first-sight.jpg,39.35,41.61
+2,16,vocabulary,Pop the question,,propor,C2L16-Pop-the-question.jpg,class2/images/C2L16-Pop-the-question.jpg,41.61,43.46
+2,16,vocabulary,Tie the knot,,casar,C2L16-Tie-the-knot.jpg,class2/images/C2L16-Tie-the-knot.jpg,43.46,45.28
+2,16,vocabulary,See eye to eye,,estar de acordo,C2L16-See-eye-to-eye.jpg,class2/images/C2L16-See-eye-to-eye.jpg,45.28,47.47
+2,16,vocabulary,Settle down,,sossegar,C2L16-Settle-down.jpg,class2/images/C2L16-Settle-down.jpg,47.47,48.85
+2,17,subject,Mathematics,,matemática,C2L17-Mathematics.jpg,class2/images/C2L17-Mathematics.jpg,9,10.2
+2,17,subject,Literature,,literatura,C2L17-Literature.jpg,class2/images/C2L17-Literature.jpg,10.2,11.78
+2,17,subject,Chemistry,,química,C2L17-Chemistry.jpg,class2/images/C2L17-Chemistry.jpg,11.78,12.8
+2,17,subject,Biology,,biologia,C2L17-Biology.jpg,class2/images/C2L17-Biology.jpg,12.8,14.82
+2,17,subject,Economics,,economia,C2L17-Economics.jpg,class2/images/C2L17-Economics.jpg,14.82,16.47
+2,17,subject,History,,história,C2L17-History.jpg,class2/images/C2L17-History.jpg,16.47,17.79
+2,17,subject,Computer Science,,ciência da computação,C2L17-Computer-Science.jpg,class2/images/C2L17-Computer-Science.jpg,17.79,19.58
+2,17,subject,Arts,,arte,C2L17-Arts.jpg,class2/images/C2L17-Arts.jpg,19.58,21.26
+2,17,subject,Geography,,geografia,C2L17-Geography.jpg,class2/images/C2L17-Geography.jpg,21.26,22.56
+2,17,subject,Physics,,física,C2L17-Physics.jpg,class2/images/C2L17-Physics.jpg,22.56,23.86
+2,17,subject,Physical Education/ PE,,educação física,C2L17-Physical-Education-PE.jpg,class2/images/C2L17-Physical-Education-PE.jpg,23.86,27.37
+2,17,subject,Psychology,,psicologia,C2L17-Psychology.jpg,class2/images/C2L17-Psychology.jpg,27.37,28.7
+2,17,subject,Marxist-Leninist philosophy,,marxismo-leninismo,C2L17-Marxist-Leninist-philosophy.jpg,class2/images/C2L17-Marxist-Leninist-philosophy.jpg,28.7,31.73
+2,17,subject,Statistics,,estatística,C2L17-Statistics.jpg,class2/images/C2L17-Statistics.jpg,31.73,33.24
+2,17,subject,History of the Communist Party,,história do Partido Comunista,C2L17-History-of-the-Communist-Party.jpg,class2/images/C2L17-History-of-the-Communist-Party.jpg,33.24,35.27
+2,17,subject,Ho Chi Minh ideology,,ideologia de Ho Chi Minh,C2L17-Ho-Chi-Minh-ideology.jpg,class2/images/C2L17-Ho-Chi-Minh-ideology.jpg,35.27,37.98
+2,17,subject,Consumer / customer behavior,,comportamento do consumidor / cliente,C2L17-Consumer-customer-behavior.jpg,class2/images/C2L17-Consumer-customer-behavior.jpg,37.98,41.21
+2,17,major,Architecture,,arquitetura,C2L17-Architecture.jpg,class2/images/C2L17-Architecture.jpg,43.45,45.31
+2,17,major,Engineering,,engenharia,C2L17-Engineering.jpg,class2/images/C2L17-Engineering.jpg,45.31,46.73
+2,17,major,Journalism,,jornalismo,C2L17-Journalism.jpg,class2/images/C2L17-Journalism.jpg,46.73,48.3
+2,17,major,Medicine,,medicina,C2L17-Medicine.jpg,class2/images/C2L17-Medicine.jpg,48.3,49.33
+2,17,major,Sociology,,sociologia,C2L17-Sociology.jpg,class2/images/C2L17-Sociology.jpg,49.33,50.68
+2,17,major,Tourism and hospitality management,,gestão de turismo e hospitalidade,C2L17-Tourism-and-hospitality-management.jpg,class2/images/C2L17-Tourism-and-hospitality-management.jpg,50.68,53.56
+2,17,major,Information technology,,tecnologia da informação,C2L17-Information-technology.jpg,class2/images/C2L17-Information-technology.jpg,53.56,55.66
+2,17,major,Business Administration,,administração de empresas,C2L17-Business-Administration.jpg,class2/images/C2L17-Business-Administration.jpg,55.66,58.11
+2,17,major,Accounting,,contabilidade,C2L17-Accounting.jpg,class2/images/C2L17-Accounting.jpg,58.11,59.78
+2,17,exams,Resit,,tomar (um exame) novamente depois de falhar,C2L17-Resit.jpg,class2/images/C2L17-Resit.jpg,61.95,62.74
+2,17,exams,Pass,,passar,C2L17-Pass.jpg,class2/images/C2L17-Pass.jpg,62.74,63.1
+2,17,exams,Fail,,falhar,C2L17-Fail.jpg,class2/images/C2L17-Fail.jpg,63.1,63.4
+2,17,exams,Revise,,revisar,C2L17-Revise.jpg,class2/images/C2L17-Revise.jpg,63.4,64.55
+1,19,bedroom,Bed,,cama,C1L19-Bed.jpg,class1/images/C1L19-Bed.jpg,9.68,10.43
+1,19,bedroom,Picture,,retrato,C1L19-Picture.jpg,class1/images/C1L19-Picture.jpg,10.43,11.97
+1,19,bedroom,Flower vase,,vaso de flores,C1L19-Flower-vase.jpg,class1/images/C1L19-Flower-vase.jpg,11.97,13.1
+1,19,bedroom,Shelf,,estante,C1L19-Shelf.jpg,class1/images/C1L19-Shelf.jpg,13.1,14.62
+1,19,bedroom,Lamp,,lâmpada,C1L19-Lamp.jpg,class1/images/C1L19-Lamp.jpg,14.62,15.87
+1,19,bedroom,Pillow,,travesseiro,C1L19-Pillow.jpg,class1/images/C1L19-Pillow.jpg,15.87,17.43
+1,19,bedroom,Blanket,,cobertor,C1L19-Blanket.jpg,class1/images/C1L19-Blanket.jpg,17.43,18.7
+1,19,bedroom,Alarm clock,,despertador,C1L19-Alarm-clock.jpg,class1/images/C1L19-Alarm-clock.jpg,18.7,20.35
+1,19,bedroom,Dresser,,cômoda,C1L19-Dresser.jpg,class1/images/C1L19-Dresser.jpg,20.35,21.62
+1,19,bedroom,Teddy bear,,urso Teddy,C1L19-Teddy-bear.jpg,class1/images/C1L19-Teddy-bear.jpg,21.62,23.16
+1,19,bathroom,Curtain,,cortina,C1L19-Curtain.jpg,class1/images/C1L19-Curtain.jpg,25.43,27.47
+1,19,bathroom,Window,,janela,C1L19-Window.jpg,class1/images/C1L19-Window.jpg,27.47,28.6
+1,19,bathroom,Faucet,,torneira,C1L19-Faucet.jpg,class1/images/C1L19-Faucet.jpg,28.6,29.96
+1,19,bathroom,Bathtub,,banheira,C1L19-Bathtub.jpg,class1/images/C1L19-Bathtub.jpg,29.96,31.7
+1,19,bathroom,Sink,,pia,C1L19-Sink.jpg,class1/images/C1L19-Sink.jpg,31.7,33.11
+1,19,bathroom,Towel,,toalha,C1L19-Towel.jpg,class1/images/C1L19-Towel.jpg,33.11,34.74
+1,19,bathroom,Mirror,,espelho,C1L19-Mirror.jpg,class1/images/C1L19-Mirror.jpg,34.74,36.17
+1,19,bathroom,Towel rack,,toalheiro,C1L19-Towel-rack.jpg,class1/images/C1L19-Towel-rack.jpg,36.17,37.68
+1,19,bathroom,Toilet,,toalete,C1L19-Toilet.jpg,class1/images/C1L19-Toilet.jpg,37.68,39.66
+1,19,bathroom,Toilet paper,,papel higiênico,C1L19-Toilet-paper.jpg,class1/images/C1L19-Toilet-paper.jpg,39.66,41.4
+1,19,bathroom,Shampoo,,xampu,C1L19-Shampoo.jpg,class1/images/C1L19-Shampoo.jpg,41.4,43.12
+1,19,bathroom,Soap,,sabonete,C1L19-Soap.jpg,class1/images/C1L19-Soap.jpg,43.12,44.64
+1,19,bathroom,Toothbrush,,escova de dentes,C1L19-Toothbrush.jpg,class1/images/C1L19-Toothbrush.jpg,44.64,46.43
+1,19,bathroom,Toothpaste,,pasta de dentes,C1L19-Toothpaste.jpg,class1/images/C1L19-Toothpaste.jpg,46.43,48.05
+1,19,kitchen,Pan,,sertã,C1L19-Pan.jpg,class1/images/C1L19-Pan.jpg,50.27,52.04
+1,19,kitchen,Pot,,panela,C1L19-Pot.jpg,class1/images/C1L19-Pot.jpg,52.04,53
+1,19,kitchen,Cooker,,fogareiro,C1L19-Cooker.jpg,class1/images/C1L19-Cooker.jpg,53,54.39
+1,19,kitchen,Cupboard,,armário,C1L19-Cupboard.jpg,class1/images/C1L19-Cupboard.jpg,54.39,55.6
+1,19,kitchen,Cutting board,,tábua de cortar,C1L19-Cutting-board.jpg,class1/images/C1L19-Cutting-board.jpg,55.6,57.49
+1,19,kitchen,Knife,,faca,C1L19-Knife.jpg,class1/images/C1L19-Knife.jpg,57.49,58.85
+1,19,kitchen,Blender,,liquidificador,C1L19-Blender.jpg,class1/images/C1L19-Blender.jpg,58.85,60.44
+1,19,kitchen,Sink,,pia,C1L19-Sink.jpg,class1/images/C1L19-Sink.jpg,60.44,61.97
+1,19,kitchen,Dishwasher,,lava-louças,C1L19-Dishwasher.jpg,class1/images/C1L19-Dishwasher.jpg,61.97,63.62
+1,19,kitchen,Freezer,,congelador,C1L19-Freezer.jpg,class1/images/C1L19-Freezer.jpg,63.62,65.03
+1,19,kitchen,Fridge,,geladeira,C1L19-Fridge.jpg,class1/images/C1L19-Fridge.jpg,65.03,66.8
+1,19,kitchen,Microwave,,microondas,C1L19-Microwave.jpg,class1/images/C1L19-Microwave.jpg,66.8,68.41
+1,19,kitchen,Oven,,forno,C1L19-Oven.jpg,class1/images/C1L19-Oven.jpg,68.41,70.02
+1,19,livingroom,Chair,,cadeira,C1L19-Chair.jpg,class1/images/C1L19-Chair.jpg,71.97,73.41
+1,19,livingroom,Armchair,,poltrona,C1L19-Armchair.jpg,class1/images/C1L19-Armchair.jpg,73.41,75.27
+1,19,livingroom,Rocking chair,,cadeira de balanço,C1L19-Rocking-chair.jpg,class1/images/C1L19-Rocking-chair.jpg,75.27,77.06
+1,19,livingroom,Stool,,tamborete,C1L19-Stool.jpg,class1/images/C1L19-Stool.jpg,77.06,78.33
+1,19,livingroom,Book,,livro,C1L19-Book.jpg,class1/images/C1L19-Book.jpg,78.33,79.91
+1,19,livingroom,Couch,,sofá,C1L19-Couch.jpg,class1/images/C1L19-Couch.jpg,79.91,81.55
+1,19,livingroom,Sofa,,sofá,C1L19-Sofa.jpg,class1/images/C1L19-Sofa.jpg,81.55,83.34
+1,19,livingroom,Cushion,,almofada,C1L19-Cushion.jpg,class1/images/C1L19-Cushion.jpg,83.34,85.01
+1,19,livingroom,Fireplace,,lareira,C1L19-Fireplace.jpg,class1/images/C1L19-Fireplace.jpg,85.01,87.12
+1,19,livingroom,Coffee table,,mesa de centro,C1L19-Coffee-table.jpg,class1/images/C1L19-Coffee-table.jpg,87.12,88.77
+1,19,livingroom,Rug,,tapete,C1L19-Rug.jpg,class1/images/C1L19-Rug.jpg,88.77,90.39
+2,19,expressing,Over the moon,,encantado,C2L19-Over-the-moon.jpg,class2/images/C2L19-Over-the-moon.jpg,9.05,11.22
+2,19,expressing,On top of the world,,exaltado,C2L19-On-top-of-the-world.jpg,class2/images/C2L19-On-top-of-the-world.jpg,11.22,13.17
+2,19,expressing,Jump for joy,,felizmente com êxtase,C2L19-Jump-for-joy.jpg,class2/images/C2L19-Jump-for-joy.jpg,13.17,14.82
+2,19,expressing,Break someone's heart,,alguém é arrebatado com tristeza,C2L19-Break-someone-s-heart.jpg,class2/images/C2L19-Break-someone-s-heart.jpg,14.82,16.86
+2,19,expressing,Burst into tears,,começar de chorar,C2L19-Burst-into-tears.jpg,class2/images/C2L19-Burst-into-tears.jpg,16.86,18.78
+2,19,expressing,Feeling blue,,Sentir-se triste,C2L19-Feeling-blue.jpg,class2/images/C2L19-Feeling-blue.jpg,18.78,20.88
+2,19,expressing,On cloud nine,,extremamente feliz,C2L19-On-cloud-nine.jpg,class2/images/C2L19-On-cloud-nine.jpg,20.88,23.04
+2,19,expressing,Fed up,,estar (de saco) cheio,C2L19-Fed-up.jpg,class2/images/C2L19-Fed-up.jpg,23.04,24.59
+2,19,expressing,Under the weather,,um pouco indisposto,C2L19-Under-the-weather.jpg,class2/images/C2L19-Under-the-weather.jpg,24.59,26.51
+2,19,expressing,Bored to tears,,morto de tédio,C2L19-Bored-to-tears.jpg,class2/images/C2L19-Bored-to-tears.jpg,26.51,28.67
+2,19,expressing,Green with envy,,invejoso,C2L19-Green-with-envy.jpg,class2/images/C2L19-Green-with-envy.jpg,28.67,30.92
+2,19,expressing,Go bananas,,tornar-se extremamente bobo,C2L19-Go-bananas.jpg,class2/images/C2L19-Go-bananas.jpg,30.92,32.9
+2,19,expressing,Change of heart,,alterar a opinião,C2L19-Change-of-heart.jpg,class2/images/C2L19-Change-of-heart.jpg,32.9,34.96
+2,19,expressing,Look on the bright side,,ser otimista apesar das dificuldades,C2L19-Look-on-the-bright-side.jpg,class2/images/C2L19-Look-on-the-bright-side.jpg,34.96,37.45
+2,19,expressing,Make your skin crawl,,sensação desagradável,C2L19-Make-your-skin-crawl.jpg,class2/images/C2L19-Make-your-skin-crawl.jpg,37.45,40.06
+2,19,expressing,A soft spot,,ter carinho,C2L19-A-soft-spot.jpg,class2/images/C2L19-A-soft-spot.jpg,40.06,42.44
+2,19,expressing,Pour your heart out,,contar a alguém seus sentimentos secretos,C2L19-Pour-your-heart-out.jpg,class2/images/C2L19-Pour-your-heart-out.jpg,42.44,44.48
+2,19,expressing,Reduced to tears,,sintir-se infeliz que chora,C2L19-Reduced-to-tears.jpg,class2/images/C2L19-Reduced-to-tears.jpg,44.48,47.36
+2,19,expressing,Let off steam,,livrar-se da energia reprimida,C2L19-Let-off-steam.jpg,class2/images/C2L19-Let-off-steam.jpg,47.36,48.89
+2,19,expressing,Walking on air,,ser imensamente feliz,C2L19-Walking-on-air.jpg,class2/images/C2L19-Walking-on-air.jpg,48.89,50.74
+2,19,expressing,Swell with pride,,estar orgulhoso,C2L19-Swell-with-pride.jpg,class2/images/C2L19-Swell-with-pride.jpg,50.74,52.66
+2,19,expressing,Carry away,,entusiasmado que não pode controlar o que faz,C2L19-Carry-away.jpg,class2/images/C2L19-Carry-away.jpg,52.66,54.54
+2,19,expressing,Eat a horse,,estar com muita fome,C2L19-Eat-a-horse.jpg,class2/images/C2L19-Eat-a-horse.jpg,54.54,56.25
+2,19,expressing,Not be yourself,,não sentir-se no estado físico ou mental usual,C2L19-Not-be-yourself.jpg,class2/images/C2L19-Not-be-yourself.jpg,56.25,59.07
+2,19,expressing,Foul mood,,ser mal-humorado,C2L19-Foul-mood.jpg,class2/images/C2L19-Foul-mood.jpg,59.07,60.65
+2,19,supporting,Congratulations,,Parabéns!,C2L19-Congratulations.jpg,class2/images/C2L19-Congratulations.jpg,63.6,65.41
+2,19,supporting,Cheer up,,Anime-se!,C2L19-Cheer-up.jpg,class2/images/C2L19-Cheer-up.jpg,65.41,67.17
+2,19,supporting,Good job,,Bom trabalho!,C2L19-Good-job.jpg,class2/images/C2L19-Good-job.jpg,67.17,69.02
+2,19,supporting,Well done,,Bem feito!,C2L19-Well-done.jpg,class2/images/C2L19-Well-done.jpg,69.02,70.74
+2,19,supporting,I feel a bit sorry for her,,Sinto um pouco por ela. ,C2L19-I-feel-a-bit-sorry-for-her.jpg,class2/images/C2L19-I-feel-a-bit-sorry-for-her.jpg,70.74,73.11
+2,19,supporting,I am sorry to hear that,,Lamento ouvir isso.,C2L19-I-am-sorry-to-hear-that.jpg,class2/images/C2L19-I-am-sorry-to-hear-that.jpg,73.11,75.75
+2,19,supporting,That's a pity,,É uma pena!,C2L19-That-s-a-pity.jpg,class2/images/C2L19-That-s-a-pity.jpg,75.75,77.77
 2,19,supporting,That's a shame,,,C2L19-That-s-a-shame.jpg,class2/images/C2L19-That-s-a-shame.jpg,77.77,79.83
 2,19,supporting,That's unfortunate,,,C2L19-That-s-unfortunate.jpg,class2/images/C2L19-That-s-unfortunate.jpg,79.83,82.01
 2,19,supporting,Keep your chin up,,,C2L19-Keep-your-chin-up.jpg,class2/images/C2L19-Keep-your-chin-up.jpg,82.01,83.79
@@ -1089,7 +1088,7 @@ se casar com alguém",C1L05-Marry-someone-Get-married-to-someone.jpg,class1/imag
 1,24,vocabulary,Communicate with foreigners,,,C1L24-Communicate-with-foreigners.jpg,class1/images/C1L24-Communicate-with-foreigners.jpg,,
 1,24,vocabulary,Find a good job,,,C1L24-Find-a-good-job.jpg,class1/images/C1L24-Find-a-good-job.jpg,,
 1,24,vocabulary,Travel around the world,,,C1L24-Travel-around-the-world.jpg,class1/images/C1L24-Travel-around-the-world.jpg,,
-1,24,vocabulary,Widen their knowledge**,,,C1L24-Widen-their-knowledge-.jpg,class1/images/C1L24-Widen-their-knowledge-.jpg,,
+1,24,vocabulary,Widen their knowledge,,,C1L24-Widen-their-knowledge.jpg,class1/images/C1L24-Widen-their-knowledge.jpg,,
 1,24,vocabulary,Meet new people and learn new things,,,C1L24-Meet-new-people-and-learn-new-things.jpg,class1/images/C1L24-Meet-new-people-and-learn-new-things.jpg,,
 1,24,vocabulary,Get out of my comfort zone,,,C1L24-Get-out-of-my-comfort-zone.jpg,class1/images/C1L24-Get-out-of-my-comfort-zone.jpg,,
 1,24,vocabulary,Work under pressure,,,C1L24-Work-under-pressure.jpg,class1/images/C1L24-Work-under-pressure.jpg,,
@@ -1228,4 +1227,188 @@ se casar com alguém",C1L05-Marry-someone-Get-married-to-someone.jpg,class1/imag
 1,04,vocabulary,Go shopping,,,C1L04-Go-shopping.jpg,class1/images/C1L04-Go-shopping.jpg,,
 1,04,vocabulary,Go fishing,,,C1L04-Go-fishing.jpg,class1/images/C1L04-Go-fishing.jpg,,
 1,04,vocabulary,Smoke cigarettes,,,C1L04-Smoke-cigarettes.jpg,class1/images/C1L04-Smoke-cigarettes.jpg,,
-,,,,,,CL-.jpg,class/images/CL-.jpg,,
+1,03,verbs,Cover,,,C1L03-Cover.jpg,class1/images/C1L03-Cover.jpg,,
+1,03,verbs,Wear,,,C1L03-Wear.jpg,class1/images/C1L03-Wear.jpg,,
+1,03,verbs,Put on,,,C1L03-Put-on.jpg,class1/images/C1L03-Put-on.jpg,,
+1,03,verbs,Take off,,,C1L03-Take-off.jpg,class1/images/C1L03-Take-off.jpg,,
+1,03,verbs,Shake,,,C1L03-Shake.jpg,class1/images/C1L03-Shake.jpg,,
+1,03,verbs,Operate,,,C1L03-Operate.jpg,class1/images/C1L03-Operate.jpg,,
+1,03,verbs,Decorate,,,C1L03-Decorate.jpg,class1/images/C1L03-Decorate.jpg,,
+1,03,verbs,Change,,,C1L03-Change.jpg,class1/images/C1L03-Change.jpg,,
+1,03,verbs,Write,,,C1L03-Write.jpg,class1/images/C1L03-Write.jpg,,
+1,03,verbs,Buy,,,C1L03-Buy.jpg,class1/images/C1L03-Buy.jpg,,
+1,03,verbs,Sell,,,C1L03-Sell.jpg,class1/images/C1L03-Sell.jpg,,
+1,03,verbs,Build,,,C1L03-Build.jpg,class1/images/C1L03-Build.jpg,,
+1,03,verbs,Touch,,,C1L03-Touch.jpg,class1/images/C1L03-Touch.jpg,,
+1,03,nouns,Tree / flower,,,C1L03-Tree-flower.jpg,class1/images/C1L03-Tree-flower.jpg,,
+1,03,nouns,Mountain,,,C1L03-Mountain.jpg,class1/images/C1L03-Mountain.jpg,,
+1,03,nouns,River,,,C1L03-River.jpg,class1/images/C1L03-River.jpg,,
+1,03,nouns,Ocean / Sea,,,C1L03-Ocean-Sea.jpg,class1/images/C1L03-Ocean-Sea.jpg,,
+1,03,nouns,Shirt / T-Shirt,,,C1L03-Shirt-T-Shirt.jpg,class1/images/C1L03-Shirt-T-Shirt.jpg,,
+1,03,nouns,Skirt / Dress,,,C1L03-Skirt-Dress.jpg,class1/images/C1L03-Skirt-Dress.jpg,,
+1,03,nouns,Trousers / Jeans,,,C1L03-Trousers-Jeans.jpg,class1/images/C1L03-Trousers-Jeans.jpg,,
+1,03,nouns,Hat / Cap,,,C1L03-Hat-Cap.jpg,class1/images/C1L03-Hat-Cap.jpg,,
+1,03,nouns,Shoes,,,C1L03-Shoes.jpg,class1/images/C1L03-Shoes.jpg,,
+1,03,nouns,Football / Tennis,,,C1L03-Football-Tennis.jpg,class1/images/C1L03-Football-Tennis.jpg,,
+1,03,nouns,Piano/ Guitar,,,C1L03-Piano-Guitar.jpg,class1/images/C1L03-Piano-Guitar.jpg,,
+1,03,nouns,People / things,,,C1L03-People-things.jpg,class1/images/C1L03-People-things.jpg,,
+1,03,nouns,Student / teacher,,,C1L03-Student-teacher.jpg,class1/images/C1L03-Student-teacher.jpg,,
+1,02,eyes,Look at,,,C1L02-Look-at.jpg,class1/images/C1L02-Look-at.jpg,,
+1,02,eyes,Look for,,,C1L02-Look-for.jpg,class1/images/C1L02-Look-for.jpg,,
+1,02,eyes,Watch,,,C1L02-Watch.jpg,class1/images/C1L02-Watch.jpg,,
+1,02,eyes,See,,,C1L02-See.jpg,class1/images/C1L02-See.jpg,,
+1,02,eyes,Observe,,,C1L02-Observe.jpg,class1/images/C1L02-Observe.jpg,,
+1,02,eyes,Study,,,C1L02-Study.jpg,class1/images/C1L02-Study.jpg,,
+1,02,eyes,Learn,,,C1L02-Learn.jpg,class1/images/C1L02-Learn.jpg,,
+1,02,eyes,Review,,,C1L02-Review.jpg,class1/images/C1L02-Review.jpg,,
+1,02,eyes,Check,,,C1L02-Check.jpg,class1/images/C1L02-Check.jpg,,
+1,02,eyes,Cry,,,C1L02-Cry.jpg,class1/images/C1L02-Cry.jpg,,
+1,02,eyes,Sleep,,,C1L02-Sleep.jpg,class1/images/C1L02-Sleep.jpg,,
+1,02,eyes,Dream,,,C1L02-Dream.jpg,class1/images/C1L02-Dream.jpg,,
+1,02,leg,Chase,,,C1L02-Chase.jpg,class1/images/C1L02-Chase.jpg,,
+1,02,leg,Kick,,,C1L02-Kick.jpg,class1/images/C1L02-Kick.jpg,,
+1,02,leg,Climb,,,C1L02-Climb.jpg,class1/images/C1L02-Climb.jpg,,
+1,02,leg,Leave,,,C1L02-Leave.jpg,class1/images/C1L02-Leave.jpg,,
+1,02,leg,Move,,,C1L02-Move.jpg,class1/images/C1L02-Move.jpg,,
+1,02,leg,Stand,,,C1L02-Stand.jpg,class1/images/C1L02-Stand.jpg,,
+1,02,leg,Sit,,,C1L02-Sit.jpg,class1/images/C1L02-Sit.jpg,,
+1,02,leg,Lie,,,C1L02-Lie.jpg,class1/images/C1L02-Lie.jpg,,
+1,02,leg,Go,,,C1L02-Go.jpg,class1/images/C1L02-Go.jpg,,
+1,02,leg,Walk,,,C1L02-Walk.jpg,class1/images/C1L02-Walk.jpg,,
+1,02,leg,Run,,,C1L02-Run.jpg,class1/images/C1L02-Run.jpg,,
+1,02,leg,Dance,,,C1L02-Dance.jpg,class1/images/C1L02-Dance.jpg,,
+1,02,mouth,Talk to,,,C1L02-Talk-to.jpg,class1/images/C1L02-Talk-to.jpg,,
+1,02,mouth,Talk About,,,C1L02-Talk-About.jpg,class1/images/C1L02-Talk-About.jpg,,
+1,02,mouth,Whisper,,,C1L02-Whisper.jpg,class1/images/C1L02-Whisper.jpg,,
+1,02,mouth,Interview,,,C1L02-Interview.jpg,class1/images/C1L02-Interview.jpg,,
+1,02,mouth,Eat,,,C1L02-Eat.jpg,class1/images/C1L02-Eat.jpg,,
+1,02,mouth,Drink,,,C1L02-Drink.jpg,class1/images/C1L02-Drink.jpg,,
+1,02,mouth,Lie To,,,C1L02-Lie-To.jpg,class1/images/C1L02-Lie-To.jpg,,
+1,02,mouth,Smile,,,C1L02-Smile.jpg,class1/images/C1L02-Smile.jpg,,
+1,02,mouth,Laugh,,,C1L02-Laugh.jpg,class1/images/C1L02-Laugh.jpg,,
+1,02,mouth,Ask,,,C1L02-Ask.jpg,class1/images/C1L02-Ask.jpg,,
+1,02,mouth,Answer,,,C1L02-Answer.jpg,class1/images/C1L02-Answer.jpg,,
+1,02,hand,Make / Do,,,C1L02-Make-Do.jpg,class1/images/C1L02-Make-Do.jpg,,
+1,02,hand,Paint / Draw,,,C1L02-Paint-Draw.jpg,class1/images/C1L02-Paint-Draw.jpg,,
+1,02,hand,Hold / Keep,,,C1L02-Hold-Keep.jpg,class1/images/C1L02-Hold-Keep.jpg,,
+1,02,hand,Pull / Push,,,C1L02-Pull-Push.jpg,class1/images/C1L02-Pull-Push.jpg,,
+1,02,hand,Use,,,C1L02-Use.jpg,class1/images/C1L02-Use.jpg,,
+1,02,hand,Play,,,C1L02-Play.jpg,class1/images/C1L02-Play.jpg,,
+1,02,hand,Throw,,,C1L02-Throw.jpg,class1/images/C1L02-Throw.jpg,,
+1,02,hand,Clean,,,C1L02-Clean.jpg,class1/images/C1L02-Clean.jpg,,
+1,02,hand,Ride / Drive,,,C1L02-Ride-Drive.jpg,class1/images/C1L02-Ride-Drive.jpg,,
+1,02,hand,Swim,,,C1L02-Swim.jpg,class1/images/C1L02-Swim.jpg,,
+1,02,hand,Choose,,,C1L02-Choose.jpg,class1/images/C1L02-Choose.jpg,,
+1,02,hand,Work,,,C1L02-Work.jpg,class1/images/C1L02-Work.jpg,,
+1,01,animals,Pig,,,C1L01-Pig.jpg,class1/images/C1L01-Pig.jpg,,
+1,01,animals,Horse,,,C1L01-Horse.jpg,class1/images/C1L01-Horse.jpg,,
+1,01,animals,Elephant,,,C1L01-Elephant.jpg,class1/images/C1L01-Elephant.jpg,,
+1,01,animals,Fish,,,C1L01-Fish.jpg,class1/images/C1L01-Fish.jpg,,
+1,01,animals,Snake,,,C1L01-Snake.jpg,class1/images/C1L01-Snake.jpg,,
+1,01,animals,Giraffe,,,C1L01-Giraffe.jpg,class1/images/C1L01-Giraffe.jpg,,
+1,01,animals,Dog,,,C1L01-Dog.jpg,class1/images/C1L01-Dog.jpg,,
+1,01,animals,Cat,,,C1L01-Cat.jpg,class1/images/C1L01-Cat.jpg,,
+1,01,animals,Lion,,,C1L01-Lion.jpg,class1/images/C1L01-Lion.jpg,,
+1,01,animals,Tiger,,,C1L01-Tiger.jpg,class1/images/C1L01-Tiger.jpg,,
+1,01,animals,Chicken,,,C1L01-Chicken.jpg,class1/images/C1L01-Chicken.jpg,,
+1,01,animals,Bird,,,C1L01-Bird.jpg,class1/images/C1L01-Bird.jpg,,
+1,01,animals,Turtle,,,C1L01-Turtle.jpg,class1/images/C1L01-Turtle.jpg,,
+1,01,animals,Rabbit,,,C1L01-Rabbit.jpg,class1/images/C1L01-Rabbit.jpg,,
+1,01,animals,Crocodile,,,C1L01-Crocodile.jpg,class1/images/C1L01-Crocodile.jpg,,
+1,01,animals,Bear,,,C1L01-Bear.jpg,class1/images/C1L01-Bear.jpg,,
+1,01,fruits,Avocado,,,C1L01-Avocado.jpg,class1/images/C1L01-Avocado.jpg,,
+1,01,fruits,Apple,,,C1L01-Apple.jpg,class1/images/C1L01-Apple.jpg,,
+1,01,fruits,Grape,,,C1L01-Grape.jpg,class1/images/C1L01-Grape.jpg,,
+1,01,fruits,Lemon,,,C1L01-Lemon.jpg,class1/images/C1L01-Lemon.jpg,,
+1,01,fruits,Watermelon,,,C1L01-Watermelon.jpg,class1/images/C1L01-Watermelon.jpg,,
+1,01,fruits,Strawberry,,,C1L01-Strawberry.jpg,class1/images/C1L01-Strawberry.jpg,,
+1,01,fruits,Papaya,,,C1L01-Papaya.jpg,class1/images/C1L01-Papaya.jpg,,
+1,01,fruits,Mango,,,C1L01-Mango.jpg,class1/images/C1L01-Mango.jpg,,
+1,01,fruits,Orange,,,C1L01-Orange.jpg,class1/images/C1L01-Orange.jpg,,
+1,01,class,Board,,,C1L01-Board.jpg,class1/images/C1L01-Board.jpg,,
+1,01,class,Chair,,,C1L01-Chair.jpg,class1/images/C1L01-Chair.jpg,,
+1,01,class,Table,,,C1L01-Table.jpg,class1/images/C1L01-Table.jpg,,
+1,01,class,Air conditioner,,,C1L01-Air-conditioner.jpg,class1/images/C1L01-Air-conditioner.jpg,,
+1,01,class,Pen,,,C1L01-Pen.jpg,class1/images/C1L01-Pen.jpg,,
+1,01,class,Pencil,,,C1L01-Pencil.jpg,class1/images/C1L01-Pencil.jpg,,
+1,01,class,Book,,,C1L01-Book.jpg,class1/images/C1L01-Book.jpg,,
+1,01,class,Marker,,,C1L01-Marker.jpg,class1/images/C1L01-Marker.jpg,,
+1,01,class,Door,,,C1L01-Door.jpg,class1/images/C1L01-Door.jpg,,
+1,01,class,Window,,,C1L01-Window.jpg,class1/images/C1L01-Window.jpg,,
+1,01,class,Light,,,C1L01-Light.jpg,class1/images/C1L01-Light.jpg,,
+1,01,class,Wall,,,C1L01-Wall.jpg,class1/images/C1L01-Wall.jpg,,
+1,01,class,Picture,,,C1L01-Picture.jpg,class1/images/C1L01-Picture.jpg,,
+1,01,vehicles,Car,,,C1L01-Car.jpg,class1/images/C1L01-Car.jpg,,
+1,01,vehicles,Motorbike,,,C1L01-Motorbike.jpg,class1/images/C1L01-Motorbike.jpg,,
+1,01,vehicles,Bike,,,C1L01-Bike.jpg,class1/images/C1L01-Bike.jpg,,
+1,01,vehicles,Truck,,,C1L01-Truck.jpg,class1/images/C1L01-Truck.jpg,,
+1,01,vehicles,Train,,,C1L01-Train.jpg,class1/images/C1L01-Train.jpg,,
+1,01,vehicles,Plane,,,C1L01-Plane.jpg,class1/images/C1L01-Plane.jpg,,
+1,01,vehicles,Bus,,,C1L01-Bus.jpg,class1/images/C1L01-Bus.jpg,,
+1,01,vehicles,Taxi,,,C1L01-Taxi.jpg,class1/images/C1L01-Taxi.jpg,,
+1,01,vehicles,Boat,,,C1L01-Boat.jpg,class1/images/C1L01-Boat.jpg,,
+1,01,people,Teacher,,,C1L01-Teacher.jpg,class1/images/C1L01-Teacher.jpg,,
+1,01,people,Student,,,C1L01-Student.jpg,class1/images/C1L01-Student.jpg,,
+1,01,people,Doctor,,,C1L01-Doctor.jpg,class1/images/C1L01-Doctor.jpg,,
+1,01,people,Nurse,,,C1L01-Nurse.jpg,class1/images/C1L01-Nurse.jpg,,
+1,01,thingslife,Air,,,C1L01-Air.jpg,class1/images/C1L01-Air.jpg,,
+1,01,thingslife,Food,,,C1L01-Food.jpg,class1/images/C1L01-Food.jpg,,
+1,01,thingslife,Money,,,C1L01-Money.jpg,class1/images/C1L01-Money.jpg,,
+1,01,thingslife,Health,,,C1L01-Health.jpg,class1/images/C1L01-Health.jpg,,
+1,01,thingslife,Happiness,,,C1L01-Happiness.jpg,class1/images/C1L01-Happiness.jpg,,
+1,01,thingslife,Love,,,C1L01-Love.jpg,class1/images/C1L01-Love.jpg,,
+1,01,thingslife,Sadness,,,C1L01-Sadness.jpg,class1/images/C1L01-Sadness.jpg,,
+1,01,thingslife,Time,,,C1L01-Time.jpg,class1/images/C1L01-Time.jpg,,
+1,01,thingslife,Water,,,C1L01-Water.jpg,class1/images/C1L01-Water.jpg,,
+1,01,uncountable,Homework,,,C1L01-Homework.jpg,class1/images/C1L01-Homework.jpg,,
+1,01,uncountable,Housework,,,C1L01-Housework.jpg,class1/images/C1L01-Housework.jpg,,
+1,01,uncountable,Vietnamese,,,C1L01-Vietnamese.jpg,class1/images/C1L01-Vietnamese.jpg,,
+1,01,uncountable,Tea,,,C1L01-Tea.jpg,class1/images/C1L01-Tea.jpg,,
+1,01,uncountable,Rice,,,C1L01-Rice.jpg,class1/images/C1L01-Rice.jpg,,
+1,01,uncountable,Hair,,,C1L01-Hair.jpg,class1/images/C1L01-Hair.jpg,,
+1,01,uncountable,Sugar,,,C1L01-Sugar.jpg,class1/images/C1L01-Sugar.jpg,,
+1,01,uncountable,Salt,,,C1L01-Salt.jpg,class1/images/C1L01-Salt.jpg,,
+1,01,commonverb,See,,,C1L01-See.jpg,class1/images/C1L01-See.jpg,,
+1,01,commonverb,Watch,,,C1L01-Watch.jpg,class1/images/C1L01-Watch.jpg,,
+1,01,commonverb,Look At,,,C1L01-Look-At.jpg,class1/images/C1L01-Look-At.jpg,,
+1,01,commonverb,Look for,,,C1L01-Look-for.jpg,class1/images/C1L01-Look-for.jpg,,
+1,01,commonverb,Observe,,,C1L01-Observe.jpg,class1/images/C1L01-Observe.jpg,,
+1,01,commonverb,Buy,,,C1L01-Buy.jpg,class1/images/C1L01-Buy.jpg,,
+1,01,commonverb,Sell,,,C1L01-Sell.jpg,class1/images/C1L01-Sell.jpg,,
+1,01,commonverb,Hate,,,C1L01-Hate.jpg,class1/images/C1L01-Hate.jpg,,
+1,01,commonverb,Like,,,C1L01-Like.jpg,class1/images/C1L01-Like.jpg,,
+1,01,commonverb,Love,,,C1L01-Love.jpg,class1/images/C1L01-Love.jpg,,
+1,01,commonverb,Want,,,C1L01-Want.jpg,class1/images/C1L01-Want.jpg,,
+1,01,commonverb,Need,,,C1L01-Need.jpg,class1/images/C1L01-Need.jpg,,
+1,01,commonverb,Choose,,,C1L01-Choose.jpg,class1/images/C1L01-Choose.jpg,,
+2,02,vocabulary,Talking to unfriendly people,,,C2L02-Talking-to-unfriendly-people.jpg,class2/images/C2L02-Talking-to-unfriendly-people.jpg,,
+2,02,vocabulary,Arguing with overly emotional people,,,C2L02-Arguing-with-overly-emotional-people.jpg,class2/images/C2L02-Arguing-with-overly-emotional-people.jpg,,
+2,02,vocabulary,Getting up early in the morning,,,C2L02-Getting-up-early-in-the-morning.jpg,class2/images/C2L02-Getting-up-early-in-the-morning.jpg,,
+2,02,vocabulary,Doing homework,,,C2L02-Doing-homework.jpg,class2/images/C2L02-Doing-homework.jpg,,
+2,02,vocabulary,Doing housework,,,C2L02-Doing-housework.jpg,class2/images/C2L02-Doing-housework.jpg,,
+2,02,vocabulary,Being alone/ hungry/ sick,,,C2L02-Being-alone-hungry-sick.jpg,class2/images/C2L02-Being-alone-hungry-sick.jpg,,
+2,02,vocabulary,Being told “you are short”,,,C2L02-Being-told-you-are-short-.jpg,class2/images/C2L02-Being-told-you-are-short-.jpg,,
+2,02,vocabulary,Thinking about my ex,,,C2L02-Thinking-about-my-ex.jpg,class2/images/C2L02-Thinking-about-my-ex.jpg,,
+2,02,vocabulary,Riding my motorbike in the traffic jam,,,C2L02-Riding-my-motorbike-in-the-traffic-jam.jpg,class2/images/C2L02-Riding-my-motorbike-in-the-traffic-jam.jpg,,
+2,02,vocabulary,Loneliness,,,C2L02-Loneliness.jpg,class2/images/C2L02-Loneliness.jpg,,
+2,02,vocabulary,Hot weather,,,C2L02-Hot-weather.jpg,class2/images/C2L02-Hot-weather.jpg,,
+2,02,vocabulary,Dogs / cats / snakes,,,C2L02-Dogs-cats-snakes.jpg,class2/images/C2L02-Dogs-cats-snakes.jpg,,
+2,02,vocabulary,Racism,,,C2L02-Racism.jpg,class2/images/C2L02-Racism.jpg,,
+2,02,vocabulary,Sexism,,,C2L02-Sexism.jpg,class2/images/C2L02-Sexism.jpg,,
+2,02,vocabulary,Slow Internet Connection,,,C2L02-Slow-Internet-Connection.jpg,class2/images/C2L02-Slow-Internet-Connection.jpg,,
+2,02,vocabulary,Being early to the airport,,,,,,
+2,02,vocabulary,Arriving at the destination and realizing that you forgot something,,,,,,
+2,01,vocabulary,Playing football/ ping-pong/ badminton/ games/cards/chess,,,,,,
+2,01,vocabulary,Doing aerobics / yoga (aerobic/ yoga),,,,,,
+2,01,vocabulary,Working out at the gym,Tập luyện ở phòng gym,,,,,
+2,01,vocabulary,Going swimming/ shopping/ fishing/ jogging/ rollerblading / roller skating/ skateboarding,Bơi/ mua sắm/ câu cá/ đi bộ nhanh/ trượt pa tinh (4 bánh nhỏ mỗi bên 2 bánh)/ trượt pa tin (4 bánh nhỏ thành 1 hàng dọc)/ trượt pa tin ván,,,,,
+2,01,vocabulary,Going for a picnic / Going for a walk,Đi picnic/ đi bộ đi dạo,,,,,
+2,01,vocabulary,Reading books,Đọc sách,,,,,
+2,01,vocabulary,Surfing/ Kitesurfing/ Windsurfing,lướt ván / lướt ván diều kéo / trượt ván buồm,,,,,
+2,01,vocabulary,Hanging out + with my family/ my close friends/ by myself,Đi chơi với gia đình/ bạn thân/ một mình,,,,,
+2,01,vocabulary,Walking the dog/ Taking photos/ taking selfies,Dắt chó đi dạo/ chụp hình/ tự sướng,,,,,
+2,01,vocabulary,Riding a smart balance wheel/ ride a hoverboard,Ván trượt thông mình tự cân bằng,,,,,
+2,01,vocabulary,Drawing / painting,Vẽ / tô màu,,,,,
+2,01,vocabulary,Collecting stamps/ dolls/ coins,Thu thập tem/ búp bê/ đồng xu,,,,,
+2,01,vocabulary,Horse riding,Cưỡi ngựa,,,,,
+2,01,vocabulary,Bird watching,Ngắm chim,,,,,

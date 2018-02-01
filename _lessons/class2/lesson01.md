@@ -11,86 +11,12 @@ salestext: "Free full version (3 days left)"
 ## Vocabulary
 {% include player.html identifier="File1-Vocab" lesson="C2L01" file="C2L01-Native-Dialogue1.mp3" %}
 
-
-
-### 1. Playing football/ ping-pong/ badminton/ games/cards/chess 
-*(Đá banh/ bóng bàn/ cầu lông/ chơi game/ đánh bài/ chơi cờ)*
-{% include image.html class=2 lesson="01" name="Hobbies_1" %}
-
-
-### 2. Doing aerobics / yoga *(aerobic/ yoga)*
-{% include image.html class=2 lesson="01" name="Hobbies_2" %}
-
-
-
-### 3. Working out at the gym *(Tập luyện ở phòng gym)*
-{% include image.html class=2 lesson="01" name="Hobbies_3" %}
-
-
-
-### 4. Going swimming/ shopping/ fishing/ jogging/ rollerblading / roller skating/ skateboarding
-*(Bơi/ mua sắm/ câu cá/ đi bộ nhanh/ trượt pa tinh (4 bánh nhỏ mỗi bên 2 bánh)/ trượt pa tin (4 bánh nhỏ thành 1 hàng dọc)/ trượt pa tin ván)*
-
-{% include image.html class=2 lesson="01" name="Hobbies_4" %}
-
-
-### 5. Going for a picnic / Going for a walk.
-*(Đi picnic/ đi bộ đi dạo)*
-
-{% include image.html class=2 lesson="01" name="Hobbies_5" %}
-
-### 6. Reading books *(Đọc sách)*
-{% include image.html class=2 lesson="01" name="Hobbies_6" %}
-
-### 7. Surfing/ Kitesurfing/ Windsurfing
-*(lướt ván / lướt ván diều kéo / trượt ván buồm)*
-
-{% include image.html class=2 lesson="01" name="Hobbies_7" %}
-
-
-
-### 8. Hanging out + with my family/ my close friends/ by myself
-*(Đi chơi với gia đình/ bạn thân/ một mình)*
-
-{% include image.html class=2 lesson="01" name="Hobbies_8" %}
-
-
-
-
-
-### 9. Walking the dog/ Taking photos/ taking selfies
-*(Dắt chó đi dạo/ chụp hình/ tự sướng)*
-
-{% include image.html class=2 lesson="01" name="Hobbies_9" %}
-
-
-
-
-### 10. Riding a smart balance wheel/ ride a hoverboard
-*(Ván trượt thông mình tự cân bằng)*
-
-{% include image.html class=2 lesson="01" name="Hobbies_10" %}
-
-
-### 11. Drawing/ painting*(Vẽ/ tô màu)*
-{% include image.html class=2 lesson="01" name="Hobbies_11" %}
-
-
-
-### 12. Collecting stamps/ dolls/ coins
-*(Thu thập tem/ búp bê/ đồng xu)*
-
-{% include image.html class=2 lesson="01" name="Hobbies_12" %}
-
-
-
-### 13. Horse riding *(Cưỡi ngựa)*
-{% include image.html class=2 lesson="01" name="Hobbies_13" %}
-
- 
-
-### 14. Bird watching *(Ngắm chim)*
-{% include image.html class=2 lesson="01" name="Hobbies_14" %}
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 

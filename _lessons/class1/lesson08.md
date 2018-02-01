@@ -12,53 +12,33 @@ lesson: "08"
 
 ## Vocabulary
 
-{% include image.html class=1 lesson="08" name="Grid1" %}
-
-| **Safe** | **Dangerous**  | **Simple** | **Complicated** | 
-
-{% include image.html class=1 lesson="08" name="Grid2" %}
-
-| **Boring** | **Interesting**  | **Possible** | **Impossible** | 
-
-{% include image.html class=1 lesson="08" name="Grid3" %}
-
-| **Polite** | **Rude** | **Hard** | **easy** 
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
-
-
-
+## Explanation
 
 ## 1. It's easy to learn English
 
 {% include player.html identifier="lesson-explanation1" lesson="C1L08" file="C1L08-Explanation1.mp3" %}
 
-{% include image.html class=1 lesson="08" name="Grid4" %}
 
 1. **It's hard to learn Japanese** *Học tiếng Nhật khó*  
 2. **It's necessary to do a good job** *Làm tốt công việc thì cần thiết*
 3. **It isn't good to be lazy** *Lười thì không tốt*
 4. **It is wrong to go that way** *Đi đường đó là sai*
-
-{% include image.html class=1 lesson="08" name="Grid5" %}
-
-
 5. **It's important to have friends** *Có bạn bè thì quan trọng*
 6.  **It’s good for you to get up early in the morning** *Dậy sớm vào buổi sáng thì tốt*
 7. **It’s bad to smoke cigarettes** *Hút thuốc thì xấu*
 8. **It’s not easy to answer that question** **Trả lời câu hỏi đó thì không dễ*
-
-{% include image.html class=1 lesson="08" name="Grid6" %}
-
-
 9. **It’s amazing to travel around the world** *Đi du lịch vòng quanh thế giới thì tuyệt vời* 
 10. **It’s terrible to stay up late at night** *Thức khuya thì tệ*
 11. **It's hard to believe they could think about such a thing** *Thật khó để tin*
 12. **It's impossible to do it** *Làm điều đó là không thể nào*
-
-{% include image.html class=1 lesson="08" name="Grid7" %}
-
-
 13. **It's easy for him to answer the question** *Trả lời câu hỏi đó thì dễ cho anh ta*
 14. **It's smart of him to answer the question** *Anh ta thật thông minh khi trả lời cho hỏi đó*
 

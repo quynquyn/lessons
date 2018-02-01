@@ -12,42 +12,33 @@ lesson: "24"
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 ## Vocabulary 
 
+### Menu
+
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
-		section="vocabulary"
+		section="menu"
 		voiceover="vocabulary"
 		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
+		trial=site.trialdeploy %}    
 
+### Food
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="food"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}    
 
-### MENU
-**Appetizer/ starter**    
-**Main course**     
-**Desert**     
-
-### FOOD 
-**Rice**    
-**Sticky rice**    
-**Bread**   
-**Fish**   
-**Egg**   
-**Salad**   
-**Steak**   
-**Seafood (fish, shrimp, lobster, octopus)**   
-**Meat (Pork, Beef, Chicken)**   
-**Curries**  
-
-### TASTES: 
-**Sweet**     
-**Salty**    
-**Spicy**   
-**Sour**    
-**Crispy**     
-**Yummy /delicious/ tasty**    
-**Bitter**    
-**Great**    
-**Terrible**    
+### Tastes
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="tastes"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}     
 
 
 {% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}

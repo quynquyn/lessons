@@ -13,44 +13,40 @@ salestext: "Free full version (2 days left)"
 {% include player.html identifier="vocab-Verbs" lesson="C1L02" file="C1L02-Verbs.mp3" %}
 
 ### Eyes
-{% include image.html class=1 lesson="02" name="Eyes1_Grid" %}
-
-| Look at | Look for | Watch | See | Observe | Study | 
-
-{% include image.html class=1 lesson="02" name="Eyes2_Grid" %}
-
-| Learn | Review | Check | Cry | Sleep | Dream | 
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="eyes"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 ### Leg
-{% include image.html class=1 lesson="02" name="Leg1_Grid" %}
-
-| Chase | Kick | Climb | Leave | Move | Stand | Sit | 
-
-{% include image.html class=1 lesson="02" name="Leg2_Grid" %}
-
-| Lie  | Go  | Walk  | Run  | Dance  | 
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="leg"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 ### Mouth
-{% include image.html class=1 lesson="02" name="Mouth1_Grid" %}
-
-| Talk to | Talk about | Whisper | Interview | Eat | Drink | Lie to | 
-
-{% include image.html class=1 lesson="02" name="Mouth2_Grid" %}
-
-| Smile | Laugh | Ask | Answer | 
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="mouth"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 
 
 ### Hand
-{% include image.html class=1 lesson="02" name="Hand1_Grid" %}
-
-| Make / do | Paint/ draw | Hold / keep | Pull / Push | Use | Play | Throw | 
-
-{% include image.html class=1 lesson="02" name="Hand2_Grid" %}
-
-| Clean | Ride / drive | Swim | Choose | Work | 
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="hand"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 

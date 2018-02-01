@@ -28,17 +28,18 @@ lesson: "10"
 		class=page.class 
 		lesson=page.lesson 
 		section="foreducation"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
 
 #### For other purposes
-
 		
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
 		section="forotherpurposes"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 		

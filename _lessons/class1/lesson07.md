@@ -11,114 +11,12 @@ lesson: "07"
 
 ## Vocabulary
 
-
-
-{% include image.html class=1 lesson="07" name="Grid1" %}
-
-| **Beautiful** | **Cute**  | **Pretty** | **Handsome** | 
-|    |       |     |     | 
-
-
-{% include image.html class=1 lesson="07" name="Grid2" %}
-
-| **Attractive** | **Ugly** |  **Good-looking** | **Bad-looking** |
-|    |       |     |     | 
-
-{% include image.html class=1 lesson="07" name="Grid3" %}
-
-|  **Rich** | **Poor** | **Easy-going** | **Strict** | 
-|    |       |     |     | 
-
-{% include image.html class=1 lesson="07" name="Grid4" %}
-
-| **Tall** | **Short**  | **Slow**  | **Fast** | 
-|    |       |     |     | 
-
-{% include image.html class=1 lesson="07" name="Grid5" %}
-
-| **Hot** | **Cold**  | **Fat** | **Thin** | 
-|    |       |     |     | 
-
-{% include image.html class=1 lesson="07" name="Grid6" %}
- 
-| **Confident** | **Shy** | **Patient** | **Impatient** | 
-|    |       |     |     | 
- 
-{% include image.html class=1 lesson="07" name="Grid7" %}
- 
-| **Strong** | **Weak** | **Active** | **Passive** |
-|    |       |     |     | 
- 
-{% include image.html class=1 lesson="07" name="Grid8" %}
- 
-| **Talented** | **Untalented**  | **Important** | **Unimportant** |  
-|    |       |     |     | 
-
-{% include image.html class=1 lesson="07" name="Grid9" %}
-
-| **Untalented**  | **Useful**  | **Useless** | **Big >< Small** | 
-|    |       |     |     | 
-
-{% include image.html class=1 lesson="07" name="Grid10" %} 
-
-| **Lazy** | **Hard–working** | **Friendly**  | **Unfriendly** | 
-|    |       |     |     | 
-
-
-{% include image.html class=1 lesson="07" name="Grid11" %}
-
-| **Happy**  | **Sad** | **Stupid** | **Smart** |
-|    |       |     |     | 
-
-
-{% include image.html class=1 lesson="07" name="Grid12" %}
-
-| **Hungry** | **Full** | **Interesting** | **Boring** |  
-|    |       |     |     | 
-
-
-{% include image.html class=1 lesson="07" name="Grid13" %}
-
-| **Cheap** | **Expensive** | **Funny** | **Serious** |
-|    |       |     |     | 
-
-
-{% include image.html class=1 lesson="07" name="Grid14" %}
- 
-| **Easy** | **Difficult** | **Clean** | **Dirty** |  
-|    |       |     |     | 
-
-
-{% include image.html class=1 lesson="07" name="Grid15" %}
-
-| **Dangerous** | **Safe** | **Necessary** | **Unnecessary** |
-|    |       |     |     | 
-
-{% include image.html class=1 lesson="07" name="Grid16" %}
-
-| **Red** | **Yellow** | **Blue** | **Pink** |  
-|    |       |     |     | 
-
-{% include image.html class=1 lesson="07" name="Grid17" %}
-
-| **Black** | **White** | **Green** | **Purple** |
-|    |       |     |     | 
-
-{% include image.html class=1 lesson="07" name="Grid18" %} 
-
-| **Cloudy** | **Windy** | **Rainy** | **Sunny** | 
-|    |       |     |     | 
-
-{% include image.html class=1 lesson="07" name="Grid19" %} 
-
-| **Fantastic** | **Wonderful** | **Awesome** | **Great** |
-|    |       |     |     | 
-
-{% include image.html class=1 lesson="07" name="Grid20" %}
-
-| **Very** | **Extremely** | **Quite = Pretty** | **A little** | 
-|    |       |     |     | 
-
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 ## 1. Yes/ No Questions 

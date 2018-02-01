@@ -12,27 +12,20 @@ salestext: "Free full version (1 days left)"
 
 ### Verbs
 
-{% include image.html class=1 lesson="03" name="Verb1-Grid" %}
-
-| Cover | Wear | Put on | Take off | Shake  | Operate | Decorate | 
-
-
-
-{% include image.html class=1 lesson="03" name="Verb2-Grid" %}
-
-| Change | Write  | Buy | Sell  | Build | Touch | 
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="verbs"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 ### Nouns
-{% include play.html identifier="lesson-Verbs" lesson="C1L03" start=34 stop=666 %}
-
-{% include image.html class=1 lesson="03" name="Noun1-Grid" %}
-
-| Tree / flower | Mountain | River | Ocean / sea | Shirt / T - shirt | Skirt / dress | Trousers / Jeans | 
-
-{% include image.html class=1 lesson="03" name="Noun2-Grid" %}
-
-| Hat / Cap | Shoes | Football / tennis | Piano/ guitar  | People / things | Student / teacher  | 
-
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="nouns"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 
