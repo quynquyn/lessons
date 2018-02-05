@@ -2,6 +2,7 @@
 layout: lesson
 class: "2"
 lesson: "03"
+lang: pt
 salestext: "Free full version (1 days left)"
 ---
 

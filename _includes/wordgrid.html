@@ -29,7 +29,11 @@
   
   {% if include.trial and count > WORDS_IN_TRIAL %}
   {% else %}
-    <em>{{ word.word_vn }}</em>
+    {% if include.lang and include.lang == "pt" %}
+      <em>{{ word.word_pt }}</em>
+    {% else %}
+      <em>{{ word.word_vn }}</em>
+    {% endif %}
   {% endif %}
   
   

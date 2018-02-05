@@ -2,6 +2,7 @@
 layout: lesson
 class: "2"
 lesson: "05"
+lang: pt
 ---
 
 # Lesson 2.5: Family
@@ -20,6 +21,7 @@ lesson: "05"
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="job"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
@@ -33,6 +35,7 @@ lesson: "05"
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="father"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
@@ -43,6 +46,7 @@ lesson: "05"
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="parentsdo"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}

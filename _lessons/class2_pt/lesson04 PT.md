@@ -2,6 +2,7 @@
 layout: lesson
 class: "2"
 lesson: "04"
+lang: pt
 salestext: "Free full version (last day)"
 ---
 
@@ -19,6 +20,7 @@ salestext: "Free full version (last day)"
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="favoritekindofmovie"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
@@ -31,6 +33,7 @@ salestext: "Free full version (last day)"
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="movielike"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}

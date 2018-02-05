@@ -2,6 +2,7 @@
 layout: lesson
 class: "2"
 lesson: "06"
+lang: pt
 ---
 
 {% include player.html identifier="lesson-vocabulary" lesson="C2L06" file="C2L06-Vocabulary.mp3" %}
@@ -14,6 +15,7 @@ lesson: "06"
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="whatcanyoudothere"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
@@ -28,6 +30,7 @@ lesson: "06"
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="purpose"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
