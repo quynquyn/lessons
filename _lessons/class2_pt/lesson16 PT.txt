@@ -45,9 +45,9 @@ lesson: "16"
 ## 2. Explanation
 ### 1. After finding out about this, I realized that I need to talk to you straight away.
 {% include play.html identifier="explanation" start=4.63 stop=24.71 %}
-Sau khi phát hiện ra điều này, tôi nhận ra rằng tôi phải nói với bạn ngay
-.
-- **After finding out that Jane likes me, too, I asked her out.** *Sau khi nhận ra rằng Jane cũng thích tôi, tôi rủ cô ấy ra ngoài hẹn hò*
+Depois de descobrir isso, percebi que precisava falar com você imediatamente.
+- **After finding out that Jane likes me, too, I asked her out.** *
+Depois de descobrir que Jane também gosta de mim, eu perguntei ela por um encontro.*
 - **After finding out about how he feels, I became sad.** *Sau khi nhận ra anh ấy cảm thấy như thế nào, tôi trở nên buồn*
 - **After realizing that I didn't love her anymore, I decided to break up with her.** *Sau khi nhận ra rằng tôi không yêu cô ấy nữa, tôi quyết định chia tay với cô ấy*
 
