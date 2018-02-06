@@ -15,6 +15,7 @@ lang: pt
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="workingcondition"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
@@ -26,6 +27,7 @@ lang: pt
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="describingyourjob"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}

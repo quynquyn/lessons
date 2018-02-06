@@ -15,6 +15,7 @@ lang: pt
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="personality"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}

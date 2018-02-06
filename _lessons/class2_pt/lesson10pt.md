@@ -18,6 +18,7 @@ lang: pt
 {% include wordgrid.html   
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="forfun"
 		voiceover="vocabulary"
 		database=site.data.vocabulary 
@@ -28,6 +29,7 @@ lang: pt
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="foreducation"
 		voiceover="vocabulary"
 		database=site.data.vocabulary 
@@ -39,6 +41,7 @@ lang: pt
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="forotherpurposes"
 		voiceover="vocabulary"
 		database=site.data.vocabulary 

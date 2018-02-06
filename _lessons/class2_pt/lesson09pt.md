@@ -20,6 +20,7 @@ test1: ### Have you ever - *TODO*
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="items"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
@@ -30,6 +31,7 @@ test1: ### Have you ever - *TODO*
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="styles"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
@@ -40,7 +42,8 @@ test1: ### Have you ever - *TODO*
 
 {% include wordgrid.html 
 		class=page.class 
-		lesson=page.lesson 
+		lesson=page.lesson
+		lang=page.lang 
 		section="shoppingplaces"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
@@ -50,6 +53,7 @@ test1: ### Have you ever - *TODO*
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="haveyouever"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}

@@ -16,6 +16,7 @@ lang: pt
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="love"
 		voiceover="vocabulary"
 		database=site.data.vocabulary 

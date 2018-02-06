@@ -14,6 +14,7 @@ lang: pt
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
@@ -24,6 +25,7 @@ lang: pt
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="age"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
@@ -38,6 +40,7 @@ lang: pt
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="build"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
@@ -49,6 +52,7 @@ lang: pt
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="height"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
@@ -59,6 +63,7 @@ lang: pt
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="face"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
@@ -69,6 +74,7 @@ lang: pt
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="lips"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
@@ -80,6 +86,7 @@ lang: pt
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="skin"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
@@ -91,6 +98,7 @@ lang: pt
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="nose"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
@@ -101,6 +109,7 @@ lang: pt
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		lang=page.lang
 		section="eyebrows"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
