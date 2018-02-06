@@ -46,6 +46,7 @@ lesson: "18"
 
 
 ### 1. I hope I am not boring you with my life story.
+{% include play.html identifier="explanation" start=3.17 stop=17.94 %} 
 - **John thinks he's boring, but I find him to be interesting.**
 - **There is nothing more boring than a bad story.**
 - **I can help the fact that I think Harry Potter is boring.**

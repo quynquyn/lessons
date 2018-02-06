@@ -59,6 +59,7 @@ lesson: "19"
 
 ## Explanation
 ### 1. If I get hungry, will you bring me something to eat?**
+{% include play.html identifier="explanation" start=3.96 stop=25.39 %} 
 - **Today's lesson bores me to tears! If the bell doesn't ring soon, I will leave.**
 - **If I buy Chris a new phone, he will start crying with joy.**
 - **I am so fed up with my children fighting! If they don't stop, I will go crazy.** 

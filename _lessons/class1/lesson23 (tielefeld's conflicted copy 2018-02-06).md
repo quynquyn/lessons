@@ -24,7 +24,7 @@ lesson: "23"
 		
 **I GET THERE** 
 
-- **By car / bus / train/ plane** 
+- **By car / bus / train / plane** 
 - **On foot**    
 
 **MAKE YOUR MOTHER SMILE BY**    
@@ -50,7 +50,7 @@ lesson: "23"
 
 **RELEASE STRESS BY**
 
-- **Doing yoga / meditation**
+- **Doing yoga/ meditation**
 - **Listening to music**
 - **Hanging out with friends**
 - **Playing sports** 

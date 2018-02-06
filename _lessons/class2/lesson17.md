@@ -71,7 +71,7 @@ lesson: "17"
 
 ### 1. Did you prepare for this week's exam?
 
-{% include play.html identifier="explanation" start=3.33 stop=18.02 %} 
+{% include play.html identifier="explanation" start=3.56 stop=18.19 %} 
 
 - **Did you practice mathematics?**
 - **Did you know the assignment the professor gave us last week?**
@@ -84,26 +84,26 @@ lesson: "17"
 
 
 ### 2. Despite studying math for 3 years, I'm considering switching to English.
-
+{% include play.html identifier="explanation" start=24.02 stop=27.44 %} 
 
 - **Despite the low salary, he enjoys his job!**
 - **Despite the ringing alarm at 6 AM, I still couldn't wake up in time.**
 - **Despite the time I spent studying, I don't remember a thing!**
 
 ### 3. Although I really like our Physics teacher, I don't like Physics.
-
+{% include play.html identifier="explanation" start=24.02 stop=27.44 %} 
 - **Although the class lasted three hours, I didn't learn a thing.**
 - **Even though I had a really hard time during the exam, I passed!**
 - **Although my hand hurt, I still finished the essay.**
 
 ### 4. Despite the fact that I am not a native English speaker, I speak English fluently.
-
+{% include play.html identifier="explanation" start=24.02 stop=27.44 %} 
 - **In spite of the fact that my parents weren't supportive, I got a degree in English.**
 - **Despite the bad weather, we went outside to prepare for PE.**
 - **In spite of the fact that I am tired, I will keep studying until I learn.**
 
 ### 5. Latin is my favourite subject.
-
+{% include play.html identifier="explanation" start=24.02 stop=27.44 %} 
 - **I love learning English. It's such an interesting language.**
 - **I hope I ace my Psychology exam, even though I hate Psychology.**
 - **Sociology is such a boring subject, but the professor who teaches it is interesting.**

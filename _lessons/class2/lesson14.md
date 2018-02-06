@@ -117,7 +117,7 @@ Cô ta là người hài hước nhất mà tôi từng biết
 Theo bạn nghĩ điều gì là quan trọng nhất trong tình bạn?
 
 
-- **What do you think is the most important thing in a job?.** *Theo bạn nghĩ điều gì là quan trọng nhất trong công việc?*
+- **What do you think is the most important thing in a job?** *Theo bạn nghĩ điều gì là quan trọng nhất trong công việc?*
 - **What do you think is the most important thing in a marriage?** *Theo bạn nghĩ điều gì là quan trọng nhất trong hôn nhân?*
 - **What do you think is the most essential factor in his success?** *Theo bạn nghĩ điều gì là yếu tố quan trọng nhất trong sự thành công của anh ta?*
 
