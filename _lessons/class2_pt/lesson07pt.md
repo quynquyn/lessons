@@ -2,6 +2,7 @@
 layout: lesson
 class: "2"
 lesson: "07"
+lang: pt
 ---
 
 # Lesson 2.7: Dream jobs

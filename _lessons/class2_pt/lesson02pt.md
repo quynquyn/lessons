@@ -2,6 +2,7 @@
 layout: lesson
 class: "2"
 lesson: "02"
+lang: pt
 salestext: "Free full version (2 days left)"
 ---
 
@@ -76,21 +77,21 @@ salestext: "Free full version (2 days left)"
 
 ### Person 1: Talking to unfriendly people drives me crazy.
 
-*Nói chuyện với những người thân thiện khiến tôi phát điên lên*
+*Falar com pessoas hostis me deixa louco.*
 
 **It drives me crazy / it gets on my nerves**
 
--  **Racism drives me crazy.** *Nạn phân biệt chủng tộc khiến tôi nổi điên lên*
--  **Getting stuck in the traffic jam drives me crazy.** *Bị kẹt xe khiến tôi nổi đóa*
--  **Doing homework every day drives me crazy.** *Làm bài tập về nhà mỗi ngày khiến tôi nổi điên*
--  **Being told that I am fat gets on my nerves.** *Bị nói rằng tôi mập khiến tôi nổi đóa*
--  **Slow internet connection drives me crazy.** *Mạng Internet chậm khiến nôi tức giận*
+-  **Racism drives me crazy.** *O racismo me deixa louco.*
+-  **Getting stuck in the traffic jam drives me crazy.** *Estar preso no engarrafamento me deixa louco.*
+-  **Doing homework every day drives me crazy.** *Fazer o dever de casa todos os dias me deixa louco.*
+-  **Being told that I am fat gets on my nerves.** *Ser dito que eu sou gordo me irrita.*
+-  **Slow internet connection drives me crazy.** *Conexão de internet lento me deixa louco.*
 
 ### Person 2: Definitely
 
-*Chắc chắn rồi*
+*Definitivamente*
 
-- **absolutely** *Đương nhiên rồi*
-- **of course** *Chắc chắn rồi*
-- **sure** *Chắc chắn*
+- **absolutely** *absolutamente*
+- **of course** *claro / naturalmente*
+- **sure** *certo*
 
