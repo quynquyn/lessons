@@ -10,52 +10,37 @@ salestext: "Free full version (2 days left)"
 
 ## Vocabulary
 {% include player.html identifier="File1-Vocab" lesson="C2L01" file="C2L02-Native-Dialogue1.mp3" %}
-
-
-1. **Talking to unfriendly people** *Nói chuyện với người không thân thiện*
-2. **Arguing with overly emotional people** *Cãi nhau với người thái quá cảm xúc* 
-3. **Getting up early in the morning** *Thức dậy sớm*
-4. **Doing homework** *Làm bài tập về nhà*
-5. **Doing housework** *Làm việc nhà*
-	- **Washing dishes** *Rửa bát đĩa*
-	- **Washing clothes** *Giặt quần áo*
-	- **Doing laundry** *Giặt ủi*
-	- **Cleaning the house** *Lau chùi nhà cửa*
-6. **Being alone/ hungry/ sick** *Cô đơn / Đói bụng/ Bị ốm*
-7. **Being told "you are short"** *Bị nói rằng "bạn lùn"*
-8. **Thinking about my ex** *Nghĩ về người yêu cũ*
-9. **Riding my motorbike in the traffic jam** *Lái xe trong sự kẹt xe*
-10. **Loneliness** *Sự cô đơn*
-11. **Hot weather** *Thời tiết nóng*
-12. **Dogs / cats / snakes** *Chó / mèo / rắn*
-13. **Racism** *Nạn phân biệt chủng tộc*
-14. **Sexism** *Sự phân biệt giới tính*
-15. **Slow Internet Connection** *Mạng Internet chậm*
-16. **Being early to the airport** *Tới sân bay sớm*
-17. **Arriving at the destination and realizing that you forgot something** *Tới điểm đến và nhận ra rằng bạn quên gì đó*
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}
 
 
 ## Dialogue
 {% include player.html identifier="File1-Dialogue" lesson="C2L01" file="C2L02-Native-Dialogue2.mp3" %}
 
-> Person 1: **Why do you look so annoyed?**
+
+> {% include play.html identifier="File1-Dialogue" start=0.54 stop=2.58 %}Person 1: **Why do you look so annoyed?**
 > 
-> Person 2: **I am cleaning the house now and I hate doing housework.**
+> {% include play.html identifier="File1-Dialogue" start=2.58 stop=5.96 %}Person 2: **I am cleaning the house now and I hate doing housework.**
 > 
-> Person 1: **What else do you hate?**
+> {% include play.html identifier="File1-Dialogue" start=5.96 stop=7.33 %}Person 1: **What else do you hate?**
 > 
-> Person 2: **Talking to unfriendly people drives me crazy.**
+> {% include play.html identifier="File1-Dialogue" start=7.33 stop=10.47 %}Person 2: **Talking to unfriendly people drives me crazy.**
 > 
-> Person 1: **Do you hate getting up early in the morning?**
+> {% include play.html identifier="File1-Dialogue" start=10.47 stop=12.89 %}Person 1: **Do you hate getting up early in the morning?**
 > 
-> Person 2: **No, I don’t hate getting up early in the morning. How about you?**
+> {% include play.html identifier="File1-Dialogue" start=12.89 stop=16.41 %}Person 2: **No, I don’t hate getting up early in the morning. How about you?**
 > 
-> Person 1: **Definitely. Getting up early in the morning really gets on my nerves.**
+> {% include play.html identifier="File1-Dialogue" start=16.41 stop=20.76 %}Person 1: **Definitely. Getting up early in the morning really gets on my nerves.**
 
 
 {% include player.html identifier="File1-Explain" lesson="C2L01" file="C2L02-Native-Dialogue2.mp3" %}
 
 ### Person 1: Why do you look so annoyed?
+{% include play.html identifier="File1-Explain" start=0.02 stop=12.10 %}
 
 **Why do you look…?** *Sao trông bạn khó chịu thế?*
 
@@ -64,7 +49,7 @@ salestext: "Free full version (2 days left)"
 - **Why do you look so happy today?**  *Sao hôm nay trông bạn vui vẻ vậy?*
 
 ### Person 2: I hate doing housework.
-
+{% include play.html identifier="File1-Explain" start=13.79 stop=39.60 %}
 *Tôi ghét làm việc nhà*
 
 **I hate / I am sick of / I am tired of / I can’t stand it**
@@ -75,7 +60,7 @@ salestext: "Free full version (2 days left)"
 - **I can’t stand sexism.** *Tôi không chịu được sự phân biệt giới tính*
 
 ### Person 1: Talking to unfriendly people drives me crazy.
-
+{% include play.html identifier="File1-Explain" start=41.64 stop=65.22 %}
 *Nói chuyện với những người thân thiện khiến tôi phát điên lên*
 
 **It drives me crazy / it gets on my nerves**
@@ -87,7 +72,7 @@ salestext: "Free full version (2 days left)"
 -  **Slow internet connection drives me crazy.** *Mạng Internet chậm khiến nôi tức giận*
 
 ### Person 2: Definitely
-
+{% include play.html identifier="File1-Explain" start=66.88 stop=73.75 %}
 *Chắc chắn rồi*
 
 - **absolutely** *Đương nhiên rồi*
