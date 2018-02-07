@@ -6,7 +6,7 @@ lesson: "05"
 
 # Lesson 2.5: Family
 
-{% include player.html identifier="lesson-vocabulary" lesson="C2L05" file="C2L05-Vocabulary.mp3" %}
+{% include player.html identifier="vocabulary" lesson="C2L05" file="C2L05-Vocabulary.mp3" %}
 
 
 
@@ -21,7 +21,7 @@ lesson: "05"
 		class=page.class 
 		lesson=page.lesson 
 		section="job"
-		voiceover="Vocabulary"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -35,7 +35,7 @@ lesson: "05"
 		class=page.class 
 		lesson=page.lesson 
 		section="father"
-		voiceover="Vocabulary"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -46,7 +46,7 @@ lesson: "05"
 		class=page.class 
 		lesson=page.lesson 
 		section="parentsdo"
-		voiceover="Vocabulary"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 

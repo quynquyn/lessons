@@ -40,17 +40,17 @@ lesson: "06"
 ## Conversation
 
 
-> {% include play.html identifier="conversation" start=0.0 stop=2.01 %}Person 1: **Did you pack everything you need?**  
-> {% include play.html identifier="conversation" start=2.01  stop=5.35 %}Person 2: **Uh-huh. I just need to buy a travel pillow at the airport.**  
-> {% include play.html identifier="conversation" start=5.35 stop=11.36 %}P1: **So, this is your first overseas trip and your first flight! Are you nervous?**  
-> {% include play.html identifier="conversation" start=11.36 stop=12.48 %}P2: **Not at all**  
-> {% include play.html identifier="conversation" start=12.48 stop=16 %}P1: **Remember, you’re not allowed to take liquids on the plane.**  
-> {% include play.html identifier="conversation" start=16 stop=19.38 %}P2: **Really? OK. I hope I didn’t forget anything**  
-> {% include play.html identifier="conversation" start=19.38 stop=21.28 %}P1: **You must take your passport!**  
-> {% include play.html identifier="conversation" start=21.28 stop=24.28 %}P2: **Oh, of course. Thank you**  
-> {% include play.html identifier="conversation" start=24.28 stop=28.53 %}P1: **You travel a lot. Why do you love traveling so much?**  
-> {% include play.html identifier="conversation" start=28.53 stop=40.09 %}P2: **It’s an interesting way to know more about new cultures and explore new places. I love to go sightseeing and enjoy the beauty of the landscape. It’s also the best way to find a quiet place to avoid the noise of the city**  
-> {% include play.html identifier="conversation" start=40.09 stop=44.41 %}P1: **That sounds amazing. I hope you have a nice flight**  
+> {% include play.html identifier="lesson-conversation" start=0.01 stop=2.01 %}Person 1: **Did you pack everything you need?**  
+> {% include play.html identifier="lesson-conversation" start=2.01  stop=5.35 %}Person 2: **Uh-huh. I just need to buy a travel pillow at the airport.**  
+> {% include play.html identifier="lesson-conversation" start=5.35 stop=11.36 %}P1: **So, this is your first overseas trip and your first flight! Are you nervous?**  
+> {% include play.html identifier="lesson-conversation" start=11.36 stop=12.48 %}P2: **Not at all**  
+> {% include play.html identifier="lesson-conversation" start=12.48 stop=16 %}P1: **Remember, you’re not allowed to take liquids on the plane.**  
+> {% include play.html identifier="lesson-conversation" start=16 stop=19.38 %}P2: **Really? OK. I hope I didn’t forget anything**  
+> {% include play.html identifier="lesson-conversation" start=19.38 stop=21.28 %}P1: **You must take your passport!**  
+> {% include play.html identifier="lesson-conversationn" start=21.28 stop=24.28 %}P2: **Oh, of course. Thank you**  
+> {% include play.html identifier="lesson-conversation" start=24.28 stop=28.53 %}P1: **You travel a lot. Why do you love traveling so much?**  
+> {% include play.html identifier="lesson-conversation" start=28.53 stop=40.09 %}P2: **It’s an interesting way to know more about new cultures and explore new places. I love to go sightseeing and enjoy the beauty of the landscape. It’s also the best way to find a quiet place to avoid the noise of the city**  
+> {% include play.html identifier="lesson-conversation" start=40.09 stop=44.41 %}P1: **That sounds amazing. I hope you have a nice flight**  
 
 
 {% include player.html identifier="explanation" lesson="C2L06" file="C2L06-Explanation.mp3" %}
