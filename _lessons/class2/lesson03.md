@@ -7,7 +7,7 @@ salestext: "Free full version (1 days left)"
 
 
 # Lesson 2.3: Daily Routine 
-{% include player.html identifier="lesson-vocabulary" lesson="C2L03" file="C2L03-Native-Dialogue1.mp3" %}
+{% include player.html identifier="vocabulary" lesson="C2L03" file="C2L03-Native-Dialogue1.mp3" %}
 
 
 ## Vocabulary

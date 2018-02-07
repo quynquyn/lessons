@@ -53,7 +53,7 @@ lesson: "06"
 > {% include play.html identifier="conversation" start=40.09 stop=44.41 %}P1: **That sounds amazing. I hope you have a nice flight**  
 
 
-{% include player.html identifier="lesson-explanation" lesson="C2L06" file="C2L06-Explanation.mp3" %}
+{% include player.html identifier="explanation" lesson="C2L06" file="C2L06-Explanation.mp3" %}
 ## Explanation
 
 

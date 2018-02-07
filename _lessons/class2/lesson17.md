@@ -74,7 +74,7 @@ lesson: "17"
 {% include play.html identifier="explanation" start=3.56 stop=18.19 %} 
 
 - **Did you practice mathematics?**
-- **Did you know the assignment the professor gave us last week?**
+- **Did you understand the assignment the professor gave us last week?**
 - **Did you study for the exam in English? They say it's quite difficult.**
 
 
@@ -87,10 +87,10 @@ lesson: "17"
 {% include play.html identifier="explanation" start=24.02 stop=27.44 %} 
 
 - **Despite the low salary, he enjoys his job!**
-- **Despite the ringing alarm at 6 AM, I still couldn't wake up in time.**
+- **Despite the alarm ringing at 6 AM, I still couldn't wake up in time.**
 - **Despite the time I spent studying, I don't remember a thing!**
 
-### 3. Although I really like our Physics teacher, I don't like Physics.
+### 3. Although I really like our physics teacher, I don't like physics.
 {% include play.html identifier="explanation" start=24.02 stop=27.44 %} 
 - **Although the class lasted three hours, I didn't learn a thing.**
 - **Even though I had a really hard time during the exam, I passed!**
@@ -99,26 +99,26 @@ lesson: "17"
 ### 4. Despite the fact that I am not a native English speaker, I speak English fluently.
 {% include play.html identifier="explanation" start=24.02 stop=27.44 %} 
 - **In spite of the fact that my parents weren't supportive, I got a degree in English.**
-- **Despite the bad weather, we went outside to prepare for PE.**
-- **In spite of the fact that I am tired, I will keep studying until I learn.**
+- **Despite the bad weather, we went outside for PE.**
+- **In spite of the fact that I am tired, I will keep studying until I’ve learned.**
 
-### 5. Latin is my favourite subject.
+### 5. Latin is my favorite subject.
 {% include play.html identifier="explanation" start=24.02 stop=27.44 %} 
 - **I love learning English. It's such an interesting language.**
-- **I hope I ace my Psychology exam, even though I hate Psychology.**
+- **I hope I ace my psychology exam, even though I hate psychology.**
 - **Sociology is such a boring subject, but the professor who teaches it is interesting.**
 
 ## More examples 
-1.**I love literature. There are so many different stories out there.**  
-2.**Chemistry and Biology are very related sciences.**  
-3.**What is your favourite subject?**  
-4.**Which university do you go to?**  
-5.**I love learning more about Statistics because I'm really good with numbers.**  
-6.**You will see the world differently when you study Economics.**  
-7.**I'm good in PE because I'm very flexible.**  
-8.**Although I really like Geography, History is my favourite subject.**  
-9.**Do you know when the first computer was created?**  
-10.**Despite already having two degrees, she told me she wants to get a third.**  
+1. **I love literature. There are so many different stories out there.**  
+2. **Chemistry and biology are related sciences.**  
+3. **What is your favorite subject?**  
+4. **Which university do you go to?**  
+5. **I love learning more about statistics because I'm really good with numbers.**  
+6. **You will see the world differently when you study economics.**  
+7. **I'm good at PE because I'm very flexible.**  
+8. **Although I really like geography, history is my favorite subject.**  
+9. **Do you know when the first computer was built?**  
+10. **Despite already having two degrees, she told me she wants to get a third.**  
 
 
   {% endif %}

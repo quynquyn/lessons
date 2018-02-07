@@ -12,7 +12,7 @@ salestext: "Free full version (2 days left)"
 {% include player.html identifier="File1-Vocab" lesson="C2L01" file="C2L02-Native-Dialogue1.mp3" %}
 
 
-1. **Talking to unfriendly people** *Nói chuyện với người không thân thiện *
+1. **Talking to unfriendly people** *Nói chuyện với người không thân thiện*
 2. **Arguing with overly emotional people** *Cãi nhau với người thái quá cảm xúc* 
 3. **Getting up early in the morning** *Thức dậy sớm*
 4. **Doing homework** *Làm bài tập về nhà*
@@ -20,7 +20,7 @@ salestext: "Free full version (2 days left)"
 	- **Washing dishes** *Rửa bát đĩa*
 	- **Washing clothes** *Giặt quần áo*
 	- **Doing laundry** *Giặt ủi*
-	- **Cleaning the house** *Lau chùi nhà cửa *
+	- **Cleaning the house** *Lau chùi nhà cửa*
 6. **Being alone/ hungry/ sick** *Cô đơn / Đói bụng/ Bị ốm*
 7. **Being told "you are short"** *Bị nói rằng "bạn lùn"*
 8. **Thinking about my ex** *Nghĩ về người yêu cũ*

@@ -25,8 +25,8 @@ lesson: "18"
 
 ## Conversation
 
-> {% include play.html identifier="conversation" start=2.12 stop=4.64 %} Person 1: **Oh my god, I am so bored.**    
-> {% include play.html identifier="conversation" start=4.64 stop=8.26 %} Person 2: **Turn on the TV. I'm sure there is something on that isn't boring.**        
+> {% include play.html identifier="conversation" start=2.12 stop=4.64 %} Person 1: **Oh my god, I am so bored!**    
+> {% include play.html identifier="conversation" start=4.64 stop=8.26 %} Person 2: **Turn on the TV! I'm sure there is something on that isn't boring.**        
 > {% include play.html identifier="conversation" start=8.26 stop=12.21 %} P1: **I already checked. There are only reruns of the shows I saw yesterday.**  
 > {% include play.html identifier="conversation" start=12.21 stop=15.68 %} P2: **Why don't you read a nice book then? I'm sure you won't be bored then.**  
 > {% include play.html identifier="conversation" start=15.68 stop=17.66 %} P1: **Which book did you have in mind?**   
@@ -46,10 +46,11 @@ lesson: "18"
 
 
 ### 1. I hope I am not boring you with my life story.
-{% include play.html identifier="explanation" start=3.17 stop=17.94 %} 
+{% include play.html identifier="explanations" start=3.17 stop=17.94 %} 
+
 - **John thinks he's boring, but I find him to be interesting.**
 - **There is nothing more boring than a bad story.**
-- **I can help the fact that I think Harry Potter is boring.**
+- **I can’t help the fact that I think Harry Potter is boring.**
 
 
 {% if site.trialdeploy %}
@@ -58,6 +59,8 @@ lesson: "18"
 
 
 ### 2. I'm very bored by classical music. I prefer rock music instead.
+
+
 - **Anne said she is bored of her job and that she is thinking about looking for a new one.**
 - **Christopher is bored with eating out all the time.**
 - **I am so bored of these songs on the radio. They make me angry.**
@@ -65,9 +68,10 @@ lesson: "18"
 ### 3. I feel loved by my wife and children.
 - **I feel appreciated and valued in my school.**
 - **I feel like I'm going to be sick.**
-- **I feel the warmth of the Sun on my skin.**
+- **I feel the warmth of the sun on my skin.**
 
-### 4. Reading non-fiction makes me happy
+### 4. Reading non-fiction makes me happy.
+
 **Verb + ing can be used in the same way as a noun**
 
 - **I don't want to hang out with Steven. Seeing him is the last thing I want to do.**
@@ -75,6 +79,8 @@ lesson: "18"
 - **Thinking about Robert makes me smile.**
 
 ### 5. I hate it when people talk to me on the bus.
+
+
 - **I dislike being interrupted while I'm speaking.**
 - **I don't appreciate it when Robert takes my phone without asking first.**
 - **I despise people who cheat on exams because that is immoral.**
@@ -82,15 +88,15 @@ lesson: "18"
 
 ## More explanations
 
-1.**I fear it is too late for you to start preparing for the exam.**  
-2.**Reading the latest news makes me sad. There is so much tragedy in the world.**  
-3.**My daughter bought me a birthday gift. I was really surprised!**  
-4.**I trust that everything will go according to plan.**  
-5.**I anticipate good results from my doctor. I've really been watching my diet.**  
-6.**I am very joyful about the fact that my son is getting married.**  
-7.**I'm ashamed that I didn't teach my daughter how to tie her shoelaces before she was 39.**  
-8.**I hate vanilla. It's such a boring flavour. I prefer chocolate.**  
-9.**If you like Christina, you should make the first move. She's very shy.**  
-10.**Don't be modest, have a piece of cake! I made it myself.**  
+1. **I fear it is too late for you to start preparing for the exam.**  
+2. **Reading the latest news makes me sad. There is so much tragedy in the world.**  
+3. **My daughter bought me a birthday gift. I was really surprised!**  
+4. **I trust that everything will go according to plan.**  
+5. **I anticipate good results from my doctor. I've really been watching my diet.**  
+6. **I am very joyful about the fact that my son is getting married.**  
+7. **I'm ashamed that I didn't teach my daughter how to tie her shoelaces before she was five.**  
+8. **I hate vanilla. It's such a boring flavor. I prefer chocolate.**  
+9. **If you like Christina, you should make the first move. She's very shy.**  
+10. **Don't be modest, have another piece of cake! I made it myself.**  
  
 	{% endif %}

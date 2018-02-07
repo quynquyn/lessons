@@ -58,8 +58,10 @@ lesson: "19"
 {% include player2.html identifier="explanation" class=page.class lesson=page.lesson %}
 
 ## Explanation
-### 1. If I get hungry, will you bring me something to eat?**
+### 1. If I get hungry, will you bring me something to eat?
 {% include play.html identifier="explanation" start=3.96 stop=25.39 %} 
+
+
 - **Today's lesson bores me to tears! If the bell doesn't ring soon, I will leave.**
 - **If I buy Chris a new phone, he will start crying with joy.**
 - **I am so fed up with my children fighting! If they don't stop, I will go crazy.** 
@@ -71,6 +73,8 @@ lesson: "19"
 
 
 ### 2. Congratulations! You won the lottery!
+
+
 - **Good job for doing your homework in time. I never thought I'd see that happen.**
 - **If Bobby doesn't pass this exam, I'll feel very sorry for him.**
 - **If you keep your chin up, you will feel better.**
@@ -86,8 +90,9 @@ lesson: "19"
 - **Why are you building a house? If you win the lottery, you can just buy one.**
 
 ### 5. I'm still on the fence about John. If he visits, I will consider him a friend.
+
 - **Joe's parents keep giving him money but he takes them for granted. He doesn't appreciate them.**
-- **If he stops being so rude, I will give him a piece of my mind.**
+- **If he doesn’t stop being so rude, I will give him a piece of my mind.**
 - **I will be heartbroken if he doesn't ask me out.**
 
 ## More Examples
@@ -96,7 +101,7 @@ lesson: "19"
 2. **If something bores you to tears, leave!**
 3. **If I see a spider in this house, it will make my skin crawl.**
 4. **When I saw my daughter perform, my heart swelled with pride.**
-5. **I'm so hungry, I could eat a horse! If we don't eat soon, I will stave.**
+5. **I'm so hungry, I could eat a horse! If we don't eat soon, I will starve.**
 6. **I feel like I need to let off some steam after talking to that annoying woman.**
 7. **I'm so sorry to hear that. If there is any way I can help you, let me know.**
 8. **It will be such a pity if you miss the movie.**
