@@ -58,10 +58,11 @@ lesson: "20"
 
 ## Explanation
 ### 1. Did you do a lot of physical activity yesterday?
-Hôm qua bạn có tập thể dục nhiểu không?
-- **You need to do more exercise.** *Bạn cần tập thể dục nhiều hơn*
-- **She told me she only works out once a month.** *Cô ta nói với tôi rằng cô ta chỉ tập thể dục một tháng một lần*
-- **Get plenty of exercise every week if you want a healthy body.** *Hãy tập thể dục nhiều mỗi tuần nếu bạn muốn một cơ thể khỏe mạnh*
+Você fez muitas atividades físicas ontem?
+
+- **You need to do more exercise.** *Você precisa fazer mais exercício.*
+- **She told me she only works out once a month.** *Ela me disse que só se exercita uma vez por mês.*
+- **Get plenty of exercise every week if you want a healthy body.** *Faça muito exercício cada semana, se você quer um corpo saudável.*
 
 {% if site.trialdeploy %}
   {% include list_placeholder.html start=3 stop=6 %}
@@ -70,13 +71,14 @@ Hôm qua bạn có tập thể dục nhiểu không?
 
 
 ### 2. You should eat more vegetables and fruits if you want to stay healthy. 
-Bạn nên ăn nhiều rau và trái cây nếu bạn muốn khỏe mạnh 
-- **Sherry should stop eating all that junk food. She's pregnant after all.** *Sherry nên dừng việc ăn tất cả những thức ăn vặt đó. Cô ta đang mang bầu mà*
-- **You should sit straight. Your posture is really bad. You'll regret it when you're older.** *Bạn nên ngồi thẳng. Tư thế của bạn đang rất là xấu. Bạn sẽ hối hận điều này khi bạn già đi*
-- **You should stop drinking so much. Instead, maybe you should drink a healthy juice.** *Bạn nên dừng uống bia nhiều như vậy. Thay vì vậy, bạn có thể hãy uống nước ép tốt cho sức khỏe*
+Você deve comer mais legumes e frutas se quiser ficar saudável.
+ 
+- **Sherry should stop eating all that junk food. She's pregnant after all.** *Sherry deve parar de comer toda essa comida não saudável. Ela está grávida depois de tudo.*
+- **You should sit straight. Your posture is really bad. You'll regret it when you're older.** *Você deve se sentar ereto. Sua postura é realmente ruim. Você vai se arrepender quando você for mais velho.*
+- **You should stop drinking so much. Instead, maybe you should drink a healthy juice.** *Você deve parar de beber tanto. Em vez disso, talvez você devesse beber um suco saudável.*
 
 ### 3. I got more than 8 hours of sleep last night. 
-Tôi có hơn 8 tiếng để ngủ tối qua 
+Eu obtive mais de 8 horas de sono na noite passada. 
 
 - **I got only 4 hours of sleep last night because my sister kept snoring.** *Tôi chỉ có 4 tiếng để ngủ tối qua vì chị của tôi cứ ngáy* 
 - **I slept for only 2 hours last night because it was too hot in the house.** *Tôi chỉ có 4 tiếng để ngủ tối qua vì trong nhà quá nóng*

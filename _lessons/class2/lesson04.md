@@ -41,28 +41,28 @@ salestext: "Free full version (last day)"
 {% include player.html identifier="lesson-dialogue" lesson="C2L04" file="C2L04-Native-Dialogue2.mp3" %}
 
 
-> Person 1: **The early show of “Dangerous City” is sold out**  
-> Person 2: **What are we gonna do now?**  
-> P1: **Well, let’s see .. maybe we should wait for the next show**  
-> P2: **I can’t. I am meeting Olivia tonight. We are going to a new restaurant together**  
-> P1: **Ok, why don’t we see "Beyond Everest". It’s a new action adventure movie. It’s based on a true story**  
-> P2: **Nah, I get tired of just looking at all that action.**  
-> P1: **What is "lost and found in new York" about?**  
-> P2: **That’s a comedy. I saw it last week. It’s kinda of amusing. But I am not seeing it again**  
-> P1: **"Ok, how about “Aliens from Planet X"?**  
-> P2: **No, I can’t stand science - fiction movies.**  
-> P1: **Really? I think they are exciting. I really like the special effects**  
-> P2: **Not for me, too. I’ll get bored. I will fall asleep by the end of the movie**  
-> P1: **Come on. It’s only a movie. Let’s find one we all agree, ok? ok, how about "Screaming monsters want blood part2"?**  
-> P2: **No, not another disgusting horror movie**  
-> P1: **Why not? My friends liked it. They said it’s very scary. You are so picky, Jessica. What’s your favorite kind of movie?**  
+> {% include play.html identifier="lesson-dialogue" start=0.01 stop=3.53 %}Person 1: **The early show of “Dangerous City” is sold out**  
+> {% include play.html identifier="lesson-dialogue" start=3.53 stop=5.50 %}Person 2: **What are we gonna do now?**  
+> {% include play.html identifier="lesson-dialogue" start=5.50 stop=8.92 %}P1: **Well, let’s see .. maybe we should wait for the next show**  
+> {% include play.html identifier="lesson-dialogue" start=8.92 stop=13.73 %}P2: **I can’t. I am meeting Olivia tonight. We are going to a new restaurant together**  
+> {% include play.html identifier="lesson-dialogue" start=13.73 stop=19.64 %}P1: **Ok, why don’t we see "Beyond Everest". It’s a new action adventure movie. It’s based on a true story**  
+> {% include play.html identifier="lesson-dialogue" start=19.64 stop=23.21 %}P2: **Nah, I get tired of just looking at all that action.**  
+> {% include play.html identifier="lesson-dialogue" start=23.21 stop=25.81 %}P1: **What is "lost and found in new York" about?**  
+> {% include play.html identifier="lesson-dialogue" start=25.81 stop=31.28 %}P2: **That’s a comedy. I saw it last week. It’s kinda of amusing. But I am not seeing it again**  
+> {% include play.html identifier="lesson-dialogue" start=31.28 stop=35.09 %}P1: **"Ok, how about “Aliens from Planet X"?**  
+> {% include play.html identifier="lesson-dialogue" start=35.09 stop=38.79 %}P2: **No, I can’t stand science - fiction movies.**  
+> {% include play.html identifier="lesson-dialogue" start=38.79 stop=42.64 %}P1: **Really? I think they are exciting. I really like the special effects**  
+> {% include play.html identifier="lesson-dialogue" start=42.64 stop=48.51 %}P2: **Not for me, too. I’ll get bored. I will fall asleep by the end of the movie**  
+> {% include play.html identifier="lesson-dialogue" start=48.51 stop=58.13 %}P1: **Come on. It’s only a movie. Let’s find one we all agree, ok? ok, how about "Screaming monsters want blood part2"?**  
+> {% include play.html identifier="lesson-dialogue" start=58.13 stop=62.08 %}P2: **No, not another disgusting horror movie**  
+> {% include play.html identifier="lesson-dialogue" start=62.08 stop=69.38 %}P1: **Why not? My friends liked it. They said it’s very scary. You are so picky, Jessica. What’s your favorite kind of movie?**  
 
 ## Explanation
 
 {% include player.html identifier="lesson-explanation" lesson="C2L04" file="C2L04-Native-Dialogue3.mp3" %}
 
 ### 1. The early show of "Dangerous city" is sold out
-
+{% include play.html identifier="lesson-explanation" start=2.75 stop=13.41 %}
 Suất chiếu sớm của "Dangerous city" đã bán hết rồi 
 
 **Be sold out.**
@@ -71,7 +71,7 @@ Suất chiếu sớm của "Dangerous city" đã bán hết rồi
 - **The concert was sold out** *Buổi hòa nhạc đã bán hết vé rồi*
 
 ### 2. What are we gonna do now?
-
+{% include play.html identifier="lesson-explanation" start=15.23 stop=29.56 %}
 *Chúng ta sẽ làm gì bây giờ*
 
 **Be gonna = be going to**
@@ -81,7 +81,7 @@ Suất chiếu sớm của "Dangerous city" đã bán hết rồi
 - **What I am gonna say is … I like you**. *Điều tôi sắp nói là … Tôi thích bạn* 
 
 ### 3. Why don’t we see "Beyond Everest”?
-
+{% include play.html identifier="lesson-explanation" start=33.21 stop=45.95 %}
 *Hay là chúng ta xem phim "Beyond Everest”?*
 
 **Why don’t we…?**
@@ -91,7 +91,7 @@ Suất chiếu sớm của "Dangerous city" đã bán hết rồi
 - **Why don’t we take a lunch break?** *Hay là chúng ta nghỉ trưa nhé*
 
 ### 4.  It’s based on a true story
-
+{% include play.html identifier="lesson-explanation" start=47.80 stop=62.19 %}
 *Nó được dựa trên một câu chuyện có thật*
 
 **It’s based on…**
@@ -101,7 +101,7 @@ Suất chiếu sớm của "Dangerous city" đã bán hết rồi
 - **The movie is based on a real-life story** *Bộ phim được dựa trên một câu chuyện có thật ngoài đời*
 
 ### 5.  I get tired of just looking at all that action
-
+{% include play.html identifier="lesson-explanation" start=64.24 stop=79.98 %}
 *Tôi mệt mỏi xem những ca hành động đó*
 
 **I get tired of…**
@@ -111,7 +111,7 @@ Suất chiếu sớm của "Dangerous city" đã bán hết rồi
 - **I get tired of arguing with her all the time** *Tôi mệt mỏi vì luôn luôn cãi nhau với cô ấy*
 
 ### 6. What is “Lost and Found in New York" about?
-
+{% include play.html identifier="lesson-explanation" start=82.56 stop=95.58 %}
 *Bộ phim “Lost and Found in New York" nói về điều gì?*
 
 **What is it about?**
@@ -122,7 +122,7 @@ Suất chiếu sớm của "Dangerous city" đã bán hết rồi
 
 
 ### 7. It’s kinda amusing
-
+{% include play.html identifier="lesson-explanation" start=97.69 stop=109.32 %}
 *Nó kiểu như cũng hài hước*
 
 **Kinda = kind of**
@@ -132,7 +132,7 @@ Suất chiếu sớm của "Dangerous city" đã bán hết rồi
 - **She’s kinda hot** *Cô ta đại loại là cũng nóng bỏng*
 
 ### 8. I can’t stand science-fiction movies**
-
+{% include play.html identifier="lesson-explanation" start=111.08 stop=124.61 %}
 **I can’t stand …**
 
 - **I can’t stand her** *Tôi không thể chịu đựng cô ta*
