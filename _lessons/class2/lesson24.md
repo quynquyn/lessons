@@ -69,7 +69,7 @@ lesson: "24"
 
 ## Explanation
 ### 1.  I hate restaurants with loud, noisy music.
-- **I can't stand it when clubs play loud abnoxious music. It drives me nuts!**
+- **I can't stand it when clubs play loud obnoxious music. It drives me nuts!**
 - **I absolutely hate it when there is a huge crowd at the bar.**
 - **This restaurant's food is too expensive. Let's go.**
 
@@ -85,7 +85,7 @@ lesson: "24"
 - **I thought I'd enjoy the seafood, but it tastes terrible. I guess I'll stick with chicken.**
 
 ### 3. The food here is great, but the waitress is so rude. 
-- **This stake tastes just right, but the wine tastes a bit off.**
+- **This steak tastes just right, but the wine tastes a bit off.**
 - **I really love pizza, but the one in this restaurant tastes horrible.**
 - **Rob doesn't usually like to drink, but this bartender makes amazing cocktails.**
 

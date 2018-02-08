@@ -52,7 +52,7 @@ lesson: "23"
 > P2: **Well, I find that if I'm not in a happy work environment, I get very lazy.**  
 > P1: **Oh, is that so? Give me an example.**  
 > P2: **Well, I dislike it when employers are too aggressive or demanding. I also don't like it when they want to form personal relationships with employees.**  
-> P1: **Trust me Mr. Robinson, that is not going to be a problem.**  
+> P1: **Trust me, Mr. Robinson, that is not going to be a problem.**  
 > P2: **I'm pleased to hear that.**  
 > P1: **I'm pleased that you're pleased, and I would like to officially welcome you to the company. You're hired.**
 > P2: **Thank you very much, sir.**
@@ -76,7 +76,7 @@ lesson: "23"
 - **Why have you decided to apply for a job in our company?**
 
 ### 3. If I'm not in a happy work environment, I get very lazy.
-- **My greatest flaw is that I pay too much attention to detail**
+- **My greatest flaw is that I pay too much attention to detail.**
 - **I'm a workaholic and sometimes that can be a problem for me.**
 - **I don't function well in a group, I prefer working alone.**
 

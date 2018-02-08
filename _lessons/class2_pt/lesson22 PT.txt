@@ -81,9 +81,11 @@ lesson: "22"
 
 ## Explanation
 ### 1. It's a bustling city, and there is always something to see there. 
-- **My hometown is a small but modern and full of great people.**
-- **Until the age of 17, I lived in the quiet and small town of Stowe, Vermont.**
-- **My hometown is nothing to brag about, but I love it. It's small and charming.**
+
+É uma cidade agitada, e sempre há algo a ver lá.
+- **My hometown is a small but modern and full of great people.** *Minha cidade natal é pequena, mas moderna e cheia de ótimas pessoas.*
+- **Until the age of 17, I lived in the quiet and small town of Stowe, Vermont.** *Até os 17 anos de idade, vivi na tranquila e pequena cidade de Stowe, no Vermont.*
+- **My hometown is nothing to brag about, but I love it. It's small and charming.** *Minha cidade natal é nada para se gabar, mas eu a adoro. É pequena e encantadora.*
 
 {% if site.trialdeploy %}
   {% include list_placeholder.html start=3 stop=6 %}
@@ -91,24 +93,31 @@ lesson: "22"
  
 
 ### 2. New York is mostly known for the Statue of Liberty.
-- **Paris is known for the Eiffel Tower.**
-- **London is known for being the home of Big Ben.**
-- **My home country, Switzerland, is known for chocolate.**
+
+Nova Iorque é conhecida principalmente pela Estátua da Liberdade.
+- **Paris is known for the Eiffel Tower.** *Paris é conhecida pela Torre Eiffel.*
+- **London is known for being the home of Big Ben.** *Londres é conhecida por ser a casa de Big Ben.*
+- **My home country, Switzerland, is known for chocolate.** *Meu país de origem, a Suíça, é conhecido pelo chocolate.*
 
 ### 3. Did you climb the Eiffel Tower in France?
-- **Did you climb the Great Wall of China?**
-- **I heard you're from New York. Did you ever go to see the Niagara Falls?**
-- **Oh, you're from Chicago. So why is it called The Windy City?**
+
+Você escalou a Torre Eiffel na França?
+- **Did you climb the Great Wall of China?** *Você escalou a Grande Muralha da China?*
+- **I heard you're from New York. Did you ever go to see the Niagara Falls?** *Ouvi dizer que você é de Nova Iorque. Você já viu as Cataratas do Niágara?*
+- **Oh, you're from Chicago. So why is it called The Windy City?** *Oh, você é de Chicago. Então, por que é chamado A Cidade Ventosa?*
 
 ### 4. What's it like to live in Paris?
-- **What's it like to live in Egypt? It must be really warm.**
-- **Sarah says she's from Iceland. I hear it's very cold there.**
-- **You're from Australia? Is it true they have flying spiders there?**
+Como é morar em Paris?
+- **What's it like to live in Egypt? It must be really warm.** *Como é morar no Egito? Deve estar realmente quente.*
+- **Sarah says she's from Iceland. I hear it's very cold there.** *Sarah diz que é da Islândia. Eu ouço que está muito frio lá.*
+- **You're from Australia? Is it true they have flying spiders there?** *Você é da Austrália? É verdade que eles têm aranhas voadoras lá?*
 
 ### 5. I know where the best places to eat are in Paris.
-- **I know my hometown inside and out! Tell me a street name and I'll guide you to it.**
-- **My hometown has great places to eat and drink. I go out often.**
-- **I wish my hometown was more interesting. All the places in it are dull and boring.**
+
+Eu sei onde os melhores lugares estão em Paris para comer.
+- **I know my hometown inside and out! Tell me a street name and I'll guide you to it.** *Conheço minha cidade por dentro e por fora! Diga-me um nome de rua e eu o guiarei lá.*
+- **My hometown has great places to eat and drink. I go out often.** *Minha cidade tem ótimos lugares para comer e beber. Eu saio frequentemente.*
+- **I wish my hometown was more interesting. All the places in it are dull and boring.** *Eu desejo que minha cidade fosse mais interessante. Todos os lugares são aborrecidos e chatos.*
 
 
  {% endif %}
