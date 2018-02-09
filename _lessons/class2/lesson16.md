@@ -10,7 +10,7 @@ lesson: "16"
 [comment]: <> NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
 
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
-## Vocabulary 
+## Vocabulary
 
 
 {% include wordgrid.html 
@@ -40,7 +40,7 @@ lesson: "16"
 > {% include play.html identifier="examples1" start=63.30 stop=65.31 %} P1: **Sure. See you in a bit.**    
 
 
-{% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
+{% include player2.html identifier="explanation" class=page.class lesson=page.lesson %}
 
 ## 2. Explanation
 ### 1. After finding out about this, I realized that I need to talk to you straight away.

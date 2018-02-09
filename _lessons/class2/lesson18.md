@@ -41,12 +41,12 @@ lesson: "18"
 
 
 
-{% include player2.html identifier="explanations" class=page.class lesson=page.lesson %}
+{% include player2.html identifier="explanation" class=page.class lesson=page.lesson %}
 ## Explanations
 
 
 ### 1. I hope I am not boring you with my life story.
-{% include play.html identifier="explanations" start=3.17 stop=17.94 %} 
+{% include play.html identifier="explanation" start=3.17 stop=17.94 %} 
 
 - **John thinks he's boring, but I find him to be interesting.**
 - **There is nothing more boring than a bad story.**
