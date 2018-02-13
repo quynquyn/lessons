@@ -37,11 +37,9 @@ salestext: "Free full version (2 days left)"
 > {% include play.html identifier="File1-Dialogue" start=16.41 stop=20.76 %}Person 1: **Definitely. Getting up early in the morning really gets on my nerves.**
 
 
-{% include player.html identifier="File1-Explain" lesson="C2L01" file="C2L02-Native-Dialogue2.mp3" %}
-
+{% include player.html identifier="File1-Explain" lesson="C2L01" file="lesson_2-002-File3.mp3" %}
 ### Person 1: Why do you look so annoyed?
-{% include play.html identifier="File1-Explain" start=0.02 stop=12.10 %}
-
+{% include play.html identifier="File1-Explain" start=0.02 stop=12.58 %} 
 **Why do you look…?** *Sao trông bạn khó chịu thế?*
 
 - **Why do you look so sad today?**  *Sao hôm nay trông bạn buồn thế?*

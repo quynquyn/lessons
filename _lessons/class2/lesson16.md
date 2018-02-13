@@ -68,7 +68,7 @@ Tôi nghĩ nếu bạn thật sự thích ai, bạn nên nói ra
 ### 3.  I thought you felt an interest for me.
 {% include play.html identifier="explanation" start=30.26 stop=33.61 %}
 Tôi tưởng bạn cũng thích tôi
-**I thought...** * Tôi tưởng
+**I thought...** *Tôi tưởng*
 
 - **I thought he wanted to marry me.** *Tôi tưởng anh ấy đã muốn cưới tôi*
 - **I thought we were friends.** *Tôi tưởng chúng ta là bạn*

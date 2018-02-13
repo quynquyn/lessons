@@ -37,10 +37,10 @@ salestext: "Free full version (1 day left)"
 - **I cover a table, a chair and a board. What do you cover?**
 - **I cover a book, a pen and a marker.**
 
-*A1. - Bạn che phủ cái gì vậy?*
+*A1. - O que você cobre?*
 
-- *Tôi che phủ cái bàn, cái ghế và bảng. Bạn che phủ cái gì?*
-- *Tôi che phủ quyển sách, cây bút mực và cây bút lông*
+- *Cobro uma mesa, uma cadeira e uma tábua. O que você cobre?*
+- *Cobro um livro, uma caneta e um marcador. *
 
 ### A2. What do you wear?
 {% include play.html identifier="lesson-Dialogue" lesson="C1L03" start=16 stop=666 %}
@@ -48,10 +48,10 @@ salestext: "Free full version (1 day left)"
 - **I wear a t-skirt and and a skirt. what do you wear?**
 - **I wear a shirt and trousers.**
 
-*A2. - Bạn mặc gì vậy?*
+*A2. - O que você veste?*
 
-- *Tôi mặc áo thun và váy ngắn. Bạn mặc gì?*
-- *Tôi mặc áo sơ mi và quần tây*
+- *Eu visto uma camiseta e uma saia. o que você veste?*
+- *Eu visto uma camisa e uma calça.*
 
 ### A3. What do you decorate?
 {% include play.html identifier="lesson-Dialogue" lesson="C1L03" start=24 stop=666 %}
@@ -59,10 +59,10 @@ salestext: "Free full version (1 day left)"
 - **I decorate a room, a house and two classrooms. What do you decorate?**
 - **I decorate a cake.**
 
-*A3. - Bạn trang trí gì?*
+*A3. - O que você decora?*
 
-- *Tôi trang trí một căn phòng, một căn nhà và hai lớp học. Bạn trang trí gì?*
-- *Tôi trang trí bánh*
+- *Decoro uma sala, uma casa e duas salas de aula. O que você decora?*
+- *Eu decora um bolo.*
 
 ### A4. What do you touch?
 {% include play.html identifier="lesson-Dialogue" lesson="C1L03" start=34 stop=666 %}
@@ -70,10 +70,10 @@ salestext: "Free full version (1 day left)"
 - **I touch a crocodile, a giraffe and a monkey. What do you touch?**
 - **I touch a wall, a picture and an air-conditioner.**
 
-*A4. - Bạn chạm gì?*
+*A4. - O que você toca?*
 
-- *Tôi chạm vào con cá sấu, hưu cao cổ và con khỉ. Bạn chạm gì?*
-- *Tôi chạm bước tường, bức tranh và cái máy lạnh*
+- *Toco um crocodilo, uma girafa e um macaco. O que você toca?*
+- *Toco uma parede, um retrato e um ar condicionado.*
 
 ### A5. What do you play?
 {% include play.html identifier="lesson-Dialogue" lesson="C1L03" start=46 stop=666 %}
@@ -81,10 +81,10 @@ salestext: "Free full version (1 day left)"
 - **I play football and tennis. What do you play?**
 - **I play the piano and the guitar.**
 
-*A5. - Bạn chơi gì?*
+*A5. - O que você toca ou joga?*
 
-- * Tôi chơi đá banhh và quần vợt. Bạn chơi gì?*
-- *Tôi chơi đàn Ppano và gita*
+- *Eu jogo futebol e tênis. O que você toca ou joga?*
+- *Toco piano e violão.*
 
 
 ## B. Do you…?
@@ -100,15 +100,15 @@ salestext: "Free full version (1 day left)"
 - **What do you sell?**
 - **I sell bikes.**
 
-*B1. Bạn có bán xe hơi không?*
+*B1. Você vende carros?*
 
-- *Không, tôi không bán xe hơi*
-- *Bạn có bán xe tải không?*
-- *Không, tôi không bán xe tải*
-- *Bạn có bán xe máy không?*
-- *Không, tôi không bán xe máy*
-- *Vậy bạn bán gì?*
-- *Tôi bán xe đạp*
+- *Não, eu não vendo carros*
+- *Você vende caminhões?*
+- *Não, eu não vendo caminhões.*
+- *Você vende motos?*
+- *Não, não vendo motos.*
+- *O que você vende?*
+- *Eu vendo bicicletas.*
 
 ### B2.  Do you play the piano?
 {% include play.html identifier="lesson-Dialogue" lesson="C1L03" start=71 stop=666 %} 
@@ -119,12 +119,12 @@ salestext: "Free full version (1 day left)"
 - **What do you play?**
 - **I play the violin.**
 
-*B2. Bạn có chơi piano không?*
+*B2. Você toca piano?*
 
-- *Không, tôi không chơi đàn piano*
-- *Bạn có chơi gita không?*
-- *Không, tôi không chơi gita*
-- *Vậy bạn chơi gì?*
-- *Tôi chơi đàn violin*
+- *Não, eu não toco piano.*
+- *Você toca violão?*
+- *Não, eu não toco violão.*
+- *O que você toca?*
+- *Eu toco violino.*
 
  

@@ -81,66 +81,66 @@ class,lesson,section,word_en,word_vn,word_pt,image_name,image_url,ts_start,ts_st
 1,10,all,Good At,Giỏi ở,bom em,c1l10-good-at.jpg,class1/images/c1l10-good-at.jpg,,
 1,10,all,Bad At,Tệ ở,ruim em,c1l10-bad-at.jpg,class1/images/c1l10-bad-at.jpg,,
 1,10,all,Angry About Something / Angry at Someone,Giận giữ về điều gì đó/ Giận giữ với ai đó,irritado com algo / zangado com ele,c1l10-angry-about-something-angry-at-someone.jpg,class1/images/c1l10-angry-about-something-angry-at-someone.jpg,,
-1,10,all,Tired Of / Sick Of,Chán đến mức phát ốm với ,cansado de / cansado de,c1l10-tired-of-sick-of.jpg,class1/images/c1l10-tired-of-sick-of.jpg,,
-1,10,all,Afraid Of,Sợ,ter medo de,c1l10-afraid-of.jpg,class1/images/c1l10-afraid-of.jpg,,
-1,10,all,Full Of,,cheio de,c1l10-full-of.jpg,class1/images/c1l10-full-of.jpg,,
+1,10,all,Tired Of / Sick Of,Mệt mỏi với/ Phát ốm với(chán nản),cansado de / cansado de,c1l10-tired-of-sick-of.jpg,class1/images/c1l10-tired-of-sick-of.jpg,,
+1,10,all,Afraid Of,E ngại về,ter medo de,c1l10-afraid-of.jpg,class1/images/c1l10-afraid-of.jpg,,
+1,10,all,Full Of,"Tràn ngập với, đầy những",cheio de,c1l10-full-of.jpg,class1/images/c1l10-full-of.jpg,,
 1,10,all,Responsible For,Có trách nhiệm với ,responsável por,c1l10-responsible-for.jpg,class1/images/c1l10-responsible-for.jpg,,
 1,10,all,Known For,Được biết đến bởi,conhecido por,c1l10-known-for.jpg,class1/images/c1l10-known-for.jpg,,
-1,10,all,Discouraged By,,desanimado por,c1l10-discouraged-by.jpg,class1/images/c1l10-discouraged-by.jpg,,
+1,10,all,Discouraged By,"Làm mất can đảm, làm mất dũng cảm, làm nhục chí",desanimado por,c1l10-discouraged-by.jpg,class1/images/c1l10-discouraged-by.jpg,,
 1,10,all,Used To,Quen với,acostumado com,c1l10-used-to.jpg,class1/images/c1l10-used-to.jpg,,
 1,10,all,Sorry For,Xin lỗi vì ,sinto por,c1l10-sorry-for.jpg,class1/images/c1l10-sorry-for.jpg,,
 1,10,all,Thankful For,Biết ơn vì ,agradecido por,c1l10-thankful-for.jpg,class1/images/c1l10-thankful-for.jpg,,
-2,09,items,Tie,Cà vạt,gravata,c2l09-tie.jpg,class2/images/c2l09-tie.jpg,,
-2,09,items,Hat,Mũ/nón,chapéu,c2l09-hat.jpg,class2/images/c2l09-hat.jpg,,
-2,09,items,Cap,Mũ lưỡi trai,boné,c2l09-cap.jpg,class2/images/c2l09-cap.jpg,,
-2,09,items,Clothes,Quần áo,roupa,c2l09-clothes.jpg,class2/images/c2l09-clothes.jpg,,
-2,09,items,Shirt,Áo sơ mi,camisa,c2l09-shirt.jpg,class2/images/c2l09-shirt.jpg,,
-2,09,items,T-shirt,Áo thun,camiseta,c2l09-t-shirt.jpg,class2/images/c2l09-t-shirt.jpg,,
-2,09,items,Tank-top,Áo ba lỗ,regata,c2l09-tank-top.jpg,class2/images/c2l09-tank-top.jpg,,
-2,09,items,Jacket,Áo khoác,jaqueta,c2l09-jacket.jpg,class2/images/c2l09-jacket.jpg,,
-2,09,items,Sweater,Áo len,suéter,c2l09-sweater.jpg,class2/images/c2l09-sweater.jpg,,
-2,09,items,Dress,Váy,vestido,c2l09-dress.jpg,class2/images/c2l09-dress.jpg,,
-2,09,items,Skirt,Chân váy,saia,c2l09-skirt.jpg,class2/images/c2l09-skirt.jpg,,
-2,09,items,Jeans,,jeans,c2l09-jeans.jpg,class2/images/c2l09-jeans.jpg,,
-2,09,items,Trousers,,calça,c2l09-trousers.jpg,class2/images/c2l09-trousers.jpg,,
-2,09,items,Shorts,,bermudas,c2l09-shorts.jpg,class2/images/c2l09-shorts.jpg,,
-2,09,items,Leggings,,polainas,c2l09-leggings.jpg,class2/images/c2l09-leggings.jpg,,
-2,09,items,Pants,,calça,c2l09-pants.jpg,class2/images/c2l09-pants.jpg,,
-2,09,items,Swimsuit,Đồ bơi ,maiô,c2l09-swimsuit.jpg,class2/images/c2l09-swimsuit.jpg,,
-2,09,items,Underwear,Quần lót ,roupa íntima,c2l09-underwear.jpg,class2/images/c2l09-underwear.jpg,,
-2,09,items,Shoes,Giày ,sapatos,c2l09-shoes.jpg,class2/images/c2l09-shoes.jpg,,
-2,09,items,Sneakers,Giày thể thao,tênis,c2l09-sneakers.jpg,class2/images/c2l09-sneakers.jpg,,
-2,09,items,High heels,Giày cao gót,salto alto,c2l09-high-heels.jpg,class2/images/c2l09-high-heels.jpg,,
-2,09,items,Sandals,Xăng đan,sandálias,c2l09-sandals.jpg,class2/images/c2l09-sandals.jpg,,
-2,09,items,Glasses,Mắt kính,óculos,c2l09-glasses.jpg,class2/images/c2l09-glasses.jpg,,
-2,09,items,Sunglasses,Kính râm,óculos de sol,c2l09-sunglasses.jpg,class2/images/c2l09-sunglasses.jpg,,
-2,09,styles,Casual,Giản dị,desportivo,c2l09-casual.jpg,class2/images/c2l09-casual.jpg,,
-2,09,styles,Elegant,Thanh lịch,elegante,c2l09-elegant.jpg,class2/images/c2l09-elegant.jpg,,
-2,09,styles,Conservative,Thận trọng ,conservador,c2l09-conservative.jpg,class2/images/c2l09-conservative.jpg,,
-2,09,styles,Provocative,,provocador,c2l09-provocative.jpg,class2/images/c2l09-provocative.jpg,,
-2,09,styles,Stylish,Phong cách,à moda,c2l09-stylish.jpg,class2/images/c2l09-stylish.jpg,,
-2,09,styles,Fashionable,Hợp thời trang ,moderno,c2l09-fashionable.jpg,class2/images/c2l09-fashionable.jpg,,
-2,09,styles,Trendy,Hợp xu hướng mới ,na moda,c2l09-trendy.jpg,class2/images/c2l09-trendy.jpg,,
-2,09,styles,Classic,Cổ điển,clássico,c2l09-classic.jpg,class2/images/c2l09-classic.jpg,,
-2,09,styles,Glamorous,,glamoroso,c2l09-glamorous.jpg,class2/images/c2l09-glamorous.jpg,,
-2,09,styles,Traditional,Truyền thống,tradicional,c2l09-traditional.jpg,class2/images/c2l09-traditional.jpg,,
-2,09,styles,Comfortable,Thoải mái,cómodo,c2l09-comfortable.jpg,class2/images/c2l09-comfortable.jpg,,
-2,09,styles,Old-fashioned,Cổ hủ,antiquado,c2l09-old-fashioned.jpg,class2/images/c2l09-old-fashioned.jpg,,
-2,09,shoppingplaces,Shopping center / mall,Trung tâm thương mại,centro comercial / shopping,c2l09-shopping-center-mall.jpg,class2/images/c2l09-shopping-center-mall.jpg,,
-2,09,shoppingplaces,Clothes store / shop,Cửa hàng quần áo,loja,c2l09-clothes-store-shop.jpg,class2/images/c2l09-clothes-store-shop.jpg,,
-2,09,shoppingplaces,Boutique,Cửa hàng  ,boutique,c2l09-boutique.jpg,class2/images/c2l09-boutique.jpg,,
-2,09,shoppingplaces,Thrift shop,Cửa hàng giá rẻ,brechós,c2l09-thrift-shop.jpg,class2/images/c2l09-thrift-shop.jpg,,
-2,09,haveyouever,Buy second-hand clothes,Mua quần áo đã qua sử dụng,comprar roupas de segunda mão,c2l09-buy-second-hand-clothes.jpg,class2/images/c2l09-buy-second-hand-clothes.jpg,,
-2,09,haveyouever,Wear high heels,Đi giày cao gót,usar sapatos de salto alto,c2l09-wear-high-heels.jpg,class2/images/c2l09-wear-high-heels.jpg,,
-2,09,haveyouever,Wear make-up,Trang điểm ,usar maquiagem,c2l09-wear-make-up.jpg,class2/images/c2l09-wear-make-up.jpg,,
-2,09,haveyouever,Wear men's clothes,Mặc trang phục nam giới ,usar roupas masculinas,c2l09-wear-men-s-clothes.jpg,class2/images/c2l09-wear-men-s-clothes.jpg,,
-2,09,haveyouever,Women's clothes,Quần áo nữ,roupas de senhoras,c2l09-women-s-clothes.jpg,class2/images/c2l09-women-s-clothes.jpg,,
-2,09,haveyouever,Swimsuit,Đồ bơi,maiô,c2l09-swimsuit.jpg,class2/images/c2l09-swimsuit.jpg,,
-2,09,haveyouever,Want to have a tattoo,Muốn có hình xăm ,quer ter tatuagem,c2l09-want-to-have-a-tattoo.jpg,class2/images/c2l09-want-to-have-a-tattoo.jpg,,
-2,09,haveyouever,A pierced ear,Một cái tai có xo khuyên ,uma orelha furada,c2l09-a-pierced-ear.jpg,class2/images/c2l09-a-pierced-ear.jpg,,
-2,09,haveyouever,See a man who wears make-up,Thấy một người đàn ông trang điểm ,ver um homem que usa maquiagem,c2l09-see-a-man-who-wears-make-up.jpg,class2/images/c2l09-see-a-man-who-wears-make-up.jpg,,
-2,09,haveyouever,Earrings,Hoa tai,brincos,c2l09-earrings.jpg,class2/images/c2l09-earrings.jpg,,
-2,09,haveyouever,Buy clothes on sales,Mua quần áo giảm giá,comprar roupas à venda,c2l09-buy-clothes-on-sales.jpg,class2/images/c2l09-buy-clothes-on-sales.jpg,,
+2,09,items,Tie,Cà vạt,gravata,c2l09-tie.jpg,class2/images/c2l09-tie.jpg,10.44,12.67
+2,09,items,Hat,Mũ/nón,chapéu,c2l09-hat.jpg,class2/images/c2l09-hat.jpg,12.67,14.34
+2,09,items,Cap,Mũ lưỡi trai,boné,c2l09-cap.jpg,class2/images/c2l09-cap.jpg,14.34,16.33
+2,09,items,Clothes,Quần áo,roupa,c2l09-clothes.jpg,class2/images/c2l09-clothes.jpg,16.33,19.27
+2,09,items,Shirt,Áo sơ mi,camisa,c2l09-shirt.jpg,class2/images/c2l09-shirt.jpg,19.27,20.95
+2,09,items,T-shirt,Áo thun,camiseta,c2l09-t-shirt.jpg,class2/images/c2l09-t-shirt.jpg,20.95,23.35
+2,09,items,Tank-top,Áo ba lỗ,regata,c2l09-tank-top.jpg,class2/images/c2l09-tank-top.jpg,23.35,25.55
+2,09,items,Jacket,Áo khoác,jaqueta,c2l09-jacket.jpg,class2/images/c2l09-jacket.jpg,25.55,27.85
+2,09,items,Sweater,Áo len,suéter,c2l09-sweater.jpg,class2/images/c2l09-sweater.jpg,27.85,30.04
+2,09,items,Dress,Váy,vestido,c2l09-dress.jpg,class2/images/c2l09-dress.jpg,30.04,32.46
+2,09,items,Skirt,Chân váy,saia,c2l09-skirt.jpg,class2/images/c2l09-skirt.jpg,32.46,34.55
+2,09,items,Jeans,Quần jean,jeans,c2l09-jeans.jpg,class2/images/c2l09-jeans.jpg,34.55,36.93
+2,09,items,Trousers,Quần dài,calça,c2l09-trousers.jpg,class2/images/c2l09-trousers.jpg,36.93,39.11
+2,09,items,Shorts,Quần ngắn,bermudas,c2l09-shorts.jpg,class2/images/c2l09-shorts.jpg,39.11,41.12
+2,09,items,Leggings,Quần ôm,polainas,c2l09-leggings.jpg,class2/images/c2l09-leggings.jpg,41.12,43.47
+2,09,items,Pants,Quần,calça,c2l09-pants.jpg,class2/images/c2l09-pants.jpg,43.47,45.95
+2,09,items,Swimsuit,Đồ bơi ,maiô,c2l09-swimsuit.jpg,class2/images/c2l09-swimsuit.jpg,45.95,47.94
+2,09,items,Underwear,Quần lót ,roupa íntima,c2l09-underwear.jpg,class2/images/c2l09-underwear.jpg,47.94,49.9
+2,09,items,Shoes,Giày ,sapatos,c2l09-shoes.jpg,class2/images/c2l09-shoes.jpg,49.9,52.86
+2,09,items,Sneakers,Giày thể thao,tênis,c2l09-sneakers.jpg,class2/images/c2l09-sneakers.jpg,52.86,54.69
+2,09,items,High heels,Giày cao gót,salto alto,c2l09-high-heels.jpg,class2/images/c2l09-high-heels.jpg,54.69,56.96
+2,09,items,Sandals,Xăng đan,sandálias,c2l09-sandals.jpg,class2/images/c2l09-sandals.jpg,56.96,59.18
+2,09,items,Glasses,Mắt kính,óculos,c2l09-glasses.jpg,class2/images/c2l09-glasses.jpg,59.18,61.5
+2,09,items,Sunglasses,Kính râm,óculos de sol,c2l09-sunglasses.jpg,class2/images/c2l09-sunglasses.jpg,61.5,64.34
+2,09,styles,Casual,Giản dị,desportivo,c2l09-casual.jpg,class2/images/c2l09-casual.jpg,67.6,70.31
+2,09,styles,Elegant,Thanh lịch,elegante,c2l09-elegant.jpg,class2/images/c2l09-elegant.jpg,70.31,72.28
+2,09,styles,Conservative,Thận trọng ,conservador,c2l09-conservative.jpg,class2/images/c2l09-conservative.jpg,72.28,74.56
+2,09,styles,Provocative,"Kích thích, khêu gợi (tình dục)",provocador,c2l09-provocative.jpg,class2/images/c2l09-provocative.jpg,74.56,76.68
+2,09,styles,Stylish,Phong cách,à moda,c2l09-stylish.jpg,class2/images/c2l09-stylish.jpg,76.68,79.08
+2,09,styles,Fashionable,Hợp thời trang ,moderno,c2l09-fashionable.jpg,class2/images/c2l09-fashionable.jpg,79.08,81.31
+2,09,styles,Trendy,Hợp xu hướng mới ,na moda,c2l09-trendy.jpg,class2/images/c2l09-trendy.jpg,81.31,83.67
+2,09,styles,Classic,Cổ điển,clássico,c2l09-classic.jpg,class2/images/c2l09-classic.jpg,87.35,89.81
+2,09,styles,Glamorous,"Đẹp quyến rũ, say đắm",glamoroso,c2l09-glamorous.jpg,class2/images/c2l09-glamorous.jpg,89.81,93.12
+2,09,styles,Traditional,Truyền thống,tradicional,c2l09-traditional.jpg,class2/images/c2l09-traditional.jpg,93.12,94.98
+2,09,styles,Comfortable,Thoải mái,cómodo,c2l09-comfortable.jpg,class2/images/c2l09-comfortable.jpg,94.98,96.86
+2,09,styles,Old-fashioned,Cổ hủ,antiquado,c2l09-old-fashioned.jpg,class2/images/c2l09-old-fashioned.jpg,96.86,99.77
+2,09,shoppingplaces,Shopping center / mall,Trung tâm thương mại,centro comercial / shopping,c2l09-shopping-center-mall.jpg,class2/images/c2l09-shopping-center-mall.jpg,103.17,106.84
+2,09,shoppingplaces,Clothes store / shop,Cửa hàng quần áo,loja,c2l09-clothes-store-shop.jpg,class2/images/c2l09-clothes-store-shop.jpg,106.84,111.27
+2,09,shoppingplaces,Boutique,Cửa hàng  ,boutique,c2l09-boutique.jpg,class2/images/c2l09-boutique.jpg,111.27,114.09
+2,09,shoppingplaces,Thrift shop,Cửa hàng giá rẻ,brechós,c2l09-thrift-shop.jpg,class2/images/c2l09-thrift-shop.jpg,114.09,116.66
+2,09,haveyouever,Buy second-hand clothes,Mua quần áo đã qua sử dụng,comprar roupas de segunda mão,c2l09-buy-second-hand-clothes.jpg,class2/images/c2l09-buy-second-hand-clothes.jpg,118.38,121.22
+2,09,haveyouever,Wear high heels,Đi giày cao gót,usar sapatos de salto alto,c2l09-wear-high-heels.jpg,class2/images/c2l09-wear-high-heels.jpg,121.22,124.06
+2,09,haveyouever,Wear make-up,Trang điểm ,usar maquiagem,c2l09-wear-make-up.jpg,class2/images/c2l09-wear-make-up.jpg,124.06,127.06
+2,09,haveyouever,Wear men's clothes,Mặc trang phục nam giới ,usar roupas masculinas,c2l09-wear-men-s-clothes.jpg,class2/images/c2l09-wear-men-s-clothes.jpg,127.06,130.25
+2,09,haveyouever,Women's clothes,Quần áo nữ,roupas de senhoras,c2l09-women-s-clothes.jpg,class2/images/c2l09-women-s-clothes.jpg,130.25,133.54
+2,09,haveyouever,Swimsuit,Đồ bơi,maiô,c2l09-swimsuit.jpg,class2/images/c2l09-swimsuit.jpg,133.54,136.1
+2,09,haveyouever,Want to have a tattoo,Muốn có hình xăm ,quer ter tatuagem,c2l09-want-to-have-a-tattoo.jpg,class2/images/c2l09-want-to-have-a-tattoo.jpg,136.1,139.01
+2,09,haveyouever,A pierced ear,Một cái tai có xo khuyên ,uma orelha furada,c2l09-a-pierced-ear.jpg,class2/images/c2l09-a-pierced-ear.jpg,139.01,141.83
+2,09,haveyouever,See a man who wears make-up,Thấy một người đàn ông trang điểm ,ver um homem que usa maquiagem,c2l09-see-a-man-who-wears-make-up.jpg,class2/images/c2l09-see-a-man-who-wears-make-up.jpg,141.83,146.06
+2,09,haveyouever,Earrings,Hoa tai,brincos,c2l09-earrings.jpg,class2/images/c2l09-earrings.jpg,146.06,148.82
+2,09,haveyouever,Buy clothes on sales,Mua quần áo giảm giá,comprar roupas à venda,c2l09-buy-clothes-on-sales.jpg,class2/images/c2l09-buy-clothes-on-sales.jpg,148.82,151.62
 1,05,pronoun,I,Tôi,eu,c1l05-i.jpg,class1/images/c1l05-i.jpg,,
 1,05,pronoun,We,Chúng tôi/ta,nós,c1l05-we.jpg,class1/images/c1l05-we.jpg,,
 1,05,pronoun,You,Bạn,você,c1l05-you.jpg,class1/images/c1l05-you.jpg,,
@@ -172,10 +172,10 @@ class,lesson,section,word_en,word_vn,word_pt,image_name,image_url,ts_start,ts_st
 1,05,jobs,Singer,Ca sĩ,cantor,c1l05-singer.jpg,class1/images/c1l05-singer.jpg,,
 1,05,jobs,Dentist,Nha sĩ,dentista,c1l05-dentist.jpg,class1/images/c1l05-dentist.jpg,,
 1,05,verbs,Accountant,Kế toán viên,contador,c1l05-accountant.jpg,class1/images/c1l05-accountant.jpg,,
-1,05,verbs,Travel to Korea,,viajar para a Coréia,c1l05-travel-to-korea.jpg,class1/images/c1l05-travel-to-korea.jpg,,
-1,05,verbs,Travel to Malaysia,,viajar para a Malásia,c1l05-travel-to-malaysia.jpg,class1/images/c1l05-travel-to-malaysia.jpg,,
-1,05,verbs,Travel to Cambodia,,viajar para o Camboja,c1l05-travel-to-cambodia.jpg,class1/images/c1l05-travel-to-cambodia.jpg,,
-1,05,verbs,Travel to Italy,,viajar para a Itália,c1l05-travel-to-italy.jpg,class1/images/c1l05-travel-to-italy.jpg,,
+1,05,verbs,Travel to Korea,Du lịch Hàn Quốc,viajar para a Coréia,c1l05-travel-to-korea.jpg,class1/images/c1l05-travel-to-korea.jpg,,
+1,05,verbs,Travel to Malaysia,Du lịch Malaysia,viajar para a Malásia,c1l05-travel-to-malaysia.jpg,class1/images/c1l05-travel-to-malaysia.jpg,,
+1,05,verbs,Travel to Cambodia,Du lịch Cambodia,viajar para o Camboja,c1l05-travel-to-cambodia.jpg,class1/images/c1l05-travel-to-cambodia.jpg,,
+1,05,verbs,Travel to Italy,Du lịch Italy (Ý),viajar para a Itália,c1l05-travel-to-italy.jpg,class1/images/c1l05-travel-to-italy.jpg,,
 1,05,verbs,Study English,Học tiếng Anh,estudar inglês,c1l05-study-english.jpg,class1/images/c1l05-study-english.jpg,,
 1,05,verbs,Study Spanish,Học tiếng Tây Ban Nha,estudar espanhol,c1l05-study-spanish.jpg,class1/images/c1l05-study-spanish.jpg,,
 1,05,verbs,Study Korean,Học tiếng Hàn Quốc,estudar coreano,c1l05-study-korean.jpg,class1/images/c1l05-study-korean.jpg,,
@@ -184,52 +184,52 @@ class,lesson,section,word_en,word_vn,word_pt,image_name,image_url,ts_start,ts_st
 1,05,verbs,Make a presentation,Thuyết trình,fazer uma apresentação,c1l05-make-a-presentation.jpg,class1/images/c1l05-make-a-presentation.jpg,,
 1,05,verbs,Practice Speaking English,Luyện nói tiếng Anh,praticar falar inglês,c1l05-practice-speaking-english.jpg,class1/images/c1l05-practice-speaking-english.jpg,,
 1,05,verbs,Talk to a stranger,Nói chuyện với người lạ,falar com um desconhecido,c1l05-talk-to-a-stranger.jpg,class1/images/c1l05-talk-to-a-stranger.jpg,,
-1,05,verbs,Ask someone out,,perguntar a alguém em um encontro,c1l05-ask-someone-out.jpg,class1/images/c1l05-ask-someone-out.jpg,,
+1,05,verbs,Ask someone out,Mời ai đó đi chơi,perguntar a alguém em um encontro,c1l05-ask-someone-out.jpg,class1/images/c1l05-ask-someone-out.jpg,,
 1,05,verbs,Break up with someone,Chia tay với ai đó,separar de alguém,c1l05-break-up-with-someone.jpg,class1/images/c1l05-break-up-with-someone.jpg,,
 1,05,verbs,Marry someone / Get married to someone,Kết hôn với ai đó,"casar com alguém / 
 se casar com alguém",c1l05-marry-someone-get-married-to-someone.jpg,class1/images/c1l05-marry-someone-get-married-to-someone.jpg,,
-2,07,favoritekindofjob,Accountants,,contadores/as,c2l07-accountants.jpg,class2/images/c2l07-accountants.jpg,,
-2,07,favoritekindofjob,Bakers,Thợ làm bánh,padeiro/as,c2l07-bakers.jpg,class2/images/c2l07-bakers.jpg,,
-2,07,favoritekindofjob,Barbers,Thợ cắt tóc,barbeiro/as,c2l07-barbers.jpg,class2/images/c2l07-barbers.jpg,,
-2,07,favoritekindofjob,Barmen / Barwomen,,coqueteleiros / coqueteleiras,c2l07-barmen-barwomen.jpg,class2/images/c2l07-barmen-barwomen.jpg,,
-2,07,favoritekindofjob,Butchers,,açougueiro/as,c2l07-butchers.jpg,class2/images/c2l07-butchers.jpg,,
-2,07,favoritekindofjob,Chambermaids,,camareiro/as,c2l07-chambermaids.jpg,class2/images/c2l07-chambermaids.jpg,,
-2,07,favoritekindofjob,Chefs,Đầu bếp,chefes de cozinha,c2l07-chefs.jpg,class2/images/c2l07-chefs.jpg,,
-2,07,favoritekindofjob,Dentists,Nha sĩ,dentistas,c2l07-dentists.jpg,class2/images/c2l07-dentists.jpg,,
-2,07,favoritekindofjob,Doctors,Bác sĩ,médico/as,c2l07-doctors.jpg,class2/images/c2l07-doctors.jpg,,
-2,07,favoritekindofjob,Fishmongers,Người đánh cá,peixeiro/as,c2l07-fishmongers.jpg,class2/images/c2l07-fishmongers.jpg,,
-2,07,favoritekindofjob,Flight attendants,Tiếp viên hàng không,comissário/as de bord,c2l07-flight-attendants.jpg,class2/images/c2l07-flight-attendants.jpg,,
-2,07,favoritekindofjob,Hairdressers,Thợ làm tóc,cabeleireiro/as,c2l07-hairdressers.jpg,class2/images/c2l07-hairdressers.jpg,,
-2,07,favoritekindofjob,Judges,,juízes,c2l07-judges.jpg,class2/images/c2l07-judges.jpg,,
-2,07,favoritekindofjob,Lawyers,Luật sư,advogado/as,c2l07-lawyers.jpg,class2/images/c2l07-lawyers.jpg,,
-2,07,favoritekindofjob,Nurses,Y tá,enfermeiro/as,c2l07-nurses.jpg,class2/images/c2l07-nurses.jpg,,
-2,07,favoritekindofjob,Opticians,Bác sĩ nhãn khoa,oculistas,c2l07-opticians.jpg,class2/images/c2l07-opticians.jpg,,
-2,07,favoritekindofjob,Porters,,carregadores/as,c2l07-porters.jpg,class2/images/c2l07-porters.jpg,,
-2,07,favoritekindofjob,Receptionists,Lễ tân,recepcionistas,c2l07-receptionists.jpg,class2/images/c2l07-receptionists.jpg,,
-2,07,favoritekindofjob,Sales Assistants,Trợ lý bán hàng,vendedor/as,c2l07-sales-assistants.jpg,class2/images/c2l07-sales-assistants.jpg,,
-2,07,favoritekindofjob,Secretaries,Thư ký ,secretário/as,c2l07-secretaries.jpg,class2/images/c2l07-secretaries.jpg,,
-2,07,favoritekindofjob,Surgeons,Bác sị phẫu thuật,cirurgiões/ãs,c2l07-surgeons.jpg,class2/images/c2l07-surgeons.jpg,,
-2,07,favoritekindofjob,Tailors,Thợ may,costureiro/as,c2l07-tailors.jpg,class2/images/c2l07-tailors.jpg,,
-2,07,favoritekindofjob,Teachers,Giáo viên,mestre/as,c2l07-teachers.jpg,class2/images/c2l07-teachers.jpg,,
-2,07,favoritekindofjob,Technicians,Kỹ thuật viên,técnico/as,c2l07-technicians.jpg,class2/images/c2l07-technicians.jpg,,
-2,07,favoritekindofjob,Vets,Bác sị thú y,veterinário/as,c2l07-vets.jpg,class2/images/c2l07-vets.jpg,,
-2,07,favoritekindofjob,Waiters / Waitresses,Phục vụ,garçons / garçonetes,c2l07-waiters-waitresses.jpg,class2/images/c2l07-waiters-waitresses.jpg,,
-2,07,favoritekindofjob,Welders,Thợ hàn,soldadores/as,c2l07-welders.jpg,class2/images/c2l07-welders.jpg,,
+2,07,favoritekindofjob,Accountants,Kế toán viên,contadores/as,c2l07-accountants.jpg,class2/images/c2l07-accountants.jpg,15.2,17.32
+2,07,favoritekindofjob,Bakers,Thợ làm bánh,padeiro/as,c2l07-bakers.jpg,class2/images/c2l07-bakers.jpg,18.7,20.78
+2,07,favoritekindofjob,Barbers,Thợ cắt tóc,barbeiro/as,c2l07-barbers.jpg,class2/images/c2l07-barbers.jpg,22.5,24.91
+2,07,favoritekindofjob,Barmen / Barwomen,Nam phục vụ quán bar/ Nữ phục vụ quán bar,coqueteleiros / coqueteleiras,c2l07-barmen-barwomen.jpg,class2/images/c2l07-barmen-barwomen.jpg,26.3,30.57
+2,07,favoritekindofjob,Butchers,Người bán thịt,açougueiro/as,c2l07-butchers.jpg,class2/images/c2l07-butchers.jpg,32.33,35.07
+2,07,favoritekindofjob,Chambermaids,Nữ phục vụ phòng,camareiro/as,c2l07-chambermaids.jpg,class2/images/c2l07-chambermaids.jpg,36.28,38.66
+2,07,favoritekindofjob,Chefs,Đầu bếp,chefes de cozinha,c2l07-chefs.jpg,class2/images/c2l07-chefs.jpg,40.37,42.6
+2,07,favoritekindofjob,Dentists,Nha sĩ,dentistas,c2l07-dentists.jpg,class2/images/c2l07-dentists.jpg,44.3,47.05
+2,07,favoritekindofjob,Doctors,Bác sĩ,médico/as,c2l07-doctors.jpg,class2/images/c2l07-doctors.jpg,48.05,50.25
+2,07,favoritekindofjob,Fishmongers,Người đánh cá,peixeiro/as,c2l07-fishmongers.jpg,class2/images/c2l07-fishmongers.jpg,51.91,53.98
+2,07,favoritekindofjob,Flight attendants,Tiếp viên hàng không,comissário/as de bord,c2l07-flight-attendants.jpg,class2/images/c2l07-flight-attendants.jpg,56.44,59.03
+2,07,favoritekindofjob,Hairdressers,Thợ làm tóc,cabeleireiro/as,c2l07-hairdressers.jpg,class2/images/c2l07-hairdressers.jpg,61.06,63.93
+2,07,favoritekindofjob,Judges,Quan tòa,juízes,c2l07-judges.jpg,class2/images/c2l07-judges.jpg,65.56,68.05
+2,07,favoritekindofjob,Lawyers,Luật sư,advogado/as,c2l07-lawyers.jpg,class2/images/c2l07-lawyers.jpg,69.62,72.38
+2,07,favoritekindofjob,Nurses,Y tá,enfermeiro/as,c2l07-nurses.jpg,class2/images/c2l07-nurses.jpg,73.67,76.44
+2,07,favoritekindofjob,Opticians,Bác sĩ nhãn khoa,oculistas,c2l07-opticians.jpg,class2/images/c2l07-opticians.jpg,77.88,80.34
+2,07,favoritekindofjob,Porters,"Người khuân vác, người gác cổng",carregadores/as,c2l07-porters.jpg,class2/images/c2l07-porters.jpg,81.96,84.57
+2,07,favoritekindofjob,Receptionists,Lễ tân,recepcionistas,c2l07-receptionists.jpg,class2/images/c2l07-receptionists.jpg,86.41,88.83
+2,07,favoritekindofjob,Sales Assistants,Trợ lý bán hàng,vendedor/as,c2l07-sales-assistants.jpg,class2/images/c2l07-sales-assistants.jpg,90.67,93.4
+2,07,favoritekindofjob,Secretaries,Thư ký ,secretário/as,c2l07-secretaries.jpg,class2/images/c2l07-secretaries.jpg,95.9,97.89
+2,07,favoritekindofjob,Surgeons,Bác sị phẫu thuật,cirurgiões/ãs,c2l07-surgeons.jpg,class2/images/c2l07-surgeons.jpg,99.68,102.11
+2,07,favoritekindofjob,Tailors,Thợ may,costureiro/as,c2l07-tailors.jpg,class2/images/c2l07-tailors.jpg,103.61,105.63
+2,07,favoritekindofjob,Teachers,Giáo viên,mestre/as,c2l07-teachers.jpg,class2/images/c2l07-teachers.jpg,107.21,109.89
+2,07,favoritekindofjob,Technicians,Kỹ thuật viên,técnico/as,c2l07-technicians.jpg,class2/images/c2l07-technicians.jpg,111.14,113.85
+2,07,favoritekindofjob,Vets,Bác sị thú y,veterinário/as,c2l07-vets.jpg,class2/images/c2l07-vets.jpg,115.22,117.09
+2,07,favoritekindofjob,Waiters / Waitresses,Phục vụ,garçons / garçonetes,c2l07-waiters-waitresses.jpg,class2/images/c2l07-waiters-waitresses.jpg,118.88,122.04
+2,07,favoritekindofjob,Welders,Thợ hàn,soldadores/as,c2l07-welders.jpg,class2/images/c2l07-welders.jpg,123.88,126.07
 1,06,all,Know how to make a cake,Biết cách làm bánh,saber como assar um bolo,c1l06-know-how-to-make-a-cake.jpg,class1/images/c1l06-know-how-to-make-a-cake.jpg,,
 1,06,all,Plant a tree,Trồng một cái cây ,plantar uma árvore,c1l06-plant-a-tree.jpg,class1/images/c1l06-plant-a-tree.jpg,,
 1,06,all,Lock a door,Khóa cửa ,fechar uma porta,c1l06-lock-a-door.jpg,class1/images/c1l06-lock-a-door.jpg,,
 1,06,all,Color a picture,Tô màu một bức tranh,colorir uma imagem,c1l06-color-a-picture.jpg,class1/images/c1l06-color-a-picture.jpg,,
 1,06,all,Sneeze,Hắt hơi ,espirrar,c1l06-sneeze.jpg,class1/images/c1l06-sneeze.jpg,,
-1,06,all,Snore,,roncar,c1l06-snore.jpg,class1/images/c1l06-snore.jpg,,
+1,06,all,Snore,Ngáy,roncar,c1l06-snore.jpg,class1/images/c1l06-snore.jpg,,
 1,06,all,Yawn,Ngáp ,bocejar,c1l06-yawn.jpg,class1/images/c1l06-yawn.jpg,,
-1,06,all,Mop the floor,,esfregar o chão,c1l06-mop-the-floor.jpg,class1/images/c1l06-mop-the-floor.jpg,,
+1,06,all,Mop the floor,Lau sàn,esfregar o chão,c1l06-mop-the-floor.jpg,class1/images/c1l06-mop-the-floor.jpg,,
 1,06,all,Wash my clothes,Giặt quần áo ,lavar minhas roupas,c1l06-wash-my-clothes.jpg,class1/images/c1l06-wash-my-clothes.jpg,,
 1,06,all,Brush My teeth,Chải răng ,escovar meus dentes,c1l06-brush-my-teeth.jpg,class1/images/c1l06-brush-my-teeth.jpg,,
 1,06,all,Comb my hair,Chải tóc ,pentear meu cabelo,c1l06-comb-my-hair.jpg,class1/images/c1l06-comb-my-hair.jpg,,
 1,06,all,Change my mind,Đổi ý ,mudar de ideia,c1l06-change-my-mind.jpg,class1/images/c1l06-change-my-mind.jpg,,
-1,06,all,Follow the crowd,,Seguir a multidão,c1l06-follow-the-crowd.jpg,class1/images/c1l06-follow-the-crowd.jpg,,
+1,06,all,Follow the crowd,Đi theo đám đông,Seguir a multidão,c1l06-follow-the-crowd.jpg,class1/images/c1l06-follow-the-crowd.jpg,,
 1,06,all,Sing a song,Hát một bài hát ,Cantar uma canção,c1l06-sing-a-song.jpg,class1/images/c1l06-sing-a-song.jpg,,
-1,06,all,Clap one’s hands,,bater palmas,c1l06-clap-one-s-hands.jpg,class1/images/c1l06-clap-one-s-hands.jpg,,
+1,06,all,Clap one’s hands,Vỗ tay ai đó,bater palmas,c1l06-clap-one-s-hands.jpg,class1/images/c1l06-clap-one-s-hands.jpg,,
 1,06,all,Make a decision,Quyết định ,tomar uma decisão,c1l06-make-a-decision.jpg,class1/images/c1l06-make-a-decision.jpg,,
 1,06,all,Give someone a hug,Ôm ai đó ,dar um abraço a alguém,c1l06-give-someone-a-hug.jpg,class1/images/c1l06-give-someone-a-hug.jpg,,
 1,06,all,Make a wish,Ước ,desejar,c1l06-make-a-wish.jpg,class1/images/c1l06-make-a-wish.jpg,,
@@ -237,38 +237,38 @@ se casar com alguém",c1l05-marry-someone-get-married-to-someone.jpg,class1/imag
 1,06,all,Have a crush on someone,Yêu thầm ai đó ,estar apaixonado/a por alguém,c1l06-have-a-crush-on-someone.jpg,class1/images/c1l06-have-a-crush-on-someone.jpg,,
 1,06,all,Cheat on someone,"Lừa dối tình cảm một ai đó, ngoại tình ",trair alguém,c1l06-cheat-on-someone.jpg,class1/images/c1l06-cheat-on-someone.jpg,,
 1,06,all,Yell at someone,Hét vào mặt ai đó ,gritar com alguém,c1l06-yell-at-someone.jpg,class1/images/c1l06-yell-at-someone.jpg,,
-1,06,all,Always,,sempre,c1l06-always.jpg,class1/images/c1l06-always.jpg,,
-1,06,all,Usually,,geralmente,c1l06-usually.jpg,class1/images/c1l06-usually.jpg,,
-1,06,all,Often,,frequentemente,c1l06-often.jpg,class1/images/c1l06-often.jpg,,
+1,06,all,Always,Luôn luôn,sempre,c1l06-always.jpg,class1/images/c1l06-always.jpg,,
+1,06,all,Usually,Thường xuyên,geralmente,c1l06-usually.jpg,class1/images/c1l06-usually.jpg,,
+1,06,all,Often,Thường thường,frequentemente,c1l06-often.jpg,class1/images/c1l06-often.jpg,,
 1,06,all,Sometimes,Đôi khi,às vezes,c1l06-sometimes.jpg,class1/images/c1l06-sometimes.jpg,,
 1,06,all,Rarely,Hiếm khi,raramente,c1l06-rarely.jpg,class1/images/c1l06-rarely.jpg,,
 1,06,all,Never,Không bao giờ ,nunca,c1l06-never.jpg,class1/images/c1l06-never.jpg,,
-1,09,comparison,Sociable,,sociável,c1l09-sociable.jpg,class1/images/c1l09-sociable.jpg,6,7.6
-1,09,comparison,Aggressive,,agressivo,c1l09-aggressive.jpg,class1/images/c1l09-aggressive.jpg,7.6,9.5
+1,09,comparison,Sociable,Hoà đồng,sociável,c1l09-sociable.jpg,class1/images/c1l09-sociable.jpg,6,7.6
+1,09,comparison,Aggressive,"Hùng hổ, hay gay hấn",agressivo,c1l09-aggressive.jpg,class1/images/c1l09-aggressive.jpg,7.6,9.5
 1,09,comparison,Peaceful,Bình yên ,pacífico,c1l09-peaceful.jpg,class1/images/c1l09-peaceful.jpg,9.5,11.5
 1,09,comparison,Intelligent,Thông minh,inteligente,c1l09-intelligent.jpg,class1/images/c1l09-intelligent.jpg,11.5,13
-1,09,comparison,Sensitive,,sensível,c1l09-sensitive.jpg,class1/images/c1l09-sensitive.jpg,13,15.4
+1,09,comparison,Sensitive,Nhạy cảm,sensível,c1l09-sensitive.jpg,class1/images/c1l09-sensitive.jpg,13,15.4
 1,09,comparison,Adventurous,"Thích phiêu lưu, khám phá",aventureiro,c1l09-adventurous.jpg,class1/images/c1l09-adventurous.jpg,15.4,17
-1,09,comparison,Proud,,orgulhoso,c1l09-proud.jpg,class1/images/c1l09-proud.jpg,17,19.3
+1,09,comparison,Proud,Tự hào,orgulhoso,c1l09-proud.jpg,class1/images/c1l09-proud.jpg,17,19.3
 1,09,comparison,Wild,Hoang đại ,selvagem,c1l09-wild.jpg,class1/images/c1l09-wild.jpg,19.3,21
-2,08,workingcondition,A well-paid job,Một công việc được trả lương cao,um trabalho bem remunerado,c2l08-a-well-paid-job.jpg,class2/images/c2l08-a-well-paid-job.jpg,,
-2,08,workingcondition,Six weeks paid holiday,,férias pagas de seis semanas,c2l08-six-weeks-paid-holiday.jpg,class2/images/c2l08-six-weeks-paid-holiday.jpg,,
-2,08,workingcondition,A company car,,um carro da empresa,c2l08-a-company-car.jpg,class2/images/c2l08-a-company-car.jpg,,
-2,08,workingcondition,A very good pension scheme,,um esquema de pensão muito bom,c2l08-a-very-good-pension-scheme.jpg,class2/images/c2l08-a-very-good-pension-scheme.jpg,,
-2,08,workingcondition,A pretty good salary,Một mức lương khá tốt ,um salário muito bom,c2l08-a-pretty-good-salary.jpg,class2/images/c2l08-a-pretty-good-salary.jpg,,
-2,08,workingcondition,Getting promoted,Được thăng chức ,ser promovido,c2l08-getting-promoted.jpg,class2/images/c2l08-getting-promoted.jpg,,
-2,08,workingcondition,Working overtime,Làm tăng ca,trabalhar horas extras,c2l08-working-overtime.jpg,class2/images/c2l08-working-overtime.jpg,,
-2,08,workingcondition,Working long hours,Làm việc nhiều giờ liền ,trabalhar longas horas,c2l08-working-long-hours.jpg,class2/images/c2l08-working-long-hours.jpg,,
-2,08,workingcondition,A system of flexi-time,,um sistema de horário de trabalho flexível,c2l08-a-system-of-flexi-time.jpg,class2/images/c2l08-a-system-of-flexi-time.jpg,,
-2,08,workingcondition,Health insurance,,plano de saúde,c2l08-health-insurance.jpg,class2/images/c2l08-health-insurance.jpg,,
-2,08,workingcondition,Taking a few days off,Nghỉ việc vài ngày ,tomar alguns dias de folga,c2l08-taking-a-few-days-off.jpg,class2/images/c2l08-taking-a-few-days-off.jpg,,
-2,08,workingcondition,The career ladder,,a carreira,c2l08-the-career-ladder.jpg,class2/images/c2l08-the-career-ladder.jpg,,
-2,08,workingcondition,Bonus,,bônus,c2l08-bonus.jpg,class2/images/c2l08-bonus.jpg,,
-2,08,describingyourjob,Satisfying / Rewarding,,gratificante / lucrativo,c2l08-satisfying-rewarding.jpg,class2/images/c2l08-satisfying-rewarding.jpg,,
-2,08,describingyourjob,Challenging,"Khó khăn, gian khổ, đầy thách thức ",desafiador,c2l08-challenging.jpg,class2/images/c2l08-challenging.jpg,,
-2,08,describingyourjob,Stressful,Căng thẳng ,estressante,c2l08-stressful.jpg,class2/images/c2l08-stressful.jpg,,
-2,08,describingyourjob,Glamorous,,glamoroso,c2l08-glamorous.jpg,class2/images/c2l08-glamorous.jpg,,
-2,08,describingyourjob,Repetitive / Boring,,repetitivo / chato,c2l08-repetitive-boring.jpg,class2/images/c2l08-repetitive-boring.jpg,,
+2,08,workingcondition,A well-paid job,Một công việc được trả lương cao,um trabalho bem remunerado,c2l08-a-well-paid-job.jpg,class2/images/c2l08-a-well-paid-job.jpg,10.08,12.95
+2,08,workingcondition,Six weeks paid holiday,,férias pagas de seis semanas,c2l08-six-weeks-paid-holiday.jpg,class2/images/c2l08-six-weeks-paid-holiday.jpg,12.95,16.67
+2,08,workingcondition,A company car,Một công ty sản xuất xe hơi,um carro da empresa,c2l08-a-company-car.jpg,class2/images/c2l08-a-company-car.jpg,16.67,19.84
+2,08,workingcondition,A very good pension scheme,,um esquema de pensão muito bom,c2l08-a-very-good-pension-scheme.jpg,class2/images/c2l08-a-very-good-pension-scheme.jpg,19.84,23.33
+2,08,workingcondition,A pretty good salary,Một mức lương khá tốt ,um salário muito bom,c2l08-a-pretty-good-salary.jpg,class2/images/c2l08-a-pretty-good-salary.jpg,23.33,26.7
+2,08,workingcondition,Getting promoted,Được thăng chức ,ser promovido,c2l08-getting-promoted.jpg,class2/images/c2l08-getting-promoted.jpg,26.7,29.73
+2,08,workingcondition,Working overtime,Làm tăng ca,trabalhar horas extras,c2l08-working-overtime.jpg,class2/images/c2l08-working-overtime.jpg,29.73,32.91
+2,08,workingcondition,Working long hours,Làm việc nhiều giờ liền ,,c2l08-working-long-hours.jpg,class2/images/c2l08-working-long-hours.jpg,32.91,36.35
+2,08,workingcondition,A system of flexi-time,,um sistema de horário de trabalho flexível,c2l08-a-system-of-flexi-time.jpg,class2/images/c2l08-a-system-of-flexi-time.jpg,36.35,40.22
+2,08,workingcondition,Health insurance,Bảo hiểm sức k,plano de saúde,c2l08-health-insurance.jpg,class2/images/c2l08-health-insurance.jpg,40.22,43.39
+2,08,workingcondition,Taking a few days off,Nghỉ việc vài ngày ,tomar alguns dias de folga,c2l08-taking-a-few-days-off.jpg,class2/images/c2l08-taking-a-few-days-off.jpg,43.39,46.84
+2,08,workingcondition,The career ladder,Bậc thang sự nghiệp,a carreira,c2l08-the-career-ladder.jpg,class2/images/c2l08-the-career-ladder.jpg,46.84,50.29
+2,08,workingcondition,Bonus,Thưởng,bônus,c2l08-bonus.jpg,class2/images/c2l08-bonus.jpg,50.29,52.81
+2,08,describingyourjob,Satisfying / Rewarding,Xứng đáng,gratificante / lucrativo,c2l08-satisfying-rewarding.jpg,class2/images/c2l08-satisfying-rewarding.jpg,57.23,60.52
+2,08,describingyourjob,Challenging,"Khó khăn, gian khổ, đầy thách thức ",desafiador,c2l08-challenging.jpg,class2/images/c2l08-challenging.jpg,60.52,63.31
+2,08,describingyourjob,Stressful,Căng thẳng ,estressante,c2l08-stressful.jpg,class2/images/c2l08-stressful.jpg,63.31,65.62
+2,08,describingyourjob,Glamorous,"Đẹp say đắm, quyến rũ",glamoroso,c2l08-glamorous.jpg,class2/images/c2l08-glamorous.jpg,65.62,67.85
+2,08,describingyourjob,Repetitive / Boring,"Lặp đi, lặp lại/ Buồn chán",repetitivo / chato,c2l08-repetitive-boring.jpg,class2/images/c2l08-repetitive-boring.jpg,67.85,71.3
 2,06,whatcanyoudothere,Go sightseeing,Đi ngắm cảnh,ir ver pontos turísticos,c2l06-go-sightseeing.jpg,class2/images/c2l06-go-sightseeing.jpg,12,14.25
 2,06,whatcanyoudothere,Enjoy the beauty of the landscape,Tận hưởng vẻ đẹp của phong cảnh,aproveitar a beleza da paisagem,c2l06-enjoy-the-beauty-of-the-landscape.jpg,class2/images/c2l06-enjoy-the-beauty-of-the-landscape.jpg,14.25,17.06
 2,06,whatcanyoudothere,Visit the museum,Thăm viện bảo tàng,visitar o museu,c2l06-visit-the-museum.jpg,class2/images/c2l06-visit-the-museum.jpg,17.06,21.4
@@ -292,24 +292,24 @@ se casar com alguém",c1l05-marry-someone-get-married-to-someone.jpg,class1/imag
 2,06,purpose,Visit friends / relatives,"Thăm bạn bè, người thân ",visitar amigos / parentes,c2l06-visit-friends-relatives.jpg,class2/images/c2l06-visit-friends-relatives.jpg,99.02,103.18
 2,06,purpose,Take a break from work,Tạm ngưng công việc ,fazer uma pausa no trabalho,c2l06-take-a-break-from-work.jpg,class2/images/c2l06-take-a-break-from-work.jpg,106.91,109.11
 2,06,purpose,Go on vacation,Đi nghỉ mát ,ir de férias,c2l06-go-on-vacation.jpg,class2/images/c2l06-go-on-vacation.jpg,111.39,114.68
-2,06,purpose,go on a business trip,,fazer uma viagem de negócios,c2l06-go-on-a-business-trip.jpg,class2/images/c2l06-go-on-a-business-trip.jpg,114.68,116.94
+2,06,purpose,go on a business trip,Đi công tác,fazer uma viagem de negócios,c2l06-go-on-a-business-trip.jpg,class2/images/c2l06-go-on-a-business-trip.jpg,114.68,116.94
 2,06,purpose,Learn about new cultures and explore new places,,conhecer novas culturas e explore novos lugares,c2l06-learn-about-new-cultures-and-explore-new-places.jpg,class2/images/c2l06-learn-about-new-cultures-and-explore-new-places.jpg,119.37,123.06
-2,10,forfun,To watch interesting videos,,assistir a vídeos interessantes,c2l10-to-watch-interesting-videos.jpg,class2/images/c2l10-to-watch-interesting-videos.jpg,11.12,13.7
-2,10,forfun,To listen to music,,ouvir música,c2l10-to-listen-to-music.jpg,class2/images/c2l10-to-listen-to-music.jpg,13.7,16.18
-2,10,forfun,To play online games,,jogar jogos online,c2l10-to-play-online-games.jpg,class2/images/c2l10-to-play-online-games.jpg,16.18,19.47
-2,10,forfun,To chat with friends,,conversar com meus amigos,c2l10-to-chat-with-friends.jpg,class2/images/c2l10-to-chat-with-friends.jpg,19.47,22.08
-2,10,foreducation,To read news,,ler notícias,c2l10-to-read-news.jpg,class2/images/c2l10-to-read-news.jpg,24.5,26.33
-2,10,foreducation,To search for some information I need,,procurar algumas informações que eu preciso,c2l10-to-search-for-some-information-i-need.jpg,class2/images/c2l10-to-search-for-some-information-i-need.jpg,26.33,29.75
-2,10,foreducation,To check e-mails,,verificar correio eletrônico,c2l10-to-check-e-mails.jpg,class2/images/c2l10-to-check-e-mails.jpg,29.75,31.93
-2,10,forotherpurposes,"To order / buy / sell / advertise products online (food, clothes, cosmetics…)",,"pedir / comprar / vender / anunciar produtos on-line (alimentos, roupas, cosméticos ...)",c2l10-to-order-buy-sell-advertise-products-online-food-clothes-cosmetics-.jpg,class2/images/c2l10-to-order-buy-sell-advertise-products-online-food-clothes-cosmetics-.jpg,34.38,44.68
-2,10,forotherpurposes,To compare prices,,comparar preços,c2l10-to-compare-prices.jpg,class2/images/c2l10-to-compare-prices.jpg,44.68,46.91
-2,10,forotherpurposes,To read the reviews of the products I want to buy / the movie they intend to watch,,ler comentários dos produtos que eu quero comprar / do filme que pretende assistir,c2l10-to-read-the-reviews-of-the-products-i-want-to-buy-the-movie-they-intend-to-watch.jpg,class2/images/c2l10-to-read-the-reviews-of-the-products-i-want-to-buy-the-movie-they-intend-to-watch.jpg,46.91,53.93
+2,10,forfun,To watch interesting videos,Xem những video thú vị,assistir a vídeos interessantes,c2l10-to-watch-interesting-videos.jpg,class2/images/c2l10-to-watch-interesting-videos.jpg,11.12,13.7
+2,10,forfun,To listen to music,Nghe nhạc,ouvir música,c2l10-to-listen-to-music.jpg,class2/images/c2l10-to-listen-to-music.jpg,13.7,16.18
+2,10,forfun,To play online games,Chơi game online,jogar jogos online,c2l10-to-play-online-games.jpg,class2/images/c2l10-to-play-online-games.jpg,16.18,19.47
+2,10,forfun,To chat with friends,Trò chuyện với bạn bè,conversar com meus amigos,c2l10-to-chat-with-friends.jpg,class2/images/c2l10-to-chat-with-friends.jpg,19.47,22.08
+2,10,foreducation,To read news,Đọc tin tức,ler notícias,c2l10-to-read-news.jpg,class2/images/c2l10-to-read-news.jpg,24.5,26.33
+2,10,foreducation,To search for some information I need,Tìm kiếm những thông tin tôi cần,procurar algumas informações que eu preciso,c2l10-to-search-for-some-information-i-need.jpg,class2/images/c2l10-to-search-for-some-information-i-need.jpg,26.33,29.75
+2,10,foreducation,To check e-mails,Kiểm tra e-mail,verificar correio eletrônico,c2l10-to-check-e-mails.jpg,class2/images/c2l10-to-check-e-mails.jpg,29.75,31.93
+2,10,forotherpurposes,"To order / buy / sell / advertise products online (food, clothes, cosmetics…)","Đặt/ bán / mua / quảng cáo sản phẩm online (thức ăn, quần áo, mỹ phẩm...)","pedir / comprar / vender / anunciar produtos on-line (alimentos, roupas, cosméticos ...)",c2l10-to-order-buy-sell-advertise-products-online-food-clothes-cosmetics-.jpg,class2/images/c2l10-to-order-buy-sell-advertise-products-online-food-clothes-cosmetics-.jpg,34.38,44.68
+2,10,forotherpurposes,To compare prices,So sánh giá,comparar preços,c2l10-to-compare-prices.jpg,class2/images/c2l10-to-compare-prices.jpg,44.68,46.91
+2,10,forotherpurposes,To read the reviews of the products I want to buy / the movie they intend to watch,Xem nhận xét về sản phẩm tôi muốn mua/ bộ phim tôi định xem,ler comentários dos produtos que eu quero comprar / do filme que pretende assistir,c2l10-to-read-the-reviews-of-the-products-i-want-to-buy-the-movie-they-intend-to-watch.jpg,class2/images/c2l10-to-read-the-reviews-of-the-products-i-want-to-buy-the-movie-they-intend-to-watch.jpg,46.91,53.93
 2,04,favoritekindofmovie,Comedy,Phim hài,comédia,c2l04-comedy.jpg,class2/images/c2l04-comedy.jpg,13.28,14.19
 2,04,favoritekindofmovie,Drama,Kịch,drama,c2l04-drama.jpg,class2/images/c2l04-drama.jpg,15.82,16.8
 2,04,favoritekindofmovie,Romantic movie,Phim lãng mạng,filme romântico,c2l04-romantic-movie.jpg,class2/images/c2l04-romantic-movie.jpg,18.54,20.03
 2,04,favoritekindofmovie,Horror movie,Phim kinh dị,filme de terror,c2l04-horror-movie.jpg,class2/images/c2l04-horror-movie.jpg,21.56,22.78
 2,04,favoritekindofmovie,Science-fiction movie,Phim khoa học viễn tưởng,filme de ficção cientifica,c2l04-science-fiction-movie.jpg,class2/images/c2l04-science-fiction-movie.jpg,24.31,25.99
-2,04,favoritekindofmovie,Cartoon,Phim hoạt hìn,cartum,c2l04-cartoon.jpg,class2/images/c2l04-cartoon.jpg,27.41,28.26
+2,04,favoritekindofmovie,Cartoon,Phim hoạt hình,cartum,c2l04-cartoon.jpg,class2/images/c2l04-cartoon.jpg,27.41,28.26
 2,04,favoritekindofmovie,Action movie,Phim hành động,filme de ação,c2l04-action-movie.jpg,class2/images/c2l04-action-movie.jpg,30.06,31.19
 2,04,favoritekindofmovie,Western movie,Phim tây,filme de bangue-bangue,c2l04-western-movie.jpg,class2/images/c2l04-western-movie.jpg,32.81,34.09
 2,04,favoritekindofmovie,Korean movie,Phim Hàn Quốc,filme coreano,c2l04-korean-movie.jpg,class2/images/c2l04-korean-movie.jpg,35.76,37.05
@@ -325,119 +325,119 @@ se casar com alguém",c1l05-marry-someone-get-married-to-someone.jpg,class1/imag
 2,04,movielike,Thought-provoking,Kích thích suy nghĩ,contemplativo,c2l04-thought-provoking.jpg,class2/images/c2l04-thought-provoking.jpg,91.46,93.08
 2,04,movielike,Amazing / wonderful / fantastic / awesome / great,Tuyệt vời,bárbaro / maravilhoso / fantástico / esplêndido / ótimo,c2l04-amazing-wonderful-fantastic-awesome-great.jpg,class2/images/c2l04-amazing-wonderful-fantastic-awesome-great.jpg,95.19,103.82
 2,04,movielike,Terrible / awful / disgusting / disappointing / silly / boring / weird,Tệ / Tệ / Thấy gớm/ Gây thất vọng/ Ngớ ngần / Chán / Kì cục,terrível / horrível / nojento / decepcionante / tolo / chato / esquisito,c2l04-terrible-awful-disgusting-disappointing-silly-boring-weird.jpg,class2/images/c2l04-terrible-awful-disgusting-disappointing-silly-boring-weird.jpg,105.81,118.95
-2,11,vocabulary,Beautiful,,bonito,c2l11-beautiful.jpg,class2/images/c2l11-beautiful.jpg,,
-2,11,vocabulary,Attractive,,atraente,c2l11-attractive.jpg,class2/images/c2l11-attractive.jpg,,
-2,11,vocabulary,Gorgeous,,linda,c2l11-gorgeous.jpg,class2/images/c2l11-gorgeous.jpg,,
-2,11,vocabulary,Stunning,,impressionante,c2l11-stunning.jpg,class2/images/c2l11-stunning.jpg,,
-2,11,vocabulary,Plain,,simples,c2l11-plain.jpg,class2/images/c2l11-plain.jpg,,
-2,11,vocabulary,Ordinary-looking,,de aparência comum,c2l11-ordinary-looking.jpg,class2/images/c2l11-ordinary-looking.jpg,,
-2,11,vocabulary,Bad-looking,,feio,c2l11-bad-looking.jpg,class2/images/c2l11-bad-looking.jpg,,
-2,11,vocabulary,Bear a strong resemblance to,,ter uma forte semelhança com,c2l11-bear-a-strong-resemblance-to.jpg,class2/images/c2l11-bear-a-strong-resemblance-to.jpg,,
-2,11,age,Young,,jovem,c2l11-young.jpg,class2/images/c2l11-young.jpg,,
-2,11,age,Old,,velho,c2l11-old.jpg,class2/images/c2l11-old.jpg,,
-2,11,age,Middle-aged,,de meia-idade,c2l11-middle-aged.jpg,class2/images/c2l11-middle-aged.jpg,,
-2,11,build,Thin,,magro,c2l11-thin.jpg,class2/images/c2l11-thin.jpg,,
-2,11,build,Slim,,esbelto,c2l11-slim.jpg,class2/images/c2l11-slim.jpg,,
-2,11,build,Well-built,,de bom físico,c2l11-well-built.jpg,class2/images/c2l11-well-built.jpg,,
-2,11,build,Muscular,,musculoso,c2l11-muscular.jpg,class2/images/c2l11-muscular.jpg,,
-2,11,build,Overweight,,com excesso de peso,c2l11-overweight.jpg,class2/images/c2l11-overweight.jpg,,
-2,11,build,Fat,,gordo,c2l11-fat.jpg,class2/images/c2l11-fat.jpg,,
-2,11,build,Obese,,obeso,c2l11-obese.jpg,class2/images/c2l11-obese.jpg,,
-2,11,height,Tall,,alto,c2l11-tall.jpg,class2/images/c2l11-tall.jpg,,
-2,11,height,Of medium height,,de altura média,c2l11-of-medium-height.jpg,class2/images/c2l11-of-medium-height.jpg,,
-2,11,height,Short,,baixo,c2l11-short.jpg,class2/images/c2l11-short.jpg,,
-2,11,face,Oval,,elíptico,c2l11-oval.jpg,class2/images/c2l11-oval.jpg,,
-2,11,face,Round,,redondo,c2l11-round.jpg,class2/images/c2l11-round.jpg,,
-2,11,face,Square,,quadrado,c2l11-square.jpg,class2/images/c2l11-square.jpg,,
-2,11,face,Long,,comprido,c2l11-long.jpg,class2/images/c2l11-long.jpg,,
-2,11,lips,Full,,cheio,c2l11-full.jpg,class2/images/c2l11-full.jpg,,
-2,11,lips,Thick,,grosso,c2l11-thick.jpg,class2/images/c2l11-thick.jpg,,
-2,11,lips,Thin,,fino,c2l11-thin.jpg,class2/images/c2l11-thin.jpg,,
-2,11,lips,Glossy,,lustroso,c2l11-glossy.jpg,class2/images/c2l11-glossy.jpg,,
-2,11,lips,Cracked,,rachado,c2l11-cracked.jpg,class2/images/c2l11-cracked.jpg,,
-2,11,skin,Skin,,pele,c2l11-skin.jpg,class2/images/c2l11-skin.jpg,,
-2,11,skin,Fair,,clara,c2l11-fair.jpg,class2/images/c2l11-fair.jpg,,
-2,11,skin,Dark,,escuro,c2l11-dark.jpg,class2/images/c2l11-dark.jpg,,
-2,11,skin,Tanned,,bronzeado,c2l11-tanned.jpg,class2/images/c2l11-tanned.jpg,,
-2,11,skin,Smooth,,suave,c2l11-smooth.jpg,class2/images/c2l11-smooth.jpg,,
-2,11,skin,Soft,,macio,c2l11-soft.jpg,class2/images/c2l11-soft.jpg,,
-2,11,skin,Wrinkled,,enrugada,c2l11-wrinkled.jpg,class2/images/c2l11-wrinkled.jpg,,
-2,11,skin,Radiant,,radiante,c2l11-radiant.jpg,class2/images/c2l11-radiant.jpg,,
-2,11,skin,Pale,,pálido,c2l11-pale.jpg,class2/images/c2l11-pale.jpg,,
-2,11,skin,Flawless,,perfeito,c2l11-flawless.jpg,class2/images/c2l11-flawless.jpg,,
-2,11,skin,Freckled,,sardento,c2l11-freckled.jpg,class2/images/c2l11-freckled.jpg,,
-2,11,nose,Big,,grande,c2l11-big.jpg,class2/images/c2l11-big.jpg,,
-2,11,nose,Small,,pequeno,c2l11-small.jpg,class2/images/c2l11-small.jpg,,
-2,11,nose,Straight,,reto,c2l11-straight.jpg,class2/images/c2l11-straight.jpg,,
-2,11,nose,Hooked,,curvo,c2l11-hooked.jpg,class2/images/c2l11-hooked.jpg,,
-2,11,nose,upturned,,empinado,c2l11-upturned.jpg,class2/images/c2l11-upturned.jpg,,
-2,11,nose,Flat,,achatado,c2l11-flat.jpg,class2/images/c2l11-flat.jpg,,
-2,11,eyebrows,Thick,,grosso,c2l11-thick.jpg,class2/images/c2l11-thick.jpg,,
-2,11,eyebrows,Bushy,,espesso,c2l11-bushy.jpg,class2/images/c2l11-bushy.jpg,,
-2,11,eyebrows,Thin,,fino,c2l11-thin.jpg,class2/images/c2l11-thin.jpg,,
-2,12,personality,Humorous,,bem-humorado,c2l12-humorous.jpg,class2/images/c2l12-humorous.jpg,,
-2,12,personality,Boring,,chato,c2l12-boring.jpg,class2/images/c2l12-boring.jpg,,
-2,12,personality,Rude,,grosseiro,c2l12-rude.jpg,class2/images/c2l12-rude.jpg,,
-2,12,personality,Polite,,cortês,c2l12-polite.jpg,class2/images/c2l12-polite.jpg,,
-2,12,personality,Peaceful,,pacífico,c2l12-peaceful.jpg,class2/images/c2l12-peaceful.jpg,,
-2,12,personality,Aggressive,,agressivo,c2l12-aggressive.jpg,class2/images/c2l12-aggressive.jpg,,
-2,12,personality,Obedient,,dócil,c2l12-obedient.jpg,class2/images/c2l12-obedient.jpg,,
-2,12,personality,Stubborn,,teimoso,c2l12-stubborn.jpg,class2/images/c2l12-stubborn.jpg,,
-2,12,personality,Active,,ativo,c2l12-active.jpg,class2/images/c2l12-active.jpg,,
-2,12,personality,Passive,,passivo,c2l12-passive.jpg,class2/images/c2l12-passive.jpg,,
-2,12,personality,Cheerful,,animado,c2l12-cheerful.jpg,class2/images/c2l12-cheerful.jpg,,
-2,12,personality,Depressed,,deprimido,c2l12-depressed.jpg,class2/images/c2l12-depressed.jpg,,
-2,12,personality,Extroverted,,extrovertido,c2l12-extroverted.jpg,class2/images/c2l12-extroverted.jpg,,
-2,12,personality,Introverted,,introvertido,c2l12-introverted.jpg,class2/images/c2l12-introverted.jpg,,
-2,12,personality,Shy,,tímido,c2l12-shy.jpg,class2/images/c2l12-shy.jpg,,
-2,12,personality,Confident,,seguro,c2l12-confident.jpg,class2/images/c2l12-confident.jpg,,
-2,12,personality,Simple,,simples,c2l12-simple.jpg,class2/images/c2l12-simple.jpg,,
-2,12,personality,Complicated,,complexo,c2l12-complicated.jpg,class2/images/c2l12-complicated.jpg,,
-2,12,personality,Helpful,,prestativo,c2l12-helpful.jpg,class2/images/c2l12-helpful.jpg,,
-2,12,personality,Bossy,,mandão,c2l12-bossy.jpg,class2/images/c2l12-bossy.jpg,,
-2,12,personality,Honest,,sincero,c2l12-honest.jpg,class2/images/c2l12-honest.jpg,,
-2,12,personality,Dishonest,,fraudulento,c2l12-dishonest.jpg,class2/images/c2l12-dishonest.jpg,,
-2,12,personality,Humble,,humilde,c2l12-humble.jpg,class2/images/c2l12-humble.jpg,,
-2,12,personality,Self-centered,,egocêntrico,c2l12-self-centered.jpg,class2/images/c2l12-self-centered.jpg,,
-2,12,personality,Mature,,maduro,c2l12-mature.jpg,class2/images/c2l12-mature.jpg,,
-2,12,personality,Immature,,imaturo,c2l12-immature.jpg,class2/images/c2l12-immature.jpg,,
-2,12,personality,Generous,,generoso,c2l12-generous.jpg,class2/images/c2l12-generous.jpg,,
-2,12,personality,Selfish,,egoísta,c2l12-selfish.jpg,class2/images/c2l12-selfish.jpg,,
-2,12,personality,Open-minded,,compreensivo,c2l12-open-minded.jpg,class2/images/c2l12-open-minded.jpg,,
-2,12,personality,Narrow-minded,,limitado,c2l12-narrow-minded.jpg,class2/images/c2l12-narrow-minded.jpg,,
-2,12,personality,Two-faced,,hipócrita,c2l12-two-faced.jpg,class2/images/c2l12-two-faced.jpg,,
-2,12,personality,Warm-hearted,,caloroso,c2l12-warm-hearted.jpg,class2/images/c2l12-warm-hearted.jpg,,
-1,12,vocabulary,Shoe shop,,loja de calçados,c1l12-shoe-shop.jpg,class1/images/c1l12-shoe-shop.jpg,9.9,11.57
-1,12,vocabulary,Cinema,,cinema,c1l12-cinema.jpg,class1/images/c1l12-cinema.jpg,11.57,13.56
-1,12,vocabulary,Beach,,praia,c1l12-beach.jpg,class1/images/c1l12-beach.jpg,13.56,15.31
-1,12,vocabulary,Coffee shop,,cafe,c1l12-coffee-shop.jpg,class1/images/c1l12-coffee-shop.jpg,15.31,17.15
-1,12,vocabulary,Bakery,,padaria,c1l12-bakery.jpg,class1/images/c1l12-bakery.jpg,17.15,19.3
-1,12,vocabulary,School,,escola,c1l12-school.jpg,class1/images/c1l12-school.jpg,19.3,21.03
-1,12,vocabulary,Restaurant,,restaurante,c1l12-restaurant.jpg,class1/images/c1l12-restaurant.jpg,21.03,22.85
-1,12,vocabulary,Church,,igreja,c1l12-church.jpg,class1/images/c1l12-church.jpg,22.85,24.33
-1,12,vocabulary,Bank,,banco,c1l12-bank.jpg,class1/images/c1l12-bank.jpg,,
-1,12,vocabulary,Hospital,,hospital,c1l12-hospital.jpg,class1/images/c1l12-hospital.jpg,,
-1,12,vocabulary,Supermarket,,supermercado,c1l12-supermarket.jpg,class1/images/c1l12-supermarket.jpg,,
-1,12,vocabulary,Factory,,fábrica,c1l12-factory.jpg,class1/images/c1l12-factory.jpg,,
-1,12,vocabulary,Airport,,aeroporto,c1l12-airport.jpg,class1/images/c1l12-airport.jpg,,
-1,12,vocabulary,Hotel,,hotel,c1l12-hotel.jpg,class1/images/c1l12-hotel.jpg,,
-1,12,vocabulary,Bus Stop,,ponto de ônibus,c1l12-bus-stop.jpg,class1/images/c1l12-bus-stop.jpg,,
-1,12,vocabulary,Street,,rua,c1l12-street.jpg,class1/images/c1l12-street.jpg,,
-1,12,vocabulary,Drugstore,,drogaria,c1l12-drugstore.jpg,class1/images/c1l12-drugstore.jpg,,
-1,12,vocabulary,Clothes Store,,loja de roupas,c1l12-clothes-store.jpg,class1/images/c1l12-clothes-store.jpg,,
-1,12,vocabulary,Kitchen,,cozinha,c1l12-kitchen.jpg,class1/images/c1l12-kitchen.jpg,,
-1,12,vocabulary,Wall,,muralha,c1l12-wall.jpg,class1/images/c1l12-wall.jpg,,
-1,12,vocabulary,Park,,parque,c1l12-park.jpg,class1/images/c1l12-park.jpg,,
-1,12,vocabulary,Bookstore,,livraria,c1l12-bookstore.jpg,class1/images/c1l12-bookstore.jpg,,
-1,12,vocabulary,Museum,,museu,c1l12-museum.jpg,class1/images/c1l12-museum.jpg,,
-1,12,vocabulary,Swimming Pool,,piscina,c1l12-swimming-pool.jpg,class1/images/c1l12-swimming-pool.jpg,,
-1,12,vocabulary,Ground,,chão,c1l12-ground.jpg,class1/images/c1l12-ground.jpg,,
-1,12,vocabulary,Hand,,mão,c1l12-hand.jpg,class1/images/c1l12-hand.jpg,,
-1,12,vocabulary,Fridge,,geladeira,c1l12-fridge.jpg,class1/images/c1l12-fridge.jpg,,
-1,12,vocabulary,Trash Can,,lixeira,c1l12-trash-can.jpg,class1/images/c1l12-trash-can.jpg,,
-1,12,vocabulary,Hair Salon,,cabeleireiro,c1l12-hair-salon.jpg,class1/images/c1l12-hair-salon.jpg,,
-1,12,vocabulary,Post Office,,correio,c1l12-post-office.jpg,class1/images/c1l12-post-office.jpg,,
-1,12,vocabulary,Library,,biblioteca,c1l12-library.jpg,class1/images/c1l12-library.jpg,,
+2,11,vocabulary,Beautiful,Đẹp,bonito,c2l11-beautiful.jpg,class2/images/c2l11-beautiful.jpg,9.82,10.87
+2,11,vocabulary,Attractive,Thu hút,atraente,c2l11-attractive.jpg,class2/images/c2l11-attractive.jpg,12.05,13.4
+2,11,vocabulary,Gorgeous,Đẹo lộng lẫy,linda,c2l11-gorgeous.jpg,class2/images/c2l11-gorgeous.jpg,14.47,16.01
+2,11,vocabulary,Stunning,Đẹp sửng sốt,impressionante,c2l11-stunning.jpg,class2/images/c2l11-stunning.jpg,16.94,18.17
+2,11,vocabulary,Plain,Xấu/ Thô/ Đơn giản,simples,c2l11-plain.jpg,class2/images/c2l11-plain.jpg,19.63,20.92
+2,11,vocabulary,Ordinary-looking,Ngoại hình bình thường,de aparência comum,c2l11-ordinary-looking.jpg,class2/images/c2l11-ordinary-looking.jpg,22.11,23.99
+2,11,vocabulary,Bad-looking,Ngoại hình xấu,feio,c2l11-bad-looking.jpg,class2/images/c2l11-bad-looking.jpg,24.94,26.3
+2,11,vocabulary,Bear a strong resemblance to,Rất giống với,ter uma forte semelhança com,c2l11-bear-a-strong-resemblance-to.jpg,class2/images/c2l11-bear-a-strong-resemblance-to.jpg,27.66,29.99
+2,11,age,Young,Trẻ,jovem,c2l11-young.jpg,class2/images/c2l11-young.jpg,33.21,34.23
+2,11,age,Old,Già,velho,c2l11-old.jpg,class2/images/c2l11-old.jpg,44.84,46.07
+2,11,age,Middle-aged,Trung niên,de meia-idade,c2l11-middle-aged.jpg,class2/images/c2l11-middle-aged.jpg,49.73,51.23
+2,11,build,Thin,Ốm,magro,c2l11-thin.jpg,class2/images/c2l11-thin.jpg,57.14,58.68
+2,11,build,Slim,Mảnh dẻ,esbelto,c2l11-slim.jpg,class2/images/c2l11-slim.jpg,60.14,61.63
+2,11,build,Well-built,Vạm vỡ,de bom físico,c2l11-well-built.jpg,class2/images/c2l11-well-built.jpg,63.21,64.72
+2,11,build,Muscular,Người có cơ bắp,musculoso,c2l11-muscular.jpg,class2/images/c2l11-muscular.jpg,66.36,67.87
+2,11,build,Overweight,Quá cân,com excesso de peso,c2l11-overweight.jpg,class2/images/c2l11-overweight.jpg,69.03,70.62
+2,11,build,Fat,Béo phì,gordo,c2l11-fat.jpg,class2/images/c2l11-fat.jpg,71.92,73.68
+2,11,build,Obese,Béo phì,obeso,c2l11-obese.jpg,class2/images/c2l11-obese.jpg,75.12,77.07
+2,11,height,Tall,Cao,alto,c2l11-tall.jpg,class2/images/c2l11-tall.jpg,80.34,81.57
+2,11,height,Of medium height,Cân nặng trung bình,de altura média,c2l11-of-medium-height.jpg,class2/images/c2l11-of-medium-height.jpg,83.2,85.03
+2,11,height,Short,Ngắn,baixo,c2l11-short.jpg,class2/images/c2l11-short.jpg,86.38,88.04
+2,11,face,Oval,Bầu dục,elíptico,c2l11-oval.jpg,class2/images/c2l11-oval.jpg,91.52,93.14
+2,11,face,Round,Tròn,redondo,c2l11-round.jpg,class2/images/c2l11-round.jpg,94.56,96.26
+2,11,face,Square,Vuông,quadrado,c2l11-square.jpg,class2/images/c2l11-square.jpg,96.26,98.91
+2,11,face,Long,Dài,comprido,c2l11-long.jpg,class2/images/c2l11-long.jpg,100.57,102.05
+2,11,lips,Full,Đầy đặn,cheio,c2l11-full.jpg,class2/images/c2l11-full.jpg,104.59,105.8
+2,11,lips,Thick,Dày,grosso,c2l11-thick.jpg,class2/images/c2l11-thick.jpg,107.39,108.8
+2,11,lips,Thin,Mỏng,fino,c2l11-thin.jpg,class2/images/c2l11-thin.jpg,110.14,111.79
+2,11,lips,Glossy,"Hào nhoáng, bóng loáng",lustroso,c2l11-glossy.jpg,class2/images/c2l11-glossy.jpg,113.15,114.96
+2,11,lips,Cracked,Dở hơi,rachado,c2l11-cracked.jpg,class2/images/c2l11-cracked.jpg,116.35,117.87
+2,11,skin,Skin,Da,pele,c2l11-skin.jpg,class2/images/c2l11-skin.jpg,119.2,120.65
+2,11,skin,Fair,Tóc vàng/Da trắng,clara,c2l11-fair.jpg,class2/images/c2l11-fair.jpg,122.24,123.67
+2,11,skin,Dark,Đen,escuro,c2l11-dark.jpg,class2/images/c2l11-dark.jpg,125.13,126.32
+2,11,skin,Tanned,Rám nắng,bronzeado,c2l11-tanned.jpg,class2/images/c2l11-tanned.jpg,127.64,129.64
+2,11,skin,Smooth,Mịn màng,suave,c2l11-smooth.jpg,class2/images/c2l11-smooth.jpg,130.75,132.69
+2,11,skin,Soft,Mềm mại,macio,c2l11-soft.jpg,class2/images/c2l11-soft.jpg,134.04,135.38
+2,11,skin,Wrinkled,Nhăn nheo,enrugada,c2l11-wrinkled.jpg,class2/images/c2l11-wrinkled.jpg,136.89,138.24
+2,11,skin,Radiant,"Lộng lãy, rạng rỡ, sáng chói",radiante,c2l11-radiant.jpg,class2/images/c2l11-radiant.jpg,139.68,141.22
+2,11,skin,Pale,Nhợt nhạt,pálido,c2l11-pale.jpg,class2/images/c2l11-pale.jpg,142.84,144.34
+2,11,skin,Flawless,"Mịn màng, không tì vết",perfeito,c2l11-flawless.jpg,class2/images/c2l11-flawless.jpg,145.97,147.46
+2,11,skin,Freckled,Có tàn nhang,sardento,c2l11-freckled.jpg,class2/images/c2l11-freckled.jpg,148.97,150.34
+2,11,nose,Big,To,grande,c2l11-big.jpg,class2/images/c2l11-big.jpg,153.93,155.29
+2,11,nose,Small,Nhỏ,pequeno,c2l11-small.jpg,class2/images/c2l11-small.jpg,156.7,158.1
+2,11,nose,Straight,Thẳng,reto,c2l11-straight.jpg,class2/images/c2l11-straight.jpg,159.31,160.49
+2,11,nose,Hooked,"Cong, nhọn như móc câu",curvo,c2l11-hooked.jpg,class2/images/c2l11-hooked.jpg,161.69,163.08
+2,11,nose,upturned,Hếch lên,empinado,c2l11-upturned.jpg,class2/images/c2l11-upturned.jpg,164.34,165.77
+2,11,nose,Flat,Mỏng/ lỏng,achatado,c2l11-flat.jpg,class2/images/c2l11-flat.jpg,167.03,168.44
+2,11,eyebrows,Thick,Dày/ đặc,grosso,c2l11-thick.jpg,class2/images/c2l11-thick.jpg,171.05,172.52
+2,11,eyebrows,Bushy,Rậm rạp,espesso,c2l11-bushy.jpg,class2/images/c2l11-bushy.jpg,173.73,175.35
+2,11,eyebrows,Thin,Mỏng/ lỏng,fino,c2l11-thin.jpg,class2/images/c2l11-thin.jpg,176.72,177.74
+2,12,personality,Humorous,Hài hước,bem-humorado,c2l12-humorous.jpg,class2/images/c2l12-humorous.jpg,9.12,10.72
+2,12,personality,Boring,Chán,chato,c2l12-boring.jpg,class2/images/c2l12-boring.jpg,10.72,12.22
+2,12,personality,Rude,Thô lỗ,grosseiro,c2l12-rude.jpg,class2/images/c2l12-rude.jpg,12.22,13.84
+2,12,personality,Polite,Lịch thiệp,cortês,c2l12-polite.jpg,class2/images/c2l12-polite.jpg,13.84,15.43
+2,12,personality,Peaceful,Bình yêu,pacífico,c2l12-peaceful.jpg,class2/images/c2l12-peaceful.jpg,15.43,16.81
+2,12,personality,Aggressive,"Hung hăng, hay kích động",agressivo,c2l12-aggressive.jpg,class2/images/c2l12-aggressive.jpg,16.81,18.27
+2,12,personality,Obedient,"Dễ bao, ngoan ngoãn",dócil,c2l12-obedient.jpg,class2/images/c2l12-obedient.jpg,18.27,19.92
+2,12,personality,Stubborn,"Bướng bỉnh, ngoan cố, ngoan cường",teimoso,c2l12-stubborn.jpg,class2/images/c2l12-stubborn.jpg,19.92,21.56
+2,12,personality,Active,Chủ động,ativo,c2l12-active.jpg,class2/images/c2l12-active.jpg,21.56,23.38
+2,12,personality,Passive,Bị động,passivo,c2l12-passive.jpg,class2/images/c2l12-passive.jpg,23.38,24.88
+2,12,personality,Cheerful,Vui vẻ,animado,c2l12-cheerful.jpg,class2/images/c2l12-cheerful.jpg,24.88,26.47
+2,12,personality,Depressed,Trầm cảm,deprimido,c2l12-depressed.jpg,class2/images/c2l12-depressed.jpg,26.47,28.39
+2,12,personality,Extroverted,Hướng ngoại,extrovertido,c2l12-extroverted.jpg,class2/images/c2l12-extroverted.jpg,28.39,30.3
+2,12,personality,Introverted,Hướng nội,introvertido,c2l12-introverted.jpg,class2/images/c2l12-introverted.jpg,30.3,31.95
+2,12,personality,Shy,"Xấu hổ, ngại",tímido,c2l12-shy.jpg,class2/images/c2l12-shy.jpg,31.95,33.33
+2,12,personality,Confident,Tự tin,seguro,c2l12-confident.jpg,class2/images/c2l12-confident.jpg,33.33,35.31
+2,12,personality,Simple,Đơn giản,simples,c2l12-simple.jpg,class2/images/c2l12-simple.jpg,35.31,36.87
+2,12,personality,Complicated,Phức tạp,complexo,c2l12-complicated.jpg,class2/images/c2l12-complicated.jpg,36.87,38.62
+2,12,personality,Helpful,"Có ích, được việc",prestativo,c2l12-helpful.jpg,class2/images/c2l12-helpful.jpg,38.62,40.35
+2,12,personality,Bossy,"Hách dịch, lộng quyền",mandão,c2l12-bossy.jpg,class2/images/c2l12-bossy.jpg,40.35,42.14
+2,12,personality,Honest,"Trung thực, thật thà",sincero,c2l12-honest.jpg,class2/images/c2l12-honest.jpg,42.14,43.8
+2,12,personality,Dishonest,"Không trung thực, bất lương",fraudulento,c2l12-dishonest.jpg,class2/images/c2l12-dishonest.jpg,43.8,45.67
+2,12,personality,Humble,Khiêm tốn,humilde,c2l12-humble.jpg,class2/images/c2l12-humble.jpg,45.67,46.85
+2,12,personality,Self-centered,"Ích kỉ, tự cho mình là trung tâm",egocêntrico,c2l12-self-centered.jpg,class2/images/c2l12-self-centered.jpg,46.85,48.81
+2,12,personality,Mature,"Chính chắn, trưởng thành",maduro,c2l12-mature.jpg,class2/images/c2l12-mature.jpg,48.81,50.46
+2,12,personality,Immature,"Trẻ con, bồng bột",imaturo,c2l12-immature.jpg,class2/images/c2l12-immature.jpg,50.46,52.36
+2,12,personality,Generous,Rộng lượng,generoso,c2l12-generous.jpg,class2/images/c2l12-generous.jpg,52.36,54.37
+2,12,personality,Selfish,Ích kỉ,egoísta,c2l12-selfish.jpg,class2/images/c2l12-selfish.jpg,54.37,55.93
+2,12,personality,Open-minded,Cởi mở,compreensivo,c2l12-open-minded.jpg,class2/images/c2l12-open-minded.jpg,55.93,57.95
+2,12,personality,Narrow-minded,"Hẹp hòi, nhỏ nhen",limitado,c2l12-narrow-minded.jpg,class2/images/c2l12-narrow-minded.jpg,57.95,59.78
+2,12,personality,Two-faced,Hai mặt. xảo trá,hipócrita,c2l12-two-faced.jpg,class2/images/c2l12-two-faced.jpg,59.78,61.74
+2,12,personality,Warm-hearted,"Nhiệt tâm, tốt bụng",caloroso,c2l12-warm-hearted.jpg,class2/images/c2l12-warm-hearted.jpg,61.74,63.34
+1,12,vocabulary,Shoe shop,Hiệu giày,loja de calçados,c1l12-shoe-shop.jpg,class1/images/c1l12-shoe-shop.jpg,9.9,11.57
+1,12,vocabulary,Cinema,Rạp phim,cinema,c1l12-cinema.jpg,class1/images/c1l12-cinema.jpg,11.57,13.56
+1,12,vocabulary,Beach,Bãi biển,praia,c1l12-beach.jpg,class1/images/c1l12-beach.jpg,13.56,15.31
+1,12,vocabulary,Coffee shop,Quán cà phê,cafe,c1l12-coffee-shop.jpg,class1/images/c1l12-coffee-shop.jpg,15.31,17.15
+1,12,vocabulary,Bakery,Lò bánh,padaria,c1l12-bakery.jpg,class1/images/c1l12-bakery.jpg,17.15,19.3
+1,12,vocabulary,School,Trường học,escola,c1l12-school.jpg,class1/images/c1l12-school.jpg,19.3,21.03
+1,12,vocabulary,Restaurant,Nhà hàng,restaurante,c1l12-restaurant.jpg,class1/images/c1l12-restaurant.jpg,21.03,22.85
+1,12,vocabulary,Church,Nhà thờ,igreja,c1l12-church.jpg,class1/images/c1l12-church.jpg,22.85,24.33
+1,12,vocabulary,Bank,Ngân hàng,banco,c1l12-bank.jpg,class1/images/c1l12-bank.jpg,,
+1,12,vocabulary,Hospital,Bệnh viện,hospital,c1l12-hospital.jpg,class1/images/c1l12-hospital.jpg,,
+1,12,vocabulary,Supermarket,Siêu thị,supermercado,c1l12-supermarket.jpg,class1/images/c1l12-supermarket.jpg,,
+1,12,vocabulary,Factory,Xií nghiệp,fábrica,c1l12-factory.jpg,class1/images/c1l12-factory.jpg,,
+1,12,vocabulary,Airport,Sân bay,aeroporto,c1l12-airport.jpg,class1/images/c1l12-airport.jpg,,
+1,12,vocabulary,Hotel,Khách sạn,hotel,c1l12-hotel.jpg,class1/images/c1l12-hotel.jpg,,
+1,12,vocabulary,Bus Stop,Trạm dừng xe buýt,ponto de ônibus,c1l12-bus-stop.jpg,class1/images/c1l12-bus-stop.jpg,,
+1,12,vocabulary,Street,Đường phố,rua,c1l12-street.jpg,class1/images/c1l12-street.jpg,,
+1,12,vocabulary,Drugstore,Hiệu thuốc,drogaria,c1l12-drugstore.jpg,class1/images/c1l12-drugstore.jpg,,
+1,12,vocabulary,Clothes Store,Hiệu quần áo,loja de roupas,c1l12-clothes-store.jpg,class1/images/c1l12-clothes-store.jpg,,
+1,12,vocabulary,Kitchen,Nhà bếp,cozinha,c1l12-kitchen.jpg,class1/images/c1l12-kitchen.jpg,,
+1,12,vocabulary,Wall,Bức tường,muralha,c1l12-wall.jpg,class1/images/c1l12-wall.jpg,,
+1,12,vocabulary,Park,Công viên,parque,c1l12-park.jpg,class1/images/c1l12-park.jpg,,
+1,12,vocabulary,Bookstore,Hiệu sách,livraria,c1l12-bookstore.jpg,class1/images/c1l12-bookstore.jpg,,
+1,12,vocabulary,Museum,Bảo tàng,museu,c1l12-museum.jpg,class1/images/c1l12-museum.jpg,,
+1,12,vocabulary,Swimming Pool,Hồ bơi,piscina,c1l12-swimming-pool.jpg,class1/images/c1l12-swimming-pool.jpg,,
+1,12,vocabulary,Ground,Sân chơi/ Đất,chão,c1l12-ground.jpg,class1/images/c1l12-ground.jpg,,
+1,12,vocabulary,Hand,Tay,mão,c1l12-hand.jpg,class1/images/c1l12-hand.jpg,,
+1,12,vocabulary,Fridge,Tủ lạnh,geladeira,c1l12-fridge.jpg,class1/images/c1l12-fridge.jpg,,
+1,12,vocabulary,Trash Can,Thùng rác,lixeira,c1l12-trash-can.jpg,class1/images/c1l12-trash-can.jpg,,
+1,12,vocabulary,Hair Salon,Tiệm làm tóc,cabeleireiro,c1l12-hair-salon.jpg,class1/images/c1l12-hair-salon.jpg,,
+1,12,vocabulary,Post Office,Bưu điện,correio,c1l12-post-office.jpg,class1/images/c1l12-post-office.jpg,,
+1,12,vocabulary,Library,Thư viện,biblioteca,c1l12-library.jpg,class1/images/c1l12-library.jpg,,
 1,13,vocabulary,Farmer,Nông dân,fazendeiro/a,c1l13-farmer.jpg,class1/images/c1l13-farmer.jpg,,
 1,13,vocabulary,Priest,Thầy tu,sacerdote,c1l13-priest.jpg,class1/images/c1l13-priest.jpg,,
 1,13,vocabulary,Mechanic,Thợ cơ khí ,mecânico/a,c1l13-mechanic.jpg,class1/images/c1l13-mechanic.jpg,,
@@ -682,130 +682,130 @@ se casar com alguém",c1l05-marry-someone-get-married-to-someone.jpg,class1/imag
 2,16,vocabulary,Have good chemistry,Có cảm xúc mãnh liệt,ter boa química,c2l16-have-good-chemistry.jpg,class2/images/c2l16-have-good-chemistry.jpg,22.03,24.08
 2,16,vocabulary,Play hard to get,Giả vờ kiêu kì,fazer-se rogar ,c2l16-play-hard-to-get.jpg,class2/images/c2l16-play-hard-to-get.jpg,24.08,25.68
 2,16,vocabulary,Enjoy someone’s company,Thích ở cùng ai đó,desfrutar da companhia de alguém,c2l16-enjoy-someone-s-company.jpg,class2/images/c2l16-enjoy-someone-s-company.jpg,25.68,28.04
-2,16,vocabulary,Fall for someone,,apaixonar-se por alguém,c2l16-fall-for-someone.jpg,class2/images/c2l16-fall-for-someone.jpg,28.04,29.92
-2,16,vocabulary,Fall out with,,cair em desgraça ,c2l16-fall-out-with.jpg,class2/images/c2l16-fall-out-with.jpg,29.92,31.87
-2,16,vocabulary,Drift apart,,afastar-se,c2l16-drift-apart.jpg,class2/images/c2l16-drift-apart.jpg,31.87,33.28
-2,16,vocabulary,Be just good friends,,ser apenas bons amigos,c2l16-be-just-good-friends.jpg,class2/images/c2l16-be-just-good-friends.jpg,33.28,35.5
-2,16,vocabulary,Keep in touch with,,manter contato com,c2l16-keep-in-touch-with.jpg,class2/images/c2l16-keep-in-touch-with.jpg,35.5,37.47
-2,16,vocabulary,Lose touch with,,perder o contato com,c2l16-lose-touch-with.jpg,class2/images/c2l16-lose-touch-with.jpg,37.47,39.35
-2,16,vocabulary,Love at first sight,,amor à primeira vista,c2l16-love-at-first-sight.jpg,class2/images/c2l16-love-at-first-sight.jpg,39.35,41.61
-2,16,vocabulary,Pop the question,,propor,c2l16-pop-the-question.jpg,class2/images/c2l16-pop-the-question.jpg,41.61,43.46
-2,16,vocabulary,Tie the knot,,casar,c2l16-tie-the-knot.jpg,class2/images/c2l16-tie-the-knot.jpg,43.46,45.28
-2,16,vocabulary,See eye to eye,,estar de acordo,c2l16-see-eye-to-eye.jpg,class2/images/c2l16-see-eye-to-eye.jpg,45.28,47.47
-2,16,vocabulary,Settle down,,sossegar,c2l16-settle-down.jpg,class2/images/c2l16-settle-down.jpg,47.47,48.85
-2,17,subject,Mathematics,,matemática,c2l17-mathematics.jpg,class2/images/c2l17-mathematics.jpg,9,10.2
-2,17,subject,Literature,,literatura,c2l17-literature.jpg,class2/images/c2l17-literature.jpg,10.2,11.78
-2,17,subject,Chemistry,,química,c2l17-chemistry.jpg,class2/images/c2l17-chemistry.jpg,11.78,12.8
-2,17,subject,Biology,,biologia,c2l17-biology.jpg,class2/images/c2l17-biology.jpg,12.8,14.82
-2,17,subject,Economics,,economia,c2l17-economics.jpg,class2/images/c2l17-economics.jpg,14.82,16.47
-2,17,subject,History,,história,c2l17-history.jpg,class2/images/c2l17-history.jpg,16.47,17.79
-2,17,subject,Computer Science,,ciência da computação,c2l17-computer-science.jpg,class2/images/c2l17-computer-science.jpg,17.79,19.58
-2,17,subject,Arts,,arte,c2l17-arts.jpg,class2/images/c2l17-arts.jpg,19.58,21.26
-2,17,subject,Geography,,geografia,c2l17-geography.jpg,class2/images/c2l17-geography.jpg,21.26,22.56
-2,17,subject,Physics,,física,c2l17-physics.jpg,class2/images/c2l17-physics.jpg,22.56,23.86
-2,17,subject,Physical Education/ PE,,educação física,c2l17-physical-education-pe.jpg,class2/images/c2l17-physical-education-pe.jpg,23.86,27.37
-2,17,subject,Psychology,,psicologia,c2l17-psychology.jpg,class2/images/c2l17-psychology.jpg,27.37,28.7
-2,17,subject,Marxist-Leninist philosophy,,marxismo-leninismo,c2l17-marxist-leninist-philosophy.jpg,class2/images/c2l17-marxist-leninist-philosophy.jpg,28.7,31.73
-2,17,subject,Statistics,,estatística,c2l17-statistics.jpg,class2/images/c2l17-statistics.jpg,31.73,33.24
-2,17,subject,History of the Communist Party,,história do Partido Comunista,c2l17-history-of-the-communist-party.jpg,class2/images/c2l17-history-of-the-communist-party.jpg,33.24,35.27
-2,17,subject,Ho Chi Minh ideology,,ideologia de Ho Chi Minh,c2l17-ho-chi-minh-ideology.jpg,class2/images/c2l17-ho-chi-minh-ideology.jpg,35.27,37.98
-2,17,subject,Consumer / customer behavior,,comportamento do consumidor / cliente,c2l17-consumer-customer-behavior.jpg,class2/images/c2l17-consumer-customer-behavior.jpg,37.98,41.21
-2,17,major,Architecture,,arquitetura,c2l17-architecture.jpg,class2/images/c2l17-architecture.jpg,43.45,45.31
-2,17,major,Engineering,,engenharia,c2l17-engineering.jpg,class2/images/c2l17-engineering.jpg,45.31,46.73
-2,17,major,Journalism,,jornalismo,c2l17-journalism.jpg,class2/images/c2l17-journalism.jpg,46.73,48.3
-2,17,major,Medicine,,medicina,c2l17-medicine.jpg,class2/images/c2l17-medicine.jpg,48.3,49.33
-2,17,major,Sociology,,sociologia,c2l17-sociology.jpg,class2/images/c2l17-sociology.jpg,49.33,50.68
-2,17,major,Tourism and hospitality management,,gestão de turismo e hospitalidade,c2l17-tourism-and-hospitality-management.jpg,class2/images/c2l17-tourism-and-hospitality-management.jpg,50.68,53.56
-2,17,major,Information technology,,tecnologia da informação,c2l17-information-technology.jpg,class2/images/c2l17-information-technology.jpg,53.56,55.66
-2,17,major,Business Administration,,administração de empresas,c2l17-business-administration.jpg,class2/images/c2l17-business-administration.jpg,55.66,58.11
-2,17,major,Accounting,,contabilidade,c2l17-accounting.jpg,class2/images/c2l17-accounting.jpg,58.11,59.78
-2,17,exams,Resit,,tomar (um exame) novamente depois de falhar,c2l17-resit.jpg,class2/images/c2l17-resit.jpg,61.95,62.74
-2,17,exams,Pass,,passar,c2l17-pass.jpg,class2/images/c2l17-pass.jpg,62.74,63.1
-2,17,exams,Fail,,falhar,c2l17-fail.jpg,class2/images/c2l17-fail.jpg,63.1,63.4
-2,17,exams,Revise,,revisar,c2l17-revise.jpg,class2/images/c2l17-revise.jpg,63.4,64.55
-1,19,bedroom,Bed,,cama,c1l19-bed.jpg,class1/images/c1l19-bed.jpg,9.68,10.43
-1,19,bedroom,Picture,,retrato,c1l19-picture.jpg,class1/images/c1l19-picture.jpg,10.43,11.97
-1,19,bedroom,Flower vase,,vaso de flores,c1l19-flower-vase.jpg,class1/images/c1l19-flower-vase.jpg,11.97,13.1
-1,19,bedroom,Shelf,,estante,c1l19-shelf.jpg,class1/images/c1l19-shelf.jpg,13.1,14.62
-1,19,bedroom,Lamp,,lâmpada,c1l19-lamp.jpg,class1/images/c1l19-lamp.jpg,14.62,15.87
-1,19,bedroom,Pillow,,travesseiro,c1l19-pillow.jpg,class1/images/c1l19-pillow.jpg,15.87,17.43
-1,19,bedroom,Blanket,,cobertor,c1l19-blanket.jpg,class1/images/c1l19-blanket.jpg,17.43,18.7
-1,19,bedroom,Alarm clock,,despertador,c1l19-alarm-clock.jpg,class1/images/c1l19-alarm-clock.jpg,18.7,20.35
-1,19,bedroom,Dresser,,cômoda,c1l19-dresser.jpg,class1/images/c1l19-dresser.jpg,20.35,21.62
-1,19,bedroom,Teddy bear,,urso Teddy,c1l19-teddy-bear.jpg,class1/images/c1l19-teddy-bear.jpg,21.62,23.16
-1,19,bathroom,Curtain,,cortina,c1l19-curtain.jpg,class1/images/c1l19-curtain.jpg,25.43,27.47
-1,19,bathroom,Window,,janela,c1l19-window.jpg,class1/images/c1l19-window.jpg,27.47,28.6
-1,19,bathroom,Faucet,,torneira,c1l19-faucet.jpg,class1/images/c1l19-faucet.jpg,28.6,29.96
-1,19,bathroom,Bathtub,,banheira,c1l19-bathtub.jpg,class1/images/c1l19-bathtub.jpg,29.96,31.7
-1,19,bathroom,Sink,,pia,c1l19-sink.jpg,class1/images/c1l19-sink.jpg,31.7,33.11
-1,19,bathroom,Towel,,toalha,c1l19-towel.jpg,class1/images/c1l19-towel.jpg,33.11,34.74
-1,19,bathroom,Mirror,,espelho,c1l19-mirror.jpg,class1/images/c1l19-mirror.jpg,34.74,36.17
-1,19,bathroom,Towel rack,,toalheiro,c1l19-towel-rack.jpg,class1/images/c1l19-towel-rack.jpg,36.17,37.68
-1,19,bathroom,Toilet,,toalete,c1l19-toilet.jpg,class1/images/c1l19-toilet.jpg,37.68,39.66
-1,19,bathroom,Toilet paper,,papel higiênico,c1l19-toilet-paper.jpg,class1/images/c1l19-toilet-paper.jpg,39.66,41.4
-1,19,bathroom,Shampoo,,xampu,c1l19-shampoo.jpg,class1/images/c1l19-shampoo.jpg,41.4,43.12
-1,19,bathroom,Soap,,sabonete,c1l19-soap.jpg,class1/images/c1l19-soap.jpg,43.12,44.64
-1,19,bathroom,Toothbrush,,escova de dentes,c1l19-toothbrush.jpg,class1/images/c1l19-toothbrush.jpg,44.64,46.43
-1,19,bathroom,Toothpaste,,pasta de dentes,c1l19-toothpaste.jpg,class1/images/c1l19-toothpaste.jpg,46.43,48.05
-1,19,kitchen,Pan,,sertã,c1l19-pan.jpg,class1/images/c1l19-pan.jpg,50.27,52.04
-1,19,kitchen,Pot,,panela,c1l19-pot.jpg,class1/images/c1l19-pot.jpg,52.04,53
-1,19,kitchen,Cooker,,fogareiro,c1l19-cooker.jpg,class1/images/c1l19-cooker.jpg,53,54.39
-1,19,kitchen,Cupboard,,armário,c1l19-cupboard.jpg,class1/images/c1l19-cupboard.jpg,54.39,55.6
+2,16,vocabulary,Fall for someone,Thích ai đó,apaixonar-se por alguém,c2l16-fall-for-someone.jpg,class2/images/c2l16-fall-for-someone.jpg,28.04,29.92
+2,16,vocabulary,Fall out with,Giận dỗi/ bất đồng với ai đó,cair em desgraça ,c2l16-fall-out-with.jpg,class2/images/c2l16-fall-out-with.jpg,29.92,31.87
+2,16,vocabulary,Drift apart,Dần xa cách/ Mất dần tình cảm với ai đó,afastar-se,c2l16-drift-apart.jpg,class2/images/c2l16-drift-apart.jpg,31.87,33.28
+2,16,vocabulary,Be just good friends,Làm bạn tốt,ser apenas bons amigos,c2l16-be-just-good-friends.jpg,class2/images/c2l16-be-just-good-friends.jpg,33.28,35.5
+2,16,vocabulary,Keep in touch with,Giữ liên lạc với,manter contato com,c2l16-keep-in-touch-with.jpg,class2/images/c2l16-keep-in-touch-with.jpg,35.5,37.47
+2,16,vocabulary,Lose touch with,Mất liên lạc với,perder o contato com,c2l16-lose-touch-with.jpg,class2/images/c2l16-lose-touch-with.jpg,37.47,39.35
+2,16,vocabulary,Love at first sight,Yêu từ cái nhìn đầu tiên,amor à primeira vista,c2l16-love-at-first-sight.jpg,class2/images/c2l16-love-at-first-sight.jpg,39.35,41.61
+2,16,vocabulary,Pop the question,Cầu hôn,propor,c2l16-pop-the-question.jpg,class2/images/c2l16-pop-the-question.jpg,41.61,43.46
+2,16,vocabulary,Tie the knot,Kết hôn,casar,c2l16-tie-the-knot.jpg,class2/images/c2l16-tie-the-knot.jpg,43.46,45.28
+2,16,vocabulary,See eye to eye,Nhìn vào mắt nhau,estar de acordo,c2l16-see-eye-to-eye.jpg,class2/images/c2l16-see-eye-to-eye.jpg,45.28,47.47
+2,16,vocabulary,Settle down,Ổn định,estabelecer-se,c2l16-settle-down.jpg,class2/images/c2l16-settle-down.jpg,47.47,48.85
+2,17,subject,Mathematics,Toán học,matemática,c2l17-mathematics.jpg,class2/images/c2l17-mathematics.jpg,9,10.2
+2,17,subject,Literature,Văn học,literatura,c2l17-literature.jpg,class2/images/c2l17-literature.jpg,10.2,11.78
+2,17,subject,Chemistry,Hóa học,química,c2l17-chemistry.jpg,class2/images/c2l17-chemistry.jpg,11.78,12.8
+2,17,subject,Biology,Sinh học,biologia,c2l17-biology.jpg,class2/images/c2l17-biology.jpg,12.8,14.82
+2,17,subject,Economics,Kinh tế học,economia,c2l17-economics.jpg,class2/images/c2l17-economics.jpg,14.82,16.47
+2,17,subject,History,Lịch sử,história,c2l17-history.jpg,class2/images/c2l17-history.jpg,16.47,17.79
+2,17,subject,Computer Science,Tin học,ciência da computação,c2l17-computer-science.jpg,class2/images/c2l17-computer-science.jpg,17.79,19.58
+2,17,subject,Arts,Nghệ thuật,arte,c2l17-arts.jpg,class2/images/c2l17-arts.jpg,19.58,21.26
+2,17,subject,Geography,Địa lý,geografia,c2l17-geography.jpg,class2/images/c2l17-geography.jpg,21.26,22.56
+2,17,subject,Physics,Vật lý,física,c2l17-physics.jpg,class2/images/c2l17-physics.jpg,22.56,23.86
+2,17,subject,Physical Education/ PE,Thế dục/ Giáo dục thể chất,educação física,c2l17-physical-education-pe.jpg,class2/images/c2l17-physical-education-pe.jpg,23.86,27.37
+2,17,subject,Psychology,Tâm lý học,psicologia,c2l17-psychology.jpg,class2/images/c2l17-psychology.jpg,27.37,28.7
+2,17,subject,Marxist-Leninist philosophy,Nguyên lý Mác-Lênin,marxismo-leninismo,c2l17-marxist-leninist-philosophy.jpg,class2/images/c2l17-marxist-leninist-philosophy.jpg,28.7,31.73
+2,17,subject,Statistics,Thống kê học,estatística,c2l17-statistics.jpg,class2/images/c2l17-statistics.jpg,31.73,33.24
+2,17,subject,History of the Communist Party,Lịch sử Đảng Cộng Sản,história do Partido Comunista,c2l17-history-of-the-communist-party.jpg,class2/images/c2l17-history-of-the-communist-party.jpg,33.24,35.27
+2,17,subject,Ho Chi Minh ideology,Tuư tưởng Hồ Chí Minh,ideologia de Ho Chi Minh,c2l17-ho-chi-minh-ideology.jpg,class2/images/c2l17-ho-chi-minh-ideology.jpg,35.27,37.98
+2,17,subject,Consumer / customer behavior,Hành vi người tiêu dùng/ khách hàng,comportamento do consumidor / cliente,c2l17-consumer-customer-behavior.jpg,class2/images/c2l17-consumer-customer-behavior.jpg,37.98,41.21
+2,17,major,Architecture,Kiến trúc,arquitetura,c2l17-architecture.jpg,class2/images/c2l17-architecture.jpg,43.45,45.31
+2,17,major,Engineering,Ngành kỹ thuật,engenharia,c2l17-engineering.jpg,class2/images/c2l17-engineering.jpg,45.31,46.73
+2,17,major,Journalism,Báo chí,jornalismo,c2l17-journalism.jpg,class2/images/c2l17-journalism.jpg,46.73,48.3
+2,17,major,Medicine,Y khoa,medicina,c2l17-medicine.jpg,class2/images/c2l17-medicine.jpg,48.3,49.33
+2,17,major,Sociology,Xã hội học,sociologia,c2l17-sociology.jpg,class2/images/c2l17-sociology.jpg,49.33,50.68
+2,17,major,Tourism and hospitality management,Quản trị du lịch và dịch vụ khách hàng,gestão de turismo e hospitalidade,c2l17-tourism-and-hospitality-management.jpg,class2/images/c2l17-tourism-and-hospitality-management.jpg,50.68,53.56
+2,17,major,Information technology,Công nghệ thông tin,tecnologia da informação,c2l17-information-technology.jpg,class2/images/c2l17-information-technology.jpg,53.56,55.66
+2,17,major,Business Administration,Quản trị kinh doanh,administração de empresas,c2l17-business-administration.jpg,class2/images/c2l17-business-administration.jpg,55.66,58.11
+2,17,major,Accounting,Kế toán,contabilidade,c2l17-accounting.jpg,class2/images/c2l17-accounting.jpg,58.11,59.78
+2,17,exams,Resit,Thi lại,tomar (um exame) novamente depois de falhar,c2l17-resit.jpg,class2/images/c2l17-resit.jpg,61.95,62.74
+2,17,exams,Pass,Đỗ,passar,c2l17-pass.jpg,class2/images/c2l17-pass.jpg,62.74,63.1
+2,17,exams,Fail,Trượt /Rớt,falhar,c2l17-fail.jpg,class2/images/c2l17-fail.jpg,63.1,63.4
+2,17,exams,Revise,Ôn tập,revisar,c2l17-revise.jpg,class2/images/c2l17-revise.jpg,63.4,64.55
+1,19,bedroom,Bed,Giường,cama,c1l19-bed.jpg,class1/images/c1l19-bed.jpg,9.68,10.43
+1,19,bedroom,Picture,Bức tranh,retrato,c1l19-picture.jpg,class1/images/c1l19-picture.jpg,10.43,11.97
+1,19,bedroom,Flower vase,Bình hoa,vaso de flores,c1l19-flower-vase.jpg,class1/images/c1l19-flower-vase.jpg,11.97,13.1
+1,19,bedroom,Shelf,Kệ,estante,c1l19-shelf.jpg,class1/images/c1l19-shelf.jpg,13.1,14.62
+1,19,bedroom,Lamp,Đèn bàn,lâmpada,c1l19-lamp.jpg,class1/images/c1l19-lamp.jpg,14.62,15.87
+1,19,bedroom,Pillow,Gối,travesseiro,c1l19-pillow.jpg,class1/images/c1l19-pillow.jpg,15.87,17.43
+1,19,bedroom,Blanket,Chăn,cobertor,c1l19-blanket.jpg,class1/images/c1l19-blanket.jpg,17.43,18.7
+1,19,bedroom,Alarm clock,Đồng hồ,despertador,c1l19-alarm-clock.jpg,class1/images/c1l19-alarm-clock.jpg,18.7,20.35
+1,19,bedroom,Dresser,Tủ nhiều ngăn,cômoda,c1l19-dresser.jpg,class1/images/c1l19-dresser.jpg,20.35,21.62
+1,19,bedroom,Teddy bear,Gấu bông,urso Teddy,c1l19-teddy-bear.jpg,class1/images/c1l19-teddy-bear.jpg,21.62,23.16
+1,19,bathroom,Curtain,"Màn, vải che",cortina,c1l19-curtain.jpg,class1/images/c1l19-curtain.jpg,25.43,27.47
+1,19,bathroom,Window,Cửa sổ,janela,c1l19-window.jpg,class1/images/c1l19-window.jpg,27.47,28.6
+1,19,bathroom,Faucet,Vòi nước,torneira,c1l19-faucet.jpg,class1/images/c1l19-faucet.jpg,28.6,29.96
+1,19,bathroom,Bathtub,Bồn tắm,banheira,c1l19-bathtub.jpg,class1/images/c1l19-bathtub.jpg,29.96,31.7
+1,19,bathroom,Sink,Chậu rửa tay,pia,c1l19-sink.jpg,class1/images/c1l19-sink.jpg,31.7,33.11
+1,19,bathroom,Towel,Khăn,toalha,c1l19-towel.jpg,class1/images/c1l19-towel.jpg,33.11,34.74
+1,19,bathroom,Mirror,Gương,espelho,c1l19-mirror.jpg,class1/images/c1l19-mirror.jpg,34.74,36.17
+1,19,bathroom,Towel rack,Giá để khăn,toalheiro,c1l19-towel-rack.jpg,class1/images/c1l19-towel-rack.jpg,36.17,37.68
+1,19,bathroom,Toilet,Nhà vệ sinh,toalete,c1l19-toilet.jpg,class1/images/c1l19-toilet.jpg,37.68,39.66
+1,19,bathroom,Toilet paper,Giấy vệ sinh,papel higiênico,c1l19-toilet-paper.jpg,class1/images/c1l19-toilet-paper.jpg,39.66,41.4
+1,19,bathroom,Shampoo,Dầu gội đầu,xampu,c1l19-shampoo.jpg,class1/images/c1l19-shampoo.jpg,41.4,43.12
+1,19,bathroom,Soap,Xà phòng,sabonete,c1l19-soap.jpg,class1/images/c1l19-soap.jpg,43.12,44.64
+1,19,bathroom,Toothbrush,Bàn chải đánh răng,escova de dentes,c1l19-toothbrush.jpg,class1/images/c1l19-toothbrush.jpg,44.64,46.43
+1,19,bathroom,Toothpaste,Kem đánh răng,pasta de dentes,c1l19-toothpaste.jpg,class1/images/c1l19-toothpaste.jpg,46.43,48.05
+1,19,kitchen,Pan,Chảo,sertã,c1l19-pan.jpg,class1/images/c1l19-pan.jpg,50.27,52.04
+1,19,kitchen,Pot,Nồi/ ấm/bình ,panela,c1l19-pot.jpg,class1/images/c1l19-pot.jpg,52.04,53
+1,19,kitchen,Cooker,Nồi cơm điện,fogareiro,c1l19-cooker.jpg,class1/images/c1l19-cooker.jpg,53,54.39
+1,19,kitchen,Cupboard,T,armário,c1l19-cupboard.jpg,class1/images/c1l19-cupboard.jpg,54.39,55.6
 1,19,kitchen,Cutting board,,tábua de cortar,c1l19-cutting-board.jpg,class1/images/c1l19-cutting-board.jpg,55.6,57.49
-1,19,kitchen,Knife,,faca,c1l19-knife.jpg,class1/images/c1l19-knife.jpg,57.49,58.85
-1,19,kitchen,Blender,,liquidificador,c1l19-blender.jpg,class1/images/c1l19-blender.jpg,58.85,60.44
-1,19,kitchen,Sink,,pia,c1l19-sink.jpg,class1/images/c1l19-sink.jpg,60.44,61.97
-1,19,kitchen,Dishwasher,,lava-louças,c1l19-dishwasher.jpg,class1/images/c1l19-dishwasher.jpg,61.97,63.62
-1,19,kitchen,Freezer,,congelador,c1l19-freezer.jpg,class1/images/c1l19-freezer.jpg,63.62,65.03
-1,19,kitchen,Fridge,,geladeira,c1l19-fridge.jpg,class1/images/c1l19-fridge.jpg,65.03,66.8
-1,19,kitchen,Microwave,,microondas,c1l19-microwave.jpg,class1/images/c1l19-microwave.jpg,66.8,68.41
-1,19,kitchen,Oven,,forno,c1l19-oven.jpg,class1/images/c1l19-oven.jpg,68.41,70.02
-1,19,livingroom,Chair,,cadeira,c1l19-chair.jpg,class1/images/c1l19-chair.jpg,71.97,73.41
-1,19,livingroom,Armchair,,poltrona,c1l19-armchair.jpg,class1/images/c1l19-armchair.jpg,73.41,75.27
-1,19,livingroom,Rocking chair,,cadeira de balanço,c1l19-rocking-chair.jpg,class1/images/c1l19-rocking-chair.jpg,75.27,77.06
-1,19,livingroom,Stool,,tamborete,c1l19-stool.jpg,class1/images/c1l19-stool.jpg,77.06,78.33
-1,19,livingroom,Book,,livro,c1l19-book.jpg,class1/images/c1l19-book.jpg,78.33,79.91
-1,19,livingroom,Couch,,sofá,c1l19-couch.jpg,class1/images/c1l19-couch.jpg,79.91,81.55
-1,19,livingroom,Sofa,,sofá,c1l19-sofa.jpg,class1/images/c1l19-sofa.jpg,81.55,83.34
-1,19,livingroom,Cushion,,almofada,c1l19-cushion.jpg,class1/images/c1l19-cushion.jpg,83.34,85.01
-1,19,livingroom,Fireplace,,lareira,c1l19-fireplace.jpg,class1/images/c1l19-fireplace.jpg,85.01,87.12
-1,19,livingroom,Coffee table,,mesa de centro,c1l19-coffee-table.jpg,class1/images/c1l19-coffee-table.jpg,87.12,88.77
-1,19,livingroom,Rug,,tapete,c1l19-rug.jpg,class1/images/c1l19-rug.jpg,88.77,90.39
-2,19,expressing,Over the moon,,encantado,c2l19-over-the-moon.jpg,class2/images/c2l19-over-the-moon.jpg,9.05,11.22
-2,19,expressing,On top of the world,,exaltado,c2l19-on-top-of-the-world.jpg,class2/images/c2l19-on-top-of-the-world.jpg,11.22,13.17
-2,19,expressing,Jump for joy,,felizmente com êxtase,c2l19-jump-for-joy.jpg,class2/images/c2l19-jump-for-joy.jpg,13.17,14.82
-2,19,expressing,Break someone's heart,,alguém é arrebatado com tristeza,c2l19-break-someone-s-heart.jpg,class2/images/c2l19-break-someone-s-heart.jpg,14.82,16.86
-2,19,expressing,Burst into tears,,começar de chorar,c2l19-burst-into-tears.jpg,class2/images/c2l19-burst-into-tears.jpg,16.86,18.78
-2,19,expressing,Feeling blue,,Sentir-se triste,c2l19-feeling-blue.jpg,class2/images/c2l19-feeling-blue.jpg,18.78,20.88
-2,19,expressing,On cloud nine,,extremamente feliz,c2l19-on-cloud-nine.jpg,class2/images/c2l19-on-cloud-nine.jpg,20.88,23.04
-2,19,expressing,Fed up,,estar (de saco) cheio,c2l19-fed-up.jpg,class2/images/c2l19-fed-up.jpg,23.04,24.59
-2,19,expressing,Under the weather,,um pouco indisposto,c2l19-under-the-weather.jpg,class2/images/c2l19-under-the-weather.jpg,24.59,26.51
-2,19,expressing,Bored to tears,,morto de tédio,c2l19-bored-to-tears.jpg,class2/images/c2l19-bored-to-tears.jpg,26.51,28.67
-2,19,expressing,Green with envy,,invejoso,c2l19-green-with-envy.jpg,class2/images/c2l19-green-with-envy.jpg,28.67,30.92
-2,19,expressing,Go bananas,,tornar-se extremamente bobo,c2l19-go-bananas.jpg,class2/images/c2l19-go-bananas.jpg,30.92,32.9
-2,19,expressing,Change of heart,,alterar a opinião,c2l19-change-of-heart.jpg,class2/images/c2l19-change-of-heart.jpg,32.9,34.96
-2,19,expressing,Look on the bright side,,ser otimista apesar das dificuldades,c2l19-look-on-the-bright-side.jpg,class2/images/c2l19-look-on-the-bright-side.jpg,34.96,37.45
-2,19,expressing,Make your skin crawl,,sensação desagradável,c2l19-make-your-skin-crawl.jpg,class2/images/c2l19-make-your-skin-crawl.jpg,37.45,40.06
-2,19,expressing,A soft spot,,ter carinho,c2l19-a-soft-spot.jpg,class2/images/c2l19-a-soft-spot.jpg,40.06,42.44
-2,19,expressing,Pour your heart out,,contar a alguém seus sentimentos secretos,c2l19-pour-your-heart-out.jpg,class2/images/c2l19-pour-your-heart-out.jpg,42.44,44.48
-2,19,expressing,Reduced to tears,,sintir-se infeliz que chora,c2l19-reduced-to-tears.jpg,class2/images/c2l19-reduced-to-tears.jpg,44.48,47.36
-2,19,expressing,Let off steam,,livrar-se da energia reprimida,c2l19-let-off-steam.jpg,class2/images/c2l19-let-off-steam.jpg,47.36,48.89
-2,19,expressing,Walking on air,,ser imensamente feliz,c2l19-walking-on-air.jpg,class2/images/c2l19-walking-on-air.jpg,48.89,50.74
-2,19,expressing,Swell with pride,,estar orgulhoso,c2l19-swell-with-pride.jpg,class2/images/c2l19-swell-with-pride.jpg,50.74,52.66
-2,19,expressing,Carry away,,entusiasmado que não pode controlar o que faz,c2l19-carry-away.jpg,class2/images/c2l19-carry-away.jpg,52.66,54.54
-2,19,expressing,Eat a horse,,estar com muita fome,c2l19-eat-a-horse.jpg,class2/images/c2l19-eat-a-horse.jpg,54.54,56.25
-2,19,expressing,Not be yourself,,não sentir-se no estado físico ou mental usual,c2l19-not-be-yourself.jpg,class2/images/c2l19-not-be-yourself.jpg,56.25,59.07
-2,19,expressing,Foul mood,,ser mal-humorado,c2l19-foul-mood.jpg,class2/images/c2l19-foul-mood.jpg,59.07,60.65
-2,19,supporting,Congratulations,,Parabéns!,c2l19-congratulations.jpg,class2/images/c2l19-congratulations.jpg,63.6,65.41
-2,19,supporting,Cheer up,,Anime-se!,c2l19-cheer-up.jpg,class2/images/c2l19-cheer-up.jpg,65.41,67.17
-2,19,supporting,Good job,,Bom trabalho!,c2l19-good-job.jpg,class2/images/c2l19-good-job.jpg,67.17,69.02
-2,19,supporting,Well done,,Bem feito!,c2l19-well-done.jpg,class2/images/c2l19-well-done.jpg,69.02,70.74
-2,19,supporting,I feel a bit sorry for her,,Sinto um pouco por ela. ,c2l19-i-feel-a-bit-sorry-for-her.jpg,class2/images/c2l19-i-feel-a-bit-sorry-for-her.jpg,70.74,73.11
-2,19,supporting,I am sorry to hear that,,Lamento ouvir isso.,c2l19-i-am-sorry-to-hear-that.jpg,class2/images/c2l19-i-am-sorry-to-hear-that.jpg,73.11,75.75
-2,19,supporting,That's a pity,,É uma pena!,c2l19-that-s-a-pity.jpg,class2/images/c2l19-that-s-a-pity.jpg,75.75,77.77
-2,19,supporting,That's a shame,,Isso é ruim.,c2l19-that-s-a-shame.jpg,class2/images/c2l19-that-s-a-shame.jpg,77.77,79.83
-2,19,supporting,That's unfortunate,,Isso é lamentável.,c2l19-that-s-unfortunate.jpg,class2/images/c2l19-that-s-unfortunate.jpg,79.83,82.01
-2,19,supporting,Keep your chin up,,permanecer alegre em circunstâncias difíceis.,c2l19-keep-your-chin-up.jpg,class2/images/c2l19-keep-your-chin-up.jpg,82.01,83.79
+1,19,kitchen,Knife,Dao,faca,c1l19-knife.jpg,class1/images/c1l19-knife.jpg,57.49,58.85
+1,19,kitchen,Blender,Máy xay/ máy trộn,liquidificador,c1l19-blender.jpg,class1/images/c1l19-blender.jpg,58.85,60.44
+1,19,kitchen,Sink,Bồn rửa/ Chậu nước,pia,c1l19-sink.jpg,class1/images/c1l19-sink.jpg,60.44,61.97
+1,19,kitchen,Dishwasher,Máy rửa chén,lava-louças,c1l19-dishwasher.jpg,class1/images/c1l19-dishwasher.jpg,61.97,63.62
+1,19,kitchen,Freezer,Tủ đông,congelador,c1l19-freezer.jpg,class1/images/c1l19-freezer.jpg,63.62,65.03
+1,19,kitchen,Fridge,Tủ lạnh,geladeira,c1l19-fridge.jpg,class1/images/c1l19-fridge.jpg,65.03,66.8
+1,19,kitchen,Microwave,Lò vi sóng,microondas,c1l19-microwave.jpg,class1/images/c1l19-microwave.jpg,66.8,68.41
+1,19,kitchen,Oven,Lò nướng,forno,c1l19-oven.jpg,class1/images/c1l19-oven.jpg,68.41,70.02
+1,19,livingroom,Chair,Ghế,cadeira,c1l19-chair.jpg,class1/images/c1l19-chair.jpg,71.97,73.41
+1,19,livingroom,Armchair,Ghế bành,poltrona,c1l19-armchair.jpg,class1/images/c1l19-armchair.jpg,73.41,75.27
+1,19,livingroom,Rocking chair,Ghế bập bênh,cadeira de balanço,c1l19-rocking-chair.jpg,class1/images/c1l19-rocking-chair.jpg,75.27,77.06
+1,19,livingroom,Stool,Ghế đẩu,tamborete,c1l19-stool.jpg,class1/images/c1l19-stool.jpg,77.06,78.33
+1,19,livingroom,Book,Sách,livro,c1l19-book.jpg,class1/images/c1l19-book.jpg,78.33,79.91
+1,19,livingroom,Couch,Ghế trường kỉ,sofá,c1l19-couch.jpg,class1/images/c1l19-couch.jpg,79.91,81.55
+1,19,livingroom,Sofa,Ghế xôpha,sofá,c1l19-sofa.jpg,class1/images/c1l19-sofa.jpg,81.55,83.34
+1,19,livingroom,Cushion,Nệm,almofada,c1l19-cushion.jpg,class1/images/c1l19-cushion.jpg,83.34,85.01
+1,19,livingroom,Fireplace,Lò sưởi,lareira,c1l19-fireplace.jpg,class1/images/c1l19-fireplace.jpg,85.01,87.12
+1,19,livingroom,Coffee table,Bàn uống cà phê,mesa de centro,c1l19-coffee-table.jpg,class1/images/c1l19-coffee-table.jpg,87.12,88.77
+1,19,livingroom,Rug,Thảm,tapete,c1l19-rug.jpg,class1/images/c1l19-rug.jpg,88.77,90.39
+2,19,expressing,Over the moon,Hạnh phúc như ở trên cung trăng,encantado,c2l19-over-the-moon.jpg,class2/images/c2l19-over-the-moon.jpg,9.05,11.22
+2,19,expressing,On top of the world,"Rất hạnh phúc, rất tự hào",exaltado,c2l19-on-top-of-the-world.jpg,class2/images/c2l19-on-top-of-the-world.jpg,11.22,13.17
+2,19,expressing,Jump for joy,Nhảy cẫng lên vì hạnh phúc,felizmente com êxtase,c2l19-jump-for-joy.jpg,class2/images/c2l19-jump-for-joy.jpg,13.17,14.82
+2,19,expressing,Break someone's heart,Làm ai đó tổn thương/ đau lòng,alguém é arrebatado com tristeza,c2l19-break-someone-s-heart.jpg,class2/images/c2l19-break-someone-s-heart.jpg,14.82,16.86
+2,19,expressing,Burst into tears,Bắt đầu khóc ,começar de chorar,c2l19-burst-into-tears.jpg,class2/images/c2l19-burst-into-tears.jpg,16.86,18.78
+2,19,expressing,Feeling blue,Cảm thấy buồn,Sentir-se triste,c2l19-feeling-blue.jpg,class2/images/c2l19-feeling-blue.jpg,18.78,20.88
+2,19,expressing,On cloud nine,Cực kỳ sung sướng,extremamente feliz,c2l19-on-cloud-nine.jpg,class2/images/c2l19-on-cloud-nine.jpg,20.88,23.04
+2,19,expressing,Fed up,"Mệt mỏi, chán ngấy",estar (de saco) cheio,c2l19-fed-up.jpg,class2/images/c2l19-fed-up.jpg,23.04,24.59
+2,19,expressing,Under the weather,"Thấy mệt mỏi, khó chịu (do thời tiết)",um pouco indisposto,c2l19-under-the-weather.jpg,class2/images/c2l19-under-the-weather.jpg,24.59,26.51
+2,19,expressing,Bored to tears,Chán quá sức,morto de tédio,c2l19-bored-to-tears.jpg,class2/images/c2l19-bored-to-tears.jpg,26.51,28.67
+2,19,expressing,Green with envy, Bực tức vì người khác có lợi hơn,invejoso,c2l19-green-with-envy.jpg,class2/images/c2l19-green-with-envy.jpg,28.67,30.92
+2,19,expressing,Go bananas,Phát điên,tornar-se extremamente bobo,c2l19-go-bananas.jpg,class2/images/c2l19-go-bananas.jpg,30.92,32.9
+2,19,expressing,Change of heart,Thay lòng đổi dạ,alterar a opinião,c2l19-change-of-heart.jpg,class2/images/c2l19-change-of-heart.jpg,32.9,34.96
+2,19,expressing,Look on the bright side,Nhìn vào mặt tích cực của vấn đề,ser otimista apesar das dificuldades,c2l19-look-on-the-bright-side.jpg,class2/images/c2l19-look-on-the-bright-side.jpg,34.96,37.45
+2,19,expressing,Make your skin crawl,Khiến bạn kinh tởm/ sợ hai,sensação desagradável,c2l19-make-your-skin-crawl.jpg,class2/images/c2l19-make-your-skin-crawl.jpg,37.45,40.06
+2,19,expressing,A soft spot,"Có lòng yêu thương/ nhân ái với ai đó, vật nào đó",ter carinho,c2l19-a-soft-spot.jpg,class2/images/c2l19-a-soft-spot.jpg,40.06,42.44
+2,19,expressing,Pour your heart out,Trải lòng với ai đó,contar a alguém seus sentimentos secretos,c2l19-pour-your-heart-out.jpg,class2/images/c2l19-pour-your-heart-out.jpg,42.44,44.48
+2,19,expressing,Reduced to tears,Làm người khác khóc,sintir-se infeliz que chora,c2l19-reduced-to-tears.jpg,class2/images/c2l19-reduced-to-tears.jpg,44.48,47.36
+2,19,expressing,Let off steam,"Giải phóng sự nóng giận/ mệt mỏi/ ""xả hơi""",livrar-se da energia reprimida,c2l19-let-off-steam.jpg,class2/images/c2l19-let-off-steam.jpg,47.36,48.89
+2,19,expressing,Walking on air,Thấy vui thích như đang đi trên không trung,ser imensamente feliz,c2l19-walking-on-air.jpg,class2/images/c2l19-walking-on-air.jpg,48.89,50.74
+2,19,expressing,Swell with pride,Rất đỗi tự hào,estar orgulhoso,c2l19-swell-with-pride.jpg,class2/images/c2l19-swell-with-pride.jpg,50.74,52.66
+2,19,expressing,Carry away,Đánh trống lảng,entusiasmado que não pode controlar o que faz,c2l19-carry-away.jpg,class2/images/c2l19-carry-away.jpg,52.66,54.54
+2,19,expressing,Eat a horse,Rất đói,estar com muita fome,c2l19-eat-a-horse.jpg,class2/images/c2l19-eat-a-horse.jpg,54.54,56.25
+2,19,expressing,Not be yourself,Không là chính mình,não sentir-se no estado físico ou mental usual,c2l19-not-be-yourself.jpg,class2/images/c2l19-not-be-yourself.jpg,56.25,59.07
+2,19,expressing,Foul mood,Tâm trạng tệ,ser mal-humorado,c2l19-foul-mood.jpg,class2/images/c2l19-foul-mood.jpg,59.07,60.65
+2,19,supporting,Congratulations,Chúc mừng,Parabéns!,c2l19-congratulations.jpg,class2/images/c2l19-congratulations.jpg,63.6,65.41
+2,19,supporting,Cheer up,Vui lên nào,Anime-se!,c2l19-cheer-up.jpg,class2/images/c2l19-cheer-up.jpg,65.41,67.17
+2,19,supporting,Good job,Làm tốt lắm,Bom trabalho!,c2l19-good-job.jpg,class2/images/c2l19-good-job.jpg,67.17,69.02
+2,19,supporting,Well done,Giỏi lắm,Bem feito!,c2l19-well-done.jpg,class2/images/c2l19-well-done.jpg,69.02,70.74
+2,19,supporting,I feel a bit sorry for her,Tôi thấy hơi tiếc cho cô ấy,Sinto um pouco por ela. ,c2l19-i-feel-a-bit-sorry-for-her.jpg,class2/images/c2l19-i-feel-a-bit-sorry-for-her.jpg,70.74,73.11
+2,19,supporting,I am sorry to hear that,Tôi rất tiếc khi về điều đó,Lamento ouvir isso.,c2l19-i-am-sorry-to-hear-that.jpg,class2/images/c2l19-i-am-sorry-to-hear-that.jpg,73.11,75.75
+2,19,supporting,That's a pity,Thật tiếc quá,É uma pena!,c2l19-that-s-a-pity.jpg,class2/images/c2l19-that-s-a-pity.jpg,75.75,77.77
+2,19,supporting,That's a shame,Thật đáng tiếc,Isso é ruim.,c2l19-that-s-a-shame.jpg,class2/images/c2l19-that-s-a-shame.jpg,77.77,79.83
+2,19,supporting,That's unfortunate,Thật không may,Isso é lamentável.,c2l19-that-s-unfortunate.jpg,class2/images/c2l19-that-s-unfortunate.jpg,79.83,82.01
+2,19,supporting,Keep your chin up,Không được nản chí,permanecer alegre em circunstâncias difíceis.,c2l19-keep-your-chin-up.jpg,class2/images/c2l19-keep-your-chin-up.jpg,82.01,83.79
 2,19,supporting,Be there for you,,estar ao seu lado,c2l19-be-there-for-you.jpg,class2/images/c2l19-be-there-for-you.jpg,83.79,86.29
 2,19,supporting,Tables have turned,,as coisas mudaram completamente,c2l19-tables-have-turned.jpg,class2/images/c2l19-tables-have-turned.jpg,86.29,88.84
 2,19,supporting,Take for granted,,não apreciar adequadamente,c2l19-take-for-granted.jpg,class2/images/c2l19-take-for-granted.jpg,88.84,91.36
@@ -814,70 +814,70 @@ se casar com alguém",c1l05-marry-someone-get-married-to-someone.jpg,class1/imag
 2,19,supporting,The ball is in your court,,Cabe a você fazer o próximo passo.,c2l19-the-ball-is-in-your-court.jpg,class2/images/c2l19-the-ball-is-in-your-court.jpg,96.52,99.55
 2,19,supporting,Tomorrow's another day,,Amanhã é outro dia.,c2l19-tomorrow-s-another-day.jpg,class2/images/c2l19-tomorrow-s-another-day.jpg,99.55,102.47
 2,19,supporting,Get ahold of yourself,,controlar-se,c2l19-get-ahold-of-yourself.jpg,class2/images/c2l19-get-ahold-of-yourself.jpg,102.47,105
-1,08,vocabulary,Safe,,seguro,c1l08-safe.jpg,class1/images/c1l08-safe.jpg,,
-1,08,vocabulary,Dangerous,,perigoso,c1l08-dangerous.jpg,class1/images/c1l08-dangerous.jpg,,
-1,08,vocabulary,Simple,,simples,c1l08-simple.jpg,class1/images/c1l08-simple.jpg,,
-1,08,vocabulary,Complicated,,complicado,c1l08-complicated.jpg,class1/images/c1l08-complicated.jpg,,
-1,08,vocabulary,Boring,,chato,c1l08-boring.jpg,class1/images/c1l08-boring.jpg,,
-1,08,vocabulary,Interesting,,interessante,c1l08-interesting.jpg,class1/images/c1l08-interesting.jpg,,
-1,08,vocabulary,Possible,,possível,c1l08-possible.jpg,class1/images/c1l08-possible.jpg,,
-1,08,vocabulary,Impossible,,impossível,c1l08-impossible.jpg,class1/images/c1l08-impossible.jpg,,
-1,08,vocabulary,Polite,,educado,c1l08-polite.jpg,class1/images/c1l08-polite.jpg,,
-1,08,vocabulary,Rude,,grosseiro,c1l08-rude.jpg,class1/images/c1l08-rude.jpg,,
-1,08,vocabulary,Hard,,difícil,c1l08-hard.jpg,class1/images/c1l08-hard.jpg,,
-1,08,vocabulary,Easy,,fácil,c1l08-easy.jpg,class1/images/c1l08-easy.jpg,,
-1,07,vocabulary,Beautiful,,belo,c1l07-beautiful.jpg,class1/images/c1l07-beautiful.jpg,,
-1,07,vocabulary,Cute,,fofo,c1l07-cute.jpg,class1/images/c1l07-cute.jpg,,
-1,07,vocabulary,Pretty,,bonita,c1l07-pretty.jpg,class1/images/c1l07-pretty.jpg,,
-1,07,vocabulary,Handsome,,bonito,c1l07-handsome.jpg,class1/images/c1l07-handsome.jpg,,
-1,07,vocabulary,Attractive,,atraente,c1l07-attractive.jpg,class1/images/c1l07-attractive.jpg,,
-1,07,vocabulary,Ugly,,feio,c1l07-ugly.jpg,class1/images/c1l07-ugly.jpg,,
-1,07,vocabulary,Good-looking,,belo,c1l07-good-looking.jpg,class1/images/c1l07-good-looking.jpg,,
-1,07,vocabulary,Bad-looking,,feio,c1l07-bad-looking.jpg,class1/images/c1l07-bad-looking.jpg,,
-1,07,vocabulary,Rich,,rico,c1l07-rich.jpg,class1/images/c1l07-rich.jpg,,
-1,07,vocabulary,Poor,,pobre,c1l07-poor.jpg,class1/images/c1l07-poor.jpg,,
-1,07,vocabulary,Easy-going,,descontraído,c1l07-easy-going.jpg,class1/images/c1l07-easy-going.jpg,,
-1,07,vocabulary,Strict,,rigoroso,c1l07-strict.jpg,class1/images/c1l07-strict.jpg,,
-1,07,vocabulary,Tall,,alto,c1l07-tall.jpg,class1/images/c1l07-tall.jpg,,
-1,07,vocabulary,Short,,baixo,c1l07-short.jpg,class1/images/c1l07-short.jpg,,
-1,07,vocabulary,Slow,,lento,c1l07-slow.jpg,class1/images/c1l07-slow.jpg,,
-1,07,vocabulary,Fast,,rápido,c1l07-fast.jpg,class1/images/c1l07-fast.jpg,,
-1,07,vocabulary,Hot,,quente,c1l07-hot.jpg,class1/images/c1l07-hot.jpg,,
-1,07,vocabulary,Cold,,frio,c1l07-cold.jpg,class1/images/c1l07-cold.jpg,,
-1,07,vocabulary,Fat,,gordo,c1l07-fat.jpg,class1/images/c1l07-fat.jpg,,
-1,07,vocabulary,Thin,,magro,c1l07-thin.jpg,class1/images/c1l07-thin.jpg,,
-1,07,vocabulary,Confident,,seguro,c1l07-confident.jpg,class1/images/c1l07-confident.jpg,,
-1,07,vocabulary,Shy,,tímido,c1l07-shy.jpg,class1/images/c1l07-shy.jpg,,
-1,07,vocabulary,Patient,,paciente,c1l07-patient.jpg,class1/images/c1l07-patient.jpg,,
-1,07,vocabulary,Impatient,,impaciente,c1l07-impatient.jpg,class1/images/c1l07-impatient.jpg,,
-1,07,vocabulary,Strong,,forte,c1l07-strong.jpg,class1/images/c1l07-strong.jpg,,
-1,07,vocabulary,Weak,,fraco,c1l07-weak.jpg,class1/images/c1l07-weak.jpg,,
-1,07,vocabulary,Active,,ativo,c1l07-active.jpg,class1/images/c1l07-active.jpg,,
-1,07,vocabulary,Passive,,passivo,c1l07-passive.jpg,class1/images/c1l07-passive.jpg,,
-1,07,vocabulary,Talented,,talentoso,c1l07-talented.jpg,class1/images/c1l07-talented.jpg,,
-1,07,vocabulary,Untalented,,sem talento,c1l07-untalented.jpg,class1/images/c1l07-untalented.jpg,,
-1,07,vocabulary,Important,,importante,c1l07-important.jpg,class1/images/c1l07-important.jpg,,
-1,07,vocabulary,Unimportant,,sem importância,c1l07-unimportant.jpg,class1/images/c1l07-unimportant.jpg,,
+1,08,vocabulary,Safe,An toàn,seguro,c1l08-safe.jpg,class1/images/c1l08-safe.jpg,,
+1,08,vocabulary,Dangerous,Nguy hiểm,perigoso,c1l08-dangerous.jpg,class1/images/c1l08-dangerous.jpg,,
+1,08,vocabulary,Simple,Đơn giản,simples,c1l08-simple.jpg,class1/images/c1l08-simple.jpg,,
+1,08,vocabulary,Complicated,Phức tạp,complicado,c1l08-complicated.jpg,class1/images/c1l08-complicated.jpg,,
+1,08,vocabulary,Boring,Nhàm chán,chato,c1l08-boring.jpg,class1/images/c1l08-boring.jpg,,
+1,08,vocabulary,Interesting,Thú vị,interessante,c1l08-interesting.jpg,class1/images/c1l08-interesting.jpg,,
+1,08,vocabulary,Possible,Khả thi,possível,c1l08-possible.jpg,class1/images/c1l08-possible.jpg,,
+1,08,vocabulary,Impossible,Bất khả thi,impossível,c1l08-impossible.jpg,class1/images/c1l08-impossible.jpg,,
+1,08,vocabulary,Polite,Lịch thiệp,educado,c1l08-polite.jpg,class1/images/c1l08-polite.jpg,,
+1,08,vocabulary,Rude,Bất lịc sự,grosseiro,c1l08-rude.jpg,class1/images/c1l08-rude.jpg,,
+1,08,vocabulary,Hard,Khó khăn,difícil,c1l08-hard.jpg,class1/images/c1l08-hard.jpg,,
+1,08,vocabulary,Easy,Dễ dàng,fácil,c1l08-easy.jpg,class1/images/c1l08-easy.jpg,,
+1,07,vocabulary,Beautiful,Đẹp,belo,c1l07-beautiful.jpg,class1/images/c1l07-beautiful.jpg,,
+1,07,vocabulary,Cute,Đáng yêu,fofo,c1l07-cute.jpg,class1/images/c1l07-cute.jpg,,
+1,07,vocabulary,Pretty,Xinh xắn,bonita,c1l07-pretty.jpg,class1/images/c1l07-pretty.jpg,,
+1,07,vocabulary,Handsome,Đẹp trai,bonito,c1l07-handsome.jpg,class1/images/c1l07-handsome.jpg,,
+1,07,vocabulary,Attractive,Thu hút,atraente,c1l07-attractive.jpg,class1/images/c1l07-attractive.jpg,,
+1,07,vocabulary,Ugly,Xấu xí,feio,c1l07-ugly.jpg,class1/images/c1l07-ugly.jpg,,
+1,07,vocabulary,Good-looking,Ưa nhìn,belo,c1l07-good-looking.jpg,class1/images/c1l07-good-looking.jpg,,
+1,07,vocabulary,Bad-looking,Xấu xí về ngoại hình,feio,c1l07-bad-looking.jpg,class1/images/c1l07-bad-looking.jpg,,
+1,07,vocabulary,Rich,Giàu có,rico,c1l07-rich.jpg,class1/images/c1l07-rich.jpg,,
+1,07,vocabulary,Poor,Nghèo khó,pobre,c1l07-poor.jpg,class1/images/c1l07-poor.jpg,,
+1,07,vocabulary,Easy-going,Dễ chịu,descontraído,c1l07-easy-going.jpg,class1/images/c1l07-easy-going.jpg,,
+1,07,vocabulary,Strict,Nghiêm khắc,rigoroso,c1l07-strict.jpg,class1/images/c1l07-strict.jpg,,
+1,07,vocabulary,Tall,Cao,alto,c1l07-tall.jpg,class1/images/c1l07-tall.jpg,,
+1,07,vocabulary,Short,Ngắn/ Thấp,baixo,c1l07-short.jpg,class1/images/c1l07-short.jpg,,
+1,07,vocabulary,Slow,Chậm,lento,c1l07-slow.jpg,class1/images/c1l07-slow.jpg,,
+1,07,vocabulary,Fast,Nhanh,rápido,c1l07-fast.jpg,class1/images/c1l07-fast.jpg,,
+1,07,vocabulary,Hot,Nóng,quente,c1l07-hot.jpg,class1/images/c1l07-hot.jpg,,
+1,07,vocabulary,Cold,Lạnh,frio,c1l07-cold.jpg,class1/images/c1l07-cold.jpg,,
+1,07,vocabulary,Fat,Béo,gordo,c1l07-fat.jpg,class1/images/c1l07-fat.jpg,,
+1,07,vocabulary,Thin,Gầy,magro,c1l07-thin.jpg,class1/images/c1l07-thin.jpg,,
+1,07,vocabulary,Confident,Tự tin,seguro,c1l07-confident.jpg,class1/images/c1l07-confident.jpg,,
+1,07,vocabulary,Shy,Xấu hổ/ ngại ngùng,tímido,c1l07-shy.jpg,class1/images/c1l07-shy.jpg,,
+1,07,vocabulary,Patient,Kiên nhẫn,paciente,c1l07-patient.jpg,class1/images/c1l07-patient.jpg,,
+1,07,vocabulary,Impatient,Nôn nóng,impaciente,c1l07-impatient.jpg,class1/images/c1l07-impatient.jpg,,
+1,07,vocabulary,Strong,Mạnh mẽ,forte,c1l07-strong.jpg,class1/images/c1l07-strong.jpg,,
+1,07,vocabulary,Weak,Yếu đuối,fraco,c1l07-weak.jpg,class1/images/c1l07-weak.jpg,,
+1,07,vocabulary,Active,Năng động,ativo,c1l07-active.jpg,class1/images/c1l07-active.jpg,,
+1,07,vocabulary,Passive,Bị động,passivo,c1l07-passive.jpg,class1/images/c1l07-passive.jpg,,
+1,07,vocabulary,Talented,Tài năng,talentoso,c1l07-talented.jpg,class1/images/c1l07-talented.jpg,,
+1,07,vocabulary,Untalented,Bất tài,sem talento,c1l07-untalented.jpg,class1/images/c1l07-untalented.jpg,,
+1,07,vocabulary,Important,Quan trọng,importante,c1l07-important.jpg,class1/images/c1l07-important.jpg,,
+1,07,vocabulary,Unimportant,Không quan trọng,sem importância,c1l07-unimportant.jpg,class1/images/c1l07-unimportant.jpg,,
 1,07,vocabulary,Untalented,,,c1l07-untalented.jpg,class1/images/c1l07-untalented.jpg,,
-1,07,vocabulary,Useful,,útil,c1l07-useful.jpg,class1/images/c1l07-useful.jpg,,
-1,07,vocabulary,Useless,,inútil,c1l07-useless.jpg,class1/images/c1l07-useless.jpg,,
+1,07,vocabulary,Useful,Có ích,útil,c1l07-useful.jpg,class1/images/c1l07-useful.jpg,,
+1,07,vocabulary,Useless,Vô ích,inútil,c1l07-useless.jpg,class1/images/c1l07-useless.jpg,,
 1,07,vocabulary,Big Small,,grande pequeno,c1l07-big-small.jpg,class1/images/c1l07-big-small.jpg,,
-1,07,vocabulary,Lazy,,preguiçoso,c1l07-lazy.jpg,class1/images/c1l07-lazy.jpg,,
-1,07,vocabulary,Hard working,,trabalhoso,c1l07-hard-working.jpg,class1/images/c1l07-hard-working.jpg,,
-1,07,vocabulary,Friendly,,amigável,c1l07-friendly.jpg,class1/images/c1l07-friendly.jpg,,
-1,07,vocabulary,Unfriendly,,hostil,c1l07-unfriendly.jpg,class1/images/c1l07-unfriendly.jpg,,
-1,07,vocabulary,Happy,,alegre,c1l07-happy.jpg,class1/images/c1l07-happy.jpg,,
-1,07,vocabulary,Sad,,triste,c1l07-sad.jpg,class1/images/c1l07-sad.jpg,,
-1,07,vocabulary,Stupid,,estúpido,c1l07-stupid.jpg,class1/images/c1l07-stupid.jpg,,
-1,07,vocabulary,Smart,,esperto,c1l07-smart.jpg,class1/images/c1l07-smart.jpg,,
-1,07,vocabulary,Hungry,,com fome,c1l07-hungry.jpg,class1/images/c1l07-hungry.jpg,,
-1,07,vocabulary,Full,,satisfeito / cheio,c1l07-full.jpg,class1/images/c1l07-full.jpg,,
+1,07,vocabulary,Lazy,Lười biếng,preguiçoso,c1l07-lazy.jpg,class1/images/c1l07-lazy.jpg,,
+1,07,vocabulary,Hard working,Chăm chỉ,trabalhoso,c1l07-hard-working.jpg,class1/images/c1l07-hard-working.jpg,,
+1,07,vocabulary,Friendly,Thân thiện,amigável,c1l07-friendly.jpg,class1/images/c1l07-friendly.jpg,,
+1,07,vocabulary,Unfriendly,Khó gần,hostil,c1l07-unfriendly.jpg,class1/images/c1l07-unfriendly.jpg,,
+1,07,vocabulary,Happy,Vui vẻ/ Hạnh phúc,alegre,c1l07-happy.jpg,class1/images/c1l07-happy.jpg,,
+1,07,vocabulary,Sad,Buồn,triste,c1l07-sad.jpg,class1/images/c1l07-sad.jpg,,
+1,07,vocabulary,Stupid,Ngu ngốc,estúpido,c1l07-stupid.jpg,class1/images/c1l07-stupid.jpg,,
+1,07,vocabulary,Smart,Thông minh,esperto,c1l07-smart.jpg,class1/images/c1l07-smart.jpg,,
+1,07,vocabulary,Hungry,Đói,com fome,c1l07-hungry.jpg,class1/images/c1l07-hungry.jpg,,
+1,07,vocabulary,Full,Đầy/ No,satisfeito / cheio,c1l07-full.jpg,class1/images/c1l07-full.jpg,,
 1,07,vocabulary,Interesting,,,c1l07-interesting.jpg,class1/images/c1l07-interesting.jpg,,
 1,07,vocabulary,Boring,,,c1l07-boring.jpg,class1/images/c1l07-boring.jpg,,
-1,07,vocabulary,Cheap,,barato,c1l07-cheap.jpg,class1/images/c1l07-cheap.jpg,,
-1,07,vocabulary,Expensive,,caro,c1l07-expensive.jpg,class1/images/c1l07-expensive.jpg,,
-1,07,vocabulary,Funny,,engraçado,c1l07-funny.jpg,class1/images/c1l07-funny.jpg,,
-1,07,vocabulary,Serious,,sério,c1l07-serious.jpg,class1/images/c1l07-serious.jpg,,
+1,07,vocabulary,Cheap,Rẻ,barato,c1l07-cheap.jpg,class1/images/c1l07-cheap.jpg,,
+1,07,vocabulary,Expensive,Đắt đỏ,caro,c1l07-expensive.jpg,class1/images/c1l07-expensive.jpg,,
+1,07,vocabulary,Funny,Vui vẻ,engraçado,c1l07-funny.jpg,class1/images/c1l07-funny.jpg,,
+1,07,vocabulary,Serious,Nghiêm túc,sério,c1l07-serious.jpg,class1/images/c1l07-serious.jpg,,
 1,07,vocabulary,Easy,,,c1l07-easy.jpg,class1/images/c1l07-easy.jpg,,
 1,07,vocabulary,Difficult,,,c1l07-difficult.jpg,class1/images/c1l07-difficult.jpg,,
 1,07,vocabulary,Clean,Sạch sẽ,limpo,c1l07-clean.jpg,class1/images/c1l07-clean.jpg,,
@@ -897,15 +897,15 @@ se casar com alguém",c1l05-marry-someone-get-married-to-someone.jpg,class1/imag
 1,07,vocabulary,Cloudy,Nhiều mây,nublado,c1l07-cloudy.jpg,class1/images/c1l07-cloudy.jpg,,
 1,07,vocabulary,Windy,Nhiều gió,ventoso,c1l07-windy.jpg,class1/images/c1l07-windy.jpg,,
 1,07,vocabulary,Rainy,Mưa,chuvoso,c1l07-rainy.jpg,class1/images/c1l07-rainy.jpg,,
-1,07,vocabulary,Sunny,,ensolarado,c1l07-sunny.jpg,class1/images/c1l07-sunny.jpg,,
-1,07,vocabulary,Fantastic,,fantástico,c1l07-fantastic.jpg,class1/images/c1l07-fantastic.jpg,,
-1,07,vocabulary,Wonderful,,maravilhoso,c1l07-wonderful.jpg,class1/images/c1l07-wonderful.jpg,,
-1,07,vocabulary,Awesome,,esplêndido,c1l07-awesome.jpg,class1/images/c1l07-awesome.jpg,,
-1,07,vocabulary,Great,,ótimo,c1l07-great.jpg,class1/images/c1l07-great.jpg,,
-1,07,vocabulary,Very,,muito,c1l07-very.jpg,class1/images/c1l07-very.jpg,,
-1,07,vocabulary,Extremely,,extremamente,c1l07-extremely.jpg,class1/images/c1l07-extremely.jpg,,
-1,07,vocabulary,Quite Pretty,,muito bonita,c1l07-quite-pretty.jpg,class1/images/c1l07-quite-pretty.jpg,,
-1,07,vocabulary,A little,,um pouco,c1l07-a-little.jpg,class1/images/c1l07-a-little.jpg,,
+1,07,vocabulary,Sunny,Có nắng,ensolarado,c1l07-sunny.jpg,class1/images/c1l07-sunny.jpg,,
+1,07,vocabulary,Fantastic,Không tưởng,fantástico,c1l07-fantastic.jpg,class1/images/c1l07-fantastic.jpg,,
+1,07,vocabulary,Wonderful,Tuyệt vời,maravilhoso,c1l07-wonderful.jpg,class1/images/c1l07-wonderful.jpg,,
+1,07,vocabulary,Awesome,Kinh sợ,esplêndido,c1l07-awesome.jpg,class1/images/c1l07-awesome.jpg,,
+1,07,vocabulary,Great,Tuyệt vời,ótimo,c1l07-great.jpg,class1/images/c1l07-great.jpg,,
+1,07,vocabulary,Very,Rất,muito,c1l07-very.jpg,class1/images/c1l07-very.jpg,,
+1,07,vocabulary,Extremely,Cực kì,extremamente,c1l07-extremely.jpg,class1/images/c1l07-extremely.jpg,,
+1,07,vocabulary,Quite Pretty,Khá đẹp,muito bonita,c1l07-quite-pretty.jpg,class1/images/c1l07-quite-pretty.jpg,,
+1,07,vocabulary,A little,Một chút,um pouco,c1l07-a-little.jpg,class1/images/c1l07-a-little.jpg,,
 1,20,makesmile,Playing sports,Chơi thể thao,praticar esportes,c1l20-playing-sports.jpg,class1/images/c1l20-playing-sports.jpg,,
 1,20,makesmile,Drinking alcohol,Uống rượu,beber álcool,c1l20-drinking-alcohol.jpg,class1/images/c1l20-drinking-alcohol.jpg,,
 1,20,makesmile,Playing with pets,Chơi với thú cưng,brincar com animais de estimação,c1l20-playing-with-pets.jpg,class1/images/c1l20-playing-with-pets.jpg,,
@@ -928,39 +928,39 @@ se casar com alguém",c1l05-marry-someone-get-married-to-someone.jpg,class1/imag
 1,20,makecry,Breakup,Chia tay,fim de um relacionamento,c1l20-breakup.jpg,class1/images/c1l20-breakup.jpg,,
 1,20,makecry,Nightmares,Những cơn ác mộng,pesadelo,c1l20-nightmares.jpg,class1/images/c1l20-nightmares.jpg,,
 1,20,makecry,Losing lots of money,Mất nhiều tiền,perder muito dinheiro,c1l20-losing-lots-of-money.jpg,class1/images/c1l20-losing-lots-of-money.jpg,,
-2,20,healthylifestyle,Fresh fruit,Trái cây tươi,fruta fresca,c2l20-fresh-fruit.jpg,class2/images/c2l20-fresh-fruit.jpg,,
-2,20,healthylifestyle,Plenty of fresh air,Nhiều không khí trong lành,muito ar fresco,c2l20-plenty-of-fresh-air.jpg,class2/images/c2l20-plenty-of-fresh-air.jpg,,
-2,20,healthylifestyle,Fish,Cá ,peixe,c2l20-fish.jpg,class2/images/c2l20-fish.jpg,,
-2,20,healthylifestyle,Regular exercise,Tập thể dục đều đặn,exercício regular,c2l20-regular-exercise.jpg,class2/images/c2l20-regular-exercise.jpg,,
-2,20,healthylifestyle,Salad,Xa lát,salada,c2l20-salad.jpg,class2/images/c2l20-salad.jpg,,
-2,20,healthylifestyle,Greens,Cây xanh,verduras,c2l20-greens.jpg,class2/images/c2l20-greens.jpg,,
-2,20,healthylifestyle,Vegetables,Rau,legumes,c2l20-vegetables.jpg,class2/images/c2l20-vegetables.jpg,,
-2,20,healthylifestyle,Fresh air,Không khí trong lành,ar fresco,c2l20-fresh-air.jpg,class2/images/c2l20-fresh-air.jpg,,
-2,20,healthylifestyle,Work out,Tập thể dục/ Tìm ra,exercitar-se,c2l20-work-out.jpg,class2/images/c2l20-work-out.jpg,,
-2,20,healthylifestyle,Take some time for yourself,Dành thời gian cho bản thân,tomar algum tempo para si mesmo,c2l20-take-some-time-for-yourself.jpg,class2/images/c2l20-take-some-time-for-yourself.jpg,,
-2,20,healthylifestyle,Relax,Thư giãn,relaxar,c2l20-relax.jpg,class2/images/c2l20-relax.jpg,,
-2,20,healthylifestyle,Meditate,Ngẫm nghĩ,meditar,c2l20-meditate.jpg,class2/images/c2l20-meditate.jpg,,
-2,20,healthylifestyle,Hydrate,Thủy hóa,hidratar,c2l20-hydrate.jpg,class2/images/c2l20-hydrate.jpg,,
-2,20,healthylifestyle,Regular sleep schedule,Lịch trình ngủ hàng ngày,horário normal de sono,c2l20-regular-sleep-schedule.jpg,class2/images/c2l20-regular-sleep-schedule.jpg,,
-2,20,healthylifestyle,Vitamin-rich diet,Chế độ ăn giàu vitamin,dieta rica em vitamina,c2l20-vitamin-rich-diet.jpg,class2/images/c2l20-vitamin-rich-diet.jpg,,
-2,20,healthylifestyle,Physical activity,Hoạt động thể chất,atividade física,c2l20-physical-activity.jpg,class2/images/c2l20-physical-activity.jpg,,
-2,20,healthylifestyle,Go outside more,Ra ngoài nhiều hơn,ir mais para fora,c2l20-go-outside-more.jpg,class2/images/c2l20-go-outside-more.jpg,,
-2,20,healthylifestyle,Healthy snacks,Đồ ăn nhẹ lành mạnh,lanches saudáveis,c2l20-healthy-snacks.jpg,class2/images/c2l20-healthy-snacks.jpg,,
-2,20,healthylifestyle,Go for a jog,Đi chạy bộ,ir para uma corrida,c2l20-go-for-a-jog.jpg,class2/images/c2l20-go-for-a-jog.jpg,,
-2,20,healthylifestyle,Dance,Nhảy,dançar,c2l20-dance.jpg,class2/images/c2l20-dance.jpg,,
-2,20,healthylifestyle,Brush your teeth,Đánh răng,escovar seus dentes,c2l20-brush-your-teeth.jpg,class2/images/c2l20-brush-your-teeth.jpg,,
-2,20,healthylifestyle,Sit straight,Ngồi thẳng,sentar-se ereto,c2l20-sit-straight.jpg,class2/images/c2l20-sit-straight.jpg,,
-2,20,unhealthylifestyle,Smoking,Hút thuốc,fumar,c2l20-smoking.jpg,class2/images/c2l20-smoking.jpg,,
-2,20,unhealthylifestyle,A lot of stress at work,Nhiều căng thẳng trong công việc,um monte de estresse no trabalho,c2l20-a-lot-of-stress-at-work.jpg,class2/images/c2l20-a-lot-of-stress-at-work.jpg,,
-2,20,unhealthylifestyle,Lots of sugar,Nhiều đường,muito açúcar,c2l20-lots-of-sugar.jpg,class2/images/c2l20-lots-of-sugar.jpg,,
-2,20,unhealthylifestyle,Too much salt,Quá nhiều muối,muito sal,c2l20-too-much-salt.jpg,class2/images/c2l20-too-much-salt.jpg,,
-2,20,unhealthylifestyle,Too much alcohol,Quá nhiều rượu,muito álcool,c2l20-too-much-alcohol.jpg,class2/images/c2l20-too-much-alcohol.jpg,,
-2,20,unhealthylifestyle,Not enough rest,Nghỉ ngơi không đủ,não descansar o suficiente,c2l20-not-enough-rest.jpg,class2/images/c2l20-not-enough-rest.jpg,,
-2,20,unhealthylifestyle,Staying up late,Thức khuya,ficar acordado até tarde,c2l20-staying-up-late.jpg,class2/images/c2l20-staying-up-late.jpg,,
-2,20,unhealthylifestyle,Fast food,Thức ăn nhanh,comida rápida,c2l20-fast-food.jpg,class2/images/c2l20-fast-food.jpg,,
-2,20,unhealthylifestyle,Bad posture,Tư thế xấu,postura ruim,c2l20-bad-posture.jpg,class2/images/c2l20-bad-posture.jpg,,
-2,20,unhealthylifestyle,Too much work,Quá nhiều công việc,muito trabalho,c2l20-too-much-work.jpg,class2/images/c2l20-too-much-work.jpg,,
-2,20,unhealthylifestyle,Too little physical activity,Quá ít hoạt động thể chất,pouca atividade física,c2l20-too-little-physical-activity.jpg,class2/images/c2l20-too-little-physical-activity.jpg,,
+2,20,healthylifestyle,Fresh fruit,Trái cây tươi,fruta fresca,c2l20-fresh-fruit.jpg,class2/images/c2l20-fresh-fruit.jpg,9.04,10.47
+2,20,healthylifestyle,Plenty of fresh air,Nhiều không khí trong lành,muito ar fresco,c2l20-plenty-of-fresh-air.jpg,class2/images/c2l20-plenty-of-fresh-air.jpg,10.47,12.55
+2,20,healthylifestyle,Fish,Cá ,peixe,c2l20-fish.jpg,class2/images/c2l20-fish.jpg,12.55,13.98
+2,20,healthylifestyle,Regular exercise,Tập thể dục đều đặn,exercício regular,c2l20-regular-exercise.jpg,class2/images/c2l20-regular-exercise.jpg,13.98,16.13
+2,20,healthylifestyle,Salad,Xa lát,salada,c2l20-salad.jpg,class2/images/c2l20-salad.jpg,16.13,17.56
+2,20,healthylifestyle,Greens,Cây xanh,verduras,c2l20-greens.jpg,class2/images/c2l20-greens.jpg,17.56,19.26
+2,20,healthylifestyle,Vegetables,Rau,legumes,c2l20-vegetables.jpg,class2/images/c2l20-vegetables.jpg,19.26,20.6
+2,20,healthylifestyle,Fresh air,Không khí trong lành,ar fresco,c2l20-fresh-air.jpg,class2/images/c2l20-fresh-air.jpg,20.6,22.21
+2,20,healthylifestyle,Work out,Tập thể dục/ Tìm ra,exercitar-se,c2l20-work-out.jpg,class2/images/c2l20-work-out.jpg,22.21,24.14
+2,20,healthylifestyle,Take some time for yourself,Dành thời gian cho bản thân,tomar algum tempo para si mesmo,c2l20-take-some-time-for-yourself.jpg,class2/images/c2l20-take-some-time-for-yourself.jpg,24.14,26.55
+2,20,healthylifestyle,Relax,Thư giãn,relaxar,c2l20-relax.jpg,class2/images/c2l20-relax.jpg,26.55,28.38
+2,20,healthylifestyle,Meditate,Ngẫm nghĩ,meditar,c2l20-meditate.jpg,class2/images/c2l20-meditate.jpg,28.38,30.27
+2,20,healthylifestyle,Hydrate,Thủy hóa,hidratar,c2l20-hydrate.jpg,class2/images/c2l20-hydrate.jpg,30.27,32.15
+2,20,healthylifestyle,Regular sleep schedule,Lịch trình ngủ hàng ngày,horário normal de sono,c2l20-regular-sleep-schedule.jpg,class2/images/c2l20-regular-sleep-schedule.jpg,32.15,35.09
+2,20,healthylifestyle,Vitamin-rich diet,Chế độ ăn giàu vitamin,dieta rica em vitamina,c2l20-vitamin-rich-diet.jpg,class2/images/c2l20-vitamin-rich-diet.jpg,35.09,37.65
+2,20,healthylifestyle,Physical activity,Hoạt động thể chất,atividade física,c2l20-physical-activity.jpg,class2/images/c2l20-physical-activity.jpg,37.65,40.09
+2,20,healthylifestyle,Go outside more,Ra ngoài nhiều hơn,ir mais para fora,c2l20-go-outside-more.jpg,class2/images/c2l20-go-outside-more.jpg,40.09,42.36
+2,20,healthylifestyle,Healthy snacks,Đồ ăn nhẹ lành mạnh,lanches saudáveis,c2l20-healthy-snacks.jpg,class2/images/c2l20-healthy-snacks.jpg,42.36,44.72
+2,20,healthylifestyle,Go for a jog,Đi chạy bộ,ir para uma corrida,c2l20-go-for-a-jog.jpg,class2/images/c2l20-go-for-a-jog.jpg,44.72,47.44
+2,20,healthylifestyle,Dance,Nhảy,dançar,c2l20-dance.jpg,class2/images/c2l20-dance.jpg,47.44,49.72
+2,20,healthylifestyle,Brush your teeth,Đánh răng,escovar seus dentes,c2l20-brush-your-teeth.jpg,class2/images/c2l20-brush-your-teeth.jpg,49.72,51.67
+2,20,healthylifestyle,Sit straight,Ngồi thẳng,sentar-se ereto,c2l20-sit-straight.jpg,class2/images/c2l20-sit-straight.jpg,51.67,53.63
+2,20,unhealthylifestyle,Smoking,Hút thuốc,fumar,c2l20-smoking.jpg,class2/images/c2l20-smoking.jpg,56.87,58.39
+2,20,unhealthylifestyle,A lot of stress at work,Nhiều căng thẳng trong công việc,um monte de estresse no trabalho,c2l20-a-lot-of-stress-at-work.jpg,class2/images/c2l20-a-lot-of-stress-at-work.jpg,58.39,60.8
+2,20,unhealthylifestyle,Lots of sugar,Nhiều đường,muito açúcar,c2l20-lots-of-sugar.jpg,class2/images/c2l20-lots-of-sugar.jpg,60.8,62.91
+2,20,unhealthylifestyle,Too much salt,Quá nhiều muối,muito sal,c2l20-too-much-salt.jpg,class2/images/c2l20-too-much-salt.jpg,62.91,64.6
+2,20,unhealthylifestyle,Too much alcohol,Quá nhiều rượu,muito álcool,c2l20-too-much-alcohol.jpg,class2/images/c2l20-too-much-alcohol.jpg,64.6,66.76
+2,20,unhealthylifestyle,Not enough rest,Nghỉ ngơi không đủ,não descansar o suficiente,c2l20-not-enough-rest.jpg,class2/images/c2l20-not-enough-rest.jpg,66.76,69.25
+2,20,unhealthylifestyle,Staying up late,Thức khuya,ficar acordado até tarde,c2l20-staying-up-late.jpg,class2/images/c2l20-staying-up-late.jpg,69.25,71.2
+2,20,unhealthylifestyle,Fast food,Thức ăn nhanh,comida rápida,c2l20-fast-food.jpg,class2/images/c2l20-fast-food.jpg,71.2,73.51
+2,20,unhealthylifestyle,Bad posture,Tư thế xấu,postura ruim,c2l20-bad-posture.jpg,class2/images/c2l20-bad-posture.jpg,73.51,75.94
+2,20,unhealthylifestyle,Too much work,Quá nhiều công việc,muito trabalho,c2l20-too-much-work.jpg,class2/images/c2l20-too-much-work.jpg,75.94,78.38
+2,20,unhealthylifestyle,Too little physical activity,Quá ít hoạt động thể chất,pouca atividade física,c2l20-too-little-physical-activity.jpg,class2/images/c2l20-too-little-physical-activity.jpg,78.38,80.87
 1,21,vocabulary,Calendar,Lịch  ,calendário,c1l21-calendar.jpg,class1/images/c1l21-calendar.jpg,,
 1,21,vocabulary,Subject,Môn học,sujeito,c1l21-subject.jpg,class1/images/c1l21-subject.jpg,,
 1,21,vocabulary,Toothpaste,Kem đánh răng,pasta de dentes,c1l21-toothpaste.jpg,class1/images/c1l21-toothpaste.jpg,,
@@ -1004,166 +1004,166 @@ se casar com alguém",c1l05-marry-someone-get-married-to-someone.jpg,class1/imag
 2,21,advice,Put a bandage,Băng bó,Coloque um curativo!,c2l21-put-a-bandage.jpg,class2/images/c2l21-put-a-bandage.jpg,,
 2,21,advice,Put a plaster,Bó bột thạch cao,Coloque um gesso!,c2l21-put-a-plaster.jpg,class2/images/c2l21-put-a-plaster.jpg,,
 2,21,advice,Put a sling,Đeo băng (Dây đỡ cố định tay gãy),Coloque um tipóia!,c2l21-put-a-sling.jpg,class2/images/c2l21-put-a-sling.jpg,,
-2,21,advice,Try not to eat anything too oily or spicy for a few days,Cố gắng không ăn đồ ăn cay vài ngày,Tente não comer nada muito oleosa ou picante para alguns dias!,c2l21-try-not-to-eat-anything-too-oily-or-spicy-for-a-few-days.jpg,class2/images/c2l21-try-not-to-eat-anything-too-oily-or-spicy-for-a-few-days.jpg,,
+2,21,advice,Try not to eat anything too oily or spicy for a few days,Cố gắng không ăn đồ ăn cay vài ngày,Tente não comer nada muito oleoso ou picante por alguns dias!,c2l21-try-not-to-eat-anything-too-oily-or-spicy-for-a-few-days.jpg,class2/images/c2l21-try-not-to-eat-anything-too-oily-or-spicy-for-a-few-days.jpg,,
 2,21,advice,Have an X-ray,Chụp X-quang,Tome um raio-X!,c2l21-have-an-x-ray.jpg,class2/images/c2l21-have-an-x-ray.jpg,,
 2,21,advice,Wear something warm,Mặc ấm,Use roupas quentes!,c2l21-wear-something-warm.jpg,class2/images/c2l21-wear-something-warm.jpg,,
 2,21,advice,Take an aspirin,Dùng một viên kháng sinh,Tome uma Aspirina!,c2l21-take-an-aspirin.jpg,class2/images/c2l21-take-an-aspirin.jpg,,
 2,21,advice,Get an injection,Tiêm chích,Obtenha uma injeção!,c2l21-get-an-injection.jpg,class2/images/c2l21-get-an-injection.jpg,,
 2,21,advice,Massage your head,Mát xa đầu,Massageie sua cabeça!,c2l21-massage-your-head.jpg,class2/images/c2l21-massage-your-head.jpg,,
 2,21,advice,Take antiseptics,Khử trùng,Tome anti-sépticos!,c2l21-take-antiseptics.jpg,class2/images/c2l21-take-antiseptics.jpg,,
-2,22,describe,Small,,pequeno,c2l22-small.jpg,class2/images/c2l22-small.jpg,,
-2,22,describe,Quiet,,quieto,c2l22-quiet.jpg,class2/images/c2l22-quiet.jpg,,
-2,22,describe,Big,,grande,c2l22-big.jpg,class2/images/c2l22-big.jpg,,
-2,22,describe,Modern,,moderno,c2l22-modern.jpg,class2/images/c2l22-modern.jpg,,
-2,22,describe,Well-developed,,bem desenvolvido,c2l22-well-developed.jpg,class2/images/c2l22-well-developed.jpg,,
-2,22,describe,Bustling,,agitado,c2l22-bustling.jpg,class2/images/c2l22-bustling.jpg,,
-2,22,problems,Homelessness,,falta de abrigo,c2l22-homelessness.jpg,class2/images/c2l22-homelessness.jpg,,
-2,22,problems,Beggars,,mendigos,c2l22-beggars.jpg,class2/images/c2l22-beggars.jpg,,
-2,22,problems,Traffic congestion,,congestionamento,c2l22-traffic-congestion.jpg,class2/images/c2l22-traffic-congestion.jpg,,
-2,22,problems,Sub-standard housing,,habitação inferior,c2l22-sub-standard-housing.jpg,class2/images/c2l22-sub-standard-housing.jpg,,
-2,22,problems,Prostitution,,prostituição,c2l22-prostitution.jpg,class2/images/c2l22-prostitution.jpg,,
-2,22,problems,Pollution,,poluição,c2l22-pollution.jpg,class2/images/c2l22-pollution.jpg,,
-2,22,problems,A high crime rate,,uma elevada taxa de criminalidade,c2l22-a-high-crime-rate.jpg,class2/images/c2l22-a-high-crime-rate.jpg,,
-2,22,problems,High unemployment,,alto desemprego,c2l22-high-unemployment.jpg,class2/images/c2l22-high-unemployment.jpg,,
-2,22,problems,Overcrowding,,superlotação,c2l22-overcrowding.jpg,class2/images/c2l22-overcrowding.jpg,,
-2,22,problems,Unsafe areas,,áreas inseguras,c2l22-unsafe-areas.jpg,class2/images/c2l22-unsafe-areas.jpg,,
-1,22,vocabulary,employee,,empregado,c1l22-employee.jpg,class1/images/c1l22-employee.jpg,,
+2,22,describe,Small,Nhỏ,pequeno,c2l22-small.jpg,class2/images/c2l22-small.jpg,8.2,9.55
+2,22,describe,Quiet,Yên lặng,tranquilo,c2l22-quiet.jpg,class2/images/c2l22-quiet.jpg,9.55,10.63
+2,22,describe,Big,Lớn,grande,c2l22-big.jpg,class2/images/c2l22-big.jpg,10.63,11.79
+2,22,describe,Modern,Hiện đại,moderno,c2l22-modern.jpg,class2/images/c2l22-modern.jpg,11.79,13.16
+2,22,describe,Well-developed,Phát triển mạnh,bem desenvolvido,c2l22-well-developed.jpg,class2/images/c2l22-well-developed.jpg,13.16,14.59
+2,22,describe,Bustling,Vội vàng,agitado,c2l22-bustling.jpg,class2/images/c2l22-bustling.jpg,14.59,15.81
+2,22,problems,Homelessness,Tình trạng vô gia cư,falta de abrigo,c2l22-homelessness.jpg,class2/images/c2l22-homelessness.jpg,15.81,63.18
+2,22,problems,Beggars,Ăn xin,mendigos,c2l22-beggars.jpg,class2/images/c2l22-beggars.jpg,63.18,65.04
+2,22,problems,Traffic congestion,Tắc nghẽn giao thông,congestionamento,c2l22-traffic-congestion.jpg,class2/images/c2l22-traffic-congestion.jpg,65.04,67.1
+2,22,problems,Sub-standard housing,Nhà xuống cấp,habitação inferior,c2l22-sub-standard-housing.jpg,class2/images/c2l22-sub-standard-housing.jpg,67.1,69.04
+2,22,problems,Prostitution,Nạn mại dâm,prostituição,c2l22-prostitution.jpg,class2/images/c2l22-prostitution.jpg,69.04,70.93
+2,22,problems,Pollution,Sụ ô nhiễm,poluição,c2l22-pollution.jpg,class2/images/c2l22-pollution.jpg,70.93,72.48
+2,22,problems,A high crime rate,Tỷ lệ tội phạm cao,uma elevada taxa de criminalidade,c2l22-a-high-crime-rate.jpg,class2/images/c2l22-a-high-crime-rate.jpg,72.48,74.46
+2,22,problems,High unemployment,Tỷ lệ thất nghiệp cao,alto desemprego,c2l22-high-unemployment.jpg,class2/images/c2l22-high-unemployment.jpg,74.46,76.35
+2,22,problems,Overcrowding,Quá đông đúc,superlotação,c2l22-overcrowding.jpg,class2/images/c2l22-overcrowding.jpg,76.35,78.05
+2,22,problems,Unsafe areas,Khu vực không an toàn,áreas inseguras,c2l22-unsafe-areas.jpg,class2/images/c2l22-unsafe-areas.jpg,78.05,79.92
+1,22,vocabulary,employee,Nhân viên,empregado,c1l22-employee.jpg,class1/images/c1l22-employee.jpg,,
 1,22,vocabulary,pollution,,poluição,c1l22-pollution.jpg,class1/images/c1l22-pollution.jpg,,
-1,22,vocabulary,patience,,paciência,c1l22-patience.jpg,class1/images/c1l22-patience.jpg,,
-1,22,vocabulary,salary,,salário,c1l22-salary.jpg,class1/images/c1l22-salary.jpg,,
-1,22,vocabulary,apartment,,apartamento,c1l22-apartment.jpg,class1/images/c1l22-apartment.jpg,,
-1,22,vocabulary,convenience store,,loja de conveniência,c1l22-convenience-store.jpg,class1/images/c1l22-convenience-store.jpg,,
-1,22,vocabulary,receptionist,,recepcionista,c1l22-receptionist.jpg,class1/images/c1l22-receptionist.jpg,,
-1,22,vocabulary,bungee jumping,,bungee jumping,c1l22-bungee-jumping.jpg,class1/images/c1l22-bungee-jumping.jpg,,
-1,22,vocabulary,rock climbing,,escalada,c1l22-rock-climbing.jpg,class1/images/c1l22-rock-climbing.jpg,,
-1,22,vocabulary,bus fare,,tarifa de onibus,c1l22-bus-fare.jpg,class1/images/c1l22-bus-fare.jpg,,
-1,22,vocabulary,movie ticket,,bilhete de cinema,c1l22-movie-ticket.jpg,class1/images/c1l22-movie-ticket.jpg,,
-2,23,company,Publishing,,publicação,c2l23-publishing.jpg,class2/images/c2l23-publishing.jpg,,
-2,23,company,Television,,televisão,c2l23-television.jpg,class2/images/c2l23-television.jpg,,
-2,23,company,Insurance,,seguros,c2l23-insurance.jpg,class2/images/c2l23-insurance.jpg,,
-2,23,company,Pharmaceutical,,farmacêuticas,c2l23-pharmaceutical.jpg,class2/images/c2l23-pharmaceutical.jpg,,
-2,23,company,Computer,,computação,c2l23-computer.jpg,class2/images/c2l23-computer.jpg,,
-2,23,company,Engineering,,engenharia,c2l23-engineering.jpg,class2/images/c2l23-engineering.jpg,,
-2,23,company,Electronics,,eletrônicos,c2l23-electronics.jpg,class2/images/c2l23-electronics.jpg,,
-2,23,qualities,Ambitious,,ambicioso,c2l23-ambitious.jpg,class2/images/c2l23-ambitious.jpg,,
-2,23,qualities,Reliable,,confiável,c2l23-reliable.jpg,class2/images/c2l23-reliable.jpg,,
-2,23,qualities,Lazy,,preguiçoso,c2l23-lazy.jpg,class2/images/c2l23-lazy.jpg,,
-2,23,qualities,Conscientious,,consciencioso,c2l23-conscientious.jpg,class2/images/c2l23-conscientious.jpg,,
-2,23,qualities,Flexible,,flexível,c2l23-flexible.jpg,class2/images/c2l23-flexible.jpg,,
-2,23,qualities,Adaptive,,adaptativo,c2l23-adaptive.jpg,class2/images/c2l23-adaptive.jpg,,
-2,23,qualities,Confident,,confiante,c2l23-confident.jpg,class2/images/c2l23-confident.jpg,,
-2,23,qualities,Punctual,,pontual,c2l23-punctual.jpg,class2/images/c2l23-punctual.jpg,,
-2,23,qualities,Enthusiastic,,entusiasmado,c2l23-enthusiastic.jpg,class2/images/c2l23-enthusiastic.jpg,,
-2,23,qualities,Independent,,independente,c2l23-independent.jpg,class2/images/c2l23-independent.jpg,,
-1,23,vocabulary,By car / bus / train / plane,,de carro / ônibus / trem / avião,c1l23-by-car-bus-train-plane.jpg,class1/images/c1l23-by-car-bus-train-plane.jpg,,
-1,23,vocabulary,On foot,,a pé,c1l23-on-foot.jpg,class1/images/c1l23-on-foot.jpg,,
-1,23,vocabulary,Telling her funny stories,,contando-lhe histórias engraçadas,c1l23-telling-her-funny-stories.jpg,class1/images/c1l23-telling-her-funny-stories.jpg,,
-1,23,vocabulary,Obeying whatever she says,,obedecendo o que ela diz,c1l23-obeying-whatever-she-says.jpg,class1/images/c1l23-obeying-whatever-she-says.jpg,,
-1,23,vocabulary,Buying her flowers,,comprando flores para ela,c1l23-buying-her-flowers.jpg,class1/images/c1l23-buying-her-flowers.jpg,,
-1,23,vocabulary,Paying attention to what the teacher says in class,,prestando atenção ao que o/a professor/a diz na aula,c1l23-paying-attention-to-what-the-teacher-says-in-class.jpg,class1/images/c1l23-paying-attention-to-what-the-teacher-says-in-class.jpg,,
-1,23,vocabulary,Watching American and European movies without subtitles,,assistindo a filmes americanos e europeus sem legendas,c1l23-watching-american-and-european-movies-without-subtitles.jpg,class1/images/c1l23-watching-american-and-european-movies-without-subtitles.jpg,,
-1,23,vocabulary,Reading books,,lendo livros,c1l23-reading-books.jpg,class1/images/c1l23-reading-books.jpg,,
-1,23,vocabulary,Practicing speaking English with my friends,,praticando falar Inglês com os meus amigos,c1l23-practicing-speaking-english-with-my-friends.jpg,class1/images/c1l23-practicing-speaking-english-with-my-friends.jpg,,
-1,23,vocabulary,Lending her some money,,emprestando-lhe um pouco de dinheiro,c1l23-lending-her-some-money.jpg,class1/images/c1l23-lending-her-some-money.jpg,,
-1,23,vocabulary,Standing by her side,,estando de pé ao seu lado,c1l23-standing-by-her-side.jpg,class1/images/c1l23-standing-by-her-side.jpg,,
-1,23,vocabulary,Listening to her,,ouvindo-a,c1l23-listening-to-her.jpg,class1/images/c1l23-listening-to-her.jpg,,
-1,23,vocabulary,Help her do homework,,ajudá-la a fazer dever de casa,c1l23-help-her-do-homework.jpg,class1/images/c1l23-help-her-do-homework.jpg,,
-1,23,vocabulary,Doing yoga / meditation,,fazendo ioga / meditação,c1l23-doing-yoga-meditation.jpg,class1/images/c1l23-doing-yoga-meditation.jpg,,
-1,23,vocabulary,Listening to music,,ouvindo música,c1l23-listening-to-music.jpg,class1/images/c1l23-listening-to-music.jpg,,
-1,23,vocabulary,Hanging out with friends,,saindo com os amigos,c1l23-hanging-out-with-friends.jpg,class1/images/c1l23-hanging-out-with-friends.jpg,,
-1,23,vocabulary,Playing sports,,praticando esportes,c1l23-playing-sports.jpg,class1/images/c1l23-playing-sports.jpg,,
-1,23,vocabulary,Researching the company or job,,pesquisando a empresa ou o trabalho,c1l23-researching-the-company-or-job.jpg,class1/images/c1l23-researching-the-company-or-job.jpg,,
-1,23,vocabulary,Creating a good resume and a cover letter,,escrevendo um bom currículo e uma boa carta de apresentação,c1l23-creating-a-good-resume-and-a-cover-letter.jpg,class1/images/c1l23-creating-a-good-resume-and-a-cover-letter.jpg,,
-1,23,vocabulary,Get some references from past employers or professors,,Obter algumas referências de empregadores ou professores passados,c1l23-get-some-references-from-past-employers-or-professors.jpg,class1/images/c1l23-get-some-references-from-past-employers-or-professors.jpg,,
-1,23,vocabulary,"Apply for the job in person, online, or by mail",,"aplicar para o trabalho em pessoa, online ou por correio",c1l23-apply-for-the-job-in-person-online-or-by-mail.jpg,class1/images/c1l23-apply-for-the-job-in-person-online-or-by-mail.jpg,,
-1,23,vocabulary,Preparing carefully for the interview,,cuidadosamente preparando para a entrevista,c1l23-preparing-carefully-for-the-interview.jpg,class1/images/c1l23-preparing-carefully-for-the-interview.jpg,,
-1,23,vocabulary,Being confident,,ser confiante,c1l23-being-confident.jpg,class1/images/c1l23-being-confident.jpg,,
-1,23,vocabulary,Surround yourself with supportive people,,cercar-se com pessoas de apoio,c1l23-surround-yourself-with-supportive-people.jpg,class1/images/c1l23-surround-yourself-with-supportive-people.jpg,,
-1,23,vocabulary,Remind yourself of your ex’s negative traits,,lembrar-se de caraterísticos negativos do seu ex,c1l23-remind-yourself-of-your-ex-s-negative-traits.jpg,class1/images/c1l23-remind-yourself-of-your-ex-s-negative-traits.jpg,,
-1,23,vocabulary,Consider the reasons why you are better off without your ex,,considerar as razões pelas quais você está melhor sem o seu ex,c1l23-consider-the-reasons-why-you-are-better-off-without-your-ex.jpg,class1/images/c1l23-consider-the-reasons-why-you-are-better-off-without-your-ex.jpg,,
-1,23,vocabulary,Cutting down on sugar,,reduzindo o açúcar,c1l23-cutting-down-on-sugar.jpg,class1/images/c1l23-cutting-down-on-sugar.jpg,,
-1,23,vocabulary,Eating fruits and vegetables,,comendo frutas e legumes,c1l23-eating-fruits-and-vegetables.jpg,class1/images/c1l23-eating-fruits-and-vegetables.jpg,,
-1,23,vocabulary,Eating your food slowly,,comendo a comida devagar,c1l23-eating-your-food-slowly.jpg,class1/images/c1l23-eating-your-food-slowly.jpg,,
-1,23,vocabulary,Getting regular exercise,,exercitando-se regularmente,c1l23-getting-regular-exercise.jpg,class1/images/c1l23-getting-regular-exercise.jpg,,
-1,24,vocabulary,Communicate with foreigners,,comunicar com estrangeiros,c1l24-communicate-with-foreigners.jpg,class1/images/c1l24-communicate-with-foreigners.jpg,,
-1,24,vocabulary,Find a good job,,encontrar um bom trabalho,c1l24-find-a-good-job.jpg,class1/images/c1l24-find-a-good-job.jpg,,
-1,24,vocabulary,Travel around the world,,viajar ao redor do mundo,c1l24-travel-around-the-world.jpg,class1/images/c1l24-travel-around-the-world.jpg,,
-1,24,vocabulary,Widen their knowledge,,ampliar seus conhecimentos,c1l24-widen-their-knowledge.jpg,class1/images/c1l24-widen-their-knowledge.jpg,,
-1,24,vocabulary,Meet new people and learn new things,,conhecer novas pessoas e aprender coisas novas,c1l24-meet-new-people-and-learn-new-things.jpg,class1/images/c1l24-meet-new-people-and-learn-new-things.jpg,,
-1,24,vocabulary,Get out of my comfort zone,,sair da minha zona de conforto,c1l24-get-out-of-my-comfort-zone.jpg,class1/images/c1l24-get-out-of-my-comfort-zone.jpg,,
-1,24,vocabulary,Work under pressure,,trabalhar sob pressão,c1l24-work-under-pressure.jpg,class1/images/c1l24-work-under-pressure.jpg,,
-1,24,vocabulary,Talk in front of a lot of people,,falar perante um monte de pessoas,c1l24-talk-in-front-of-a-lot-of-people.jpg,class1/images/c1l24-talk-in-front-of-a-lot-of-people.jpg,,
-1,24,vocabulary,Get stuck in the traffic jam,,ficar preso no engarrafamento,c1l24-get-stuck-in-the-traffic-jam.jpg,class1/images/c1l24-get-stuck-in-the-traffic-jam.jpg,,
-1,24,vocabulary,Good employment opportunities,,boas oportunidades de emprego,c1l24-good-employment-opportunities.jpg,class1/images/c1l24-good-employment-opportunities.jpg,,
-1,24,vocabulary,Lively night life,,vida noturna animada,c1l24-lively-night-life.jpg,class1/images/c1l24-lively-night-life.jpg,,
-1,24,vocabulary,Entertainment facilities,,instalações de entretenimento,c1l24-entertainment-facilities.jpg,class1/images/c1l24-entertainment-facilities.jpg,,
-1,24,vocabulary,Fresh air,,ar fresco,c1l24-fresh-air.jpg,class1/images/c1l24-fresh-air.jpg,,
-1,24,vocabulary,Cheap living expenses,,despesas de vida baratos,c1l24-cheap-living-expenses.jpg,class1/images/c1l24-cheap-living-expenses.jpg,,
-1,24,vocabulary,Friendly neighbors,,vizinhos agradáveis,c1l24-friendly-neighbors.jpg,class1/images/c1l24-friendly-neighbors.jpg,,
+1,22,vocabulary,patience,Sự kiên nhẫn,paciência,c1l22-patience.jpg,class1/images/c1l22-patience.jpg,,
+1,22,vocabulary,salary,Lương,salário,c1l22-salary.jpg,class1/images/c1l22-salary.jpg,,
+1,22,vocabulary,apartment,Căn hộ,apartamento,c1l22-apartment.jpg,class1/images/c1l22-apartment.jpg,,
+1,22,vocabulary,convenience store,Cửa hàng tiện lợi,loja de conveniência,c1l22-convenience-store.jpg,class1/images/c1l22-convenience-store.jpg,,
+1,22,vocabulary,receptionist,Nhân viên lễ tân,recepcionista,c1l22-receptionist.jpg,class1/images/c1l22-receptionist.jpg,,
+1,22,vocabulary,bungee jumping,Nhảy bungee,bungee jumping,c1l22-bungee-jumping.jpg,class1/images/c1l22-bungee-jumping.jpg,,
+1,22,vocabulary,rock climbing,Leo núi đá,escalada,c1l22-rock-climbing.jpg,class1/images/c1l22-rock-climbing.jpg,,
+1,22,vocabulary,bus fare,Bến xe buýt,tarifa de onibus,c1l22-bus-fare.jpg,class1/images/c1l22-bus-fare.jpg,,
+1,22,vocabulary,movie ticket,Vé xem phim,bilhete de cinema,c1l22-movie-ticket.jpg,class1/images/c1l22-movie-ticket.jpg,,
+2,23,company,Publishing,Việc xuất bản/Nghể xuất bản,publicação,c2l23-publishing.jpg,class2/images/c2l23-publishing.jpg,,
+2,23,company,Television,Truyền hình,televisão,c2l23-television.jpg,class2/images/c2l23-television.jpg,,
+2,23,company,Insurance,Bảo hiểm,seguros,c2l23-insurance.jpg,class2/images/c2l23-insurance.jpg,,
+2,23,company,Pharmaceutical,Thuộc về được khoa,farmacêuticas,c2l23-pharmaceutical.jpg,class2/images/c2l23-pharmaceutical.jpg,,
+2,23,company,Computer,Máy tính,computação,c2l23-computer.jpg,class2/images/c2l23-computer.jpg,,
+2,23,company,Engineering,Kỹ thuật,engenharia,c2l23-engineering.jpg,class2/images/c2l23-engineering.jpg,,
+2,23,company,Electronics,Điện tử học,eletrônicos,c2l23-electronics.jpg,class2/images/c2l23-electronics.jpg,,
+2,23,qualities,Ambitious,Đầy tham vọng,ambicioso,c2l23-ambitious.jpg,class2/images/c2l23-ambitious.jpg,,
+2,23,qualities,Reliable,"Chắc chắn, đáng tin cậy",confiável,c2l23-reliable.jpg,class2/images/c2l23-reliable.jpg,,
+2,23,qualities,Lazy,Lười biếng,preguiçoso,c2l23-lazy.jpg,class2/images/c2l23-lazy.jpg,,
+2,23,qualities,Conscientious,"Tận tâm, chu đáo, cần thận",consciencioso,c2l23-conscientious.jpg,class2/images/c2l23-conscientious.jpg,,
+2,23,qualities,Flexible,"Linh hoạt, mềm  dẻo",flexível,c2l23-flexible.jpg,class2/images/c2l23-flexible.jpg,,
+2,23,qualities,Adaptive,Mang tính thích nghi,adaptativo,c2l23-adaptive.jpg,class2/images/c2l23-adaptive.jpg,,
+2,23,qualities,Confident,Tự tin,confiante,c2l23-confident.jpg,class2/images/c2l23-confident.jpg,,
+2,23,qualities,Punctual,Đúng giờ,pontual,c2l23-punctual.jpg,class2/images/c2l23-punctual.jpg,,
+2,23,qualities,Enthusiastic,"Nhiệt tình, say mê, hăng hái",entusiasmado,c2l23-enthusiastic.jpg,class2/images/c2l23-enthusiastic.jpg,,
+2,23,qualities,Independent,Độc lập,independente,c2l23-independent.jpg,class2/images/c2l23-independent.jpg,,
+1,23,vocabulary,By car / bus / train / plane,Đi bằng xe hơi/ xe buýt/ tàu hỏa/ máy bay,de carro / ônibus / trem / avião,c1l23-by-car-bus-train-plane.jpg,class1/images/c1l23-by-car-bus-train-plane.jpg,,
+1,23,vocabulary,On foot,Đi bộ,a pé,c1l23-on-foot.jpg,class1/images/c1l23-on-foot.jpg,,
+1,23,vocabulary,Telling her funny stories,Kể cho cô ấy nghe những câu chuyện cười,contando-lhe histórias engraçadas,c1l23-telling-her-funny-stories.jpg,class1/images/c1l23-telling-her-funny-stories.jpg,,
+1,23,vocabulary,Obeying whatever she says,Tuân theo mọi thứ cô ấy bảo,obedecendo o que ela diz,c1l23-obeying-whatever-she-says.jpg,class1/images/c1l23-obeying-whatever-she-says.jpg,,
+1,23,vocabulary,Buying her flowers,Tặng hoa cho cô ấy,comprando flores para ela,c1l23-buying-her-flowers.jpg,class1/images/c1l23-buying-her-flowers.jpg,,
+1,23,vocabulary,Paying attention to what the teacher says in class,Tập trung nghe thầy cô giảng bài,prestando atenção ao que o/a professor/a diz na aula,c1l23-paying-attention-to-what-the-teacher-says-in-class.jpg,class1/images/c1l23-paying-attention-to-what-the-teacher-says-in-class.jpg,,
+1,23,vocabulary,Watching American and European movies without subtitles,Xem phim Âu Mỹ không cần sub,assistindo a filmes americanos e europeus sem legendas,c1l23-watching-american-and-european-movies-without-subtitles.jpg,class1/images/c1l23-watching-american-and-european-movies-without-subtitles.jpg,,
+1,23,vocabulary,Reading books,Đọc sách,lendo livros,c1l23-reading-books.jpg,class1/images/c1l23-reading-books.jpg,,
+1,23,vocabulary,Practicing speaking English with my friends,Thực hành nói tiếng Anh với những người bạn của tôi,praticando falar Inglês com os meus amigos,c1l23-practicing-speaking-english-with-my-friends.jpg,class1/images/c1l23-practicing-speaking-english-with-my-friends.jpg,,
+1,23,vocabulary,Lending her some money,Cho cô ấy mượn tiền,emprestando-lhe um pouco de dinheiro,c1l23-lending-her-some-money.jpg,class1/images/c1l23-lending-her-some-money.jpg,,
+1,23,vocabulary,Standing by her side,Ủng hộ cô ấy,estando de pé ao seu lado,c1l23-standing-by-her-side.jpg,class1/images/c1l23-standing-by-her-side.jpg,,
+1,23,vocabulary,Listening to her,Lắng nghe cô ấy,ouvindo-a,c1l23-listening-to-her.jpg,class1/images/c1l23-listening-to-her.jpg,,
+1,23,vocabulary,Help her do homework,Giúp cô ấy làm bài tập về nhà,ajudá-la a fazer dever de casa,c1l23-help-her-do-homework.jpg,class1/images/c1l23-help-her-do-homework.jpg,,
+1,23,vocabulary,Doing yoga / meditation,Tập yoga/ thiền,fazendo ioga / meditação,c1l23-doing-yoga-meditation.jpg,class1/images/c1l23-doing-yoga-meditation.jpg,,
+1,23,vocabulary,Listening to music,Nghe nhạc,ouvindo música,c1l23-listening-to-music.jpg,class1/images/c1l23-listening-to-music.jpg,,
+1,23,vocabulary,Hanging out with friends,Đi chơi cùng bạn bè,saindo com os amigos,c1l23-hanging-out-with-friends.jpg,class1/images/c1l23-hanging-out-with-friends.jpg,,
+1,23,vocabulary,Playing sports,Chơi thể thao,praticando esportes,c1l23-playing-sports.jpg,class1/images/c1l23-playing-sports.jpg,,
+1,23,vocabulary,Researching the company or job,Tìm công ty hoặc việc làm,pesquisando a empresa ou o trabalho,c1l23-researching-the-company-or-job.jpg,class1/images/c1l23-researching-the-company-or-job.jpg,,
+1,23,vocabulary,Creating a good resume and a cover letter,Viết hồ sơ xin việc và đơn xin việc tốt ,escrevendo um bom currículo e uma boa carta de apresentação,c1l23-creating-a-good-resume-and-a-cover-letter.jpg,class1/images/c1l23-creating-a-good-resume-and-a-cover-letter.jpg,,
+1,23,vocabulary,Get some references from past employers or professors,Tham khảo từ những nhân viên làm trước và các giáo sư,Obter algumas referências de empregadores ou professores passados,c1l23-get-some-references-from-past-employers-or-professors.jpg,class1/images/c1l23-get-some-references-from-past-employers-or-professors.jpg,,
+1,23,vocabulary,"Apply for the job in person, online, or by mail","Nộp đơn trực tiếp, online, qua mail","aplicar para o trabalho em pessoa, online ou por correio",c1l23-apply-for-the-job-in-person-online-or-by-mail.jpg,class1/images/c1l23-apply-for-the-job-in-person-online-or-by-mail.jpg,,
+1,23,vocabulary,Preparing carefully for the interview,Chuẩn bị chu đáo cho buổi phỏng vấn,cuidadosamente preparando para a entrevista,c1l23-preparing-carefully-for-the-interview.jpg,class1/images/c1l23-preparing-carefully-for-the-interview.jpg,,
+1,23,vocabulary,Being confident,Tự tin,ser confiante,c1l23-being-confident.jpg,class1/images/c1l23-being-confident.jpg,,
+1,23,vocabulary,Surround yourself with supportive people,Ở cạnh những người luôn ủng hộ bạn,cercar-se com pessoas de apoio,c1l23-surround-yourself-with-supportive-people.jpg,class1/images/c1l23-surround-yourself-with-supportive-people.jpg,,
+1,23,vocabulary,Remind yourself of your ex’s negative traits,Nhắc nhở bản thân về những điều tiêu cực ở người cũ,lembrar-se de caraterísticos negativos do seu ex,c1l23-remind-yourself-of-your-ex-s-negative-traits.jpg,class1/images/c1l23-remind-yourself-of-your-ex-s-negative-traits.jpg,,
+1,23,vocabulary,Consider the reasons why you are better off without your ex,Xem xét những lý do tại sao bạn thấy hạnh phúc hơn khi không có người cũ,considerar as razões pelas quais você está melhor sem o seu ex,c1l23-consider-the-reasons-why-you-are-better-off-without-your-ex.jpg,class1/images/c1l23-consider-the-reasons-why-you-are-better-off-without-your-ex.jpg,,
+1,23,vocabulary,Cutting down on sugar,Giảm ăn đường,reduzindo o açúcar,c1l23-cutting-down-on-sugar.jpg,class1/images/c1l23-cutting-down-on-sugar.jpg,,
+1,23,vocabulary,Eating fruits and vegetables,Ăn trái cây và rau củ,comendo frutas e legumes,c1l23-eating-fruits-and-vegetables.jpg,class1/images/c1l23-eating-fruits-and-vegetables.jpg,,
+1,23,vocabulary,Eating your food slowly,Ăn chậm,comendo a comida devagar,c1l23-eating-your-food-slowly.jpg,class1/images/c1l23-eating-your-food-slowly.jpg,,
+1,23,vocabulary,Getting regular exercise,Tập thể dục thường xuyên,exercitando-se regularmente,c1l23-getting-regular-exercise.jpg,class1/images/c1l23-getting-regular-exercise.jpg,,
+1,24,vocabulary,Communicate with foreigners,Giao tiếp với người nước ngoài,comunicar com estrangeiros,c1l24-communicate-with-foreigners.jpg,class1/images/c1l24-communicate-with-foreigners.jpg,,
+1,24,vocabulary,Find a good job,Tìm công việc tốt,encontrar um bom trabalho,c1l24-find-a-good-job.jpg,class1/images/c1l24-find-a-good-job.jpg,,
+1,24,vocabulary,Travel around the world,Đi du lịch vòng quanh thế giới,viajar ao redor do mundo,c1l24-travel-around-the-world.jpg,class1/images/c1l24-travel-around-the-world.jpg,,
+1,24,vocabulary,Widen their knowledge,Mở rộng tri thức,ampliar seus conhecimentos,c1l24-widen-their-knowledge.jpg,class1/images/c1l24-widen-their-knowledge.jpg,,
+1,24,vocabulary,Meet new people and learn new things,"Gặp người mới, học điều mới",conhecer novas pessoas e aprender coisas novas,c1l24-meet-new-people-and-learn-new-things.jpg,class1/images/c1l24-meet-new-people-and-learn-new-things.jpg,,
+1,24,vocabulary,Get out of my comfort zone,Bước ra khỏi vùng an toàn,sair da minha zona de conforto,c1l24-get-out-of-my-comfort-zone.jpg,class1/images/c1l24-get-out-of-my-comfort-zone.jpg,,
+1,24,vocabulary,Work under pressure,Làm việc dưới áp lực lớn,trabalhar sob pressão,c1l24-work-under-pressure.jpg,class1/images/c1l24-work-under-pressure.jpg,,
+1,24,vocabulary,Talk in front of a lot of people,Nói chuyện trước nhiều người,falar perante um monte de pessoas,c1l24-talk-in-front-of-a-lot-of-people.jpg,class1/images/c1l24-talk-in-front-of-a-lot-of-people.jpg,,
+1,24,vocabulary,Get stuck in the traffic jam,Bị kẹt xe,ficar preso no engarrafamento,c1l24-get-stuck-in-the-traffic-jam.jpg,class1/images/c1l24-get-stuck-in-the-traffic-jam.jpg,,
+1,24,vocabulary,Good employment opportunities,Cơ hội việc làm tốt,boas oportunidades de emprego,c1l24-good-employment-opportunities.jpg,class1/images/c1l24-good-employment-opportunities.jpg,,
+1,24,vocabulary,Lively night life,Tận hưởng cuộc sống về đêm,vida noturna animada,c1l24-lively-night-life.jpg,class1/images/c1l24-lively-night-life.jpg,,
+1,24,vocabulary,Entertainment facilities,Cơ sở vật chất giải trí,instalações de entretenimento,c1l24-entertainment-facilities.jpg,class1/images/c1l24-entertainment-facilities.jpg,,
+1,24,vocabulary,Fresh air,Không khí trong lành,ar fresco,c1l24-fresh-air.jpg,class1/images/c1l24-fresh-air.jpg,,
+1,24,vocabulary,Cheap living expenses,Chi phí sinh hoạt thấp,despesas de vida baratos,c1l24-cheap-living-expenses.jpg,class1/images/c1l24-cheap-living-expenses.jpg,,
+1,24,vocabulary,Friendly neighbors,Hàng xóm thân thiện,vizinhos agradáveis,c1l24-friendly-neighbors.jpg,class1/images/c1l24-friendly-neighbors.jpg,,
 1,24,vocabulary,Our personalities don’t really match each other,,Nossas personalidades realmente não se combinam.,c1l24-our-personalities-don-t-really-match-each-other.jpg,class1/images/c1l24-our-personalities-don-t-really-match-each-other.jpg,,
-1,24,vocabulary,He cheated on me,,Ele me traiu.,c1l24-he-cheated-on-me.jpg,class1/images/c1l24-he-cheated-on-me.jpg,,
-1,24,vocabulary,We were not meant to be,,Não nos queríamos para estar juntos para sempre.,c1l24-we-were-not-meant-to-be.jpg,class1/images/c1l24-we-were-not-meant-to-be.jpg,,
-1,24,vocabulary,I got fired,,Fui demitido.,c1l24-i-got-fired.jpg,class1/images/c1l24-i-got-fired.jpg,,
-1,24,vocabulary,I failed the test,,Eu falhei o teste.,c1l24-i-failed-the-test.jpg,class1/images/c1l24-i-failed-the-test.jpg,,
-1,24,vocabulary,I look sad but I am really not,,"Eu pareço triste, mas realmente eu não sou.",c1l24-i-look-sad-but-i-am-really-not.jpg,class1/images/c1l24-i-look-sad-but-i-am-really-not.jpg,,
-1,24,vocabulary,One of my relatives got sick,,Um dos meus parentes ficou doente.,c1l24-one-of-my-relatives-got-sick.jpg,class1/images/c1l24-one-of-my-relatives-got-sick.jpg,,
-1,24,vocabulary,My boyfriend is a doctor,,Meu namorado é um médico.,c1l24-my-boyfriend-is-a-doctor.jpg,class1/images/c1l24-my-boyfriend-is-a-doctor.jpg,,
-2,24,menu,Appetizer / starter,,entrada / antepasto,c2l24-appetizer-starter.jpg,class2/images/c2l24-appetizer-starter.jpg,,
-2,24,menu,Main course,,prato principal,c2l24-main-course.jpg,class2/images/c2l24-main-course.jpg,,
-2,24,menu,Dessert,,sobremesa,c2l24-dessert.jpg,class2/images/c2l24-dessert.jpg,,
-2,24,food,Rice,,arroz,c2l24-rice.jpg,class2/images/c2l24-rice.jpg,,
-2,24,food,Sticky rice,,arroz pegajoso,c2l24-sticky-rice.jpg,class2/images/c2l24-sticky-rice.jpg,,
-2,24,food,Bread,,pão,c2l24-bread.jpg,class2/images/c2l24-bread.jpg,,
-2,24,food,Fish,,peixe,c2l24-fish.jpg,class2/images/c2l24-fish.jpg,,
-2,24,food,Egg,,ovo,c2l24-egg.jpg,class2/images/c2l24-egg.jpg,,
-2,24,food,Salad,,salada,c2l24-salad.jpg,class2/images/c2l24-salad.jpg,,
-2,24,food,Steak,,bife,c2l24-steak.jpg,class2/images/c2l24-steak.jpg,,
-2,24,food,"Seafood (fish, shrimp, lobster, octopus)",,"marisco (peixe, camarão, lagosta, polvo)",c2l24-seafood-fish-shrimp-lobster-octopus-.jpg,class2/images/c2l24-seafood-fish-shrimp-lobster-octopus-.jpg,,
-2,24,food,"Meat (pork, beef, chicken)",,"carne (carne de porco, carne, frango)",c2l24-meat-pork-beef-chicken-.jpg,class2/images/c2l24-meat-pork-beef-chicken-.jpg,,
-2,24,food,Curries,,caril / curry,c2l24-curries.jpg,class2/images/c2l24-curries.jpg,,
-2,24,tastes,Sweet,,doce,c2l24-sweet.jpg,class2/images/c2l24-sweet.jpg,,
-2,24,tastes,Salty,,salgado,c2l24-salty.jpg,class2/images/c2l24-salty.jpg,,
-2,24,tastes,Spicy,,picante,c2l24-spicy.jpg,class2/images/c2l24-spicy.jpg,,
-2,24,tastes,Sour,,azedo,c2l24-sour.jpg,class2/images/c2l24-sour.jpg,,
-2,24,tastes,Crispy,,crocante,c2l24-crispy.jpg,class2/images/c2l24-crispy.jpg,,
-2,24,tastes,Yummy / delicious / tasty,,gostoso / delicioso / saborosa,c2l24-yummy-delicious-tasty.jpg,class2/images/c2l24-yummy-delicious-tasty.jpg,,
-2,24,tastes,Bitter,,amargo,c2l24-bitter.jpg,class2/images/c2l24-bitter.jpg,,
-2,24,tastes,Great,,ótimo,c2l24-great.jpg,class2/images/c2l24-great.jpg,,
-2,24,tastes,Terrible,,terrível,c2l24-terrible.jpg,class2/images/c2l24-terrible.jpg,,
-2,25,vocabulary,Beat oneself up,,criticar-se excessivamente,c2l25-beat-oneself-up.jpg,class2/images/c2l25-beat-oneself-up.jpg,,
-2,25,vocabulary,Break in,,arrombar,c2l25-break-in.jpg,class2/images/c2l25-break-in.jpg,,
-2,25,vocabulary,Break up with someone,,separar de alguém,c2l25-break-up-with-someone.jpg,class2/images/c2l25-break-up-with-someone.jpg,,
-2,25,vocabulary,Bring something up,,propor um assunto para discussão,c2l25-bring-something-up.jpg,class2/images/c2l25-bring-something-up.jpg,,
-2,25,vocabulary,Bring someone up,,cuidar de uma criança até adulto,c2l25-bring-someone-up.jpg,class2/images/c2l25-bring-someone-up.jpg,,
-2,25,vocabulary,Catch up with someone,,alcançar a alguém,c2l25-catch-up-with-someone.jpg,class2/images/c2l25-catch-up-with-someone.jpg,,
-2,25,vocabulary,Come across,,encontrar-se com,c2l25-come-across.jpg,class2/images/c2l25-come-across.jpg,,
-2,25,vocabulary,Run into,,encontrar por acaso,c2l25-run-into.jpg,class2/images/c2l25-run-into.jpg,,
-2,25,vocabulary,Come up with,,sugerir,c2l25-come-up-with.jpg,class2/images/c2l25-come-up-with.jpg,,
-2,25,vocabulary,Count on someone,,confiar em alguém,c2l25-count-on-someone.jpg,class2/images/c2l25-count-on-someone.jpg,,
-2,25,vocabulary,Cut down on something,,reduzir algo,c2l25-cut-down-on-something.jpg,class2/images/c2l25-cut-down-on-something.jpg,,
-2,25,vocabulary,Dress up,,vestir-se elegantemente,c2l25-dress-up.jpg,class2/images/c2l25-dress-up.jpg,,
-2,25,vocabulary,Drop by,,visitar sem avisar,c2l25-drop-by.jpg,class2/images/c2l25-drop-by.jpg,,
-2,25,vocabulary,Drop someone off,,deixar alguém num lugar,c2l25-drop-someone-off.jpg,class2/images/c2l25-drop-someone-off.jpg,,
-2,25,vocabulary,End up,,terminar,c2l25-end-up.jpg,class2/images/c2l25-end-up.jpg,,
-2,25,vocabulary,Figure out,,descobrir,c2l25-figure-out.jpg,class2/images/c2l25-figure-out.jpg,,
-2,25,vocabulary,Get along with someone,,conviver com alguém,c2l25-get-along-with-someone.jpg,class2/images/c2l25-get-along-with-someone.jpg,,
-2,25,vocabulary,Get rid of something,,se livrar de algo,c2l25-get-rid-of-something.jpg,class2/images/c2l25-get-rid-of-something.jpg,,
-2,25,vocabulary,Get up,,levantar-se,c2l25-get-up.jpg,class2/images/c2l25-get-up.jpg,,
-2,25,vocabulary,Go off,,disparar,c2l25-go-off.jpg,class2/images/c2l25-go-off.jpg,,
-2,25,vocabulary,Go on,,continuar,c2l25-go-on.jpg,class2/images/c2l25-go-on.jpg,,
-2,25,vocabulary,Grow up,,deixar de ser criança,c2l25-grow-up.jpg,class2/images/c2l25-grow-up.jpg,,
-2,25,vocabulary,Make something up,,mentir,c2l25-make-something-up.jpg,class2/images/c2l25-make-something-up.jpg,,
-2,25,vocabulary,Make up one’s mind,,se decidir,c2l25-make-up-one-s-mind.jpg,class2/images/c2l25-make-up-one-s-mind.jpg,,
-2,25,vocabulary,Move on,,ir em frente,c2l25-move-on.jpg,class2/images/c2l25-move-on.jpg,,
-2,25,vocabulary,Pick someone up,,buscar alguém num lugar,c2l25-pick-someone-up.jpg,class2/images/c2l25-pick-someone-up.jpg,,
-2,25,vocabulary,Pick something up,,levantar alguma coisa do chão / buscar algo no camino para casa ,c2l25-pick-something-up.jpg,class2/images/c2l25-pick-something-up.jpg,,
-2,25,vocabulary,Put someone down,,criticar alguém,c2l25-put-someone-down.jpg,class2/images/c2l25-put-someone-down.jpg,,
-2,25,vocabulary,let someone down,,decepcionar alguém,c2l25-let-someone-down.jpg,class2/images/c2l25-let-someone-down.jpg,,
-2,25,vocabulary,Look up to someone,,admirar alguém,c2l25-look-up-to-someone.jpg,class2/images/c2l25-look-up-to-someone.jpg,,
-2,25,vocabulary,Look down on someone,,desprezar alguém,c2l25-look-down-on-someone.jpg,class2/images/c2l25-look-down-on-someone.jpg,,
-2,25,vocabulary,Settle down,,sossegar,c2l25-settle-down.jpg,class2/images/c2l25-settle-down.jpg,,
-2,25,vocabulary,Show up,,aparecer,c2l25-show-up.jpg,class2/images/c2l25-show-up.jpg,,
-2,25,vocabulary,Show off,,ostentar,c2l25-show-off.jpg,class2/images/c2l25-show-off.jpg,,
+1,24,vocabulary,He cheated on me,Anh ấy lừa dối tôi,Ele me traiu.,c1l24-he-cheated-on-me.jpg,class1/images/c1l24-he-cheated-on-me.jpg,,
+1,24,vocabulary,We were not meant to be,Chúng tôi không dành cho nhau,Não nos queríamos para estar juntos para sempre.,c1l24-we-were-not-meant-to-be.jpg,class1/images/c1l24-we-were-not-meant-to-be.jpg,,
+1,24,vocabulary,I got fired,Tôi bị đuổi việc rồi,Fui demitido.,c1l24-i-got-fired.jpg,class1/images/c1l24-i-got-fired.jpg,,
+1,24,vocabulary,I failed the test,Tôi thi trượt rồi,Eu falhei o teste.,c1l24-i-failed-the-test.jpg,class1/images/c1l24-i-failed-the-test.jpg,,
+1,24,vocabulary,I look sad but I am really not,Trông tôi buồn nhưng tôi k ,"Eu pareço triste, mas realmente eu não sou.",c1l24-i-look-sad-but-i-am-really-not.jpg,class1/images/c1l24-i-look-sad-but-i-am-really-not.jpg,,
+1,24,vocabulary,One of my relatives got sick,Một người bà con của tôi bị ốm,Um dos meus parentes ficou doente.,c1l24-one-of-my-relatives-got-sick.jpg,class1/images/c1l24-one-of-my-relatives-got-sick.jpg,,
+1,24,vocabulary,My boyfriend is a doctor,Bạn trai tôi là bác sĩ,Meu namorado é um médico.,c1l24-my-boyfriend-is-a-doctor.jpg,class1/images/c1l24-my-boyfriend-is-a-doctor.jpg,,
+2,24,menu,Appetizer / starter,Món khai vị,entrada / antepasto,c2l24-appetizer-starter.jpg,class2/images/c2l24-appetizer-starter.jpg,,
+2,24,menu,Main course,Món chính,prato principal,c2l24-main-course.jpg,class2/images/c2l24-main-course.jpg,,
+2,24,menu,Dessert,Món tráng miệng,sobremesa,c2l24-dessert.jpg,class2/images/c2l24-dessert.jpg,,
+2,24,food,Rice,Cơm,arroz,c2l24-rice.jpg,class2/images/c2l24-rice.jpg,,
+2,24,food,Sticky rice,Nếp/ xôi,arroz pegajoso,c2l24-sticky-rice.jpg,class2/images/c2l24-sticky-rice.jpg,,
+2,24,food,Bread,Bánh mì,pão,c2l24-bread.jpg,class2/images/c2l24-bread.jpg,,
+2,24,food,Fish,Cá,peixe,c2l24-fish.jpg,class2/images/c2l24-fish.jpg,,
+2,24,food,Egg,Trứng,ovo,c2l24-egg.jpg,class2/images/c2l24-egg.jpg,,
+2,24,food,Salad,Rau trộn,salada,c2l24-salad.jpg,class2/images/c2l24-salad.jpg,,
+2,24,food,Steak,Thịt bò nướng,bife,c2l24-steak.jpg,class2/images/c2l24-steak.jpg,,
+2,24,food,"Seafood (fish, shrimp, lobster, octopus)","Hải sản (cá, tôm. tôm hùm, bạch tuộc...)","marisco (peixe, camarão, lagosta, polvo)",c2l24-seafood-fish-shrimp-lobster-octopus-.jpg,class2/images/c2l24-seafood-fish-shrimp-lobster-octopus-.jpg,,
+2,24,food,"Meat (pork, beef, chicken)","Thịt (heo, bò, gà)","carne (carne de porco, carne, frango)",c2l24-meat-pork-beef-chicken-.jpg,class2/images/c2l24-meat-pork-beef-chicken-.jpg,,
+2,24,food,Curries,Cà ri,caril / curry,c2l24-curries.jpg,class2/images/c2l24-curries.jpg,,
+2,24,tastes,Sweet,Ngọt,doce,c2l24-sweet.jpg,class2/images/c2l24-sweet.jpg,,
+2,24,tastes,Salty,Mặn,salgado,c2l24-salty.jpg,class2/images/c2l24-salty.jpg,,
+2,24,tastes,Spicy,Cay,picante,c2l24-spicy.jpg,class2/images/c2l24-spicy.jpg,,
+2,24,tastes,Sour,Chua,azedo,c2l24-sour.jpg,class2/images/c2l24-sour.jpg,,
+2,24,tastes,Crispy,Giòn,crocante,c2l24-crispy.jpg,class2/images/c2l24-crispy.jpg,,
+2,24,tastes,Yummy / delicious / tasty,Ngon,gostoso / delicioso / saborosa,c2l24-yummy-delicious-tasty.jpg,class2/images/c2l24-yummy-delicious-tasty.jpg,,
+2,24,tastes,Bitter,Đắng,amargo,c2l24-bitter.jpg,class2/images/c2l24-bitter.jpg,,
+2,24,tastes,Great,Tuyệt,ótimo,c2l24-great.jpg,class2/images/c2l24-great.jpg,,
+2,24,tastes,Terrible,Tệ/ dở,terrível,c2l24-terrible.jpg,class2/images/c2l24-terrible.jpg,,
+2,25,vocabulary,Beat oneself up,Đánh ai đó liên tục,criticar-se excessivamente,c2l25-beat-oneself-up.jpg,class2/images/c2l25-beat-oneself-up.jpg,,
+2,25,vocabulary,Break in,"Xông vào, đột nhập vào",arrombar,c2l25-break-in.jpg,class2/images/c2l25-break-in.jpg,,
+2,25,vocabulary,Break up with someone,Chia tay với ai đó,separar de alguém,c2l25-break-up-with-someone.jpg,class2/images/c2l25-break-up-with-someone.jpg,,
+2,25,vocabulary,Bring something up,Bắt đầu nói về một chủ để nào đó,falar sobre algo / propor um assunto para discussão ,c2l25-bring-something-up.jpg,class2/images/c2l25-bring-something-up.jpg,,
+2,25,vocabulary,Bring someone up,Nuôi nấng từ bé đến lớn,cuidar de uma criança até adulto,c2l25-bring-someone-up.jpg,class2/images/c2l25-bring-someone-up.jpg,,
+2,25,vocabulary,Catch up with someone,Đuổi kịp ai đó,alcançar a alguém,c2l25-catch-up-with-someone.jpg,class2/images/c2l25-catch-up-with-someone.jpg,,
+2,25,vocabulary,Come across,Tình cờ gặp ai đó ,encontrar-se com,c2l25-come-across.jpg,class2/images/c2l25-come-across.jpg,,
+2,25,vocabulary,Run into,Tình cờ gặp ai đó / Đâm vào,topar / encontrar por acaso,c2l25-run-into.jpg,class2/images/c2l25-run-into.jpg,,
+2,25,vocabulary,Come up with,Khám phá ra/ Tìm lại,sugerir,c2l25-come-up-with.jpg,class2/images/c2l25-come-up-with.jpg,,
+2,25,vocabulary,Count on someone,Dựa vào ai đó,confiar em alguém,c2l25-count-on-someone.jpg,class2/images/c2l25-count-on-someone.jpg,,
+2,25,vocabulary,Cut down on something,Cắt giảm gì đó,reduzir algo,c2l25-cut-down-on-something.jpg,class2/images/c2l25-cut-down-on-something.jpg,,
+2,25,vocabulary,Dress up,Ăn mặc,vestir-se elegantemente,c2l25-dress-up.jpg,class2/images/c2l25-dress-up.jpg,,
+2,25,vocabulary,Drop by,Ghé thăm,visitar sem avisar,c2l25-drop-by.jpg,class2/images/c2l25-drop-by.jpg,,
+2,25,vocabulary,Drop someone off,Đưa ai đó đến một nơi nào đó,deixar alguém num lugar,c2l25-drop-someone-off.jpg,class2/images/c2l25-drop-someone-off.jpg,,
+2,25,vocabulary,End up,"Kết thục, kết cục, hậu quả",terminar,c2l25-end-up.jpg,class2/images/c2l25-end-up.jpg,,
+2,25,vocabulary,Figure out,Hiểu ra/ Giải quyết được vấn đề,perceber / descobrir / resolver,c2l25-figure-out.jpg,class2/images/c2l25-figure-out.jpg,,
+2,25,vocabulary,Get along with someone,Hòa thuận với ai đó,dar-se bem com alguém,c2l25-get-along-with-someone.jpg,class2/images/c2l25-get-along-with-someone.jpg,,
+2,25,vocabulary,Get rid of something,Loại bỏ cái gì đó,se livrar de algo,c2l25-get-rid-of-something.jpg,class2/images/c2l25-get-rid-of-something.jpg,,
+2,25,vocabulary,Get up,Đứng lên,levantar-se,c2l25-get-up.jpg,class2/images/c2l25-get-up.jpg,,
+2,25,vocabulary,Go off,Nổ/ rời đi,disparar,c2l25-go-off.jpg,class2/images/c2l25-go-off.jpg,,
+2,25,vocabulary,Go on,Tiếp tục,continuar,c2l25-go-on.jpg,class2/images/c2l25-go-on.jpg,,
+2,25,vocabulary,Grow up,Trưởng thành,deixar de ser criança,c2l25-grow-up.jpg,class2/images/c2l25-grow-up.jpg,,
+2,25,vocabulary,Make something up,Bịa ra một chuyện gì đó,mentir,c2l25-make-something-up.jpg,class2/images/c2l25-make-something-up.jpg,,
+2,25,vocabulary,Make up one’s mind,Quyết định,se decidir,c2l25-make-up-one-s-mind.jpg,class2/images/c2l25-make-up-one-s-mind.jpg,,
+2,25,vocabulary,Move on,Tiếp tục,ir em frente,c2l25-move-on.jpg,class2/images/c2l25-move-on.jpg,,
+2,25,vocabulary,Pick someone up,Đón/ rước ai đó,buscar alguém num lugar,c2l25-pick-someone-up.jpg,class2/images/c2l25-pick-someone-up.jpg,,
+2,25,vocabulary,Pick something up,Nhặt cái gì đó lên,levantar alguma coisa do chão / buscar algo no camino para casa ,c2l25-pick-something-up.jpg,class2/images/c2l25-pick-something-up.jpg,,
+2,25,vocabulary,Put someone down,Quy là/ cho là,criticar alguém,c2l25-put-someone-down.jpg,class2/images/c2l25-put-someone-down.jpg,,
+2,25,vocabulary,Let someone down,Làm ai đó thất vọng,decepcionar alguém,c2l25-let-someone-down.jpg,class2/images/c2l25-let-someone-down.jpg,,
+2,25,vocabulary,Look up to someone,Tôn trọng/ ngưỡng mộ ai đó,admirar alguém,c2l25-look-up-to-someone.jpg,class2/images/c2l25-look-up-to-someone.jpg,,
+2,25,vocabulary,Look down on someone,Xem thường ai đó,desprezar alguém,c2l25-look-down-on-someone.jpg,class2/images/c2l25-look-down-on-someone.jpg,,
+2,25,vocabulary,Settle down,Ổn định,estabelecer-se,c2l25-settle-down.jpg,class2/images/c2l25-settle-down.jpg,,
+2,25,vocabulary,Show up,Có mặt,aparecer,c2l25-show-up.jpg,class2/images/c2l25-show-up.jpg,,
+2,25,vocabulary,Show off,Khoe khoang,ostentar,c2l25-show-off.jpg,class2/images/c2l25-show-off.jpg,,
 1,25,vocabulary,,,,c1l25-.jpg,class1/images/c1l25-.jpg,,
 1,25,vocabulary,,,,c1l25-.jpg,class1/images/c1l25-.jpg,,
 1,25,vocabulary,,,,c1l25-.jpg,class1/images/c1l25-.jpg,,
@@ -1202,185 +1202,185 @@ se casar com alguém",c1l05-marry-someone-get-married-to-someone.jpg,class1/imag
 1,25,vocabulary,,,,c1l25-.jpg,class1/images/c1l25-.jpg,,
 1,25,vocabulary,,,,c1l25-.jpg,class1/images/c1l25-.jpg,,
 1,25,vocabulary,,,,c1l25-.jpg,class1/images/c1l25-.jpg,,
-1,04,vocabulary,Like,,gostar,c1l04-like.jpg,class1/images/c1l04-like.jpg,,
-1,04,vocabulary,Love,,amar,c1l04-love.jpg,class1/images/c1l04-love.jpg,,
-1,04,vocabulary,Hate,,odiar,c1l04-hate.jpg,class1/images/c1l04-hate.jpg,,
-1,04,vocabulary,Have,,ter,c1l04-have.jpg,class1/images/c1l04-have.jpg,,
-1,04,vocabulary,Try,,experimentar,c1l04-try.jpg,class1/images/c1l04-try.jpg,,
-1,04,vocabulary,Need,,precisar,c1l04-need.jpg,class1/images/c1l04-need.jpg,,
-1,04,vocabulary,Want,,quer,c1l04-want.jpg,class1/images/c1l04-want.jpg,,
-1,04,vocabulary,Intend,,pretender,c1l04-intend.jpg,class1/images/c1l04-intend.jpg,,
-1,04,vocabulary,Pretend,,fingir,c1l04-pretend.jpg,class1/images/c1l04-pretend.jpg,,
-1,04,vocabulary,Expect,,esperar,c1l04-expect.jpg,class1/images/c1l04-expect.jpg,,
-1,04,vocabulary,Listen to music,,escutar música,c1l04-listen-to-music.jpg,class1/images/c1l04-listen-to-music.jpg,,
-1,04,vocabulary,Hang out with friends,,sair com amigos,c1l04-hang-out-with-friends.jpg,class1/images/c1l04-hang-out-with-friends.jpg,,
-1,04,vocabulary,Travel to Korea,,viajar para a Coréia,c1l04-travel-to-korea.jpg,class1/images/c1l04-travel-to-korea.jpg,,
-1,04,vocabulary,Read books,,ler livros,c1l04-read-books.jpg,class1/images/c1l04-read-books.jpg,,
-1,04,vocabulary,Get up early,,levantar cedo,c1l04-get-up-early.jpg,class1/images/c1l04-get-up-early.jpg,,
-1,04,vocabulary,Stay up late,,ficar acordado até tarde,c1l04-stay-up-late.jpg,class1/images/c1l04-stay-up-late.jpg,,
-1,04,vocabulary,Study English,,estudar inglês,c1l04-study-english.jpg,class1/images/c1l04-study-english.jpg,,
-1,04,vocabulary,Smile,,sorrir,c1l04-smile.jpg,class1/images/c1l04-smile.jpg,,
-1,04,vocabulary,Call my mother,,ligar para minha mãe,c1l04-call-my-mother.jpg,class1/images/c1l04-call-my-mother.jpg,,
-1,04,vocabulary,Take a selfie / Take a photo,,tirar uma selfie / tirar uma foto,c1l04-take-a-selfie-take-a-photo.jpg,class1/images/c1l04-take-a-selfie-take-a-photo.jpg,,
-1,04,vocabulary,Know how to swim,,saber nadar,c1l04-know-how-to-swim.jpg,class1/images/c1l04-know-how-to-swim.jpg,,
-1,04,vocabulary,Visit relatives,,visitar parentes,c1l04-visit-relatives.jpg,class1/images/c1l04-visit-relatives.jpg,,
-1,04,vocabulary,Go shopping,,fazer compras,c1l04-go-shopping.jpg,class1/images/c1l04-go-shopping.jpg,,
-1,04,vocabulary,Go fishing,,ir pescar,c1l04-go-fishing.jpg,class1/images/c1l04-go-fishing.jpg,,
-1,04,vocabulary,Smoke cigarettes,,fumar cigarros,c1l04-smoke-cigarettes.jpg,class1/images/c1l04-smoke-cigarettes.jpg,,
-1,03,verbs,Cover,,cobrir,c1l03-cover.jpg,class1/images/c1l03-cover.jpg,,
-1,03,verbs,Wear,,vestir,c1l03-wear.jpg,class1/images/c1l03-wear.jpg,,
-1,03,verbs,Put on,,pôr,c1l03-put-on.jpg,class1/images/c1l03-put-on.jpg,,
-1,03,verbs,Take off,,tirar,c1l03-take-off.jpg,class1/images/c1l03-take-off.jpg,,
-1,03,verbs,Shake,,mexer,c1l03-shake.jpg,class1/images/c1l03-shake.jpg,,
+1,04,vocabulary,Like,Thích,gostar,c1l04-like.jpg,class1/images/c1l04-like.jpg,,
+1,04,vocabulary,Love,Yêu,amar / adorar,c1l04-love.jpg,class1/images/c1l04-love.jpg,,
+1,04,vocabulary,Hate,Ghét,odiar,c1l04-hate.jpg,class1/images/c1l04-hate.jpg,,
+1,04,vocabulary,Have,Có,ter,c1l04-have.jpg,class1/images/c1l04-have.jpg,,
+1,04,vocabulary,Try,Thử,experimentar,c1l04-try.jpg,class1/images/c1l04-try.jpg,,
+1,04,vocabulary,Need,Cần,precisar,c1l04-need.jpg,class1/images/c1l04-need.jpg,,
+1,04,vocabulary,Want,Muốn,quer,c1l04-want.jpg,class1/images/c1l04-want.jpg,,
+1,04,vocabulary,Intend,Dự định,pretender,c1l04-intend.jpg,class1/images/c1l04-intend.jpg,,
+1,04,vocabulary,Pretend,Giả bộ,fingir,c1l04-pretend.jpg,class1/images/c1l04-pretend.jpg,,
+1,04,vocabulary,Expect,Trông đợi,esperar,c1l04-expect.jpg,class1/images/c1l04-expect.jpg,,
+1,04,vocabulary,Listen to music,Nghe nhạc,escutar música,c1l04-listen-to-music.jpg,class1/images/c1l04-listen-to-music.jpg,,
+1,04,vocabulary,Hang out with friends,Đi chơi với bạn,sair com amigos,c1l04-hang-out-with-friends.jpg,class1/images/c1l04-hang-out-with-friends.jpg,,
+1,04,vocabulary,Travel to Korea,Đi du lịch Hàn Quốc,viajar para a Coréia,c1l04-travel-to-korea.jpg,class1/images/c1l04-travel-to-korea.jpg,,
+1,04,vocabulary,Read books,Đọc sách,ler livros,c1l04-read-books.jpg,class1/images/c1l04-read-books.jpg,,
+1,04,vocabulary,Get up early,Thức dậy sớm,levantar cedo,c1l04-get-up-early.jpg,class1/images/c1l04-get-up-early.jpg,,
+1,04,vocabulary,Stay up late,Thức khuya,ficar acordado até tarde,c1l04-stay-up-late.jpg,class1/images/c1l04-stay-up-late.jpg,,
+1,04,vocabulary,Study English,Học Tiếng Anh,estudar inglês,c1l04-study-english.jpg,class1/images/c1l04-study-english.jpg,,
+1,04,vocabulary,Smile,Cười,sorrir,c1l04-smile.jpg,class1/images/c1l04-smile.jpg,,
+1,04,vocabulary,Call my mother,Gọi điện cho mẹ,ligar para minha mãe,c1l04-call-my-mother.jpg,class1/images/c1l04-call-my-mother.jpg,,
+1,04,vocabulary,Take a selfie / Take a photo,Cụp ảnh tự sướng/ Chụp ảnh,tirar uma selfie / tirar uma foto,c1l04-take-a-selfie-take-a-photo.jpg,class1/images/c1l04-take-a-selfie-take-a-photo.jpg,,
+1,04,vocabulary,Know how to swim,Biêt bơi,saber nadar,c1l04-know-how-to-swim.jpg,class1/images/c1l04-know-how-to-swim.jpg,,
+1,04,vocabulary,Visit relatives,Thăm họ hàng,visitar parentes,c1l04-visit-relatives.jpg,class1/images/c1l04-visit-relatives.jpg,,
+1,04,vocabulary,Go shopping,Đi mua sắm,fazer compras,c1l04-go-shopping.jpg,class1/images/c1l04-go-shopping.jpg,,
+1,04,vocabulary,Go fishing,Đi câu cá,ir pescar,c1l04-go-fishing.jpg,class1/images/c1l04-go-fishing.jpg,,
+1,04,vocabulary,Smoke cigarettes,Hút thuốc,fumar cigarros,c1l04-smoke-cigarettes.jpg,class1/images/c1l04-smoke-cigarettes.jpg,,
+1,03,verbs,Cover,Che đậy,cobrir,c1l03-cover.jpg,class1/images/c1l03-cover.jpg,,
+1,03,verbs,Wear,Mặc,vestir,c1l03-wear.jpg,class1/images/c1l03-wear.jpg,,
+1,03,verbs,Put on,Thử,pôr,c1l03-put-on.jpg,class1/images/c1l03-put-on.jpg,,
+1,03,verbs,Take off,Cởi bỏ,tirar,c1l03-take-off.jpg,class1/images/c1l03-take-off.jpg,,
+1,03,verbs,Shake,Lắc,mexer,c1l03-shake.jpg,class1/images/c1l03-shake.jpg,,
 1,03,verbs,Operate,,operar,c1l03-operate.jpg,class1/images/c1l03-operate.jpg,,
-1,03,verbs,Decorate,,decorar,c1l03-decorate.jpg,class1/images/c1l03-decorate.jpg,,
-1,03,verbs,Change,,trocar,c1l03-change.jpg,class1/images/c1l03-change.jpg,,
-1,03,verbs,Write,,escrever,c1l03-write.jpg,class1/images/c1l03-write.jpg,,
-1,03,verbs,Buy,,comprar,c1l03-buy.jpg,class1/images/c1l03-buy.jpg,,
-1,03,verbs,Sell,,vender,c1l03-sell.jpg,class1/images/c1l03-sell.jpg,,
-1,03,verbs,Build,,construir,c1l03-build.jpg,class1/images/c1l03-build.jpg,,
-1,03,verbs,Touch,,tocar,c1l03-touch.jpg,class1/images/c1l03-touch.jpg,,
-1,03,nouns,Tree / flower,,árvore / flor,c1l03-tree-flower.jpg,class1/images/c1l03-tree-flower.jpg,,
-1,03,nouns,Mountain,,montanha,c1l03-mountain.jpg,class1/images/c1l03-mountain.jpg,,
-1,03,nouns,River,,rio,c1l03-river.jpg,class1/images/c1l03-river.jpg,,
-1,03,nouns,Ocean / Sea,,oceano / mar,c1l03-ocean-sea.jpg,class1/images/c1l03-ocean-sea.jpg,,
-1,03,nouns,Shirt / T-Shirt,,camisa / camiseta,c1l03-shirt-t-shirt.jpg,class1/images/c1l03-shirt-t-shirt.jpg,,
-1,03,nouns,Skirt / Dress,,saia / vestido,c1l03-skirt-dress.jpg,class1/images/c1l03-skirt-dress.jpg,,
-1,03,nouns,Trousers / Jeans,,calças / jeans,c1l03-trousers-jeans.jpg,class1/images/c1l03-trousers-jeans.jpg,,
-1,03,nouns,Hat / Cap,,chapéu / boné,c1l03-hat-cap.jpg,class1/images/c1l03-hat-cap.jpg,,
-1,03,nouns,Shoes,,sapatos,c1l03-shoes.jpg,class1/images/c1l03-shoes.jpg,,
-1,03,nouns,Football / Tennis,,futebol / tênis,c1l03-football-tennis.jpg,class1/images/c1l03-football-tennis.jpg,,
-1,03,nouns,Piano / Guitar,,piano / guitarra,c1l03-piano-guitar.jpg,class1/images/c1l03-piano-guitar.jpg,,
-1,03,nouns,People / things,,pessoas / coisas,c1l03-people-things.jpg,class1/images/c1l03-people-things.jpg,,
-1,03,nouns,Student / teacher,,aluno / mestre,c1l03-student-teacher.jpg,class1/images/c1l03-student-teacher.jpg,,
-1,02,eyes,Look at,,olhar para,c1l02-look-at.jpg,class1/images/c1l02-look-at.jpg,,
-1,02,eyes,Look for,,procurar,c1l02-look-for.jpg,class1/images/c1l02-look-for.jpg,,
-1,02,eyes,Watch,,assistir,c1l02-watch.jpg,class1/images/c1l02-watch.jpg,,
-1,02,eyes,See,,ver ,c1l02-see.jpg,class1/images/c1l02-see.jpg,,
-1,02,eyes,Observe,,observar,c1l02-observe.jpg,class1/images/c1l02-observe.jpg,,
-1,02,eyes,Study,,estudar,c1l02-study.jpg,class1/images/c1l02-study.jpg,,
-1,02,eyes,Learn,,aprender,c1l02-learn.jpg,class1/images/c1l02-learn.jpg,,
-1,02,eyes,Review,,revisar,c1l02-review.jpg,class1/images/c1l02-review.jpg,,
-1,02,eyes,Check,,verificar,c1l02-check.jpg,class1/images/c1l02-check.jpg,,
-1,02,eyes,Cry,,chorar,c1l02-cry.jpg,class1/images/c1l02-cry.jpg,,
-1,02,eyes,Sleep,,dormir,c1l02-sleep.jpg,class1/images/c1l02-sleep.jpg,,
-1,02,eyes,Dream,,sonhar,c1l02-dream.jpg,class1/images/c1l02-dream.jpg,,
-1,02,leg,Chase,,perseguir,c1l02-chase.jpg,class1/images/c1l02-chase.jpg,,
-1,02,leg,Kick,,bater,c1l02-kick.jpg,class1/images/c1l02-kick.jpg,,
-1,02,leg,Climb,,escalar,c1l02-climb.jpg,class1/images/c1l02-climb.jpg,,
-1,02,leg,Leave,,sair,c1l02-leave.jpg,class1/images/c1l02-leave.jpg,,
-1,02,leg,Move,,mover,c1l02-move.jpg,class1/images/c1l02-move.jpg,,
-1,02,leg,Stand,,ficar de pé,c1l02-stand.jpg,class1/images/c1l02-stand.jpg,,
-1,02,leg,Sit,,sentar,c1l02-sit.jpg,class1/images/c1l02-sit.jpg,,
-1,02,leg,Lie,,mentir,c1l02-lie.jpg,class1/images/c1l02-lie.jpg,,
-1,02,leg,Go,,ir,c1l02-go.jpg,class1/images/c1l02-go.jpg,,
-1,02,leg,Walk,,andar,c1l02-walk.jpg,class1/images/c1l02-walk.jpg,,
-1,02,leg,Run,,correr,c1l02-run.jpg,class1/images/c1l02-run.jpg,,
-1,02,leg,Dance,,dançar,c1l02-dance.jpg,class1/images/c1l02-dance.jpg,,
-1,02,mouth,Talk to,,falar com,c1l02-talk-to.jpg,class1/images/c1l02-talk-to.jpg,,
-1,02,mouth,Talk About,,falar sobre,c1l02-talk-about.jpg,class1/images/c1l02-talk-about.jpg,,
-1,02,mouth,Whisper,,sussurrar,c1l02-whisper.jpg,class1/images/c1l02-whisper.jpg,,
-1,02,mouth,Interview,,entrevistar,c1l02-interview.jpg,class1/images/c1l02-interview.jpg,,
-1,02,mouth,Eat,,comer,c1l02-eat.jpg,class1/images/c1l02-eat.jpg,,
-1,02,mouth,Drink,,beber,c1l02-drink.jpg,class1/images/c1l02-drink.jpg,,
-1,02,mouth,Lie To,,mentir a,c1l02-lie-to.jpg,class1/images/c1l02-lie-to.jpg,,
-1,02,mouth,Smile,,sorrir,c1l02-smile.jpg,class1/images/c1l02-smile.jpg,,
-1,02,mouth,Laugh,,rir,c1l02-laugh.jpg,class1/images/c1l02-laugh.jpg,,
-1,02,mouth,Ask,,perguntar,c1l02-ask.jpg,class1/images/c1l02-ask.jpg,,
-1,02,mouth,Answer,,responder,c1l02-answer.jpg,class1/images/c1l02-answer.jpg,,
-1,02,hand,Make / Do,,fazer,c1l02-make-do.jpg,class1/images/c1l02-make-do.jpg,,
-1,02,hand,Paint / Draw,,pinturar / desenhar,c1l02-paint-draw.jpg,class1/images/c1l02-paint-draw.jpg,,
-1,02,hand,Hold / Keep,,segurar / manter,c1l02-hold-keep.jpg,class1/images/c1l02-hold-keep.jpg,,
-1,02,hand,Pull / Push,,puxar / empurrar,c1l02-pull-push.jpg,class1/images/c1l02-pull-push.jpg,,
-1,02,hand,Use,,usar,c1l02-use.jpg,class1/images/c1l02-use.jpg,,
-1,02,hand,Play,,tocar,c1l02-play.jpg,class1/images/c1l02-play.jpg,,
-1,02,hand,Throw,,lançar,c1l02-throw.jpg,class1/images/c1l02-throw.jpg,,
-1,02,hand,Clean,,limpar,c1l02-clean.jpg,class1/images/c1l02-clean.jpg,,
-1,02,hand,Ride / Drive,,montar / dirigir,c1l02-ride-drive.jpg,class1/images/c1l02-ride-drive.jpg,,
-1,02,hand,Swim,,nadar,c1l02-swim.jpg,class1/images/c1l02-swim.jpg,,
-1,02,hand,Choose,,escolher,c1l02-choose.jpg,class1/images/c1l02-choose.jpg,,
-1,02,hand,Work,,trabalhar,c1l02-work.jpg,class1/images/c1l02-work.jpg,,
-1,01,animals,Pig,,cerdo,c1l01-pig.jpg,class1/images/c1l01-pig.jpg,,
-1,01,animals,Horse,,cavalo,c1l01-horse.jpg,class1/images/c1l01-horse.jpg,,
-1,01,animals,Elephant,,elefante,c1l01-elephant.jpg,class1/images/c1l01-elephant.jpg,,
-1,01,animals,Fish,,peixe,c1l01-fish.jpg,class1/images/c1l01-fish.jpg,,
-1,01,animals,Snake,,serpente,c1l01-snake.jpg,class1/images/c1l01-snake.jpg,,
-1,01,animals,Giraffe,,girafa,c1l01-giraffe.jpg,class1/images/c1l01-giraffe.jpg,,
-1,01,animals,Dog,,cachorro,c1l01-dog.jpg,class1/images/c1l01-dog.jpg,,
-1,01,animals,Cat,,gato,c1l01-cat.jpg,class1/images/c1l01-cat.jpg,,
-1,01,animals,Lion,,leão,c1l01-lion.jpg,class1/images/c1l01-lion.jpg,,
-1,01,animals,Tiger,,tigre,c1l01-tiger.jpg,class1/images/c1l01-tiger.jpg,,
-1,01,animals,Chicken,,galinha,c1l01-chicken.jpg,class1/images/c1l01-chicken.jpg,,
-1,01,animals,Bird,,pássaro,c1l01-bird.jpg,class1/images/c1l01-bird.jpg,,
-1,01,animals,Turtle,,tartaruga,c1l01-turtle.jpg,class1/images/c1l01-turtle.jpg,,
-1,01,animals,Rabbit,,coelho,c1l01-rabbit.jpg,class1/images/c1l01-rabbit.jpg,,
-1,01,animals,Crocodile,,crocodilo,c1l01-crocodile.jpg,class1/images/c1l01-crocodile.jpg,,
-1,01,animals,Bear,,urso,c1l01-bear.jpg,class1/images/c1l01-bear.jpg,,
-1,01,fruits,Avocado,,abacate,c1l01-avocado.jpg,class1/images/c1l01-avocado.jpg,,
-1,01,fruits,Apple,,maçã,c1l01-apple.jpg,class1/images/c1l01-apple.jpg,,
-1,01,fruits,Grape,,Uúva,c1l01-grape.jpg,class1/images/c1l01-grape.jpg,,
-1,01,fruits,Lemon,,limão,c1l01-lemon.jpg,class1/images/c1l01-lemon.jpg,,
-1,01,fruits,Watermelon,,melancia,c1l01-watermelon.jpg,class1/images/c1l01-watermelon.jpg,,
-1,01,fruits,Strawberry,,morango,c1l01-strawberry.jpg,class1/images/c1l01-strawberry.jpg,,
-1,01,fruits,Papaya,,mamão,c1l01-papaya.jpg,class1/images/c1l01-papaya.jpg,,
-1,01,fruits,Mango,,manga,c1l01-mango.jpg,class1/images/c1l01-mango.jpg,,
-1,01,fruits,Orange,,laranja,c1l01-orange.jpg,class1/images/c1l01-orange.jpg,,
-1,01,class,Board,,tábua,c1l01-board.jpg,class1/images/c1l01-board.jpg,,
-1,01,class,Chair,,cadeira,c1l01-chair.jpg,class1/images/c1l01-chair.jpg,,
-1,01,class,Table,,mesa,c1l01-table.jpg,class1/images/c1l01-table.jpg,,
-1,01,class,Air conditioner,,ar condicionado,c1l01-air-conditioner.jpg,class1/images/c1l01-air-conditioner.jpg,,
-1,01,class,Pen,,caneta,c1l01-pen.jpg,class1/images/c1l01-pen.jpg,,
-1,01,class,Pencil,,apontador,c1l01-pencil.jpg,class1/images/c1l01-pencil.jpg,,
-1,01,class,Book,,livro,c1l01-book.jpg,class1/images/c1l01-book.jpg,,
-1,01,class,Marker,,marcador,c1l01-marker.jpg,class1/images/c1l01-marker.jpg,,
-1,01,class,Door,,porta,c1l01-door.jpg,class1/images/c1l01-door.jpg,,
-1,01,class,Window,,janela,c1l01-window.jpg,class1/images/c1l01-window.jpg,,
-1,01,class,Light,,luz,c1l01-light.jpg,class1/images/c1l01-light.jpg,,
-1,01,class,Wall,,parede,c1l01-wall.jpg,class1/images/c1l01-wall.jpg,,
-1,01,class,Picture,,retrato,c1l01-picture.jpg,class1/images/c1l01-picture.jpg,,
-1,01,vehicles,Car,,carro,c1l01-car.jpg,class1/images/c1l01-car.jpg,,
-1,01,vehicles,Motorbike,,motocicleta,c1l01-motorbike.jpg,class1/images/c1l01-motorbike.jpg,,
-1,01,vehicles,Bike,,bicicleta,c1l01-bike.jpg,class1/images/c1l01-bike.jpg,,
-1,01,vehicles,Truck,,caminhão,c1l01-truck.jpg,class1/images/c1l01-truck.jpg,,
-1,01,vehicles,Train,,trem,c1l01-train.jpg,class1/images/c1l01-train.jpg,,
-1,01,vehicles,Plane,,avião,c1l01-plane.jpg,class1/images/c1l01-plane.jpg,,
-1,01,vehicles,Bus,,ônibus,c1l01-bus.jpg,class1/images/c1l01-bus.jpg,,
-1,01,vehicles,Taxi,,táxi,c1l01-taxi.jpg,class1/images/c1l01-taxi.jpg,,
-1,01,vehicles,Boat,,barco,c1l01-boat.jpg,class1/images/c1l01-boat.jpg,,
-1,01,people,Teacher,,mestre,c1l01-teacher.jpg,class1/images/c1l01-teacher.jpg,,
-1,01,people,Student,,aluno,c1l01-student.jpg,class1/images/c1l01-student.jpg,,
-1,01,people,Doctor,,médico,c1l01-doctor.jpg,class1/images/c1l01-doctor.jpg,,
-1,01,people,Nurse,,enfermeira,c1l01-nurse.jpg,class1/images/c1l01-nurse.jpg,,
-1,01,thingslife,Air,,ar,c1l01-air.jpg,class1/images/c1l01-air.jpg,,
-1,01,thingslife,Food,,comida,c1l01-food.jpg,class1/images/c1l01-food.jpg,,
-1,01,thingslife,Money,,dinheiro,c1l01-money.jpg,class1/images/c1l01-money.jpg,,
-1,01,thingslife,Health,,saúde,c1l01-health.jpg,class1/images/c1l01-health.jpg,,
-1,01,thingslife,Happiness,,felicidade,c1l01-happiness.jpg,class1/images/c1l01-happiness.jpg,,
-1,01,thingslife,Love,,amor,c1l01-love.jpg,class1/images/c1l01-love.jpg,,
-1,01,thingslife,Sadness,,tristeza,c1l01-sadness.jpg,class1/images/c1l01-sadness.jpg,,
-1,01,thingslife,Time,,tempo,c1l01-time.jpg,class1/images/c1l01-time.jpg,,
-1,01,thingslife,Water,,agua,c1l01-water.jpg,class1/images/c1l01-water.jpg,,
-1,01,uncountable,Homework,,dever de casa,c1l01-homework.jpg,class1/images/c1l01-homework.jpg,,
-1,01,uncountable,Housework,,trabalho doméstico,c1l01-housework.jpg,class1/images/c1l01-housework.jpg,,
-1,01,uncountable,Vietnamese,,vietnamita,c1l01-vietnamese.jpg,class1/images/c1l01-vietnamese.jpg,,
-1,01,uncountable,Tea,,chá,c1l01-tea.jpg,class1/images/c1l01-tea.jpg,,
-1,01,uncountable,Rice,,arroz,c1l01-rice.jpg,class1/images/c1l01-rice.jpg,,
-1,01,uncountable,Hair,,cabelo,c1l01-hair.jpg,class1/images/c1l01-hair.jpg,,
-1,01,uncountable,Sugar,,açúcar,c1l01-sugar.jpg,class1/images/c1l01-sugar.jpg,,
-1,01,uncountable,Salt,,sal,c1l01-salt.jpg,class1/images/c1l01-salt.jpg,,
-1,01,commonverb,See,,ver,c1l01-see.jpg,class1/images/c1l01-see.jpg,,
-1,01,commonverb,Watch,,assistir,c1l01-watch.jpg,class1/images/c1l01-watch.jpg,,
-1,01,commonverb,Look At,,olhar para,c1l01-look-at.jpg,class1/images/c1l01-look-at.jpg,,
-1,01,commonverb,Look for,,procurar,c1l01-look-for.jpg,class1/images/c1l01-look-for.jpg,,
-1,01,commonverb,Observe,,observar,c1l01-observe.jpg,class1/images/c1l01-observe.jpg,,
-1,01,commonverb,Buy,,comprar,c1l01-buy.jpg,class1/images/c1l01-buy.jpg,,
-1,01,commonverb,Sell,,vender,c1l01-sell.jpg,class1/images/c1l01-sell.jpg,,
-1,01,commonverb,Hate,,odiar,c1l01-hate.jpg,class1/images/c1l01-hate.jpg,,
-1,01,commonverb,Like,,gostar,c1l01-like.jpg,class1/images/c1l01-like.jpg,,
-1,01,commonverb,Love,,amar,c1l01-love.jpg,class1/images/c1l01-love.jpg,,
-1,01,commonverb,Want,,quer,c1l01-want.jpg,class1/images/c1l01-want.jpg,,
-1,01,commonverb,Need,,precisar,c1l01-need.jpg,class1/images/c1l01-need.jpg,,
-1,01,commonverb,Choose,,escolher,c1l01-choose.jpg,class1/images/c1l01-choose.jpg,,
+1,03,verbs,Decorate,Trang trí,decorar,c1l03-decorate.jpg,class1/images/c1l03-decorate.jpg,,
+1,03,verbs,Change,Thay đổi,trocar,c1l03-change.jpg,class1/images/c1l03-change.jpg,,
+1,03,verbs,Write,Viết,escrever,c1l03-write.jpg,class1/images/c1l03-write.jpg,,
+1,03,verbs,Buy,Mua,comprar,c1l03-buy.jpg,class1/images/c1l03-buy.jpg,,
+1,03,verbs,Sell,Bán,vender,c1l03-sell.jpg,class1/images/c1l03-sell.jpg,,
+1,03,verbs,Build,Xây dựng,construir,c1l03-build.jpg,class1/images/c1l03-build.jpg,,
+1,03,verbs,Touch,Chạm,tocar,c1l03-touch.jpg,class1/images/c1l03-touch.jpg,,
+1,03,nouns,Tree / flower,Cây/ Hoa,árvore / flor,c1l03-tree-flower.jpg,class1/images/c1l03-tree-flower.jpg,,
+1,03,nouns,Mountain,Núi,montanha,c1l03-mountain.jpg,class1/images/c1l03-mountain.jpg,,
+1,03,nouns,River,Sông,rio,c1l03-river.jpg,class1/images/c1l03-river.jpg,,
+1,03,nouns,Ocean / Sea,Biển/ đại dương,oceano / mar,c1l03-ocean-sea.jpg,class1/images/c1l03-ocean-sea.jpg,,
+1,03,nouns,Shirt / T-Shirt,Áo sơ mi/ Áo thun,camisa / camiseta,c1l03-shirt-t-shirt.jpg,class1/images/c1l03-shirt-t-shirt.jpg,,
+1,03,nouns,Skirt / Dress,Váy ngắn/ váy dài,saia / vestido,c1l03-skirt-dress.jpg,class1/images/c1l03-skirt-dress.jpg,,
+1,03,nouns,Trousers / Jeans,Quần dài/ Quần jean,calça / jeans,c1l03-trousers-jeans.jpg,class1/images/c1l03-trousers-jeans.jpg,,
+1,03,nouns,Hat / Cap,Nón lưỡi trai,chapéu / boné,c1l03-hat-cap.jpg,class1/images/c1l03-hat-cap.jpg,,
+1,03,nouns,Shoes,Giày,sapatos,c1l03-shoes.jpg,class1/images/c1l03-shoes.jpg,,
+1,03,nouns,Football / Tennis,Bóng đá/ Tennis,futebol / tênis,c1l03-football-tennis.jpg,class1/images/c1l03-football-tennis.jpg,,
+1,03,nouns,Piano / Guitar,Piano/ Ghi-ta,piano / guitarra,c1l03-piano-guitar.jpg,class1/images/c1l03-piano-guitar.jpg,,
+1,03,nouns,People / things,Người/ Vật,pessoas / coisas,c1l03-people-things.jpg,class1/images/c1l03-people-things.jpg,,
+1,03,nouns,Student / teacher,Học sinh/ Giáo viên,aluno / mestre,c1l03-student-teacher.jpg,class1/images/c1l03-student-teacher.jpg,,
+1,02,eyes,Look at,Nhìn,olhar para,c1l02-look-at.jpg,class1/images/c1l02-look-at.jpg,,
+1,02,eyes,Look for,Tìm,procurar,c1l02-look-for.jpg,class1/images/c1l02-look-for.jpg,,
+1,02,eyes,Watch,Xem ,assistir,c1l02-watch.jpg,class1/images/c1l02-watch.jpg,,
+1,02,eyes,See,Thaấy,ver ,c1l02-see.jpg,class1/images/c1l02-see.jpg,,
+1,02,eyes,Observe,Quan sát,observar,c1l02-observe.jpg,class1/images/c1l02-observe.jpg,,
+1,02,eyes,Study,Học,estudar,c1l02-study.jpg,class1/images/c1l02-study.jpg,,
+1,02,eyes,Learn,Nghiên cứu,aprender,c1l02-learn.jpg,class1/images/c1l02-learn.jpg,,
+1,02,eyes,Review,Ôn ,revisar,c1l02-review.jpg,class1/images/c1l02-review.jpg,,
+1,02,eyes,Check,Kiểm tra,verificar,c1l02-check.jpg,class1/images/c1l02-check.jpg,,
+1,02,eyes,Cry,Khóc,chorar,c1l02-cry.jpg,class1/images/c1l02-cry.jpg,,
+1,02,eyes,Sleep,Ngủ,dormir,c1l02-sleep.jpg,class1/images/c1l02-sleep.jpg,,
+1,02,eyes,Dream,Mơ,sonhar,c1l02-dream.jpg,class1/images/c1l02-dream.jpg,,
+1,02,leg,Chase,The đuổi,perseguir,c1l02-chase.jpg,class1/images/c1l02-chase.jpg,,
+1,02,leg,Kick,Đá,bater,c1l02-kick.jpg,class1/images/c1l02-kick.jpg,,
+1,02,leg,Climb,Leo,escalar,c1l02-climb.jpg,class1/images/c1l02-climb.jpg,,
+1,02,leg,Leave,Bỏ lại,sair,c1l02-leave.jpg,class1/images/c1l02-leave.jpg,,
+1,02,leg,Move,Di chuyển,mover,c1l02-move.jpg,class1/images/c1l02-move.jpg,,
+1,02,leg,Stand,Đứng,ficar de pé,c1l02-stand.jpg,class1/images/c1l02-stand.jpg,,
+1,02,leg,Sit,Ngồi,sentar,c1l02-sit.jpg,class1/images/c1l02-sit.jpg,,
+1,02,leg,Lie,Nằm,deitar-se / estar deitado,c1l02-lie.jpg,class1/images/c1l02-lie.jpg,,
+1,02,leg,Go,Đi,ir,c1l02-go.jpg,class1/images/c1l02-go.jpg,,
+1,02,leg,Walk,Đi bộ,andar,c1l02-walk.jpg,class1/images/c1l02-walk.jpg,,
+1,02,leg,Run,Chạy,correr,c1l02-run.jpg,class1/images/c1l02-run.jpg,,
+1,02,leg,Dance,Nhảy,dançar,c1l02-dance.jpg,class1/images/c1l02-dance.jpg,,
+1,02,mouth,Talk to,Nói với,falar com,c1l02-talk-to.jpg,class1/images/c1l02-talk-to.jpg,,
+1,02,mouth,Talk About,Nói về,falar sobre,c1l02-talk-about.jpg,class1/images/c1l02-talk-about.jpg,,
+1,02,mouth,Whisper,Thì thầm,sussurrar,c1l02-whisper.jpg,class1/images/c1l02-whisper.jpg,,
+1,02,mouth,Interview,Phỏng vấn,entrevistar,c1l02-interview.jpg,class1/images/c1l02-interview.jpg,,
+1,02,mouth,Eat,Ăn ,comer,c1l02-eat.jpg,class1/images/c1l02-eat.jpg,,
+1,02,mouth,Drink,Uống,beber,c1l02-drink.jpg,class1/images/c1l02-drink.jpg,,
+1,02,mouth,Lie To,Nói dối với,mentir a,c1l02-lie-to.jpg,class1/images/c1l02-lie-to.jpg,,
+1,02,mouth,Smile,Cười mỉm,sorrir,c1l02-smile.jpg,class1/images/c1l02-smile.jpg,,
+1,02,mouth,Laugh,Cười thành tiếng,rir,c1l02-laugh.jpg,class1/images/c1l02-laugh.jpg,,
+1,02,mouth,Ask,Hỏi,perguntar,c1l02-ask.jpg,class1/images/c1l02-ask.jpg,,
+1,02,mouth,Answer,Trả lời,responder,c1l02-answer.jpg,class1/images/c1l02-answer.jpg,,
+1,02,hand,Make / Do,Tạo/ làm,fazer,c1l02-make-do.jpg,class1/images/c1l02-make-do.jpg,,
+1,02,hand,Paint / Draw,Tô/ vẹ,pinturar / desenhar,c1l02-paint-draw.jpg,class1/images/c1l02-paint-draw.jpg,,
+1,02,hand,Hold / Keep,Giữ,segurar / manter,c1l02-hold-keep.jpg,class1/images/c1l02-hold-keep.jpg,,
+1,02,hand,Pull / Push,Đẩy,puxar / empurrar,c1l02-pull-push.jpg,class1/images/c1l02-pull-push.jpg,,
+1,02,hand,Use,Dùng,usar,c1l02-use.jpg,class1/images/c1l02-use.jpg,,
+1,02,hand,Play,Chơi,tocar / jogar,c1l02-play.jpg,class1/images/c1l02-play.jpg,,
+1,02,hand,Throw,Vứt,lançar,c1l02-throw.jpg,class1/images/c1l02-throw.jpg,,
+1,02,hand,Clean,Dọn dẹp,limpar,c1l02-clean.jpg,class1/images/c1l02-clean.jpg,,
+1,02,hand,Ride / Drive,Lái xe,montar / dirigir,c1l02-ride-drive.jpg,class1/images/c1l02-ride-drive.jpg,,
+1,02,hand,Swim,Bơi,nadar,c1l02-swim.jpg,class1/images/c1l02-swim.jpg,,
+1,02,hand,Choose,Chọn,escolher,c1l02-choose.jpg,class1/images/c1l02-choose.jpg,,
+1,02,hand,Work,Làm việc,trabalhar,c1l02-work.jpg,class1/images/c1l02-work.jpg,,
+1,01,animals,Pig,Heo/Lợn,cerdo,c1l01-pig.jpg,class1/images/c1l01-pig.jpg,,
+1,01,animals,Horse,Ngựa,cavalo,c1l01-horse.jpg,class1/images/c1l01-horse.jpg,,
+1,01,animals,Elephant,Voi,elefante,c1l01-elephant.jpg,class1/images/c1l01-elephant.jpg,,
+1,01,animals,Fish,Cá,peixe,c1l01-fish.jpg,class1/images/c1l01-fish.jpg,,
+1,01,animals,Snake,Rắn,serpente,c1l01-snake.jpg,class1/images/c1l01-snake.jpg,,
+1,01,animals,Giraffe,Hươu cao cổ,girafa,c1l01-giraffe.jpg,class1/images/c1l01-giraffe.jpg,,
+1,01,animals,Dog,Chó,cachorro,c1l01-dog.jpg,class1/images/c1l01-dog.jpg,,
+1,01,animals,Cat,Mèo,gato,c1l01-cat.jpg,class1/images/c1l01-cat.jpg,,
+1,01,animals,Lion,Cọp,leão,c1l01-lion.jpg,class1/images/c1l01-lion.jpg,,
+1,01,animals,Tiger,Hổ,tigre,c1l01-tiger.jpg,class1/images/c1l01-tiger.jpg,,
+1,01,animals,Chicken,Gà,galinha,c1l01-chicken.jpg,class1/images/c1l01-chicken.jpg,,
+1,01,animals,Bird,Chim,pássaro,c1l01-bird.jpg,class1/images/c1l01-bird.jpg,,
+1,01,animals,Turtle,Rùa,tartaruga,c1l01-turtle.jpg,class1/images/c1l01-turtle.jpg,,
+1,01,animals,Rabbit,Thỏ,coelho,c1l01-rabbit.jpg,class1/images/c1l01-rabbit.jpg,,
+1,01,animals,Crocodile,Cá sấu,crocodilo,c1l01-crocodile.jpg,class1/images/c1l01-crocodile.jpg,,
+1,01,animals,Bear,Gấu,urso,c1l01-bear.jpg,class1/images/c1l01-bear.jpg,,
+1,01,fruits,Avocado,Quả bơ,abacate,c1l01-avocado.jpg,class1/images/c1l01-avocado.jpg,,
+1,01,fruits,Apple,Táo,maçã,c1l01-apple.jpg,class1/images/c1l01-apple.jpg,,
+1,01,fruits,Grape,Nho,Uúva,c1l01-grape.jpg,class1/images/c1l01-grape.jpg,,
+1,01,fruits,Lemon,Chanh,limão,c1l01-lemon.jpg,class1/images/c1l01-lemon.jpg,,
+1,01,fruits,Watermelon,Dưa hấu,melancia,c1l01-watermelon.jpg,class1/images/c1l01-watermelon.jpg,,
+1,01,fruits,Strawberry,Dâu tây,morango,c1l01-strawberry.jpg,class1/images/c1l01-strawberry.jpg,,
+1,01,fruits,Papaya,Đu dủ,mamão,c1l01-papaya.jpg,class1/images/c1l01-papaya.jpg,,
+1,01,fruits,Mango,Xoài,manga,c1l01-mango.jpg,class1/images/c1l01-mango.jpg,,
+1,01,fruits,Orange,Cam,laranja,c1l01-orange.jpg,class1/images/c1l01-orange.jpg,,
+1,01,class,Board,Bảng,tábua,c1l01-board.jpg,class1/images/c1l01-board.jpg,,
+1,01,class,Chair,Ghế,cadeira,c1l01-chair.jpg,class1/images/c1l01-chair.jpg,,
+1,01,class,Table,Bàn,mesa,c1l01-table.jpg,class1/images/c1l01-table.jpg,,
+1,01,class,Air conditioner,Máy điều hòa nhiệt độ,ar condicionado,c1l01-air-conditioner.jpg,class1/images/c1l01-air-conditioner.jpg,,
+1,01,class,Pen,Viết mực,caneta,c1l01-pen.jpg,class1/images/c1l01-pen.jpg,,
+1,01,class,Pencil,Viết chì,lápis,c1l01-pencil.jpg,class1/images/c1l01-pencil.jpg,,
+1,01,class,Book,Sách,livro,c1l01-book.jpg,class1/images/c1l01-book.jpg,,
+1,01,class,Marker,Bút lông,marcador,c1l01-marker.jpg,class1/images/c1l01-marker.jpg,,
+1,01,class,Door,Cửa chính,porta,c1l01-door.jpg,class1/images/c1l01-door.jpg,,
+1,01,class,Window,Cửa sổ,janela,c1l01-window.jpg,class1/images/c1l01-window.jpg,,
+1,01,class,Light,Ánh sáng (n)/ Nhẹ nhành (adj),luz,c1l01-light.jpg,class1/images/c1l01-light.jpg,,
+1,01,class,Wall,Bức tường,parede,c1l01-wall.jpg,class1/images/c1l01-wall.jpg,,
+1,01,class,Picture,Bức tranh,retrato,c1l01-picture.jpg,class1/images/c1l01-picture.jpg,,
+1,01,vehicles,Car,Xe hơi,carro,c1l01-car.jpg,class1/images/c1l01-car.jpg,,
+1,01,vehicles,Motorbike,Xe gắn máy,motocicleta,c1l01-motorbike.jpg,class1/images/c1l01-motorbike.jpg,,
+1,01,vehicles,Bike,Xe đạp,bicicleta,c1l01-bike.jpg,class1/images/c1l01-bike.jpg,,
+1,01,vehicles,Truck,Xe tải,caminhão,c1l01-truck.jpg,class1/images/c1l01-truck.jpg,,
+1,01,vehicles,Train,Tàu hỏa,trem,c1l01-train.jpg,class1/images/c1l01-train.jpg,,
+1,01,vehicles,Plane,Máy bay,avião,c1l01-plane.jpg,class1/images/c1l01-plane.jpg,,
+1,01,vehicles,Bus,Xe buýt,ônibus,c1l01-bus.jpg,class1/images/c1l01-bus.jpg,,
+1,01,vehicles,Taxi,Taxi,táxi,c1l01-taxi.jpg,class1/images/c1l01-taxi.jpg,,
+1,01,vehicles,Boat,Thuyền,barco,c1l01-boat.jpg,class1/images/c1l01-boat.jpg,,
+1,01,people,Teacher,Giáo viên,mestre,c1l01-teacher.jpg,class1/images/c1l01-teacher.jpg,,
+1,01,people,Student,Học sinh,aluno,c1l01-student.jpg,class1/images/c1l01-student.jpg,,
+1,01,people,Doctor,Bác sĩ,médico,c1l01-doctor.jpg,class1/images/c1l01-doctor.jpg,,
+1,01,people,Nurse,Y tá,enfermeira,c1l01-nurse.jpg,class1/images/c1l01-nurse.jpg,,
+1,01,thingslife,Air,Không khí,ar,c1l01-air.jpg,class1/images/c1l01-air.jpg,,
+1,01,thingslife,Food,Thức ăn,comida,c1l01-food.jpg,class1/images/c1l01-food.jpg,,
+1,01,thingslife,Money,Tiền,dinheiro,c1l01-money.jpg,class1/images/c1l01-money.jpg,,
+1,01,thingslife,Health,Sức khỏe,saúde,c1l01-health.jpg,class1/images/c1l01-health.jpg,,
+1,01,thingslife,Happiness,Niềm hạnh phúc,felicidade,c1l01-happiness.jpg,class1/images/c1l01-happiness.jpg,,
+1,01,thingslife,Love,Tình yêu,amor,c1l01-love.jpg,class1/images/c1l01-love.jpg,,
+1,01,thingslife,Sadness,Nỗi buồn,tristeza,c1l01-sadness.jpg,class1/images/c1l01-sadness.jpg,,
+1,01,thingslife,Time,Thời gian,tempo,c1l01-time.jpg,class1/images/c1l01-time.jpg,,
+1,01,thingslife,Water,Nước,agua,c1l01-water.jpg,class1/images/c1l01-water.jpg,,
+1,01,uncountable,Homework,Bài tập về nhà,dever de casa,c1l01-homework.jpg,class1/images/c1l01-homework.jpg,,
+1,01,uncountable,Housework,Việc nhà,trabalho doméstico,c1l01-housework.jpg,class1/images/c1l01-housework.jpg,,
+1,01,uncountable,Vietnamese,Tiếng Việt/ Người Việt ,vietnamita,c1l01-vietnamese.jpg,class1/images/c1l01-vietnamese.jpg,,
+1,01,uncountable,Tea,Trà,chá,c1l01-tea.jpg,class1/images/c1l01-tea.jpg,,
+1,01,uncountable,Rice,Gạo,arroz,c1l01-rice.jpg,class1/images/c1l01-rice.jpg,,
+1,01,uncountable,Hair,Tóc,cabelo,c1l01-hair.jpg,class1/images/c1l01-hair.jpg,,
+1,01,uncountable,Sugar,Đường,açúcar,c1l01-sugar.jpg,class1/images/c1l01-sugar.jpg,,
+1,01,uncountable,Salt,Muối,sal,c1l01-salt.jpg,class1/images/c1l01-salt.jpg,,
+1,01,commonverb,See,Thấy,ver,c1l01-see.jpg,class1/images/c1l01-see.jpg,,
+1,01,commonverb,Watch,Xem,assistir,c1l01-watch.jpg,class1/images/c1l01-watch.jpg,,
+1,01,commonverb,Look At,Nhìn,olhar para,c1l01-look-at.jpg,class1/images/c1l01-look-at.jpg,,
+1,01,commonverb,Look for,Tìm kiếm,procurar,c1l01-look-for.jpg,class1/images/c1l01-look-for.jpg,,
+1,01,commonverb,Observe,Quan sát,observar,c1l01-observe.jpg,class1/images/c1l01-observe.jpg,,
+1,01,commonverb,Buy,Mua,comprar,c1l01-buy.jpg,class1/images/c1l01-buy.jpg,,
+1,01,commonverb,Sell,Bán,vender,c1l01-sell.jpg,class1/images/c1l01-sell.jpg,,
+1,01,commonverb,Hate,Ghét,odiar,c1l01-hate.jpg,class1/images/c1l01-hate.jpg,,
+1,01,commonverb,Like,Thích,gostar,c1l01-like.jpg,class1/images/c1l01-like.jpg,,
+1,01,commonverb,Love,Yêu,amar,c1l01-love.jpg,class1/images/c1l01-love.jpg,,
+1,01,commonverb,Want,Muốn,quer,c1l01-want.jpg,class1/images/c1l01-want.jpg,,
+1,01,commonverb,Need,Cần,precisar,c1l01-need.jpg,class1/images/c1l01-need.jpg,,
+1,01,commonverb,Choose,Lựa chọn,escolher,c1l01-choose.jpg,class1/images/c1l01-choose.jpg,,
 2,02,vocabulary,Talking to unfriendly people,Nói chuyện với người không thân thiện,conversar com pessoas hostis,c2l02-talking-to-unfriendly-people.jpg,class2/images/c2l02-talking-to-unfriendly-people.jpg,8.42,10.66
 2,02,vocabulary,Arguing with overly emotional people,Cãi nhau với người thái quá cảm xúc,brigar com pessoas excessivamente emocionais,c2l02-arguing-with-overly-emotional-people.jpg,class2/images/c2l02-arguing-with-overly-emotional-people.jpg,12.85,15.6
 2,02,vocabulary,Getting up early in the morning,Thức dậy sớm,levantar-se cedo pela manhã,c2l02-getting-up-early-in-the-morning.jpg,class2/images/c2l02-getting-up-early-in-the-morning.jpg,17.62,19.46
@@ -1401,7 +1401,13 @@ se casar com alguém",c1l05-marry-someone-get-married-to-someone.jpg,class1/imag
 2,01,vocabulary,Playing football / ping-pong / badminton / games / cards / chess,,jogar futebol / pingue-pongue / badminton / jogos / cartões / xadrez,c2l01-playing-football-ping-pong-badminton-games-cards-chess.jpg,class2/images/c2l01-playing-football-ping-pong-badminton-games-cards-chess.jpg,8.6,21.92
 2,01,vocabulary,Doing aerobics / yoga (aerobic / yoga,,fazer aeróbica / ioga (aeróbica / ioga),c2l01-doing-aerobics-yoga-aerobic-yoga.jpg,class2/images/c2l01-doing-aerobics-yoga-aerobic-yoga.jpg,23.78,27.82
 2,01,vocabulary,Working out at the gym,Tập luyện ở phòng gym,fazer musculação na academia,c2l01-working-out-at-the-gym.jpg,class2/images/c2l01-working-out-at-the-gym.jpg,30.18,32.05
-2,01,vocabulary,Going swimming / shopping / fishing / jogging / rollerblading / roller skating / skateboarding,Bơi/ mua sắm/ câu cá/ đi bộ nhanh/ trượt pa tinh (4 bánh nhỏ mỗi bên 2 bánh)/ trượt pa tin (4 bánh nhỏ thành 1 hàng dọc)/ trượt pa tin ván,ir nadar / ao shopping / pescar / correr / patinar / patins / de skate,c2l01-going-swimming-shopping-fishing-jogging-rollerblading-roller-skating-skateboarding.jpg,class2/images/c2l01-going-swimming-shopping-fishing-jogging-rollerblading-roller-skating-skateboarding.jpg,35.09,50.09
+2,01,vocabulary,Going swimming / shopping / fishing / jogging / rollerblading / roller skating / skateboarding,Bơi,ir nadar,c2l01-going-swimming-shopping-fishing-jogging-rollerblading-roller-skating-skateboarding.jpg,class2/images/c2l01-going-swimming-shopping-fishing-jogging-rollerblading-roller-skating-skateboarding.jpg,35.09,50.09
+2,01,vocabulary,Shopping ,Mua sắm,ir ao shopping,c2l01-shopping-.jpg,class2/images/c2l01-shopping-.jpg,,
+2,01,vocabulary,Fishing ,Câu cá,ir pescar ,c2l01-fishing-.jpg,class2/images/c2l01-fishing-.jpg,,
+2,01,vocabulary,Jogging ,đi bộ nhanh,ir correr,c2l01-jogging-.jpg,class2/images/c2l01-jogging-.jpg,,
+2,01,vocabulary,Rollerblading ,Trượt pa tinh (4 bánh nhỏ mỗi bên 2 bánh),ir patinar,c2l01-rollerblading-.jpg,class2/images/c2l01-rollerblading-.jpg,,
+2,01,vocabulary,Roller skating,Trượt pa tin (4 bánh nhỏ thành 1 hàng dọc),ir de patins,c2l01-roller-skating.jpg,class2/images/c2l01-roller-skating.jpg,,
+2,01,vocabulary,Skateboarding,Trượt pa tin ván,ir de skate,c2l01-skateboarding.jpg,class2/images/c2l01-skateboarding.jpg,,
 2,01,vocabulary,Going for a picnic / Going for a walk,Đi picnic/ đi bộ đi dạo,ir de piquenique / ir dar um passeio,c2l01-going-for-a-picnic-going-for-a-walk.jpg,class2/images/c2l01-going-for-a-picnic-going-for-a-walk.jpg,52.3,57.58
 2,01,vocabulary,Reading books,Đọc sách,ler livros,c2l01-reading-books.jpg,class2/images/c2l01-reading-books.jpg,59.63,61.17
 2,01,vocabulary,Surfing / Kitesurfing / Windsurfing,lướt ván / lướt ván diều kéo / trượt ván buồm,surfar / fazer kitesurf / fazer windsurfing,c2l01-surfing-kitesurfing-windsurfing.jpg,class2/images/c2l01-surfing-kitesurfing-windsurfing.jpg,67.8,73.25

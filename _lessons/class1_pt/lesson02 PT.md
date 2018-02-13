@@ -60,20 +60,20 @@ salestext: "Free full version (2 days left)"
 - **Do you chase a horse?**
 - **No, I don’t chase a horse. I chase a dog.**
 
-*Tôi đuổi theo một con chó?*
+*Eu persigo um cachorro.*
 
-- *Có phải bạn đuổi theo một con ngựa không?*
-- *Không. Tôi không đuổi theo một con chó. Tôi đuổi theo một con chó*
+- *Você persegue um cavalo?*
+- *Não, eu não persigo um cavalo. Eu persigo um cachorro.*
 
 ### A2. - I look at a teacher.
 
 - **Do you look for a teacher?**
 - **No, I don’t look for a teacher, I look at a teacher.**
 
-*Tôi nhìn một giáo viên*
+*Eu olho para um professor.*
 
-- *Bạn kiếm một giáo viên hả?*
-- *Không, tôi không tìm kiếm một giáo viên. Tôi nhìn một giáo viên*
+- *Você procura um professor?*
+- *Não, eu não procuro um professor, eu olho para um professor.*
 
  
 
@@ -82,80 +82,80 @@ salestext: "Free full version (2 days left)"
 - **Do you like doors?**
 - **No, I don’t like doors. I like dolls.**
 
-*Tôi thích búp bê*
+*Eu gosto de bonecas.*
 
-- *Có phải bạn thích những cái cửa hả?*
-- *Không, tôi không thích cửa. Tôi thích búp bê*
+- *Você gosta de portas?*
+- *Não, não gosto de portas. Eu gosto de bonecas.*
 
 ### B2. -  I kick a chair.
 
 - **Do you kiss a chair?**
 - **No, I don’t kiss a chair. I kick it.**
 
-*B2. Tôi đá một cá ghế*
+*B2. Eu bato uma cadeira.*
 
-- *Bạn hôn một cái ghế hả?*
-- *Không, tôi không hôn cá ghế. Tôi đá nó*
+- *Você beija uma cadeira?*
+- *Não, eu não beijo uma cadeira. Eu o bato.*
 
 ### C1. -  I interview doctors.
 
 - **Do you interview teachers?**
 - **No. I don’t interview teachers. I interview doctors.**
 
-*Tôi phỏng vấn bác sĩ*
+*Entrevisto com médicos.*
 
-- *Bạn phỏng vấn giáo viên hả?*
-- *Không, tôi không phỏng vấn giáo viên. Tôi phỏng vấn bác sĩ*
+- *Você entrevista professores?*
+- *Não. Não entrevisto professores. Entrevisto com médicos.*
 
 ### C2. - I talk to students.
 
 - **Do you talk about students?**
 - **No, I don’t talk about students? I talk to students.**
 
-*Tôi nói chuyện với những  học sinh*
+*Eu falo com estudantes.*
 
-- *Có phải bạn nói chuyện về những học sinh không?*
-- *Không. Tôi không nói về những người học sinh. Tôi nói với họ *
+- *Você fala sobre estudantes?*
+- *Não, não falo sobre estudantes? Eu falo com estudantes.*
 
 ### D1. - I see planes.
 
 - **Do you see some trains?**
 - **No,  don’t see any trains. I see some planes.**
 
-*Tôi thấy những cái máy bay*
+*Eu vejo aviões.*
 
-- *Có phải bạn thấy xe lửa?*
-- *Không, tôi không thấy xe lửa. Tôi thấy máy bay*
+- *Você vê alguns trens?*
+- *Não, não vejo trens. Eu vejo alguns aviões.*
 
 ### D2. - I pull a door.
 
 - **Do you push a door?**
 - **No, I don’t push a door. I pull a door.**
 
-*Tôi kéo một cái cửa*
+*Eu puxo uma porta.*
 
-- *Bạn đẩy một cái cửa phải không?*
-- *Không. Tôi không đẩy cái cửa. Tôi kéo nó*
+- *Você empurra uma porta? **
+- *Não, eu não empurro uma porta. Eu puxo uma porta.*
 
 ### E1. - I do homework everyday.
 
 - **Do you do housework everyday?**
 - **No. I don’t do housework everyday. I do homework everyday.**
 
-*Tôi bài tập mỗi ngày.*
+*Eu faço o dever de casa todos os dias.*
 
-- *Bạn làm việc nhà mỗi ngày hả?*
-- *Không, tôi không làm việc nhà mỗi ngày. Tôi làm bài tập về nhà mỗi ngày*
+- *Você faz tarefas domésticas todos os dias?*
+- *Não. Não faço tarefas domésticas todos os dias. Eu faço o dever de casa todos os dias.*
 
 ### E2. - I lie to him.
 
 - **Do you lie next to him?**
 - **No, I don’t lie next to to him. I lie to him.**
 
-*Tôi nói dối anh ấy*
+*Eu minto para ele.*
 
-- *Bạn nằm kế anh ta hả?*
-- *Không, tôi không nằm kế anh ta. Tôi nói dối với anh ta*
+- *Você está deitado ao lado dele?*
+- *Não, não me estou deitado ao lado dele. Eu minto para ele.*
 
  
  

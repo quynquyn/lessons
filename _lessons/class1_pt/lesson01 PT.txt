@@ -93,25 +93,25 @@ salestext: "Free full version (3 days left)"
 {% include player.html identifier="vocab-Native-Dialogue" lesson="C1L01" file="C1L01-Native-Dialogue.mp3" %}
 
 
-1. **I like a book. / I like books.** *(Tôi thích một quyển sách / Tôi thích sách)*  
-2. **I like a horse. / I like horses.** *(Tôi thích một con ngựa / Tôi thích ngựa )*
-3. **I hate a snake. / I hate snakes.** *(Tôi ghét một con rắn / Tôi ghét rắn )*
-4. **I see a bus. / I see 5 buses.** *(Tôi thấy một cái xe buýt / Tôi thấy 5 cái xe buýt)*
-5. **I want an orange. / I want some oranges.** *(Tôi muốn một trái cam / Tôi muốn một vài trái cam)*
-6. **I need a marker. / I need markers.** *(Tôi cần một cây bút lông / Tôi cần bút lông)*
-7. **I talk to a nurse everyday. / I talk to nurses everyday.** *(Tôi nói chuyện với một cô y tá mỗi ngày / Tôi nói chuyện với các y tá mỗi ngày)*
+1. **I like a book. / I like books.** *(Eu gosto de um livro. / Eu gosto de livros.)*  
+2. **I like a horse. / I like horses.** *(Eu gosto de um cavalo. / Eu gosto de cavalos.)*
+3. **I hate a snake. / I hate snakes.** *(Eu odeio uma serpente. / Eu odeio serpentes.)*
+4. **I see a bus. / I see 5 buses.** *(Eu vejo um ônibus. / Eu vejo 5 ônibus.)*
+5. **I want an orange. / I want some oranges.** *(Eu quero uma laranja. / Eu quero algumas laranjas.)*
+6. **I need a marker. / I need markers.** *(Eu preciso de um marcador. / Eu preciso de marcadores.)*
+7. **I talk to a nurse everyday. / I talk to nurses everyday.** *(Eu falo com uma enfermeira todos os dias. / Eu falo com enfermeiras todos os dias.)*
 
 
 ## 2. Uncountable nouns
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=59 stop=666 %}
 
-1. **I do homework.** *(Tôi làm bài tập về nhà )*
-2. **I need money.** *(Tôi cần tiền)*
-3. **I want water.** *(Tôi muốn nước)*
-4. **I choose happiness.** *(Tôi chọn hạnh phúc)*
-5. **I like sugar.** *(Tôi thích đường)*
-6. **I hate housework.** *(Tôi ghét công việc nhà)*
-7. **I love English.** *(Tôi thích Tiếng Anh)*
+1. **I do homework.** *(Eu faço dever de casa.)*
+2. **I need money.** *(Eu preciso de dinheiro.)*
+3. **I want water.** *(Eu quero água.)*
+4. **I choose happiness.** *(Eu escolho a felicidade.)*
+5. **I like sugar.** *(Eu gosto de açúcar.)*
+6. **I hate housework.** *(Eu odeio o trabalho doméstico.)*
+7. **I love English.** *(Eu amo inglês.)*
 
 
 ## 3. More of examples
@@ -122,9 +122,10 @@ salestext: "Free full version (3 days left)"
  - I choose happiness. How about you?
  - I choose money.
 
-*Bạn chọn gì?*
- -  *Tôi chọn hạnh phúc. Còn bạn?*
- -  *Tôi chọn tiền*
+*O que você escolhe?*
+
+ - *Escolho a felicidade. E quanto a você?*
+ - *Escolho dinheiro.*
 
 ### b. What do you like?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=103 stop=666 %}
@@ -132,10 +133,10 @@ salestext: "Free full version (3 days left)"
 - **I like strawberries. How about you?**
 - **I like bananas.**
 
-*Bạn thích gì?*
+*O que você gosta?*
 
-- *Tôi thích dâu. Còn bạn*
-- *Tôi thích chuối*
+- *Eu gosto de morangos. E você?*
+- *Eu gosto de bananas.*
 
 ### c. What do you need?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=110 stop=666 %}
@@ -143,10 +144,10 @@ salestext: "Free full version (3 days left)"
 - **I need a chair. And you?**
 - **I need a board.**
 
-*Bạn cần gì?*
+*O que você precisa?*
 
-- *Tôi cần một cái ghế. Còn bạn?*
-- *Tôi cần một cái bảng*
+- *Preciso de uma cadeira. E você?*
+- *Preciso de uma tábua.*
 
 ### d. What do you have?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=116 stop=666 %}
@@ -154,10 +155,10 @@ salestext: "Free full version (3 days left)"
 - **I have some markers. How about you?**
 - **I have some pencils.**
 
-*Bạn có gì?*
+*O que você tem?*
 
-- *Tôi có vài cây bút lông. Còn bạn?*
-- *Tôi có vài cây bút chì*
+- *Tenho alguns marcadores. E você?*
+- *Tenho alguns lápis.*
 
 ### e. What do you want?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=124 stop=666 %}
@@ -165,10 +166,10 @@ salestext: "Free full version (3 days left)"
 * **I want water. And you?**
 * **I want tea.**
 
-*Bạn muốn gì?*
+*O que você quer?*
 
-- *Tôi muốn nước. Còn bạn?*
-- *Tôi muốn trà*
+- *Eu quero água. E você?*
+- *Eu quero chá.*
 
 ### f. What do you hate?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=130 stop=666 %}
@@ -176,10 +177,10 @@ salestext: "Free full version (3 days left)"
 - **I hate crocodiles. How about you?**
 - **I hate snakes.**
 
-*Bạn ghét gì?*
+*O que você odeia?*
 
-- *Tôi ghét cá xấu. Còn bạn?*
-- *Tôi ghét rắn*
+- *Odeio os crocodilos. E você?*
+- *Odeio cobras.*
 
 ### g. What do you look for?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=137 stop=666 %}
@@ -187,10 +188,10 @@ salestext: "Free full version (3 days left)"
 - **I look for a pen. And you?**
 - **I look for some milk.**
 
-*Bạn tìm gì?*
+*O que você procura?*
 
-- *Tôi tìm cây bút. Còn bạn?*
-- *Tôi tìm một ít sữa*
+- *Procuro uma caneta. E você?*
+- *Procuro um pouco de leite.*
 
 ### h. What do you look at?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=143 stop=666 %}
@@ -198,10 +199,10 @@ salestext: "Free full version (3 days left)"
 - **I look at a tiger. What about you?**
 - **I look at bears.**
 
-*Bạn nhìn gì vậy?*
+*Para que você olha?*
 
-- *Tôi nhìn một con hổ. Còn bạn?*
-- *Tôi nhìn những con gấu*
+- *Eu olho para um tigre. E se você?*
+- *Eu olho para ursos.*
 
 ### i. What do you observe?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=150 stop=666 %}
@@ -209,10 +210,10 @@ salestext: "Free full version (3 days left)"
 - **I observe planes and birds. What about you?**
 - **I observe cars and giraffes.**
 
-*Bạn quan sát gì?*
+*O que você observa?*
 
-- *Tôi quan sát nhiều máy bay và chim. Còn bạn?*
-- *Tôi quan sát nhiều xe hơi và hưu cao cổ*
+- *Eu observo aviões e pássaros. E você?*
+- *Eu observo carros e girafas.*
 
 ### j. What do you study?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=158 stop=666 %}
@@ -220,7 +221,7 @@ salestext: "Free full version (3 days left)"
 - **I study English. How about you?**
 - **I study Vietnamese.**
 
-*Bạn học gì?*
+*O que você estuda?*
 
-- *Tôi học Tiếng Anh. Còn bạn?*
-- *Tôi học Tiếng Việt*
+- *Eu estudo inglês. E quanto a você?*
+- *Eu estudo vietnamitas.*

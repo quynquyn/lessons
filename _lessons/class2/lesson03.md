@@ -32,7 +32,7 @@ salestext: "Free full version (1 days left)"
 >  {% include play.html identifier="lesson-dialogue1" start=12.48 stop=14.90 %}P2: **What time do you get ready for work?**  
 >  
 >  {% include play.html identifier="lesson-dialogue1" start=14.90 stop=20.63 %}P1: **I usually get ready around 8 AM. After the breakfast, I go to work at around 8:30.**  
->  
+>   
 >  {% include play.html identifier="lesson-dialogue1" start=20.63 stop=23.09 %}P2: **How long does it take you to go to work?**  
 >  
 >  {% include play.html identifier="lesson-dialogue1" start=23.09 stop=25.71 %}P1: **About 20 minutes by bus.**  
@@ -82,13 +82,13 @@ salestext: "Free full version (1 days left)"
 {% include player.html identifier="lesson-exercise" lesson="C2L03" file="C2L03-Native-Dialogue4.mp3" %}
 
 
-{% include play.html identifier="lesson-exercise" start=0.95 stop=47.13 %} P1: **My name is Ted. There are a couple of things that I like to do in my daily routine**
+{% include play.html identifier="lesson-exercise" start=0.95 stop=5.13 %} P1: **My name is Ted. There are a couple of things that I like to do in my daily routine**
 
-1. **I like to go to a coffee shop in district 3 after class. It’s nice and quiet there. I stay there for an hour or so.**
-2. **I love to go for long walks. I go for a walk almost every night. I like to walk and think about my plans for the future**
-3. **I love the new mall. I usually hang out with my friends and colleagues there. We just walk around and talk, but it’s fun.**
-4. **I don’t cook at home because I like to go out and eat. There’s a new cafe in district 1 I want to try. But it’s busy all the time!**
-5. **I like to watch sports. My favorites are football and basketball. But I don’t play any sports**
+1. {% include play.html identifier="lesson-exercise" start=5.55 stop=13.11 %} **I like to go to a coffee shop in district 3 after class. It’s nice and quiet there. I stay there for an hour or so.**
+2. {% include play.html identifier="lesson-exercise" start=13.55 stop=22.11 %} **I love to go for long walks. I go for a walk almost every night. I like to walk and think about my plans for the future**
+3. {% include play.html identifier="lesson-exercise" start=22.55 stop=31.11 %} **I love the new mall. I usually hang out with my friends and colleagues there. We just walk around and talk, but it’s fun.**
+4. {% include play.html identifier="lesson-exercise" start=31.55 stop=40.11 %} **I don’t cook at home because I like to go out and eat. There’s a new cafe in district 1 I want to try. But it’s busy all the time!**
+5. {% include play.html identifier="lesson-exercise" start=40.55 stop=47.31 %} **I like to watch sports. My favorites are football and basketball. But I don’t play any sports**
 
 {% include play.html identifier="lesson-exercise" start=47.13 stop=51.67 %} P2: **Can you say what Ted likes to do in his daily routine?**
 

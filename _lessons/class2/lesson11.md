@@ -111,6 +111,7 @@ lesson: "11"
 
 {% include player2.html identifier="monologue" class=page.class lesson=page.lesson %}
 ## Describe someone's appearance 
+{% include play.html identifier="monologue" start=3.88 stop=45.70 %}
 
 **Let me introduce my ex-boyfriend. He is Daniel. He is a quite handsome man. He is in his mid–twenties, but he looks young for his age. He is of medium height and well–built. He has a square face with brown eyes, a straight nose and full lips. He has short black wavy hair. He looks even more attractive with his glasses. I've always thought he bears a striking resemblance to someone on TV. He cut himself climbing a tree when he was ten and he's got a scar just below his ear. Oh, I wish he were here. I miss him so much.**
 
@@ -121,15 +122,16 @@ lesson: "11"
 
 
 ### 1. He is in his mid–twenties.
-
+{% include play.html identifier="explanation" start=3.57 stop=17.65 %}
 Anh đang trong độ tuổi giữa 20
 
 - **He is in his early forties.**
 - **My brother is in his late twenties.**
-- **My younger sister is a lovely teenager.**
+- **My sister is a lovely teenager.**
 
 
 ### 2. He is of medium height and well–built.
+{% include play.html identifier="explanation" start=19.43 stop=30.36 %}
 
 Anh ta cao trung bình và cường tráng 
 
@@ -137,7 +139,7 @@ Anh ta cao trung bình và cường tráng
 - **He's short and a little bit overweight.**
 
 ### 3. He has a square face with brown eyes, a straight nose and full lips.
-
+{% include play.html identifier="explanation" start=31.95 stop=58.69 %}
 Anh ta có khuôn mặt vuông với lông mày nâu, mũi thẳng và môi đầy đặn
 
 - **He has an oval face with small eyes, a flat nose and thin lips.**
@@ -145,7 +147,7 @@ Anh ta có khuôn mặt vuông với lông mày nâu, mũi thẳng và môi đ�
 - **The man has a big face with bushy eyebrows, a hooked nose and a pointed chin.**
 
 ### 4. He looks even more attractive with his glasses. 
-
+{% include play.html identifier="explanation" start=60.71 stop=78.60 %}
 Anh ta trông còn thu hút hơn với mắt kính 
 
 - **She looks even sexier with her full lips.**
@@ -153,7 +155,7 @@ Anh ta trông còn thu hút hơn với mắt kính
 - **My brother looks even more handsome with a tattoo on his arm.**
 
 ### 5.  I’ve always thought he bears a striking resemblance to someone on TV.
-
+{% include play.html identifier="explanation" start=80.60 stop=102.89 %}
 Tôi luôn nghĩ rằng cô ta giống ai đó trên TV
 
 **bear a striking resemblance**
