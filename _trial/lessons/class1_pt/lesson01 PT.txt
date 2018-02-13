@@ -1,0 +1,2252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Free full version (3 days left)
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/product/english-beginner-course-5-weeks/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                # Lesson 1.1: Noun (what)
+
+
+## Vocabulary
+
+### Animals
+
+
+
+
+
+
+
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class1/images/c1l01-pig.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Pig</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Heo/Lợn</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/c1l01-horse.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Horse</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Ngựa</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/c1l01-elephant.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Elephant</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Voi</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/c1l01-fish.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Fish</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Cá</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class1/images/c1l01-snake.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Snake</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Rắn</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/c1l01-giraffe.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Giraffe</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Hươu cao cổ</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/c1l01-dog.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Dog</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Chó</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/c1l01-cat.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Cat</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Mèo</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Lion</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Tiger</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Chicken</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Bird</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Turtle</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Rabbit</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Crocodile</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Bear</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+
+
+
+### Fruits
+
+
+
+
+
+
+
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class1/images/c1l01-avocado.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Avocado</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Quả bơ</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/c1l01-apple.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Apple</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Táo</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/c1l01-grape.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Grape</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Nho</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/c1l01-lemon.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Lemon</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Chanh</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class1/images/c1l01-watermelon.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Watermelon</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Dưa hấu</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/c1l01-strawberry.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Strawberry</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Dâu tây</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/c1l01-papaya.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Papaya</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Đu dủ</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/c1l01-mango.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Mango</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Xoài</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Orange</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+
+
+### Things in class
+
+
+
+
+
+
+
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class1/images/c1l01-board.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Board</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Bảng</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/c1l01-chair.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Chair</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Ghế</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/c1l01-table.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Table</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Bàn</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/c1l01-air-conditioner.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Air conditioner</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Máy điều hòa nhiệt độ</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class1/images/c1l01-pen.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Pen</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Viết mực</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/c1l01-pencil.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Pencil</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Viết chì</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/c1l01-book.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Book</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Sách</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/c1l01-marker.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Marker</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Bút lông</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Door</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Window</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Light</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Wall</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Picture</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+
+
+### Vehicles
+
+
+
+
+
+
+
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class1/images/c1l01-car.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Car</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Xe hơi</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/c1l01-motorbike.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Motorbike</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Xe gắn máy</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/c1l01-bike.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Bike</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Xe đạp</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/c1l01-truck.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Truck</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Xe tải</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class1/images/c1l01-train.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Train</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Tàu hỏa</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/c1l01-plane.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Plane</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Máy bay</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/c1l01-bus.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Bus</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Xe buýt</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/c1l01-taxi.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Taxi</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Taxi</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Boat</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+
+
+### People
+
+
+
+
+
+
+
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class1/images/c1l01-teacher.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Teacher</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Giáo viên</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/c1l01-student.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Student</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Học sinh</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/c1l01-doctor.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Doctor</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Bác sĩ</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/c1l01-nurse.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Nurse</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Y tá</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+
+
+
+
+## Uncountable nouns
+
+### Important things in your life
+
+
+
+
+
+
+
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class1/images/c1l01-air.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Air</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Không khí</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/c1l01-food.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Food</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Thức ăn</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/c1l01-money.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Money</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Tiền</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/c1l01-health.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Health</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Sức khỏe</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class1/images/c1l01-happiness.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Happiness</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Niềm hạnh phúc</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/c1l01-love.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Love</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Tình yêu</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/c1l01-sadness.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Sadness</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Nỗi buồn</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/c1l01-time.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Time</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Thời gian</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Water</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+
+
+### Other uncountable things
+
+
+
+
+
+
+
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class1/images/c1l01-homework.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Homework</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Bài tập về nhà</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/c1l01-housework.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Housework</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Việc nhà</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/c1l01-vietnamese.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Vietnamese</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Tiếng Việt/ Người Việt </em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/c1l01-tea.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Tea</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Trà</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class1/images/c1l01-rice.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Rice</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Gạo</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/c1l01-hair.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Hair</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Tóc</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/c1l01-sugar.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Sugar</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Đường</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/c1l01-salt.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Salt</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Muối</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+
+
+## Some common verbs
+
+
+
+
+
+
+
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class1/images/c1l01-see.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>See</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Thấy</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/c1l01-watch.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Watch</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Xem</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/c1l01-look-at.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Look At</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Nhìn</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/c1l01-look-for.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Look for</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Tìm kiếm</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class1/images/c1l01-observe.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Observe</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Quan sát</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/c1l01-buy.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Buy</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Mua</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/c1l01-sell.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Sell</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Bán</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/c1l01-hate.jpg"  class="img-fluid img-thumbnail mx-auto d-block"  />
+  
+  
+  
+  
+    <strong>Hate</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Ghét</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Like</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Love</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Want</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Need</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Choose</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+
+
+
+## 1. Countable nouns
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L01-Native-Dialogue.mp3" id="audio_vocab-Native-Dialogue" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocab-Native-Dialogue" onclick="play('vocab-Native-Dialogue', 'C1L01', 'vocab-Native-Dialogue');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L01-Native-Dialogue.mp3</div>
+
+
+1. **I like a book. / I like books.** *(Eu gosto de um livro. / Eu gosto de livros.)*  
+2. **I like a horse. / I like horses.** *(Eu gosto de um cavalo. / Eu gosto de cavalos.)*
+3. **I hate a snake. / I hate snakes.** *(Eu odeio uma serpente. / Eu odeio serpentes.)*
+4. **I see a bus. / I see 5 buses.** *(Eu vejo um ônibus. / Eu vejo 5 ônibus.)*
+5. **I want an orange. / I want some oranges.** *(Eu quero uma laranja. / Eu quero algumas laranjas.)*
+6. **I need a marker. / I need markers.** *(Eu preciso de um marcador. / Eu preciso de marcadores.)*
+7. **I talk to a nurse everyday. / I talk to nurses everyday.** *(Eu falo com uma enfermeira todos os dias. / Eu falo com enfermeiras todos os dias.)*
+
+
+## 2. Uncountable nouns
+<strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" 
+  onclick="playat('vocab-Native-Dialogue', 
+    59, 666, 
+    'n/a', 'vocab-Native-Dialogue');">▷</strong>
+
+1. **I do homework.** *(Eu faço dever de casa.)*
+2. **I need money.** *(Eu preciso de dinheiro.)*
+3. **I want water.** *(Eu quero água.)*
+4. **I choose happiness.** *(Eu escolho a felicidade.)*
+5. **I like sugar.** *(Eu gosto de açúcar.)*
+6. **I hate housework.** *(Eu odeio o trabalho doméstico.)*
+7. **I love English.** *(Eu amo inglês.)*
+
+
+## 3. More of examples
+<strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" 
+  onclick="playat('vocab-Native-Dialogue', 
+    90, 666, 
+    'n/a', 'vocab-Native-Dialogue');">▷</strong>
+
+### a. What do you choose?
+
+ - I choose happiness. How about you?
+ - I choose money.
+
+*O que você escolhe?*
+
+ - *Escolho a felicidade. E quanto a você?*
+ - *Escolho dinheiro.*
+
+### b. What do you like?
+<strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" 
+  onclick="playat('vocab-Native-Dialogue', 
+    103, 666, 
+    'n/a', 'vocab-Native-Dialogue');">▷</strong>
+
+- **I like strawberries. How about you?**
+- **I like bananas.**
+
+*O que você gosta?*
+
+- *Eu gosto de morangos. E você?*
+- *Eu gosto de bananas.*
+
+### c. What do you need?
+<strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" 
+  onclick="playat('vocab-Native-Dialogue', 
+    110, 666, 
+    'n/a', 'vocab-Native-Dialogue');">▷</strong>
+
+- **I need a chair. And you?**
+- **I need a board.**
+
+*O que você precisa?*
+
+- *Preciso de uma cadeira. E você?*
+- *Preciso de uma tábua.*
+
+### d. What do you have?
+<strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" 
+  onclick="playat('vocab-Native-Dialogue', 
+    116, 666, 
+    'n/a', 'vocab-Native-Dialogue');">▷</strong>
+
+- **I have some markers. How about you?**
+- **I have some pencils.**
+
+*O que você tem?*
+
+- *Tenho alguns marcadores. E você?*
+- *Tenho alguns lápis.*
+
+### e. What do you want?
+<strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" 
+  onclick="playat('vocab-Native-Dialogue', 
+    124, 666, 
+    'n/a', 'vocab-Native-Dialogue');">▷</strong>
+
+* **I want water. And you?**
+* **I want tea.**
+
+*O que você quer?*
+
+- *Eu quero água. E você?*
+- *Eu quero chá.*
+
+### f. What do you hate?
+<strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" 
+  onclick="playat('vocab-Native-Dialogue', 
+    130, 666, 
+    'n/a', 'vocab-Native-Dialogue');">▷</strong>
+
+- **I hate crocodiles. How about you?**
+- **I hate snakes.**
+
+*O que você odeia?*
+
+- *Odeio os crocodilos. E você?*
+- *Odeio cobras.*
+
+### g. What do you look for?
+<strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" 
+  onclick="playat('vocab-Native-Dialogue', 
+    137, 666, 
+    'n/a', 'vocab-Native-Dialogue');">▷</strong>
+
+- **I look for a pen. And you?**
+- **I look for some milk.**
+
+*O que você procura?*
+
+- *Procuro uma caneta. E você?*
+- *Procuro um pouco de leite.*
+
+### h. What do you look at?
+<strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" 
+  onclick="playat('vocab-Native-Dialogue', 
+    143, 666, 
+    'n/a', 'vocab-Native-Dialogue');">▷</strong>
+
+- **I look at a tiger. What about you?**
+- **I look at bears.**
+
+*Para que você olha?*
+
+- *Eu olho para um tigre. E se você?*
+- *Eu olho para ursos.*
+
+### i. What do you observe?
+<strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" 
+  onclick="playat('vocab-Native-Dialogue', 
+    150, 666, 
+    'n/a', 'vocab-Native-Dialogue');">▷</strong>
+
+- **I observe planes and birds. What about you?**
+- **I observe cars and giraffes.**
+
+*O que você observa?*
+
+- *Eu observo aviões e pássaros. E você?*
+- *Eu observo carros e girafas.*
+
+### j. What do you study?
+<strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" 
+  onclick="playat('vocab-Native-Dialogue', 
+    158, 666, 
+    'n/a', 'vocab-Native-Dialogue');">▷</strong>
+
+- **I study English. How about you?**
+- **I study Vietnamese.**
+
+*O que você estuda?*
+
+- *Eu estudo inglês. E quanto a você?*
+- *Eu estudo vietnamitas.*
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

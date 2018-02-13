@@ -21,7 +21,7 @@ salestext: "Free full version (last day)"
 		lesson=page.lesson 
 		section="favoritekindofmovie"
 		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
+		trial=false %}
 		
 
 ### What is the movie like?
@@ -33,7 +33,7 @@ salestext: "Free full version (last day)"
 		lesson=page.lesson 
 		section="movielike"
 		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
+		trial=false %}
 		
 	
 ## Dialogue

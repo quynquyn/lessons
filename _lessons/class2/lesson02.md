@@ -15,7 +15,7 @@ salestext: "Free full version (2 days left)"
 		lesson=page.lesson 
 		section="vocabulary"
 		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
+		trial=false %}
 
 
 ## Dialogue
@@ -37,9 +37,9 @@ salestext: "Free full version (2 days left)"
 > {% include play.html identifier="File1-Dialogue" start=16.41 stop=20.76 %}Person 1: **Definitely. Getting up early in the morning really gets on my nerves.**
 
 
-{% include player.html identifier="File1-Explain" lesson="C2L01" file="lesson_2-002-File3.mp3" %}
+{% include player2.html identifier="explanation" class=page.class lesson=page.lesson %}
 ### Person 1: Why do you look so annoyed?
-{% include play.html identifier="File1-Explain" start=0.02 stop=12.58 %} 
+{% include play.html identifier="explanation" start=0.02 stop=12.58 %} 
 **Why do you look…?** *Sao trông bạn khó chịu thế?*
 
 - **Why do you look so sad today?**  *Sao hôm nay trông bạn buồn thế?*
@@ -47,7 +47,7 @@ salestext: "Free full version (2 days left)"
 - **Why do you look so happy today?**  *Sao hôm nay trông bạn vui vẻ vậy?*
 
 ### Person 2: I hate doing housework.
-{% include play.html identifier="File1-Explain" start=13.79 stop=39.60 %}
+{% include play.html identifier="explanation" start=13.79 stop=39.60 %}
 *Tôi ghét làm việc nhà*
 
 **I hate / I am sick of / I am tired of / I can’t stand it**
@@ -58,7 +58,7 @@ salestext: "Free full version (2 days left)"
 - **I can’t stand sexism.** *Tôi không chịu được sự phân biệt giới tính*
 
 ### Person 1: Talking to unfriendly people drives me crazy.
-{% include play.html identifier="File1-Explain" start=41.64 stop=65.22 %}
+{% include play.html identifier="explanation" start=41.64 stop=65.22 %}
 *Nói chuyện với những người thân thiện khiến tôi phát điên lên*
 
 **It drives me crazy / it gets on my nerves**
@@ -70,7 +70,7 @@ salestext: "Free full version (2 days left)"
 -  **Slow internet connection drives me crazy.** *Mạng Internet chậm khiến nôi tức giận*
 
 ### Person 2: Definitely
-{% include play.html identifier="File1-Explain" start=66.88 stop=73.75 %}
+{% include play.html identifier="explanation" start=66.88 stop=73.75 %}
 *Chắc chắn rồi*
 
 - **absolutely** *Đương nhiên rồi*

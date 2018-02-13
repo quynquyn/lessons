@@ -16,7 +16,7 @@ salestext: "Free full version (3 days left)"
 		lesson=page.lesson 
 		section="vocabulary"
 		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
+		trial=false %}
 
 
 
@@ -42,11 +42,10 @@ salestext: "Free full version (3 days left)"
 
 
 ## Explanation
-### 1. I am interested in playing badminton with my friend.
-{% include play.html identifier="File3-Examples" start=0.69 stop=14.02 %}
 {% include player.html identifier="File3-Examples" lesson="C2L01" file="C2L01-Native-Dialogue3.mp3" %}
 
-Tôi thích chơi cầu lông với bạn bè 
+### 1. I am interested in playing badminton with my friend.
+{% include play.html identifier="File3-Examples" start=0.69 stop=14.02 %} Tôi thích chơi cầu lông với bạn bè 
 
 **I am interested in…** *(tôi thích…)*
 

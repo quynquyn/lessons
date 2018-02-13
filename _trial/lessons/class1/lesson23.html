@@ -1,0 +1,911 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Limited Trial version
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/product/english-beginner-course-5-weeks/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-123-how-2">Lesson 1.23: How 2</h1>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L23-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '23', 'vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L23-vocabulary.mp3</div>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<p><strong>HOW DO YOU GET THERE?</strong></p>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class1/images/c1l23-by-car-bus-train-plane.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>By car / bus / train / plane</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Đi bằng xe hơi/ xe buýt/ tàu hỏa/ máy bay</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/c1l23-on-foot.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>On foot</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Đi bộ</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/c1l23-telling-her-funny-stories.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Telling her funny stories</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Kể cho cô ấy nghe những câu chuyện cười</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/c1l23-obeying-whatever-she-says.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Obeying whatever she says</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Tuân theo mọi thứ cô ấy bảo</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class1/images/c1l23-buying-her-flowers.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Buying her flowers</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Tặng hoa cho cô ấy</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class1/images/c1l23-paying-attention-to-what-the-teacher-says-in-class.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Paying attention to what the teacher says in class</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Tập trung nghe thầy cô giảng bài</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class1/images/c1l23-watching-american-and-european-movies-without-subtitles.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Watching American and European movies without subtitles</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Xem phim Âu Mỹ không cần sub</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class1/images/c1l23-reading-books.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Reading books</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Đọc sách</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Practicing speaking English with my friends</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Lending her some money</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Standing by her side</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Listening to her</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Help her do homework</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Doing yoga / meditation</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Listening to music</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Hanging out with friends</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Playing sports</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Researching the company or job</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Creating a good resume and a cover letter</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Get some references from past employers or professors</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row6"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Apply for the job in person, online, or by mail</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Preparing carefully for the interview</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Being confident</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Surround yourself with supportive people</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row7"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Remind yourself of your ex’s negative traits</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Consider the reasons why you are better off without your ex</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Cutting down on sugar</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Eating fruits and vegetables</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row8"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Eating your food slowly</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Getting regular exercise</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<p><strong>I GET THERE</strong></p>
+
+<ul>
+  <li><strong>By car / bus / train/ plane</strong></li>
+  <li><strong>On foot</strong></li>
+</ul>
+
+<p><strong>MAKE YOUR MOTHER SMILE BY</strong></p>
+
+<ul>
+  <li><strong>Telling her funny stories</strong></li>
+  <li><strong>Obeying whatever she says</strong></li>
+  <li><strong>Buying her flowers</strong></li>
+</ul>
+
+<p><strong>STUDY ENGLISH BY</strong></p>
+
+<ul>
+  <li><strong>Paying attention to what the teacher says in class</strong></li>
+  <li><strong>Watching American and European movies without subtitles</strong></li>
+  <li><strong>Reading books</strong></li>
+  <li><strong>Practicing speaking English with my friends</strong></li>
+</ul>
+
+<p><strong>HELP YOUR FRIEND BY</strong></p>
+
+<ul>
+  <li><strong>Lending her some money</strong></li>
+  <li><strong>Standing by her side</strong></li>
+  <li><strong>Listening to her</strong></li>
+  <li><strong>Help her do homework</strong></li>
+</ul>
+
+<p><strong>RELEASE STRESS BY</strong></p>
+
+<ul>
+  <li><strong>Doing yoga / meditation</strong></li>
+  <li><strong>Listening to music</strong></li>
+  <li><strong>Hanging out with friends</strong></li>
+  <li><strong>Playing sports</strong></li>
+</ul>
+
+<p><strong>APPLY FOR A JOB BY</strong></p>
+
+<ul>
+  <li><strong>Researching the company or job</strong></li>
+  <li><strong>Creating a good resume and a cover letter</strong></li>
+  <li><strong>Get some references from past employers or professors</strong></li>
+  <li><strong>Apply for the job in person, online, or by mail</strong></li>
+  <li><strong>Preparing carefully for the interview</strong></li>
+  <li><strong>Being confident</strong></li>
+</ul>
+
+<p><strong>MOVE ON FROM A BAD BREAKUP BY</strong></p>
+
+<ul>
+  <li><strong>Surround yourself with supportive people</strong></li>
+  <li><strong>Remind yourself of your ex’s negative traits</strong></li>
+  <li><strong>Consider the reasons why you are better off without your ex</strong></li>
+</ul>
+
+<p><strong>LOSE WEIGHT BY</strong></p>
+
+<ul>
+  <li><strong>Cutting down on sugar</strong></li>
+  <li><strong>Eating fruits and vegetables</strong></li>
+  <li><strong>Eating your food slowly</strong></li>
+  <li><strong>Getting regular exercise</strong></li>
+</ul>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L23-examples.mp3" id="audio_examples" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples" onclick="play('examples', '23', 'examples');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L23-examples.mp3</div>
+
+<h2 id="example">Example</h2>
+<ol>
+  <li><strong>How do you go to school?</strong></li>
+  <li><strong>How did you get here?</strong></li>
+  <li><strong>How does the man usually go to work?</strong></li>
+  <li><strong>How do you make your mother smile?</strong></li>
+  <li><strong>How do you study English?</strong></li>
+  <li><strong>How do you help her?</strong></li>
+  <li><strong>How to release stress?</strong></li>
+  <li><strong>How to apply for a job?</strong></li>
+  <li><strong>How to move on from bad break up?</strong></li>
+  <li><strong>How to lose weight?</strong></li>
+</ol>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

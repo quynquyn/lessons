@@ -17,7 +17,7 @@ salestext: "Free full version (1 days left)"
 		lesson=page.lesson 
 		section="vocabulary"
 		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
+		trial=false %}
 
 
 

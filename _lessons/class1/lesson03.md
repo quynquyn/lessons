@@ -17,7 +17,7 @@ salestext: "Free full version (1 day left)"
 		lesson=page.lesson 
 		section="verbs"
 		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
+		trial=false %}
 
 ### Nouns
 {% include wordgrid.html 
@@ -25,7 +25,7 @@ salestext: "Free full version (1 day left)"
 		lesson=page.lesson 
 		section="nouns"
 		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
+		trial=false %}
 
 
 

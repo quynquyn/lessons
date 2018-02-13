@@ -18,7 +18,7 @@ salestext: "Free full version (2 days left)"
 		lesson=page.lesson 
 		section="eyes"
 		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
+		trial=false %}
 
 ### Leg
 {% include wordgrid.html 
@@ -26,7 +26,7 @@ salestext: "Free full version (2 days left)"
 		lesson=page.lesson 
 		section="leg"
 		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
+		trial=false %}
 
 
 ### Mouth
@@ -35,7 +35,7 @@ salestext: "Free full version (2 days left)"
 		lesson=page.lesson 
 		section="mouth"
 		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
+		trial=false %}
 
 
 
@@ -46,7 +46,7 @@ salestext: "Free full version (2 days left)"
 		lesson=page.lesson 
 		section="hand"
 		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
+		trial=false %}
 
 
 

@@ -17,7 +17,7 @@ salestext: "Free full version (3 days left)"
 		lesson=page.lesson 
 		section="animals"
 		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
+		trial=false %}
 
 
 
@@ -27,7 +27,7 @@ salestext: "Free full version (3 days left)"
 		lesson=page.lesson 
 		section="fruits"
 		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
+		trial=false %}
 
 
 ### Things in class
@@ -36,7 +36,7 @@ salestext: "Free full version (3 days left)"
 		lesson=page.lesson 
 		section="class"
 		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
+		trial=false %}
 
 
 ### Vehicles
@@ -45,7 +45,7 @@ salestext: "Free full version (3 days left)"
 		lesson=page.lesson 
 		section="vehicles"
 		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
+		trial=false %}
 
 
 ### People
@@ -54,7 +54,7 @@ salestext: "Free full version (3 days left)"
 		lesson=page.lesson 
 		section="people"
 		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
+		trial=false %}
 
 
 

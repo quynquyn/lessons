@@ -1,0 +1,1459 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Limited Trial version
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L11-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '11', 'vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L11-vocabulary.mp3</div>
+
+<h1 id="lesson-211-appearance">Lesson 2.11: Appearance</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class2/images/c2l11-beautiful.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Beautiful</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>bonito</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/c2l11-attractive.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Attractive</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>atraente</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/c2l11-gorgeous.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Gorgeous</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>linda</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class2/images/c2l11-stunning.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Stunning</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>impressionante</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class2/images/c2l11-plain.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Plain</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>simples</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/c2l11-ordinary-looking.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Ordinary-looking</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>de aparência comum</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/c2l11-bad-looking.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Bad-looking</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>feio</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class2/images/c2l11-bear-a-strong-resemblance-to.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Bear a strong resemblance to</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ter uma forte semelhança com</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="age">Age</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class2/images/c2l11-young.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Young</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>jovem</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/c2l11-old.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Old</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>velho</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/c2l11-middle-aged.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Middle-aged</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>de meia-idade</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<ol>
+  <li><strong>Young: He is in his early twenties.</strong></li>
+  <li><strong>Old: She is in her late sixties.</strong></li>
+  <li><strong>Middle-aged: She is in her mid forties.</strong></li>
+</ol>
+
+<h3 id="build">Build</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class2/images/c2l11-thin.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Thin</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>magro</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/c2l11-slim.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Slim</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>esbelto</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/c2l11-well-built.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Well-built</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>de bom físico</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class2/images/c2l11-muscular.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Muscular</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>musculoso</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class2/images/c2l11-overweight.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Overweight</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>com excesso de peso</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/c2l11-fat.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Fat</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>gordo</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/c2l11-obese.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Obese</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>obeso</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="height">Height</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class2/images/c2l11-tall.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Tall</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>alto</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/c2l11-of-medium-height.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Of medium height</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>de altura média</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/c2l11-short.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Short</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>baixo</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="face">Face</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class2/images/c2l11-oval.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Oval</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>elíptico</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/c2l11-round.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Round</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>redondo</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/c2l11-square.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Square</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>quadrado</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class2/images/c2l11-long.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Long</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>comprido</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="lips">Lips</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class2/images/c2l11-full.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Full</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>cheio</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/c2l11-thick.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Thick</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>grosso</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/c2l11-thin.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Thin</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>fino</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class2/images/c2l11-glossy.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Glossy</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>lustroso</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class2/images/c2l11-cracked.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Cracked</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>rachado</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="skin">Skin</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class2/images/c2l11-skin.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Skin</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>pele</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/c2l11-fair.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Fair</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>clara</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/c2l11-dark.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Dark</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>escuro</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class2/images/c2l11-tanned.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Tanned</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>bronzeado</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class2/images/c2l11-smooth.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Smooth</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>suave</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/c2l11-soft.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Soft</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>macio</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/c2l11-wrinkled.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Wrinkled</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>enrugada</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class2/images/c2l11-radiant.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Radiant</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>radiante</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Pale</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Flawless</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Freckled</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="nose">Nose</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class2/images/c2l11-big.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Big</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>grande</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/c2l11-small.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Small</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>pequeno</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/c2l11-straight.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Straight</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>reto</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class2/images/c2l11-hooked.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Hooked</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>curvo</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class2/images/c2l11-upturned.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>upturned</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>empinado</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/c2l11-flat.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Flat</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>achatado</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="eyebrows">Eyebrows</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class2/images/c2l11-thick.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Thick</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>grosso</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/c2l11-bushy.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Bushy</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>espesso</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/c2l11-thin.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Thin</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>fino</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L11-monologue.mp3" id="audio_monologue" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_monologue" onclick="play('monologue', '11', 'monologue');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L11-monologue.mp3</div>
+
+<h2 id="describe-someones-appearance">Describe someone’s appearance</h2>
+
+<p><strong>Let me introduce my ex-boyfriend. He is Daniel. He is a quite handsome man. He is in his mid–twenties, but he looks young for his age. He is of medium height and well–built. He has a square face with brown eyes, a straight nose and full lips. He has short black wavy hair. He looks even more attractive with his glasses. I’ve always thought he bears a striking resemblance to someone on TV. He cut himself climbing a tree when he was ten and he’s got a scar just below his ear. Oh, I wish he were here. I miss him so much.</strong></p>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L11-explanation.mp3" id="audio_explanation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_explanation" onclick="play('explanation', '11', 'explanation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L11-explanation.mp3</div>
+
+<h2 id="explanation">Explanation</h2>
+
+<h3 id="1-he-is-in-his-midtwenties">1. He is in his mid–twenties.</h3>
+
+<p>Ele tem vinte e poucos anos.</p>
+
+<ul>
+  <li><strong>He is in his early forties.</strong> <em>Ele tem quarenta e poucos anos.</em></li>
+  <li><strong>My brother is in his late twenties.</strong> <em>Meu irmão está com seus vinte e poucos anos.</em></li>
+  <li><strong>My younger sister is a lovely teenager.</strong> <em>Minha irmã mais nova é uma adorável adolescente.</em></li>
+</ul>
+
+<h3 id="2-he-is-of-medium-height-and-well-built">2. He is of medium height and well-built.</h3>
+
+<p>Ele é de altura média e de bom físico.</p>
+
+<ul>
+  <li><strong>He is tall and muscular.</strong> <em>Ele é alto e musculoso.</em></li>
+  <li><strong>He’s short and a little bit overweight.</strong> <em>Ele é bait e com excesso de peso.</em></li>
+</ul>
+
+<h3 id="3-he-has-a-square-face-with-brown-eyes-a-straight-nose-and-full-lips">3. He has a square face with brown eyes, a straight nose and full lips.</h3>
+
+<p>Ele tem um rosto quadrado com olhos castanhos, um nariz reto e lábios cheios.</p>
+
+<ul>
+  <li><strong>He has an oval face with small eyes, a flat nose and thin lips.</strong> <em>le tem um rosto oval com olhos pequenos, nariz achatado e lábios finos.</em></li>
+  <li><strong>She has a small face with a straight nose, high cheekbones and long wavy hair.</strong> <em>Ela tem um rosto pequeno com nariz reto, maçãs do rosto acima e cabelos ondulados longos.</em></li>
+  <li><strong>The man has a big face with bushy eyebrows, a hooked nose and a pointed chin.</strong> <em>O homem tem um rosto grande com sobrancelhas espessas, um nariz ecurvo e um queixo apontado.</em></li>
+</ul>
+
+<h3 id="4-he-looks-even-more-attractive-with-his-glasses">4. He looks even more attractive with his glasses.</h3>
+
+<p>Ele parece ainda mais atraente com seus óculos.</p>
+
+<ul>
+  <li><strong>She looks even sexier with her full lips.</strong> <em>Ela parece ainda mais sensual com os lábios cheios.</em></li>
+  <li><strong>The girl looks even more stunning with her radiant smile.</strong> <em>A menina parece ainda mais impressionante com o seu sorriso radiante.</em></li>
+  <li><strong>My brother looks even more handsome with a tattoo on his arm.</strong> <em>Meu irmão parece ainda mais bonito com uma tatuagem em seu braço.</em></li>
+</ul>
+
+<h3 id="5--ive-always-thought-he-bears-a-striking-resemblance-to-someone-on-tv">5.  I’ve always thought he bears a striking resemblance to someone on TV.</h3>
+
+<p>Eu sempre pensei que ele tivesse uma semelhança impressionante com alguém na TV.</p>
+
+<p><strong>bear a striking resemblance</strong></p>
+
+<ul>
+  <li><strong>I think that you bear a striking resemblance to my teacher.</strong> <em>Eu acho que você tem uma semelhança impressionante com o meu professor.</em></li>
+  <li><strong>My manager bears a striking resemblance to a celebrity.</strong> <em>Meu gerente tem uma semelhança impressionante com uma celebridade.</em></li>
+  <li><strong>The girl bears a striking resemblance to her mother.</strong> <em>A menina tem uma semelhança impressionante com sua mãe.</em></li>
+</ul>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

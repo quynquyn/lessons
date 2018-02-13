@@ -15,7 +15,7 @@ salestext: "Free full version (last day)"
 		lesson=page.lesson 
 		section="vocabulary"
 		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
+		trial=false %}
 
 
 ## Dialogue
