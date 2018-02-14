@@ -73,7 +73,7 @@ salestext: "Free full version (2 days left)"
 {% include play.html identifier="explanation" start=66.88 stop=73.75 %}
 *Chắc chắn rồi*
 
-- **absolutely** *Đương nhiên rồi*
-- **of course** *Chắc chắn rồi*
-- **sure** *Chắc chắn*
+- **Absolutely** *Đương nhiên rồi*
+- **Of course** *Chắc chắn rồi*
+- **Sure** *Chắc chắn*
 

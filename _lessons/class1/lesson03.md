@@ -8,7 +8,8 @@ salestext: "Free full version (1 day left)"
 # Lesson 1.3. Noun + verb (what + do)
 
 ## Vocabulary
-{% include player.html identifier="lesson-Verbs" lesson="C1L03" file="C1L03-Words.mp3" %}
+{% include player2.html identifier="Words" class=page.class lesson=page.lesson %}
+
 
 ### Verbs
 
@@ -16,6 +17,7 @@ salestext: "Free full version (1 day left)"
 		class=page.class 
 		lesson=page.lesson 
 		section="verbs"
+		voiceover="Words"
 		database=site.data.vocabulary 
 		trial=false %}
 
@@ -24,13 +26,15 @@ salestext: "Free full version (1 day left)"
 		class=page.class 
 		lesson=page.lesson 
 		section="nouns"
+		voiceover="Words"
 		database=site.data.vocabulary 
 		trial=false %}
 
 
 
 ## A. What...?
-{% include player.html identifier="lesson-Dialogue" lesson="C1L03" file="C1L03-Native-Dialogue.mp3" %}
+{% include player2.html identifier="Native-Dialogue" class=page.class lesson=page.lesson %}
+
 
 ### A1. What do you cover?
 
@@ -43,7 +47,7 @@ salestext: "Free full version (1 day left)"
 - *Tôi che phủ quyển sách, cây bút mực và cây bút lông*
 
 ### A2. What do you wear?
-{% include play.html identifier="lesson-Dialogue" lesson="C1L03" start=16 stop=666 %}
+{% include play.html identifier="Native-Dialogue" lesson="C1L03" start=16 stop=666 %}
 
 - **I wear a t-skirt and and a skirt. what do you wear?**
 - **I wear a shirt and trousers.**
@@ -54,7 +58,7 @@ salestext: "Free full version (1 day left)"
 - *Tôi mặc áo sơ mi và quần tây*
 
 ### A3. What do you decorate?
-{% include play.html identifier="lesson-Dialogue" lesson="C1L03" start=24 stop=666 %}
+{% include play.html identifier="Native-Dialogue" lesson="C1L03" start=24 stop=666 %}
 
 - **I decorate a room, a house and two classrooms. What do you decorate?**
 - **I decorate a cake.**
@@ -65,7 +69,7 @@ salestext: "Free full version (1 day left)"
 - *Tôi trang trí bánh*
 
 ### A4. What do you touch?
-{% include play.html identifier="lesson-Dialogue" lesson="C1L03" start=34 stop=666 %}
+{% include play.html identifier="Native-Dialogue" lesson="C1L03" start=34 stop=666 %}
 
 - **I touch a crocodile, a giraffe and a monkey. What do you touch?**
 - **I touch a wall, a picture and an air-conditioner.**
@@ -76,7 +80,7 @@ salestext: "Free full version (1 day left)"
 - *Tôi chạm bước tường, bức tranh và cái máy lạnh*
 
 ### A5. What do you play?
-{% include play.html identifier="lesson-Dialogue" lesson="C1L03" start=46 stop=666 %}
+{% include play.html identifier="Native-Dialogue" lesson="C1L03" start=46 stop=666 %}
 
 - **I play football and tennis. What do you play?**
 - **I play the piano and the guitar.**
@@ -88,7 +92,7 @@ salestext: "Free full version (1 day left)"
 
 
 ## B. Do you…?
-{% include play.html identifier="lesson-Dialogue" lesson="C1L03" start=55 stop=666 %} 
+{% include play.html identifier="Native-Dialogue" lesson="C1L03" start=55 stop=666 %} 
 
 ### B1. Do you sell cars?*
 
@@ -111,7 +115,7 @@ salestext: "Free full version (1 day left)"
 - *Tôi bán xe đạp*
 
 ### B2.  Do you play the piano?
-{% include play.html identifier="lesson-Dialogue" lesson="C1L03" start=71 stop=666 %} 
+{% include play.html identifier="Native-Dialogue" lesson="C1L03" start=71 stop=666 %} 
 
 - **No, I don’t play the piano.**
 - **Do you play the guitar?**

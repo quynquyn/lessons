@@ -10,13 +10,14 @@ salestext: "Free full version (2 days left)"
 
 ## Vocabulary
 
-{% include player.html identifier="vocab-Verbs" lesson="C1L02" file="C1L02-Verbs.mp3" %}
+{% include player2.html identifier="Verbs" class=page.class lesson=page.lesson %}
 
 ### Eyes
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
 		section="eyes"
+		voiceover="Verbs"
 		database=site.data.vocabulary 
 		trial=false %}
 
@@ -25,6 +26,7 @@ salestext: "Free full version (2 days left)"
 		class=page.class 
 		lesson=page.lesson 
 		section="leg"
+		voiceover="Verbs"
 		database=site.data.vocabulary 
 		trial=false %}
 
@@ -34,6 +36,7 @@ salestext: "Free full version (2 days left)"
 		class=page.class 
 		lesson=page.lesson 
 		section="mouth"
+		voiceover="Verbs"
 		database=site.data.vocabulary 
 		trial=false %}
 
@@ -45,6 +48,7 @@ salestext: "Free full version (2 days left)"
 		class=page.class 
 		lesson=page.lesson 
 		section="hand"
+		voiceover="Verbs"
 		database=site.data.vocabulary 
 		trial=false %}
 
@@ -52,8 +56,7 @@ salestext: "Free full version (2 days left)"
 
 ## Dialogue
 
-
-{% include player.html identifier="vocab-Dialogue" lesson="C1L02" file="C1L02-Native-Dialogue.mp3" %}
+{% include player2.html identifier="Native-Dialogue" class=page.class lesson=page.lesson %}
 
 ### A1. - I chase a dog.
 

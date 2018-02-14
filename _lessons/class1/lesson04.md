@@ -8,19 +8,19 @@ salestext: "Free full version (last day)"
 # lesson 1.4: verb to verb 
 
 ## Vocabulary
-{% include player.html identifier="vocab-Words" lesson="C1L04" file="C1L04-Words.mp3" %}
+{% include player2.html identifier="Words" class=page.class lesson=page.lesson %}
 
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
 		section="vocabulary"
+		voiceover="Words"
 		database=site.data.vocabulary 
 		trial=false %}
 
 
 ## Dialogue
-{% include player.html identifier="vocab-Dialogue" lesson="C1L04" file="C1L04-Native-Dialogue.mp3" %}
-
+{% include player2.html identifier="Native-Dialogue" class=page.class lesson=page.lesson %}
 
 > **Do you love to listen to music?** *Bạn có thích nghe nhạc không?*  
 > **Yes, I love to listen to music.** *Có, tôi thích nghe nhạc*  
@@ -55,7 +55,7 @@ salestext: "Free full version (last day)"
 
 
 ## B.
-{% include play.html identifier="vocab-Dialogue" lesson="C1L04" start=68 stop=666 %}
+{% include play.html identifier="Native-Dialogue" lesson="C1L04" start=68 stop=666 %}
 
 - **What do you love to do?** *Bạn thích làm gì?*
 - **I love to dance.** *Tôi thích nhảy*

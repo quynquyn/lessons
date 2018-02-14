@@ -61,26 +61,26 @@ lesson: "22"
 
 ## Conversation
 
-> Person 1: **Hey Tom, you never told me where you were from.**   
-> Person 2: **That's because you didn't ask. I'm from New York.**    
-> P1: **Oh, wow. That's a really big city. What's it like to live there?**     
-> P2: **It's a bustling city, and there is always something to see there.**   
-> P1: **That's interesting. What is it famous for?**    
-> P2: **It's mostly known for being the home of a very famous landmark.**   
-> P1: **Which landmark is that?**  
-> P2: **The Statue of Liberty.**  
-> P1: **Oh, I heard of it. I also heard it was a gift to America from France in the 19th century.**  
-> P2: **Indeed! Hmm, wonder what it's like to live in Paris.**  
-> P1: **I was born in Paris. You could say it's my hometown. It's stunning!**  
-> P2: **That is cool. Did you climb the Eiffel Tower?**  
-> P1: **Of course! You can't go to Paris and not climb the Eiffel Tower. I also know where the best places to eat are.**
-> P2: **Oh, that's the most important thing to know!**   
+> {% include player2.html identifier="conversation" start=1.74 stop=4.67 %}Person 1: **Hey Tom, you never told me where you were from.**   
+> {% include player2.html identifier="conversation" start=4.67 stop=7.89 %}Person 2: **That's because you didn't ask. I'm from New York.**    
+> {% include player2.html identifier="conversation" start=7.89 stop=11.28 %}P1: **Oh, wow. That's a really big city. What's it like to live there?**    > {% include player2.html identifier="conversation" start=11.28 stop=14.81 %}P2: **It's a bustling city, and there is always something to see there.** 
+> {% include player2.html identifier="conversation" start=14.81 stop=17.46 %}P1: **That's interesting. What is it famous for?**    
+> {% include player2.html identifier="conversation" start=17.46 stop=21.06 %}P2: **It's mostly known for being the home of a very famous landmark.**   
+> {% include player2.html identifier="conversation" start=21.06 stop=22.55 %}P1: **Which landmark is that?**  
+> {% include player2.html identifier="conversation" start=22.55 stop=23.95 %}P2: **The Statue of Liberty.**  
+> {% include player2.html identifier="conversation" start=23.95 stop=29.41 %}P1: **Oh, I heard of it. I also heard it was a gift to America from France in the 19th century.**  
+> {% include player2.html identifier="conversation" start=29.41 stop=33.63 %}P2: **Indeed! Hmm, wonder what it's like to live in Paris.**  
+> {% include player2.html identifier="conversation" start=33.63 stop=37.90 %}P1: **I was born in Paris. You could say it's my hometown. It's stunning!**  
+> {% include player2.html identifier="conversation" start=37.90 stop=40.64 %}P2: **That is cool. Did you climb the Eiffel Tower?**  
+> {% include player2.html identifier="conversation" start=40.64 stop=47.22 %}P1: **Of course! You can't go to Paris and not climb the Eiffel Tower. I also know where the best places to eat are.**
+> {% include player2.html identifier="conversation" start=47.22 stop=49.55 %}P2: **Oh, that's the most important thing to know!**   
 
 
 {% include player2.html identifier="explanation" class=page.class lesson=page.lesson %}
 
 ## Explanation
 ### 1. It's a bustling city, and there is always something to see there. 
+{% include player2.html identifier="explanation" start=2.72 stop=23.53 %}
 - **My hometown is a small but modern and full of great people.**
 - **Until the age of 17, I lived in the quiet and small town of Stowe, Vermont.**
 - **My hometown is nothing to brag about, but I love it. It's small and charming.**
@@ -91,21 +91,25 @@ lesson: "22"
  
 
 ### 2. New York is mostly known for the Statue of Liberty.
+{% include player2.html identifier="explanation" start=25.12 stop=40.24 %}
 - **Paris is known for the Eiffel Tower.**
 - **London is known for being the home of Big Ben.**
 - **My home country, Switzerland, is known for chocolate.**
 
 ### 3. Did you climb the Eiffel Tower in France?
+{% include player2.html identifier="explanation" start=41.12 stop=57.10 %}
 - **Did you climb the Great Wall of China?**
 - **I heard you're from New York. Did you ever go to see the Niagara Falls?**
 - **Oh, you're from Chicago. So why is it called The Windy City?**
 
 ### 4. What's it like to live in Paris?
+{% include player2.html identifier="explanation" start=59.61 stop=76.22 %}
 - **What's it like to live in Egypt? It must be really warm.**
 - **Sarah says she's from Iceland. I hear it's very cold there.**
 - **You're from Australia? Is it true they have flying spiders there?**
 
 ### 5. I know where the best places to eat are in Paris.
+{% include player2.html identifier="explanation" start=77.89 stop=99.52 %}
 - **I know my hometown inside and out! Tell me a street name and I'll guide you to it.**
 - **My hometown has great places to eat and drink. I go out often.**
 - **I wish my hometown was more interesting. All the places in it are dull and boring.**
