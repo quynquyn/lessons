@@ -27,19 +27,19 @@ lesson: "07"
 
 
 > {% include play.html identifier="lesson-conversation" start=0.01 stop=1.87 %}Person 1: **What is your job?**  
-> {% include play.html identifier="lesson-conversation" start=1.87 stop=3.74 %}Person 2: **I am a sales assistant**  
+> {% include play.html identifier="lesson-conversation" start=1.87 stop=3.74 %}Person 2: **I am a sales assistant.**  
 > {% include play.html identifier="lesson-conversation" start=3.74 stop=5.91 %}P1: **Is it your dream job?**  
-> {% include play.html identifier="lesson-conversation" start=5.91 stop=7.86 %}P2: **Not really**  
+> {% include play.html identifier="lesson-conversation" start=5.91 stop=7.86 %}P2: **Not really.**  
 > {% include play.html identifier="lesson-conversation" start=7.86 stop=10.43 %}P1: **What do you do as a sales assistant?**  
-> {% include play.html identifier="lesson-conversation" start=10.43 stop=13.95 %}P2: **I am responsible for selling goods and looking after customers**  
+> {% include play.html identifier="lesson-conversation" start=10.43 stop=13.95 %}P2: **I am responsible for selling goods and looking after customers.**  
 > {% include play.html identifier="lesson-conversation" start=13.95 stop=15.39 %}P1: **Where do you work?**  
-> {% include play.html identifier="lesson-conversation" start=15.39 stop=17.20 %}P2: **I work in a shoe shop**  
+> {% include play.html identifier="lesson-conversation" start=15.39 stop=17.20 %}P2: **I work in a shoe shop.**  
 > {% include play.html identifier="lesson-conversation" start=17.20 stop=20.44 %}P1: **"What do you like most about your job?**  
 > {% include play.html identifier="lesson-conversation" start=20.44 stop=27.06 %}P2: **What I like most about my job is that the atmosphere is really nice there, and I’m working with a great group of people.**  
 > {% include play.html identifier="lesson-conversation" start=27.06 stop=29.53 %}P1: **Is there anything that you don't like about your job?**  
-> {% include play.html identifier="lesson-conversation" start=29.53 stop=32.07 %}P2: **The job can get really stressful at times**  
+> {% include play.html identifier="lesson-conversation" start=29.53 stop=32.07 %}P2: **The job can get really stressful at times.**  
 > {% include play.html identifier="lesson-conversation" start=32.07 stop=36.10 %}P1: **Do you think it is more important to make a lot of money or to enjoy your job?**  
-> {% include play.html identifier="lesson-conversation" start=36.10 stop=41.76 %}P2: **Honestly, I believe that the most important thing in a job is that you are able to enjoy what you do**  
+> {% include play.html identifier="lesson-conversation" start=36.10 stop=41.76 %}P2: **Honestly, I believe that the most important thing in a job is that you are able to enjoy what you do.**  
 
 
 
@@ -64,9 +64,9 @@ Bạn thích gì nhất về công việc của bạn?
 
 **What do you like most about…?** 
 
-- **What do you like most about yourself?**. *Bạn thích gì nhất về bản thân?*
-- **What does he like most about his trip around Vietnam?**. *Anh ta thích gì nhất từ chuyến đi Việt nam?*
-- **What do you hate most about your job?**. *Bạn ghét điều gì nhất trong công việc* 
+- **What do you like most about yourself?** *Bạn thích gì nhất về bản thân?*
+- **What does he like most about his trip around Vietnam?** *Anh ta thích gì nhất từ chuyến đi Việt nam?*
+- **What do you hate most about your job?** *Bạn ghét điều gì nhất trong công việc* 
 
 ### 3. Is there anything that you don't like about your job?
 {% include play.html identifier="explanation" start=42.73 stop=61.76 %}

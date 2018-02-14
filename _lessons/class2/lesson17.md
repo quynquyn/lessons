@@ -59,10 +59,10 @@ lesson: "17"
 > {% include play.html identifier="conversation" start=21.39 stop=25.14 %} P1: **Oh, I didn't know. That's why I didn't hear you talking in class.**  
 > {% include play.html identifier="conversation" start=25.14 stop=31.47 %} P2: **Yes, it was quiet because I wasn't there. Despite my will to learn, I always get bored in class.**  
 > {% include play.html identifier="conversation" start=31.47 stop=37.21 %} P1: **What are you going to do now? Although I want to, I can't help you learn the entire exam in one hour.**  
-> {% include play.html identifier="conversation" start=37.21 stop=42.09 %} P2: **I don't know. Maybe I can ask the professor to let me take the exam next week.**  
-> {% include play.html identifier="conversation" start=42.09 stop=45.87 %} P1: **Are you sure? You know he has a rule about taking exams.** 
-> {% include play.html identifier="conversation" start=45.87 stop=49.85 %} P2: **Yes, I know. But despite his rule, I have to ask!**
-> {% include play.html identifier="conversation" start=49.85 stop=55.02 %} P1: **Good luck! Although I doubt he will do so, I hope he lets you take the exam next week.**
+> {% include play.html identifier="conversation" start=37.21 stop=42.09 %} P2: **I don't know. Maybe I can ask the professor to let me take the exam next week.**      
+> {% include play.html identifier="conversation" start=42.09 stop=45.87 %} P1: **Are you sure? You know he has a rule about taking exams.**   
+> {% include play.html identifier="conversation" start=45.87 stop=49.85 %} P2: **Yes, I know. But despite his rule, I have to ask!**  
+> {% include play.html identifier="conversation" start=49.85 stop=55.02 %} P1: **Good luck! Although I doubt he will do so, I hope he lets you take the exam next week.**  
 
 
 
@@ -74,7 +74,7 @@ lesson: "17"
 {% include play.html identifier="explanation" start=3.56 stop=18.19 %} 
 
 - **Did you practice mathematics?**
-- **Did you understand the assignment the professor gave us last week?**
+- **Did you know the assignment the professor gave us last week?**
 - **Did you study for the exam in English? They say it's quite difficult.**
 
 
@@ -84,31 +84,32 @@ lesson: "17"
 
 
 ### 2. Despite studying math for 3 years, I'm considering switching to English.
-{% include play.html identifier="explanation" start=24.02 stop=27.44 %} 
+{% include play.html identifier="explanation" start=18.50 stop=36.44 %} 
 
 - **Despite the low salary, he enjoys his job!**
 - **Despite the alarm ringing at 6 AM, I still couldn't wake up in time.**
 - **Despite the time I spent studying, I don't remember a thing!**
 
 ### 3. Although I really like our physics teacher, I don't like physics.
-{% include play.html identifier="explanation" start=24.02 stop=27.44 %} 
+{% include play.html identifier="explanation" start=36.60 stop=53.44 %} 
 - **Although the class lasted three hours, I didn't learn a thing.**
 - **Even though I had a really hard time during the exam, I passed!**
 - **Although my hand hurt, I still finished the essay.**
 
 ### 4. Despite the fact that I am not a native English speaker, I speak English fluently.
-{% include play.html identifier="explanation" start=24.02 stop=27.44 %} 
+{% include play.html identifier="explanation" start=53.50 stop=72.14 %} 
 - **In spite of the fact that my parents weren't supportive, I got a degree in English.**
-- **Despite the bad weather, we went outside for PE.**
-- **In spite of the fact that I am tired, I will keep studying until I’ve learned.**
+- **Despite the bad weather, he went outside to prepare for PE.**
+- **In spite of the fact that I am tired, I will keep studying until I learn.**
 
 ### 5. Latin is my favorite subject.
-{% include play.html identifier="explanation" start=24.02 stop=27.44 %} 
+{% include play.html identifier="explanation" start=72.20 stop=89.84 %} 
 - **I love learning English. It's such an interesting language.**
 - **I hope I ace my psychology exam, even though I hate psychology.**
 - **Sociology is such a boring subject, but the professor who teaches it is interesting.**
 
 ## More examples 
+{% include play.html identifier="explanation" start=90.10 stop=131.10 %}
 1. **I love literature. There are so many different stories out there.**  
 2. **Chemistry and biology are related sciences.**  
 3. **What is your favorite subject?**  

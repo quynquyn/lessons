@@ -36,13 +36,13 @@ lesson: "16"
 > {% include play.html identifier="examples1" start=47.21 stop=53.38 %} P1: **Oh. Ok, it’s better the true reason for your refusal was because of another woman, and not tennis.**    
 > {% include play.html identifier="examples1" start=53.38 stop=55.51 %} P2: **I think of you more than sports, you know.**  
 > {% include play.html identifier="examples1" start=55.51 stop=60.96 %} P1: **Don’t worry. Let’s pretend none of this happened. Let bygones be bygones. Ok?**    
-> {% include play.html identifier="examples1" start=60.96 stop=63.30 %} P2: **Of course, and no hard feelings.**
+> {% include play.html identifier="examples1" start=60.96 stop=63.30 %} P2: **Of course, and no hard feelings.**   
 > {% include play.html identifier="examples1" start=63.30 stop=65.31 %} P1: **Sure. See you in a bit.**    
 
 
 {% include player2.html identifier="explanation" class=page.class lesson=page.lesson %}
 
-## 2. Explanation
+## 2. explanation
 ### 1. After finding out about this, I realized that I need to talk to you straight away.
 {% include play.html identifier="explanation" start=4.63 stop=24.71 %}
 Sau khi phát hiện ra điều này, tôi nhận ra rằng tôi phải nói với bạn ngay

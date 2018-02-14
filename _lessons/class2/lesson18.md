@@ -46,7 +46,7 @@ lesson: "18"
 
 
 ### 1. I hope I am not boring you with my life story.
-{% include play.html identifier="explanation" start=3.17 stop=17.94 %} 
+{% include play.html identifier="explanation" start=3.17 stop=17.14 %} 
 
 - **John thinks he's boring, but I find him to be interesting.**
 - **There is nothing more boring than a bad story.**
@@ -59,6 +59,7 @@ lesson: "18"
 
 
 ### 2. I'm very bored by classical music. I prefer rock music instead.
+{% include play.html identifier="explanation" start=17.17 stop=34.54 %}
 
 
 - **Anne said she is bored of her job and that she is thinking about looking for a new one.**
@@ -66,12 +67,13 @@ lesson: "18"
 - **I am so bored of these songs on the radio. They make me angry.**
 
 ### 3. I feel loved by my wife and children.
+{% include play.html identifier="explanation" start=34.65 stop=46.14 %}
 - **I feel appreciated and valued in my school.**
 - **I feel like I'm going to be sick.**
 - **I feel the warmth of the sun on my skin.**
 
 ### 4. Reading non-fiction makes me happy.
-
+{% include play.html identifier="explanation" start=46.35 stop=65.54 %}
 **Verb + ing can be used in the same way as a noun**
 
 - **I don't want to hang out with Steven. Seeing him is the last thing I want to do.**
@@ -79,7 +81,7 @@ lesson: "18"
 - **Thinking about Robert makes me smile.**
 
 ### 5. I hate it when people talk to me on the bus.
-
+{% include play.html identifier="explanation" start=65.65 stop=80.14 %}
 
 - **I dislike being interrupted while I'm speaking.**
 - **I don't appreciate it when Robert takes my phone without asking first.**
@@ -87,7 +89,7 @@ lesson: "18"
 
 
 ## More explanations
-
+{% include play.html identifier="explanation" start=80.65 stop=135.14 %}
 1. **I fear it is too late for you to start preparing for the exam.**  
 2. **Reading the latest news makes me sad. There is so much tragedy in the world.**  
 3. **My daughter bought me a birthday gift. I was really surprised!**  

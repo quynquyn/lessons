@@ -59,7 +59,7 @@ lesson: "19"
 
 ## Explanation
 ### 1. If I get hungry, will you bring me something to eat?
-{% include play.html identifier="explanation" start=3.96 stop=25.39 %} 
+{% include play.html identifier="explanation" start=0.01 stop=25.39 %} 
 
 
 - **Today's lesson bores me to tears! If the bell doesn't ring soon, I will leave.**
@@ -73,29 +73,34 @@ lesson: "19"
 
 
 ### 2. Congratulations! You won the lottery!
-
+{% include play.html identifier="explanation" start=25.49 stop=41.19 %}
 
 - **Good job for doing your homework in time. I never thought I'd see that happen.**
 - **If Bobby doesn't pass this exam, I'll feel very sorry for him.**
 - **If you keep your chin up, you will feel better.**
 
 ### 3. I know you're disappointed, but remember that tomorrow is another day.
+{% include play.html identifier="explanation" start=41.29 stop=58.19 %}
+
 - **My mom is in a very foul mood. If I talk to her, she will yell at me.**
 - **If you ever feel sad, I will be there for you.**
 - **If you win the lottery, I will become green with envy.**
 
 ### 4. If the ball is in your court, you have to act carefully.
+{% include play.html identifier="explanation" start=58.29 stop=77.19 %}
 - **I used to be poorer than my brother, but the tables have turned when I won the lottery.**
 - **If you lose your wallet, that will be a real shame.**
 - **Why are you building a house? If you win the lottery, you can just buy one.**
 
 ### 5. I'm still on the fence about John. If he visits, I will consider him a friend.
+{% include play.html identifier="explanation" start=77.29 stop=98.19 %}
 
 - **Joe's parents keep giving him money but he takes them for granted. He doesn't appreciate them.**
 - **If he doesn’t stop being so rude, I will give him a piece of my mind.**
-- **I will be heartbroken if he doesn't ask me out.**
+- **I will be brokenhearted if he doesn't ask me out.**
 
 ## More Examples
+{% include play.html identifier="explanation" start=98.29 stop=147.89 %}
 
 1. **I wasn't going to let her come to my party but I had a change of heart.**
 2. **If something bores you to tears, leave!**

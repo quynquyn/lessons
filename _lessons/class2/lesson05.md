@@ -74,15 +74,15 @@ lesson: "05"
 {% include player.html identifier="lesson-explanation" lesson="C2L05" file="C2L05-Native-Explanation.mp3" %}
 ## Explanation
 
-### 1. He’s going to give me a ride home
+### 1. He’s going to give me a ride home.
 {% include play.html identifier="lesson-explanation" start=2.82 stop=14.93 %}
 
 Anh ta sẽ cho tôi quá giang về nhà 
 
-**He's going to**
+**He's going to...**
 
-- **He's going to propose to her** *Anh ta sẽ cầu hôn cô ấy*
-- **He's going to study abroad** *Anh ta sẽ đi du học*
+- **He's going to propose to her.** *Anh ta sẽ cầu hôn cô ấy*
+- **He's going to study abroad.** *Anh ta sẽ đi du học*
 
 {% if site.trialdeploy %}
 	{% include explanation_placeholder.html start=2 stop=6 %}
@@ -92,22 +92,22 @@ Anh ta sẽ cho tôi quá giang về nhà
 
 
 
-### 2. What does your father do for a living??
+### 2. What does your father do for a living?
 {% include play.html identifier="lesson-explanation" start=16.97 stop=26.73 %}
 
 Bố bạn làm nghề gì
 
 - **What does your mother do for a living?** *Mẹ bạn làm nghề gì?*
-- **What do you do for a living?**. *Bạn làm nghề gì?*
+- **What do you do for a living?** *Bạn làm nghề gì?*
 
-### 3. I have three older brothers and two sisters
+### 3. I have three older brothers and two sisters.
 {% include play.html identifier="lesson-explanation" start=29.23 stop=46.12 %}
 
 Tôi có 3 anh trai và 2 chị/em gái
 
-- **I have an older brother and 2 younger sisters** *Tôi có một anh trai và 2 em gái*
-- **I have an older sister, 2 older brothers and a younger sister** *Tôi có một chị gái, hai anh trai và một em gái*
-- **I am an only child** *Tôi là con một*
+- **I have an older brother and 2 younger sisters.** *Tôi có một anh trai và 2 em gái*
+- **I have an older sister, 2 older brothers and a younger sister.** *Tôi có một chị gái, hai anh trai và một em gái*
+- **I am an only child.** *Tôi là con một*
 
 
 ### 4.  What is your mother like?
