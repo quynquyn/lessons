@@ -58,15 +58,15 @@ Sau khi phát hiện ra điều này, tôi nhận ra rằng tôi phải nói v�
 
 
 ### 2. I think that if you really like someone, you should say it.
-{% include play.html identifier="explanation" start=30.26 stop=33.61 %}
+{% include play.html identifier="explanation" start=25.56 stop=41.11 %}
 Tôi nghĩ nếu bạn thật sự thích ai, bạn nên nói ra 
 
 - **I think there is no reason to be ashamed of love.** *Tôi nghĩ chẳng có lí do gì phải xấu hổ về tình yêu*
-- **I think there is a reason she keeps smiling every time she sees me.** *Tôi nghĩ phải có một lí do cô ta cứ cười mỗi lần cô ta gặp tôi*
+- **I think there is a reason she keeps smiling every time she sees him.** *Tôi nghĩ phải có một lí do cô ta cứ cười mỗi lần cô ta gặp tôi*
 - **I think you need to stop being such a coward and tell the truth!** *Tôi nghĩ bạn nên dừng làm kẻ nhút nhát và nói sự thật đi*
 
 ### 3.  I thought you felt an interest for me.
-{% include play.html identifier="explanation" start=30.26 stop=33.61 %}
+{% include play.html identifier="explanation" start=41.16 stop=51.61 %}
 Tôi tưởng bạn cũng thích tôi
 **I thought...** *Tôi tưởng*
 
@@ -75,7 +75,7 @@ Tôi tưởng bạn cũng thích tôi
 - **He thought he was going to be a dad.** *Anh ấy tưởng anh ấy sắp được làm bố*
 
 ### 4. I didn't mean to upset you, but that's just how I feel.
-{% include play.html identifier="explanation" start=30.26 stop=33.61 %}
+{% include play.html identifier="explanation" start=51.66 stop=68.61 %}
 Tôi không có ý làm bạn buồn, đó chỉ là cách tôi cảm nhận
 
 - **I didn't mean to make you sad, but I already have a girlfriend.** *Tôi không có ý làm bạn buồn, nhưng tôi đã có bạn gái rồi*
@@ -83,7 +83,7 @@ Tôi không có ý làm bạn buồn, đó chỉ là cách tôi cảm nhận
 - **Anne didn't mean to insult you, but she told me you're not her type.** *Anna không có ý nhục mạ bạn, nhưng cô ấy nói với tôi rằng bạn không phải mẫu người của cô ấy*
 
 ### 5. I enjoy your company. We should go out sometime.
-{% include play.html identifier="explanation" start=30.26 stop=33.61 %}
+{% include play.html identifier="explanation" start=68.76 stop=82.11 %}
 Tôi thích bên cạnh bạn. Tôi nghĩ lúc nào đó chúng ta nên đi chơi
 **enjoy someone's company** - thích bên cạnh ai đó
 
@@ -92,7 +92,7 @@ Tôi thích bên cạnh bạn. Tôi nghĩ lúc nào đó chúng ta nên đi chơ
 
 
 ### 6. Really? You really like me?
-{% include play.html identifier="explanation" start=30.26 stop=33.61 %}
+{% include play.html identifier="explanation" start=82.16 stop=37.11 %}
 Thật hả, bạn thật sự thích tôi hả?
 - **Really? You really think I want to go out with you?** *Thật hả? Bạn thật sự nghĩ tôi muốn đi chơi với bạn hả?*
 - **Really? Don't be ridiculous, there is nothing called "love at first sight"!** *Thật á. Đừng nực cười như vậy, chằng có gì gọi là "tình yêu sét đánh"*

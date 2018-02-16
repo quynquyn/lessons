@@ -14,84 +14,102 @@ lesson: "23"
 [comment]: <>  all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0  
 **HOW DO YOU GET THERE?**  
 
+		
+**I GET THERE** 
+
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
 		section="vocabulary"
 		voiceover="vocabulary"
 		database=site.data.vocabulary 
-		trial=site.trialdeploy %}
-		
-**I GET THERE** 
+		trial=site.trialdeploy %} 
 
-- **By car / bus / train/ plane** 
-- **On foot**    
+**MAKE YOUR MOTHER SMILE BY**  
 
-**MAKE YOUR MOTHER SMILE BY**    
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="mothersmile"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %}  
 
-- **Telling her funny stories**
-- **Obeying whatever she says** 
-- **Buying her flowers**
 
 
 **STUDY ENGLISH BY**
 
-- **Paying attention to what the teacher says in class**
-- **Watching American and European movies without subtitles** 
-- **Reading books**
-- **Practicing speaking English with my friends**
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="studyenglish"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %} 
    
 **HELP YOUR FRIEND BY**
 
-- **Lending her some money**
-- **Standing by her side**
-- **Listening to her**
-- **Help her do homework**
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="helpfriend"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %} 
 
 **RELEASE STRESS BY**
 
-- **Doing yoga / meditation**
-- **Listening to music**
-- **Hanging out with friends**
-- **Playing sports** 
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="stress"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %} 
   
 **APPLY FOR A JOB BY**  
 
-- **Researching the company or job**
-- **Creating a good resume and a cover letter**
-- **Get some references from past employers or professors**
-- **Apply for the job in person, online, or by mail**
-- **Preparing carefully for the interview** 
-- **Being confident**    
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="applyfor"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %} 
+   
 
 **MOVE ON FROM A BAD BREAKUP BY**
 
-- **Surround yourself with supportive people**
-- **Remind yourself of your ex’s negative traits**
-- **Consider the reasons why you are better off without your ex**
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="badbreakup"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %} 
 
 **LOSE WEIGHT BY**
 
-- **Cutting down on sugar**
-- **Eating fruits and vegetables**
-- **Eating your food slowly**
-- **Getting regular exercise** 
-
-
-
+{% include wordgrid.html 
+		class=page.class 
+		lesson=page.lesson 
+		section="loseweight"
+		voiceover="vocabulary"
+		database=site.data.vocabulary 
+		trial=site.trialdeploy %} 
 
 {% include player2.html identifier="examples" class=page.class lesson=page.lesson %}
 
 ## Example
-1. **How do you go to school?**
-2. **How did you get here?**
-3. **How does the man usually go to work?**
-4. **How do you make your mother smile?**
-5. **How do you study English?**
-6. **How do you help her?**
-7. **How to release stress?**
-8. **How to apply for a job?**
-9. **How to move on from bad break up?**
-10. **How to lose weight?**
+1. {% include play.html identifier="examples" start=3.06 stop=3.06 %} **How do you go to school?**
+2. {% include play.html identifier="examples" start=6.19 stop=7.67 %}**How did you getthere?**
+3. {% include play.html identifier="examples" start=8.79 stop=11.26 %}**How does the man usually go to work?**
+4. {% include play.html identifier="examples" start=12.55 stop=14.64 %}**How do you make your mother smile?**
+5. {% include play.html identifier="examples" start=16.03 stop=17.89 %}**How do you study English?**
+6. {% include play.html identifier="examples" start=19.33 stop=20.92 %}**How do you help her?**
+7. {% include play.html identifier="examples" start=22.34 stop=24.27 %}**How to release stress?**
+8. {% include play.html identifier="examples" start=25.47 stop=27.45 %}**How to apply for a job?**
+9. {% include play.html identifier="examples" start=28.87 stop=31.32 %}**How to move on from bad break up?**
+10. {% include play.html identifier="examples" start=32.45 stop=34.40 %}**How to lose weight?**
 
  

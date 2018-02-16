@@ -49,7 +49,7 @@ salestext: "Free full version (1 day left)"
 ### A2. What do you wear?
 {% include play.html identifier="Native-Dialogue" lesson="C1L03" start=16 stop=666 %}
 
-- **I wear a t-skirt and and a skirt. what do you wear?**
+- **I wear a t-shirt and and a skirt. What do you wear?**
 - **I wear a shirt and trousers.**
 
 *A2. - Bạn mặc gì vậy?*

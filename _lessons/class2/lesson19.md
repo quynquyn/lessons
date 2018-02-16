@@ -59,7 +59,7 @@ lesson: "19"
 
 ## Explanation
 ### 1. If I get hungry, will you bring me something to eat?
-{% include play.html identifier="explanation" start=0.01 stop=25.39 %} 
+{% include play.html identifier="explanation" start=3.01 stop=25.39 %} 
 
 
 - **Today's lesson bores me to tears! If the bell doesn't ring soon, I will leave.**
