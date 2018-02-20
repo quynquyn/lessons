@@ -58,9 +58,9 @@ salestext: "Free full version (2 days left)"
 
 {% include player2.html identifier="Native-Dialogue" class=page.class lesson=page.lesson %}
 
-### {% include play.html identifier="Native-Dialogue" start=4.55 stop=12.55 %} A1. - I chase a dog.
+### A1. - I chase a dog.
 
-- **Do you chase a horse?**
+- {% include play.html identifier="Native-Dialogue" start=4.55 stop=12.55 %}  **Do you chase a horse?**
 - **No, I don’t chase a horse. I chase a dog.**
 
 *Tôi đuổi theo một con chó?*
@@ -68,9 +68,9 @@ salestext: "Free full version (2 days left)"
 - *Có phải bạn đuổi theo một con ngựa không?*
 - *Không. Tôi không đuổi theo một con chó. Tôi đuổi theo một con chó*
 
-### {% include play.html identifier="Native-Dialogue" start=12.55 stop=20.11 %} A2. - I look at a teacher.
+### A2. - I look at a teacher.
 
-- **Do you look for a teacher?**
+- {% include play.html identifier="Native-Dialogue" start=12.55 stop=20.11 %} **Do you look for a teacher?**
 - **No, I don’t look for a teacher, I look at a teacher.**
 
 *Tôi nhìn một giáo viên*
@@ -79,9 +79,9 @@ salestext: "Free full version (2 days left)"
 - *Không, tôi không tìm kiếm một giáo viên. Tôi nhìn một giáo viên*
 
  
-### {% include play.html identifier="Native-Dialogue" start=20.11 stop=28.11 %}B1. - I like dolls.
+### B1. - I like dolls.
 
-- **Do you like doors?**
+- {% include play.html identifier="Native-Dialogue" start=20.11 stop=28.11 %} **Do you like doors?**
 - **No, I don’t like doors. I like dolls.**
 
 *Tôi thích búp bê*
@@ -89,9 +89,9 @@ salestext: "Free full version (2 days left)"
 - *Có phải bạn thích những cái cửa hả?*
 - *Không, tôi không thích cửa. Tôi thích búp bê*
 
-### {% include play.html identifier="Native-Dialogue" start=28.11 stop=35.41 %} B2. -  I kick a chair.
+### B2. -  I kick a chair.
 
-- **Do you kiss a chair?**
+- {% include play.html identifier="Native-Dialogue" start=28.11 stop=35.41 %} **Do you kiss a chair?**
 - **No, I don’t kiss a chair. I kick it.**
 
 *B2. Tôi đá một cá ghế*
@@ -99,9 +99,9 @@ salestext: "Free full version (2 days left)"
 - *Bạn hôn một cái ghế hả?*
 - *Không, tôi không hôn cá ghế. Tôi đá nó*
 
-### {% include play.html identifier="Native-Dialogue" start=35.41 stop=44.11 %} C1. -  I interview doctors.
+### C1. -  I interview doctors.
 
-- **Do you interview teachers?**
+- {% include play.html identifier="Native-Dialogue" start=35.41 stop=44.11 %}  **Do you interview teachers?**
 - **No. I don’t interview teachers. I interview doctors.**
 
 *Tôi phỏng vấn bác sĩ*
@@ -109,9 +109,9 @@ salestext: "Free full version (2 days left)"
 - *Bạn phỏng vấn giáo viên hả?*
 - *Không, tôi không phỏng vấn giáo viên. Tôi phỏng vấn bác sĩ*
 
-### {% include play.html identifier="Native-Dialogue" start=44.11 stop=52.91 %} C2. - I talk to students.
+### C2. - I talk to students.
 
-- **Do you talk about students?**
+- {% include play.html identifier="Native-Dialogue" start=44.11 stop=52.91 %} **Do you talk about students?**
 - **No, I don’t talk about students? I talk to students.**
 
 *Tôi nói chuyện với những  học sinh*
@@ -119,9 +119,9 @@ salestext: "Free full version (2 days left)"
 - *Có phải bạn nói chuyện về những học sinh không?*
 - *Không. Tôi không nói về những người học sinh. Tôi nói với họ*
 
-### {% include play.html identifier="Native-Dialogue" start=53.11 stop=60.31 %} D1. - I see planes.
+### D1. - I see planes.
 
-- **Do you see some trains?**
+- {% include play.html identifier="Native-Dialogue" start=53.11 stop=60.31 %} **Do you see some trains?**
 - **No,  don’t see any trains. I see some planes.**
 
 *Tôi thấy những cái máy bay*
@@ -129,9 +129,9 @@ salestext: "Free full version (2 days left)"
 - *Có phải bạn thấy xe lửa?*
 - *Không, tôi không thấy xe lửa. Tôi thấy máy bay*
 
-### {% include play.html identifier="Native-Dialogue" start=60.31 stop=67.41 %} D2. - I pull a door.
+### D2. - I pull a door.
 
-- **Do you push a door?**
+- {% include play.html identifier="Native-Dialogue" start=60.31 stop=67.41 %} **Do you push a door?**
 - **No, I don’t push a door. I pull a door.**
 
 *Tôi kéo một cái cửa*
@@ -139,9 +139,9 @@ salestext: "Free full version (2 days left)"
 - *Bạn đẩy một cái cửa phải không?*
 - *Không. Tôi không đẩy cái cửa. Tôi kéo nó*
 
-### {% include play.html identifier="Native-Dialogue" start=67.41 stop=76.81 %} E1. - I do homework everyday.
+### E1. - I do homework everyday.
 
-- **Do you do housework everyday?**
+- {% include play.html identifier="Native-Dialogue" start=67.41 stop=76.81 %} **Do you do housework everyday?**
 - **No. I don’t do housework everyday. I do homework everyday.**
 
 *Tôi bài tập mỗi ngày.*
@@ -149,9 +149,9 @@ salestext: "Free full version (2 days left)"
 - *Bạn làm việc nhà mỗi ngày hả?*
 - *Không, tôi không làm việc nhà mỗi ngày. Tôi làm bài tập về nhà mỗi ngày*
 
-### {% include play.html identifier="Native-Dialogue" start=77.11 stop=83.91 %} E2. - I lie to him.
+### E2. - I lie to him.
 
-- **Do you lie next to him?**
+- {% include play.html identifier="Native-Dialogue" start=77.11 stop=83.91 %} **Do you lie next to him?**
 - **No, I don’t lie next to to him. I lie to him.**
 
 *Tôi nói dối anh ấy*

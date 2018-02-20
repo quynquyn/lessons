@@ -92,22 +92,22 @@ lesson: "05"
 1. {% include play.html identifier="lesson-explanation2" start=4.11 stop=9.41 %} **My daughter needs to make a presentation in her class.**   
 *Con gái tôi cần làm bài thuyết trình trong lớp học*
 
-2. {% include play.html identifier="lesson-explanation1" start=9.51 stop=16.91 %} **The actor wants to break up with the waitress because he wants to ask the singer out.**   
+2. {% include play.html identifier="lesson-explanation2" start=9.51 stop=16.91 %} **The actor wants to break up with the waitress because he wants to ask the singer out.**   
 *Người diễn viên nam muốn chia tay với cô gái phục vụ vì anh ta muốn mời cô ca sĩ đi hẹn hò*
 {% if site.trialdeploy %}
 	{% include list_placeholder.html start=3 stop=6 %}
 	{% else %}
 	
-3. {% include play.html identifier="lesson-explanation1" start=17.11 stop=23.11 %} **His wife washes clothes and he watches TV.**  
+3. {% include play.html identifier="lesson-explanation2" start=17.11 stop=23.11 %} **His wife washes clothes and he watches TV.**  
  *Vợ anh ta giặt quần áo và anh ta xem TV*
 
-4. {% include play.html identifier="lesson-explanation1" start=23.51 stop=28.11 %} **The dog chases cats.**  
+4. {% include play.html identifier="lesson-explanation2" start=23.51 stop=28.11 %} **The dog chases cats.**  
  *Con chó đuổi những con mèo*
 
-5. {% include play.html identifier="lesson-explanation1" start=28.51 stop=34.11 %} **The dentist has to talk to the woman when he has free time.**   
+5. {% include play.html identifier="lesson-explanation2" start=28.51 stop=34.11 %} **The dentist has to talk to the woman when he has free time.**   
 *Người nha sĩ phải nói chuyện với người phụ nữ*
 
-6. {% include play.html identifier="lesson-explanation1" start=35.11 stop=43.11 %} **The child gets up at 6AM. And then she brushes her teeth and washes her face.**  
+6. {% include play.html identifier="lesson-explanation2" start=35.11 stop=43.11 %} **The child gets up at 6AM. And then she brushes her teeth and washes her face.**  
 *Đứa bé thức dậy lúc 6 giờ. Sau đó, bé đánh răng và rửa mặt*
 
 {% endif %}

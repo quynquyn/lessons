@@ -55,7 +55,7 @@ lesson: "12"
 
 ### 4. She prefers staying at home and being on her own.
 {% include play.html identifier="explanation" start=88.64 stop=108.94 %}
-prefer can be followed either by Verbn + ing or to verb
+prefer can be followed either by Verb + ing *or* to + verb
 - **He prefers staying at home and watching football to playing it.**
 - **I'd prefer not to discuss the topic.**
 - **Some people prefer to have dogs as pets, while others prefer to have cats.** 

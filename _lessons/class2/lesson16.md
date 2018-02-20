@@ -92,7 +92,7 @@ Tôi thích bên cạnh bạn. Tôi nghĩ lúc nào đó chúng ta nên đi chơ
 
 
 ### 6. Really? You really like me?
-{% include play.html identifier="explanation" start=82.16 stop=37.11 %}
+{% include play.html identifier="explanation" start=82.16 stop=98.11 %}
 Thật hả, bạn thật sự thích tôi hả?
 - **Really? You really think I want to go out with you?** *Thật hả? Bạn thật sự nghĩ tôi muốn đi chơi với bạn hả?*
 - **Really? Don't be ridiculous, there is nothing called "love at first sight"!** *Thật á. Đừng nực cười như vậy, chằng có gì gọi là "tình yêu sét đánh"*

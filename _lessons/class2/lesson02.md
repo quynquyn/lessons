@@ -22,20 +22,13 @@ salestext: "Free full version (2 days left)"
 {% include player.html identifier="File1-Dialogue" lesson="C2L01" file="C2L02-Native-Dialogue2.mp3" %}
 
 
-> {% include play.html identifier="File1-Dialogue" start=0.54 stop=2.58 %}Person 1: **Why do you look so annoyed?**
-> 
-> {% include play.html identifier="File1-Dialogue" start=2.58 stop=5.96 %}Person 2: **I am cleaning the house now and I hate doing housework.**
-> 
-> {% include play.html identifier="File1-Dialogue" start=5.96 stop=7.33 %}Person 1: **What else do you hate?**
-> 
-> {% include play.html identifier="File1-Dialogue" start=7.33 stop=10.47 %}Person 2: **Talking to unfriendly people drives me crazy.**
-> 
-> {% include play.html identifier="File1-Dialogue" start=10.47 stop=12.89 %}Person 1: **Do you hate getting up early in the morning?**
-> 
-> {% include play.html identifier="File1-Dialogue" start=12.89 stop=16.41 %}Person 2: **No, I don’t hate getting up early in the morning. How about you?**
-> 
-> {% include play.html identifier="File1-Dialogue" start=16.41 stop=20.76 %}Person 1: **Definitely. Getting up early in the morning really gets on my nerves.**
-
+> {% include play.html identifier="File1-Dialogue" start=0.54 stop=2.58 %}Person 1: **Why do you look so annoyed?**  
+> {% include play.html identifier="File1-Dialogue" start=2.58 stop=5.96 %}Person 2: **I am cleaning the house now and I hate doing housework.**  
+> {% include play.html identifier="File1-Dialogue" start=5.96 stop=7.33 %}Person 1: **What else do you hate?**  
+> {% include play.html identifier="File1-Dialogue" start=7.33 stop=10.47 %}Person 2: **Talking to unfriendly people drives me crazy.**  
+> {% include play.html identifier="File1-Dialogue" start=10.47 stop=12.89 %}Person 1: **Do you hate getting up early in the morning?**  
+> {% include play.html identifier="File1-Dialogue" start=12.89 stop=16.41 %}Person 2: **No, I don’t hate getting up early in the morning. How about you?**  
+> {% include play.html identifier="File1-Dialogue" start=16.41 stop=20.76 %}Person 1: **Definitely. Getting up early in the morning really gets on my nerves.**  
 
 {% include player2.html identifier="explanation" class=page.class lesson=page.lesson %}
 ### Person 1: Why do you look so annoyed?
@@ -73,7 +66,7 @@ salestext: "Free full version (2 days left)"
 {% include play.html identifier="explanation" start=66.88 stop=73.75 %}
 *Chắc chắn rồi*
 
-- **Absolutely** *Đương nhiên rồi*
-- **Of course** *Chắc chắn rồi*
-- **Sure** *Chắc chắn*
+- **Absolutely.** *Đương nhiên rồi*
+- **Of course.** *Chắc chắn rồi*
+- **Sure.** *Chắc chắn*
 

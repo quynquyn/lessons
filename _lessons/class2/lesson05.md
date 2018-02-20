@@ -64,7 +64,7 @@ lesson: "05"
 > {% include play.html identifier="lesson-dialogue" start=19.31 stop=25.31 %}P1: **Wow! You have a big family. I didn’t know that. What does your father do for a living?**  
 > {% include play.html identifier="lesson-dialogue" start=25.31 stop=28.94 %}P2: **He’s a doctor. He works at a local hospital.**  
 > {% include play.html identifier="lesson-dialogue" start=28.94 stop=32.23 %}P1: **You must be proud of him. What is your mother like?**  
-> {% include play.html identifier="lesson-dialogue" start=32.23 stop=41.36 %}P2: **My mother is talkative. She talks a lot about all sorts of things. She’s also very caring. She always prepares delicious meals for our family**  
+> {% include play.html identifier="lesson-dialogue" start=32.23 stop=41.36 %}P2: **My mother is talkative. She talks a lot about all sorts of things. She’s also very caring. She always prepares delicious meals for our family.**  
 > {% include play.html identifier="lesson-dialogue" start=41.36 stop=45.76 %}P1: **You are so lucky. Who makes most of the decisions in your family?**  
 > {% include play.html identifier="lesson-dialogue" start=45.76 stop=54.89 %}P2: **My mom and my dad. But I and my siblings can share our opinions and my parents will listen. How about you? Do you have any siblings?**  
 > {% include play.html identifier="lesson-dialogue" start=54.89 stop=58.52 %}P1: **No, I’m an only child. It gets lonely sometimes.**  

@@ -36,17 +36,17 @@ lesson: "11"
 ## 2. So/ such
 {% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
 
-1. **You are such a good friend** *Bạn thật là người bạn tốt*
-2. **Russia is such a big country** *Nga quả là một đất nước lớn*
-3. **You are such a great artist** *Bạn là một người nghệ sĩ vĩ đại*
-4. **I am so amazing** *Tôi quá tuyệt*
-5. **Iceland is such a cold country** *Iceland là một đất nước lạnh*
-6. **It is such a great movie** *Đó quả là một bộ phim hay*
-7. **You are such a liar** *Bạn đúng là một tên nói dối*
-8. **The test is so hard** *Bài kiểm tra quá khó*
-9. **She is so crazy** *Cô ta quá điên*
-10. **She is so good at English** *Cô ấy rất giỏi Tiếng Anh*
-11. **The question is so easy** *Câu hỏi quá dễ*
+1. **You are such a good friend.** *Bạn thật là người bạn tốt*
+2. **Russia is such a big country.** *Nga quả là một đất nước lớn*
+3. **You are such a great artist.** *Bạn là một người nghệ sĩ vĩ đại*
+4. **I am so amazing.** *Tôi quá tuyệt*
+5. **Iceland is such a cold country.** *Iceland là một đất nước lạnh*
+6. **It is such a great movie.** *Đó quả là một bộ phim hay*
+7. **You are such a liar.** *Bạn đúng là một tên nói dối*
+8. **The test is so hard.** *Bài kiểm tra quá khó*
+9. **She is so crazy.** *Cô ta quá điên*
+10. **She is so good at English.** *Cô ấy rất giỏi Tiếng Anh*
+11. **The question is so easy.** *Câu hỏi quá dễ*
 
 
 ## 3. comparison
@@ -57,10 +57,10 @@ lesson: "11"
 3.  **This is the most interesting book I have ever read.** *Đây là quyển sách thú vị nhất mà tôi từng đọc*
 4.  **Non-smokers usually live longer than smokers.** *Người không hút thuốc thì sống lâu hơn người hút thuốc*
 5.  **Which is the the most dangerous animal in the world?** *Đâu là loài động vật nguy hiểm nhất thế giới?*
-6.  **A holiday by the sea is better than a holiday in the mountains** *Một kì nghỉ bên biển thì tốt hơn một kì nghỉ trên núi*
-7.  **It is strange but often a coke is more expensive than a beer** *Nó thì hơi lạ nhưng mà một ly coca thì mắc tiền hơn một ly bia*
+6.  **A holiday by the sea is better than a holiday in the mountains.** *Một kì nghỉ bên biển thì tốt hơn một kì nghỉ trên núi*
+7.  **It is strange but often a coke is more expensive than a beer.** *Nó thì hơi lạ nhưng mà một ly coca thì mắc tiền hơn một ly bia*
 8.  **Who is the richest woman on earth?** *Ai là người phụ nữ giàu nhất thế giới?*
-9.  **The weather this summer is even worse than last summer** *Thời tiết mùa hè này thì tệ hơn mùa hè năm ngoái*
+9.  **The weather this summer is even worse than last summer.** *Thời tiết mùa hè này thì tệ hơn mùa hè năm ngoái*
 10.  **He was the smartest thief of all** *Anh ta là tên cướp thông minh nhất*
 
 

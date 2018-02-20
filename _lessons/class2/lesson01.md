@@ -24,22 +24,14 @@ salestext: "Free full version (3 days left)"
 {% include player.html identifier="File2-Dialogue" lesson="C2L01" file="C2L01-Native-Dialogue2.mp3" %}
 
              
->  {% include play.html identifier="File2-Dialogue" start=3.07 stop=4.86 %}Person 1: **Do you have any hobbies?**
-> 
-> {% include play.html identifier="File2-Dialogue" start=4.86 stop=8.03 %}Person 2: **Yes, I am interested in playing badminton with my friends.**   
-> 
-> {% include play.html identifier="File2-Dialogue" start=8.03 stop=11.71 %}Person 1: **That sounds great! Where do you usually go to play badminton?**  
-> 
-> {% include play.html identifier="File2-Dialogue" start=11.71  stop=14.87 %}Person 2: **I usually go to a badminton court in district 2.**  
->     
-> {% include play.html identifier="File2-Dialogue" start=14.87 stop=17.09 %}Person 1: **How often do you play badminton?**  
->     
-> {% include play.html identifier="File2-Dialogue" start=17.09 stop=19.68 %}Person 2: **Quite often, I guess, about twice a week.**   
->     
-> {% include play.html identifier="File2-Dialogue" start=19.68  stop=22.60 %}Person 1: **Why do you choose playing badminton as a hobby?**  
->     
-> {% include play.html identifier="File2-Dialogue" start=22.60 stop=26.76 %}Person 2: **It’s simply because it helps me recharge my battery after a long day.**   
-
+> {% include play.html identifier="File2-Dialogue" start=3.07 stop=4.86 %}Person 1: **Do you have any hobbies?**    
+> {% include play.html identifier="File2-Dialogue" start=4.86 stop=8.03 %}Person 2: **Yes, I am interested in playing badminton with my friends.**    
+> {% include play.html identifier="File2-Dialogue" start=8.03 stop=11.71 %}Person 1: **That sounds great! Where do you usually go to play badminton?**   
+> {% include play.html identifier="File2-Dialogue" start=11.71  stop=14.87 %}Person 2: **I usually go to a badminton court in district 2.**   
+> {% include play.html identifier="File2-Dialogue" start=14.87 stop=17.09 %}Person 1: **How often do you play badminton?**       
+> {% include play.html identifier="File2-Dialogue" start=17.09 stop=19.68 %}Person 2: **Quite often, I guess, about twice a week.**    
+> {% include play.html identifier="File2-Dialogue" start=19.68  stop=22.60 %}Person 1: **Why do you choose playing badminton as a hobby?**   
+> {% include play.html identifier="File2-Dialogue" start=22.60 stop=26.76 %}Person 2: **It’s simply because it helps me recharge my battery after a long day.**    
 
 ## Explanation
 {% include player.html identifier="File3-Examples" lesson="C2L01" file="C2L01-Native-Dialogue3.mp3" %}
@@ -86,16 +78,16 @@ Bạn chơi câu lông thường xuyên như thế nào?
 {% include play.html identifier="File3-Examples" start=59.04 stop=69.28 %}
 2 lần 1 tuần
 
-- **Once a year** *(Một lần/ năm)*
-- **Twice a month** *(Hai lần/ tháng)*
-- **3 times a week** *(Ba lần/ tuần)*
-- **Many times a day** *(Nhiều lần/ ngày)*
+- **Once a year.** *(Một lần/ năm)*
+- **Twice a month.** *(Hai lần/ tháng)*
+- **3 times a week.** *(Ba lần/ tuần)*
+- **Many times a day.** *(Nhiều lần/ ngày)*
 
 ### 6. It’s simply because it helps me recharge my batteries after a long day.
 {% include play.html identifier="File3-Examples" start=70.88 stop=92.02 %}
 Đơn giản là vì nó giúp tôi nạp năng lượng sau một ngày dài
 
-- **It’s probably because it helps me recharge my batteries after a long day.** *(Có thể bởi vì nó giúp tôi nạp năng lượng sau một ngày dài)*
+- **It’s probably because it helps me recharge my battery after a long day.** *(Có thể bởi vì nó giúp tôi nạp năng lượng sau một ngày dài)*
 - **It’s maybe because it helps me recharge my batteries after a long day.** *(Có thể bởi vì nó giúp tôi nạp năng lượng sau một ngày dài)*
 - **It’s definitely because I love it.** *(Chắc chắn bởi vì tôi thích điều đó)*
 - **It’s absolutely because it makes me feel better about myself.** *(Chắc chắn bởi vì nó khiến tôi cảm thấy tốt hơn về bản thân mình)*

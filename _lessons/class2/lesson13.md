@@ -53,14 +53,14 @@ Họ luôn than vãn
 - **I kept believing in what he told me until I met his wife.** *Tôi cứ tin vào điều anh ta nói cho đến khi tôi gặp vợ anh ấy*
 
 ### 3. I don't wanna hang out with them unless they get more positive.
-{% include play.html identifier="explanation" start=48.78 stop=87.50 %}
+{% include play.html identifier="explanation" start=48.78 stop=68.50 %}
 Tôi không muốn đi chơi với họ trừ khi họ trở nên lạc quan hơn 
 - **You can't get a job unless you have experience.** *Bạn không thể có công việc trừ khi bạn có kinh nghiệm*
 - **You can't pass the exam unless you study harder.** *Bạn không thể vượt qua bài kiểm tra trừ khi bạn học hành chăm chỉ hơn* 
 - **The kid won't go to sleep unless you tell him a story.** *Đứa trẻ không chịu ngủ trừ khi bạn kể cho nó một câu chuyện*
 
 ### 4.  Some people are introverted and others are extroverted.
-{% include play.html identifier="explanation" start=70.33 stop=24.75 %}
+{% include play.html identifier="explanation" start=70.33 stop=88.75 %}
 Một vài người thì hướng nội và những người khác thì hướng ngoại 
 - **Some people are honest and others are liars.** *Một vài người thì thành thật và những người còn lại là những kẻ nói dối*
 - **Why do some people succeed and others don't?** *Tại sao một vài người thành công và những ngươi khác thì không?*

@@ -81,7 +81,7 @@ lesson: "08"
 2. {% include play.html identifier="lesson-explanation4" start=9 stop=14 %} **There are some cats on the grass.** *Có một vài con mèo trên bãi cỏ*
 3. {% include play.html identifier="lesson-explanation4" start=14 stop=19 %} **There are a man on the phone.** *Có một người đàn ông bên kia điện thoại*
 4. {% include play.html identifier="lesson-explanation4" start=19 stop=23 %} **There are four weeks in a month.** *Có bốn tuần trong một tháng*
-5. {% include play.html identifier="lesson-explanation4" start=24 stop=28 %} **There is a blue car in the garage.* *Có một chiếc xe hơi màu xanh trong gara*
+5. {% include play.html identifier="lesson-explanation4" start=24 stop=28 %} **There is a blue car in the garage.** *Có một chiếc xe hơi màu xanh trong gara*
 6. {% include play.html identifier="lesson-explanation4" start=28 stop=33 %} **There are ten books in a box.** *Có mười quyển sách trong cái hộp*
 7. {% include play.html identifier="lesson-explanation4" start=34 stop=37 %} **Is there a museum in your hometown?** *Có phải có một cái bảo tàng ở quê của bạn?*
 8. {% include play.html identifier="lesson-explanation4" start=38 stop=41 %} **Are there any birds in the garden?** *Có con chim nào trong vườn không?*
