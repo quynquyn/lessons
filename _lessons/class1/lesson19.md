@@ -27,6 +27,7 @@ lesson: "19"
 		class=page.class 
 		lesson=page.lesson 
 		section="bathroom"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 		
@@ -35,6 +36,7 @@ lesson: "19"
 		class=page.class 
 		lesson=page.lesson 
 		section="kitchen"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 		
@@ -43,6 +45,7 @@ lesson: "19"
 		class=page.class 
 		lesson=page.lesson 
 		section="livingroom"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 

@@ -440,36 +440,36 @@ Ngớ ngần / Chán / Kì cục",terrível / horrível / nojento / decepcionant
 1,12,vocabulary,Hair Salon,Tiệm làm tóc,cabeleireiro,c1l12-hair-salon.jpg,class1/images/c1l12-hair-salon.jpg,,
 1,12,vocabulary,Post Office,Bưu điện,correio,c1l12-post-office.jpg,class1/images/c1l12-post-office.jpg,,
 1,12,vocabulary,Library,Thư viện,biblioteca,c1l12-library.jpg,class1/images/c1l12-library.jpg,,
-1,13,vocabulary,Farmer,Nông dân,fazendeiro/a,c1l13-farmer.jpg,class1/images/c1l13-farmer.jpg,,
-1,13,vocabulary,Priest,Thầy tu,sacerdote,c1l13-priest.jpg,class1/images/c1l13-priest.jpg,,
-1,13,vocabulary,Mechanic,Thợ cơ khí ,mecânico/a,c1l13-mechanic.jpg,class1/images/c1l13-mechanic.jpg,,
-1,13,vocabulary,Artist,Nghệ sĩ ,artista,c1l13-artist.jpg,class1/images/c1l13-artist.jpg,,
-1,13,vocabulary,Businessman,Doanh nhân,empresário/a,c1l13-businessman.jpg,class1/images/c1l13-businessman.jpg,,
-1,13,vocabulary,Football Player,Cầu thủ bóng đá,jogador de futebol,c1l13-football-player.jpg,class1/images/c1l13-football-player.jpg,,
-1,13,vocabulary,Fireman,Lính cứu hỏa,bombeiro/a,c1l13-fireman.jpg,class1/images/c1l13-fireman.jpg,,
-1,13,vocabulary,Waiter,Phục vụ nam,garçom,c1l13-waiter.jpg,class1/images/c1l13-waiter.jpg,,
-1,13,vocabulary,Reporter,Phóng viên,jornalista,c1l13-reporter.jpg,class1/images/c1l13-reporter.jpg,,
-1,13,vocabulary,Engineer,Kỹ sư,engenheiro/a,c1l13-engineer.jpg,class1/images/c1l13-engineer.jpg,,
-1,13,vocabulary,Office Worker,Nhân viên văn phòng,funcionário/a de escritório,c1l13-office-worker.jpg,class1/images/c1l13-office-worker.jpg,,
-1,13,vocabulary,Policeman,Cảnh sát,policial,c1l13-policeman.jpg,class1/images/c1l13-policeman.jpg,,
-1,13,vocabulary,Singer,Ca sĩ,cantor/a,c1l13-singer.jpg,class1/images/c1l13-singer.jpg,,
-1,13,vocabulary,Pilot,Phi công,piloto,c1l13-pilot.jpg,class1/images/c1l13-pilot.jpg,,
-1,13,vocabulary,Swimmer,Người bơi lội,nadador/a,c1l13-swimmer.jpg,class1/images/c1l13-swimmer.jpg,,
-1,13,vocabulary,Postman,Người đưa thư,carteiro/a,c1l13-postman.jpg,class1/images/c1l13-postman.jpg,,
-1,13,vocabulary,Doctor,Bác sĩ,médico/a,c1l13-doctor.jpg,class1/images/c1l13-doctor.jpg,,
-1,13,vocabulary,Artist,Nghệ sĩ ,artista,c1l13-artist.jpg,class1/images/c1l13-artist.jpg,,
-1,13,vocabulary,Boxer,Võ sĩ quyền anh,boxeador/a,c1l13-boxer.jpg,class1/images/c1l13-boxer.jpg,,
-1,13,vocabulary,Judge,Thẩm phán,juiz/juíza ,c1l13-judge.jpg,class1/images/c1l13-judge.jpg,,
-1,13,vocabulary,Scientist,Nhà khoa học,cientista,c1l13-scientist.jpg,class1/images/c1l13-scientist.jpg,,
-1,13,vocabulary,Astronaut,Phi hành gia,astronauta,c1l13-astronaut.jpg,class1/images/c1l13-astronaut.jpg,,
-1,13,vocabulary,Nurse,Y tá,enfermeiro/a,c1l13-nurse.jpg,class1/images/c1l13-nurse.jpg,,
-1,13,vocabulary,Cameraman,Thợ chụp ảnh/ quay phim,cinegrafista,c1l13-cameraman.jpg,class1/images/c1l13-cameraman.jpg,,
-1,13,vocabulary,Athlete,Vận động viên,atleta,c1l13-athlete.jpg,class1/images/c1l13-athlete.jpg,,
-1,13,vocabulary,Teacher,Giáo viên,mestre/as,c1l13-teacher.jpg,class1/images/c1l13-teacher.jpg,,
-1,13,vocabulary,Waitress,Phục vụ nữ,garçonete,c1l13-waitress.jpg,class1/images/c1l13-waitress.jpg,,
-1,13,vocabulary,Hairdresser,Thợ làm tóc,cabeleireiro/a,c1l13-hairdresser.jpg,class1/images/c1l13-hairdresser.jpg,,
-1,13,vocabulary,Cook,Nấu,cozinheiro/a,c1l13-cook.jpg,class1/images/c1l13-cook.jpg,,
-1,13,vocabulary,Dentist,Nha sĩ,dentista,c1l13-dentist.jpg,class1/images/c1l13-dentist.jpg,,
+1,13,vocabulary,Farmer,Nông dân,fazendeiro/a,c1l13-farmer.jpg,class1/images/c1l13-farmer.jpg,11.01,12.48
+1,13,vocabulary,Priest,Thầy tu,sacerdote,c1l13-priest.jpg,class1/images/c1l13-priest.jpg,12.48,13.88
+1,13,vocabulary,Mechanic,Thợ cơ khí ,mecânico/a,c1l13-mechanic.jpg,class1/images/c1l13-mechanic.jpg,13.88,15.78
+1,13,vocabulary,Artist,Nghệ sĩ ,artista,c1l13-artist.jpg,class1/images/c1l13-artist.jpg,15.78,17.4
+1,13,vocabulary,Businessman,Doanh nhân,empresário/a,c1l13-businessman.jpg,class1/images/c1l13-businessman.jpg,17.4,19.43
+1,13,vocabulary,Football Player,Cầu thủ bóng đá,jogador de futebol,c1l13-football-player.jpg,class1/images/c1l13-football-player.jpg,19.43,21.46
+1,13,vocabulary,Fireman,Lính cứu hỏa,bombeiro/a,c1l13-fireman.jpg,class1/images/c1l13-fireman.jpg,21.46,23.46
+1,13,vocabulary,Waiter,Phục vụ nam,garçom,c1l13-waiter.jpg,class1/images/c1l13-waiter.jpg,23.46,25
+1,13,vocabulary,Reporter,Phóng viên,jornalista,c1l13-reporter.jpg,class1/images/c1l13-reporter.jpg,25,27.07
+1,13,vocabulary,Engineer,Kỹ sư,engenheiro/a,c1l13-engineer.jpg,class1/images/c1l13-engineer.jpg,27.07,29.31
+1,13,vocabulary,Office Worker,Nhân viên văn phòng,funcionário/a de escritório,c1l13-office-worker.jpg,class1/images/c1l13-office-worker.jpg,29.31,31.05
+1,13,vocabulary,Policeman,Cảnh sát,policial,c1l13-policeman.jpg,class1/images/c1l13-policeman.jpg,31.05,32.99
+1,13,vocabulary,Singer,Ca sĩ,cantor/a,c1l13-singer.jpg,class1/images/c1l13-singer.jpg,32.99,34.68
+1,13,vocabulary,Pilot,Phi công,piloto,c1l13-pilot.jpg,class1/images/c1l13-pilot.jpg,34.68,36.77
+1,13,vocabulary,Swimmer,Người bơi lội,nadador/a,c1l13-swimmer.jpg,class1/images/c1l13-swimmer.jpg,36.77,38.6
+1,13,vocabulary,Postman,Người đưa thư,carteiro/a,c1l13-postman.jpg,class1/images/c1l13-postman.jpg,38.6,41.06
+1,13,vocabulary,Doctor,Bác sĩ,médico/a,c1l13-doctor.jpg,class1/images/c1l13-doctor.jpg,41.06,42.94
+1,13,vocabulary,Artist,Nghệ sĩ ,artista,c1l13-artist.jpg,class1/images/c1l13-artist.jpg,42.94,44.91
+1,13,vocabulary,Boxer,Võ sĩ quyền anh,boxeador/a,c1l13-boxer.jpg,class1/images/c1l13-boxer.jpg,44.91,47.08
+1,13,vocabulary,Judge,Thẩm phán,juiz/juíza ,c1l13-judge.jpg,class1/images/c1l13-judge.jpg,47.08,49.2
+1,13,vocabulary,Scientist,Nhà khoa học,cientista,c1l13-scientist.jpg,class1/images/c1l13-scientist.jpg,49.2,51.62
+1,13,vocabulary,Astronaut,Phi hành gia,astronauta,c1l13-astronaut.jpg,class1/images/c1l13-astronaut.jpg,51.62,54.01
+1,13,vocabulary,Nurse,Y tá,enfermeiro/a,c1l13-nurse.jpg,class1/images/c1l13-nurse.jpg,54.01,55.53
+1,13,vocabulary,Cameraman,Thợ chụp ảnh/ quay phim,cinegrafista,c1l13-cameraman.jpg,class1/images/c1l13-cameraman.jpg,55.53,57.67
+1,13,vocabulary,Athlete,Vận động viên,atleta,c1l13-athlete.jpg,class1/images/c1l13-athlete.jpg,57.67,60.03
+1,13,vocabulary,Teacher,Giáo viên,mestre/as,c1l13-teacher.jpg,class1/images/c1l13-teacher.jpg,60.03,62.09
+1,13,vocabulary,Waitress,Phục vụ nữ,garçonete,c1l13-waitress.jpg,class1/images/c1l13-waitress.jpg,62.09,64.09
+1,13,vocabulary,Hairdresser,Thợ làm tóc,cabeleireiro/a,c1l13-hairdresser.jpg,class1/images/c1l13-hairdresser.jpg,64.09,66.48
+1,13,vocabulary,Cook,Nấu,cozinheiro/a,c1l13-cook.jpg,class1/images/c1l13-cook.jpg,66.48,68.54
+1,13,vocabulary,Dentist,Nha sĩ,dentista,c1l13-dentist.jpg,class1/images/c1l13-dentist.jpg,68.54,70.49
 2,13,personality,Sensitive,Nhạy cảm,sensível,c2l13-sensitive.jpg,class2/images/c2l13-sensitive.jpg,9.76,10.81
 2,13,personality,Proud,Tự hào,orgulhoso,c2l13-proud.jpg,class2/images/c2l13-proud.jpg,10.81,12.69
 2,13,personality,Aggressive,Xâm lược,agressivo,c2l13-aggressive.jpg,class2/images/c2l13-aggressive.jpg,12.69,13.91
@@ -908,28 +908,28 @@ Ngớ ngần / Chán / Kì cục",terrível / horrível / nojento / decepcionant
 1,07,vocabulary,Extremely,Cực kì,extremamente,c1l07-extremely.jpg,class1/images/c1l07-extremely.jpg,,
 1,07,vocabulary,Quite Pretty,Khá đẹp,muito bonita,c1l07-quite-pretty.jpg,class1/images/c1l07-quite-pretty.jpg,,
 1,07,vocabulary,A little,Một chút,um pouco,c1l07-a-little.jpg,class1/images/c1l07-a-little.jpg,,
-1,20,makesmile,Playing sports,Chơi thể thao,praticar esportes,c1l20-playing-sports.jpg,class1/images/c1l20-playing-sports.jpg,,
-1,20,makesmile,Drinking alcohol,Uống rượu,beber álcool,c1l20-drinking-alcohol.jpg,class1/images/c1l20-drinking-alcohol.jpg,,
-1,20,makesmile,Playing with pets,Chơi với thú cưng,brincar com animais de estimação,c1l20-playing-with-pets.jpg,class1/images/c1l20-playing-with-pets.jpg,,
-1,20,makesmile,Sleeping,Ngủ,dormir,c1l20-sleeping.jpg,class1/images/c1l20-sleeping.jpg,,
-1,20,makesmile,Sunshine,Ánh nắng,luz do sol,c1l20-sunshine.jpg,class1/images/c1l20-sunshine.jpg,,
-1,20,makesmile,Trees with pretty flowers,Những cái cây với những bông hoa đẹp,árvores com flores bonitas,c1l20-trees-with-pretty-flowers.jpg,class1/images/c1l20-trees-with-pretty-flowers.jpg,,
-1,20,makesmile,Disney movies,Những bộ phim Disney,filmes da Disney,c1l20-disney-movies.jpg,class1/images/c1l20-disney-movies.jpg,,
-1,20,makesmile,Smell of fresh-cut grass,Mùi của cỏ mới cắt,cheiro de grama recém-cortada,c1l20-smell-of-fresh-cut-grass.jpg,class1/images/c1l20-smell-of-fresh-cut-grass.jpg,,
-1,20,makesmile,Being promoted,Được thăng chức,ser promovido,c1l20-being-promoted.jpg,class1/images/c1l20-being-promoted.jpg,,
-1,20,makesmile,Hot showers,Tắm nước nóng,banhos quentes,c1l20-hot-showers.jpg,class1/images/c1l20-hot-showers.jpg,,
-1,20,makesmile,Thinking about my crush,Nghĩ về người tôi yêu thầm,pensar na pessoa que gosta,c1l20-thinking-about-my-crush.jpg,class1/images/c1l20-thinking-about-my-crush.jpg,,
-1,20,makesmile,Winning the lottery,Thắng sổ số,ganhar na loteria,c1l20-winning-the-lottery.jpg,class1/images/c1l20-winning-the-lottery.jpg,,
-1,20,makecry,Laughing really hard,Cười lớn,rir realmente forte,c1l20-laughing-really-hard.jpg,class1/images/c1l20-laughing-really-hard.jpg,,
-1,20,makecry,Seeing my mother cry,Thấy mẹ tôi khóc,ver a minha mãe chorar,c1l20-seeing-my-mother-cry.jpg,class1/images/c1l20-seeing-my-mother-cry.jpg,,
-1,20,makecry,Saying goodbye,Nói lời tạm biệt,dizer adeus,c1l20-saying-goodbye.jpg,class1/images/c1l20-saying-goodbye.jpg,,
-1,20,makecry,The death of a loved one,Cái chết của một người thân yêu,a morte de um ente querido,c1l20-the-death-of-a-loved-one.jpg,class1/images/c1l20-the-death-of-a-loved-one.jpg,,
-1,20,makecry,Bad grades,Điểm kém,más notas,c1l20-bad-grades.jpg,class1/images/c1l20-bad-grades.jpg,,
-1,20,makecry,Failure,Thất bại,fracasso,c1l20-failure.jpg,class1/images/c1l20-failure.jpg,,
-1,20,makecry,Missing my parents,Nhớ ba mẹ tôi,sentir saudades dos meus pais,c1l20-missing-my-parents.jpg,class1/images/c1l20-missing-my-parents.jpg,,
-1,20,makecry,Breakup,Chia tay,fim de um relacionamento,c1l20-breakup.jpg,class1/images/c1l20-breakup.jpg,,
-1,20,makecry,Nightmares,Những cơn ác mộng,pesadelo,c1l20-nightmares.jpg,class1/images/c1l20-nightmares.jpg,,
-1,20,makecry,Losing lots of money,Mất nhiều tiền,perder muito dinheiro,c1l20-losing-lots-of-money.jpg,class1/images/c1l20-losing-lots-of-money.jpg,,
+1,20,makesmile,Playing sports,Chơi thể thao,praticar esportes,c1l20-playing-sports.jpg,class1/images/c1l20-playing-sports.jpg,10.59,12.82
+1,20,makesmile,Drinking alcohol,Uống rượu,beber álcool,c1l20-drinking-alcohol.jpg,class1/images/c1l20-drinking-alcohol.jpg,12.82,14.73
+1,20,makesmile,Playing with pets,Chơi với thú cưng,brincar com animais de estimação,c1l20-playing-with-pets.jpg,class1/images/c1l20-playing-with-pets.jpg,14.73,17.05
+1,20,makesmile,Sleeping,Ngủ,dormir,c1l20-sleeping.jpg,class1/images/c1l20-sleeping.jpg,17.05,18.68
+1,20,makesmile,Sunshine,Ánh nắng,luz do sol,c1l20-sunshine.jpg,class1/images/c1l20-sunshine.jpg,18.68,20.56
+1,20,makesmile,Trees with pretty flowers,Những cái cây với những bông hoa đẹp,árvores com flores bonitas,c1l20-trees-with-pretty-flowers.jpg,class1/images/c1l20-trees-with-pretty-flowers.jpg,20.56,23.19
+1,20,makesmile,Disney movies,Những bộ phim Disney,filmes da Disney,c1l20-disney-movies.jpg,class1/images/c1l20-disney-movies.jpg,23.19,25.37
+1,20,makesmile,Smell of fresh-cut grass,Mùi của cỏ mới cắt,cheiro de grama recém-cortada,c1l20-smell-of-fresh-cut-grass.jpg,class1/images/c1l20-smell-of-fresh-cut-grass.jpg,25.37,28.3
+1,20,makesmile,Being promoted,Được thăng chức,ser promovido,c1l20-being-promoted.jpg,class1/images/c1l20-being-promoted.jpg,28.3,30.34
+1,20,makesmile,Hot showers,Tắm nước nóng,banhos quentes,c1l20-hot-showers.jpg,class1/images/c1l20-hot-showers.jpg,30.34,32.23
+1,20,makesmile,Thinking about my crush,Nghĩ về người tôi yêu thầm,pensar na pessoa que gosta,c1l20-thinking-about-my-crush.jpg,class1/images/c1l20-thinking-about-my-crush.jpg,32.23,34.65
+1,20,makesmile,Winning the lottery,Thắng sổ số,ganhar na loteria,c1l20-winning-the-lottery.jpg,class1/images/c1l20-winning-the-lottery.jpg,34.65,36.88
+1,20,makecry,Laughing really hard,Cười lớn,rir realmente forte,c1l20-laughing-really-hard.jpg,class1/images/c1l20-laughing-really-hard.jpg,36.88,42.12
+1,20,makecry,Seeing my mother cry,Thấy mẹ tôi khóc,ver a minha mãe chorar,c1l20-seeing-my-mother-cry.jpg,class1/images/c1l20-seeing-my-mother-cry.jpg,42.12,44.46
+1,20,makecry,Saying goodbye,Nói lời tạm biệt,dizer adeus,c1l20-saying-goodbye.jpg,class1/images/c1l20-saying-goodbye.jpg,44.46,46.56
+1,20,makecry,The death of a loved one,Cái chết của một người thân yêu,a morte de um ente querido,c1l20-the-death-of-a-loved-one.jpg,class1/images/c1l20-the-death-of-a-loved-one.jpg,46.56,48.9
+1,20,makecry,Bad grades,Điểm kém,más notas,c1l20-bad-grades.jpg,class1/images/c1l20-bad-grades.jpg,48.9,51.38
+1,20,makecry,Failure,Thất bại,fracasso,c1l20-failure.jpg,class1/images/c1l20-failure.jpg,51.38,52.58
+1,20,makecry,Missing my parents,Nhớ ba mẹ tôi,sentir saudades dos meus pais,c1l20-missing-my-parents.jpg,class1/images/c1l20-missing-my-parents.jpg,52.58,54.7
+1,20,makecry,Breakup,Chia tay,fim de um relacionamento,c1l20-breakup.jpg,class1/images/c1l20-breakup.jpg,54.7,56.11
+1,20,makecry,Nightmares,Những cơn ác mộng,pesadelo,c1l20-nightmares.jpg,class1/images/c1l20-nightmares.jpg,56.11,58.06
+1,20,makecry,Losing lots of money,Mất nhiều tiền,perder muito dinheiro,c1l20-losing-lots-of-money.jpg,class1/images/c1l20-losing-lots-of-money.jpg,58.06,60.23
 2,20,healthylifestyle,Fresh fruit,Trái cây tươi,fruta fresca,c2l20-fresh-fruit.jpg,class2/images/c2l20-fresh-fruit.jpg,9.04,10.47
 2,20,healthylifestyle,Plenty of fresh air,Nhiều không khí trong lành,muito ar fresco,c2l20-plenty-of-fresh-air.jpg,class2/images/c2l20-plenty-of-fresh-air.jpg,10.47,12.55
 2,20,healthylifestyle,Fish,Cá ,peixe,c2l20-fish.jpg,class2/images/c2l20-fish.jpg,12.55,13.98
@@ -963,25 +963,25 @@ Ngớ ngần / Chán / Kì cục",terrível / horrível / nojento / decepcionant
 2,20,unhealthylifestyle,Bad posture,Tư thế xấu,postura ruim,c2l20-bad-posture.jpg,class2/images/c2l20-bad-posture.jpg,73.51,75.94
 2,20,unhealthylifestyle,Too much work,Quá nhiều công việc,muito trabalho,c2l20-too-much-work.jpg,class2/images/c2l20-too-much-work.jpg,75.94,78.38
 2,20,unhealthylifestyle,Too little physical activity,Quá ít hoạt động thể chất,pouca atividade física,c2l20-too-little-physical-activity.jpg,class2/images/c2l20-too-little-physical-activity.jpg,78.38,80.87
-1,21,vocabulary,Calendar,Lịch  ,calendário,c1l21-calendar.jpg,class1/images/c1l21-calendar.jpg,,
-1,21,vocabulary,Subject,Môn học,sujeito,c1l21-subject.jpg,class1/images/c1l21-subject.jpg,,
-1,21,vocabulary,Toothpaste,Kem đánh răng,pasta de dentes,c1l21-toothpaste.jpg,class1/images/c1l21-toothpaste.jpg,,
-1,21,vocabulary,Toothbrush,Bàn chải răng,escova de dentes,c1l21-toothbrush.jpg,class1/images/c1l21-toothbrush.jpg,,
-1,21,vocabulary,Doll,Búp bê,boneca,c1l21-doll.jpg,class1/images/c1l21-doll.jpg,,
-1,21,vocabulary,Crayon,Nút sáp màu,lápis de cor,c1l21-crayon.jpg,class1/images/c1l21-crayon.jpg,,
-1,21,vocabulary,Magazine,Tạp chí,revista,c1l21-magazine.jpg,class1/images/c1l21-magazine.jpg,,
-1,21,vocabulary,Luggage,Hành lý,bagagem,c1l21-luggage.jpg,class1/images/c1l21-luggage.jpg,,
-1,21,vocabulary,Crown,Vương miện,coroa,c1l21-crown.jpg,class1/images/c1l21-crown.jpg,,
-1,21,vocabulary,Dinosaur,Khủng long,dinossauro,c1l21-dinosaur.jpg,class1/images/c1l21-dinosaur.jpg,,
-1,21,vocabulary,Butterfly,Bươm bướm,borboleta,c1l21-butterfly.jpg,class1/images/c1l21-butterfly.jpg,,
-1,21,vocabulary,Mosquito,Muỗi,mosquito,c1l21-mosquito.jpg,class1/images/c1l21-mosquito.jpg,,
-1,21,vocabulary,Spider,Nhện,aranha,c1l21-spider.jpg,class1/images/c1l21-spider.jpg,,
-1,21,vocabulary,Circus,Xiếc,circo,c1l21-circus.jpg,class1/images/c1l21-circus.jpg,,
-1,21,vocabulary,island,Đảo,ilha,c1l21-island.jpg,class1/images/c1l21-island.jpg,,
-1,21,vocabulary,Marriage,Hôn nhân,casamento,c1l21-marriage.jpg,class1/images/c1l21-marriage.jpg,,
-1,21,vocabulary,Religion,Tôn giáo,religião,c1l21-religion.jpg,class1/images/c1l21-religion.jpg,,
-1,21,vocabulary,Region,Khu vực,região,c1l21-region.jpg,class1/images/c1l21-region.jpg,,
-1,21,vocabulary,Responsibility,Trách nhiệm,responsabilidade,c1l21-responsibility.jpg,class1/images/c1l21-responsibility.jpg,,
+1,21,vocabulary,Calendar,Lịch  ,calendário,c1l21-calendar.jpg,class1/images/c1l21-calendar.jpg,7.27,8.72
+1,21,vocabulary,Subject,Môn học,sujeito,c1l21-subject.jpg,class1/images/c1l21-subject.jpg,8.72,10.14
+1,21,vocabulary,Toothpaste,Kem đánh răng,pasta de dentes,c1l21-toothpaste.jpg,class1/images/c1l21-toothpaste.jpg,10.14,12.24
+1,21,vocabulary,Toothbrush,Bàn chải răng,escova de dentes,c1l21-toothbrush.jpg,class1/images/c1l21-toothbrush.jpg,12.24,14.06
+1,21,vocabulary,Doll,Búp bê,boneca,c1l21-doll.jpg,class1/images/c1l21-doll.jpg,14.06,15.75
+1,21,vocabulary,Crayon,Nút sáp màu,lápis de cor,c1l21-crayon.jpg,class1/images/c1l21-crayon.jpg,15.75,17.47
+1,21,vocabulary,Magazine,Tạp chí,revista,c1l21-magazine.jpg,class1/images/c1l21-magazine.jpg,17.47,19.32
+1,21,vocabulary,Luggage,Hành lý,bagagem,c1l21-luggage.jpg,class1/images/c1l21-luggage.jpg,19.32,21.11
+1,21,vocabulary,Crown,Vương miện,coroa,c1l21-crown.jpg,class1/images/c1l21-crown.jpg,21.11,22.47
+1,21,vocabulary,Dinosaur,Khủng long,dinossauro,c1l21-dinosaur.jpg,class1/images/c1l21-dinosaur.jpg,22.47,24.56
+1,21,vocabulary,Butterfly,Bươm bướm,borboleta,c1l21-butterfly.jpg,class1/images/c1l21-butterfly.jpg,24.56,26.11
+1,21,vocabulary,Mosquito,Muỗi,mosquito,c1l21-mosquito.jpg,class1/images/c1l21-mosquito.jpg,26.11,27.69
+1,21,vocabulary,Spider,Nhện,aranha,c1l21-spider.jpg,class1/images/c1l21-spider.jpg,27.69,29.19
+1,21,vocabulary,Circus,Xiếc,circo,c1l21-circus.jpg,class1/images/c1l21-circus.jpg,29.19,30.65
+1,21,vocabulary,island,Đảo,ilha,c1l21-island.jpg,class1/images/c1l21-island.jpg,30.65,32.15
+1,21,vocabulary,Marriage,Hôn nhân,casamento,c1l21-marriage.jpg,class1/images/c1l21-marriage.jpg,32.15,33.54
+1,21,vocabulary,Religion,Tôn giáo,religião,c1l21-religion.jpg,class1/images/c1l21-religion.jpg,33.54,36.52
+1,21,vocabulary,Region,Khu vực,região,c1l21-region.jpg,class1/images/c1l21-region.jpg,36.52,38.42
+1,21,vocabulary,Responsibility,Trách nhiệm,responsabilidade,c1l21-responsibility.jpg,class1/images/c1l21-responsibility.jpg,38.42,38.53
 2,21,sickness,I don’t feel well,Tôi cảm thấy không khỏe,Eu não me sinto bem.,c2l21-i-don-t-feel-well.jpg,class2/images/c2l21-i-don-t-feel-well.jpg,,
 2,21,sickness,I sneeze,Tôi hắt hơi,Eu espirro.,c2l21-i-sneeze.jpg,class2/images/c2l21-i-sneeze.jpg,,
 2,21,sickness,It’s itchy,Nó ngứa,É coceira.,c2l21-it-s-itchy.jpg,class2/images/c2l21-it-s-itchy.jpg,,
@@ -1029,17 +1029,17 @@ Ngớ ngần / Chán / Kì cục",terrível / horrível / nojento / decepcionant
 2,22,problems,High unemployment,Tỷ lệ thất nghiệp cao,alto desemprego,c2l22-high-unemployment.jpg,class2/images/c2l22-high-unemployment.jpg,74.46,76.35
 2,22,problems,Overcrowding,Quá đông đúc,superlotação,c2l22-overcrowding.jpg,class2/images/c2l22-overcrowding.jpg,76.35,78.05
 2,22,problems,Unsafe areas,Khu vực không an toàn,áreas inseguras,c2l22-unsafe-areas.jpg,class2/images/c2l22-unsafe-areas.jpg,78.05,79.92
-1,22,vocabulary,employee,Nhân viên,empregado,c1l22-employee.jpg,class1/images/c1l22-employee.jpg,,
-1,22,vocabulary,pollution,,poluição,c1l22-pollution.jpg,class1/images/c1l22-pollution.jpg,,
-1,22,vocabulary,patience,Sự kiên nhẫn,paciência,c1l22-patience.jpg,class1/images/c1l22-patience.jpg,,
-1,22,vocabulary,salary,Lương,salário,c1l22-salary.jpg,class1/images/c1l22-salary.jpg,,
-1,22,vocabulary,apartment,Căn hộ,apartamento,c1l22-apartment.jpg,class1/images/c1l22-apartment.jpg,,
-1,22,vocabulary,convenience store,Cửa hàng tiện lợi,loja de conveniência,c1l22-convenience-store.jpg,class1/images/c1l22-convenience-store.jpg,,
-1,22,vocabulary,receptionist,Nhân viên lễ tân,recepcionista,c1l22-receptionist.jpg,class1/images/c1l22-receptionist.jpg,,
-1,22,vocabulary,bungee jumping,Nhảy bungee,bungee jumping,c1l22-bungee-jumping.jpg,class1/images/c1l22-bungee-jumping.jpg,,
-1,22,vocabulary,rock climbing,Leo núi đá,escalada,c1l22-rock-climbing.jpg,class1/images/c1l22-rock-climbing.jpg,,
-1,22,vocabulary,bus fare,Bến xe buýt,tarifa de onibus,c1l22-bus-fare.jpg,class1/images/c1l22-bus-fare.jpg,,
-1,22,vocabulary,movie ticket,Vé xem phim,bilhete de cinema,c1l22-movie-ticket.jpg,class1/images/c1l22-movie-ticket.jpg,,
+1,22,vocabulary,employee,Nhân viên,empregado,c1l22-employee.jpg,class1/images/c1l22-employee.jpg,6.01,7.81
+1,22,vocabulary,pollution,,poluição,c1l22-pollution.jpg,class1/images/c1l22-pollution.jpg,7.81,9.57
+1,22,vocabulary,patience,Sự kiên nhẫn,paciência,c1l22-patience.jpg,class1/images/c1l22-patience.jpg,9.57,11.41
+1,22,vocabulary,salary,Lương,salário,c1l22-salary.jpg,class1/images/c1l22-salary.jpg,11.41,13
+1,22,vocabulary,apartment,Căn hộ,apartamento,c1l22-apartment.jpg,class1/images/c1l22-apartment.jpg,13,14.73
+1,22,vocabulary,convenience store,Cửa hàng tiện lợi,loja de conveniência,c1l22-convenience-store.jpg,class1/images/c1l22-convenience-store.jpg,14.73,17.09
+1,22,vocabulary,receptionist,Nhân viên lễ tân,recepcionista,c1l22-receptionist.jpg,class1/images/c1l22-receptionist.jpg,17.09,18.47
+1,22,vocabulary,bungee jumping,Nhảy bungee,bungee jumping,c1l22-bungee-jumping.jpg,class1/images/c1l22-bungee-jumping.jpg,18.47,20.79
+1,22,vocabulary,rock climbing,Leo núi đá,escalada,c1l22-rock-climbing.jpg,class1/images/c1l22-rock-climbing.jpg,20.79,22.76
+1,22,vocabulary,bus fare,Bến xe buýt,tarifa de onibus,c1l22-bus-fare.jpg,class1/images/c1l22-bus-fare.jpg,22.76,24.44
+1,22,vocabulary,movie ticket,Vé xem phim,bilhete de cinema,c1l22-movie-ticket.jpg,class1/images/c1l22-movie-ticket.jpg,24.44,
 2,23,company,Publishing,Việc xuất bản/Nghể xuất bản,publicação,c2l23-publishing.jpg,class2/images/c2l23-publishing.jpg,13.48,15.39
 2,23,company,Television,Truyền hình,televisão,c2l23-television.jpg,class2/images/c2l23-television.jpg,15.39,16.96
 2,23,company,Insurance,Bảo hiểm,seguros,c2l23-insurance.jpg,class2/images/c2l23-insurance.jpg,16.96,18.76

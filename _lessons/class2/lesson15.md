@@ -21,7 +21,7 @@ lesson: "15"
 		trial=site.trialdeploy %}
 	
 
-{% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
+{% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
 
 ## Conversation
 
@@ -42,7 +42,7 @@ lesson: "15"
 > {% include play.html identifier="examples1" start=76.34 stop=79.54 %} P1: **What a romantic idea! Do you think it will work?**     
 > {% include play.html identifier="examples1" start=79.54 stop=81.74 %} P2: **I think it will go straight to his heart.**
 
-{% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
+{% include player2.html identifier="explanation" class=page.class lesson=page.lesson %}
 ## 2. Explanation
 
 ### 1. It is the first time I've fallen head over heels in love.
@@ -57,7 +57,7 @@ lesson: "15"
 
 
 {% if site.trialdeploy %}
-  {% include list_placeholder.html start=3 stop=5 %}
+  {% include list_placeholder.html start=3 stop=6 %}
   {% else %}
 
 ### 2. We share so many common interests.

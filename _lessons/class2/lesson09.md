@@ -20,7 +20,7 @@ test1: ### Have you ever - *TODO*
 		class=page.class 
 		lesson=page.lesson 
 		section="items"
-		voiceover="vocabulary"
+		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -31,7 +31,7 @@ test1: ### Have you ever - *TODO*
 		class=page.class 
 		lesson=page.lesson 
 		section="styles"
-		voiceover="vocabulary"
+		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -43,7 +43,7 @@ test1: ### Have you ever - *TODO*
 		class=page.class 
 		lesson=page.lesson 
 		section="shoppingplaces"
-		voiceover="vocabulary"
+		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -53,7 +53,7 @@ test1: ### Have you ever - *TODO*
 		class=page.class 
 		lesson=page.lesson 
 		section="haveyouever"
-		voiceover="vocabulary"
+		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 

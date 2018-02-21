@@ -11,10 +11,11 @@ lesson: "17"
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 ## Vocabulary 
 
-
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
+		section="vocabulary"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
