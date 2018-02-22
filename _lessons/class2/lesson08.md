@@ -60,7 +60,7 @@ lesson: "08"
 {% include play.html identifier="lesson-explanation" start=1.20 stop=17.68 %}
 Tôi hơi hồi hộp một tí 
 
-**a bit**
+**a bit** *Một chút*
 
 - **I am a bit tired.** *Tôi hơi mệt một tí*
 - **She's a bit selfish.** *Cô ta hơi ích kỉ một tí*
@@ -78,7 +78,7 @@ Thật không may là
 {% include play.html identifier="lesson-explanation" start=36.97 stop=57.45 %}
 Có vẻ như nó là một công việc rất hài lòng
 
-**seem** Có vẻ như
+**seem** *Có vẻ như*
 
 - **She's 22, but she seems older.** *Cô ta 22, nhưng trông già hơn*
 - **She seemed happy this morning.** *Sáng nay cô ta có vẻ vui*
@@ -97,7 +97,7 @@ Công việc của bạn như thế nào?
 {% include play.html identifier="lesson-explanation" start=76.68 stop=94.48 %}
 Nó là một công việc khá là chán và lặp đi lặp lại
 
-**Quite**
+**Quite** *khá*
 
 - **I'm quite tired.** *Tôi khá mệt*
 - **My boss is quite attractive.** *Xếp khá là đẹp trai*

@@ -142,20 +142,22 @@ Có, anh có đến lớp hôm qua*
 **know / knew**      
 **throw / threw**      
      
-{% include play.html identifier="regular" start=56.28 stop=71.28 %}
+{% include play.html identifier="irregular" start=56.28 stop=71.28 %}
 **bring / brought**          
 **buy / bought**          
 **fight / fought**     
 **think / thought**     
 **teach/ taught**     
      
-{% include play.html identifier="regular" start=71.28 stop=85.28 %}
+{% include play.html identifier="irregular" start=71.28 stop=85.28 %}
 **begin / began**     
 **drink / drank**      
 **ring / rang**      
 **sing / sang**      
 **swim / swam**      
-     
+
+{% include player2.html identifier="irregular2" class=page.class lesson=page.lesson %}
+
 **feed / fed**     
 **feel / felt**      
 **keep / kept**      
