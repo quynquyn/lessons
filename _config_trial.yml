@@ -1,6 +1,6 @@
-baseurl: /quyn
-port: 4000
-destination: ./_site
+baseurl: /daily
+port: 4040
+destination: ./_trial
 github: [metadata]
 encoding: UTF-8
 kramdown:
@@ -16,7 +16,7 @@ collections:
     output: true
 include: ['.htaccess']
 exclude: [not-in-git, node_modules, artwork, csv_to_html]
-trialdeploy: false
+trialdeploy: true
 upgrade_level1: https://get.englishletics.com/product/english-beginner-course-5-weeks/
 upgrade_level2: https://get.englishletics.com/
 
