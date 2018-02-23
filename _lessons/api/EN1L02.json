@@ -1,0 +1,10 @@
+{
+  "set_attributes":
+    {
+      "next_lesson_url": "another value"
+      "current_lesson_id": "EN1L03"
+    },
+  "messages":[
+    "woooo-hoooooo this is lesson 2. next lesson: EN1L03 "
+  ]
+}

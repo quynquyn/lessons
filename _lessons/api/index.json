@@ -1,0 +1,16 @@
+{
+  "set_attributes":
+    {
+      "next_lesson_text": "some value",
+      "next_lesson_url": "another value"
+      "next_lesson_identifier": "VNC1L02"
+    },
+  "messages":[
+    . . .
+  ]
+}
+
+{
+  "redirect_to_blocks": ["Welcome message", "Default answer"]
+}
+

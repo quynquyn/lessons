@@ -57,23 +57,23 @@ lesson: "13"
 - {% include play.html identifier="examples2" start=3.24 stop=5.51 %} **Who do you want to talk to?**
 - {% include play.html identifier="examples2" start=6.50 stop=9.1 %}**I want to talk to a reporter.**
 - {% include play.html identifier="examples2" start=10.78 stop=13.39 %} **Who do you want to become?**
-- {% include play.html identifier="examples2" start=2.1 stop=9.1 %}**I want to become a model.**
-- {% include play.html identifier="examples2" start=16.9 stop=24.3 %} **Who does the man want to kiss**
-- {% include play.html identifier="examples2" start=2.1 stop=9.1 %}**He wants to kiss a nurse.**
-- {% include play.html identifier="examples2" start=24.3 stop=34.1 %} **Who does the kid intend to draw?**
-- {% include play.html identifier="examples2" start=2.1 stop=9.1 %}**The kid intends to draw an astronaut.**
-- {% include play.html identifier="examples2" start=34.1 stop=42.7 %} **Who does the engineer have a crush on?**
-- {% include play.html identifier="examples2" start=2.1 stop=9.1 %}**He has a crush on an office worker.**
-- {% include play.html identifier="examples2" start=42.7 stop=50.8 %} **Who does the policeman try to chase**
-- {% include play.html identifier="examples2" start=2.1 stop=9.1 %}**He tries to chase a boxer.**
-- {% include play.html identifier="examples2" start=50.8 stop=63.1 %} **Who does the pilot want to get married to?**
-- {% include play.html identifier="examples2" start=2.1 stop=9.1 %}**The pilot wants to get married to the cook and she doesn't love him back.**
-- {% include play.html identifier="examples2" start=63.1 stop=73.9 %} **Who wants to get married to the pilot?**
-- {% include play.html identifier="examples2" start=2.1 stop=9.1 %}**A famous singer wants to get married to him but he loves the cook.**
-- {% include play.html identifier="examples2" start=73.9 stop=82.3 %} **Who takes care of sick people?**
-- {% include play.html identifier="examples2" start=2.1 stop=9.1 %}**Doctors and nurses take care of sick people.**
-- {% include play.html identifier="examples2" start=82.3 stop=90.3 %} **Who flies an airplane?**
-- {% include play.html identifier="examples2" start=2.1 stop=9.1 %}**The pilot flies an airplane.**
+- {% include play.html identifier="examples2" start=14.36 stop=17.10 %}**I want to become a model.**
+- {% include play.html identifier="examples2" start=17.96 stop=21.07 %} **Who does the man want to kiss**
+- {% include play.html identifier="examples2" start=22.10 stop=24.75 %}**He wants to kiss a nurse.**
+- {% include play.html identifier="examples2" start=26.21 stop=29.35 %} **Who does the kid intend to draw?**
+- {% include play.html identifier="examples2" start=30.39 stop=34.29 %}**The kid intends to draw an astronaut.**
+- {% include play.html identifier="examples2" start=35.30 stop=38.61 %} **Who does the engineer have a crush on?**
+- {% include play.html identifier="examples2" start=39.55 stop=42.94 %}**He has a crush on an office worker.**
+- {% include play.html identifier="examples2" start=43.95 stop=47.52 %} **Who does the policeman try to chase**
+- {% include play.html identifier="examples2" start=48.45 stop=51.20 %}**He tries to chase a boxer.**
+- {% include play.html identifier="examples2" start=52.35 stop=55.90 %} **Who does the pilot want to get married to?**
+- {% include play.html identifier="examples2" start=56.94 stop=63.29 %}**The pilot wants to get married to the cook and she doesn't love him back.**
+- {% include play.html identifier="examples2" start=64.36 stop=66.98 %} **Who wants to get married to the pilot?**
+- {% include play.html identifier="examples2" start=68.06 stop=73.93 %}**A famous singer wants to get married to him but he loves the cook.**
+- {% include play.html identifier="examples2" start=75.20 stop=77.80 %} **Who takes care of sick people?**
+- {% include play.html identifier="examples2" start=78.75 stop=82.36 %}**Doctors and nurses take care of sick people.**
+- {% include play.html identifier="examples2" start=84.39 stop=86.50 %} **Who flies an airplane?**
+- {% include play.html identifier="examples2" start=87.43 stop=90.14 %}**The pilot flies an airplane.**
 
 
  
