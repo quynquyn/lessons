@@ -5,6 +5,7 @@
       "current_lesson_id": "EN1L02"
     },
   "messages":[
-    "woooo-hoooooo this is lesson 1. next lesson: EN1L02 "
+    {"text": "This is cool"},
+       {"text": "Get ready, bro!! "}
   ]
 }
