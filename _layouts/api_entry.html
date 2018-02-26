@@ -1,11 +1,15 @@
 {
   "set_attributes":
     {
-      "next_lesson_url": "{{page.lesson_url}}",
+      "el-last-url": "{{page.lesson_url}}",
       "current_lesson_id": "{{page.next_lesson_id}}"
     },
   "messages":[
-    {"text": "{{page.message}}"}
+    {"text": "{{page.message}}",
+      "payload": {
+             "url": "{{page.lesson_url}}"
+           }
+    }
   ]
 }
 
