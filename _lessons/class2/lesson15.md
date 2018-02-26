@@ -46,7 +46,7 @@ lesson: "15"
 ## 2. Explanation
 
 ### 1. It is the first time I've fallen head over heels in love.
-{% include play.html identifier="examples2" start=4.44 stop=18.57 %}
+{% include play.html identifier="explanation" start=3.44 stop=23.57 %}
 Đây là lần đầu tiên tôi yêu say đắm như vậy
 
 - **This is the first time I've been to New York.** *Đây là lần đầu tiên tôi đến New York*
@@ -61,7 +61,7 @@ lesson: "15"
   {% else %}
 
 ### 2. We share so many common interests.
-{% include play.html identifier="examples2" start=25.10 stop=28.84 %}
+{% include play.html identifier="explanation" start=23.10 stop=42.84 %}
 Chúng tôi có nhiều sự yêu thích chung 
 
 - **My brother and sister share a room.** *Anh trai và em gái tôi chia sẻ một căn phòng*
@@ -69,7 +69,7 @@ Chúng tôi có nhiều sự yêu thích chung
 - **They broke up because they don't have many common interests.** *Họ chia tay vì họ không có nhiều sự yêu thích chung*
 
 ### 3. How long have you been in love with him? 
-{% include play.html identifier="examples2" start=25.10 stop=28.84 %}
+{% include play.html identifier="explanation" start=42.10 stop=55.84 %}
 Bạn yêu anh ấy bao lâu rồi?
 
 - **How long have you been married?** *Bạn kết hôn được bao lâu rồi?*
@@ -77,7 +77,7 @@ Bạn yêu anh ấy bao lâu rồi?
 - **How many times did you get married?** *Bạn kết hôn bao nhiêu lần rồi?*
 
 ### 4. If you like him, you should ask him out.
-{% include play.html identifier="examples2" start=25.10 stop=28.84 %}
+{% include play.html identifier="examples2" start=55.10 stop=77.84 %}
 Nếu bạn thích ai đó, bạn nên rủ anh ấy ra ngoài hẹn hò  
 
 - **Chris asked me out. I'm happy he did because I like him a lot.** *Chris rủ tôi đi hẹn hò. Tôi rất vui anh ấy làm vậy vì tôi thích anh ấy rất nhiều*
@@ -85,14 +85,14 @@ Nếu bạn thích ai đó, bạn nên rủ anh ấy ra ngoài hẹn hò
 - **I wish she would ask me out. I am too shy to make the first move.** *Tôi ước gì cô ấy có thể rủ tôi ra ngoài hẹn hò. Tôi quá nhút nhát để chủ động*
 
 ### 5. Put yourself in my shoes and you'll understand.
-{% include play.html identifier="examples2" start=25.10 stop=28.84 %}
+{% include play.html identifier="examples2" start=77.10 stop=96.84 %}
 Đặt vào tình huống của tôi và bạn sẽ hiểu 
 
 - **I put myself in your shoes and I still don't understand why you did it.** *Đặt vào tình huống của bạn và tôi vẫn không hiểu tại sao bạn làm vậy*
 - **Before judging someone, you should always try to put yourself in their shoes.** *Trước khi phán xét ai đó, bạn hãy luôn cố gắng đặt vào tình huống họ*
 
 ### 6. What a romantic idea!
-{% include play.html identifier="examples2" start=25.10 stop=28.84 %}
+{% include play.html identifier="examples2" start=96.10 stop=108.14 %}
 Thật là một ý tưởng lãng mạng 
 
 - **What an amazing kitchen!** *Thật là một căn bếp tuyệt vời*

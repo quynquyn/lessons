@@ -1,0 +1,51 @@
+language,class_id,lesson_id,premium,current_lesson_id,message,lesson_url,next_lesson_id,premiumurl
+en,1,01,FALSE,en1lesson01,Let’s get started with the first lesson: Noun (what).,https://englishletics.github.io/daily/lessons/class1/lesson01.html,en1lesson02,daily
+en,1,02,FALSE,en1lesson02,How did you like the animals lesson? Now we talk about verbs!,https://englishletics.github.io/daily/lessons/class1/lesson02.html,en1lesson03,daily
+en,1,03,FALSE,en1lesson03,Did you learn the verbs yesterday? Now we build sentences.,https://englishletics.github.io/daily/lessons/class1/lesson03.html,en1lesson04,daily
+en,1,04,FALSE,en1lesson04,How are your sentences going? Let’s practice verbs! They are very important.,https://englishletics.github.io/daily/lessons/class1/lesson04.html,en1lesson05,daily
+en,1,05,FALSE,en1lesson05,"The free premium version is over now. If you want to keep the extended functionality up, please upgrade. If not, just do nothing. We are sending you the next lesson with limited functionality right away.",https://englishletics.github.io/daily/lessons/class1/lesson05.html,en1lesson06,daily
+en,1,06,FALSE,en1lesson06,Let's learn something very useful: Yes/No questions!,https://englishletics.github.io/daily/lessons/class1/lesson06.html,en1lesson07,daily
+en,1,07,FALSE,en1lesson07,"Today, we are focusing on descriptions with adjectives.",https://englishletics.github.io/daily/lessons/class1/lesson07.html,en1lesson08,daily
+en,1,08,FALSE,en1lesson08,Practice the most important verb in the English language: To be.,https://englishletics.github.io/daily/lessons/class1/lesson08.html,en1lesson09,daily
+en,1,09,FALSE,en1lesson09,"We've recently learned adjectives, and today we are using them for comparison.",https://englishletics.github.io/daily/lessons/class1/lesson09.html,en1lesson10,daily
+en,1,10,FALSE,en1lesson10,Did you learn more about adjectives? Today we're learning more: Adjectives + Prepositions.,https://englishletics.github.io/daily/lessons/class1/lesson10.html,en1lesson11,daily
+en,1,11,FALSE,en1lesson11,Feeling confident with your knowledge? Let's review your language skills so far.,https://englishletics.github.io/daily/lessons/class1/lesson11.html,en1lesson12,daily
+en,1,12,FALSE,en1lesson12,"Location, location, location! Today we are learning how to use 'where.'",https://englishletics.github.io/daily/lessons/class1/lesson12.html,en1lesson13,daily
+en,1,13,FALSE,en1lesson13,Who are you? You are a student. Learn how to use 'who' properly.,https://englishletics.github.io/daily/lessons/class1/lesson13.html,en1lesson14,daily
+en,1,14,FALSE,en1lesson14,How are your previous WH-questions going? Today we learn another one: When.,https://englishletics.github.io/daily/lessons/class1/lesson14.html,en1lesson15,daily
+en,1,15,FALSE,en1lesson15,Learn the most important tense for describing the past: Simple past tense.,https://englishletics.github.io/daily/lessons/class1/lesson15.html,en1lesson16,daily
+en,1,16,FALSE,en1lesson16,Are you ready? Today we are doing Present Continuous and Simple Future tense.,https://englishletics.github.io/daily/lessons/class1/lesson16.html,en1lesson17,daily
+en,1,17,FALSE,en1lesson17,Practice your WH-questions! Who - Where - When.,https://englishletics.github.io/daily/lessons/class1/lesson17.html,en1lesson18,daily
+en,1,18,FALSE,en1lesson18,Did you master the recent lessons? Time for a review!,https://englishletics.github.io/daily/lessons/class1/lesson18.html,en1lesson19,daily
+en,1,19,FALSE,en1lesson19,Hopefully you learned the previous WH-questions because today we're learning another: What.,https://englishletics.github.io/daily/lessons/class1/lesson19.html,en1lesson20,daily
+en,1,20,FALSE,en1lesson20,"Did you practice 'what' yesterday? Today, we are learning even more about it.",https://englishletics.github.io/daily/lessons/class1/lesson20.html,en1lesson21,daily
+en,1,21,FALSE,en1lesson21,"Today, you will learn to ask 'which' and 'whose' questions.",https://englishletics.github.io/daily/lessons/class1/lesson21.html,en1lesson22,daily
+en,1,22,FALSE,en1lesson22,"We're taking a break from WH-questions, and turning to another important one: How.",https://englishletics.github.io/daily/lessons/class1/lesson22.html,en1lesson23,daily
+en,1,23,FALSE,en1lesson23,Make sure you mastered the previous lesson because we're doing more 'How.',https://englishletics.github.io/daily/lessons/class1/lesson23.html,en1lesson24,daily
+en,1,24,FALSE,en1lesson24,"Back to WH-questions, we're doing 'Why' today.",https://englishletics.github.io/daily/lessons/class1/lesson24.html,en1lesson25,daily
+en,1,25,FALSE,en1lesson25,"Hopefully you mastered the previous lessons and all the questions, review is next!",https://englishletics.github.io/daily/lessons/class1/lesson25.html,,daily
+en,1,01,TRUE,en1lesson01,Let’s get started with the first lesson: Noun (what).,https://englishletics.github.io/quyn/lessons/class1/lesson01.html,en1lesson02,quyn
+en,1,02,TRUE,en1lesson02,How did you like the animals lesson? Now we talk about verbs!,https://englishletics.github.io/quyn/lessons/class1/lesson02.html,en1lesson03,quyn
+en,1,03,TRUE,en1lesson03,Did you learn the verbs yesterday? Now we build sentences.,https://englishletics.github.io/quyn/lessons/class1/lesson03.html,en1lesson04,quyn
+en,1,04,TRUE,en1lesson04,How are your sentences going? Let’s practice verbs! They are very important.,https://englishletics.github.io/quyn/lessons/class1/lesson04.html,en1lesson05,quyn
+en,1,05,TRUE,en1lesson05,"The free premium version is over now. If you want to keep the extended functionality up, please upgrade. If not, just do nothing. We are sending you the next lesson with limited functionality right away.",https://englishletics.github.io/quyn/lessons/class1/lesson05.html,en1lesson06,quyn
+en,1,06,TRUE,en1lesson06,Let's learn something very useful: Yes/No questions!,https://englishletics.github.io/quyn/lessons/class1/lesson06.html,en1lesson07,quyn
+en,1,07,TRUE,en1lesson07,"Today, we are focusing on descriptions with adjectives.",https://englishletics.github.io/quyn/lessons/class1/lesson07.html,en1lesson08,quyn
+en,1,08,TRUE,en1lesson08,Practice the most important verb in the English language: To be.,https://englishletics.github.io/quyn/lessons/class1/lesson08.html,en1lesson09,quyn
+en,1,09,TRUE,en1lesson09,"We've recently learned adjectives, and today we are using them for comparison.",https://englishletics.github.io/quyn/lessons/class1/lesson09.html,en1lesson10,quyn
+en,1,10,TRUE,en1lesson10,Did you learn more about adjectives? Today we're learning more: Adjectives + Prepositions.,https://englishletics.github.io/quyn/lessons/class1/lesson10.html,en1lesson11,quyn
+en,1,11,TRUE,en1lesson11,Feeling confident with your knowledge? Let's review your language skills so far.,https://englishletics.github.io/quyn/lessons/class1/lesson11.html,en1lesson12,quyn
+en,1,12,TRUE,en1lesson12,"Location, location, location! Today we are learning how to use 'where.'",https://englishletics.github.io/quyn/lessons/class1/lesson12.html,en1lesson13,quyn
+en,1,13,TRUE,en1lesson13,Who are you? You are a student. Learn how to use 'who' properly.,https://englishletics.github.io/quyn/lessons/class1/lesson13.html,en1lesson14,quyn
+en,1,14,TRUE,en1lesson14,How are your previous WH-questions going? Today we learn another one: When.,https://englishletics.github.io/quyn/lessons/class1/lesson14.html,en1lesson15,quyn
+en,1,15,TRUE,en1lesson15,Learn the most important tense for describing the past: Simple past tense.,https://englishletics.github.io/quyn/lessons/class1/lesson15.html,en1lesson16,quyn
+en,1,16,TRUE,en1lesson16,Are you ready? Today we are doing Present Continuous and Simple Future tense.,https://englishletics.github.io/quyn/lessons/class1/lesson16.html,en1lesson17,quyn
+en,1,17,TRUE,en1lesson17,Practice your WH-questions! Who - Where - When.,https://englishletics.github.io/quyn/lessons/class1/lesson17.html,en1lesson18,quyn
+en,1,18,TRUE,en1lesson18,Did you master the recent lessons? Time for a review!,https://englishletics.github.io/quyn/lessons/class1/lesson18.html,en1lesson19,quyn
+en,1,19,TRUE,en1lesson19,Hopefully you learned the previous WH-questions because today we're learning another: What.,https://englishletics.github.io/quyn/lessons/class1/lesson19.html,en1lesson20,quyn
+en,1,20,TRUE,en1lesson20,"Did you practice 'what' yesterday? Today, we are learning even more about it.",https://englishletics.github.io/quyn/lessons/class1/lesson20.html,en1lesson21,quyn
+en,1,21,TRUE,en1lesson21,"Today, you will learn to ask 'which' and 'whose' questions.",https://englishletics.github.io/quyn/lessons/class1/lesson21.html,en1lesson22,quyn
+en,1,22,TRUE,en1lesson22,"We're taking a break from WH-questions, and turning to another important one: How.",https://englishletics.github.io/quyn/lessons/class1/lesson22.html,en1lesson23,quyn
+en,1,23,TRUE,en1lesson23,Make sure you mastered the previous lesson because we're doing more 'How.',https://englishletics.github.io/quyn/lessons/class1/lesson23.html,en1lesson24,quyn
+en,1,24,TRUE,en1lesson24,"Back to WH-questions, we're doing 'Why' today.",https://englishletics.github.io/quyn/lessons/class1/lesson24.html,en1lesson25,quyn
+en,1,25,TRUE,en1lesson25,"Hopefully you mastered the previous lessons and all the questions, review is next!",https://englishletics.github.io/quyn/lessons/class1/lesson25.html,,quyn

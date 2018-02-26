@@ -157,7 +157,7 @@ Có, anh có đến lớp hôm qua*
 **swim / swam**      
 
 {% include player2.html identifier="irregular2" class=page.class lesson=page.lesson %}
-
+{% include play.html identifier="irregular2" start=00.28 stop=20.28 %}
 **feed / fed**     
 **feel / felt**      
 **keep / kept**      
@@ -167,14 +167,15 @@ Có, anh có đến lớp hôm qua*
 **sleep / slept**     
 **sweep / swept**     
      
-**see/saw**          
-**eat/ ate** 
-**find/ found**    
-**go/went**     
+{% include play.html identifier="irregular2" start=20.28 stop=36.28 %}
+**see / saw**          
+**eat / ate**  
+**find / found**    
+**go / went**     
 **get / got**     
-**read/read**      
+**read / read**      
      
-         
+{% include play.html identifier="irregular2" start=36.28 stop=68.28 %}
 **Your son broke my window!**     *Con trai bạn làm vỡ cửa sổ của tôi*   
 **She stole my wallet.**   *Cô ta đã lấy cắp ví của tôi*        
 **I drove my daughter to school.**          *Cô đưa con gái đi học*   
@@ -183,7 +184,7 @@ Có, anh có đến lớp hôm qua*
 **She threw her bag at me.**     *Cô ta chọi cái túi của cô ấy vào tôi*   
 **I thought about it.**     *Tôi đã suy nghĩ về chuyện ấy*   
 **My mother taught me a lot.**     *Mẹ của tôi dạy cho tôi rất nhiều*   
-**She swept the dirt under the rug**.     *Cô ta quét bụi dưới tấm thảm*   
+**She swept the dirt under the rug.**     *Cô ta quét bụi dưới tấm thảm*   
 **Who forgot to close the door?** *Ai quên đóng cửa vậy?* 
 
      
