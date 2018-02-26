@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        Limited Trial version
+        
+        
+        
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-214-friendship">Lesson 2.14: Friendship</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L14-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '14', 'vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L14-vocabulary.mp3</div>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/class2/images/c2l14-a-workmate.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 10, 11.5, 
+      '2-14', 'A workmate');">▷ <strong>A workmate</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>um colega de trabalho</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/c2l14-partner.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 11.5, 13, 
+      '2-14', 'Partner');">▷ <strong>Partner</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>parceiro</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/c2l14-classmate.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 13, 14.5, 
+      '2-14', 'Classmate');">▷ <strong>Classmate</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>colega de classe</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class2/images/c2l14-pen-friend.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 14.5, 16.5, 
+      '2-14', 'Pen-friend');">▷ <strong>Pen-friend</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>amigo por correspondência</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/class2/images/c2l14-housemate.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 16.5, 18, 
+      '2-14', 'Housemate');">▷ <strong>Housemate</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>companheiro de casa</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/class2/images/c2l14-acquaintance.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 18, 20, 
+      '2-14', 'Acquaintance');">▷ <strong>Acquaintance</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>conhecido</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/class2/images/c2l14-a-stranger.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 20, 22, 
+      '2-14', 'A stranger');">▷ <strong>A stranger</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>desconhecido</em>
+    
+  
+  
+  
+  
+</td><td class="col4">
+  
+    <img src="/daily/lessons/class2/images/c2l14-close.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 22, 23.5, 
+      '2-14', 'Close');">▷ <strong>Close</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>próximo</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 23.5, 25, 
+      '2-14', 'Old');">▷ <strong>Old</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 25, 26.5, 
+      '2-14', 'Best');">▷ <strong>Best</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 26.5, 28.5, 
+      '2-14', 'Lifelong');">▷ <strong>Lifelong</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="friends-amigos">Friends <em>Amigos</em></h3>
+
+<ol>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   31, 34,   'n/a', 'vocabulary');">▷</strong> <strong>a best friend</strong> <em>o melhor amigo</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   34, 37,   'n/a', 'vocabulary');">▷</strong> <strong>a pen friend</strong> <em>um amigo por correspondência</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   37, 40,   'n/a', 'vocabulary');">▷</strong> <strong>a close friend</strong> <em>um amigo próximo</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   40, 43,   'n/a', 'vocabulary');">▷</strong> <strong>a true friend</strong> <em>um amigo verdadeiro</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   43, 46.5,   'n/a', 'vocabulary');">▷</strong> <strong>a lifelong friend</strong> <em>um amigo ao longo da vida</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   46.5, 49.5,   'n/a', 'vocabulary');">▷</strong> <strong>an acquaintance</strong> <em>um conhecido</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   49.5, 53.5,   'n/a', 'vocabulary');">▷</strong> <strong>a fair-weather friend</strong> <em>um amigo da onça</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   53.5, 56,   'n/a', 'vocabulary');">▷</strong> <strong>a stranger</strong> <em>um desconhecido</em></li>
+</ol>
+
+<h3 id="friendship-amizade">Friendship <em>Amizade</em></h3>
+
+<ol>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   58, 62,   'n/a', 'vocabulary');">▷</strong>  <strong>have a lot in common</strong> <em>ter muito em comum</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   62, 66,   'n/a', 'vocabulary');">▷</strong>  <strong>enjoy each other’s company</strong> *desfrutare a companhia do outro *</li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   66, 69,   'n/a', 'vocabulary');">▷</strong>  <strong>go through thick and thin</strong> <em>estar juntos no bem e no mal</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   69.5, 72.2,   'n/a', 'vocabulary');">▷</strong>  <strong>share ups and downs</strong> <em>compartilhar altos e baixos</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   72.2, 76,   'n/a', 'vocabulary');">▷</strong>  <strong>share sorrows and joys</strong> <em>compartilhar tristezas e alegrias</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   76, 79.7,   'n/a', 'vocabulary');">▷</strong>  <strong>keep each other’s secrets</strong> <em>manter os segredos uns dos outros</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   79.7, 83,   'n/a', 'vocabulary');">▷</strong>  <strong>give emotional support</strong> <em>dar apoio emocional</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   83, 87.5,   'n/a', 'vocabulary');">▷</strong>  <strong>encourage me when I am in trouble</strong> <em>encorajar-me quando estou com problemas</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   87.5, 91,   'n/a', 'vocabulary');">▷</strong>  <strong>respect each other</strong> <em>respeitar-se mutuamente</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',  91, 94,  'n/a', 'vocabulary');">▷</strong>  <strong>be helpful</strong> <em>ser prestativo</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',  94, 97.5,  'n/a', 'vocabulary');">▷</strong>  <strong>cheer someone up</strong> <em>animar alguém</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',  97.5, 100.5,  'n/a', 'vocabulary');">▷</strong>  <strong>keep in touch</strong> <em>manter contato</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',  100.5, 106,  'n/a', 'vocabulary');">▷</strong>  <strong>have a person who is there for you whenever you need</strong> <em>ter uma pessoa que esteja lá para você sempre que precisar</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',  106, 110,  'n/a', 'vocabulary');">▷</strong>  <strong>be true to someone</strong> <em>ser fiel a alguém</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',  110, 113.5,  'n/a', 'vocabulary');">▷</strong>  <strong>tell lies</strong> <em>mentir</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',  113.5, 118.7,  'n/a', 'vocabulary');">▷</strong>  <strong>turn one’s back on someone</strong> <em>passar por cima de alg</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',  118.7, 121.5,  'n/a', 'vocabulary');">▷</strong>  <strong>lose touch</strong> <em>perder contato</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',  121.5, 126,  'n/a', 'vocabulary');">▷</strong>  <strong>talk behind someone’s back</strong> <em>falar de alguém nas suas costas</em></li>
+</ol>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L14-conversation.mp3" id="audio_conversation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_conversation" onclick="play('conversation', '14', 'conversation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L14-conversation.mp3</div>
+
+<h2 id="conversation">Conversation</h2>
+
+<blockquote>
+  <p><strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      2, 6.2,      'n/a', 'conversation');">▷</strong> Person 1: <strong>Do you have a best friend?</strong>   <br />
+Person 2: <strong>My best friends is Anna.</strong>  <em>Bạn thân của tôi là Anna</em> <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      6.2, 6.9,      'n/a', 'conversation');">▷</strong>  P1: <strong>How old is she?</strong> <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      6.9, 12.8,      'n/a', 'conversation');">▷</strong>  P2: <strong>She is 1 year older than me.</strong>  <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      12.8, 16.9,      'n/a', 'conversation');">▷</strong>  P1: <strong>When did you first meet her?</strong>  <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      16.9, 20.7,      'n/a', 'conversation');">▷</strong>  P2: <strong>I first met her when I was 18 years old at our university.</strong>  <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      20.7, 27.3,      'n/a', 'conversation');">▷</strong>  P1: <strong>How long have you been friends?</strong>   <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      27.3, 31.1,      'n/a', 'conversation');">▷</strong>  P2: <strong>We’ve been friends for 7 years since then.</strong>    <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      31.1, 35.7,      'n/a', 'conversation');">▷</strong>  P1: <strong>Nice. What does your friend look like?</strong>     <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      35.7, 64.3,      'n/a', 'conversation');">▷</strong>  P2: <strong>I have to say that she bears a strong resemblance to one of my cousins. She is not really   good-looking. She is not really tall and a little underweight. She’s got a face with big eyes, a flat nose and some acne on her face. The most attractive thing on her face are her full lips.</strong> 
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      64.3, 68.2,      'n/a', 'conversation');">▷</strong>  P1: <strong>What is the best thing about her?</strong>     <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      68.2, 86.9,      'n/a', 'conversation');">▷</strong>  P2: <strong>She is  humble. She rarely talks about herself or what she has and she doesn’t look down on people. She’s also hilarious. I never feel bored when she’s around. To be honest, she is the most hilarious person I’ve ever known.</strong> 
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      86.9, 93.3,      'n/a', 'conversation');">▷</strong>  P1: <strong>What do you think is the most important thing in friendship?</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      93.3, 101.5,      'n/a', 'conversation');">▷</strong>  P2: <strong>Well, never telling lies, in my opinion, is the most important thing in friendship.</strong></p>
+</blockquote>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L14-explanation.mp3" id="audio_explanation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_explanation" onclick="play('explanation', '14', 'explanation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L14-explanation.mp3</div>
+
+<h2 id="explanation">Explanation</h2>
+
+<h3 id="1-she-is-one-year-older-than-me">1. She is one year older than me.</h3>
+
+<p><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',      1.8, 19.7,      'n/a', 'explanation');">▷</strong> 
+Ela é um ano mais velha do que eu.</p>
+
+<ul>
+  <li><strong>He is ten years older than me.</strong> <em>Ele é dez anos mais velho do que eu.</em></li>
+  <li><strong>She is two years younger than me.</strong> <em>Ela é dois anos mais nova do que eu.</em></li>
+  <li><strong>She is the same age as me.</strong> <em>Ela é da mesma idade que eu.</em></li>
+</ul>
+
+<h3 id="2-this-content-is-available-in-the-premium-version">2. This content is available in the premium version.</h3>
+
+<p><em>Nội dung này có sẵn trong phiên bản cao cấp</em></p>
+
+<ul>
+  <li><strong>Purchase the full version and get access right now.</strong> <em>Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></li>
+  <li><strong><a href="#">Get access here</a></strong> <em><a href="#">Được truy cập ở đây</a></em></li>
+</ul>
+
+<h3 id="3-this-content-is-available-in-the-premium-version">3. This content is available in the premium version.</h3>
+
+<p><em>Nội dung này có sẵn trong phiên bản cao cấp</em></p>
+
+<ul>
+  <li><strong>Purchase the full version and get access right now.</strong> <em>Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></li>
+  <li><strong><a href="#">Get access here</a></strong> <em><a href="#">Được truy cập ở đây</a></em></li>
+</ul>
+
+<h3 id="4-this-content-is-available-in-the-premium-version">4. This content is available in the premium version.</h3>
+
+<p><em>Nội dung này có sẵn trong phiên bản cao cấp</em></p>
+
+<ul>
+  <li><strong>Purchase the full version and get access right now.</strong> <em>Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></li>
+  <li><strong><a href="#">Get access here</a></strong> <em><a href="#">Được truy cập ở đây</a></em></li>
+</ul>
+
+<h3 id="5-this-content-is-available-in-the-premium-version">5. This content is available in the premium version.</h3>
+
+<p><em>Nội dung này có sẵn trong phiên bản cao cấp</em></p>
+
+<ul>
+  <li><strong>Purchase the full version and get access right now.</strong> <em>Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></li>
+  <li><strong><a href="#">Get access here</a></strong> <em><a href="#">Được truy cập ở đây</a></em></li>
+</ul>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

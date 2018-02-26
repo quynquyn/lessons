@@ -3,11 +3,6 @@ layout: lesson
 class: "2"
 lesson: "09"
 lang: pt
-
-test1: ### Styles  - *TODO*
-test1: ### Shopping places  - *TODO*
-test1: ### Have you ever - *TODO*
-
 ---
 
 {% include player.html identifier="lesson-vocabulary" lesson="C2L09" file="C2L09-Vocabulary.mp3" %}
