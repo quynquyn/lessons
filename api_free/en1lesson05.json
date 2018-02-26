@@ -1,11 +1,15 @@
 {
   "set_attributes":
     {
-      "next_lesson_url": "https://englishletics.github.io/daily/lessons/class1/lesson05.html",
+      "el-last-url": "https://englishletics.github.io/daily/lessons/class1/lesson05.html",
       "current_lesson_id": "en1lesson06"
     },
   "messages":[
-    {"text": "The free premium version is over now. If you want to keep the extended functionality up, please upgrade. If not, just do nothing. We are sending you the next lesson with limited functionality right away."}
+    {"text": "The free premium version is over now. If you want to keep the extended functionality up, please upgrade. If not, just do nothing. We are sending you the next lesson with limited functionality right away.",
+      "payload": {
+             "url": "https://englishletics.github.io/daily/lessons/class1/lesson05.html"
+           }
+    }
   ]
 }
 

@@ -1,11 +1,15 @@
 {
   "set_attributes":
     {
-      "next_lesson_url": "https://englishletics.github.io/daily/lessons/class1/lesson11.html",
+      "el-last-url": "https://englishletics.github.io/daily/lessons/class1/lesson11.html",
       "current_lesson_id": "en1lesson12"
     },
   "messages":[
-    {"text": "Feeling confident with your knowledge? Let's review your language skills so far."}
+    {"text": "Feeling confident with your knowledge? Let's review your language skills so far.",
+      "payload": {
+             "url": "https://englishletics.github.io/daily/lessons/class1/lesson11.html"
+           }
+    }
   ]
 }
 

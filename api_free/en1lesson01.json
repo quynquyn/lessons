@@ -1,11 +1,15 @@
 {
   "set_attributes":
     {
-      "next_lesson_url": "https://englishletics.github.io/daily/lessons/class1/lesson01.html",
+      "el-last-url": "https://englishletics.github.io/daily/lessons/class1/lesson01.html",
       "current_lesson_id": "en1lesson02"
     },
   "messages":[
-    {"text": "Let’s get started with the first lesson: Noun (what)."}
+    {"text": "Let’s get started with the first lesson: Noun (what).",
+      "payload": {
+             "url": "https://englishletics.github.io/daily/lessons/class1/lesson01.html"
+           }
+    }
   ]
 }
 

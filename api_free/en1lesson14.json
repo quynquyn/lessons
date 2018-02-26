@@ -1,11 +1,15 @@
 {
   "set_attributes":
     {
-      "next_lesson_url": "https://englishletics.github.io/daily/lessons/class1/lesson14.html",
+      "el-last-url": "https://englishletics.github.io/daily/lessons/class1/lesson14.html",
       "current_lesson_id": "en1lesson15"
     },
   "messages":[
-    {"text": "How are your previous WH-questions going? Today we learn another one: When."}
+    {"text": "How are your previous WH-questions going? Today we learn another one: When.",
+      "payload": {
+             "url": "https://englishletics.github.io/daily/lessons/class1/lesson14.html"
+           }
+    }
   ]
 }
 

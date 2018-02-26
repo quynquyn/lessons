@@ -1,11 +1,15 @@
 {
   "set_attributes":
     {
-      "next_lesson_url": "https://englishletics.github.io/quyn/lessons/class1/lesson03.html",
+      "el-last-url": "https://englishletics.github.io/quyn/lessons/class1/lesson03.html",
       "current_lesson_id": "en1lesson04"
     },
   "messages":[
-    {"text": "Did you learn the verbs yesterday? Now we build sentences."}
+    {"text": "Did you learn the verbs yesterday? Now we build sentences.",
+      "payload": {
+             "url": "https://englishletics.github.io/quyn/lessons/class1/lesson03.html"
+           }
+    }
   ]
 }
 

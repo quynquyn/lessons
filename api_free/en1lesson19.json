@@ -1,11 +1,15 @@
 {
   "set_attributes":
     {
-      "next_lesson_url": "https://englishletics.github.io/daily/lessons/class1/lesson19.html",
+      "el-last-url": "https://englishletics.github.io/daily/lessons/class1/lesson19.html",
       "current_lesson_id": "en1lesson20"
     },
   "messages":[
-    {"text": "Hopefully you learned the previous WH-questions because today we're learning another: What."}
+    {"text": "Hopefully you learned the previous WH-questions because today we're learning another: What.",
+      "payload": {
+             "url": "https://englishletics.github.io/daily/lessons/class1/lesson19.html"
+           }
+    }
   ]
 }
 
