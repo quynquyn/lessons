@@ -194,7 +194,17 @@
 <h2 id="vocabulary">Vocabulary</h2>
 
 <h3 id="company">Company</h3>
-<p><strong>I work for a _______ company</strong></p>
+<p><strong>I want to work for a _______ company</strong></p>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/CL-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '', 'vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">CL-vocabulary.mp3</div>
 
 <table>
 <tr class="row1">
@@ -205,7 +215,8 @@
   
   
   
-    <strong>Publishing</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 13.48, 15.39, 
+      '2-23', 'Publishing');">▷ <strong>Publishing</strong></a>
   
   
   
@@ -227,7 +238,8 @@
   
   
   
-    <strong>Television</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 15.39, 16.96, 
+      '2-23', 'Television');">▷ <strong>Television</strong></a>
   
   
   
@@ -249,7 +261,8 @@
   
   
   
-    <strong>Insurance</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 16.96, 18.76, 
+      '2-23', 'Insurance');">▷ <strong>Insurance</strong></a>
   
   
   
@@ -271,7 +284,8 @@
   
   
   
-    <strong>Pharmaceutical</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 18.76, 20.56, 
+      '2-23', 'Pharmaceutical');">▷ <strong>Pharmaceutical</strong></a>
   
   
   
@@ -294,7 +308,8 @@
   
   
   
-    <strong>Computer</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 20.56, 22.2, 
+      '2-23', 'Computer');">▷ <strong>Computer</strong></a>
   
   
   
@@ -316,7 +331,8 @@
   
   
   
-    <strong>Engineering</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 22.2, 23.99, 
+      '2-23', 'Engineering');">▷ <strong>Engineering</strong></a>
   
   
   
@@ -338,7 +354,8 @@
   
   
   
-    <strong>Electronics</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 23.99, 25.67, 
+      '2-23', 'Electronics');">▷ <strong>Electronics</strong></a>
   
   
   
@@ -368,7 +385,8 @@
   
   
   
-    <strong>Ambitious</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 27.74, 29.57, 
+      '2-23', 'Ambitious');">▷ <strong>Ambitious</strong></a>
   
   
   
@@ -390,7 +408,8 @@
   
   
   
-    <strong>Reliable</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 29.57, 30.88, 
+      '2-23', 'Reliable');">▷ <strong>Reliable</strong></a>
   
   
   
@@ -412,7 +431,8 @@
   
   
   
-    <strong>Lazy</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 30.88, 32.35, 
+      '2-23', 'Lazy');">▷ <strong>Lazy</strong></a>
   
   
   
@@ -434,7 +454,8 @@
   
   
   
-    <strong>Conscientious</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 32.35, 34.1, 
+      '2-23', 'Conscientious');">▷ <strong>Conscientious</strong></a>
   
   
   
@@ -457,7 +478,8 @@
   
   
   
-    <strong>Flexible</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 34.1, 35.95, 
+      '2-23', 'Flexible');">▷ <strong>Flexible</strong></a>
   
   
   
@@ -479,7 +501,8 @@
   
   
   
-    <strong>Adaptive</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 35.95, 37.46, 
+      '2-23', 'Adaptive');">▷ <strong>Adaptive</strong></a>
   
   
   
@@ -501,7 +524,8 @@
   
   
   
-    <strong>Confident</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 37.46, 39.22, 
+      '2-23', 'Confident');">▷ <strong>Confident</strong></a>
   
   
   
@@ -523,7 +547,8 @@
   
   
   
-    <strong>Punctual</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 39.22, 40.83, 
+      '2-23', 'Punctual');">▷ <strong>Punctual</strong></a>
   
   
   
@@ -546,7 +571,8 @@
   
   
   
-    <strong>Enthusiastic</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 40.83, 42.78, 
+      '2-23', 'Enthusiastic');">▷ <strong>Enthusiastic</strong></a>
   
   
   
@@ -565,7 +591,8 @@
   
   
   
-    <strong>Independent</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 42.78, 44.53, 
+      '2-23', 'Independent');">▷ <strong>Independent</strong></a>
   
   
   
@@ -594,22 +621,35 @@
 <h2 id="conversation">Conversation</h2>
 
 <blockquote>
-  <p>Person 1: <strong>So you’d like to be an employee at our TV company. Tell me why?</strong> <br />
-Person 2: <strong>I have loved television ever since I was a child, and I would like to be a news reporter.</strong>  <br />
-P1: <strong>I’m pleased to hear that. What was your previous job?</strong>  <br />
-P2: <strong>I worked for an insurance company, working with customers mainly.</strong>  <br />
-P1: <strong>Sounds like a promising profession. Why did you quit?</strong>  <br />
-P2: <strong>I earned enough money for a few years, and now I want to pursue my dream.</strong><br />
-P1: <strong>Ambitious. Tell me, what are some of your strengths?</strong>  <br />
-P2: <strong>I’m reliable, flexible and adaptive. I am also very punctual and confident in my work.</strong><br />
-P1: <strong>And what would you say are your greatest flaws?</strong><br />
-P2: <strong>Well, I find that if I’m not in a happy work environment, I get very lazy.</strong><br />
-P1: <strong>Oh, is that so? Give me an example.</strong><br />
-P2: <strong>Well, I dislike it when employers are too aggressive or demanding. I also don’t like it when they want to form personal relationships with employees.</strong><br />
-P1: <strong>Trust me, Mr. Robinson, that is not going to be a problem.</strong><br />
-P2: <strong>I’m pleased to hear that.</strong><br />
-P1: <strong>I’m pleased that you’re pleased, and I would like to officially welcome you to the company. You’re hired.</strong>
-P2: <strong>Thank you very much, sir.</strong></p>
+  <p><strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      1.95, 6.96,      'n/a', 'conversation');">▷</strong>Person 1: <strong>So you’d like to be an employee at our TV company. Tell me why?</strong> <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      6.96, 11.41,      'n/a', 'conversation');">▷</strong>Person 2: <strong>I have loved television ever since I was a child, and I would like to be a news reporter.</strong>  <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      11.41, 14.53,      'n/a', 'conversation');">▷</strong>P1: <strong>I’m pleased to hear that. What was your previous job?</strong>  <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      14.53, 18.0,      'n/a', 'conversation');">▷</strong>P2: <strong>I worked for an insurance company, working with customers mainly.</strong>  &gt;</p>
+</blockquote>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/CL-conversation.mp3" id="audio_conversation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_conversation" onclick="play('conversation', '', 'conversation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">CL-conversation.mp3</div>
+
+<p>P1: <strong>Sounds like a promising profession. Why did you quit?</strong></p>
+<blockquote>
+  <p><strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      21.01, 24.6,      'n/a', 'conversation');">▷</strong>P2: <strong>I earned enough money for a few years, and now I want to pursue my dream.</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      24.6, 27.84,      'n/a', 'conversation');">▷</strong>P1: <strong>Ambitious. Tell me, what are some of your strengths?</strong>  <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      27.84, 33.35,      'n/a', 'conversation');">▷</strong>P2: <strong>I’m reliable, flexible and adaptive. I am also very punctual and confident in my work.</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      33.35, 36.27,      'n/a', 'conversation');">▷</strong>P1: <strong>And what would you say are your greatest flaws?</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      36.27, 40.63,      'n/a', 'conversation');">▷</strong>P2: <strong>Well, I find that if I’m not in a happy work environment, I get very lazy.</strong> 
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      40.63, 43.74,      'n/a', 'conversation');">▷</strong>P1: <strong>Oh, is that so? Give me an example.</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      43.74, 51.56,      'n/a', 'conversation');">▷</strong>P2: <strong>Well, I dislike it when employers are too aggressive or demanding. I also don’t like it when they want to form personal relationships with employees.</strong>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      51.56, 54.86,      'n/a', 'conversation');">▷</strong>P1: <strong>Trust me, Mr. Robinson, that is not going to be a problem.</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      54.86, 56.21,      'n/a', 'conversation');">▷</strong>P2: <strong>I’m pleased to hear that.</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      56.21, 61.09,      'n/a', 'conversation');">▷</strong> P1: <strong>I’m pleased that you’re pleased, and I would like to officially welcome you to the company. You’re hired.</strong>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      61.09, 62.6,      'n/a', 'conversation');">▷</strong> P2: <strong>Thank you very much, sir.</strong></p>
 </blockquote>
 
 <audio src="https://englishletics.s3.amazonaws.com/audio/C2L23-explanation.mp3" id="audio_explanation" preload="none"></audio>
@@ -624,6 +664,7 @@ P2: <strong>Thank you very much, sir.</strong></p>
 
 <h2 id="explanation">Explanation</h2>
 <h3 id="1--what-was-your-previous-job">1.  What was your previous job?</h3>
+<p><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',      4.17, 17.86,      'n/a', 'explanation');">▷</strong></p>
 <ul>
   <li><strong>Where did you work before you decided to apply for this position?</strong></li>
   <li><strong>What company did you work for?</strong></li>

@@ -220,7 +220,9 @@
   
   
   
-    <strong>Appetizer / starter</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 9.22, 11.88, 
+      '2-24', 'Appetizer / starter');">▷ <strong>Appetizer / starter</strong></a>
   
   
   
@@ -242,7 +244,9 @@
   
   
   
-    <strong>Main course</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 11.88, 13.81, 
+      '2-24', 'Main course');">▷ <strong>Main course</strong></a>
   
   
   
@@ -264,7 +268,9 @@
   
   
   
-    <strong>Dessert</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 13.81, 15.35, 
+      '2-24', 'Dessert');">▷ <strong>Dessert</strong></a>
   
   
   
@@ -302,7 +308,9 @@
   
   
   
-    <strong>Rice</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 16.84, 18.35, 
+      '2-24', 'Rice');">▷ <strong>Rice</strong></a>
   
   
   
@@ -324,7 +332,9 @@
   
   
   
-    <strong>Sticky rice</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 18.35, 20.13, 
+      '2-24', 'Sticky rice');">▷ <strong>Sticky rice</strong></a>
   
   
   
@@ -346,7 +356,9 @@
   
   
   
-    <strong>Bread</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 20.13, 21.68, 
+      '2-24', 'Bread');">▷ <strong>Bread</strong></a>
   
   
   
@@ -368,7 +380,9 @@
   
   
   
-    <strong>Fish</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 21.68, 23.3, 
+      '2-24', 'Fish');">▷ <strong>Fish</strong></a>
   
   
   
@@ -391,7 +405,9 @@
   
   
   
-    <strong>Egg</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 23.3, 25.12, 
+      '2-24', 'Egg');">▷ <strong>Egg</strong></a>
   
   
   
@@ -413,7 +429,9 @@
   
   
   
-    <strong>Salad</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 25.12, 27.02, 
+      '2-24', 'Salad');">▷ <strong>Salad</strong></a>
   
   
   
@@ -435,7 +453,9 @@
   
   
   
-    <strong>Steak</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 27.02, 28.64, 
+      '2-24', 'Steak');">▷ <strong>Steak</strong></a>
   
   
   
@@ -457,7 +477,9 @@
   
   
   
-    <strong>Seafood (fish, shrimp, lobster, octopus)</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 28.64, 35, 
+      '2-24', 'Seafood (fish, shrimp, lobster, octopus)');">▷ <strong>Seafood (fish, shrimp, lobster, octopus)</strong></a>
   
   
   
@@ -480,7 +502,9 @@
   
   
   
-    <strong>Meat (pork, beef, chicken)</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 35, 40.04, 
+      '2-24', 'Meat (pork, beef, chicken)');">▷ <strong>Meat (pork, beef, chicken)</strong></a>
   
   
   
@@ -499,7 +523,9 @@
   
   
   
-    <strong>Curries</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 40.04, 42, 
+      '2-24', 'Curries');">▷ <strong>Curries</strong></a>
   
   
   
@@ -534,7 +560,9 @@
   
   
   
-    <strong>Sweet</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 44.32, 45.65, 
+      '2-24', 'Sweet');">▷ <strong>Sweet</strong></a>
   
   
   
@@ -556,7 +584,9 @@
   
   
   
-    <strong>Salty</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 45.65, 47.06, 
+      '2-24', 'Salty');">▷ <strong>Salty</strong></a>
   
   
   
@@ -578,7 +608,9 @@
   
   
   
-    <strong>Spicy</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 47.06, 48.58, 
+      '2-24', 'Spicy');">▷ <strong>Spicy</strong></a>
   
   
   
@@ -600,7 +632,9 @@
   
   
   
-    <strong>Sour</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 48.58, 50.25, 
+      '2-24', 'Sour');">▷ <strong>Sour</strong></a>
   
   
   
@@ -623,7 +657,9 @@
   
   
   
-    <strong>Crispy</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 50.25, 51.66, 
+      '2-24', 'Crispy');">▷ <strong>Crispy</strong></a>
   
   
   
@@ -645,7 +681,9 @@
   
   
   
-    <strong>Yummy / delicious / tasty</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 51.66, 55.73, 
+      '2-24', 'Yummy / delicious / tasty');">▷ <strong>Yummy / delicious / tasty</strong></a>
   
   
   
@@ -667,7 +705,9 @@
   
   
   
-    <strong>Bitter</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 55.73, 57.35, 
+      '2-24', 'Bitter');">▷ <strong>Bitter</strong></a>
   
   
   
@@ -689,7 +729,9 @@
   
   
   
-    <strong>Great</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 57.35, 58.66, 
+      '2-24', 'Great');">▷ <strong>Great</strong></a>
   
   
   
@@ -712,7 +754,9 @@
   
   
   
-    <strong>Terrible</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 58.66, 60.18, 
+      '2-24', 'Terrible');">▷ <strong>Terrible</strong></a>
   
   
   

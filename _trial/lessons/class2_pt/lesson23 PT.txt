@@ -222,7 +222,9 @@
   
   
   
-    <strong>Publishing</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 13.48, 15.39, 
+      '2-23', 'Publishing');">▷ <strong>Publishing</strong></a>
   
   
   
@@ -244,7 +246,9 @@
   
   
   
-    <strong>Television</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 15.39, 16.96, 
+      '2-23', 'Television');">▷ <strong>Television</strong></a>
   
   
   
@@ -266,7 +270,9 @@
   
   
   
-    <strong>Insurance</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 16.96, 18.76, 
+      '2-23', 'Insurance');">▷ <strong>Insurance</strong></a>
   
   
   
@@ -288,7 +294,9 @@
   
   
   
-    <strong>Pharmaceutical</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 18.76, 20.56, 
+      '2-23', 'Pharmaceutical');">▷ <strong>Pharmaceutical</strong></a>
   
   
   
@@ -311,7 +319,9 @@
   
   
   
-    <strong>Computer</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 20.56, 22.2, 
+      '2-23', 'Computer');">▷ <strong>Computer</strong></a>
   
   
   
@@ -333,7 +343,9 @@
   
   
   
-    <strong>Engineering</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 22.2, 23.99, 
+      '2-23', 'Engineering');">▷ <strong>Engineering</strong></a>
   
   
   
@@ -355,7 +367,9 @@
   
   
   
-    <strong>Electronics</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 23.99, 25.67, 
+      '2-23', 'Electronics');">▷ <strong>Electronics</strong></a>
   
   
   
@@ -395,7 +409,9 @@
   
   
   
-    <strong>Ambitious</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 27.74, 29.57, 
+      '2-23', 'Ambitious');">▷ <strong>Ambitious</strong></a>
   
   
   
@@ -417,7 +433,9 @@
   
   
   
-    <strong>Reliable</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 29.57, 30.88, 
+      '2-23', 'Reliable');">▷ <strong>Reliable</strong></a>
   
   
   
@@ -439,7 +457,9 @@
   
   
   
-    <strong>Lazy</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 30.88, 32.35, 
+      '2-23', 'Lazy');">▷ <strong>Lazy</strong></a>
   
   
   
@@ -461,7 +481,9 @@
   
   
   
-    <strong>Conscientious</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 32.35, 34.1, 
+      '2-23', 'Conscientious');">▷ <strong>Conscientious</strong></a>
   
   
   
@@ -484,7 +506,9 @@
   
   
   
-    <strong>Flexible</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 34.1, 35.95, 
+      '2-23', 'Flexible');">▷ <strong>Flexible</strong></a>
   
   
   
@@ -506,7 +530,9 @@
   
   
   
-    <strong>Adaptive</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 35.95, 37.46, 
+      '2-23', 'Adaptive');">▷ <strong>Adaptive</strong></a>
   
   
   
@@ -528,7 +554,9 @@
   
   
   
-    <strong>Confident</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 37.46, 39.22, 
+      '2-23', 'Confident');">▷ <strong>Confident</strong></a>
   
   
   
@@ -550,7 +578,9 @@
   
   
   
-    <strong>Punctual</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 39.22, 40.83, 
+      '2-23', 'Punctual');">▷ <strong>Punctual</strong></a>
   
   
   
@@ -573,7 +603,9 @@
   
   
   
-    <strong>Enthusiastic</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 40.83, 42.78, 
+      '2-23', 'Enthusiastic');">▷ <strong>Enthusiastic</strong></a>
   
   
   
@@ -592,7 +624,9 @@
   
   
   
-    <strong>Independent</strong> 
+    <a class="el-vocab-play" id="play_vocabulary" 
+      onclick="playat('vocabulary', 42.78, 44.53, 
+      '2-23', 'Independent');">▷ <strong>Independent</strong></a>
   
   
   
