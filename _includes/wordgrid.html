@@ -7,7 +7,7 @@
 
 
 <table>
-{% tablerow word in words cols:4 %}
+{% tablerow word in words cols:3 %}
   {% if include.trial and count > WORDS_IN_TRIAL %}
     <img src="{{site.baseurl}}/lessons/premium_only.jpg"  class="img-fluid img-thumbnail mx-auto d-block" />
   {% else %}

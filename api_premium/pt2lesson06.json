@@ -1,0 +1,25 @@
+{
+  "set_attributes":
+    {
+      "el-last-url": "https://englishletics.github.io/premium/lessons/class2/lesson06.html",
+      "el-state": "pt2lesson07"
+    },
+  "messages": [
+    {
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "Hoje aprendemos sobre o mundo. Para onde você gostaria de viajar?",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://englishletics.github.io/premium/lessons/class2/lesson06.html",
+              "title": "Open Lesson"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

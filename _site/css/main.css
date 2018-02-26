@@ -6355,6 +6355,9 @@ a.text-dark:focus, a.text-dark:hover {
 
 body {
   padding-bottom: 100px; }
+  body .container {
+    padding-left: 5px;
+    padding-right: 5px; }
 
 nav.el-offer-bar {
   background-color: #C52033 !important; }
@@ -6390,11 +6393,13 @@ section.el-lesson blockquote, section.el-lesson li {
   section.el-lesson blockquote strong, section.el-lesson li strong {
     font-weight: 800; }
 section.el-lesson table {
+  table-layout: fixed;
   width: 100%;
   margin-top: 10px;
   margin-bottom: 20px; }
   section.el-lesson table td {
-    text-align: center; }
+    text-align: center;
+    vertical-align: top; }
 section.el-lesson .el-player-icon {
   font-size: 180%;
   font-weight: bold;

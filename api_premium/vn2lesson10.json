@@ -1,0 +1,25 @@
+{
+  "set_attributes":
+    {
+      "el-last-url": "https://englishletics.github.io/premium/lessons/class2/lesson10.html",
+      "el-state": "vn2lesson11"
+    },
+  "messages": [
+    {
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "Hôm nay, ta sẽ học về những mối tương tác với bạn bè. Tình bạn! ",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://englishletics.github.io/premium/lessons/class2/lesson10.html",
+              "title": "Open Lesson"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
