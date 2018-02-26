@@ -2,15 +2,24 @@
   "set_attributes":
     {
       "el-last-url": "{{page.lesson_url}}",
-      "current_lesson_id": "{{page.next_lesson_id}}"
+      "el-state": "{{page.next_lesson_id}}"
     },
-  "messages":[
-    {"text": "{{page.message}}",
-      "payload": {
-             "url": "{{page.lesson_url}}"
-           }
+  "messages": [
+    {
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "{{page.message}}",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "{{page.lesson_url}}",
+              "title": "Open Lesson"
+            }
+          ]
+        }
+      }
     }
   ]
 }
-
-
