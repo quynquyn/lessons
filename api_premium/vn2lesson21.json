@@ -1,0 +1,25 @@
+{
+  "set_attributes":
+    {
+      "el-last-url": "https://englishletics.github.io/premium/lessons/class2/lesson21.html",
+      "el-lessonid": "22"
+    },
+  "messages": [
+    {
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "Bài học trước ta đã học về cách để khỏe mạnh, nhưng hôm nay ta sẽ học về bệnh",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://englishletics.github.io/premium/lessons/class2/lesson21.html",
+              "title": "Open Lesson"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

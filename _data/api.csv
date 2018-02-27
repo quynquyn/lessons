@@ -1,13 +1,13 @@
 language,class_id,lesson_id,premium,current_lesson_compound,message,lesson_url,next_lesson_id,premiumurl
-en,1,1,FALSE,en1lesson1,Let’s get started with the first lesson: Noun (what).,https://englishletics.github.io/daily/lessons/class1/lesson1.html,2,daily
-en,1,2,FALSE,en1lesson2,How did you like the animals lesson? Now we talk about verbs!,https://englishletics.github.io/daily/lessons/class1/lesson2.html,3,daily
-en,1,3,FALSE,en1lesson3,Did you learn the verbs yesterday? Now we build sentences.,https://englishletics.github.io/daily/lessons/class1/lesson3.html,4,daily
-en,1,4,FALSE,en1lesson4,How are your sentences going? Let’s practice verbs! They are very important.,https://englishletics.github.io/daily/lessons/class1/lesson4.html,5,daily
-en,1,5,FALSE,en1lesson5,"The free premium version is over now. If you want to keep the extended functionality up, please upgrade. If not, just do nothing. We are sending you the next lesson with limited functionality right away.",https://englishletics.github.io/daily/lessons/class1/lesson5.html,6,daily
-en,1,6,FALSE,en1lesson6,Let's learn something very useful: Yes/No questions!,https://englishletics.github.io/daily/lessons/class1/lesson6.html,7,daily
-en,1,7,FALSE,en1lesson7,"Today, we are focusing on descriptions with adjectives.",https://englishletics.github.io/daily/lessons/class1/lesson7.html,8,daily
-en,1,8,FALSE,en1lesson8,Practice the most important verb in the English language: To be.,https://englishletics.github.io/daily/lessons/class1/lesson8.html,9,daily
-en,1,9,FALSE,en1lesson9,"We've recently learned adjectives, and today we are using them for comparison.",https://englishletics.github.io/daily/lessons/class1/lesson9.html,10,daily
+en,1,1,FALSE,en1lesson1,Let’s get started with the first lesson: Noun (what).,https://englishletics.github.io/daily/lessons/class1/lesson01.html,2,daily
+en,1,2,FALSE,en1lesson2,How did you like the animals lesson? Now we talk about verbs!,https://englishletics.github.io/daily/lessons/class1/lesson02.html,3,daily
+en,1,3,FALSE,en1lesson3,Did you learn the verbs yesterday? Now we build sentences.,https://englishletics.github.io/daily/lessons/class1/lesson03.html,4,daily
+en,1,4,FALSE,en1lesson4,How are your sentences going? Let’s practice verbs! They are very important.,https://englishletics.github.io/daily/lessons/class1/lesson04.html,5,daily
+en,1,5,FALSE,en1lesson5,"The free premium version is over now. If you want to keep the extended functionality up, please upgrade. If not, just do nothing. We are sending you the next lesson with limited functionality right away.",https://englishletics.github.io/daily/lessons/class1/lesson05.html,6,daily
+en,1,6,FALSE,en1lesson6,Let's learn something very useful: Yes/No questions!,https://englishletics.github.io/daily/lessons/class1/lesson06.html,7,daily
+en,1,7,FALSE,en1lesson7,"Today, we are focusing on descriptions with adjectives.",https://englishletics.github.io/daily/lessons/class1/lesson07.html,8,daily
+en,1,8,FALSE,en1lesson8,Practice the most important verb in the English language: To be.,https://englishletics.github.io/daily/lessons/class1/lesson08.html,9,daily
+en,1,9,FALSE,en1lesson9,"We've recently learned adjectives, and today we are using them for comparison.",https://englishletics.github.io/daily/lessons/class1/lesson09.html,10,daily
 en,1,10,FALSE,en1lesson10,Did you learn more about adjectives? Today we're learning more: Adjectives + Prepositions.,https://englishletics.github.io/daily/lessons/class1/lesson10.html,11,daily
 en,1,11,FALSE,en1lesson11,Feeling confident with your knowledge? Let's review your language skills so far.,https://englishletics.github.io/daily/lessons/class1/lesson11.html,12,daily
 en,1,12,FALSE,en1lesson12,"Location, location, location! Today we are learning how to use 'where.'",https://englishletics.github.io/daily/lessons/class1/lesson12.html,13,daily
@@ -24,15 +24,15 @@ en,1,22,FALSE,en1lesson22,"We're taking a break from WH-questions, and turning t
 en,1,23,FALSE,en1lesson23,Make sure you mastered the previous lesson because we're doing more 'How.',https://englishletics.github.io/daily/lessons/class1/lesson23.html,24,daily
 en,1,24,FALSE,en1lesson24,"Back to WH-questions, we're doing 'Why' today.",https://englishletics.github.io/daily/lessons/class1/lesson24.html,25,daily
 en,1,25,FALSE,en1lesson25,"Hopefully you mastered the previous lessons and all the questions, review is next!",https://englishletics.github.io/daily/lessons/class1/lesson25.html,,daily
-en,2,1,TRUE,en2lesson1,Let’s get started with the first lesson: Noun (what).,https://englishletics.github.io/premium/lessons/class2/lesson1.html,2,premium
-en,2,2,TRUE,en2lesson2,How did you like the animals lesson? Now we talk about verbs!,https://englishletics.github.io/premium/lessons/class2/lesson2.html,3,premium
-en,2,3,TRUE,en2lesson3,Did you learn the verbs yesterday? Now we build sentences.,https://englishletics.github.io/premium/lessons/class2/lesson3.html,4,premium
-en,2,4,TRUE,en2lesson4,How are your sentences going? Let’s practice verbs! They are very important.,https://englishletics.github.io/premium/lessons/class2/lesson4.html,5,premium
-en,2,5,TRUE,en2lesson5,"The free premium version is over now. If you want to keep the extended functionality up, please upgrade. If not, just do nothing. We are sending you the next lesson with limited functionality right away.",https://englishletics.github.io/premium/lessons/class2/lesson5.html,6,premium
-en,2,6,TRUE,en2lesson6,Let's learn something very useful: Yes/No questions!,https://englishletics.github.io/premium/lessons/class2/lesson6.html,7,premium
-en,2,7,TRUE,en2lesson7,"Today, we are focusing on descriptions with adjectives.",https://englishletics.github.io/premium/lessons/class2/lesson7.html,8,premium
-en,2,8,TRUE,en2lesson8,Practice the most important verb in the English language: To be.,https://englishletics.github.io/premium/lessons/class2/lesson8.html,9,premium
-en,2,9,TRUE,en2lesson9,"We've recently learned adjectives, and today we are using them for comparison.",https://englishletics.github.io/premium/lessons/class2/lesson9.html,10,premium
+en,2,1,TRUE,en2lesson1,Let’s get started with the first lesson: Noun (what).,https://englishletics.github.io/premium/lessons/class2/lesson01.html,2,premium
+en,2,2,TRUE,en2lesson2,How did you like the animals lesson? Now we talk about verbs!,https://englishletics.github.io/premium/lessons/class2/lesson02.html,3,premium
+en,2,3,TRUE,en2lesson3,Did you learn the verbs yesterday? Now we build sentences.,https://englishletics.github.io/premium/lessons/class2/lesson03.html,4,premium
+en,2,4,TRUE,en2lesson4,How are your sentences going? Let’s practice verbs! They are very important.,https://englishletics.github.io/premium/lessons/class2/lesson04.html,5,premium
+en,2,5,TRUE,en2lesson5,"The free premium version is over now. If you want to keep the extended functionality up, please upgrade. If not, just do nothing. We are sending you the next lesson with limited functionality right away.",https://englishletics.github.io/premium/lessons/class2/lesson05.html,6,premium
+en,2,6,TRUE,en2lesson6,Let's learn something very useful: Yes/No questions!,https://englishletics.github.io/premium/lessons/class2/lesson06.html,7,premium
+en,2,7,TRUE,en2lesson7,"Today, we are focusing on descriptions with adjectives.",https://englishletics.github.io/premium/lessons/class2/lesson07.html,8,premium
+en,2,8,TRUE,en2lesson8,Practice the most important verb in the English language: To be.,https://englishletics.github.io/premium/lessons/class2/lesson08.html,9,premium
+en,2,9,TRUE,en2lesson9,"We've recently learned adjectives, and today we are using them for comparison.",https://englishletics.github.io/premium/lessons/class2/lesson09.html,10,premium
 en,2,10,TRUE,en2lesson10,Did you learn more about adjectives? Today we're learning more: Adjectives + Prepositions.,https://englishletics.github.io/premium/lessons/class2/lesson10.html,11,premium
 en,2,11,TRUE,en2lesson11,Feeling confident with your knowledge? Let's review your language skills so far.,https://englishletics.github.io/premium/lessons/class2/lesson11.html,12,premium
 en,2,12,TRUE,en2lesson12,"Location, location, location! Today we are learning how to use 'where.'",https://englishletics.github.io/premium/lessons/class2/lesson12.html,13,premium
@@ -49,15 +49,15 @@ en,2,22,TRUE,en2lesson22,"We're taking a break from WH-questions, and turning to
 en,2,23,TRUE,en2lesson23,Make sure you mastered the previous lesson because we're doing more 'How.',https://englishletics.github.io/premium/lessons/class2/lesson23.html,24,premium
 en,2,24,TRUE,en2lesson24,"Back to WH-questions, we're doing 'Why' today.",https://englishletics.github.io/premium/lessons/class2/lesson24.html,25,premium
 en,2,25,TRUE,en2lesson25,"Hopefully you mastered the previous lessons and all the questions, review is next!",https://englishletics.github.io/premium/lessons/class2/lesson25.html,,premium
-vn,1,1,FALSE,vn1lesson1,Hãy bắt đầu bài học đầu tiên: Noun(what).,https://englishletics.github.io/daily/lessons/class1/lesson1.html,2,daily
-vn,1,2,FALSE,vn1lesson2,Bạn có thích bài học về các loài động vật không? Giờ chúng ta đến với phần động từ nhé.,https://englishletics.github.io/daily/lessons/class1/lesson2.html,3,daily
-vn,1,3,FALSE,vn1lesson3,Bạn đã học các động từ hôm qua chưa? Giờ hãy chúng ta sẽ tạo những câu hoàn chỉnh nhé.,https://englishletics.github.io/daily/lessons/class1/lesson3.html,4,daily
-vn,1,4,FALSE,vn1lesson4,Việc tạo câu của bạn thế nào? Hãy thử một phần mới nhé: verb to verb . Nó rất quan trọng đó.,https://englishletics.github.io/daily/lessons/class1/lesson4.html,5,daily
-vn,1,5,FALSE,vn1lesson5,Trường hợp bạn tiếp tục với những bài học miễn phí. Đây là bài học tiếp theo.,https://englishletics.github.io/daily/lessons/class1/lesson5.html,6,daily
-vn,1,6,FALSE,vn1lesson6,Hãy học về một thứ rất hữu ích: Câu hỏi Yes/No,https://englishletics.github.io/daily/lessons/class1/lesson6.html,7,daily
-vn,1,7,FALSE,vn1lesson7,Hôm nay chúng ta sẽ tập trung vào việc dùng tính từ để miêu tả,https://englishletics.github.io/daily/lessons/class1/lesson7.html,8,daily
-vn,1,8,FALSE,vn1lesson8,Cùng thực hành động từ quan trọng nhất trong tiếng Anh: Động từ To be,https://englishletics.github.io/daily/lessons/class1/lesson8.html,9,daily
-vn,1,9,FALSE,vn1lesson9,"Chúng ta đã học tính từ, hôm nay chúng ta sẽ dùng chúng để so sánh",https://englishletics.github.io/daily/lessons/class1/lesson9.html,10,daily
+vn,1,1,FALSE,vn1lesson1,Hãy bắt đầu bài học đầu tiên: Noun(what).,https://englishletics.github.io/daily/lessons/class1/lesson01.html,2,daily
+vn,1,2,FALSE,vn1lesson2,Bạn có thích bài học về các loài động vật không? Giờ chúng ta đến với phần động từ nhé.,https://englishletics.github.io/daily/lessons/class1/lesson02.html,3,daily
+vn,1,3,FALSE,vn1lesson3,Bạn đã học các động từ hôm qua chưa? Giờ hãy chúng ta sẽ tạo những câu hoàn chỉnh nhé.,https://englishletics.github.io/daily/lessons/class1/lesson03.html,4,daily
+vn,1,4,FALSE,vn1lesson4,Việc tạo câu của bạn thế nào? Hãy thử một phần mới nhé: verb to verb . Nó rất quan trọng đó.,https://englishletics.github.io/daily/lessons/class1/lesson04.html,5,daily
+vn,1,5,FALSE,vn1lesson5,Trường hợp bạn tiếp tục với những bài học miễn phí. Đây là bài học tiếp theo.,https://englishletics.github.io/daily/lessons/class1/lesson05.html,6,daily
+vn,1,6,FALSE,vn1lesson6,Hãy học về một thứ rất hữu ích: Câu hỏi Yes/No,https://englishletics.github.io/daily/lessons/class1/lesson06.html,7,daily
+vn,1,7,FALSE,vn1lesson7,Hôm nay chúng ta sẽ tập trung vào việc dùng tính từ để miêu tả,https://englishletics.github.io/daily/lessons/class1/lesson07.html,8,daily
+vn,1,8,FALSE,vn1lesson8,Cùng thực hành động từ quan trọng nhất trong tiếng Anh: Động từ To be,https://englishletics.github.io/daily/lessons/class1/lesson08.html,9,daily
+vn,1,9,FALSE,vn1lesson9,"Chúng ta đã học tính từ, hôm nay chúng ta sẽ dùng chúng để so sánh",https://englishletics.github.io/daily/lessons/class1/lesson09.html,10,daily
 vn,1,10,FALSE,vn1lesson10,Các bạn có học thêm gì mới về tính từ không? Hôm nay chúng ta se học về cấu trúc: Tính từ + Giới từ,https://englishletics.github.io/daily/lessons/class1/lesson10.html,11,daily
 vn,1,11,FALSE,vn1lesson11,Các bạn có thấy tự tin về những gì mình biết không? Hãy cùng ôn lại kiến thức nhé,https://englishletics.github.io/daily/lessons/class1/lesson11.html,12,daily
 vn,1,12,FALSE,vn1lesson12,"Địa điểm, địa điểm, địa điểm! Hôm nay chúng ta sẽ học cách dùng 'where'",https://englishletics.github.io/daily/lessons/class1/lesson12.html,13,daily
@@ -74,15 +74,15 @@ vn,1,22,FALSE,vn1lesson22,"Ta tạm ngưng học về dạng câu  hỏi bắt �
 vn,1,23,FALSE,vn1lesson23,Hãy đảm bảo là mình đã thành thục bài học và những câu hỏi trước nhé vì giờ ta chuyển sang học về từ 'How',https://englishletics.github.io/daily/lessons/class1/lesson23.html,24,daily
 vn,1,24,FALSE,vn1lesson24,"Trở lại với câu hỏi bắt đầu bằng WH', hôm nay ta sẽ học về 'Why'",https://englishletics.github.io/daily/lessons/class1/lesson24.html,25,daily
 vn,1,25,FALSE,vn1lesson25,"Hi vọng mọi người đã hiểu rõ bài học trước và tất cả các câu hỏi, giờ ôn tập nào",https://englishletics.github.io/daily/lessons/class1/lesson25.html,,daily
-vn,2,1,TRUE,vn2lesson1,Bạn làm gì khi rãnh? Hôm nay ta sẽ học về sở thích nhé,https://englishletics.github.io/premium/lessons/class2/lesson1.html,2,premium
-vn,2,2,TRUE,vn2lesson2,"Bài học trước ta học về  'Hobbies'- là thứ bạn thích, hôm nay ta học về thứ bạn ghét nhé",https://englishletics.github.io/premium/lessons/class2/lesson2.html,3,premium
-vn,2,3,TRUE,vn2lesson3,Hằng ngày bạn làm gì nhỉ? Lịch sinh hoạt trong một ngày của bạn như thế nào?,https://englishletics.github.io/premium/lessons/class2/lesson3.html,4,premium
-vn,2,4,TRUE,vn2lesson4,"Truyền hình( Chính kịch), hài kịch và nhiều nhiều nữa. Hôm nay ta sẽ học về các thể loại phim ",https://englishletics.github.io/premium/lessons/class2/lesson4.html,5,premium
-vn,2,5,TRUE,vn2lesson5,"Anh, chị, cha, mẹ và nhiều nhiều nữa. Hôm nay ta sẽ học về gia đình",https://englishletics.github.io/premium/lessons/class2/lesson5.html,6,premium
-vn,2,6,TRUE,vn2lesson6,Hôm nay ta sẽ học về thế giới nhé. Bạn thích đi du lịch ở đâu?,https://englishletics.github.io/premium/lessons/class2/lesson6.html,7,premium
-vn,2,7,TRUE,vn2lesson7,Khi còn nhỏ bạn muốn làm nghề gì? Hãy cùng nói về công việc mơ ước của bạn,https://englishletics.github.io/premium/lessons/class2/lesson7.html,8,premium
-vn,2,8,TRUE,vn2lesson8,Chúng ta đã học về nghề nghiệp mơ ước trong bài học trước. Hôm nay ta sẽ nói về thực tế nhé: Công việc,https://englishletics.github.io/premium/lessons/class2/lesson8.html,9,premium
-vn,2,9,TRUE,vn2lesson9,"Các bạn đã nắm chắc bài học về công việc lần trước chưa? Hôm nay, ta sẽ đi mua sắm thôi!",https://englishletics.github.io/premium/lessons/class2/lesson9.html,10,premium
+vn,2,1,TRUE,vn2lesson1,Bạn làm gì khi rãnh? Hôm nay ta sẽ học về sở thích nhé,https://englishletics.github.io/premium/lessons/class2/lesson01.html,2,premium
+vn,2,2,TRUE,vn2lesson2,"Bài học trước ta học về  'Hobbies'- là thứ bạn thích, hôm nay ta học về thứ bạn ghét nhé",https://englishletics.github.io/premium/lessons/class2/lesson02.html,3,premium
+vn,2,3,TRUE,vn2lesson3,Hằng ngày bạn làm gì nhỉ? Lịch sinh hoạt trong một ngày của bạn như thế nào?,https://englishletics.github.io/premium/lessons/class2/lesson03.html,4,premium
+vn,2,4,TRUE,vn2lesson4,"Truyền hình( Chính kịch), hài kịch và nhiều nhiều nữa. Hôm nay ta sẽ học về các thể loại phim ",https://englishletics.github.io/premium/lessons/class2/lesson04.html,5,premium
+vn,2,5,TRUE,vn2lesson5,"Anh, chị, cha, mẹ và nhiều nhiều nữa. Hôm nay ta sẽ học về gia đình",https://englishletics.github.io/premium/lessons/class2/lesson05.html,6,premium
+vn,2,6,TRUE,vn2lesson6,Hôm nay ta sẽ học về thế giới nhé. Bạn thích đi du lịch ở đâu?,https://englishletics.github.io/premium/lessons/class2/lesson06.html,7,premium
+vn,2,7,TRUE,vn2lesson7,Khi còn nhỏ bạn muốn làm nghề gì? Hãy cùng nói về công việc mơ ước của bạn,https://englishletics.github.io/premium/lessons/class2/lesson07.html,8,premium
+vn,2,8,TRUE,vn2lesson8,Chúng ta đã học về nghề nghiệp mơ ước trong bài học trước. Hôm nay ta sẽ nói về thực tế nhé: Công việc,https://englishletics.github.io/premium/lessons/class2/lesson08.html,9,premium
+vn,2,9,TRUE,vn2lesson9,"Các bạn đã nắm chắc bài học về công việc lần trước chưa? Hôm nay, ta sẽ đi mua sắm thôi!",https://englishletics.github.io/premium/lessons/class2/lesson09.html,10,premium
 vn,2,10,TRUE,vn2lesson10,"Hôm nay, ta sẽ học về những mối tương tác với bạn bè. Tình bạn! ",https://englishletics.github.io/premium/lessons/class2/lesson10.html,11,premium
 vn,2,11,TRUE,vn2lesson11,"Nhìn lại nào, ta đã học về tính từ. Hôm nay, ta sẽ học một thứ tương tự như vậy: Miêu tả ngoại hình",https://englishletics.github.io/premium/lessons/class2/lesson11.html,12,premium
 vn,2,12,TRUE,vn2lesson12,Bạn thông minh hay vui tính? Hãy xem qua tất cả các tính cách nào,https://englishletics.github.io/premium/lessons/class2/lesson12.html,13,premium
@@ -99,15 +99,15 @@ vn,2,22,TRUE,vn2lesson22,Quê bạn nổi tiếng vì gì nhỉ ! Hãy học cá
 vn,2,23,TRUE,vn2lesson23,"Thời gian trước, ta đã học về công việc. Hi vọng các bạn đã nắm vững bài rồi. Hôm nay ta sẽ nói về việc làm",https://englishletics.github.io/premium/lessons/class2/lesson23.html,24,premium
 vn,2,24,TRUE,vn2lesson24,Món ăn yêu thích của bạn là gì? Thức uống yêu thích của bạn là gì? Đó là một chủ đề hay chứ  nhỉ!,https://englishletics.github.io/premium/lessons/class2/lesson24.html,25,premium
 vn,2,25,TRUE,vn2lesson25,Cụm động từ rất quan trọng trong giao tiếp hằng ngày bằng tiếng Anh. Hãy xem qua vài ví dụ nhé!,https://englishletics.github.io/premium/lessons/class2/lesson25.html,,premium
-pt,1,1,FALSE,pt1lesson1,Vamos começar com a primeira lição: Noun (what).,https://englishletics.github.io/daily/lessons/class1/lesson1.html,2,daily
-pt,1,2,FALSE,pt1lesson2,Como você gostou da lição de animais? Agora falamos sobre verbos!,https://englishletics.github.io/daily/lessons/class1/lesson2.html,3,daily
-pt,1,3,FALSE,pt1lesson3,"Você aprendeu os verbos ontem? Agora, nós construímos frases.",https://englishletics.github.io/daily/lessons/class1/lesson3.html,4,daily
-pt,1,4,FALSE,pt1lesson4,Como estão avançando suas frases? Vamos tentar algo mais: verbos. Isto é muito importante.,https://englishletics.github.io/daily/lessons/class1/lesson4.html,5,daily
-pt,1,5,FALSE,pt1lesson5,"Em qualquer caso, você pode continuar aqui com as lições gratuitas. Esta é a sua próxima.",https://englishletics.github.io/daily/lessons/class1/lesson5.html,6,daily
-pt,1,6,FALSE,pt1lesson6,Aprendemos algo muito útil: As perguntas para responder com Sim/Não!,https://englishletics.github.io/daily/lessons/class1/lesson6.html,7,daily
-pt,1,7,FALSE,pt1lesson7,"Hoje, nos concentramos em descrições com adjetivos.",https://englishletics.github.io/daily/lessons/class1/lesson7.html,8,daily
-pt,1,8,FALSE,pt1lesson8,Pratique o verbo mais importante na língua inglesa: to be = ser.,https://englishletics.github.io/daily/lessons/class1/lesson8.html,9,daily
-pt,1,9,FALSE,pt1lesson9,"Aprendemos recentemente adjetivos, e hoje os usamos como comparação.",https://englishletics.github.io/daily/lessons/class1/lesson9.html,10,daily
+pt,1,1,FALSE,pt1lesson1,Vamos começar com a primeira lição: Noun (what).,https://englishletics.github.io/daily/lessons/class1/lesson01.html,2,daily
+pt,1,2,FALSE,pt1lesson2,Como você gostou da lição de animais? Agora falamos sobre verbos!,https://englishletics.github.io/daily/lessons/class1/lesson02.html,3,daily
+pt,1,3,FALSE,pt1lesson3,"Você aprendeu os verbos ontem? Agora, nós construímos frases.",https://englishletics.github.io/daily/lessons/class1/lesson03.html,4,daily
+pt,1,4,FALSE,pt1lesson4,Como estão avançando suas frases? Vamos tentar algo mais: verbos. Isto é muito importante.,https://englishletics.github.io/daily/lessons/class1/lesson04.html,5,daily
+pt,1,5,FALSE,pt1lesson5,"Em qualquer caso, você pode continuar aqui com as lições gratuitas. Esta é a sua próxima.",https://englishletics.github.io/daily/lessons/class1/lesson05.html,6,daily
+pt,1,6,FALSE,pt1lesson6,Aprendemos algo muito útil: As perguntas para responder com Sim/Não!,https://englishletics.github.io/daily/lessons/class1/lesson06.html,7,daily
+pt,1,7,FALSE,pt1lesson7,"Hoje, nos concentramos em descrições com adjetivos.",https://englishletics.github.io/daily/lessons/class1/lesson07.html,8,daily
+pt,1,8,FALSE,pt1lesson8,Pratique o verbo mais importante na língua inglesa: to be = ser.,https://englishletics.github.io/daily/lessons/class1/lesson08.html,9,daily
+pt,1,9,FALSE,pt1lesson9,"Aprendemos recentemente adjetivos, e hoje os usamos como comparação.",https://englishletics.github.io/daily/lessons/class1/lesson09.html,10,daily
 pt,1,10,FALSE,pt1lesson10,Você já aprendeu muito sobre adjetivos? Hoje vamos aprender mais ainda: Adjetivos + Preposições.,https://englishletics.github.io/daily/lessons/class1/lesson10.html,11,daily
 pt,1,11,FALSE,pt1lesson11,Se sente confiante com o seu conhecimento? Vamos rever as suas habilidades linguísticas até agora.,https://englishletics.github.io/daily/lessons/class1/lesson11.html,12,daily
 pt,1,12,FALSE,pt1lesson12,"Localização, localização, localização! Hoje aprendemos a usar 'where' = 'onde'.",https://englishletics.github.io/daily/lessons/class1/lesson12.html,13,daily
@@ -124,15 +124,15 @@ pt,1,22,FALSE,pt1lesson22,"Tomamos uma pausa das perguntas WH, e olhando para ou
 pt,1,23,FALSE,pt1lesson23,Certifique-se de dominar a lição anterior porque perguntamos mais 'how'.,https://englishletics.github.io/daily/lessons/class1/lesson23.html,24,daily
 pt,1,24,FALSE,pt1lesson24,De volta às perguntas WH! Vamos conhecer 'why' = 'porquê' hoje.,https://englishletics.github.io/daily/lessons/class1/lesson24.html,25,daily
 pt,1,25,FALSE,pt1lesson25,Tomara que você dominasse as lições anteriores e todas as perguntas dentro delas. Uma revisão é próxima!,https://englishletics.github.io/daily/lessons/class1/lesson25.html,,daily
-pt,2,1,TRUE,pt2lesson1,O que você faz no seu tempo livre? Aprendemos hobbies hoje.,https://englishletics.github.io/premium/lessons/class2/lesson1.html,2,premium
-pt,2,2,TRUE,pt2lesson2,"A última lição 'Hobbies' foi algo que você ama. Hoje, aprendemos 'what I hate' = 'o que eu odeio'.",https://englishletics.github.io/premium/lessons/class2/lesson2.html,3,premium
-pt,2,3,TRUE,pt2lesson3,O que você faz todos os dias? Qual é a sua rotina diária? Disse se trata a próxima lição.,https://englishletics.github.io/premium/lessons/class2/lesson3.html,4,premium
-pt,2,4,TRUE,pt2lesson4,"Drama, comédia e muito mais. Hoje aprendemos gêneros de filmes!",https://englishletics.github.io/premium/lessons/class2/lesson4.html,5,premium
-pt,2,5,TRUE,pt2lesson5,"Irmão, irmã, pai, mãe e muito mais. Hoje aprendemos tudo sobre família em inglês.",https://englishletics.github.io/premium/lessons/class2/lesson5.html,6,premium
-pt,2,6,TRUE,pt2lesson6,Hoje aprendemos sobre o mundo. Para onde você gostaria de viajar?,https://englishletics.github.io/premium/lessons/class2/lesson6.html,7,premium
-pt,2,7,TRUE,pt2lesson7,O que você queria ser quando era criança? Vamos falar sobre trabalhos dos sonhos.,https://englishletics.github.io/premium/lessons/class2/lesson7.html,8,premium
-pt,2,8,TRUE,pt2lesson8,Na última lição conversamos sobre sonhos .Hoje falamos sobre a realidade: rotina de trabalho!,https://englishletics.github.io/premium/lessons/class2/lesson8.html,9,premium
-pt,2,9,TRUE,pt2lesson9,"Você dominou a lição anterior sobre o trabalho? Hoje, vamos fazer compras!",https://englishletics.github.io/premium/lessons/class2/lesson9.html,10,premium
+pt,2,1,TRUE,pt2lesson1,O que você faz no seu tempo livre? Aprendemos hobbies hoje.,https://englishletics.github.io/premium/lessons/class2/lesson01.html,2,premium
+pt,2,2,TRUE,pt2lesson2,"A última lição 'Hobbies' foi algo que você ama. Hoje, aprendemos 'what I hate' = 'o que eu odeio'.",https://englishletics.github.io/premium/lessons/class2/lesson02.html,3,premium
+pt,2,3,TRUE,pt2lesson3,O que você faz todos os dias? Qual é a sua rotina diária? Disse se trata a próxima lição.,https://englishletics.github.io/premium/lessons/class2/lesson03.html,4,premium
+pt,2,4,TRUE,pt2lesson4,"Drama, comédia e muito mais. Hoje aprendemos gêneros de filmes!",https://englishletics.github.io/premium/lessons/class2/lesson04.html,5,premium
+pt,2,5,TRUE,pt2lesson5,"Irmão, irmã, pai, mãe e muito mais. Hoje aprendemos tudo sobre família em inglês.",https://englishletics.github.io/premium/lessons/class2/lesson05.html,6,premium
+pt,2,6,TRUE,pt2lesson6,Hoje aprendemos sobre o mundo. Para onde você gostaria de viajar?,https://englishletics.github.io/premium/lessons/class2/lesson06.html,7,premium
+pt,2,7,TRUE,pt2lesson7,O que você queria ser quando era criança? Vamos falar sobre trabalhos dos sonhos.,https://englishletics.github.io/premium/lessons/class2/lesson07.html,8,premium
+pt,2,8,TRUE,pt2lesson8,Na última lição conversamos sobre sonhos .Hoje falamos sobre a realidade: rotina de trabalho!,https://englishletics.github.io/premium/lessons/class2/lesson08.html,9,premium
+pt,2,9,TRUE,pt2lesson9,"Você dominou a lição anterior sobre o trabalho? Hoje, vamos fazer compras!",https://englishletics.github.io/premium/lessons/class2/lesson09.html,10,premium
 pt,2,10,TRUE,pt2lesson10,"Hoje, estamos praticando interações com amigos. Amizade!",https://englishletics.github.io/premium/lessons/class2/lesson10.html,11,premium
 pt,2,11,TRUE,pt2lesson11,"Um tempinho atrás, aprendemos adjetivos. Hoje, aprendemos algo semelhante: como descrever a aparência.",https://englishletics.github.io/premium/lessons/class2/lesson11.html,12,premium
 pt,2,12,TRUE,pt2lesson12,Você é engraçado e inteligente? Vamos falar sobre todo tipo de personalidade.,https://englishletics.github.io/premium/lessons/class2/lesson12.html,13,premium

@@ -142,7 +142,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 ## 3. More of examples
 {% include player2.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=90 stop=666 %}
 
-### {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=95 stop=102 %} A. What do you choose?
+### A. What do you choose?
+{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=95 stop=102 %}
 
  - I choose happiness. How about you?
  - I choose money.
@@ -151,7 +152,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
  -  *Tôi chọn hạnh phúc. Còn bạn?*
  -  *Tôi chọn tiền*
 
-### {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=103 stop=110 %} B. What do you like?
+### B. What do you like?
+{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=103 stop=110 %}
 
  - **I like strawberries. How about you?**
  - **I like bananas.**
@@ -161,7 +163,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 - *Tôi thích dâu. Còn bạn*
 - *Tôi thích chuối*
 
-### {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=110 stop=116 %} C. What do you need?
+### C. What do you need?
+{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=110 stop=116 %} 
 
  - **I need a chair. And you?**
  - **I need a board.**
@@ -171,7 +174,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 - *Tôi cần một cái ghế. Còn bạn?*
 - *Tôi cần một cái bảng*
 
-### {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=116 stop=124 %} D. What do you have?
+### D. What do you have?
+{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=116 stop=124 %} 
 
  - **I have some markers. How about you?**
  - **I have some pencils.**
@@ -181,7 +185,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 - *Tôi có vài cây bút lông. Còn bạn?*
 - *Tôi có vài cây bút chì*
 
-### {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=124 stop=130 %} E. What do you want?
+### E. What do you want?
+{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=124 stop=130 %} 
 
 * **I want water. And you?**
 * **I want tea.**
@@ -191,7 +196,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 - *Tôi muốn nước. Còn bạn?*
 - *Tôi muốn trà*
 
-### {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=130 stop=137 %} F. What do you hate?
+### F. What do you hate?
+{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=130 stop=137 %} 
 
 - **I hate crocodiles. How about you?**
 - **I hate snakes.**
@@ -201,7 +207,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 - *Tôi ghét cá xấu. Còn bạn?*
 - *Tôi ghét rắn*
 
-### {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=137 stop=143 %} G. What do you look for?
+### G. What do you look for?
+{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=137 stop=143 %} 
 
 - **I look for a pen. And you?**
 - **I look for some milk.**
@@ -211,7 +218,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 - *Tôi tìm cây bút. Còn bạn?*
 - *Tôi tìm một ít sữa*
 
-### {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=143 stop=150 %} H. What do you look at?
+### H. What do you look at?
+{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=143 stop=150 %} 
 
 - **I look at a tiger. What about you?**
 - **I look at bears.**
@@ -221,7 +229,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 - *Tôi nhìn một con hổ. Còn bạn?*
 - *Tôi nhìn những con gấu*
 
-### {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=150 stop=158 %} I. What do you observe?
+### I. What do you observe?
+{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=150 stop=158 %} 
 
 - **I observe planes and birds. What about you?**
 - **I observe cars and giraffes.**
@@ -231,7 +240,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 - *Tôi quan sát nhiều máy bay và chim. Còn bạn?*
 - *Tôi quan sát nhiều xe hơi và hưu cao cổ*
 
-### {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=158 stop=666 %} J. What do you study?
+### J. What do you study?
+{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=158 stop=666 %} 
 
 - **I study English. How about you?**
 - **I study Vietnamese.**

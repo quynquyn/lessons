@@ -14,14 +14,15 @@ body_classes:
 
     {% if site.trialdeploy %}
       <span class="navbar-text offer">
-        {{page.salestext | default:"Limited Trial version"}}
         
         {% if page.lang == "vn" %}
+          {{page.salestext | default:"Phiên bản dùng thử"}}
           <a class="nav-link btn btn-info" href="{{ site.upgrade_vn }}">Nâng cấp!</a>
         {% elsif page.lang == "pt" %}
-        
+          {{page.salestext | default:"Limited Trial version"}}
           <a class="nav-link btn btn-info" href="{{ site.upgrade_pt }}">Atualizar!</a>
         {% else %}
+          {{page.salestext | default:"Limited Trial version"}}
           <a class="nav-link btn btn-info" href="{{ site.upgrade_en }}">Upgrade me!</a>
         {% endif %}
         
