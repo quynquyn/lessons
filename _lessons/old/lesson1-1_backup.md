@@ -79,13 +79,13 @@ j. - What do you study?
 
 ## #1. Countable nouns
 
-1. **I like a book / I like books** *(Tôi thích một quyển sách/ Tôi thích sách)*
-2. **I like a horse / I like horses** *(Tôi thích một con ngựa/ Tôi thích ngựa )*
-3. **I hate a snake / I hate snakes** *(Tôi ghét một con rắn/ Tôi ghét rắn )*
-4. **I see a bus / I see 5 buses** *(Tôi thấy một cái xe buýt/ Tôi thấy 5 cái xe buýt)*
-5. **I want an orange / I want some oranges** *(Tôi muốn một trái cam/ Tôi muốn một vài trái cam)*
-6. **I need a marker / I need markers** *(Tôi cần một cây bút lông/ Tôi cần bút lông)*
-7. **I talk to a nurse everyday / I talk to nurses everyday** *(Tôi nói chuyện với một cô y tá mỗi ngày/ Tôi nói chuyện với các y tá mỗi ngày)*
+1. **I like a book / I like books** *(Tôi thích một quyển sách / Tôi thích sách)*
+2. **I like a horse / I like horses** *(Tôi thích một con ngựa / Tôi thích ngựa )*
+3. **I hate a snake / I hate snakes** *(Tôi ghét một con rắn / Tôi ghét rắn )*
+4. **I see a bus / I see 5 buses** *(Tôi thấy một cái xe buýt / Tôi thấy 5 cái xe buýt)*
+5. **I want an orange / I want some oranges** *(Tôi muốn một trái cam / Tôi muốn một vài trái cam)*
+6. **I need a marker / I need markers** *(Tôi cần một cây bút lông / Tôi cần bút lông)*
+7. **I talk to a nurse everyday / I talk to nurses everyday** *(Tôi nói chuyện với một cô y tá mỗi ngày / Tôi nói chuyện với các y tá mỗi ngày)*
 
 ## #2. Uncountable nouns
 

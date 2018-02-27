@@ -1,9 +1,9 @@
- ---
+---
 layout: lesson
 class: "1"
 lesson: "03"
 lang: vn
-salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
+salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)" 
 ---
 
 # Lesson 1.3. Noun + verb (what + do)

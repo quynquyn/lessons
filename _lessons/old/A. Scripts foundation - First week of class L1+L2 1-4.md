@@ -44,17 +44,17 @@ Word count is around 1800 of this document (excluding the red text). That’d be
 
 1.       **Countable nouns**
 
-1. **I like a book/ I like books** *(Tôi thích một quyển sách/ Tôi thích sách)*
+1. **I like a book/ I like books** *(Tôi thích một quyển sách / Tôi thích sách)*
 
-2. **I like a horse/ I like horses*** (Tôi thích một con ngựa/ Tôi thích ngựa )*
+2. **I like a horse/ I like horses*** (Tôi thích một con ngựa / Tôi thích ngựa )*
 
-3. **I hate a snake/ I hate snakes** *(Tôi ghét một con rắn/ Tôi ghét rắn )*
+3. **I hate a snake/ I hate snakes** *(Tôi ghét một con rắn / Tôi ghét rắn )*
 
-4. **I see a bus/ I see 5 buses** *(Tôi thấy một cái xe buýt/ Tôi thấy 5 cái xe buýt)*
+4. **I see a bus/ I see 5 buses** *(Tôi thấy một cái xe buýt / Tôi thấy 5 cái xe buýt)*
 
-5. **I want an orange/ I want some oranges*** (Tôi muốn một trái cam/ Tôi muốn một vài trái cam)*
+5. **I want an orange/ I want some oranges*** (Tôi muốn một trái cam / Tôi muốn một vài trái cam)*
 
-6. **I need a marker/ I need markers*** (Tôi cần một cây bút lông/ Tôi cần bút lông)*
+6. **I need a marker/ I need markers*** (Tôi cần một cây bút lông / Tôi cần bút lông)*
 
 7. **I talk to a nurse everyday / I talk to nurses everyday*** (Tôi nói chuyện với một cô y tá mỗi ngày/ Tôi nói chuyện với các y tá mỗi ngày)*
 
@@ -622,9 +622,9 @@ FILE 1
 
 **VOCABULARY**
 
-1. **Playing football/ ping-pong/ badminton/ games/cards/chess **
+1. **Playing football / ping-pong/ badminton/ games/cards/chess **
 
-**(**Đá banh / bóng bàn/ cầu lông / chơi game / đánh bài / chơi cờ)
+**(**Đá banh / bóng bàn / cầu lông / chơi game / đánh bài / chơi cờ)
 
 2. **Doing aerobics / yoga**
 
@@ -636,7 +636,7 @@ FILE 1
 
 4. **Going swimming/ shopping/ fishing/ jogging/ rollerblading/ roller skating/ skateboarding **
 
-**	**(Bơi / mua sắm / câu cá/ đi bộ nhanh/ trượt pa tinh (4 bánh nhỏ mỗi bên 2 bánh) / trượt pa tin (4 bánh nhỏ thành 1 hàng dọc) / trượt pa tin ván)
+**	**(Bơi / mua sắm / câu cá/ đi bộ nhanh / trượt pa tinh (4 bánh nhỏ mỗi bên 2 bánh) / trượt pa tin (4 bánh nhỏ thành 1 hàng dọc) / trượt pa tin ván)
 
 5. **Going for a picnic / Going for a walk.**
 
@@ -648,27 +648,27 @@ FILE 1
 
 7. **Surfing/ Kitesurfing/ Windsurfing **
 
-**	**(lướt ván/ lướt ván diều kéo/ trượt ván buồm 
+**	**(lướt ván/ lướt ván diều kéo / trượt ván buồm 
 
 8. **Hanging out + with my family/ my close friends/ by myself**
 
-(Đi chơi với gia đình/ bạn thân/ một mình)
+(Đi chơi với gia đình / bạn thân / một mình)
 
 9. **Walking the dog/ Taking photos/ taking selfies**
 
-	(Dắt chó đi dạo/ chụp hình/ tự sướng)
+	(Dắt chó đi dạo/ chụp hình / tự sướng)
 
-10. **Riding a smart balance wheel/ ride a hoverboard **
+10. **Riding a smart balance wheel / ride a hoverboard **
 
 **	**(Ván trượt thông mình tự cân bằng)
 
 11. **Drawing/ painting**
 
-**	**(Vẽ/ tô màu)
+**	**(Vẽ / tô màu)
 
 12. **Collecting stamps/ dolls/ coins**
 
-**	**(Thu thập tem/ búp bê/ đồng xu)
+**	**(Thu thập tem/ búp bê / đồng xu)
 
 13. **Horse riding **
 
@@ -944,7 +944,7 @@ FILE 1
 
 VOCABULARY
 
-1. **Get up/ wake up **
+1. **Get up / wake up **
 
 Thức dậy
 
@@ -972,9 +972,9 @@ Thay quần áo
 
 Trang điểm ** **
 
-8. **Have breakfast/ lunch/ dinner**
+8. **Have breakfast / lunch / dinner**
 
-Ăn sáng/ trưa/ tối ** **
+Ăn sáng / trưa / tối ** **
 
 9. **Have a cup of coffee/tea **
 
@@ -1134,13 +1134,13 @@ FILE 2
 
 6. **Scary/ Terrifying  **Sợ/ Hoảng sợ 
 
-7. **Instructive/ Informative/ educational  **Hướng dẫn/ Bổ ích/ Mang tính giáo dục 
+7. **Instructive/ Informative/ educational  **Hướng dẫn/ Bổ ích / Mang tính giáo dục 
 
 8. **Thought - provoking **Kích thích suy nghĩ 
 
 9. **Amazing/ wonderful/fantastic/ awesome/ great **Tuyệt vời 
 
-10. **Terrible/ awful/ disgusting/ disappointing/ silly/ boring/ weird **Tệ/ Tệ/ Thấy gớm/ Gây thất vọng/ Ngớ ngần/ Chán/ Kì cục 
+10. **Terrible/ awful / disgusting/ disappointing/ silly/ boring/ weird **Tệ/ Tệ/ Thấy gớm/ Gây thất vọng/ Ngớ ngần/ Chán/ Kì cục 
 
 **FILE 2**
 

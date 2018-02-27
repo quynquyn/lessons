@@ -148,7 +148,7 @@ Có, anh có đến lớp hôm qua*
 **buy / bought**          
 **fight / fought**     
 **think / thought**     
-**teach/ taught**     
+**teach / taught**     
      
 {% include play.html identifier="irregular" start=71.28 stop=85.28 %}
 **begin / began**     

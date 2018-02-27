@@ -1228,8 +1228,8 @@ Ngớ ngần / Chán / Kì cục",terrível / horrível / nojento / decepcionant
 1,02,eyes,Check,Kiểm tra,verificar,c1l02-check.jpg,class1/images/c1l02-check.jpg,22.25,24.43
 1,02,eyes,Cry,Khóc,chorar,c1l02-cry.jpg,class1/images/c1l02-cry.jpg,24.43,26.47
 1,02,eyes,Sleep,Ngủ,dormir,c1l02-sleep.jpg,class1/images/c1l02-sleep.jpg,26.47,28.92
-1,02,eyes,Dream,Mơ,sonhar,c1l02-dream.jpg,class1/images/c1l02-dream.jpg,28.92,30.99
-1,02,leg,Chase,The đuổi,perseguir,c1l02-chase.jpg,class1/images/c1l02-chase.jpg,30.99,35.4
+1,02,eyes,Dream,Mơ,sonhar,c1l02-dream.jpg,class1/images/c1l02-dream.jpg,28.92,30.93
+1,02,leg,Chase,The đuổi,perseguir,c1l02-chase.jpg,class1/images/c1l02-chase.jpg,33.76,35.4
 1,02,leg,Kick,Đá,bater,c1l02-kick.jpg,class1/images/c1l02-kick.jpg,35.4,37.08
 1,02,leg,Climb,Leo,escalar,c1l02-climb.jpg,class1/images/c1l02-climb.jpg,37.08,38.92
 1,02,leg,Leave,Bỏ lại,sair,c1l02-leave.jpg,class1/images/c1l02-leave.jpg,38.92,40.69
@@ -1264,87 +1264,87 @@ Ngớ ngần / Chán / Kì cục",terrível / horrível / nojento / decepcionant
 1,02,hand,Swim,Bơi,nadar,c1l02-swim.jpg,class1/images/c1l02-swim.jpg,109.45,111.38
 1,02,hand,Choose,Chọn,escolher,c1l02-choose.jpg,class1/images/c1l02-choose.jpg,111.38,113.24
 1,02,hand,Work,Làm việc,trabalhar,c1l02-work.jpg,class1/images/c1l02-work.jpg,113.24,114.89
-1,01,animals,Pig,Heo/Lợn,cerdo,c1l01-pig.jpg,class1/images/c1l01-pig.jpg,,
-1,01,animals,Horse,Ngựa,cavalo,c1l01-horse.jpg,class1/images/c1l01-horse.jpg,,
-1,01,animals,Elephant,Voi,elefante,c1l01-elephant.jpg,class1/images/c1l01-elephant.jpg,,
-1,01,animals,Fish,Cá,peixe,c1l01-fish.jpg,class1/images/c1l01-fish.jpg,,
-1,01,animals,Snake,Rắn,serpente,c1l01-snake.jpg,class1/images/c1l01-snake.jpg,,
-1,01,animals,Giraffe,Hươu cao cổ,girafa,c1l01-giraffe.jpg,class1/images/c1l01-giraffe.jpg,,
-1,01,animals,Dog,Chó,cachorro,c1l01-dog.jpg,class1/images/c1l01-dog.jpg,,
-1,01,animals,Cat,Mèo,gato,c1l01-cat.jpg,class1/images/c1l01-cat.jpg,,
-1,01,animals,Lion,Cọp,leão,c1l01-lion.jpg,class1/images/c1l01-lion.jpg,,
-1,01,animals,Tiger,Hổ,tigre,c1l01-tiger.jpg,class1/images/c1l01-tiger.jpg,,
-1,01,animals,Chicken,Gà,galinha,c1l01-chicken.jpg,class1/images/c1l01-chicken.jpg,,
-1,01,animals,Bird,Chim,pássaro,c1l01-bird.jpg,class1/images/c1l01-bird.jpg,,
-1,01,animals,Turtle,Rùa,tartaruga,c1l01-turtle.jpg,class1/images/c1l01-turtle.jpg,,
-1,01,animals,Rabbit,Thỏ,coelho,c1l01-rabbit.jpg,class1/images/c1l01-rabbit.jpg,,
-1,01,animals,Crocodile,Cá sấu,crocodilo,c1l01-crocodile.jpg,class1/images/c1l01-crocodile.jpg,,
-1,01,animals,Bear,Gấu,urso,c1l01-bear.jpg,class1/images/c1l01-bear.jpg,,
-1,01,fruits,Avocado,Quả bơ,abacate,c1l01-avocado.jpg,class1/images/c1l01-avocado.jpg,,
-1,01,fruits,Apple,Táo,maçã,c1l01-apple.jpg,class1/images/c1l01-apple.jpg,,
-1,01,fruits,Grape,Nho,Uúva,c1l01-grape.jpg,class1/images/c1l01-grape.jpg,,
-1,01,fruits,Lemon,Chanh,limão,c1l01-lemon.jpg,class1/images/c1l01-lemon.jpg,,
-1,01,fruits,Watermelon,Dưa hấu,melancia,c1l01-watermelon.jpg,class1/images/c1l01-watermelon.jpg,,
-1,01,fruits,Strawberry,Dâu tây,morango,c1l01-strawberry.jpg,class1/images/c1l01-strawberry.jpg,,
-1,01,fruits,Papaya,Đu dủ,mamão,c1l01-papaya.jpg,class1/images/c1l01-papaya.jpg,,
-1,01,fruits,Mango,Xoài,manga,c1l01-mango.jpg,class1/images/c1l01-mango.jpg,,
-1,01,fruits,Orange,Cam,laranja,c1l01-orange.jpg,class1/images/c1l01-orange.jpg,,
-1,01,class,Board,Bảng,tábua,c1l01-board.jpg,class1/images/c1l01-board.jpg,,
-1,01,class,Chair,Ghế,cadeira,c1l01-chair.jpg,class1/images/c1l01-chair.jpg,,
-1,01,class,Table,Bàn,mesa,c1l01-table.jpg,class1/images/c1l01-table.jpg,,
-1,01,class,Air conditioner,Máy điều hòa nhiệt độ,ar condicionado,c1l01-air-conditioner.jpg,class1/images/c1l01-air-conditioner.jpg,,
-1,01,class,Pen,Viết mực,caneta,c1l01-pen.jpg,class1/images/c1l01-pen.jpg,,
-1,01,class,Pencil,Viết chì,lápis,c1l01-pencil.jpg,class1/images/c1l01-pencil.jpg,,
-1,01,class,Book,Sách,livro,c1l01-book.jpg,class1/images/c1l01-book.jpg,,
-1,01,class,Marker,Bút lông,marcador,c1l01-marker.jpg,class1/images/c1l01-marker.jpg,,
-1,01,class,Door,Cửa chính,porta,c1l01-door.jpg,class1/images/c1l01-door.jpg,,
-1,01,class,Window,Cửa sổ,janela,c1l01-window.jpg,class1/images/c1l01-window.jpg,,
-1,01,class,Light,Ánh sáng (n)/ Nhẹ nhành (adj),luz,c1l01-light.jpg,class1/images/c1l01-light.jpg,,
-1,01,class,Wall,Bức tường,parede,c1l01-wall.jpg,class1/images/c1l01-wall.jpg,,
-1,01,class,Picture,Bức tranh,retrato,c1l01-picture.jpg,class1/images/c1l01-picture.jpg,,
-1,01,vehicles,Car,Xe hơi,carro,c1l01-car.jpg,class1/images/c1l01-car.jpg,,
-1,01,vehicles,Motorbike,Xe gắn máy,motocicleta,c1l01-motorbike.jpg,class1/images/c1l01-motorbike.jpg,,
-1,01,vehicles,Bike,Xe đạp,bicicleta,c1l01-bike.jpg,class1/images/c1l01-bike.jpg,,
-1,01,vehicles,Truck,Xe tải,caminhão,c1l01-truck.jpg,class1/images/c1l01-truck.jpg,,
-1,01,vehicles,Train,Tàu hỏa,trem,c1l01-train.jpg,class1/images/c1l01-train.jpg,,
-1,01,vehicles,Plane,Máy bay,avião,c1l01-plane.jpg,class1/images/c1l01-plane.jpg,,
-1,01,vehicles,Bus,Xe buýt,ônibus,c1l01-bus.jpg,class1/images/c1l01-bus.jpg,,
-1,01,vehicles,Taxi,Taxi,táxi,c1l01-taxi.jpg,class1/images/c1l01-taxi.jpg,,
-1,01,vehicles,Boat,Thuyền,barco,c1l01-boat.jpg,class1/images/c1l01-boat.jpg,,
-1,01,people,Teacher,Giáo viên,mestre,c1l01-teacher.jpg,class1/images/c1l01-teacher.jpg,,
-1,01,people,Student,Học sinh,aluno,c1l01-student.jpg,class1/images/c1l01-student.jpg,,
-1,01,people,Doctor,Bác sĩ,médico,c1l01-doctor.jpg,class1/images/c1l01-doctor.jpg,,
-1,01,people,Nurse,Y tá,enfermeira,c1l01-nurse.jpg,class1/images/c1l01-nurse.jpg,,
-1,01,thingslife,Air,Không khí,ar,c1l01-air.jpg,class1/images/c1l01-air.jpg,,
-1,01,thingslife,Food,Thức ăn,comida,c1l01-food.jpg,class1/images/c1l01-food.jpg,,
-1,01,thingslife,Money,Tiền,dinheiro,c1l01-money.jpg,class1/images/c1l01-money.jpg,,
-1,01,thingslife,Health,Sức khỏe,saúde,c1l01-health.jpg,class1/images/c1l01-health.jpg,,
-1,01,thingslife,Happiness,Niềm hạnh phúc,felicidade,c1l01-happiness.jpg,class1/images/c1l01-happiness.jpg,,
-1,01,thingslife,Love,Tình yêu,amor,c1l01-love.jpg,class1/images/c1l01-love.jpg,,
-1,01,thingslife,Sadness,Nỗi buồn,tristeza,c1l01-sadness.jpg,class1/images/c1l01-sadness.jpg,,
-1,01,thingslife,Time,Thời gian,tempo,c1l01-time.jpg,class1/images/c1l01-time.jpg,,
-1,01,thingslife,Water,Nước,agua,c1l01-water.jpg,class1/images/c1l01-water.jpg,,
-1,01,uncountable,Homework,Bài tập về nhà,dever de casa,c1l01-homework.jpg,class1/images/c1l01-homework.jpg,,
-1,01,uncountable,Housework,Việc nhà,trabalho doméstico,c1l01-housework.jpg,class1/images/c1l01-housework.jpg,,
-1,01,uncountable,Vietnamese,Tiếng Việt/ Người Việt ,vietnamita,c1l01-vietnamese.jpg,class1/images/c1l01-vietnamese.jpg,,
-1,01,uncountable,Tea,Trà,chá,c1l01-tea.jpg,class1/images/c1l01-tea.jpg,,
-1,01,uncountable,Rice,Gạo,arroz,c1l01-rice.jpg,class1/images/c1l01-rice.jpg,,
-1,01,uncountable,Hair,Tóc,cabelo,c1l01-hair.jpg,class1/images/c1l01-hair.jpg,,
-1,01,uncountable,Sugar,Đường,açúcar,c1l01-sugar.jpg,class1/images/c1l01-sugar.jpg,,
-1,01,uncountable,Salt,Muối,sal,c1l01-salt.jpg,class1/images/c1l01-salt.jpg,,
-1,01,commonverb,See,Thấy,ver,c1l01-see.jpg,class1/images/c1l01-see.jpg,,
-1,01,commonverb,Watch,Xem,assistir,c1l01-watch.jpg,class1/images/c1l01-watch.jpg,,
-1,01,commonverb,Look At,Nhìn,olhar para,c1l01-look-at.jpg,class1/images/c1l01-look-at.jpg,,
-1,01,commonverb,Look for,Tìm kiếm,procurar,c1l01-look-for.jpg,class1/images/c1l01-look-for.jpg,,
-1,01,commonverb,Observe,Quan sát,observar,c1l01-observe.jpg,class1/images/c1l01-observe.jpg,,
-1,01,commonverb,Buy,Mua,comprar,c1l01-buy.jpg,class1/images/c1l01-buy.jpg,,
-1,01,commonverb,Sell,Bán,vender,c1l01-sell.jpg,class1/images/c1l01-sell.jpg,,
-1,01,commonverb,Hate,Ghét,odiar,c1l01-hate.jpg,class1/images/c1l01-hate.jpg,,
-1,01,commonverb,Like,Thích,gostar,c1l01-like.jpg,class1/images/c1l01-like.jpg,,
-1,01,commonverb,Love,Yêu,amar,c1l01-love.jpg,class1/images/c1l01-love.jpg,,
-1,01,commonverb,Want,Muốn,quer,c1l01-want.jpg,class1/images/c1l01-want.jpg,,
-1,01,commonverb,Need,Cần,precisar,c1l01-need.jpg,class1/images/c1l01-need.jpg,,
-1,01,commonverb,Choose,Lựa chọn,escolher,c1l01-choose.jpg,class1/images/c1l01-choose.jpg,,
+1,01,animals,Pig,Heo/Lợn,cerdo,c1l01-pig.jpg,class1/images/c1l01-pig.jpg,6.88,8.73
+1,01,animals,Horse,Ngựa,cavalo,c1l01-horse.jpg,class1/images/c1l01-horse.jpg,8.73,10.53
+1,01,animals,Elephant,Voi,elefante,c1l01-elephant.jpg,class1/images/c1l01-elephant.jpg,10.53,12.17
+1,01,animals,Fish,Cá,peixe,c1l01-fish.jpg,class1/images/c1l01-fish.jpg,12.17,14.12
+1,01,animals,Snake,Rắn,serpente,c1l01-snake.jpg,class1/images/c1l01-snake.jpg,14.12,16.31
+1,01,animals,Giraffe,Hươu cao cổ,girafa,c1l01-giraffe.jpg,class1/images/c1l01-giraffe.jpg,16.31,18.21
+1,01,animals,Dog,Chó,cachorro,c1l01-dog.jpg,class1/images/c1l01-dog.jpg,18.21,20.03
+1,01,animals,Cat,Mèo,gato,c1l01-cat.jpg,class1/images/c1l01-cat.jpg,20.03,22.64
+1,01,animals,Lion,Cọp,leão,c1l01-lion.jpg,class1/images/c1l01-lion.jpg,22.64,24.13
+1,01,animals,Tiger,Hổ,tigre,c1l01-tiger.jpg,class1/images/c1l01-tiger.jpg,24.13,25.87
+1,01,animals,Chicken,Gà,galinha,c1l01-chicken.jpg,class1/images/c1l01-chicken.jpg,25.87,27.61
+1,01,animals,Bird,Chim,pássaro,c1l01-bird.jpg,class1/images/c1l01-bird.jpg,27.61,29.3
+1,01,animals,Turtle,Rùa,tartaruga,c1l01-turtle.jpg,class1/images/c1l01-turtle.jpg,29.3,30.93
+1,01,animals,Rabbit,Thỏ,coelho,c1l01-rabbit.jpg,class1/images/c1l01-rabbit.jpg,30.93,32.85
+1,01,animals,Crocodile,Cá sấu,crocodilo,c1l01-crocodile.jpg,class1/images/c1l01-crocodile.jpg,32.85,34.89
+1,01,animals,Bear,Gấu,urso,c1l01-bear.jpg,class1/images/c1l01-bear.jpg,34.89,36.37
+1,01,fruits,Avocado,Quả bơ,abacate,c1l01-avocado.jpg,class1/images/c1l01-avocado.jpg,1.36,3.07
+1,01,fruits,Apple,Táo,maçã,c1l01-apple.jpg,class1/images/c1l01-apple.jpg,3.07,4.7
+1,01,fruits,Grape,Nho,Uúva,c1l01-grape.jpg,class1/images/c1l01-grape.jpg,6.7,7.87
+1,01,fruits,Lemon,Chanh,limão,c1l01-lemon.jpg,class1/images/c1l01-lemon.jpg,7.87,9.76
+1,01,fruits,Watermelon,Dưa hấu,melancia,c1l01-watermelon.jpg,class1/images/c1l01-watermelon.jpg,9.76,12.12
+1,01,fruits,Strawberry,Dâu tây,morango,c1l01-strawberry.jpg,class1/images/c1l01-strawberry.jpg,12.12,14.21
+1,01,fruits,Papaya,Đu dủ,mamão,c1l01-papaya.jpg,class1/images/c1l01-papaya.jpg,14.21,15.87
+1,01,fruits,Mango,Xoài,manga,c1l01-mango.jpg,class1/images/c1l01-mango.jpg,15.87,17.46
+1,01,fruits,Orange,Cam,laranja,c1l01-orange.jpg,class1/images/c1l01-orange.jpg,17.46,19.23
+1,01,thingsinclass,Board,Bảng,tábua,c1l01-board.jpg,class1/images/c1l01-board.jpg,2.05,3.59
+1,01,thingsinclass,Chair,Ghế,cadeira,c1l01-chair.jpg,class1/images/c1l01-chair.jpg,3.59,5.13
+1,01,thingsinclass,Table,Bàn,mesa,c1l01-table.jpg,class1/images/c1l01-table.jpg,5.13,6.43
+1,01,thingsinclass,Air conditioner,Máy điều hòa nhiệt độ,ar condicionado,c1l01-air-conditioner.jpg,class1/images/c1l01-air-conditioner.jpg,6.43,8.27
+1,01,thingsinclass,Pen,Viết mực,caneta,c1l01-pen.jpg,class1/images/c1l01-pen.jpg,8.27,9.61
+1,01,thingsinclass,Pencil,Viết chì,lápis,c1l01-pencil.jpg,class1/images/c1l01-pencil.jpg,9.61,11.53
+1,01,thingsinclass,Book,Sách,livro,c1l01-book.jpg,class1/images/c1l01-book.jpg,11.53,13.2
+1,01,thingsinclass,Marker,Bút lông,marcador,c1l01-marker.jpg,class1/images/c1l01-marker.jpg,13.2,14.9
+1,01,thingsinclass,Door,Cửa chính,porta,c1l01-door.jpg,class1/images/c1l01-door.jpg,14.9,16.63
+1,01,thingsinclass,Window,Cửa sổ,janela,c1l01-window.jpg,class1/images/c1l01-window.jpg,16.63,18.2
+1,01,thingsinclass,Light,Ánh sáng (n)/ Nhẹ nhành (adj),luz,c1l01-light.jpg,class1/images/c1l01-light.jpg,18.2,20.06
+1,01,thingsinclass,Wall,Bức tường,parede,c1l01-wall.jpg,class1/images/c1l01-wall.jpg,20.06,22.03
+1,01,thingsinclass,Picture,Bức tranh,retrato,c1l01-picture.jpg,class1/images/c1l01-picture.jpg,22.03,23.41
+1,01,vehicles,Car,Xe hơi,carro,c1l01-car.jpg,class1/images/c1l01-car.jpg,2,3.44
+1,01,vehicles,Motorbike,Xe gắn máy,motocicleta,c1l01-motorbike.jpg,class1/images/c1l01-motorbike.jpg,3.44,4.82
+1,01,vehicles,Bike,Xe đạp,bicicleta,c1l01-bike.jpg,class1/images/c1l01-bike.jpg,4.82,6.34
+1,01,vehicles,Truck,Xe tải,caminhão,c1l01-truck.jpg,class1/images/c1l01-truck.jpg,6.34,8.02
+1,01,vehicles,Train,Tàu hỏa,trem,c1l01-train.jpg,class1/images/c1l01-train.jpg,8.02,9.62
+1,01,vehicles,Plane,Máy bay,avião,c1l01-plane.jpg,class1/images/c1l01-plane.jpg,9.62,11.66
+1,01,vehicles,Bus,Xe buýt,ônibus,c1l01-bus.jpg,class1/images/c1l01-bus.jpg,11.66,13.28
+1,01,vehicles,Taxi,Taxi,táxi,c1l01-taxi.jpg,class1/images/c1l01-taxi.jpg,13.28,14.9
+1,01,vehicles,Boat,Thuyền,barco,c1l01-boat.jpg,class1/images/c1l01-boat.jpg,14.9,16.53
+1,01,people,Teacher,Giáo viên,mestre,c1l01-teacher.jpg,class1/images/c1l01-teacher.jpg,2.26,3.67
+1,01,people,Student,Học sinh,aluno,c1l01-student.jpg,class1/images/c1l01-student.jpg,3.67,5.27
+1,01,people,Doctor,Bác sĩ,médico,c1l01-doctor.jpg,class1/images/c1l01-doctor.jpg,5.27,6.66
+1,01,people,Nurse,Y tá,enfermeira,c1l01-nurse.jpg,class1/images/c1l01-nurse.jpg,6.66,8.4
+1,01,thingslife,Air,Không khí,ar,c1l01-air.jpg,class1/images/c1l01-air.jpg,5.41,7.09
+1,01,thingslife,Food,Thức ăn,comida,c1l01-food.jpg,class1/images/c1l01-food.jpg,7.09,9.13
+1,01,thingslife,Money,Tiền,dinheiro,c1l01-money.jpg,class1/images/c1l01-money.jpg,9.13,11.19
+1,01,thingslife,Health,Sức khỏe,saúde,c1l01-health.jpg,class1/images/c1l01-health.jpg,11.19,13.14
+1,01,thingslife,Happiness,Niềm hạnh phúc,felicidade,c1l01-happiness.jpg,class1/images/c1l01-happiness.jpg,13.14,15.2
+1,01,thingslife,Love,Tình yêu,amor,c1l01-love.jpg,class1/images/c1l01-love.jpg,15.2,17.43
+1,01,thingslife,Sadness,Nỗi buồn,tristeza,c1l01-sadness.jpg,class1/images/c1l01-sadness.jpg,17.43,19.31
+1,01,thingslife,Time,Thời gian,tempo,c1l01-time.jpg,class1/images/c1l01-time.jpg,19.31,21.27
+1,01,thingslife,Water,Nước,agua,c1l01-water.jpg,class1/images/c1l01-water.jpg,21.27,23.25
+1,01,uncountable,Homework,Bài tập về nhà,dever de casa,c1l01-homework.jpg,class1/images/c1l01-homework.jpg,3.06,4.52
+1,01,uncountable,Housework,Việc nhà,trabalho doméstico,c1l01-housework.jpg,class1/images/c1l01-housework.jpg,4.52,6.36
+1,01,uncountable,Vietnamese,Tiếng Việt/ Người Việt ,vietnamita,c1l01-vietnamese.jpg,class1/images/c1l01-vietnamese.jpg,6.36,8.3
+1,01,uncountable,Tea,Trà,chá,c1l01-tea.jpg,class1/images/c1l01-tea.jpg,8.3,11.13
+1,01,uncountable,Rice,Gạo,arroz,c1l01-rice.jpg,class1/images/c1l01-rice.jpg,11.13,12.75
+1,01,uncountable,Hair,Tóc,cabelo,c1l01-hair.jpg,class1/images/c1l01-hair.jpg,12.75,14.2
+1,01,uncountable,Sugar,Đường,açúcar,c1l01-sugar.jpg,class1/images/c1l01-sugar.jpg,14.2,15.59
+1,01,uncountable,Salt,Muối,sal,c1l01-salt.jpg,class1/images/c1l01-salt.jpg,15.59,16.96
+1,01,commonverb,See,Thấy,ver,c1l01-see.jpg,class1/images/c1l01-see.jpg,2.45,3.7
+1,01,commonverb,Watch,Xem,assistir,c1l01-watch.jpg,class1/images/c1l01-watch.jpg,3.7,5.25
+1,01,commonverb,Look At,Nhìn,olhar para,c1l01-look-at.jpg,class1/images/c1l01-look-at.jpg,5.25,6.91
+1,01,commonverb,Look for,Tìm kiếm,procurar,c1l01-look-for.jpg,class1/images/c1l01-look-for.jpg,6.91,9.04
+1,01,commonverb,Observe,Quan sát,observar,c1l01-observe.jpg,class1/images/c1l01-observe.jpg,9.04,11.12
+1,01,commonverb,Buy,Mua,comprar,c1l01-buy.jpg,class1/images/c1l01-buy.jpg,11.12,12.67
+1,01,commonverb,Sell,Bán,vender,c1l01-sell.jpg,class1/images/c1l01-sell.jpg,12.67,14.33
+1,01,commonverb,Hate,Ghét,odiar,c1l01-hate.jpg,class1/images/c1l01-hate.jpg,14.33,16.12
+1,01,commonverb,Like,Thích,gostar,c1l01-like.jpg,class1/images/c1l01-like.jpg,16.12,17.96
+1,01,commonverb,Love,Yêu,amar,c1l01-love.jpg,class1/images/c1l01-love.jpg,17.96,19.8
+1,01,commonverb,Want,Muốn,quer,c1l01-want.jpg,class1/images/c1l01-want.jpg,19.8,21.85
+1,01,commonverb,Need,Cần,precisar,c1l01-need.jpg,class1/images/c1l01-need.jpg,21.85,23.44
+1,01,commonverb,Choose,Lựa chọn,escolher,c1l01-choose.jpg,class1/images/c1l01-choose.jpg,23.44,25.3
 2,02,vocabulary,Talking to unfriendly people,Nói chuyện với người không thân thiện,conversar com pessoas hostis,c2l02-talking-to-unfriendly-people.jpg,class2/images/c2l02-talking-to-unfriendly-people.jpg,8.42,10.66
 2,02,vocabulary,Arguing with overly emotional people,Cãi nhau với người thái quá cảm xúc,brigar com pessoas excessivamente emocionais,c2l02-arguing-with-overly-emotional-people.jpg,class2/images/c2l02-arguing-with-overly-emotional-people.jpg,12.85,15.6
 2,02,vocabulary,Getting up early in the morning,Thức dậy sớm,levantar-se cedo pela manhã,c2l02-getting-up-early-in-the-morning.jpg,class2/images/c2l02-getting-up-early-in-the-morning.jpg,17.62,19.46
@@ -1369,10 +1369,10 @@ Ngớ ngần / Chán / Kì cục",terrível / horrível / nojento / decepcionant
 2,01,vocabulary,Doing aerobics / yoga (aerobic / yoga,,fazer aeróbica / ioga (aeróbica / ioga),c2l01-doing-aerobics-yoga-aerobic-yoga.jpg,class2/images/c2l01-doing-aerobics-yoga-aerobic-yoga.jpg,23.78,27.82
 2,01,vocabulary,Working out at the gym,Tập luyện ở phòng gym,fazer musculação na academia,c2l01-working-out-at-the-gym.jpg,class2/images/c2l01-working-out-at-the-gym.jpg,30.18,32.05
 2,01,vocabulary,Going swimming,Bơi,ir nadar,c2l01-going-swimming.jpg,class2/images/c2l01-going-swimming.jpg,35.09,50.09
-2,01,vocabulary,Shopping ,Mua sắm,ir ao shopping,c2l01-shopping-.jpg,class2/images/c2l01-shopping-.jpg,,
-2,01,vocabulary,Fishing ,Câu cá,ir pescar ,c2l01-fishing-.jpg,class2/images/c2l01-fishing-.jpg,,
-2,01,vocabulary,Jogging ,đi bộ nhanh,ir correr,c2l01-jogging-.jpg,class2/images/c2l01-jogging-.jpg,,
-2,01,vocabulary,Rollerblading ,Trượt pa tinh (4 bánh nhỏ mỗi bên 2 bánh),ir patinar,c2l01-rollerblading-.jpg,class2/images/c2l01-rollerblading-.jpg,,
+2,01,vocabulary,Shopping,Mua sắm,ir ao shopping,c2l01-shopping.jpg,class2/images/c2l01-shopping.jpg,,
+2,01,vocabulary,Fishing,Câu cá,ir pescar ,c2l01-fishing.jpg,class2/images/c2l01-fishing.jpg,,
+2,01,vocabulary,Jogging,đi bộ nhanh,ir correr,c2l01-jogging.jpg,class2/images/c2l01-jogging.jpg,,
+2,01,vocabulary,Rollerblading,Trượt pa tinh (4 bánh nhỏ mỗi bên 2 bánh),ir patinar,c2l01-rollerblading.jpg,class2/images/c2l01-rollerblading.jpg,,
 2,01,vocabulary,Roller skating,Trượt pa tin (4 bánh nhỏ thành 1 hàng dọc),ir de patins,c2l01-roller-skating.jpg,class2/images/c2l01-roller-skating.jpg,,
 2,01,vocabulary,Skateboarding,Trượt pa tin ván,ir de skate,c2l01-skateboarding.jpg,class2/images/c2l01-skateboarding.jpg,,
 2,01,vocabulary,Going for a picnic / Going for a walk,Đi picnic/ đi bộ đi dạo,ir de piquenique / ir dar um passeio,c2l01-going-for-a-picnic-going-for-a-walk.jpg,class2/images/c2l01-going-for-a-picnic-going-for-a-walk.jpg,52.3,57.58
