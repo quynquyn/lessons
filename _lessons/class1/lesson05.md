@@ -13,12 +13,15 @@ lang: vn
 
 ## Vocabulary 
 
+{% include player2.html identifier="Vocabulary" class=page.class lesson=page.lesson %}
+
 ### Pronoun  
 
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
 		section="pronoun"
+		voiceover="Vocabulary" 
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -30,6 +33,7 @@ lang: vn
 		class=page.class 
 		lesson=page.lesson 
 		section="peopleinyourfamily"
+		voiceover="Vocabulary" 
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -40,6 +44,7 @@ lang: vn
 		class=page.class 
 		lesson=page.lesson 
 		section="jobs"
+		voiceover="Vocabulary" 
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -52,6 +57,7 @@ lang: vn
 		class=page.class 
 		lesson=page.lesson 
 		section="verbs"
+		voiceover="Vocabulary" 
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
