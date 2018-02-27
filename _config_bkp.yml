@@ -1,0 +1,41 @@
+baseurl: /premium
+port: 4000
+destination: ./_site
+github: [metadata]
+encoding: UTF-8
+kramdown:
+ input: GFM
+ hard_wrap: false
+future: true
+jailed: false
+gfm_quirks: paragraph_end
+collections:
+  lessons:
+    output: true
+  pages:
+    output: true
+include: ['.htaccess']
+exclude: [not-in-git, node_modules, artwork, csv_to_html]
+trialdeploy: false
+upgrade_level1: https://get.englishletics.com/product/english-beginner-course-5-weeks/
+upgrade_level2: https://get.englishletics.com/
+
+
+page_gen:
+  - index_files: false
+    data: api 
+    template: api_entry
+    name: current_lesson_compound
+    dir: api_free
+    extension: json
+    filter_condition: record['premium'] == 'FALSE'
+  - index_files: false
+    data: api 
+    template: api_entry
+    name: current_lesson_compound
+    dir: api_premium
+    extension: json
+    filter_condition: record['premium'] == 'TRUE'
+
+
+
