@@ -2,7 +2,8 @@
 layout: lesson
 class: "1"
 lesson: "01"
-salestext: "Free full version (3 days left)"
+lang: vn
+salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 ---
 
 

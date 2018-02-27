@@ -2,6 +2,7 @@
 layout: lesson
 class: "2"
 lesson: "25"
+lang: vn
 ---
 
 

@@ -2,7 +2,8 @@
 layout: lesson
 class: "1"
 lesson: "04"
-salestext: "Free full version (last day)"
+lang: vn
+salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 ---
 
 # lesson 1.4: verb to verb 

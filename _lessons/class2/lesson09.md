@@ -2,10 +2,7 @@
 layout: lesson
 class: "2"
 lesson: "09"
-
-test1: ### Styles  - *TODO*
-test1: ### Shopping places  - *TODO*
-test1: ### Have you ever - *TODO*
+lang: vn
 
 ---
 

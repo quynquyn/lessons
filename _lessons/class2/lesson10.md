@@ -2,6 +2,7 @@
 layout: lesson
 class: "2"
 lesson: "10"
+lang: vn
 ---
 
 # Lesson 2.10: Friendship

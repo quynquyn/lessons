@@ -2,6 +2,7 @@
 layout: lesson
 class: "2"
 lesson: "08"
+lang: vn
 ---
 
 # Lesson 2.8: Working life 

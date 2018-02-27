@@ -2,7 +2,8 @@
 layout: lesson
 class: "2"
 lesson: "02"
-salestext: "Free full version (2 days left)"
+lang: vn
+salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 ---
 
 # Lesson 2: What I hate 

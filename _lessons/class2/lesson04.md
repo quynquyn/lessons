@@ -2,7 +2,8 @@
 layout: lesson
 class: "2"
 lesson: "04"
-salestext: "Free full version (last day)"
+lang: vn
+salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 ---
 
 # Lesson 2.4: movies
