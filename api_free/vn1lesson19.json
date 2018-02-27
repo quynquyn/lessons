@@ -1,0 +1,25 @@
+{
+  "set_attributes":
+    {
+      "el-last-url": "https://englishletics.github.io/daily/lessons/class1/lesson19.html",
+      "el-lessonid": "20"
+    },
+  "messages": [
+    {
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "Hi vọng là các bạn đã thành thạo dạng câu hỏi bắt đầu bằng WH lần trước, hôm nay ta sẽ học câu hỏi bắt đầu bằng WH khác: What",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://englishletics.github.io/daily/lessons/class1/lesson19.html",
+              "title": "Open Lesson"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

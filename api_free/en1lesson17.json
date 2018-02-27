@@ -1,0 +1,25 @@
+{
+  "set_attributes":
+    {
+      "el-last-url": "https://englishletics.github.io/daily/lessons/class1/lesson17.html",
+      "el-lessonid": "18"
+    },
+  "messages": [
+    {
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "Practice your WH-questions! Who - Where - When.",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://englishletics.github.io/daily/lessons/class1/lesson17.html",
+              "title": "Open Lesson"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -13,7 +13,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 ## Vocabulary
 
 ### Animals
-{% include player2.html identifier="animals" class=page.class lesson=page.lesson %}
+{% include player2.html identifier="Animals" class=page.class lesson=page.lesson %}
 
 {% include wordgrid.html 
 		class=page.class 
@@ -26,7 +26,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 
 ### Fruits
-{% include player2.html identifier="fruits" class=page.class lesson=page.lesson %}
+{% include player2.html identifier="Fruits" class=page.class lesson=page.lesson %}
 
 {% include wordgrid.html 
 		class=page.class 
@@ -38,19 +38,19 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 
 ### Things in class
-{% include player2.html identifier="thingsinclass" class=page.class lesson=page.lesson %}
+{% include player2.html identifier="ThingsInClass" class=page.class lesson=page.lesson %}
 
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
-		section="class"
+		section="thingsinclass"
 		voiceover="ThingsInClass"
 		database=site.data.vocabulary 
 		trial=false %}
 
 
 ### Vehicles
-{% include player2.html identifier="vehicles" class=page.class lesson=page.lesson %}
+{% include player2.html identifier="Vehicles" class=page.class lesson=page.lesson %}
 
 {% include wordgrid.html 
 		class=page.class 
@@ -62,7 +62,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 
 ### People
-{% include player2.html identifier="people" class=page.class lesson=page.lesson %}
+{% include player2.html identifier="People" class=page.class lesson=page.lesson %}
 
 {% include wordgrid.html 
 		class=page.class 
@@ -78,7 +78,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 ## Uncountable nouns
 
 ### Important things in your life
-{% include player2.html identifier="thingslife" class=page.class lesson=page.lesson %}
+{% include player2.html identifier="Important" class=page.class lesson=page.lesson %}
 
 {% include wordgrid.html 
 		class=page.class 
@@ -90,7 +90,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 
 ### Other uncountable things
-{% include player2.html identifier="uncountable" class=page.class lesson=page.lesson %}
+{% include player2.html identifier="Other" class=page.class lesson=page.lesson %}
 
 {% include wordgrid.html 
 		class=page.class 
@@ -102,7 +102,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 
 ## Some common verbs
-{% include player2.html identifier="commonverb" class=page.class lesson=page.lesson %}
+{% include player2.html identifier="Verbs" class=page.class lesson=page.lesson %}
 
 {% include wordgrid.html 
 		class=page.class 

@@ -18,6 +18,7 @@ lang: vn
 		class=page.class 
 		lesson=page.lesson 
 		section="partsoftheday"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -28,6 +29,7 @@ lang: vn
 		class=page.class 
 		lesson=page.lesson 
 		section="seasons"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 		
@@ -39,6 +41,7 @@ lang: vn
 		class=page.class 
 		lesson=page.lesson 
 		section="daysoftheweek"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -50,6 +53,7 @@ lang: vn
 		class=page.class 
 		lesson=page.lesson 
 		section="months"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -61,6 +65,7 @@ lang: vn
 		class=page.class 
 		lesson=page.lesson 
 		section="frequency"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -70,6 +75,7 @@ lang: vn
 		class=page.class 
 		lesson=page.lesson 
 		section="days"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 

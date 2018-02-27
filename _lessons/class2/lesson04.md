@@ -21,6 +21,7 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 		class=page.class 
 		lesson=page.lesson 
 		section="favoritekindofmovie"
+		voiceover="lesson-vocabulary"
 		database=site.data.vocabulary 
 		trial=false %}
 		

@@ -15,7 +15,7 @@ lang: vn
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
-		section="vocabulary"
+		section="all"
 		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}

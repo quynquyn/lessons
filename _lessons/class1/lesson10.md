@@ -16,6 +16,7 @@ lang: vn
 		class=page.class 
 		lesson=page.lesson 
 		section="vocabulary"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 

@@ -1,0 +1,25 @@
+{
+  "set_attributes":
+    {
+      "el-last-url": "https://englishletics.github.io/daily/lessons/class1/lesson24.html",
+      "el-lessonid": "25"
+    },
+  "messages": [
+    {
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "Back to WH-questions, we're doing 'Why' today.",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://englishletics.github.io/daily/lessons/class1/lesson24.html",
+              "title": "Open Lesson"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

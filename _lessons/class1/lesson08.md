@@ -13,10 +13,12 @@ lang: vn
 
 ## Vocabulary
 
+
 {% include wordgrid.html 
 		class=page.class 
 		lesson=page.lesson 
 		section="vocabulary"
+		voiceover="lesson-vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
