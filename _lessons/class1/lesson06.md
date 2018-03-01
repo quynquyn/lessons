@@ -32,7 +32,7 @@ lang: vn
 
 2. {% include play.html identifier="lesson-conversation" start=6 stop=14 %} **Does the man always want to follow the crowd?**    
 **No, the man doesn't always want to follow the crowd.**    
-*- Có phải người đàn ông đó luôn muốn đi theo đám đông không??*    
+*- Có phải người đàn ông đó luôn muốn đi theo đám đông không?*    
 *- Không phải, người đàn ông đó không phải lúc nào cũng muốn đi theo đám đông*    
 
 
@@ -47,7 +47,7 @@ lang: vn
 
 4. {% include play.html identifier="lesson-conversation" start=22 stop=34 %} **Does the secretary need to borrow money from her manager?**  
 **No, the secretary doesn't need to borrow money from her manager. She needs to borrow money from her friend.**  
-*-Có phải cô thư kí cần mượn tiền từ người giám đốc không?*  
+*- Có phải cô thư kí cần mượn tiền từ người giám đốc không?*  
 *- Không,cô thư kí không cần mượn tiền từ người giám đốc. Cô ấy cần mượn tiền từ người bạn*  
 
 5. {% include play.html identifier="lesson-conversation" start=34 stop=43 %} **Does your grandmother give your a hug every time you visit her?**   
@@ -57,11 +57,11 @@ lang: vn
 
 6. {% include play.html identifier="lesson-conversation" start=43 stop=51 %} **Does your boyfriend smoke cigarettes?**   
 **No, my boyfriend doesn't smoke cigarettes.**  
-*-Có phải bạn trai của bạn hút thuốc không?*  
-*-Không, bạn trai của tôi không hút thuốc*  
+*- Có phải bạn trai của bạn hút thuốc không?*  
+*- Không, bạn trai của tôi không hút thuốc*  
 
 7. {% include play.html identifier="lesson-conversation" start=51 stop=60 %} **Does your daughter know how to lock a door?**   
-**Yes, she knows how to lock a door. She's 5 years old but she's smart.**  
+**Yes, she knows how to lock a door. She's five years old but she's smart.**  
 *- Con gái của bạn có biết khóa cửa không?*  
 *- Có, bé biết khóa cửa. Bé 5 tuổi nhưng thông minh lắm*  
   
@@ -72,12 +72,12 @@ lang: vn
   
 9. {% include play.html identifier="lesson-conversation" start=67 stop=78 %} **Does a three-year-old kid know how to brush his teeth?**  
 **No, a three-year-old kid doesn't know how to brush his teeth. But a four-year-old kid knows how to to brush his teeth.**  
-*-Một đứa trẻ 3 tuổi có biết đánh răng không?*   
-*-Không, Một đứa trẻ 3 tuổi không biết đánh răng. Nhưng một đứa trẻ 4 tuổi biết đánh răng rôi*  
+*- Một đứa trẻ 3 tuổi có biết đánh răng không?*   
+*- Không, Một đứa trẻ 3 tuổi không biết đánh răng. Nhưng một đứa trẻ 4 tuổi biết đánh răng rôi*  
   
-10. {% include play.html identifier="lesson-conversation" start=78 stop=666 %} **Does your friend have a crush on me?**  
+10. {% include play.html identifier="lesson-conversation" start=79 stop=666 %} **Does your friend have a crush on me?**  
 **No, my friend doesn't have a crush on you. I have a crush on you.**  
-*-Có phải bạn của bạn cảm nắng mình không?*  
-*-Không, bạn ấy không cảm nắng bạn. Mình cảm nắng bạn*  
+*- Có phải bạn của bạn cảm nắng mình không?*  
+*- Không, bạn ấy không cảm nắng bạn. Mình cảm nắng bạn*  
 
 	{% endif %}

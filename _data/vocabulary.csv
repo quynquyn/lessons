@@ -80,7 +80,7 @@ class,lesson,section,word_en,word_vn,word_pt,image_name,image_url,ts_start,ts_st
 1,10,vocabulary,Nervous About,Hồi hộp về,nervoso com,c1l10-nervous-about.jpg,class1/images/c1l10-nervous-about.jpg,33.43,36.35
 1,10,vocabulary,Good At,Giỏi ở,bom em,c1l10-good-at.jpg,class1/images/c1l10-good-at.jpg,36.35,38.36
 1,10,vocabulary,Bad At,Tệ ở,ruim em,c1l10-bad-at.jpg,class1/images/c1l10-bad-at.jpg,38.36,41.03
-1,10,vocabulary,Angry About Something / Angry at Someone,Giận giữ về điều gì đó/ Giận giữ với ai đó,irritado com algo / zangado com ele,c1l10-angry-about-something-angry-at-someone.jpg,class1/images/c1l10-angry-about-something-angry-at-someone.jpg,41.03,46.86
+1,10,vocabulary,Angry About Something / Angry With Someone,Giận giữ về điều gì đó/ Giận giữ với ai đó,irritado com algo / zangado com ele,c1l10-angry-about-something-angry-with-someone.jpg,class1/images/c1l10-angry-about-something-angry-with-someone.jpg,41.03,46.86
 1,10,vocabulary,Tired Of / Sick Of,Mệt mỏi với/ Phát ốm với(chán nản),cansado de / cansado de,c1l10-tired-of-sick-of.jpg,class1/images/c1l10-tired-of-sick-of.jpg,46.86,50.8
 1,10,vocabulary,Afraid Of,E ngại về,ter medo de,c1l10-afraid-of.jpg,class1/images/c1l10-afraid-of.jpg,50.8,52.91
 1,10,vocabulary,Full Of,"Tràn ngập với, đầy những",cheio de,c1l10-full-of.jpg,class1/images/c1l10-full-of.jpg,52.91,55.03
@@ -258,7 +258,7 @@ se casar com alguém",c1l05-marry-someone-get-married-to-someone.jpg,class1/imag
 2,08,workingcondition,A pretty good salary,Một mức lương khá tốt ,um salário muito bom,c2l08-a-pretty-good-salary.jpg,class2/images/c2l08-a-pretty-good-salary.jpg,23.33,26.7
 2,08,workingcondition,Getting promoted,Được thăng chức ,ser promovido,c2l08-getting-promoted.jpg,class2/images/c2l08-getting-promoted.jpg,26.7,29.73
 2,08,workingcondition,Working overtime,Làm tăng ca,trabalhar horas extras,c2l08-working-overtime.jpg,class2/images/c2l08-working-overtime.jpg,29.73,32.91
-2,08,workingcondition,Working long hours,Làm việc nhiều giờ liền ,,c2l08-working-long-hours.jpg,class2/images/c2l08-working-long-hours.jpg,32.91,36.35
+2,08,workingcondition,Working long hours,Làm việc nhiều giờ liền ,trabalhar horas extras (geralmente sem compensação),c2l08-working-long-hours.jpg,class2/images/c2l08-working-long-hours.jpg,32.91,36.35
 2,08,workingcondition,A system of flexi-time,,um sistema de horário de trabalho flexível,c2l08-a-system-of-flexi-time.jpg,class2/images/c2l08-a-system-of-flexi-time.jpg,36.35,40.22
 2,08,workingcondition,Health insurance,Bảo hiểm sức k,plano de saúde,c2l08-health-insurance.jpg,class2/images/c2l08-health-insurance.jpg,40.22,43.39
 2,08,workingcondition,Taking a few days off,Nghỉ việc vài ngày ,tomar alguns dias de folga,c2l08-taking-a-few-days-off.jpg,class2/images/c2l08-taking-a-few-days-off.jpg,43.39,46.84
@@ -327,9 +327,9 @@ se casar com alguém",c1l05-marry-someone-get-married-to-someone.jpg,class1/imag
 2,04,movielike,"Terrible / awful / disgusting / 
 disappointing / silly / boring / weird","Tệ / Tệ / Thấy gớm/ Gây thất vọng/ 
 Ngớ ngần / Chán / Kì cục",terrível / horrível / nojento / decepcionante / tolo / chato / esquisito,c2l04-terrible-awful-disgusting-disappointing-silly-boring-weird.jpg,class2/images/c2l04-terrible-awful-disgusting-disappointing-silly-boring-weird.jpg,105.81,118.95
-2,11,vocabulary,Beautiful,Đẹp,bonito,c2l11-beautiful.jpg,class2/images/c2l11-beautiful.jpg,9.82,10.87
+2,11,vocabulary,Beautiful,Đẹp,lindo,c2l11-beautiful.jpg,class2/images/c2l11-beautiful.jpg,9.82,10.87
 2,11,vocabulary,Attractive,Thu hút,atraente,c2l11-attractive.jpg,class2/images/c2l11-attractive.jpg,12.05,13.4
-2,11,vocabulary,Gorgeous,Đẹo lộng lẫy,linda,c2l11-gorgeous.jpg,class2/images/c2l11-gorgeous.jpg,14.47,16.01
+2,11,vocabulary,Gorgeous,Đẹo lộng lẫy,lindo,c2l11-gorgeous.jpg,class2/images/c2l11-gorgeous.jpg,14.47,16.01
 2,11,vocabulary,Stunning,Đẹp sửng sốt,impressionante,c2l11-stunning.jpg,class2/images/c2l11-stunning.jpg,16.94,18.17
 2,11,vocabulary,Plain,Xấu/ Thô/ Đơn giản,simples,c2l11-plain.jpg,class2/images/c2l11-plain.jpg,19.63,20.92
 2,11,vocabulary,Ordinary-looking,Ngoại hình bình thường,de aparência comum,c2l11-ordinary-looking.jpg,class2/images/c2l11-ordinary-looking.jpg,22.11,23.99
@@ -828,7 +828,7 @@ Ngớ ngần / Chán / Kì cục",terrível / horrível / nojento / decepcionant
 1,08,vocabulary,Rude,Bất lịc sự,grosseiro,c1l08-rude.jpg,class1/images/c1l08-rude.jpg,22.16,23.61
 1,08,vocabulary,Hard,Khó khăn,difícil,c1l08-hard.jpg,class1/images/c1l08-hard.jpg,23.61,25.25
 1,08,vocabulary,Easy,Dễ dàng,fácil,c1l08-easy.jpg,class1/images/c1l08-easy.jpg,25.25,26.85
-1,07,vocabulary,Beautiful,Đẹp,belo,c1l07-beautiful.jpg,class1/images/c1l07-beautiful.jpg,6.95,9.16
+1,07,vocabulary,Beautiful,Đẹp,lindo,c1l07-beautiful.jpg,class1/images/c1l07-beautiful.jpg,6.95,9.16
 1,07,vocabulary,Cute,Đáng yêu,fofo,c1l07-cute.jpg,class1/images/c1l07-cute.jpg,9.16,10.95
 1,07,vocabulary,Pretty,Xinh xắn,bonita,c1l07-pretty.jpg,class1/images/c1l07-pretty.jpg,10.95,13.14
 1,07,vocabulary,Handsome,Đẹp trai,bonito,c1l07-handsome.jpg,class1/images/c1l07-handsome.jpg,13.14,15.33
@@ -859,11 +859,11 @@ Ngớ ngần / Chán / Kì cục",terrível / horrível / nojento / decepcionant
 1,07,vocabulary,Talented,Tài năng,talentoso,c1l07-talented.jpg,class1/images/c1l07-talented.jpg,64.63,66.77
 1,07,vocabulary,Untalented,Bất tài,sem talento,c1l07-untalented.jpg,class1/images/c1l07-untalented.jpg,66.77,69.1
 1,07,vocabulary,Important,Quan trọng,importante,c1l07-important.jpg,class1/images/c1l07-important.jpg,69.1,71.28
-1,07,vocabulary,Unimportant,Không quan trọng,sem importância,c1l07-unimportant.jpg,class1/images/c1l07-unimportant.jpg,71.28,73.37
-1,07,vocabulary,Untalented,,,c1l07-untalented.jpg,class1/images/c1l07-untalented.jpg,73.37,76.17
+1,07,vocabulary,Unimportant,Không quan trọng,sem importância,c1l07-unimportant.jpg,class1/images/c1l07-unimportant.jpg,71.28,74.23
 1,07,vocabulary,Useful,Có ích,útil,c1l07-useful.jpg,class1/images/c1l07-useful.jpg,76.17,78.46
 1,07,vocabulary,Useless,Vô ích,inútil,c1l07-useless.jpg,class1/images/c1l07-useless.jpg,78.46,80.57
-1,07,vocabulary,Big Small,,grande pequeno,c1l07-big-small.jpg,class1/images/c1l07-big-small.jpg,80.57,84.87
+1,07,vocabulary,Big,lớn,grande ,c1l07-big.jpg,class1/images/c1l07-big.jpg,80.57,82.51
+1,07,vocabulary,Small,nhỏ,pequeno,c1l07-small.jpg,class1/images/c1l07-small.jpg,82.51,84.87
 1,07,vocabulary,Lazy,Lười biếng,preguiçoso,c1l07-lazy.jpg,class1/images/c1l07-lazy.jpg,84.87,86.86
 1,07,vocabulary,Hard working,Chăm chỉ,trabalhoso,c1l07-hard-working.jpg,class1/images/c1l07-hard-working.jpg,86.86,89.38
 1,07,vocabulary,Friendly,Thân thiện,amigável,c1l07-friendly.jpg,class1/images/c1l07-friendly.jpg,89.38,91.69
@@ -874,14 +874,14 @@ Ngớ ngần / Chán / Kì cục",terrível / horrível / nojento / decepcionant
 1,07,vocabulary,Smart,Thông minh,esperto,c1l07-smart.jpg,class1/images/c1l07-smart.jpg,100,101.73
 1,07,vocabulary,Hungry,Đói,com fome,c1l07-hungry.jpg,class1/images/c1l07-hungry.jpg,101.73,103.93
 1,07,vocabulary,Full,Đầy/ No,satisfeito / cheio,c1l07-full.jpg,class1/images/c1l07-full.jpg,103.93,105.95
-1,07,vocabulary,Interesting,,,c1l07-interesting.jpg,class1/images/c1l07-interesting.jpg,105.95,108.29
-1,07,vocabulary,Boring,,,c1l07-boring.jpg,class1/images/c1l07-boring.jpg,108.29,110.22
+1,07,vocabulary,Interesting,Thú vị,interessante,c1l07-interesting.jpg,class1/images/c1l07-interesting.jpg,105.95,108.29
+1,07,vocabulary,Boring,Nhàm chán,chato,c1l07-boring.jpg,class1/images/c1l07-boring.jpg,108.29,110.22
 1,07,vocabulary,Cheap,Rẻ,barato,c1l07-cheap.jpg,class1/images/c1l07-cheap.jpg,110.22,112.36
 1,07,vocabulary,Expensive,Đắt đỏ,caro,c1l07-expensive.jpg,class1/images/c1l07-expensive.jpg,112.36,114.3
 1,07,vocabulary,Funny,Vui vẻ,engraçado,c1l07-funny.jpg,class1/images/c1l07-funny.jpg,114.3,116.18
 1,07,vocabulary,Serious,Nghiêm túc,sério,c1l07-serious.jpg,class1/images/c1l07-serious.jpg,116.18,118.59
-1,07,vocabulary,Easy,,,c1l07-easy.jpg,class1/images/c1l07-easy.jpg,118.59,120.35
-1,07,vocabulary,Difficult,,,c1l07-difficult.jpg,class1/images/c1l07-difficult.jpg,120.35,122.39
+1,07,vocabulary,Easy,dễ dàng,fácil,c1l07-easy.jpg,class1/images/c1l07-easy.jpg,118.59,120.35
+1,07,vocabulary,Difficult,Khó khăn,difícil,c1l07-difficult.jpg,class1/images/c1l07-difficult.jpg,120.35,122.39
 1,07,vocabulary,Clean,Sạch sẽ,limpo,c1l07-clean.jpg,class1/images/c1l07-clean.jpg,122.39,124.18
 1,07,vocabulary,Dirty,Dơ bẩn,sujo,c1l07-dirty.jpg,class1/images/c1l07-dirty.jpg,124.18,126.48
 1,07,vocabulary,Dangerous,Nguy hiểm,perigoso,c1l07-dangerous.jpg,class1/images/c1l07-dangerous.jpg,126.48,128.88
@@ -1029,8 +1029,8 @@ Ngớ ngần / Chán / Kì cục",terrível / horrível / nojento / decepcionant
 2,22,problems,High unemployment,Tỷ lệ thất nghiệp cao,alto desemprego,c2l22-high-unemployment.jpg,class2/images/c2l22-high-unemployment.jpg,74.46,76.35
 2,22,problems,Overcrowding,Quá đông đúc,superlotação,c2l22-overcrowding.jpg,class2/images/c2l22-overcrowding.jpg,76.35,78.05
 2,22,problems,Unsafe areas,Khu vực không an toàn,áreas inseguras,c2l22-unsafe-areas.jpg,class2/images/c2l22-unsafe-areas.jpg,78.05,79.92
-1,22,vocabulary,employee,Nhân viên,empregado,c1l22-employee.jpg,class1/images/c1l22-employee.jpg,6.01,7.81
-1,22,vocabulary,pollution,,poluição,c1l22-pollution.jpg,class1/images/c1l22-pollution.jpg,7.81,9.57
+1,22,vocabulary,employee,Nhân viên,funcionário,c1l22-employee.jpg,class1/images/c1l22-employee.jpg,6.01,7.81
+1,22,vocabulary,pollution,Sụ ô nhiễm,poluição,c1l22-pollution.jpg,class1/images/c1l22-pollution.jpg,7.81,9.57
 1,22,vocabulary,patience,Sự kiên nhẫn,paciência,c1l22-patience.jpg,class1/images/c1l22-patience.jpg,9.57,11.41
 1,22,vocabulary,salary,Lương,salário,c1l22-salary.jpg,class1/images/c1l22-salary.jpg,11.41,13
 1,22,vocabulary,apartment,Căn hộ,apartamento,c1l22-apartment.jpg,class1/images/c1l22-apartment.jpg,13,14.73

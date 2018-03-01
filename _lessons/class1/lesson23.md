@@ -102,8 +102,8 @@ lang: vn
 {% include player2.html identifier="examples" class=page.class lesson=page.lesson %}
 
 ## Example
-1. {% include play.html identifier="examples" start=3.06 stop=3.06 %} **How do you go to school?**
-2. {% include play.html identifier="examples" start=6.19 stop=7.67 %}**How did you getthere?**
+1. {% include play.html identifier="examples" start=3.13 stop=5.17 %} **How do you go to school?**
+2. {% include play.html identifier="examples" start=6.19 stop=7.67 %}**How did you get there?**
 3. {% include play.html identifier="examples" start=8.79 stop=11.26 %}**How does the man usually go to work?**
 4. {% include play.html identifier="examples" start=12.55 stop=14.64 %}**How do you make your mother smile?**
 5. {% include play.html identifier="examples" start=16.03 stop=17.89 %}**How do you study English?**

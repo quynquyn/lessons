@@ -34,7 +34,7 @@ lang: vn
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-1. {% include play.html identifier="vocabulary" start=51.10 stop=56.38 %} **I was tired last night. Were you??**  
+1. {% include play.html identifier="vocabulary" start=51.10 stop=56.38 %} **I was tired last night. Were you?**  
  **Yes, I was tired last night.**      
  *Hôm qua tôi mệt. Còn bạn?     
 Có, hôm qua tôi cũng mệt*      
@@ -43,11 +43,11 @@ Có, hôm qua tôi cũng mệt*
 *Hôm qua không có tôi, bạn có chán không?            
 Không, hôm qua không có bạn, tôi không chán*           
 3. {% include play.html identifier="vocabulary" start=63.35 stop=67.76 %} **Was she at home last week?**      
-**No, She was not at home last week**
+**No, She was not at home last week.**
 *Tuần trước, cô ta có nhà không?    
 Không, cô ta không có nhà tuần trước*       
 4. {% include play.html identifier="vocabulary" start=68.86 stop=74 %} **Jane didn’t come to class yesterday. Was she sick?**      
-**Yes, she was sick**      
+**Yes, she was sick.**      
 *Jane không đến lớp hôm qua. Cô ta ốm à?     
 Uh, cô ta ốm* 
 
@@ -59,16 +59,16 @@ Uh, cô ta ốm*
 *Chị của bạn có giúp bạn làm bài tập về nhà không?   
 Không, chị tôi không giúp tôi làm gì hết*    
 2. {% include play.html identifier="regular" start=10.11 stop=14.4 %} **Did Sarah finish her homework?**
-**Yes, Sarah finished it**
+**Yes, Sarah finished it.**
 *Sarah hoàn thành bài tập về nhà chưa?     
 Rồi, Sarah hoàn thành rồi*     
 
 3. {% include play.html identifier="regular" start=14.4 stop=19.98 %} **Did he love her?**
-**Yes, he loved her but he didn't want to marry her**
+**Yes, he loved her but he didn't want to marry her.**
 *Anh ta có yêu cô ta không?    
 Có, anh ta có yêu nhưng anh không muốn lấy cô ấy*    
 3. {% include play.html identifier="regular" start=19.98 stop=26.28 %} **Did James come to class yesterday?**
-**Yes, he came to class yesterday**
+**Yes, he came to class yesterday.**
 *Hôm qua James có đến lớp không?    
 Có, anh có đến lớp hôm qua*     
 
@@ -78,22 +78,22 @@ Có, anh có đến lớp hôm qua*
  - {% include play.html identifier="regular" start=45.58 stop=47.28 %} **I looked at her.**     *Tôi nhìn cô ấy*   
  - {% include play.html identifier="regular" start=47.28 stop=50.28 %} **She stopped staring at me.**   *Cô ta dừng nhìn chằm chằm vào tôi*  
  - {% include play.html identifier="regular" start=50.28 stop=52.28 %} **You looked at me.**  *Bạn đã nhìn tôi*   
- - {% include play.html identifier="regular" start=52.28 stop=55.28 %} **She washed her hands**     *Cô ta đã rửa tay*   
+ - {% include play.html identifier="regular" start=52.28 stop=55.28 %} **She washed her hands.**     *Cô ta đã rửa tay*   
  - {% include play.html identifier="regular" start=55.28 stop=57.28 %} **He popped the balloon.**     *Anh ta làm bể bong bóng*   
  - {% include play.html identifier="regular" start=57.28 stop=59.28 %} **I missed him.**     *Tôi đã nhớ anh ấy*     
  - {% include play.html identifier="regular" start=59.28 stop=63.28 %} **He watched TV all day yesterday.**  *Anh ta xem TV cả ngày hôm qua*       
  - {% include play.html identifier="regular" start=63.28 stop=67.28 %} **We looked for the keys everywhere!**  *Chúng tôi đã tìm chìa khóa khắp nơi*        
  - {% include play.html identifier="regular" start=67.28 stop=70.18 %} **He laughed at my dancing skills.** *Anh ta cười kĩ năng nhảy của tôi*        
  - {% include play.html identifier="regular" start=70.18 stop=73.28 %} **He stopped laughing after I slapped him.**  *Anh ta ngưng cười sau khi tôi tát anh ta*       
- - {% include play.html identifier="regular" start=73.28 stop=76.28 %} **We watched a film together**  *Chúng tôi xem phim cùng nhau*        
+ - {% include play.html identifier="regular" start=73.28 stop=76.28 %} **We watched a film together.**  *Chúng tôi xem phim cùng nhau*        
  - {% include play.html identifier="regular" start=76.28 stop=80.10 %} **John looked ridiculous last night.** *Anh ta trông nham nhở hôm qua*         
- - {% include play.html identifier="regular" start=80.10 stop=82.28 %} **Sarah finished her homework**  *Sarah đã hoàn thành bài tập về nhà*       
- - {% include play.html identifier="regular" start=82.28 stop=84.28 %} **The dog sniffed his hand**    *Con chó ngửi bàn tay anh ta*     
+ - {% include play.html identifier="regular" start=80.10 stop=82.28 %} **Sarah finished her homework.**  *Sarah đã hoàn thành bài tập về nhà*       
+ - {% include play.html identifier="regular" start=82.28 stop=84.28 %} **The dog sniffed his hand.**    *Con chó ngửi bàn tay anh ta*     
  - {% include play.html identifier="regular" start=84.28 stop=88.28 %} **I told Christina your joke and she laughed out loud.**  *Tôi kể cho Christina câu chuyện cười của bạn và cô ta cười lớn*         
  - {% include play.html identifier="regular" start=88.28 stop=91.88 %} **I stopped to take a picture of his house.**  *Tôi dừng lại để chụp hình căn nhà của anh ấy*       
  - {% include play.html identifier="regular" start=91.88 stop=95.28 %} **They talked to the athlete an hour earlier!**  *Họ nói chuyện với người vận động viên một tiếng trước*         
  - {% include play.html identifier="regular" start=95.28 stop=97.28 %} **Who laughed behind my back?**      *Ai cười sau lưng tôi?*    
- - {% include play.html identifier="regular" start=97.28 stop=100.28 %} **The dog chased the cat again yesterday** *Hôm qua con chó lại đuổi theo con mèo*     
+ - {% include play.html identifier="regular" start=97.28 stop=100.28 %} **The dog chased the cat again yesterday.** *Hôm qua con chó lại đuổi theo con mèo*     
  - {% include play.html identifier="regular" start=100.28 stop=104.28 %} **Joanne laughed when Chris asked her out.**   *Joanne cười lớn khi Chris mời cô ta ra ngoài chơi*      
 
 {% include play.html identifier="regular" start=104.28 stop=113.28 %}

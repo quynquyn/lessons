@@ -41,9 +41,9 @@ lang: vn
 {% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
 ## 2. Examples 
 
-[comment]: <> "Angry at someone" although it's understandable, it should be "angry with someone"
+[comment]: <> You can be ”angry at something” or “angry with somebody”, but not "angry at someone”.
 
-1. {% include play.html identifier="examples2" start=5.4 stop=8.3 %} **Are you angry at me?**
+1. {% include play.html identifier="examples2" start=5.4 stop=8.3 %} **Are you angry with me?**
 *Bạn đang giận tôi hả?*  
 2. {% include play.html identifier="examples2" start=8.4 stop=14.3 %}**Is the manager responsible for contacting customers?**
 *Có phải người giám đốc chịu trách nhiệm cho việc liên lạc với khách hàng?*

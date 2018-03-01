@@ -77,7 +77,7 @@ For fixed planned events in the future. Often used with a word for future events
 4. {% include play.html identifier="examples1" start=110.56 stop=116.11 %} **I just heard my wife is pregnant. I am getting drunk tonight!** *Tôi vừa nghe vợ tôi đang có thai. Hôm nay tôi sẽ say*
 5. {% include play.html identifier="examples1" start=116.56 stop=122.11 %} **Tonight we are listening to an audiobook my father downloaded.** *Tối nay chúng tôi đang nghe một quyển sách Audio mà bố vừa tải xuống*
 
-{% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
+{% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
 
 ### Example of Yes/no questions with Simple Future Tense and Present Continuous
 1. {% include play.html identifier="examples1" start=5.66 stop=8.11 %} **Are you going to feed the dog?** *Bạn sẽ cho chó ăn phải không?*
@@ -98,7 +98,7 @@ For fixed planned events in the future. Often used with a word for future events
 16. {% include play.html identifier="examples1" start=57.56 stop=60.11 %} **Is your sister flirting with me?** *Có phải em gái bạn đang tán tỉnh tôi không?*
 17. {% include play.html identifier="examples1" start=60.56 stop=63.11 %} **Will you listen to my story?** *Bạn có nghe câu chuyện của tôi không?*
 18. {% include play.html identifier="examples1" start=63.56 stop=69.11 %} **Is my sister a good singer or am I just tone-deaf?** *Chị gái tôi có phải hát rất hay không hay do tôi bị điếc tông nhạc?*
-19. **Are you listening to what I am saying?** *Bạn có đang nghe điều tô đang nói không?*
+19.  **Are you listening to what I am saying?** *Bạn có đang nghe điều tô đang nói không?*
 20. **Will America be your home for the next three years?** *Có phải nước Mỹ sẽ là nhà của bạn trong vòng ba năm tới?*
 
 <!--AKS: I couldn't find the location of the audiofile for the text below, and it doesn't play on the site. Also, the audio above is missing the last 2 lines in it. -->

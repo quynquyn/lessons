@@ -9,7 +9,7 @@ lang: vn
 # Lesson 1.11: Review 
 
 
-## 1. yes / no questions
+## 1. Yes / No questions
 {% include player2.html identifier="examples5" class=page.class lesson=page.lesson %}
 
 1.  {% include play.html identifier="examples5" start=13.23 stop=15.14 %}**Do you need this pen?** *Bạn có cần cây bút này không?*
@@ -34,7 +34,7 @@ lang: vn
 20. {% include play.html identifier="examples5" start=91.20 stop=94.62 %}**Do your parents live in HCMC?** *Có phải bố mẹ bạn sống ở thành phố HCM không?*
 
 
-## 2. So/ such
+## 2. So / Such
 {% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
 
 1. {% include play.html identifier="examples1" start=6.15 stop=8.55 %}**You are such a good friend.** *Bạn thật là người bạn tốt*
@@ -50,7 +50,7 @@ lang: vn
 11. {% include play.html identifier="examples1" start=51.05 stop=53.70 %}**The question is so easy.** *Câu hỏi quá dễ*
 
 
-## 3. comparison
+## 3. Comparison
 {% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
 
 1.  {% include play.html identifier="examples2" start=6.04 stop=8.93 %}**My house is bigger than yours.** *Nhà tôi thì to hơn nhà bạn*
@@ -58,14 +58,14 @@ lang: vn
 3.  {% include play.html identifier="examples2" start=15.26 stop=18.94 %}**This is the most interesting book I have ever read.** *Đây là quyển sách thú vị nhất mà tôi từng đọc*
 4.  {% include play.html identifier="examples2" start=19.99 stop=24.18 %}**Non-smokers usually live longer than smokers.** *Người không hút thuốc thì sống lâu hơn người hút thuốc*
 5.  {% include play.html identifier="examples2" start=25.56 stop=29.68 %}**Which is the the most dangerous animal in the world?** *Đâu là loài động vật nguy hiểm nhất thế giới?*
-6.  {% include play.html identifier="examples2" start=31.55 stop=36.60 %}**A holiday by the sea is better than a holiday in the mountains.** *Một kì nghỉ bên biển thì tốt hơn một kì nghỉ trên núi*
+6.  {% include play.html identifier="examples2" start=31.55 stop=36.60 %}**Holidays by the sea are better than holidays in the mountains.** *Một kì nghỉ bên biển thì tốt hơn một kì nghỉ trên núi*
 7.  {% include play.html identifier="examples2" start=38.11 stop=43.59 %}**It is strange but often a coke is more expensive than a beer.** *Nó thì hơi lạ nhưng mà một ly coca thì mắc tiền hơn một ly bia*
 8.  {% include play.html identifier="examples2" start=45.46 stop=48.41 %}**Who is the richest woman on earth?** *Ai là người phụ nữ giàu nhất thế giới?*
 9.  {% include play.html identifier="examples2" start=50.60 stop=54.92 %}**The weather this summer is even worse than last summer.** *Thời tiết mùa hè này thì tệ hơn mùa hè năm ngoái*
 10.  {% include play.html identifier="examples2" start=56.47 stop=59.37 %}**He was the smartest thief of all** *Anh ta là tên cướp thông minh nhất*
 
 
-## 4. There is/ there are
+## 4. There is / There are
 {% include player2.html identifier="examples3" class=page.class lesson=page.lesson %}
 
 1. {% include play.html identifier="examples3" start=10.13 stop=13.21 %}**Are there any crocodiles in the lake?** *Có con cá sấu này trong hồ không?*
@@ -76,17 +76,17 @@ lang: vn
 
 
 
-## 5. It is Adjective to Verb
+## 5. It is + Adjective + to Verb
 {% include player2.html identifier="examples4" class=page.class lesson=page.lesson %}
 
 1. {% include play.html identifier="examples4" start=7.19 stop=10.28 %}**Is it stupid to love a married man?** *Thật ngu ngốc khi yêu một người đàn ông đã có vợ phải không?*
 2. {% include play.html identifier="examples4" start=11.77 stop=14.93 %}**Is it crazy to quit such a good job?** *Thật ngu ngốc khi nghỉ việc tốt như vậy phải không*
 3. {% include play.html identifier="examples4" start=16.39 stop=19.14 %}**Is it easy to learn Japanese?** *Có dễ để học tiếng Nhật không?*
 4. {% include play.html identifier="examples4" start=20.68 stop=23.75 %}**Is it interesting to talk to the teacher?** *Có phải nói chuyện với người giáo viên đó rất thú vị không?*
-5. {% include play.html identifier="examples4" start=25.55 stop=28.13 %}**Is it bad to cry in public** *Có xấu khi khóc trước công cộng không?*
+5. {% include play.html identifier="examples4" start=25.55 stop=28.13 %}**Is it bad to cry in public?** *Có xấu khi khóc trước công cộng không?*
 6. {% include play.html identifier="examples4" start=29.94 stop=32.94 %}**Is it terrible to get married without love?**
 *Có tệ khi phải kết hôn mà không có tình yêu không?*
-7. {% include play.html identifier="examples4" start=34.60 stop=39.93 %}**Is it possible to speak English fluently when you don't practice it every day?**
+7. {% include play.html identifier="examples4" start=34.60 stop=39.93 %}**Is it possible to speak English fluently when you don't practice every day?**
 *Nói Tiếng Anh lưu loát khi bạn không thực hành mỗi ngày thì có thể nào không?*
 8. {% include play.html identifier="examples4" start=41.52 stop=43.98 %}**Is it good to follow the crowd?** *Theo đám đông có tốt không?*
  

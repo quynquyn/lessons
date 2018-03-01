@@ -47,7 +47,7 @@ lang: vn
 3. {% include play.html identifier="lesson-ex2" start=17 stop=21.5 %}  **The coldest month of the year in Minnesota is January.** *Tháng lạnh nhất của năm ở Minnesota là tháng một*
 4. {% include play.html identifier="lesson-ex2" start=23.5 stop=28 %}  **He is the most hard-working employee in the company.** *Anh ta là người nhân viên chăm chỉ nhất trong công ty*
 5. {% include play.html identifier="lesson-ex2" start=30 stop=33 %}  **Who has the best solution?** *Ai có giải pháp tốt nhất?*
-6. {% include play.html identifier="lesson-ex2" start=35 stop= 40.5%}  **Many Americans think George Bush has been the worst President they have ever had.** *Nhiều người Mỹ nghĩ rằng George Bursh là tổng thống tệ nhất mà họ từng có*
+6. {% include play.html identifier="lesson-ex2" start=35 stop= 40.5%}  **Many Americans think George W Bush has been the worst President they have ever had.** *Nhiều người Mỹ nghĩ rằng George Bursh là tổng thống tệ nhất mà họ từng có*
 7. {% include play.html identifier="lesson-ex2" start=43 stop=48 %}  **A good education is the most important experience for a young person.** *Giáo dục tốt là một trải nghiệm quan trọng nhất của một người trẻ*
 8. {% include play.html identifier="lesson-ex2" start=50 stop=53 %}  **Who has the longest hair in our class?** *Ai có tóc dài nhất trong lớp?*
 9. {% include play.html identifier="lesson-ex2" start=54.5 stop=58 %}  **He is the richest man in the world.** *Anh ta là người giàu nhất thế giới*

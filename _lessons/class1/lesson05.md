@@ -93,7 +93,9 @@ lang: vn
 *Người kế toán nhảy trong phòng cô ấy / Người kế toàn thích nhảy trong phòng của cô ấy*  
 {% endif %}
 
-{% include player2.html identifier="lesson-explanation2" lesson="C1L05" file="C1L05-Explanation2.mp3" %}
+
+{% include player2.html identifier="Explanation2" class=page.class lesson=page.lesson %}
+
 ## 1. More examples: 
 
 1. {% include play.html identifier="lesson-explanation2" start=4.11 stop=9.41 %} **My daughter needs to make a presentation in her class.**   

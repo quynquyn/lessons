@@ -25,7 +25,7 @@ lang: vn
 
 ## Explanation
 
-## 1. It's easy to learn English
+## 1. It's easy to learn English.
 
 {% include player.html identifier="lesson-explanation1" lesson="C1L08" file="C1L08-Explanation1.mp3" %}
 
@@ -67,22 +67,22 @@ lang: vn
 
 
 
-1. {% include play.html identifier="lesson-explanation3" start=3 stop=10 %} **That movie is so good/ It's such a good movie.** *Bộ phim đó thật hay*
-2. {% include play.html identifier="lesson-explanation3" start=11 stop=17 %} **The idea is so bad/ This is such a bad idea.** *Ý tưởng đó thật tệ*
-3. {% include play.html identifier="lesson-explanation3" start=17 stop=28 %} **The teacher is so patient to his students/ He's such a patient teacher to his students.** *Anh ta là một giáo viên kiên nhẫn với học sinh*
-4. {% include play.html identifier="lesson-explanation3" start=28 stop=35 %} **You are so good/ You are such a good friend.** *Bạn là người bạn tốt*
-5. {% include play.html identifier="lesson-explanation3" start=35 stop=42 %} **The crocodile is so big/ It's such a big crocodile.** *Con cá sấu bự quá*
-6. {% include play.html identifier="lesson-explanation3" start=42 stop=50 %} **The baby is so cute/ He's such a cute baby.***Đứa bé dễ thương quá*
+1. {% include play.html identifier="lesson-explanation3" start=3 stop=10 %} **That movie is so good. / It's such a good movie.** *Bộ phim đó thật hay*
+2. {% include play.html identifier="lesson-explanation3" start=11 stop=17 %} **The idea is so bad. / This is such a bad idea.** *Ý tưởng đó thật tệ*
+3. {% include play.html identifier="lesson-explanation3" start=17 stop=28 %} **The teacher is so patient with his students. / He's such a patient teacher with his students.** *Anh ta là một giáo viên kiên nhẫn với học sinh*
+4. {% include play.html identifier="lesson-explanation3" start=28 stop=35 %} **You are so good. / You are such a good friend.** *Bạn là người bạn tốt*
+5. {% include play.html identifier="lesson-explanation3" start=35 stop=42 %} **The crocodile is so big. / It's such a big crocodile.** *Con cá sấu bự quá*
+6. {% include play.html identifier="lesson-explanation3" start=42 stop=50 %} **The baby is so cute. / He's such a cute baby.** *Đứa bé dễ thương quá*
 
 
-## 4: There is/ there are 
+## 4: There is / There are 
 
 {% include player.html identifier="lesson-explanation4" lesson="C1L08" file="C1L08-Explanation4.mp3" %}
 
 
 1. {% include play.html identifier="lesson-explanation4" start=5 stop=8 %} **There is a book on the chair.** *Có một quyển sách trên ghế*
 2. {% include play.html identifier="lesson-explanation4" start=9 stop=14 %} **There are some cats on the grass.** *Có một vài con mèo trên bãi cỏ*
-3. {% include play.html identifier="lesson-explanation4" start=14 stop=19 %} **There are a man on the phone.** *Có một người đàn ông bên kia điện thoại*
+3. {% include play.html identifier="lesson-explanation4" start=14 stop=19 %} **There is a man on the phone.** *Có một người đàn ông bên kia điện thoại*
 4. {% include play.html identifier="lesson-explanation4" start=19 stop=23 %} **There are four weeks in a month.** *Có bốn tuần trong một tháng*
 5. {% include play.html identifier="lesson-explanation4" start=24 stop=28 %} **There is a blue car in the garage.** *Có một chiếc xe hơi màu xanh trong gara*
 6. {% include play.html identifier="lesson-explanation4" start=28 stop=33 %} **There are ten books in a box.** *Có mười quyển sách trong cái hộp*
