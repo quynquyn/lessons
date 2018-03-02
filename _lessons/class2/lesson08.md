@@ -47,8 +47,8 @@ lang: vn
 > {% include play.html identifier="lesson-conversation" start=15.19 stop=22.85 %}P1: **Unfortunately, I don't. But they run a system of flexi-time and I don't have to get stuck in traffic jam during rush hours.** 
 > {% include play.html identifier="lesson-conversation" start=22.85 stop=25.26 %}P2: **It seems to be a very satisfying job.**  
 > {% include play.html identifier="lesson-conversation" start=25.26 stop=28.08 %}P1: **Definitely. What is your job like?**  
-> {% include play.html identifier="lesson-conversation" start=28.08 stop=37.85 %}P2: **It's a quite boring and repetitive job. I have to be stuck behind a desk all day with so much boring paperwork and I find myself doing the same thing day in day out.**
-> {% include play.html identifier="lesson-conversation" start=37.85 stop=40.63 %}P1: **If you feel miserable, you need to change your job.**
+> {% include play.html identifier="lesson-conversation" start=28.08 stop=37.85 %}P2: **It's a quite boring and repetitive job. I have to be stuck behind a desk all day with so much boring paperwork and I find myself doing the same thing day in day out.**  
+> {% include play.html identifier="lesson-conversation" start=37.85 stop=40.63 %}P1: **If you feel miserable, you need to change your job.**  
 
 
 

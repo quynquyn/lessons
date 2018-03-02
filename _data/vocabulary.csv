@@ -752,7 +752,7 @@ Ngớ ngần / Chán / Kì cục",terrível / horrível / nojento / decepcionant
 1,19,kitchen,Pan,Chảo,sertã,c1l19-pan.jpg,class1/images/c1l19-pan.jpg,50.27,52.04
 1,19,kitchen,Pot,Nồi/ ấm/bình ,panela,c1l19-pot.jpg,class1/images/c1l19-pot.jpg,52.04,53
 1,19,kitchen,Cooker,Nồi cơm điện,fogareiro,c1l19-cooker.jpg,class1/images/c1l19-cooker.jpg,53,54.39
-1,19,kitchen,Cupboard,T,armário,c1l19-cupboard.jpg,class1/images/c1l19-cupboard.jpg,54.39,55.6
+1,19,kitchen,Cupboard,,armário,c1l19-cupboard.jpg,class1/images/c1l19-cupboard.jpg,54.39,55.6
 1,19,kitchen,Cutting board,,tábua de cortar,c1l19-cutting-board.jpg,class1/images/c1l19-cutting-board.jpg,55.6,57.49
 1,19,kitchen,Knife,Dao,faca,c1l19-knife.jpg,class1/images/c1l19-knife.jpg,57.49,58.85
 1,19,kitchen,Blender,Máy xay/ máy trộn,liquidificador,c1l19-blender.jpg,class1/images/c1l19-blender.jpg,58.85,60.44
@@ -982,37 +982,37 @@ Ngớ ngần / Chán / Kì cục",terrível / horrível / nojento / decepcionant
 1,21,vocabulary,Religion,Tôn giáo,religião,c1l21-religion.jpg,class1/images/c1l21-religion.jpg,33.54,36.52
 1,21,vocabulary,Region,Khu vực,região,c1l21-region.jpg,class1/images/c1l21-region.jpg,36.52,38.42
 1,21,vocabulary,Responsibility,Trách nhiệm,responsabilidade,c1l21-responsibility.jpg,class1/images/c1l21-responsibility.jpg,38.42,38.53
-2,21,sickness,I don’t feel well,Tôi cảm thấy không khỏe,Eu não me sinto bem.,c2l21-i-don-t-feel-well.jpg,class2/images/c2l21-i-don-t-feel-well.jpg,,
-2,21,sickness,I sneeze,Tôi hắt hơi,Eu espirro.,c2l21-i-sneeze.jpg,class2/images/c2l21-i-sneeze.jpg,,
-2,21,sickness,It’s itchy,Nó ngứa,É coceira.,c2l21-it-s-itchy.jpg,class2/images/c2l21-it-s-itchy.jpg,,
-2,21,sickness,It’s painful,Nó đau,É doloroso.,c2l21-it-s-painful.jpg,class2/images/c2l21-it-s-painful.jpg,,
-2,21,sickness,My back hurts,Lưng tôi bị thương,Minhas costas doem.,c2l21-my-back-hurts.jpg,class2/images/c2l21-my-back-hurts.jpg,,
-2,21,sickness,I have a cough,Tôi bị ho,Estou com tosse.,c2l21-i-have-a-cough.jpg,class2/images/c2l21-i-have-a-cough.jpg,,
-2,21,sickness,My leg is broken,Chân tôi bị gãy,Minha perna está quebrada.,c2l21-my-leg-is-broken.jpg,class2/images/c2l21-my-leg-is-broken.jpg,,
-2,21,sickness,My nose is running,Sổ mũi,Meu nariz está escorrendo.,c2l21-my-nose-is-running.jpg,class2/images/c2l21-my-nose-is-running.jpg,,
-2,21,sickness,My finger is bleeding,Ngón tay tôi bị chảy máu,Meu dedo está sangrando.,c2l21-my-finger-is-bleeding.jpg,class2/images/c2l21-my-finger-is-bleeding.jpg,,
-2,21,sickness,My finger is swollen,Ngón tay tôi đang bị sưng,Meu dedo está inchado.,c2l21-my-finger-is-swollen.jpg,class2/images/c2l21-my-finger-is-swollen.jpg,,
-2,21,sickness,I have a headache,Tôi bị đau đầu,Estou com dor de cabeça.,c2l21-i-have-a-headache.jpg,class2/images/c2l21-i-have-a-headache.jpg,,
-2,21,sickness,I have a stomachache,Tôi bị đau dạ dày,Estou com dor de barriga.,c2l21-i-have-a-stomachache.jpg,class2/images/c2l21-i-have-a-stomachache.jpg,,
-2,21,sickness,I have a toothache,Tôi bị đau răng,Eestou com dor de dente.,c2l21-i-have-a-toothache.jpg,class2/images/c2l21-i-have-a-toothache.jpg,,
-2,21,sickness,I have a sore throat,Tôi bị đau họng,Estou com dor de garganta.,c2l21-i-have-a-sore-throat.jpg,class2/images/c2l21-i-have-a-sore-throat.jpg,,
-2,21,sickness,I have a bad cold,Tôi bị cảm lạnh,Eu tenho um resfriado.,c2l21-i-have-a-bad-cold.jpg,class2/images/c2l21-i-have-a-bad-cold.jpg,,
-2,21,sickness,I have a temperature,Tôi bị sốt,Estou com febre.,c2l21-i-have-a-temperature.jpg,class2/images/c2l21-i-have-a-temperature.jpg,,
-2,21,advice,Take some vitamin tablets,Dùng vài viên vitamin,Tome alguns comprimidos de vitamina!,c2l21-take-some-vitamin-tablets.jpg,class2/images/c2l21-take-some-vitamin-tablets.jpg,,
-2,21,advice,Go on a diet,Ăn kiêng,Faz uma dieta!,c2l21-go-on-a-diet.jpg,class2/images/c2l21-go-on-a-diet.jpg,,
-2,21,advice,Drink a lot of water,Uống nhiều nước,Beba muita água!,c2l21-drink-a-lot-of-water.jpg,class2/images/c2l21-drink-a-lot-of-water.jpg,,
-2,21,advice,Stay at home and have a rest,Ở nhà nghỉ ngơi,Fique em casa e descanse!,c2l21-stay-at-home-and-have-a-rest.jpg,class2/images/c2l21-stay-at-home-and-have-a-rest.jpg,,
-2,21,advice,Eat healthy food,Ăn thức ăn tốt cho sức khỏe,Coma comida saúdavel!,c2l21-eat-healthy-food.jpg,class2/images/c2l21-eat-healthy-food.jpg,,
-2,21,advice,Put a bandage,Băng bó,Coloque um curativo!,c2l21-put-a-bandage.jpg,class2/images/c2l21-put-a-bandage.jpg,,
-2,21,advice,Put a plaster,Bó bột thạch cao,Coloque um gesso!,c2l21-put-a-plaster.jpg,class2/images/c2l21-put-a-plaster.jpg,,
-2,21,advice,Put a sling,Đeo băng (Dây đỡ cố định tay gãy),Coloque um tipóia!,c2l21-put-a-sling.jpg,class2/images/c2l21-put-a-sling.jpg,,
-2,21,advice,Try not to eat anything too oily or spicy for a few days,Cố gắng không ăn đồ ăn cay vài ngày,Tente não comer nada muito oleoso ou picante por alguns dias!,c2l21-try-not-to-eat-anything-too-oily-or-spicy-for-a-few-days.jpg,class2/images/c2l21-try-not-to-eat-anything-too-oily-or-spicy-for-a-few-days.jpg,,
-2,21,advice,Have an X-ray,Chụp X-quang,Tome um raio-X!,c2l21-have-an-x-ray.jpg,class2/images/c2l21-have-an-x-ray.jpg,,
-2,21,advice,Wear something warm,Mặc ấm,Use roupas quentes!,c2l21-wear-something-warm.jpg,class2/images/c2l21-wear-something-warm.jpg,,
-2,21,advice,Take an aspirin,Dùng một viên kháng sinh,Tome uma Aspirina!,c2l21-take-an-aspirin.jpg,class2/images/c2l21-take-an-aspirin.jpg,,
-2,21,advice,Get an injection,Tiêm chích,Obtenha uma injeção!,c2l21-get-an-injection.jpg,class2/images/c2l21-get-an-injection.jpg,,
-2,21,advice,Massage your head,Mát xa đầu,Massageie sua cabeça!,c2l21-massage-your-head.jpg,class2/images/c2l21-massage-your-head.jpg,,
-2,21,advice,Take antiseptics,Khử trùng,Tome anti-sépticos!,c2l21-take-antiseptics.jpg,class2/images/c2l21-take-antiseptics.jpg,,
+2,21,sickness,I don’t feel well,Tôi cảm thấy không khỏe,Eu não me sinto bem.,c2l21-i-don-t-feel-well.jpg,class2/images/c2l21-i-don-t-feel-well.jpg,6.51,8.41
+2,21,sickness,I sneeze,Tôi hắt hơi,Eu espirro.,c2l21-i-sneeze.jpg,class2/images/c2l21-i-sneeze.jpg,8.89,10.11
+2,21,sickness,It’s itchy,Nó ngứa,É coceira.,c2l21-it-s-itchy.jpg,class2/images/c2l21-it-s-itchy.jpg,10.11,12.11
+2,21,sickness,It’s painful,Nó đau,É doloroso.,c2l21-it-s-painful.jpg,class2/images/c2l21-it-s-painful.jpg,12.11,13.61
+2,21,sickness,My back hurts,Lưng tôi bị thương,Minhas costas doem.,c2l21-my-back-hurts.jpg,class2/images/c2l21-my-back-hurts.jpg,13.81,15.55
+2,21,sickness,I have a cough,Tôi bị ho,Estou com tosse.,c2l21-i-have-a-cough.jpg,class2/images/c2l21-i-have-a-cough.jpg,15.55,17.11
+2,21,sickness,My leg is broken,Chân tôi bị gãy,Minha perna está quebrada.,c2l21-my-leg-is-broken.jpg,class2/images/c2l21-my-leg-is-broken.jpg,17.11,19.11
+2,21,sickness,My nose is running,Sổ mũi,Meu nariz está escorrendo.,c2l21-my-nose-is-running.jpg,class2/images/c2l21-my-nose-is-running.jpg,19.12,21.11
+2,21,sickness,My finger is bleeding,Ngón tay tôi bị chảy máu,Meu dedo está sangrando.,c2l21-my-finger-is-bleeding.jpg,class2/images/c2l21-my-finger-is-bleeding.jpg,21.21,23.81
+2,21,sickness,My finger is swollen,Ngón tay tôi đang bị sưng,Meu dedo está inchado.,c2l21-my-finger-is-swollen.jpg,class2/images/c2l21-my-finger-is-swollen.jpg,23.83,25.98
+2,21,sickness,I have a headache,Tôi bị đau đầu,Estou com dor de cabeça.,c2l21-i-have-a-headache.jpg,class2/images/c2l21-i-have-a-headache.jpg,25.98,27.98
+2,21,sickness,I have a stomachache,Tôi bị đau dạ dày,Estou com dor de barriga.,c2l21-i-have-a-stomachache.jpg,class2/images/c2l21-i-have-a-stomachache.jpg,27.98,30.11
+2,21,sickness,I have a toothache,Tôi bị đau răng,Eestou com dor de dente.,c2l21-i-have-a-toothache.jpg,class2/images/c2l21-i-have-a-toothache.jpg,30.11,32.11
+2,21,sickness,I have a sore throat,Tôi bị đau họng,Estou com dor de garganta.,c2l21-i-have-a-sore-throat.jpg,class2/images/c2l21-i-have-a-sore-throat.jpg,32.11,34.11
+2,21,sickness,I have a bad cold,Tôi bị cảm lạnh,Eu tenho um resfriado.,c2l21-i-have-a-bad-cold.jpg,class2/images/c2l21-i-have-a-bad-cold.jpg,34.11,36.59
+2,21,sickness,I have a temperature,Tôi bị sốt,Estou com febre.,c2l21-i-have-a-temperature.jpg,class2/images/c2l21-i-have-a-temperature.jpg,36.59,38.98
+2,21,advice,Take some vitamin tablets,Dùng vài viên vitamin,Tome alguns comprimidos de vitamina!,c2l21-take-some-vitamin-tablets.jpg,class2/images/c2l21-take-some-vitamin-tablets.jpg,38.98,42.98
+2,21,advice,Go on a diet,Ăn kiêng,Faz uma dieta!,c2l21-go-on-a-diet.jpg,class2/images/c2l21-go-on-a-diet.jpg,42.98,44.34
+2,21,advice,Drink a lot of water,Uống nhiều nước,Beba muita água!,c2l21-drink-a-lot-of-water.jpg,class2/images/c2l21-drink-a-lot-of-water.jpg,44.34,46.98
+2,21,advice,Stay at home and have a rest,Ở nhà nghỉ ngơi,Fique em casa e descanse!,c2l21-stay-at-home-and-have-a-rest.jpg,class2/images/c2l21-stay-at-home-and-have-a-rest.jpg,46.98,49.11
+2,21,advice,Eat healthy food,Ăn thức ăn tốt cho sức khỏe,Coma comida saúdavel!,c2l21-eat-healthy-food.jpg,class2/images/c2l21-eat-healthy-food.jpg,49.11,51.11
+2,21,advice,Put a bandage,Băng bó,Coloque um curativo!,c2l21-put-a-bandage.jpg,class2/images/c2l21-put-a-bandage.jpg,51.11,53.11
+2,21,advice,Put a plaster,Bó bột thạch cao,Coloque um gesso!,c2l21-put-a-plaster.jpg,class2/images/c2l21-put-a-plaster.jpg,53.11,55.11
+2,21,advice,Put a sling,Đeo băng (Dây đỡ cố định tay gãy),Coloque um tipóia!,c2l21-put-a-sling.jpg,class2/images/c2l21-put-a-sling.jpg,55.11,58.11
+2,21,advice,Try not to eat anything too oily or spicy for a few days,Cố gắng không ăn đồ ăn cay vài ngày,Tente não comer nada muito oleoso ou picante por alguns dias!,c2l21-try-not-to-eat-anything-too-oily-or-spicy-for-a-few-days.jpg,class2/images/c2l21-try-not-to-eat-anything-too-oily-or-spicy-for-a-few-days.jpg,58.11,63.11
+2,21,advice,Have an X-ray,Chụp X-quang,Tome um raio-X!,c2l21-have-an-x-ray.jpg,class2/images/c2l21-have-an-x-ray.jpg,63.11,65.55
+2,21,advice,Wear something warm,Mặc ấm,Use roupas quentes!,c2l21-wear-something-warm.jpg,class2/images/c2l21-wear-something-warm.jpg,65.55,67.11
+2,21,advice,Take an aspirin,Dùng một viên kháng sinh,Tome uma Aspirina!,c2l21-take-an-aspirin.jpg,class2/images/c2l21-take-an-aspirin.jpg,67.11,69.11
+2,21,advice,Get an injection,Tiêm chích,Obtenha uma injeção!,c2l21-get-an-injection.jpg,class2/images/c2l21-get-an-injection.jpg,69.11,71.23
+2,21,advice,Massage your head,Mát xa đầu,Massageie sua cabeça!,c2l21-massage-your-head.jpg,class2/images/c2l21-massage-your-head.jpg,71.23,74.11
+2,21,advice,Take antiseptics,Khử trùng,Tome anti-sépticos!,c2l21-take-antiseptics.jpg,class2/images/c2l21-take-antiseptics.jpg,74.11,76.11
 2,22,describe,Small,Nhỏ,pequeno,c2l22-small.jpg,class2/images/c2l22-small.jpg,8.2,9.55
 2,22,describe,Quiet,Yên lặng,tranquilo,c2l22-quiet.jpg,class2/images/c2l22-quiet.jpg,9.55,10.63
 2,22,describe,Big,Lớn,grande,c2l22-big.jpg,class2/images/c2l22-big.jpg,10.63,11.79
@@ -1077,8 +1077,8 @@ Ngớ ngần / Chán / Kì cục",terrível / horrível / nojento / decepcionant
 1,23,applyfor,Researching the company or job,Tìm công ty hoặc việc làm,pesquisando a empresa ou o trabalho,c1l23-researching-the-company-or-job.jpg,class1/images/c1l23-researching-the-company-or-job.jpg,54.01,56.96
 1,23,applyfor,Creating a good resume and a cover letter,Viết hồ sơ xin việc và đơn xin việc tốt ,escrevendo um bom currículo e uma boa carta de apresentação,c1l23-creating-a-good-resume-and-a-cover-letter.jpg,class1/images/c1l23-creating-a-good-resume-and-a-cover-letter.jpg,56.96,60.5
 1,23,applyfor,Get some references from past employers or professors,Tham khảo từ những nhân viên làm trước và các giáo sư,Obter algumas referências de empregadores ou professores passados,c1l23-get-some-references-from-past-employers-or-professors.jpg,class1/images/c1l23-get-some-references-from-past-employers-or-professors.jpg,60.5,64.69
-1,23,applyfor,"Apply for the job in person, online, or by mail","Nộp đơn trực tiếp, online, qua mail","aplicar para o trabalho em pessoa, online ou por correio",c1l23-apply-for-the-job-in-person-online-or-by-mail.jpg,class1/images/c1l23-apply-for-the-job-in-person-online-or-by-mail.jpg,64.69,69
-1,23,applyfor,Preparing carefully for the interview,Chuẩn bị chu đáo cho buổi phỏng vấn,cuidadosamente preparando para a entrevista,c1l23-preparing-carefully-for-the-interview.jpg,class1/images/c1l23-preparing-carefully-for-the-interview.jpg,69,72.01
+1,23,applyfor,"Apply for the job in person, online, or by mail","Nộp đơn trực tiếp, online, qua mail","aplicar para o trabalho em pessoa, online ou por correio",c1l23-apply-for-the-job-in-person-online-or-by-mail.jpg,class1/images/c1l23-apply-for-the-job-in-person-online-or-by-mail.jpg,64.69,69.01
+1,23,applyfor,Preparing carefully for the interview,Chuẩn bị chu đáo cho buổi phỏng vấn,cuidadosamente preparando para a entrevista,c1l23-preparing-carefully-for-the-interview.jpg,class1/images/c1l23-preparing-carefully-for-the-interview.jpg,69.01,72.01
 1,23,applyfor,Being confident,Tự tin,ser confiante,c1l23-being-confident.jpg,class1/images/c1l23-being-confident.jpg,72.01,73.58
 1,23,badbreakup,Surround yourself with supportive people,Ở cạnh những người luôn ủng hộ bạn,cercar-se com pessoas de apoio,c1l23-surround-yourself-with-supportive-people.jpg,class1/images/c1l23-surround-yourself-with-supportive-people.jpg,73.58,76.38
 1,23,badbreakup,Remind yourself of your ex’s negative traits,Nhắc nhở bản thân về những điều tiêu cực ở người cũ,lembrar-se de caraterísticos negativos do seu ex,c1l23-remind-yourself-of-your-ex-s-negative-traits.jpg,class1/images/c1l23-remind-yourself-of-your-ex-s-negative-traits.jpg,76.38,80.06
@@ -1091,8 +1091,8 @@ Ngớ ngần / Chán / Kì cục",terrível / horrível / nojento / decepcionant
 1,24,vocabulary,Find a good job,Tìm công việc tốt,encontrar um bom trabalho,c1l24-find-a-good-job.jpg,class1/images/c1l24-find-a-good-job.jpg,9.87,12.34
 1,24,vocabulary,Travel around the world,Đi du lịch vòng quanh thế giới,viajar ao redor do mundo,c1l24-travel-around-the-world.jpg,class1/images/c1l24-travel-around-the-world.jpg,12.34,14.42
 1,24,vocabulary,Widen their knowledge,Mở rộng tri thức,ampliar seus conhecimentos,c1l24-widen-their-knowledge.jpg,class1/images/c1l24-widen-their-knowledge.jpg,14.42,16.74
-1,24,vocabulary,Meet new people and learn new things,"Gặp người mới, học điều mới",conhecer novas pessoas e aprender coisas novas,c1l24-meet-new-people-and-learn-new-things.jpg,class1/images/c1l24-meet-new-people-and-learn-new-things.jpg,16.74,20
-1,24,vocabulary,Get out of my comfort zone,Bước ra khỏi vùng an toàn,sair da minha zona de conforto,c1l24-get-out-of-my-comfort-zone.jpg,class1/images/c1l24-get-out-of-my-comfort-zone.jpg,20,22.27
+1,24,vocabulary,Meet new people and learn new things,"Gặp người mới, học điều mới",conhecer novas pessoas e aprender coisas novas,c1l24-meet-new-people-and-learn-new-things.jpg,class1/images/c1l24-meet-new-people-and-learn-new-things.jpg,16.74,20.01
+1,24,vocabulary,Get out of my comfort zone,Bước ra khỏi vùng an toàn,sair da minha zona de conforto,c1l24-get-out-of-my-comfort-zone.jpg,class1/images/c1l24-get-out-of-my-comfort-zone.jpg,20.01,22.27
 1,24,vocabulary,Work under pressure,Làm việc dưới áp lực lớn,trabalhar sob pressão,c1l24-work-under-pressure.jpg,class1/images/c1l24-work-under-pressure.jpg,22.27,24.84
 1,24,vocabulary,Talk in front of a lot of people,Nói chuyện trước nhiều người,falar perante um monte de pessoas,c1l24-talk-in-front-of-a-lot-of-people.jpg,class1/images/c1l24-talk-in-front-of-a-lot-of-people.jpg,24.84,27.79
 1,24,vocabulary,Get stuck in the traffic jam,Bị kẹt xe,ficar preso no engarrafamento,c1l24-get-stuck-in-the-traffic-jam.jpg,class1/images/c1l24-get-stuck-in-the-traffic-jam.jpg,27.79,30.97
@@ -1349,10 +1349,10 @@ Ngớ ngần / Chán / Kì cục",terrível / horrível / nojento / decepcionant
 2,02,vocabulary,Arguing with overly emotional people,Cãi nhau với người thái quá cảm xúc,brigar com pessoas excessivamente emocionais,c2l02-arguing-with-overly-emotional-people.jpg,class2/images/c2l02-arguing-with-overly-emotional-people.jpg,12.85,15.6
 2,02,vocabulary,Getting up early in the morning,Thức dậy sớm,levantar-se cedo pela manhã,c2l02-getting-up-early-in-the-morning.jpg,class2/images/c2l02-getting-up-early-in-the-morning.jpg,17.62,19.46
 2,02,vocabulary,Doing homework,Làm bài tập về nhà,fazer deveres de casa,c2l02-doing-homework.jpg,class2/images/c2l02-doing-homework.jpg,21.68,22.83
-2,02,vocabulary,Doing housework,Làm việc nhà,fazer trabalhos domésticos,c2l02-doing-housework.jpg,class2/images/c2l02-doing-housework.jpg,25.43,36.83
-2,02,vocabulary,Washing dishes,Rửa bát đĩa,lavar pratos,c2l02-washing-dishes.jpg,class2/images/c2l02-washing-dishes.jpg,,
-2,02,vocabulary,Washing clothes / Doing laundry,Giặt quần áo / Giặt ủi,lavar roupa,c2l02-washing-clothes-doing-laundry.jpg,class2/images/c2l02-washing-clothes-doing-laundry.jpg,,
-2,02,vocabulary,Cleaning the house,Lau chùi nhà cửa,limpar a casa,c2l02-cleaning-the-house.jpg,class2/images/c2l02-cleaning-the-house.jpg,,
+2,02,vocabulary,Doing housework,Làm việc nhà,fazer trabalhos domésticos,c2l02-doing-housework.jpg,class2/images/c2l02-doing-housework.jpg,25.43,27.11
+2,02,vocabulary,Washing dishes,Rửa bát đĩa,lavar pratos,c2l02-washing-dishes.jpg,class2/images/c2l02-washing-dishes.jpg,27.11,29.11
+2,02,vocabulary,Washing clothes / Doing laundry,Giặt quần áo / Giặt ủi,lavar roupa,c2l02-washing-clothes-doing-laundry.jpg,class2/images/c2l02-washing-clothes-doing-laundry.jpg,29.11,34.11
+2,02,vocabulary,Cleaning the house,Lau chùi nhà cửa,limpar a casa,c2l02-cleaning-the-house.jpg,class2/images/c2l02-cleaning-the-house.jpg,34.11,37.11
 2,02,vocabulary,Being alone / hungry / sick,Cô đơn / Đói bụng/ Bị ốm,estar sozinho / ter fome / estar doente,c2l02-being-alone-hungry-sick.jpg,class2/images/c2l02-being-alone-hungry-sick.jpg,38.68,43.84
 2,02,vocabulary,Being told “you are short,"Bị nói rằng ""bạn lùn",ser dito “você é baixo”,c2l02-being-told-you-are-short.jpg,class2/images/c2l02-being-told-you-are-short.jpg,46.16,48.77
 2,02,vocabulary,Thinking about my ex,Nghĩ về người yêu cũ,pensar no meu ex,c2l02-thinking-about-my-ex.jpg,class2/images/c2l02-thinking-about-my-ex.jpg,50.74,52.64
@@ -1365,16 +1365,21 @@ Ngớ ngần / Chán / Kì cục",terrível / horrível / nojento / decepcionant
 2,02,vocabulary,Slow Internet Connection,Mạng Internet chậm,conexão de internet lenta,c2l02-slow-internet-connection.jpg,class2/images/c2l02-slow-internet-connection.jpg,80.41,82.31
 2,02,vocabulary,Being early to the airport,Tới sân bay sớm,estar cedo no aeroporto,c2l02-being-early-to-the-airport.jpg,class2/images/c2l02-being-early-to-the-airport.jpg,84.88,86.84
 2,02,vocabulary,Arriving at the destination and realizing that you forgot something,Tới điểm đến và nhận ra rằng bạn quên gì đó,chegar ao destino e perceber que você esqueceu algo,c2l02-arriving-at-the-destination-and-realizing-that-you-forgot-something.jpg,class2/images/c2l02-arriving-at-the-destination-and-realizing-that-you-forgot-something.jpg,89.7,95.57
-2,01,vocabulary,Playing football / ping-pong / badminton / games / cards / chess,,jogar futebol / pingue-pongue / badminton / jogos / cartões / xadrez,c2l01-playing-football-ping-pong-badminton-games-cards-chess.jpg,class2/images/c2l01-playing-football-ping-pong-badminton-games-cards-chess.jpg,8.6,21.92
+2,01,vocabulary,Playing football,,jogar futebol ,c2l01-playing-football.jpg,class2/images/c2l01-playing-football.jpg,8.6,21.92
+2,01,vocabulary,ping-pong,,pingue-pongue,c2l01-ping-pong.jpg,class2/images/c2l01-ping-pong.jpg,11.3,13.1
+2,01,vocabulary,badminton,,badminton ,c2l01-badminton.jpg,class2/images/c2l01-badminton.jpg,13.5,15.9
+2,01,vocabulary,games,,jogos ,c2l01-games.jpg,class2/images/c2l01-games.jpg,16.1,18.1
+2,01,vocabulary,cards,,cartões ,c2l01-cards.jpg,class2/images/c2l01-cards.jpg,18.2,20.1
+2,01,vocabulary,chess,,xadrez,c2l01-chess.jpg,class2/images/c2l01-chess.jpg,20.2,22.1
 2,01,vocabulary,Doing aerobics / yoga (aerobic / yoga,,fazer aeróbica / ioga (aeróbica / ioga),c2l01-doing-aerobics-yoga-aerobic-yoga.jpg,class2/images/c2l01-doing-aerobics-yoga-aerobic-yoga.jpg,23.78,27.82
 2,01,vocabulary,Working out at the gym,Tập luyện ở phòng gym,fazer musculação na academia,c2l01-working-out-at-the-gym.jpg,class2/images/c2l01-working-out-at-the-gym.jpg,30.18,32.05
-2,01,vocabulary,Going swimming,Bơi,ir nadar,c2l01-going-swimming.jpg,class2/images/c2l01-going-swimming.jpg,35.09,50.09
-2,01,vocabulary,Shopping,Mua sắm,ir ao shopping,c2l01-shopping.jpg,class2/images/c2l01-shopping.jpg,,
-2,01,vocabulary,Fishing,Câu cá,ir pescar ,c2l01-fishing.jpg,class2/images/c2l01-fishing.jpg,,
-2,01,vocabulary,Jogging,đi bộ nhanh,ir correr,c2l01-jogging.jpg,class2/images/c2l01-jogging.jpg,,
-2,01,vocabulary,Rollerblading,Trượt pa tinh (4 bánh nhỏ mỗi bên 2 bánh),ir patinar,c2l01-rollerblading.jpg,class2/images/c2l01-rollerblading.jpg,,
-2,01,vocabulary,Roller skating,Trượt pa tin (4 bánh nhỏ thành 1 hàng dọc),ir de patins,c2l01-roller-skating.jpg,class2/images/c2l01-roller-skating.jpg,,
-2,01,vocabulary,Skateboarding,Trượt pa tin ván,ir de skate,c2l01-skateboarding.jpg,class2/images/c2l01-skateboarding.jpg,,
+2,01,vocabulary,Going swimming,Bơi,ir nadar,c2l01-going-swimming.jpg,class2/images/c2l01-going-swimming.jpg,35.09,37.12
+2,01,vocabulary,Shopping,Mua sắm,ir ao shopping,c2l01-shopping.jpg,class2/images/c2l01-shopping.jpg,37.12,39.1
+2,01,vocabulary,Fishing,Câu cá,ir pescar ,c2l01-fishing.jpg,class2/images/c2l01-fishing.jpg,39.1,41.1
+2,01,vocabulary,Jogging,đi bộ nhanh,ir correr,c2l01-jogging.jpg,class2/images/c2l01-jogging.jpg,41.1,43.1
+2,01,vocabulary,Rollerblading,Trượt pa tinh (4 bánh nhỏ mỗi bên 2 bánh),ir patinar,c2l01-rollerblading.jpg,class2/images/c2l01-rollerblading.jpg,43.1,45.8
+2,01,vocabulary,Roller skating,Trượt pa tin (4 bánh nhỏ thành 1 hàng dọc),ir de patins,c2l01-roller-skating.jpg,class2/images/c2l01-roller-skating.jpg,45.8,47.9
+2,01,vocabulary,Skateboarding,Trượt pa tin ván,ir de skate,c2l01-skateboarding.jpg,class2/images/c2l01-skateboarding.jpg,47.9,50.1
 2,01,vocabulary,Going for a picnic / Going for a walk,Đi picnic/ đi bộ đi dạo,ir de piquenique / ir dar um passeio,c2l01-going-for-a-picnic-going-for-a-walk.jpg,class2/images/c2l01-going-for-a-picnic-going-for-a-walk.jpg,52.3,57.58
 2,01,vocabulary,Reading books,Đọc sách,ler livros,c2l01-reading-books.jpg,class2/images/c2l01-reading-books.jpg,59.63,61.17
 2,01,vocabulary,Surfing / Kitesurfing / Windsurfing,lướt ván / lướt ván diều kéo / trượt ván buồm,surfar / fazer kitesurf / fazer windsurfing,c2l01-surfing-kitesurfing-windsurfing.jpg,class2/images/c2l01-surfing-kitesurfing-windsurfing.jpg,67.8,73.25

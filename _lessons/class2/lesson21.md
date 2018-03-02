@@ -90,7 +90,7 @@ Bạn bị sốt. Hãy uống vitamin c và uống nhiều nước vào nhé
 ### 4. I hope you feel better soon. 
 {% include play.html identifier="explanation" start=59.23 stop=73.37 %}
 Hi vọng bạn cảm thấy tốt hơn
-- **I hope your headache subsides and you feel a lot better.** *
+- **I hope your headache subsides and you feel a lot better.** 
 - **You'll feel better in no time. Trust me.**
 - **Don't worry, the nausea will wear off in an hour or two.**
 

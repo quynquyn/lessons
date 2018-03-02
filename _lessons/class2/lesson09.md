@@ -6,7 +6,7 @@ lang: vn
 
 ---
 
-{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %} 
+{% include player2.html identifier="Vocabulary" class=page.class lesson=page.lesson %} 
 # Lesson 2.9: Shopping 
 
 ## Vocabulary

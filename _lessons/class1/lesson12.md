@@ -44,7 +44,7 @@ lang: vn
 {% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
 
 1. {% include play.html identifier="examples1" start=3.1 stop=14.5 %} **Where do you usually go on your vacation, Robert?**
-- **I usually go to Canada in the.**    
+- **I usually go to Canada.**    
 *Bạn thường đi kì nghỉ ở đâu, Robert?*    
 *Tôi thường đi Canada vào mùa hè*
 2. {% include play.html identifier="examples1" start=14.5 stop=24.3 %} **Where do you usually buy clothes?**
@@ -56,8 +56,8 @@ lang: vn
 *Bạn thường đi đâu cuối tuần?*     
 *Tôi thường ở nhà*
 
-4. {% include play.html identifier="examples1" start=32.3 stop=42.3 %} **Where does your mother usually buy bread and cakes?**
-- **She always buys bread and cakes at the baker's.**      
+4. {% include play.html identifier="examples1" start=32.3 stop=42.3 %} **Where does your mother usually buy bread and cake?**
+- **She always buys bread and cake at the bakery.**      
 *Mẹ bạn thường mua bánh mì và bánh ở đâu?*     
 *Mẹ tôi thường mua bánh mì và bánh tại tiệm bánh*    
 
@@ -69,12 +69,12 @@ lang: vn
 - **He wants to hold his wedding ceremony at a church.**      
 *Người diễn viên muốn tổ chức đám cưới ở đâu?*
 *Anh ta muốn tổ chức đám cưới tại nhà thờ* 
-7. {% include play.html identifier="examples1" start=61.3 stop=77.3 %} **Where do your parents often celebrate a wedding anniversary?**
-- **They always celebrate a wedding anniversary at home but sometimes they want to celebrate it at a fancy restaurant.**
+7. {% include play.html identifier="examples1" start=61.3 stop=77.3 %} **Where do your parents often celebrate their wedding anniversary?**
+- **They always celebrate their wedding anniversary at home but sometimes they want to celebrate it at a fancy restaurant.**
 *Ba mẹ của bạn thường tổ chức kỉ niệm ngày cưới ở đâu?*    
 *Họ tổ chức kỉ niệm ngày cưới ở nhà nhưng thỉnh thoảng họ muốn tổ chức tại một nhà hàng sang trọng*    
 8. {% include play.html identifier="examples1" start=77.3 stop=84.3 %} **Where does the singer keep his money?**
-- **He keeps it in a bank**
+- **He keeps it in a bank.**
 *Người ca sĩ cất tiền ở đâu?*
 *Anh ta cất tiền trong ngân hàng*
 9. {% include play.html identifier="examples1" start=84.3 stop=91.3 %} **Where does your uncle want to travel to?**
@@ -82,7 +82,7 @@ lang: vn
 *Bác của bạn muốn du lịch tới đâu?*
 *Ông ấy muốn đi du lịch tới Châu Âu*
 10. {% include play.html identifier="examples1" start=91.3 stop=98.6 %} **Where do you need to meet him?**
-- **I need to meet him in a coffee shop.**
+- **I need to meet him at a coffee shop.**
 *Bạn cần gặp anh ấy ở đâu?*
 *Tôi cần gặp anh ấy tại coffee shop*
 

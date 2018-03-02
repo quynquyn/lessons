@@ -58,7 +58,7 @@ lang: vn
 > {% include play.html identifier="conversation" start=38.17 stop=42.26 %}P2: **I agree. The servers are really busy. They need one or two more.**  
 > {% include play.html identifier="conversation" start=42.26 stop=47.97 %}P1: **And the waitress is not really friendly. She ignored me 5 minutes earlier. That’s not good.**    
 > {% include play.html identifier="conversation" start=47.97 stop=49.98 %}P2: **She doesn't speak English very well.**  
-> {% include play.html identifier="conversation" start=49.98 stop=52.38 %}P1: **Yeah—she couldn’t answer many questions.** 
+> {% include play.html identifier="conversation" start=49.98 stop=52.38 %}P1: **Yeah—she couldn’t answer many questions.**  
 > {% include play.html identifier="conversation" start=52.38 stop=54.96 %}P2: **Wow! Our bill is only $24.**  
 > {% include play.html identifier="conversation" start=54.96 stop=56.28 %}P1: **That’s very cheap.**    
 > {% include play.html identifier="conversation" start=56.28 stop=59.10 %}2: **There is no service charge. I think we should leave a tip.**  

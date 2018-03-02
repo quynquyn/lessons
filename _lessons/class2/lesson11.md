@@ -15,6 +15,7 @@ lang: vn
 		class=page.class 
 		lesson=page.lesson 
 		section="vocabulary"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -25,6 +26,7 @@ lang: vn
 		class=page.class 
 		lesson=page.lesson 
 		section="age"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -39,6 +41,7 @@ lang: vn
 		class=page.class 
 		lesson=page.lesson 
 		section="build"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -50,6 +53,7 @@ lang: vn
 		class=page.class 
 		lesson=page.lesson 
 		section="height"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -60,6 +64,7 @@ lang: vn
 		class=page.class 
 		lesson=page.lesson 
 		section="face"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -70,6 +75,7 @@ lang: vn
 		class=page.class 
 		lesson=page.lesson 
 		section="lips"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -81,6 +87,7 @@ lang: vn
 		class=page.class 
 		lesson=page.lesson 
 		section="skin"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -92,6 +99,7 @@ lang: vn
 		class=page.class 
 		lesson=page.lesson 
 		section="nose"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -102,6 +110,7 @@ lang: vn
 		class=page.class 
 		lesson=page.lesson 
 		section="eyebrows"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 

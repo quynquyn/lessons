@@ -15,6 +15,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 		class=page.class 
 		lesson=page.lesson 
 		section="vocabulary"
+		voiceover="File1-Vocab"
 		database=site.data.vocabulary 
 		trial=false %}
 
