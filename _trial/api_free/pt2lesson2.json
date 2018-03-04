@@ -1,0 +1,25 @@
+{
+  "set_attributes":
+    {
+      "el-last-url": "https://englishletics.github.io/free/lessons/class2/lesson02.html",
+      "el-lessonid": "3"
+    },
+  "messages": [
+    {
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "A última lição 'Hobbies' foi algo que você ama. Hoje, aprendemos 'what I hate' = 'o que eu odeio'.",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://englishletics.github.io/free/lessons/class2/lesson02.html",
+              "title": "Open Lesson"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

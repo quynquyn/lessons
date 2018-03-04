@@ -1,0 +1,25 @@
+{
+  "set_attributes":
+    {
+      "el-last-url": "https://englishletics.github.io/free/lessons/class2/lesson15.html",
+      "el-lessonid": "16"
+    },
+  "messages": [
+    {
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "Hoje aprendemos todos os termos e frases ligados ao amor.",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://englishletics.github.io/free/lessons/class2/lesson15.html",
+              "title": "Open Lesson"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

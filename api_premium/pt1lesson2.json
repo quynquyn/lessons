@@ -1,8 +1,8 @@
 {
   "set_attributes":
     {
-      "el-last-url": "{{page.lesson_url}}",
-      "el-lessonid": "{{page.next_lesson_id}}"
+      "el-last-url": "https://englishletics.github.io/premium/lessons/class1/lesson02.html",
+      "el-lessonid": "3"
     },
   "messages": [
     {
@@ -10,11 +10,11 @@
         "type": "template",
         "payload": {
           "template_type": "button",
-          "text": "{{page.message}}",
+          "text": "Como você gostou da lição de animais? Agora falamos sobre verbos!",
           "buttons": [
             {
               "type": "web_url",
-              "url": "{{page.lesson_url}}",
+              "url": "https://englishletics.github.io/premium/lessons/class1/lesson02.html",
               "title": "Open Lesson"
             }
           ]

@@ -1,0 +1,25 @@
+{
+  "set_attributes":
+    {
+      "el-last-url": "{{page.lesson_url_premium}}",
+      "el-lessonid": "{{page.next_lesson_id}}"
+    },
+  "messages": [
+    {
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "{{page.message}}",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "{{page.lesson_url_premium}}",
+              "title": "Open Lesson"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

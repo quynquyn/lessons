@@ -1,0 +1,25 @@
+{
+  "set_attributes":
+    {
+      "el-last-url": "https://englishletics.github.io/free/lessons/class2/lesson24.html",
+      "el-lessonid": "25"
+    },
+  "messages": [
+    {
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "Món ăn yêu thích của bạn là gì? Thức uống yêu thích của bạn là gì? Đó là một chủ đề hay chứ  nhỉ!",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://englishletics.github.io/free/lessons/class2/lesson24.html",
+              "title": "Open Lesson"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
