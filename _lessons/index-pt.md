@@ -1,33 +1,26 @@
 ---
 layout: lesson
+lang: pt
 ---
 
-This is the Portuguese Version
-Go to [Vietnamese Version](index.html)!
+
+This is the {{page.lang}} Version
+Go to [Portuguese Version](index-pt.html)!
+Go to [Viet Version](index-vn.html)!
+Go to [EN (test) Version](index-en.html)!
 
 <div class="container">
   <div class="row">
     <div class="col">
 				<h2>Class 1</h2>
 		
-  {% for item in site.lessons %}
-  {% if item.class == "1" and item.lang == "pt" %}
-	  <h4><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h4>
-  {% else %}
-  {% endif %}
-  {% endfor %}
-
+		{% include list_lessons.html lessons=site.lessons class="1" lang=page.lang %}
+		
     </div>
     <div class="col">
 		<h2>Class 2</h2>
 
-  {% for item in site.lessons %}
-  {% if item.class == "2"  and item.lang == "pt"  %}
-	  <h4><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h4>
-  {% else %}
-  {% endif %}
-  {% endfor %}
-
+		{% include list_lessons.html lessons=site.lessons class="2" lang=page.lang %}
     </div>
   </div>
 </div>

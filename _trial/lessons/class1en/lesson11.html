@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        
+        
+          Limited Trial version
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/people-going-premium-learn-english-faster-and-better/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-111-review">Lesson 1.11: Review</h1>
+
+<h2 id="1-yes--no-questions">1. Yes / No questions</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L11-examples5.mp3" id="audio_examples5" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples5" onclick="play('examples5', '11', 'examples5');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L11-examples5.mp3</div>
+
+<ol>
+  <li><strong class="el-vocab-play" id="playat_examples5" onclick="playat('examples5',  13.23, 15.14,  'n/a', 'examples5');">▷</strong><strong>Do you need this pen?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples5" onclick="playat('examples5',  16.65, 19.69,  'n/a', 'examples5');">▷</strong><strong>Is he the most talented person?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples5" onclick="playat('examples5',  21.19, 22.96,  'n/a', 'examples5');">▷</strong><strong>Do you understand me?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples5" onclick="playat('examples5',  24.54, 27.29,  'n/a', 'examples5');">▷</strong><strong>Do you have a test tomorrow?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples5" onclick="playat('examples5',  28.92, 30.58,  'n/a', 'examples5');">▷</strong><strong>Is she at home?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples5" onclick="playat('examples5',  31.99, 35.67,  'n/a', 'examples5');">▷</strong><strong>Does the actress intend to travel to Japan?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples5" onclick="playat('examples5',  37.67, 39.65,  'n/a', 'examples5');">▷</strong><strong>Does he hate cats?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples5" onclick="playat('examples5',  41.25, 43.8,  'n/a', 'examples5');">▷</strong><strong>Do they like to eat sushi?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples5" onclick="playat('examples5',  45.29, 47.1,  'n/a', 'examples5');">▷</strong><strong>Does he love her?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples5" onclick="playat('examples5',  48.83, 50.58,  'n/a', 'examples5');">▷</strong><strong>Are they friends?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples5" onclick="playat('examples5',  52.03, 53.82,  'n/a', 'examples5');">▷</strong><strong>Does she miss him?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples5" onclick="playat('examples5',  55.26, 57.37,  'n/a', 'examples5');">▷</strong><strong>Does his computer work?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples5" onclick="playat('examples5',  58.97, 62.18,  'n/a', 'examples5');">▷</strong><strong>Does he try to understand what she is saying?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples5" onclick="playat('examples5',  63.56, 65.95,  'n/a', 'examples5');">▷</strong><strong>Are the nurses at the hospital?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples5" onclick="playat('examples5',  67.73, 70.12,  'n/a', 'examples5');">▷</strong><strong>Does your teacher wear glasses?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples5" onclick="playat('examples5',  72.44, 75.07,  'n/a', 'examples5');">▷</strong><strong>Do lions eat carrots?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples5" onclick="playat('examples5',  76.95, 79.69,  'n/a', 'examples5');">▷</strong><strong>Is New York a big city?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples5" onclick="playat('examples5',  81.85, 84.17,  'n/a', 'examples5');">▷</strong><strong>Is it an easy question?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples5" onclick="playat('examples5',  86.23, 89.63,  'n/a', 'examples5');">▷</strong><strong>Does your class finish at 7PM?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples5" onclick="playat('examples5',  91.2, 94.62,  'n/a', 'examples5');">▷</strong><strong>Do your parents live in HCMC?</strong></li>
+</ol>
+
+<h2 id="2-so--such">2. So / Such</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L11-examples1.mp3" id="audio_examples1" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples1" onclick="play('examples1', '11', 'examples1');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L11-examples1.mp3</div>
+
+<ol>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   6.15, 8.55,   'n/a', 'examples1');">▷</strong><strong>You are such a good friend.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   10.13, 13.14,   'n/a', 'examples1');">▷</strong><strong>Russia is such a big country.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   14.75, 17.04,   'n/a', 'examples1');">▷</strong><strong>You are such a great artist.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   18.76, 20.57,   'n/a', 'examples1');">▷</strong><strong>I am so amazing.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   22.33, 25.71,   'n/a', 'examples1');">▷</strong><strong>Iceland is such a cold country.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   28.13, 30.52,   'n/a', 'examples1');">▷</strong><strong>It is such a great movie.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   32.86, 34.77,   'n/a', 'examples1');">▷</strong><strong>You are such a liar.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   36.74, 39.14,   'n/a', 'examples1');">▷</strong><strong>The test is so hard.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   41.3, 43.61,   'n/a', 'examples1');">▷</strong><strong>She is so crazy.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',  45.8, 48.66,  'n/a', 'examples1');">▷</strong><strong>She is so good at English.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',  51.05, 53.7,  'n/a', 'examples1');">▷</strong><strong>The question is so easy.</strong></li>
+</ol>
+
+<h2 id="3-comparison">3. Comparison</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L11-examples2.mp3" id="audio_examples2" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples2" onclick="play('examples2', '11', 'examples2');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L11-examples2.mp3</div>
+
+<ol>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  6.04, 8.93,  'n/a', 'examples2');">▷</strong><strong>My house is bigger than yours.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  10.35, 13.64,  'n/a', 'examples2');">▷</strong><strong>This flower is more beautiful than that one.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  15.26, 18.94,  'n/a', 'examples2');">▷</strong><strong>This is the most interesting book I have ever read.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  19.99, 24.18,  'n/a', 'examples2');">▷</strong><strong>Non-smokers usually live longer than smokers.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  25.56, 29.68,  'n/a', 'examples2');">▷</strong><strong>Which is the the most dangerous animal in the world?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  31.55, 36.6,  'n/a', 'examples2');">▷</strong><strong>Holidays by the sea are better than holidays in the mountains.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  38.11, 43.59,  'n/a', 'examples2');">▷</strong><strong>It is strange but often a coke is more expensive than a beer.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  45.46, 48.41,  'n/a', 'examples2');">▷</strong><strong>Who is the richest woman on earth?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  50.6, 54.92,  'n/a', 'examples2');">▷</strong><strong>The weather this summer is even worse than last summer.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',      56.47, 59.37,      'n/a', 'examples2');">▷</strong><strong>He was the smartest thief of all</strong></li>
+</ol>
+
+<h2 id="4-there-is--there-are">4. There is / There are</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L11-examples3.mp3" id="audio_examples3" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples3" onclick="play('examples3', '11', 'examples3');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L11-examples3.mp3</div>
+
+<ol>
+  <li><strong class="el-vocab-play" id="playat_examples3" onclick="playat('examples3',   10.13, 13.21,   'n/a', 'examples3');">▷</strong><strong>Are there any crocodiles in the lake?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples3" onclick="playat('examples3',   15.33, 18.74,   'n/a', 'examples3');">▷</strong><strong>Are there any museums in district 7?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples3" onclick="playat('examples3',   20.85, 23.44,   'n/a', 'examples3');">▷</strong><strong>Are there any books on the table?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples3" onclick="playat('examples3',   25.33, 28.06,   'n/a', 'examples3');">▷</strong><strong>Is there any money in the wallet?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples3" onclick="playat('examples3',   29.26, 31.84,   'n/a', 'examples3');">▷</strong><strong>Is there any water in the bottle?</strong></li>
+</ol>
+
+<h2 id="5-it-is--adjective--to-verb">5. It is + Adjective + to Verb</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L11-examples4.mp3" id="audio_examples4" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples4" onclick="play('examples4', '11', 'examples4');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L11-examples4.mp3</div>
+
+<ol>
+  <li><strong class="el-vocab-play" id="playat_examples4" onclick="playat('examples4',   7.19, 10.28,   'n/a', 'examples4');">▷</strong><strong>Is it stupid to love a married man?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples4" onclick="playat('examples4',   11.77, 14.93,   'n/a', 'examples4');">▷</strong><strong>Is it crazy to quit such a good job?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples4" onclick="playat('examples4',   16.39, 19.14,   'n/a', 'examples4');">▷</strong><strong>Is it easy to learn Japanese?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples4" onclick="playat('examples4',   20.68, 23.75,   'n/a', 'examples4');">▷</strong><strong>Is it interesting to talk to the teacher?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples4" onclick="playat('examples4',   25.55, 28.13,   'n/a', 'examples4');">▷</strong><strong>Is it bad to cry in public?</strong></li>
+  <li>
+    <p><strong class="el-vocab-play" id="playat_examples4" onclick="playat('examples4',   29.94, 32.94,   'n/a', 'examples4');">▷</strong><strong>Is it terrible to get married without love?</strong></p>
+  </li>
+  <li>
+    <p><strong class="el-vocab-play" id="playat_examples4" onclick="playat('examples4',   34.6, 39.93,   'n/a', 'examples4');">▷</strong><strong>Is it possible to speak English fluently when you don’t practice every day?</strong></p>
+  </li>
+  <li><strong class="el-vocab-play" id="playat_examples4" onclick="playat('examples4',   41.52, 43.98,   'n/a', 'examples4');">▷</strong><strong>Is it good to follow the crowd?</strong></li>
+</ol>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

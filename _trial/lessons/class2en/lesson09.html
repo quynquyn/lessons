@@ -1,0 +1,1408 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        
+        
+          Limited Trial version
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/people-going-premium-learn-english-faster-and-better/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L09-Vocabulary.mp3" id="audio_Vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_Vocabulary" onclick="play('Vocabulary', '09', 'Vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L09-Vocabulary.mp3</div>
+
+<h1 id="lesson-29-shopping">Lesson 2.9: Shopping</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<h3 id="shopping-items">Shopping items</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l09-tie.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 10.44, 12.67, 
+      '2-09', 'Tie');">▷ <strong>Tie</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l09-hat.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 12.67, 14.34, 
+      '2-09', 'Hat');">▷ <strong>Hat</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l09-cap.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 14.34, 16.33, 
+      '2-09', 'Cap');">▷ <strong>Cap</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l09-clothes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 16.33, 19.27, 
+      '2-09', 'Clothes');">▷ <strong>Clothes</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l09-shirt.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 19.27, 20.95, 
+      '2-09', 'Shirt');">▷ <strong>Shirt</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l09-t-shirt.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 20.95, 23.35, 
+      '2-09', 'T-shirt');">▷ <strong>T-shirt</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l09-tank-top.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 23.35, 25.55, 
+      '2-09', 'Tank-top');">▷ <strong>Tank-top</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l09-jacket.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 25.55, 27.85, 
+      '2-09', 'Jacket');">▷ <strong>Jacket</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 27.85, 30.04, 
+      '2-09', 'Sweater');">▷ <strong>Sweater</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 30.04, 32.46, 
+      '2-09', 'Dress');">▷ <strong>Dress</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 32.46, 34.55, 
+      '2-09', 'Skirt');">▷ <strong>Skirt</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 34.55, 36.93, 
+      '2-09', 'Jeans');">▷ <strong>Jeans</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 36.93, 39.11, 
+      '2-09', 'Trousers');">▷ <strong>Trousers</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 39.11, 41.12, 
+      '2-09', 'Shorts');">▷ <strong>Shorts</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 41.12, 43.47, 
+      '2-09', 'Leggings');">▷ <strong>Leggings</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row6"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 43.47, 45.95, 
+      '2-09', 'Pants');">▷ <strong>Pants</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 45.95, 47.94, 
+      '2-09', 'Swimsuit');">▷ <strong>Swimsuit</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 47.94, 49.9, 
+      '2-09', 'Underwear');">▷ <strong>Underwear</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row7"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 49.9, 52.86, 
+      '2-09', 'Shoes');">▷ <strong>Shoes</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 52.86, 54.69, 
+      '2-09', 'Sneakers');">▷ <strong>Sneakers</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 54.69, 56.96, 
+      '2-09', 'High heels');">▷ <strong>High heels</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row8"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 56.96, 59.18, 
+      '2-09', 'Sandals');">▷ <strong>Sandals</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 59.18, 61.5, 
+      '2-09', 'Glasses');">▷ <strong>Glasses</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 61.5, 64.34, 
+      '2-09', 'Sunglasses');">▷ <strong>Sunglasses</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="styles">Styles</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l09-casual.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 67.6, 70.31, 
+      '2-09', 'Casual');">▷ <strong>Casual</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l09-elegant.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 70.31, 72.28, 
+      '2-09', 'Elegant');">▷ <strong>Elegant</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l09-conservative.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 72.28, 74.56, 
+      '2-09', 'Conservative');">▷ <strong>Conservative</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l09-provocative.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 74.56, 76.68, 
+      '2-09', 'Provocative');">▷ <strong>Provocative</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l09-stylish.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 76.68, 79.08, 
+      '2-09', 'Stylish');">▷ <strong>Stylish</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l09-fashionable.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 79.08, 81.31, 
+      '2-09', 'Fashionable');">▷ <strong>Fashionable</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l09-trendy.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 81.31, 83.67, 
+      '2-09', 'Trendy');">▷ <strong>Trendy</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l09-classic.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 87.35, 89.81, 
+      '2-09', 'Classic');">▷ <strong>Classic</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 89.81, 93.12, 
+      '2-09', 'Glamorous');">▷ <strong>Glamorous</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 93.12, 94.98, 
+      '2-09', 'Traditional');">▷ <strong>Traditional</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 94.98, 96.86, 
+      '2-09', 'Comfortable');">▷ <strong>Comfortable</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 96.86, 99.77, 
+      '2-09', 'Old-fashioned');">▷ <strong>Old-fashioned</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="shopping-places">Shopping places</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l09-shopping-center-mall.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 103.17, 106.84, 
+      '2-09', 'Shopping center / mall');">▷ <strong>Shopping center / mall</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l09-clothes-store-shop.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 106.84, 111.27, 
+      '2-09', 'Clothes store / shop');">▷ <strong>Clothes store / shop</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l09-boutique.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 111.27, 114.09, 
+      '2-09', 'Boutique');">▷ <strong>Boutique</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l09-thrift-shop.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 114.09, 116.66, 
+      '2-09', 'Thrift shop');">▷ <strong>Thrift shop</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="have-you-ever">Have you ever</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l09-buy-second-hand-clothes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 118.38, 121.22, 
+      '2-09', 'Buy second-hand clothes');">▷ <strong>Buy second-hand clothes</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l09-wear-high-heels.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 121.22, 124.06, 
+      '2-09', 'Wear high heels');">▷ <strong>Wear high heels</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l09-wear-make-up.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 124.06, 127.06, 
+      '2-09', 'Wear make-up');">▷ <strong>Wear make-up</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l09-wear-men-s-clothes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 127.06, 130.25, 
+      '2-09', 'Wear men's clothes');">▷ <strong>Wear men's clothes</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l09-women-s-clothes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 130.25, 133.54, 
+      '2-09', 'Women's clothes');">▷ <strong>Women's clothes</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l09-swimsuit.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 133.54, 136.1, 
+      '2-09', 'Swimsuit');">▷ <strong>Swimsuit</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l09-want-to-have-a-tattoo.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 136.1, 139.01, 
+      '2-09', 'Want to have a tattoo');">▷ <strong>Want to have a tattoo</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l09-a-pierced-ear.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 139.01, 141.83, 
+      '2-09', 'A pierced ear');">▷ <strong>A pierced ear</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 141.83, 146.06, 
+      '2-09', 'See a man who wears make-up');">▷ <strong>See a man who wears make-up</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 146.06, 148.82, 
+      '2-09', 'Earrings');">▷ <strong>Earrings</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 148.82, 151.62, 
+      '2-09', 'Buy clothes on sales');">▷ <strong>Buy clothes on sales</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L09-Conversation.mp3" id="audio_lesson-conversation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-conversation" onclick="play('lesson-conversation', 'C2L09', 'lesson-conversation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L09-Conversation.mp3</div>
+<h2 id="conversation">Conversation</h2>
+
+<blockquote>
+  <p><strong class="el-vocab-play" id="playat_lesson-conversation" onclick="playat('lesson-conversation',      0.01, 1.97,      'n/a', 'lesson-conversation');">▷</strong>Stuart: <strong>Hey, great shoes!</strong><br />
+<strong class="el-vocab-play" id="playat_lesson-conversation" onclick="playat('lesson-conversation',      1.97, 4.27,      'n/a', 'lesson-conversation');">▷</strong>Kim: <strong>Thanks. I bought it yesterday.</strong><br />
+<strong class="el-vocab-play" id="playat_lesson-conversation" onclick="playat('lesson-conversation',      4.27, 6.1,      'n/a', 'lesson-conversation');">▷</strong>Stuart: <strong>Are you a shopaholic?</strong><br />
+<strong class="el-vocab-play" id="playat_lesson-conversation" onclick="playat('lesson-conversation',      6.1, 7.22,      'n/a', 'lesson-conversation');">▷</strong>Kim: <strong>No, I am not.</strong><br />
+<strong class="el-vocab-play" id="playat_lesson-conversation" onclick="playat('lesson-conversation',      7.22, 10.45,      'n/a', 'lesson-conversation');">▷</strong>Stuart: <strong>Are you sure? So, how important is fashion to you?</strong><br />
+<strong class="el-vocab-play" id="playat_lesson-conversation" onclick="playat('lesson-conversation',      10.45, 14.22,      'n/a', 'lesson-conversation');">▷</strong>Kim: <strong>It means nothing to me. I want to spend my money on travelling.</strong><br />
+<strong class="el-vocab-play" id="playat_lesson-conversation" onclick="playat('lesson-conversation',      14.22, 19.3,      'n/a', 'lesson-conversation');">▷</strong>Stuart: <strong>Ah, I got it. But could you tell me where do you usually go shopping?</strong><br />
+<strong class="el-vocab-play" id="playat_lesson-conversation" onclick="playat('lesson-conversation',      19.3, 26,      'n/a', 'lesson-conversation');">▷</strong>Kim: <strong>I usually buy clothes in Lotte supermarket with my friend. She always tells me it is a shopper’s paradise.</strong><br />
+<strong class="el-vocab-play" id="playat_lesson-conversation" onclick="playat('lesson-conversation',      26, 31.95,      'n/a', 'lesson-conversation');">▷</strong>Stuart: <strong>Really? I will go shopping there some day. Have you ever bought second-hand clothes?</strong><br />
+<strong class="el-vocab-play" id="playat_lesson-conversation" onclick="playat('lesson-conversation',      31.95, 38.22,      'n/a', 'lesson-conversation');">▷</strong>Kim: <strong>Yes, once before. But my mother told me that I shouldn’t wear them, so it was my first time and my last.</strong><br />
+<strong class="el-vocab-play" id="playat_lesson-conversation" onclick="playat('lesson-conversation',      38.22, 41.52,      'n/a', 'lesson-conversation');">▷</strong>Stuart: <strong>Aha. Have you ever wanted to have a tattoo?</strong><br />
+<strong class="el-vocab-play" id="playat_lesson-conversation" onclick="playat('lesson-conversation',      41.52, 45.75,      'n/a', 'lesson-conversation');">▷</strong>Kim: <strong>Never ever. I don’t like it and I will never ever want to have it.</strong><br />
+<strong class="el-vocab-play" id="playat_lesson-conversation" onclick="playat('lesson-conversation',      45.75, 48.89,      'n/a', 'lesson-conversation');">▷</strong>Stuart: <strong>Neither do I. What is your fashion style?</strong><br />
+<strong class="el-vocab-play" id="playat_lesson-conversation" onclick="playat('lesson-conversation',      48.89, 54.71,      'n/a', 'lesson-conversation');">▷</strong>Kim: <strong>I prefer it to be stylish and comfortable. By the way, does my shirt go well with the jeans?</strong><br />
+<strong class="el-vocab-play" id="playat_lesson-conversation" onclick="playat('lesson-conversation',      54.71, 56.58,      'n/a', 'lesson-conversation');">▷</strong>Stuart: <strong>Yes, it looks great on you.</strong></p>
+</blockquote>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L09-Explanation.mp3" id="audio_lesson-explanations" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-explanations" onclick="play('lesson-explanations', 'C2L09', 'lesson-explanations');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L09-Explanation.mp3</div>
+
+<h2 id="explanations">Explanations</h2>
+<h3 id="1-are-you-a-shopaholic">1. Are you a shopaholic?</h3>
+<p><strong class="el-vocab-play" id="playat_lesson-explanations" onclick="playat('lesson-explanations',      1.5, 10.87,      'n/a', 'lesson-explanations');">▷</strong>
+Bạn có phải là người nghiện mua sắm không?</p>
+
+<ul>
+  <li><strong>Are you an alcoholic?</strong></li>
+  <li><strong>He is a workaholic.</strong></li>
+</ul>
+
+<h3 id="2-how--important-is-fashion-to-you">2. How  important is fashion to you?</h3>
+<p><strong class="el-vocab-play" id="playat_lesson-explanations" onclick="playat('lesson-explanations',      13.35, 31.14,      'n/a', 'lesson-explanations');">▷</strong>
+Bạn có phải là người nghiện mua sắm không?</p>
+
+<p><strong>How + adjective</strong></p>
+
+<ul>
+  <li><strong>How important am I to you?</strong></li>
+  <li><strong>How rich is he?</strong></li>
+  <li><strong>How tall are you?</strong></li>
+</ul>
+
+<h3 id="3-this-content-is-available-in-the-premium-version">3. This content is available in the premium version.</h3>
+
+<p><em>Nội dung này có sẵn trong phiên bản cao cấp</em></p>
+
+<ul>
+  <li><strong>Purchase the full version and get access right now.</strong> <em>Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></li>
+  <li><strong><a href="#">Get access here</a></strong> <em><a href="#">Được truy cập ở đây</a></em></li>
+</ul>
+
+<h3 id="4-this-content-is-available-in-the-premium-version">4. This content is available in the premium version.</h3>
+
+<p><em>Nội dung này có sẵn trong phiên bản cao cấp</em></p>
+
+<ul>
+  <li><strong>Purchase the full version and get access right now.</strong> <em>Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></li>
+  <li><strong><a href="#">Get access here</a></strong> <em><a href="#">Được truy cập ở đây</a></em></li>
+</ul>
+
+<h3 id="5-this-content-is-available-in-the-premium-version">5. This content is available in the premium version.</h3>
+
+<p><em>Nội dung này có sẵn trong phiên bản cao cấp</em></p>
+
+<ul>
+  <li><strong>Purchase the full version and get access right now.</strong> <em>Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></li>
+  <li><strong><a href="#">Get access here</a></strong> <em><a href="#">Được truy cập ở đây</a></em></li>
+</ul>
+
+<h3 id="6-this-content-is-available-in-the-premium-version">6. This content is available in the premium version.</h3>
+
+<p><em>Nội dung này có sẵn trong phiên bản cao cấp</em></p>
+
+<ul>
+  <li><strong>Purchase the full version and get access right now.</strong> <em>Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></li>
+  <li><strong><a href="#">Get access here</a></strong> <em><a href="#">Được truy cập ở đây</a></em></li>
+</ul>
+
+<h3 id="7-this-content-is-available-in-the-premium-version">7. This content is available in the premium version.</h3>
+
+<p><em>Nội dung này có sẵn trong phiên bản cao cấp</em></p>
+
+<ul>
+  <li><strong>Purchase the full version and get access right now.</strong> <em>Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.</em></li>
+  <li><strong><a href="#">Get access here</a></strong> <em><a href="#">Được truy cập ở đây</a></em></li>
+</ul>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

@@ -1,0 +1,1196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        
+        
+          Limited Trial version
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/people-going-premium-learn-english-faster-and-better/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-114-when">Lesson 1.14: When</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L14-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '14', 'vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L14-vocabulary.mp3</div>
+
+<h3 id="parts-of-the-day">Parts of the Day</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l14-morning.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 12.33, 14.03, 
+      '1-14', 'Morning');">▷ <strong>Morning</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l14-afternoon.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 14.03, 15.26, 
+      '1-14', 'Afternoon');">▷ <strong>Afternoon</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l14-evening.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 15.26, 16.58, 
+      '1-14', 'Evening');">▷ <strong>Evening</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l14-night.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 16.58, 17.61, 
+      '1-14', 'Night');">▷ <strong>Night</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="seasons">Seasons</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l14-spring.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 20.18, 22.02, 
+      '1-14', 'Spring');">▷ <strong>Spring</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l14-summer.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 22.02, 23.18, 
+      '1-14', 'Summer');">▷ <strong>Summer</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l14-autumn.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 23.18, 24.38, 
+      '1-14', 'Autumn');">▷ <strong>Autumn</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l14-winter.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 24.38, 25.98, 
+      '1-14', 'Winter');">▷ <strong>Winter</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="days-of-the-week">Days of the Week</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l14-monday.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 28.86, 30.32, 
+      '1-14', 'Monday');">▷ <strong>Monday</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l14-tuesday.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 30.32, 31.81, 
+      '1-14', 'Tuesday');">▷ <strong>Tuesday</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l14-wednesday.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 31.81, 33.29, 
+      '1-14', 'Wednesday');">▷ <strong>Wednesday</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l14-thursday.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 33.29, 34.64, 
+      '1-14', 'Thursday');">▷ <strong>Thursday</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l14-friday.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 34.64, 35.95, 
+      '1-14', 'Friday');">▷ <strong>Friday</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l14-saturday.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 35.95, 37.2, 
+      '1-14', 'Saturday');">▷ <strong>Saturday</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l14-sunday.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 37.2, 38.6, 
+      '1-14', 'Sunday');">▷ <strong>Sunday</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="months-of-the-year">Months of the Year</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l14-january.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 41.6, 44.9, 
+      '1-14', 'January');">▷ <strong>January</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l14-february.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 44.9, 46.57, 
+      '1-14', 'February');">▷ <strong>February</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l14-march.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 46.57, 48.24, 
+      '1-14', 'March');">▷ <strong>March</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l14-april.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 48.24, 49.89, 
+      '1-14', 'April');">▷ <strong>April</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l14-may.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 49.89, 51.38, 
+      '1-14', 'May');">▷ <strong>May</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l14-june.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 51.38, 53.12, 
+      '1-14', 'June');">▷ <strong>June</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l14-july.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 53.12, 54.89, 
+      '1-14', 'July');">▷ <strong>July</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l14-august.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 54.89, 56.93, 
+      '1-14', 'August');">▷ <strong>August</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 56.93, 58.63, 
+      '1-14', 'September');">▷ <strong>September</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 58.63, 60.47, 
+      '1-14', 'October');">▷ <strong>October</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 60.47, 62.41, 
+      '1-14', 'November');">▷ <strong>November</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 62.41, 63.96, 
+      '1-14', 'December');">▷ <strong>December</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="frequency">Frequency</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l14-always.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 67.27, 69.65, 
+      '1-14', 'Always');">▷ <strong>Always</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l14-usually-often.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 69.65, 72.77, 
+      '1-14', 'Usually / Often');">▷ <strong>Usually / Often</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l14-sometimes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 72.77, 75, 
+      '1-14', 'Sometimes');">▷ <strong>Sometimes</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l14-rarely.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 75, 77.15, 
+      '1-14', 'Rarely');">▷ <strong>Rarely</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l14-never.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 77.15, 79.06, 
+      '1-14', 'Never');">▷ <strong>Never</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="days">Days</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l14-first.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 81.82, 83.62, 
+      '1-14', 'First');">▷ <strong>First</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l14-second.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 83.62, 85.56, 
+      '1-14', 'Second');">▷ <strong>Second</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l14-third.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 85.56, 87.24, 
+      '1-14', 'Third');">▷ <strong>Third</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l14-fourth.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 87.24, 89.12, 
+      '1-14', 'Fourth');">▷ <strong>Fourth</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l14-fifth.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 89.12, 90.95, 
+      '1-14', 'Fifth');">▷ <strong>Fifth</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l14-sixth.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 90.95, 92.98, 
+      '1-14', 'Sixth');">▷ <strong>Sixth</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l14-seventh.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 92.98, 94.72, 
+      '1-14', 'Seventh');">▷ <strong>Seventh</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l14-eighth.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 94.72, 96.95, 
+      '1-14', 'Eighth');">▷ <strong>Eighth</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 96.95, 98.8, 
+      '1-14', 'Ninth');">▷ <strong>Ninth</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 98.8, 100.64, 
+      '1-14', 'Tenth');">▷ <strong>Tenth</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2 id="example">Example</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L14-examples1.mp3" id="audio_examples1" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples1" onclick="play('examples1', '14', 'examples1');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L14-examples1.mp3</div>
+
+<ol>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   5.11, 9.98,   'n/a', 'examples1');">▷</strong> <strong>When is your birthday?</strong> <strong>My birthday is on January 1st.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   11.03, 17.83,   'n/a', 'examples1');">▷</strong> <strong>When is Valentine’s day?</strong> <strong>Valentine’s day is on February 14th, isn’t it?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   19.55, 27.13,   'n/a', 'examples1');">▷</strong> <strong>When is Tet holiday?</strong> <strong>Tet holiday is the first day of January in the lunar calendar.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   31.31, 39.1,   'n/a', 'examples1');">▷</strong> <strong>When is Vietnamese Independence day?</strong> <strong>Vietnamese Independence day is on September second.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   40.38, 46.14,   'n/a', 'examples1');">▷</strong> <strong>When is Halloween?</strong> <strong>Halloween is on the 31st of October.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   47.68, 54.32,   'n/a', 'examples1');">▷</strong> <strong>When are you free?</strong> <strong>I am free after 6PM on weekdays and on weekends.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   55.64, 61.71,   'n/a', 'examples1');">▷</strong> <strong>When were you born?</strong> <strong>I was born on December 9th, 1992.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   62.94, 66.09,   'n/a', 'examples1');">▷</strong> <strong>What time is it?</strong> <strong>It’s five to nine.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   67.08, 70.45,   'n/a', 'examples1');">▷</strong> <strong>What time is it?</strong> <strong>It’s ten to ten.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',  71.56, 75.25,  'n/a', 'examples1');">▷</strong> <strong>What time is it?</strong> <strong>It’s a quarter to six.</strong></li>
+</ol>
+
+<h2 id="more-examples">More examples</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L14-examples2.mp3" id="audio_examples2" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples2" onclick="play('examples2', '14', 'examples2');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L14-examples2.mp3</div>
+
+<ol>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',   4.3, 10.21,   'n/a', 'examples2');">▷</strong> <strong>When do you do homework?</strong> <strong>I do homework whenever I have free time.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',   11.2, 19.7,   'n/a', 'examples2');">▷</strong><strong>When do you intend to buy a computer?</strong> <strong>I intend to buy a computer whenever I have enough money.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',   20.81, 26.23,   'n/a', 'examples2');">▷</strong><strong>When do you finish school?</strong> <strong>I finish school at half past five.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',   27.4, 33.37,   'n/a', 'examples2');">▷</strong><strong>When does the class start?</strong> <strong>The class starts at a quarter to seven.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',   34.47, 38.36,   'n/a', 'examples2');">▷</strong><strong>When do you have lunch?</strong> <strong>I have lunch at noon.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',   39.47, 44.32,   'n/a', 'examples2');">▷</strong><strong>When does the sun rise?</strong> <strong>The sun rises in the morning.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',   45.51, 49.92,   'n/a', 'examples2');">▷</strong><strong>When do flowers bloom?</strong> <strong>Flowers bloom in spring.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',   51.37, 56.69,   'n/a', 'examples2');">▷</strong><strong>When do the tree leaves change color, in fall?</strong> <strong>It happens in autumn, yes.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',   58.26, 66.28,   'n/a', 'examples2');">▷</strong><strong>When do people go back to their hometown and reunite with their families?</strong> <strong>It happens during Tet holiday.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  67.93, 74.77,  'n/a', 'examples2');">▷</strong><strong>When do you feel happy?</strong> <strong>I feel happy whenever I hang out with my friends and family.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  76.46, 83.19,  'n/a', 'examples2');">▷</strong><strong>When do you feel sad?</strong> <strong>I feel sad whenever I think about my ex boyfriend.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  84.3, 90.99,  'n/a', 'examples2');">▷</strong><strong>When do you get angry?</strong> <strong>I get angry every time I talk to the crazy girl.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  92.97, 101.31,  'n/a', 'examples2');">▷</strong><strong>When do you intend to get married?</strong> <strong>I intend to get married after I become financially stable.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  102.54, 109.13,  'n/a', 'examples2');">▷</strong><strong>When do you get disappointed?</strong> <strong>I get disappointed every time you lie to me.</strong></li>
+</ol>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

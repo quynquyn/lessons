@@ -1,0 +1,773 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        
+        
+          Limited Trial version
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/people-going-premium-learn-english-faster-and-better/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-124-why">Lesson 1.24: Why</h1>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L24-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '24', 'vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L24-vocabulary.mp3</div>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l24-communicate-with-foreigners.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 6.74, 9.87, 
+      '1-24', 'Communicate with foreigners');">▷ <strong>Communicate with foreigners</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l24-find-a-good-job.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 9.87, 12.34, 
+      '1-24', 'Find a good job');">▷ <strong>Find a good job</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l24-travel-around-the-world.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 12.34, 14.42, 
+      '1-24', 'Travel around the world');">▷ <strong>Travel around the world</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l24-widen-their-knowledge.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 14.42, 16.74, 
+      '1-24', 'Widen their knowledge');">▷ <strong>Widen their knowledge</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l24-meet-new-people-and-learn-new-things.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 16.74, 20.01, 
+      '1-24', 'Meet new people and learn new things');">▷ <strong>Meet new people and learn new things</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l24-get-out-of-my-comfort-zone.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 20.01, 22.27, 
+      '1-24', 'Get out of my comfort zone');">▷ <strong>Get out of my comfort zone</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l24-work-under-pressure.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 22.27, 24.84, 
+      '1-24', 'Work under pressure');">▷ <strong>Work under pressure</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l24-talk-in-front-of-a-lot-of-people.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 24.84, 27.79, 
+      '1-24', 'Talk in front of a lot of people');">▷ <strong>Talk in front of a lot of people</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 27.79, 30.97, 
+      '1-24', 'Get stuck in the traffic jam');">▷ <strong>Get stuck in the traffic jam</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 30.97, 34.09, 
+      '1-24', 'Good employment opportunities');">▷ <strong>Good employment opportunities</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 34.09, 36.47, 
+      '1-24', 'Lively night life');">▷ <strong>Lively night life</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 36.47, 38.82, 
+      '1-24', 'Entertainment facilities');">▷ <strong>Entertainment facilities</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 38.82, 40.73, 
+      '1-24', 'Fresh air');">▷ <strong>Fresh air</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 40.73, 43.9, 
+      '1-24', 'Cheap living expenses');">▷ <strong>Cheap living expenses</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 43.9, 46.15, 
+      '1-24', 'Friendly neighbors');">▷ <strong>Friendly neighbors</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row6"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 46.15, 50.69, 
+      '1-24', 'Our personalities don’t really match each other');">▷ <strong>Our personalities don’t really match each other</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 50.69, 52.86, 
+      '1-24', 'He cheated on me');">▷ <strong>He cheated on me</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 52.86, 55.07, 
+      '1-24', 'We were not meant to be');">▷ <strong>We were not meant to be</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row7"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 55.07, 56.74, 
+      '1-24', 'I got fired');">▷ <strong>I got fired</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 56.74, 59.1, 
+      '1-24', 'I failed the test');">▷ <strong>I failed the test</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 59.1, 62.33, 
+      '1-24', 'I look sad but I am really not');">▷ <strong>I look sad but I am really not</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row8"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 62.33, 65.38, 
+      '1-24', 'One of my relatives got sick');">▷ <strong>One of my relatives got sick</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 65.38, 68.23, 
+      '1-24', 'My boyfriend is a doctor');">▷ <strong>My boyfriend is a doctor</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<p><strong>WHY DO YOU WANT TO STUDY ENGLISH?</strong></p>
+
+<ul>
+  <li><strong>Communicate with foreigners</strong></li>
+  <li><strong>Find a good job</strong></li>
+  <li><strong>Travel around the world</strong></li>
+</ul>
+
+<p><strong>WHY DO YOU LOVE TO TRAVEL?</strong></p>
+
+<ul>
+  <li><strong>Widen their knowledge</strong></li>
+  <li><strong>Meet new people and learn new things</strong></li>
+  <li><strong>Get out of my comfort zone</strong></li>
+</ul>
+
+<p><strong>WHY DO YOU FEEL STRESSED?</strong></p>
+
+<ul>
+  <li><strong>Work under pressure</strong></li>
+  <li><strong>Talk in front of a lot of people</strong></li>
+  <li><strong>Get stuck in the traffic jam</strong></li>
+</ul>
+
+<p><strong>WHY DO PEOPLE WANT TO LIVE IN THE CITY?</strong></p>
+
+<ul>
+  <li><strong>Good employment opportunities</strong></li>
+  <li><strong>Lively night life</strong></li>
+  <li><strong>Entertainment facilities</strong></li>
+</ul>
+
+<p><strong>WHY DO PEOPLE WANT TO LIVE IN THE COUTRYSIDE?</strong></p>
+
+<ul>
+  <li><strong>Fresh air</strong></li>
+  <li><strong>Cheap living expenses</strong></li>
+  <li><strong>Friendly neighbors</strong></li>
+</ul>
+
+<p><strong>WHY DID YOU BREAK UP WITH HIM?</strong></p>
+
+<ul>
+  <li><strong>Our personalities doesn’t really match each other</strong></li>
+  <li><strong>He cheated on me</strong></li>
+  <li><strong>We were not meant to be</strong></li>
+</ul>
+
+<p><strong>WHY DO YOU FEEL SAD?</strong></p>
+<ul>
+  <li><strong>I got fired</strong></li>
+  <li><strong>I failed the test</strong></li>
+  <li><strong>I look sad but I am really not</strong></li>
+</ul>
+
+<p><strong>WHY ARE YOU IN THE HOSPITAL?</strong></p>
+
+<ul>
+  <li><strong>One of my relatives got sick</strong></li>
+  <li><strong>My boyfriend is a doctor</strong></li>
+</ul>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L24-examples.mp3" id="audio_examples" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples" onclick="play('examples', '24', 'examples');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L24-examples.mp3</div>
+
+<h2 id="example">Example</h2>
+<ol>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   3.72, 5.62,   'n/a', 'examples');">▷</strong><strong>Why do you study English?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   6.85, 9.0,   'n/a', 'examples');">▷</strong><strong>Why do people love to travel?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',  10.33, 12.3,  'n/a', 'examples');">▷</strong><strong>Why do people get stressed?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',  13.71, 15.46,  'n/a', 'examples');">▷</strong><strong>Why are you here?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   17.04, 19.06,   'n/a', 'examples');">▷</strong><strong>Why is money important?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',  20.8, 23.28,  'n/a', 'examples');">▷</strong><strong>Why do people tell white lies?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',  25.02, 28.37,  'n/a', 'examples');">▷</strong><strong>Why do people want to live in the countryside?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',  29.72, 32.54,  'n/a', 'examples');">▷</strong><strong>Why do people want to live in the city?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   33.92, 35.8,   'n/a', 'examples');">▷</strong><strong>Why do you feel sad?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',  37.75, 39.3,  'n/a', 'examples');">▷</strong><strong>Why are you here?</strong></li>
+</ol>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

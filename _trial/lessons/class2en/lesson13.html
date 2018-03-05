@@ -1,0 +1,896 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        
+        
+          Limited Trial version
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/people-going-premium-learn-english-faster-and-better/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L13-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '13', 'vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L13-vocabulary.mp3</div>
+
+<h1 id="lesson-213-personality-2">Lesson 2.13: Personality 2</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l13-sensitive.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 9.76, 10.81, 
+      '2-13', 'Sensitive');">▷ <strong>Sensitive</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l13-proud.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 10.81, 12.69, 
+      '2-13', 'Proud');">▷ <strong>Proud</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l13-aggressive.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 12.69, 13.91, 
+      '2-13', 'Aggressive');">▷ <strong>Aggressive</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l13-honest.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 13.91, 15.89, 
+      '2-13', 'Honest');">▷ <strong>Honest</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l13-self-confident.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 15.89, 17.6, 
+      '2-13', 'Self-confident');">▷ <strong>Self-confident</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l13-moody.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 17.6, 19.36, 
+      '2-13', 'Moody');">▷ <strong>Moody</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l13-absent-minded.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 19.36, 21.59, 
+      '2-13', 'Absent-minded');">▷ <strong>Absent-minded</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l13-amusing.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 21.59, 23.21, 
+      '2-13', 'Amusing');">▷ <strong>Amusing</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 23.21, 25.13, 
+      '2-13', 'Thoughtful');">▷ <strong>Thoughtful</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 25.13, 27.13, 
+      '2-13', 'Arrogant');">▷ <strong>Arrogant</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 27.13, 29.12, 
+      '2-13', 'Hard-working');">▷ <strong>Hard-working</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 29.12, 31.07, 
+      '2-13', 'Selfish');">▷ <strong>Selfish</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 31.07, 33.07, 
+      '2-13', 'Outgoing');">▷ <strong>Outgoing</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 33.07, 35.03, 
+      '2-13', 'A gossip');">▷ <strong>A gossip</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 35.03, 37.1, 
+      '2-13', 'Easy-going');">▷ <strong>Easy-going</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row6"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 37.1, 39.07, 
+      '2-13', 'An extrovert');">▷ <strong>An extrovert</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 39.07, 40.71, 
+      '2-13', 'Cheerful');">▷ <strong>Cheerful</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 40.71, 42.56, 
+      '2-13', 'Miserable');">▷ <strong>Miserable</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row7"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 42.56, 44.7, 
+      '2-13', 'Sociable');">▷ <strong>Sociable</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 44.7, 46.63, 
+      '2-13', 'Reliable');">▷ <strong>Reliable</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 46.63, 48.56, 
+      '2-13', 'Modest');">▷ <strong>Modest</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row8"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 48.56, 50.34, 
+      '2-13', 'Sensible');">▷ <strong>Sensible</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 50.34, 52.08, 
+      '2-13', 'Shy');">▷ <strong>Shy</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 52.08, 54.05, 
+      '2-13', 'Loyal');">▷ <strong>Loyal</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row9"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 54.05, 56.13, 
+      '2-13', 'A laugh');">▷ <strong>A laugh</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 56.13, 57.76, 
+      '2-13', 'A big-head');">▷ <strong>A big-head</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 57.76, 59.56, 
+      '2-13', 'A snob');">▷ <strong>A snob</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row10"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 59.56, 61.01, 
+      '2-13', 'A liar');">▷ <strong>A liar</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 61.01, 63.18, 
+      '2-13', 'A coward');">▷ <strong>A coward</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 63.18, 64.26, 
+      '2-13', 'A couch potato');">▷ <strong>A couch potato</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L13-monologue.mp3" id="audio_monologue" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_monologue" onclick="play('monologue', '13', 'monologue');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L13-monologue.mp3</div>
+
+<h2 id="monologue">Monologue</h2>
+<p><strong class="el-vocab-play" id="playat_monologue" onclick="playat('monologue',      2.57, 42.99,      'n/a', 'monologue');">▷</strong>
+<strong>When I think about things, I try not to think too much about the negative side of them. I try to focus on the positive. I think things will work out for the best, and they usually do. Some of my friends are just the opposite, they always keeping complaining and I tell them that I don’t wanna hang out with them unless they get more positive. I guess I prefer to be around people who also focus more on the positive. But I get that not everyone is the same. Some people are introverted and others are extroverted. Some people are sensitive and others are thick-skinned.</strong></p>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L13-explanation.mp3" id="audio_explanation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_explanation" onclick="play('explanation', '13', 'explanation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L13-explanation.mp3</div>
+
+<h2 id="explanation">Explanation</h2>
+
+<h3 id="1-i-try-to-focus-on-the-positive-side-of-things">1. I try to focus on the positive side of things.</h3>
+<p><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',      4.39, 24.68,      'n/a', 'explanation');">▷</strong>
+Tôi cố gắng tập trung vào mặt tích cực</p>
+
+<p><strong>focus on</strong></p>
+<ul>
+  <li><strong>I guess I prefer to be around people who also focus more on the positive side of things.</strong></li>
+  <li><strong>You must focus on the details.</strong></li>
+  <li><strong>I can’t focus on two things at the same time.</strong></li>
+</ul>
+
+<h3 id="2-they-always-keep-complaining">2. They always keep complaining.</h3>
+<p><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',      26.32, 46.72,      'n/a', 'explanation');">▷</strong>
+Họ luôn than vãn</p>
+
+<p><strong>Keep + Verb+ing</strong></p>
+<ul>
+  <li><strong>I keep smiling.</strong></li>
+  <li><strong>I kept walking though the man told me to stop.</strong></li>
+  <li><strong>I kept believing in what he told me until I met his wife.</strong></li>
+</ul>
+
+<h3 id="3-i-dont-wanna-hang-out-with-them-unless-they-get-more-positive">3. I don’t wanna hang out with them unless they get more positive.</h3>
+<p><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',      48.78, 68.5,      'n/a', 'explanation');">▷</strong>
+Tôi không muốn đi chơi với họ trừ khi họ trở nên lạc quan hơn</p>
+<ul>
+  <li><strong>You can’t get a job unless you have experience.</strong></li>
+  <li><strong>You can’t pass the exam unless you study harder.</strong></li>
+  <li><strong>The kid won’t go to sleep unless you tell him a story.</strong></li>
+</ul>
+
+<h3 id="4--some-people-are-introverted-and-others-are-extroverted">4.  Some people are introverted and others are extroverted.</h3>
+<p><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',      70.33, 88.75,      'n/a', 'explanation');">▷</strong>
+Một vài người thì hướng nội và những người khác thì hướng ngoại</p>
+<ul>
+  <li><strong>Some people are honest and others are liars.</strong></li>
+  <li><strong>Why do some people succeed and others don’t?</strong></li>
+  <li><strong>Why do some people get promoted and others don’t?</strong></li>
+</ul>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

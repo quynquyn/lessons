@@ -1,0 +1,830 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        
+        
+          Phiên bản đầy đủ miễn phí (ngày cuối)
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/people-going-premium-learn-english-faster-and-better/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-14-verb-to-verb">lesson 1.4: verb to verb</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L04-Words.mp3" id="audio_Words" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_Words" onclick="play('Words', '04', 'Words');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L04-Words.mp3</div>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l04-like.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 6.37, 8.01, 
+      '1-04', 'Like');">▷ <strong>Like</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l04-love.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 8.01, 9.89, 
+      '1-04', 'Love');">▷ <strong>Love</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l04-hate.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 9.89, 11.47, 
+      '1-04', 'Hate');">▷ <strong>Hate</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l04-have.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 11.47, 13.75, 
+      '1-04', 'Have');">▷ <strong>Have</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l04-try.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 13.75, 15.36, 
+      '1-04', 'Try');">▷ <strong>Try</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l04-need.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 15.36, 17.04, 
+      '1-04', 'Need');">▷ <strong>Need</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l04-want.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 17.04, 18.95, 
+      '1-04', 'Want');">▷ <strong>Want</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l04-intend.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 18.95, 20.77, 
+      '1-04', 'Intend');">▷ <strong>Intend</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l04-pretend.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 20.77, 22.72, 
+      '1-04', 'Pretend');">▷ <strong>Pretend</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l04-expect.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 22.72, 24.56, 
+      '1-04', 'Expect');">▷ <strong>Expect</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l04-listen-to-music.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 24.56, 27.7, 
+      '1-04', 'Listen to music');">▷ <strong>Listen to music</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l04-hang-out-with-friends.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 27.7, 30.06, 
+      '1-04', 'Hang out with friends');">▷ <strong>Hang out with friends</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l04-travel-to-korea.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 30.06, 32.62, 
+      '1-04', 'Travel to Korea');">▷ <strong>Travel to Korea</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l04-read-books.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 32.62, 35.12, 
+      '1-04', 'Read books');">▷ <strong>Read books</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l04-get-up-early.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 35.12, 38.11, 
+      '1-04', 'Get up early');">▷ <strong>Get up early</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row6"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l04-stay-up-late.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 38.11, 40.62, 
+      '1-04', 'Stay up late');">▷ <strong>Stay up late</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l04-study-english.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 40.62, 42.99, 
+      '1-04', 'Study English');">▷ <strong>Study English</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l04-smile.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 42.99, 44.53, 
+      '1-04', 'Smile');">▷ <strong>Smile</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row7"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l04-call-my-mother.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 44.53, 50.47, 
+      '1-04', 'Call my mother');">▷ <strong>Call my mother</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l04-take-a-selfie-take-a-photo.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 50.47, 55.55, 
+      '1-04', 'Take a selfie / Take a photo');">▷ <strong>Take a selfie / Take a photo</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l04-know-how-to-swim.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 55.55, 58.1, 
+      '1-04', 'Know how to swim');">▷ <strong>Know how to swim</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row8"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l04-visit-relatives.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 58.1, 60.63, 
+      '1-04', 'Visit relatives');">▷ <strong>Visit relatives</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l04-go-shopping.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 60.63, 63.5, 
+      '1-04', 'Go shopping');">▷ <strong>Go shopping</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l04-go-fishing.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 63.5, 65.21, 
+      '1-04', 'Go fishing');">▷ <strong>Go fishing</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row9"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l04-smoke-cigarettes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Words" onclick="playat('Words', 65.21, 67.47, 
+      '1-04', 'Smoke cigarettes');">▷ <strong>Smoke cigarettes</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2 id="dialogue">Dialogue</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L04-Native-Dialogue.mp3" id="audio_Native-Dialogue" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_Native-Dialogue" onclick="play('Native-Dialogue', '04', 'Native-Dialogue');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L04-Native-Dialogue.mp3</div>
+
+<blockquote>
+  <p><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',      5.11, 9.91,      'n/a', 'Native-Dialogue');">▷</strong> <strong>Do you love to listen to music?</strong> 
+<strong>Yes, I love to listen to music.</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',      9.91, 15.11,      'n/a', 'Native-Dialogue');">▷</strong> <strong>Do you like to hang out with friends?</strong> <br />
+<strong>Yes, I like to hang out with friends.</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',      15.11, 21.11,      'n/a', 'Native-Dialogue');">▷</strong> <strong>Do you try to learn English?</strong> 
+<strong>No, I don’t try to learn English. I try to learn Japanese.</strong> <br />
+<strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',      21.11, 28.11,      'n/a', 'Native-Dialogue');">▷</strong> <strong>Do you want to travel to Korea?</strong> 
+<strong>No, I don’t want to travel to Korea. I want to travel to Malaysia.</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',      28.11, 34.11,      'n/a', 'Native-Dialogue');">▷</strong> <strong>Do you need to take a selfie?</strong> 
+<strong>No, I don’t need to take a selfie. I need to take a photo.</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',      34.11, 40.11,      'n/a', 'Native-Dialogue');">▷</strong> <strong>Do you have to call your mother?</strong> 
+<strong>No, I don’t have to call my mother. I have to call my sister.</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',      40.11, 47.11,      'n/a', 'Native-Dialogue');">▷</strong> <strong>Do you hate to do homework?</strong> 
+<strong>No, I don’t hate to do homework. I hate to do housework.</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',      47.11, 54.41,      'n/a', 'Native-Dialogue');">▷</strong> <strong>Do you intend to talk to the doctor?</strong> 
+<strong>Yes, I intend to talk to the doctor and I also intend to talk to the nurse.</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',      54.41, 63.11,      'n/a', 'Native-Dialogue');">▷</strong> <strong>Do you expect to have a baby next year?</strong> 
+<strong>No, I don’t expect to have a baby next year. I expect to have a baby in three years.</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',      63.11, 68.11,      'n/a', 'Native-Dialogue');">▷</strong> <strong>Do you pretend to like her?</strong> 
+<strong>Yes, I just pretend to like her.</strong></p>
+</blockquote>
+
+<h2 id="b">B.</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/CLC1L04-Native-Dialogue.mp3" id="audio_Native-Dialogue" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_Native-Dialogue" onclick="play('Native-Dialogue', 'C1L04', 'Native-Dialogue');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">CLC1L04-Native-Dialogue.mp3</div>
+
+<ul>
+  <li><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',    70.11, 73.91,    'n/a', 'Native-Dialogue');">▷</strong> <strong>What do you love to do?</strong>- <strong>I love to dance.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',    73.81, 77.11,    'n/a', 'Native-Dialogue');">▷</strong> <strong>What do you like to do?</strong>- <strong>I like to read books.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',    77.11, 81.31,    'n/a', 'Native-Dialogue');">▷</strong> <strong>What do you try to do?</strong>- <strong>I try to get up early.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',    81.31, 85.31,    'n/a', 'Native-Dialogue');">▷</strong> <strong>What do you want to do?</strong>- <strong>I want to read books.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',    85.31, 89.91,    'n/a', 'Native-Dialogue');">▷</strong> <strong>What do you need to do?</strong>- <strong>I need to reserve a room at a hotel.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',    89.91, 93.11,    'n/a', 'Native-Dialogue');">▷</strong> <strong>What do you have to do?</strong>- <strong>I have to take off my shoes.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',    93.21, 96.81,    'n/a', 'Native-Dialogue');">▷</strong> <strong>What do you hate to do?</strong>- <strong>I hate to talk to the manager.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',    96.81, 101.11,    'n/a', 'Native-Dialogue');">▷</strong> <strong>What do you intend to do?</strong>- <strong>I intend to get married next year.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',    101.21, 105.31,    'n/a', 'Native-Dialogue');">▷</strong> <strong>What do you expect to do?</strong>- <strong>I expect to borrow some money.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',    105.41, 109.81,    'n/a', 'Native-Dialogue');">▷</strong> <strong>What do you pretend to do?</strong>- <strong>I pretend to smile.</strong></li>
+</ul>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

@@ -1,0 +1,2201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        
+        
+          3 Days left!
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/people-going-premium-learn-english-faster-and-better/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-11-noun-what">Lesson 1.1: Noun (what)</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<h3 id="animals">Animals</h3>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L01-Animals.mp3" id="audio_Animals" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_Animals" onclick="play('Animals', '01', 'Animals');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L01-Animals.mp3</div>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-pig.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Animals" onclick="playat('Animals', 6.88, 8.73, 
+      '1-01', 'Pig');">▷ <strong>Pig</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-horse.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Animals" onclick="playat('Animals', 8.73, 10.53, 
+      '1-01', 'Horse');">▷ <strong>Horse</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-elephant.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Animals" onclick="playat('Animals', 10.53, 12.17, 
+      '1-01', 'Elephant');">▷ <strong>Elephant</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-fish.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Animals" onclick="playat('Animals', 12.17, 14.12, 
+      '1-01', 'Fish');">▷ <strong>Fish</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-snake.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Animals" onclick="playat('Animals', 14.12, 16.31, 
+      '1-01', 'Snake');">▷ <strong>Snake</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-giraffe.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Animals" onclick="playat('Animals', 16.31, 18.21, 
+      '1-01', 'Giraffe');">▷ <strong>Giraffe</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-dog.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Animals" onclick="playat('Animals', 18.21, 20.03, 
+      '1-01', 'Dog');">▷ <strong>Dog</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-cat.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Animals" onclick="playat('Animals', 20.03, 22.64, 
+      '1-01', 'Cat');">▷ <strong>Cat</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-lion.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Animals" onclick="playat('Animals', 22.64, 24.13, 
+      '1-01', 'Lion');">▷ <strong>Lion</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-tiger.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Animals" onclick="playat('Animals', 24.13, 25.87, 
+      '1-01', 'Tiger');">▷ <strong>Tiger</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-chicken.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Animals" onclick="playat('Animals', 25.87, 27.61, 
+      '1-01', 'Chicken');">▷ <strong>Chicken</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-bird.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Animals" onclick="playat('Animals', 27.61, 29.3, 
+      '1-01', 'Bird');">▷ <strong>Bird</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-turtle.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Animals" onclick="playat('Animals', 29.3, 30.93, 
+      '1-01', 'Turtle');">▷ <strong>Turtle</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-rabbit.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Animals" onclick="playat('Animals', 30.93, 32.85, 
+      '1-01', 'Rabbit');">▷ <strong>Rabbit</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-crocodile.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Animals" onclick="playat('Animals', 32.85, 34.89, 
+      '1-01', 'Crocodile');">▷ <strong>Crocodile</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row6"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-bear.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Animals" onclick="playat('Animals', 34.89, 36.37, 
+      '1-01', 'Bear');">▷ <strong>Bear</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="fruits">Fruits</h3>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L01-Fruits.mp3" id="audio_Fruits" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_Fruits" onclick="play('Fruits', '01', 'Fruits');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L01-Fruits.mp3</div>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-avocado.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Fruits" onclick="playat('Fruits', 1.36, 3.07, 
+      '1-01', 'Avocado');">▷ <strong>Avocado</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-apple.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Fruits" onclick="playat('Fruits', 3.07, 4.7, 
+      '1-01', 'Apple');">▷ <strong>Apple</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-grape.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Fruits" onclick="playat('Fruits', 6.7, 7.87, 
+      '1-01', 'Grape');">▷ <strong>Grape</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-lemon.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Fruits" onclick="playat('Fruits', 7.87, 9.76, 
+      '1-01', 'Lemon');">▷ <strong>Lemon</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-watermelon.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Fruits" onclick="playat('Fruits', 9.76, 12.12, 
+      '1-01', 'Watermelon');">▷ <strong>Watermelon</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-strawberry.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Fruits" onclick="playat('Fruits', 12.12, 14.21, 
+      '1-01', 'Strawberry');">▷ <strong>Strawberry</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-papaya.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Fruits" onclick="playat('Fruits', 14.21, 15.87, 
+      '1-01', 'Papaya');">▷ <strong>Papaya</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-mango.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Fruits" onclick="playat('Fruits', 15.87, 17.46, 
+      '1-01', 'Mango');">▷ <strong>Mango</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-orange.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Fruits" onclick="playat('Fruits', 17.46, 19.23, 
+      '1-01', 'Orange');">▷ <strong>Orange</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="things-in-class">Things in class</h3>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L01-ThingsInClass.mp3" id="audio_ThingsInClass" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_ThingsInClass" onclick="play('ThingsInClass', '01', 'ThingsInClass');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L01-ThingsInClass.mp3</div>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-board.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_ThingsInClass" onclick="playat('ThingsInClass', 2.05, 3.59, 
+      '1-01', 'Board');">▷ <strong>Board</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-chair.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_ThingsInClass" onclick="playat('ThingsInClass', 3.59, 5.13, 
+      '1-01', 'Chair');">▷ <strong>Chair</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-table.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_ThingsInClass" onclick="playat('ThingsInClass', 5.13, 6.43, 
+      '1-01', 'Table');">▷ <strong>Table</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-air-conditioner.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_ThingsInClass" onclick="playat('ThingsInClass', 6.43, 8.27, 
+      '1-01', 'Air conditioner');">▷ <strong>Air conditioner</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-pen.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_ThingsInClass" onclick="playat('ThingsInClass', 8.27, 9.61, 
+      '1-01', 'Pen');">▷ <strong>Pen</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-pencil.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_ThingsInClass" onclick="playat('ThingsInClass', 9.61, 11.53, 
+      '1-01', 'Pencil');">▷ <strong>Pencil</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-book.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_ThingsInClass" onclick="playat('ThingsInClass', 11.53, 13.2, 
+      '1-01', 'Book');">▷ <strong>Book</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-marker.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_ThingsInClass" onclick="playat('ThingsInClass', 13.2, 14.9, 
+      '1-01', 'Marker');">▷ <strong>Marker</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-door.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_ThingsInClass" onclick="playat('ThingsInClass', 14.9, 16.63, 
+      '1-01', 'Door');">▷ <strong>Door</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-window.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_ThingsInClass" onclick="playat('ThingsInClass', 16.63, 18.2, 
+      '1-01', 'Window');">▷ <strong>Window</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-light.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_ThingsInClass" onclick="playat('ThingsInClass', 18.2, 20.06, 
+      '1-01', 'Light');">▷ <strong>Light</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-wall.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_ThingsInClass" onclick="playat('ThingsInClass', 20.06, 22.03, 
+      '1-01', 'Wall');">▷ <strong>Wall</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-picture.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_ThingsInClass" onclick="playat('ThingsInClass', 22.03, 23.41, 
+      '1-01', 'Picture');">▷ <strong>Picture</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="vehicles">Vehicles</h3>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L01-Vehicles.mp3" id="audio_Vehicles" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_Vehicles" onclick="play('Vehicles', '01', 'Vehicles');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L01-Vehicles.mp3</div>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-car.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vehicles" onclick="playat('Vehicles', 2, 3.44, 
+      '1-01', 'Car');">▷ <strong>Car</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-motorbike.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vehicles" onclick="playat('Vehicles', 3.44, 4.82, 
+      '1-01', 'Motorbike');">▷ <strong>Motorbike</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-bike.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vehicles" onclick="playat('Vehicles', 4.82, 6.34, 
+      '1-01', 'Bike');">▷ <strong>Bike</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-truck.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vehicles" onclick="playat('Vehicles', 6.34, 8.02, 
+      '1-01', 'Truck');">▷ <strong>Truck</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-train.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vehicles" onclick="playat('Vehicles', 8.02, 9.62, 
+      '1-01', 'Train');">▷ <strong>Train</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-plane.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vehicles" onclick="playat('Vehicles', 9.62, 11.66, 
+      '1-01', 'Plane');">▷ <strong>Plane</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-bus.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vehicles" onclick="playat('Vehicles', 11.66, 13.28, 
+      '1-01', 'Bus');">▷ <strong>Bus</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-taxi.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vehicles" onclick="playat('Vehicles', 13.28, 14.9, 
+      '1-01', 'Taxi');">▷ <strong>Taxi</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-boat.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vehicles" onclick="playat('Vehicles', 14.9, 16.53, 
+      '1-01', 'Boat');">▷ <strong>Boat</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="people">People</h3>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L01-People.mp3" id="audio_People" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_People" onclick="play('People', '01', 'People');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L01-People.mp3</div>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-teacher.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_People" onclick="playat('People', 2.26, 3.67, 
+      '1-01', 'Teacher');">▷ <strong>Teacher</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-student.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_People" onclick="playat('People', 3.67, 5.27, 
+      '1-01', 'Student');">▷ <strong>Student</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-doctor.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_People" onclick="playat('People', 5.27, 6.66, 
+      '1-01', 'Doctor');">▷ <strong>Doctor</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-nurse.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_People" onclick="playat('People', 6.66, 8.4, 
+      '1-01', 'Nurse');">▷ <strong>Nurse</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2 id="uncountable-nouns">Uncountable nouns</h2>
+
+<h3 id="important-things-in-your-life">Important things in your life</h3>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L01-Important.mp3" id="audio_Important" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_Important" onclick="play('Important', '01', 'Important');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L01-Important.mp3</div>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-air.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Important" onclick="playat('Important', 5.41, 7.09, 
+      '1-01', 'Air');">▷ <strong>Air</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-food.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Important" onclick="playat('Important', 7.09, 9.13, 
+      '1-01', 'Food');">▷ <strong>Food</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-money.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Important" onclick="playat('Important', 9.13, 11.19, 
+      '1-01', 'Money');">▷ <strong>Money</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-health.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Important" onclick="playat('Important', 11.19, 13.14, 
+      '1-01', 'Health');">▷ <strong>Health</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-happiness.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Important" onclick="playat('Important', 13.14, 15.2, 
+      '1-01', 'Happiness');">▷ <strong>Happiness</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-love.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Important" onclick="playat('Important', 15.2, 17.43, 
+      '1-01', 'Love');">▷ <strong>Love</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-sadness.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Important" onclick="playat('Important', 17.43, 19.31, 
+      '1-01', 'Sadness');">▷ <strong>Sadness</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-time.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Important" onclick="playat('Important', 19.31, 21.27, 
+      '1-01', 'Time');">▷ <strong>Time</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-water.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Important" onclick="playat('Important', 21.27, 23.25, 
+      '1-01', 'Water');">▷ <strong>Water</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="other-uncountable-things">Other uncountable things</h3>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L01-Other.mp3" id="audio_Other" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_Other" onclick="play('Other', '01', 'Other');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L01-Other.mp3</div>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-homework.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Other" onclick="playat('Other', 3.06, 4.52, 
+      '1-01', 'Homework');">▷ <strong>Homework</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-housework.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Other" onclick="playat('Other', 4.52, 6.36, 
+      '1-01', 'Housework');">▷ <strong>Housework</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-vietnamese.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Other" onclick="playat('Other', 6.36, 8.3, 
+      '1-01', 'Vietnamese');">▷ <strong>Vietnamese</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-tea.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Other" onclick="playat('Other', 8.3, 11.13, 
+      '1-01', 'Tea');">▷ <strong>Tea</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-rice.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Other" onclick="playat('Other', 11.13, 12.75, 
+      '1-01', 'Rice');">▷ <strong>Rice</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-hair.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Other" onclick="playat('Other', 12.75, 14.2, 
+      '1-01', 'Hair');">▷ <strong>Hair</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-sugar.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Other" onclick="playat('Other', 14.2, 15.59, 
+      '1-01', 'Sugar');">▷ <strong>Sugar</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-salt.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Other" onclick="playat('Other', 15.59, 16.96, 
+      '1-01', 'Salt');">▷ <strong>Salt</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2 id="some-common-verbs">Some common verbs</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L01-Verbs.mp3" id="audio_Verbs" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_Verbs" onclick="play('Verbs', '01', 'Verbs');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L01-Verbs.mp3</div>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-see.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 2.45, 3.7, 
+      '1-01', 'See');">▷ <strong>See</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-watch.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 3.7, 5.25, 
+      '1-01', 'Watch');">▷ <strong>Watch</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-look-at.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 5.25, 6.91, 
+      '1-01', 'Look At');">▷ <strong>Look At</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-look-for.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 6.91, 9.04, 
+      '1-01', 'Look for');">▷ <strong>Look for</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-observe.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 9.04, 11.12, 
+      '1-01', 'Observe');">▷ <strong>Observe</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-buy.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 11.12, 12.67, 
+      '1-01', 'Buy');">▷ <strong>Buy</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-sell.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 12.67, 14.33, 
+      '1-01', 'Sell');">▷ <strong>Sell</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-hate.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 14.33, 16.12, 
+      '1-01', 'Hate');">▷ <strong>Hate</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-like.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 16.12, 17.96, 
+      '1-01', 'Like');">▷ <strong>Like</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-love.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 17.96, 19.8, 
+      '1-01', 'Love');">▷ <strong>Love</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l01-want.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 19.8, 21.85, 
+      '1-01', 'Want');">▷ <strong>Want</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l01-need.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 21.85, 23.44, 
+      '1-01', 'Need');">▷ <strong>Need</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l01-choose.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 23.44, 25.3, 
+      '1-01', 'Choose');">▷ <strong>Choose</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2 id="1-countable-nouns">1. Countable nouns</h2>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L01-Native-Dialogue.mp3" id="audio_vocab-Native-Dialogue" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocab-Native-Dialogue" onclick="play('vocab-Native-Dialogue', 'C1L01', 'vocab-Native-Dialogue');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L01-Native-Dialogue.mp3</div>
+
+<p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      4.98, 54.26,      'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
+
+<ol>
+  <li><strong>I like a book. / I like books.</strong></li>
+  <li><strong>I like a horse. / I like horses.</strong></li>
+  <li><strong>I hate a snake. / I hate snakes.</strong></li>
+  <li><strong>I see a bus. / I see 5 buses.</strong></li>
+  <li><strong>I want an orange. / I want some oranges.</strong></li>
+  <li><strong>I need a marker. / I need markers.</strong></li>
+  <li><strong>I talk to a nurse everyday. / I talk to nurses everyday.</strong></li>
+</ol>
+
+<h2 id="2-uncountable-nouns">2. Uncountable nouns</h2>
+<p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      59, 666,      'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
+
+<ol>
+  <li><strong>I do homework.__2. __I need money.__3. __I want water.__4. __I choose happiness.__5. __I like sugar.__6. __I hate housework.__7. __I love English.</strong></li>
+</ol>
+
+<h2 id="3-more-of-examples">3. More of examples</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/CLC1L01-vocab-Native-Dialogue.mp3" id="audio_vocab-Native-Dialogue" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocab-Native-Dialogue" onclick="play('vocab-Native-Dialogue', 'C1L01', 'vocab-Native-Dialogue');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">CLC1L01-vocab-Native-Dialogue.mp3</div>
+
+<h3 id="a-what-do-you-choose">A. What do you choose?</h3>
+<p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      95, 102,      'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
+
+<ul>
+  <li>I choose happiness. How about you?</li>
+  <li>
+    <p>I choose money.</p>
+  </li>
+  <li>
+    <ul>
+      <li>
+        <h3 id="b-what-do-you-like">B. What do you like?</h3>
+        <p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',  103, 110,  'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
+      </li>
+    </ul>
+  </li>
+  <li><strong>I like strawberries. How about you?</strong></li>
+  <li><strong>I like bananas.</strong></li>
+</ul>
+
+<p>–</p>
+<h3 id="c-what-do-you-need">C. What do you need?</h3>
+<p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      110, 116,      'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
+
+<ul>
+  <li><strong>I need a chair. And you?</strong></li>
+  <li><strong>I need a board.</strong></li>
+</ul>
+
+<p>–</p>
+<h3 id="d-what-do-you-have">D. What do you have?</h3>
+<p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      116, 124,      'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
+
+<ul>
+  <li><strong>I have some markers. How about you?</strong></li>
+  <li><strong>I have some pencils.</strong></li>
+</ul>
+
+<p>–</p>
+<h3 id="e-what-do-you-want">E. What do you want?</h3>
+<p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      124, 130,      'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
+
+<ul>
+  <li><strong>I want water. And you?</strong></li>
+  <li><strong>I want tea.</strong></li>
+</ul>
+
+<p>–</p>
+<h3 id="f-what-do-you-hate">F. What do you hate?</h3>
+<p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      130, 137,      'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
+
+<ul>
+  <li><strong>I hate crocodiles. How about you?</strong></li>
+  <li><strong>I hate snakes.</strong></li>
+</ul>
+
+<p>–</p>
+<h3 id="g-what-do-you-look-for">G. What do you look for?</h3>
+<p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      137, 143,      'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
+
+<ul>
+  <li><strong>I look for a pen. And you?</strong></li>
+  <li><strong>I look for some milk.</strong></li>
+</ul>
+
+<p>–</p>
+<h3 id="h-what-do-you-look-at">H. What do you look at?</h3>
+<p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      143, 150,      'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
+
+<ul>
+  <li><strong>I look at a tiger. What about you?</strong></li>
+  <li><strong>I look at bears.</strong></li>
+</ul>
+
+<p>–</p>
+<h3 id="i-what-do-you-observe">I. What do you observe?</h3>
+<p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      150, 158,      'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
+
+<ul>
+  <li><strong>I observe planes and birds. What about you?</strong></li>
+  <li><strong>I observe cars and giraffes.</strong></li>
+</ul>
+
+<p>–</p>
+<h3 id="j-what-do-you-study">J. What do you study?</h3>
+<p><strong class="el-vocab-play" id="playat_vocab-Native-Dialogue" onclick="playat('vocab-Native-Dialogue',      158, 666,      'n/a', 'vocab-Native-Dialogue');">▷</strong></p>
+
+<ul>
+  <li><strong>I study English. How about you?</strong></li>
+  <li><strong>I study Vietnamese.</strong></li>
+</ul>
+
+<p>–</p>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

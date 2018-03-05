@@ -1,0 +1,925 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        
+        
+          Phiên bản dùng thử
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/nguoi-su-dung-phien-ban-cao-cap-hoc-tieng-anh-nhanh-va-hieu-qua-hon/?lang=vi">Nâng cấp!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-113-who">Lesson 1.13: Who</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L13-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '13', 'vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L13-vocabulary.mp3</div>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l13-farmer.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 11.01, 12.48, 
+      '1-13', 'Farmer');">▷ <strong>Farmer</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Nông dân</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l13-priest.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 12.48, 13.88, 
+      '1-13', 'Priest');">▷ <strong>Priest</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Thầy tu</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l13-mechanic.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 13.88, 15.78, 
+      '1-13', 'Mechanic');">▷ <strong>Mechanic</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Thợ cơ khí </em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l13-artist.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 15.78, 17.4, 
+      '1-13', 'Artist');">▷ <strong>Artist</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Nghệ sĩ </em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l13-businessman.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 17.4, 19.43, 
+      '1-13', 'Businessman');">▷ <strong>Businessman</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Doanh nhân</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l13-football-player.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 19.43, 21.46, 
+      '1-13', 'Football Player');">▷ <strong>Football Player</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Cầu thủ bóng đá</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l13-fireman.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 21.46, 23.46, 
+      '1-13', 'Fireman');">▷ <strong>Fireman</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Lính cứu hỏa</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l13-waiter.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 23.46, 25, 
+      '1-13', 'Waiter');">▷ <strong>Waiter</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Phục vụ nam</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 25, 27.07, 
+      '1-13', 'Reporter');">▷ <strong>Reporter</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 27.07, 29.31, 
+      '1-13', 'Engineer');">▷ <strong>Engineer</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 29.31, 31.05, 
+      '1-13', 'Office Worker');">▷ <strong>Office Worker</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 31.05, 32.99, 
+      '1-13', 'Policeman');">▷ <strong>Policeman</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 32.99, 34.68, 
+      '1-13', 'Singer');">▷ <strong>Singer</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 34.68, 36.77, 
+      '1-13', 'Pilot');">▷ <strong>Pilot</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 36.77, 38.6, 
+      '1-13', 'Swimmer');">▷ <strong>Swimmer</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row6"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 38.6, 41.06, 
+      '1-13', 'Postman');">▷ <strong>Postman</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 41.06, 42.94, 
+      '1-13', 'Doctor');">▷ <strong>Doctor</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 42.94, 44.91, 
+      '1-13', 'Artist');">▷ <strong>Artist</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row7"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 44.91, 47.08, 
+      '1-13', 'Boxer');">▷ <strong>Boxer</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 47.08, 49.2, 
+      '1-13', 'Judge');">▷ <strong>Judge</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 49.2, 51.62, 
+      '1-13', 'Scientist');">▷ <strong>Scientist</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row8"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 51.62, 54.01, 
+      '1-13', 'Astronaut');">▷ <strong>Astronaut</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 54.01, 55.53, 
+      '1-13', 'Nurse');">▷ <strong>Nurse</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 55.53, 57.67, 
+      '1-13', 'Cameraman');">▷ <strong>Cameraman</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row9"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 57.67, 60.03, 
+      '1-13', 'Athlete');">▷ <strong>Athlete</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 60.03, 62.09, 
+      '1-13', 'Teacher');">▷ <strong>Teacher</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 62.09, 64.09, 
+      '1-13', 'Waitress');">▷ <strong>Waitress</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row10"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 64.09, 66.48, 
+      '1-13', 'Hairdresser');">▷ <strong>Hairdresser</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 66.48, 68.54, 
+      '1-13', 'Cook');">▷ <strong>Cook</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 68.54, 70.49, 
+      '1-13', 'Dentist');">▷ <strong>Dentist</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2 id="example">Example</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L13-examples1.mp3" id="audio_examples1" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples1" onclick="play('examples1', '13', 'examples1');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L13-examples1.mp3</div>
+
+<ul>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   2.1, 5.19,   'n/a', 'examples1');">▷</strong> <strong>Who is she?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   6.8, 8.78,   'n/a', 'examples1');">▷</strong><strong>She is my mother.</strong></li>
+</ul>
+
+<ol>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   9.95, 11.53,   'n/a', 'examples1');">▷</strong> <strong>Who is he?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   12.51, 14.61,   'n/a', 'examples1');">▷</strong><strong>He is my mechanic.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   15.53, 16.94,   'n/a', 'examples1');">▷</strong> <strong>Who is she?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   17.87, 19.76,   'n/a', 'examples1');">▷</strong><strong>She is my mother.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   20.7, 22.7,   'n/a', 'examples1');">▷</strong> <strong>Who is a football player?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   23.75, 27.49,   'n/a', 'examples1');">▷</strong><strong>The man next to the door is a football player.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   28.44, 30.13,   'n/a', 'examples1');">▷</strong> <strong>Who is a priest?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   30.91, 34.95,   'n/a', 'examples1');">▷</strong><strong>The man between me and my friend is a priest.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   35.76, 37.61,   'n/a', 'examples1');">▷</strong> <strong>Who is your favorite singer?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',  38.97, 42.05,  'n/a', 'examples1');">▷</strong><strong>Taylor swift is my favourite singer.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',  43.15, 45.49,  'n/a', 'examples1');">▷</strong> <strong>Who is your favorite actress?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',  46.77, 49.95,  'n/a', 'examples1');">▷</strong><strong>My Tam is my favorite actress.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',  51.11, 53.34,  'n/a', 'examples1');">▷</strong> <strong>Who is the richest man in the world?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',  54.61, 58.12,  'n/a', 'examples1');">▷</strong><strong>Bill Gates is the richest man in the world.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',  59.21, 62.59,  'n/a', 'examples1');">▷</strong> <strong>Who is the smartest student in the class?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',  63.95, 67.99,  'n/a', 'examples1');">▷</strong><strong>My son is the smartest student in the class.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',  69.67, 73.27,  'n/a', 'examples1');">▷</strong> <strong>Who is the most important person in the company?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',  74.47, 78.78,  'n/a', 'examples1');">▷</strong><strong>Ms. Smith is the most important person in the company.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',  80.0, 83.26,  'n/a', 'examples1');">▷</strong> <strong>Who is the most talented actor in the world?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',  84.51, 88.79,  'n/a', 'examples1');">▷</strong><strong>Brad Pitt is the most talented actor in the world.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',  90.78, 93.09,  'n/a', 'examples1');">▷</strong> <strong>Who is under the table?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',  94.43, 97.21,  'n/a', 'examples1');">▷</strong><strong>The thief is under the table.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',  98.48, 101.19,  'n/a', 'examples1');">▷</strong> <strong>Who is next to Mr.Jones?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',  102.47, 104.97,  'n/a', 'examples1');">▷</strong><strong>Mrs.Jones is next to him.</strong></li>
+</ol>
+
+<h2 id="example-1">Example</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L13-examples2.mp3" id="audio_examples2" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples2" onclick="play('examples2', '13', 'examples2');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L13-examples2.mp3</div>
+
+<ul>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',    3.24, 5.51,    'n/a', 'examples2');">▷</strong> <strong>Who do you want to talk to?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',    6.5, 9.1,    'n/a', 'examples2');">▷</strong> <strong>I want to talk to a reporter.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',    10.78, 13.39,    'n/a', 'examples2');">▷</strong> <strong>Who do you want to become?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',    14.36, 17.1,    'n/a', 'examples2');">▷</strong> <strong>I want to become a model.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',    17.96, 21.07,    'n/a', 'examples2');">▷</strong> <strong>Who does the man want to kiss?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',    22.1, 24.75,    'n/a', 'examples2');">▷</strong> <strong>He wants to kiss a nurse.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',    26.21, 29.35,    'n/a', 'examples2');">▷</strong> <strong>Who does the kid intend to draw?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',    30.39, 34.29,    'n/a', 'examples2');">▷</strong> <strong>The kid intends to draw an astronaut.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',    35.3, 38.61,    'n/a', 'examples2');">▷</strong> <strong>Who does the engineer have a crush on?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',    39.55, 42.94,    'n/a', 'examples2');">▷</strong> <strong>He has a crush on an office worker.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',    43.95, 47.52,    'n/a', 'examples2');">▷</strong> <strong>Who does the policeman try to chase?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',    48.45, 51.2,    'n/a', 'examples2');">▷</strong> <strong>He tries to chase a boxer.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',    52.35, 55.9,    'n/a', 'examples2');">▷</strong> <strong>Who does the pilot want to get married to?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',    56.94, 63.29,    'n/a', 'examples2');">▷</strong> <strong>The pilot wants to get married to the cook and she doesn’t love him back.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',    64.36, 66.98,    'n/a', 'examples2');">▷</strong> <strong>Who wants to get married to the pilot?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',    68.06, 73.93,    'n/a', 'examples2');">▷</strong> <strong>A famous singer wants to get married to him but he loves the cook.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',    75.2, 77.8,    'n/a', 'examples2');">▷</strong> <strong>Who takes care of sick people?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',    78.75, 82.36,    'n/a', 'examples2');">▷</strong> <strong>Doctors and nurses take care of sick people.</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',    84.39, 86.5,    'n/a', 'examples2');">▷</strong> <strong>Who flies an airplane?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',    87.43, 90.14,    'n/a', 'examples2');">▷</strong> <strong>The pilot flies an airplane.</strong></li>
+</ul>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

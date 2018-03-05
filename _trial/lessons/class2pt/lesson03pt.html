@@ -1,0 +1,987 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        
+        
+          Free full version (1 days left)
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/">Atualizar!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-23-daily-routine">Lesson 2.3: Daily Routine</h1>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L03-Native-Dialogue1.mp3" id="audio_lesson-vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-vocabulary" onclick="play('lesson-vocabulary', 'C2L03', 'lesson-vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L03-Native-Dialogue1.mp3</div>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l03-get-up-wake-up.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 12.64, 15.39, 
+      '2-03', 'Get up / wake up');">▷ <strong>Get up / wake up</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>levantar-se / acordar</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l03-make-my-bed.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 17, 18.59, 
+      '2-03', 'Make my bed');">▷ <strong>Make my bed</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>fazer minha cama</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l03-brush-my-teeth.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 20.24, 21.36, 
+      '2-03', 'Brush my teeth');">▷ <strong>Brush my teeth</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>escovar meus dentes</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l03-wash-my-face.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 23.67, 25.1, 
+      '2-03', 'Wash my face');">▷ <strong>Wash my face</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>lavar meu rosto</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l03-comb-my-hair.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 27.26, 28.96, 
+      '2-03', 'Comb my hair');">▷ <strong>Comb my hair</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>pentear meu cabelo</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l03-get-dressed.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 30.79, 32, 
+      '2-03', 'Get dressed');">▷ <strong>Get dressed</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>vestir-se</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l03-put-on-makeup.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 34.05, 35.21, 
+      '2-03', 'Put on makeup');">▷ <strong>Put on makeup</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>maquiar-se</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l03-have-breakfast.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 37.28, 38.68, 
+      '2-03', 'Have breakfast');">▷ <strong>Have breakfast</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tomar café da manhã</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l03-lunch.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 38.68, 40.1, 
+      '2-03', 'lunch');">▷ <strong>lunch</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>almoço</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l03-dinner.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 40.1, 41.35, 
+      '2-03', 'dinner');">▷ <strong>dinner</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>jantar</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l03-have-a-cup-of-coffee.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 44.01, 45.46, 
+      '2-03', 'Have a cup of coffee');">▷ <strong>Have a cup of coffee</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tomar uma xícara de café</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l03-tea.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 45.46, 47.27, 
+      '2-03', 'tea');">▷ <strong>tea</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>chá</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l03-go-to-work.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 49.12, 50.01, 
+      '2-03', 'Go to work');">▷ <strong>Go to work</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ir trabalhar</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l03-school.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 50.01, 51.4, 
+      '2-03', 'school');">▷ <strong>school</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>escola / faculdade</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l03-by-taxi.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 51.4, 52.87, 
+      '2-03', 'by taxi');">▷ <strong>by taxi</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>de táxi</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row6"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l03-by-bus.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 52.87, 54.6, 
+      '2-03', 'by bus');">▷ <strong>by bus</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>de ônibus</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l03-by-car.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 54.6, 56.08, 
+      '2-03', 'by car');">▷ <strong>by car</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>de carro</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l03-by-motorbike.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 56.08, 57.88, 
+      '2-03', 'by motorbike');">▷ <strong>by motorbike</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>de moto</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row7"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l03-finish-my-work.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 59.9, 61.04, 
+      '2-03', 'Finish my work');">▷ <strong>Finish my work</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>terminar meu trabalho</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l03-and-come-back-home.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 61.04, 62.26, 
+      '2-03', 'and come back home');">▷ <strong>and come back home</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>e voltar para casa</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l03-do-some-exercises.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 64.77, 66.3, 
+      '2-03', 'Do some exercises');">▷ <strong>Do some exercises</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>fazer alguns exercícios</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row8"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l03-play-sports.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 66.3, 68.71, 
+      '2-03', 'Play sports');">▷ <strong>Play sports</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>praticar esportes</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l03-take-a-bath.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 71.11, 71.98, 
+      '2-03', 'Take a bath');">▷ <strong>Take a bath</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tomar banho</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l03-take-a-shower.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 71.98, 73.92, 
+      '2-03', 'take a shower');">▷ <strong>take a shower</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tomar banho</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row9"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l03-watch-tv.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 76.19, 77.43, 
+      '2-03', 'Watch TV');">▷ <strong>Watch TV</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>assistir televisão</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l03-talk-to-my-mother-on-the-phone.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 80.98, 82.97, 
+      '2-03', 'Talk to my mother on the phone');">▷ <strong>Talk to my mother on the phone</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Falar com a minha mãe ao telefone</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l03-surf-facebook.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 84.95, 86.67, 
+      '2-03', 'Surf facebook');">▷ <strong>Surf facebook</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>navegar no facebook</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row10"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l03-go-to-bed.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 93.23, 94.38, 
+      '2-03', 'Go to bed');">▷ <strong>Go to bed</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ir para a cama / deitar-se</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l03-set-an-alarm-clock-for-7-the-next-morning.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 96.7, 99.99, 
+      '2-03', 'Set an alarm clock for 7 the next morning');">▷ <strong>Set an alarm clock for 7 the next morning</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ajustir o despertador para 7 na manhã seguinte</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2 id="dialogue-1">Dialogue 1</h2>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L03-Native-Dialogue2.mp3" id="audio_lesson-dialogue1" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-dialogue1" onclick="play('lesson-dialogue1', 'C2L03', 'lesson-dialogue1');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L03-Native-Dialogue2.mp3</div>
+
+<blockquote>
+  <p>Kim, Person 2: <strong>Hi John, Tell me about how you spend your mornings.</strong></p>
+
+  <p>John, Person 1: <strong>Well, I get up around 7 and then I brush my teeth and wash my face. After that, I get dressed</strong></p>
+
+  <p>P2: <strong>What time do you get ready for work?</strong></p>
+
+  <p>P1: <strong>I usually get ready around 8 AM. After the breakfast, I go to work at around 8:30.</strong></p>
+
+  <p>P2: <strong>How long does it take you to go to work?</strong></p>
+
+  <p>P1: <strong>About 20 minutes by bus.</strong></p>
+
+  <p>P2: <strong>What time do you usually go to bed? Do you stay up late?</strong></p>
+
+  <p>P1: <strong>No, I am not a night owl. I am an early bird</strong></p>
+</blockquote>
+
+<p>P2: <strong>John gets up around 7 and then he brushes his teeth and washes his face. After that, he gets dressed. He usually gets ready around 8AM. After breakfast, he goes to work at around 8.30. It takes him about 20 minutes to go to work by bus. He doesn’t stay up late so he is not a night owl. He is an early bird because he gets up at 7AM.</strong></p>
+
+<p>*
+John se levanta por volta das 7 e depois ele escova seus dentes e lava seu rosto. Depois disso, ele se veste. Ele geralmente se apronta por volta das 8 da manhã. Após o café da manhã, ele vai trabalhar às 8h30. Leva cerca de 20 minutos para chegar ao trabalho de ônibus. Ele não fica acordado até o tarde, então ele não é um notívago. Ele é um madrugador porque ele se levanta às 7 da manhã*</p>
+
+<h2 id="dialogue-2">Dialogue 2</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L03-Native-Dialogue3.mp3" id="audio_lesson-dialogue2" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-dialogue2" onclick="play('lesson-dialogue2', 'C2L03', 'lesson-dialogue2');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L03-Native-Dialogue3.mp3</div>
+
+<blockquote>
+  <p>Person 2: <strong>Hello, Kurt. Do you want to meet on Saturday?</strong></p>
+
+  <p>Person 1: <strong>That’s a great idea!</strong></p>
+
+  <p>P2: <strong>What time do you wake up?</strong></p>
+
+  <p>Person 1: <strong>I wake up at 7:30 a.m.</strong></p>
+
+  <p>P2: <strong>So, we can meet around 9:00?</strong></p>
+
+  <p>Person 1: <strong>At 9:00 I go to my Taekwondo lesson.</strong></p>
+
+  <p>P2: <strong>So…11:00? Do you have time then?</strong></p>
+
+  <p>Person 1: <strong>Well, at 11:00 I start school.</strong></p>
+
+  <p>P2: <strong>When do you finish?</strong></p>
+
+  <p>Person 1: <strong>At 5:30 p.m. So let’s meet at 5:45 –for dinner?</strong></p>
+
+  <p>P2: <strong>Sounds great!</strong></p>
+</blockquote>
+
+<p>Person 2: <strong>I want to meet Kurt on Saturday and he thinks that’s great idea. Kurt gets up at 7:30AM and then he goes to his Taekwondo lesson at 9:00. At 11:00 he doesn’t have time because he starts school at that time and he finishes school at 5:30 PM. At 5:45 he meets me for dinner.</strong></p>
+
+<p><em>Quero encontrar Kurt no sábado e ele acha que é uma ótima idéia. Kurt se levanta às 7h30 da manhã e então ele vai para sua aula de Taekwondo às 9. Às 11:00, ele não tem tempo porque começa a escola naquela hora e ele termina a escola às 17h30 da tarde. Às 17h45 ele se encontra comigo para jantar.</em></p>
+
+<h2 id="exercise">Exercise</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L03-Native-Dialogue4.mp3" id="audio_lesson-exercise" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-exercise" onclick="play('lesson-exercise', 'C2L03', 'lesson-exercise');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L03-Native-Dialogue4.mp3</div>
+
+<p>P1: <strong>My name is Ted. There are a couple of things that I like to do in my daily routine</strong></p>
+
+<ol>
+  <li><strong>I like to go to a coffee shop in district 3 after class. It’s nice and quiet there. I stay there for an hour or so.</strong></li>
+  <li><strong>I love to go for long walks. I go for a walk almost every night. I like to walk and think about my plans for the future</strong></li>
+  <li><strong>I love the new mall. I usually hang out with my friends and colleagues there. We just walk around and talk, but it’s fun.</strong></li>
+  <li><strong>I don’t cook at home because I like to go out and eat. There’s a new cafe in district 1 I want to try. But it’s busy all the time!</strong></li>
+  <li><strong>I like to watch sports. My favorites are football and basketball. But I don’t play any sports</strong></li>
+</ol>
+
+<p>P2: <strong>Can you say what Ted likes to do in his daily routine?</strong></p>
+
+<p><em>Você pode dizer o que Ted gosta de fazer em sua rotina diária?</em></p>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

@@ -1,0 +1,876 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        
+        
+          Free full version (last day)
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/">Atualizar!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-14-verb-to-verb">lesson 1.4: verb to verb</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L04-Words.mp3" id="audio_vocab-Words" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocab-Words" onclick="play('vocab-Words', 'C1L04', 'vocab-Words');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L04-Words.mp3</div>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l04-like.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Like</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>gostar</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l04-love.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Love</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>amar / adorar</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l04-hate.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Hate</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>odiar</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l04-have.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Have</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ter</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l04-try.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Try</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>experimentar</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l04-need.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Need</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>precisar</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l04-want.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Want</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>quer</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l04-intend.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Intend</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>pretender</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l04-pretend.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Pretend</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>fingir</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l04-expect.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Expect</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>esperar</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l04-listen-to-music.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Listen to music</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>escutar música</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l04-hang-out-with-friends.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Hang out with friends</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>sair com amigos</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l04-travel-to-korea.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Travel to Korea</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>viajar para a Coréia</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l04-read-books.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Read books</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ler livros</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l04-get-up-early.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Get up early</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>levantar cedo</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row6"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l04-stay-up-late.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Stay up late</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ficar acordado até tarde</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l04-study-english.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Study English</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>estudar inglês</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l04-smile.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Smile</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>sorrir</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row7"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l04-call-my-mother.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Call my mother</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ligar para minha mãe</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l04-take-a-selfie-take-a-photo.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Take a selfie / Take a photo</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tirar uma selfie / tirar uma foto</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l04-know-how-to-swim.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Know how to swim</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>saber nadar</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row8"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l04-visit-relatives.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Visit relatives</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>visitar parentes</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l04-go-shopping.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Go shopping</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>fazer compras</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l04-go-fishing.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Go fishing</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ir pescar</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row9"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l04-smoke-cigarettes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Smoke cigarettes</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>fumar cigarros</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2 id="dialogue">Dialogue</h2>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L04-Native-Dialogue.mp3" id="audio_vocab-Dialogue" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocab-Dialogue" onclick="play('vocab-Dialogue', 'C1L04', 'vocab-Dialogue');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L04-Native-Dialogue.mp3</div>
+
+<blockquote>
+  <p><strong>Do you love to listen to music?</strong> <em>Você adora ouvir música?</em><br />
+<strong>Yes, I love to listen to music.</strong> <em>Sim, eu adoro ouvir música.</em></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Do you like to hang out with friends?</strong> <em>Você gosta de sair com os amigos?</em>  <br />
+<strong>Yes, I like to hang out with friends.</strong> <em>Sim, eu gosto de sair com os amigos.</em></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Do you try to learn English?</strong> <em>Você tenta aprender inglês?</em><br />
+<strong>No, I don’t try to learn English. I try to learn Japanese.</strong> <em>Não, não tento aprender inglês. Eu tento aprender japonês.</em></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Do you want to travel to Korea?</strong> <em>Você quer viajar para a Coréia?</em><br />
+<strong>No, I don’t want to travel to Korea. I want to travel to Malaysia.</strong> <em>Não, eu não quero viajar para a Coréia. Eu quero viajar para a Malásia.</em></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Do you need to take a selfie?</strong> <em>Você precisa tirar uma selfie?</em><br />
+<strong>No, I don’t need to take a selfie. I need to take a photo.</strong> <em>Não, eu não preciso tirar uma selfie. Preciso tirar uma foto.</em></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Do you have to call your mother?</strong> <em>Você precisa ligar para sua mãe?</em><br />
+<strong>No, I don’t have to call my mother. I have to call my sister.</strong> *
+Não, eu não preciso ligar para minha mãe. Eu preciso ligar para minha irmã.*</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Do you hate to do homework?</strong> <em>Você odeia fazer o dever de casa?</em><br />
+<strong>No, I don’t hate to do homework. I hate to do housework.</strong> <em>Não, eu não odeio fazer dever de casa. Odeio fazer tarefas domésticas.</em></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Do you intend to talk to the doctor?</strong> <em>Você pretende falar com o médico?</em><br />
+<strong>Yes, I intend to talk to the doctor and I also intend to talk to the nurse.</strong> <em>Sim, pretendo falar com o médico e também pretendo conversar com a enfermeira.</em></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Do you expect to have a baby next year?</strong> <em>Você espera ter um bebê no próximo ano?</em><br />
+<strong>No, I don’t expect to have a baby next year. I expect to have a baby in three years.</strong> <em>Não, não espero ter um bebê no próximo ano. Espero ter um bebê em três anos.</em></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Do you pretend to like her?</strong> <em>Você finge gostar dela?</em><br />
+<strong>Yes, I just pretend to like her.</strong> <em>Sim, eu somente finjo de gostar dela.</em></p>
+</blockquote>
+
+<h2 id="b">B.</h2>
+<p><strong class="el-vocab-play" id="playat_vocab-Dialogue" onclick="playat('vocab-Dialogue',      68, 666,      'n/a', 'vocab-Dialogue');">▷</strong></p>
+
+<ul>
+  <li><strong>What do you love to do?</strong> <em>O que você adora fazer?</em></li>
+  <li>
+    <p><strong>I love to dance.</strong> <em>Eu adoro dançar.</em></p>
+  </li>
+  <li><strong>What do you like to do?</strong> <em>O que você gosta de fazer?</em></li>
+  <li>
+    <p><strong>I like to read books.</strong> <em>Eu gosto de ler livros.</em></p>
+  </li>
+  <li><strong>What do you try to do?</strong> <em>O que você tenta fazer?</em></li>
+  <li>
+    <p><strong>I try to get up early.</strong> <em>Eu tento levantar cedo.</em></p>
+  </li>
+  <li><strong>What do you want to do?</strong> <em>O que você quer fazer?</em></li>
+  <li>
+    <p><strong>I want to read books.</strong> <em>Eu quero ler livros.</em></p>
+  </li>
+  <li><strong>What do you need to do?</strong> <em>O que você precisa fazer?</em></li>
+  <li>
+    <p><strong>I need to reserve a room at a hotel.</strong> <em>Preciso reservar um quarto em um hotel.</em></p>
+  </li>
+  <li><strong>What do you have to do?</strong> <em>O que você tem que fazer?</em></li>
+  <li>
+    <p><strong>I have to take off my shoes.</strong> <em>Eu tenho que tirar meus sapatos.</em></p>
+  </li>
+  <li><strong>What do you hate to do?</strong> <em>O que você odeia fazer?</em></li>
+  <li>
+    <p><strong>I hate to talk to the manager.</strong> <em>Odeio falar com o gerente.</em></p>
+  </li>
+  <li><strong>What do you intend to do?</strong> <em>O que você pretende fazer?</em></li>
+  <li>
+    <p><strong>I intend to get married next year.</strong> <em>Pretendo me casar no próximo ano.</em></p>
+  </li>
+  <li><strong>What do you expect to do?</strong> <em>O que você espera fazer?</em></li>
+  <li>
+    <p><strong>I expect to borrow some money.</strong> <em>Espero emprestar algum dinheiro.</em></p>
+  </li>
+  <li><strong>What do you pretend to do?</strong> <em>O que você finge fazer?</em></li>
+  <li><strong>I pretend to smile.</strong> <em>Eu finjo sorrir.</em></li>
+</ul>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

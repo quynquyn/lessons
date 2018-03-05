@@ -31,7 +31,7 @@
   {% else %}
     {% if include.lang and include.lang == "pt" %}
       <em>{{ word.word_pt }}</em>
-    {% else %}
+    {% elsif include.lang and include.lang == "vn"  %}
       <em>{{ word.word_vn }}</em>
     {% endif %}
   {% endif %}

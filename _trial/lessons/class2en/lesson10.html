@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        
+        
+          Limited Trial version
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/people-going-premium-learn-english-faster-and-better/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-210-friendship">Lesson 2.10: Friendship</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L10-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '10', 'vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L10-vocabulary.mp3</div>
+
+<h3 id="purpose">Purpose</h3>
+
+<h4 id="for-fun">For fun</h4>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l10-to-watch-interesting-videos.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 11.12, 13.7, 
+      '2-10', 'To watch interesting videos');">▷ <strong>To watch interesting videos</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l10-to-listen-to-music.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 13.7, 16.18, 
+      '2-10', 'To listen to music');">▷ <strong>To listen to music</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l10-to-play-online-games.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 16.18, 19.47, 
+      '2-10', 'To play online games');">▷ <strong>To play online games</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l10-to-chat-with-friends.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 19.47, 22.08, 
+      '2-10', 'To chat with friends');">▷ <strong>To chat with friends</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h4 id="for-education">For education</h4>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l10-to-read-news.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 24.5, 26.33, 
+      '2-10', 'To read news');">▷ <strong>To read news</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l10-to-search-for-some-information-i-need.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 26.33, 29.75, 
+      '2-10', 'To search for some information I need');">▷ <strong>To search for some information I need</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l10-to-check-e-mails.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 29.75, 31.93, 
+      '2-10', 'To check e-mails');">▷ <strong>To check e-mails</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h4 id="for-other-purposes">For other purposes</h4>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l10-to-order-buy-sell-advertise-products-online-food-clothes-cosmetics-.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 34.38, 44.68, 
+      '2-10', 'To order / buy / sell / advertise products online (food, clothes, cosmetics…)');">▷ <strong>To order / buy / sell / advertise products online (food, clothes, cosmetics…)</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l10-to-compare-prices.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 44.68, 46.91, 
+      '2-10', 'To compare prices');">▷ <strong>To compare prices</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l10-to-read-the-reviews-of-the-products-i-want-to-buy-the-movie-they-intend-to-watch.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 46.91, 53.93, 
+      '2-10', 'To read the reviews of the products I want to buy / the movie they intend to watch');">▷ <strong>To read the reviews of the products I want to buy / the movie they intend to watch</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L10-conversation.mp3" id="audio_conversation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_conversation" onclick="play('conversation', '10', 'conversation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L10-conversation.mp3</div>
+
+<h2 id="conversation">Conversation</h2>
+
+<blockquote>
+  <p><strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      3.8, 6.51,      'n/a', 'conversation');">▷</strong>Person1: <strong>What are you doing? Are you busy?</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      7.79, 10.05,      'n/a', 'conversation');">▷</strong>Person2: <strong>I’m just sending an e-mail.</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      11.2, 16.73,      'n/a', 'conversation');">▷</strong>Person1: <strong>Do you always use your phone to send e-mails? All of my friends text these days.</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      18.11, 26.11,      'n/a', 'conversation');">▷</strong>Person2: <strong>Some of my friends text, some don’t. That e-mail was to my dad. He sends me e-mails every day.</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      27.5, 30.06,      'n/a', 'conversation');">▷</strong>Person1: <strong>So what else do you use your phone for?</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      31.2, 39.41,      'n/a', 'conversation');">▷</strong>Person2: <strong>I often use it to play games. A lot of my friends watch movies, but I find the screen too small.</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      40.64, 43.06,      'n/a', 'conversation');">▷</strong>Person1: <strong>Do you use it for social networking?</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      44.37, 50.07,      'n/a', 'conversation');">▷</strong>Person2: <strong>Sure, all the time. Say, I don’t think we’re friends online.</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      51.07, 54.47,      'n/a', 'conversation');">▷</strong>Person1: <strong>How many hours a day do you use the internet?</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      55.76, 58.08,      'n/a', 'conversation');">▷</strong>Person2: <strong>10 hours a day, I guess.</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      59.52, 66.17,      'n/a', 'conversation');">▷</strong>Person1: <strong>Really? Then I think you are definitely addicted to it. When did you first use the internet?</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      67.64, 72.67,      'n/a', 'conversation');">▷</strong>Person2: <strong>I’m not really sure. Maybe I first used it when I was 12.</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      73.87, 76.73,      'n/a', 'conversation');">▷</strong>Person1: <strong>Do you lose sleep because of being online?</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      78.39, 83.7,      'n/a', 'conversation');">▷</strong>Person2: <strong>I couldn’t put my phone down. I always lose sleep. How about you?</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      85.25, 88.33,      'n/a', 'conversation');">▷</strong>Person2: <strong>I always go to sleep before 11pm.</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      89.67, 94.49,      'n/a', 'conversation');">▷</strong>Person2: <strong>That’s why you are always full of energy and you don’t have eye bags.</strong><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      95.81, 99.75,      'n/a', 'conversation');">▷</strong>Person1: <strong>Thank you. By the way, you should change your sleeping schedule.</strong></p>
+</blockquote>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L10-explanations.mp3" id="audio_explanations" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_explanations" onclick="play('explanations', '10', 'explanations');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L10-explanations.mp3</div>
+
+<h2 id="explanations">Explanations</h2>
+<h3 id="1-what-do-you-use-your-phone-for">1. What do you use your phone for?</h3>
+<p><strong class="el-vocab-play" id="playat_explanations" onclick="playat('explanations',      1.65, 17.32,      'n/a', 'explanations');">▷</strong>
+Bạn sử dụng điện thoại để làm gì?</p>
+
+<p><strong>What…for?</strong></p>
+
+<ul>
+  <li><strong>What do you study English for?</strong></li>
+  <li><strong>What did you do that for?</strong></li>
+  <li><strong>What do you live for?</strong></li>
+</ul>
+
+<h3 id="2-i-often-use-it-to-play-games">2. I often use it to play games.</h3>
+<p><strong class="el-vocab-play" id="playat_explanations" onclick="playat('explanations',      18.92, 40.35,      'n/a', 'explanations');">▷</strong>
+Tôi thường sử dụng nó để chơi games</p>
+
+<p><strong>to + Verb or in order to + Verb</strong></p>
+
+<ul>
+  <li><strong>I go there to study English.</strong></li>
+  <li><strong>I study English to find a well-paid job.</strong></li>
+  <li><strong>I just call to say I love you.</strong></li>
+</ul>
+
+<h3 id="3-i-find-the-screen-too-small">3. I find the screen too small.</h3>
+<p><strong class="el-vocab-play" id="playat_explanations" onclick="playat('explanations',      42.57, 62.2,      'n/a', 'explanations');">▷</strong>
+Tôi thấy cái màn hình quá nhỏ</p>
+
+<p><strong>I find someone or something + adjective</strong></p>
+
+<ul>
+  <li><strong>I find superhero movies silly.</strong></li>
+  <li><strong>I find this book difficult.</strong></li>
+  <li><strong>I find him extremely handsome.</strong></li>
+</ul>
+
+<h3 id="4-you-are-definitely-addicted-to-it">4. You are definitely addicted to it.</h3>
+<p><strong class="el-vocab-play" id="playat_explanations" onclick="playat('explanations',      65.17, 81.39,      'n/a', 'explanations');">▷</strong>
+Bạn chắc chắc là nghiện nó rồi</p>
+
+<p><strong>Be addicted to</strong></p>
+
+<ul>
+  <li><strong>She is addicted to coffee.</strong></li>
+  <li><strong>A lot of people nowadays have become addicted to the internet.</strong></li>
+  <li><strong>I’m addicted to chocolate.</strong></li>
+</ul>
+
+<h3 id="5-when-did-you-first-use-the-internet">5. When did you first use the internet?</h3>
+<p><strong class="el-vocab-play" id="playat_explanations" onclick="playat('explanations',      83.12, 97.23,      'n/a', 'explanations');">▷</strong>
+Lần đầu bạn sử dụng Internet là khi nào?</p>
+
+<p><strong>When did you first…?</strong></p>
+
+<ul>
+  <li><strong>When did you first meet her?</strong></li>
+  <li><strong>When did you first get drunk?</strong></li>
+  <li><strong>When did you first do it?</strong></li>
+</ul>
+
+<h3 id="6-you-are-always-full-of-energy">6. You are always full of energy.</h3>
+<p><strong class="el-vocab-play" id="playat_explanations" onclick="playat('explanations',      99.6, 117.68,      'n/a', 'explanations');">▷</strong>
+Bạn luôn luôn tràn đầy năng lượng</p>
+
+<p><strong>Be full of…</strong></p>
+
+<ul>
+  <li><strong>The shelf is full of books.</strong></li>
+  <li><strong>Her eyes are full of tears.</strong></li>
+  <li><strong>His essay was full of spelling mistakes.</strong></li>
+  <li><strong>The stadium was only half full.</strong></li>
+</ul>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

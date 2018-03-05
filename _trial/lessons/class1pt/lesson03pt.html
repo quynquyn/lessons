@@ -1,0 +1,935 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        
+        
+          Free full version (1 day left)
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/">Atualizar!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-13-noun--verb-what--do">Lesson 1.3. Noun + verb (what + do)</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L03-Words.mp3" id="audio_lesson-Verbs" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-Verbs" onclick="play('lesson-Verbs', 'C1L03', 'lesson-Verbs');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L03-Words.mp3</div>
+
+<h3 id="verbs">Verbs</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l03-cover.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Cover</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>cobrir</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l03-wear.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Wear</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>vestir</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l03-put-on.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Put on</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>pôr</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l03-take-off.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Take off</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tirar</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l03-shake.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Shake</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>mexer</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l03-operate.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Operate</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>operar</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l03-decorate.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Decorate</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>decorar</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l03-change.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Change</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>trocar</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l03-write.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Write</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>escrever</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l03-buy.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Buy</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>comprar</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l03-sell.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Sell</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>vender</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l03-build.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Build</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>construir</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l03-touch.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Touch</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tocar</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="nouns">Nouns</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l03-tree-flower.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Tree / flower</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>árvore / flor</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l03-mountain.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Mountain</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>montanha</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l03-river.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>River</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>rio</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l03-ocean-sea.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Ocean / Sea</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>oceano / mar</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l03-shirt-t-shirt.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Shirt / T-Shirt</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>camisa / camiseta</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l03-skirt-dress.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Skirt / Dress</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>saia / vestido</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l03-trousers-jeans.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Trousers / Jeans</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>calça / jeans</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l03-hat-cap.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Hat / Cap</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>chapéu / boné</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l03-shoes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Shoes</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>sapatos</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l03-football-tennis.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Football / Tennis</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>futebol / tênis</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l03-piano-guitar.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Piano / Guitar</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>piano / guitarra</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l03-people-things.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>People / things</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>pessoas / coisas</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l03-student-teacher.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>Student / teacher</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>aluno / mestre</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2 id="a-what">A. What…?</h2>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L03-Native-Dialogue.mp3" id="audio_lesson-Dialogue" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_lesson-Dialogue" onclick="play('lesson-Dialogue', 'C1L03', 'lesson-Dialogue');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L03-Native-Dialogue.mp3</div>
+
+<h3 id="a1-what-do-you-cover">A1. What do you cover?</h3>
+
+<ul>
+  <li><strong>I cover a table, a chair and a board. What do you cover?</strong></li>
+  <li><strong>I cover a book, a pen and a marker.</strong></li>
+</ul>
+
+<p><em>A1. - O que você cobre?</em></p>
+
+<ul>
+  <li><em>Cobro uma mesa, uma cadeira e uma tábua. O que você cobre?</em></li>
+  <li>*Cobro um livro, uma caneta e um marcador. *</li>
+</ul>
+
+<h3 id="a2-what-do-you-wear">A2. What do you wear?</h3>
+<p><strong class="el-vocab-play" id="playat_lesson-Dialogue" onclick="playat('lesson-Dialogue',      16, 666,      'n/a', 'lesson-Dialogue');">▷</strong></p>
+
+<ul>
+  <li><strong>I wear a t-skirt and and a skirt. what do you wear?</strong></li>
+  <li><strong>I wear a shirt and trousers.</strong></li>
+</ul>
+
+<p><em>A2. - O que você veste?</em></p>
+
+<ul>
+  <li><em>Eu visto uma camiseta e uma saia. o que você veste?</em></li>
+  <li><em>Eu visto uma camisa e uma calça.</em></li>
+</ul>
+
+<h3 id="a3-what-do-you-decorate">A3. What do you decorate?</h3>
+<p><strong class="el-vocab-play" id="playat_lesson-Dialogue" onclick="playat('lesson-Dialogue',      24, 666,      'n/a', 'lesson-Dialogue');">▷</strong></p>
+
+<ul>
+  <li><strong>I decorate a room, a house and two classrooms. What do you decorate?</strong></li>
+  <li><strong>I decorate a cake.</strong></li>
+</ul>
+
+<p><em>A3. - O que você decora?</em></p>
+
+<ul>
+  <li><em>Decoro uma sala, uma casa e duas salas de aula. O que você decora?</em></li>
+  <li><em>Eu decora um bolo.</em></li>
+</ul>
+
+<h3 id="a4-what-do-you-touch">A4. What do you touch?</h3>
+<p><strong class="el-vocab-play" id="playat_lesson-Dialogue" onclick="playat('lesson-Dialogue',      34, 666,      'n/a', 'lesson-Dialogue');">▷</strong></p>
+
+<ul>
+  <li><strong>I touch a crocodile, a giraffe and a monkey. What do you touch?</strong></li>
+  <li><strong>I touch a wall, a picture and an air-conditioner.</strong></li>
+</ul>
+
+<p><em>A4. - O que você toca?</em></p>
+
+<ul>
+  <li><em>Toco um crocodilo, uma girafa e um macaco. O que você toca?</em></li>
+  <li><em>Toco uma parede, um retrato e um ar condicionado.</em></li>
+</ul>
+
+<h3 id="a5-what-do-you-play">A5. What do you play?</h3>
+<p><strong class="el-vocab-play" id="playat_lesson-Dialogue" onclick="playat('lesson-Dialogue',      46, 666,      'n/a', 'lesson-Dialogue');">▷</strong></p>
+
+<ul>
+  <li><strong>I play football and tennis. What do you play?</strong></li>
+  <li><strong>I play the piano and the guitar.</strong></li>
+</ul>
+
+<p><em>A5. - O que você toca ou joga?</em></p>
+
+<ul>
+  <li><em>Eu jogo futebol e tênis. O que você toca ou joga?</em></li>
+  <li><em>Toco piano e violão.</em></li>
+</ul>
+
+<h2 id="b-do-you">B. Do you…?</h2>
+<p><strong class="el-vocab-play" id="playat_lesson-Dialogue" onclick="playat('lesson-Dialogue',      55, 666,      'n/a', 'lesson-Dialogue');">▷</strong></p>
+
+<h3 id="b1-do-you-sell-cars">B1. Do you sell cars?*</h3>
+
+<ul>
+  <li><strong>No, I don’t sell cars.</strong></li>
+  <li><strong>Do you sell trucks?</strong></li>
+  <li><strong>No, I don’t sell trucks.</strong></li>
+  <li><strong>Do you sell motorbikes?</strong></li>
+  <li><strong>No, I don’t sell motorbikes.</strong></li>
+  <li><strong>What do you sell?</strong></li>
+  <li><strong>I sell bikes.</strong></li>
+</ul>
+
+<p><em>B1. Você vende carros?</em></p>
+
+<ul>
+  <li><em>Não, eu não vendo carros</em></li>
+  <li><em>Você vende caminhões?</em></li>
+  <li><em>Não, eu não vendo caminhões.</em></li>
+  <li><em>Você vende motos?</em></li>
+  <li><em>Não, não vendo motos.</em></li>
+  <li><em>O que você vende?</em></li>
+  <li><em>Eu vendo bicicletas.</em></li>
+</ul>
+
+<h3 id="b2--do-you-play-the-piano">B2.  Do you play the piano?</h3>
+<p><strong class="el-vocab-play" id="playat_lesson-Dialogue" onclick="playat('lesson-Dialogue',      71, 666,      'n/a', 'lesson-Dialogue');">▷</strong></p>
+
+<ul>
+  <li><strong>No, I don’t play the piano.</strong></li>
+  <li><strong>Do you play the guitar?</strong></li>
+  <li><strong>No, I don’t play the guitar.</strong></li>
+  <li><strong>What do you play?</strong></li>
+  <li><strong>I play the violin.</strong></li>
+</ul>
+
+<p><em>B2. Você toca piano?</em></p>
+
+<ul>
+  <li><em>Não, eu não toco piano.</em></li>
+  <li><em>Você toca violão?</em></li>
+  <li><em>Não, eu não toco violão.</em></li>
+  <li><em>O que você toca?</em></li>
+  <li><em>Eu toco violino.</em></li>
+</ul>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

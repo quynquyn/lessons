@@ -2,44 +2,31 @@
 layout: lesson
 ---
 
-This is the Vietnamese Version
-Go to [Portuguese Version](index-pt.html)!
+This is the general overview about everything.
 
-<div class="container">
-  <div class="row">
-    <div class="col">
-				<h2>Class 1</h2>
-		
-  {% for item in site.lessons %}
-  {% if item.class == "1" and item.lang != "pt" %}
-	  <h4><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h4>
-  {% else %}
-  {% endif %}
-  {% endfor %}
+## Go to [Portuguese Version](index-pt.html)!
 
-    </div>
-    <div class="col">
-		<h2>Class 2</h2>
+## Go to [Viet Version](index-vn.html)!
 
-  {% for item in site.lessons %}
-  {% if item.class == "2"  and item.lang != "pt"  %}
-	  <h4><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h4>
-  {% else %}
-  {% endif %}
-  {% endfor %}
-
-    </div>
-  </div>
-</div>
+## Go to [EN (test) Version](index-en.html)!
 
 
-<h2>Unassigned</h2>
+
+
+<h2>Unassigned (either lang or class or lesson)</h2>
 
 {% for item in site.lessons %}
-{% if item.class != "1" and item.class != "2" %}
+{% if item.class == nil or item.lang == nil or item.lang == nil %}
 
-  <h4>{{ item.class }} / {{ item.lesson }} <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h4>
+  <h4>{{ item.lang }} - {{ item.class }} / {{ item.lesson }} <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h4>
 
 {% else %}
 {% endif %}
 {% endfor %}
+
+
+
+
+[comment]: <> step1: match all ** to __
+[comment]: <> step2: remove all VN text:  \040\*(.+?)\*[\040|\n]
+

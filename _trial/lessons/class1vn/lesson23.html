@@ -1,0 +1,992 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        
+        
+          Phiên bản dùng thử
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/nguoi-su-dung-phien-ban-cao-cap-hoc-tieng-anh-nhanh-va-hieu-qua-hon/?lang=vi">Nâng cấp!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-123-how-2">Lesson 1.23: How 2</h1>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L23-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '23', 'vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L23-vocabulary.mp3</div>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<p><strong>HOW DO YOU GET THERE?</strong></p>
+
+<p><strong>I GET THERE</strong></p>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l23-by-car-bus-train-plane.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 9.1, 14.34, 
+      '1-23', 'By car / bus / train / plane');">▷ <strong>By car / bus / train / plane</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Đi bằng xe hơi/ xe buýt/ tàu hỏa/ máy bay</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l23-on-foot.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 14.34, 16.4, 
+      '1-23', 'On foot');">▷ <strong>On foot</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Đi bộ</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<p><strong>MAKE YOUR MOTHER SMILE BY</strong></p>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l23-telling-her-funny-stories.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 16.4, 19.18, 
+      '1-23', 'Telling her funny stories');">▷ <strong>Telling her funny stories</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Kể cho cô ấy nghe những câu chuyện cười</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l23-obeying-whatever-she-says.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 19.18, 22.05, 
+      '1-23', 'Obeying whatever she says');">▷ <strong>Obeying whatever she says</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Tuân theo mọi thứ cô ấy bảo</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l23-buying-her-flowers.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 22.05, 24.35, 
+      '1-23', 'Buying her flowers');">▷ <strong>Buying her flowers</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Tặng hoa cho cô ấy</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<p><strong>STUDY ENGLISH BY</strong></p>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l23-paying-attention-to-what-the-teacher-says-in-class.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 24.35, 28.49, 
+      '1-23', 'Paying attention to what the teacher says in class');">▷ <strong>Paying attention to what the teacher says in class</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Tập trung nghe thầy cô giảng bài</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l23-watching-american-and-european-movies-without-subtitles.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 28.49, 32.83, 
+      '1-23', 'Watching American and European movies without subtitles');">▷ <strong>Watching American and European movies without subtitles</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Xem phim Âu Mỹ không cần sub</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l23-reading-books.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 32.83, 34.15, 
+      '1-23', 'Reading books');">▷ <strong>Reading books</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Đọc sách</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l23-practicing-speaking-english-with-my-friends.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 34.15, 37.86, 
+      '1-23', 'Practicing speaking English with my friends');">▷ <strong>Practicing speaking English with my friends</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Thực hành nói tiếng Anh với những người bạn của tôi</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<p><strong>HELP YOUR FRIEND BY</strong></p>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l23-lending-her-some-money.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 37.86, 39.4, 
+      '1-23', 'Lending her some money');">▷ <strong>Lending her some money</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Cho cô ấy mượn tiền</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l23-standing-by-her-side.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 39.4, 41.6, 
+      '1-23', 'Standing by her side');">▷ <strong>Standing by her side</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Ủng hộ cô ấy</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l23-listening-to-her.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 41.6, 43.42, 
+      '1-23', 'Listening to her');">▷ <strong>Listening to her</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Lắng nghe cô ấy</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l23-help-her-do-homework.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 43.42, 45.24, 
+      '1-23', 'Help her do homework');">▷ <strong>Help her do homework</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Giúp cô ấy làm bài tập về nhà</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<p><strong>RELEASE STRESS BY</strong></p>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l23-doing-yoga-meditation.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 45.24, 48.58, 
+      '1-23', 'Doing yoga / meditation');">▷ <strong>Doing yoga / meditation</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Tập yoga/ thiền</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l23-listening-to-music.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 48.58, 50.07, 
+      '1-23', 'Listening to music');">▷ <strong>Listening to music</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Nghe nhạc</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l23-hanging-out-with-friends.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 50.07, 52.32, 
+      '1-23', 'Hanging out with friends');">▷ <strong>Hanging out with friends</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Đi chơi cùng bạn bè</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l23-playing-sports.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 52.32, 54.01, 
+      '1-23', 'Playing sports');">▷ <strong>Playing sports</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Chơi thể thao</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<p><strong>APPLY FOR A JOB BY</strong></p>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l23-researching-the-company-or-job.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 54.01, 56.96, 
+      '1-23', 'Researching the company or job');">▷ <strong>Researching the company or job</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Tìm công ty hoặc việc làm</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l23-creating-a-good-resume-and-a-cover-letter.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 56.96, 60.5, 
+      '1-23', 'Creating a good resume and a cover letter');">▷ <strong>Creating a good resume and a cover letter</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Viết hồ sơ xin việc và đơn xin việc tốt </em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l23-get-some-references-from-past-employers-or-professors.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 60.5, 64.69, 
+      '1-23', 'Get some references from past employers or professors');">▷ <strong>Get some references from past employers or professors</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Tham khảo từ những nhân viên làm trước và các giáo sư</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l23-apply-for-the-job-in-person-online-or-by-mail.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 64.69, 69.01, 
+      '1-23', 'Apply for the job in person, online, or by mail');">▷ <strong>Apply for the job in person, online, or by mail</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Nộp đơn trực tiếp, online, qua mail</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l23-preparing-carefully-for-the-interview.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 69.01, 72.01, 
+      '1-23', 'Preparing carefully for the interview');">▷ <strong>Preparing carefully for the interview</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Chuẩn bị chu đáo cho buổi phỏng vấn</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l23-being-confident.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 72.01, 73.58, 
+      '1-23', 'Being confident');">▷ <strong>Being confident</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Tự tin</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<p><strong>MOVE ON FROM A BAD BREAKUP BY</strong></p>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l23-surround-yourself-with-supportive-people.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 73.58, 76.38, 
+      '1-23', 'Surround yourself with supportive people');">▷ <strong>Surround yourself with supportive people</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Ở cạnh những người luôn ủng hộ bạn</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l23-remind-yourself-of-your-ex-s-negative-traits.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 76.38, 80.06, 
+      '1-23', 'Remind yourself of your ex’s negative traits');">▷ <strong>Remind yourself of your ex’s negative traits</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Nhắc nhở bản thân về những điều tiêu cực ở người cũ</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l23-consider-the-reasons-why-you-are-better-off-without-your-ex.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 80.06, 84.71, 
+      '1-23', 'Consider the reasons why you are better off without your ex');">▷ <strong>Consider the reasons why you are better off without your ex</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Xem xét những lý do tại sao bạn thấy hạnh phúc hơn khi không có người cũ</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<p><strong>LOSE WEIGHT BY</strong></p>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l23-cutting-down-on-sugar.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 84.71, 86.5, 
+      '1-23', 'Cutting down on sugar');">▷ <strong>Cutting down on sugar</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Giảm ăn đường</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l23-eating-fruits-and-vegetables.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 86.5, 88.81, 
+      '1-23', 'Eating fruits and vegetables');">▷ <strong>Eating fruits and vegetables</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Ăn trái cây và rau củ</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l23-eating-your-food-slowly.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 88.81, 90.99, 
+      '1-23', 'Eating your food slowly');">▷ <strong>Eating your food slowly</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Ăn chậm</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l23-getting-regular-exercise.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 90.99, 93.4, 
+      '1-23', 'Getting regular exercise');">▷ <strong>Getting regular exercise</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Tập thể dục thường xuyên</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L23-examples.mp3" id="audio_examples" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples" onclick="play('examples', '23', 'examples');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L23-examples.mp3</div>
+
+<h2 id="example">Example</h2>
+<ol>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   3.13, 5.17,   'n/a', 'examples');">▷</strong> <strong>How do you go to school?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   6.19, 7.67,   'n/a', 'examples');">▷</strong><strong>How did you get there?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   8.79, 11.26,   'n/a', 'examples');">▷</strong><strong>How does the man usually go to work?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   12.55, 14.64,   'n/a', 'examples');">▷</strong><strong>How do you make your mother smile?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   16.03, 17.89,   'n/a', 'examples');">▷</strong><strong>How do you study English?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   19.33, 20.92,   'n/a', 'examples');">▷</strong><strong>How do you help her?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   22.34, 24.27,   'n/a', 'examples');">▷</strong><strong>How to release stress?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   25.47, 27.45,   'n/a', 'examples');">▷</strong><strong>How to apply for a job?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   28.87, 31.32,   'n/a', 'examples');">▷</strong><strong>How to move on from bad break up?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',  32.45, 34.4,  'n/a', 'examples');">▷</strong><strong>How to lose weight?</strong></li>
+</ol>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

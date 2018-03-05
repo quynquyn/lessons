@@ -1,0 +1,697 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        
+        
+          Phiên bản đầy đủ miễn phí (còn 2 ngày)
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/people-going-premium-learn-english-faster-and-better/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-2-what-i-hate">Lesson 2: What I hate</h1>
+
+<h2 id="vocabulary">Vocabulary</h2>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L02-Native-Dialogue1.mp3" id="audio_File1-Vocab" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_File1-Vocab" onclick="play('File1-Vocab', 'C2L01', 'File1-Vocab');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L02-Native-Dialogue1.mp3</div>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l02-talking-to-unfriendly-people.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_File1-Vocab" onclick="playat('File1-Vocab', 8.42, 10.66, 
+      '2-02', 'Talking to unfriendly people');">▷ <strong>Talking to unfriendly people</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l02-arguing-with-overly-emotional-people.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_File1-Vocab" onclick="playat('File1-Vocab', 12.85, 15.6, 
+      '2-02', 'Arguing with overly emotional people');">▷ <strong>Arguing with overly emotional people</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l02-getting-up-early-in-the-morning.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_File1-Vocab" onclick="playat('File1-Vocab', 17.62, 19.46, 
+      '2-02', 'Getting up early in the morning');">▷ <strong>Getting up early in the morning</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l02-doing-homework.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_File1-Vocab" onclick="playat('File1-Vocab', 21.68, 22.83, 
+      '2-02', 'Doing homework');">▷ <strong>Doing homework</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l02-doing-housework.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_File1-Vocab" onclick="playat('File1-Vocab', 25.43, 27.11, 
+      '2-02', 'Doing housework');">▷ <strong>Doing housework</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l02-washing-dishes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_File1-Vocab" onclick="playat('File1-Vocab', 27.11, 29.11, 
+      '2-02', 'Washing dishes');">▷ <strong>Washing dishes</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l02-washing-clothes-doing-laundry.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_File1-Vocab" onclick="playat('File1-Vocab', 29.11, 34.11, 
+      '2-02', 'Washing clothes / Doing laundry');">▷ <strong>Washing clothes / Doing laundry</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l02-cleaning-the-house.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_File1-Vocab" onclick="playat('File1-Vocab', 34.11, 37.11, 
+      '2-02', 'Cleaning the house');">▷ <strong>Cleaning the house</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l02-being-alone-hungry-sick.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_File1-Vocab" onclick="playat('File1-Vocab', 38.68, 43.84, 
+      '2-02', 'Being alone / hungry / sick');">▷ <strong>Being alone / hungry / sick</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l02-being-told-you-are-short.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_File1-Vocab" onclick="playat('File1-Vocab', 46.16, 48.77, 
+      '2-02', 'Being told “you are short');">▷ <strong>Being told “you are short</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l02-thinking-about-my-ex.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_File1-Vocab" onclick="playat('File1-Vocab', 50.74, 52.64, 
+      '2-02', 'Thinking about my ex');">▷ <strong>Thinking about my ex</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l02-riding-my-motorbike-in-the-traffic-jam.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_File1-Vocab" onclick="playat('File1-Vocab', 54.49, 56.91, 
+      '2-02', 'Riding my motorbike in the traffic jam');">▷ <strong>Riding my motorbike in the traffic jam</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l02-loneliness.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_File1-Vocab" onclick="playat('File1-Vocab', 58.89, 60.33, 
+      '2-02', 'Loneliness');">▷ <strong>Loneliness</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l02-hot-weather.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_File1-Vocab" onclick="playat('File1-Vocab', 62.76, 63.91, 
+      '2-02', 'Hot weather');">▷ <strong>Hot weather</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l02-dogs-cats-snakes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_File1-Vocab" onclick="playat('File1-Vocab', 66.25, 71.25, 
+      '2-02', 'Dogs / cats / snakes');">▷ <strong>Dogs / cats / snakes</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row6"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l02-racism.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_File1-Vocab" onclick="playat('File1-Vocab', 73.48, 74.56, 
+      '2-02', 'Racism');">▷ <strong>Racism</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l02-sexism.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_File1-Vocab" onclick="playat('File1-Vocab', 77.04, 78.11, 
+      '2-02', 'Sexism');">▷ <strong>Sexism</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class2/c2l02-slow-internet-connection.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_File1-Vocab" onclick="playat('File1-Vocab', 80.41, 82.31, 
+      '2-02', 'Slow Internet Connection');">▷ <strong>Slow Internet Connection</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row7"><td class="col1">
+  
+    <img src="/daily/lessons/images/class2/c2l02-being-early-to-the-airport.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_File1-Vocab" onclick="playat('File1-Vocab', 84.88, 86.84, 
+      '2-02', 'Being early to the airport');">▷ <strong>Being early to the airport</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class2/c2l02-arriving-at-the-destination-and-realizing-that-you-forgot-something.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_File1-Vocab" onclick="playat('File1-Vocab', 89.7, 95.57, 
+      '2-02', 'Arriving at the destination and realizing that you forgot something');">▷ <strong>Arriving at the destination and realizing that you forgot something</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2 id="dialogue">Dialogue</h2>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L02-Native-Dialogue2.mp3" id="audio_File1-Dialogue" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_File1-Dialogue" onclick="play('File1-Dialogue', 'C2L01', 'File1-Dialogue');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L02-Native-Dialogue2.mp3</div>
+
+<blockquote>
+  <p><strong class="el-vocab-play" id="playat_File1-Dialogue" onclick="playat('File1-Dialogue',      0.54, 2.58,      'n/a', 'File1-Dialogue');">▷</strong>Person 1: <strong>Why do you look so annoyed?</strong><br />
+<strong class="el-vocab-play" id="playat_File1-Dialogue" onclick="playat('File1-Dialogue',      2.58, 5.96,      'n/a', 'File1-Dialogue');">▷</strong>Person 2: <strong>I am cleaning the house now and I hate doing housework.</strong><br />
+<strong class="el-vocab-play" id="playat_File1-Dialogue" onclick="playat('File1-Dialogue',      5.96, 7.33,      'n/a', 'File1-Dialogue');">▷</strong>Person 1: <strong>What else do you hate?</strong><br />
+<strong class="el-vocab-play" id="playat_File1-Dialogue" onclick="playat('File1-Dialogue',      7.33, 10.47,      'n/a', 'File1-Dialogue');">▷</strong>Person 2: <strong>Talking to unfriendly people drives me crazy.</strong><br />
+<strong class="el-vocab-play" id="playat_File1-Dialogue" onclick="playat('File1-Dialogue',      10.47, 12.89,      'n/a', 'File1-Dialogue');">▷</strong>Person 1: <strong>Do you hate getting up early in the morning?</strong><br />
+<strong class="el-vocab-play" id="playat_File1-Dialogue" onclick="playat('File1-Dialogue',      12.89, 16.41,      'n/a', 'File1-Dialogue');">▷</strong>Person 2: <strong>No, I don’t hate getting up early in the morning. How about you?</strong><br />
+<strong class="el-vocab-play" id="playat_File1-Dialogue" onclick="playat('File1-Dialogue',      16.41, 20.76,      'n/a', 'File1-Dialogue');">▷</strong>Person 1: <strong>Definitely. Getting up early in the morning really gets on my nerves.</strong></p>
+</blockquote>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L02-explanation.mp3" id="audio_explanation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_explanation" onclick="play('explanation', '02', 'explanation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C2L02-explanation.mp3</div>
+
+<h3 id="person-1-why-do-you-look-so-annoyed">Person 1: Why do you look so annoyed?</h3>
+<p><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',      0.02, 12.58,      'n/a', 'explanation');">▷</strong> 
+<strong>Why do you look…?</strong></p>
+<ul>
+  <li><strong>Why do you look so sad today?</strong> - <strong>Why do you look so angry?</strong> - <strong>Why do you look so happy today?</strong>
+    <h3 id="person-2-i-hate-doing-housework">Person 2: I hate doing housework.</h3>
+    <p><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',    13.79, 39.6,    'n/a', 'explanation');">▷</strong></p>
+  </li>
+</ul>
+
+<p><strong>I hate / I am sick of / I am tired of / I can’t stand it</strong></p>
+
+<ul>
+  <li><strong>I hate arguing with overly emotional people.</strong>- <strong>I am sick of listening to the song “Despacito” again and again.</strong>- <strong>I am tired of being told that I am short.</strong>- <strong>I can’t stand sexism.</strong>
+    <h3 id="person-1-talking-to-unfriendly-people-drives-me-crazy">Person 1: Talking to unfriendly people drives me crazy.</h3>
+    <p><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',    41.64, 65.22,    'n/a', 'explanation');">▷</strong></p>
+  </li>
+</ul>
+
+<p><strong>It drives me crazy / it gets on my nerves</strong></p>
+
+<ul>
+  <li><strong>Racism drives me crazy.</strong>-  <strong>Getting stuck in the traffic jam drives me crazy.</strong>-  <strong>Doing homework every day drives me crazy.</strong>-  <strong>Being told that I am fat gets on my nerves.</strong>-  <strong>Slow internet connection drives me crazy.</strong>
+    <h3 id="person-2-definitely">Person 2: Definitely</h3>
+    <p><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',   66.88, 73.75,   'n/a', 'explanation');">▷</strong></p>
+  </li>
+  <li><strong>Absolutely.</strong>- <strong>Of course.</strong>- <strong>Sure.</strong></li>
+</ul>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

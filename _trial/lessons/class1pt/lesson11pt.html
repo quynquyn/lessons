@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        
+        
+          Limited Trial version
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/">Atualizar!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-111-review">Lesson 1.11: Review</h1>
+
+<h2 id="1-yes--no-questions">1. Yes / No questions</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L11-examples1.mp3" id="audio_examples1" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples1" onclick="play('examples1', '11', 'examples1');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L11-examples1.mp3</div>
+
+<ol>
+  <li><strong>Do you need this pen?</strong> <em>Você precisa dessa caneta?</em></li>
+  <li><strong>Is he the most talented person?</strong> <em>Ele é a pessoa mais talentosa?</em></li>
+  <li><strong>Do you understand me?</strong> <em>Você me entende?</em></li>
+  <li><strong>Do you have a test tomorrow?</strong> <em>Você tem um teste amanhã?</em></li>
+  <li><strong>Is she at home?</strong> <em>Ela está em casa?</em></li>
+  <li><strong>Does the actress intend to travel to Japan?</strong> <em>A atriz pretende viajar para o Japão?</em></li>
+  <li><strong>Does he hate cats?</strong> <em>Ele odia os gatos?</em></li>
+  <li><strong>Do they like to eat sushi?</strong> <em>Eles gostam de comer sushi?</em></li>
+  <li><strong>Does he love her?</strong> <em>Ele a ama?</em></li>
+  <li><strong>Are they friends?</strong> <em>Eles são amigos?</em></li>
+  <li><strong>Does she miss him?</strong> <em>Ela sente saudades dele?</em></li>
+  <li><strong>Does his computer work?</strong> <em>Seu computador funciona?</em></li>
+  <li><strong>Does he try to understand what she is saying?</strong> <em>Ele tenta entender o que ela está dizendo?</em></li>
+  <li><strong>Are the nurses at the hospital?</strong> <em>Os enfermeiros estão no hospital?</em></li>
+  <li><strong>Does your teacher wear glasses?</strong> <em>O seu mestre usa óculos?</em></li>
+  <li><strong>Do lions eat carrots?</strong> <em>Os leões comem cenouras?</em></li>
+  <li><strong>Is New York a big city?</strong> <em>Nova Iorque é uma cidade grande?</em></li>
+  <li><strong>Is it an easy question?</strong> <em>É uma pergunta fácil?</em></li>
+  <li><strong>Does your class finish at 7PM?</strong> <em>Sua classe termina às 7 da noise?</em></li>
+  <li><strong>Do your parents live in HCMC?</strong> <em>Os seus pais vivem na cidade de Ho Chi Minh?</em></li>
+</ol>
+
+<h2 id="2-so--such">2. So / Such</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L11-examples2.mp3" id="audio_examples2" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples2" onclick="play('examples2', '11', 'examples2');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L11-examples2.mp3</div>
+
+<ol>
+  <li><strong>You are such a good friend.</strong> <em>Você é um amigo tão bom.</em></li>
+  <li><strong>Russia is such a big country.</strong> <em>A Rússia é um país tão grande.</em></li>
+  <li><strong>You are such a great artist.</strong> <em>Você é um ótimo artista.</em></li>
+  <li><strong>I am so amazing.</strong> <em>Eu sou tão incrível.</em></li>
+  <li><strong>Iceland is such a cold country.</strong> <em>A Islândia é um país tão frio.</em></li>
+  <li><strong>It is such a great movie.</strong> <em>É um ótimo filme.</em></li>
+  <li><strong>You are such a liar.</strong> <em>Você é um mentiroso tão grande.</em></li>
+  <li><strong>The test is so hard.</strong> <em>O teste é tão difícil.</em></li>
+  <li><strong>She is so crazy.</strong> <em>Ela é tão doida.</em></li>
+  <li><strong>She is so good at English.</strong> <em>Ela é tão boa em inglês.</em></li>
+  <li><strong>The question is so easy.</strong> <em>A pergunta é tão fácil.</em></li>
+</ol>
+
+<h2 id="3-comparison">3. Comparison</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L11-examples3.mp3" id="audio_examples3" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples3" onclick="play('examples3', '11', 'examples3');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L11-examples3.mp3</div>
+
+<ol>
+  <li><strong>My house is bigger than yours.</strong> <em>Minha casa é maior que a sua.</em></li>
+  <li><strong>This flower is more beautiful than that one.</strong> <em>Essa flor é mais linda do que aquela.</em></li>
+  <li><strong>This is the most interesting book I have ever read.</strong> <em>Este é o livro mais interessante que já li.</em></li>
+  <li><strong>Non-smokers usually live longer than smokers.</strong> <em>Os não fumantes geralmente vivem mais do que os fumantes.</em></li>
+  <li><strong>Which is the the most dangerous animal in the world?</strong> <em>Qual é o animal mais perigoso do mundo?</em></li>
+  <li><strong>Holidays by the sea are better than holidays in the mountains.</strong> <em>Férias ao mar são melhor do que férias nas montanhas.</em></li>
+  <li><strong>It is strange but often a coke is more expensive than a beer.</strong> <em>É estranho, mas muitas vezes uma coca cola é mais cara do que uma cerveja.</em></li>
+  <li><strong>Who is the richest woman on earth?</strong> <em>Quem é a mulher mais rica da terra?</em></li>
+  <li><strong>The weather this summer is even worse than last summer.</strong> <em>O tempo neste verão é ainda pior do que no verão passado.</em></li>
+  <li><strong>He was the smartest thief of all.</strong> <em>Ele era o ladrão mais inteligente de todos.</em></li>
+</ol>
+
+<h2 id="4-there-is--there-are">4. There is / There are</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L11-examples4.mp3" id="audio_examples4" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples4" onclick="play('examples4', '11', 'examples4');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L11-examples4.mp3</div>
+
+<ol>
+  <li><strong>Are there any crocodiles in the lake?</strong> <em>Há algum crocodilo no lago</em></li>
+  <li><strong>Are there any museums in district 7?</strong> <em>Há algum museu no distrito 7?</em></li>
+  <li><strong>Are there any books on the table?</strong> <em>Há algum livro na mesa?</em></li>
+  <li><strong>Is there any money in the wallet?</strong> <em>Há dinheiro na carteira?</em></li>
+  <li><strong>Is there any water in the bottle?</strong> <em>Tem água na garrafa?</em></li>
+</ol>
+
+<h2 id="5-it-is--adjective--to-verb">5. It is + Adjective + to Verb</h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L11-examples5.mp3" id="audio_examples5" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples5" onclick="play('examples5', '11', 'examples5');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L11-examples5.mp3</div>
+
+<ol>
+  <li><strong>Is it stupid to love a married man?</strong> <em>É estúpido amar um homem casado?</em></li>
+  <li><strong>Is it crazy to quit such a good job?</strong> <em>É louco sair de um trabalho tão bom?</em></li>
+  <li><strong>Is it easy to learn Japanese?</strong> <em>É fácil aprender japonês?</em></li>
+  <li><strong>Is it interesting to talk to the teacher?</strong> <em>É interessante falar com o mestre?</em></li>
+  <li><strong>Is it bad to cry in public?</strong> <em>É ruim chorar em público?</em></li>
+  <li><strong>Is it terrible to get married without love?</strong> <em>É terrível se casar sem amor?</em></li>
+  <li><strong>Is it possible to speak English fluently when you don’t practice every day?</strong> <em>É possível falar inglês fluentemente se não pratica todos os dias?</em></li>
+  <li><strong>Is it good to follow the crowd?</strong> <em>É bom seguir a multidão?</em></li>
+</ol>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

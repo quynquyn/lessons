@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        
+        
+          Limited Trial version
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/people-going-premium-learn-english-faster-and-better/">Upgrade me!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-121-which--whose">Lesson 1.21: Which / whose</h1>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L21-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '21', 'vocabulary');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L21-vocabulary.mp3</div>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l21-calendar.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 7.27, 8.72, 
+      '1-21', 'Calendar');">▷ <strong>Calendar</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l21-subject.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 8.72, 10.14, 
+      '1-21', 'Subject');">▷ <strong>Subject</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l21-toothpaste.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 10.14, 12.24, 
+      '1-21', 'Toothpaste');">▷ <strong>Toothpaste</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l21-toothbrush.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 12.24, 14.06, 
+      '1-21', 'Toothbrush');">▷ <strong>Toothbrush</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l21-doll.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 14.06, 15.75, 
+      '1-21', 'Doll');">▷ <strong>Doll</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l21-crayon.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 15.75, 17.47, 
+      '1-21', 'Crayon');">▷ <strong>Crayon</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l21-magazine.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 17.47, 19.32, 
+      '1-21', 'Magazine');">▷ <strong>Magazine</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l21-luggage.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 19.32, 21.11, 
+      '1-21', 'Luggage');">▷ <strong>Luggage</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 21.11, 22.47, 
+      '1-21', 'Crown');">▷ <strong>Crown</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 22.47, 24.56, 
+      '1-21', 'Dinosaur');">▷ <strong>Dinosaur</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 24.56, 26.11, 
+      '1-21', 'Butterfly');">▷ <strong>Butterfly</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 26.11, 27.69, 
+      '1-21', 'Mosquito');">▷ <strong>Mosquito</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 27.69, 29.19, 
+      '1-21', 'Spider');">▷ <strong>Spider</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 29.19, 30.65, 
+      '1-21', 'Circus');">▷ <strong>Circus</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 30.65, 32.15, 
+      '1-21', 'island');">▷ <strong>island</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row6"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 32.15, 33.54, 
+      '1-21', 'Marriage');">▷ <strong>Marriage</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 33.54, 36.52, 
+      '1-21', 'Religion');">▷ <strong>Religion</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 36.52, 38.42, 
+      '1-21', 'Region');">▷ <strong>Region</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row7"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 38.42, 38.53, 
+      '1-21', 'Responsibility');">▷ <strong>Responsibility</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L21-explanation.mp3" id="audio_explanation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_explanation" onclick="play('explanation', '21', 'explanation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L21-explanation.mp3</div>
+
+<h2 id="example-of-which">Example of Which</h2>
+<ol>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',   4.84, 7.32,   'n/a', 'explanation');">▷</strong><strong>Which house do you want to buy?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',   8.57, 10.84,   'n/a', 'explanation');">▷</strong><strong>Which museums did you visit?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',   12.28, 14.57,   'n/a', 'explanation');">▷</strong><strong>Which season is your favorite?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',   15.82, 18.41,   'n/a', 'explanation');">▷</strong><strong>Which company does your boyfriend work for?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',   19.78, 21.29,   'n/a', 'explanation');">▷</strong><strong>Which girl do you like?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',   22.58, 25.01,   'n/a', 'explanation');">▷</strong><strong>Which toothpaste is the most expensive?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',   26.17, 29.95,   'n/a', 'explanation');">▷</strong><strong>Which animal in the picture is on top of the tree?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',   31.0, 33.88,   'n/a', 'explanation');">▷</strong><strong>Which University did you graduate from?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',   34.75, 38.6,   'n/a', 'explanation');">▷</strong><strong>which blood type is the rarest in the world?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',  40.05, 42.84,  'n/a', 'explanation');">▷</strong><strong>Which country do you want to visit someday?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',  44.03, 47.17,  'n/a', 'explanation');">▷</strong><strong>Which do you prefer, bread or rice?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',  48.12, 51.59,  'n/a', 'explanation');">▷</strong><strong>Which do you like more, TV or movies?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',  52.67, 57.14,  'n/a', 'explanation');">▷</strong><strong>Which is more interesting, watching sports or playing sports?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',  58.48, 62.79,  'n/a', 'explanation');">▷</strong><strong>Which do you like more, reading books or listening to music?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',  64.28, 69.92,  'n/a', 'explanation');">▷</strong><strong>Which did you enjoy more, your high school days or your elementary school days?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',  71.11, 73.79,  'n/a', 'explanation');">▷</strong><strong>Which animal has the largest brain?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',  75.18, 78.3,  'n/a', 'explanation');">▷</strong><strong>Which girl lost her money in the class yesterday?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',  79.72, 83.07,  'n/a', 'explanation');">▷</strong><strong>Which teacher has the most impressive teaching style?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',  84.53, 86.72,  'n/a', 'explanation');">▷</strong><strong>Which district do you live in?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',  87.76, 91.87,  'n/a', 'explanation');">▷</strong><strong>Which restaurant does the scientist usually have dinner in?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',  93.17, 95.99,  'n/a', 'explanation');">▷</strong><strong>Which table did you leave your key on?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',  97.53, 99.72,  'n/a', 'explanation');">▷</strong><strong>Which room does the President sleep in?</strong></li>
+</ol>
+
+<h3 id="examples-of-whose">Examples of Whose</h3>
+<ol>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',   102.81, 105.43,   'n/a', 'explanation');">▷</strong><strong>Whose house do you want to buy?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',   105.43, 107.64,   'n/a', 'explanation');">▷</strong><strong>Whose cellphone is cheap?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',   107.64, 109.78,   'n/a', 'explanation');">▷</strong><strong>Whose money is this?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',   109.78, 112.05,   'n/a', 'explanation');">▷</strong><strong>Whose pencils are on the table?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',   112.05, 114.51,   'n/a', 'explanation');">▷</strong><strong>Whose birthday is on Christmas?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',   114.51, 117.22,   'n/a', 'explanation');">▷</strong><strong>Whose Email address is it?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',   117.22, 119.72,   'n/a', 'explanation');">▷</strong><strong>Whose birthday is it today?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',   119.72, 122.02,   'n/a', 'explanation');">▷</strong><strong>Whose little brother is he?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',   122.02, 125.39,   'n/a', 'explanation');">▷</strong><strong>Whose room did you sleep in yesterday?</strong></li>
+  <li><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',  125.39, 127.86,  'n/a', 'explanation');">▷</strong><strong>Whose shoe did he put the key in?</strong></li>
+</ol>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

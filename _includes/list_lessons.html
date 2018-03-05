@@ -1,0 +1,7 @@
+{% for item in include.lessons %}
+
+  {% if item.class == include.class and item.lang == include.lang %}
+    <h4><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h4>
+  {% else %}
+  {% endif %}
+{% endfor %}
