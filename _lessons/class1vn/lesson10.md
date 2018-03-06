@@ -41,7 +41,6 @@ lang: vn
 {% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
 ## 2. Examples 
 
-[comment]: <> You can be ”angry at something” or “angry with somebody”, but not "angry at someone”.
 
 1. {% include play.html identifier="examples2" start=5.4 stop=8.3 %} **Are you angry with me?**
 *Bạn đang giận tôi hả?*  

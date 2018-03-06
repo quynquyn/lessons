@@ -61,7 +61,7 @@ lang: vn
 5. {% include play.html identifier="examples" start=16.17 stop=18.50 %}**What is under the table?** *Cái gì dưới gầm bàn?*
 6. {% include play.html identifier="examples" start=19.85 stop=21.83 %}**What is on the floor?** *Cái gì trên nền nhà?*
 7. {% include play.html identifier="examples" start=23.19 stop=25.30 %}**What is on top of the tree?** *Cái gì đang trên đỉnh ngọn cây?*
-8. {% include play.html identifier="examples" start=26.30 stop=28.47 %}**What is your favorite animal?** **Động vật yêu thích của bạn là gì?*
+8. {% include play.html identifier="examples" start=26.30 stop=28.47 %}**What is your favorite animal?** *Động vật yêu thích của bạn là gì?*
 9. {% include play.html identifier="examples" start=29.73 stop=32.43 %}**What is your favorite coffee shop?** *Cửa hàng cà phê yêu thích của bạn là gì?*
 10. {% include play.html identifier="examples" start=33.96 stop=36.12 %}**What is your favorite movie?** *Bộ phim yêu thích của bạn là gì?*
 11. {% include play.html identifier="examples" start=37.81 stop=39.41 %}**What are you doing?** *Bạn đang làm gì vậy?*

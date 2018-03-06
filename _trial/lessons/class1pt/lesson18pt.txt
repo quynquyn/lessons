@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        
+        
+          Phiên bản dùng thử
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/nguoi-su-dung-phien-ban-cao-cap-hoc-tieng-anh-nhanh-va-hieu-qua-hon/?lang=vi">Nâng cấp!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                # Lesson 1.18: Review 2 
+
+
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L18-who.mp3" id="audio_who" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_who" onclick="play('who', '18', 'who');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L18-who.mp3</div>
+
+
+
+
+
+
+## Who
+1. **Who is tall in your class?** *Quem é alto em sua classe?*
+2. **Who is important in a company?** *Quem é importante em uma empresa?*
+3. **Who is the richest man in the world?** *Quem é o homem mais rico do mundo?*
+4. **Who is the most beautiful girl you’ve ever met?** *Quem é a garota mais linda que já conheceu?*
+5. **Who do you want to talk to?** *Com quem voce quer falar?*
+6. **Who do you try to become?** *Em quem você tenta se tornar?*
+7. **Who does your teacher want to discuss the problem with?** *Com quem seu mestre quer discutir o problema?*
+8. **Who does your mother miss?** *De quem a sua mãe sente saudades?*
+9. **Who does the kid want to draw?** *Quem a criança quer desenhar?*
+10. **Who does your friend want to get married to?** *Com quem seu amigo quer se casar?*
+11. **Who did the businessman argue with?** *Com quem o empresário briga?*
+12. **Who did the priest pray for?** *Para quem rezou o padre?*
+13. **Who did the nurse want to keep in touch with?** *Com quem a enfermeira queria manter contato?*
+14. **Who did the policeman catch?** *Quem o policial apanhou?
+15. **Who won the first prize in the competition?** *Quem ganhou o primeiro prêmio na competição?*
+16. **Who passed the exam?** *Quem passou no exame?*
+17. **Who failed the exam in your class?** *Quem falhou no exame em sua classe?*
+18. **Who lost money yesterday?** *Quem perdeu dinheiro ontem?*
+19. **Who didn’t do their homework?** *Quem não fez seu dever de casa?*
+20. **Who called you every day?** *Quem te chamou todos os dias?*
+21. **Who is wearing a dress in your class?** *Quem usa um vestido na sua classe?*
+22. **Who is wearing glasses in your class?** *Quem usa óculos na sua classe?*
+23. **Who are you going to agree with?** *Com quem você vai concordar?*
+
+
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L18-where.mp3" id="audio_where" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_where" onclick="play('where', '18', 'where');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L18-where.mp3</div>
+
+
+
+
+
+## Where 
+1.   **Where is your teacher?** Giáo viên bạn đâu?
+2. **Where is your bag?** Cặp của bạn đâu?
+3.  **Where is the Ben Thanh market?** Chợ Bến Thành ở đâu?
+4.  **Where is his house?** Nhà anh ấy ở đâu?
+5.  **Where is DongNai province?** Tỉnh Đồng Nai ở đâu?
+6.  **Where are your books?** Những quyển sách của bạn ở đâu?
+7.  **Where do you read books?** Bạn thường đọc sách ở đâu?
+8.  **Where do you buy new shoes?** Bạn thường mua giày mới ở đâu?
+9.  **Where do you watch a movie?** Bạn thường xem phim ở đâu?
+11.  **Where does your mother usually go shopping?** Mẹ bạn thường đi mua sắm ở đâu?
+12.  **Where does your brother hang out with his friends?** Anh trai của bạn thường đi chơi với bạn bè ở đâu?
+13.  **Where did the doctor catch the mouse?** Người bác sĩ bắt con chuột ở đâu?
+14.  **Where did the reporter sleep last night?** Người đưa tin ngủ ở đâu tối qua?
+15.  **Where did your father first meet your mother?** Ba bạn gặp mẹ bạn lần đầu ở đâu?
+16.  **Where did you buy that shirt?** Bạn mua cái áo đó ở đâu?
+17. **Where are you going?** Bạn đang đi đâu đấy?
+18. **Where are you going to go after class?** Bạn sẽ đi đâu sau giờ học
+19. **Where will you go fishing?** Bạn sẽ đi câu cá ở đâu? 
+
+
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L18-when.mp3" id="audio_when" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_when" onclick="play('when', '18', 'when');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L18-when.mp3</div>
+
+
+
+
+
+## When 
+1.  **When is Valentine’s day?** Valentine là khi nào?
+2.  **When is Halloween?** Halloween là khi nào?
+3.  **When is your birthday?** Sinh nhật bạn là khi nào?
+4.  **When is your best friend’s birthday?** Sinh nhật bạn thân của bạn là khi nào?
+5.  **When are you free?** Khi nào bạn rảnh?
+6.  **When do you need to borrow his motorbike?** Khi nào bạn cần mượn xe máy của anh ấy?
+7. **When do you intend to invest in the business?** Khi nào bạn định đầu tư vào việc kinh doanh đó
+8. **When does your mother usually get up?** Mẹ bạn thường thức dậy lúc mấy giờ?
+9.  **When did you first ride a bicycle?** Bạn lái xe đạp lần đâu là khi nào? 
+10.  **When did you first study English?** Bạn lần đầu tiên học tiếng Anh là khi nào?
+11.  **When did you first fall in love?** Bạn yêu là đầu là khi nào?
+12.  **When did you first meet her?** Bạn gặp cô ấy lần đâu khi nào? 
+13.  **When did you get up this morning?** Bạn thức dậy khi nào sáng nay?
+
+
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L18-yesnoquestions.mp3" id="audio_yesnoquestions" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_yesnoquestions" onclick="play('yesnoquestions', '18', 'yesnoquestions');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L18-yesnoquestions.mp3</div>
+
+
+
+
+
+
+## Yes / No questions
+
+
+### Example of Yes / No questions with Simple Past Tense and Simple Present Tense
+
+1. **Did your mother get sick yesterday?**
+2. **Did you forget to bring the glasses?**
+3. **Was your first day of school fun?**
+4. **Did Jonathan get home last night?**
+5. **Were you tired yesterday?**
+6. **Did you spend your holidays with family?**
+7. **Were you happy when you heard your sister won the lottery?**
+8. **Do your dogs bite strangers?**
+9. **Does your wife like red wine?**
+10. **Do your parents allow you to smoke?**
+11. **Does the moon reflect the light of the sun?**
+12. **Is she your friend?**
+13. **Are you going to the airport?**
+14. **Do you like this cinema?**
+15. **Do you want to become a baker?**
+16. **Will you go to this school when you're older?**
+17. **Do you think this restaurant has good food?**
+18. **Are we going to sit down in the park?**
+19. **May I lean against this wall?**
+20. **Are you walking to the drugstore? Can you buy me some headache pills?**
+21. **Is Mary going to go to the supermarket?**
+22. **Will she stop looking at me?**
+23. **Are you working at the factory this weekend?**
+24. **Is Melody looking for milk in a bookstore?**
+25. **Will she realize that she is wrong?**
+26. **Do you want to be a farmer when you grow up?**
+27. **Does that singer sound good to you?**
+28. **Did the mechanic fix your car?**
+29. **Did your favorite athlete win the gold medal?**
+30. **Are you going to get married in July?**
+31. **Does the hairdresser work on Sundays?**
+32. **Will you pilot the airplane if Mary can't?**
+33. **Is the waitress bringing our drinks?**
+34. **Did he wish you a good morning?**
+35. **Do you hate Mondays as much as I do?**
+36. **Will they bring us the menu or do we need to ask for it?**
+37. **Is my hair messy?**
+38. **Are the students going to plan the party?**
+39. **Are the teachers bothering the students?**
+40. **Is there an easy way to learn a language?**
+
+
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L18-conversation.mp3" id="audio_conversation" preload="none"></audio>
+
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_conversation" onclick="play('conversation', '18', 'conversation');">▶</span>
+  </div>
+</div>
+
+<div class="audiofile-info">C1L18-conversation.mp3</div>
+
+
+
+
+
+
+## Conversation 
+> Person 1: **Does the cinema in the centre of the city play good movies?**  
+> Person 2: **I think so. We went there last week and they had over 5 movies playing at once!**  
+> P1: **That sounds cool. My cousin is visiting us this weekend and I don't know where to take her.**  
+> P2: **I'm going to play a game of paintball this weekend. Would you and your cousin like to join?**  
+> P1: **That sounds really cool! But I think she probably won't like it.**  
+> P2: **That's a shame. Will you ask her?**  
+> P1: **Of course. I will let you know what she says.**  
+> P2: **Cool. I have to go now. I'm teaching German to a friend.**  
+> P1: **Alright. Good luck!**  
+> P2: **Thanks! I think I'll need it...**  
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

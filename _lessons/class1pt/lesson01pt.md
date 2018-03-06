@@ -13,47 +13,62 @@ salestext: "Free full version (3 days left)"
 ## Vocabulary
 
 ### Animals
+{% include player2.html identifier="Animals" class=page.class lesson=page.lesson %}
+
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
 		section="animals"
+		voiceover="Animals"
 		database=site.data.vocabulary 
 		trial=false %}
 
 
 
 ### Fruits
+{% include player2.html identifier="Fruits" class=page.class lesson=page.lesson %}
+
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
 		section="fruits"
+		voiceover="Fruits"
 		database=site.data.vocabulary 
 		trial=false %}
 
 
 ### Things in class
+{% include player2.html identifier="ThingsInClass" class=page.class lesson=page.lesson %}
+
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
-		section="class"
+		section="thingsinclass"
+		voiceover="ThingsInClass"
 		database=site.data.vocabulary 
 		trial=false %}
 
 
 ### Vehicles
+{% include player2.html identifier="Vehicles" class=page.class lesson=page.lesson %}
+
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
 		section="vehicles"
+		voiceover="Vehicles"
 		database=site.data.vocabulary 
 		trial=false %}
 
 
 ### People
+{% include player2.html identifier="People" class=page.class lesson=page.lesson %}
+
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
 		section="people"
+		voiceover="People"
 		database=site.data.vocabulary 
 		trial=false %}
 
@@ -63,28 +78,37 @@ salestext: "Free full version (3 days left)"
 ## Uncountable nouns
 
 ### Important things in your life
+{% include player2.html identifier="Important" class=page.class lesson=page.lesson %}
+
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
 		section="thingslife"
+		voiceover="Important"
 		database=site.data.vocabulary 
 		trial=false %}
 
 
 ### Other uncountable things
+{% include player2.html identifier="Other" class=page.class lesson=page.lesson %}
+
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
 		section="uncountable"
+		voiceover="Other"
 		database=site.data.vocabulary 
 		trial=false %}
 
 
 ## Some common verbs
+{% include player2.html identifier="Verbs" class=page.class lesson=page.lesson %}
+
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
 		section="commonverb"
+		voiceover="Verbs"
 		database=site.data.vocabulary 
 		trial=false %}
 
@@ -93,6 +117,7 @@ salestext: "Free full version (3 days left)"
 ## 1. Countable nouns
 {% include player.html identifier="vocab-Native-Dialogue" lesson="C1L01" file="C1L01-Native-Dialogue.mp3" %}
 
+{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=4.98 stop=54.26 %}
 
 1. **I like a book. / I like books.** *(Eu gosto de um livro. / Eu gosto de livros.)*  
 2. **I like a horse. / I like horses.** *(Eu gosto de um cavalo. / Eu gosto de cavalos.)*
