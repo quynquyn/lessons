@@ -36,7 +36,7 @@ lang: en
 7. {% include play.html identifier="examples1" start=28.44 stop=30.13 %} __Who is a priest?__
 8. {% include play.html identifier="examples1" start=30.91 stop=34.95 %}__The man between me and my friend is a priest.__
 9. {% include play.html identifier="examples1" start=35.76 stop=37.61 %} __Who is your favorite singer?__
-10. {% include play.html identifier="examples1" start=38.97 stop=42.05 %}__Taylor swift is my favourite singer.__
+10. {% include play.html identifier="examples1" start=38.97 stop=42.05 %}__Taylor Swift is my favorite singer.__
 11. {% include play.html identifier="examples1" start=43.15 stop=45.49 %} __Who is your favorite actress?__
 12. {% include play.html identifier="examples1" start=46.77 stop=49.95 %}__My Tam is my favorite actress.__
 13. {% include play.html identifier="examples1" start=51.11 stop=53.34 %} __Who is the richest man in the world?__
@@ -45,12 +45,12 @@ lang: en
 16. {% include play.html identifier="examples1" start=63.95 stop=67.99 %}__My son is the smartest student in the class.__
 17. {% include play.html identifier="examples1" start=69.67 stop=73.27 %} __Who is the most important person in the company?__
 18. {% include play.html identifier="examples1" start=74.47 stop=78.78 %}__Ms. Smith is the most important person in the company.__
-19. {% include play.html identifier="examples1" start=80.00 stop=83.26 %} __Who is the most talented actor in the world?__
-20. {% include play.html identifier="examples1" start=84.51 stop=88.79 %}__Brad Pitt is the most talented actor in the world.__
+19. {% include play.html identifier="examples1" start=80.00 stop=83.26 %} __Who is the most famous actor in the world?__
+20. {% include play.html identifier="examples1" start=84.51 stop=88.79 %}__Brad Pitt is the most famous actor in the world.__
 21. {% include play.html identifier="examples1" start=90.78 stop=93.09 %} __Who is under the table?__
 22. {% include play.html identifier="examples1" start=94.43 stop=97.21 %}__The thief is under the table.__
-23. {% include play.html identifier="examples1" start=98.48 stop=101.19 %} __Who is next to Mr.Jones?__
-24. {% include play.html identifier="examples1" start=102.47 stop=104.97 %}__Mrs.Jones is next to him.__
+23. {% include play.html identifier="examples1" start=98.48 stop=101.19 %} __Who is next to Mr. Jones?__
+24. {% include play.html identifier="examples1" start=102.47 stop=104.97 %}__Mrs. Jones is next to him.__
 
 
 ## Example 

@@ -58,7 +58,7 @@ lang: en
 
 {% include player2.html identifier="when" class=page.class lesson=page.lesson %}
 ## When 
-1.  __When is Valentine’s day?__ 
+1.  __When is Valentine’s Day?__ 
 2.  __When is Halloween?__ 
 3.  __When is your birthday?__ 
 4.  __When is your best friend’s birthday?__ 

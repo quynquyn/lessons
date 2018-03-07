@@ -23,7 +23,7 @@ lang: en
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### In the Bathroom 
+### In the bathroom 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
@@ -41,7 +41,7 @@ lang: en
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 		
-### Living room 
+### In the living-room 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 

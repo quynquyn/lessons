@@ -22,51 +22,51 @@ lang: vn
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 		
-**WHY DO YOU WANT TO STUDY ENGLISH?**
+**Why do you want to study English?**
 
--  **Communicate with foreigners**
--  **Find a good job** 
--  **Travel around the world**   
+-  **communicate with foreigners**
+-  **find a good job** 
+-  **travel around the world**   
 
-**WHY DO YOU LOVE TO TRAVEL?**
+**Why do you love to travel?**
 
--  **Widen their knowledge** 
--  **Meet new people and learn new things**
--  **Get out of my comfort zone**
+-  **widen their knowledge** 
+-  **meet new people and learn new things**
+-  **get out of my comfort zone**
    
-**WHY DO YOU FEEL STRESSED?**
+**Why do you feel stressed?**
 
--  **Work under pressure** 
--  **Talk in front of a lot of people** 
--  **Get stuck in the traffic jam**    
+-  **work under pressure** 
+-  **talk in front of a lot of people** 
+-  **get stuck in the traffic jam**    
 
-**WHY DO PEOPLE WANT TO LIVE IN THE CITY?**
+**Why do people want to live in the city?**
 
-- **Good employment opportunities** 
-- **Lively night life** 
-- **Entertainment facilities** 
+- **good employment opportunities** 
+- **lively night life** 
+- **entertainment facilities** 
 
-**WHY DO PEOPLE WANT TO LIVE IN THE COUTRYSIDE?**
+**Why do people want to live in the countryside?**
 
-- **Fresh air**
-- **Cheap living expenses**
-- **Friendly neighbors** 
+- **fresh air**
+- **cheap living expenses**
+- **friendly neighbors** 
 
-**WHY DID YOU BREAK UP WITH HIM?**
+**Why did you break up with him?**
 
--  **Our personalities doesn’t really match each other** 
--  **He cheated on me** 
--  **We were not meant to be**    
+-  **Our personalities doesn’t really match each other.** 
+-  **He cheated on me.** 
+-  **We were not meant to be.**    
 
-**WHY DO YOU FEEL SAD?**
--  **I got fired**
--  **I failed the test** 
--  **I look sad but I am really not**    
+**Why do you feel sad?**
+-  **I got fired.**
+-  **I failed the test.** 
+-  **I look sad but I am really not.**    
 
-**WHY ARE YOU IN THE HOSPITAL?**
+**Why are you in the hospital?**
 
--  **One of my relatives got sick** 
--  **My boyfriend is a doctor** 
+-  **One of my relatives got sick.** 
+-  **My boyfriend is a doctor.** 
 
 
 

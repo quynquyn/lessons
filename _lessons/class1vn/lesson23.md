@@ -16,7 +16,7 @@ lang: vn
 **HOW DO YOU GET THERE?**  
 
 		
-**I GET THERE** 
+**I get there** 
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -26,7 +26,7 @@ lang: vn
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %} 
 
-**MAKE YOUR MOTHER SMILE BY**  
+**Make your mother smile by**  
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -38,7 +38,7 @@ lang: vn
 
 
 
-**STUDY ENGLISH BY**
+**Study English by**
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -48,7 +48,7 @@ lang: vn
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %} 
    
-**HELP YOUR FRIEND BY**
+**Help your friend by**
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -58,7 +58,7 @@ lang: vn
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %} 
 
-**RELEASE STRESS BY**
+**Release stress by**
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -68,7 +68,7 @@ lang: vn
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %} 
   
-**APPLY FOR A JOB BY**  
+**Apply for a job by**  
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -79,7 +79,7 @@ lang: vn
 		trial=site.trialdeploy %} 
    
 
-**MOVE ON FROM A BAD BREAKUP BY**
+**Move on from a bad break-up by**
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -89,7 +89,7 @@ lang: vn
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %} 
 
-**LOSE WEIGHT BY**
+**Lose weight by**
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -110,7 +110,7 @@ lang: vn
 6. {% include play.html identifier="examples" start=19.33 stop=20.92 %}**How do you help her?**
 7. {% include play.html identifier="examples" start=22.34 stop=24.27 %}**How to release stress?**
 8. {% include play.html identifier="examples" start=25.47 stop=27.45 %}**How to apply for a job?**
-9. {% include play.html identifier="examples" start=28.87 stop=31.32 %}**How to move on from bad break up?**
+9. {% include play.html identifier="examples" start=28.87 stop=31.32 %}**How to move on from bad break-up?**
 10. {% include play.html identifier="examples" start=32.45 stop=34.40 %}**How to lose weight?**
 
  

@@ -58,7 +58,7 @@ lang: vn
 
 {% include player2.html identifier="when" class=page.class lesson=page.lesson %}
 ## When 
-1.  **When is Valentine’s day?** *Valentine là khi nào?*
+1.  **When is Valentine’s Day?** *Valentine là khi nào?*
 2.  **When is Halloween?** *Halloween là khi nào?*
 3.  **When is your birthday?** *Sinh nhật bạn là khi nào?*
 4.  **When is your best friend’s birthday?** *Sinh nhật bạn thân của bạn là khi nào?*

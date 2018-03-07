@@ -6,7 +6,7 @@ lang: vn
 ---
 
 
-# Lesson 1.21: Which / whose 
+# Lesson 1.21: Which / Whose 
 
 
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
@@ -33,8 +33,8 @@ lang: vn
 5. {% include play.html identifier="explanation" start=19.78 stop=21.29 %}**Which girl do you like?**
 6. {% include play.html identifier="explanation" start=22.58 stop=25.01 %}**Which toothpaste is the most expensive?** 
 7. {% include play.html identifier="explanation" start=26.17 stop=29.95 %}**Which animal in the picture is on top of the tree?**
-8. {% include play.html identifier="explanation" start=31.00 stop=33.88 %}**Which University did you graduate from?**
-9. {% include play.html identifier="explanation" start=34.75 stop=38.60 %}**which blood type is the rarest in the world?**
+8. {% include play.html identifier="explanation" start=31.00 stop=33.88 %}**Which university did you graduate from?**
+9. {% include play.html identifier="explanation" start=34.75 stop=38.60 %}**Which blood type is the rarest in the world?**
 10. {% include play.html identifier="explanation" start=40.05 stop=42.84 %}**Which country do you want to visit someday?**
 11. {% include play.html identifier="explanation" start=44.03 stop=47.17 %}**Which do you prefer, bread or rice?**
 12. {% include play.html identifier="explanation" start=48.12 stop=51.59 %}**Which do you like more, TV or movies?**
@@ -55,7 +55,7 @@ lang: vn
 3. {% include play.html identifier="explanation" start=107.64 stop=109.78 %}**Whose money is this?**
 4. {% include play.html identifier="explanation" start=109.78 stop=112.05 %}**Whose pencils are on the table?**
 5. {% include play.html identifier="explanation" start=112.05 stop=114.51 %}**Whose birthday is on Christmas?**
-6. {% include play.html identifier="explanation" start=114.51 stop=117.22 %}**Whose Email address is it?**
+6. {% include play.html identifier="explanation" start=114.51 stop=117.22 %}**Whose e-mail address is it?**
 7. {% include play.html identifier="explanation" start=117.22 stop=119.72 %}**Whose birthday is it today?**
 8. {% include play.html identifier="explanation" start=119.72 stop=122.02 %}**Whose little brother is he?**
 9. {% include play.html identifier="explanation" start=122.02 stop=125.39 %}**Whose room did you sleep in yesterday?**
