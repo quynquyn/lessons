@@ -80,37 +80,37 @@ For fixed planned events in the future. Often used with a word for future events
 {% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
 
 ### Example of Yes / No questions with Simple Future Tense and Present Continuous
-1. {% include play.html identifier="examples1" start=5.66 stop=8.11 %} **Are you going to feed the dog?** *Bạn sẽ cho chó ăn phải không?*
-2. {% include play.html identifier="examples1" start=8.56 stop=11.11 %} **Will you marry me?** *Em làm vợ anh nhá?*
-3. {% include play.html identifier="examples1" start=11.56 stop=14.41 %} **Is she going to eat that entire pizza?** *Cô ấy sẽ ăn cả cái bánh pizza đó à?*
-4. {% include play.html identifier="examples1" start=14.56 stop=17.11 %} **Will he lend money to his sister?** *Anh ta sẽ cho em gái mượn tiện không?*
-5. {% include play.html identifier="examples1" start=17.56 stop=21.11 %} **Are you really wearing that ugly dress to the prom?** *Bạn thật sự sẽ mặc cái đầm xấu xí đó tới buổi prom à?*
-6. {% include play.html identifier="examples1" start=21.56 stop=24.71 %} **Will there be a DJ at the party?** *Sẽ có một DJ tại buổi tiệc không?* 
-7. {% include play.html identifier="examples1" start=24.56 stop=28.11 %} **Are you surfing on Facebook now?** *Bạn đang lướt facebook hả?*
-8. {% include play.html identifier="examples1" start=28.56 stop=31.11 %} **Is Alexander buying the food?** *Alexander đang mua thức ăn à?*
-9. {% include play.html identifier="examples1" start=31.56 stop=34.11 %} **Are those people looking at us?** *Có phải những người kia đang nhìn chúng ta?*
-10. {% include play.html identifier="examples1" start=34.56 stop=38.11 %} **Are we going to eat pizza for dinner?** *Chúng ta sẽ ăn pizza cho buổi tối chứ?*
-11. {% include play.html identifier="examples1" start=38.56 stop=42.11 %} **Will there be a third guest at our dinner party tonight?** *Có phải sẽ có một vị khách thứ ba tại buổi tiệc tối hôm nay?*
-12. {% include play.html identifier="examples1" start=42.56 stop=46.11 %} **Are we going out or not?** *Chúng ta có ra ngoài hay không?*
-13. {% include play.html identifier="examples1" start=46.56 stop=49.11 %} **Is she going to drive us to school tomorrow?** *Ngày mai cô ấy có chở chúng ta đến trường không?*
-14. {% include play.html identifier="examples1" start=49.56 stop=52.61 %} **Will you kindly pass me the spoon?** *Bạn làm ơn đưa cho tôi cái thìa*
-15. {% include play.html identifier="examples1" start=52.56 stop=57.11 %} **Are we going to organize a party together or not?** *Chúng ta sẽ tổ chức bữa tiệc hay không?*
-16. {% include play.html identifier="examples1" start=57.56 stop=60.11 %} **Is your sister flirting with me?** *Có phải em gái bạn đang tán tỉnh tôi không?*
-17. {% include play.html identifier="examples1" start=60.56 stop=63.11 %} **Will you listen to my story?** *Bạn có nghe câu chuyện của tôi không?*
-18. {% include play.html identifier="examples1" start=63.56 stop=69.11 %} **Is my sister a good singer or am I just tone-deaf?** *Chị gái tôi có phải hát rất hay không hay do tôi bị điếc tông nhạc?*
-19.  **Are you listening to what I am saying?** *Bạn có đang nghe điều tô đang nói không?*
-20. **Will the US be your home for the next three years?** *Có phải nước Mỹ sẽ là nhà của bạn trong vòng ba năm tới?*
+1. {% include play.html identifier="examples2" start=5.66 stop=8.11 %} **Are you going to feed the dog?** *Bạn sẽ cho chó ăn phải không?*
+2. {% include play.html identifier="examples2" start=8.56 stop=11.11 %} **Will you marry me?** *Em làm vợ anh nhá?*
+3. {% include play.html identifier="examples2" start=11.56 stop=14.41 %} **Is she going to eat that entire pizza?** *Cô ấy sẽ ăn cả cái bánh pizza đó à?*
+4. {% include play.html identifier="examples2" start=14.56 stop=17.11 %} **Will he lend money to his sister?** *Anh ta sẽ cho em gái mượn tiện không?*
+5. {% include play.html identifier="examples2" start=17.56 stop=21.11 %} **Are you really wearing that ugly dress to the prom?** *Bạn thật sự sẽ mặc cái đầm xấu xí đó tới buổi prom à?*
+6. {% include play.html identifier="examples2" start=21.56 stop=24.71 %} **Will there be a DJ at the party?** *Sẽ có một DJ tại buổi tiệc không?* 
+7. {% include play.html identifier="examples2" start=24.56 stop=28.11 %} **Are you surfing on Facebook now?** *Bạn đang lướt facebook hả?*
+8. {% include play.html identifier="examples2" start=28.56 stop=31.11 %} **Is Alexander buying the food?** *Alexander đang mua thức ăn à?*
+9. {% include play.html identifier="examples2" start=31.56 stop=34.11 %} **Are those people looking at us?** *Có phải những người kia đang nhìn chúng ta?*
+10. {% include play.html identifier="examples2" start=34.56 stop=38.11 %} **Are we going to eat pizza for dinner?** *Chúng ta sẽ ăn pizza cho buổi tối chứ?*
+11. {% include play.html identifier="examples2" start=38.56 stop=42.11 %} **Will there be a third guest at our dinner party tonight?** *Có phải sẽ có một vị khách thứ ba tại buổi tiệc tối hôm nay?*
+12. {% include play.html identifier="examples2" start=42.56 stop=46.11 %} **Are we going out or not?** *Chúng ta có ra ngoài hay không?*
+13. {% include play.html identifier="examples2" start=46.56 stop=49.11 %} **Is she going to drive us to school tomorrow?** *Ngày mai cô ấy có chở chúng ta đến trường không?*
+14. {% include play.html identifier="examples2" start=49.56 stop=52.61 %} **Will you kindly pass me the spoon?** *Bạn làm ơn đưa cho tôi cái thìa*
+15. {% include play.html identifier="examples2" start=52.56 stop=57.11 %} **Are we going to organize a party together or not?** *Chúng ta sẽ tổ chức bữa tiệc hay không?*
+16. {% include play.html identifier="examples2" start=57.56 stop=60.11 %} **Is your sister flirting with me?** *Có phải em gái bạn đang tán tỉnh tôi không?*
+17. {% include play.html identifier="examples2" start=60.56 stop=63.11 %} **Will you listen to my story?** *Bạn có nghe câu chuyện của tôi không?*
+18. {% include play.html identifier="examples2" start=63.56 stop=69.11 %} **Is my sister a good singer or am I just tone-deaf?** *Chị gái tôi có phải hát rất hay không hay do tôi bị điếc tông nhạc?*
+19. {% include play.html identifier="examples2" start=69.11 stop=73.11 %} **Are you listening to what I am saying?** *Bạn có đang nghe điều tô đang nói không?*
+20. {% include play.html identifier="examples2" start=73.11 stop=78.11 %} **Will the US be your home for the next three years?** *Có phải nước Mỹ sẽ là nhà của bạn trong vòng ba năm tới?*
 
 <!--AKS: I couldn't find the location of the audiofile for the text below, and it doesn't play on the site. Also, the audio above is missing the last 2 lines in it. -->
 {% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
 ### Conversation
-> Person 1: **Will you be a guest at our wedding next month?**  *Bạn sẽ là khách mời tại tiệc cưới của chúng tôi tháng tới nhé*      
-> Person 2: **Yes, I will. I wouldn't miss my best friend's wedding.**  *Vâng, chắc chắn. Tôi sẽ không nhỡ đám cưới của bạn thân đâu*    
-> P1: **I'm glad to hear that. Are you going to bring anyone?**  *Tôi rất vui khi nghe vậy. Bạn có mang ai theo không*     
-> P2: **Yes I am. I'm thinking about bringing my girlfriend Gina, but I'm not too sure.**   *Có. Tôi đang suy nghĩ về việc mang bạn gái theo, Gina, nhưng tôi không chắc lắm*     
-> P1: **Why not? Does she dislike weddings?**  *Sao vậy? Cô ấy không thích đám cưới à?*     
-> P2: **She loves weddings, but I think she might be working on that weekend.**  *Cô ấy thích đám cưới, nhưng tôi nghĩ cô ấy sẽ đang làm việc trong tuần đó*     
-> P1: **I see. Are you thinking about bringing someone else?**  *Tôi hiểu. Bạn có đang nghĩ về việc mang ai đó theo không?*    
-> P2: **If Gina isn't free, I will probably come with my parents.**  *Nếu Gina không rảnh, tôi có lẽ sẽ đến cùng với bố mẹ tôi*    
-> P1: **That's a good plan. Let me know how it goes.**  *Kế hoạch hay đấy. Hãy cho tối biết tình hình thế nào*   
-> P2: **I will!**  *Uhm*   
+> {% include play.html identifier="conversation" start=04.56 stop=07.41 %} Person 1: **Will you be a guest at our wedding next month?**  *Bạn sẽ là khách mời tại tiệc cưới của chúng tôi tháng tới nhé*      
+> {% include play.html identifier="conversation" start=07.56 stop=11.91 %} Person 2: **Yes, I will. I wouldn't miss my best friend's wedding.**  *Vâng, chắc chắn. Tôi sẽ không nhỡ đám cưới của bạn thân đâu*    
+> {% include play.html identifier="conversation" start=11.56 stop=16.71 %} P1: **I'm glad to hear that. Are you going to bring anyone?**  *Tôi rất vui khi nghe vậy. Bạn có mang ai theo không*     
+> {% include play.html identifier="conversation" start=16.56 stop=23.11 %} P2: **Yes I am. I'm thinking about bringing my girlfriend Gina, but I'm not too sure.**   *Có. Tôi đang suy nghĩ về việc mang bạn gái theo, Gina, nhưng tôi không chắc lắm*     
+> {% include play.html identifier="conversation" start=23.56 stop=27.11 %} P1: **Why not? Does she dislike weddings?**  *Sao vậy? Cô ấy không thích đám cưới à?*     
+> {% include play.html identifier="conversation" start=27.56 stop=33.11 %} P2: **She loves weddings, but I think she might be working on that weekend.**  *Cô ấy thích đám cưới, nhưng tôi nghĩ cô ấy sẽ đang làm việc trong tuần đó*     
+> {% include play.html identifier="conversation" start=33.56 stop=38.11 %} P1: **I see. Are you thinking about bringing someone else?**  *Tôi hiểu. Bạn có đang nghĩ về việc mang ai đó theo không?*    
+> {% include play.html identifier="conversation" start=38.56 stop=42.11 %} P2: **If Gina isn't free, I will probably come with my parents.**  *Nếu Gina không rảnh, tôi có lẽ sẽ đến cùng với bố mẹ tôi*    
+> {% include play.html identifier="conversation" start=42.56 stop=46.11 %} P1: **That's a good plan. Let me know how it goes.**  *Kế hoạch hay đấy. Hãy cho tối biết tình hình thế nào*   
+> {% include play.html identifier="conversation" start=46.56 stop=48.11 %} P2: **I will!**  *Uhm*   
