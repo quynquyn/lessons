@@ -23,48 +23,49 @@ lang: vn
 		trial=site.trialdeploy %}
 		
 **Why do you want to study English?**
-
+{% include play.html identifier="examples1" start=68.1 stop=79.19 %}
 -  **communicate with foreigners**
 -  **find a good job** 
 -  **travel around the world**   
 
 **Why do you love to travel?**
-
+{% include play.html identifier="examples1" start=79.1 stop=90.19 %}
 -  **widen their knowledge** 
 -  **meet new people and learn new things**
 -  **get out of my comfort zone**
    
 **Why do you feel stressed?**
-
+{% include play.html identifier="examples1" start=90.1 stop=101.19 %}
 -  **work under pressure** 
 -  **talk in front of a lot of people** 
 -  **get stuck in the traffic jam**    
 
 **Why do people want to live in the city?**
-
+{% include play.html identifier="examples1" start=101.1 stop=112.19 %}
 - **good employment opportunities** 
 - **lively night life** 
 - **entertainment facilities** 
 
 **Why do people want to live in the countryside?**
-
+{% include play.html identifier="examples1" start=112.1 stop=122.19 %}
 - **fresh air**
 - **cheap living expenses**
 - **friendly neighbors** 
 
 **Why did you break up with him?**
-
+{% include play.html identifier="examples1" start=122.1 stop=134.19 %}
 -  **Our personalities doesn’t really match each other.** 
 -  **He cheated on me.** 
 -  **We were not meant to be.**    
 
 **Why do you feel sad?**
+{% include play.html identifier="examples1" start=134.1 stop=145.19 %}
 -  **I got fired.**
 -  **I failed the test.** 
 -  **I look sad but I am really not.**    
 
 **Why are you in the hospital?**
-
+{% include play.html identifier="examples1" start=145.1 stop=155.59 %}
 -  **One of my relatives got sick.** 
 -  **My boyfriend is a doctor.** 
 

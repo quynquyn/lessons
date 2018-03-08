@@ -358,54 +358,54 @@ class,lesson,section,word_en,word_vn,word_pt,image_name,image_url,ts_start,ts_st
 1,17,all,solve,giải quyết,resolver,c1l17-solve.jpg,images/class1/c1l17-solve.jpg,29.38,43.55
 1,17,all,stay in touch,giữ liên lạc,manter contato,c1l17-stay-in-touch.jpg,images/class1/c1l17-stay-in-touch.jpg,43.55,41.18
 1,17,all,take part in,tham gia,participar,c1l17-take-part-in.jpg,images/class1/c1l17-take-part-in.jpg,41.18,18.7
-1,19,bedroom,alarm clock,đồng hồ,despertador,c1l19-alarm-clock.jpg,images/class1/c1l19-alarm-clock.jpg,18.7,73.41
-1,19,livingroom,armchair,ghế bành,poltrona,c1l19-armchair.jpg,images/class1/c1l19-armchair.jpg,73.41,29.96
-1,19,bathroom,bathtub,bồn tắm,banheira,c1l19-bathtub.jpg,images/class1/c1l19-bathtub.jpg,29.96,9.68
-1,19,bedroom,bed,giường,cama,c1l19-bed.jpg,images/class1/c1l19-bed.jpg,9.68,17.43
-1,19,bedroom,blanket,chăn,cobertor,c1l19-blanket.jpg,images/class1/c1l19-blanket.jpg,17.43,58.85
-1,19,kitchen,blender,máy xay/ máy trộn,liquidificador,c1l19-blender.jpg,images/class1/c1l19-blender.jpg,58.85,78.33
-1,19,livingroom,book,sách,livro,c1l19-book.jpg,images/class1/c1l19-book.jpg,78.33,71.97
-1,19,livingroom,chair,ghế,cadeira,c1l19-chair.jpg,images/class1/c1l19-chair.jpg,71.97,87.12
-1,19,livingroom,coffee table,bàn uống cà phê,mesa de centro,c1l19-coffee-table.jpg,images/class1/c1l19-coffee-table.jpg,87.12,53
-1,19,kitchen,cooker,nồi cơm điện,fogareiro,c1l19-cooker.jpg,images/class1/c1l19-cooker.jpg,53,79.91
-1,19,livingroom,couch,ghế trường kỉ,sofá,c1l19-couch.jpg,images/class1/c1l19-couch.jpg,79.91,54.39
-1,19,kitchen,cupboard,,armário,c1l19-cupboard.jpg,images/class1/c1l19-cupboard.jpg,54.39,25.43
-1,19,bathroom,curtain,"màn, vải che",cortina,c1l19-curtain.jpg,images/class1/c1l19-curtain.jpg,25.43,83.34
-1,19,livingroom,cushion,nệm,almofada,c1l19-cushion.jpg,images/class1/c1l19-cushion.jpg,83.34,55.6
-1,19,kitchen,cutting board,,tábua de cortar,c1l19-cutting-board.jpg,images/class1/c1l19-cutting-board.jpg,55.6,61.97
-1,19,kitchen,dishwasher,máy rửa chén,lava-louças,c1l19-dishwasher.jpg,images/class1/c1l19-dishwasher.jpg,61.97,20.35
-1,19,bedroom,dresser,tủ nhiều ngăn,cômoda,c1l19-dresser.jpg,images/class1/c1l19-dresser.jpg,20.35,28.6
-1,19,bathroom,faucet,vòi nước,torneira,c1l19-faucet.jpg,images/class1/c1l19-faucet.jpg,28.6,85.01
-1,19,livingroom,fireplace,lò sưởi,lareira,c1l19-fireplace.jpg,images/class1/c1l19-fireplace.jpg,85.01,11.97
-1,19,bedroom,flower vase,bình hoa,vaso de flores,c1l19-flower-vase.jpg,images/class1/c1l19-flower-vase.jpg,11.97,63.62
+1,19,bedroom,alarm clock,đồng hồ,despertador,c1l19-alarm-clock.jpg,images/class1/c1l19-alarm-clock.jpg,18.7,20.11
+1,19,livingroom,armchair,ghế bành,poltrona,c1l19-armchair.jpg,images/class1/c1l19-armchair.jpg,73.41,75.3
+1,19,bathroom,bathtub,bồn tắm,banheira,c1l19-bathtub.jpg,images/class1/c1l19-bathtub.jpg,29.96,31.22
+1,19,bedroom,bed,giường,cama,c1l19-bed.jpg,images/class1/c1l19-bed.jpg,9.68,10.11
+1,19,bedroom,blanket,chăn,cobertor,c1l19-blanket.jpg,images/class1/c1l19-blanket.jpg,17.43,18.8
+1,19,kitchen,blender,máy xay/ máy trộn,liquidificador,c1l19-blender.jpg,images/class1/c1l19-blender.jpg,58.85,60.5
+1,19,livingroom,book,sách,livro,c1l19-book.jpg,images/class1/c1l19-book.jpg,78.33,80.7
+1,19,livingroom,chair,ghế,cadeira,c1l19-chair.jpg,images/class1/c1l19-chair.jpg,71.97,73.6
+1,19,livingroom,coffee table,bàn uống cà phê,mesa de centro,c1l19-coffee-table.jpg,images/class1/c1l19-coffee-table.jpg,87.12,88.6
+1,19,kitchen,cooker,nồi cơm điện,fogareiro,c1l19-cooker.jpg,images/class1/c1l19-cooker.jpg,53,54.1
+1,19,livingroom,couch,ghế trường kỉ,sofá,c1l19-couch.jpg,images/class1/c1l19-couch.jpg,79.91,71.6
+1,19,kitchen,cupboard,,armário,c1l19-cupboard.jpg,images/class1/c1l19-cupboard.jpg,54.39,55.6
+1,19,bathroom,curtain,"màn, vải che",cortina,c1l19-curtain.jpg,images/class1/c1l19-curtain.jpg,25.43,27.22
+1,19,livingroom,cushion,nệm,almofada,c1l19-cushion.jpg,images/class1/c1l19-cushion.jpg,83.34,84.9
+1,19,kitchen,cutting board,,tábua de cortar,c1l19-cutting-board.jpg,images/class1/c1l19-cutting-board.jpg,55.6,57.7
+1,19,kitchen,dishwasher,máy rửa chén,lava-louças,c1l19-dishwasher.jpg,images/class1/c1l19-dishwasher.jpg,61.97,63.8
+1,19,bedroom,dresser,tủ nhiều ngăn,cômoda,c1l19-dresser.jpg,images/class1/c1l19-dresser.jpg,20.35,21.11
+1,19,bathroom,faucet,vòi nước,torneira,c1l19-faucet.jpg,images/class1/c1l19-faucet.jpg,28.6,30.11
+1,19,livingroom,fireplace,lò sưởi,lareira,c1l19-fireplace.jpg,images/class1/c1l19-fireplace.jpg,85.01,87.2
+1,19,bedroom,flower vase,bình hoa,vaso de flores,c1l19-flower-vase.jpg,images/class1/c1l19-flower-vase.jpg,11.97,13.11
 1,19,kitchen,freezer,tủ đông,congelador,c1l19-freezer.jpg,images/class1/c1l19-freezer.jpg,63.62,65.03
-1,19,kitchen,fridge,tủ lạnh,geladeira,c1l19-fridge.jpg,images/class1/c1l19-fridge.jpg,65.03,57.49
-1,19,kitchen,knife,dao,faca,c1l19-knife.jpg,images/class1/c1l19-knife.jpg,57.49,14.62
+1,19,kitchen,fridge,tủ lạnh,geladeira,c1l19-fridge.jpg,images/class1/c1l19-fridge.jpg,65.03,66.7
+1,19,kitchen,knife,dao,faca,c1l19-knife.jpg,images/class1/c1l19-knife.jpg,57.49,59.3
 1,19,bedroom,lamp,đèn bàn,lâmpada,c1l19-lamp.jpg,images/class1/c1l19-lamp.jpg,14.62,66.8
-1,19,kitchen,microwave,lò vi sóng,microondas,c1l19-microwave.jpg,images/class1/c1l19-microwave.jpg,66.8,34.74
-1,19,bathroom,mirror,gương,espelho,c1l19-mirror.jpg,images/class1/c1l19-mirror.jpg,34.74,68.41
+1,19,kitchen,microwave,lò vi sóng,microondas,c1l19-microwave.jpg,images/class1/c1l19-microwave.jpg,66.8,68.4
+1,19,bathroom,mirror,gương,espelho,c1l19-mirror.jpg,images/class1/c1l19-mirror.jpg,34.74,36.2
 1,19,kitchen,oven,lò nướng,forno,c1l19-oven.jpg,images/class1/c1l19-oven.jpg,68.41,70.02
-1,19,kitchen,pan,chảo,sertã,c1l19-pan.jpg,images/class1/c1l19-pan.jpg,50.27,10.43
-1,19,bedroom,picture,bức tranh,retrato,c1l19-picture.jpg,images/class1/c1l19-picture.jpg,10.43,15.87
-1,19,bedroom,pillow,gối,travesseiro,c1l19-pillow.jpg,images/class1/c1l19-pillow.jpg,15.87,52.04
-1,19,kitchen,pot,nồi/ ấm/bình,panela,c1l19-pot.jpg,images/class1/c1l19-pot.jpg,52.04,75.27
-1,19,livingroom,rocking chair,ghế bập bênh,cadeira de balanço,c1l19-rocking-chair.jpg,images/class1/c1l19-rocking-chair.jpg,75.27,88.77
+1,19,kitchen,pan,chảo,sertã,c1l19-pan.jpg,images/class1/c1l19-pan.jpg,50.27,51.6
+1,19,bedroom,picture,bức tranh,retrato,c1l19-picture.jpg,images/class1/c1l19-picture.jpg,10.43,16.11
+1,19,bedroom,pillow,gối,travesseiro,c1l19-pillow.jpg,images/class1/c1l19-pillow.jpg,16.11,17.11
+1,19,kitchen,pot,nồi/ ấm/bình,panela,c1l19-pot.jpg,images/class1/c1l19-pot.jpg,52.04,53.1
+1,19,livingroom,rocking chair,ghế bập bênh,cadeira de balanço,c1l19-rocking-chair.jpg,images/class1/c1l19-rocking-chair.jpg,75.27,77.1
 1,19,livingroom,rug,thảm,tapete,c1l19-rug.jpg,images/class1/c1l19-rug.jpg,88.77,90.39
-1,19,bathroom,shampoo,dầu gội đầu,xampu,c1l19-shampoo.jpg,images/class1/c1l19-shampoo.jpg,41.4,13.1
-1,19,bedroom,shelf,kệ,estante,c1l19-shelf.jpg,images/class1/c1l19-shelf.jpg,13.1,31.7
-1,19,bathroom,sink,chậu rửa tay,pia,c1l19-sink.jpg,images/class1/c1l19-sink.jpg,31.7,60.44
-1,19,kitchen,sink,bồn rửa/ chậu nước,pia,c1l19-sink.jpg,images/class1/c1l19-sink.jpg,60.44,43.12
-1,19,bathroom,soap,xà phòng,sabonete,c1l19-soap.jpg,images/class1/c1l19-soap.jpg,43.12,81.55
-1,19,livingroom,sofa,ghế xôpha,sofá,c1l19-sofa.jpg,images/class1/c1l19-sofa.jpg,81.55,77.06
-1,19,livingroom,stool,ghế đẩu,tamborete,c1l19-stool.jpg,images/class1/c1l19-stool.jpg,77.06,21.62
+1,19,bathroom,shampoo,dầu gội đầu,xampu,c1l19-shampoo.jpg,images/class1/c1l19-shampoo.jpg,41.4,43.1
+1,19,bedroom,shelf,kệ,estante,c1l19-shelf.jpg,images/class1/c1l19-shelf.jpg,13.1,14.54
+1,19,bathroom,sink,chậu rửa tay,pia,c1l19-sink.jpg,images/class1/c1l19-sink.jpg,31.7,33.1
+1,19,kitchen,sink,bồn rửa/ chậu nước,pia,c1l19-sink.jpg,images/class1/c1l19-sink.jpg,60.44,62.8
+1,19,bathroom,soap,xà phòng,sabonete,c1l19-soap.jpg,images/class1/c1l19-soap.jpg,43.12,44.3
+1,19,livingroom,sofa,ghế xôpha,sofá,c1l19-sofa.jpg,images/class1/c1l19-sofa.jpg,81.55,83.5
+1,19,livingroom,stool,ghế đẩu,tamborete,c1l19-stool.jpg,images/class1/c1l19-stool.jpg,77.06,78.7
 1,19,bedroom,teddy bear,gấu bông,urso Teddy,c1l19-teddy-bear.jpg,images/class1/c1l19-teddy-bear.jpg,21.62,23.16
 1,19,bathroom,toilet,nhà vệ sinh,toalete,c1l19-toilet.jpg,images/class1/c1l19-toilet.jpg,37.68,39.66
-1,19,bathroom,toilet paper,giấy vệ sinh,papel higiênico,c1l19-toilet-paper.jpg,images/class1/c1l19-toilet-paper.jpg,39.66,44.64
+1,19,bathroom,toilet paper,giấy vệ sinh,papel higiênico,c1l19-toilet-paper.jpg,images/class1/c1l19-toilet-paper.jpg,39.66,41.4
 1,19,bathroom,toothbrush,bàn chải đánh răng,escova de dentes,c1l19-toothbrush.jpg,images/class1/c1l19-toothbrush.jpg,44.64,46.43
 1,19,bathroom,toothpaste,kem đánh răng,pasta de dentes,c1l19-toothpaste.jpg,images/class1/c1l19-toothpaste.jpg,46.43,48.05
 1,19,bathroom,towel,khăn,toalha,c1l19-towel.jpg,images/class1/c1l19-towel.jpg,33.11,36.17
-1,19,bathroom,towel rack,giá để khăn,toalheiro,c1l19-towel-rack.jpg,images/class1/c1l19-towel-rack.jpg,36.17,27.47
-1,19,bathroom,window,cửa sổ,janela,c1l19-window.jpg,images/class1/c1l19-window.jpg,27.47,12.82
+1,19,bathroom,towel rack,giá để khăn,toalheiro,c1l19-towel-rack.jpg,images/class1/c1l19-towel-rack.jpg,36.17,37.9
+1,19,bathroom,window,cửa sổ,janela,c1l19-window.jpg,images/class1/c1l19-window.jpg,27.47,28.21
 1,20,makesmile,drinking alcohol,uống rượu,beber álcool,c1l20-drinking-alcohol.jpg,images/class1/c1l20-drinking-alcohol.jpg,12.82,10.59
 1,20,makesmile,playing sports,chơi thể thao,praticar esportes,c1l20-playing-sports.jpg,images/class1/c1l20-playing-sports.jpg,10.59,14.73
 1,20,makesmile,playing with pets,chơi với thú cưng,brincar com animais de estimação,c1l20-playing-with-pets.jpg,images/class1/c1l20-playing-with-pets.jpg,14.73,17.05

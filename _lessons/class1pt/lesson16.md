@@ -104,13 +104,13 @@ For fixed planned events in the future. Often used with a word for future events
 <!--AKS: I couldn't find the location of the audiofile for the text below, and it doesn't play on the site. Also, the audio above is missing the last 2 lines in it. -->
 {% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
 ### Conversation
-> Person 1: **Will you be a guest at our wedding next month?**  *Você vai attender como convidado o nosso casamento no próximo mês?*      
-> Person 2: **Yes, I will. I wouldn't miss my best friend's wedding.**  *Sim, eu vou. Eu não me perderia do casamento do meu melhor amigo.*    
-> P1: **I'm glad to hear that. Are you going to bring anyone?**  *Fico feliz em ouvir isso. Você vai trazer alguém?*     
-> P2: **Yes I am. I'm thinking about bringing my girlfriend Gina, but I'm not too sure.**   *Sim, vou. Estou pensando em trazer minha namorada Gina, mas não tenho muita certeza.*     
-> P1: **Why not? Does she dislike weddings?**  *Por que não? Ela não gosta de casamentos?*     
-> P2: **She loves weddings, but I think she might be working on that weekend.**  *Ela adora casamentos, mas acho que ela poderia ter que trabalhar nesse fim de semana.*     
-> P1: **I see. Are you thinking about bringing someone else?**  *Entendo. Você está pensando em trazer outra pessoa?*    
-> P2: **If Gina isn't free, I will probably come with my parents.**  *Se Gina não tiver livre, provavelmente irei com meus pais.*    
-> P1: **That's a good plan. Let me know how it goes.**  *Esse é um bom plano. Deixe-me saber como vai.*   
-> P2: **I will!**  *Eu vou!*   
+> {% include play.html identifier="examples1" start=4.16 stop=7.11 %} Person 1: **Will you be a guest at our wedding next month?**  *Você vai attender como convidado o nosso casamento no próximo mês?*      
+> {% include play.html identifier="examples1" start=7.16 stop=12.11 %} Person 2: **Yes, I will. I wouldn't miss my best friend's wedding.**  *Sim, eu vou. Eu não me perderia do casamento do meu melhor amigo.*    
+> {% include play.html identifier="examples1" start=12.16 stop=16.11 %} P1: **I'm glad to hear that. Are you going to bring anyone?**  *Fico feliz em ouvir isso. Você vai trazer alguém?*     
+> {% include play.html identifier="examples1" start=16.16 stop=23.11 %} P2: **Yes I am. I'm thinking about bringing my girlfriend Gina, but I'm not too sure.**   *Sim, vou. Estou pensando em trazer minha namorada Gina, mas não tenho muita certeza.*     
+> {% include play.html identifier="examples1" start=23.16 stop=27.11 %} P1: **Why not? Does she dislike weddings?**  *Por que não? Ela não gosta de casamentos?*     
+> {% include play.html identifier="examples1" start=27.16 stop=33.11 %} P2: **She loves weddings, but I think she might be working on that weekend.**  *Ela adora casamentos, mas acho que ela poderia ter que trabalhar nesse fim de semana.*     
+> {% include play.html identifier="examples1" start=33.16 stop=38.11 %} P1: **I see. Are you thinking about bringing someone else?**  *Entendo. Você está pensando em trazer outra pessoa?*    
+> {% include play.html identifier="examples1" start=38.16 stop=42.11 %} P2: **If Gina isn't free, I will probably come with my parents.**  *Se Gina não tiver livre, provavelmente irei com meus pais.*    
+> {% include play.html identifier="examples1" start=42.16 stop=46.11 %} P1: **That's a good plan. Let me know how it goes.**  *Esse é um bom plano. Deixe-me saber como vai.*   
+> {% include play.html identifier="examples1" start=46.16 stop=48.11 %} P2: **I will!**  *Eu vou!*   
