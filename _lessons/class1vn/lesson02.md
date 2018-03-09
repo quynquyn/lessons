@@ -7,13 +7,13 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 ---
 
 
-# Lesson 2: Verb
+# Lesson 2: Verb *Động từ*
 
-## Vocabulary
+## Vocabulary *Từ vựng*
 
 {% include player2.html identifier="Verbs" class=page.class lesson=page.lesson %}
 
-### Eyes
+### Eyes *Đôi mắt*
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
@@ -22,7 +22,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 		database=site.data.vocabulary 
 		trial=false %}
 
-### Leg
+### Leg *Chân*
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
@@ -32,7 +32,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 		trial=false %}
 
 
-### Mouth
+### Mouth *Miệng*
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
@@ -44,7 +44,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 
 
 
-### Hand
+### Hand *Bàn tay*
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
@@ -55,7 +55,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 
 
 
-## Dialogue
+## Dialogue *Hội thoại*
 
 {% include player2.html identifier="Native-Dialogue" class=page.class lesson=page.lesson %}
 
@@ -64,19 +64,19 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 - {% include play.html identifier="Native-Dialogue" start=4.55 stop=12.55 %}  **Do you chase a horse?**
 - **No, I don’t chase a horse. I chase a dog.**
 
-*Tôi đuổi theo một con chó?*
+*A1. - Tôi đuổi theo một con chó.*
 
 - *Có phải bạn đuổi theo một con ngựa không?*
-- *Không. Tôi không đuổi theo một con chó. Tôi đuổi theo một con chó*
+- *Không. Tôi không đuổi theo một con ngựa. Tôi đuổi theo một con chó.*
 
 ### A2. - I look at a teacher.
 
 - {% include play.html identifier="Native-Dialogue" start=12.55 stop=20.11 %} **Do you look for a teacher?**
 - **No, I don’t look for a teacher, I look at a teacher.**
 
-*Tôi nhìn một giáo viên*
+*A2. - Tôi nhìn một giáo viên.*
 
-- *Bạn kiếm một giáo viên hả?*
+- *Bạn tìm kiếm một giáo viên hả?*
 - *Không, tôi không tìm kiếm một giáo viên. Tôi nhìn một giáo viên*
 
  
@@ -85,9 +85,9 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 - {% include play.html identifier="Native-Dialogue" start=20.11 stop=28.11 %} **Do you like doors?**
 - **No, I don’t like doors. I like dolls.**
 
-*Tôi thích búp bê*
+*B1. - Tôi thích búp bê.*
 
-- *Có phải bạn thích những cái cửa hả?*
+- *Bạn có thích những cái cửa không?*
 - *Không, tôi không thích cửa. Tôi thích búp bê*
 
 ### B2. -  I kick a chair.
@@ -95,70 +95,70 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 - {% include play.html identifier="Native-Dialogue" start=28.11 stop=35.41 %} **Do you kiss a chair?**
 - **No, I don’t kiss a chair. I kick it.**
 
-*B2. Tôi đá một cá ghế*
+*B2. - Tôi đá một cái ghế.*
 
 - *Bạn hôn một cái ghế hả?*
-- *Không, tôi không hôn cá ghế. Tôi đá nó*
+- *Không, tôi không hôn cái ghế. Tôi đá nó.*
 
 ### C1. -  I interview doctors.
 
 - {% include play.html identifier="Native-Dialogue" start=35.41 stop=44.11 %}  **Do you interview teachers?**
 - **No. I don’t interview teachers. I interview doctors.**
 
-*Tôi phỏng vấn bác sĩ*
+*C1. - Tôi phỏng vấn bác sĩ.*
 
 - *Bạn phỏng vấn giáo viên hả?*
-- *Không, tôi không phỏng vấn giáo viên. Tôi phỏng vấn bác sĩ*
+- *Không, tôi không phỏng vấn giáo viên. Tôi phỏng vấn bác sĩ.*
 
 ### C2. - I talk to students.
 
 - {% include play.html identifier="Native-Dialogue" start=44.11 stop=52.91 %} **Do you talk about students?**
 - **No, I don’t talk about students? I talk to students.**
 
-*Tôi nói chuyện với những  học sinh*
+*C2. - Tôi nói chuyện với những học sinh.*
 
 - *Có phải bạn nói chuyện về những học sinh không?*
-- *Không. Tôi không nói về những người học sinh. Tôi nói với họ*
+- *Không. Tôi không nói về những người học sinh. Tôi nói chuyện với họ.*
 
 ### D1. - I see planes.
 
 - {% include play.html identifier="Native-Dialogue" start=53.11 stop=60.31 %} **Do you see some trains?**
 - **No,  don’t see any trains. I see some planes.**
 
-*Tôi thấy những cái máy bay*
+*D1. - Tôi thấy những chiếc máy bay.*
 
 - *Có phải bạn thấy xe lửa?*
-- *Không, tôi không thấy xe lửa. Tôi thấy máy bay*
+- *Không, tôi không thấy xe lửa. Tôi thấy những chiếc máy bay.*
 
 ### D2. - I pull a door.
 
 - {% include play.html identifier="Native-Dialogue" start=60.31 stop=67.41 %} **Do you push a door?**
 - **No, I don’t push a door. I pull a door.**
 
-*Tôi kéo một cái cửa*
+*D2. - Tôi kéo một cái cửa.*
 
 - *Bạn đẩy một cái cửa phải không?*
-- *Không. Tôi không đẩy cái cửa. Tôi kéo nó*
+- *Không. Tôi không đẩy cái cửa. Tôi kéo nó.*
 
 ### E1. - I do homework everyday.
 
 - {% include play.html identifier="Native-Dialogue" start=67.41 stop=76.81 %} **Do you do housework everyday?**
 - **No. I don’t do housework everyday. I do homework everyday.**
 
-*Tôi bài tập mỗi ngày.*
+*E1. - Tôi bài tập mỗi ngày.*
 
 - *Bạn làm việc nhà mỗi ngày hả?*
-- *Không, tôi không làm việc nhà mỗi ngày. Tôi làm bài tập về nhà mỗi ngày*
+- *Không, tôi không làm việc nhà mỗi ngày. Tôi làm bài tập về nhà mỗi ngày.*
 
 ### E2. - I lie to him.
 
 - {% include play.html identifier="Native-Dialogue" start=77.11 stop=83.91 %} **Do you lie next to him?**
 - **No, I don’t lie next to to him. I lie to him.**
 
-*Tôi nói dối anh ấy*
+*E2. - Tôi nói dối anh ấy.*
 
 - *Bạn nằm kế anh ta hả?*
-- *Không, tôi không nằm kế anh ta. Tôi nói dối với anh ta*
+- *Không, tôi không nằm kế anh ta. Tôi nói dối anh ta.*
 
  
  

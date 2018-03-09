@@ -7,12 +7,12 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 ---
 
 
-# Lesson 1.1: Noun (what)
+# Lesson 1.1: Noun (what) *Danh từ (cái gì)*
 
 
-## Vocabulary
+## Vocabulary *Từ vựng*
 
-### Animals
+### Animals *Động vật*
 {% include player2.html identifier="Animals" class=page.class lesson=page.lesson %}
 
 {% include wordgrid.html lang=page.lang
@@ -25,7 +25,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 
 
-### Fruits
+### Fruits *Trái cây*
 {% include player2.html identifier="Fruits" class=page.class lesson=page.lesson %}
 
 {% include wordgrid.html lang=page.lang
@@ -37,7 +37,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 		trial=false %}
 
 
-### Things in class
+### Things in class *Đồ vật trong lớp*
 {% include player2.html identifier="ThingsInClass" class=page.class lesson=page.lesson %}
 
 {% include wordgrid.html lang=page.lang
@@ -49,7 +49,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 		trial=false %}
 
 
-### Vehicles
+### Vehicles *Phương tiện*
 {% include player2.html identifier="Vehicles" class=page.class lesson=page.lesson %}
 
 {% include wordgrid.html lang=page.lang
@@ -61,7 +61,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 		trial=false %}
 
 
-### People
+### People *Con người*
 {% include player2.html identifier="People" class=page.class lesson=page.lesson %}
 
 {% include wordgrid.html lang=page.lang
@@ -75,9 +75,9 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 
 
-## Uncountable nouns
+## Uncountable nouns *Danh từ không đếm được*
 
-### Important things in your life
+### Important things in your life *Những thứ quan trọng trong cuộc sống của bạn*
 {% include player2.html identifier="Important" class=page.class lesson=page.lesson %}
 
 {% include wordgrid.html lang=page.lang
@@ -89,7 +89,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 		trial=false %}
 
 
-### Other uncountable things
+### Other uncountable things *Những thứ không thể đếm được khác*
 {% include player2.html identifier="Other" class=page.class lesson=page.lesson %}
 
 {% include wordgrid.html lang=page.lang
@@ -101,7 +101,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 		trial=false %}
 
 
-## Some common verbs
+## Some common verbs *Một vài động từ thông thường*
 {% include player2.html identifier="Verbs" class=page.class lesson=page.lesson %}
 
 {% include wordgrid.html lang=page.lang
@@ -114,7 +114,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 
 
-## 1. Countable nouns
+## 1. Countable nouns *Danh từ đếm được*
 {% include player.html identifier="vocab-Native-Dialogue" lesson="C1L01" file="C1L01-Native-Dialogue.mp3" %}
 
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=4.98 stop=54.26 %}
@@ -129,7 +129,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 7. **I talk to a nurse everyday. / I talk to nurses everyday.** *(Tôi nói chuyện với một cô y tá mỗi ngày / Tôi nói chuyện với các y tá mỗi ngày)*
 
 
-## 2. Uncountable nouns
+## 2. Uncountable nouns *Danh từ không đếm được*
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=59 stop=666 %}
 
 1. **I do homework.** *(Tôi làm bài tập về nhà )*
@@ -141,7 +141,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 7. **I love English.** *(Tôi thích Tiếng Anh)*
 
 
-## 3. More of examples
+## 3. More of examples *Ví dụ thêm*
 {% include player2.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=90 stop=666 %}
 
 ### A. What do you choose?
@@ -206,8 +206,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 *Bạn ghét gì?*
 
-- *Tôi ghét cá xấu. Còn bạn?*
-- *Tôi ghét rắn*
+- *Tôi ghét cá sấu. Còn bạn?*
+- *Tôi ghét rắn.*
 
 ### G. What do you look for?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=137 stop=143 %} 
@@ -218,7 +218,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 *Bạn tìm gì?*
 
 - *Tôi tìm cây bút. Còn bạn?*
-- *Tôi tìm một ít sữa*
+- *Tôi tìm một ít sữa.*
 
 ### H. What do you look at?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=143 stop=150 %} 
@@ -229,7 +229,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 *Bạn nhìn gì vậy?*
 
 - *Tôi nhìn một con hổ. Còn bạn?*
-- *Tôi nhìn những con gấu*
+- *Tôi nhìn những con gấu.*
 
 ### I. What do you observe?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=150 stop=158 %} 
@@ -239,8 +239,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 *Bạn quan sát gì?*
 
-- *Tôi quan sát nhiều máy bay và chim. Còn bạn?*
-- *Tôi quan sát nhiều xe hơi và hưu cao cổ*
+- *Tôi quan sát những chiếc máy bay và những con chim. Còn bạn?*
+- *Tôi quan sát những chiếc xe hơi và những con hươu cao cổ.*
 
 ### J. What do you study?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=158 stop=666 %} 

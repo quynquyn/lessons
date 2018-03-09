@@ -1,9 +1,7 @@
 ---
-layout: lesson
-lang: pt
 class: "1"
 lesson: "12"
-lang: vn
+lang: pt
 ---
 
 

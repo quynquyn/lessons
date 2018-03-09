@@ -6,13 +6,13 @@ lang: vn
 salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)" 
 ---
 
-# Lesson 1.3. Noun + verb (what + do)
+# Lesson 1.3. Noun + verb (what + do) *Danh từ + động từ (cái gì + làm gì)*
 
-## Vocabulary
+## Vocabulary *Từ vựng*
 {% include player2.html identifier="Words" class=page.class lesson=page.lesson %}
 
 
-### Verbs
+### Verbs *Động từ*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -22,7 +22,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 		database=site.data.vocabulary 
 		trial=false %}
 
-### Nouns
+### Nouns *Danh từ*
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
@@ -33,7 +33,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 
 
 
-## A. What...?
+## A. What...? *Cái gì...?*
 {% include player2.html identifier="Native-Dialogue" class=page.class lesson=page.lesson %}
 
 
@@ -45,7 +45,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 *A1. - Bạn che phủ cái gì vậy?*
 
 - *Tôi che phủ cái bàn, cái ghế và bảng. Bạn che phủ cái gì?*
-- *Tôi che phủ quyển sách, cây bút mực và cây bút lông*
+- *Tôi che phủ quyển sách, cây bút mực và cây bút lông.*
 
 ### A2. What do you wear?
 
@@ -55,7 +55,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 *A2. - Bạn mặc gì vậy?*
 
 - *Tôi mặc áo thun và váy ngắn. Bạn mặc gì?*
-- *Tôi mặc áo sơ mi và quần tây*
+- *Tôi mặc áo sơ mi và quần tây.*
 
 ### A3. What do you decorate?
 
@@ -65,17 +65,17 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 *A3. - Bạn trang trí gì?*
 
 - *Tôi trang trí một căn phòng, một căn nhà và hai lớp học. Bạn trang trí gì?*
-- *Tôi trang trí bánh*
+- *Tôi trang trí bánh.*
 
 ### A4. What do you touch?
 
 - {% include play.html identifier="Native-Dialogue" lesson="C1L03" start=34 stop=46 %} **I touch a crocodile, a giraffe and a monkey. What do you touch?**
 - **I touch a wall, a picture and an air-conditioner.**
 
-*A4. - Bạn chạm gì?*
+*A4. - Bạn chạm cái gì?*
 
-- *Tôi chạm vào con cá sấu, hưu cao cổ và con khỉ. Bạn chạm gì?*
-- *Tôi chạm bước tường, bức tranh và cái máy lạnh*
+- *Tôi chạm vào con cá sấu, con hươu cao cổ và con khỉ. Bạn chạm gì?*
+- *Tôi chạm bức tường, bức tranh và cái máy lạnh.*
 
 ### A5. What do you play?
 
@@ -86,10 +86,10 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 *A5. - Bạn chơi gì?*
 
 - * Tôi chơi đá banhh và quần vợt. Bạn chơi gì?*
-- *Tôi chơi đàn Ppano và gita*
+- *Tôi chơi đàn piano và ghi-ta.*
 
 
-## B. Do you…?
+## B. Do you…? *Bạn có...?*
 
 
 ### B1. Do you sell cars?*
@@ -123,9 +123,9 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 *B2. Bạn có chơi piano không?*
 
 - *Không, tôi không chơi đàn piano*
-- *Bạn có chơi gita không?*
-- *Không, tôi không chơi gita*
+- *Bạn có chơi ghi-ta không?*
+- *Không, tôi không chơi ghi-ta*
 - *Vậy bạn chơi gì?*
-- *Tôi chơi đàn violin*
+- *Tôi chơi đàn vi-ô-lông.*
 
  
