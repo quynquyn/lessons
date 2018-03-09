@@ -30,6 +30,7 @@ lang: vn
 *- Có phải người giám đốc phải đưa ra quyết định không?*      
 *- Phải, ông ta phải đưa ra quyết định.*    
 
+
 2. {% include play.html identifier="lesson-conversation" start=6 stop=14 %} **Does the man always want to follow the crowd?**    
 **No, the man doesn't always want to follow the crowd.**    
 *- Có phải người đàn ông đó luôn muốn đi theo đám đông không?*    
