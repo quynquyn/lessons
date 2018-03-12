@@ -1,0 +1,25 @@
+{
+  "name": "englishletics_daily",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/englishletics{{site.baseurl}}/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/englishletics/daily.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/englishletics/daily/issues"
+  },
+  "homepage": "https://github.com/englishletics/daily#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.6.5",
+    "lodash": "^4.17.5"
+  }
+}

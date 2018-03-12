@@ -9,8 +9,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 
 # Lesson 2: Verb *Động từ*
 
-## {% include player2.html identifier="Verbs" class=page.class lesson=page.lesson %}  Vocabulary *Từ vựng*
-
+## {% include player2_test.html identifier="Verbs" class=page.class lesson=page.lesson %}  Vocabulary *Từ vựng*
+ 
 
 
 ### Eyes *Đôi mắt*

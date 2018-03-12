@@ -60,7 +60,6 @@ section.el-lesson {
 		font-weight: 400;
 		
 		em {
-			padding-left: 20px;
 			color: #666;
 			font-weight: 400;
 		}
@@ -93,6 +92,11 @@ section.el-lesson {
 	 	cursor: pointer; 
 	 }
 	 
+ 	blockquote, li, h1, h2, h3, h4 {
+		em {
+ 			padding-left: 20px;
+		}
+	}
 	 
 }
 

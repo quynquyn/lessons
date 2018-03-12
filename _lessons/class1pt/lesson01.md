@@ -119,135 +119,89 @@ salestext: "Free full version (3 days left)"
 
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=4.98 stop=54.26 %}
 
-1. **I like a book. / I like books.** *(Eu gosto de um livro. / Eu gosto de livros.)*  
-2. **I like a horse. / I like horses.** *(Eu gosto de um cavalo. / Eu gosto de cavalos.)*
-3. **I hate a snake. / I hate snakes.** *(Eu odeio uma serpente. / Eu odeio serpentes.)*
-4. **I see a bus. / I see 5 buses.** *(Eu vejo um ônibus. / Eu vejo 5 ônibus.)*
-5. **I want an orange. / I want some oranges.** *(Eu quero uma laranja. / Eu quero algumas laranjas.)*
-6. **I need a marker. / I need markers.** *(Eu preciso de um marcador. / Eu preciso de marcadores.)*
-7. **I talk to a nurse everyday. / I talk to nurses everyday.** *(Eu falo com uma enfermeira todos os dias. / Eu falo com enfermeiras todos os dias.)*
+1. **I like a book. / I like books.**   *Eu gosto de um livro. / Eu gosto de livros.*  
+2. **I like a horse. / I like horses.**   *Eu gosto de um cavalo. / Eu gosto de cavalos.*
+3. **I hate a snake. / I hate snakes.**   *Eu odeio uma serpente. / Eu odeio serpentes.*
+4. **I see a bus. / I see 5 buses.**   *Eu vejo um ônibus. / Eu vejo 5 ônibus.*
+5. **I want an orange. / I want some oranges.**   *Eu quero uma laranja. / Eu quero algumas laranjas.*
+6. **I need a marker. / I need markers.**   *Eu preciso de um marcador. / Eu preciso de marcadores.*
+7. **I talk to a nurse everyday. / I talk to nurses everyday.**   *Eu falo com uma enfermeira todos os dias. / Eu falo com enfermeiras todos os dias.*
 
 
 ## 2. Uncountable nouns
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=59 stop=666 %}
 
-1. **I do homework.** *(Eu faço dever de casa.)*
-2. **I need money.** *(Eu preciso de dinheiro.)*
-3. **I want water.** *(Eu quero água.)*
-4. **I choose happiness.** *(Eu escolho a felicidade.)*
-5. **I like sugar.** *(Eu gosto de açúcar.)*
-6. **I hate housework.** *(Eu odeio o trabalho doméstico.)*
-7. **I love English.** *(Eu amo inglês.)*
+1. **I do homework.**   *Eu faço dever de casa.*
+2. **I need money.**   *Eu preciso de dinheiro.*
+3. **I want water.**   *Eu quero água.*
+4. **I choose happiness.**   *Eu escolho a felicidade.*
+5. **I like sugar.**   *Eu gosto de açúcar.*
+6. **I hate housework.**   *Eu odeio o trabalho doméstico.*
+7. **I love English.**   *Eu amo inglês.*
 
 
 ## 3. More examples
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=90 stop=666 %}
 
-### A. What do you choose?
+### A. What do you choose?   *O que você escolhe?*
 
- - **I choose happiness. How about you?**
- - **I choose money.**
+- **I choose happiness. How about you?**   *Escolho a felicidade. E quanto a você?*
+- **I choose money.**   *Escolho dinheiro.*
 
-*O que você escolhe?*
 
- - *Escolho a felicidade. E quanto a você?*
- - *Escolho dinheiro.*
-
-### B. What do you like?
+### B. What do you like?   *De que você gosta?*
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=103 stop=666 %}
 
-- **I like strawberries. How about you?**
-- **I like bananas.**
+- **I like strawberries. How about you?**   *Eu gosto de morangos. E você?*
+- **I like bananas.**   *Eu gosto de bananas.*
 
-*O que você gosta?*
 
-- *Eu gosto de morangos. E você?*
-- *Eu gosto de bananas.*
-
-### C. What do you need?
+### C. What do you need?   *De que você precisa?*
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=110 stop=666 %}
 
-- **I need a chair. And you?**
-- **I need a board.**
+- **I need a chair. And you?**   *Preciso de uma cadeira. E você?*
+- **I need a board.**   *Preciso de uma tábua.*
 
-*O que você precisa?*
 
-- *Preciso de uma cadeira. E você?*
-- *Preciso de uma tábua.*
-
-### D. What do you have?
+### D. What do you have?   *O que você tem?*
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=116 stop=666 %}
 
-- **I have some markers. How about you?**
-- **I have some pencils.**
+- **I have some markers. How about you?**   *Tenho alguns marcadores. E você?*
+- **I have some pencils.**   *Tenho alguns lápis.*
 
-*O que você tem?*
 
-- *Tenho alguns marcadores. E você?*
-- *Tenho alguns lápis.*
-
-### E. What do you want?
+### E. What do you want?   *O que você quer?*
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=124 stop=666 %}
 
-* **I want water. And you?**
-* **I want tea.**
+- **I want water. And you?**   *Eu quero água. E você?*
+- **I want tea.**   *Eu quero chá.*
 
-*O que você quer?*
-
-- *Eu quero água. E você?*
-- *Eu quero chá.*
-
-### F. What do you hate?
+### F. What do you hate?   *O que você odeia?*
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=130 stop=666 %}
 
-- **I hate crocodiles. How about you?**
-- **I hate snakes.**
+- **I hate crocodiles. How about you?**   *Odeio os crocodilos. E você?*
+- **I hate snakes.**   *Odeio cobras.*
 
-*O que você odeia?*
-
-- *Odeio os crocodilos. E você?*
-- *Odeio cobras.*
-
-### G. What do you look for?
+### G. What do you look for?   *O que você procura?*
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=137 stop=666 %}
 
-- **I look for a pen. And you?**
-- **I look for some milk.**
+- **I look for a pen. And you?**   *Procuro uma caneta. E você?*  
+- **I look for some milk.**   *Procuro um pouco de leite.*
 
-*O que você procura?*
-
-- *Procuro uma caneta. E você?*
-- *Procuro um pouco de leite.*
-
-### H. What do you look at?
+### H. What do you look at?   *Para que você olha?*
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=143 stop=666 %}
 
-- **I look at a tiger. What about you?**
-- **I look at bears.**
+- **I look at a tiger. What about you?**   *Eu olho para um tigre. E se você?*
+- **I look at bears.**   *Eu olho para ursos.* 
 
-*Para que você olha?*
-
-- *Eu olho para um tigre. E se você?*
-- *Eu olho para ursos.*
-
-### I. What do you observe?
+### I. What do you observe?   *O que você observa?*
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=150 stop=666 %}
 
-- **I observe planes and birds. What about you?**
-- **I observe cars and giraffes.**
+- **I observe planes and birds. What about you?**   *Eu observo aviões e pássaros. E você?*
+- **I observe cars and giraffes.**   *Eu observo carros e girafas.*
 
-*O que você observa?*
-
-- *Eu observo aviões e pássaros. E você?*
-- *Eu observo carros e girafas.*
-
-### J. What do you study?
+### J. What do you study?   *O que você estuda?*
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=158 stop=666 %}
 
-- **I study English. How about you?**
-- **I study Vietnamese.**
-
-*O que você estuda?*
-
-- *Eu estudo inglês. E quanto a você?*
-- *Eu estudo vietnamitas.*
+- **I study English. How about you?**   *Eu estudo inglês. E quanto a você?*
+- **I study Vietnamese.**   *Eu estudo vietnamitas.*

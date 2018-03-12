@@ -1,22 +1,20 @@
 var gulp = require('gulp');
+var shell = require('gulp-shell');
+var browserSync = require('browser-sync').create();
 
-// Set the banner content
-var banner = ['/*!\n',
-    ' * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
-    ' * Copyright 2013-' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
-    ' * Licensed under <%= pkg.license.type %> (<%= pkg.license.url %>)\n',
-    ' */\n',
-    ''
-].join('');
+// Task for building blog when something changed:
+gulp.task('build', shell.task(['bundle exec jekyll s --config _config_dev.yml']));
+// If you don't use bundle:
+// gulp.task('build', shell.task(['jekyll serve']));
+// If you use  Windows Subsystem for Linux (thanks @SamuliAlajarvela):
+// gulp.task('build', shell.task(['bundle exec jekyll serve --force_polling']));
 
+// Task for serving blog with Browsersync
+gulp.task('serve', function () {
+    browserSync.init({server: {baseDir: '_dev/'}});
+    // Reloads page when some of the already built files changed:
+    gulp.watch('_dev/**/*.*').on('change', browserSync.reload);
+});
 
-
-gulp.task('deploy', [], function (cb) {
-  var exec = require('child_process').exec;
-  exec('rsync -avh --no-owner  --exclude artwork --exclude node_modules --exclude .git  ./_site/   vs2.tielefeld.com:/var/www/tillcarlos.com/html/', function (err, stdout, stderr) {
-    console.log(stdout);
-    console.log(stderr);
-    cb(err);
-  });
-})
+gulp.task('default', ['build', 'serve']);
 
