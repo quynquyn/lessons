@@ -133,97 +133,73 @@ salestext: "3 Days left!"
 ## 2. Uncountable nouns
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=59 stop=666 %}
 
-1. __I do homework.__2. __I need money.__3. __I want water.__4. __I choose happiness.__5. __I like sugar.__6. __I hate housework.__7. __I love English.__
+1. __I do homework.__
+2. __I need money.__
+3. __I want water.__
+4. __I choose happiness.__
+5. __I like sugar.__
+6. __I hate housework.__
+7. __I love English.__
 
-## 3. More of examples
+## 3. More examples
 {% include player2.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=90 stop=666 %}
 
 ### A. What do you choose?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=95 stop=102 %}
 
- - I choose happiness. How about you?
- - I choose money.
+- __I choose happiness. How about you?__
+- __I choose money.__
 
-
- -  - 
 ### B. What do you like?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=103 stop=110 %}
 
- - __I like strawberries. How about you?__
- - __I like bananas.__
+- __I like strawberries. How about you?__
+- __I like bananas.__
 
-
-
---
 ### C. What do you need?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=110 stop=116 %} 
 
- - __I need a chair. And you?__
- - __I need a board.__
+- __I need a chair. And you?__
+- __I need a board.__
 
-
-
---
 ### D. What do you have?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=116 stop=124 %} 
 
- - __I have some markers. How about you?__
- - __I have some pencils.__
+- __I have some markers. How about you?__
+- __I have some pencils.__
 
-
-
---
 ### E. What do you want?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=124 stop=130 %} 
 
-* __I want water. And you?__
-* __I want tea.__
+- __I want water. And you?__
+- __I want tea.__
 
-
-
---
 ### F. What do you hate?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=130 stop=137 %} 
 
 - __I hate crocodiles. How about you?__
 - __I hate snakes.__
 
-
-
---
 ### G. What do you look for?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=137 stop=143 %} 
 
 - __I look for a pen. And you?__
 - __I look for some milk.__
 
-
-
---
 ### H. What do you look at?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=143 stop=150 %} 
 
 - __I look at a tiger. What about you?__
 - __I look at bears.__
 
-
-
---
 ### I. What do you observe?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=150 stop=158 %} 
 
 - __I observe planes and birds. What about you?__
 - __I observe cars and giraffes.__
 
-
-
---
 ### J. What do you study?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=158 stop=666 %} 
 
 - __I study English. How about you?__
 - __I study Vietnamese.__
-
-
-
--- 

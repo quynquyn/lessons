@@ -140,20 +140,20 @@ salestext: "Free full version (3 days left)"
 7. **I love English.** *(Eu amo inglês.)*
 
 
-## 3. More of examples
+## 3. More examples
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=90 stop=666 %}
 
-### a. What do you choose?
+### A. What do you choose?
 
- - I choose happiness. How about you?
- - I choose money.
+ - **I choose happiness. How about you?**
+ - **I choose money.**
 
 *O que você escolhe?*
 
  - *Escolho a felicidade. E quanto a você?*
  - *Escolho dinheiro.*
 
-### b. What do you like?
+### B. What do you like?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=103 stop=666 %}
 
 - **I like strawberries. How about you?**
@@ -164,7 +164,7 @@ salestext: "Free full version (3 days left)"
 - *Eu gosto de morangos. E você?*
 - *Eu gosto de bananas.*
 
-### c. What do you need?
+### C. What do you need?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=110 stop=666 %}
 
 - **I need a chair. And you?**
@@ -175,7 +175,7 @@ salestext: "Free full version (3 days left)"
 - *Preciso de uma cadeira. E você?*
 - *Preciso de uma tábua.*
 
-### d. What do you have?
+### D. What do you have?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=116 stop=666 %}
 
 - **I have some markers. How about you?**
@@ -186,7 +186,7 @@ salestext: "Free full version (3 days left)"
 - *Tenho alguns marcadores. E você?*
 - *Tenho alguns lápis.*
 
-### e. What do you want?
+### E. What do you want?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=124 stop=666 %}
 
 * **I want water. And you?**
@@ -197,7 +197,7 @@ salestext: "Free full version (3 days left)"
 - *Eu quero água. E você?*
 - *Eu quero chá.*
 
-### f. What do you hate?
+### F. What do you hate?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=130 stop=666 %}
 
 - **I hate crocodiles. How about you?**
@@ -208,7 +208,7 @@ salestext: "Free full version (3 days left)"
 - *Odeio os crocodilos. E você?*
 - *Odeio cobras.*
 
-### g. What do you look for?
+### G. What do you look for?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=137 stop=666 %}
 
 - **I look for a pen. And you?**
@@ -219,7 +219,7 @@ salestext: "Free full version (3 days left)"
 - *Procuro uma caneta. E você?*
 - *Procuro um pouco de leite.*
 
-### h. What do you look at?
+### H. What do you look at?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=143 stop=666 %}
 
 - **I look at a tiger. What about you?**
@@ -230,7 +230,7 @@ salestext: "Free full version (3 days left)"
 - *Eu olho para um tigre. E se você?*
 - *Eu olho para ursos.*
 
-### i. What do you observe?
+### I. What do you observe?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=150 stop=666 %}
 
 - **I observe planes and birds. What about you?**
@@ -241,7 +241,7 @@ salestext: "Free full version (3 days left)"
 - *Eu observo aviões e pássaros. E você?*
 - *Eu observo carros e girafas.*
 
-### j. What do you study?
+### J. What do you study?
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=158 stop=666 %}
 
 - **I study English. How about you?**

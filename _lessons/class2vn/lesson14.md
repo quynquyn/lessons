@@ -5,10 +5,10 @@ lesson: "14"
 lang: vn
 ---
 
-# Lesson 2.14: Friendship
+# Lesson 2.14: Friendship *Tình bạn*
 
 
-## Vocabulary
+## Vocabulary *Từ vựng*
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 
 
@@ -21,12 +21,12 @@ lang: vn
 		trial=site.trialdeploy %}
 
 
-### Friends
+### Friends *Bạn bè*
 
 1. {% include play.html identifier="vocabulary" start=31 stop=34 %} **a best friend** *Một người bạn thân*
 2. {% include play.html identifier="vocabulary" start=34 stop=37 %} **a pen friend** *Một người bạn qua thư từ*
 3. {% include play.html identifier="vocabulary" start=37 stop=40 %} **a close friend** *Một người bạn gần gũi*
-4. {% include play.html identifier="vocabulary" start=40 stop=43 %} **a true friend** *Một người bạn thực sự*
+4. {% include play.html identifier="vocabulary" start=40 stop=43 %} **a true friend** *Một người bạn đích thực*
 5. {% include play.html identifier="vocabulary" start=43 stop=46.5 %} **a lifelong friend** *Bạn tri kỉ*
 6. {% include play.html identifier="vocabulary" start=46.5 stop=49.5 %} **an acquaintance** *Người quen*
 7. {% include play.html identifier="vocabulary" start=49.5 stop=53.5 %} **a fair-weather friend** *Một người bạn chỉ trong lúc vui, hoàn cảnh thuận lợi còn khi khó khăn thì bỏ mình liền*
@@ -40,7 +40,7 @@ lang: vn
 3. {% include play.html identifier="vocabulary" start=66 stop=69 %}  **go through thick and thin** *Trải qua mọi vui buồn cùng nhau*
 4. {% include play.html identifier="vocabulary" start=69.5 stop=72.2 %}  **share ups and downs** *Cùng nhau trải qua thăng trầm*
 5. {% include play.html identifier="vocabulary" start=72.2 stop=76 %}  **share sorrows and joys** *Cùng chia sẻ niềm vui và nỗi buồn*
-6. {% include play.html identifier="vocabulary" start=76 stop=79.7 %}  **keep each other's secrets** *Gữi bí mật cho nhau*
+6. {% include play.html identifier="vocabulary" start=76 stop=79.7 %}  **keep each other's secrets** *Giữ bí mật cho nhau*
 7. {% include play.html identifier="vocabulary" start=79.7 stop=83 %}  **give emotional support** *Hỗ trợ về mặt tinh thần*
 8. {% include play.html identifier="vocabulary" start=83 stop=87.5 %}  **encourage me when I am in trouble** *Khích lệ tôi khi tôi gặp khó khăn*
 9. {% include play.html identifier="vocabulary" start=87.5 stop=91 %}  **respect each other** *Tôn trọng lẫn nhau*
@@ -77,12 +77,12 @@ lang: vn
 
 
 {% include player2.html identifier="explanation" class=page.class lesson=page.lesson %}
-## Explanation
+## Explanation *Giải thích*
 
 ### 1. She is one year older than me. 
 
 {% include play.html identifier="explanation" start=1.8 stop=19.7 %} 
-Cô ta hơn tôi 1 tuổi 
+*Cô ta hơn tôi 1 tuổi.* 
 
 - **He is ten years older than me.** *Anh ấy hơn tôi 10 tuổi*
 - **She is two years younger than me.** *Cô ấy thua tôi 2 tuổi*
@@ -96,7 +96,7 @@ Cô ta hơn tôi 1 tuổi
 ###  2. How long have you been friends?
 
 {% include play.html identifier="explanation" start=19.7 stop=34 %}
-Các bạn là bạn bao lâu rồi?
+*Các bạn là bạn bao lâu rồi?*
 
 - **How long have you been together?** *Hai bạn bên nhau bao lâu rồi?*   
 - **How long have you been a teacher?** *Bạn là giáo viên được bao lâu rồi?*   
@@ -105,7 +105,7 @@ Các bạn là bạn bao lâu rồi?
 ###  3. She is the most hilarious person I’ve ever known.
 
 {% include play.html identifier="explanation" start=34 stop=56 %}
-Cô ta là người hài hước nhất mà tôi từng biết
+*Cô ta là người hài hước nhất mà tôi từng biết.*
 
 - **She is the friendliest person I've ever met.** *Cô ta là người thân thiện nhất mà tôi từng gặp*
 - **She is the most boring person I've ever talked to.** *Cô ta là người chán chán mà tôi từng nói chuyện*
@@ -115,7 +115,7 @@ Cô ta là người hài hước nhất mà tôi từng biết
 ###  4. What do you think is the most important thing in friendship?
 
 {% include play.html identifier="explanation" start=56 stop=79 %}
-Theo bạn nghĩ điều gì là quan trọng nhất trong tình bạn?
+*Theo bạn nghĩ điều gì là quan trọng nhất trong tình bạn?*
 
 
 - **What do you think is the most important thing in a job?** *Theo bạn nghĩ điều gì là quan trọng nhất trong công việc?*
@@ -125,7 +125,7 @@ Theo bạn nghĩ điều gì là quan trọng nhất trong tình bạn?
 ###  5.  Never telling lies, in my opinion, is the most important thing in friendship.
 
 {% include play.html identifier="explanation" start=80 stop=106 %}
-Không bao giờ nói dối, theo ý kiến của tôi, là điều quan trọng nhất trong tình bạn
+*Không bao giờ nói dối, theo ý kiến của tôi, là điều quan trọng nhất trong tình bạn.*
 
 
 - **I guess having a lot in common is the most important thing in friendship.** *Tôi đoán có nhiều điểm chung là điều quan trọng nhất trong tình bạn*
