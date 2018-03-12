@@ -61,12 +61,11 @@ __I travel there to...__
 ### 1. I just need to buy a travel pillow at the airport.
 {% include play.html identifier="explanation" start=1.10 stop=20.28 %}
 
-Tôi cần mua một cái gối du lịch tại sân bay.
 __Verb to verb__
 
 - __He needs to go to the museum.__ 
 - __I want to buy new shoes.__ 
-- __My mother tries to call me.__ __Mẹ tôi cố gắng gọi điện cho tôi*
+- __My mother tries to call me.__
 
 {% if site.trialdeploy %}
 	{% include explanation_placeholder.html start=2 stop=6 %}
@@ -77,8 +76,6 @@ __Verb to verb__
 ### 2. This is your first overseas trip.
 {% include play.html identifier="explanation" start=22.87 stop=37.85 %}
 
-Đây là chuyến đi nước ngoài đầu tiên của bạn.
-
 __One's first...__
 
 - __This is my first kiss.__ 
@@ -88,8 +85,6 @@ __One's first...__
 ### 3.  You’re not allowed to take liquids on the plane.
 {% include play.html identifier="explanation" start=40.07 stop=61.55 %}
 
-Bạn không được phép mang chất lỏng lên máy bay. 
-
 __You are not allowed to...__
 
 - __You are not allowed to smoke in the building.__ 
@@ -98,18 +93,14 @@ __You are not allowed to...__
 
 
 ### 4.  You travel a lot.
-{% include play.html identifier="explanation" start=63.87 stop=75.27 %}
-
-Bạn đi du lịch rất nhiều.  
+{% include play.html identifier="explanation" start=63.87 stop=75.27 %}  
 
 - __I cried a lot.__ 
 - __I eat a lot.__ 
 - __She talks a lot.__ 
 
 ### 5.  It’s an interesting way to know more about new cultures and explore new places.
-{% include play.html identifier="explanation" start=77.86 stop=103.76 %}
-
-Nó là một cách thú vị để biết hơn về văn hóa mới và khám phá nơi mới. 
+{% include play.html identifier="explanation" start=77.86 stop=103.76 %} 
 
 __It's an interesting way to...__
 
@@ -119,8 +110,6 @@ __It's an interesting way to...__
 
 ### 6.   It’s also the best way to find a quiet place.
 {% include play.html identifier="explanation" start=106.47 stop=124.85 %}
-
-Nó là cách tốt nhất để tìm một nơi yên tĩnh.
 
 __It's the best way to...__
 

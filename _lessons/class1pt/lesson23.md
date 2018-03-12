@@ -110,7 +110,7 @@ lang: pt
 6. {% include play.html identifier="examples" start=19.33 stop=20.92 %}**How do you help her?** *Como você a ajuda?*
 7. {% include play.html identifier="examples" start=22.34 stop=24.27 %}**How to release stress?** *Como liberar o estresse?*
 8. {% include play.html identifier="examples" start=25.47 stop=27.45 %}**How to apply for a job?** *Como candidatar-se a um emprego?*
-9. {% include play.html identifier="examples" start=28.87 stop=31.32 %}**How to move on from bad break-up?** *Como avançar de um fim de relacionamento ruim?*
+9. {% include play.html identifier="examples" start=28.87 stop=31.32 %}**How to move on from a bad break-up?** *Como avançar de um fim de relacionamento ruim?*
 10. {% include play.html identifier="examples" start=32.45 stop=34.40 %}**How to lose weight?** *Como perder peso?*
 
  

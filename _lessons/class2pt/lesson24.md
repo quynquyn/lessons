@@ -61,9 +61,7 @@ lang: pt
 > P2: **I agree. The servers are really busy. They need one or two more.**  
 > P1: **And the waitress is not really friendly. She ignored me 5 minutes earlier. That’s not good.**    
 > P2: **She doesn't speak English very well.**  
-> P1: **Yeah—she couldn’t answer many questions.** 
-
-
+> P1: **Yeah, she couldn’t answer many questions.** 
 > P2: **Wow! Our bill is only $24.**  
 > P1: **That’s very cheap.**    
 > P2: **There is no service charge. I think we should leave a tip.**  

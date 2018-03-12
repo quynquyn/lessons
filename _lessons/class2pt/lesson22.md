@@ -38,13 +38,13 @@ lang: pt
 
 
 ### What is your hometown famous for? 
-•  **Pottery making**   
-•  **Famous landmarks such as …**   
-•  **Delicious food**   
-•  **Heavy industry**   
-•  **Agricultural products**   
-•  **Places of interest/ The tourist industry**  
-•  **Tea plantation**   
+•  **pottery making**   
+•  **famous landmarks such as …**   
+•  **delicious food**   
+•  **heavy industry**   
+•  **agricultural products**   
+•  **places of interest / the tourist industry**  
+•  **tea plantation**   
 
 ### Problems: 
 

@@ -8,7 +8,7 @@ lesson: "08"
 
 {% include player.html identifier="lesson-vocabulary" lesson="C1L08" file="C1L08-Vocabulary.mp3" %}
 
-# Lesson 1.8: More of To be 
+# Lesson 1.8: More of to be 
 
 
 ## Vocabulary

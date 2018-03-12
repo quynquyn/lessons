@@ -62,11 +62,11 @@ lang: en
 > {% include play.html identifier="conversation" start=2 stop=6.2 %} Person 1: __Do you have a best friend?__     
 > {% include play.html identifier="conversation" start=6.2 stop=9.2 %} Person 2: __My best friends is Anna.__   
 > {% include play.html identifier="conversation" start=9.4 stop=12.2 %}  P1: __How old is she?__    
-> {% include play.html identifier="conversation" start=12.8 stop=16.9 %}  P2: __She is 1 year older than me.__   
+> {% include play.html identifier="conversation" start=12.8 stop=16.9 %}  P2: __She is one year older than me.__   
 > {% include play.html identifier="conversation" start=17.1 stop=20.5 %}  P1: __When did you first meet her?__     
 > {% include play.html identifier="conversation" start=20.7 stop=27.1 %}  P2: __I first met her when I was 18 years old at our university.__     
 > {% include play.html identifier="conversation" start=27.3 stop=31.1 %}  P1: __How long have you been friends?__     
-> {% include play.html identifier="conversation" start=31.1 stop=35.7 %}  P2: __We’ve been friends for 7 years since then.__     
+> {% include play.html identifier="conversation" start=31.1 stop=35.7 %}  P2: __We’ve been friends for seven years since then.__     
 > {% include play.html identifier="conversation" start=35.7 stop=40.1 %}  P1: __Nice. What does your friend look like?__      
 > {% include play.html identifier="conversation" start=40.3 stop=64.3 %}  P2: __I have to say that she bears a strong resemblance to one of my cousins. She is not really   good-looking. She is not really tall and a little underweight. She’s got a face with big eyes, a flat nose and some acne on her face. The most attractive thing on her face are her full lips.__    
 > {% include play.html identifier="conversation" start=64.5 stop=68.1 %}  P1: __What is the best thing about her?__     
@@ -82,7 +82,6 @@ lang: en
 ### 1. She is one year older than me. 
 
 {% include play.html identifier="explanation" start=1.8 stop=19.7 %} 
-Cô ta hơn tôi 1 tuổi 
 
 - __He is ten years older than me.__ 
 - __She is two years younger than me.__ 
@@ -96,7 +95,6 @@ Cô ta hơn tôi 1 tuổi
 ###  2. How long have you been friends?
 
 {% include play.html identifier="explanation" start=19.7 stop=34 %}
-Các bạn là bạn bao lâu rồi?
 
 - __How long have you been together?__  
 - __How long have you been a teacher?__  
@@ -105,7 +103,6 @@ Các bạn là bạn bao lâu rồi?
 ###  3. She is the most hilarious person I’ve ever known.
 
 {% include play.html identifier="explanation" start=34 stop=56 %}
-Cô ta là người hài hước nhất mà tôi từng biết
 
 - __She is the friendliest person I've ever met.__ 
 - __She is the most boring person I've ever talked to.__ 
@@ -115,8 +112,6 @@ Cô ta là người hài hước nhất mà tôi từng biết
 ###  4. What do you think is the most important thing in friendship?
 
 {% include play.html identifier="explanation" start=56 stop=79 %}
-Theo bạn nghĩ điều gì là quan trọng nhất trong tình bạn?
-
 
 - __What do you think is the most important thing in a job?__ 
 - __What do you think is the most important thing in a marriage?__ 
@@ -125,11 +120,9 @@ Theo bạn nghĩ điều gì là quan trọng nhất trong tình bạn?
 ###  5.  Never telling lies, in my opinion, is the most important thing in friendship.
 
 {% include play.html identifier="explanation" start=80 stop=106 %}
-Không bao giờ nói dối, theo ý kiến của tôi, là điều quan trọng nhất trong tình bạn
-
 
 - __I guess having a lot in common is the most important thing in friendship.__ 
-- __In my point of view, trust is the most important thing in friendship.__ *Theo quan điểm của tôi, niềm tin là điều quan trọng nhất trong tình bạn__
+- __In my point of view, trust is the most important thing in friendship.__ 
 - __I believe the most essential factor of his success is his great sense of humor.__ 
 
 

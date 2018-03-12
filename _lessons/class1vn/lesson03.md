@@ -49,7 +49,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 
 ### A2. What do you wear?
 
-- {% include play.html identifier="Native-Dialogue" lesson="C1L03" start=16 stop=24 %}  **I wear a t-shirt and and a skirt. What do you wear?**
+- {% include play.html identifier="Native-Dialogue" lesson="C1L03" start=16 stop=24 %}  **I wear a T-shirt and and a skirt. What do you wear?**
 - **I wear a shirt and trousers.**
 
 *A2. - Bạn mặc gì vậy?*

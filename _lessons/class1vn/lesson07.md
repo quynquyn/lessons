@@ -46,7 +46,7 @@ lang: vn
 *- Không,nó không phải là một quyển sách hay. Nó khá là chán.*  
 
 5. {% include play.html identifier="vocab-conversation" start=29 stop=36 %} **Is the weather hot outside?**   
-**Yes, it's quite hot outside..**   
+**Yes, it's quite hot outside.**   
 *- Thời tiết bên ngoài có nóng không?*  
 *- Có, trời khá là nóng bên ngoài.*  
 

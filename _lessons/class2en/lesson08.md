@@ -59,7 +59,6 @@ lang: en
 
 ### 1. I am a bit nervous. 
 {% include play.html identifier="lesson-explanation" start=1.20 stop=17.68 %}
-Tôi hơi hồi hộp một tí 
 
 __a bit__ 
 
@@ -70,14 +69,12 @@ __a bit__
 
 ### 2. Unfortunately
 {% include play.html identifier="lesson-explanation" start=20.22 stop=34.25 %}
-Thật không may là
 
 - __We tried to get tickets, but unfortunately they were already sold out.__ 
 - __Unfortunately, there's nothing I can do about your problem.__ 
 
 ### 3. It seems to be very satisfying job.
 {% include play.html identifier="lesson-explanation" start=36.97 stop=57.45 %}
-Có vẻ như nó là một công việc rất hài lòng
 
 __seem__ 
 
@@ -87,8 +84,6 @@ __seem__
 
 ### 4.  What's your job like?
 {% include play.html identifier="lesson-explanation" start=61.29 stop=74.22 %}
-Công việc của bạn như thế nào?
-
 
 - __What's the weather like?__ 
 - __What's the office like?__ 
@@ -96,9 +91,8 @@ Công việc của bạn như thế nào?
 
 ### 5.  It's a quite boring and repetitive job.
 {% include play.html identifier="lesson-explanation" start=76.68 stop=94.48 %}
-Nó là một công việc khá là chán và lặp đi lặp lại
 
-__Quite__ 
+__quite__ 
 
 - __I'm quite tired.__ 
 - __My boss is quite attractive.__ 
@@ -106,7 +100,6 @@ __Quite__
 
 ### 6. I find myself doing the same thing day in day out.
 {% include play.html identifier="lesson-explanation" start=96.07 stop=108.63 %}
-Tôi nhận thấy mình đang làm lại cùng một công việc ngày qua ngày
 
 - __I find myself crying under the table.__ 
 - __I find myself with no friends at all.__ 

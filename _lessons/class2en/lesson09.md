@@ -84,7 +84,6 @@ lang: en
 ## Explanations
 ### 1. Are you a shopaholic?
 {% include play.html identifier="lesson-explanations" start=1.50 stop=10.87 %}
-Bạn có phải là người nghiện mua sắm không?
 
 - __Are you an alcoholic?__ 
 - __He is a workaholic.__ 
@@ -92,7 +91,6 @@ Bạn có phải là người nghiện mua sắm không?
 
 ### 2. How  important is fashion to you?
 {% include play.html identifier="lesson-explanations" start=13.35 stop=31.14 %}
-Bạn có phải là người nghiện mua sắm không?
 
 __How + adjective__
 
@@ -106,7 +104,6 @@ __How + adjective__
 
 ### 3. I got it!
 {% include play.html identifier="lesson-explanations" start=34.09 stop=41.01 %}
-Tôi hiểu tồi 
 
 - __I didn't get it.__ 
 - __Did you get it?__ 
@@ -114,7 +111,6 @@ Tôi hiểu tồi
 
 ### 4. Have you ever bought second-hand clothes?
 {% include play.html identifier="lesson-explanations" start=43.36 stop=58.48 %}
-Bạn đã từng mua quần áo xi đa chưa
 
 - __Have you ever thought about getting a tattoo?__ 
 - __Have you ever wanted to study abroad?__ 
@@ -122,7 +118,6 @@ Bạn đã từng mua quần áo xi đa chưa
 
 ### 5. I prefer my fashion style to be stylish and comfortable.
 {% include play.html identifier="lesson-explanations" start=61.49 stop=85.94 %}
-Tôi thích gu thời trang của mình là đậm chất và thoải mái
 
 - __I prefer it to be casual and sporty.__
 - __My roommate has a provocative fashion style.__
@@ -130,14 +125,12 @@ Tôi thích gu thời trang của mình là đậm chất và thoải mái
 
 ### 6. Does my shirt go well with the jeans?
 {% include play.html identifier="lesson-explanations" start=88.30 stop=104.66 %}
-Cái áo sơ mi này có hợp với cái quần jeans của tôi không?
 
 - __Does this dress go well with my shoes?__ 
 - __Does this pair of glasses go well with the color of my lipstick?__ 
 
 ### 7. It looks great on you.
 {% include play.html identifier="lesson-explanations" start=107.86 stop=122.76 %}
-Nó trông thật hợp với bạn 
 
 - __You look great in this dress.__ 
 - __This dress looks great on you.__ 

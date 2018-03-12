@@ -76,7 +76,7 @@ lang: vn
 *Tôi bị chảy nước mũi và nhức đầu nặng.* 
 - **I have a massive headache and my stomach hurts.** *Tôi bị nhức đầu nặng và đau bao tử.*
 - **My right ear hurts and I feel a sharp pain in it every time I yawn.** *Tai phải của tôi đau và tôi cảm thấy một cơn đau nhức nhối trong tai mỗi khi tôi ngáp.*
-- **I have a cold so bad, I threw up at least 6 times today.**  *Tôi bị cảm nặng quá, tôi ói ít nhất 6 lần hôm nay.*
+- **I have a cold so bad, I threw up at least six times today.**  *Tôi bị cảm nặng quá, tôi ói ít nhất 6 lần hôm nay.*
 
 
 {% if site.trialdeploy %}

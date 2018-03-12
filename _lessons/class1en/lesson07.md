@@ -46,7 +46,7 @@ __No, it's not a good book. It's pretty boring.__
   
 
 5. {% include play.html identifier="vocab-conversation" start=29 stop=36 %} __Is the weather hot outside?__   
-__Yes, it's quite hot outside..__   
+__Yes, it's quite hot outside.__   
   
   
 

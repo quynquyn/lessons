@@ -34,7 +34,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 >  {% include play.html identifier="lesson-dialogue1" start=23.09 stop=25.71 %}P1: __About 20 minutes by bus.__   
 >  {% include play.html identifier="lesson-dialogue1" start=25.71 stop=29.64 %}P2: __What time do you usually go to bed? Do you stay up late?__   
 >  {% include play.html identifier="lesson-dialogue1" start=29.64 stop=33.18 %}P1: __No, I am not a night owl. I am an early bird__   
->  {% include play.html identifier="lesson-dialogue1" start=33.18 stop=57.05 %} P2: __John gets up around 7 and then he brushes his teeth and washes his face. After that, he gets dressed. He usually gets ready around 8AM. After breakfast, he goes to work at around 8.30. It takes him about 20 minutes to go to work by bus. He doesn’t stay up late so he is not a night owl. He is an early bird because he gets up at 7AM.__  
+>  {% include play.html identifier="lesson-dialogue1" start=33.18 stop=57.05 %} P2: __John gets up around 7 and then he brushes his teeth and washes his face. After that, he gets dressed. He usually gets ready around 8 AM. After breakfast, he goes to work at around 8.30. It takes him about 20 minutes to go to work by bus. He doesn’t stay up late so he is not a night owl. He is an early bird because he gets up at 7AM.__  
 
 
 
@@ -47,13 +47,13 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 > {% include play.html identifier="lesson-dialogue2" start=0.58 stop=4.63 %}Person 2: __Hello, Kurt. Do you want to meet on Saturday?__  
 > {% include play.html identifier="lesson-dialogue2" start=4.63 stop=6.08 %}Person 1: __That’s a great idea!__   
 > {% include play.html identifier="lesson-dialogue2" start=6.08 stop=7.42 %}P2: __What time do you wake up?__   
-> {% include play.html identifier="lesson-dialogue2" start=7.42 stop=9.65 %}Person 1: __I wake up at 7:30 a.m.__   
+> {% include play.html identifier="lesson-dialogue2" start=7.42 stop=9.65 %}Person 1: __I wake up at 7:30 AM.__   
 > {% include play.html identifier="lesson-dialogue2" start=9.65 stop=12.19 %}P2: __So, we can meet around 9:00?__   
 > {% include play.html identifier="lesson-dialogue2" start=12.19 stop=14.98 %}Person 1: __At 9:00 I go to my Taekwondo lesson.__   
 > {% include play.html identifier="lesson-dialogue2" start=14.98 stop=18.56 %}P2: __So…11:00? Do you have time then?__   
 > {% include play.html identifier="lesson-dialogue2" start=18.56 stop=21.12 %}Person 1: __Well, at 11:00 I start school.__   
 > {% include play.html identifier="lesson-dialogue2" start=21.12 stop=22.40 %}P2: __When do you finish?__   
-> {% include play.html identifier="lesson-dialogue2" start=22.40 stop=27.11 %}Person 1: __At 5:30 p.m. So let’s meet at 5:45 –for dinner?__  
+> {% include play.html identifier="lesson-dialogue2" start=22.40 stop=27.11 %}Person 1: __At 5:30 PM. So let’s meet at 5:45 – for dinner?__  
 > {% include play.html identifier="lesson-dialogue2" start=27.11 stop=28.36 %}P2: __Sounds great!__  
 
 {% include play.html identifier="lesson-dialogue2" start=28.36 stop=47.96 %} Person 2: __I want to meet Kurt on Saturday and he thinks that’s great idea. Kurt gets up at 7:30AM and then he goes to his Taekwondo lesson at 9:00. At 11:00 he doesn’t have time because he starts school at that time and he finishes school at 5:30 PM. At 5:45 he meets me for dinner.__

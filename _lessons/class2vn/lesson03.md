@@ -42,7 +42,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 *Bạn thường đi ngủ lúc mấy giờ? Bạn có thức khuya không?*   
 >  {% include play.html identifier="lesson-dialogue1" start=29.64 stop=33.18 %}P1: **No, I am not a night owl. I am an early bird**
 *Không, tôi không phải một con cú đêm. Tôi là một con chim thức dậy vào lúc sáng sớm.*   
->  {% include play.html identifier="lesson-dialogue1" start=33.18 stop=57.05 %} P2: **John gets up around 7 and then he brushes his teeth and washes his face. After that, he gets dressed. He usually gets ready around 8AM. After breakfast, he goes to work at around 8.30. It takes him about 20 minutes to go to work by bus. He doesn’t stay up late so he is not a night owl. He is an early bird because he gets up at 7AM.**  
+>  {% include play.html identifier="lesson-dialogue1" start=33.18 stop=57.05 %} P2: **John gets up around 7 and then he brushes his teeth and washes his face. After that, he gets dressed. He usually gets ready around 8 AM. After breakfast, he goes to work at around 8.30. It takes him about 20 minutes to go to work by bus. He doesn’t stay up late so he is not a night owl. He is an early bird because he gets up at 7 AM.**  
 *John thức dậy lúc 7 giờ sáng và sau đó anh ấy đánh răng và rửa  mặt. Sau đó nữa, anh ấy thay đồ. Anh thường chuẩn bị xong lúc khoảng 8 giờ sáng. Sau bữa ăn sáng, anh đi làm vào khoảng 8 giờ 30 phút. Anh ta mất khoảng 20 phút để đi làm bằng xe buýt. Anh ấy không thức khuya vì anh không phải là cú đêm. Anh ấy là một con chim thức dậy lúc sáng sớm vì anh ngủ dậy lúc 7h sáng*
 
  
@@ -57,7 +57,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 *Đó là ý kiến hay!*   
 > {% include play.html identifier="lesson-dialogue2" start=6.08 stop=7.42 %}P2: **What time do you wake up?**
 *Bạn thức dậy lúc mấy giờ?*   
-> {% include play.html identifier="lesson-dialogue2" start=7.42 stop=9.65 %}Person 1: **I wake up at 7:30 a.m.**
+> {% include play.html identifier="lesson-dialogue2" start=7.42 stop=9.65 %}Person 1: **I wake up at 7:30 AM.**
 *Tôi thức dậy vào lúc 7 giờ 30 phút sáng.*   
 > {% include play.html identifier="lesson-dialogue2" start=9.65 stop=12.19 %}P2: **So, we can meet around 9:00?**
 *Vậy thì, chúng ta có thể gặp nhau vào khoảng 9 giờ?*   
@@ -69,12 +69,12 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 *Ừ vào 11 giờ tôi đi học.*  
 > {% include play.html identifier="lesson-dialogue2" start=21.12 stop=22.40 %}P2: **When do you finish?**  
 *Khi nào bạn xong?* 
-> {% include play.html identifier="lesson-dialogue2" start=22.40 stop=27.11 %}Person 1: **At 5:30 p.m. So let’s meet at 5:45 –for dinner?** 
+> {% include play.html identifier="lesson-dialogue2" start=22.40 stop=27.11 %}Person 1: **At 5:30 PM. So let’s meet at 5:45 – for dinner?** 
 *Lúc 5 giờ 30 phút chiều. Vậy hãy gặp nhau lúc 5 giờ 45 phút để ăn tối nhé?* 
 > {% include play.html identifier="lesson-dialogue2" start=27.11 stop=28.36 %}P2: **Sounds great!**  
 *Nghe tuyệt đấy!*
 
-{% include play.html identifier="lesson-dialogue2" start=28.36 stop=47.96 %} Person 2: **I want to meet Kurt on Saturday and he thinks that’s great idea. Kurt gets up at 7:30AM and then he goes to his Taekwondo lesson at 9:00. At 11:00 he doesn’t have time because he starts school at that time and he finishes school at 5:30 PM. At 5:45 he meets me for dinner.**
+{% include play.html identifier="lesson-dialogue2" start=28.36 stop=47.96 %} Person 2: **I want to meet Kurt on Saturday and he thinks that’s great idea. Kurt gets up at 7:30 AM and then he goes to his Taekwondo lesson at 9:00. At 11:00 he doesn’t have time because he starts school at that time and he finishes school at 5:30 PM. At 5:45 he meets me for dinner.**
 *Tôi muốn gặp Kurt vào thứ Bảy và anh ta nghĩ rằng đó là một ý hay. Kurt thức dậy lúc 7h30 và sau đó, anh ta học Taekwondo vào lúc 9h. Lúc 11h, anh ta không có thời gian rảnh vì anh ta bắt đầu giờ học lúc đó và anh ta học xong lúc 5h:30 chiều. Lúc 5h:45 anh ta gặp tôi cho bữa ăn tối.*
 
 ## Exercise *Bài tập thực hành*

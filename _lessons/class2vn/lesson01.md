@@ -77,7 +77,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 **How often do you…?** *(Bạn … thường xuyên như thế nào)*
 - **How often do you call your mother?** *(Bạn gọi điện cho mẹ thường xuyên như thế nào?)*
-- **How often do you play ping pong?** *(Bạn chơi bóng bàn thường xuyên như thế nào?)*
+- **How often do you play ping-pong?** *(Bạn chơi bóng bàn thường xuyên như thế nào?)*
 - **How often do you brush your teeth?** *(Bạn đánh răng thường xuyên như thế nào?)*
 
 ### 5. Twice a week *2 lần 1 tuần*

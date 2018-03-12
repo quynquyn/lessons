@@ -82,7 +82,7 @@ O trabalho pode ficar realmente estressante às vezes.
 - **The job is stressful.** *O trabalho é estressante.*
 - **It's a stressful job.** *É um trabalho estressante.*
 
-### 5.  Do you think it is more important to make a lot of money or to enjoy your job?**
+### 5.  Do you think it is more important to make a lot of money or to enjoy your job?
 Você acha que é mais importante ganhar muito dinheiro ou curtir seu trabalho?
 
 - **Do you think it's more important to be polite or to be honest?** *

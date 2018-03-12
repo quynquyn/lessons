@@ -110,7 +110,7 @@ lang: vn
 6. {% include play.html identifier="examples" start=19.33 stop=20.92 %}**How do you help her?**  *Bạn giúp cô ấy như thế nào?*
 7. {% include play.html identifier="examples" start=22.34 stop=24.27 %}**How to release stress?**  *Bạn giải tỏa căng thẳng bằng cách nào?*
 8. {% include play.html identifier="examples" start=25.47 stop=27.45 %}**How to apply for a job?**  *Xin việc như thế nào?*
-9. {% include play.html identifier="examples" start=28.87 stop=31.32 %}**How to move on from bad break-up?**  *Làm sao để bước tiếp sau cuộc chia tay đau khổ?*
+9. {% include play.html identifier="examples" start=28.87 stop=31.32 %}**How to move on from a bad break-up?**  *Làm sao để bước tiếp sau cuộc chia tay đau khổ?*
 10. {% include play.html identifier="examples" start=32.45 stop=34.40 %}**How to lose weight?**  *Làm cách nào để giảm cân?*
 
  

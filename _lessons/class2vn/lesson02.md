@@ -69,7 +69,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 -  **Being told that I am fat gets on my nerves.** *Bị nói rằng tôi mập khiến tôi phát cáu.*
 -  **Slow internet connection drives me crazy.** *Mạng Internet chậm khiến tôi phát điên.*
 
-### Person 2: Definitely *Chắc chắn rồi / Hoàn toàn *
+### Person 2: Definitely *Chắc chắn rồi / Hoàn toàn*
 {% include play.html identifier="explanation" start=66.88 stop=73.75 %}
 
 - **Absolutely.** *Đương nhiên rồi.*

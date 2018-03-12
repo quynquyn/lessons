@@ -110,7 +110,7 @@ __Lose weight by__
 6. {% include play.html identifier="examples" start=19.33 stop=20.92 %}__How do you help her?__
 7. {% include play.html identifier="examples" start=22.34 stop=24.27 %}__How to release stress?__
 8. {% include play.html identifier="examples" start=25.47 stop=27.45 %}__How to apply for a job?__
-9. {% include play.html identifier="examples" start=28.87 stop=31.32 %}__How to move on from bad break-up?__
+9. {% include play.html identifier="examples" start=28.87 stop=31.32 %}__How to move on from a bad break-up?__
 10. {% include play.html identifier="examples" start=32.45 stop=34.40 %}__How to lose weight?__
 
  

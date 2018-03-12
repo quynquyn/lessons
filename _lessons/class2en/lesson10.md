@@ -62,7 +62,7 @@ lang: en
 > {% include play.html identifier="conversation" start=67.64 stop=72.67 %}Person2: __I’m not really sure. Maybe I first used it when I was 12.__  
 > {% include play.html identifier="conversation" start=73.87 stop=76.73 %}Person1: __Do you lose sleep because of being online?__  
 > {% include play.html identifier="conversation" start=78.39 stop=83.70 %}Person2: __I couldn’t put my phone down. I always lose sleep. How about you?__  
-> {% include play.html identifier="conversation" start=85.25 stop=88.33 %}Person2: __I always go to sleep before 11pm.__  
+> {% include play.html identifier="conversation" start=85.25 stop=88.33 %}Person2: __I always go to sleep before 11 PM.__  
 > {% include play.html identifier="conversation" start=89.67 stop=94.49 %}Person2: __That’s why you are always full of energy and you don’t have eye bags.__  
 > {% include play.html identifier="conversation" start=95.81 stop=99.75 %}Person1: __Thank you. By the way, you should change your sleeping schedule.__  
 
@@ -73,7 +73,6 @@ lang: en
 ## Explanations
 ### 1. What do you use your phone for?
 {% include play.html identifier="explanations" start=1.65 stop=17.32 %}
-Bạn sử dụng điện thoại để làm gì? 
 
 __What...for?__ 
 
@@ -83,7 +82,6 @@ __What...for?__
 
 ### 2. I often use it to play games.
 {% include play.html identifier="explanations" start=18.92 stop=40.35 %}
-Tôi thường sử dụng nó để chơi games
 
 __to + Verb or in order to + Verb__ 
 
@@ -93,7 +91,6 @@ __to + Verb or in order to + Verb__
 
 ### 3. I find the screen too small.
 {% include play.html identifier="explanations" start=42.57 stop=62.20 %}
-Tôi thấy cái màn hình quá nhỏ 
 
 __I find someone or something + adjective__
 
@@ -103,7 +100,6 @@ __I find someone or something + adjective__
 
 ### 4. You are definitely addicted to it.
 {% include play.html identifier="explanations" start=65.17 stop=81.39 %}
-Bạn chắc chắc là nghiện nó rồi 
 
 __Be addicted to__
 
@@ -113,7 +109,6 @@ __Be addicted to__
 
 ### 5. When did you first use the internet?
 {% include play.html identifier="explanations" start=83.12 stop=97.23 %}
-Lần đầu bạn sử dụng Internet là khi nào?
 
 __When did you first...?__
 
@@ -123,7 +118,6 @@ __When did you first...?__
 
 ### 6. You are always full of energy.
 {% include play.html identifier="explanations" start=99.60 stop=117.68 %}
-Bạn luôn luôn tràn đầy năng lượng 
 
 __Be full of...__ 
 

@@ -48,7 +48,6 @@ lang: en
 
 ### 1. It is the first time I've fallen head over heels in love.
 {% include play.html identifier="explanation" start=3.44 stop=23.57 %}
-Đây là lần đầu tiên tôi yêu say đắm như vậy
 
 - __This is the first time I've been to New York.__ 
 - __This is the first time someone told me that I can sing.__ 
@@ -63,7 +62,6 @@ lang: en
 
 ### 2. We share so many common interests.
 {% include play.html identifier="explanation" start=23.10 stop=42.84 %}
-Chúng tôi có nhiều sự yêu thích chung 
 
 - __My brother and sister share a room.__ 
 - __Dan and Mary share a sandwich every morning.__ 
@@ -71,7 +69,6 @@ Chúng tôi có nhiều sự yêu thích chung
 
 ### 3. How long have you been in love with him? 
 {% include play.html identifier="explanation" start=42.10 stop=55.84 %}
-Bạn yêu anh ấy bao lâu rồi?
 
 - __How long have you been married?__ 
 - __How long have you two known each other?__ 
@@ -79,7 +76,6 @@ Bạn yêu anh ấy bao lâu rồi?
 
 ### 4. If you like him, you should ask him out.
 {% include play.html identifier="examples2" start=55.10 stop=77.84 %}
-Nếu bạn thích ai đó, bạn nên rủ anh ấy ra ngoài hẹn hò  
 
 - __Chris asked me out. I'm happy he did because I like him a lot.__ 
 - __I will ask Anne out tomorrow. I hope she says yes.__ 
@@ -87,14 +83,12 @@ Nếu bạn thích ai đó, bạn nên rủ anh ấy ra ngoài hẹn hò
 
 ### 5. Put yourself in my shoes and you'll understand.
 {% include play.html identifier="examples2" start=77.10 stop=96.84 %}
-Đặt vào tình huống của tôi và bạn sẽ hiểu 
 
 - __I put myself in your shoes and I still don't understand why you did it.__ 
 - __Before judging someone, you should always try to put yourself in their shoes.__ 
 
 ### 6. What a romantic idea!
 {% include play.html identifier="examples2" start=96.10 stop=108.14 %}
-Thật là một ý tưởng lãng mạng 
 
 - __What an amazing kitchen!__ 
 - __What a cute dog!__ 

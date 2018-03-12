@@ -6387,7 +6387,6 @@ section.el-lesson blockquote {
 section.el-lesson blockquote, section.el-lesson li {
   font-weight: 400; }
   section.el-lesson blockquote em, section.el-lesson li em {
-    padding-left: 20px;
     color: #666;
     font-weight: 400; }
   section.el-lesson blockquote strong, section.el-lesson li strong {

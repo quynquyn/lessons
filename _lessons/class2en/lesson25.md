@@ -46,7 +46,7 @@ lang: en
 ## Explanation
 ### 1.  I broke up with Janice. I couldn't be with her anymore.
 {% include play.html identifier="explanation" start=2.25 stop=22.55 %}
-Tôi đã chia tay với Janice. Tôi không thể bên cạnh cô ta nữa
+
 - __Emily and Alex broke up when she caught him breaking into her house.__ 
 - __When she left me, I felt broken. She broke my heart.__ 
 - __Don't bring up their break-up. You know Alex is still very sensitive about it.__ 
@@ -59,28 +59,28 @@ Tôi đã chia tay với Janice. Tôi không thể bên cạnh cô ta nữa
 
 ### 2. Don't beat yourself up about it. She'll get over it. 
 {% include play.html identifier="explanation" start=22.75 stop=46.75 %}
-Đừng giận mình nữa. Cô ta sẽ vượt qua được điều đó thôi
+
 - __I'm so tired of hearing him cry about his ex girlfriend. Tell him to get over it!__ 
 - __Once I got over my break-up, I found a new girlfriend and I'm getting along with her just fine.__ 
 - __I don't know how I'll go on without my boyfriend. I thought we were going to settle down and start a family.__ 
 
 ### 3. If I end up feeling worse, I'll give you a call.
 {% include play.html identifier="explanation" start=46.75 stop=60.75 %}
-Nếu cuối cùng tôi vẫn cảm thấy tệ hơn, tôi sẽ gọi điện cho bạn
+
 - __If you stay in this relationship, you'll end up in a horrible marriage.__ 
 - __Most people who try drugs end up addicted to it.__ 
 - __You need friends you can count on if you end up in a bad situation.__ 
 
 ### 4. I finally figured out she isn't going to change.
 {% include play.html identifier="explanation" start=61.75 stop=81.55 %}
-Tôi cuối cùng hiểu được tại sao cô ta không thay đổi
+
 - __Listening to my parents helped me figure out I have a lot to learn.__ 
 - __My brother helped me figure out this math assignment. I was really stuck.__
 - __Anna needs to figure out what she's going to do with her life.__ 
 
 ### 5. Try not to run into her anytime soon.
 {% include play.html identifier="explanation" start=81.75 stop=107.15 %}
-Cố gắng đừng gặp cô ta sớm quá
+
 - __I ran into my sister this morning. I didn't see her since April.__ 
 - __Guess who I ran into at the bank! My best friend from high school. We went for coffee afterwards.__ 
 - __I'm going to the supermarket. I really hope I don't run into my math teacher like I did last week.__  

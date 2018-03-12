@@ -105,7 +105,7 @@ lang: vn
 *Nó là một công việc khá là chán và lặp đi lặp lại.*
 {% include play.html identifier="lesson-explanation" start=76.68 stop=94.48 %}
 
-**Quite** *khá*
+**quite** *khá*
 
 - **I'm quite tired.** *Tôi khá mệt.*
 - **My boss is quite attractive.** *Sếp của tôi khá là hấp dẫn.*

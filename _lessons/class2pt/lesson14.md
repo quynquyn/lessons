@@ -63,11 +63,11 @@ lang: pt
 > {% include play.html identifier="conversation" start=2 stop=6.2 %} Person 1: **Do you have a best friend?**     
 > Person 2: **My best friends is Anna.**  *Bạn thân của tôi là Anna*   
 > {% include play.html identifier="conversation" start=6.2 stop=6.9 %}  P1: **How old is she?**   
-> {% include play.html identifier="conversation" start=6.9 stop=12.8 %}  P2: **She is 1 year older than me.**    
+> {% include play.html identifier="conversation" start=6.9 stop=12.8 %}  P2: **She is one year older than me.**    
 > {% include play.html identifier="conversation" start=12.8 stop=16.9 %}  P1: **When did you first meet her?**    
 > {% include play.html identifier="conversation" start=16.9 stop=20.7 %}  P2: **I first met her when I was 18 years old at our university.**    
 > {% include play.html identifier="conversation" start=20.7 stop=27.3 %}  P1: **How long have you been friends?**     
-> {% include play.html identifier="conversation" start=27.3 stop=31.1 %}  P2: **We’ve been friends for 7 years since then.**      
+> {% include play.html identifier="conversation" start=27.3 stop=31.1 %}  P2: **We’ve been friends for seven years since then.**      
 > {% include play.html identifier="conversation" start=31.1 stop=35.7 %}  P1: **Nice. What does your friend look like?**       
 > {% include play.html identifier="conversation" start=35.7 stop=64.3 %}  P2: **I have to say that she bears a strong resemblance to one of my cousins. She is not really   good-looking. She is not really tall and a little underweight. She’s got a face with big eyes, a flat nose and some acne on her face. The most attractive thing on her face are her full lips.** 
 > {% include play.html identifier="conversation" start=64.3 stop=68.2 %}  P1: **What is the best thing about her?**       

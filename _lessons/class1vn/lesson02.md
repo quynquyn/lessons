@@ -9,8 +9,13 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 
 # Lesson 2: Verb *Động từ*
 
-## {% include player2_test.html identifier="Verbs" class=page.class lesson=page.lesson %}  Vocabulary *Từ vựng*
- 
+{%  include player2_test.html
+	identifier="Verbs" class=page.class lesson=page.lesson 
+	title="Vocabulary"
+	translation="Từ vựng"
+%}
+
+
 
 
 ### Eyes *Đôi mắt*
@@ -59,7 +64,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 
 {% include player2.html identifier="Native-Dialogue" class=page.class lesson=page.lesson %}
 
-### EE A1. - I chase a dog.
+### A1. - I chase a dog.
 
 - {% include play.html identifier="Native-Dialogue" start=4.55 stop=12.55 %}  **Do you chase a horse?**
 - **No, I don’t chase a horse. I chase a dog.**

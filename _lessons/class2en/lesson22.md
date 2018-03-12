@@ -37,13 +37,13 @@ lang: en
 
 
 ### What is your hometown famous for? 
-•  __Pottery making__   
-•  __Famous landmarks such as …__   
-•  __Delicious food__   
-•  __Heavy industry__   
-•  __Agricultural products__   
-•  __Places of interest/ The tourist industry__  
-•  __Tea plantation__   
+•  __pottery making__   
+•  __famous landmarks such as …__   
+•  __delicious food__   
+•  __heavy industry__   
+•  __agricultural products__   
+•  __places of interest / the tourist industry__  
+•  __tea plantation__   
 
 ### Problems: 
 

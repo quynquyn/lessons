@@ -81,7 +81,7 @@ Com que frequência você joga badminton?
 
 **How often do you…?** *Com que frequência você…?*
 - **How often do you call your mother?** *Com que frequência você chama sua mãe?*
-- **How often do you play ping pong?** *Com que frequência você joga pingue-pongue?*
+- **How often do you play ping-pong?** *Com que frequência você joga pingue-pongue?*
 - **How often do you brush your teeth?** *Com que frequência você escova seus dentes?*
 
 ### 5. Twice a week

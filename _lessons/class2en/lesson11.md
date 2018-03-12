@@ -133,7 +133,6 @@ __Let me introduce my ex-boyfriend. He is Daniel. He is a quite handsome man. He
 
 ### 1. He is in his mid–twenties.
 {% include play.html identifier="explanation" start=3.57 stop=17.65 %}
-Anh đang trong độ tuổi giữa 20
 
 - __He is in his early forties.__
 - __My brother is in his late twenties.__
@@ -143,14 +142,11 @@ Anh đang trong độ tuổi giữa 20
 ### 2. He is of medium height and well–built.
 {% include play.html identifier="explanation" start=19.43 stop=30.36 %}
 
-Anh ta cao trung bình và cường tráng 
-
 - __He is tall and muscular.__
 - __He's short and a little bit overweight.__
 
 ### 3. He has a square face with brown eyes, a straight nose and full lips.
 {% include play.html identifier="explanation" start=31.95 stop=58.69 %}
-Anh ta có khuôn mặt vuông với lông mày nâu, mũi thẳng và môi đầy đặn
 
 - __He has an oval face with small eyes, a flat nose and thin lips.__
 - __She has a small face with a straight nose, high cheekbones and long wavy hair.__
@@ -158,7 +154,6 @@ Anh ta có khuôn mặt vuông với lông mày nâu, mũi thẳng và môi đ�
 
 ### 4. He looks even more attractive with his glasses. 
 {% include play.html identifier="explanation" start=60.71 stop=78.60 %}
-Anh ta trông còn thu hút hơn với mắt kính 
 
 - __She looks even sexier with her full lips.__
 - __The girl looks even more stunning with her radiant smile.__
@@ -166,7 +161,6 @@ Anh ta trông còn thu hút hơn với mắt kính
 
 ### 5.  I’ve always thought he bears a striking resemblance to someone on TV.
 {% include play.html identifier="explanation" start=80.60 stop=102.89 %}
-Tôi luôn nghĩ rằng cô ta giống ai đó trên TV
 
 __bear a striking resemblance__
 

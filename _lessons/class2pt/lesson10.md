@@ -65,7 +65,7 @@ lang: pt
 > Person2: **I’m not really sure. Maybe I first used it when I was 12.**  
 > Person1: **Do you lose sleep because of being online?**  
 > Person2: **I couldn’t put my phone down. I always lose sleep. How about you?**  
-> Person2: **I always go to sleep before 11pm.**  
+> Person2: **I always go to sleep before 11 PM.**  
 > Person2: **That’s why you are always full of energy and you don’t have eye bags.**  
 > Person1: **Thank you. By the way, you should change your sleeping schedule.**  
 

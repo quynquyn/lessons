@@ -57,7 +57,7 @@ __I want to work for a _______ company__
 >{% include play.html identifier="conversation" start=51.56 stop=54.86 %}P1: __Trust me, Mr. Robinson, that is not going to be a problem.__  
 >{% include play.html identifier="conversation" start=54.86 stop=56.21 %}P2: __I'm pleased to hear that.__  
 >{% include play.html identifier="conversation" start=56.21 stop=61.09 %} P1: __I'm pleased that you're pleased, and I would like to officially welcome you to the company. You're hired.__  
->{% include play.html identifier="conversation" start=61.09 stop=62.60 %} P2: __Thank you very much, sir.__
+>{% include play.html identifier="conversation" start=61.09 stop=62.60 %} P2: __Thank you very much, Sir.__
 
 {% include player2.html identifier="explanation" class=page.class lesson=page.lesson %}
 

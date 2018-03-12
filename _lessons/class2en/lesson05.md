@@ -78,8 +78,6 @@ __My father is...__
 ### 1. He’s going to give me a ride home.
 {% include play.html identifier="lesson-explanation" start=2.82 stop=14.93 %}
 
-Anh ta sẽ cho tôi quá giang về nhà 
-
 __He's going to...__
 
 - __He's going to propose to her.__ 
@@ -90,21 +88,14 @@ __He's going to...__
 	{% else %}
 
 
-
-
-
 ### 2. What does your father do for a living?
 {% include play.html identifier="lesson-explanation" start=16.97 stop=26.73 %}
-
-Bố bạn làm nghề gì
 
 - __What does your mother do for a living?__ 
 - __What do you do for a living?__ 
 
 ### 3. I have three older brothers and two sisters.
 {% include play.html identifier="lesson-explanation" start=29.23 stop=46.12 %}
-
-Tôi có 3 anh trai và 2 chị/em gái
 
 - __I have an older brother and 2 younger sisters.__ 
 - __I have an older sister, 2 older brothers and a younger sister.__ 
@@ -114,7 +105,6 @@ Tôi có 3 anh trai và 2 chị/em gái
 ### 4.  What is your mother like?
 {% include play.html identifier="lesson-explanation" start=48.55 stop=60.16 %}
 
-Mẹ bạn là người như thế nào?
  - __What is your sister like?__ 
  - __What is your manager like?__ 
  - __What is the weather like?__ 
@@ -122,7 +112,6 @@ Mẹ bạn là người như thế nào?
 ### 5.  Who makes most of the decisions in your family?
 {% include play.html identifier="lesson-explanation" start=62.55 stop=79.68 %}
 
-Ai đưa ra hầu hết các quyết định trong gia đình bạn?
 
 __Who + verb (s/es)__
 
@@ -132,8 +121,6 @@ __Who + verb (s/es)__
 
 ### 6.  Do you have a large family?
 {% include play.html identifier="lesson-explanation" start=81.97 stop=94.79 %}
-
-Nhà bạn có đông không?
 
 - __Do you have a big family?__ 
 - __Do you have any siblings?__ 

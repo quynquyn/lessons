@@ -63,9 +63,9 @@ lang: pt
 Eu só preciso comprar um travesseiro de viagem no aeroporto.
 **Verb to verb**
 
-- **He needs to go to the museum** *Ele precisa ir ao museu*
-- **I want to buy new shoes** *Eu quero comprar sapatos novos*
-- **My mother tries to call me** **A minha mãe tenta me chamar*
+- **He needs to go to the museum.** *Ele precisa ir ao museu.*
+- **I want to buy new shoes.** *Eu quero comprar sapatos novos.*
+- **My mother tries to call me.** **A minha mãe tenta me chamar.*
 
 {% if site.trialdeploy %}
 	{% include explanation_placeholder.html start=2 stop=6 %}
@@ -77,30 +77,30 @@ Eu só preciso comprar um travesseiro de viagem no aeroporto.
 
 Esta é a sua primeira viagem no exterior.
 
-**one's first ...**
+**one's first...**
 
-- **This is my first kiss** *Este é o meu primeiro beijo*
-- **That is her first tattoo** *Essa é a sua primeira tatuagem*
+- **This is my first kiss.** *Este é o meu primeiro beijo.*
+- **That is her first tattoo.** *Essa é a sua primeira tatuagem.*
 
 
-### 3.  You’re not allowed to take liquids on the plane
+### 3.  You’re not allowed to take liquids on the plane.
 
 Não é permitido levar liquidos no avião. 
 
-**You are not allowed to ...**
+**You are not allowed to...**
 
-- **You are not allowed to smoke in the building** *Não é permitido fumar no prédio*
-- **You are not allowed to park your car here** *Não é permitido estacionar seu carro aqui*
-- **You are not allowed to talk during the exam** *Não é permitido conversar durante o exame*
+- **You are not allowed to smoke in the buildin.g** *Não é permitido fumar no prédio.*
+- **You are not allowed to park your car here.** *Não é permitido estacionar seu carro aqui.*
+- **You are not allowed to talk during the exam.** *Não é permitido conversar durante o exame.*
 
 
 ### 4.  You travel a lot.
 
 Você viaja muito.  
 
-**I cried a lot** *Eu chorei muito*
-**I eat a lot** *Eu como muito*
-**She talks a lot** *Ela fala muito*
+**I cried a lot.** *Eu chorei muito.*
+**I eat a lot.** *Eu como muito.*
+**She talks a lot.** *Ela fala muito.*
 
 ### 5.  It’s an interesting way to know more about new cultures and explore new places.
 
@@ -108,9 +108,9 @@ Você viaja muito.
 
 **It's an interesting way to...**
 
-- **It's an interesting way to get to know someone** *É uma maneira interessante de conhecer alguém*
-- **It's an interesting way to impress someone** *É uma maneira interessante de impressionar alguém*
-- **It's a simple way to solve the problem** *É uma maneira simples de resolver o problema*
+- **It's an interesting way to get to know someone.** *É uma maneira interessante de conhecer alguém.*
+- **It's an interesting way to impress someone.** *É uma maneira interessante de impressionar alguém.*
+- **It's a simple way to solve the problem.** *É uma maneira simples de resolver o problema.*
 
 ### 6.   It’s also the best way to find a quiet place.
 
@@ -118,9 +118,9 @@ Você viaja muito.
 
 **It's the best way to...**
 
-- **It's the best way to ask him** *É a melhor maneira de perguntar a ele*
-- **It's the best way to get success** *É a melhor maneira de obter sucesso*
-- **It's the worst way to break up with someone** *É a pior maneira de separer-se de alguém*
+- **It's the best way to ask him.** *É a melhor maneira de perguntar a ele.*
+- **It's the best way to get success.** *É a melhor maneira de obter sucesso.*
+- **It's the worst way to break up with someone.** *É a pior maneira de separer-se de alguém.*
 
 
 {% endif %}

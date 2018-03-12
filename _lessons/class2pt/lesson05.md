@@ -75,14 +75,14 @@ lang: pt
 {% include player.html identifier="lesson-explanation" lesson="C2L05" file="C2L05-Native-Explanation.mp3" %}
 ## Explanation
 
-### 1. He’s going to give me a ride home
+### 1. He’s going to give me a ride home.
 
-Ele vai me dar uma carona para casa
+Ele vai me dar uma carona para casa.
 
-**He's going to**
+**He's going to…**
 
-- **He's going to propose to her** *Ele vai propor casemento a ela*
-- **He's going to study abroad** *Ele vai estudar no exterior*
+- **He's going to propose to her.** *Ele vai propor casemento a ela.*
+- **He's going to study abroad.** *Ele vai estudar no exterior.*
 
 {% if site.trialdeploy %}
 	{% include explanation_placeholder.html start=2 stop=6 %}
@@ -99,13 +99,13 @@ O que seu pai faz para ganhar a vida?
 - **What does your mother do for a living?** *O que sua mãe faz para ganhar a vida?*
 - **What do you do for a living?**. *Qual é a sua profissão?*
 
-### 3. I have three older brothers and two sisters
+### 3. I have three older brothers and two sisters.
 
-Eu tenho três irmãos mais velhos e duas irmãs
+Eu tenho três irmãos mais velhos e duas irmãs.
 
-- **I have an older brother and 2 younger sisters** *Eu tenho um irmão mais velho e duas irmãs mais novas*
-- **I have an older sister, 2 older brothers and a younger sister** *Eu tenho uma irmã mais velha, 2 irmãos mais velhos e uma irmã mais nova*
-- **I am an only child** *Eu sou filho único*
+- **I have an older brother and 2 younger sisters.** *Eu tenho um irmão mais velho e duas irmãs mais novas.*
+- **I have an older sister, 2 older brothers and a younger sister.** *Eu tenho uma irmã mais velha, 2 irmãos mais velhos e uma irmã mais nova.*
+- **I am an only child.** *Eu sou filho único.*
 
 
 ### 4.  What is your mother like?

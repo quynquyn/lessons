@@ -59,7 +59,7 @@ John se levanta por volta das 7 e depois ele escova seus dentes e lava seu rosto
 > 
 > P2: **What time do you wake up?**  
 > 
-> Person 1: **I wake up at 7:30 a.m.**  
+> Person 1: **I wake up at 7:30 AM.**  
 > 
 > P2: **So, we can meet around 9:00?**  
 > 
@@ -71,11 +71,11 @@ John se levanta por volta das 7 e depois ele escova seus dentes e lava seu rosto
 > 
 > P2: **When do you finish?**  
 > 
-> Person 1: **At 5:30 p.m. So let’s meet at 5:45 –for dinner?**  
+> Person 1: **At 5:30 PM. So let’s meet at 5:45 – for dinner?**  
 > 
 > P2: **Sounds great!**  
 
-Person 2: **I want to meet Kurt on Saturday and he thinks that’s great idea. Kurt gets up at 7:30AM and then he goes to his Taekwondo lesson at 9:00. At 11:00 he doesn’t have time because he starts school at that time and he finishes school at 5:30 PM. At 5:45 he meets me for dinner.**
+Person 2: **I want to meet Kurt on Saturday and he thinks that’s great idea. Kurt gets up at 7:30 AM and then he goes to his Taekwondo lesson at 9:00. At 11:00 he doesn’t have time because he starts school at that time and he finishes school at 5:30 PM. At 5:45 he meets me for dinner.**
 
 *Quero encontrar Kurt no sábado e ele acha que é uma ótima idéia. Kurt se levanta às 7h30 da manhã e então ele vai para sua aula de Taekwondo às 9. Às 11:00, ele não tem tempo porque começa a escola naquela hora e ele termina a escola às 17h30 da tarde. Às 17h45 ele se encontra comigo para jantar.*
 

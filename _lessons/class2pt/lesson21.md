@@ -66,7 +66,7 @@ lang: pt
 Eu tenho uma coriza e uma dor de cabeça ruim.
 - **I have a massive headache and my stomach hurts.** *Eu tenho uma enorme dor de cabeça e meu estômago dói.*
 - **My right ear hurts and I feel a sharp pain in it every time I yawn.** *Minha orelha direita dói e sinto uma dor aguda nela toda vez que bocejo.*
-- **I have a cold so bad, I threw up at least 6 times today.**  *Tenho um resfriado tão ruim que vomitei pelo menos 6 vezes hoje.*
+- **I have a cold so bad, I threw up at least six times today.**  *Tenho um resfriado tão ruim que vomitei pelo menos seis vezes hoje.*
 
 
 {% if site.trialdeploy %}

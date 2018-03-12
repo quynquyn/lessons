@@ -58,7 +58,7 @@ lang: pt
 > P1: **Trust me, Mr. Robinson, that is not going to be a problem.**  
 > P2: **I'm pleased to hear that.**  
 > P1: **I'm pleased that you're pleased, and I would like to officially welcome you to the company. You're hired.**
-> P2: **Thank you very much, sir.**
+> P2: **Thank you very much, Sir.**
 
 {% include player2.html identifier="explanation" class=page.class lesson=page.lesson %}
 

@@ -46,9 +46,9 @@ lang: en
 ## 2. explanation
 ### 1. After finding out about this, I realized that I need to talk to you straight away.
 {% include play.html identifier="explanation" start=4.63 stop=24.71 %}
-Sau khi phát hiện ra điều này, tôi nhận ra rằng tôi phải nói với bạn ngay
-.
-- __After finding out that Jane likes me, too, I asked her out.__- __After finding out about how he feels, I became sad.__- __After realizing that I didn't love her anymore, I decided to break up with her.__
+- __After finding out that Jane likes me, too, I asked her out.__
+- __After finding out about how he feels, I became sad.__
+- __After realizing that I didn't love her anymore, I decided to break up with her.__
 
 {% if site.trialdeploy %}
   {% include list_placeholder.html start=3 stop=6 %}
@@ -57,29 +57,38 @@ Sau khi phát hiện ra điều này, tôi nhận ra rằng tôi phải nói v�
 
 ### 2. I think that if you really like someone, you should say it.
 {% include play.html identifier="explanation" start=25.56 stop=41.11 %}
-Tôi nghĩ nếu bạn thật sự thích ai, bạn nên nói ra 
 
-- __I think there is no reason to be ashamed of love.__- __I think there is a reason she keeps smiling every time she sees him.__- __I think you need to stop being such a coward and tell the truth!__
+- __I think there is no reason to be ashamed of love.__
+- __I think there is a reason she keeps smiling every time she sees him.__
+- __I think you need to stop being such a coward and tell the truth!__
+
 ### 3.  I thought you felt an interest for me.
 {% include play.html identifier="explanation" start=41.16 stop=51.61 %}
-Tôi tưởng bạn cũng thích tôi
 __I thought...__
-- __I thought he wanted to marry me.__- __I thought we were friends.__- __He thought he was going to be a dad.__
+
+- __I thought he wanted to marry me.__
+- __I thought we were friends.__
+- __He thought he was going to be a dad.__
+
 ### 4. I didn't mean to upset you, but that's just how I feel.
 {% include play.html identifier="explanation" start=51.66 stop=68.61 %}
-Tôi không có ý làm bạn buồn, đó chỉ là cách tôi cảm nhận
 
-- __I didn't mean to make you sad, but I already have a girlfriend.__- __I didn't mean to make you sad, but I don't think we have good chemistry.__- __Anne didn't mean to insult you, but she told me you're not her type.__
+- __I didn't mean to make you sad, but I already have a girlfriend.__
+- __I didn't mean to make you sad, but I don't think we have good chemistry.__
+- __Anne didn't mean to insult you, but she told me you're not her type.__
+
 ### 5. I enjoy your company. We should go out sometime.
 {% include play.html identifier="explanation" start=68.76 stop=82.11 %}
-Tôi thích bên cạnh bạn. Tôi nghĩ lúc nào đó chúng ta nên đi chơi
-__enjoy someone's company__ - thích bên cạnh ai đó
 
-- __He said he enjoys my company. I think that means he might like me the way I like him.__- __I enjoy Dana's company, but she's nothing more than a friend to me.__
+__enjoy someone's company__
+- __He said he enjoys my company. I think that means he might like me the way I like him.__
+- __I enjoy Dana's company, but she's nothing more than a friend to me.__
 
 
 ### 6. Really? You really like me?
 {% include play.html identifier="explanation" start=82.16 stop=98.11 %}
-Thật hả, bạn thật sự thích tôi hả?
-- __Really? You really think I want to go out with you?__- __Really? Don't be ridiculous, there is nothing called "love at first sight"!__- __Really? He told you that he wanted to settle down?__
+
+- __Really? You really think I want to go out with you?__
+- __Really? Don't be ridiculous, there is nothing called "love at first sight"!__
+- __Really? He told you that he wanted to settle down?__
   {% endif %}

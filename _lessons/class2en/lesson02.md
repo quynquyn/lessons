@@ -55,4 +55,6 @@ __It drives me crazy / it gets on my nerves__
 {% include play.html identifier="explanation" start=66.88 stop=73.75 %}
 
 
-- __Absolutely.__- __Of course.__- __Sure.__
+- __Absolutely.__
+- __Of course.__
+- __Sure.__

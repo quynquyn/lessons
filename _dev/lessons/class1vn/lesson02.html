@@ -1,0 +1,1473 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/dev/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+    
+  
+       
+    </nav>
+    
+
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-2-verb-động-từ">Lesson 2: Verb <em>Động từ</em></h1>
+
+<h2>
+<audio src="https://englishletics.s3.amazonaws.com/audio/" id="audio_Verbs" preload="none"></audio>
+
+<div class="row">
+  <div class="col-12">
+    <span class="el-player-icon" id="play_Verbs" onclick="play('Verbs', '02', 'Verbs');">▶</span>
+    Vocabulary
+    <em>Từ vựng</em>
+  </div>
+</div>
+
+<div class="audiofile-info"></div>
+</h2>
+
+<h3 id="eyes-đôi-mắt">Eyes <em>Đôi mắt</em></h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-look-at.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 6.28, 8.03, 
+      '1-02', 'look at');">▷ <strong>look at</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nhìn</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-look-for.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 8.03, 10.21, 
+      '1-02', 'look for');">▷ <strong>look for</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tìm</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-watch.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 10.21, 11.78, 
+      '1-02', 'watch');">▷ <strong>watch</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>xem</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-see.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 11.78, 13.9, 
+      '1-02', 'see');">▷ <strong>see</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>thaấy</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-observe.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 13.9, 16.14, 
+      '1-02', 'observe');">▷ <strong>observe</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>quan sát</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-study.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 16.14, 18.09, 
+      '1-02', 'study');">▷ <strong>study</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>học</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-learn.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 18.09, 20.18, 
+      '1-02', 'learn');">▷ <strong>learn</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nghiên cứu</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-review.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 20.18, 22.25, 
+      '1-02', 'review');">▷ <strong>review</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ôn</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-check.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 22.25, 24.43, 
+      '1-02', 'check');">▷ <strong>check</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>kiểm tra</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-cry.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 24.43, 26.47, 
+      '1-02', 'cry');">▷ <strong>cry</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>khóc</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-sleep.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 26.47, 28.92, 
+      '1-02', 'sleep');">▷ <strong>sleep</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ngủ</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-dream.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 28.92, 30.93, 
+      '1-02', 'dream');">▷ <strong>dream</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>mơ</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="leg-chân">Leg <em>Chân</em></h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-chase.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 33.76, 35.4, 
+      '1-02', 'chase');">▷ <strong>chase</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>the đuổi</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-kick.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 35.4, 37.08, 
+      '1-02', 'kick');">▷ <strong>kick</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>đá</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-climb.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 37.08, 38.92, 
+      '1-02', 'climb');">▷ <strong>climb</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>leo</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-leave.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 38.92, 40.69, 
+      '1-02', 'leave');">▷ <strong>leave</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>bỏ lại</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-move.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 40.69, 42.71, 
+      '1-02', 'move');">▷ <strong>move</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>di chuyển</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-stand.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 42.71, 44.93, 
+      '1-02', 'stand');">▷ <strong>stand</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>đứng</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-sit.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 44.93, 46.49, 
+      '1-02', 'sit');">▷ <strong>sit</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ngồi</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-lie.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 46.49, 48.12, 
+      '1-02', 'lie');">▷ <strong>lie</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nằm</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-go.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 48.12, 50, 
+      '1-02', 'go');">▷ <strong>go</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>đi</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-walk.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 50, 52.15, 
+      '1-02', 'walk');">▷ <strong>walk</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>đi bộ</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-run.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 52.15, 54.07, 
+      '1-02', 'run');">▷ <strong>run</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>chạy</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-dance.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 54.07, 55.81, 
+      '1-02', 'dance');">▷ <strong>dance</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nhảy</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="mouth-miệng">Mouth <em>Miệng</em></h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-talk-to.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 58.13, 60.48, 
+      '1-02', 'talk to');">▷ <strong>talk to</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nói với</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-talk-about.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 60.48, 62.99, 
+      '1-02', 'talk about');">▷ <strong>talk about</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nói về</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-whisper.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 62.99, 64.85, 
+      '1-02', 'whisper');">▷ <strong>whisper</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>thì thầm</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-interview.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 64.85, 67.04, 
+      '1-02', 'interview');">▷ <strong>interview</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>phỏng vấn</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-eat.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 67.04, 69.14, 
+      '1-02', 'eat');">▷ <strong>eat</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ăn</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-drink.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 69.14, 71.21, 
+      '1-02', 'drink');">▷ <strong>drink</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>uống</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-lie-to.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 71.21, 73.68, 
+      '1-02', 'lie to');">▷ <strong>lie to</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nói dối với</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-smile.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 73.68, 75.72, 
+      '1-02', 'smile');">▷ <strong>smile</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>cười mỉm</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-laugh.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 75.72, 77.81, 
+      '1-02', 'laugh');">▷ <strong>laugh</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>cười thành tiếng</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-ask.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 77.81, 79.64, 
+      '1-02', 'ask');">▷ <strong>ask</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>hỏi</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-answer.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 79.64, 81.68, 
+      '1-02', 'answer');">▷ <strong>answer</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>trả lời</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="hand-bàn-tay">Hand <em>Bàn tay</em></h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-make-do.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 84.37, 87.3, 
+      '1-02', 'make / do');">▷ <strong>make / do</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tạo/ làm</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-paint-draw.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 87.3, 90.42, 
+      '1-02', 'paint / draw');">▷ <strong>paint / draw</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tô/ vẹ</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-hold-keep.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 90.42, 94.05, 
+      '1-02', 'hold / keep');">▷ <strong>hold / keep</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>giữ</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-pull-push.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 94.05, 97.91, 
+      '1-02', 'pull / push');">▷ <strong>pull / push</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>đẩy</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-use.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 97.91, 100.06, 
+      '1-02', 'use');">▷ <strong>use</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>dùng</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-play.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 100.06, 101.63, 
+      '1-02', 'play');">▷ <strong>play</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>chơi</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-throw.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 101.63, 103.84, 
+      '1-02', 'throw');">▷ <strong>throw</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>vứt</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-clean.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 103.84, 106.21, 
+      '1-02', 'clean');">▷ <strong>clean</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>dọn dẹp</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-ride-drive.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 106.21, 109.45, 
+      '1-02', 'ride / drive');">▷ <strong>ride / drive</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>lái xe</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-swim.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 109.45, 111.38, 
+      '1-02', 'swim');">▷ <strong>swim</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>bơi</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-choose.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 111.38, 113.24, 
+      '1-02', 'choose');">▷ <strong>choose</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>chọn</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-work.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Verbs" onclick="playat('Verbs', 113.24, 114.89, 
+      '1-02', 'work');">▷ <strong>work</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>làm việc</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2 id="dialogue-hội-thoại">Dialogue <em>Hội thoại</em></h2>
+
+<div>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L02-Native-Dialogue.mp3" id="audio_Native-Dialogue" preload="none"></audio>
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_Native-Dialogue" onclick="play('Native-Dialogue', '02', 'Native-Dialogue');">▶</span>
+  </div>
+</div>
+<div class="audiofile-info">C1L02-Native-Dialogue.mp3</div>
+</div>
+
+<h3 id="a1---i-chase-a-dog">A1. - I chase a dog.</h3>
+
+<ul>
+  <li><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',    4.55, 12.55,    'n/a', 'Native-Dialogue');">▷</strong>  <strong>Do you chase a horse?</strong></li>
+  <li><strong>No, I don’t chase a horse. I chase a dog.</strong></li>
+</ul>
+
+<p><em>A1. - Tôi đuổi theo một con chó.</em></p>
+
+<ul>
+  <li><em>Có phải bạn đuổi theo một con ngựa không?</em></li>
+  <li><em>Không. Tôi không đuổi theo một con ngựa. Tôi đuổi theo một con chó.</em></li>
+</ul>
+
+<h3 id="a2---i-look-at-a-teacher">A2. - I look at a teacher.</h3>
+
+<ul>
+  <li><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',    12.55, 20.11,    'n/a', 'Native-Dialogue');">▷</strong> <strong>Do you look for a teacher?</strong></li>
+  <li><strong>No, I don’t look for a teacher, I look at a teacher.</strong></li>
+</ul>
+
+<p><em>A2. - Tôi nhìn một giáo viên.</em></p>
+
+<ul>
+  <li><em>Bạn tìm kiếm một giáo viên hả?</em></li>
+  <li><em>Không, tôi không tìm kiếm một giáo viên. Tôi nhìn một giáo viên</em></li>
+</ul>
+
+<h3 id="b1---i-like-dolls">B1. - I like dolls.</h3>
+
+<ul>
+  <li><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',    20.11, 28.11,    'n/a', 'Native-Dialogue');">▷</strong> <strong>Do you like doors?</strong></li>
+  <li><strong>No, I don’t like doors. I like dolls.</strong></li>
+</ul>
+
+<p><em>B1. - Tôi thích búp bê.</em></p>
+
+<ul>
+  <li><em>Bạn có thích những cái cửa không?</em></li>
+  <li><em>Không, tôi không thích cửa. Tôi thích búp bê</em></li>
+</ul>
+
+<h3 id="b2----i-kick-a-chair">B2. -  I kick a chair.</h3>
+
+<ul>
+  <li><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',    28.11, 35.41,    'n/a', 'Native-Dialogue');">▷</strong> <strong>Do you kiss a chair?</strong></li>
+  <li><strong>No, I don’t kiss a chair. I kick it.</strong></li>
+</ul>
+
+<p><em>B2. - Tôi đá một cái ghế.</em></p>
+
+<ul>
+  <li><em>Bạn hôn một cái ghế hả?</em></li>
+  <li><em>Không, tôi không hôn cái ghế. Tôi đá nó.</em></li>
+</ul>
+
+<h3 id="c1----i-interview-doctors">C1. -  I interview doctors.</h3>
+
+<ul>
+  <li><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',    35.41, 44.11,    'n/a', 'Native-Dialogue');">▷</strong>  <strong>Do you interview teachers?</strong></li>
+  <li><strong>No. I don’t interview teachers. I interview doctors.</strong></li>
+</ul>
+
+<p><em>C1. - Tôi phỏng vấn bác sĩ.</em></p>
+
+<ul>
+  <li><em>Bạn phỏng vấn giáo viên hả?</em></li>
+  <li><em>Không, tôi không phỏng vấn giáo viên. Tôi phỏng vấn bác sĩ.</em></li>
+</ul>
+
+<h3 id="c2---i-talk-to-students">C2. - I talk to students.</h3>
+
+<ul>
+  <li><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',    44.11, 52.91,    'n/a', 'Native-Dialogue');">▷</strong> <strong>Do you talk about students?</strong></li>
+  <li><strong>No, I don’t talk about students? I talk to students.</strong></li>
+</ul>
+
+<p><em>C2. - Tôi nói chuyện với những học sinh.</em></p>
+
+<ul>
+  <li><em>Có phải bạn nói chuyện về những học sinh không?</em></li>
+  <li><em>Không. Tôi không nói về những người học sinh. Tôi nói chuyện với họ.</em></li>
+</ul>
+
+<h3 id="d1---i-see-planes">D1. - I see planes.</h3>
+
+<ul>
+  <li><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',    53.11, 60.31,    'n/a', 'Native-Dialogue');">▷</strong> <strong>Do you see some trains?</strong></li>
+  <li><strong>No,  don’t see any trains. I see some planes.</strong></li>
+</ul>
+
+<p><em>D1. - Tôi thấy những chiếc máy bay.</em></p>
+
+<ul>
+  <li><em>Có phải bạn thấy xe lửa?</em></li>
+  <li><em>Không, tôi không thấy xe lửa. Tôi thấy những chiếc máy bay.</em></li>
+</ul>
+
+<h3 id="d2---i-pull-a-door">D2. - I pull a door.</h3>
+
+<ul>
+  <li><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',    60.31, 67.41,    'n/a', 'Native-Dialogue');">▷</strong> <strong>Do you push a door?</strong></li>
+  <li><strong>No, I don’t push a door. I pull a door.</strong></li>
+</ul>
+
+<p><em>D2. - Tôi kéo một cái cửa.</em></p>
+
+<ul>
+  <li><em>Bạn đẩy một cái cửa phải không?</em></li>
+  <li><em>Không. Tôi không đẩy cái cửa. Tôi kéo nó.</em></li>
+</ul>
+
+<h3 id="e1---i-do-homework-everyday">E1. - I do homework everyday.</h3>
+
+<ul>
+  <li><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',    67.41, 76.81,    'n/a', 'Native-Dialogue');">▷</strong> <strong>Do you do housework everyday?</strong></li>
+  <li><strong>No. I don’t do housework everyday. I do homework everyday.</strong></li>
+</ul>
+
+<p><em>E1. - Tôi bài tập mỗi ngày.</em></p>
+
+<ul>
+  <li><em>Bạn làm việc nhà mỗi ngày hả?</em></li>
+  <li><em>Không, tôi không làm việc nhà mỗi ngày. Tôi làm bài tập về nhà mỗi ngày.</em></li>
+</ul>
+
+<h3 id="e2---i-lie-to-him">E2. - I lie to him.</h3>
+
+<ul>
+  <li><strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue',    77.11, 83.91,    'n/a', 'Native-Dialogue');">▷</strong> <strong>Do you lie next to him?</strong></li>
+  <li><strong>No, I don’t lie next to to him. I lie to him.</strong></li>
+</ul>
+
+<p><em>E2. - Tôi nói dối anh ấy.</em></p>
+
+<ul>
+  <li><em>Bạn nằm kế anh ta hả?</em></li>
+  <li><em>Không, tôi không nằm kế anh ta. Tôi nói dối anh ta.</em></li>
+</ul>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

@@ -62,10 +62,10 @@ lang: en
 ## Explanation
 ### 1. I have a runny nose and a bad headache.
 {% include play.html identifier="explanation" start=3.17 stop=19.57 %}
-Tôi bị chảy nước mũi và nhức đầu nặng 
+
 - __I have a massive headache and my stomach hurts.__ 
 - __My right ear hurts and I feel a sharp pain in it every time I yawn.__ 
-- __I have a cold so bad, I threw up at least 6 times today.__  
+- __I have a cold so bad, I threw up at least six times today.__  
 
 
 {% if site.trialdeploy %}
@@ -75,21 +75,21 @@ Tôi bị chảy nước mũi và nhức đầu nặng
 
 ### 2. That's too bad. Have you seen a doctor?
 {% include play.html identifier="explanation" start=20.96 stop=37.39 %}
-Thật là tệ quá. Bạn gặp gặp bác sĩ chưa?
+
 - __I'm so sorry to hear that. Have you been to a doctor?__ 
 - __That is horrible! Call the ambulance ASAP!__ 
 - __I can't believe she is sick. She probably ate something spoiled.__ 
 
 ### 3. You have a fever. Take some vitamin C and drink lots of water!
 {% include play.html identifier="explanation" start=38.69 stop=38.69 %}
-Bạn bị sốt. Hãy uống vitamin c và uống nhiều nước vào nhé
+
 - __You have a headache? Take a headache pill and try to get some rest!__ 
 - __Jane said she has a toothache. I told her to go to a dentist immediately.__ 
 - __Her nosebleed won't stop. Take her to a doctor immediately!__  
 
 ### 4. I hope you feel better soon. 
 {% include play.html identifier="explanation" start=59.23 stop=73.37 %}
-Hi vọng bạn cảm thấy tốt hơn
+
 - __I hope your headache subsides and you feel a lot better.__ 
 - __You'll feel better in no time. Trust me.__
 - __Don't worry, the nausea will wear off in an hour or two.__

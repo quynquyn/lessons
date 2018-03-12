@@ -62,7 +62,7 @@ lang: vn
 7.  {% include play.html identifier="examples2" start=38.11 stop=43.59 %}**It is strange but often a coke is more expensive than a beer.** *Nó hơi lạ nhưng mà một ly coca thì mắc tiền hơn một ly bia*
 8.  {% include play.html identifier="examples2" start=45.46 stop=48.41 %}**Who is the richest woman on earth?** *Ai là người phụ nữ giàu nhất thế giới?*
 9.  {% include play.html identifier="examples2" start=50.60 stop=54.92 %}**The weather this summer is even worse than last summer.** *Thời tiết mùa hè này thậm chí tệ hơn mùa hè năm ngoái*
-10.  {% include play.html identifier="examples2" start=56.47 stop=59.37 %}**He was the smartest thief of all** *Anh ta là tên cướp thông minh nhất.*
+10.  {% include play.html identifier="examples2" start=56.47 stop=59.37 %}**He was the smartest thief of all.** *Anh ta là tên cướp thông minh nhất.*
 
 
 ## 4. There is / There are *Có...*

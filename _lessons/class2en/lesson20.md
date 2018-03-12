@@ -60,7 +60,7 @@ lang: en
 ## Explanation
 ### 1. Did you do a lot of physical activity yesterday?
 {% include play.html identifier="explanation" start=3.20 stop=16.16 %}
-Hôm qua bạn có tập thể dục nhiểu không?
+
 - __You need to do more exercise.__ 
 - __She told me she only works out once a month.__ 
 - __Get plenty of exercise every week if you want a healthy body.__ 
@@ -73,14 +73,13 @@ Hôm qua bạn có tập thể dục nhiểu không?
 
 ### 2. You should eat more vegetables and fruits if you want to stay healthy. 
 {% include play.html identifier="explanation" start=17.57 stop=38.64 %}
-Bạn nên ăn nhiều rau và trái cây nếu bạn muốn khỏe mạnh 
+
 - __Sherry should stop eating all that junk food. She's pregnant after all.__ 
 - __You should sit straight. Your posture is really bad. You'll regret it when you're older.__ 
 - __You should stop drinking so much. Instead, maybe you should drink a healthy juice.__ 
 
 ### 3. I got more than 8 hours of sleep last night. 
 {% include play.html identifier="explanation" start=40.52 stop=58.52 %}
-Tôi có hơn 8 tiếng để ngủ tối qua 
 
 - __I got only 4 hours of sleep last night because my sister kept snoring.__
 - __I slept for only 2 hours last night because it was too hot in the house.__ 
@@ -88,14 +87,14 @@ Tôi có hơn 8 tiếng để ngủ tối qua
 
 ### 4. So what? One or two bad decisions won't ruin my life.
 {% include play.html identifier="explanation" start=59.44 stop=79.19 %}
-Vậy thì làm sao? Một hay hai quyết định sai không hủy hoại cuộc đời tôi
+
 - __So what if I eat plenty of junk food? I exercise once a week!__ 
 - __I don't get enough sleep. So what? It's not the end of the world.__ 
 - __So what if I sometimes eat chocolate? It's nice to treat yourself every now and then.__ 
 
 ### 5. Are you alright? You look a bit tired.
 {% include play.html identifier="explanation" start=80.51 stop=97.24 %}
-Bạn có sao không? Trông bạn hơi mệt
+
 - __Is Mary okay? She looks like she didn't sleep for two days.__ 
 - __You look sad. Is everything okay with you and Christopher?__ 
 - __Do you need help getting up the stairs? You look like you're about to faint.__   

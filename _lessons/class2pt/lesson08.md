@@ -61,7 +61,7 @@ lang: pt
 
 Estou um pouco nervoso. 
 
-**a bit**
+**a bit**   *um pouco*
 
 - **I am a bit tired.** *Estou um pouco cansado.*
 - **She's a bit selfish.** *Ela é um pouco egoísta.*
@@ -79,7 +79,7 @@ Infelizmente
 
 Parece ser um trabalho muito satisfatório.
 
-**seem** parecer
+**seem**   *parecer*
 
 - **She's 22, but she seems older.** *Ela tem 22 anos, mas parece mais velha.*
 - **She seemed happy this morning.** *Ela parecia feliz nesta manhã.*
@@ -89,7 +89,6 @@ Parece ser um trabalho muito satisfatório.
 
 Como é seu trabalho?
 
-
 - **What's the weather like?** *Como está o tempo?*
 - **What's the office like?** *Como é o escritório?*
 - **What's your boss like?** *Como é o seu chefe?*
@@ -98,7 +97,7 @@ Como é seu trabalho?
 
 É um trabalho bastante chato e repetitivo.
 
-**Quite**
+**quite**   *bastante*
 
 - **I'm quite tired.** *Estou bastante cansado.*
 - **My boss is quite attractive.** *Meu chefe é bastante atraente.*
