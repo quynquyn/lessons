@@ -6387,7 +6387,6 @@ section.el-lesson blockquote {
 section.el-lesson blockquote, section.el-lesson li {
   font-weight: 400; }
   section.el-lesson blockquote em, section.el-lesson li em {
-    padding-left: 20px;
     color: #666;
     font-weight: 400; }
   section.el-lesson blockquote strong, section.el-lesson li strong {
@@ -6406,6 +6405,8 @@ section.el-lesson .el-player-icon {
   cursor: pointer; }
 section.el-lesson .el-vocab-play {
   cursor: pointer; }
+section.el-lesson blockquote em, section.el-lesson li em, section.el-lesson h1 em, section.el-lesson h2 em, section.el-lesson h3 em, section.el-lesson h4 em {
+  padding-left: 20px; }
 
 .audiofile-info {
   color: blue;
