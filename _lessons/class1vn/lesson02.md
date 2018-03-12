@@ -59,7 +59,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 
 {% include player2.html identifier="Native-Dialogue" class=page.class lesson=page.lesson %}
 
-### A1. - I chase a dog.
+### EE A1. - I chase a dog.
 
 - {% include play.html identifier="Native-Dialogue" start=4.55 stop=12.55 %}  **Do you chase a horse?**
 - **No, I don’t chase a horse. I chase a dog.**
