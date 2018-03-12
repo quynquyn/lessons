@@ -1,5 +1,5 @@
-baseurl: /premium
-port: 4000
+baseurl: /dev
+port: 4044
 destination: ./_dev
 github: [metadata]
 encoding: UTF-8
