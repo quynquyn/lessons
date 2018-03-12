@@ -1,16 +1,13 @@
 {% capture file %}C{{include.class}}L{{include.lesson}}-{{include.identifier}}.mp3{% endcapture %}
-
+<div>
 <audio src="https://englishletics.s3.amazonaws.com/audio/{{ file }}" id="audio_{{ include.identifier }}" preload="none"></audio>
-
 <div class="row">
   <div class="col-1">
     <span class="el-player-icon" id="play_{{ include.identifier }}" onclick="play('{{ include.identifier }}', '{{ include.lesson }}', '{{ include.identifier }}');">▶</span>
   </div>
 </div>
-
 <div class="audiofile-info">{{ file }}</div>
-
-
+</div>
 {% comment %}
 https://stackoverflow.com/questions/22885702/html-for-the-pause-symbol-in-a-video-control
 
@@ -19,4 +16,3 @@ https://englishletics.s3.amazonaws.com/audio/
 For local:
 {{site.baseurl}}/lessons/class2/recordings/
 {% endcomment %}
-

@@ -1,0 +1,39 @@
+baseurl: /premium
+port: 4000
+destination: ./_site
+github: [metadata]
+encoding: UTF-8
+kramdown:
+ input: GFM
+ hard_wrap: false
+future: true
+jailed: false
+gfm_quirks: paragraph_end
+collections:
+  lessons:
+    output: true
+  pages:
+    output: true
+include: ['.htaccess']
+exclude: [not-in-git, node_modules, artwork, csv_to_html]
+trialdeploy: false
+upgrade_pt: https://get.englishletics.com/
+upgrade_vn: https://get.englishletics.com/nguoi-su-dung-phien-ban-cao-cap-hoc-tieng-anh-nhanh-va-hieu-qua-hon/?lang=vi
+upgrade_en: https://get.englishletics.com/people-going-premium-learn-english-faster-and-better/
+
+
+page_gen:
+  - index_files: false
+    data: api 
+    template: api_free
+    name: current_lesson_compound
+    dir: api_free
+    extension: json
+  - index_files: false
+    data: api 
+    template: api_premium
+    name: current_lesson_compound
+    dir: api_premium
+    extension: json
+
+

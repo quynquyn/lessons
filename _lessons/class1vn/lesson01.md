@@ -145,12 +145,13 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=95 stop=102 %}
 
- ### A. What do you choose?   *Bạn chọn gì?*
+### A. What do you choose?   *Bạn chọn gì?*
 
 - **I choose happiness. How about you?**   *Tôi chọn hạnh phúc. Còn bạn?*
 - **I choose money.**   *Tôi chọn tiền*  
 
-{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=103 stop=110 %} ### B. What do you like?   *Bạn thích gì?*
+{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=103 stop=110 %}
+### B. What do you like?   *Bạn thích gì?*
 
 - **I like strawberries. How about you?**   *Tôi thích dâu. Còn bạn*
 - **I like bananas.**   *Tôi thích chuối*
@@ -167,68 +168,33 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 - **I have some markers. How about you?**   *Tôi có vài cây bút lông. Còn bạn?*
 - **I have some pencils.**   *Tôi có vài cây bút chì*
 
-### E. What do you want?
+### E. What do you want?   *Bạn muốn gì?*
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=124 stop=130 %} 
 
-- **I want water. And you?**
-- **I want tea.**
+- **I want water. And you?**   *Tôi muốn nước. Còn bạn?*
+- **I want tea.**   *Tôi muốn trà*
 
-*Bạn muốn gì?*
-
-- *Tôi muốn nước. Còn bạn?*
-- *Tôi muốn trà*
-
-### F. What do you hate?
+### F. What do you hate?   *Bạn ghét gì?*
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=130 stop=137 %} 
+- **I hate crocodiles. How about you?**   *Tôi ghét cá sấu. Còn bạn?*
+- **I hate snakes.**   *Tôi ghét rắn.*
 
-- **I hate crocodiles. How about you?**
-- **I hate snakes.**
-
-*Bạn ghét gì?*
-
-- *Tôi ghét cá sấu. Còn bạn?*
-- *Tôi ghét rắn.*
-
-### G. What do you look for?
+### G. What do you look for?   *Bạn tìm gì?*
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=137 stop=143 %} 
+- **I look for a pen. And you?**   *Tôi tìm cây bút. Còn bạn?*
+- **I look for some milk.**   *Tôi tìm một ít sữa.*
 
-- **I look for a pen. And you?**
-- **I look for some milk.**
-
-*Bạn tìm gì?*
-
-- *Tôi tìm cây bút. Còn bạn?*
-- *Tôi tìm một ít sữa.*
-
-### H. What do you look at?
+### H. What do you look at?   *Bạn nhìn gì vậy?*
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=143 stop=150 %} 
+- **I look at a tiger. What about you?**   *Tôi nhìn một con hổ. Còn bạn?*
+- **I look at bears.**   *Tôi nhìn những con gấu.*
 
-- **I look at a tiger. What about you?**
-- **I look at bears.**
-
-*Bạn nhìn gì vậy?*
-
-- *Tôi nhìn một con hổ. Còn bạn?*
-- *Tôi nhìn những con gấu.*
-
-### I. What do you observe?
+### I. What do you observe?   *Bạn quan sát gì?*
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=150 stop=158 %} 
+- **I observe planes and birds. What about you?**   *Tôi quan sát những chiếc máy bay và những con chim. Còn bạn?*
+- **I observe cars and giraffes.**   *Tôi quan sát những chiếc xe hơi và những con hươu cao cổ.*
 
-- **I observe planes and birds. What about you?**
-- **I observe cars and giraffes.**
-
-*Bạn quan sát gì?*
-
-- *Tôi quan sát những chiếc máy bay và những con chim. Còn bạn?*
-- *Tôi quan sát những chiếc xe hơi và những con hươu cao cổ.*
-
-### J. What do you study?
+### J. What do you study?   *Bạn học gì?*
 {% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=158 stop=666 %} 
-
-- **I study English. How about you?**
-- **I study Vietnamese.**
-
-*Bạn học gì?*
-
-- *Tôi học Tiếng Anh. Còn bạn?*
-- *Tôi học Tiếng Việt*
+- **I study English. How about you?**   *Tôi học Tiếng Anh. Còn bạn?*
+- **I study Vietnamese.**   *Tôi học Tiếng Việt*
