@@ -1,0 +1,25 @@
+{
+  "set_attributes":
+    {
+      "el-last-url": "https://englishletics.github.io/premium/lessons/class1vn/lesson02.html",
+      "el-lessonid": "3"
+    },
+  "messages": [
+    {
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "Bạn có thích bài học về các loài động vật không? Giờ chúng ta đến với phần động từ nhé.",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://englishletics.github.io/premium/lessons/class1vn/lesson02.html",
+              "title": "Open Lesson"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

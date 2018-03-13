@@ -1,0 +1,25 @@
+{
+  "set_attributes":
+    {
+      "el-last-url": "https://englishletics.github.io/premium/lessons/class2pt/lesson09.html",
+      "el-lessonid": "10"
+    },
+  "messages": [
+    {
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "Você dominou a lição anterior sobre o trabalho? Hoje, vamos fazer compras!",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://englishletics.github.io/premium/lessons/class2pt/lesson09.html",
+              "title": "Open Lesson"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

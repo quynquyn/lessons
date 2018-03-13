@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/dev/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+    
+  
+       
+    </nav>
+    
+
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-118-review-2">Lesson 1.18: Review 2</h1>
+
+<div>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L18-who.mp3" id="audio_who" preload="none"></audio>
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_who" onclick="play('who', '18', 'who');">▶</span>
+  </div>
+</div>
+<div class="audiofile-info">C1L18-who.mp3</div>
+</div>
+
+<h2 id="who">Who</h2>
+<ol>
+  <li><strong>Who is tall in your class?</strong> <em>Quem é alto em sua classe?</em></li>
+  <li><strong>Who is important in a company?</strong> <em>Quem é importante em uma empresa?</em></li>
+  <li><strong>Who is the richest man in the world?</strong> <em>Quem é o homem mais rico do mundo?</em></li>
+  <li><strong>Who is the most beautiful girl you’ve ever met?</strong> <em>Quem é a garota mais linda que já conheceu?</em></li>
+  <li><strong>Who do you want to talk to?</strong> <em>Com quem voce quer falar?</em></li>
+  <li><strong>Who do you try to become?</strong> <em>Em quem você tenta se tornar?</em></li>
+  <li><strong>Who does your teacher want to discuss the problem with?</strong> <em>Com quem seu mestre quer discutir o problema?</em></li>
+  <li><strong>Who does your mother miss?</strong> <em>De quem a sua mãe sente saudades?</em></li>
+  <li><strong>Who does the kid want to draw?</strong> <em>Quem a criança quer desenhar?</em></li>
+  <li><strong>Who does your friend want to get married to?</strong> <em>Com quem seu amigo quer se casar?</em></li>
+  <li><strong>Who did the businessman argue with?</strong> <em>Com quem o empresário briga?</em></li>
+  <li><strong>Who did the priest pray for?</strong> <em>Para quem rezou o padre?</em></li>
+  <li><strong>Who did the nurse want to keep in touch with?</strong> <em>Com quem a enfermeira queria manter contato?</em></li>
+  <li><strong>Who did the policeman catch?</strong> *Quem o policial apanhou?</li>
+  <li><strong>Who won the first prize in the competition?</strong> <em>Quem ganhou o primeiro prêmio na competição?</em></li>
+  <li><strong>Who passed the exam?</strong> <em>Quem passou no exame?</em></li>
+  <li><strong>Who failed the exam in your class?</strong> <em>Quem falhou no exame em sua classe?</em></li>
+  <li><strong>Who lost money yesterday?</strong> <em>Quem perdeu dinheiro ontem?</em></li>
+  <li><strong>Who didn’t do their homework?</strong> <em>Quem não fez seu dever de casa?</em></li>
+  <li><strong>Who called you every day?</strong> <em>Quem te chamou todos os dias?</em></li>
+  <li><strong>Who is wearing a dress in your class?</strong> <em>Quem usa um vestido na sua classe?</em></li>
+  <li><strong>Who is wearing glasses in your class?</strong> <em>Quem usa óculos na sua classe?</em></li>
+  <li><strong>Who are you going to agree with?</strong> <em>Com quem você vai concordar?</em></li>
+</ol>
+
+<div>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L18-where.mp3" id="audio_where" preload="none"></audio>
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_where" onclick="play('where', '18', 'where');">▶</span>
+  </div>
+</div>
+<div class="audiofile-info">C1L18-where.mp3</div>
+</div>
+
+<h2 id="where">Where</h2>
+<ol>
+  <li><strong>Where is your teacher?</strong> <em>Onde está seu mestre?</em></li>
+  <li><strong>Where is your bag?</strong> <em>Onde está sua bolsa?</em></li>
+  <li><strong>Where is the Ben Thanh market?</strong> <em>Onde está o mercado Ben Thanh?</em></li>
+  <li><strong>Where is his house?</strong> <em>Onde está a sua casa?</em></li>
+  <li><strong>Where is DongNai province?</strong> <em>Onde está a província de Dong Nai?</em></li>
+  <li><strong>Where are your books?</strong> <em>Onde estão seus livros?</em></li>
+  <li><strong>Where do you read books?</strong> <em>Onde você lê livros?</em></li>
+  <li><strong>Where do you buy new shoes?</strong> <em>Onde você compra sapatos novos?</em></li>
+  <li><strong>Where do you watch a movie?</strong> <em>Onde você assiste a um filme?</em></li>
+  <li><strong>Where does your mother usually go shopping?</strong> <em>Onde sua mãe geralmente faz compras?</em></li>
+  <li><strong>Where does your brother hang out with his friends?</strong> <em>Onde seu irmão sai com seus amigos?</em></li>
+  <li><strong>Where did the doctor catch the mouse?</strong> <em>Onde o médico apanhou o rato?</em></li>
+  <li><strong>Where did the reporter sleep last night?</strong> <em>Onde o repórter dormiu ontem à noite?</em></li>
+  <li><strong>Where did your father first meet your mother?</strong> <em>Onde seu pai conheceu sua mãe pela primeira vez?</em></li>
+  <li><strong>Where did you buy that shirt?</strong> <em>Onde você comprou essa camisa?</em></li>
+  <li><strong>Where are you going?</strong> <em>Para onde você vai?</em></li>
+  <li><strong>Where are you going to go after class?</strong> <em>Onde você vai depois da aula?</em></li>
+  <li><strong>Where will you go fishing?</strong> <em>Onde você vai pescar?</em></li>
+</ol>
+
+<div>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L18-when.mp3" id="audio_when" preload="none"></audio>
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_when" onclick="play('when', '18', 'when');">▶</span>
+  </div>
+</div>
+<div class="audiofile-info">C1L18-when.mp3</div>
+</div>
+
+<h2 id="when">When</h2>
+<ol>
+  <li><strong>When is Valentine’s Day?</strong> <em>Quando é o Dia dos Namorados?</em></li>
+  <li><strong>When is Halloween?</strong> <em>Quando é o Halloween?</em></li>
+  <li><strong>When is your birthday?</strong> <em>Quando é seu aniversário?</em></li>
+  <li><strong>When is your best friend’s birthday?</strong> <em>Quando é o aniversário do seu melhor amigo?</em></li>
+  <li><strong>When are you free?</strong> <em>Quando você tem livre?</em></li>
+  <li><strong>When do you need to borrow his motorbike?</strong> <em>Quando você precisa pedir emprestado sua moto?</em></li>
+  <li><strong>When do you intend to invest in the business?</strong> <em>Quando você pretende investir no negócio?</em></li>
+  <li><strong>When does your mother usually get up?</strong> <em>Quando sua mãe geralmente se levanta?</em></li>
+  <li><strong>When did you first ride a bicycle?</strong> <em>Quando você começou a andar de bicicleta?</em></li>
+  <li><strong>When did you first study English?</strong> <em>Quando você começou a estudar inglês?</em></li>
+  <li><strong>When did you first fall in love?</strong> <em>Quando você se enamorou pela primeira vez?</em></li>
+  <li><strong>When did you first meet her?</strong> <em>Quando você a conheceu pela primeira vez?</em></li>
+  <li><strong>When did you get up this morning?</strong> <em>Quando você se levantou esta manhã?</em></li>
+</ol>
+
+<div>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L18-yesnoquestions.mp3" id="audio_yesnoquestions" preload="none"></audio>
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_yesnoquestions" onclick="play('yesnoquestions', '18', 'yesnoquestions');">▶</span>
+  </div>
+</div>
+<div class="audiofile-info">C1L18-yesnoquestions.mp3</div>
+</div>
+
+<h2 id="yes--no-questions">Yes / No questions</h2>
+
+<h3 id="example-of-yes--no-questions-with-simple-past-tense-and-simple-present-tense">Example of Yes / No questions with Simple Past Tense and Simple Present Tense</h3>
+
+<ol>
+  <li><strong>Did your mother get sick yesterday?</strong></li>
+  <li><strong>Did you forget to bring the glasses?</strong></li>
+  <li><strong>Was your first day of school fun?</strong></li>
+  <li><strong>Did Jonathan get home last night?</strong></li>
+  <li><strong>Were you tired yesterday?</strong></li>
+  <li><strong>Did you spend your holidays with family?</strong></li>
+  <li><strong>Were you happy when you heard your sister won the lottery?</strong></li>
+  <li><strong>Do your dogs bite strangers?</strong></li>
+  <li><strong>Does your wife like red wine?</strong></li>
+  <li><strong>Do your parents allow you to smoke?</strong></li>
+  <li><strong>Does the moon reflect the light of the sun?</strong></li>
+  <li><strong>Is she your friend?</strong></li>
+  <li><strong>Are you going to the airport?</strong></li>
+  <li><strong>Do you like this cinema?</strong></li>
+  <li><strong>Do you want to become a baker?</strong></li>
+  <li><strong>Will you go to this school when you’re older?</strong></li>
+  <li><strong>Do you think this restaurant has good food?</strong></li>
+  <li><strong>Are we going to sit down in the park?</strong></li>
+  <li><strong>May I lean against this wall?</strong></li>
+  <li><strong>Are you walking to the drugstore? Can you buy me some headache pills?</strong></li>
+  <li><strong>Is Mary going to go to the supermarket?</strong></li>
+  <li><strong>Will she stop looking at me?</strong></li>
+  <li><strong>Are you working at the factory this weekend?</strong></li>
+  <li><strong>Is Melody looking for milk in a bookstore?</strong></li>
+  <li><strong>Will she realize that she is wrong?</strong></li>
+  <li><strong>Do you want to be a farmer when you grow up?</strong></li>
+  <li><strong>Does that singer sound good to you?</strong></li>
+  <li><strong>Did the mechanic fix your car?</strong></li>
+  <li><strong>Did your favorite athlete win the gold medal?</strong></li>
+  <li><strong>Are you going to get married in July?</strong></li>
+  <li><strong>Does the hairdresser work on Sundays?</strong></li>
+  <li><strong>Will you pilot the airplane if Mary can’t?</strong></li>
+  <li><strong>Is the waitress bringing our drinks?</strong></li>
+  <li><strong>Did he wish you a good morning?</strong></li>
+  <li><strong>Do you hate Mondays as much as I do?</strong></li>
+  <li><strong>Will they bring us the menu or do we need to ask for it?</strong></li>
+  <li><strong>Is my hair messy?</strong></li>
+  <li><strong>Are the students going to plan the party?</strong></li>
+  <li><strong>Are the teachers bothering the students?</strong></li>
+  <li><strong>Is there an easy way to learn a language?</strong></li>
+</ol>
+
+<div>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L18-conversation.mp3" id="audio_conversation" preload="none"></audio>
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_conversation" onclick="play('conversation', '18', 'conversation');">▶</span>
+  </div>
+</div>
+<div class="audiofile-info">C1L18-conversation.mp3</div>
+</div>
+
+<h2 id="conversation">Conversation</h2>
+<blockquote>
+  <p>Person 1: <strong>Does the cinema in the centre of the city play good movies?</strong><br />
+Person 2: <strong>I think so. We went there last week and they had over 5 movies playing at once!</strong><br />
+P1: <strong>That sounds cool. My cousin is visiting us this weekend and I don’t know where to take her.</strong><br />
+P2: <strong>I’m going to play a game of paintball this weekend. Would you and your cousin like to join?</strong><br />
+P1: <strong>That sounds really cool! But I think she probably won’t like it.</strong><br />
+P2: <strong>That’s a shame. Will you ask her?</strong><br />
+P1: <strong>Of course. I will let you know what she says.</strong><br />
+P2: <strong>Cool. I have to go now. I’m teaching German to a friend.</strong><br />
+P1: <strong>Alright. Good luck!</strong><br />
+P2: <strong>Thanks! I think I’ll need it…</strong></p>
+</blockquote>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

@@ -11,13 +11,12 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 ---
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="Verbs"  init=true
+	identifier="Words"  init=true
 	title="Lesson 1.3: Noun + verb (what + do)"        
 	translation="Danh từ + động từ (cái gì + làm gì)"
     tag="h1" %}
 
 ## Vocabulary *Từ vựng*
-{% include player2.html identifier="Words" class=page.class lesson=page.lesson %}
 
 
 ### Verbs *Động từ*
