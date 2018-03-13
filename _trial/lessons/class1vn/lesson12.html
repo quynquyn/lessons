@@ -1,0 +1,987 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/daily/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+      <span class="navbar-text offer">
+        
+        
+          Phiên bản dùng thử
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/nguoi-su-dung-phien-ban-cao-cap-hoc-tieng-anh-nhanh-va-hieu-qua-hon/?lang=vi">Nâng cấp!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { background-color: #ddd;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-112-where-ở-đâu">Lesson 1.12: Where <em>Ở đâu</em></h1>
+
+<h2 id="vocabulary-từ-vựng">Vocabulary <em>Từ vựng</em></h2>
+
+<div>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L12-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '12', 'vocabulary');">▶</span>
+  </div>
+</div>
+<div class="audiofile-info">C1L12-vocabulary.mp3</div>
+</div>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l12-airport.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 32.04, 17.15, 
+      '1-12', 'airport');">▷ <strong>airport</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>sân bay</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l12-bakery.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 17.15, 19.3, 
+      '1-12', 'bakery');">▷ <strong>bakery</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>lò bánh</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l12-bank.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 24.33, 13.56, 
+      '1-12', 'bank');">▷ <strong>bank</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ngân hàng</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l12-beach.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 13.56, 15.31, 
+      '1-12', 'beach');">▷ <strong>beach</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>bãi biển</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l12-bookstore.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 48.29, 35.53, 
+      '1-12', 'bookstore');">▷ <strong>bookstore</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>hiệu sách</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/images/class1/c1l12-bus-stop.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 35.53, 22.85, 
+      '1-12', 'bus stop');">▷ <strong>bus stop</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>trạm dừng xe buýt</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/daily/lessons/images/class1/c1l12-church.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 22.85, 24.33, 
+      '1-12', 'church');">▷ <strong>church</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nhà thờ</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/images/class1/c1l12-cinema.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 11.57, 13.56, 
+      '1-12', 'cinema');">▷ <strong>cinema</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>rạp phim</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 41.16, 15.31, 
+      '1-12', 'clothes store');">▷ <strong>clothes store</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 15.31, 17.15, 
+      '1-12', 'coffee shop');">▷ <strong>coffee shop</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 38.93, 30.04, 
+      '1-12', 'drugstore');">▷ <strong>drugstore</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 30.04, 57.84, 
+      '1-12', 'factory');">▷ <strong>factory</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 57.84, 54.12, 
+      '1-12', 'fridge');">▷ <strong>fridge</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 54.12, 62.1, 
+      '1-12', 'ground');">▷ <strong>ground</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 62.1, 56.17, 
+      '1-12', 'hair salon');">▷ <strong>hair salon</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row6"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 56.17, 26.44, 
+      '1-12', 'hand');">▷ <strong>hand</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 26.44, 33.84, 
+      '1-12', 'hospital');">▷ <strong>hospital</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 33.84, 43.45, 
+      '1-12', 'hotel');">▷ <strong>hotel</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row7"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 43.45, 66.24, 
+      '1-12', 'kitchen');">▷ <strong>kitchen</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 66.24, 68.22, 
+      '1-12', 'library');">▷ <strong>library</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 50.4, 46.65, 
+      '1-12', 'museum');">▷ <strong>museum</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row8"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 46.65, 64, 
+      '1-12', 'park');">▷ <strong>park</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 64, 21.03, 
+      '1-12', 'post office');">▷ <strong>post office</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 21.03, 22.85, 
+      '1-12', 'restaurant');">▷ <strong>restaurant</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row9"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 19.3, 21.03, 
+      '1-12', 'school');">▷ <strong>school</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 9.9, 11.57, 
+      '1-12', 'shoe shop');">▷ <strong>shoe shop</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 37.26, 28.17, 
+      '1-12', 'street');">▷ <strong>street</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row10"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 28.17, 51.94, 
+      '1-12', 'supermarket');">▷ <strong>supermarket</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 51.94, 59.8, 
+      '1-12', 'swimming pool');">▷ <strong>swimming pool</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 59.8, 45.12, 
+      '1-12', 'trash can');">▷ <strong>trash can</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row11"><td class="col1">
+  
+    <img src="/daily/lessons/premium_only.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 45.12, 21.56, 
+      '1-12', 'wall');">▷ <strong>wall</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2 id="1-where-ở-đâu">1. Where <em>Ở đâu</em></h2>
+
+<div>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L12-examples2.mp3" id="audio_examples2" preload="none"></audio>
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples2" onclick="play('examples2', '12', 'examples2');">▶</span>
+  </div>
+</div>
+<div class="audiofile-info">C1L12-examples2.mp3</div>
+</div>
+
+<ol>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  5.04, 10.1,  'n/a', 'examples2');">▷</strong> <strong>Where is the restroom?</strong> - <strong>The restroom is upstairs.</strong> 
+<em>Nhà vệ sinh ở đâu?</em> - <em>Nhà vệ sinh ở trên lầu.</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  10.2, 16.3,  'n/a', 'examples2');">▷</strong> <strong>Where is it?</strong> - <strong>It’s in the classroom.</strong>
+<em>Nó ở đâu?</em> - <em>Nó ở trong phòng học.</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  16.4, 21.7,  'n/a', 'examples2');">▷</strong> <strong>Where are my cats?</strong> - <strong>Your cats are under the tables.</strong>
+<em>Những con mèo của tôi đâu?</em> - <em>Mèo của bạn ở dưới bàn.</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  21.7, 27.9,  'n/a', 'examples2');">▷</strong> <strong>Where are John and Jack?</strong>- <strong>They are behind the door.</strong>
+<em>John và Jack đang ở đâu?</em> - <em>Họ ở sau cánh cửa.</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  28.1, 34.7,  'n/a', 'examples2');">▷</strong> <strong>Where is the restaurant?</strong>- <strong>The restaurant is across from the park.</strong>
+<em>Nhà hàng ở đâu?</em> - <em>Nhà hàng ở bên kia công viên.</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  34.7, 43.1,  'n/a', 'examples2');">▷</strong> <strong>Where is the library?</strong> - <strong>The library is between the post office and the hair salon.</strong>
+<em>Thư viện ở đâu?</em> - <em>Thư viện ở giữa bưu điện và tiệm cắt tóc.</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  43.1, 49.6,  'n/a', 'examples2');">▷</strong> <strong>Where is the supermarket?</strong> - <strong>The supermarket is far from here.</strong>
+<em>Siêu thị ở đâu?</em> - <em>Siêu thị thì rất xa ở đây.</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  49.6, 55.1,  'n/a', 'examples2');">▷</strong> <strong>Where is the boy?</strong>- <strong>The boy is among the girls.</strong>
+<em>Chàng trai ở đâu?</em> - <em>Chàng trai ở giữa những cô gái.</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  55.5, 61.8,  'n/a', 'examples2');">▷</strong> <strong>Where is my key?</strong>- <strong>The key is in your hand.</strong>
+<em>Chìa khóa của tôi đâu?</em> - <em>Chìa khóa trong tay bạn.</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',      62.1, 68.3,      'n/a', 'examples2');">▷</strong> <strong>Where is the birthday cake?</strong> - <strong>It is in the fridge.</strong>
+<em>Cái bánh sinh nhật đâu?</em> - <em>Nó ở trong tủ lạnh.</em></li>
+</ol>
+
+<h2 id="2-where-ở-đâu">2. Where <em>Ở đâu</em></h2>
+
+<div>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L12-examples1.mp3" id="audio_examples1" preload="none"></audio>
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples1" onclick="play('examples1', '12', 'examples1');">▶</span>
+  </div>
+</div>
+<div class="audiofile-info">C1L12-examples1.mp3</div>
+</div>
+
+<ol>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   3.1, 14.5,   'n/a', 'examples1');">▷</strong> <strong>Where do you usually go on your vacation, Robert?</strong>
+    <ul>
+      <li><strong>I usually go to Canada.</strong>  <br />
+<em>Bạn thường đi nghỉ ở đâu, Robert?</em>  <br />
+<em>Tôi thường đi Canada.</em></li>
+    </ul>
+  </li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   14.5, 24.3,   'n/a', 'examples1');">▷</strong> <strong>Where do you usually buy clothes?</strong>
+    <ul>
+      <li><strong>I usually shop on the Internet.</strong>
+<em>Bạn thường mua quần áo ở đâu?</em>
+<em>Tôi thường mua sắm trên mạng.</em></li>
+    </ul>
+  </li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   24.3, 32.3,   'n/a', 'examples1');">▷</strong> <strong>Where do you usually go on the weekends?</strong>
+    <ul>
+      <li><strong>I usually stay home.</strong>   <br />
+<em>Bạn thường đi đâu cuối tuần?</em>   <br />
+<em>Tôi thường ở nhà.</em></li>
+    </ul>
+  </li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   32.3, 42.3,   'n/a', 'examples1');">▷</strong> <strong>Where does your mother usually buy bread and cake?</strong>
+    <ul>
+      <li><strong>She always buys bread and cake at the bakery.</strong>    <br />
+<em>Mẹ bạn thường mua bánh mì và bánh ở đâu?</em>   <br />
+<em>Bà ấy thường mua bánh mì và bánh tại tiệm bánh.</em></li>
+    </ul>
+  </li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   42.3, 51.3,   'n/a', 'examples1');">▷</strong> <strong>Where does your friend often borrow books?</strong>
+    <ul>
+      <li><strong>She usually borrows books at the library.</strong>   <br />
+<em>Bạn của bạn thường mượn sách ở đâu?</em>    <br />
+<em>Cô ấy thường mượn sách tại thư viện</em></li>
+    </ul>
+  </li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   51.3, 61.3,   'n/a', 'examples1');">▷</strong> <strong>Where does the actor want to hold his wedding ceremony?</strong>
+    <ul>
+      <li><strong>He wants to hold his wedding ceremony at a church.</strong>    <br />
+<em>Người diễn viên muốn tổ chức đám cưới ở đâu?</em>
+<em>Anh ta muốn tổ chức đám cưới tại nhà thờ.</em></li>
+    </ul>
+  </li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   61.3, 77.3,   'n/a', 'examples1');">▷</strong> <strong>Where do your parents often celebrate their wedding anniversary?</strong>
+    <ul>
+      <li><strong>They always celebrate their wedding anniversary at home but sometimes they want to celebrate it at a fancy restaurant.</strong>
+<em>Ba mẹ của bạn thường tổ chức kỉ niệm ngày cưới ở đâu?</em>  <br />
+<em>Họ luôn tổ chức kỉ niệm ngày cưới ở nhà nhưng thỉnh thoảng họ muốn tổ chức tại một nhà hàng sang trọng.</em></li>
+    </ul>
+  </li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   77.3, 84.3,   'n/a', 'examples1');">▷</strong> <strong>Where does the singer keep his money?</strong>
+    <ul>
+      <li><strong>He keeps it in a bank.</strong>
+<em>Người ca sĩ cất tiền ở đâu?</em>
+<em>Anh ta cất tiền trong ngân hàng.</em></li>
+    </ul>
+  </li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   84.3, 91.3,   'n/a', 'examples1');">▷</strong> <strong>Where does your uncle want to travel to?</strong>
+    <ul>
+      <li><strong>He wants to travel to Europe.</strong>
+<em>Bác của bạn muốn du lịch tới đâu?</em>
+<em>Ông ấy muốn đi du lịch tới Châu Âu.</em></li>
+    </ul>
+  </li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',  91.3, 98.6,  'n/a', 'examples1');">▷</strong> <strong>Where do you need to meet him?</strong>
+    <ul>
+      <li><strong>I need to meet him at a coffee shop.</strong>
+<em>Bạn cần gặp anh ấy ở đâu?</em>
+<em>Tôi cần gặp anh ấy tại quán cà phê.</em></li>
+    </ul>
+  </li>
+</ol>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

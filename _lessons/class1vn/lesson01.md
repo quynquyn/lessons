@@ -21,7 +21,12 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 ## Vocabulary   *Từ vựng*
 
-### Animals   *Động vật*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Animals"  init=false start=5 stop=37
+	title="Animals"        
+	translation="Động vật"
+    tag="h3" %}
+ 
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -178,14 +183,15 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 7. **I love English.**   *Tôi thích Tiếng Anh*
 
 
+## 3. More examples *Ví dụ thêm*
+
+
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Dialogue"  init=false start=95 stop=102 
-	title="3. More examples"        
-	translation="Ví dụ thêm"
-    tag="h2" %}
+	title="A. What do you choose?"        
+	translation="Bạn chọn gì?"
+    tag="h3" %}
 
-
-### A. What do you choose?   *Bạn chọn gì?*
 
 - **I choose happiness. How about you?**   *Tôi chọn hạnh phúc. Còn bạn?*
 - **I choose money.**   *Tôi chọn tiền*  

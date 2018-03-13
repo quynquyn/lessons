@@ -10,6 +10,12 @@ attr:
 salestext: "Free Premium Version (3 days left)"
 ---
 
+{%  include voice.html attr=page.attr   
+	identifier="Vocabulary"  init=true
+	title="Lesson 2.1: Hobbies"        
+    tag="h1" %}
+
+
 # lesson 2.1: Hobbies 
 
 ## Vocabulary

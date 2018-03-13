@@ -10,7 +10,10 @@ attr:
 salestext: "Free Premium Version (2 days left)"
 ---
 
-# Lesson 2: What I hate 
+{%  include voice.html attr=page.attr   
+	identifier="Vocabulary"  init=true
+	title="Lesson 2.2: What I hate"        
+    tag="h1" %}
 
 
 ## Vocabulary

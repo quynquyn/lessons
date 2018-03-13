@@ -9,7 +9,11 @@ attr:
   lang: en
 ---
 
-# Lesson 2.10: Friendship
+{%  include voice.html attr=page.attr   
+	identifier="Vocabulary"  init=true
+	title="Lesson 2.10: Friendship"        
+    tag="h1" %}
+
 
 ## Vocabulary
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %} 

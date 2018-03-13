@@ -9,13 +9,10 @@ attr:
   lang: en
 ---
 
-# Lesson 2.5: Family
-
-{% include player.html identifier="vocabulary" lesson="C2L05" file="C2L05-Vocabulary.mp3" %}
-
-
-
-
+{%  include voice.html attr=page.attr   
+	identifier="Vocabulary"  init=true
+	title="Lesson 2.5: Family"        
+    tag="h1" %}
 
 ## Vocabulary
 

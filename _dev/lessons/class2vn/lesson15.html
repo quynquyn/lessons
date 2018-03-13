@@ -1,0 +1,724 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/dev/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+    
+  
+       
+    </nav>
+    
+
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-215-love-tình-yêu">Lesson 2.15: Love <em>Tình yêu</em></h1>
+
+<h2 id="vocabulary-từ-vựng">Vocabulary <em>Từ vựng</em></h2>
+
+<div>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L15-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '15', 'vocabulary');">▶</span>
+  </div>
+</div>
+<div class="audiofile-info">C2L15-vocabulary.mp3</div>
+</div>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l15-ask-someone-out.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 24.38, 19.81, 
+      '2-15', 'ask someone out');">▷ <strong>ask someone out</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>mời ai đó hẹn hò</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l15-be-in-love-with-someone.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 19.81, 26.5, 
+      '2-15', 'be in love with someone');">▷ <strong>be in love with someone</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>đang trong tình yêu với ai đó</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l15-break-up-with-someone.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 26.5, 22.04, 
+      '2-15', 'break up with someone');">▷ <strong>break up with someone</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>chia tay với ai đó</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l15-fall-head-over-heels-in-love.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 22.04, 18.02, 
+      '2-15', 'fall head over heels in love');">▷ <strong>fall head over heels in love</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>si mê ai đó</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l15-fall-in-love.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 18.02, 11.64, 
+      '2-15', 'fall in love');">▷ <strong>fall in love</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>yêu ai đó</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l15-fancy-someone.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 11.64, 9.97, 
+      '2-15', 'fancy someone');">▷ <strong>fancy someone</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>yêu thích ai đó</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l15-get-divorced.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 9.97, 6.17, 
+      '2-15', 'get divorced');">▷ <strong>get divorced</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ly hôn</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l15-get-engaged.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 6.17, 8.38, 
+      '2-15', 'get engaged');">▷ <strong>get engaged</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>đính hôn</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l15-get-married.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 8.38, 36.83, 
+      '2-15', 'get married');">▷ <strong>get married</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>kết hôn</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l15-get-over-someone.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 36.83, 16.02, 
+      '2-15', 'get over someone');">▷ <strong>get over someone</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>thôi đau buồn về ai đó</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l15-have-a-crush-on-someone.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 16.02, 38.87, 
+      '2-15', 'have a crush on someone');">▷ <strong>have a crush on someone</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>phải lòng ai đó</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l15-let-bygones-be-bygones.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 38.87, 35.22, 
+      '2-15', 'let bygones be bygones');">▷ <strong>let bygones be bygones</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>bỏ qua chuyện cũ</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l15-move-on.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 35.22, 41.62, 
+      '2-15', 'move on');">▷ <strong>move on</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>đi tiếp</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l15-remember-that-there-are-plenty-of-fish-in-the-sea.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 41.62, 44.57, 
+      '2-15', 'remember that there are plenty of fish in the sea');">▷ <strong>remember that there are plenty of fish in the sea</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nhớ rằng còn nhiều người khác để yêu</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l15-share-so-many-common-interests.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 13.3, 28.37, 
+      '2-15', 'share so many common interests');">▷ <strong>share so many common interests</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>chia sẻ nhiều sở thích chung</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row6"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l15-share-the-housework.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 28.37, 30.41, 
+      '2-15', 'share the housework');">▷ <strong>share the housework</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>chia sẻ việc nhà</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l15-share-the-ups-and-downs-in-life.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 30.41, 32.95, 
+      '2-15', 'share the ups and downs in life');">▷ <strong>share the ups and downs in life</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>chia sẻ thăng trầm trong đời</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l15-show-that-you-care.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 32.95, 9.7, 
+      '2-15', 'show that you care');">▷ <strong>show that you care</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>cho thấy sự quan tâm</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<div>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L15-conversation.mp3" id="audio_conversation" preload="none"></audio>
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_conversation" onclick="play('conversation', '15', 'conversation');">▶</span>
+  </div>
+</div>
+<div class="audiofile-info">C2L15-conversation.mp3</div>
+</div>
+
+<h2 id="conversation-đối-thoại">Conversation <em>Đối thoại</em></h2>
+
+<blockquote>
+  <p><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',      2.11, 3.73,      'n/a', 'examples1');">▷</strong> Person 1 (Female): <strong>What do you think of Andy?</strong>  <em>Bạn nghĩ sao về Andy?</em>      <br />
+<strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',      3.73, 6.44,      'n/a', 'examples1');">▷</strong> Person 2 (Male): <strong>In what sense? As a man or as a tennis player?</strong>  <em>Về cái gì? Như một người đàn ông hay như một người chơi quần vợt?</em>  <br />
+<strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',      6.44, 9.02,      'n/a', 'examples1');">▷</strong> P1: <strong>Do you have to ask? As a man, of course.</strong>  <em>Có cần phải hỏi không? Tất nhiên là như một người đàn ông rồi.</em>    <br />
+<strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',      9.02, 11.48,      'n/a', 'examples1');">▷</strong> P2: <strong>I’ve just met him. So I can’t really say.</strong>  <em>Tôi mới gặp anh ta thôi. Nên tôi không thể nói gì được.</em>    <br />
+<strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',      11.48, 14.17,      'n/a', 'examples1');">▷</strong> P1: <strong>In my opinion, I think he is just great.</strong>  <em>Theo ý kiến của tôi thì tôi nghĩ anh ta tuyệt.</em> <br />
+<strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',      14.17, 16.85,      'n/a', 'examples1');">▷</strong> P2: <strong>Oooh, what’s this I am hearing? You might be in love.</strong>  <em>Ồ, tôi đang nghe cái gì đây? Chắc là bạn đang yêu rồi.</em> <br />
+<strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',      16.85, 35.71,      'n/a', 'examples1');">▷</strong> P1: <strong>Yes, it is the first time I’ve fallen head over heels in love. So much in love… but he doesn’t even notice me. We share so many common interests and we see things in the same way, we can talk for hours. But that’s it. He just looks at me as a good friend, nothing less, nothing more.</strong> <br />
+<em>Ừ, đây là lần đầu tiên tôi yêu say đắm vậy. Rất là yêu. Nhưng anh ấy thậm chí còn không chú ý đến tôi. Chúng tôi chia sẻ nhiều sở thích chung và suy nghĩ như nhau, chúng tôi có thể nói chuyện cả giờ đồng hồ. Nhưng mà đấy, anh ấy chỉ xem tôi như một người bạn tốt không hơn không kém.</em>
+<strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',      35.71, 39.74,      'n/a', 'examples1');">▷</strong> P2: <strong>How long have you been in love with him? Have you asked him how he feels about you?</strong>     <em>Bạn đã yêu anh ta bao lâu rồi? Bạn có hỏi anh ấy thấy sao về bạn chưa?</em>
+<strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',      39.74, 46.06,      'n/a', 'examples1');">▷</strong> P1: <strong>No, of course not. He is not interested in a relationship now. He just cares about his career.</strong>     <em>Chưa, tất nhiên chưa rồi. Anh ấy không có hứng thú hẹn hò bây giờ. Anh ấy chỉ quan tâm đến sự nghiệp thôi.</em>
+<strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',      46.06, 50.06,      'n/a', 'examples1');">▷</strong> P2: <strong>I think you should tell him. Who knows? He might be in love with you, too.</strong>   <br />
+<em>Tôi nghĩ là bạn nên nói cho anh ta. Ai biết được, anh ấy có thể cũng yêu bạn.</em>
+<strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',      50.06, 56.62,      'n/a', 'examples1');">▷</strong> P1: <strong>It’s not so easy to say certain things. You know what it’s like. Put yourself in my shoes and you’ll understand.</strong> <br />
+<em>Không dễ để nói những điều chắc chắn như vậy. Bạn biết nó như thế nào mà. Đặt bạn vào trường hợp của tôi bạn sẽ hiểu.</em><br />
+<strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',      56.62, 61.84,      'n/a', 'examples1');">▷</strong> P2: <strong>If you keep quiet, you might lose him forever. If you like him, you should ask him out.</strong>     <em>Nếu mà bạn cứ giữ im lặng, bạn có thể sẽ mất anh ta mãi mãi. Nếu bạn thích ảnh thì bạn nên mời ảnh đi chơi chứ.</em>
+<strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',      61.84, 67.15,      'n/a', 'examples1');">▷</strong> P1: <strong>Maybe you’re right. Maybe I have to think of a special way to show him just how I feel.</strong>     <em>Có thể bạn đúng. Có lẽ tôi nên suy nghĩ một cách đặc biệt để cho ảnh biết cảm giác của tôi.</em>
+<strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',      67.15, 76.34,      'n/a', 'examples1');">▷</strong> P2: <strong>I just got a brilliant idea. You should cook lunch for him. Write a small note which says “I like you.” You can surprise him by hiding it in a napkin.</strong>     <em>Tôi có một ý tưởng hay ho. Bạn nên nấu bữa trưa cho anh ấy. Viết một mẩu giấy nhỏ ghi là “Em thích anh”. Bạn có thể làm anh ấy bất ngờ khi thấy nó trong khăn ăn.</em>
+<strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',      76.34, 79.54,      'n/a', 'examples1');">▷</strong> P1: <strong>What a romantic idea! Do you think it will work?</strong>   <em>Ý tưởng lãng mạn đấy! Bạn có nghĩ nó sẽ thành công không?</em>  <br />
+<strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',      79.54, 81.74,      'n/a', 'examples1');">▷</strong> P2: <strong>I think it will go straight to his heart.</strong>   <em>Tôi nghĩ nó sẽ đi thẳng đến trái tim anh ấy luôn.</em></p>
+</blockquote>
+
+<div>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L15-explanation.mp3" id="audio_explanation" preload="none"></audio>
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_explanation" onclick="play('explanation', '15', 'explanation');">▶</span>
+  </div>
+</div>
+<div class="audiofile-info">C2L15-explanation.mp3</div>
+</div>
+
+<h2 id="2-explanation-giải-thích">2. Explanation <em>Giải thích</em></h2>
+
+<h3 id="1-it-is-the-first-time-ive-fallen-head-over-heels-in-love">1. It is the first time I’ve fallen head over heels in love.</h3>
+<p><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',      3.44, 23.57,      'n/a', 'explanation');">▷</strong>
+<em>Đây là lần đầu tiên tôi yêu say đắm như vậy.</em></p>
+
+<ul>
+  <li><strong>This is the first time I’ve been to New York.</strong> <em>Đây là lần đầu tiên tôi đến New York.</em></li>
+  <li><strong>This is the first time someone told me that I can sing.</strong> <em>Đây là lần đầu tiên ai đó nói rằng tôi có thể hát.</em></li>
+  <li><strong>This is not my first time at the club.</strong> <em>Đây không phải là lần đầu tôi đến câu lạc bộ.</em></li>
+</ul>
+
+<h3 id="2-we-share-so-many-common-interests">2. We share so many common interests.</h3>
+<p><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',      23.1, 42.84,      'n/a', 'explanation');">▷</strong>
+<em>Chúng tôi có nhiều sở thích chung.</em></p>
+
+<ul>
+  <li><strong>My brother and sister share a room.</strong> <em>Anh trai và em gái tôi chia sẻ một căn phòng.</em></li>
+  <li><strong>Dan and Mary share a sandwich every morning.</strong> <em>Dan và Mary chia sẻ bánh sandwich mỗi buổi sáng.</em></li>
+  <li><strong>They broke up because they don’t have many common interests.</strong> <em>Họ chia tay vì họ không có nhiều sự yêu thích chung.</em></li>
+</ul>
+
+<h3 id="3-how-long-have-you-been-in-love-with-him">3. How long have you been in love with him?</h3>
+<p><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',      42.1, 55.84,      'n/a', 'explanation');">▷</strong>
+<em>Bạn yêu anh ấy bao lâu rồi?</em></p>
+
+<ul>
+  <li><strong>How long have you been married?</strong> <em>Bạn kết hôn được bao lâu rồi?</em></li>
+  <li><strong>How long have you two known each other?</strong> <em>Hai bạn biết nhau được bao lâu rồi?</em></li>
+  <li><strong>How many times did you get married?</strong> <em>Bạn kết hôn bao nhiêu lần rồi?</em></li>
+</ul>
+
+<h3 id="4-if-you-like-him-you-should-ask-him-out">4. If you like him, you should ask him out.</h3>
+<p><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',      55.1, 77.84,      'n/a', 'examples2');">▷</strong>
+<em>Nếu bạn thích ai đó, bạn nên rủ anh ấy ra ngoài hẹn hò.</em></p>
+
+<ul>
+  <li><strong>Chris asked me out. I’m happy he did because I like him a lot.</strong> <em>Chris rủ tôi đi hẹn hò. Tôi rất vui anh ấy làm vậy vì tôi thích anh ấy rất nhiều.</em></li>
+  <li><strong>I will ask Anne out tomorrow. I hope she says yes.</strong> <em>Tôi sẽ rủ Anna đi hẹn hò. Tôi hi vọng cô ấy đồng ý.</em></li>
+  <li><strong>I wish she would ask me out. I am too shy to make the first move.</strong> <em>Tôi ước gì cô ấy có thể rủ tôi ra ngoài hẹn hò. Tôi quá nhút nhát để chủ động.</em></li>
+</ul>
+
+<h3 id="5-put-yourself-in-my-shoes-and-youll-understand">5. Put yourself in my shoes and you’ll understand.</h3>
+<p><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',      77.1, 96.84,      'n/a', 'examples2');">▷</strong>
+<em>Đặt vào tình huống của tôi và bạn sẽ hiểu.</em></p>
+
+<ul>
+  <li><strong>I put myself in your shoes and I still don’t understand why you did it.</strong> <em>Đặt vào tình huống của bạn và tôi vẫn không hiểu tại sao bạn làm vậy.</em></li>
+  <li><strong>Before judging someone, you should always try to put yourself in their shoes.</strong> <em>Trước khi phán xét ai đó, bạn hãy luôn cố gắng đặt mình vào tình huống họ.</em></li>
+</ul>
+
+<h3 id="6-what-a-romantic-idea">6. What a romantic idea!</h3>
+<p><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',      96.1, 108.14,      'n/a', 'examples2');">▷</strong>
+<em>Thật là một ý tưởng lãng mạng.</em></p>
+
+<ul>
+  <li><strong>What an amazing kitchen!</strong> <em>Thật là một căn bếp tuyệt vời.</em></li>
+  <li><strong>What a cute dog!</strong> <em>Thật là một con chó dễ thương.</em></li>
+  <li><strong>What a wonderful world!</strong> <em>Thật là một thế giới tuyệt vời.</em></li>
+</ul>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

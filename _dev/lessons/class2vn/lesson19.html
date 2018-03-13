@@ -1,0 +1,1326 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/dev/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+    
+  
+       
+    </nav>
+    
+
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-219-feelings-2-cảm-xúc-2">Lesson 2.19: Feelings 2 <em>Cảm xúc 2</em></h1>
+
+<div>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L19-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '19', 'vocabulary');">▶</span>
+  </div>
+</div>
+<div class="audiofile-info">C2L19-vocabulary.mp3</div>
+</div>
+
+<h2 id="vocabulary-từ-vựng">Vocabulary <em>Từ vựng</em></h2>
+
+<h3 id="expressing-your-feelings-thể-hiện-cảm-xúc">Expressing your feelings <em>Thể hiện cảm xúc</em></h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l19-a-soft-spot.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 40.06, 26.51, 
+      '2-19', 'a soft spot');">▷ <strong>a soft spot</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>có lòng yêu thương/ nhân ái với ai đó, vật nào đó</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l19-bored-to-tears.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 26.51, 14.82, 
+      '2-19', 'bored to tears');">▷ <strong>bored to tears</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>chán quá sức</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l19-break-someone-s-heart.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 14.82, 16.86, 
+      '2-19', 'break someone's heart');">▷ <strong>break someone's heart</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>làm ai đó tổn thương/ đau lòng</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l19-burst-into-tears.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 16.86, 52.66, 
+      '2-19', 'burst into tears');">▷ <strong>burst into tears</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>bắt đầu khóc</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l19-carry-away.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 52.66, 32.9, 
+      '2-19', 'carry away');">▷ <strong>carry away</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>đánh trống lảng</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l19-change-of-heart.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 32.9, 54.54, 
+      '2-19', 'change of heart');">▷ <strong>change of heart</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>thay lòng đổi dạ</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l19-eat-a-horse.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 54.54, 23.04, 
+      '2-19', 'eat a horse');">▷ <strong>eat a horse</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>rất đói</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l19-fed-up.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 23.04, 18.78, 
+      '2-19', 'fed up');">▷ <strong>fed up</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>mệt mỏi, chán ngấy</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l19-feeling-blue.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 18.78, 59.07, 
+      '2-19', 'feeling blue');">▷ <strong>feeling blue</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>cảm thấy buồn</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l19-foul-mood.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 59.07, 60.65, 
+      '2-19', 'foul mood');">▷ <strong>foul mood</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tâm trạng tệ</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l19-go-bananas.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 30.92, 28.67, 
+      '2-19', 'go bananas');">▷ <strong>go bananas</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>phát điên</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l19-green-with-envy.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 28.67, 13.17, 
+      '2-19', 'green with envy');">▷ <strong>green with envy</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>bực tức vì người khác có lợi hơn</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l19-jump-for-joy.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 13.17, 47.36, 
+      '2-19', 'jump for joy');">▷ <strong>jump for joy</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nhảy cẫng lên vì hạnh phúc</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l19-let-off-steam.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 47.36, 34.96, 
+      '2-19', 'let off steam');">▷ <strong>let off steam</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>giải phóng sự nóng giận/ mệt mỏi/ "xả hơi"</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l19-look-on-the-bright-side.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 34.96, 37.45, 
+      '2-19', 'look on the bright side');">▷ <strong>look on the bright side</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nhìn vào mặt tích cực của vấn đề</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row6"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l19-make-your-skin-crawl.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 37.45, 56.25, 
+      '2-19', 'make your skin crawl');">▷ <strong>make your skin crawl</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>khiến bạn kinh tởm/ sợ hai</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l19-not-be-yourself.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 56.25, 20.88, 
+      '2-19', 'not be yourself');">▷ <strong>not be yourself</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>không là chính mình</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l19-on-cloud-nine.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 20.88, 11.22, 
+      '2-19', 'on cloud nine');">▷ <strong>on cloud nine</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>cực kỳ sung sướng</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row7"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l19-on-top-of-the-world.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 11.22, 9.05, 
+      '2-19', 'on top of the world');">▷ <strong>on top of the world</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>rất hạnh phúc, rất tự hào</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l19-over-the-moon.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 9.05, 42.44, 
+      '2-19', 'over the moon');">▷ <strong>over the moon</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>hạnh phúc như ở trên cung trăng</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l19-pour-your-heart-out.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 42.44, 44.48, 
+      '2-19', 'pour your heart out');">▷ <strong>pour your heart out</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>trải lòng với ai đó</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row8"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l19-reduced-to-tears.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 44.48, 50.74, 
+      '2-19', 'reduced to tears');">▷ <strong>reduced to tears</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>làm người khác khóc</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l19-swell-with-pride.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 50.74, 24.59, 
+      '2-19', 'swell with pride');">▷ <strong>swell with pride</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>rất đỗi tự hào</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l19-under-the-weather.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 24.59, 48.89, 
+      '2-19', 'under the weather');">▷ <strong>under the weather</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>thấy mệt mỏi, khó chịu (do thời tiết)</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row9"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l19-walking-on-air.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 48.89, 83.79, 
+      '2-19', 'walking on air');">▷ <strong>walking on air</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>thấy vui thích như đang đi trên không trung</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="supporting-someone-động-viên-ai-đó">Supporting someone <em>Động viên ai đó</em></h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l19-be-there-for-you.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 83.79, 65.41, 
+      '2-19', 'be there for you');">▷ <strong>be there for you</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em></em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l19-cheer-up.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 65.41, 63.6, 
+      '2-19', 'cheer up');">▷ <strong>cheer up</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>vui lên nào</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l19-congratulations.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 63.6, 102.47, 
+      '2-19', 'congratulations');">▷ <strong>congratulations</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>chúc mừng</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l19-get-ahold-of-yourself.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 102.47, 105, 
+      '2-19', 'get ahold of yourself');">▷ <strong>get ahold of yourself</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em></em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l19-good-job.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 67.17, 73.11, 
+      '2-19', 'good job');">▷ <strong>good job</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>làm tốt lắm</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l19-i-am-sorry-to-hear-that.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 73.11, 70.74, 
+      '2-19', 'I am sorry to hear that');">▷ <strong>I am sorry to hear that</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tôi rất tiếc khi về điều đó</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l19-i-feel-a-bit-sorry-for-her.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 70.74, 82.01, 
+      '2-19', 'I feel a bit sorry for her');">▷ <strong>I feel a bit sorry for her</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tôi thấy hơi tiếc cho cô ấy</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l19-keep-your-chin-up.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 82.01, 86.29, 
+      '2-19', 'keep your chin up');">▷ <strong>keep your chin up</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>không được nản chí</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l19-tables-have-turned.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 86.29, 88.84, 
+      '2-19', 'tables have turned');">▷ <strong>tables have turned</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em></em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l19-take-for-granted.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 88.84, 91.36, 
+      '2-19', 'take for granted');">▷ <strong>take for granted</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em></em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l19-take-the-bull-by-the-horns.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 91.36, 94.26, 
+      '2-19', 'take the bull by the horns');">▷ <strong>take the bull by the horns</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em></em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l19-take-the-plunge.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 94.26, 75.75, 
+      '2-19', 'take the plunge');">▷ <strong>take the plunge</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em></em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l19-that-s-a-pity.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 75.75, 77.77, 
+      '2-19', 'that's a pity');">▷ <strong>that's a pity</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>thật tiếc quá</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l19-that-s-a-shame.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 77.77, 79.83, 
+      '2-19', 'that's a shame');">▷ <strong>that's a shame</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>thật đáng tiếc</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l19-that-s-unfortunate.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 79.83, 96.52, 
+      '2-19', 'that's unfortunate');">▷ <strong>that's unfortunate</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>thật không may</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row6"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l19-the-ball-is-in-your-court.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 96.52, 99.55, 
+      '2-19', 'the ball is in your court');">▷ <strong>the ball is in your court</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em></em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l19-tomorrow-s-another-day.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 99.55, 69.02, 
+      '2-19', 'tomorrow's another day');">▷ <strong>tomorrow's another day</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em></em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l19-well-done.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 69.02, 12.82, 
+      '2-19', 'well done');">▷ <strong>well done</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>giỏi lắm</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<div>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L19-conversation.mp3" id="audio_conversation" preload="none"></audio>
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_conversation" onclick="play('conversation', '19', 'conversation');">▶</span>
+  </div>
+</div>
+<div class="audiofile-info">C2L19-conversation.mp3</div>
+</div>
+
+<h2 id="conversation-đối-thoại">Conversation <em>Đối thoại</em></h2>
+
+<blockquote>
+  <p><strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      2.05, 5.74,      'n/a', 'conversation');">▷</strong>Person 1: <strong>I am so under the weather, I have no idea what I’m going to do.</strong>
+<em>Tôi thấy bệnh quá, tôi không biết phải làm gì bây giờ.</em> <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      5.75, 7.18,      'n/a', 'conversation');">▷</strong>Person 2: <strong>Why? What happened?</strong><br />
+<em>Tại sao? Chuyện gì đã xảy ra?</em><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      7.18, 11.8,      'n/a', 'conversation');">▷</strong>P1: <strong>My daughter Anna doesn’t want to go to preschool. She says she’s scared.</strong> 
+<em>Con gái tôi Anna không muốn đến trường  <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      11.8, 18.61,      'n/a', 'conversation');">▷</strong>P2: <strong>Oh I know exactly how you feel. My son Jamie burst into tears the first time I left him at preschool.</strong><br />
+*Ồ tôi hiểu cảm thấy của bạn. Con trai tôi Jamie sợ đến phát khóc ngày đầu tiên tôi để bé ở trường.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      18.61, 21.87,      'n/a', 'conversation');">▷</strong>P1: <strong>Really? I thought I was the only parent with that problem.</strong><br />
+<em>Thật hả? Tôi tưởng chỉ có mình tôi là gặp vấn đề đó.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      21.87, 26.35,      'n/a', 'conversation');">▷</strong>P2: <strong>Oh trust me, you’re not alone. Just keep your chin up and be patient.</strong><br />
+<em>Ồ tin tôi đi, bạn không có cô độc đâu. Hãy tiếp tục và kiên nhẫn.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      26.35, 32.57,      'n/a', 'conversation');">▷</strong>P1: <strong>But how do I make her like preschool? As soon as I mention it, she starts crying and I feel like I’m breaking her heart.</strong><br />
+<em>Nhưng làm sao tôi khiến bé thích trường được? Mỗi khi tôi nhắc đến nó là con bé lại bắt đầu khóc và tôi có cảm giác như tôi đang làm tan vỡ trái tim bé.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      32.57, 40.94,      'n/a', 'conversation');">▷</strong>P2: <strong>Talk to her about it and tell her to look on the bright side. She’s afraid of the unknown. She’ll enjoy herself when she gets used to preschool.</strong><br />
+<em>Nói chuyện với bé về nó và nói bé nhìn vào mặt sáng. Bé sợ những điều bé chưa biết. Bé sẽ rất vui khi đã quen với trường.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      40.94, 49.43,      'n/a', 'conversation');">▷</strong>P1: <strong>Hmm, I’ll try. I get carried away with trying to make her feel happy, I forget about the bigger picture. Preschool will teach her and prepare her for life.</strong><br />
+<em>Hừm, tôi sẽ cố gắng. Tôi quá chăm lo đến việc làm cho bé vui mà quên đi tương lai tươi sáng. Trường học sẽ dạy bé và giúp bé chuẩn bị cho cuộc sống.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      49.43, 54.25,      'n/a', 'conversation');">▷</strong>P2: <strong>Absolutely! Tell her to be strong and get ahold of herself. She’s a big girl!</strong>
+<em>Hoàn toàn đúng! Nói bé hãy mạnh mẹ lên và kiềm chế lại. Bé là một cô gái mạnh mẽ!</em><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      54.25, 58.15,      'n/a', 'conversation');">▷</strong>P1: <strong>I will do that. Thank you for helping me look on the bright side.</strong><br />
+<em>Tôi sẽ làm vật! Cảm ơn vì đã giúp tôi nhìn vào mặt tích cực.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      58.15, 63.03,      'n/a', 'conversation');">▷</strong>P2: <strong>You’re welcome. Let me know how it goes, and remember that I’m always here for you.</strong>     <em>Không có chi. Cho tôi biết nó tiến triển như thế nào, và hãy nhớ là tôi luôn ở đây vì bạn.</em></p>
+</blockquote>
+
+<div>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L19-explanation.mp3" id="audio_explanation" preload="none"></audio>
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_explanation" onclick="play('explanation', '19', 'explanation');">▶</span>
+  </div>
+</div>
+<div class="audiofile-info">C2L19-explanation.mp3</div>
+</div>
+
+<h2 id="explanation-giải-thích">Explanation <em>Giải thích</em></h2>
+<h3 id="1-if-i-get-hungry-will-you-bring-me-something-to-eat">1. If I get hungry, will you bring me something to eat?</h3>
+<p><em>Nếu tôi đói thì bạn sẽ mang gì đó đến cho tôi ăn chứ?</em>
+<strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',      3.01, 25.39,      'n/a', 'explanation');">▷</strong></p>
+
+<ul>
+  <li><strong>Today’s lesson bores me to tears! If the bell doesn’t ring soon, I will leave.</strong>  <em>Bài học hôm nay khiến tôi chán đến rơi nước mắt! Nếu chuông không reo sớm thì tôi sẽ đi.</em></li>
+  <li><strong>If I buy Chris a new phone, he will start crying with joy.</strong>  <em>Nếu tôi mua cho Chris một cái điện thoại mới, anh ấy sẽ bắt đầu khóc trong hạnh phúc.</em></li>
+  <li><strong>I am so fed up with my children fighting! If they don’t stop, I will go crazy.</strong>  <em>Tôi thật chán ngấy với mấy trò cãi nhau của mấy đứa con tôi rồi! Nếu tụi nó không dừng lại tôi sẽ phát điên lên mất.</em></li>
+</ul>
+
+<h3 id="2-congratulations-you-won-the-lottery">2. Congratulations! You won the lottery!</h3>
+<p><em>Chúc mừng! Bạn đã trúng số!</em>
+<strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',      25.49, 41.19,      'n/a', 'explanation');">▷</strong></p>
+
+<ul>
+  <li><strong>Good job for doing your homework in time. I never thought I’d see that happen.</strong>  <em>Thật tốt khi bạn làm bài tập về nhà kịp lúc. Tôi chưa bao giờ nghĩ nó sẽ xảy ra.</em></li>
+  <li><strong>If Bobby doesn’t pass this exam, I’ll feel very sorry for him.</strong>  <em>Nếu Bobby không vượt qua được kì thi này thì tôi sẽ thấy rất tiếc cho anh ấy.</em></li>
+  <li><strong>If you keep your chin up, you will feel better.</strong> <em>Hãy cứ tiếp tục ngẩng cao đầu, bạn sẽ cảm thấy tốt hơn.</em></li>
+</ul>
+
+<h3 id="3-i-know-youre-disappointed-but-remember-that-tomorrow-is-another-day">3. I know you’re disappointed, but remember that tomorrow is another day.</h3>
+<p><em>Tôi biết là bạn thất vọng, nhưng hãy nhớ ngay mai là một ngày mới.</em>
+<strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',      41.29, 58.19,      'n/a', 'explanation');">▷</strong></p>
+
+<ul>
+  <li><strong>My mom is in a very foul mood. If I talk to her, she will yell at me.</strong>  <em>Mẹ tôi đang có tâm trạng rất cáu. Nếu tôi nói chuyện với bà ấy, bà ấy sẽ hét vào mặt tôi mất.</em></li>
+  <li><strong>If you ever feel sad, I will be there for you.</strong>  <em>Nếu có bao giờ bạn thấy buồn, tôi sẽ ở đó vì bạn.</em></li>
+  <li><strong>If you win the lottery, I will become green with envy.</strong>  <em>Nếu bạn trúng số, thì tôi sẽ ghen tị lắm.</em></li>
+</ul>
+
+<h3 id="4-if-the-ball-is-in-your-court-you-have-to-act-carefully">4. If the ball is in your court, you have to act carefully.</h3>
+<p><em>Nếu trái banh ở trong sân của bạn, bạn phải cư xử thật cẩn thận.</em>
+<strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',      58.29, 77.19,      'n/a', 'explanation');">▷</strong></p>
+<ul>
+  <li><strong>I used to be poorer than my brother, but the tables have turned when I won the lottery.</strong>  <em>Tôi đã từng nghèo hơn của anh của tôi, nhưng tình thế đã thay đổi khi tôi trúng số.</em></li>
+  <li><strong>If you lose your wallet, that will be a real shame.</strong>  <em>Nếu bạn để mất bóp, thì đó đúng là nỗi xấu hổ.</em></li>
+  <li><strong>Why are you building a house? If you win the lottery, you can just buy one.</strong>  <em>Tại sao bạn phải xây nhà vậy? Nếu bạn trúng số, thì bạn chỉ cần mua 1 căn thôi mà.</em></li>
+</ul>
+
+<h3 id="5-im-still-on-the-fence-about-john-if-he-visits-i-will-consider-him-a-friend">5. I’m still on the fence about John. If he visits, I will consider him a friend.</h3>
+<p><em>Tôi vẫn đang lập hàng rào với John. Nếu anh ấy đến thăm, tôi sẽ chỉ xem anh ấy là bạn.</em>
+<strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',      77.29, 98.19,      'n/a', 'explanation');">▷</strong></p>
+
+<ul>
+  <li><strong>Joe’s parents keep giving him money but he takes them for granted. He doesn’t appreciate them.</strong>  <em>Ba mẹ của Joe cứ cho anh ấy tiền và anh ấy nghĩ đó là điều hiển nhiên. Anh ấy không cảm kích họ.</em></li>
+  <li><strong>If he doesn’t stop being so rude, I will give him a piece of my mind.</strong>  <em>Nếu anh ấy không ngừng thô lỗ, tôi sẽ cho anh ấy một chút bình tâm.</em></li>
+  <li><strong>I will be brokenhearted if he doesn’t ask me out.</strong> <em>Tôi sẽ đau khổ lắm nếu anh ấy không rủ tôi đi chơi.</em></li>
+</ul>
+
+<h2 id="more-examples-giải-thích-thêm">More Examples <em>Giải thích thêm</em></h2>
+<p><strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation',      98.29, 147.89,      'n/a', 'explanation');">▷</strong></p>
+
+<ol>
+  <li><strong>I wasn’t going to let her come to my party but I had a change of heart.</strong>  <em>Tôi đã không định để cô ấy đến bữa tiệc nhưng tim tôi đã thay đổi.</em></li>
+  <li><strong>If something bores you to tears, leave!</strong>  <em>Nếu cái gì làm bạn chán phát khóc thì hãy bỏ đi!</em></li>
+  <li><strong>If I see a spider in this house, it will make my skin crawl.</strong>  <em>Nếu tôi thấy con nhện trong phòng, nó sẽ khiến tôi nổi da gà.</em></li>
+  <li><strong>When I saw my daughter perform, my heart swelled with pride.</strong>  <em>Khi tôi thấy con gái tôi với bộ đồng phục, con tim tôi rộn lên niềm tự hào.</em></li>
+  <li><strong>I’m so hungry, I could eat a horse! If we don’t eat soon, I will starve.</strong>  <em>Tôi đói quá tôi ăn cả con ngựa còn được! Nếu chúg ta khônga ăn sớm, tôi sẽ chết đói mất.</em></li>
+  <li><strong>I feel like I need to let off some steam after talking to that annoying woman.</strong>  <em>Tôi thấy tôi cần phải nghĩ ngơi sau khi nói chuyện với người phụ nữ phiền phức đó.</em></li>
+  <li><strong>I’m so sorry to hear that. If there is any way I can help you, let me know.</strong>  <em>Tôi rất tiếc khi nghe điều đó. Nếu tôi có thể giúp gì được cho bạn, cứ nói cho tôi biết.</em></li>
+  <li><strong>It will be such a pity if you miss the movie.</strong>  <em>Sẽ thật là tiếc nếu bạn bỏ lỡ bộ phim.</em></li>
+  <li><strong>If you don’t get ahold of yourself, I will slap you!</strong>  <em>Nếu bạn không tự kiềm chế, tôi sẽ tát bạn đó!</em></li>
+  <li><strong>I’m so happy, I feel like I’m walking on air.</strong>  <em>Tôi hạnh phúc quá, tôi cảm thấy như tôi đang đi trong không khí vậy.</em></li>
+</ol>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

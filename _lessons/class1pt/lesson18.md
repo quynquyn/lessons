@@ -76,9 +76,13 @@ attr:
 12. **When did you first meet her?** *Quando você a conheceu pela primeira vez?*
 13. **When did you get up this morning?** *Quando você se levantou esta manhã?*
 
-{% include player2.html identifier="yesnoquestions" class=page.class lesson=page.lesson %}
 
-## Yes / No questions
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="yesnoquestions"  init=true
+	title="Yes / No questions"        
+	translation=""
+    tag="h1" %}
+
 
 
 ### Example of Yes / No questions with Simple Past Tense and Simple Present Tense

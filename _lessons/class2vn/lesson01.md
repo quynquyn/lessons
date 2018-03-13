@@ -10,16 +10,19 @@ attr:
 salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 ---
 
-# lesson 2.1: Hobbies *Sở thích*
+{%  include voice.html attr=page.attr  
+	identifier="Native-Dialogue1"  init=true
+	title="Lesson 2.1: Hobbies"        
+	translation="Sở thích"
+    tag="h1" %}
 
 ## Vocabulary *Từ vựng*
-{% include player.html identifier="File1-Vocab" lesson="C2L01" file="C2L01-Native-Dialogue1.mp3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
 		section="vocabulary"
-		voiceover="File1-Vocab"
+		voiceover="Native-Dialogue1"
 		database=site.data.vocabulary 
 		trial=false %}
 

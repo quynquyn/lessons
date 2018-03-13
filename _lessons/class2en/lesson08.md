@@ -9,7 +9,10 @@ attr:
   lang: en
 ---
 
-# Lesson 2.8: Working life 
+{%  include voice.html attr=page.attr   
+	identifier="Vocabulary"  init=true
+	title="Lesson 2.8: Working life"        
+    tag="h1" %}
 
 ## Vocabulary
 {% include player2.html identifier="Vocabulary" class=page.class lesson=page.lesson %}

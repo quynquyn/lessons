@@ -9,8 +9,11 @@ attr:
   lang: en
 ---
 
-# Lesson 2.7: Dream jobs
-
+{%  include voice.html attr=page.attr   
+	identifier="Vocabulary"  init=true
+	title="Lesson 2.7: Dream jobs"        
+    tag="h1" %}
+	
 
 ## Vocabulary
 {% include player2.html identifier="Vocabulary" class=page.class lesson=page.lesson %}

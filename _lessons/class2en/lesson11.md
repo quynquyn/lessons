@@ -9,9 +9,10 @@ attr:
   lang: en
 ---
 
-{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
-# Lesson 2.11: Appearance  
-
+{%  include voice.html attr=page.attr   
+	identifier="Vocabulary"  init=true
+	title="Lesson 2.11: Appearance"        
+    tag="h1" %}
 
 ## Vocabulary
 

@@ -10,7 +10,7 @@ attr:
 salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)" 
 ---
 
-{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+{%  include voice.html attr=page.attr
 	identifier="Words"  init=true
 	title="Lesson 1.3: Noun + verb (what + do)"        
 	translation="Danh từ + động từ (cái gì + làm gì)"

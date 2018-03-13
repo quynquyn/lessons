@@ -10,9 +10,11 @@ attr:
 salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 ---
 
-
-# Lesson 2.3: Daily Routine *Thói quen hằng ngày*
-{% include player.html identifier="vocabulary" lesson="C2L03" file="C2L03-Native-Dialogue1.mp3" %}
+{%  include voice.html attr=page.attr  
+	identifier="Native-Dialogue1"  init=true
+	title="Lesson 2.3: Daily Routine"        
+	translation="Thói quen hằng ngày"
+    tag="h1" %}
 
 
 ## Vocabulary *Từ vựng*
