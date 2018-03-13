@@ -3,6 +3,10 @@ layout: lesson
 lang: pt
 class: "1"
 lesson: "07"
+attr:
+  class: "1"
+  lesson: "07"
+  lang: pt
 ---
 
 

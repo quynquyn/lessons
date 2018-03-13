@@ -3,6 +3,10 @@ layout: lesson
 class: "1"
 lesson: "23"
 lang: pt
+attr:
+  class: "1"
+  lesson: "23"
+  lang: pt
 ---
 
 
@@ -13,10 +17,10 @@ lang: pt
 ## Vocabulary 
 
 [comment]: <>  all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0  
-**HOW DO YOU GET THERE?**  
+###How do you get there? 
 
 		
-**I get there** 
+**I get there by…** 
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -26,7 +30,7 @@ lang: pt
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %} 
 
-**Make your mother smile by**  
+**Make your mother smile by…**  
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -38,7 +42,7 @@ lang: pt
 
 
 
-**Study English by**
+**Study English by…**
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -48,7 +52,7 @@ lang: pt
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %} 
    
-**Help your friend by**
+**Help your friend by…**
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -58,7 +62,7 @@ lang: pt
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %} 
 
-**Release stress by**
+**Release stress by…**
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -68,7 +72,7 @@ lang: pt
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %} 
   
-**Apply for a job by**  
+**Apply for a job by…**  
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -79,7 +83,7 @@ lang: pt
 		trial=site.trialdeploy %} 
    
 
-**Move on from a bad break-up by**
+**Move on from a bad break-up by…**
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -89,7 +93,7 @@ lang: pt
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %} 
 
-**Lose weight by**
+**Lose weight by…**
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 

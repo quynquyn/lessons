@@ -3,6 +3,10 @@ layout: lesson
 class: "2"
 lesson: "06"
 lang: pt
+attr:
+  class: "2"
+  lesson: "06"
+  lang: pt
 ---
 
 {% include player.html identifier="lesson-vocabulary" lesson="C2L06" file="C2L06-Vocabulary.mp3" %}

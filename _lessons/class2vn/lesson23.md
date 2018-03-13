@@ -3,6 +3,10 @@ layout: lesson
 class: "2"
 lesson: "23"
 lang: vn
+attr:
+  class: "2"
+  lesson: "23"
+  lang: vn
 ---
 
 

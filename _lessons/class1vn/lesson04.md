@@ -3,10 +3,14 @@ layout: lesson
 class: "1"
 lesson: "04"
 lang: vn
+attr:
+  class: "1"
+  lesson: "04"
+  lang: vn
 salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 ---
 
-# lesson 1.4: Verb to verb *Động từ cùng động từ*
+# Lesson 1.4: Verb to verb *Động từ cùng động từ*
 
 ## Vocabulary *Từ vựng*
 {% include player2.html identifier="Words" class=page.class lesson=page.lesson %}
@@ -24,7 +28,7 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 {% include player2.html identifier="Native-Dialogue" class=page.class lesson=page.lesson %}
 
 
- > {% include play.html identifier="Native-Dialogue" start=5.11 stop=9.91 %} **Do you love to listen to music?** *Bạn có thích nghe nhạc không?*  
+> {% include play.html identifier="Native-Dialogue" start=5.11 stop=9.91 %} **Do you love to listen to music?** *Bạn có thích nghe nhạc không?*  
 > **Yes, I love to listen to music.** *Có, tôi thích nghe nhạc.*  
    
 > {% include play.html identifier="Native-Dialogue" start=9.91 stop=15.11 %} **Do you like to hang out with friends?** *Bạn có thích đi chơi với bạn bè không?*    

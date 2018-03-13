@@ -3,7 +3,11 @@ layout: lesson
 lang: pt
 class: "1"
 lesson: "04"
-salestext: "Free full version (last day)"
+attr:
+  class: "1"
+  lesson: "04"
+  lang: pt
+salestext: "Versão Premium Gratuita (último dia)"
 ---
 
 # lesson 1.4: verb to verb 

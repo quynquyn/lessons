@@ -3,6 +3,10 @@ layout: lesson
 class: "2"
 lesson: "07"
 lang: en
+attr:
+  class: "2"
+  lesson: "07"
+  lang: en
 ---
 
 # Lesson 2.7: Dream jobs

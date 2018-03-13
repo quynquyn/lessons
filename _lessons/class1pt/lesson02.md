@@ -3,7 +3,11 @@ layout: lesson
 lang: pt
 class: "1"
 lesson: "02"
-salestext: "Free full version (2 days left)"
+attr:
+  class: "1"
+  lesson: "02"
+  lang: pt
+salestext: "Versão Premium Gratuita (2 dias mais)"
 ---
 
 

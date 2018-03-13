@@ -3,6 +3,10 @@ layout: lesson
 class: "2"
 lesson: "05"
 lang: en
+attr:
+  class: "2"
+  lesson: "05"
+  lang: en
 ---
 
 # Lesson 2.5: Family

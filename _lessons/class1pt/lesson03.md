@@ -3,7 +3,11 @@ layout: lesson
 lang: pt
 class: "1"
 lesson: "03"
-salestext: "Free full version (1 day left)"
+attr:
+  class: "1"
+  lesson: "03"
+  lang: pt
+salestext: "Versão Premium Gratuita (1 dia mais)"
 ---
 
 # Lesson 1.3. Noun + verb (what + do)

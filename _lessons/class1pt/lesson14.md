@@ -3,6 +3,10 @@ layout: lesson
 class: "1"
 lesson: "14"
 lang: pt
+attr:
+  class: "1"
+  lesson: "14"
+  lang: pt
 ---
 
 # Lesson 1.14: When

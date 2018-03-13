@@ -3,6 +3,10 @@ layout: lesson
 class: "1"
 lesson: "17"
 lang: pt
+attr:
+  class: "1"
+  lesson: "17"
+  lang: pt
 ---
 
 
@@ -58,7 +62,7 @@ lang: pt
 ## Conversation
 
 > {% include play.html identifier="conversation" start=1.99 stop=5.82 %} Person 1: **Jamie, I told you to go to school. Why are you home so early?**  
-> {% include play.html identifier="conversation" start=5.82 stop=8.25 %} Person 2: **Hi mom. We didn't have class today.**  
+> {% include play.html identifier="conversation" start=5.82 stop=8.25 %} Person 2: **Hi Mom. We didn't have class today.**  
 > {% include play.html identifier="conversation" start=8.25 stop=10.85 %} P1: **What? Who told you to go home so early?**  
 > {% include play.html identifier="conversation" start=10.85 stop=15.10 %} P2: **Miss Jenkins. She said that the other teachers aren't in school today.**  
 > {% include play.html identifier="conversation" start=15.10 stop=16.70 %} P1: **Oh? Where are they?**  

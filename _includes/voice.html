@@ -1,0 +1,15 @@
+{% capture file %}C{{include.attr.class}}L{{include.attr.lesson}}-{{include.identifier}}.mp3{% endcapture %}
+<{{ include.tag }}>
+{% if include.init %}
+<audio src="https://englishletics.s3.amazonaws.com/audio/{{ file }}" id="audio_{{ include.identifier }}" preload="none"></audio>
+<span class="el-player-icon" id="play_{{ include.identifier }}" onclick="play('{{ include.identifier }}', '{{ include.attr.lesson }}', '{{ include.identifier }}');">▶</span>
+{% else  %}
+<strong class="el-vocab-play" id="playat_{{ include.identifier }}" 
+  onclick="playat('{{ include.identifier }}', 
+    {{ include.start }}, {{ include.stop }}, 
+    'n/a', '{{ include.identifier }}');">▷</strong>
+{% endif %}
+{{ include.title }}
+<em>{{ include.translation   }}</em>
+<div class="audiofile-info">{{ include.file }}</div>
+</{{ include.tag }}>

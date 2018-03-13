@@ -3,6 +3,10 @@ layout: lesson
 lang: pt
 class: "1"
 lesson: "11"
+attr:
+  class: "1"
+  lesson: "11"
+  lang: pt
 ---
 
 
@@ -73,8 +77,6 @@ lesson: "11"
 3. **Are there any books on the table?** *Há algum livro na mesa?*
 4. **Is there any money in the wallet?** *Há dinheiro na carteira?*
 5. **Is there any water in the bottle?** *Tem água na garrafa?*
-
-
 
 ## 5. It is + Adjective + to Verb
 {% include player2.html identifier="examples5" class=page.class lesson=page.lesson %}

@@ -3,6 +3,10 @@ layout: lesson
 class: "1"
 lesson: "15"
 lang: pt
+attr:
+  class: "1"
+  lesson: "15"
+  lang: pt
 ---
 
 
@@ -67,7 +71,7 @@ Sim, Sarah terminou.*
 **Yes, he loved her but he didn't want to marry her.**
 *Ele a amava?    
 Sim, ele a amava, mas ele não queria se casar com ela.*    
-3. {% include play.html identifier="regular" start=19.98 stop=26.28 %} **Did James come to class yesterday?**
+4. {% include play.html identifier="regular" start=19.98 stop=26.28 %} **Did James come to class yesterday?**
 **Yes, he came to class yesterday.**
 *James veio à aula ontem?    
 Sim, ele veio à aula ontem.*     

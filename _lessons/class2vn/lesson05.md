@@ -3,6 +3,10 @@ layout: lesson
 class: "2"
 lesson: "05"
 lang: vn
+attr:
+  class: "2"
+  lesson: "05"
+  lang: vn
 ---
 
 # Lesson 2.5: Family *Gia đình*

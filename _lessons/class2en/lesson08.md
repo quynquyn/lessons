@@ -3,6 +3,10 @@ layout: lesson
 class: "2"
 lesson: "08"
 lang: en
+attr:
+  class: "2"
+  lesson: "08"
+  lang: en
 ---
 
 # Lesson 2.8: Working life 

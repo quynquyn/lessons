@@ -3,6 +3,10 @@ layout: lesson
 class: "2"
 lesson: "13"	
 lang: pt
+attr:
+  class: "2"
+  lesson: "13"
+  lang: pt
 ---
 
 {% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}

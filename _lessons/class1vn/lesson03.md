@@ -3,10 +3,18 @@ layout: lesson
 class: "1"
 lesson: "03"
 lang: vn
+attr:
+  class: "1"
+  lesson: "03"
+  lang: vn
 salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)" 
 ---
 
-# Lesson 1.3. Noun + verb (what + do) *Danh từ + động từ (cái gì + làm gì)*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Verbs"  init=true
+	title="Lesson 1.3: Noun + verb (what + do)"        
+	translation="Danh từ + động từ (cái gì + làm gì)"
+    tag="h1" %}
 
 ## Vocabulary *Từ vựng*
 {% include player2.html identifier="Words" class=page.class lesson=page.lesson %}

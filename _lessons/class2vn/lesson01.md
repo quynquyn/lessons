@@ -3,6 +3,10 @@ layout: lesson
 class: "2"
 lesson: "01"
 lang: vn
+attr:
+  class: "2"
+  lesson: "01"
+  lang: vn
 salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 ---
 

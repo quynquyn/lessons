@@ -3,30 +3,40 @@ layout: lesson
 lang: pt
 class: "1"
 lesson: "01"
-salestext: "Free full version (3 days left)"
+attr:
+  class: "1"
+  lesson: "01"
+  lang: pt
+salestext: "Versão Premium Gratuita (3 dias mais)"
 ---
 
 
-# Lesson 1.1: Noun (what)
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Animals"  init=true
+	title="Lesson 1.1: Noun (what)"        
+	translation=""
+    tag="h1" %}
 
 
 ## Vocabulary
 
 ### Animals
-{% include player2.html identifier="Animals" class=page.class lesson=page.lesson %}
 
-{% include wordgrid.html lang=page.lang
+{% include wordgrid.html lang=page.lang   ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 		class=page.class 
 		lesson=page.lesson 
 		section="animals"
-		voiceover="Animals"
+		voiceover="Animals" 
 		database=site.data.vocabulary 
 		trial=false %}
 
 
 
-### Fruits
-{% include player2.html identifier="Fruits" class=page.class lesson=page.lesson %}
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Fruits"  init=true
+	title="Fruits"        
+	translation=""
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -37,8 +47,12 @@ salestext: "Free full version (3 days left)"
 		trial=false %}
 
 
-### Things in class
-{% include player2.html identifier="ThingsInClass" class=page.class lesson=page.lesson %}
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="ThingsInClass"  init=true
+	title="Things in class"        
+	translation=""
+    tag="h3" %}
+
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -49,8 +63,11 @@ salestext: "Free full version (3 days left)"
 		trial=false %}
 
 
-### Vehicles
-{% include player2.html identifier="Vehicles" class=page.class lesson=page.lesson %}
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Vehicles"  init=true
+	title="Vehicles"        
+	translation=""
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -61,8 +78,11 @@ salestext: "Free full version (3 days left)"
 		trial=false %}
 
 
-### People
-{% include player2.html identifier="People" class=page.class lesson=page.lesson %}
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="People"  init=true
+	title="People"        
+	translation=""
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -77,8 +97,11 @@ salestext: "Free full version (3 days left)"
 
 ## Uncountable nouns
 
-### Important things in your life
-{% include player2.html identifier="Important" class=page.class lesson=page.lesson %}
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Important"  init=true
+	title="Important things in your life"        
+	translation=""
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -89,8 +112,11 @@ salestext: "Free full version (3 days left)"
 		trial=false %}
 
 
-### Other uncountable things
-{% include player2.html identifier="Other" class=page.class lesson=page.lesson %}
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Other"  init=true
+	title="Other uncountable things"        
+	translation=""
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -101,8 +127,12 @@ salestext: "Free full version (3 days left)"
 		trial=false %}
 
 
-## Some common verbs
-{% include player2.html identifier="Verbs" class=page.class lesson=page.lesson %}
+
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Verbs"  init=true
+	title="Some common verbs"        
+	translation=""
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -114,10 +144,11 @@ salestext: "Free full version (3 days left)"
 
 
 
-## 1. Countable nouns
-{% include player.html identifier="vocab-Native-Dialogue" lesson="C1L01" file="C1L01-Native-Dialogue.mp3" %}
-
-{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=4.98 stop=54.26 %}
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Native-Dialogue"  init=true
+	title="1. Countable nouns"        
+	translation=""
+    tag="h2" %}
 
 1. **I like a book. / I like books.**   *Eu gosto de um livro. / Eu gosto de livros.*  
 2. **I like a horse. / I like horses.**   *Eu gosto de um cavalo. / Eu gosto de cavalos.*
@@ -127,9 +158,11 @@ salestext: "Free full version (3 days left)"
 6. **I need a marker. / I need markers.**   *Eu preciso de um marcador. / Eu preciso de marcadores.*
 7. **I talk to a nurse everyday. / I talk to nurses everyday.**   *Eu falo com uma enfermeira todos os dias. / Eu falo com enfermeiras todos os dias.*
 
-
-## 2. Uncountable nouns
-{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=59 stop=666 %}
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Native-Dialogue"  init=false start=59 stop=666
+	title="2. Uncountable nouns"        
+	translation=""
+    tag="h2" %}
 
 1. **I do homework.**   *Eu faço dever de casa.*
 2. **I need money.**   *Eu preciso de dinheiro.*
@@ -140,8 +173,11 @@ salestext: "Free full version (3 days left)"
 7. **I love English.**   *Eu amo inglês.*
 
 
-## 3. More examples
-{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=90 stop=666 %}
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Native-Dialogue"  init=false start=95 stop=102 
+	title="3. More examples"        
+	translation="Ví dụ thêm"
+    tag="h2" %}
 
 ### A. What do you choose?   *O que você escolhe?*
 
@@ -149,59 +185,98 @@ salestext: "Free full version (3 days left)"
 - **I choose money.**   *Escolho dinheiro.*
 
 
-### B. What do you like?   *De que você gosta?*
-{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=103 stop=666 %}
+
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Native-Dialogue"  init=false start=103 stop=110
+	title="B. What do you like?"        
+	translation="De que você gosta?"
+    tag="h3" %}
 
 - **I like strawberries. How about you?**   *Eu gosto de morangos. E você?*
 - **I like bananas.**   *Eu gosto de bananas.*
 
 
-### C. What do you need?   *De que você precisa?*
-{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=110 stop=666 %}
+
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Native-Dialogue"  init=false start=110 stop=116
+	title="C. What do you need?"        
+	translation="De que você precisa?"
+    tag="h3" %}
 
 - **I need a chair. And you?**   *Preciso de uma cadeira. E você?*
 - **I need a board.**   *Preciso de uma tábua.*
 
 
-### D. What do you have?   *O que você tem?*
-{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=116 stop=666 %}
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Native-Dialogue"  init=false start=116 stop=124
+	title="D. What do you have?"        
+	translation="O que você tem?"
+    tag="h3" %}
 
 - **I have some markers. How about you?**   *Tenho alguns marcadores. E você?*
 - **I have some pencils.**   *Tenho alguns lápis.*
 
 
-### E. What do you want?   *O que você quer?*
-{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=124 stop=666 %}
+
+
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Native-Dialogue"  init=false start=124 stop=130
+	title="E. What do you want?"        
+	translation="O que você quer?"
+    tag="h3" %}
 
 - **I want water. And you?**   *Eu quero água. E você?*
 - **I want tea.**   *Eu quero chá.*
 
-### F. What do you hate?   *O que você odeia?*
-{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=130 stop=666 %}
+
+
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Native-Dialogue"  init=false start=130 stop=137 
+	title="F. What do you hate?"
+	translation="O que você odeia?*"
+    tag="h3" %}
+
 
 - **I hate crocodiles. How about you?**   *Odeio os crocodilos. E você?*
 - **I hate snakes.**   *Odeio cobras.*
 
-### G. What do you look for?   *O que você procura?*
-{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=137 stop=666 %}
+
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Native-Dialogue"  init=false start=137 stop=143
+	title="G. What do you look for?"
+	translation="O que você procura?"
+    tag="h3" %}
 
 - **I look for a pen. And you?**   *Procuro uma caneta. E você?*  
 - **I look for some milk.**   *Procuro um pouco de leite.*
 
-### H. What do you look at?   *Para que você olha?*
-{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=143 stop=666 %}
+
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Native-Dialogue"  init=false start=143 stop=150
+	title="H. What do you look at?"
+	translation="Para que você olha?"
+    tag="h3" %}
 
 - **I look at a tiger. What about you?**   *Eu olho para um tigre. E se você?*
 - **I look at bears.**   *Eu olho para ursos.* 
 
-### I. What do you observe?   *O que você observa?*
-{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=150 stop=666 %}
+
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Native-Dialogue"  init=false start=150 stop=158 
+	title="I. What do you observe?"
+	translation="O que você observa?"
+    tag="h3" %}
 
 - **I observe planes and birds. What about you?**   *Eu observo aviões e pássaros. E você?*
 - **I observe cars and giraffes.**   *Eu observo carros e girafas.*
 
-### J. What do you study?   *O que você estuda?*
-{% include play.html identifier="vocab-Native-Dialogue" lesson="C1L01" start=158 stop=666 %}
+
+
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Native-Dialogue"  init=false start=158 stop=666
+	title="J. What do you study?"
+	translation="O que você estuda?"
+    tag="h3" %}
 
 - **I study English. How about you?**   *Eu estudo inglês. E quanto a você?*
 - **I study Vietnamese.**   *Eu estudo vietnamitas.*

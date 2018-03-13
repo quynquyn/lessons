@@ -3,6 +3,10 @@ layout: lesson
 class: "2"
 lesson: "10"
 lang: pt
+attr:
+  class: "2"
+  lesson: "10"
+  lang: pt
 ---
 
 # Lesson 2.10: Friendship

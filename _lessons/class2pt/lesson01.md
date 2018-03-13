@@ -1,10 +1,13 @@
 ---
 layout: lesson
-audiofile: https://englishletics.s3.amazonaws.com/audio/dialogue_greetings_01.mp3
+lang: pt
 class: "2"
 lesson: "01"
-lang: pt
-salestext: "Free full version (3 days left)"
+attr:
+  class: "2"
+  lesson: "01"
+  lang: pt
+salestext: "Versão Premium Gratuita (3 dias mais)"
 ---
 
 # lesson 2.1: Hobbies 
