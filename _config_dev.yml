@@ -21,8 +21,7 @@ exclude: [not-in-git, node_modules, gulpfile.js, artwork, csv_to_html,
         "_lessons/class2en",
         "_lessons/class1pt/",
         "_lessons/class2pt",
-        "_lessons/class1vn/*",
-        "_lessons/class1vn/*"
+        "_lessons/class1vn/lesson2*"
         ]
 trialdeploy: false
 upgrade_pt: https://get.englishletics.com/

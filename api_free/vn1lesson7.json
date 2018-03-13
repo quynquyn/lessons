@@ -1,0 +1,25 @@
+{
+  "set_attributes":
+    {
+      "el-last-url": "https://englishletics.github.io/daily/lessons/class1vn/lesson07.html",
+      "el-lessonid": "8"
+    },
+  "messages": [
+    {
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "Hôm nay chúng ta sẽ tập trung vào việc dùng tính từ để miêu tả",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://englishletics.github.io/daily/lessons/class1vn/lesson07.html",
+              "title": "Open Lesson"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
