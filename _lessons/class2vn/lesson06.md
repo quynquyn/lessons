@@ -16,7 +16,13 @@ attr:
     tag="h1" %}
 
 ## Vocabulary *Từ vựng*
-### What can you do there? *Bạn có thể làm gì ở đó?*
+
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Vocabulary"  init=false start=7 stop=70
+	title="What can you do there?"        
+	translation="Bạn có thể làm gì ở đó?"
+    tag="h3" %}
+
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -26,7 +32,11 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Purpose *Mục đích*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Vocabulary"  init=false start=70 stop=123
+	title="Purpose"        
+	translation="Mục đích"
+    tag="h3" %}
 
 **I travel there to...**  *Tôi muốn du lịch đến đó để...*
 
@@ -86,7 +96,7 @@ attr:
 - **My mother tries to call me.**  *Mẹ tôi cố gắng gọi điện cho tôi.*
 
 {% if site.trialdeploy %}
-	{% include explanation_placeholder.html start=2 stop=6 %}
+	{% include explanation_placeholder.html  attr=page.attr     start=2 stop=6 %}
 	{% else %}
 
 {%  include voice.html attr=page.attr  

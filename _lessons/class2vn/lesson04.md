@@ -20,8 +20,12 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 ## Vocabulary *Từ vựng*
 
 
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Native-Dialogue1"  init=false start=7 stop=45
+	title="What’s your favorite kind of movie?"        
+	translation="Thể loại phim bạn yêu thích nhất là gì?"
+    tag="h3" %}
 
-### What’s your favorite kind of movie?  *Thể loại phim bạn yêu thích nhất là gì?*
 
 **My favorite kind of movie is ...**  *Thể loại phim mà tôi yêu thích nhất là ...*
 
@@ -29,12 +33,16 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 		class=page.class 
 		lesson=page.lesson 
 		section="favoritekindofmovie"
-		voiceover="lesson-vocabulary"
+		voiceover="Native-Dialogue1"
 		database=site.data.vocabulary 
 		trial=false %}
 		
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Native-Dialogue1"  init=false start=45 stop=120
+	title="What is the movie like?"        
+	translation="Bộ phim như thế nào?"
+    tag="h3" %}
 
-### What is the movie like?  *Bộ phim như thế nào?*
 
 **The movie is...**  *Bộ phim thì ...*
 
@@ -42,7 +50,7 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 		class=page.class 
 		lesson=page.lesson 
 		section="movielike"
-		voiceover="lesson-vocabulary"
+		voiceover="Native-Dialogue1"
 		database=site.data.vocabulary 
 		trial=false %}
 		

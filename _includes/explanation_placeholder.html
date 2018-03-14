@@ -1,13 +1,37 @@
 {% for i in (include.start..include.stop) %}
 
-### {{i}}. This content is available in the premium version.
+{% if include.attr.lang == "vn" %}
 
-*Nội dung này có sẵn trong phiên bản cao cấp*
+  ### {{i}}. This content is available in the premium version.
+  
+  *Nội dung này có sẵn trong phiên bản cao cấp*
+  
+  - **Purchase the full version and get access right now.** *Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.*
+  - **[Get access here]({{site.upgrade_vn}})** *[Được truy cập ở đây]({{site.upgrade_vn}})*
 
-- **Purchase the full version and get access right now.** *Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.*
-- **[Get access here](#)** *[Được truy cập ở đây](#)*
+{% elsif include.attr.lang == "pt" %}
+
+  ### {{i}}. This content is available in the premium version.
+  
+  *Este conteúdo está disponível na versão premium.*
+  
+  - **Purchase the full version and get access right now.** *Compre a versão completa e obtenha acesso agora.*
+  - **[Get access here]({{site.upgrade_pt}})** *[Acesse aqui]({{site.upgrade_pt}})*
+
+
+{% else %}
+
+  ### {{i}}. This content is available in the premium version.
+  
+  - **Purchase the full version and get access right now.**
+  - **[Get access here]({{site.upgrade_en}})**
+
+{% endif %}
+
+
 
 
 {% endfor %}
+
   
   

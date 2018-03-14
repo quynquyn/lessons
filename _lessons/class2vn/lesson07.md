@@ -108,7 +108,7 @@ attr:
 - **What do you hate most about your job?**  *Bạn ghét điều gì nhất về công việc của bạn?* 
 
 {% if site.trialdeploy %}
-	{% include explanation_placeholder.html start=3 stop=7 %}
+	{% include explanation_placeholder.html  attr=page.attr     start=3 stop=7 %}
 	{% else %}
 
 

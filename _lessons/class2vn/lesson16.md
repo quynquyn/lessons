@@ -65,7 +65,7 @@ attr:
 - **After realizing that I didn't love her anymore, I decided to break up with her.** *Sau khi nhận ra rằng tôi không yêu cô ấy nữa, tôi quyết định chia tay với cô ấy.*
 
 {% if site.trialdeploy %}
-  {% include list_placeholder.html start=3 stop=6 %}
+  {% include list_placeholder.html  attr=page.attr     start=3 stop=6 %}
   {% else %}
 
 {%  include voice.html attr=page.attr  

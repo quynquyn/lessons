@@ -79,7 +79,7 @@ attr:
 2. {% include play.html identifier="Explanation1" start=13.41 stop=20.91 %} **The secretary studies English. / The secretary tries to study English.**   
 *Cô thư kí học Tiếng An. / Cô thư kí cố gắng học Tiếng Anh.*
 {% if site.trialdeploy %}
-	{% include list_placeholder.html start=3 stop=7 %}
+	{% include list_placeholder.html  attr=page.attr     start=3 stop=7 %}
 	{% else %}
 
 3. {% include play.html identifier="Explanation1" start=21.11 stop=30.31 %} **The engineer reserves a room. / The engineer wants to reserve a room at a hotel.**   
@@ -114,7 +114,7 @@ attr:
 *Người diễn viên nam muốn chia tay với cô gái phục vụ vì anh ta muốn mời cô ca sĩ đi hẹn hò*
 
 {% if site.trialdeploy %}
-	{% include list_placeholder.html start=3 stop=6 %}
+	{% include list_placeholder.html  attr=page.attr     start=3 stop=6 %}
 	{% else %}
 	
 3. {% include play.html identifier="Explanation2" start=17.11 stop=23.11 %} **His wife washes clothes and he watches TV.**  

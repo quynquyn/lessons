@@ -108,7 +108,7 @@ attr:
 - **Did you work in a pharmaceutical company prior to applying here?**   *Có phải bạn đã làm việc cho một công ty dược trước khi bạn nộp đơn vào đây?*
 
 {% if site.trialdeploy %}
-  {% include list_placeholder.html start=3 stop=6 %}
+  {% include list_placeholder.html  attr=page.attr     start=3 stop=6 %}
   {% else %}
  
 

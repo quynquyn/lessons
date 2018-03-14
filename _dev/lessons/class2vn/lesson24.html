@@ -1,0 +1,867 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/dev/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+    
+  
+       
+    </nav>
+    
+
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                
+<h1>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L24-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+<span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '24', 'vocabulary');">▶</span>
+
+Lesson 2.24: Food and drinks
+<em>Đồ ăn và thức uống</em>
+<div class="audiofile-info"></div>
+</h1>
+
+<h2 id="vocabulary-từ-vựng">Vocabulary <em>Từ vựng</em></h2>
+
+<h3 id="menu--thực-đơn">Menu  <em>Thực đơn</em></h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l24-appetizer-starter.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 9.22, 11.88, 
+      '2-24', 'appetizer / starter');">▷ <strong>appetizer / starter</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>món khai vị</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l24-main-course.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 11.88, 13.81, 
+      '2-24', 'main course');">▷ <strong>main course</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>món chính</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l24-dessert.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 13.81, 15.35, 
+      '2-24', 'dessert');">▷ <strong>dessert</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>món tráng miệng</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="food-thức-ăn">Food <em>Thức ăn</em></h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l24-rice.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 16.84, 18.35, 
+      '2-24', 'rice');">▷ <strong>rice</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>cơm</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l24-sticky-rice.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 18.35, 20.13, 
+      '2-24', 'sticky rice');">▷ <strong>sticky rice</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nếp/ xôi</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l24-bread.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 20.13, 21.68, 
+      '2-24', 'bread');">▷ <strong>bread</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>bánh mì</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l24-fish.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 21.68, 23.3, 
+      '2-24', 'fish');">▷ <strong>fish</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>cá</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l24-egg.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 23.3, 25.12, 
+      '2-24', 'egg');">▷ <strong>egg</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>trứng</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l24-salad.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 25.12, 27.02, 
+      '2-24', 'salad');">▷ <strong>salad</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>rau trộn</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l24-steak.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 27.02, 28.64, 
+      '2-24', 'steak');">▷ <strong>steak</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>thịt bò nướng</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l24-seafood-fish-shrimp-lobster-octopus-.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 28.64, 35, 
+      '2-24', 'seafood (fish, shrimp, lobster, octopus)');">▷ <strong>seafood (fish, shrimp, lobster, octopus)</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>hải sản (cá, tôm. tôm hùm, bạch tuộc...)</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l24-meat-pork-beef-chicken-.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 35, 40.04, 
+      '2-24', 'meat (pork, beef, chicken)');">▷ <strong>meat (pork, beef, chicken)</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>thịt (heo, bò, gà)</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l24-curries.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 40.04, 42, 
+      '2-24', 'curries');">▷ <strong>curries</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>cà ri</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="tastes--vị">Tastes  <em>Vị</em></h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l24-sweet.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 44.32, 45.65, 
+      '2-24', 'sweet');">▷ <strong>sweet</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ngọt</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l24-salty.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 45.65, 47.06, 
+      '2-24', 'salty');">▷ <strong>salty</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>mặn</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l24-spicy.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 47.06, 48.58, 
+      '2-24', 'spicy');">▷ <strong>spicy</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>cay</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l24-sour.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 48.58, 50.25, 
+      '2-24', 'sour');">▷ <strong>sour</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>chua</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l24-crispy.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 50.25, 51.66, 
+      '2-24', 'crispy');">▷ <strong>crispy</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>giòn</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l24-yummy-delicious-tasty.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 51.66, 55.73, 
+      '2-24', 'yummy / delicious / tasty');">▷ <strong>yummy / delicious / tasty</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ngon</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l24-bitter.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 55.73, 57.35, 
+      '2-24', 'bitter');">▷ <strong>bitter</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>đắng</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l24-great.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 57.35, 58.66, 
+      '2-24', 'great');">▷ <strong>great</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tuyệt</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l24-terrible.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 58.66, 60.18, 
+      '2-24', 'terrible');">▷ <strong>terrible</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tệ/ dở</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L24-conversation.mp3" id="audio_conversation" preload="none"></audio>
+<span class="el-player-icon" id="play_conversation" onclick="play('conversation', '24', 'conversation');">▶</span>
+
+Conversation
+<em>Đối thoại</em>
+<div class="audiofile-info"></div>
+</h2>
+
+<blockquote>
+  <p><strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      1.81, 6.08,      'n/a', 'conversation');">▷</strong> Person 1: <strong>I like this restaurant, especially its decoration style.</strong> <br />
+<em>Tôi thích nhà hàng này, đặc biệt là phong cách trang trí của nó.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      6.08, 7.93,      'n/a', 'conversation');">▷</strong> Person 2: <strong>I like the seating arrangements.</strong><br />
+<em>Tôi thích cách sắp xếp chỗ ngồi.</em><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      7.93, 16.47,      'n/a', 'conversation');">▷</strong> P1: <strong>So do I. And the music is good. It’s not too loud. I hate restaurants with loud, noisy music. This place feels really relaxed.</strong>  <br />
+<em>Tôi cũng vậy. Và nhạc cũng rất hay. Không quá to. Tôi ghét nhà hàng có nhạc to và ồn ào. Nơi này thật sự cảm giác rất thư giãn.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      16.47, 19.01,      'n/a', 'conversation');">▷</strong> P2: <strong>But it’s too bad it’s so far from the city.</strong><br />
+<em>Nhưng tệ quá nó rất xa thành phố.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      19.01, 25.98,      'n/a', 'conversation');">▷</strong> P1: <strong>I agree. It takes too long to get here. Hey, the menu looks really good. It makes my mouth water just looking at it.</strong>   <em>Tôi đồng ý. Nó mất quá lâu để đi đến đây. Ê, thực đơn nhìn hay quá. Nhìn nó mà khiến miệng tôi phát thèm.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      25.98, 28.83,      'n/a', 'conversation');">▷</strong> P2: <strong>Where do we start? Some of the dishes look nice.</strong> 
+<em>Chúng ta bắt đầu từ đâu đây? Nhiều món ăn trông ngon quá.</em> 
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      28.83, 32.12,      'n/a', 'conversation');">▷</strong> P1: <strong>I heard people say the restaurant is well-known for their seafood.</strong>  <br />
+<em>Tôi nghe mọi người nói nhà hàng này nổi tiếng nhất là hải sản.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      32.12, 34.52,      'n/a', 'conversation');">▷</strong> P2: <strong>Really? I see they have shrimp and octopus.</strong><br />
+<em>Vậy hả? Tôi thấy họ có tôm hùm và bạch tuộc.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      34.52, 38.17,      'n/a', 'conversation');">▷</strong> P1: <strong>I’ve never tried that. But I think they need to hire more people.</strong><br />
+<em>Tôi chưa thử cái đó. Nhưng tôi nghĩ họ cần thuê thêm người.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      38.17, 42.26,      'n/a', 'conversation');">▷</strong>P2: <strong>I agree. The servers are really busy. They need one or two more.</strong><br />
+<em>Tôi đồng ý. Phục vụ rất là bận rộn. Họ cần thêm 1 hoặc 2 người nữa.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      42.26, 47.97,      'n/a', 'conversation');">▷</strong> P1: <strong>And the waitress is not really friendly. She ignored me 5 minutes earlier. That’s not good.</strong>  <br />
+<em>Và cô phục vụ cũng không thân thiện lắm. Cô ấy lơ tôi cách đây 5 phút. Điều đó không tốt.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      47.97, 49.98,      'n/a', 'conversation');">▷</strong> P2: <strong>She doesn’t speak English very well.</strong><br />
+<em>Cô ấy nói tiếng Anh không giỏi lắm.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      49.98, 52.38,      'n/a', 'conversation');">▷</strong> P1: <strong>Yeah, she couldn’t answer many questions.</strong><br />
+<em>Ừ, cô ấy đã không thể trả lời nhiều câu hỏi của tôi.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      52.38, 54.96,      'n/a', 'conversation');">▷</strong> P2: <strong>Wow! Our bill is only $24.</strong><br />
+<em>Wow, hóa đơn của chúng ta chỉ có $24 thôi.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      54.96, 56.28,      'n/a', 'conversation');">▷</strong> P1: <strong>That’s very cheap.</strong>  <br />
+<em>Rất rẻ.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      56.28, 59.1,      'n/a', 'conversation');">▷</strong> P2: <strong>There is no service charge. I think we should leave a tip.</strong><br />
+<em>Không có phí phục vụ. Tôi nghĩ chúng ta nên cho tiền boa.</em></p>
+</blockquote>
+
+<h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L24-explanation.mp3" id="audio_explanation" preload="none"></audio>
+<span class="el-player-icon" id="play_explanation" onclick="play('explanation', '24', 'explanation');">▶</span>
+
+Explanation
+<em>Giải thích</em>
+<div class="audiofile-info"></div>
+</h2>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation', 
+    4.36, 24.03, 
+    'n/a', 'explanation');">▷</strong>
+
+1. I hate restaurants with loud, noisy music.
+<em>Tôi ghét nhà hàng mà có nhạc to và ồn.</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<ul>
+  <li><strong>I can’t stand it when clubs play loud obnoxious music. It drives me nuts!</strong>   <em>Tôi không thể chịu nổi khi câu lạc bộ mở cái nhạc lớn khó chịu. Nó làm tôi bực.</em></li>
+  <li><strong>I absolutely hate it when there is a huge crowd at the bar.</strong>   <em>Tôi cực kì ghét khi có một đám đông ở quán bar.</em></li>
+  <li><strong>This restaurant’s food is too expensive. Let’s go.</strong>   <em>Đồ ăn của nhà hàng này quá đắt. Chúng ta đi thôi.</em></li>
+</ul>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation', 
+    25.27, 50.42, 
+    'n/a', 'explanation');">▷</strong>
+
+2. This place has great food. I hear they have shrimp and octopus.
+<em>Nơi này có đồ ăn ngon. Tôi nghe nói họ có tôm hùm và bạch tuột.</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<ul>
+  <li><strong>The food they offer in this restaurant is amazing! They have three different menus.</strong>   <em>Món ăn họ chọn trong nhà hàng thì tuyệt vời. Họ có 3 thực đơn khác nhau.</em></li>
+  <li><strong>I hear the bar down the street has awesome drinks. We should check it out.</strong>   <em>Tôi nghe nói quán bar ở cuối đường có những thức uống tuyệt vời. Chúng ta nên xem thử.</em></li>
+  <li><strong>I thought I’d enjoy the seafood, but it tastes terrible. I guess I’ll stick with chicken.</strong>   <em>Tôi nghĩ tôi sẽ thích hải sản, nhưng nó có vị rất tệ. Tôi đoán là tôi sẽ tiếp tục với gà.</em></li>
+</ul>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation', 
+    52.2, 74.54, 
+    'n/a', 'explanation');">▷</strong>
+
+3. The food here is great, but the waitress is so rude.
+<em>Đồ ăn ở đây thì tuyệt, nhưng cô phục vụ thì thật là thô lỗ.</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<ul>
+  <li><strong>This steak tastes just right, but the wine tastes a bit off.</strong>   <em>Món thịt này vị rất ngon, nhưng rượu thì vị hơi dở một chút.</em></li>
+  <li><strong>I really love pizza, but the one in this restaurant tastes horrible.</strong>   <em>Tôi rất thích pizza, nhưng pizza ở nhà hàng này vị kinh khủng.</em></li>
+  <li><strong>Rob doesn’t usually like to drink, but this bartender makes amazing cocktails.</strong>   <em>Rob không thường đi uống, nhưng người phục vụ quầy rượu làm cooktails tuyệt vời.</em></li>
+</ul>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation', 
+    76.17, 98.73, 
+    'n/a', 'explanation');">▷</strong>
+
+4. I heard people say the restaurant is well-known for their seafood.
+<em>Tôi nghe nói nhà hàng này nổi tiếng vì hải sản của họ.</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<ul>
+  <li><strong>Someone told me the salad here tastes amazing. I’ll try it.</strong>   <em>Có người nói với tôi salad ở đây có vị rất tuyệt. Tôi sẽ thử nó.</em></li>
+  <li><strong>The fish here is really well cooked. It’s crisp and tastes delicious.</strong>   <em>Cá ở đây nấu rất tốt. Nó rất giòn và vị rất ngon.</em></li>
+  <li><strong>My friends had lunch here once. They say it wasn’t too bad so I decided to try it out.</strong>   <em>Bạn của tôi đã ăn trưa ở đây một lần. Họ nói nó cũng không tệ nên tôi quyết định ăn thử.</em></li>
+</ul>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation', 
+    100.26, 118.58, 
+    'n/a', 'explanation');">▷</strong>
+
+5. The waitress doesn't speak English well. She couldn't answer many questions.
+<em>Cô phục vụ nói tiếng Anh không tốt lắm. Cô ấy đã không thể trả lời nhiều câu hỏi của tôi.</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<ul>
+  <li><strong>I asked the waitress for the wine menu and she ignored me.</strong>   <em>Tôi hỏi xin cô ấy thực đơn rượu nhưng cô ấy đã lơ tôi.</em></li>
+  <li><strong>Excuse me, waitress. May I have the menu please?</strong>   <em>Xin lỗi, phục vụ ơi. Cho tôi xin cái thực đơn được không, làm ơn?</em></li>
+  <li><strong>Could you call the waiter for me? I am ready to order.</strong>   <em>Bạn gọi phục vụ giúp tôi được không? Tôi đã sẵn sàng gọi món.</em></li>
+</ul>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

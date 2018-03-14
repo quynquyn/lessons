@@ -16,7 +16,11 @@ attr:
 
 ## Vocabulary *Từ vựng*
 
-### Parts of the day *Các buổi trong ngày*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=10 stop=18
+	title="Parts of the day"        
+	translation="Các buổi trong ngày"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -26,7 +30,11 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Seasons *Các mùa*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=18 stop=26
+	title="Seasons"        
+	translation="Các mùa"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -36,7 +44,12 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 		
-### Days of the week *Các ngày trong tuần*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=26 stop=39
+	title="Days of the week"        
+	translation="Các ngày trong tuần"
+    tag="h3" %}
+
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -46,7 +59,11 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Months of the year *Các tháng trong năm*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=39 stop=64
+	title="Months of the year"        
+	translation="Các tháng trong năm"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -56,7 +73,11 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Frequency *Sự thường xuyên*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=64 stop=79
+	title="Frequency"        
+	translation="Sự thường xuyên"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -66,7 +87,11 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Days *Các ngày*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=79 stop=101
+	title="Days"        
+	translation="Các ngày"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -90,6 +115,11 @@ attr:
 *Khi nào là kì nghỉ Tết?* - *Kì nghỉ Tết là vào ngày đầu tiên của tháng 1 âm lịch.*
 4. {% include play.html identifier="examples1" start=31.31 stop=39.10 %} **When is Vietnamese Independence Day?** - **Vietnamese Independence Day is on September 2nd.**
 *Khi nào là ngày Quốc Khánh của Việt Nam?* - *Ngày Quốc Khánh của Việt Nam là vào ngày 2 tháng 9.*
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=5 stop=10 %}
+	{% else %}
+
 5. {% include play.html identifier="examples1" start=40.38 stop=46.14 %} **When is Halloween?** - **Halloween is on the 31st of October.**
 *Halloween là khi nào?* - *Halloween là vào ngày 31 tháng 10.*
 6. {% include play.html identifier="examples1" start=47.68 stop=54.32 %} **When are you free?** - **I am free after 6PM on weekdays and on weekends.**
@@ -103,6 +133,7 @@ attr:
 10. {% include play.html identifier="examples1" start=71.56 stop=75.25 %} **What time is it?** - **It's a quarter to six.**
 *Bây giờ là mấy giờ?* - *Bây giờ là 6 giờ kém 15 phút.*
 
+{% endif %}
 
 {%  include voice.html attr=page.attr  
 	identifier="examples2"  init=true
@@ -120,6 +151,11 @@ attr:
 *Khi nào lớp học bắt học?* - *Lớp học bắt đầu vào lúc 7 giờ kém 15 phút.*
 5. {% include play.html identifier="examples2" start=34.47 stop=38.36 %}**When do you have lunch?** - **I have lunch at noon.**
 *Bạn ăn trưa vào lúc nào?* - *Tôi ăn trưa vào buổi trưa.*
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=6 stop=14 %}
+	{% else %}
+
 6. {% include play.html identifier="examples2" start=39.47 stop=44.32 %}**When does the sun rise?** - **The sun rises in the morning.**
 *Khi nào mặt trời mọc?* - *Mặt trời mọc vào buổi sáng.*
 7. {% include play.html identifier="examples2" start=45.51 stop=49.92 %}**When do flowers bloom?** - **Flowers bloom in spring.**
@@ -138,4 +174,7 @@ attr:
 *Bạn dự định kết hôn vào khi nào?* - *Tôi dự định kết hôn sau khi tôi đã ổn định tài chính.*
 14. {% include play.html identifier="examples2" start=102.54 stop=109.13 %}**When do you get disappointed?** - **I get disappointed every time you lie to me.**
 *Khi nào bạn cảm thấy thất vọng?* - *Mình thất vọng mỗi khi bạn nói dối mình.*
+
+{% endif %}
+
 

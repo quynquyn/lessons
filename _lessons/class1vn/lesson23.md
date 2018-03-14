@@ -113,6 +113,11 @@ attr:
 1. {% include play.html identifier="examples" start=6.19 stop=7.67 %}**How did you get there?**  *Bạn đến đó bằng cách nào?*
 1. {% include play.html identifier="examples" start=8.79 stop=11.26 %}**How does the man usually go to work?**  *Người đàn ông thường đi đến chỗ làm bằng cách nào?* 
 1. {% include play.html identifier="examples" start=12.55 stop=14.64 %}**How do you make your mother smile?**  *Bạn làm cho mẹ của bạn cười bằng cách nào?*
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=5 stop=10 %}
+	{% else %}
+
 1. {% include play.html identifier="examples" start=16.03 stop=17.89 %}**How do you study English?**  *Bạn học tiếng Anh như thế nào?*
 1. {% include play.html identifier="examples" start=19.33 stop=20.92 %}**How do you help her?**  *Bạn giúp cô ấy như thế nào?*
 1. {% include play.html identifier="examples" start=22.34 stop=24.27 %}**How to release stress?**  *Bạn giải tỏa căng thẳng bằng cách nào?*
@@ -120,4 +125,5 @@ attr:
 1. {% include play.html identifier="examples" start=28.87 stop=31.32 %}**How to move on from a bad break-up?**  *Làm sao để bước tiếp sau cuộc chia tay đau khổ?*
 1. {% include play.html identifier="examples" start=32.45 stop=34.40 %}**How to lose weight?**  *Làm cách nào để giảm cân?*
 
- 
+{% endif %}
+

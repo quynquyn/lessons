@@ -17,7 +17,11 @@ attr:
 
 ## Vocabulary *Từ vựng*
 
-### Working Condition  *Điều kiện làm việc*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Vocabulary"  init=false start=8 stop=53
+	title="Working Condition"        
+	translation="Điều kiện làm việc"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -28,8 +32,11 @@ attr:
 		trial=site.trialdeploy %}
 
 
-
-### Describing your job  *Mô tả công việc*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Vocabulary"  init=false start=53 stop=72
+	title="Describing your job"        
+	translation="Mô tả công việc"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -45,25 +52,17 @@ attr:
 	translation="Đối thoại"
     tag="h2" %}
 
-> {% include play.html identifier="Conversation" start=0.01 stop=3.78 %}Person 1: **I am a bit nervous. I am starting a new job next week.**
-*Tôi đang một chút hồi hộp. Tôi sẽ bắt đầu công việc mới vào tuần sau.*  
-> {% include play.html identifier="Conversation" start=3.78 stop=5.34 %}Person 2: **Is it a well-paid job?**  
-*Đó có phải là một công việc được trả lương tốt không?*
-> {% include play.html identifier="Conversation" start=5.34 stop=12.08 %}P1: **Oh yes. I am on a pretty good salary. One of the perks of the job is that I also get a company car.** 
-*Ừ có. Tôi được hưởng lương khá tốt. Một trong những lợi ích của công việc là tôi còn được một chiếc xe hơi của công ty.*
-> {% include play.html identifier="Conversation" start=12.08 stop=15.19 %}P2: **That sounds great. Do you get a regular pay rise?**  
-*Nghe tuyệt đấy. Bạn có thường được tăng lương không?*
-> {% include play.html identifier="Conversation" start=15.19 stop=22.85 %}P1: **Unfortunately, I don't. But they run a system of flexi-time and I don't have to get stuck in traffic jam during rush hours.** 
-*Xui là tôi không được. Nhưng họ chạy một hệ thống thời gian linh hoạt và tôi không bị kẹt xe vào giờ cao điểm.*
-> {% include play.html identifier="Conversation" start=22.85 stop=25.26 %}P2: **It seems to be a very satisfying job.** 
-*Nó có vẻ là một công việc rất thỏa mãn.* 
-> {% include play.html identifier="Conversation" start=25.26 stop=28.08 %}P1: **Definitely. What is your job like?**  
-*Chính xác. Công việc của bạn như thế nào?*
-> {% include play.html identifier="Conversation" start=28.08 stop=37.85 %}P2: **It's a quite boring and repetitive job. I have to be stuck behind a desk all day with so much boring paperwork and I find myself doing the same thing day in day out.** 
-*Nó là một công việc khá chán và lặp đi lặp lại. Tôi phải mắc kẹt sau cái bàn cả ngày với rất nhiều công việc giấy tờ nhàm chán và tôi nhận thấy mình đang làm đi làm lại một công việc hết ngày này đến ngày khác.* 
-> {% include play.html identifier="Conversation" start=37.85 stop=40.63 %}P1: **If you feel miserable, you need to change your job.** 
-*Nếu bạn thấy khổ sở vậy thì bạn phải thay đổi công việc.* 
-
+> {% include play.html identifier="Conversation" start=0.01 stop=3.78 %}Person 1: **I am a bit nervous. I am starting a new job next week.**  
+*Tôi đang một chút hồi hộp. Tôi sẽ bắt đầu công việc mới vào tuần sau.*    
+> {% include play.html identifier="Conversation" start=3.78 stop=5.34 %}Person 2: **Is it a well-paid job?** *Đó có phải là một công việc được trả lương tốt không?*    
+> {% include play.html identifier="Conversation" start=5.34 stop=12.08 %}P1: **Oh yes. I am on a pretty good salary. One of the perks of the job is that I also get a company car.**  *Ừ có. Tôi được hưởng lương khá tốt. Một trong những lợi ích của công việc là tôi còn được một chiếc xe hơi của công ty.*    
+> {% include play.html identifier="Conversation" start=12.08 stop=15.19 %}P2: **That sounds great. Do you get a regular pay rise?** *Nghe tuyệt đấy. Bạn có thường được tăng lương không?*     
+> {% include play.html identifier="Conversation" start=15.19 stop=22.85 %}P1: **Unfortunately, I don't. But they run a system of flexi-time and I don't have to get stuck in traffic jam during rush hours.**   *Xui là tôi không được. Nhưng họ chạy một hệ thống thời gian linh hoạt và tôi không bị kẹt xe vào giờ cao điểm.*     
+> {% include play.html identifier="Conversation" start=22.85 stop=25.26 %}P2: **It seems to be a very satisfying job.**  *Nó có vẻ là một công việc rất thỏa mãn.*     
+> {% include play.html identifier="Conversation" start=25.26 stop=28.08 %}P1: **Definitely. What is your job like?** *Chính xác. Công việc của bạn như thế nào?*    
+> {% include play.html identifier="Conversation" start=28.08 stop=37.85 %}P2: **It's a quite boring and repetitive job. I have to be stuck behind a desk all day with so much boring paperwork and I find myself doing   the same thing day in day out.**  *Nó là một công việc khá chán và lặp đi lặp lại. Tôi phải mắc kẹt sau cái bàn cả ngày với rất nhiều công việc giấy tờ nhàm chán và tôi nhận thấy mình đang làm đi làm lại một công việc hết ngày này đến ngày khác.*     
+> {% include play.html identifier="Conversation" start=37.85 stop=40.63 %}P1: **If you feel miserable, you need to change your job.**  *Nếu bạn thấy khổ sở vậy thì bạn phải thay đổi công việc.*    
+  
 
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=true

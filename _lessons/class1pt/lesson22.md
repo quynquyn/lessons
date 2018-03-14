@@ -35,6 +35,11 @@ attr:
 2. {% include play.html identifier="examples" start=6.67 stop=8.35 %}**How is your brother?** *Como está seu irmão?*
 3. {% include play.html identifier="examples" start=9.74 stop=11.46 %}**How is your job?** *Como é seu trabalho?*
 4. {% include play.html identifier="examples" start=12.85 stop=14.42 %}**How is the weather?** *Como está o tempo?*
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=4 stop=27 %}
+	{% else %}
+
 5. {% include play.html identifier="examples" start=15.68 stop=17.27 %}**How is your cat?** *Como é seu gato?*
 6. {% include play.html identifier="examples" start=18.65 stop=20.12 %}**How old is she?** *Quantos anos ela tem?*
 7. {% include play.html identifier="examples" start=21.28 stop=25.05 %}**How far is it from Ben Thanh market to district 7?** *Quanto demora do mercado de Ben Thanh até o distrito 7?* 
@@ -58,3 +63,7 @@ attr:
 25. {% include play.html identifier="examples" start=87.26 stop=90.27 %}**How long does it take to forget someone you love?** *Quanto tempo demora para esquecer alguém que você ama?*  
 26. {% include play.html identifier="examples" start=91.85 stop=94.26 %}**How often do you brush your teeth?** *Com que frequência você escova seus dentes?*    
 27. {% include play.html identifier="examples" start=95.79 stop=98.03 %}**How often do you call your mom?** *Com que frequência você chama sua mãe?*  
+
+
+{% endif %}
+

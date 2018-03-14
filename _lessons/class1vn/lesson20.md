@@ -17,8 +17,12 @@ attr:
 
 ## Vocabulary *Từ vựng* 
 
-[comment]: <>  all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
-### Things that can make you smile *Những thứ có thể khiến bạn mỉm cười*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=8 stop=37
+	title="Things that can make you smile"        
+	translation="Những thứ có thể khiến bạn mỉm cười"
+    tag="h3" %}
+
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -28,7 +32,11 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 		
-### Things that can make you cry *Những thứ có thể khiến bạn khóc* 
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=37 stop=61
+	title="Things that can make you cry"        
+	translation="Những thứ có thể khiến bạn khóc"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -48,6 +56,11 @@ attr:
 2. {% include play.html identifier="examples" start=6.33 stop=8.35 %} **What makes you disappointed?**  *Điều gì làm bạn thất vọng?*
 3. {% include play.html identifier="examples" start=9.52 stop=11.40 %} **What makes you annoyed?**  *Điều gì khiến bạn thấy phiền?*
 4. {% include play.html identifier="examples" start=12.56 stop=14.49 %} **What makes her happy?**  *Điều gì khiến cô ấy vui?*
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=5 stop=22 %}
+	{% else %}
+
 5. {% include play.html identifier="examples" start=15.83 stop=17.14 %} **What time is it?**  *Bây giờ là mấy giờ?*
 6. {% include play.html identifier="examples" start=18.60 stop=20.66 %} **What time is the concert?**  *Buổi hòa nhạc vào lúc mấy giờ?*
 7. {% include play.html identifier="examples" start=21.74 stop=23.61 %} **What time is the movie?**  *Mấy giờ chiếu phim?*
@@ -66,3 +79,6 @@ attr:
 20. {% include play.html identifier="examples" start=67.26 stop=70.13 %} **What is the highest mountain in the world?**  *Ngọn núi nào là ngọn núi cao nhất thế giới?*
 21. {% include play.html identifier="examples" start=71.43 stop=74.08 %} **What is the fastest animal on Earth?**  *Con gì là động vật nhanh nhất thế giới?*
 22. {% include play.html identifier="examples" start=75.32 stop=78.22 %} **What is the most developed city in Vietnam?**  *Thành phố nào phát triển nhất Việt Nam?*
+
+{% endif %}
+

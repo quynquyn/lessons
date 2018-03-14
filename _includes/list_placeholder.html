@@ -1,9 +1,19 @@
 {% for i in (include.start..include.stop) %}
 
-1. **Purchase the full version and [get access](#) right now.**   
-*[Mua phiên](#) bản đầy đủ và nhận quyền truy cập ngay bây giờ.*
+{% if include.attr.lang == "vn" %}
+
+  1. **Purchase the full version and [get access]({{site.upgrade_vn}}) right now.**   *[Mua phiên]({{site.upgrade_vn}}) bản đầy đủ và nhận quyền truy cập ngay bây giờ.*
+
+{% elsif include.attr.lang == "pt" %}
+
+  1. **Purchase the full version and [get access]({{site.upgrade_pt}}) right now.**   *[Compre a versão completa]({{site.upgrade_pt}}) e obtenha acesso agora.*
+
+
+{% else %}
+
+  1. **Purchase the full version and [get access]({{site.upgrade_en}}) right now.**   *[Compre a versão completa]({{site.upgrade_en}}) e obtenha acesso agora.*
+
+{% endif %}
 
 
 {% endfor %}
-  
-  

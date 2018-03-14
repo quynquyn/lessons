@@ -40,6 +40,11 @@ attr:
 1. {% include play.html identifier="examples" start=21.25 stop=23.97 %} **Where does the English teacher learn Spanish?**  *Giáo viên Tiếng Anh học tiếng Tây Ban Nha ở đâu?*
 1. {% include play.html identifier="examples" start=25.19 stop=28.37 %} **Where is Jean? I thought she was with you.**  *Jean đâu? Tôi tưởng cô ấy đi cùng bạn.*
 1. {% include play.html identifier="examples" start=29.66 stop=34.20 %} **Summer is coming. Where will you go when you go on vacation?**  *Mùa hè đang tới. Bạn sẽ đi đâu vào kì nghỉ?*
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=7 stop=20 %}
+	{% else %}
+
 1. {% include play.html identifier="examples" start=35.26 stop=37.67 %} **Where is England on the world map?**  *Nước Anh ở đâu trên bản đồ thế giới?*
 1. {% include play.html identifier="examples" start=38.99 stop=40.47 %} **Where were you yesterday?**  *Hôm qua bạn ở đâu?*
 1. {% include play.html identifier="examples" start=42.22 stop=43.63 %} **Where is my water bottle?**  *Chai nước của tôi ở đâu?*
@@ -65,11 +70,18 @@ attr:
 1. {% include play.html identifier="examples" start=112.61 stop=115.07 %} **Who complained about the service of the hotel?**  *Ai đã than phiền về dịch vụ của khách sạn?*
 1. {% include play.html identifier="examples" start=116.12 stop=118.26 %} **Who stole the manager's cellphone?**  *Ai đã lấy cắp điện thoại của giám đốc?*
 
+{% endif %}
+
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="conversation"  init=true
 	title="Conversation"
 	translation="Đối thoại"
 %}
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=1 stop=1 %}
+	{% else %}
+
 
 > {% include play.html identifier="conversation" start=1.99 stop=5.82 %} Person 1: **Jamie, I told you to go to school. Why are you home so early?**  
 *Jamie, mẹ bảo con đi học mà. Sao con về nhà sớm vậy?*    
@@ -95,3 +107,6 @@ attr:
 *Ừ, mẹ hiểu rồi. Nhưng mà nếu như hôm nay là thứ bảy thì cô Jankins đang làm gì ở trường vậy?*    
 > {% include play.html identifier="conversation" start=32.95 stop=34.71 %} P2: **She's the janitor, Mom.**  
 *Cô ấy là lao công, mẹ à.*    
+
+{% endif %}
+

@@ -138,7 +138,7 @@ attr:
 - **How tall are you?**  *Bạn cao bao nhiêu?*
 
 {% if site.trialdeploy %}
-	{% include explanation_placeholder.html start=3 stop=7 %}
+	{% include explanation_placeholder.html  attr=page.attr     start=3 stop=7 %}
 	{% else %}
 
 

@@ -97,7 +97,7 @@ attr:
 - **She is the same age as me.** *Cô ấy bằng tuổi tôi*
 
 {% if site.trialdeploy %}
-	{% include explanation_placeholder.html start=2 stop=5 %}
+	{% include explanation_placeholder.html  attr=page.attr     start=2 stop=5 %}
 	{% else %}
 
 {%  include voice.html attr=page.attr  

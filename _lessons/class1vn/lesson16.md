@@ -36,6 +36,11 @@ attr:
 2. {% include play.html identifier="vocabulary" start=59.56 stop=63.11 %} **Chris is feeding the cats.**  *Chris đang cho lũ mèo ăn.*
 3. {% include play.html identifier="vocabulary" start=63.56 stop=69.11 %} **Mary is sweeping the floor because her parents are coming over.**  *Mary đang quét nhà vì ba mẹ cô đang qua.* 
 4. {% include play.html identifier="vocabulary" start=69.56 stop=72.11 %} **Why is that man waving to us?**  *Tại sao gã đàn ông đó lại vẫy tay với chúng ta?* 
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=5 stop=20 %}
+	{% else %}
+
 5. {% include play.html identifier="vocabulary" start=72.56 stop=75.11 %} **She's feeding her baby.**  *Cô ấy đang cho em bé ăn.* 
 6. {% include play.html identifier="vocabulary" start=75.56 stop=80.11 %} **Mike is competing for the gold medal.**  *Mike đang thi đấu cho huy chương vàng.* 
 7. {% include play.html identifier="vocabulary" start=80.56 stop=83.11 %} **The thief is hiding from the police.**  *Tên trộm đang trốn cảnh sát.* 
@@ -53,6 +58,8 @@ attr:
 19. {% include play.html identifier="vocabulary" start=130.56 stop=135.11 %} **I'm drinking my morning coffee. Don't bother me.**  *Tôi đang uống cà phê sáng. Đừng làm phiền tôi.* 
 20. {% include play.html identifier="vocabulary" start=135.56 stop=142.11 %} **Larry is always talking on the phone! Is he talking to a girl?** *Larry lúc nào cũng nói chuyện điện thoại. Có phải anh ấy đang nói chuyện với một cô gái không?*
 
+{% endif %}
+
 {%  include voice.html attr=page.attr  
 	identifier="examples1"  init=true
 	title="Examples of Future Simple tense"        
@@ -67,6 +74,11 @@ attr:
 3. {% include play.html identifier="examples1" start=33.56 stop=38.11 %} **Jean is pregnant! She is going to have a baby!**  *Jean đang có thai. Cô ấy sắp có em bé!* 
 4. {% include play.html identifier="examples1" start=38.56 stop=42.11 %} **I'm sure you will like this movie.**  *Tôi chắc rằng bạn sẽ thích bộ phim này.* 
 5. {% include play.html identifier="examples1" start=42.56 stop=47.51 %} **My two best friends are going to get married next year.**  *Hai người bạn thân nhất của tôi sẽ kết hôn vào năm sau.* 
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=6 stop=11 %}
+	{% else %}
+
 6. {% include play.html identifier="examples1" start=47.56 stop=52.11 %} **We still can't decide where we'll spend our honeymoon.**  *Chúng tôi vẫn chưa thể quyết định chúng tôi sẽ hưởng tuần trăng mật ở đâu.* 
 7. {% include play.html identifier="examples1" start=52.56 stop=58.11 %} **Don't forget that we are going to have dinner with John and Alex tonight.**  *Đừng quên là chúng ta sẽ ăn tối với John và Alex tối nay.* 
 8. {% include play.html identifier="examples1" start=58.56 stop=64.11 %} **I don't see a cloud in the sky. Today is going to be a lovely day.**  *Tôi không thấy mây trên bầu trời. Hôm nay sẽ là một ngày đẹp trời.* 
@@ -75,6 +87,8 @@ attr:
 11. {% include play.html identifier="examples1" start=72.56 stop=76.51 %} **I promise I will not tell anyone your secret.**  *Tôi hứa tôi sẽ không nói ai nghe bí mật của bạn.* 
 12. {% include play.html identifier="examples1" start=76.56 stop=81.11 %} **I think 2020 is going to be a great year!**  *Tôi nghĩ 2020 sẽ là một năm tuyệt vời.* 
 13. {% include play.html identifier="examples1" start=81.56 stop=86.11 %} **In the future, people will drive flying cars!**  *Trong tương lai, người ta sẽ lái xe ô tô bay.*
+
+{% endif %}
 
 ### Present Continuous for future *Thì hiện tại tiếp diễn dùng cho tương lai*
 For fixed planned events in the future. Often used with a word for future events. 
@@ -95,6 +109,11 @@ For fixed planned events in the future. Often used with a word for future events
 2. {% include play.html identifier="examples2" start=8.56 stop=11.11 %} **Will you marry me?**  *Em sẽ làm vợ anh nhé?*
 3. {% include play.html identifier="examples2" start=11.56 stop=14.41 %} **Is she going to eat that entire pizza?**  *Cô ấy sẽ ăn cả cái bánh pizza đó à?*
 4. {% include play.html identifier="examples2" start=14.56 stop=17.11 %} **Will he lend money to his sister?**  *Anh ta sẽ cho em gái mượn tiền chứ?*
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=5 stop=20 %}
+	{% else %}
+
 5. {% include play.html identifier="examples2" start=17.56 stop=21.11 %} **Are you really wearing that ugly dress to the prom?**  *Bạn thật sự sẽ mặc cái đầm xấu xí đó tới buổi prom à?*
 6. {% include play.html identifier="examples2" start=21.56 stop=24.71 %} **Will there be a DJ at the party?**  *Sẽ có một DJ tại buổi tiệc hả?* 
 7. {% include play.html identifier="examples2" start=24.56 stop=28.11 %} **Are you surfing on Facebook now?**  *Bạn đang lướt facebook hả?*
@@ -112,7 +131,8 @@ For fixed planned events in the future. Often used with a word for future events
 19. {% include play.html identifier="examples2" start=69.11 stop=73.11 %} **Are you listening to what I am saying?**  *Bạn có đang nghe tôi nói gì không?*
 20. {% include play.html identifier="examples2" start=73.11 stop=78.11 %} **Will the US be your home for the next three years?**  *Có phải nước Mỹ sẽ là nhà của bạn trong vòng ba năm tới?*
 
-<!--AKS: I couldn't find the location of the audiofile for the text below, and it doesn't play on the site. Also, the audio above is missing the last 2 lines in it. -->
+{% endif %}
+
 {%  include voice.html attr=page.attr  
 	identifier="conversation"  init=true
 	title="Conversation"        

@@ -19,8 +19,11 @@ attr:
 
 ## Vocabulary *Từ vựng*
 
-
-### Healthy lifestyle *Lối sống lành mạnh*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=7 stop=54
+	title="Healthy lifestyle"        
+	translation="Lối sống lành mạnh"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -30,9 +33,11 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 		
-
-
-### Unhealthy lifestyle  *Lối sống không lành mạnh*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=54 stop=81
+	title="Unhealthy lifestyle"        
+	translation="Lối sống không lành mạnh"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -48,30 +53,18 @@ attr:
 	translation="Đối thoại"
     tag="h2" %}
 
-> {% include play.html identifier="conversation" start=2.85 stop=5.65 %} Person 1: **Are you alright? You look a bit tired.**   
-*Bạn có ổn không? Trông bạn có hơi mệt mỏi.*
-> {% include play.html identifier="conversation" start=5.65 stop=10.05 %} Person 2: **I am. No idea why. I got more than 8 hours of sleep last night.**
-*Tôi mệt. Không biết tại sao. Tôi ngủ hơn 8 tiếng đêm qua.*    
-> {% include play.html identifier="conversation" start=10.05 stop=14.21 %} P1: **Did you do a lot of physical activity yesterday? Maybe you worked too much.**
-*Có phải bạn đã vận động rất nhiều hôm qua không? Có lẽ bạn đã làm việc nhiều quá.*    
-> {% include play.html identifier="conversation" start=14.21 stop=18.30 %} P2: **No, that's not the case. I don't do too much physical activity.**  
-*Không, không phải trường hợp này. Tôi không vận động nhiều.*
-> {% include play.html identifier="conversation" start=18.30 stop=25.61 %} P1: **Hmm, maybe you should do some exercise when you get home. Your body probably slowed down because of so little activity.**  
-*Vậy có lẽ bạn nên tập luyện nhiều hơn khi về nhà. Có thể cơ thể bạn mệt vì ít vận động.*
-> {% include play.html identifier="conversation" start=25.61 stop=29.25 %} P2: **Does walking count? I was thinking of getting some pizza for lunch.**  
-*Đi bộ có được tính không? Tôi đang nghĩ đến chuyện ăn trưa là pizza.*
-> {% include play.html identifier="conversation" start=29.25 stop=37.07 %} P1: **Walking is a great exercise, but I think you should eat healthier. You should eat more vegetables and fruits if you want to stay healthy.**   
-*Đi bộ là một bài tập tốt, nhưng tôi nghĩ bạn nên ăn uống lành mạnh hơn. Bạn nên ăn nhiều rau củ và trái cây hơn để giúp khỏe mạnh.*
-> {% include play.html identifier="conversation" start=37.07 stop=39.00 %} P2: **Ugh, I don't like fruits.** 
-*Trời, tôi không thích trái cây.* 
-> {% include play.html identifier="conversation" start=39.00 stop=42.26 %} P1: **They're healthy! You eat too much junk food.**    
-*Chúng rất bổ ích! Bạn ăn quá nhiều thức ăn có hại.*
-> {% include play.html identifier="conversation" start=42.26 stop=45.57 %} P2: **So what? One or two bad decisions won't ruin my life.**  
-*Thì sao chứ? 1 hoặc 2 lần đâu có làm tổn hại gì cuộc sống tôi.*
-> {% include play.html identifier="conversation" start=45.57 stop=54.73 %} P1: **One or two?! You have bad posture. You drink too much alcohol. You eat too much sugar. Your breath smells like a dirty sock and you sleep too much.**  
-*Một hay hai? Bạn có tình thế rất tệ. Bạn uống quá nhiều rượu. Ăn quá nhiều đường. Hơi thể bạn nghe như mùi tất thối vậy và bạn ngủ quá nhiều.*
-> {% include play.html identifier="conversation" start=54.73 stop=57.23 %}P2: **Yeah. Okay. I need to change.**  
-*Ừ, ok. Tôi phải thay đổi thôi.*
+> {% include play.html identifier="conversation" start=2.85 stop=5.65 %} Person 1: **Are you alright? You look a bit tired.** *Bạn có ổn không? Trông bạn có hơi mệt mỏi.*     
+> {% include play.html identifier="conversation" start=5.65 stop=10.05 %} Person 2: **I am. No idea why. I got more than 8 hours of sleep last night.** *Tôi mệt. Không biết tại sao. Tôi ngủ hơn 8 tiếng đêm qua.*        
+> {% include play.html identifier="conversation" start=10.05 stop=14.21 %} P1: **Did you do a lot of physical activity yesterday? Maybe you worked too much.** *Có phải bạn đã vận động rất nhiều hôm qua không? Có lẽ bạn đã làm việc nhiều quá.*       
+> {% include play.html identifier="conversation" start=14.21 stop=18.30 %} P2: **No, that's not the case. I don't do too much physical activity.** *Không, không phải trường hợp này. Tôi không vận động nhiều.*     
+> {% include play.html identifier="conversation" start=18.30 stop=25.61 %} P1: **Hmm, maybe you should do some exercise when you get home. Your body probably slowed down because of so little activity.** *Vậy có lẽ bạn nên tập luyện nhiều hơn khi về nhà. Có thể cơ thể bạn mệt vì ít vận động.*     
+> {% include play.html identifier="conversation" start=25.61 stop=29.25 %} P2: **Does walking count? I was thinking of getting some pizza for lunch.** *Đi bộ có được tính không? Tôi đang nghĩ đến chuyện ăn trưa là pizza.*     
+> {% include play.html identifier="conversation" start=29.25 stop=37.07 %} P1: **Walking is a great exercise, but I think you should eat healthier. You should eat more vegetables and fruits if you want to stay healthy.** *Đi bộ là một bài tập tốt, nhưng tôi nghĩ bạn nên ăn uống lành mạnh hơn. Bạn nên ăn nhiều rau củ và trái cây hơn để giúp khỏe mạnh.*     
+> {% include play.html identifier="conversation" start=37.07 stop=39.00 %} P2: **Ugh, I don't like fruits.** *Trời, tôi không thích trái cây.*     
+> {% include play.html identifier="conversation" start=39.00 stop=42.26 %} P1: **They're healthy! You eat too much junk food.** *Chúng rất bổ ích! Bạn ăn quá nhiều thức ăn có hại.*     
+> {% include play.html identifier="conversation" start=42.26 stop=45.57 %} P2: **So what? One or two bad decisions won't ruin my life.** *Thì sao chứ? 1 hoặc 2 lần đâu có làm tổn hại gì cuộc sống tôi.*     
+> {% include play.html identifier="conversation" start=45.57 stop=54.73 %} P1: **One or two?! You have bad posture. You drink too much alcohol. You eat too much sugar. Your breath smells like a dirty sock and you sleep too much.**  *Một hay hai? Bạn có tình thế rất tệ. Bạn uống quá nhiều rượu. Ăn quá nhiều đường. Hơi thể bạn nghe như mùi tất thối vậy và bạn ngủ quá nhiều.*      
+> {% include play.html identifier="conversation" start=54.73 stop=57.23 %}P2: **Yeah. Okay. I need to change.** *Ừ, ok. Tôi phải thay đổi thôi.*    
 
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=true
@@ -90,7 +83,7 @@ attr:
 - **Get plenty of exercise every week if you want a healthy body.**   *Hãy tập thể dục nhiều mỗi tuần nếu bạn muốn một cơ thể khỏe mạnh*
 
 {% if site.trialdeploy %}
-  {% include list_placeholder.html start=3 stop=6 %}
+  {% include list_placeholder.html  attr=page.attr     start=3 stop=6 %}
   {% else %}
 
 {%  include voice.html attr=page.attr  

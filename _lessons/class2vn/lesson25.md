@@ -76,7 +76,7 @@ attr:
 - **Don't bring up their break-up. You know Alex is still very sensitive about it.**   *Đừng nhắc tới việc họ chia tay. Tôi biết Alex vẫn rất nhạy cảm về việc này*
 
 {% if site.trialdeploy %}
-  {% include list_placeholder.html start=3 stop=6 %}
+  {% include list_placeholder.html  attr=page.attr     start=3 stop=6 %}
   {% else %}
 
 {%  include voice.html attr=page.attr  

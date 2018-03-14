@@ -50,6 +50,11 @@ attr:
 - **She is the type the person who doesn't care anybody else but herself.**  *Cô ấy là mẫu người chả quan tâm đến ai ngoài bản thân cô ấy.*
 - **He is the type of person who thinks that he is the center of the universe.**  *Anh ấy là mẫu người nghĩ mình là trung tâm của vũ trụ.*
 
+{% if site.trialdeploy %}
+	{% include explanation_placeholder.html  attr=page.attr     start=2 stop=5 %}
+	{% else %}
+
+
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=false start=26.42 stop=54.55
 	title="2. That's why I have a lot of friends."        
@@ -96,5 +101,6 @@ attr:
 - **I tried to be chill but you're so hot I melted.**  *Tôi đã cố lạnh lùng nhưng bạn thật nóng bỏng tôi đã tan chảy.*
 
 
+{% endif %}
 
 

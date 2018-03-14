@@ -109,7 +109,7 @@ attr:
 - **My hometown is nothing to brag about, but I love it. It's small and charming.**   *Quê của tôi thì không có gì để khoe. Nó nhỏ và rất hấp dẫn.*
 
 {% if site.trialdeploy %}
-  {% include list_placeholder.html start=3 stop=6 %}
+  {% include list_placeholder.html  attr=page.attr     start=3 stop=6 %}
   {% else %}
  
 {%  include voice.html attr=page.attr  

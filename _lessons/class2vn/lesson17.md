@@ -108,7 +108,7 @@ attr:
 
 
 {% if site.trialdeploy %}
-  {% include list_placeholder.html start=3 stop=5 %}
+  {% include list_placeholder.html  attr=page.attr     start=3 stop=5 %}
   {% else %}
 
 

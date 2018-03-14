@@ -108,7 +108,7 @@ attr:
 - **He's going to study abroad.** *Anh ta sẽ đi du học.*
 
 {% if site.trialdeploy %}
-	{% include explanation_placeholder.html start=2 stop=6 %}
+	{% include explanation_placeholder.html  attr=page.attr     start=2 stop=6 %}
 	{% else %}
 
 

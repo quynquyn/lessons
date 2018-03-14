@@ -43,7 +43,7 @@ attr:
 *- Không phải, người đàn ông đó không phải lúc nào cũng muốn đi theo đám đông.*    
 
 {% if site.trialdeploy %}
-	{% include explanation_placeholder.html start=3 stop=7 %}
+	{% include explanation_placeholder.html  attr=page.attr     start=3 stop=7 %}
 	{% else %}
 
 3. {% include play.html identifier="lesson-conversation" start=14 stop=22 %} **Do your parents yell at you when you come home late?**    
@@ -86,4 +86,5 @@ attr:
 *- Có phải bạn của bạn cảm nắng mình không?*  
 *- Không, bạn ấy không cảm nắng bạn. Mình cảm nắng bạn.*  
 
-	{% endif %}
+
+{% endif %}

@@ -91,6 +91,11 @@ attr:
  - {% include play.html identifier="regular" start=45.58 stop=47.28 %} **I looked at her.**     *Tôi đã nhìn cô ấy.*   
  - {% include play.html identifier="regular" start=47.28 stop=50.28 %} **She stopped staring at me.**   *Cô ta đã dừng nhìn chằm chằm vào tôi.*  
  - {% include play.html identifier="regular" start=50.28 stop=52.28 %} **You looked at me.**    *Bạn đã nhìn tôi.*   
+ 
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=4 stop=10 %}
+	{% else %}
+
  - {% include play.html identifier="regular" start=52.28 stop=55.28 %} **She washed her hands.**     *Cô ta đã rửa tay.*   
  - {% include play.html identifier="regular" start=55.28 stop=57.28 %} **He popped the balloon.**     *Anh ta đã làm bể bong bóng.*   
  - {% include play.html identifier="regular" start=57.28 stop=59.28 %} **I missed him.**     *Tôi đã nhớ anh ấy.*     
@@ -109,18 +114,27 @@ attr:
  - {% include play.html identifier="regular" start=97.28 stop=100.28 %} **The dog chased the cat again yesterday.**   *Hôm qua con chó lại đuổi theo con mèo.*     
  - {% include play.html identifier="regular" start=100.28 stop=104.28 %} **Joanne laughed when Chris asked her out.**   *Joanne cười lớn khi Chris mời cô ta ra ngoài chơi.*      
 
+{% endif %}
+
 {% include play.html identifier="regular" start=104.28 stop=113.28 %} **| ed = ed sound for verbs ending with a t or d |**  
 *ed phát âm là "ed" với những động từ kết thúc là t hoặc d*
  
  - {% include play.html identifier="regular" start=113.28 stop=116.28 %} **We visited our parents.**   *Chúng tôi đã đi thăm bố mẹ.*     
  - {% include play.html identifier="regular" start=116.28 stop=118.28 %} **My sister finally graduated!**     *Chị gái tôi cuối cùng cũng đã tốt nghiệp.*    
  - {% include play.html identifier="regular" start=118.28 stop=121.28 %} **I visited my old friend from school.**     *Tôi đã đi thăm bạn học cũ.*      
- - {% include play.html identifier="regular" start=121.28 stop=126.28 %} **My husband and I intended to travel to Australia last year.**     *Chồng tôi và tôi đã dự định đi du lịch Úc năm ngoái.*    
+ - {% include play.html identifier="regular" start=121.28 stop=126.28 %} **My husband and I intended to travel to Australia last year.**     *Chồng tôi và tôi đã dự định đi du lịch Úc năm ngoái.*  
+ 
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=5 stop=10 %}
+	{% else %}
+  
  - {% include play.html identifier="regular" start=126.28 stop=129.28 %} **Sarah and Michael dated for a week.**     *Sarah và Michael đã hẹn hò trong một tuần*   
  - {% include play.html identifier="regular" start=129.28 stop=132.78 %} **I attended the event. It bored me.**    *Tôi đã tham gia sự kiện. Nó làm tôi thấy chán* 
  - {% include play.html identifier="regular" start=132.78 stop=135.28 %} **I needed some help last night.**     *Đêm qua tôi đã cần sự giúp đỡ.*          
  - {% include play.html identifier="regular" start=135.28 stop=138.28 %} **My dog wanted to go outside.**     *Con chó của tôi muốn ra ngoài.*   
  - {% include play.html identifier="regular" start=138.28 stop=142.28 %} **She invited us to her birthday party.**    *Cô ấy đã mời chúng tôi tới bữa tiệc sinh nhật của cô ấy.* 
+
+{% endif %}
 
 {% include play.html identifier="regular" start=142.28 stop=147.28 %} **| ed = d for all other verbs |**  
 *ed phát âm là "d" với những động từ còn lại*
@@ -128,11 +142,18 @@ attr:
  - {% include play.html identifier="regular" start=147.28 stop=150.28 %} **The dog followed me home.**    *Con chó đã đi theo tôi về nhà.*   
  - {% include play.html identifier="regular" start=150.28 stop=154.58 %} **I cleaned the entire house by myself.**     *Tôi đã tự lau dọn cả căn nhà.*     
  - {% include play.html identifier="regular" start=154.58 stop=158.58 %} **My sister played music until 3 AM.**     *Em gái tôi đã mở nhạc tới 3 giờ sáng.*   
+ 
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=4 stop=9 %}
+	{% else %}
+	
  - {% include play.html identifier="regular" start=158.58 stop=161.58 %} **Her hair smelled really bad.**     *Tóc cô ta có mùi rất ghê.*    
  - {% include play.html identifier="regular" start=161.58 stop=164.58 %} **My neighbor moved to Chicago.**     *Hàng xóm của tôi đã chuyển tới Chicago.*   
  - {% include play.html identifier="regular" start=164.58 stop=168.58 %} **I returned my library books in time.**     *Tôi đã trả lại mấy quyển sách thư viện vừa kịp lúc*
  - {% include play.html identifier="regular" start=168.5 stop=171.28 %} **His aunt raised him.**     *Cô của anh ấy đã nuôi nấng anh ấy.*   
  - {% include play.html identifier="regular" start=171.28 stop=175.28 %} **I traveled all across Europe last year.**     *Tôi đã đi du lịch khắp Châu Âu năm ngoái.*   
+
+{% endif %}
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="irregular"  init=true
@@ -208,6 +229,11 @@ attr:
      
 - **Your son broke my window!**     
   *Con trai bạn đã làm vỡ cửa sổ của tôi.*   
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=2 stop=11 %}
+	{% else %}
+
 - **She stole my wallet.**   
   *Cô ta đã lấy cắp ví của tôi.*        
 - **I drove my daughter to school.**    
@@ -226,6 +252,9 @@ attr:
   *Cô ta đã quét bụi dưới tấm thảm.*   
 - **Who forgot to close the door?**   
   *Ai đã quên đóng cửa vậy?* 
+
+{% endif %}
+
 
      
    

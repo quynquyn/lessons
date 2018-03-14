@@ -67,6 +67,11 @@ attr:
 1. {% include play.html identifier="examples" start=13.27 stop=14.89 %}**What are these?**  *Những cái này là gì?*
 1. {% include play.html identifier="examples" start=16.17 stop=18.50 %}**What is under the table?**  *Cái gì dưới gầm bàn?*
 1. {% include play.html identifier="examples" start=19.85 stop=21.83 %}**What is on the floor?**  *Cái gì trên sàn nhà?*
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=7 stop=22 %}
+	{% else %}
+
 1. {% include play.html identifier="examples" start=23.19 stop=25.30 %}**What is on top of the tree?**  *Cái gì ở trên đỉnh ngọn cây?*
 1. {% include play.html identifier="examples" start=26.30 stop=28.47 %}**What is your favorite animal?**  *Con vật yêu thích của bạn là gì?*
 1. {% include play.html identifier="examples" start=29.73 stop=32.43 %}**What is your favorite coffee shop?**  *Quán cà phê yêu thích của bạn là gì?*
@@ -84,4 +89,4 @@ attr:
 1. {% include play.html identifier="examples" start=78.20 stop=79.88 %}**What did you say?**  *Bạn nói gì vậy?*
 1. {% include play.html identifier="examples" start=81.59 stop=84.49 %}**What did the smart student pay attention to?** *Em học sinh thông minh đó đang tập trung vào điều gì?*
 
-
+{% endif %}

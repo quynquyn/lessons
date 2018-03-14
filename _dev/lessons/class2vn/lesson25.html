@@ -1,0 +1,1126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/dev/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+    
+  
+       
+    </nav>
+    
+
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                
+<h1>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L25-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+<span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '25', 'vocabulary');">▶</span>
+
+Lesson 2.25: Phrasal verbs
+<em>Cụm động từ</em>
+<div class="audiofile-info"></div>
+</h1>
+
+<h2 id="vocabulary-từ-vựng">Vocabulary <em>Từ vựng</em></h2>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l25-beat-oneself-up.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 6.7, 8.79, 
+      '2-25', 'beat oneself up');">▷ <strong>beat oneself up</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>đánh ai đó liên tục</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l25-break-in.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 8.79, 10.37, 
+      '2-25', 'break in');">▷ <strong>break in</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>xông vào, đột nhập vào</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l25-break-up-with-someone.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 10.37, 12.34, 
+      '2-25', 'break up with someone');">▷ <strong>break up with someone</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>chia tay với ai đó</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l25-bring-something-up.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 12.34, 14.04, 
+      '2-25', 'bring something up');">▷ <strong>bring something up</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>bắt đầu nói về một chủ để nào đó</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l25-bring-someone-up.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 14.04, 15.68, 
+      '2-25', 'bring someone up');">▷ <strong>bring someone up</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nuôi nấng từ bé đến lớn</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l25-catch-up-with-someone.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 15.68, 17.62, 
+      '2-25', 'catch up with someone');">▷ <strong>catch up with someone</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>đuổi kịp ai đó</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l25-come-across.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 17.62, 19.43, 
+      '2-25', 'come across');">▷ <strong>come across</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tình cờ gặp ai đó</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l25-run-into.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 19.43, 21.15, 
+      '2-25', 'run into');">▷ <strong>run into</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tình cờ gặp ai đó / đâm vào</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l25-come-up-with.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 21.15, 22.84, 
+      '2-25', 'come up with');">▷ <strong>come up with</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>khám phá ra/ tìm lại</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l25-count-on-someone.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 22.84, 24.56, 
+      '2-25', 'count on someone');">▷ <strong>count on someone</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>dựa vào ai đó</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l25-cut-down-on-something.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 24.56, 26.75, 
+      '2-25', 'cut down on something');">▷ <strong>cut down on something</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>cắt giảm gì đó</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l25-dress-up.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 26.75, 28.44, 
+      '2-25', 'dress up');">▷ <strong>dress up</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ăn mặc</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l25-drop-by.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 28.44, 30.27, 
+      '2-25', 'drop by');">▷ <strong>drop by</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ghé thăm</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l25-drop-someone-off.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 30.27, 32.18, 
+      '2-25', 'drop someone off');">▷ <strong>drop someone off</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>đưa ai đó đến một nơi nào đó</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l25-end-up.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 32.18, 34.02, 
+      '2-25', 'end up');">▷ <strong>end up</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>kết thục, kết cục, hậu quả</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row6"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l25-figure-out.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 34.02, 35.86, 
+      '2-25', 'figure out');">▷ <strong>figure out</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>hiểu ra/ giải quyết được vấn đề</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l25-get-along-with-someone.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 35.86, 37.98, 
+      '2-25', 'get along with someone');">▷ <strong>get along with someone</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>hòa thuận với ai đó</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l25-get-rid-of-something.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 37.98, 40.3, 
+      '2-25', 'get rid of something');">▷ <strong>get rid of something</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>loại bỏ cái gì đó</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row7"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l25-get-up.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 40.3, 42.13, 
+      '2-25', 'get up');">▷ <strong>get up</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>đứng lên</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l25-go-off.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 42.13, 43.97, 
+      '2-25', 'go off');">▷ <strong>go off</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nổ/ rời đi</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l25-go-on.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 43.97, 45.99, 
+      '2-25', 'go on');">▷ <strong>go on</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tiếp tục</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row8"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l25-grow-up.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 45.99, 47.82, 
+      '2-25', 'grow up');">▷ <strong>grow up</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>trưởng thành</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l25-make-something-up.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 47.82, 50.17, 
+      '2-25', 'make something up');">▷ <strong>make something up</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>bịa ra một chuyện gì đó</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l25-make-up-one-s-mind.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 50.17, 53.02, 
+      '2-25', 'make up one’s mind');">▷ <strong>make up one’s mind</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>quyết định</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row9"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l25-move-on.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 53.02, 55.34, 
+      '2-25', 'move on');">▷ <strong>move on</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tiếp tục</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l25-pick-someone-up.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 55.34, 57.49, 
+      '2-25', 'pick someone up');">▷ <strong>pick someone up</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>đón/ rước ai đó</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l25-pick-something-up.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 57.49, 59.59, 
+      '2-25', 'pick something up');">▷ <strong>pick something up</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nhặt cái gì đó lên</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row10"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l25-put-someone-down.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 59.59, 62.03, 
+      '2-25', 'put someone down');">▷ <strong>put someone down</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>quy là/ cho là</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l25-let-someone-down.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 62.03, 64.5, 
+      '2-25', 'let someone down');">▷ <strong>let someone down</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>làm ai đó thất vọng</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l25-look-up-to-someone.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 64.5, 67.1, 
+      '2-25', 'look up to someone');">▷ <strong>look up to someone</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tôn trọng/ ngưỡng mộ ai đó</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row11"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l25-look-down-on-someone.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 67.1, 69.9, 
+      '2-25', 'look down on someone');">▷ <strong>look down on someone</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>xem thường ai đó</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l25-settle-down.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 69.9, 71.61, 
+      '2-25', 'settle down');">▷ <strong>settle down</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ổn định</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l25-show-up.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 71.61, 73.42, 
+      '2-25', 'show up');">▷ <strong>show up</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>có mặt</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row12"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l25-show-off.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 73.42, 75.71, 
+      '2-25', 'show off');">▷ <strong>show off</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>khoe khoang</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L25-conversation.mp3" id="audio_conversation" preload="none"></audio>
+<span class="el-player-icon" id="play_conversation" onclick="play('conversation', '25', 'conversation');">▶</span>
+
+Conversation
+<em>Đối thoại</em>
+<div class="audiofile-info"></div>
+</h2>
+
+<blockquote>
+  <p><strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      1.55, 4.15,      'n/a', 'conversation');">▷</strong> Person 1: <strong>Jake? What’s the matter? You look upset.</strong>  <br />
+<em>Jake? Có vấn đề gì vậy? Trông bạn buồn quá.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      4.25, 8.55,      'n/a', 'conversation');">▷</strong> Person 2: <strong>I broke up with Janice. I just had to, I couldnt be with her anymore.</strong> 
+<em>Tôi đã chia tay với Janice. Tôi phải làm vậy, tôi không thể bên cạnh cô ta nữa.</em>   <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      8.55, 11.45,      'n/a', 'conversation');">▷</strong> P1: <strong>Oh. I’m sorry to hear that. I’m sure it was for the best.</strong>   <br />
+<em>Ồ, tôi rất tiếc khi nghe điều đó. Tôi chắc thế này là tốt nhất.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      11.55, 15.75,      'n/a', 'conversation');">▷</strong> P2: <strong>I think so. But I feel bad because she started crying as soon as I told her.</strong><br />
+<em>Tôi nghĩ vậy. Nhưng tôi thấy tệ vì cô ấy bắt đầu khóc ngay khi tôi nói với cô ấy.</em> 
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      16.15, 17.55,      'n/a', 'conversation');">▷</strong> P1: <strong>Why did you break up with her?</strong> <br />
+<em>Tại sao bạn chia tay cô ấy vậy?</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      17.75, 22.25,      'n/a', 'conversation');">▷</strong> P2: <strong>She has anger issues. I finally figured out she isn’t going to change.</strong> 
+<em>Cô ấy có vấn đề với sự nóng giận. Tôi cuối cùng cũng hiểu được là cô ấy sẽ không thay đổi.</em> <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      22.35, 25.1,      'n/a', 'conversation');">▷</strong> P1: <strong>I see. In that case it’s probably for the best.</strong> <br />
+<em>Tôi biết. Trong trường hợp đó thì như vậy là tốt nhất.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      25.15, 29.15,      'n/a', 'conversation');">▷</strong> P2: <strong>I know. I just feel bad. I feel guilty for making her cry.</strong><br />
+<em>Tôi biết. Tôi chỉ thấy tệ. Tôi thấy mình có lỗi vì làm cho cô ấy khóc.</em> 
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      29.25, 33.15,      'n/a', 'conversation');">▷</strong> P1: <strong>Don’t beat yourself up about it. You need someone better to settle down with. She’ll get over it.</strong> <br />
+<em>Đừng tự giận mình nữa. Bạn cần người tốt hơn để ổn định. Cô ấy sẽ vượt qua thôi.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      33.65, 38.15,      'n/a', 'conversation');">▷</strong> P2: <strong>Yeah. I’ll get over it in a week or so. It takes time to move on, I guess.</strong> 
+<em>Ừ. Tôi sẽ vượt qua nó trong vòng một tuần hoặc hơn. Cần thời gian để tiếp tục, tôi đoán vậy.</em><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      38.35, 42.45,      'n/a', 'conversation');">▷</strong> P1: <strong>It does. Listen, if you need someone to talk to, you can count on me.</strong> <br />
+<em>Đúng vậy. Nghe này, nếu bạn cần ai đó để nói chuyện, bạn có thể trông cậy vào tôi.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      42.75, 46.55,      'n/a', 'conversation');">▷</strong> P2: <strong>Thanks. If I end up feeling worse, I’ll give you a call.</strong><br />
+<em>Cảm ơn. Nếu cuối cùng tôi thấy tệ hơn, tôi sẽ gọi cho bạn.</em>
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      46.55, 49.95,      'n/a', 'conversation');">▷</strong> P1: <strong>Of course. Just try not to run into her anytime soon.</strong> <br />
+<em>Tất nhiên. Cố gắng đừng chạy theo cô ta sớm quá nhé.</em></p>
+</blockquote>
+
+<h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L25-explanation.mp3" id="audio_explanation" preload="none"></audio>
+<span class="el-player-icon" id="play_explanation" onclick="play('explanation', '25', 'explanation');">▶</span>
+
+Explanation
+<em>Giải thích</em>
+<div class="audiofile-info"></div>
+</h2>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation', 
+    2.25, 22.55, 
+    'n/a', 'explanation');">▷</strong>
+
+1. I broke up with Janice. I couldn't be with her anymore.
+<em>Tôi đã chia tay với Janice. Tôi không thể bên cạnh cô ta nữa.</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<ul>
+  <li><strong>Emily and Alex broke up when she caught him breaking into her house.</strong>   <em>Emily và Alex chia tay khi cô ta bắt gặp anh ta đột nhập vào nhà của mình</em></li>
+  <li><strong>When she left me, I felt broken. She broke my heart.</strong>   <em>Khi cô ta bỏ tôi, tôi cảm thấy tan vỡ. Cô ta làm tan nát trái tim tôi</em></li>
+  <li><strong>Don’t bring up their break-up. You know Alex is still very sensitive about it.</strong>   <em>Đừng nhắc tới việc họ chia tay. Tôi biết Alex vẫn rất nhạy cảm về việc này</em></li>
+</ul>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation', 
+    22.75, 46.75, 
+    'n/a', 'explanation');">▷</strong>
+
+2. Don't beat yourself up about it. She'll get over it.
+<em>Đừng giận mình nữa. Cô ta sẽ vượt qua được điều đó thôi.</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<ul>
+  <li><strong>I’m so tired of hearing him cry about his ex girlfriend. Tell him to get over it!</strong>   <em>Tôi quá mệt mỏi vì phải ngh anh ta khóc lóc về bạn gái cũ. Hãy nói anh ta vượt qua chuyện đó đi</em></li>
+  <li><strong>Once I got over my break-up, I found a new girlfriend and I’m getting along with her just fine.</strong>   <em>Khi tôi vượt qua việc chia tay của mình, tôi tìm thấy một người bạn gái mới và tôi hợp với cô ta rất nhiều</em></li>
+  <li><strong>I don’t know how I’ll go on without my boyfriend. I thought we were going to settle down and start a family.</strong>   <em>Tôi không biết làm cách nào tôi có thể tiếp tục mà không có bạn trai của mình. Tôi tưởng chúng tôi sẽ kết hôn và có một gia đình</em></li>
+</ul>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation', 
+    46.75, 60.75, 
+    'n/a', 'explanation');">▷</strong>
+
+3. If I end up feeling worse, I'll give you a call.
+<em>Nếu cuối cùng tôi vẫn cảm thấy tệ hơn, tôi sẽ gọi điện cho bạn.</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<ul>
+  <li><strong>If you stay in this relationship, you’ll end up in a horrible marriage.</strong>   <em>Nếu bạn vẫn trong mối quan hệ này, bạn sẽ cuối cùng kết thúc trong một cuộc hôn nhân khủng khiếp</em></li>
+  <li><strong>Most people who try drugs end up addicted to it.</strong>   <em>Hầu hết người thử thuốc phiện cuối cùng kết thúc là nghiện nó</em></li>
+  <li><strong>You need friends you can count on if you end up in a bad situation.</strong>   <em>Bạn cần những người bạn mà bạn có thể dựa dẫm vào nếu bạn kết thúc trong một tình huống xấu</em></li>
+</ul>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation', 
+    61.75, 81.55, 
+    'n/a', 'explanation');">▷</strong>
+
+4. I finally figured out she isn't going to change.
+<em>Tôi cuối cùng cũng hiểu được tại sao cô ta không thay đổi.</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<ul>
+  <li><strong>Listening to my parents helped me figure out I have a lot to learn.</strong>   <em>Nói chuyện với ba mẹ giúp tôi hiểu ra rằng tôi có nhiều thứ phải học</em></li>
+  <li><strong>My brother helped me figure out this math assignment. I was really stuck.</strong>   <em>Anh trai giúp tôi hiểu ra bài toán này. Tôi đã bị bí</em></li>
+  <li><strong>Anna needs to figure out what she’s going to do with her life.</strong>   <em>Anna cần phải tìm ra cô ta phải làm gì với cuộc đời mình</em></li>
+</ul>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation', 
+    81.75, 107.15, 
+    'n/a', 'explanation');">▷</strong>
+
+5. Try not to run into her anytime soon.
+<em>Cố gắng đừng chạy theo cô ta sớm quá.</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<ul>
+  <li><strong>I ran into my sister this morning. I didn’t see her since April.</strong>   <em>Cô vô tình gặp chị tôi sáng nay. Tôi không gặp chị từ tháng 4</em></li>
+  <li><strong>Guess who I ran into at the bank! My best friend from high school. We went for coffee afterwards.</strong>   <em>Đoán xem tôi đã vô tình gặp ai tại ngân hàng! Bạn thân nhất của tôi từ trung học. Sau đó chúng tôi đi cà phê</em></li>
+  <li><strong>I’m going to the supermarket. I really hope I don’t run into my math teacher like I did last week.</strong>   <em>Tôi sẽ đi siêu thị. Tôi thật sự hi vọng tôi không vô tình gặp giáo viên dạy toán như lần trước tuần vừa rồi</em></li>
+</ul>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

@@ -39,6 +39,11 @@ attr:
 *Những con mèo của tôi đâu?* - *Mèo của bạn ở dưới bàn.*
 4. {% include play.html identifier="examples2" start=21.7 stop=27.9 %} **Where are John and Jack?**- **They are behind the door.**
 *John và Jack đang ở đâu?* - *Họ ở sau cánh cửa.*
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=5 stop=10 %}
+	{% else %}
+
 5. {% include play.html identifier="examples2" start=28.1 stop=34.7 %} **Where is the restaurant?**- **The restaurant is across from the park.**
 *Nhà hàng ở đâu?* - *Nhà hàng ở bên kia công viên.*
 6. {% include play.html identifier="examples2" start=34.7 stop=43.1 %} **Where is the library?** - **The library is between the post office and the hair salon.**
@@ -51,6 +56,8 @@ attr:
 *Chìa khóa của tôi đâu?* - *Chìa khóa trong tay bạn.*
 10. {% include play.html identifier="examples2" start=62.1 stop=68.3 %} **Where is the birthday cake?** - **It is in the fridge.**
 *Cái bánh sinh nhật đâu?* - *Nó ở trong tủ lạnh.*
+
+{% endif %}
 
 {%  include voice.html attr=page.attr  
 	identifier="examples1"  init=true
@@ -70,6 +77,11 @@ attr:
 - **I usually stay home.**     
 *Bạn thường đi đâu cuối tuần?*     
 *Tôi thường ở nhà.*
+
+{% if site.trialdeploy %}
+	{% include explanation_placeholder.html  attr=page.attr     start=4 stop=10 %}
+	{% else %}
+	
 4. {% include play.html identifier="examples1" start=32.3 stop=42.3 %} **Where does your mother usually buy bread and cake?**
 - **She always buys bread and cake at the bakery.**      
 *Mẹ bạn thường mua bánh mì và bánh ở đâu?*     
@@ -99,3 +111,4 @@ attr:
 *Bạn cần gặp anh ấy ở đâu?*
 *Tôi cần gặp anh ấy tại quán cà phê.*
 
+{% endif %}

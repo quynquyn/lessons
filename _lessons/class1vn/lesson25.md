@@ -25,6 +25,12 @@ attr:
 1. **What does your mother usually buy when she goes shopping?**   *Mẹ của bạn thường mua gì khi bà ấy đi mua sắm?*
 1. **What is your favorite book?**  *Quyển sách yêu thích nhất của bạn là gì?*
 1. **Which teacher do you like?**  *Bạn thích giáo viên nào?*
+
+{% if site.trialdeploy %}
+	{% include explanation_placeholder.html  attr=page.attr     start=9 stop=47 %}
+	{% else %}
+
+
 1. **Which movie do you want to watch?**  *Bạn muốn xem phim gì?*
 1. **Which classmate do you want to talk to?**  *Bạn muốn nói chuyện với người bạn cùng lớp nào?*
 1. **Which do you prefer, money or love?**  *Bạn thích cái nào hơn, tiền hay tình yêu?*
@@ -63,3 +69,7 @@ attr:
 1. **Why do people tell white lies?**  *Tại sao mọi người lại nói những lời nói dối vô hại?*
 1. **Why do people want to live in the countryside?**  *Vì sao mọi người muốn sống ở vùng quê?*
 1. **Why do people want to live in the city?**   *Vì sao mọi người muốn sống trong thành phố?*
+
+
+{% endif %}
+

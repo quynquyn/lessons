@@ -39,6 +39,11 @@ attr:
 1. {% include play.html identifier="examples1" start=12.51 stop=14.61 %}**He is my mechanic.**  *Anh ấy là thợ máy của tôi.*
 1. {% include play.html identifier="examples1" start=15.53 stop=16.94 %} **Who is she?**  *Bà ấy là ai?*
 1. {% include play.html identifier="examples1" start=17.87 stop=19.76 %}**She is my mother.**  *Bà ấy là mẹ của tôi.*
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=5 stop=10 %}
+	{% else %}
+
 1. {% include play.html identifier="examples1" start=20.70 stop=22.70 %} **Who is a football player?** *Ai là cầu thủ bóng đá?*
 1. {% include play.html identifier="examples1" start=23.75 stop=27.49 %}**The man next to the door is a football player.**  *Người đàn ông bên cạnh cửa là cầu thủ bóng đá.*
 1. {% include play.html identifier="examples1" start=28.44 stop=30.13 %} **Who is a priest?**  *Ai là linh mục?*
@@ -59,7 +64,7 @@ attr:
 1. {% include play.html identifier="examples1" start=94.43 stop=97.21 %}**The thief is under the table.**  *Tên trộm đang ở dưới bàn.*
 1. {% include play.html identifier="examples1" start=98.48 stop=101.19 %} **Who is next to Mr. Jones?**  *Ai đang đứng kế ông Jones?*
 1. {% include play.html identifier="examples1" start=102.47 stop=104.97 %}**Mrs. Jones is next to him.**  *Bà Jones đứng kế ông Jones.*
-
+{% endif %}
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="examples2"  init=true
@@ -74,6 +79,11 @@ attr:
 1. {% include play.html identifier="examples2" start=14.36 stop=17.10 %} **I want to become a model.**  *Tôi muốn trở thành một người mẫu.*
 1. {% include play.html identifier="examples2" start=17.96 stop=21.07 %} **Who does the man want to kiss?**  *Người đàn ông đó muốn hôn ai?*
 1. {% include play.html identifier="examples2" start=22.10 stop=24.75 %} **He wants to kiss a nurse.**  *Ông ấy muốn hôn một cô y tá.*
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=5 stop=10 %}
+	{% else %}
+	
 1. {% include play.html identifier="examples2" start=26.21 stop=29.35 %} **Who does the kid intend to draw?**  *Đứa bé đó định vẽ ai vậy?*
 1. {% include play.html identifier="examples2" start=30.39 stop=34.29 %} **The kid intends to draw an astronaut.**  *Đứa bé định vẽ một phi hành gia.*
 1. {% include play.html identifier="examples2" start=35.30 stop=38.61 %} **Who does the engineer have a crush on?**  *Người kĩ sư cảm nắng ai?*
@@ -88,6 +98,6 @@ attr:
 1. {% include play.html identifier="examples2" start=78.75 stop=82.36 %} **Doctors and nurses take care of sick people.**  *Các bác sĩ và y tấ chăm sóc những người bệnh.*
 1. {% include play.html identifier="examples2" start=84.39 stop=86.50 %} **Who flies an airplane?**  *Ai lái máy bay?*
 1. {% include play.html identifier="examples2" start=87.43 stop=90.14 %} **The pilot flies an airplane.**  *Phi công lái máy bay.
-
+{% endif %}
 
  

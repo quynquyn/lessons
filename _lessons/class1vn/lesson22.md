@@ -37,6 +37,11 @@ attr:
 1. {% include play.html identifier="examples" start=3.93 stop=5.30 %} **How are you?**  *Bạn thế nào? / Bạn khỏe không?*
 2. {% include play.html identifier="examples" start=6.67 stop=8.35 %} **How is your brother?**  *Em trai của bạn thế nào?*
 3. {% include play.html identifier="examples" start=9.74 stop=11.46 %} **How is your job?**  *Công việc của bạn thế nào?*
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=4 stop=27 %}
+	{% else %}
+
 4. {% include play.html identifier="examples" start=12.85 stop=14.42 %} **How is the weather?**  *Thời tiết như thế nào?*
 5. {% include play.html identifier="examples" start=15.68 stop=17.27 %} **How is your cat?**  *Mèo của bạn như thế nào?*
 6. {% include play.html identifier="examples" start=18.65 stop=20.12 %} **How old is she?**  *Cô ấy bao nhiêu tuổi?*
@@ -61,3 +66,6 @@ attr:
 25. {% include play.html identifier="examples" start=87.26 stop=90.27 %} **How long does it take to forget someone you love?**  *Mất bao lâu để quên đi một người mà bạn yêu?*
 26. {% include play.html identifier="examples" start=91.85 stop=94.26 %} **How often do you brush your teeth?**   *Bạn đánh răng thường xuyên như thế nào?* 
 27. {% include play.html identifier="examples" start=95.79 stop=98.03 %} **How often do you call your mom?**  *Bạn gọi điện cho mẹ thường xuyên như thế nào?*
+
+{% endif %}
+

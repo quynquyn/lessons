@@ -1,0 +1,763 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/dev/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+    
+  
+       
+    </nav>
+    
+
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                
+<h1>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L23-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+<span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '23', 'vocabulary');">▶</span>
+
+Lesson 2.23: Employment
+<em>Việc làm</em>
+<div class="audiofile-info"></div>
+</h1>
+
+<h2 id="vocabulary-từ-vựng">Vocabulary <em>Từ vựng</em></h2>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary', 
+    8.39, 13.51, 
+    'n/a', 'vocabulary');">▷</strong>
+
+Company
+<em>Công ty</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<p><strong>I want to work for a _______ company</strong></p>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l23-publishing.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 13.48, 15.39, 
+      '2-23', 'publishing');">▷ <strong>publishing</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>việc xuất bản/nghể xuất bản</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l23-television.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 15.39, 16.96, 
+      '2-23', 'television');">▷ <strong>television</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>truyền hình</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l23-insurance.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 16.96, 18.76, 
+      '2-23', 'insurance');">▷ <strong>insurance</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>bảo hiểm</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l23-pharmaceutical.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 18.76, 20.56, 
+      '2-23', 'pharmaceutical');">▷ <strong>pharmaceutical</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>thuộc về được khoa</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l23-computer.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 20.56, 22.2, 
+      '2-23', 'computer');">▷ <strong>computer</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>máy tính</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l23-engineering.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 22.2, 23.99, 
+      '2-23', 'engineering');">▷ <strong>engineering</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>kỹ thuật</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l23-electronics.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 23.99, 25.67, 
+      '2-23', 'electronics');">▷ <strong>electronics</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>điện tử học</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="qualities-chất-lượng">Qualities <em>Chất lượng</em></h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l23-ambitious.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 27.74, 29.57, 
+      '2-23', 'ambitious');">▷ <strong>ambitious</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>đầy tham vọng</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l23-reliable.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 29.57, 30.88, 
+      '2-23', 'reliable');">▷ <strong>reliable</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>chắc chắn, đáng tin cậy</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l23-lazy.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 30.88, 32.35, 
+      '2-23', 'lazy');">▷ <strong>lazy</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>lười biếng</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l23-conscientious.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 32.35, 34.1, 
+      '2-23', 'conscientious');">▷ <strong>conscientious</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tận tâm, chu đáo, cần thận</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l23-flexible.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 34.1, 35.95, 
+      '2-23', 'flexible');">▷ <strong>flexible</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>linh hoạt, mềm  dẻo</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l23-adaptive.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 35.95, 37.46, 
+      '2-23', 'adaptive');">▷ <strong>adaptive</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>mang tính thích nghi</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l23-confident.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 37.46, 39.22, 
+      '2-23', 'confident');">▷ <strong>confident</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tự tin</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l23-punctual.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 39.22, 40.83, 
+      '2-23', 'punctual');">▷ <strong>punctual</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>đúng giờ</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l23-enthusiastic.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 40.83, 42.78, 
+      '2-23', 'enthusiastic');">▷ <strong>enthusiastic</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nhiệt tình, say mê, hăng hái</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l23-independent.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 42.78, 44.53, 
+      '2-23', 'independent');">▷ <strong>independent</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>độc lập</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L23-conversation.mp3" id="audio_conversation" preload="none"></audio>
+<span class="el-player-icon" id="play_conversation" onclick="play('conversation', '23', 'conversation');">▶</span>
+
+Conversation
+<em>Đối thoại</em>
+<div class="audiofile-info"></div>
+</h2>
+
+<blockquote>
+  <p><strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      1.95, 6.96,      'n/a', 'conversation');">▷</strong>Person 1: <strong>So you’d like to be an employee at our TV company. Tell me why?</strong> <br />
+<em>Bạn thích là nhân viên ở công ty tivi này. Nói cho tôi biết tại sao?</em>  <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      6.96, 11.41,      'n/a', 'conversation');">▷</strong>Person 2: <strong>I have loved television ever since I was a child, and I would like to be a news reporter.</strong>   <br />
+<em>Từ lúc nhỏ là tôi đã rất thích tivi rồi, và tôi muốn trở thành phóng viên.</em> <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      11.41, 14.53,      'n/a', 'conversation');">▷</strong>P1: <strong>I’m pleased to hear that. What was your previous job?</strong>    <br />
+<em>Tôi rất vui được nghe điều đó. Đó có phải là công việc trước kia của bạn không?</em><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      14.53, 18.0,      'n/a', 'conversation');">▷</strong>P2: <strong>I worked for an insurance company, working with customers mainly.</strong>  <br />
+<em>Tôi làm việc cho một công ty bảo hiểm, làm việc với khách hàng là chính.</em><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      18.0, 21.01,      'n/a', 'conversation');">▷</strong>P1: <strong>Sounds like a promising profession. Why did you quit?</strong>   <br />
+<em>Nghe như một nghề nghiệp có triển vọng. Sao bạn từ bỏ nó?</em> <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      21.01, 24.6,      'n/a', 'conversation');">▷</strong>P2: <strong>I earned enough money for a few years, and now I want to pursue my dream.</strong>  <br />
+<em>Tôi đã kiếm đủ tiền cho vài năm, và bây giờ tôi muốn thúc đẩy mơ ước của tôi.</em><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      24.6, 27.84,      'n/a', 'conversation');">▷</strong>P1: <strong>Ambitious. Tell me, what are some of your strengths?</strong>    <br />
+<em>Rất tham vọng. Nói cho tôi nghe, những thế mạnh của bạn là gì?</em><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      27.84, 33.35,      'n/a', 'conversation');">▷</strong>P2: <strong>I’m reliable, flexible and adaptive. I am also very punctual and confident in my work.</strong>  <br />
+<em>Tôi đáng tin cậy, linh hoạt và rất dễ thích nghi. Tôi cũng rất đúng giờ và tự tin vào công việc của tôi.</em><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      33.35, 36.27,      'n/a', 'conversation');">▷</strong>P1: <strong>And what would you say are your greatest flaws?</strong>  <br />
+<em>Và có thể nói đâu là thói xấu nhất của bạn?</em><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      36.27, 40.63,      'n/a', 'conversation');">▷</strong>P2: <strong>Well, I find that if I’m not in a happy work environment, I get very lazy.</strong> <br />
+<em>Ừ thì, tôi thấy là nếu tôi không ở trong một môi trường làm việc vui vẻ, tôi sẽ trở nên lười biếng.</em>  <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      40.63, 43.74,      'n/a', 'conversation');">▷</strong>P1: <strong>Oh, is that so? Give me an example.</strong>  <br />
+<em>Ồ, vậy hả? Cho tôi một ví dụ đi.</em><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      43.74, 51.56,      'n/a', 'conversation');">▷</strong>P2: <strong>Well, I dislike it when employers are too aggressive or demanding. I also don’t like it when they want to form personal relationships with employees.</strong>  <br />
+<em>Ừ, tôi không thích khi mà chủ của tôi quá nóng tính hoặc ra lệnh. Tôi cũng không thích khi họ muốn mối quan hệ riêng tư với nhân viên.</em><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      51.56, 54.86,      'n/a', 'conversation');">▷</strong>P1: <strong>Trust me, Mr. Robinson, that is not going to be a problem.</strong>  <br />
+<em>Tin tôi đi anh Robinson, đó sẽ không phải là vấn đề đâu.</em><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      54.86, 56.21,      'n/a', 'conversation');">▷</strong>P2: <strong>I’m pleased to hear that.</strong>  <em>Tôi vui vì nghe điều đó.</em><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      56.21, 61.09,      'n/a', 'conversation');">▷</strong> P1: <strong>I’m pleased that you’re pleased, and I would like to officially welcome you to the company. You’re hired.</strong>  <br />
+<em>Tôi cũng vui vì bạn vui, và tôi muốn chính thức chào mừng bạn đến với công ty này. Bạn đã được thuê!</em><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      61.09, 62.6,      'n/a', 'conversation');">▷</strong> P2: <strong>Thank you very much, Sir.</strong>  <em>Cảm ơn ngài rất nhiều.</em></p>
+</blockquote>
+
+<h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L23-explanation.mp3" id="audio_explanation" preload="none"></audio>
+<span class="el-player-icon" id="play_explanation" onclick="play('explanation', '23', 'explanation');">▶</span>
+
+Explanation
+<em>Giải thích</em>
+<div class="audiofile-info"></div>
+</h2>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation', 
+    4.17, 17.86, 
+    'n/a', 'explanation');">▷</strong>
+
+1.  What was your previous job?
+<em></em>
+<div class="audiofile-info"></div>
+</h3>
+
+<p><em>Công việc trước của bạn là gì?</em></p>
+
+<ul>
+  <li><strong>Where did you work before you decided to apply for this position?</strong>  <em>Bạn đã làm việc ở đâu trước khi bạn quyết định nộp đơn cho vị trí này?</em></li>
+  <li><strong>What company did you work for?</strong>  <em>Bạn đã làm việc cho công ty nào?</em></li>
+  <li><strong>Did you work in a pharmaceutical company prior to applying here?</strong>   <em>Có phải bạn đã làm việc cho một công ty dược trước khi bạn nộp đơn vào đây?</em></li>
+</ul>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation', 
+    19.09, 33.36, 
+    'n/a', 'explanation');">▷</strong>
+
+2. Your previous job sounds great. Why did you quit?
+<em></em>
+<div class="audiofile-info"></div>
+</h3>
+
+<p><em>Công việc trước của bạn nghe rất tuyện. Tại sao bạn từ bỏ?</em></p>
+<ul>
+  <li><strong>Why did you resign your previous position?</strong>  <em>Tại sao bạn từ bỏ công việc trước của bạn?</em></li>
+  <li><strong>Were you fired or did you quit?</strong>  <em>Bạn bị sa thải hay là bạn nghỉ việc?</em></li>
+  <li><strong>Why have you decided to apply for a job in our company?</strong>  <em>Vì sao bạn quyết định nộp đơn xin việc ở công ty chúng tôi?</em></li>
+</ul>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation', 
+    34.4, 51.6, 
+    'n/a', 'explanation');">▷</strong>
+
+3. If I'm not in a happy work environment, I get very lazy.
+<em></em>
+<div class="audiofile-info"></div>
+</h3>
+
+<p><em>Nếu tôi ở trong một môi trường làm việc không mấy vui vẻ, tôi sẽ lười biếng.</em></p>
+
+<ul>
+  <li><strong>My greatest flaw is that I pay too much attention to detail.</strong>  <em>Thói xấu của tôi là tôi tập trung quá nhiều vào tiểu tiết.</em></li>
+  <li><strong>I’m a workaholic and sometimes that can be a problem for me.</strong>  <em>Tôi là người nghiện làm việc và thỉnh thoảng đó là vấn đề của tôi.</em></li>
+  <li><strong>I don’t function well in a group, I prefer working alone.</strong>  <em>Tôi không hợp tác tốt trong nhóm, tôi thích làm việc một mình hơn.</em></li>
+</ul>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation', 
+    53.14, 68.1, 
+    'n/a', 'explanation');">▷</strong>
+
+4. I'm reliable, flexible and adaptive.
+<em></em>
+<div class="audiofile-info"></div>
+</h3>
+
+<p><em>Tôi đáng tin, linh hoạt và dễ thích nghi.</em></p>
+
+<ul>
+  <li><strong>I work really well with people and I’m a great team player.</strong>  <em>Tôi làm việc với mọi người rất tốt và là một người làm việc nhóm rất tuyệt.</em></li>
+  <li><strong>I think I’m a great person to work with because I’m very adaptive.</strong>  <em>Tôi nghĩ tôi là một người tuyệt vời để làm việc chung vì tôi rất dễ thích nghi.</em></li>
+  <li><strong>Delivering work on time is one of my main strengths.</strong>  <em>Hoàn thành nhiệm vụ kịp lúc là 1 trong những thế mạnh của tôi.</em></li>
+</ul>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation', 
+    69.95, 86.14, 
+    'n/a', 'explanation');">▷</strong>
+
+5. I would like to officially welcome you to the company. You're hired!
+<em></em>
+<div class="audiofile-info"></div>
+</h3>
+
+<p><em>Tôi muốn chính thức chào mừng bạn đến với công ty. Bạn đã được nhận!</em></p>
+
+<ul>
+  <li><strong>Welcome to the company! I’m sure you’ll enjoy working here.</strong>  <em>Chào mừng đến với công ty. Tôi chắc là bạn sẽ thích làm việc ở đây.</em></li>
+  <li><strong>We are pleased to have you in our company.</strong>  <em>Chúng tôi rất vui vì có bạn trong công ty này.</em></li>
+  <li><strong>I am so happy they hired you! You wanted this job for a year.</strong>  <em>Tôi rất vui khi họ nhận bạn! Bạn đã muốn công việc này cả năm rồi.</em></li>
+</ul>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

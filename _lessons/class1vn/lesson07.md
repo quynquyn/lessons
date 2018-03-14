@@ -47,6 +47,11 @@ attr:
 *- Có phải Jane là quản lí không??*  
 *- Không, cô ấy không phải là quản lí. Cô ấy là thư kí thôi.*  
 
+{% if site.trialdeploy %}
+	{% include explanation_placeholder.html  attr=page.attr     start=3 stop=11 %}
+	{% else %}
+
+
 3. {% include play.html identifier="Conversation" start=16 stop=23 %} **Are the students in the classroom?**   
 **Yes, the students are in the classroom.**  
 *- Có phải học sinh đang trong lớp không?*  
@@ -91,3 +96,6 @@ attr:
 **Yes, he is from Germany.**  
 *- Quản lí của bạn đến từ Đức phải không?*  
 *- Phải, anh ấy từ Đức.*  
+
+
+{% endif %}

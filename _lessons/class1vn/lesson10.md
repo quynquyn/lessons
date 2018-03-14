@@ -53,7 +53,7 @@ attr:
 2. {% include play.html identifier="examples2" start=8.4 stop=14.3 %} **Is the manager responsible for contacting customers?**  
 *Có phải người quản lí chịu trách nhiệm cho việc liên lạc với khách hàng?*
 {% if site.trialdeploy %}
-	{% include list_placeholder.html start=3 stop=13 %}
+	{% include list_placeholder.html  attr=page.attr     start=3 stop=13 %}
 	{% else %}
 3. {% include play.html identifier="examples2" start=14.3 stop=19.3 %} **Is the student good at learning languages?**  
 *Người học sinh đó có giỏi học ngôn ngữ không?*

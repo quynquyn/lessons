@@ -37,6 +37,12 @@ attr:
 -  **find a good job**  *tìm một công việc tốt*
 -  **travel around the world**  *đi du lịch vòng quanh thế giới* 
 
+
+{% if site.trialdeploy %}
+	{% include explanation_placeholder.html  attr=page.attr     start=2 stop=8 %}
+	{% else %}
+
+
 {%  include voice.html attr=page.attr                    
 	identifier="vocabulary"  init=false start=79.1 stop=90.19 
 	title="Why do you love to travel?"
@@ -105,6 +111,9 @@ attr:
 
 -  **One of my relatives got sick.**  *Một người họ hàng của tôi bị ốm.*
 -  **My boyfriend is a doctor.**  *Bạn trai tôi là bác sĩ mà.*
+
+
+{% endif %}
 
 {%  include voice.html attr=page.attr  
 	identifier="examples"  init=true

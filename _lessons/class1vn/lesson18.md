@@ -23,6 +23,11 @@ attr:
 5. **Who do you want to talk to?** *Bạn muốn nói chuyện với ai?*
 6. **Who do you try to become?** *Bạn cố gắng trở thành ai?*
 7. **Who does your teacher want to discuss the problem with?** *Giáo viên bạn muốn thảo luận vấn đề với ai?* 
+
+{% if site.trialdeploy %}
+	{% include explanation_placeholder.html  attr=page.attr     start=8 stop=23 %}
+	{% else %}
+
 8. **Who does your mother miss?** *Mẹ bạn nhớ ai?*
 9. **Who does the kid want to draw?** *Đứa bé muốn vẽ ai?*
 10. **Who does your friend want to get married to?** *Bạn của bạn muốn kết hôn với ai?*
@@ -40,6 +45,8 @@ attr:
 22. **Who is wearing glasses in your class?** *Ai đang mang mắt kiếng trong lớp?*
 23. **Who are you going to agree with?** *Bạn sẽ đồng ý với ai?*
 
+{% endif %}
+
 {%  include voice.html attr=page.attr  
 	identifier="where"  init=true
 	title="Where"        
@@ -51,6 +58,11 @@ attr:
 3. **Where is the Ben Thanh market?** *Chợ Bến Thành ở đâu?*
 4. **Where is his house?** *Nhà anh ấy ở đâu?*
 5. **Where is DongNai province?** *Tỉnh Đồng Nai ở đâu?*
+
+{% if site.trialdeploy %}
+	{% include explanation_placeholder.html  attr=page.attr     start=6 stop=19 %}
+	{% else %}
+
 6. **Where are your books?** *Những quyển sách của bạn ở đâu?*
 7. **Where do you read books?** *Bạn thường đọc sách ở đâu?*
 8. **Where do you buy new shoes?** *Bạn thường mua giày mới ở đâu?*
@@ -65,6 +77,7 @@ attr:
 18. **Where are you going to go after class?** *Bạn sẽ đi đâu sau giờ học?*
 19. **Where will you go fishing?** *Bạn sẽ đi câu cá ở đâu?*
 
+{% endif %}
 
 {%  include voice.html attr=page.attr  
 	identifier="when"  init=true
@@ -101,6 +114,11 @@ attr:
 5. **Were you tired yesterday?**  *Hôm qua bạn mệt à?*
 6. **Did you spend your holidays with family?**  *Bạn có dành kì nghỉ với gia đình không?*
 7. **Were you happy when you heard your sister won the lottery?**  *Bạn có vui không khi bạn nghe tin chị gái bạn trúng số?*
+
+{% if site.trialdeploy %}
+	{% include explanation_placeholder.html  attr=page.attr     start=8 stop=40 %}
+	{% else %}
+
 8. **Do your dogs bite strangers?**  *Mấy con chó của bạn có cắn người lạ không?*
 9. **Does your wife like red wine?**  *Vợ bạn có thích rượu vang đỏ không?*
 10. **Do your parents allow you to smoke?**  *Ba mẹ bạn có cho phép bạn hút thuốc không?*
@@ -135,6 +153,8 @@ attr:
 39. **Are the teachers bothering the students?**  *Các giáo viên đang làm phiền các học sinh phải không?*
 40. **Is there an easy way to learn a language?**  *Có cách nào dễ dàng để học ngôn ngữ không?*
 
+{% endif %}
+
 {%  include voice.html attr=page.attr  
 	identifier="conversation"  init=true
 	title="Conversation"        
@@ -161,3 +181,6 @@ attr:
 *Ừ. Chúc may mắn!*  
 > P2: **Thanks! I think I'll need it...**
 *Cảm ơn! Tôi nghĩ là tôi sẽ cần nó...*  
+
+
+

@@ -40,6 +40,11 @@ attr:
 6. {% include play.html identifier="explanation" start=22.58 stop=25.01 %}**Which toothpaste is the most expensive?**  *Kem đánh răng nào là mắc nhất?*
 7. {% include play.html identifier="explanation" start=26.17 stop=29.95 %}**Which animal in the picture is on top of the tree?**  *Con vật nào trong bức tranh đang ở trên ngọn cây?*
 8. {% include play.html identifier="explanation" start=31.00 stop=33.88 %}**Which university did you graduate from?**  *Bạn tốt nghiệp từ trường đại học nào?*
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=9 stop=22 %}
+	{% else %}
+
 9. {% include play.html identifier="explanation" start=34.75 stop=38.60 %}**Which blood type is the rarest in the world?**  *Nhóm màu nào là nhóm máu hiếm nhất trên thế giới?*
 10. {% include play.html identifier="explanation" start=40.05 stop=42.84 %}**Which country do you want to visit someday?**  *Vào một ngày nào đó bạn muốn đi du lịch đất nước nào?*
 11. {% include play.html identifier="explanation" start=44.03 stop=47.17 %}**Which do you prefer, bread or rice?**  *Bạn thích cái nào hơn, bánh mì hay cơm?*
@@ -55,14 +60,24 @@ attr:
 21. {% include play.html identifier="explanation" start=93.17 stop=95.99 %}**Which table did you leave your key on?**  *Bạn đã để chìa khóa của bạn ở trên cái bàn nào?*
 22. {% include play.html identifier="explanation" start=97.53 stop=99.72 %}**Which room does the President sleep in?**  *Ngài Tổng thống ngủ trong phòng nào?*
 
+{% endif %}
+
 ### Examples of Whose *Ví dụ của Whose*
 1. {% include play.html identifier="explanation" start=102.81 stop=105.43 %}**Whose house do you want to buy?**  *Bạn muốn mua nhà của ai?*
 2. {% include play.html identifier="explanation" start=105.43 stop=107.64 %}**Whose cellphone is cheap?**  *Điện thoại của ai thì rẻ?*
 3. {% include play.html identifier="explanation" start=107.64 stop=109.78 %}**Whose money is this?**  *Tiền của ai đây?*
 4. {% include play.html identifier="explanation" start=109.78 stop=112.05 %}**Whose pencils are on the table?**  *Những cây bút chì ở trên bàn này là của ai?*
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=5 stop=10 %}
+	{% else %}
+
 5. {% include play.html identifier="explanation" start=112.05 stop=114.51 %}**Whose birthday is on Christmas?**  *Sinh nhật của ai vào dịp Giáng sinh?*
 6. {% include play.html identifier="explanation" start=114.51 stop=117.22 %}**Whose e-mail address is it?**  *Địa chỉ email của ai vậy?*
 7. {% include play.html identifier="explanation" start=117.22 stop=119.72 %}**Whose birthday is it today?**  *Hôm nay là sinh nhật của ai thế?*
 8. {% include play.html identifier="explanation" start=119.72 stop=122.02 %}**Whose little brother is he?**  *Em ấy là em trai của ai?*
 9. {% include play.html identifier="explanation" start=122.02 stop=125.39 %}**Whose room did you sleep in yesterday?**  *Hôm qua bạn đã ngủ trong phòng nào?*
 10. {% include play.html identifier="explanation" start=125.39 stop=127.86 %}**Whose shoe did he put the key in?**  *Anh ấy đã bỏ chìa khóa vào giày của ai?*
+
+{% endif %}
+

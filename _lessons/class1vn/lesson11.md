@@ -25,6 +25,11 @@ attr:
 4.  {% include play.html identifier="examples5" start=24.54 stop=27.29 %}**Do you have a test tomorrow?** *Bạn có bài kiểm tra ngày mai phải không?*
 5.  {% include play.html identifier="examples5" start=28.92 stop=30.58 %}**Is she at home?** *Cô ta có ở nhà không?*
 6.  {% include play.html identifier="examples5" start=31.99 stop=35.67 %}**Does the actress intend to travel to Japan?** *Có phải người nữ diễn viên định đi du lịch Nhật Bản?*
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=7 stop=20 %}
+	{% else %}
+
 7.  {% include play.html identifier="examples5" start=37.67 stop=39.65 %}**Does he hate cats?** *Anh ta ghét mèo phải không?*
 8.  {% include play.html identifier="examples5" start=41.25 stop=43.80 %}**Do they like to eat sushi?** *Họ có thích ăn sushi không?*
 9.  {% include play.html identifier="examples5" start=45.29 stop=47.10 %}**Does he love her?** *Anh ta có yêu cô ta không?*
@@ -39,7 +44,7 @@ attr:
 18. {% include play.html identifier="examples5" start=81.85 stop=84.17 %}**Is it an easy question?** *Đó có phải là một câu hỏi dễ không?*
 19. {% include play.html identifier="examples5" start=86.23 stop=89.63 %}**Does your class finish at 7PM?** *Có phải lớp học của bạn kết thúc lúc 7 giờ tối không?*
 20. {% include play.html identifier="examples5" start=91.20 stop=94.62 %}**Do your parents live in HCMC?** *Có phải bố mẹ bạn sống ở thành phố HCM không?*
-
+{% endif %}
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="examples1"  init=true
@@ -51,6 +56,11 @@ attr:
 1. {% include play.html identifier="examples1" start=6.15 stop=8.55 %}**You are such a good friend.** *Bạn đúng là một người bạn tốt.*
 2. {% include play.html identifier="examples1" start=10.13 stop=13.14 %}**Russia is such a big country.** *Nga đúng là một đất nước lớn.*
 3. {% include play.html identifier="examples1" start=14.75 stop=17.04 %}**You are such a great artist.** *Bạn đúng là một nghệ sĩ vĩ đại.*
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=4 stop=11 %}
+	{% else %}
+
 4. {% include play.html identifier="examples1" start=18.76 stop=20.57 %}**I am so amazing.** *Tôi thật là tuyệt*
 5. {% include play.html identifier="examples1" start=22.33 stop=25.71 %}**Iceland is such a cold country.** *Iceland đúng là một đất nước lạnh.*
 6. {% include play.html identifier="examples1" start=28.13 stop=30.52 %}**It is such a great movie.** *Đó đúng là một bộ phim hay.*
@@ -59,7 +69,7 @@ attr:
 9. {% include play.html identifier="examples1" start=41.30 stop=43.61 %}**She is so crazy.** *Cô ta thật là điên.*
 10. {% include play.html identifier="examples1" start=45.80 stop=48.66 %}**She is so good at English.** *Cô ấy thật giỏi Tiếng Anh*
 11. {% include play.html identifier="examples1" start=51.05 stop=53.70 %}**The question is so easy.** *Câu hỏi thật dễ.*
-
+{% endif %}
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="examples2"  init=true
@@ -71,6 +81,11 @@ attr:
 1.  {% include play.html identifier="examples2" start=6.04 stop=8.93 %}**My house is bigger than yours.** *Nhà tôi thì to hơn nhà bạn*
 2.  {% include play.html identifier="examples2" start=10.35 stop=13.64 %}**This flower is more beautiful than that one.** *Bông hoa này thì đẹp hơn bông hoa kia.*
 3.  {% include play.html identifier="examples2" start=15.26 stop=18.94 %}**This is the most interesting book I have ever read.** *Đây là quyển sách thú vị nhất mà tôi từng đọc.*
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=4 stop=10 %}
+	{% else %}
+
 4.  {% include play.html identifier="examples2" start=19.99 stop=24.18 %}**Non-smokers usually live longer than smokers.** *Người không hút thuốc thường sống lâu hơn người hút thuốc.*
 5.  {% include play.html identifier="examples2" start=25.56 stop=29.68 %}**Which is the the most dangerous animal in the world?** *Đâu là loài động vật nguy hiểm nhất thế giới?*
 6.  {% include play.html identifier="examples2" start=31.55 stop=36.60 %}**Holidays by the sea are better than holidays in the mountains.** *Một kì nghỉ ở biển thì tốt hơn một kì nghỉ trên núi*
@@ -78,7 +93,7 @@ attr:
 8.  {% include play.html identifier="examples2" start=45.46 stop=48.41 %}**Who is the richest woman on earth?** *Ai là người phụ nữ giàu nhất thế giới?*
 9.  {% include play.html identifier="examples2" start=50.60 stop=54.92 %}**The weather this summer is even worse than last summer.** *Thời tiết mùa hè này thậm chí tệ hơn mùa hè năm ngoái*
 10.  {% include play.html identifier="examples2" start=56.47 stop=59.37 %}**He was the smartest thief of all.** *Anh ta là tên cướp thông minh nhất.*
-
+{% endif %}
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="examples3"  init=true
@@ -104,6 +119,11 @@ attr:
 1. {% include play.html identifier="examples4" start=7.19 stop=10.28 %}**Is it stupid to love a married man?** *Thật là ngu ngốc khi yêu một người đàn ông đã có vợ phải không?*
 2. {% include play.html identifier="examples4" start=11.77 stop=14.93 %}**Is it crazy to quit such a good job?** *Thật điên khùng khi bỏ một công việc tốt như vậy phải không*
 3. {% include play.html identifier="examples4" start=16.39 stop=19.14 %}**Is it easy to learn Japanese?** *Có dễ để học tiếng Nhật không?*
+
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=4 stop=8 %}
+	{% else %}
+
 4. {% include play.html identifier="examples4" start=20.68 stop=23.75 %}**Is it interesting to talk to the teacher?** *Có phải nói chuyện với người giáo viên đó rất thú vị không?*
 5. {% include play.html identifier="examples4" start=25.55 stop=28.13 %}**Is it bad to cry in public?** *Có xấu khi khóc ở nơi công cộng không?*
 6. {% include play.html identifier="examples4" start=29.94 stop=32.94 %}**Is it terrible to get married without love?**
@@ -111,4 +131,6 @@ attr:
 7. {% include play.html identifier="examples4" start=34.60 stop=39.93 %}**Is it possible to speak English fluently when you don't practice every day?**
 *Có thể nào nói Tiếng Anh lưu loát khi bạn không thực hành mỗi ngày không?*
 8. {% include play.html identifier="examples4" start=41.52 stop=43.98 %}**Is it good to follow the crowd?** *Đi theo đám đông thì có tốt không?*
- 
+
+{% endif %}
+

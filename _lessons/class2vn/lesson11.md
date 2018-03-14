@@ -170,7 +170,7 @@ attr:
 
 
 {% if site.trialdeploy %}
-	{% include explanation_placeholder.html start=3 stop=5 %}
+	{% include explanation_placeholder.html  attr=page.attr     start=3 stop=5 %}
 	{% else %}
 
 
