@@ -6407,6 +6407,8 @@ section.el-lesson .el-vocab-play {
   cursor: pointer; }
 section.el-lesson blockquote em, section.el-lesson li em, section.el-lesson h1 em, section.el-lesson h2 em, section.el-lesson h3 em, section.el-lesson h4 em {
   padding-left: 20px; }
+section.el-lesson li p {
+  margin-bottom: 0; }
 
 .audiofile-info {
   color: blue;
