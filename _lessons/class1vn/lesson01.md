@@ -193,8 +193,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
     tag="h3" %}
 
 
-- **I choose happiness. How about you?**   *Tôi chọn hạnh phúc. Còn bạn?*
-- **I choose money.**   *Tôi chọn tiền*  
+> **I choose happiness. How about you?**   *Tôi chọn hạnh phúc. Còn bạn?*   
+> **I choose money.**   *Tôi chọn tiền*   
 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
@@ -203,8 +203,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 	translation="Bạn thích gì?"
     tag="h3" %}
 
-- **I like strawberries. How about you?**   *Tôi thích dâu. Còn bạn*
-- **I like bananas.**   *Tôi thích chuối*
+> **I like strawberries. How about you?**   *Tôi thích dâu. Còn bạn*   
+> **I like bananas.**   *Tôi thích chuối*   
 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
@@ -213,8 +213,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 	translation="Bạn cần gì?"
     tag="h3" %}
 
-- **I need a chair. And you?**   *Tôi cần một cái ghế. Còn bạn?*
-- **I need a board.**   *Tôi cần một cái bảng*
+> **I need a chair. And you?**   *Tôi cần một cái ghế. Còn bạn?*   
+> **I need a board.**   *Tôi cần một cái bảng*   
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Dialogue"  init=false start=116 stop=124
@@ -223,8 +223,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
     tag="h3" %}
 
  
-- **I have some markers. How about you?**   *Tôi có vài cây bút lông. Còn bạn?*
-- **I have some pencils.**   *Tôi có vài cây bút chì*
+> **I have some markers. How about you?**   *Tôi có vài cây bút lông. Còn bạn?*   
+> **I have some pencils.**   *Tôi có vài cây bút chì*   
 
 
 
@@ -234,8 +234,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 	translation="Bạn muốn gì?"
     tag="h3" %}
 
-- **I want water. And you?**   *Tôi muốn nước. Còn bạn?*
-- **I want tea.**   *Tôi muốn trà*
+> **I want water. And you?**   *Tôi muốn nước. Còn bạn?*   
+> **I want tea.**   *Tôi muốn trà*   
 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
@@ -244,8 +244,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 	translation="Bạn ghét gì?"
     tag="h3" %}
 
-- **I hate crocodiles. How about you?**   *Tôi ghét cá sấu. Còn bạn?*
-- **I hate snakes.**   *Tôi ghét rắn.*
+> **I hate crocodiles. How about you?**   *Tôi ghét cá sấu. Còn bạn?*   
+> **I hate snakes.**   *Tôi ghét rắn.*   
 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
@@ -254,8 +254,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 	translation="Bạn tìm gì?"
     tag="h3" %}
 
-- **I look for a pen. And you?**   *Tôi tìm cây bút. Còn bạn?*
-- **I look for some milk.**   *Tôi tìm một ít sữa.*
+> **I look for a pen. And you?**   *Tôi tìm cây bút. Còn bạn?*   
+> **I look for some milk.**   *Tôi tìm một ít sữa.*   
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Dialogue"  init=false start=143 stop=150
@@ -263,8 +263,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 	translation="Bạn nhìn gì vậy?"
     tag="h3" %}
 
-- **I look at a tiger. What about you?**   *Tôi nhìn một con hổ. Còn bạn?*
-- **I look at bears.**   *Tôi nhìn những con gấu.*
+> **I look at a tiger. What about you?**   *Tôi nhìn một con hổ. Còn bạn?*   
+> **I look at bears.**   *Tôi nhìn những con gấu.*   
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Dialogue"  init=false start=150 stop=158 
@@ -272,8 +272,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 	translation="Bạn quan sát gì?"
     tag="h3" %}
 
-- **I observe planes and birds. What about you?**   *Tôi quan sát những chiếc máy bay và những con chim. Còn bạn?*
-- **I observe cars and giraffes.**   *Tôi quan sát những chiếc xe hơi và những con hươu cao cổ.*
+> **I observe planes and birds. What about you?**   *Tôi quan sát những chiếc máy bay và những con chim. Còn bạn?*    
+> **I observe cars and giraffes.**   *Tôi quan sát những chiếc xe hơi và những con hươu cao cổ.*    
 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
@@ -282,5 +282,5 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 	translation="Bạn học gì?"
     tag="h3" %}
 
-- **I study English. How about you?**   *Tôi học Tiếng Anh. Còn bạn?*
-- **I study Vietnamese.**   *Tôi học Tiếng Việt*
+> **I study English. How about you?**   *Tôi học Tiếng Anh. Còn bạn?*   
+> **I study Vietnamese.**   *Tôi học Tiếng Việt*   
