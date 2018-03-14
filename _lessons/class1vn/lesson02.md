@@ -83,7 +83,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 
 {%  include voice.html attr=page.attr
 	identifier="Native-Dialogue"  init=false start=4.55 stop=12.55
-	title="A1. - I chase a dog."        
+	title="A1. I chase a dog."        
 	translation="Tôi đuổi theo một con chó."
     tag="h3" %}
 
@@ -92,7 +92,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 
 {%  include voice.html attr=page.attr
 	identifier="Native-Dialogue"  init=false start=12.55 stop=20.11
-	title="A2. - I look at a teacher."
+	title="A2. I look at a teacher."
 	translation="Tôi nhìn một giáo viên."
     tag="h3" %}
 
@@ -101,7 +101,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
  
 {%  include voice.html attr=page.attr
 	identifier="Native-Dialogue"  init=false start=20.11 stop=28.11
-	title="B1. - I like dolls."
+	title="B1. I like dolls."
 	translation="Tôi thích búp bê."
     tag="h3" %}
 
@@ -111,7 +111,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 
 {%  include voice.html attr=page.attr
 	identifier="Native-Dialogue"  init=false start=28.11 stop=35.41
-	title="B2. -  I kick a chair."
+	title="B2. I kick a chair."
 	translation="Tôi đá một cái ghế"
     tag="h3" %}
 
@@ -120,7 +120,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 
 {%  include voice.html attr=page.attr
 	identifier="Native-Dialogue"  init=false start=35.41 stop=44.11
-	title="C1. -  I interview doctors."
+	title="C1. I interview doctors."
 	translation="Tôi phỏng vấn bác sĩ."
     tag="h3" %}
 
@@ -129,7 +129,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 
 {%  include voice.html attr=page.attr
 	identifier="Native-Dialogue"  init=false start=44.11 stop=52.91
-	title="C2. - I talk to students."
+	title="C2. I talk to students."
 	translation="Tôi nói chuyện với những học sinh."
     tag="h3" %}
 
@@ -138,7 +138,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 
 {%  include voice.html attr=page.attr
 	identifier="Native-Dialogue"  init=false start=53.11 stop=60.31
-	title="D1. - I see planes."
+	title="D1. I see planes."
 	translation="Tôi thấy những chiếc máy bay."
     tag="h3" %}
 
@@ -147,7 +147,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 
 {%  include voice.html attr=page.attr
 	identifier="Native-Dialogue"  init=false start=60.31 stop=67.41
-	title="D2. - I pull a door."
+	title="D2. I pull a door."
 	translation="Tôi kéo một cái cửa."
     tag="h3" %}
 
@@ -156,7 +156,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 
 {%  include voice.html attr=page.attr
 	identifier="Native-Dialogue"  init=false start=67.41 stop=76.81 
-	title="E1. - I do homework everyday."
+	title="E1. I do homework everyday."
 	translation="Tôi bài tập mỗi ngày."
     tag="h3" %}
 
@@ -165,7 +165,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 
 {%  include voice.html attr=page.attr
 	identifier="Native-Dialogue"  init=false start=77.11 stop=83.91
-	title="E2. - I lie to him."
+	title="E2. I lie to him."
 	translation="Tôi nói dối anh ấy."
     tag="h3" %}
 

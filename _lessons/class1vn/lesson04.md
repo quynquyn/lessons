@@ -10,7 +10,7 @@ attr:
 salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 ---
 
-%  include voice.html attr=page.attr  
+{%  include voice.html attr=page.attr
 	identifier="Words"  init=true
 	title="Lesson 1.4: Verb to verb"        
 	translation="Động từ cùng động từ"
