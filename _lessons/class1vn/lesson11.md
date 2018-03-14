@@ -9,12 +9,15 @@ attr:
   lang: vn
 ---
 
+{%  include voice.html attr=page.attr                     tag="h1"
+	identifier="examples5"  init=true
+	title="Lesson 1.11: Review"        
+	translation="Ôn tập"
+%}
 
-# Lesson 1.11: Review *Ôn tập*
 
 
 ## 1. Yes / No questions *Câu hỏi có / không*
-{% include player2.html identifier="examples5" class=page.class lesson=page.lesson %}
 
 1.  {% include play.html identifier="examples5" start=13.23 stop=15.14 %}**Do you need this pen?** *Bạn có cần cây bút này không?*
 2.  {% include play.html identifier="examples5" start=16.65 stop=19.69 %}**Is he the most talented person?** *Anh ta có phải là người tài năng nhất không?*
@@ -38,8 +41,12 @@ attr:
 20. {% include play.html identifier="examples5" start=91.20 stop=94.62 %}**Do your parents live in HCMC?** *Có phải bố mẹ bạn sống ở thành phố HCM không?*
 
 
-## 2. So / Such *Thật / Đúng là*
-{% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
+{%  include voice.html attr=page.attr                     tag="h2"
+	identifier="examples1"  init=true
+	title="2. So / Such"
+	translation="Thật / Đúng là"
+%}
+
 
 1. {% include play.html identifier="examples1" start=6.15 stop=8.55 %}**You are such a good friend.** *Bạn đúng là một người bạn tốt.*
 2. {% include play.html identifier="examples1" start=10.13 stop=13.14 %}**Russia is such a big country.** *Nga đúng là một đất nước lớn.*
@@ -54,8 +61,12 @@ attr:
 11. {% include play.html identifier="examples1" start=51.05 stop=53.70 %}**The question is so easy.** *Câu hỏi thật dễ.*
 
 
-## 3. Comparison *So sánh*
-{% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
+{%  include voice.html attr=page.attr                     tag="h2"
+	identifier="examples2"  init=true
+	title="3. Comparison"
+	translation="So sánh"
+%}
+
 
 1.  {% include play.html identifier="examples2" start=6.04 stop=8.93 %}**My house is bigger than yours.** *Nhà tôi thì to hơn nhà bạn*
 2.  {% include play.html identifier="examples2" start=10.35 stop=13.64 %}**This flower is more beautiful than that one.** *Bông hoa này thì đẹp hơn bông hoa kia.*
@@ -69,8 +80,12 @@ attr:
 10.  {% include play.html identifier="examples2" start=56.47 stop=59.37 %}**He was the smartest thief of all.** *Anh ta là tên cướp thông minh nhất.*
 
 
-## 4. There is / There are *Có...*
-{% include player2.html identifier="examples3" class=page.class lesson=page.lesson %}
+{%  include voice.html attr=page.attr                     tag="h2"
+	identifier="examples3"  init=true
+	title="4. There is / There are"
+	translation="Có..."
+%}
+
 
 1. {% include play.html identifier="examples3" start=10.13 stop=13.21 %}**Are there any crocodiles in the lake?** *Có con cá sấu này trong hồ không?*
 2. {% include play.html identifier="examples3" start=15.33 stop=18.74 %}**Are there any museums in district 7?** *Có viện bảo tàng nào trong quận 7 không?*
@@ -79,9 +94,12 @@ attr:
 5. {% include play.html identifier="examples3" start=29.26 stop=31.84 %}**Is there any water in the bottle?** *Có chút nước nào trong chai không?*
 
 
+{%  include voice.html attr=page.attr                     tag="h2"
+	identifier="examples4"  init=true
+	title="5. Is it + Adjective + to Verb"
+	translation="Có phải + tính từ + động từ to Verb"
+%}
 
-## 5. Is it + Adjective + to Verb *Có phải + tính từ + động từ to Verb*
-{% include player2.html identifier="examples4" class=page.class lesson=page.lesson %}
 
 1. {% include play.html identifier="examples4" start=7.19 stop=10.28 %}**Is it stupid to love a married man?** *Thật là ngu ngốc khi yêu một người đàn ông đã có vợ phải không?*
 2. {% include play.html identifier="examples4" start=11.77 stop=14.93 %}**Is it crazy to quit such a good job?** *Thật điên khùng khi bỏ một công việc tốt như vậy phải không*

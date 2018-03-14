@@ -8,13 +8,13 @@ attr:
   lesson: "14"
   lang: vn
 ---
-
-# Lesson 1.14: When *Khi nào*
-
-
+{%  include voice.html attr=page.attr  
+	identifier="vocabulary"  init=true
+	title="Lesson 1.14: When"        
+	translation="Khi nào"
+    tag="h1" %}
 
 ## Vocabulary *Từ vựng*
-{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 
 ### Parts of the day *Các buổi trong ngày*
 
@@ -26,7 +26,6 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-
 ### Seasons *Các mùa*
 
 {% include wordgrid.html lang=page.lang
@@ -37,9 +36,7 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 		
-
 ### Days of the week *Các ngày trong tuần*
-
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -48,8 +45,6 @@ attr:
 		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
-
-
 
 ### Months of the year *Các tháng trong năm*
 
@@ -60,8 +55,6 @@ attr:
 		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
-
-
 
 ### Frequency *Sự thường xuyên*
 
@@ -83,10 +76,11 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-
-
-## Example *Ví dụ*
-{% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
+{%  include voice.html attr=page.attr  
+	identifier="examples1"  init=true
+	title="Example"        
+	translation="Ví dụ"
+    tag="h2" %}
 
 1. {% include play.html identifier="examples1" start=5.11 stop=9.98 %} **When is your birthday?** - **My birthday is on January 1st.**
 *Sinh nhật bạn khi nào?* - *Sinh nhật tôi vào ngày 1 tháng 1.*
@@ -110,10 +104,11 @@ attr:
 *Bây giờ là mấy giờ?* - *Bây giờ là 6 giờ kém 15 phút.*
 
 
-
-
-## More examples *Ví dụ thêm*
-{% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
+{%  include voice.html attr=page.attr  
+	identifier="examples2"  init=true
+	title="More examples"        
+	translation="Ví dụ thêm"
+    tag="h2" %}
 
 1. {% include play.html identifier="examples2" start=4.30 stop=10.21 %} **When do you do homework?** - **I do homework whenever I have free time.**
 *Khi nào bạn làm bài tập về nhà?* - *Mình làm bài tập về nhà mỗi khi mình có thời gian rảnh.* 

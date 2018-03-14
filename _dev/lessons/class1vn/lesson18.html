@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/dev/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+    
+  
+       
+    </nav>
+    
+
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                
+<h1>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L18-who.mp3" id="audio_who" preload="none"></audio>
+<span class="el-player-icon" id="play_who" onclick="play('who', '18', 'who');">▶</span>
+
+Lesson 1.18: Review 2
+<em>Ôn tập 2</em>
+<div class="audiofile-info"></div>
+</h1>
+
+<h2 id="who-ai">Who <em>Ai</em></h2>
+<ol>
+  <li><strong>Who is tall in your class?</strong> <em>Ai thì cao trong lớp của bạn?</em></li>
+  <li><strong>Who is important in a company?</strong> <em>Ai thì quan trọng trong công ty?</em></li>
+  <li><strong>Who is the richest man in the world?</strong> <em>Ai là người đàn ông giàu nhất thế giới?</em></li>
+  <li><strong>Who is the most beautiful girl you’ve ever met?</strong> <em>Ai là cô gái đẹp nhất mà bạn từng gặp?</em></li>
+  <li><strong>Who do you want to talk to?</strong> <em>Bạn muốn nói chuyện với ai?</em></li>
+  <li><strong>Who do you try to become?</strong> <em>Bạn cố gắng trở thành ai?</em></li>
+  <li><strong>Who does your teacher want to discuss the problem with?</strong> <em>Giáo viên bạn muốn thảo luận vấn đề với ai?</em></li>
+  <li><strong>Who does your mother miss?</strong> <em>Mẹ bạn nhớ ai?</em></li>
+  <li><strong>Who does the kid want to draw?</strong> <em>Đứa bé muốn vẽ ai?</em></li>
+  <li><strong>Who does your friend want to get married to?</strong> <em>Bạn của bạn muốn kết hôn với ai?</em></li>
+  <li><strong>Who did the businessman argue with?</strong> <em>Người doanh nhân đã cãi nhau với ai?</em></li>
+  <li><strong>Who did the priest pray for?</strong> <em>Người linh mục cầu nguyện cho ai?</em></li>
+  <li><strong>Who did the nurse want to keep in touch with?</strong> <em>Người y tá muốn giữ liên lạc với ai?</em></li>
+  <li><strong>Who did the policeman catch?</strong> <em>Cảnh sát đã bắt giữ ai?</em></li>
+  <li><strong>Who won the first prize in the competition?</strong> <em>Ai đã thắng giải nhất trong cuộc thi?</em></li>
+  <li><strong>Who passed the exam?</strong> <em>Ai đã vượt qua bài kiểm tra?</em></li>
+  <li><strong>Who failed the exam in your class?</strong> <em>Ai rớt bài kiểm tra trong lớp?</em></li>
+  <li><strong>Who lost money yesterday?</strong> <em>Hôm qua ai đã làm mất tiền?</em></li>
+  <li><strong>Who didn’t do their homework?</strong> <em>Ai không làm bài tập về nhà ngày hôm qua?</em></li>
+  <li><strong>Who called you every day?</strong> <em>Ai đã gọi điện cho bạn mỗi ngày?</em></li>
+  <li><strong>Who is wearing a dress in your class?</strong> <em>Ai đang mặc đầm trong lớp?</em></li>
+  <li><strong>Who is wearing glasses in your class?</strong> <em>Ai đang mang mắt kiếng trong lớp?</em></li>
+  <li><strong>Who are you going to agree with?</strong> <em>Bạn sẽ đồng ý với ai?</em></li>
+</ol>
+
+<h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L18-where.mp3" id="audio_where" preload="none"></audio>
+<span class="el-player-icon" id="play_where" onclick="play('where', '18', 'where');">▶</span>
+
+Where
+<em>Ở đâu</em>
+<div class="audiofile-info"></div>
+</h2>
+
+<ol>
+  <li><strong>Where is your teacher?</strong> <em>Giáo viên bạn đâu?</em></li>
+  <li><strong>Where is your bag?</strong> <em>Cặp của bạn đâu?</em></li>
+  <li><strong>Where is the Ben Thanh market?</strong> <em>Chợ Bến Thành ở đâu?</em></li>
+  <li><strong>Where is his house?</strong> <em>Nhà anh ấy ở đâu?</em></li>
+  <li><strong>Where is DongNai province?</strong> <em>Tỉnh Đồng Nai ở đâu?</em></li>
+  <li><strong>Where are your books?</strong> <em>Những quyển sách của bạn ở đâu?</em></li>
+  <li><strong>Where do you read books?</strong> <em>Bạn thường đọc sách ở đâu?</em></li>
+  <li><strong>Where do you buy new shoes?</strong> <em>Bạn thường mua giày mới ở đâu?</em></li>
+  <li><strong>Where do you watch a movie?</strong> <em>Bạn thường xem phim ở đâu?</em></li>
+  <li><strong>Where does your mother usually go shopping?</strong> <em>Mẹ bạn thường đi mua sắm ở đâu?</em></li>
+  <li><strong>Where does your brother hang out with his friends?</strong> <em>Anh trai của bạn thường đi chơi với bạn bè ở đâu?</em></li>
+  <li><strong>Where did the doctor catch the mouse?</strong> <em>Người bác sĩ bắt con chuột ở đâu?</em></li>
+  <li><strong>Where did the reporter sleep last night?</strong> <em>Người đưa tin ngủ ở đâu tối qua?</em></li>
+  <li><strong>Where did your father first meet your mother?</strong> <em>Ba bạn gặp mẹ bạn lần đầu ở đâu?</em></li>
+  <li><strong>Where did you buy that shirt?</strong> <em>Bạn mua cái áo đó ở đâu?</em></li>
+  <li><strong>Where are you going?</strong> <em>Bạn đang đi đâu đấy?</em></li>
+  <li><strong>Where are you going to go after class?</strong> <em>Bạn sẽ đi đâu sau giờ học?</em></li>
+  <li><strong>Where will you go fishing?</strong> <em>Bạn sẽ đi câu cá ở đâu?</em></li>
+</ol>
+
+<h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L18-when.mp3" id="audio_when" preload="none"></audio>
+<span class="el-player-icon" id="play_when" onclick="play('when', '18', 'when');">▶</span>
+
+When
+<em>Khi nào</em>
+<div class="audiofile-info"></div>
+</h2>
+
+<ol>
+  <li><strong>When is Valentine’s Day?</strong> <em>Lễ tình nhân là khi nào?</em></li>
+  <li><strong>When is Halloween?</strong> <em>Halloween là khi nào?</em></li>
+  <li><strong>When is your birthday?</strong> <em>Sinh nhật bạn là khi nào?</em></li>
+  <li><strong>When is your best friend’s birthday?</strong> <em>Sinh nhật bạn thân của bạn là khi nào?</em></li>
+  <li><strong>When are you free?</strong> <em>Khi nào bạn rảnh?</em></li>
+  <li><strong>When do you need to borrow his motorbike?</strong> <em>Khi nào bạn cần mượn xe máy của anh ấy?</em></li>
+  <li><strong>When do you intend to invest in the business?</strong> <em>Khi nào bạn định đầu tư vào việc kinh doanh đó?</em></li>
+  <li><strong>When does your mother usually get up?</strong> <em>Mẹ bạn thường thức dậy lúc mấy giờ?</em></li>
+  <li><strong>When did you first ride a bicycle?</strong> <em>Lần đầu bạn chạy xe đạp là khi nào?</em></li>
+  <li><strong>When did you first study English?</strong> <em>Lần đầu tiên bạn học tiếng Anh là khi nào?</em></li>
+  <li><strong>When did you first fall in love?</strong> <em>Lần đầu bạn yêu là khi nào?</em></li>
+  <li><strong>When did you first meet her?</strong> <em>Bạn gặp cô ấy lần đâu khi nào?</em></li>
+  <li><strong>When did you get up this morning?</strong> <em>Sáng nay bạn thức dậy khi nào?</em></li>
+</ol>
+
+<h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L18-yesnoquestions.mp3" id="audio_yesnoquestions" preload="none"></audio>
+<span class="el-player-icon" id="play_yesnoquestions" onclick="play('yesnoquestions', '18', 'yesnoquestions');">▶</span>
+
+Yes / No Questions
+<em>*Câu hỏi Có / Không</em>
+<div class="audiofile-info"></div>
+</h2>
+
+<h3 id="example-of-yes--no-questions-with-simple-past-tense-and-simple-present-tense-ví-dụ-câu-hỏi-có--không-của-thì-quá-khứ-đơn-và-thì-hiện-tại-đơn">Example of Yes / No Questions with Simple Past Tense and Simple Present Tense <em>Ví dụ câu hỏi Có / Không của Thì quá khứ đơn và Thì hiện tại đơn</em></h3>
+
+<ol>
+  <li><strong>Did your mother get sick yesterday?</strong>  <em>Hôm qua mẹ của bạn bị ốm phải không?</em></li>
+  <li><strong>Did you forget to bring the glasses?</strong>  <em>Bạn đã quên mang theo mắt kính à?</em></li>
+  <li><strong>Was your first day of school fun?</strong>  <em>Ngày đầu tiên đi học của bạn có vui không?</em></li>
+  <li><strong>Did Jonathan get home last night?</strong>  <em>Jonathan có về nhà đêm qua không?</em></li>
+  <li><strong>Were you tired yesterday?</strong>  <em>Hôm qua bạn mệt à?</em></li>
+  <li><strong>Did you spend your holidays with family?</strong>  <em>Bạn có dành kì nghỉ với gia đình không?</em></li>
+  <li><strong>Were you happy when you heard your sister won the lottery?</strong>  <em>Bạn có vui không khi bạn nghe tin chị gái bạn trúng số?</em></li>
+  <li><strong>Do your dogs bite strangers?</strong>  <em>Mấy con chó của bạn có cắn người lạ không?</em></li>
+  <li><strong>Does your wife like red wine?</strong>  <em>Vợ bạn có thích rượu vang đỏ không?</em></li>
+  <li><strong>Do your parents allow you to smoke?</strong>  <em>Ba mẹ bạn có cho phép bạn hút thuốc không?</em></li>
+  <li><strong>Does the moon reflect the light of the sun?</strong>  <em>Có phải mặt trăng phản chiếu ánh sáng của mặt trời?</em></li>
+  <li><strong>Is she your friend?</strong>  <em>Cô ấy là bạn của bạn à?</em></li>
+  <li><strong>Are you going to the airport?</strong>  <em>Bạn đang đi đến sân bay hả?</em></li>
+  <li><strong>Do you like this cinema?</strong>  <em>Bạn có thích rạp phim này không?</em></li>
+  <li><strong>Do you want to become a baker?</strong>  <em>Bạn có muốn trở thành thợ làm bánh không?</em></li>
+  <li><strong>Will you go to this school when you’re older?</strong>  <em>Bạn sẽ đi học ở trường này khi bạn lớn hơn chứ?</em></li>
+  <li><strong>Do you think this restaurant has good food?</strong>  <em>Bạn có nghĩ là nhà hàng này có thức ăn ngon không?</em></li>
+  <li><strong>Are we going to sit down in the park?</strong>  <em>Bạn sẽ ngồi ở công viên à?</em></li>
+  <li><strong>May I lean against this wall?</strong>  <em>Tôi có thể dựa vào bức tường này được chứ?</em></li>
+  <li><strong>Are you walking to the drugstore? Can you buy me some headache pills?</strong>  <em>Bạn đang đi bộ đến hiệu thuốc à? Có thể mua dùm tôi vài viên thuốc nhức đầu không?</em></li>
+  <li><strong>Is Mary going to go to the supermarket?</strong>  <em>Mary sẽ đi siêu thị hả?</em></li>
+  <li><strong>Will she stop looking at me?</strong>  <em>Cô ấu sẽ ngừng nhìn tôi chứ?</em></li>
+  <li><strong>Are you working at the factory this weekend?</strong>  <em>Bạn sẽ làm việc ở nhà máy cuổi tuần này đúng không?</em></li>
+  <li><strong>Is Melody looking for milk in a bookstore?</strong>  <em>Có phải Melody đang tìm sữa trong nhà sách không?</em></li>
+  <li><strong>Will she realize that she is wrong?</strong>  <em>Liệu cô ấy sẽ nhận ra là cô ấy đã sai không?</em></li>
+  <li><strong>Do you want to be a farmer when you grow up?</strong>  <em>Bạn có muốn trở thành một người nông dân khi bạn lớn lên không?</em></li>
+  <li><strong>Does that singer sound good to you?</strong>  <em>Ca sĩ đó nghe có tốt cho bạn không?</em></li>
+  <li><strong>Did the mechanic fix your car?</strong>  <em>Người thợ máy đã sửa xe cho bạn rồi chưa?</em></li>
+  <li><strong>Did your favorite athlete win the gold medal?</strong>  <em>Vận động viên yêu thích của bạn có thắng được huy chương vàng không?</em></li>
+  <li><strong>Are you going to get married in July?</strong>  <em>Bạn sẽ kết hôn vào tháng 7 à?</em></li>
+  <li><strong>Does the hairdresser work on Sundays?</strong>  <em>Thợ cắt tóc có làm việc vào ngày Chủ nhật không?</em></li>
+  <li><strong>Will you pilot the airplane if Mary can’t?</strong>  <em>Bạn sẽ điều khiển máy bay nếu Mary không thể chứ?</em></li>
+  <li><strong>Is the waitress bringing our drinks?</strong>  <em>Cô phục vụ đang đem thức uống của chúng ta tới à?</em></li>
+  <li><strong>Did he wish you a good morning?</strong>  <em>Anh ấy có chào bạn buổi sáng không?</em></li>
+  <li><strong>Do you hate Mondays as much as I do?</strong>  <em>Bạn có ghét thứ hai nhiều như tôi ghét không?</em></li>
+  <li><strong>Will they bring us the menu or do we need to ask for it?</strong>  <em>Họ sẽ mang thực đơn đến cho chúng ta hay ta phải yêu cầu vậy?</em></li>
+  <li><strong>Is my hair messy?</strong>  <em>Tóc của tôi có rối không?</em></li>
+  <li><strong>Are the students going to plan the party?</strong>  <em>Các học sinh sẽ lên kế hoạch cho bữa tiệc à?</em></li>
+  <li><strong>Are the teachers bothering the students?</strong>  <em>Các giáo viên đang làm phiền các học sinh phải không?</em></li>
+  <li><strong>Is there an easy way to learn a language?</strong>  <em>Có cách nào dễ dàng để học ngôn ngữ không?</em></li>
+</ol>
+
+<h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L18-conversation.mp3" id="audio_conversation" preload="none"></audio>
+<span class="el-player-icon" id="play_conversation" onclick="play('conversation', '18', 'conversation');">▶</span>
+
+Conversation
+<em>*Đối thoại</em>
+<div class="audiofile-info"></div>
+</h2>
+
+<blockquote>
+  <p>Person 1: <strong>Does the cinema in the centre of the city play good movies?</strong>
+<em>Rạp phim ở trung tâm thành phố có chiếu phim hay không?</em><br />
+Person 2: <strong>I think so. We went there last week and they had over 5 movies playing at once!</strong>
+<em>Tôi nghĩ vậy. Chúng tôi đã ở đó tuần trước and họ có hơn 5 bộ phim chiếu cùng một lúc!</em><br />
+P1: <strong>That sounds cool. My cousin is visiting us this weekend and I don’t know where to take her.</strong>
+<em>Nghe hay đấy. Em họ của tôi sẽ đến thăm chúng tôi vào cuối tuần này và tôi không biết phải dẫn em ấy đi đâu.</em><br />
+P2: <strong>I’m going to play a game of paintball this weekend. Would you and your cousin like to join?</strong>
+<em>Tôi sẽ chơi bắn súng sơn cuối tuần này. Bạn và em họ của bạn muốn tham gia chứ?</em><br />
+P1: <strong>That sounds really cool! But I think she probably won’t like it.</strong>
+<em>Nghe rất là hay luôn! Nhưng tôi nghĩ em ấy có lẽ sẽ không thích nó đâu.</em><br />
+P2: <strong>That’s a shame. Will you ask her?</strong>
+<em>Tiếc quá. Bạn sẽ hỏi em ấy chứ?</em><br />
+P1: <strong>Of course. I will let you know what she says.</strong>
+<em>Tất nhiên. Tôi sẽ cho bạn biết em ấy nói gì.</em><br />
+P2: <strong>Cool. I have to go now. I’m teaching German to a friend.</strong>
+<em>Tuyệt. Bây giờ tôi phải đi rồi. Tôi đang dạy tiếng Đức cho bạn tôi.</em><br />
+P1: <strong>Alright. Good luck!</strong>
+<em>Ừ. Chúc may mắn!</em><br />
+P2: <strong>Thanks! I think I’ll need it…</strong>
+<em>Cảm ơn! Tôi nghĩ là tôi sẽ cần nó…</em></p>
+</blockquote>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

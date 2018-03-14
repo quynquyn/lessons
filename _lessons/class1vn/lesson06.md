@@ -9,8 +9,11 @@ attr:
   lang: vn
 ---
 
-{% include player.html identifier="lesson-vocabulary" lesson="C1L06" file="C1L06-Vocabulary.mp3" %}
-# Lesson 1.6: Yes / No (Do / Does) *Có / Không (Do / Does)*
+{%  include voice.html attr=page.attr  
+	identifier="Vocabulary"  init=true
+	title="Lesson 1.6: Yes / No (Do / Does)"        
+	translation="Có / Không (làm / không làm)"
+    tag="h1" %}
 
 ## Vocabulary *Từ vựng*
 
@@ -23,23 +26,21 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-
-
-{% include player.html identifier="lesson-conversation" lesson="C1L06" file="C1L06-Conversation.mp3" %}
-
-## 1. Yes / No Questions *Câu hỏi có / không*
+{%  include voice.html attr=page.attr  
+	identifier="Conversation"  init=true
+	title="Yes / No Questions"        
+	translation="Câu hỏi có / không"
+    tag="h2" %}
 
 1. {% include play.html identifier="lesson-conversation" start=0 stop=6 %} **Does the manager have to make a decision?**    
 **Yes, he has to make a decision.**    
 *- Có phải người giám đốc phải đưa ra quyết định không?*      
 *- Phải, ông ta phải đưa ra quyết định.*    
 
-
 2. {% include play.html identifier="lesson-conversation" start=6 stop=14 %} **Does the man always want to follow the crowd?**    
 **No, the man doesn't always want to follow the crowd.**    
 *- Có phải người đàn ông đó luôn muốn đi theo đám đông không?*    
 *- Không phải, người đàn ông đó không phải lúc nào cũng muốn đi theo đám đông.*    
-
 
 {% if site.trialdeploy %}
 	{% include explanation_placeholder.html start=3 stop=7 %}

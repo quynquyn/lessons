@@ -9,14 +9,13 @@ attr:
   lang: vn
 ---
 
-
-# Lesson 1.16: Present Continuous and Simple future tense *Thì hiện tại tiếp diễn và Thì tương lai đơn*
-
-
-{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
+{%  include voice.html attr=page.attr  
+	identifier="vocabulary"  init=true
+	title="Lesson 1.16: Present Continuous and Simple future tense"        
+	translation="Thì hiện tại tiếp diễn và Thì tương lai đơn"
+    tag="h1" %}
 
 ## Vocabulary *Từ vựng* 
-
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -26,11 +25,13 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 	
+{%  include voice.html attr=page.attr  
+	identifier="vocabulary"  init=false start=46.56 stop=55.11
+	title="Examples of Present Continuous tense"        
+	translation="Ví dụ của Thì hiện tại tiếp diễn"
+    tag="h2" %}
 
-
-### Examples of Present Continuous tense *Ví dụ của Thì hiện tại tiếp diễn*
-{% include play.html identifier="vocabulary" start=46.56 stop=55.11 %}
-#### Be + verb ing *Be + động từ thêm ing* 
+### Be + Verb-ing *Be + động từ thêm ing* 
 1. {% include play.html identifier="vocabulary" start=55.56 stop=59.11 %} **He is watering flowers.**  *Anh ta đang tưới hoa.*
 2. {% include play.html identifier="vocabulary" start=59.56 stop=63.11 %} **Chris is feeding the cats.**  *Chris đang cho lũ mèo ăn.*
 3. {% include play.html identifier="vocabulary" start=63.56 stop=69.11 %} **Mary is sweeping the floor because her parents are coming over.**  *Mary đang quét nhà vì ba mẹ cô đang qua.* 
@@ -52,9 +53,12 @@ attr:
 19. {% include play.html identifier="vocabulary" start=130.56 stop=135.11 %} **I'm drinking my morning coffee. Don't bother me.**  *Tôi đang uống cà phê sáng. Đừng làm phiền tôi.* 
 20. {% include play.html identifier="vocabulary" start=135.56 stop=142.11 %} **Larry is always talking on the phone! Is he talking to a girl?** *Larry lúc nào cũng nói chuyện điện thoại. Có phải anh ấy đang nói chuyện với một cô gái không?*
 
-{% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
+{%  include voice.html attr=page.attr  
+	identifier="examples1"  init=true
+	title="Examples of Future Simple tense"        
+	translation="Ví dụ của Thì tương lai đơn"
+    tag="h2" %}
 
-### Examples of Future simple tense  *Ví dụ của Thì tương lai đơn*
 ##### Will - when making a decision / volunteer  *Will - khi đưa ra quyết định / tình nguyện*
 ##### Going to - after the decision is made / plans  *Going to - sau khi đã đưa ra quyết định*
 ##### Will (OR) Going to - for predictions  *Will hoặc Going to - dự đoán*
@@ -81,9 +85,12 @@ For fixed planned events in the future. Often used with a word for future events
 4. {% include play.html identifier="examples1" start=110.56 stop=116.11 %} **I just heard my wife is pregnant. I am getting drunk tonight!** *Tôi vừa nghe vợ tôi đang có thai. Đêm nay tôi sẽ uống say.*
 5. {% include play.html identifier="examples1" start=116.56 stop=122.11 %} **Tonight we are listening to an audiobook my father downloaded.** *Tối nay chúng ta sẽ nghe một quyển sách Audio mà bố vừa tải xuống.*
 
-{% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
+{%  include voice.html attr=page.attr  
+	identifier="examples2"  init=true
+	title="Example of Yes / No Questions with Simple Future Tense and Present Continuous"        
+	translation="Ví dụ cho câu hỏi Có / Không của Thì tương lai đơn và Thì hiện tại tiếp diễn"
+    tag="h2" %}
 
-### Example of Yes / No questions with Simple Future Tense and Present Continuous *Ví dụ cho câu hỏi Có / Không của Thì tương lai đơn và Thì hiện tại tiếp diễn*
 1. {% include play.html identifier="examples2" start=5.66 stop=8.11 %} **Are you going to feed the dog?**  *Bạn sẽ cho chó ăn phải không?*
 2. {% include play.html identifier="examples2" start=8.56 stop=11.11 %} **Will you marry me?**  *Em sẽ làm vợ anh nhé?*
 3. {% include play.html identifier="examples2" start=11.56 stop=14.41 %} **Is she going to eat that entire pizza?**  *Cô ấy sẽ ăn cả cái bánh pizza đó à?*
@@ -106,8 +113,12 @@ For fixed planned events in the future. Often used with a word for future events
 20. {% include play.html identifier="examples2" start=73.11 stop=78.11 %} **Will the US be your home for the next three years?**  *Có phải nước Mỹ sẽ là nhà của bạn trong vòng ba năm tới?*
 
 <!--AKS: I couldn't find the location of the audiofile for the text below, and it doesn't play on the site. Also, the audio above is missing the last 2 lines in it. -->
-{% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
-### Conversation *Đối thoại*
+{%  include voice.html attr=page.attr  
+	identifier="conversation"  init=true
+	title="Conversation"        
+	translation="Đối thoại"
+    tag="h2" %}
+
 > {% include play.html identifier="conversation" start=04.56 stop=07.41 %} Person 1: **Will you be a guest at our wedding next month?**  *Bạn sẽ là khách mời tại tiệc cưới của chúng tôi tháng tới nhé?*      
 > {% include play.html identifier="conversation" start=07.56 stop=11.91 %} Person 2: **Yes, I will. I wouldn't miss my best friend's wedding.**  *Vâng, chắc chắn. Tôi sẽ không bỏ lỡ đám cưới của bạn thân mình đâu.*    
 > {% include play.html identifier="conversation" start=11.56 stop=16.71 %} P1: **I'm glad to hear that. Are you going to bring anyone?**  *Tôi rất vui khi nghe vậy. Bạn có dẫn ai theo không?*     

@@ -9,10 +9,11 @@ attr:
   lang: vn
 ---
 
-
-# Lesson 1.18: Review 2 *Ôn tập 2*
-
-{% include player2.html identifier="who" class=page.class lesson=page.lesson %}
+{%  include voice.html attr=page.attr  
+	identifier="who"  init=true
+	title="Lesson 1.18: Review 2"        
+	translation="Ôn tập 2"
+    tag="h1" %}
 
 ## Who *Ai*
 1. **Who is tall in your class?** *Ai thì cao trong lớp của bạn?*
@@ -39,49 +40,59 @@ attr:
 22. **Who is wearing glasses in your class?** *Ai đang mang mắt kiếng trong lớp?*
 23. **Who are you going to agree with?** *Bạn sẽ đồng ý với ai?*
 
-{% include player2.html identifier="where" class=page.class lesson=page.lesson %}
-## Where *Ở đâu* 
-1.   **Where is your teacher?** *Giáo viên bạn đâu?*
+{%  include voice.html attr=page.attr  
+	identifier="where"  init=true
+	title="Where"        
+	translation="Ở đâu"
+    tag="h2" %}
+
+1. **Where is your teacher?** *Giáo viên bạn đâu?*
 2. **Where is your bag?** *Cặp của bạn đâu?*
-3.  **Where is the Ben Thanh market?** *Chợ Bến Thành ở đâu?*
-4.  **Where is his house?** *Nhà anh ấy ở đâu?*
-5.  **Where is DongNai province?** *Tỉnh Đồng Nai ở đâu?*
-6.  **Where are your books?** *Những quyển sách của bạn ở đâu?*
-7.  **Where do you read books?** *Bạn thường đọc sách ở đâu?*
-8.  **Where do you buy new shoes?** *Bạn thường mua giày mới ở đâu?*
-9.  **Where do you watch a movie?** *Bạn thường xem phim ở đâu?*
-11.  **Where does your mother usually go shopping?** *Mẹ bạn thường đi mua sắm ở đâu?*
-12.  **Where does your brother hang out with his friends?** *Anh trai của bạn thường đi chơi với bạn bè ở đâu?*
-13.  **Where did the doctor catch the mouse?** *Người bác sĩ bắt con chuột ở đâu?*
-14.  **Where did the reporter sleep last night?** *Người đưa tin ngủ ở đâu tối qua?*
-15.  **Where did your father first meet your mother?** *Ba bạn gặp mẹ bạn lần đầu ở đâu?*
-16.  **Where did you buy that shirt?** *Bạn mua cái áo đó ở đâu?*
+3. **Where is the Ben Thanh market?** *Chợ Bến Thành ở đâu?*
+4. **Where is his house?** *Nhà anh ấy ở đâu?*
+5. **Where is DongNai province?** *Tỉnh Đồng Nai ở đâu?*
+6. **Where are your books?** *Những quyển sách của bạn ở đâu?*
+7. **Where do you read books?** *Bạn thường đọc sách ở đâu?*
+8. **Where do you buy new shoes?** *Bạn thường mua giày mới ở đâu?*
+9. **Where do you watch a movie?** *Bạn thường xem phim ở đâu?*
+11. **Where does your mother usually go shopping?** *Mẹ bạn thường đi mua sắm ở đâu?*
+12. **Where does your brother hang out with his friends?** *Anh trai của bạn thường đi chơi với bạn bè ở đâu?*
+13. **Where did the doctor catch the mouse?** *Người bác sĩ bắt con chuột ở đâu?*
+14. **Where did the reporter sleep last night?** *Người đưa tin ngủ ở đâu tối qua?*
+15. **Where did your father first meet your mother?** *Ba bạn gặp mẹ bạn lần đầu ở đâu?*
+16. **Where did you buy that shirt?** *Bạn mua cái áo đó ở đâu?*
 17. **Where are you going?** *Bạn đang đi đâu đấy?*
 18. **Where are you going to go after class?** *Bạn sẽ đi đâu sau giờ học?*
 19. **Where will you go fishing?** *Bạn sẽ đi câu cá ở đâu?*
 
-{% include player2.html identifier="when" class=page.class lesson=page.lesson %}
-## When 
-1.  **When is Valentine’s Day?** *Lễ tình nhân là khi nào?*
-2.  **When is Halloween?** *Halloween là khi nào?*
-3.  **When is your birthday?** *Sinh nhật bạn là khi nào?*
-4.  **When is your best friend’s birthday?** *Sinh nhật bạn thân của bạn là khi nào?*
-5.  **When are you free?** *Khi nào bạn rảnh?*
-6.  **When do you need to borrow his motorbike?** *Khi nào bạn cần mượn xe máy của anh ấy?*
+
+{%  include voice.html attr=page.attr  
+	identifier="when"  init=true
+	title="When"        
+	translation="Khi nào"
+    tag="h2" %}
+ 
+1. **When is Valentine’s Day?** *Lễ tình nhân là khi nào?*
+2. **When is Halloween?** *Halloween là khi nào?*
+3. **When is your birthday?** *Sinh nhật bạn là khi nào?*
+4. **When is your best friend’s birthday?** *Sinh nhật bạn thân của bạn là khi nào?*
+5. **When are you free?** *Khi nào bạn rảnh?*
+6. **When do you need to borrow his motorbike?** *Khi nào bạn cần mượn xe máy của anh ấy?*
 7. **When do you intend to invest in the business?** *Khi nào bạn định đầu tư vào việc kinh doanh đó?*
 8. **When does your mother usually get up?** *Mẹ bạn thường thức dậy lúc mấy giờ?*
-9.  **When did you first ride a bicycle?** *Lần đầu bạn chạy xe đạp là khi nào?* 
-10.  **When did you first study English?** *Lần đầu tiên bạn học tiếng Anh là khi nào?*
-11.  **When did you first fall in love?** *Lần đầu bạn yêu là khi nào?*
-12.  **When did you first meet her?** *Bạn gặp cô ấy lần đâu khi nào?*
-13.  **When did you get up this morning?** *Sáng nay bạn thức dậy khi nào?*
+9. **When did you first ride a bicycle?** *Lần đầu bạn chạy xe đạp là khi nào?* 
+10. **When did you first study English?** *Lần đầu tiên bạn học tiếng Anh là khi nào?*
+11. **When did you first fall in love?** *Lần đầu bạn yêu là khi nào?*
+12. **When did you first meet her?** *Bạn gặp cô ấy lần đâu khi nào?*
+13. **When did you get up this morning?** *Sáng nay bạn thức dậy khi nào?*
 
-{% include player2.html identifier="yesnoquestions" class=page.class lesson=page.lesson %}
+{%  include voice.html attr=page.attr  
+	identifier="yesnoquestions"  init=true
+	title="Yes / No Questions"        
+	translation="*Câu hỏi Có / Không"
+    tag="h2" %}
 
-## Yes / No questions *Câu hỏi Có / Không*
-
-
-### Example of Yes / No questions with Simple Past Tense and Simple Present Tense *Ví dụ câu hỏi Có / Không của Thì quá khứ đơn và Thì hiện tại đơn*
+### Example of Yes / No Questions with Simple Past Tense and Simple Present Tense *Ví dụ câu hỏi Có / Không của Thì quá khứ đơn và Thì hiện tại đơn*
 
 1. **Did your mother get sick yesterday?**  *Hôm qua mẹ của bạn bị ốm phải không?*
 2. **Did you forget to bring the glasses?**  *Bạn đã quên mang theo mắt kính à?*
@@ -124,9 +135,12 @@ attr:
 39. **Are the teachers bothering the students?**  *Các giáo viên đang làm phiền các học sinh phải không?*
 40. **Is there an easy way to learn a language?**  *Có cách nào dễ dàng để học ngôn ngữ không?*
 
-{% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
+{%  include voice.html attr=page.attr  
+	identifier="conversation"  init=true
+	title="Conversation"        
+	translation="*Đối thoại"
+    tag="h2" %}
 
-## Conversation *Đối thoại*
 > Person 1: **Does the cinema in the centre of the city play good movies?**
 *Rạp phim ở trung tâm thành phố có chiếu phim hay không?*  
 > Person 2: **I think so. We went there last week and they had over 5 movies playing at once!**

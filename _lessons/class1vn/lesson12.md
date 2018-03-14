@@ -9,11 +9,13 @@ attr:
   lang: vn
 ---
 
-
-# Lesson 1.12: Where *Ở đâu*
+{%  include voice.html attr=page.attr  
+	identifier="vocabulary"  init=true
+	title="Lesson 1.12: Where"        
+	translation="Ở đâu"
+    tag="h1" %}
 
 ## Vocabulary *Từ vựng*
-{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -23,39 +25,38 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
+{%  include voice.html attr=page.attr  
+	identifier="examples2"  init=true
+	title="1. Where"        
+	translation="Ở đâu"
+    tag="h2" %}
 
-
-
-
-
-## 1. Where *Ở đâu*
-{% include player2.html identifier="examples2" class=page.class lesson=page.lesson %}
-
-
-1.  {% include play.html identifier="examples2" start=5.04 stop=10.1 %} **Where is the restroom?** - **The restroom is upstairs.** 
+1. {% include play.html identifier="examples2" start=5.04 stop=10.1 %} **Where is the restroom?** - **The restroom is upstairs.** 
 *Nhà vệ sinh ở đâu?* - *Nhà vệ sinh ở trên lầu.*
-2.  {% include play.html identifier="examples2" start=10.2 stop=16.3 %} **Where is it?** - **It's in the classroom.**
+2. {% include play.html identifier="examples2" start=10.2 stop=16.3 %} **Where is it?** - **It's in the classroom.**
 *Nó ở đâu?* - *Nó ở trong phòng học.*
-3.  {% include play.html identifier="examples2" start=16.4 stop=21.7 %} **Where are my cats?** - **Your cats are under the tables.**
+3. {% include play.html identifier="examples2" start=16.4 stop=21.7 %} **Where are my cats?** - **Your cats are under the tables.**
 *Những con mèo của tôi đâu?* - *Mèo của bạn ở dưới bàn.*
-4.  {% include play.html identifier="examples2" start=21.7 stop=27.9 %} **Where are John and Jack?**- **They are behind the door.**
+4. {% include play.html identifier="examples2" start=21.7 stop=27.9 %} **Where are John and Jack?**- **They are behind the door.**
 *John và Jack đang ở đâu?* - *Họ ở sau cánh cửa.*
-5.  {% include play.html identifier="examples2" start=28.1 stop=34.7 %} **Where is the restaurant?**- **The restaurant is across from the park.**
+5. {% include play.html identifier="examples2" start=28.1 stop=34.7 %} **Where is the restaurant?**- **The restaurant is across from the park.**
 *Nhà hàng ở đâu?* - *Nhà hàng ở bên kia công viên.*
-6.  {% include play.html identifier="examples2" start=34.7 stop=43.1 %} **Where is the library?** - **The library is between the post office and the hair salon.**
+6. {% include play.html identifier="examples2" start=34.7 stop=43.1 %} **Where is the library?** - **The library is between the post office and the hair salon.**
 *Thư viện ở đâu?* - *Thư viện ở giữa bưu điện và tiệm cắt tóc.*
-7.  {% include play.html identifier="examples2" start=43.1 stop=49.6 %} **Where is the supermarket?** - **The supermarket is far from here.**
+7. {% include play.html identifier="examples2" start=43.1 stop=49.6 %} **Where is the supermarket?** - **The supermarket is far from here.**
 *Siêu thị ở đâu?* - *Siêu thị thì rất xa ở đây.*
-8.  {% include play.html identifier="examples2" start=49.6 stop=55.1 %} **Where is the boy?**- **The boy is among the girls.**
+8. {% include play.html identifier="examples2" start=49.6 stop=55.1 %} **Where is the boy?**- **The boy is among the girls.**
 *Chàng trai ở đâu?* - *Chàng trai ở giữa những cô gái.*
-9.  {% include play.html identifier="examples2" start=55.5 stop=61.8 %} **Where is my key?**- **The key is in your hand.**
+9. {% include play.html identifier="examples2" start=55.5 stop=61.8 %} **Where is my key?**- **The key is in your hand.**
 *Chìa khóa của tôi đâu?* - *Chìa khóa trong tay bạn.*
-10.  {% include play.html identifier="examples2" start=62.1 stop=68.3 %} **Where is the birthday cake?** - **It is in the fridge.**
+10. {% include play.html identifier="examples2" start=62.1 stop=68.3 %} **Where is the birthday cake?** - **It is in the fridge.**
 *Cái bánh sinh nhật đâu?* - *Nó ở trong tủ lạnh.*
 
-
-## 2. Where *Ở đâu*
-{% include player2.html identifier="examples1" class=page.class lesson=page.lesson %}
+{%  include voice.html attr=page.attr  
+	identifier="examples1"  init=true
+	title="2. Where"        
+	translation="Ở đâu"
+    tag="h2" %}
 
 1. {% include play.html identifier="examples1" start=3.1 stop=14.5 %} **Where do you usually go on your vacation, Robert?**
 - **I usually go to Canada.**    

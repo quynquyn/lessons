@@ -9,13 +9,13 @@ attr:
   lang: vn
 ---
 
-
-# Lesson 1.15: Simple Past Tense *Thì quá khứ đơn*
-
+{%  include voice.html attr=page.attr                     tag="h1"
+	identifier="vocabulary"  init=true
+	title="Lesson 1.15: Simple Past Tense"        
+	translation="Thì quá khứ đơn"
+%}
 
 ## Vocabulary *Từ vựng*
-{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
-
 
 ### Periods in the past *Thời gian trong quá khứ*
 
@@ -55,9 +55,13 @@ attr:
 *Jane không đến lớp hôm qua. Cô ấy ốm à?*     
 *Ừ, cô ấy ốm.* 
 
-{% include player2.html identifier="regular" class=page.class lesson=page.lesson %}
 
-## II. Action Verbs *Động từ chỉ hoạt động*
+{%  include voice.html attr=page.attr                     tag="h2"
+	identifier="regular"  init=true
+	title="II. Action Verbs"
+	translation="Động từ chỉ hoạt động"
+%}
+
 1. {% include play.html identifier="regular" start=3.11 stop=9.98 %} **Did you sister help you do homework?**
 **No, My sister didn’t help me do anything.**
 *Chị của bạn có giúp bạn làm bài tập về nhà không?*   
@@ -75,9 +79,15 @@ attr:
 *Hôm qua James có đến lớp không?*    
 *Có, anh ấy có đến lớp hôm qua.*     
 
-#### A. Regular verbs (Verb + ed) *Động từ thường (Động từ + ed)*
-{% include play.html identifier="regular" start=27.18 stop=45.28 %}
-##### | ed = t sound for verbs ending in k, p, s, ch, sh, f | *ed phát âm là "t" với những động từ kết thúc với k, p, s, ch, sh, f*
+{%  include voice.html attr=page.attr                     tag="h2"
+	identifier="regular"  init=false  start=27.18 stop=45.28
+	title="A. Regular verbs (Verb + ed)"
+	translation="Động từ thường (Động từ + ed)"
+%}
+
+**~ed = t sound for verbs ending in k, p, s, ch, sh, f**  
+*~ed phát âm là "t" với những động từ kết thúc với k, p, s, ch, sh, f*
+
  - {% include play.html identifier="regular" start=45.58 stop=47.28 %} **I looked at her.**     *Tôi đã nhìn cô ấy.*   
  - {% include play.html identifier="regular" start=47.28 stop=50.28 %} **She stopped staring at me.**   *Cô ta đã dừng nhìn chằm chằm vào tôi.*  
  - {% include play.html identifier="regular" start=50.28 stop=52.28 %} **You looked at me.**    *Bạn đã nhìn tôi.*   
@@ -99,8 +109,9 @@ attr:
  - {% include play.html identifier="regular" start=97.28 stop=100.28 %} **The dog chased the cat again yesterday.**   *Hôm qua con chó lại đuổi theo con mèo.*     
  - {% include play.html identifier="regular" start=100.28 stop=104.28 %} **Joanne laughed when Chris asked her out.**   *Joanne cười lớn khi Chris mời cô ta ra ngoài chơi.*      
 
-{% include play.html identifier="regular" start=104.28 stop=113.28 %}
-##### | ed = ed sound for verbs ending with a t or d | *ed phát âm là "ed" với những động từ kết thúc là t hoặc d*
+{% include play.html identifier="regular" start=104.28 stop=113.28 %} **| ed = ed sound for verbs ending with a t or d |**  
+*ed phát âm là "ed" với những động từ kết thúc là t hoặc d*
+ 
  - {% include play.html identifier="regular" start=113.28 stop=116.28 %} **We visited our parents.**   *Chúng tôi đã đi thăm bố mẹ.*     
  - {% include play.html identifier="regular" start=116.28 stop=118.28 %} **My sister finally graduated!**     *Chị gái tôi cuối cùng cũng đã tốt nghiệp.*    
  - {% include play.html identifier="regular" start=118.28 stop=121.28 %} **I visited my old friend from school.**     *Tôi đã đi thăm bạn học cũ.*      
@@ -111,8 +122,9 @@ attr:
  - {% include play.html identifier="regular" start=135.28 stop=138.28 %} **My dog wanted to go outside.**     *Con chó của tôi muốn ra ngoài.*   
  - {% include play.html identifier="regular" start=138.28 stop=142.28 %} **She invited us to her birthday party.**    *Cô ấy đã mời chúng tôi tới bữa tiệc sinh nhật của cô ấy.* 
 
-{% include play.html identifier="regular" start=142.28 stop=147.28 %}
-##### | ed = d for all other verbs | *ed phát âm là "d" với những động từ còn lại*
+{% include play.html identifier="regular" start=142.28 stop=147.28 %} **| ed = d for all other verbs |**  
+*ed phát âm là "d" với những động từ còn lại*
+
  - {% include play.html identifier="regular" start=147.28 stop=150.28 %} **The dog followed me home.**    *Con chó đã đi theo tôi về nhà.*   
  - {% include play.html identifier="regular" start=150.28 stop=154.58 %} **I cleaned the entire house by myself.**     *Tôi đã tự lau dọn cả căn nhà.*     
  - {% include play.html identifier="regular" start=154.58 stop=158.58 %} **My sister played music until 3 AM.**     *Em gái tôi đã mở nhạc tới 3 giờ sáng.*   
@@ -122,28 +134,32 @@ attr:
  - {% include play.html identifier="regular" start=168.5 stop=171.28 %} **His aunt raised him.**     *Cô của anh ấy đã nuôi nấng anh ấy.*   
  - {% include play.html identifier="regular" start=171.28 stop=175.28 %} **I traveled all across Europe last year.**     *Tôi đã đi du lịch khắp Châu Âu năm ngoái.*   
 
-{% include player2.html identifier="irregular" class=page.class lesson=page.lesson %}
-#### B. Irregular verbs (The second column of irregular verbs) *Động từ bất quy tắc (Cột thứ hai của bảng động từ bất quy tắc)*
+{%  include voice.html attr=page.attr                     tag="h2"
+	identifier="irregular"  init=true
+	title="B. Irregular verbs (The second column of irregular verbs)"
+	translation="Động từ bất quy tắc (Cột thứ hai của bảng động từ bất quy tắc)"
+%}
+
 
 {% include play.html identifier="irregular" start=7.28 stop=39.28 %}
 **break / broke**  *đập vỡ, làm gãy*     
 **speak / spoke**  *nói, phát biểu*   
 **steal / stole**  *đánh cắp, lấy trộm*    
-**wake / woke**    *đánh thức, thức giấc*      
+**wake / woke**    *đánh thức, thức giấc*        
 **drive / drove**  *lái xe*    
-**ride / rode**    *cưỡi, lái xe máy*
-**rise / rose**    *mọc, đứng dậy* 
+**ride / rode**    *cưỡi, lái xe máy*  
+**rise / rose**    *mọc, đứng dậy*  
 **write / wrote**  *viết*    
-**sell / sold**    *bán*
+**sell / sold**    *bán*  
 **tell / told**    *bảo, kế*     
 
 {% include play.html identifier="irregular" start=39.28 stop=56.28 %}
-**blow / blew**    *thổi* 
-**draw / drew**    *vẽ* 
-**fly / flew**     *bay*
-**grow / grew**    *mọc, trồng, lớn lên*
-**know / knew**    *biết*  
-**throw / threw**  *quăng, ném*    
+**blow / blew**    *thổi*  
+**draw / drew**    *vẽ*  
+**fly / flew**     *bay*  
+**grow / grew**    *mọc, trồng, lớn lên*  
+**know / knew**    *biết*   
+**throw / threw**  *quăng, ném*     
      
 {% include play.html identifier="irregular" start=56.28 stop=71.28 %}
 **bring / brought**  *đem lại, mang đến*        
@@ -159,36 +175,57 @@ attr:
 **sing / sang**    *hát*  
 **swim / swam**    *bơi*  
 
-{% include player2.html identifier="irregular2" class=page.class lesson=page.lesson %}
+{%  include voice.html attr=page.attr                     tag="h3"
+	identifier="irregular2"  init=true
+	title="More..."
+	translation="Thêm..."
+%}
+
 {% include play.html identifier="irregular2" start=00.28 stop=20.28 %}
-**feed / fed**     *cho ăn*
+**feed / fed**     *cho ăn*  
 **feel / felt**    *cảm thấy, cảm nhận*  
 **keep / kept**    *giữ*  
-**fall / fell**    *ngã, rơi* 
+**fall / fell**    *ngã, rơi*  
 **mean / meant**   *có nghĩa là, ý là*   
-**meet / met**     *gặp gỡ* 
+**meet / met**     *gặp gỡ*  
 **sleep / slept**  *ngủ*   
 **sweep / swept**  *quét*    
      
 {% include play.html identifier="irregular2" start=20.28 stop=36.28 %}
-**see / saw**     *nhìn thấy*     
-**eat / ate**     *ăn* 
-**find / found**  *tìm kiếm*   
-**go / went**     *đi*
-**get / got**     *có được* 
+**see / saw**     *nhìn thấy*      
+**eat / ate**     *ăn*   
+**find / found**  *tìm kiếm*     
+**go / went**     *đi*  
+**get / got**     *có được*  
 **read / read**   *đọc*    
+  
+{%  include voice.html attr=page.attr                     tag="h3"
+	identifier="irregular2"  init=false   start=36.28 stop=68.28 
+	title="Examples"
+	translation="Ví dụ"
+%}
+  
      
-{% include play.html identifier="irregular2" start=36.28 stop=68.28 %}
-**Your son broke my window!**     *Con trai bạn đã làm vỡ cửa sổ của tôi.*   
-**She stole my wallet.**   *Cô ta đã lấy cắp ví của tôi.*        
-**I drove my daughter to school.**    *Tôi đã lái xe đưa con gái đến trường.*   
-**Sarah wrote a book.**   *Sarah đã viết một quyển sách.*     
-**John sold his house.**     *John đã bán nhà anh ấy.*  
-**She threw her bag at me.**     *Cô ta ném cái túi của cô ấy vào tôi.*   
-**I thought about it.**     *Tôi đã suy nghĩ về chuyện đó.*   
-**My mother taught me a lot.**     *Mẹ của tôi đã dạy cho tôi rất nhiều.*   
-**She swept the dirt under the rug.**     *Cô ta đã quét bụi dưới tấm thảm.*   
-**Who forgot to close the door?**   *Ai đã quên đóng cửa vậy?* 
+- **Your son broke my window!**     
+  *Con trai bạn đã làm vỡ cửa sổ của tôi.*   
+- **She stole my wallet.**   
+  *Cô ta đã lấy cắp ví của tôi.*        
+- **I drove my daughter to school.**    
+  *Tôi đã lái xe đưa con gái đến trường.*   
+- **Sarah wrote a book.**   
+  *Sarah đã viết một quyển sách.*     
+- **John sold his house.**     
+  *John đã bán nhà anh ấy.*  
+- **She threw her bag at me.**     
+  *Cô ta ném cái túi của cô ấy vào tôi.*   
+- **I thought about it.**     
+  *Tôi đã suy nghĩ về chuyện đó.*   
+- **My mother taught me a lot.**     
+  *Mẹ của tôi đã dạy cho tôi rất nhiều.*   
+- **She swept the dirt under the rug.**     
+  *Cô ta đã quét bụi dưới tấm thảm.*   
+- **Who forgot to close the door?**   
+  *Ai đã quên đóng cửa vậy?* 
 
      
    
