@@ -9,8 +9,12 @@ attr:
   lang: vn
 ---
 
-{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
-# Lesson 2.11: Appearance *Vẻ bề ngoài*  
+{%  include voice.html attr=page.attr        ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=true
+	title="Lesson 2.11: Appearance"  
+	translation="Vẻ bề ngoài"      
+    tag="h1" %}
+
 
 
 ## Vocabulary *Từ vựng*
@@ -121,56 +125,89 @@ attr:
 
 
  
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="monologue"  init=true
+	title="Describe someone's appearance"        
+	translation="Miêu tả vẻ bề ngoài của một người"
+    tag="h2" %}
 
-
-{% include player2.html identifier="monologue" class=page.class lesson=page.lesson %}
-## Describe someone's appearance *Miêu tả vẻ bề ngoài của một người*
-{% include play.html identifier="monologue" start=3.88 stop=45.70 %}
 
 **Let me introduce my ex-boyfriend. He is Daniel. He is a quite handsome man. He is in his mid–twenties, but he looks young for his age. He is of medium height and well–built. He has a square face with brown eyes, a straight nose and full lips. He has short black wavy hair. He looks even more attractive with his glasses. I've always thought he bears a striking resemblance to someone on TV. He cut himself climbing a tree when he was ten and he's got a scar just below his ear. Oh, I wish he were here. I miss him so much.**
 *Để tôi giới thiệu về bạn trai cũ của tôi. Anh ấy là Daniel. Anh ấy là một người đàn ông khá đẹp trai. Anh ấy đang khoảng giữa 20 tuổi, nhưng ảnh nhìn trẻ so với tuổi của anh ấy. Anh ấy có chiều cao trung bình và vạm vỡ. Ảnh có khuôn mặt vuông với đôi mắt nâu, cái mũi thẳng và môi đầy. Anh ấy có tóc ngắn xoăn đen. Anh ấy nhìn hấp dẫn hơn khi đeo kính. Tôi luôn nghĩ là ảnh có vẻ giống ai đó trên tivi. Khi anh ấy mười tuổi lúc đang trèo cây anh ấy tự làm mình bị thương và anh ấy có một vết sẹo dưới tai. Ồ, tôi ước gì ảnh ở đây. Tôi nhớ anh ấy nhiều lắm.* 
 
 
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="explanation"  init=true
+	title="Explanation"        
+	translation="Giải thích"
+    tag="h2" %}
 
-{% include player2.html identifier="explanation" class=page.class lesson=page.lesson %}
-## Explanation *Giải thích*
 
 
-### 1. He is in his mid–twenties.
+{%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
+	identifier="explanation"  init=false start=3.57 stop=17.65
+	title="1. He is in his mid–twenties."
+	translation=""
+    tag="h3" %}
+
 *Anh đang trong độ tuổi giữa 20.*
-{% include play.html identifier="explanation" start=3.57 stop=17.65 %}
 
 - **He is in his early forties.**  *Anh ấy đang ở đầu tuổi 40.*
 - **My brother is in his late twenties.**  *Anh trai tôi đang ở cuối tuổi 20.*
 - **My sister is a lovely teenager.**  *Em gái tôi là một thiếu nữ dễ thương.*
 
 
-### 2. He is of medium height and well–built.
+{%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
+	identifier="explanation"  init=false start=19.43 stop=30.36
+	title="2. He is of medium height and well–built."
+	translation=""
+    tag="h3" %}
+
 *Anh ta cao trung bình và vạm vỡ.*
-{% include play.html identifier="explanation" start=19.43 stop=30.36 %}
 
 - **He is tall and muscular.**  *Anh ấy cao và cơ bắp.*
 - **He's short and a little bit overweight.**  *Anh ấy thấp và một chút nặng cân.*
 
-### 3. He has a square face with brown eyes, a straight nose and full lips.
+
+{% if site.trialdeploy %}
+	{% include explanation_placeholder.html start=3 stop=5 %}
+	{% else %}
+
+
+{%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
+	identifier="explanation"  init=false start=31.95 stop=58.69
+	title="3. He has a square face with brown eyes, a straight nose and full lips."
+	translation=""
+    tag="h3" %}
+
 *Anh ta có khuôn mặt vuông với lông mày nâu, mũi thẳng và môi đầy đặn.*
-{% include play.html identifier="explanation" start=31.95 stop=58.69 %}
 
 - **He has an oval face with small eyes, a flat nose and thin lips.**  *Anh ấy có khuôn mặt trái xoan với đôi mắt nhỏ, mũi tẹt và môi mỏng.*
 - **She has a small face with a straight nose, high cheekbones and long wavy hair.**  *Cô ấy có khuôn mặt nhỏ với cái mũi thẳng, gò má cao và tóc xoăn dài.*
 - **The man has a big face with bushy eyebrows, a hooked nose and a pointed chin.**  *Người đàn ông có khuôn mặt to với đôi lông mày rậm, mũi quằm và cằm nhọn.*
 
-### 4. He looks even more attractive with his glasses. 
+
+
+{%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
+	identifier="explanation"  init=false  start=60.71 stop=78.60
+	title="4. He looks even more attractive with his glasses. "
+	translation=""
+    tag="h3" %}
+
 *Anh ta trông còn thu hút hơn với mắt kính.*
-{% include play.html identifier="explanation" start=60.71 stop=78.60 %}
 
 - **She looks even sexier with her full lips.**  *Cô ấy trông thậm chí gợi cảm hơn với đôi môi dày.*
 - **The girl looks even more stunning with her radiant smile.**  *Cô gái trông thậm chí còn lộng lẫy hơn với nụ cười rạng rỡ.*
 - **My brother looks even more handsome with a tattoo on his arm.**  *Anh trai tôi trông thậm chí còn đẹp trai hơn với hình xăm trên cánh tay.*
 
-### 5.  I’ve always thought he bears a striking resemblance to someone on TV.
+
+{%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
+	identifier="explanation"  init=false start=80.60 stop=102.89
+	title="5.  I’ve always thought he bears a striking resemblance to someone on TV."
+	translation=""
+    tag="h3" %}
+
 *Tôi luôn nghĩ rằng anh ta giống ai đó trên tivi.*
-{% include play.html identifier="explanation" start=80.60 stop=102.89 %}
 
 **bear a striking resemblance**  *trông giống ai*
 
@@ -178,3 +215,7 @@ attr:
 - **My manager bears a striking resemblance to a celebrity.**  *Giám đốc của tôi nhìn giống một người nổi tiếng.*
 - **The girl bears a striking resemblance to her mother.**  *Cô gái trông giống mẹ của cô ấy.*
  
+
+
+{% endif %}
+

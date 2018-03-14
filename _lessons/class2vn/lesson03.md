@@ -65,24 +65,23 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 *Đó là ý kiến hay!*   
 > {% include play.html identifier="Native-Dialogue3" start=6.08 stop=7.42 %}P2: **What time do you wake up?**
 *Bạn thức dậy lúc mấy giờ?*   
-> {% include play.html identifier="Native-Dialogue3" start=7.42 stop=9.65 %}Person 1: **I wake up at 7:30 AM.**
+> {% include play.html identifier="Native-Dialogue3" start=7.42 stop=9.65 %}P1: **I wake up at 7:30 AM.**
 *Tôi thức dậy vào lúc 7 giờ 30 phút sáng.*   
 > {% include play.html identifier="Native-Dialogue3" start=9.65 stop=12.19 %}P2: **So, we can meet around 9:00?**
 *Vậy thì, chúng ta có thể gặp nhau vào khoảng 9 giờ?*   
-> {% include play.html identifier="Native-Dialogue3" start=12.19 stop=14.98 %}Person 1: **At 9:00 I go to my Taekwondo lesson.**
+> {% include play.html identifier="Native-Dialogue3" start=12.19 stop=14.98 %}P1: **At 9:00 I go to my Taekwondo lesson.**
 *Lúc 9 giờ tôi đi học võ Taekwondo.*   
 > {% include play.html identifier="Native-Dialogue3" start=14.98 stop=18.56 %}P2: **So…11:00? Do you have time then?** 
 *Vậy 11 giờ? Bạn có thời gian lúc đó không?*  
-> {% include play.html identifier="Native-Dialogue3" start=18.56 stop=21.12 %}Person 1: **Well, at 11:00 I start school.** 
+> {% include play.html identifier="Native-Dialogue3" start=18.56 stop=21.12 %}P1: **Well, at 11:00 I start school.** 
 *Ừ vào 11 giờ tôi đi học.*  
 > {% include play.html identifier="Native-Dialogue3" start=21.12 stop=22.40 %}P2: **When do you finish?**  
 *Khi nào bạn xong?* 
-> {% include play.html identifier="Native-Dialogue3" start=22.40 stop=27.11 %}Person 1: **At 5:30 PM. So let’s meet at 5:45 – for dinner?** 
+> {% include play.html identifier="Native-Dialogue3" start=22.40 stop=27.11 %}P1: **At 5:30 PM. So let’s meet at 5:45 – for dinner?** 
 *Lúc 5 giờ 30 phút chiều. Vậy hãy gặp nhau lúc 5 giờ 45 phút để ăn tối nhé?* 
 > {% include play.html identifier="Native-Dialogue3" start=27.11 stop=28.36 %}P2: **Sounds great!**  
-*Nghe tuyệt đấy!*
-
-{% include play.html identifier="Native-Dialogue3" start=28.36 stop=47.96 %} Person 2: **I want to meet Kurt on Saturday and he thinks that’s great idea. Kurt gets up at 7:30 AM and then he goes to his Taekwondo lesson at 9:00. At 11:00 he doesn’t have time because he starts school at that time and he finishes school at 5:30 PM. At 5:45 he meets me for dinner.**
+*Nghe tuyệt đấy!*     
+>{% include play.html identifier="Native-Dialogue3" start=28.36 stop=47.96 %} P2: **I want to meet Kurt on Saturday and he thinks that’s great idea. Kurt gets up at 7:30 AM and then he goes to his Taekwondo lesson at 9:00. At 11:00 he doesn’t have time because he starts school at that time and he finishes school at 5:30 PM. At 5:45 he meets me for dinner.**    
 *Tôi muốn gặp Kurt vào thứ Bảy và anh ta nghĩ rằng đó là một ý hay. Kurt thức dậy lúc 7h30 và sau đó, anh ta học Taekwondo vào lúc 9h. Lúc 11h, anh ta không có thời gian rảnh vì anh ta bắt đầu giờ học lúc đó và anh ta học xong lúc 5h:30 chiều. Lúc 5h:45 anh ta gặp tôi cho bữa ăn tối.*
 
 {%  include voice.html attr=page.attr  

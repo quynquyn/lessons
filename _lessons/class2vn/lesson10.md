@@ -9,15 +9,17 @@ attr:
   lang: vn
 ---
 
-# Lesson 2.10: Friendship  *Tình bạn*
+{%  include voice.html attr=page.attr  
+	identifier="vocabulary"  init=true
+	title="Lesson 2.10: Friendship"        
+	translation="Tình bạn"
+    tag="h1" %}
 
 ## Vocabulary  *Từ vựng*
-{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %} 
 
 ### Purpose *Mục đích*
 
 #### For fun *Để vui*
-
 
 {% include wordgrid.html lang=page.lang  
 		class=page.class 
@@ -37,7 +39,6 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-
 #### For other purposes *Cho những mục đích khác*
 
 {% include wordgrid.html lang=page.lang
@@ -47,32 +48,34 @@ attr:
 		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
-		
 
-{% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
-## Conversation *Đối thoại*
+{%  include voice.html attr=page.attr  
+	identifier="conversation"  init=true
+	title="Conversation"        
+	translation="Đối thoại"
+    tag="h2" %}		
 
 > {% include play.html identifier="conversation" start=3.80 stop=6.51 %}Person1: **What are you doing? Are you busy?** 
-*Bạn đang làm gì vậy? Bạn có đang bận không?* 
+*Bạn đang làm gì vậy? Bạn có đang bận không?*   
 > {% include play.html identifier="conversation" start=7.79 stop=10.05 %}Person2: **I’m just sending an e-mail.**  
-*Mình chỉ đang gửi email thôi.*
-> {% include play.html identifier="conversation" start=11.20 stop=16.73 %}Person1: **Do you always use your phone to send e-mails? All of my friends text these days.**  
-*Bạn thường dùng điện thoại để gửi email à? Tất cả các bạn của tôi đều nhắn tin mấy ngày nay.*
+*Mình chỉ đang gửi email thôi.*    
+> {% include play.html identifier="conversation" start=11.20 stop=16.73 %}Person1: **Do you always use your phone to send e-mails? All of my friends text these days.**    
+*Bạn thường dùng điện thoại để gửi email à? Tất cả các bạn của tôi đều nhắn tin mấy ngày nay.*     
 > {% include play.html identifier="conversation" start=18.11 stop=26.11 %}Person2: **Some of my friends text, some don’t. That e-mail was to my dad. He sends me e-mails every day.**  
-*Một vài bạn của tôi nhắn tin, một vài người thì không. Email đó là gửi cho bố của tôi. Ông ấy gửi email cho tôi mỗi ngày.*
+*Một vài bạn của tôi nhắn tin, một vài người thì không. Email đó là gửi cho bố của tôi. Ông ấy gửi email cho tôi mỗi ngày.*     
 > {% include play.html identifier="conversation" start=27.50 stop=30.06 %}Person1: **So what else do you use your phone for?** 
-*Vậy bạn còn dùng điện thoại để làm gì khác?* 
-> {% include play.html identifier="conversation" start=31.20 stop=39.41 %}Person2: **I often use it to play games. A lot of my friends watch movies, but I find the screen too small.**  
-*Tôi thường dùng nó để chơi trò chơi. Nhiều bạn của tôi xem phim, nhưng tôi thấy cái màn hình nhỏ quá.*
+*Vậy bạn còn dùng điện thoại để làm gì khác?*    
+> {% include play.html identifier="conversation" start=31.20 stop=39.41 %}Person2: **I often use it to play games. A lot of my friends watch movies, but I find the screen too small.**      
+*Tôi thường dùng nó để chơi trò chơi. Nhiều bạn của tôi xem phim, nhưng tôi thấy cái màn hình nhỏ quá.*     
 > {% include play.html identifier="conversation" start=40.64 stop=43.06 %}Person1: **Do you use it for social networking?**  
-*Bạn có dùng nó cho mạng xã hội không?*
+*Bạn có dùng nó cho mạng xã hội không?*    
 > {% include play.html identifier="conversation" start=44.37 stop=50.07 %}Person2: **Sure, all the time. Say, I don’t think we’re friends online.** 
-*Chắc chắn rồi, mọi lúc luôn. Nói này, tôi không nghĩ chúng ta là bạn trên mạng đâu.* 
+*Chắc chắn rồi, mọi lúc luôn. Nói này, tôi không nghĩ chúng ta là bạn trên mạng đâu.*     
 > {% include play.html identifier="conversation" start=51.07 stop=54.47 %}Person1: **How many hours a day do you use the internet?**  
-*Bạn dùng Internet mấy giờ một ngày?*
-> {% include play.html identifier="conversation" start=55.76 stop=58.08 %}Person2: **10 hours a day, I guess.**  
-*Tôi đoán là 10 giờ một ngày.*
-> {% include play.html identifier="conversation" start=59.52 stop=66.17 %}Person1: **Really? Then I think you are definitely addicted to it. When did you first use the internet?**  
+*Bạn dùng Internet mấy giờ một ngày?*    
+> {% include play.html identifier="conversation" start=55.76 stop=58.08 %}Person2: **10 hours a day, I guess.**     
+*Tôi đoán là 10 giờ một ngày.*   
+> {% include play.html identifier="conversation" start=59.52 stop=66.17 %}Person1: **Really? Then I think you are definitely addicted to it. When did you first use the internet?**     
 *Thật hả? Vậy tôi nghĩ bạn chắc chắn là nghiện nó rồi. Lần đầu tiên bạn sử dụng Internet là khi nào?*
 > {% include play.html identifier="conversation" start=67.64 stop=72.67 %}Person2: **I’m not really sure. Maybe I first used it when I was 12.**  
 *Tôi không chắc nữa. Có lẽ lần đầu tôi sử dụng nó là khi tôi 12 tuổi.*
@@ -85,15 +88,19 @@ attr:
 > {% include play.html identifier="conversation" start=89.67 stop=94.49 %}Person2: **That’s why you are always full of energy and you don’t have eye bags.** 
 *Đó là lí do tại sao bạn luôn tràn đầy năng lượng và không có quầng thâm mắt.* 
 > {% include play.html identifier="conversation" start=95.81 stop=99.75 %}Person1: **Thank you. By the way, you should change your sleeping schedule.**  
-*Cảm ơn bạn. Nhân tiện, bạn nên thay đổi giờ giấc ngủ của bạn đi.*
+*Cảm ơn bạn. Nhân tiện, bạn nên thay đổi giờ giấc ngủ của bạn đi.*    
 
+{%  include voice.html attr=page.attr  
+	identifier="explanations"  init=true
+	title="Explanation"        
+	translation="Giải thích"
+    tag="h2" %}
 
-{% include player2.html identifier="explanations" class=page.class lesson=page.lesson %}
-
-
-## Explanations *Giải thích*
-### 1. What do you use your phone for?  *Bạn sử dụng điện thoại để làm gì?*
-{% include play.html identifier="explanations" start=1.65 stop=17.32 %}
+{%  include voice.html attr=page.attr  
+	identifier="explanations"  init=false start=1.65 stop=17.32
+	title="1. What do you use your phone for?"        
+	translation="Bạn sử dụng điện thoại để làm gì?"
+    tag="h3" %}
  
 **What...for?** 
 
@@ -101,8 +108,11 @@ attr:
 - **What did you do that for?** *Bạn làm như vậy để làm gì?*
 - **What do you live for?** *Bạn sống để làm gì?*
 
-### 2. I often use it to play games. *Tôi thường sử dụng nó để chơi trò chơi.*
-{% include play.html identifier="explanations" start=18.92 stop=40.35 %}
+{%  include voice.html attr=page.attr  
+	identifier="explanations"  init=false start=18.92 stop=40.35
+	title="2. I often use it to play games."        
+	translation="Tôi thường sử dụng nó để chơi trò chơi."
+    tag="h3" %}
 
 **to + Verb or in order to + Verb** 
 
@@ -110,9 +120,11 @@ attr:
 - **I study English to find a well-paid job.** *Tôi học Tiếng Anh để tìm một công việc tốt.*
 - **I just call to say I love you.** *Tôi chỉ gọi điện để nói tôi yêu bạn.*
 
-### 3. I find the screen too small.
-*Tôi thấy cái màn hình quá nhỏ.* 
-{% include play.html identifier="explanations" start=42.57 stop=62.20 %}
+{%  include voice.html attr=page.attr  
+	identifier="explanations"  init=false start=42.57 stop=62.20
+	title="3. I find the screen too small."        
+	translation="Tôi thấy cái màn hình quá nhỏ."
+    tag="h3" %}
 
 **I find someone or something + adjective**  *Tôi thấy ...*
 
@@ -120,8 +132,11 @@ attr:
 - **I find this book difficult.** *Tôi thấy quyển sách này khó quá.*
 - **I find him extremely handsome.** *Tôi thấy anh ta cực đẹp trai luôn.* 
 
-### 4. You are definitely addicted to it.  *Bạn chắc chắc là nghiện nó rồi.*
-{% include play.html identifier="explanations" start=65.17 stop=81.39 %}
+{%  include voice.html attr=page.attr  
+	identifier="explanations"  init=false start=65.17 stop=81.39
+	title="4. You are definitely addicted to it."        
+	translation="Bạn chắc chắc là nghiện nó rồi."
+    tag="h3" %}
 
 **Be addicted to**  *nghiện*
 
@@ -129,9 +144,11 @@ attr:
 - **A lot of people nowadays have become addicted to the internet.** *Nhiều người ngày nay trở nên nghiện Internet.*
 - **I'm addicted to chocolate.** *Tôi nghiện sô cô la.*
 
-### 5. When did you first use the internet?
-*Lần đầu bạn sử dụng Internet là khi nào?*
-{% include play.html identifier="explanations" start=83.12 stop=97.23 %}
+{%  include voice.html attr=page.attr  
+	identifier="explanations"  init=false start=83.12 stop=97.23
+	title="5. When did you first use the internet?"        
+	translation="Lần đầu bạn sử dụng Internet là khi nào?"
+    tag="h3" %}
 
 **When did you first...?**  *Lần đầu bạn... là khi nào?*
 
@@ -139,10 +156,12 @@ attr:
 - **When did you first get drunk?** *Lần đầu bạn say là khi nào?*
 - **When did you first do it?** *Lần đầu bạn làm chuyện ấy là khi nào?*
 
-### 6. You are always full of energy.
-*Bạn luôn luôn tràn đầy năng lượng.*
-{% include play.html identifier="explanations" start=99.60 stop=117.68 %}
-
+{%  include voice.html attr=page.attr  
+	identifier="explanations"  init=false start=99.60 stop=117.68
+	title=" 6. You are always full of energy."        
+	translation="Bạn luôn luôn tràn đầy năng lượng."
+    tag="h3" %}
+	
 **Be full of...**  *đầy* 
 
 - **The shelf is full of books.** *Kệ sách thì đầy sách.*

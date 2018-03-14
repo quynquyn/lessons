@@ -16,7 +16,7 @@ collections:
     output: true
 include: ['.htaccess']
 exclude: [not-in-git, node_modules, gulpfile.js, artwork, csv_to_html, 
-        "_lessons/class2vn/lesson2*",
+        "_lessons/class2vn/lesson3*",
         "_lessons/class1en",
         "_lessons/class2en",
         "_lessons/class1pt/",

@@ -9,10 +9,11 @@ attr:
   lang: vn
 ---
 
-
-# Lesson 2.18: Feelings *Cảm xúc*
-
-{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
+{%  include voice.html attr=page.attr  
+	identifier="vocabulary"  init=true
+	title="Lesson 2.18: Feelings"        
+	translation="Cảm xúc"
+    tag="h1" %}
 
 ## Vocabulary *Từ vựng*
 
@@ -25,10 +26,11 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 		
-
-{% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
-
-## Conversation *Đối thoại*
+{%  include voice.html attr=page.attr  
+	identifier="conversation"  init=true
+	title="Conversation"        
+	translation="Đối thoại"
+    tag="h2" %}
 
 > {% include play.html identifier="conversation" start=2.12 stop=4.64 %} Person 1: **Oh my god, I am so bored!**  
 *Trời ơi, tôi chán quá!*  
@@ -57,14 +59,17 @@ attr:
 > {% include play.html identifier="conversation" start=40.56 stop=42.03 %} P1: **Because I'm too lazy.**  *Bởi vì tôi quá lười.*
 
 
+{%  include voice.html attr=page.attr  
+	identifier="explanation"  init=true
+	title="Explanation"        
+	translation="Giải thích"
+    tag="h2" %}
 
-{% include player2.html identifier="explanation" class=page.class lesson=page.lesson %}
-## Explanations *Giải thích*
-
-
-### 1. I hope I am not boring you with my life story.
-*Tôi hy vọng tôi không làm bạn chán với câu chuyện về cuộc đời tôi.*
-{% include play.html identifier="explanation" start=3.17 stop=17.14 %} 
+{%  include voice.html attr=page.attr  
+	identifier="explanation"  init=false start=3.17 stop=17.14
+	title="1. I hope I am not boring you with my life story."        
+	translation="Tôi hy vọng tôi không làm bạn chán với câu chuyện về cuộc đời tôi."
+    tag="h3" %}
 
 - **John thinks he's boring, but I find him to be interesting.**  *John nghĩ anh ấy đang chán, nhưng tôi thấy anh ấy thú vị.*
 - **There is nothing more boring than a bad story.**  *Không có cái gì chán hơn là câu chuyện dở.*
@@ -75,52 +80,63 @@ attr:
   {% include list_placeholder.html start=3 stop=6 %}
   {% else %}
 
-
-### 2. I'm very bored by classical music. I prefer rock music instead.
-*Tôi rất chán với nhạc cổ điển. Tôi thích nhạc rock hơn.*
-{% include play.html identifier="explanation" start=17.17 stop=34.54 %}
-
+{%  include voice.html attr=page.attr  
+	identifier="explanation"  init=false start=17.17 stop=34.54
+	title="2. I'm very bored by classical music. I prefer rock music instead."        
+	translation="Tôi rất chán với nhạc cổ điển. Tôi thích nhạc rock hơn."
+    tag="h3" %}
 
 - **Anne said she is bored of her job and that she is thinking about looking for a new one.**  *Anne nói cô ấy thấy chán công việc của cô ấy và cô ấy đang suy nghĩ về việc tìm việc mới.*
 - **Christopher is bored with eating out all the time.**  *Christopher cảm thấy chán vì lúc nào cũng phải ra ngoài ăn.*
 - **I am so bored of these songs on the radio. They make me angry.**  *Tôi thấy chán với mấy bài hát trên đài radio. Chúng khiến tôi tức giận.*
 
-### 3. I feel loved by my wife and children.
-*Tôi cảm thấy được yêu bởi vợ và các con tôi.*
-{% include play.html identifier="explanation" start=34.65 stop=46.14 %}
+{%  include voice.html attr=page.attr  
+	identifier="explanation"  init=false start=34.65 stop=46.14
+	title="3. I feel loved by my wife and children."        
+	translation="Tôi cảm thấy được yêu bởi vợ và các con tôi."
+    tag="h3" %}
+
 - **I feel appreciated and valued in my school.**  *Tôi cảm thấy được cảm kích và có giá trị khi ở trường.*
 - **I feel like I'm going to be sick.**  *Tôi có cảm giác tôi sắp ốm.*
 - **I feel the warmth of the sun on my skin.**  *Tôi cảm nhận được hơi ấm của mặt trời trên làn da tôi.*
 
-### 4. Reading non-fiction makes me happy.
-*Đọc những thứ không phải tiểu thuyết khiến tôi vui.*
-{% include play.html identifier="explanation" start=46.35 stop=65.54 %}
+{%  include voice.html attr=page.attr  
+	identifier="explanation"  init=false start=46.35 stop=65.54
+	title="4. Reading non-fiction makes me happy."        
+	translation="Đọc những thứ không phải tiểu thuyết khiến tôi vui."
+    tag="h3" %}
+
 **Verb + ing can be used in the same way as a noun**  *Verb + ing có thể sử dụng như một chủ ngữ.*
 
 - **I don't want to hang out with Steven. Seeing him is the last thing I want to do.**  *Tôi không muốn đi chơi với Steven. Gặp anh ấy là điều cuối cùng tôi muốn làm.*
 - **Being single helped me learn more about myself.**  *Độc thân khiến tôi hiểu rõ hơn về bản thân mình.*
 - **Thinking about Robert makes me smile.**   *Nghĩ về Robert khiến tôi mỉm cười.*
 
-### 5. I hate it when people talk to me on the bus.
-*Tôi ghét khi người ta nói chuyện với tôi trên xe buýt.*
-{% include play.html identifier="explanation" start=65.65 stop=80.14 %}
+{%  include voice.html attr=page.attr  
+	identifier="explanation"  init=false start=65.65 stop=80.14
+	title=" 5. I hate it when people talk to me on the bus."        
+	translation="Tôi ghét khi người ta nói chuyện với tôi trên xe buýt."
+    tag="h3" %}
 
-- **I dislike being interrupted while I'm speaking.**  *Tôi không thích bị cắt ngang khi đang nói.*
-- **I don't appreciate it when Robert takes my phone without asking first.**  *Tôi không vui lắm khi Robert lấy điện thoại của tôi mà không xin phép.*
-- **I despise people who cheat on exams because that is immoral.**  *Tôi cho rằng người gian lận trong thi cử là không có đạo đức.*
+- **I dislike being interrupted while I'm speaking.**   *Tôi không thích bị cắt ngang khi đang nói.*
+- **I don't appreciate it when Robert takes my phone without asking first.**   *Tôi không vui lắm khi Robert lấy điện thoại của tôi mà không xin phép.*
+- **I despise people who cheat on exams because that is immoral.**   *Tôi cho rằng người gian lận trong thi cử là không có đạo đức.*
 
+{%  include voice.html attr=page.attr  
+	identifier="explanation"  init=false start=80.65 stop=135.14
+	title="More explanations"        
+	translation="Giải thích thêm"
+    tag="h2" %}
 
-## More explanations *Giải thích thêm*
-{% include play.html identifier="explanation" start=80.65 stop=135.14 %}
-1. **I fear it is too late for you to start preparing for the exam.**  *Tôi sợ là đã quá trễ để bạn chuẩn bị cho kì thi rồi.*
-2. **Reading the latest news makes me sad. There is so much tragedy in the world.**  *Đọc cái tin mới nhất làm cho tôi buồn. Có quá nhiều bi kịch trên thế giới này.*
-3. **My daughter bought me a birthday gift. I was really surprised!**  *Con gái tôi mua quà sinh nhật cho tôi. Tôi rất là bất ngờ!*
-4. **I trust that everything will go according to plan.**  Tôi tin là mọi thứ đều sẽ đi theo kế hoạch.*
-5. **I anticipate good results from my doctor. I've really been watching my diet.**  *Tôi biết trước kết quả tốt từ bác sĩ của tôi. Tôi đã theo dõi lịch ăn kiêng của tôi.*
-6. **I am very joyful about the fact that my son is getting married.**  *Tôi rất hạnh phúc vì con trai tôi đã kết hôn.*
-7. **I'm ashamed that I didn't teach my daughter how to tie her shoelaces before she was five.**  *Tôi thấy xấu hổ vì tôi đã không dạy con gái tôi cách cột dây giày trước khi con bé 5 tuổi.*
-8. **I hate vanilla. It's such a boring flavor. I prefer chocolate.**  *Tôi ghét vani. Nó đúng là một vị nhàm chán. Tôi thích sô cô la hơn.*
-9. **If you like Christina, you should make the first move. She's very shy.**  *Nếu bạn thích Christina, bạn nên chủ động. Cô ấy rất ngại ngùng.*
-10. **Don't be modest, have another piece of cake! I made it myself.**  *Đừng có khiêm tốn, ăn thêm miếng bánh nữa đi! Tôi đã tự tay làm nó đó.*
+1. **I fear it is too late for you to start preparing for the exam.**   *Tôi sợ là đã quá trễ để bạn chuẩn bị cho kì thi rồi.*
+2. **Reading the latest news makes me sad. There is so much tragedy in the world.**   *Đọc cái tin mới nhất làm cho tôi buồn. Có quá nhiều bi kịch trên thế giới này.*
+3. **My daughter bought me a birthday gift. I was really surprised!**   *Con gái tôi mua quà sinh nhật cho tôi. Tôi rất là bất ngờ!*
+4. **I trust that everything will go according to plan.**   *Tôi tin là mọi thứ đều sẽ đi theo kế hoạch.*
+5. **I anticipate good results from my doctor. I've really been watching my diet.**   *Tôi biết trước kết quả tốt từ bác sĩ của tôi. Tôi đã theo dõi lịch ăn kiêng của tôi.*
+6. **I am very joyful about the fact that my son is getting married.**   *Tôi rất hạnh phúc vì con trai tôi đã kết hôn.*
+7. **I'm ashamed that I didn't teach my daughter how to tie her shoelaces before she was five.**   *Tôi thấy xấu hổ vì tôi đã không dạy con gái tôi cách cột dây giày trước khi con bé 5 tuổi.*
+8. **I hate vanilla. It's such a boring flavor. I prefer chocolate.**   *Tôi ghét vani. Nó đúng là một vị nhàm chán. Tôi thích sô cô la hơn.*
+9. **If you like Christina, you should make the first move. She's very shy.**   *Nếu bạn thích Christina, bạn nên chủ động. Cô ấy rất ngại ngùng.*
+10. **Don't be modest, have another piece of cake! I made it myself.**   *Đừng có khiêm tốn, ăn thêm miếng bánh nữa đi! Tôi đã tự tay làm nó đó.*
  
 	{% endif %}
