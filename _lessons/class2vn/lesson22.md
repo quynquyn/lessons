@@ -19,7 +19,11 @@ attr:
 
 ## Vocabulary *Từ vựng*
 
-### Describe your hometown  *Miêu tả quê nhà của bạn*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=5 stop=80
+	title="Describe your hometown"        
+	translation="Miêu tả quê nhà của bạn"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -30,21 +34,21 @@ attr:
 		trial=site.trialdeploy %}
 
 
-•  **It’s a lovely place to live in.**   *Nó là một nơi dễ thương để sống.*
-•  **It’s a popular tourist destination.**   *Nó là một nơi hút khách du lịch nổi tiếng.*
-•  **It’s a quiet place and it’s small enough that you can get to know your neighbour and has a great sense of community.**   *Nó là một nơi yên tĩnh và đủ nhỏ để để bạn có thể làm quen với hàng xóm và có thể có một cộng đồng tốt.* 
-•  **It has fresh air which is beneficial to your health.**   *Nó có không khí trong lành rất có lợi cho sức khỏe của bạn.*
-•  **It’s a real 24-hour city and you can meet people from all around the world.**   *Nó thực sự là một thành phố 24 giờ và bạn có thể gặp mọi người từ khắp thế giới.*
-•  **It’s got such a rich culture and there’s always something interesting going on.**   *Nó có một nền văn hóa giàu có và luôn luôn những điều thú vị diễn ra.*
+•  **It’s a lovely place to live in.** *Nó là một nơi dễ thương để sống.*   
+•  **It’s a popular tourist destination.** *Nó là một nơi hút khách du lịch nổi tiếng.*    
+•  **It’s a quiet place and it’s small enough that you can get to know your neighbour and has a great sense of community.** *Nó là một nơi yên tĩnh và đủ nhỏ để để bạn có thể làm quen với hàng xóm và có thể có một cộng đồng tốt.*    
+•  **It has fresh air which is beneficial to your health.** *Nó có không khí trong lành rất có lợi cho sức khỏe của bạn.*    
+•  **It’s a real 24-hour city and you can meet people from all around the world.** *Nó thực sự là một thành phố 24 giờ và bạn có thể gặp mọi người từ khắp thế giới.*     
+•  **It’s got such a rich culture and there’s always something interesting going on.** *Nó có một nền văn hóa giàu có và luôn luôn những điều thú vị diễn ra.*    
 
-### What is your hometown famous for?  *Quê của bạn nổi tiếng vì cái gì?*
-•  **pottery making**   *Nghề làm gốm*
-•  **famous landmarks such as …**   *Mốc nổi tiếng như là...*
-•  **delicious food**   *Thức ăn ngon*
-•  **heavy industry**   *Ngành công nghiệp nặng*
-•  **agricultural products**   *Sản phẩm nông nghiệp*
-•  **places of interest/ The tourist industry**  *Nhiều nơi hấp dẫn/ Ngành du lịch*
-•  **tea plantation**   *Đồn điền trà*
+### What is your hometown famous for?  *Quê của bạn nổi tiếng vì cái gì?*   
+•  **pottery making**   *Nghề làm gốm*   
+•  **famous landmarks such as …**   *Mốc nổi tiếng như là...*   
+•  **delicious food**   *Thức ăn ngon*   
+•  **heavy industry**   *Ngành công nghiệp nặng*   
+•  **agricultural products**   *Sản phẩm nông nghiệp*   
+•  **places of interest/ The tourist industry**  *Nhiều nơi hấp dẫn/ Ngành du lịch*   
+•  **tea plantation**   *Đồn điền trà*   
 
 ### Problems: *Vấn đề*
 
@@ -63,34 +67,20 @@ attr:
 	translation="Đối thoại"
     tag="h2" %}
 
-> {% include play.html identifier="conversation" start=1.74 stop=4.67 %} Person 1: **Hey Tom, you never told me where you were from.**   
-*Ê Tom, bạn chưa bao giờ nói cho tôi biết bạn từ đâu đến.*
-> {% include play.html identifier="conversation" start=4.67 stop=7.89 %} Person 2: **That's because you didn't ask. I'm from New York.**    
-*Tại vì bạn đâu có hỏi. Tôi đến từ New York.*
-> {% include play.html identifier="conversation" start=7.89 stop=11.28 %} P1: **Oh, wow. That's a really big city. What's it like to live there?**
-*Ồ, wow. Đó thật sự là một thành phố lớn. Sống ở đó thì như thế nào?*    
-> {% include player2.html identifier="conversation" start=11.28 stop=14.81 %} P2: **It's a bustling city, and there is always something to see there.** 
-*Nó là một thành phố nhộn nhịp và luôn luôn có cái gì để xem ở đó.*
-> {% include play.html identifier="conversation" start=14.81 stop=17.46 %} P1: **That's interesting. What is it famous for?**    
-*Thú vị vậy. Nó nổi tiếng vì cái gì?*
-> {% include play.html identifier="conversation" start=17.46 stop=21.06 %} P2: **It's mostly known for being the home of a very famous landmark.**   
-*Nó được biết đến nhiều vì là nơi nhà của những mốc nổi tiếng?*
-> {% include play.html identifier="conversation" start=21.06 stop=22.55 %} P1: **Which landmark is that?**  
-*Mốc gì thế?*
-> {% include play.html identifier="conversation" start=22.55 stop=23.95 %} P2: **The Statue of Liberty.**  
-*Tượng Nữ thần Tự do.*
-> {% include play.html identifier="conversation" start=23.95 stop=29.41 %} P1: **Oh, I heard of it. I also heard it was a gift to America from France in the 19th century.**  
-*Ồ, tôi có nghe đến cái này. Tôi cũng có nghe nói nó là món quà mà Mỹ dành cho Pháp vào thế kỉ 19.*
-> {% include play.html identifier="conversation" start=29.41 stop=33.63 %} P2: **Indeed! Hmm, wonder what it's like to live in Paris.**  
-*Thật vậy! Hmm, không biết sống ở Paris thì như thế nào nhỉ.*
-> {% include play.html identifier="conversation" start=33.63 stop=37.90 %} P1: **I was born in Paris. You could say it's my hometown. It's stunning!** 
-*Tôi được sinh ra ở Paris. Bạn có thể nói nó là quê nhà của tôi. Nó rất là lộng lẫy!* 
-> {% include play.html identifier="conversation" start=37.90 stop=40.64 %} P2: **That is cool. Did you climb the Eiffel Tower?**  
-*Tuyệt đấy. Bạn có leo lên tháp Eiffel chưa?*
-> {% include play.html identifier="conversation" start=40.64 stop=47.22 %} P1: **Of course! You can't go to Paris and not climb the Eiffel Tower. I also know where the best places to eat are.**
-*Tất nhiên rồi. Bạn không thể đến Paris mà không leo lên tháp Eiffel. Tôi còn biết những nơi tốt nhất để ăn nữa cơ.*
-> {% include play.html identifier="conversation" start=47.22 stop=49.55 %} P2: **Oh, that's the most important thing to know!**   
-*Ồ, đó là điều quan trọng nhất cần phải biết.*
+> {% include play.html identifier="conversation" start=1.74 stop=4.67 %} Person 1: **Hey Tom, you never told me where you were from.** *Ê Tom, bạn chưa bao giờ nói cho tôi biết bạn từ đâu đến.*    
+> {% include play.html identifier="conversation" start=4.67 stop=7.89 %} Person 2: **That's because you didn't ask. I'm from New York.** *Tại vì bạn đâu có hỏi. Tôi đến từ New York.*    
+> {% include play.html identifier="conversation" start=7.89 stop=11.28 %} P1: **Oh, wow. That's a really big city. What's it like to live there?** *Ồ, wow. Đó thật sự là một thành phố lớn. Sống ở đó thì như thế nào?*     
+> {% include player2.html identifier="conversation" start=11.28 stop=14.81 %} P2: **It's a bustling city, and there is always something to see there.** *Nó là một thành phố nhộn nhịp và luôn luôn có cái gì để xem ở đó.*      
+> {% include play.html identifier="conversation" start=14.81 stop=17.46 %} P1: **That's interesting. What is it famous for?** *Thú vị vậy. Nó nổi tiếng vì cái gì?*    
+> {% include play.html identifier="conversation" start=17.46 stop=21.06 %} P2: **It's mostly known for being the home of a very famous landmark.** *Nó được biết đến nhiều vì là nơi nhà của những mốc nổi tiếng?*     
+> {% include play.html identifier="conversation" start=21.06 stop=22.55 %} P1: **Which landmark is that?** *Mốc gì thế?*    
+> {% include play.html identifier="conversation" start=22.55 stop=23.95 %} P2: **The Statue of Liberty.** *Tượng Nữ thần Tự do.*    
+> {% include play.html identifier="conversation" start=23.95 stop=29.41 %} P1: **Oh, I heard of it. I also heard it was a gift to America from France in the 19th century.** *Ồ, tôi có nghe đến cái này. Tôi cũng có nghe nói nó là món quà mà Mỹ dành cho Pháp vào thế kỉ 19.*    
+> {% include play.html identifier="conversation" start=29.41 stop=33.63 %} P2: **Indeed! Hmm, wonder what it's like to live in Paris.** *Thật vậy! Hmm, không biết sống ở Paris thì như thế nào nhỉ.*    
+> {% include play.html identifier="conversation" start=33.63 stop=37.90 %} P1: **I was born in Paris. You could say it's my hometown. It's stunning!** *Tôi được sinh ra ở Paris. Bạn có thể nói nó là quê nhà của tôi. Nó rất là lộng lẫy!*     
+> {% include play.html identifier="conversation" start=37.90 stop=40.64 %} P2: **That is cool. Did you climb the Eiffel Tower?** *Tuyệt đấy. Bạn có leo lên tháp Eiffel chưa?*     
+> {% include play.html identifier="conversation" start=40.64 stop=47.22 %} P1: **Of course! You can't go to Paris and not climb the Eiffel Tower. I also know where the best places to eat are.** *Tất nhiên rồi. Bạn không thể đến Paris mà không leo lên tháp Eiffel. Tôi còn biết những nơi tốt nhất để ăn nữa cơ.*     
+> {% include play.html identifier="conversation" start=47.22 stop=49.55 %} P2: **Oh, that's the most important thing to know!** *Ồ, đó là điều quan trọng nhất cần phải biết.*    
 
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=true
