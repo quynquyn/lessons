@@ -1,0 +1,892 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/dev/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  </head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+    
+  
+       
+    </nav>
+    
+
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                
+<h1>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L24-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+<span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '24', 'vocabulary');">▶</span>
+
+Lesson 1.24: Why
+<em>Vì sao? / Tại sao?</em>
+<div class="audiofile-info"></div>
+</h1>
+
+<h2 id="vocabulary-từ-vựng">Vocabulary <em>Từ vựng</em></h2>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l24-communicate-with-foreigners.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 6.74, 9.87, 
+      '1-24', 'communicate with foreigners');">▷ <strong>communicate with foreigners</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>giao tiếp với người nước ngoài</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l24-find-a-good-job.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 9.87, 12.34, 
+      '1-24', 'find a good job');">▷ <strong>find a good job</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tìm công việc tốt</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l24-travel-around-the-world.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 12.34, 14.42, 
+      '1-24', 'travel around the world');">▷ <strong>travel around the world</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>đi du lịch vòng quanh thế giới</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l24-widen-their-knowledge.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 14.42, 16.74, 
+      '1-24', 'widen their knowledge');">▷ <strong>widen their knowledge</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>mở rộng tri thức</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l24-meet-new-people-and-learn-new-things.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 16.74, 20.01, 
+      '1-24', 'meet new people and learn new things');">▷ <strong>meet new people and learn new things</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>gặp người mới, học điều mới</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l24-get-out-of-my-comfort-zone.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 20.01, 22.27, 
+      '1-24', 'get out of my comfort zone');">▷ <strong>get out of my comfort zone</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>bước ra khỏi vùng an toàn</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l24-work-under-pressure.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 22.27, 24.84, 
+      '1-24', 'work under pressure');">▷ <strong>work under pressure</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>làm việc dưới áp lực lớn</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l24-talk-in-front-of-a-lot-of-people.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 24.84, 27.79, 
+      '1-24', 'talk in front of a lot of people');">▷ <strong>talk in front of a lot of people</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nói chuyện trước nhiều người</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l24-get-stuck-in-the-traffic-jam.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 27.79, 30.97, 
+      '1-24', 'get stuck in the traffic jam');">▷ <strong>get stuck in the traffic jam</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>bị kẹt xe</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l24-good-employment-opportunities.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 30.97, 34.09, 
+      '1-24', 'good employment opportunities');">▷ <strong>good employment opportunities</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>cơ hội việc làm tốt</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l24-lively-night-life.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 34.09, 36.47, 
+      '1-24', 'lively night life');">▷ <strong>lively night life</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tận hưởng cuộc sống về đêm</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l24-entertainment-facilities.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 36.47, 38.82, 
+      '1-24', 'entertainment facilities');">▷ <strong>entertainment facilities</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>cơ sở vật chất giải trí</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l24-fresh-air.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 38.82, 40.73, 
+      '1-24', 'fresh air');">▷ <strong>fresh air</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>không khí trong lành</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l24-cheap-living-expenses.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 40.73, 43.9, 
+      '1-24', 'cheap living expenses');">▷ <strong>cheap living expenses</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>chi phí sinh hoạt thấp</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l24-friendly-neighbors.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 43.9, 46.15, 
+      '1-24', 'friendly neighbors');">▷ <strong>friendly neighbors</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>hàng xóm thân thiện</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row6"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l24-our-personalities-don-t-really-match-each-other.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 46.15, 50.69, 
+      '1-24', 'our personalities don’t really match each other');">▷ <strong>our personalities don’t really match each other</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em></em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l24-he-cheated-on-me.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 50.69, 52.86, 
+      '1-24', 'he cheated on me');">▷ <strong>he cheated on me</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>anh ấy lừa dối tôi</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l24-we-were-not-meant-to-be.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 52.86, 55.07, 
+      '1-24', 'we were not meant to be');">▷ <strong>we were not meant to be</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>chúng tôi không dành cho nhau</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row7"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l24-i-got-fired.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 55.07, 56.74, 
+      '1-24', 'I got fired');">▷ <strong>I got fired</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tôi bị đuổi việc rồi</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l24-i-failed-the-test.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 56.74, 59.1, 
+      '1-24', 'I failed the test');">▷ <strong>I failed the test</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tôi thi trượt rồi</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l24-i-look-sad-but-i-am-really-not.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 59.1, 62.33, 
+      '1-24', 'I look sad but I am really not');">▷ <strong>I look sad but I am really not</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>trông tôi buồn nhưng tôi k</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row8"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l24-one-of-my-relatives-got-sick.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 62.33, 65.38, 
+      '1-24', 'one of my relatives got sick');">▷ <strong>one of my relatives got sick</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>một người bà con của tôi bị ốm</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l24-my-boyfriend-is-a-doctor.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 65.38, 68.23, 
+      '1-24', 'my boyfriend is a doctor');">▷ <strong>my boyfriend is a doctor</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>bạn trai tôi là bác sĩ</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary', 
+    68.1, 79.19, 
+    'n/a', 'vocabulary');">▷</strong>
+
+Why do you want to study English?
+<em>Vì sao bạn muốn học tiếng Anh?</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<ul>
+  <li><strong>communicate with foreigners</strong>  <em>giao tiếp với người nước ngoài</em></li>
+  <li><strong>find a good job</strong>  <em>tìm một công việc tốt</em></li>
+  <li><strong>travel around the world</strong>  <em>đi du lịch vòng quanh thế giới</em></li>
+</ul>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary', 
+    79.1, 90.19, 
+    'n/a', 'vocabulary');">▷</strong>
+
+Why do you love to travel?
+<em>Vì sao bạn thích đi du lịch?</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<ul>
+  <li><strong>widen their knowledge</strong>  <em>mở mang tri thức, mở rộng sự hiểu biết</em></li>
+  <li><strong>meet new people and learn new things</strong>  <em>gặp gỡ những người mới và học hỏi những điều mới</em></li>
+  <li><strong>get out of my comfort zone</strong>  <em>bước ra khỏi vùng an toàn</em></li>
+</ul>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary', 
+    90.1, 101.19, 
+    'n/a', 'vocabulary');">▷</strong>
+
+Why do you feel stressed?
+<em>Tại sao bạn cảm thấy căng thẳng?</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<ul>
+  <li><strong>work under pressure</strong>  <em>làm việc dưới sự áp lực</em></li>
+  <li><strong>talk in front of a lot of people</strong>  <em>nói trước nhiều người</em></li>
+  <li><strong>get stuck in the traffic jam</strong>  <em>bị kẹt xe</em></li>
+</ul>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary', 
+    101.1, 112.19, 
+    'n/a', 'vocabulary');">▷</strong>
+
+Why do people want to live in the city?
+<em>Vì sao mọi người muốn sống trong thành phố?</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<ul>
+  <li><strong>good employment opportunities</strong>  <em>nhiều cơ hội việc làm tốt</em></li>
+  <li><strong>lively night life</strong>  <em>cuộc sống về đêm sôi động</em></li>
+  <li><strong>entertainment facilities</strong>  <em>nhiều tiện nghi cho việc giải trí</em></li>
+</ul>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary', 
+    112.1, 122.19, 
+    'n/a', 'vocabulary');">▷</strong>
+
+Why do people want to live in the countryside?
+<em>Vì sao mọi người muốn sống ở vùng quê?</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<ul>
+  <li><strong>fresh air</strong>  <em>không khí trong lành</em></li>
+  <li><strong>cheap living expenses</strong>  <em>chi phí sống rẻ</em></li>
+  <li><strong>friendly neighbors</strong>  <em>những hàng xóm thân thiện</em></li>
+</ul>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary', 
+    122.1, 134.19, 
+    'n/a', 'vocabulary');">▷</strong>
+
+Why did you break up with him?
+<em>Tại sao bạn chia tay anh ấy?</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<ul>
+  <li><strong>Our personalities doesn’t really match each other.</strong>  <em>Tính cách của chúng tôi không thật sự hợp nhau.</em></li>
+  <li><strong>He cheated on me.</strong>  <em>Anh ấy phản bội tôi.</em></li>
+  <li><strong>We were not meant to be.</strong>  <em>Chúng tôi không thuộc về nhau.</em></li>
+</ul>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary', 
+    134.1, 145.19, 
+    'n/a', 'vocabulary');">▷</strong>
+
+Why do you feel sad?
+<em>Tại sao bạn cảm thấy buồn?</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<ul>
+  <li><strong>I got fired.</strong>  <em>Tôi đã bị sa thải.</em></li>
+  <li><strong>I failed the test.</strong>  <em>Tôi rớt bài kiểm tra.</em></li>
+  <li><strong>I look sad but I am really not.</strong>  <em>Tôi trông buồn nhưng mà thật ra tôi không buồn.</em></li>
+</ul>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary', 
+    145.1, 155.59, 
+    'n/a', 'vocabulary');">▷</strong>
+
+Why are you in the hospital?
+<em>Tại sao bạn ở trong bệnh viện?</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<ul>
+  <li><strong>One of my relatives got sick.</strong>  <em>Một người họ hàng của tôi bị ốm.</em></li>
+  <li><strong>My boyfriend is a doctor.</strong>  <em>Bạn trai tôi là bác sĩ mà.</em></li>
+</ul>
+
+<h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L24-examples.mp3" id="audio_examples" preload="none"></audio>
+<span class="el-player-icon" id="play_examples" onclick="play('examples', '24', 'examples');">▶</span>
+
+Examples
+<em>Ví dụ</em>
+<div class="audiofile-info"></div>
+</h2>
+
+<ol>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   3.72, 5.62,   'n/a', 'examples');">▷</strong><strong>Why do you study English?</strong>  <em>Vì sao bạn học tiếng Anh?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   6.85, 9.0,   'n/a', 'examples');">▷</strong><strong>Why do people love to travel?</strong>  <em>Vì sao mọi người thích đi du lịch?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   10.33, 12.3,   'n/a', 'examples');">▷</strong><strong>Why do people get stressed?</strong>  <em>Tại sao mọi người bị căng thẳng?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   13.71, 15.46,   'n/a', 'examples');">▷</strong><strong>Why are you here?</strong>  <em>Tại sao bạn ở đây?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   17.04, 19.06,   'n/a', 'examples');">▷</strong><strong>Why is money important?</strong>  <em>Vì sao tiền quan trọng?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   20.8, 23.28,   'n/a', 'examples');">▷</strong><strong>Why do people tell white lies?</strong>  <em>Tại sao mọi người lại nói những lời nói dối vô hại?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   25.02, 28.37,   'n/a', 'examples');">▷</strong><strong>Why do people want to live in the countryside?</strong>  <em>Vì sao mọi người muốn sống ở vùng quê?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   29.72, 32.54,   'n/a', 'examples');">▷</strong><strong>Why do people want to live in the city?</strong>  <em>Vì sao mọi người muốn sống trong thành phố?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   33.92, 35.8,   'n/a', 'examples');">▷</strong><strong>Why do you feel sad?</strong>  <em>Tại sao bạn cảm thấy buồn?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',  37.75, 39.3,  'n/a', 'examples');">▷</strong><strong>Why are you here?</strong>  <em>Tại sao bạn ở đây?</em></li>
+</ol>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

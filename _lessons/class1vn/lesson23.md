@@ -9,16 +9,15 @@ attr:
   lang: vn
 ---
 
+{%  include voice.html attr=page.attr                     tag="h1"
+	identifier="vocabulary"  init=true
+	title="Lesson 1.23: How 2"
+	translation="Như thế nào 2"
+%}
 
-# Lesson 1.23: How 2 *Như thế nào 2*
-
-
-{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 ## Vocabulary *Từ vựng*
 
-[comment]: <>  all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0  
 **How do you get there?**  *Bạn đến đó bằng cách nào?*
-
 		
 **I get there by…**  *Tôi đến đó bằng...*
 
@@ -103,18 +102,22 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %} 
 
-{% include player2.html identifier="examples" class=page.class lesson=page.lesson %}
 
-## Example
+{%  include voice.html attr=page.attr                     tag="h2"
+	identifier="examples"  init=true
+	title="Example"
+	translation="Ví dụ"
+%}
+
 1. {% include play.html identifier="examples" start=3.13 stop=5.17 %} **How do you go to school?**  *Bạn đến trường bằng cách nào?*
-2. {% include play.html identifier="examples" start=6.19 stop=7.67 %}**How did you get there?**  *Bạn đến đó bằng cách nào?*
-3. {% include play.html identifier="examples" start=8.79 stop=11.26 %}**How does the man usually go to work?**  *Người đàn ông thường đi đến chỗ làm bằng cách nào?* 
-4. {% include play.html identifier="examples" start=12.55 stop=14.64 %}**How do you make your mother smile?**  *Bạn làm cho mẹ của bạn cười bằng cách nào?*
-5. {% include play.html identifier="examples" start=16.03 stop=17.89 %}**How do you study English?**  *Bạn học tiếng Anh như thế nào?*
-6. {% include play.html identifier="examples" start=19.33 stop=20.92 %}**How do you help her?**  *Bạn giúp cô ấy như thế nào?*
-7. {% include play.html identifier="examples" start=22.34 stop=24.27 %}**How to release stress?**  *Bạn giải tỏa căng thẳng bằng cách nào?*
-8. {% include play.html identifier="examples" start=25.47 stop=27.45 %}**How to apply for a job?**  *Xin việc như thế nào?*
-9. {% include play.html identifier="examples" start=28.87 stop=31.32 %}**How to move on from a bad break-up?**  *Làm sao để bước tiếp sau cuộc chia tay đau khổ?*
-10. {% include play.html identifier="examples" start=32.45 stop=34.40 %}**How to lose weight?**  *Làm cách nào để giảm cân?*
+1. {% include play.html identifier="examples" start=6.19 stop=7.67 %}**How did you get there?**  *Bạn đến đó bằng cách nào?*
+1. {% include play.html identifier="examples" start=8.79 stop=11.26 %}**How does the man usually go to work?**  *Người đàn ông thường đi đến chỗ làm bằng cách nào?* 
+1. {% include play.html identifier="examples" start=12.55 stop=14.64 %}**How do you make your mother smile?**  *Bạn làm cho mẹ của bạn cười bằng cách nào?*
+1. {% include play.html identifier="examples" start=16.03 stop=17.89 %}**How do you study English?**  *Bạn học tiếng Anh như thế nào?*
+1. {% include play.html identifier="examples" start=19.33 stop=20.92 %}**How do you help her?**  *Bạn giúp cô ấy như thế nào?*
+1. {% include play.html identifier="examples" start=22.34 stop=24.27 %}**How to release stress?**  *Bạn giải tỏa căng thẳng bằng cách nào?*
+1. {% include play.html identifier="examples" start=25.47 stop=27.45 %}**How to apply for a job?**  *Xin việc như thế nào?*
+1. {% include play.html identifier="examples" start=28.87 stop=31.32 %}**How to move on from a bad break-up?**  *Làm sao để bước tiếp sau cuộc chia tay đau khổ?*
+1. {% include play.html identifier="examples" start=32.45 stop=34.40 %}**How to lose weight?**  *Làm cách nào để giảm cân?*
 
  

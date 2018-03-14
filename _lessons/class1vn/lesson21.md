@@ -9,14 +9,13 @@ attr:
   lang: vn
 ---
 
+{%  include voice.html attr=page.attr                     tag="h1"
+	identifier="vocabulary"  init=true
+	title="Lesson 1.21: Which / Whose"
+	translation="Cái nào / Của ai"
+%}
 
-# Lesson 1.21: Which / Whose *Cái nào / Của ai* 
-
-
-{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
 ## Vocabulary *Từ vựng*
-
-[comment]: <>  all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -27,9 +26,12 @@ attr:
 		trial=site.trialdeploy %}
 		
 
-{% include player2.html identifier="explanation" class=page.class lesson=page.lesson %}
+{%  include voice.html attr=page.attr                     tag="h2"
+	identifier="explanation"  init=true
+	title="Example of Which"
+	translation="Ví dụ của Which"
+%}
 
-## Example of Which *Ví dụ của Which*
 1. {% include play.html identifier="explanation" start=4.84 stop=7.32 %}**Which house do you want to buy?**  *Bạn muốn mua căn nhà nào?*
 2. {% include play.html identifier="explanation" start=8.57 stop=10.84 %}**Which museums did you visit?**  *Bạn đã tham quan những bảo tàng nào?*
 3. {% include play.html identifier="explanation" start=12.28 stop=14.57 %}**Which season is your favorite?**  *Mùa nào là mùa bạn yêu thích nhất?*
