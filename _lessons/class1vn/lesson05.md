@@ -18,7 +18,12 @@ attr:
 
 ## Vocabulary *Từ vựng*
 
-### Pronoun *Đại từ*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Vocabulary"  init=false start=5 stop=23
+	title="Pronoun"        
+	translation="Đại từ"
+    tag="h3" %}
+
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -29,8 +34,12 @@ attr:
 		trial=site.trialdeploy %}
 
 
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Vocabulary"  init=false start=23 stop=59
+	title="People in your family"        
+	translation="Những người trong gia đình"
+    tag="h3" %}
 
-### People in your family *Những người trong gia đình*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -40,8 +49,12 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Vocabulary"  init=false start=59 stop=84
+	title="Jobs"        
+	translation="Nghề nghiệp"
+    tag="h3" %}
 
-### Jobs *Nghề nghiệp*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -52,9 +65,12 @@ attr:
 		trial=site.trialdeploy %}
 
 
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Vocabulary"  init=false start=84 stop=130
+	title="Verbs"        
+	translation="Động từ"
+    tag="h3" %}
 
-
-## Verbs *Động từ*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 

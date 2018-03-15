@@ -21,15 +21,11 @@ attr:
 		class=page.class 
 		lesson=page.lesson 
 		section="vocabulary"
-		voiceover="lesson-vocabulary"
+		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-{%  include voice.html attr=page.attr  
-	identifier="Explanation1"  init=true
-	title="Explanation"        
-	translation="Giải thích"
-    tag="h2" %}
+## Explanation *Giải thích*
 	
 {%  include voice.html attr=page.attr  
 	identifier="Explanation1"  init=true

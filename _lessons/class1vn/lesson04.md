@@ -32,7 +32,7 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 	translation="Hội thoại A"
     tag="h2" %}
 
-> {% include play.html identifier="Native-Dialogue" start=5.11 stop=7.51 %} **Do you love to listen to music?** 
+> {% include play.html identifier="Native-Dialogue" start=5.11 stop=7.51 %} **Do you love to listen to music?**   
 > *Bạn có thích nghe nhạc không?*  
 > {% include play.html identifier="Native-Dialogue" start=7.51 stop=9.91 %} **Yes, I love to listen to music.**    
 > *Có, tôi thích nghe nhạc.*  
@@ -63,7 +63,7 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 > *Không, tôi không phải gọi điện cho mẹ của tôi. Tôi phải gọi điện cho chị gái của tôi*    
 
 > {% include play.html identifier="Native-Dialogue" start=40.11 stop=42.51 %} **Do you hate to do homework?**    
-> *Bạn có ghét làm bài tập về nhà không?*
+> *Bạn có ghét làm bài tập về nhà không?*  
 > {% include play.html identifier="Native-Dialogue" start=42.51 stop=47.11 %} **No, I don’t hate to do homework. I hate to do housework.**    
 > *Không, tôi không ghét làm bài tập về nhà. Tôi ghét làm việc nhà.*    
 
