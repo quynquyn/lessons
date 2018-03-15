@@ -156,7 +156,7 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="yesnoquestions"  init=true
 	title="Yes / No Questions"        
-	translation="*Câu hỏi Có / Không"
+	translation="Câu hỏi Có / Không"
     tag="h2" %}
 
 ### Example of Yes / No Questions with Simple Past Tense and Simple Present Tense *Ví dụ câu hỏi Có / Không của Thì quá khứ đơn và Thì hiện tại đơn*
@@ -252,29 +252,29 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="conversation"  init=true
 	title="Conversation"        
-	translation="*Đối thoại"
+	translation="Đối thoại"
     tag="h2" %}
 
-> Person 1: **Does the cinema in the centre of the city play good movies?**
-*Rạp phim ở trung tâm thành phố có chiếu phim hay không?*  
-> Person 2: **I think so. We went there last week and they had over 5 movies playing at once!**
-*Tôi nghĩ vậy. Chúng tôi đã ở đó tuần trước and họ có hơn 5 bộ phim chiếu cùng một lúc!*  
-> P1: **That sounds cool. My cousin is visiting us this weekend and I don't know where to take her.**
-*Nghe hay đấy. Em họ của tôi sẽ đến thăm chúng tôi vào cuối tuần này và tôi không biết phải dẫn em ấy đi đâu.*  
-> P2: **I'm going to play a game of paintball this weekend. Would you and your cousin like to join?**
-*Tôi sẽ chơi bắn súng sơn cuối tuần này. Bạn và em họ của bạn muốn tham gia chứ?*  
-> P1: **That sounds really cool! But I think she probably won't like it.**
-*Nghe rất là hay luôn! Nhưng tôi nghĩ em ấy có lẽ sẽ không thích nó đâu.*  
-> P2: **That's a shame. Will you ask her?**
-*Tiếc quá. Bạn sẽ hỏi em ấy chứ?*  
-> P1: **Of course. I will let you know what she says.**
-*Tất nhiên. Tôi sẽ cho bạn biết em ấy nói gì.*  
-> P2: **Cool. I have to go now. I'm teaching German to a friend.**
-*Tuyệt. Bây giờ tôi phải đi rồi. Tôi đang dạy tiếng Đức cho bạn tôi.*  
-> P1: **Alright. Good luck!**
-*Ừ. Chúc may mắn!*  
-> P2: **Thanks! I think I'll need it...**
-*Cảm ơn! Tôi nghĩ là tôi sẽ cần nó...*  
+> Person 1: **Does the cinema in the centre of the city play good movies?**       
+*Rạp phim ở trung tâm thành phố có chiếu phim hay không?*         
+> Person 2: **I think so. We went there last week and they had over 5 movies playing at once!**       
+*Tôi nghĩ vậy. Chúng tôi đã ở đó tuần trước and họ có hơn 5 bộ phim chiếu cùng một lúc!*         
+> P1: **That sounds cool. My cousin is visiting us this weekend and I don't know where to take her.**       
+*Nghe hay đấy. Em họ của tôi sẽ đến thăm chúng tôi vào cuối tuần này và tôi không biết phải dẫn em ấy đi đâu.*         
+> P2: **I'm going to play a game of paintball this weekend. Would you and your cousin like to join?**       
+*Tôi sẽ chơi bắn súng sơn cuối tuần này. Bạn và em họ của bạn muốn tham gia chứ?*         
+> P1: **That sounds really cool! But I think she probably won't like it.**       
+*Nghe rất là hay luôn! Nhưng tôi nghĩ em ấy có lẽ sẽ không thích nó đâu.*         
+> P2: **That's a shame. Will you ask her?**       
+*Tiếc quá. Bạn sẽ hỏi em ấy chứ?*         
+> P1: **Of course. I will let you know what she says.**       
+*Tất nhiên. Tôi sẽ cho bạn biết em ấy nói gì.*         
+> P2: **Cool. I have to go now. I'm teaching German to a friend.**       
+*Tuyệt. Bây giờ tôi phải đi rồi. Tôi đang dạy tiếng Đức cho bạn tôi.*         
+> P1: **Alright. Good luck!**       
+*Ừ. Chúc may mắn!*         
+> P2: **Thanks! I think I'll need it...**       
+*Cảm ơn! Tôi nghĩ là tôi sẽ cần nó...*         
 
 
 

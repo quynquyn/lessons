@@ -157,9 +157,9 @@ attr:
 	{% else %}
   
 {% include play.html identifier="regular" start=126.28 stop=129.28 %} **Sarah and Michael dated for a week.**     
-*Sarah và Michael đã hẹn hò trong một tuần*   
+*Sarah và Michael đã hẹn hò trong một tuần.*   
 {% include play.html identifier="regular" start=129.28 stop=132.78 %} **I attended the event. It bored me.**    
-*Tôi đã tham gia sự kiện. Nó làm tôi thấy chán* 
+*Tôi đã tham gia sự kiện. Nó làm tôi thấy chán.* 
 {% include play.html identifier="regular" start=132.78 stop=135.28 %} **I needed some help last night.**     
 *Đêm qua tôi đã cần sự giúp đỡ.*          
 {% include play.html identifier="regular" start=135.28 stop=138.28 %} **My dog wanted to go outside.**     

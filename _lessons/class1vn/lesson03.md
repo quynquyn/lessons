@@ -129,22 +129,22 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 %}
 
 > **No, I don’t sell cars.**     
-> *Không, tôi không bán xe hơi* 
+> *Không, tôi không bán xe hơi.* 
 
 > **Do you sell trucks?**     
 > *Bạn có bán xe tải không?*    
 > **No, I don’t sell trucks.**     
-> *Không, tôi không bán xe tải*   
+> *Không, tôi không bán xe tải.*   
 
 > **Do you sell motorbikes?**    
 > *Bạn có bán xe máy không?*   
 > **No, I don’t sell motorbikes.**     
-> *Không, tôi không bán xe máy*   
+> *Không, tôi không bán xe máy.*   
 
 > **What do you sell?**     
 > *Vậy bạn bán gì?*   
 > **I sell bikes.**     
-  *Tôi bán xe đạp*   
+  *Tôi bán xe đạp.*   
 
 
 {%  include voice.html attr=page.attr                           tag="h3"
@@ -154,12 +154,12 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 %}
 
 > **No, I don’t play the piano.**   
-> *Không, tôi không chơi đàn piano*  
+> *Không, tôi không chơi đàn piano.*  
 
 > **Do you play the guitar?**     
 > *Bạn có chơi ghi-ta không?*   
 > **No, I don’t play the guitar.**    
-> *Không, tôi không chơi ghi-ta*   
+> *Không, tôi không chơi ghi-ta.*   
 
 > **What do you play?**     
 > *Vậy bạn chơi gì?*   

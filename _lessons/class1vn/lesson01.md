@@ -160,13 +160,13 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
     tag="h2" %}
 
 
-1. {% include play.html identifier="Native-Dialogue" start=10.82 stop=16.81 %} **I like a book. / I like books.**   *Tôi thích một quyển sách / Tôi thích sách*  
-2. {% include play.html identifier="Native-Dialogue" start=16.81 stop=23.56 %} **I like a horse. / I like horses.**   *Tôi thích một con ngựa / Tôi thích ngựa*
-3. {% include play.html identifier="Native-Dialogue" start=23.56 stop=30.81 %} **I hate a snake. / I hate snakes.**   *Tôi ghét một con rắn / Tôi ghét rắn*
-4. {% include play.html identifier="Native-Dialogue" start=30.82 stop=36.81 %} **I see a bus. / I see 5 buses.**   *Tôi thấy một cái xe buýt / Tôi thấy 5 cái xe buýt*
-5. {% include play.html identifier="Native-Dialogue" start=36.82 stop=43.81 %} **I want an orange. / I want some oranges.**   *Tôi muốn một trái cam / Tôi muốn một vài trái cam*
-6. {% include play.html identifier="Native-Dialogue" start=43.82 stop=50.81 %} **I need a marker. / I need markers.**   *Tôi cần một cây bút lông / Tôi cần bút lông*
-7. {% include play.html identifier="Native-Dialogue" start=50.82 stop=57.81 %} **I talk to a nurse everyday. / I talk to nurses everyday.**   *Tôi nói chuyện với một cô y tá mỗi ngày / Tôi nói chuyện với các y tá mỗi ngày*
+1. {% include play.html identifier="Native-Dialogue" start=10.82 stop=16.81 %} **I like a book. / I like books.**   *Tôi thích một quyển sách / Tôi thích sách.*  
+2. {% include play.html identifier="Native-Dialogue" start=16.81 stop=23.56 %} **I like a horse. / I like horses.**   *Tôi thích một con ngựa / Tôi thích ngựa.*
+3. {% include play.html identifier="Native-Dialogue" start=23.56 stop=30.81 %} **I hate a snake. / I hate snakes.**   *Tôi ghét một con rắn / Tôi ghét rắn.*
+4. {% include play.html identifier="Native-Dialogue" start=30.82 stop=36.81 %} **I see a bus. / I see 5 buses.**   *Tôi thấy một cái xe buýt / Tôi thấy 5 cái xe buýt.*
+5. {% include play.html identifier="Native-Dialogue" start=36.82 stop=43.81 %} **I want an orange. / I want some oranges.**   *Tôi muốn một trái cam / Tôi muốn một vài trái cam.*
+6. {% include play.html identifier="Native-Dialogue" start=43.82 stop=50.81 %} **I need a marker. / I need markers.**   *Tôi cần một cây bút lông / Tôi cần bút lông.*
+7. {% include play.html identifier="Native-Dialogue" start=50.82 stop=57.81 %} **I talk to a nurse everyday. / I talk to nurses everyday.**   *Tôi nói chuyện với một cô y tá mỗi ngày / Tôi nói chuyện với các y tá mỗi ngày.*
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Dialogue"  init=false start=59 stop=666
@@ -174,13 +174,13 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 	translation="Danh từ không đếm được"
     tag="h2" %}
 
-1. {% include play.html identifier="Native-Dialogue" start=64.82 stop=67.81 %} **I do homework.**   *Tôi làm bài tập về nhà*
-2. {% include play.html identifier="Native-Dialogue" start=67.82 stop=70.81 %} **I need money.**   *Tôi cần tiền*
-3. {% include play.html identifier="Native-Dialogue" start=70.82 stop=74.81 %} **I want water.**   *Tôi muốn nước*
-4. {% include play.html identifier="Native-Dialogue" start=74.82 stop=79.81 %} **I choose happiness.**   *Tôi chọn hạnh phúc*
-5. {% include play.html identifier="Native-Dialogue" start=79.82 stop=82.81 %} **I like sugar.**   *Tôi thích đường*
-6. {% include play.html identifier="Native-Dialogue" start=82.82 stop=86.81 %} **I hate housework.**   *Tôi ghét công việc nhà*
-7. {% include play.html identifier="Native-Dialogue" start=86.82 stop=89.81 %} **I love English.**   *Tôi thích Tiếng Anh*
+1. {% include play.html identifier="Native-Dialogue" start=64.82 stop=67.81 %} **I do homework.**   *Tôi làm bài tập về nhà.*
+2. {% include play.html identifier="Native-Dialogue" start=67.82 stop=70.81 %} **I need money.**   *Tôi cần tiền.*
+3. {% include play.html identifier="Native-Dialogue" start=70.82 stop=74.81 %} **I want water.**   *Tôi muốn nước.*
+4. {% include play.html identifier="Native-Dialogue" start=74.82 stop=79.81 %} **I choose happiness.**   *Tôi chọn hạnh phúc.*
+5. {% include play.html identifier="Native-Dialogue" start=79.82 stop=82.81 %} **I like sugar.**   *Tôi thích đường.*
+6. {% include play.html identifier="Native-Dialogue" start=82.82 stop=86.81 %} **I hate housework.**   *Tôi ghét công việc nhà.*
+7. {% include play.html identifier="Native-Dialogue" start=86.82 stop=89.81 %} **I love English.**   *Tôi thích Tiếng Anh.*
 
 
 ## 3. More examples *Ví dụ thêm*
@@ -194,7 +194,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 
 > **I choose happiness. How about you?**   *Tôi chọn hạnh phúc. Còn bạn?*   
-> **I choose money.**   *Tôi chọn tiền*   
+> **I choose money.**   *Tôi chọn tiền.*   
 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
@@ -203,8 +203,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 	translation="Bạn thích gì?"
     tag="h3" %}
 
-> **I like strawberries. How about you?**   *Tôi thích dâu. Còn bạn*   
-> **I like bananas.**   *Tôi thích chuối*   
+> **I like strawberries. How about you?**   *Tôi thích dâu. Còn bạn.*   
+> **I like bananas.**   *Tôi thích chuối.*   
 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
@@ -214,7 +214,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
     tag="h3" %}
 
 > **I need a chair. And you?**   *Tôi cần một cái ghế. Còn bạn?*   
-> **I need a board.**   *Tôi cần một cái bảng*   
+> **I need a board.**   *Tôi cần một cái bảng.*   
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Dialogue"  init=false start=116 stop=124
@@ -224,7 +224,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
  
 > **I have some markers. How about you?**   *Tôi có vài cây bút lông. Còn bạn?*   
-> **I have some pencils.**   *Tôi có vài cây bút chì*   
+> **I have some pencils.**   *Tôi có vài cây bút chì.*   
 
 
 
@@ -235,7 +235,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
     tag="h3" %}
 
 > **I want water. And you?**   *Tôi muốn nước. Còn bạn?*   
-> **I want tea.**   *Tôi muốn trà*   
+> **I want tea.**   *Tôi muốn trà.*   
 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
@@ -283,4 +283,4 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
     tag="h3" %}
 
 > **I study English. How about you?**   *Tôi học Tiếng Anh. Còn bạn?*   
-> **I study Vietnamese.**   *Tôi học Tiếng Việt*   
+> **I study Vietnamese.**   *Tôi học Tiếng Việt.*   

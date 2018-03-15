@@ -52,11 +52,11 @@ attr:
 	translation="Vì sao bạn thích đi du lịch?"
 	tag="h3"%}
 
--  **widen their knowledge**  
+- **widen their knowledge**  
 *mở mang tri thức, mở rộng sự hiểu biết*
--  **meet new people and learn new things**  
+- **meet new people and learn new things**  
 *gặp gỡ những người mới và học hỏi những điều mới*
--  **get out of my comfort zone**  
+- **get out of my comfort zone**  
 *bước ra khỏi vùng an toàn*
 
 {%  include voice.html attr=page.attr                    
@@ -65,11 +65,11 @@ attr:
 	translation="Tại sao bạn cảm thấy căng thẳng?"
 	tag="h3"%}   
 
--  **work under pressure**  
+- **work under pressure**  
 *làm việc dưới sự áp lực*
--  **talk in front of a lot of people**  
+- **talk in front of a lot of people**  
 *nói trước nhiều người*
--  **get stuck in the traffic jam**  
+- **get stuck in the traffic jam**  
 *bị kẹt xe*  
 
 {%  include voice.html attr=page.attr                    
@@ -104,11 +104,11 @@ attr:
 	translation="Tại sao bạn chia tay anh ấy?"
 	tag="h3"%}  
 
--  **Our personalities doesn’t really match each other.**  
+- **Our personalities doesn’t really match each other.**  
 *Tính cách của chúng tôi không thật sự hợp nhau.*
--  **He cheated on me.**  
+- **He cheated on me.**  
 *Anh ấy phản bội tôi.*
--  **We were not meant to be.**  
+- **We were not meant to be.**  
 *Chúng tôi không thuộc về nhau.*  
 
 {%  include voice.html attr=page.attr                    
@@ -117,11 +117,11 @@ attr:
 	translation="Tại sao bạn cảm thấy buồn?"
 	tag="h3"%}  
 
--  **I got fired.**  
+- **I got fired.**  
 *Tôi đã bị sa thải.*
--  **I failed the test.**  
+- **I failed the test.**  
 *Tôi rớt bài kiểm tra.*
--  **I look sad but I am really not.**  
+- **I look sad but I am really not.**  
 *Tôi trông buồn nhưng mà thật ra tôi không buồn.*  
 
 {%  include voice.html attr=page.attr                    
@@ -130,9 +130,9 @@ attr:
 	translation="Tại sao bạn ở trong bệnh viện?"
 	tag="h3"%}  
 
--  **One of my relatives got sick.**  
+- **One of my relatives got sick.**  
 *Một người họ hàng của tôi bị ốm.*
--  **My boyfriend is a doctor.**  
+- **My boyfriend is a doctor.**  
 *Bạn trai tôi là bác sĩ mà.*
 
 

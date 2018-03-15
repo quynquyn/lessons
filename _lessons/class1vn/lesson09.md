@@ -36,7 +36,7 @@ attr:
 
 
 1. {% include play.html identifier="Explanation1" start=5.4 stop=8.3 %} **She is older than I am.**    
-*Cô ta lớn hơn tôi*    
+*Cô ta lớn hơn tôi.*    
 2. {% include play.html identifier="Explanation1" start=10 stop=13.8 %}  **These shoes are more expensive than those shoes.**     
 *Những đôi giày này thì mắc hơn những đôi giày kia.*    
 3. {% include play.html identifier="Explanation1" start=16 stop=21 %}  **I think this pizza tastes better than that pizza.**     
@@ -57,7 +57,7 @@ attr:
 8. {% include play.html identifier="Explanation1" start=47 stop=51 %}  **Spanish is an easier language to learn than English.**     
 *Tiếng Tây Ban Nha là ngôn ngữ dễ học hơn là Tiếng Anh.*    
 9. {% include play.html identifier="Explanation1" start=53.5 stop=59.5 %}  **Riding a motorcycle is more dangerous than riding a bike.**      
-*Lái xe máy thì nguy hiểm hơn lái xe đạp*     
+*Lái xe máy thì nguy hiểm hơn lái xe đạp.*     
 10. {% include play.html identifier="Explanation1" start=60 stop=64 %}  **Elephants have a better memory than crocodiles.**       
 *Voi có trí nhớ tốt hơn cá sấu.*    
 {% endif %}

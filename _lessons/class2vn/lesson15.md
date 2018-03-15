@@ -16,7 +16,7 @@ attr:
     tag="h1" %}
 
 
-## Vocabulary *Từ vựng*
+## Vocabulary  *Từ vựng*
 
 
 {% include wordgrid.html lang=page.lang
@@ -35,10 +35,9 @@ attr:
 	translation="Đối thoại"
     tag="h2" %}
 
-
-> {% include play.html identifier="conversation" start=2.11 stop=3.73 %} Person 1 (Female): **What do you think of Andy?**          
-*Bạn nghĩ sao về Andy?*          
-> {% include play.html identifier="conversation" start=3.73 stop=6.44 %} Person 2 (Male): **In what sense? As a man or as a tennis player?**          
+> {% include play.html identifier="conversation" start=2.11 stop=3.73 %} Person 1 (female): **What do you think of Andy?**          
+*Bạn nghĩ sao về Andy?*           
+> {% include play.html identifier="conversation" start=3.73 stop=6.44 %} Person 2 (male): **In what sense? As a man or as a tennis player?**          
 *Về cái gì? Như một người đàn ông hay như một người chơi quần vợt?*      
 > {% include play.html identifier="conversation" start=6.44 stop=9.02 %} P1: **Do you have to ask? As a man, of course.**          
 *Có cần phải hỏi không? Tất nhiên là như một người đàn ông rồi.*        
@@ -77,92 +76,90 @@ attr:
 	translation="Giải thích"
     tag="h2" %}
 
-
-
-
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=3.44 stop=23.57
 	title="1. It is the first time I've fallen head over heels in love."
-	translation=""
+	translation="Đây là lần đầu tiên tôi yêu say đắm như vậy."
     tag="h3" %}
 
-*Đây là lần đầu tiên tôi yêu say đắm như vậy.*
-
-- **This is the first time I've been to New York.** *Đây là lần đầu tiên tôi đến New York.*
-- **This is the first time someone told me that I can sing.** *Đây là lần đầu tiên ai đó nói rằng tôi có thể hát.*
-- **This is not my first time at the club.** *Đây không phải là lần đầu tôi đến câu lạc bộ.*
-
-
+- **This is the first time I've been to New York.**  
+*Đây là lần đầu tiên tôi đến New York.*  
+- **This is the first time someone told me that I can sing.**  
+*Đây là lần đầu tiên ai đó nói rằng tôi có thể hát.*    
+- **This is not my first time at the club.**  
+*Đây không phải là lần đầu tôi đến câu lạc bộ.*  
 
 
 {% if site.trialdeploy %}
   {% include list_placeholder.html  attr=page.attr     start=3 stop=6 %}
   {% else %}
 
-
-
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=23.10 stop=42.84
 	title="2. We share so many common interests."
-	translation=""
+	translation="húng tôi có nhiều sở thích chung."
     tag="h3" %}
 
-*Chúng tôi có nhiều sở thích chung.* 
-
-- **My brother and sister share a room.** *Anh trai và em gái tôi chia sẻ một căn phòng.*
-- **Dan and Mary share a sandwich every morning.** *Dan và Mary chia sẻ bánh sandwich mỗi buổi sáng.*
-- **They broke up because they don't have many common interests.** *Họ chia tay vì họ không có nhiều sự yêu thích chung.*
+- **My brother and sister share a room.**  
+*Anh trai và em gái tôi chia sẻ một căn phòng.*   
+- **Dan and Mary share a sandwich every morning.**   
+*Dan và Mary chia sẻ bánh sandwich mỗi buổi sáng.*    
+- **They broke up because they don't have many common interests.**   
+*Họ chia tay vì họ không có nhiều sự yêu thích chung.*   
 
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=42.10 stop=55.84
 	title="3. How long have you been in love with him?"
-	translation=""
+	translation="Bạn yêu anh ấy bao lâu rồi?"
     tag="h3" %}
 
-*Bạn yêu anh ấy bao lâu rồi?*
-
-- **How long have you been married?** *Bạn kết hôn được bao lâu rồi?*
-- **How long have you two known each other?** *Hai bạn biết nhau được bao lâu rồi?*
-- **How many times did you get married?** *Bạn kết hôn bao nhiêu lần rồi?*
+- **How long have you been married?**  
+*Bạn kết hôn được bao lâu rồi?*   
+- **How long have you two known each other?**  
+*Hai bạn biết nhau được bao lâu rồi?*   
+- **How many times did you get married?**  
+*Bạn kết hôn bao nhiêu lần rồi?*
 
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=55.10 stop=77.84
 	title="4. If you like him, you should ask him out."
-	translation=""
+	translation="Nếu bạn thích ai đó, bạn nên rủ anh ấy ra ngoài hẹn hò."
     tag="h3" %}
 
-*Nếu bạn thích ai đó, bạn nên rủ anh ấy ra ngoài hẹn hò.*  
-
-- **Chris asked me out. I'm happy he did because I like him a lot.** *Chris rủ tôi đi hẹn hò. Tôi rất vui anh ấy làm vậy vì tôi thích anh ấy rất nhiều.*
-- **I will ask Anne out tomorrow. I hope she says yes.** *Tôi sẽ rủ Anna đi hẹn hò. Tôi hi vọng cô ấy đồng ý.*
-- **I wish she would ask me out. I am too shy to make the first move.** *Tôi ước gì cô ấy có thể rủ tôi ra ngoài hẹn hò. Tôi quá nhút nhát để chủ động.*
+- **Chris asked me out. I'm happy he did because I like him a lot.**  
+*Chris rủ tôi đi hẹn hò. Tôi rất vui anh ấy làm vậy vì tôi thích anh ấy rất nhiều.*   
+- **I will ask Anne out tomorrow. I hope she says yes.**  
+*Tôi sẽ rủ Anna đi hẹn hò. Tôi hi vọng cô ấy đồng ý.*   
+- **I wish she would ask me out. I am too shy to make the first move.**  
+*Tôi ước gì cô ấy có thể rủ tôi ra ngoài hẹn hò. Tôi quá nhút nhát để chủ động.*    
 
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=77.10 stop=96.84
 	title="5. Put yourself in my shoes and you'll understand."
-	translation=""
+	translation="Đặt vào tình huống của tôi và bạn sẽ hiểu."
     tag="h3" %}
 
-*Đặt vào tình huống của tôi và bạn sẽ hiểu.* 
-
-- **I put myself in your shoes and I still don't understand why you did it.** *Đặt vào tình huống của bạn và tôi vẫn không hiểu tại sao bạn làm vậy.*
-- **Before judging someone, you should always try to put yourself in their shoes.** *Trước khi phán xét ai đó, bạn hãy luôn cố gắng đặt mình vào tình huống họ.*
+- **I put myself in your shoes and I still don't understand why you did it.**  
+*Đặt vào tình huống của bạn và tôi vẫn không hiểu tại sao bạn làm vậy.*   
+- **Before judging someone, you should always try to put yourself in their shoes.**  
+*Trước khi phán xét ai đó, bạn hãy luôn cố gắng đặt mình vào tình huống họ.*   
 
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=96.10 stop=108.14 
 	title="6. What a romantic idea!"
-	translation=""
+	translation="Thật là một ý tưởng lãng mạng."
     tag="h3" %}
 
-*Thật là một ý tưởng lãng mạng.* 
-
-- **What an amazing kitchen!** *Thật là một căn bếp tuyệt vời.*
-- **What a cute dog!** *Thật là một con chó dễ thương.*
-- **What a wonderful world!** *Thật là một thế giới tuyệt vời.*
+- **What an amazing kitchen!**  
+*Thật là một căn bếp tuyệt vời.*   
+- **What a cute dog!**  
+*Thật là một con chó dễ thương.*   
+- **What a wonderful world!**  
+*Thật là một thế giới tuyệt vời.*   
 
 
  

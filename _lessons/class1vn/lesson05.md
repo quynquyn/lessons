@@ -127,7 +127,7 @@ attr:
 *Con gái tôi cần làm bài thuyết trình trong lớp học.*
 
 2. {% include play.html identifier="Explanation2" start=9.51 stop=16.91 %} **The actor wants to break up with the waitress because he wants to ask the singer out.**   
-*Người diễn viên nam muốn chia tay với cô gái phục vụ vì anh ta muốn mời cô ca sĩ đi hẹn hò*
+*Người diễn viên nam muốn chia tay với cô gái phục vụ vì anh ta muốn mời cô ca sĩ đi hẹn hò.*
 
 {% if site.trialdeploy %}
 	{% include list_placeholder.html  attr=page.attr     start=3 stop=6 %}
@@ -137,7 +137,7 @@ attr:
  *Vợ anh ta giặt quần áo và anh ta xem tivi.*
 
 4. {% include play.html identifier="Explanation2" start=23.51 stop=28.11 %} **The dog chases cats.**  
- *Con chó đuổi theo những con mèo*
+ *Con chó đuổi theo những con mèo.*
 
 5. {% include play.html identifier="Explanation2" start=28.51 stop=34.11 %} **The dentist has to talk to the woman when he has free time.**   
 *Người nha sĩ phải nói chuyện với người phụ nữ khi ông ấy có thời gian rảnh.*

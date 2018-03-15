@@ -17,7 +17,12 @@ attr:
 
 ## Vocabulary *Từ vựng* 
 
-### In the bedroom *Trong phòng ngủ*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=7 stop=23
+	title="In the bedroom"        
+	translation="Trong phòng ngủ"
+    tag="h3" %}
+
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
@@ -26,7 +31,12 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### In the bathroom *Trong phòng tắm*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=23 stop=48
+	title="In the bathroom"        
+	translation="Trong phòng tắm"
+    tag="h3" %}
+
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
@@ -35,7 +45,12 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 		
-### In the kitchen *Trong nhà bếp* 
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=48 stop=72
+	title="In the kitchen"        
+	translation="Trong nhà bếp"
+    tag="h3" %}
+
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
@@ -44,7 +59,12 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 		
-### In the living-room *Trong phòng khách* 
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=72 stop=90
+	title="In the living-room"        
+	translation="Trong phòng khách"
+    tag="h3" %}
+
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 

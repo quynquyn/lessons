@@ -97,7 +97,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
     tag="h3" %}
 
 > **Do you look for a teacher?**   *Bạn tìm kiếm một giáo viên hả?*    
-> **No, I don’t look for a teacher, I look at a teacher.**   *Không, tôi không tìm kiếm một giáo viên. Tôi nhìn một giáo viên*    
+> **No, I don’t look for a teacher, I look at a teacher.**   *Không, tôi không tìm kiếm một giáo viên. Tôi nhìn một giáo viên.*    
  
 {%  include voice.html attr=page.attr
 	identifier="Native-Dialogue"  init=false start=20.11 stop=28.11
@@ -107,7 +107,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 
 
 > **Do you like doors?**   *Bạn có thích những cái cửa không?*    
-> **No, I don’t like doors. I like dolls.**   *Không, tôi không thích cửa. Tôi thích búp bê*    
+> **No, I don’t like doors. I like dolls.**   *Không, tôi không thích cửa. Tôi thích búp bê.*    
 
 {%  include voice.html attr=page.attr
 	identifier="Native-Dialogue"  init=false start=28.11 stop=35.41

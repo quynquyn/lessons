@@ -85,7 +85,7 @@ attr:
 	{% else %}
 
 4. {% include play.html identifier="examples1" start=18.76 stop=20.57 %}**I am so amazing.**     
-*Tôi thật là tuyệt*     
+*Tôi thật là tuyệt.*     
 5. {% include play.html identifier="examples1" start=22.33 stop=25.71 %}**Iceland is such a cold country.**      
 *Iceland đúng là một đất nước lạnh.*     
 6. {% include play.html identifier="examples1" start=28.13 stop=30.52 %}**It is such a great movie.**      
@@ -97,7 +97,7 @@ attr:
 9. {% include play.html identifier="examples1" start=41.30 stop=43.61 %}**She is so crazy.**     
 *Cô ta thật là điên.*    
 10. {% include play.html identifier="examples1" start=45.80 stop=48.66 %}**She is so good at English.**      
-*Cô ấy thật giỏi Tiếng Anh*     
+*Cô ấy thật giỏi Tiếng Anh.*     
 11. {% include play.html identifier="examples1" start=51.05 stop=53.70 %}**The question is so easy.**     
 *Câu hỏi thật dễ.*     
 {% endif %}
@@ -110,7 +110,7 @@ attr:
 
 
 1.  {% include play.html identifier="examples2" start=6.04 stop=8.93 %}**My house is bigger than yours.**      
-*Nhà tôi thì to hơn nhà bạn*     
+*Nhà tôi thì to hơn nhà bạn.*     
 2.  {% include play.html identifier="examples2" start=10.35 stop=13.64 %}**This flower is more beautiful than that one.**     
 *Bông hoa này thì đẹp hơn bông hoa kia.*     
 3.  {% include play.html identifier="examples2" start=15.26 stop=18.94 %}**This is the most interesting book I have ever read.**      
@@ -125,13 +125,13 @@ attr:
 5.  {% include play.html identifier="examples2" start=25.56 stop=29.68 %}**Which is the the most dangerous animal in the world?**      
 *Đâu là loài động vật nguy hiểm nhất thế giới?*     
 6.  {% include play.html identifier="examples2" start=31.55 stop=36.60 %}**Holidays by the sea are better than holidays in the mountains.**      
-*Một kì nghỉ ở biển thì tốt hơn một kì nghỉ trên núi*     
+*Một kì nghỉ ở biển thì tốt hơn một kì nghỉ trên núi.*     
 7.  {% include play.html identifier="examples2" start=38.11 stop=43.59 %}**It is strange but often a coke is more expensive than a beer.**      
-*Nó hơi lạ nhưng mà một ly coca thì mắc tiền hơn một ly bia*     
+*Nó hơi lạ nhưng mà một ly coca thì mắc tiền hơn một ly bia.*     
 8.  {% include play.html identifier="examples2" start=45.46 stop=48.41 %}**Who is the richest woman on earth?**     
 *Ai là người phụ nữ giàu nhất thế giới?*     
 9.  {% include play.html identifier="examples2" start=50.60 stop=54.92 %}**The weather this summer is even worse than last summer.**      
-*Thời tiết mùa hè này thậm chí tệ hơn mùa hè năm ngoái*     
+*Thời tiết mùa hè này thậm chí tệ hơn mùa hè năm ngoái.*     
 10.  {% include play.html identifier="examples2" start=56.47 stop=59.37 %}**He was the smartest thief of all.**      
 *Anh ta là tên cướp thông minh nhất.*      
 {% endif %}
@@ -165,7 +165,7 @@ attr:
 1. {% include play.html identifier="examples4" start=7.19 stop=10.28 %}**Is it stupid to love a married man?**      
 *Thật là ngu ngốc khi yêu một người đàn ông đã có vợ phải không?*     
 2. {% include play.html identifier="examples4" start=11.77 stop=14.93 %}**Is it crazy to quit such a good job?**      
-*Thật điên khùng khi bỏ một công việc tốt như vậy phải không*      
+*Thật điên khùng khi bỏ một công việc tốt như vậy phải không?*      
 3. {% include play.html identifier="examples4" start=16.39 stop=19.14 %}**Is it easy to learn Japanese?**      
 *Có dễ để học tiếng Nhật không?*     
 

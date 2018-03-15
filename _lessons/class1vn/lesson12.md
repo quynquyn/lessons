@@ -79,7 +79,7 @@ attr:
 4. {% include play.html identifier="examples1" start=32.3 stop=42.3 %} **Where does your mother usually buy bread and cake?** - **She always buys bread and cake at the bakery.**         
 *Mẹ bạn thường mua bánh mì và bánh ở đâu?* - *Bà ấy thường mua bánh mì và bánh tại tiệm bánh.*        
 5. {% include play.html identifier="examples1" start=42.3 stop=51.3 %} **Where does your friend often borrow books?** - **She usually borrows books at the library.**         
-*Bạn của bạn thường mượn sách ở đâu?* -*Cô ấy thường mượn sách tại thư viện*      
+*Bạn của bạn thường mượn sách ở đâu?* -*Cô ấy thường mượn sách tại thư viện.*      
 6. {% include play.html identifier="examples1" start=51.3 stop=61.3 %} **Where does the actor want to hold his wedding ceremony?** - **He wants to hold his wedding ceremony at a church.**          
 *Người diễn viên muốn tổ chức đám cưới ở đâu?* - *Anh ta muốn tổ chức đám cưới tại nhà thờ.*     
 7. {% include play.html identifier="examples1" start=61.3 stop=77.3 %} **Where do your parents often celebrate their wedding anniversary?** - **They always celebrate their wedding anniversary at home but sometimes they want to celebrate it at a fancy restaurant.**     
