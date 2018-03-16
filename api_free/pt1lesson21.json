@@ -1,0 +1,25 @@
+{
+  "set_attributes":
+    {
+      "el-last-url": "https://englishletics.github.io/daily/lessons/class1pt/lesson21.html",
+      "el-lessonid": "22"
+    },
+  "messages": [
+    {
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "Hoje, você aprende a perguntar 'which' = 'quais' e 'whose' = 'cujas' perguntas.",
+          "buttons": [
+            {
+              "type": "web_url",
+              "url": "https://englishletics.github.io/daily/lessons/class1pt/lesson21.html",
+              "title": "Open Lesson"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

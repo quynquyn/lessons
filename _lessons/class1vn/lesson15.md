@@ -209,64 +209,52 @@ attr:
 	translation="Động từ bất quy tắc (Cột thứ hai của bảng động từ bất quy tắc)"
 %}
 
-
-{% include play.html identifier="irregular" start=7.28 stop=39.28 %}
-**break / broke**  *đập vỡ, làm gãy*     
-**speak / spoke**  *nói, phát biểu*   
-**steal / stole**  *đánh cắp, lấy trộm*    
-**wake / woke**    *đánh thức, thức giấc*        
-**drive / drove**  *lái xe*    
-**ride / rode**    *cưỡi, lái xe máy*  
-**rise / rose**    *mọc, đứng dậy*  
-**write / wrote**  *viết*    
-**sell / sold**    *bán*  
-**tell / told**    *bảo, kế*     
-
-{% include play.html identifier="irregular" start=39.28 stop=56.28 %}
-**blow / blew**    *thổi*  
-**draw / drew**    *vẽ*  
-**fly / flew**     *bay*  
-**grow / grew**    *mọc, trồng, lớn lên*  
-**know / knew**    *biết*   
-**throw / threw**  *quăng, ném*     
-     
-{% include play.html identifier="irregular" start=56.28 stop=71.28 %}
-**bring / brought**  *đem lại, mang đến*        
-**buy / bought**     *mua*     
-**fight / fought**   *chiến đấu, cãi nhau*  
-**think / thought**  *suy nghĩ*   
-**teach / taught**   *dạy, chỉ bảo*  
-     
-{% include play.html identifier="irregular" start=71.28 stop=85.28 %}
-**begin / began**  *bắt đầu*     
-**drink / drank**  *uống*    
-**ring / rang**    *rung chuông*  
-**sing / sang**    *hát*  
-**swim / swam**    *bơi*  
+{% include play.html identifier="irregular" start=8.03 stop=10.68 %} **break / broke**  *đập vỡ, làm gãy*     
+{% include play.html identifier="irregular" start=10.28 stop=13.28 %} **speak / spoke**  *nói, phát biểu*   
+{% include play.html identifier="irregular" start=13.28 stop=16.28 %} **steal / stole**  *đánh cắp, lấy trộm*    
+{% include play.html identifier="irregular" start=16.28 stop=19.28 %} **wake / woke**    *đánh thức, thức giấc*        
+{% include play.html identifier="irregular" start=19.28 stop=22.28 %} **drive / drove**  *lái xe*    
+{% include play.html identifier="irregular" start=22.28 stop=24.28 %} **ride / rode**    *cưỡi, lái xe máy*  
+{% include play.html identifier="irregular" start=24.28 stop=27.68 %} **rise / rose**    *mọc, đứng dậy*  
+{% include play.html identifier="irregular" start=27.28 stop=30.28 %} **write / wrote**  *viết*    
+{% include play.html identifier="irregular" start=30.28 stop=33.28 %} **sell / sold**    *bán*  
+{% include play.html identifier="irregular" start=33.28 stop=36.28 %} **tell / told**    *bảo, kế*     
+{% include play.html identifier="irregular" start=39.28 stop=42.28 %} **blow / blew**    *thổi*  
+{% include play.html identifier="irregular" start=42.28 stop=45.28 %} **draw / drew**    *vẽ*  
+{% include play.html identifier="irregular" start=45.28 stop=48.28 %} **fly / flew**     *bay*  
+{% include play.html identifier="irregular" start=48.28 stop=51.28 %} **grow / grew**    *mọc, trồng, lớn lên*  
+{% include play.html identifier="irregular" start=51.28 stop=53.28 %} **know / knew**    *biết*   
+{% include play.html identifier="irregular" start=53.28 stop=56.28 %} **throw / threw**  *quăng, ném*     
+{% include play.html identifier="irregular" start=56.28 stop=59.28 %} **bring / brought**  *đem lại, mang đến*        
+{% include play.html identifier="irregular" start=59.28 stop=62.28 %} **buy / bought**     *mua*     
+{% include play.html identifier="irregular" start=62.28 stop=65.28 %} **fight / fought**   *chiến đấu, cãi nhau*  
+{% include play.html identifier="irregular" start=65.28 stop=68.28 %} **think / thought**  *suy nghĩ*   
+{% include play.html identifier="irregular" start=68.28 stop=71.28 %} **teach / taught**   *dạy, chỉ bảo*  
+{% include play.html identifier="irregular" start=71.28 stop=73.28 %} **begin / began**  *bắt đầu*     
+{% include play.html identifier="irregular" start=73.28 stop=76.28 %} **drink / drank**  *uống*    
+{% include play.html identifier="irregular" start=76.28 stop=79.28 %} **ring / rang**    *rung chuông*  
+{% include play.html identifier="irregular" start=79.28 stop=82.28 %} **sing / sang**    *hát*  
+{% include play.html identifier="irregular" start=82.28 stop=85.28 %} **swim / swam**    *bơi*  
 
 {%  include voice.html attr=page.attr                     tag="h3"
 	identifier="irregular2"  init=true
 	title="More..."
 	translation="Thêm..."
 %}
-
-{% include play.html identifier="irregular2" start=00.28 stop=20.28 %}
-**feed / fed**     *cho ăn*  
-**feel / felt**    *cảm thấy, cảm nhận*  
-**keep / kept**    *giữ*  
-**fall / fell**    *ngã, rơi*  
-**mean / meant**   *có nghĩa là, ý là*   
-**meet / met**     *gặp gỡ*  
-**sleep / slept**  *ngủ*   
-**sweep / swept**  *quét*    
-     
-{% include play.html identifier="irregular2" start=20.28 stop=36.28 %}
-**see / saw**     *nhìn thấy*      
-**eat / ate**     *ăn*   
-**find / found**  *tìm kiếm*     
-**go / went**     *đi*  
-**get / got**     *có được*  
-**read / read**   *đọc*    
+{% include play.html identifier="irregular2" start=01.18 stop=3.58 %} **feed / fed**     *cho ăn*  
+{% include play.html identifier="irregular2" start=3.28 stop=6.28 %} **feel / felt**    *cảm thấy, cảm nhận*  
+{% include play.html identifier="irregular2" start=6.28 stop=8.28 %} **keep / kept**    *giữ*  
+{% include play.html identifier="irregular2" start=8.28 stop=10.58 %} **fall / fell**    *ngã, rơi*  
+{% include play.html identifier="irregular2" start=10.28 stop=13.28 %} **mean / meant**   *có nghĩa là, ý là*   
+{% include play.html identifier="irregular2" start=13.28 stop=15.28 %} **meet / met**     *gặp gỡ*  
+{% include play.html identifier="irregular2" start=15.28 stop=18.28 %} **sleep / slept**  *ngủ*   
+{% include play.html identifier="irregular2" start=18.28 stop=20.28 %} **sweep / swept**  *quét*    
+{% include play.html identifier="irregular2" start=20.28 stop=23.28 %} **see / saw**     *nhìn thấy*      
+{% include play.html identifier="irregular2" start=23.28 stop=25.58 %} **eat / ate**     *ăn*   
+{% include play.html identifier="irregular2" start=25.28 stop=28.28 %} **find / found**  *tìm kiếm*     
+{% include play.html identifier="irregular2" start=28.28 stop=31.28 %} **go / went**     *đi*  
+{% include play.html identifier="irregular2" start=31.28 stop=33.58 %} **get / got**     *có được*  
+{% include play.html identifier="irregular2" start=33.58 stop=36.28 %} **read / read**   *đọc*    
   
 {%  include voice.html attr=page.attr                     tag="h3"
 	identifier="irregular2"  init=false   start=36.28 stop=68.28 

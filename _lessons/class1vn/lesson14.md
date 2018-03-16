@@ -157,64 +157,64 @@ attr:
 	title="More examples"        
 	translation="Ví dụ thêm"
     tag="h2" %}
-> 1. {% include play.html identifier="examples2" start=4.30 stop=10.21 %} **When do you do homework?**         
+> 1. {% include play.html identifier="examples2" start=4.30 stop=6.31 %} **When do you do homework?**         
 *Khi nào bạn làm bài tập về nhà?*   
-> **I do homework whenever I have free time.**    
+> {% include play.html identifier="examples2" start=6.31 stop=10.21 %} **I do homework whenever I have free time.**    
 *Mình làm bài tập về nhà mỗi khi mình có thời gian rảnh.*       
-> 2. {% include play.html identifier="examples2" start=11.20 stop=19.70 %}**When do you intend to buy a computer?**    
-*Khi nào bạn định mua máy vi tính?* -
-> **I intend to buy a computer whenever I have enough money.**      
+> 2. {% include play.html identifier="examples2" start=11.20 stop=14.01 %}**When do you intend to buy a computer?**    
+*Khi nào bạn định mua máy vi tính?*    
+> {% include play.html identifier="examples2" start=14.01 stop=19.70 %} **I intend to buy a computer whenever I have enough money.**      
 *Tôi định mua máy tính khi nào tôi có đủ tiền.*      
-> 3. {% include play.html identifier="examples2" start=20.81 stop=26.23 %}**When do you finish school?**          
+> 3. {% include play.html identifier="examples2" start=20.81 stop=22.61 %} **When do you finish school?**          
 *Khi nào bạn học xong?*  
-> **I finish school at half past five.**   
+> {% include play.html identifier="examples2" start=22.61 stop=26.23 %} **I finish school at half past five.**   
 *Mình học xong vào lúc 5 giờ rưỡi.*      
-> 4. {% include play.html identifier="examples2" start=27.40 stop=33.37 %}**When does the class start?**       
-*Khi nào lớp học bắt học?*   
-> **The class starts at a quarter to seven.**   
+> 4. {% include play.html identifier="examples2" start=27.40 stop=29.37 %} **When do you start class?**       
+*Khi nào bạn bắt đầu lớp học?*    
+> {% include play.html identifier="examples2" start=29.40 stop=33.37 %} **The class starts at a quarter to seven.**   
 *Lớp học bắt đầu vào lúc 7 giờ kém 15 phút.*      
-> 5. {% include play.html identifier="examples2" start=34.47 stop=38.36 %}**When do you have lunch?**        
+> 5. {% include play.html identifier="examples2" start=34.47 stop=36.16 %} **When do you have lunch?**        
 *Bạn ăn trưa vào lúc nào?*   
-> **I have lunch at noon.**    
+> {% include play.html identifier="examples2" start=36.17 stop=38.16 %} **I have lunch at noon.**    
 *Tôi ăn trưa vào buổi trưa.*      
 {% if site.trialdeploy %}
 	{% include list_placeholder.html  attr=page.attr     start=6 stop=14 %}
 	{% else %}
-> 6. {% include play.html identifier="examples2" start=39.47 stop=44.32 %}**When does the sun rise?**        
+> 6. {% include play.html identifier="examples2" start=39.57 stop=41.46 %} **When does the sun rise?**        
 *Khi nào mặt trời mọc?*  
-> **The sun rises in the morning.**  
+> {% include play.html identifier="examples2" start=41.57 stop=44.46 %} **The sun rises in the morning.**  
 *Mặt trời mọc vào buổi sáng.*     
-> 7. {% include play.html identifier="examples2" start=45.51 stop=49.92 %}**When do flowers bloom?**        
+> 7. {% include play.html identifier="examples2" start=45.51 stop=49.92 %} **When do flowers bloom?**        
 *Khi nào những bông hoa nở?*   
-> **Flowers bloom in spring.**   
+> {% include play.html identifier="examples2" start=47.51 stop=49.92 %} **Flowers bloom in spring.**   
 *Hoa nở vào mùa xuân.*     
-> 8. {% include play.html identifier="examples2" start=51.37 stop=56.69 %}**When do the tree leaves change color, in fall?**         
+> 8. {% include play.html identifier="examples2" start=51.37 stop=56.69 %} **When do the tree leaves change color, in fall?**         
 *Khi nào lá cây đổi màu, mùa thu hả?*    
-> **It happens in autumn, yes.**    
+> {% include play.html identifier="examples2" start=54.37 stop=57.69 %} **It happens in autumn, yes.**    
 *Ừ, nó đổi màu vào mùa thu.*     
-> 9. {% include play.html identifier="examples2" start=58.26 stop=66.28 %}**When do people go back to their hometown and reunite with their families?**    
+> 9. {% include play.html identifier="examples2" start=58.26 stop=63.28 %} **When do people go back to their hometown and reunite with their families?**    
 *Khi nào thì mọi người về quê và họp mặt với gia đình của họ?*   
-> **It happens during Tet holiday.**         
+> {% include play.html identifier="examples2" start=63.26 stop=66.28 %} **It happens during Tet holiday.**         
 *Vào kỉ nghỉ Tết.*     
-> 10. {% include play.html identifier="examples2" start=67.93 stop=74.77 %}**When do you feel happy?**    
+> 10. {% include play.html identifier="examples2" start=67.93 stop=69.77 %} **When do you feel happy?**    
 *Bạn cảm thấy hạnh phúc khi nào?*   
-> **I feel happy whenever I hang out with my friends and family.**        
+> {% include play.html identifier="examples2" start=69.93 stop=74.77 %} **I feel happy whenever I hang out with my friends and family.**        
 *Tôi cảm thấy hạnh phúc mỗi khi tôi đi chơi với các bạn và gia đình của mình.*     
-> 11. {% include play.html identifier="examples2" start=76.46 stop=83.19 %}**When do you feel sad?**         
+> 11. {% include play.html identifier="examples2" start=76.46 stop=78.49 %} **When do you feel sad?**         
 *Bạn cảm thấy buồn khi nào?*    
-> **I feel sad whenever I think about my ex-boyfriend.**    
+> {% include play.html identifier="examples2" start=78.46 stop=83.19 %} **I feel sad whenever I think about my ex-boyfriend.**    
 *Tôi cảm thấy buồn mỗi khi tôi nghĩ về bạn trai cũ của tôi.*     
-> 12. {% include play.html identifier="examples2" start=84.30 stop=90.99 %}**When do you get angry?**          
+> 12. {% include play.html identifier="examples2" start=84.30 stop=86.99 %} **When do you get angry?**          
 *Khi nào bạn cảm thấy tức giận?*     
-> **I get angry every time I talk to the crazy girl.**     
+> {% include play.html identifier="examples2" start=86.30 stop=90.99 %} **I get angry every time I talk to the crazy girl.**     
 *Tôi tức giận mỗi khi tôi nói chuyện với cô gái điên khùng đó.*     
-> 13. {% include play.html identifier="examples2" start=92.97 stop=101.31 %}**When do you intend to get married?**    
+> 13. {% include play.html identifier="examples2" start=92.97 stop=95.31 %} **When do you intend to get married?**    
 *Bạn dự định kết hôn vào khi nào?*  
-> **I intend to get married after I become financially stable.**        
+> {% include play.html identifier="examples2" start=95.37 stop=101.31 %} **I intend to get married after I become financially stable.**        
 *Tôi dự định kết hôn sau khi tôi đã ổn định tài chính.*     
-> 14. {% include play.html identifier="examples2" start=102.54 stop=109.13 %}**When do you get disappointed?**     
+> 14. {% include play.html identifier="examples2" start=102.54 stop=104.13 %} **When do you get disappointed?**     
 *Khi nào bạn cảm thấy thất vọng?*    
-> **I get disappointed every time you lie to me.**    
+> {% include play.html identifier="examples2" start=104.54 stop=109.13 %} **I get disappointed every time you lie to me.**    
 *Mình thất vọng mỗi khi bạn nói dối mình.*     
 
 {% endif %}

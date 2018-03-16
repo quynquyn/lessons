@@ -17,7 +17,7 @@ attr:
 
 ## Vocabulary   *Từ vựng*
 
-**How do you get there?**   *Bạn đến đó bằng cách nào?*		
+**How do you get there?**   *Bạn đến đó bằng cách nào?*        
 **I get there by / on…**   *Tôi đến đó bằng...*
 
 {% include wordgrid.html lang=page.lang
