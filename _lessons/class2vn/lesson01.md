@@ -55,13 +55,12 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 	title="Explanation"        
 	translation="Giải thích"
     tag="h2" %}
-
-
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=0.69 stop=14.02
 	title="1. I am interested in playing badminton with my friend."        
-	translation="Tôi thích chơi cầu lông với những người bạn của tôi."
+	translation=""
     tag="h3" %}
+*Tôi thích chơi cầu lông với những người bạn của tôi.*
 
 **I am interested in…**  *Tôi thích...*
 
@@ -71,8 +70,6 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 *Tôi thích cưỡi ngựa.*
 3. **I am interested in speaking English.**  
 *Tôi thích nói tiếng Anh.*
-
-
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=15.57 stop=25.15
 	title="2. That sounds great!"        
@@ -87,8 +84,6 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 *Nghe thật tuyệt.*
 3. **That sounds terrible.**  
 *Nghe tệ quá.*
-
-
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=26.59 stop=40.04
 	title="3. Where do you usually go to play badminton?"        
@@ -103,13 +98,11 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 *Bạn thường đi chơi với bạn bè ở đâu?*
 3. **Where do you usually go when you feel sad?**  
 *Bạn thường đi đâu khi bạn thấy buồn?*
-
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=41.95 stop=55.22
 	title="4. How often do you play badminton?"        
 	translation="Bạn chơi cầu lông thường xuyên như thế nào?"
     tag="h3" %}
-
 **How often do you…?**  *Bạn … thường xuyên như thế nào*
 1. **How often do you call your mother?**  
 *Bạn gọi điện cho mẹ thường xuyên như thế nào?*
@@ -117,13 +110,11 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 *Bạn chơi bóng bàn thường xuyên như thế nào?*
 3. **How often do you brush your teeth?**  
 *Bạn đánh răng thường xuyên như thế nào?*
-
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=59.04 stop=69.28
 	title="5. Twice a week"        
 	translation="2 lần 1 tuần"
     tag="h3" %}
-
 1. **Once a year.**  
 *Một lần / năm*
 2. **Twice a month.**  
@@ -132,12 +123,12 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 *Ba lần / tuần*
 3. **Many times a day.**  
 *Nhiều lần / ngày*
-
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=70.88 stop=92.02
 	title="6. It’s simply because it helps me recharge my batteries after a long day."        
-	translation="Đơn giản là vì nó giúp tôi nạp năng lượng sau một ngày dài."
+	translation=""
     tag="h3" %}
+*Đơn giản là vì nó giúp tôi nạp năng lượng sau một ngày dài.*  
 
 1. **It’s probably because it helps me recharge my battery after a long day.**  
 *Có thể bởi vì nó giúp tôi nạp năng lượng sau một ngày dài.*
@@ -151,8 +142,9 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=93.05 stop=109.09
 	title="7. It helps me recharge my battery after a long working day."        
-	translation="Nó giúp tôi nạp năng lượng sau một ngày làm việc dài."
+	translation=""
     tag="h3" %}
+*Nó giúp tôi nạp năng lượng sau một ngày làm việc dài.*   
 
 1. **It helps me relax and sleep at night.**  
 *Nó giúp tôi thư giãn và ngủ buối tối.*

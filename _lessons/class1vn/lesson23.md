@@ -17,9 +17,8 @@ attr:
 
 ## Vocabulary   *Từ vựng*
 
-**How do you get there?**   *Bạn đến đó bằng cách nào?*
-		
-**I get there by…**   *Tôi đến đó bằng...*
+**How do you get there?**   *Bạn đến đó bằng cách nào?*		
+**I get there by / on…**   *Tôi đến đó bằng...*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -38,8 +37,6 @@ attr:
 		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}  
-
-
 
 **Study English by…**   *Học tiếng Anh bằng cách...*
 

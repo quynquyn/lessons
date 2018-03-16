@@ -58,7 +58,6 @@ attr:
 > {% include play.html identifier="Conversation" start=26 stop=29 %} **No, it's not a good book. It's pretty boring.**      
 *Không,nó không phải là một quyển sách hay. Nó khá là chán.*    
 
-
 > 5. {% include play.html identifier="Conversation" start=29 stop=33 %} **Is the weather hot outside?**   
 *Thời tiết bên ngoài có nóng không?*     
 > {% include play.html identifier="Conversation" start=23 stop=36 %} **Yes, it's quite hot outside.**    
@@ -74,7 +73,6 @@ attr:
 > {% include play.html identifier="Conversation" start=47 stop=50 %} **Yes, it's a very expensive cellphone.**   
 *Phải, nó là một cái điện thoại rất đắt tiền.*   
 
-  
 > 8. {% include play.html identifier="Conversation" start=50 stop=53 %} **Is it an interesting movie?**     
 *Nó có phải là bộ phim thú vị không?*    
 > {% include play.html identifier="Conversation" start=53 stop=57 %} **No, it's not an interesting movie. It's quite boring.**    

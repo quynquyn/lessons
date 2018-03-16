@@ -38,7 +38,7 @@ attr:
 	translation="Mục đích"
     tag="h3" %}
 
-**I travel there to...**  *Tôi muốn du lịch đến đó để...*
+**I travel there to...**   *Tôi muốn du lịch đến đó để...*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -47,7 +47,6 @@ attr:
 		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
-
 {%  include voice.html attr=page.attr  
 	identifier="Conversation"  init=true
 	title="Conversation"        
@@ -82,14 +81,13 @@ attr:
 	title="Explanation"        
 	translation="Giải thích"
     tag="h2" %}
-
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=1.10 stop=20.28
 	title="1. I just need to buy a travel pillow at the airport."        
 	translation="Tôi chỉ cần mua cái gối du lịch ở sân bay nữa thôi."
     tag="h3" %}
 
-**Verb to Verb**  *Động từ cùng động từ*
+**Verb + 'to' + verb**   *Động từ cùng động từ*
 
 - **He needs to go to the museum.**  
 *Anh ta cần đi tới viện bảo tàng.*   
@@ -101,27 +99,25 @@ attr:
 {% if site.trialdeploy %}
 	{% include explanation_placeholder.html  attr=page.attr     start=2 stop=6 %}
 	{% else %}
-
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=22.87 stop=37.85
 	title="2. This is your first overseas trip."        
 	translation="Đây là chuyến đi nước ngoài đầu tiên của bạn."
     tag="h3" %}
 
-**One's first...**  *Cái gì đó đầu tiên của ai đó*
+**One's first...**   *Cái gì đó đầu tiên của ai đó*
 
 - **This is my first kiss.**  
 *Đây là nụ hôn đầu của tôi.*   
 - **That is her first tattoo.**  
 *Đó là cái hình xăm đầu tiên của cô ấy.*   
-
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=40.07 stop=61.55
 	title="3. You’re not allowed to take liquids on the plane."        
 	translation="Bạn không được phép mang chất lỏng lên máy bay."
     tag="h3" %}
 
-**You are not allowed to...**  *Bạn không được phép ...*
+**You are not allowed to...**   *Bạn không được phép ...*
 
 - **You are not allowed to smoke in the building.**  
 *Bạn không được phép hút thuốc trong tòa nhà này.*  
@@ -129,7 +125,6 @@ attr:
 *Bạn không được phép đậu xe hơi ở đây.*   
 - **You are not allowed to talk during the exam.**  
 *Bạn không được phép nói chuyện trong giờ kiểm tra.*   
-
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=63.87 stop=75.27
 	title="4. You travel a lot."        
@@ -142,14 +137,13 @@ attr:
 *Tôi ăn rất nhiều.*   
 - **She talks a lot.**  
 *Cô ta nói rất nhiều.*   
-
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=77.86 stop=103.76
 	title="5. It’s an interesting way to know more about new cultures and explore new places."        
 	translation="Nó là một cách thú vị để biết hơn về văn hóa mới và khám phá nơi mới."
     tag="h3" %}
 
-**It's an interesting way to...**  *Nó là một cách thú vị để...*
+**It's an interesting way to...**   *Nó là một cách thú vị để...*
 
 - **It's an interesting way to get to know someone.**  
 *Nó là một cách thú vị để tìm hiểu ai đó.*   
@@ -157,14 +151,13 @@ attr:
 *Nó là một cách thú vị để gây ấn tượng với ai đó.*  
 - **It's a simple way to solve the problem.**  
 *Nó là một cách đơn giản để giải quyết vấn đề.*   
-
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=106.47 stop=124.85
 	title="6. It’s also the best way to find a quiet place."        
 	translation="Nó còn là cách tốt nhất để tìm một nơi yên tĩnh."
     tag="h3" %}
 
-**It's the best way to...**  *Nó là cách tốt nhất để...*
+**It's the best way to...**   *Nó là cách tốt nhất để...*
 
 - **It's the best way to ask him.**  
 *Nó là cách tốt nhất để hỏi anh ấy.*   

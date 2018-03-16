@@ -29,7 +29,6 @@ attr:
 		trial=site.trialdeploy %}
 
 
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Conversation"  init=true
 	title="Conversation"        
@@ -66,27 +65,23 @@ attr:
 > {% include play.html identifier="Conversation" start=36.10 stop=41.76 %} P2: **Honestly, I believe that the most important thing in a job is that you are able to enjoy what you do.**    
 *Thành thật mà nói, tôi tin là điều quan trọng nhất trọng nhất trong một công việc là bạn có thể tận hưởng điều mà bạn làm.*  
 
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=true
 	title="Explanation"        
 	translation="Giải thích"
     tag="h2" %}
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=false start=3.12 stop=17.37
 	title="1. I am responsible for selling goods and looking after customers."        
-	translation="Tôi có trách nhiệm/nhiệm vụ bán những sản phẩm và chăm sóc khách hàng."
+	translation=""
     tag="h3" %}
- 
+*Tôi có trách nhiệm/nhiệm vụ bán những sản phẩm và chăm sóc khách hàng.*   
 **Be sold out.**   *đã bán hết*
 
 - **The movie is sold out.**  
 *Bộ phim đã bán hết vé rồi.*   
 - **The concert was sold out.**  
 *Buổi hòa nhạc đã bán hết vé rồi.*   
-
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=false start=19.59 stop=40.18
 	title="2. What do you like most about your job?"        
@@ -105,7 +100,6 @@ attr:
 {% if site.trialdeploy %}
 	{% include explanation_placeholder.html  attr=page.attr     start=3 stop=7 %}
 	{% else %}
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=false start=42.73 stop=61.76
 	title="3. Is there anything that you don't like about your job?"        
@@ -121,7 +115,6 @@ attr:
 - **Is there anything that can make you smile immediately?**   
 *Có điều gì có thể khiến bạn cười ngay lập tức không?*  
 
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=false start=64.08 stop=77.47
 	title="4. The job can get really stressful at times."        
@@ -135,13 +128,12 @@ attr:
 - **It's a stressful job.**  
 *Nó là một công việc căng thẳng.*
 
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=false start=79.55 stop=95.88
 	title="5. Do you think it is more important to make a lot of money or to enjoy your job?"        
-	translation="Bạn nghĩ rằng kiếm nhiều tiền hay tận hưởng công việc quan trọng hơn?"
+	translation=""
     tag="h3" %}
-
+*Bạn nghĩ rằng kiếm nhiều tiền hay tận hưởng công việc quan trọng hơn?*
 - **Do you think it's more important to be polite or to be honest?**  
 *Bạn nghĩ rằng lịch sự hay thành thật quan trọng hơn?*  
 - **Do yoi think it's more important to give or to take?**  
@@ -159,7 +151,6 @@ attr:
 *Thật lòng, tôi chẳng thích anh ta tí nào.*  
 - **To be honest, I'll do it tomorrow.**  
 *Thành thật mà nói, mai tôi sẽ làm.*   
-
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=false start=113.62 stop=128.19 

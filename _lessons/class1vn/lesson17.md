@@ -28,11 +28,11 @@ attr:
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="examples"  init=true
-	title="Example of WH questions with Simple Past Tense, Simple Present Tense, Present Continuous Tense and Simple Future tense"
+	title="Example of 'WH' questions with simple past tense, simple present tense, present continuous tense and simple future tense"
 	translation=""
 %}
 
-*Ví dụ của câu hỏi WH- với Thì quá khứ đơn, Thì hiện tại đơn, Thì hiện tại tiếp diễn và Thì tương lai đơn* 
+*Ví dụ của câu hỏi 'WH'- với Thì quá khứ đơn, Thì hiện tại đơn, Thì hiện tại tiếp diễn và Thì tương lai đơn* 
 
 1. {% include play.html identifier="examples" start=12.27 stop=14.28 %} **Where are you going to go?**      
 *Bạn sẽ đi đâu?*

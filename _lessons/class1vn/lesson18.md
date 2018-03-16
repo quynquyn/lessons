@@ -155,11 +155,11 @@ attr:
 
 {%  include voice.html attr=page.attr  
 	identifier="yesnoquestions"  init=true
-	title="Yes / No Questions"        
+	title="Yes / No questions"        
 	translation="Câu hỏi Có / Không"
     tag="h2" %}
-
-### Example of Yes / No Questions with Simple Past Tense and Simple Present Tense *Ví dụ câu hỏi Có / Không của Thì quá khứ đơn và Thì hiện tại đơn*
+### Example of Yes / No questions with simple past tense and simple present tense   
+*Ví dụ câu hỏi Có / Không của Thì quá khứ đơn và Thì hiện tại đơn*    
 
 1. **Did your mother get sick yesterday?**   
 *Hôm qua mẹ của bạn bị ốm phải không?*

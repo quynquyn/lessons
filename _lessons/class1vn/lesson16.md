@@ -11,7 +11,7 @@ attr:
 
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=true
-	title="Lesson 1.16: Present Continuous and Simple future tense"        
+	title="Lesson 1.16: Present continuous and simple future tense"        
 	translation="Thì hiện tại tiếp diễn và Thì tương lai đơn"
     tag="h1" %}
 
@@ -27,11 +27,11 @@ attr:
 	
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=false start=46.56 stop=55.11
-	title="Examples of Present Continuous tense"        
+	title="Examples of present continuous tense"        
 	translation="Ví dụ của Thì hiện tại tiếp diễn"
     tag="h2" %}
 
-### Be + Verb-ing *Be + động từ thêm ing* 
+### 'Be' + verb + 'ing'   *'Be' + động từ thêm + 'ing'* 
 1. {% include play.html identifier="vocabulary" start=55.56 stop=59.11 %} **He is watering flowers.**      
 *Anh ta đang tưới hoa.*      
 2. {% include play.html identifier="vocabulary" start=59.56 stop=63.11 %} **Chris is feeding the cats.**     
@@ -82,13 +82,14 @@ attr:
 
 {%  include voice.html attr=page.attr  
 	identifier="examples1"  init=true
-	title="Examples of Future Simple tense"        
+	title="Examples of future simple tense"        
 	translation="Ví dụ của Thì tương lai đơn"
     tag="h2" %}
 
-##### Will - when making a decision / volunteer   *Will - khi đưa ra quyết định / tình nguyện*
-##### Going to - after the decision is made / plans   *Going to - sau khi đã đưa ra quyết định*
-##### Will (OR) Going to - for predictions   *Will hoặc Going to - dự đoán*
+**'Will' - when making a decision = volunteer**   *Will - khi đưa ra quyết định = tình nguyện*
+**'Going to' - after the decision is made = plans***   *Going to - sau khi đã đưa ra quyết định*
+**'Will' (or) 'going to' = predictions**   *Will hoặc Going to = dự đoán*
+
 1. {% include play.html identifier="examples1" start=23.16 stop=29.11 %} **Daniel is going to compete with his girlfriend in the singing contest.**      
  *Daniel sẽ cạnh tranh với bạn gái anh ấy trong cuộc thi hát.*      
 2. {% include play.html identifier="examples1" start=29.56 stop=33.11 %} **I'm not sure if I will attend class tomorrow.**       
@@ -120,11 +121,9 @@ attr:
 *Tôi nghĩ 2020 sẽ là một năm tuyệt vời.*      
 13. {% include play.html identifier="examples1" start=81.56 stop=86.11 %} **In the future, people will drive flying cars!**        
 *Trong tương lai, người ta sẽ lái xe ô tô bay.*     
-
 {% endif %}
-
-### Present Continuous for Future   *Thì hiện tại tiếp diễn dùng cho tương lai*
-For fixed planned events in the future. Often used with a word for future events. 
+### Present continuous for future   *Thì hiện tại tiếp diễn dùng cho tương lai*
+**For fixed planned events in the future. Often used with a word for future events.** 
 
 1. {% include play.html identifier="examples1" start=98.56 stop=101.11 %} **We are visiting my parents tomorrow.**      
 *Chúng tôi sẽ thăm bố mẹ ngày mai.*      
@@ -139,7 +138,7 @@ For fixed planned events in the future. Often used with a word for future events
 
 {%  include voice.html attr=page.attr  
 	identifier="examples2"  init=true
-	title="Example of Yes / No Questions with Simple Future Tense and Present Continuous"        
+	title="Example of Yes / No questions with simple future tense and present continuous"        
 	translation="Ví dụ cho câu hỏi Có / Không của Thì tương lai đơn và Thì hiện tại tiếp diễn"
     tag="h2" %}
 
@@ -199,10 +198,11 @@ For fixed planned events in the future. Often used with a word for future events
 
 > {% include play.html identifier="conversation" start=04.56 stop=07.41 %} Person 1: **Will you be a guest at our wedding next month?**      
 >*Bạn sẽ là khách mời tại tiệc cưới của chúng tôi tháng tới nhé?*      
-> {% include play.html identifier="conversation" start=07.56 stop=11.91 %} Person 2: **Yes, I will. I wouldn't miss my best friend's wedding.**  *Vâng, chắc chắn. Tôi sẽ không bỏ lỡ đám cưới của bạn thân mình đâu.*    
+> {% include play.html identifier="conversation" start=07.56 stop=11.91 %} Person 2: **Yes, I will. I wouldn't miss my best friend's wedding.**  
+*Vâng, chắc chắn. Tôi sẽ không bỏ lỡ đám cưới của bạn thân mình đâu.*    
 > {% include play.html identifier="conversation" start=11.56 stop=16.71 %} P1: **I'm glad to hear that. Are you going to bring anyone?**       
 *Tôi rất vui khi nghe vậy. Bạn có dẫn ai theo không?*     
-> {% include play.html identifier="conversation" start=16.56 stop=23.11 %} P2: **Yes I am. I'm thinking about bringing my girlfriend Gina, but I'm not too sure.**         
+> {% include play.html identifier="conversation" start=16.56 stop=23.11 %} P2: **Yes I am. I'm thinking about bringing my girlfriend Gina, but I'm not too sure.**   
 >*Có. Tôi đang nghĩ về việc dẫn bạn gái theo, Gina, nhưng tôi không chắc lắm.*     
 > {% include play.html identifier="conversation" start=23.56 stop=27.11 %} P1: **Why not? Does she dislike weddings?**      
 >*Sao lại không? Cô ấy không thích đám cưới à?*     
@@ -214,4 +214,5 @@ For fixed planned events in the future. Often used with a word for future events
 >*Nếu Gina không rảnh, tôi có lẽ sẽ đến cùng với bố mẹ tôi.*    
 > {% include play.html identifier="conversation" start=42.56 stop=46.11 %} P1: **That's a good plan. Let me know how it goes.**       
 >*Kế hoạch hay đấy. Hãy cho tối biết tình hình thế nà.*   
-> {% include play.html identifier="conversation" start=46.56 stop=48.11 %} P2: **I will!**  *Ừ, tôi sẽ làm vậy!*   
+> {% include play.html identifier="conversation" start=46.56 stop=48.11 %} P2: **I will!**  
+*Ừ, tôi sẽ làm vậy!*   

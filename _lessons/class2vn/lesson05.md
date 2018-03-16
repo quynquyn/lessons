@@ -40,7 +40,7 @@ attr:
 	translation="Ba của bạn là người như thế nào?"
     tag="h3" %}
 
-**My father is...**  *Ba của tôi thì...*
+**My father is...**   *Ba của tôi thì...*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -103,10 +103,9 @@ attr:
 	title="Explanation"        
 	translation="Giải thích"
     tag="h2" %}
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=false start=2.82 stop=14.93
-	title="He’s going to give me a ride home."        
+	title="1. He’s going to give me a ride home."        
 	translation="Anh ấy sẽ cho tôi quá giang về nhà."
     tag="h3" %}
 
@@ -120,9 +119,6 @@ attr:
 {% if site.trialdeploy %}
 	{% include explanation_placeholder.html  attr=page.attr     start=2 stop=6 %}
 	{% else %}
-
-
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=false start=16.97 stop=26.73
 	title="2. What does your father do for a living?"        
@@ -133,7 +129,6 @@ attr:
 *Mẹ bạn làm nghề gì?*   
 - **What do you do for a living?**  
 *Bạn làm nghề gì?*  
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=false start=29.23 stop=46.12
 	title="3. I have three older brothers and two sisters."        
@@ -146,8 +141,6 @@ attr:
 *Tôi có một chị gái, hai anh trai và một em gái.*  
 - **I am an only child.**  
 *Tôi là con một.*   
-
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=false start=48.55 stop=60.16 
 	title="4. What is your mother like?"        
@@ -160,14 +153,13 @@ attr:
  *Giám đốc của bạn là người như thế nào?*  
  - **What is the weather like?**  
  *Thời tiết như thế nào?*   
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=false start=62.55 stop=79.68 
 	title="5. Who makes most of the decisions in your family?"        
 	translation="Ai đưa ra hầu hết các quyết định trong gia đình bạn?"
     tag="h3" %}
 
-**Who + Verb (s/es)**
+**Who + verb ('~s' /'~es')**
 
 - **Who feeds the dog in your family?**  
 *Trong gia đình bạn, ai cho chó ăn?*   

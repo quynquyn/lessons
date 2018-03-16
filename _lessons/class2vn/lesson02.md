@@ -50,14 +50,13 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 > {% include play.html identifier="Native-Dialogue1" start=16.41 stop=20.76 %} P1: **Definitely. Getting up early in the morning really gets on my nerves.**    
 > *Hoàn toàn ghét. Dậy sớm vào buổi sáng thật sự làm tôi phát cáu.*    
 
-
 {%  include voice.html attr=page.attr       ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="explanation"  init=true
-	title="Person 1: Why do you look so annoyed?"        
+	title="1: Why do you look so annoyed?"        
 	translation="Sao trông bạn khó chịu thế?"
     tag="h3" %}
-
-**Why do you look…?**  *Sao trông bạn...?*
+	
+**Why do you look…?**   *Sao trông bạn...?*
 
 1. **Why do you look so sad today?**  
 *Sao hôm nay trông bạn buồn thế?*
@@ -66,15 +65,13 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 3. **Why do you look so happy today?**  
 *Sao hôm nay trông bạn vui vẻ vậy?*
 
-
 {%  include voice.html attr=page.attr       ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="explanation"  init=false start=13.79 stop=39.60
-	title="Person 2: I hate doing housework."        
+	title="2: I hate doing housework."        
 	translation="Tôi ghét làm việc nhà."
     tag="h3" %}
-
-
-**I hate / I am sick of / I am tired of / I can’t stand it**  *Tôi ghét / Tôi phát bệnh với việc / Tôi mệt mỏi với việc / Tôi không thể chịu nổi việc ...*
+**I hate / I am sick of / I am tired of / I can’t stand it**   
+*Tôi ghét / Tôi phát bệnh với việc / Tôi mệt mỏi với việc / Tôi không thể chịu nổi việc ...*
 
 1. **I hate arguing with overly emotional people.**  
 *Tôi ghét cãi nhau với người cảm xúc thái quá.*
@@ -85,15 +82,14 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 4. **I can’t stand sexism.**  
 *Tôi không chịu được sự phân biệt giới tính.*
 
-
 {%  include voice.html attr=page.attr       ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="explanation"  init=false start=41.64 stop=65.22
-	title="Person 1: Talking to unfriendly people drives me crazy."        
-	translation="Nói chuyện với những người không thân thiện khiến tôi phát điên lên."
+	title="3: Talking to unfriendly people drives me crazy."        
+	translation=""
     tag="h3" %}
+*Nói chuyện với những người không thân thiện khiến tôi phát điên lên.*
 
-
-**It drives me crazy / it gets on my nerves**  *Nó làm tôi phát điên / làm tôi phát cáu.*
+**It drives me crazy / it gets on my nerves**   *Nó làm tôi phát điên / làm tôi phát cáu.*
 
 1. **Racism drives me crazy.**  
 *Nạn phân biệt chủng tộc khiến tôi nổi điên lên.*
@@ -108,7 +104,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 
 {%  include voice.html attr=page.attr       ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="explanation"  init=false start=66.88 stop=73.75 
-	title="Person 2: Definitely"        
+	title="4: Definitely"        
 	translation="Chắc chắn rồi / Hoàn toàn"
     tag="h3" %}
 

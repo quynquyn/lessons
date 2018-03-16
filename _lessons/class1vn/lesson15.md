@@ -11,7 +11,7 @@ attr:
 
 {%  include voice.html attr=page.attr                     tag="h1"
 	identifier="vocabulary"  init=true
-	title="Lesson 1.15: Simple Past Tense"        
+	title="Lesson 1.15: Simple past tense"        
 	translation="Thì quá khứ đơn"
 %}
 
@@ -34,8 +34,8 @@ attr:
 		
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=false start=30 stop=75
-	title="I. The verb 'To be'"        
-	translation="Động từ 'To be'"
+	title="The verb 'to be'"        
+	translation="Động từ 'to be'"
     tag="h2" %}
 
 
@@ -47,22 +47,22 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-> {% include play.html identifier="vocabulary" start=51.10 stop=56.38 %} **I was tired last night. Were you?**      
+> 1. {% include play.html identifier="vocabulary" start=51.10 stop=56.38 %} **I was tired last night. Were you?**      
 > *Đêm qua tôi mệt. Bạn có mệt không?*    
 > **Yes, I was tired last night.**        
 > *Có, đên qua tôi cũng mệt.*       
 
-> {% include play.html identifier="vocabulary" start=57.30 stop=62.35 %} **Were you bored without me yesterday?**    
+> 2. {% include play.html identifier="vocabulary" start=57.30 stop=62.35 %} **Were you bored without me yesterday?**    
 > *Hôm qua không có tôi, bạn có chán không?*    
 > **No, I wasn’t bored without you yesterday.**      
 > *Không, hôm qua không có bạn, tôi không chán.*    
 
-> {% include play.html identifier="vocabulary" start=63.35 stop=67.76 %} **Was she at home last week?**     
+> 3. {% include play.html identifier="vocabulary" start=63.35 stop=67.76 %} **Was she at home last week?**     
 > *Tuần trước cô ta có ở nhà không?*        
 > **No, she was not at home last week.**     
 *Không, cô ta không có nhà tuần trước.*      
      
-> {% include play.html identifier="vocabulary" start=68.86 stop=74 %} **Jane didn’t come to class yesterday. Was she sick?**     
+> 4. {% include play.html identifier="vocabulary" start=68.86 stop=74 %} **Jane didn’t come to class yesterday. Was she sick?**     
 > *Jane không đến lớp hôm qua. Cô ấy ốm à?*      
 > **Yes, she was sick.**        
 > *Ừ, cô ấy ốm.* 
@@ -70,128 +70,135 @@ attr:
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="regular"  init=true
-	title="II. Action Verbs"
+	title="Action verbs"
 	translation="Động từ chỉ hoạt động"
 %}
 
-> {% include play.html identifier="regular" start=3.11 stop=9.98 %} **Did you sister help you do homework?** - **No, My sister didn’t help me do anything.**    
-> *Chị của bạn có giúp bạn làm bài tập về nhà không?* - *Không, chị tôi đã không giúp tôi làm gì hết.*       > 
+> 1. {% include play.html identifier="regular" start=3.11 stop=9.98 %} **Did you sister help you do homework?**        
+*Chị của bạn có giúp bạn làm bài tập về nhà không?* - 
+> **No, My sister didn’t help me do anything.**    
+*Không, chị tôi đã không giúp tôi làm gì hết.*       > 
 
-> {% include play.html identifier="regular" start=10.11 stop=14.4 %} **Did Sarah finish her homework?** - **Yes, Sarah finished it.**     
-> *Sarah đã hoàn thành bài tập về nhà chưa?* - *Rồi, Sarah đã hoàn thành rồi.*     > 
+> 2. {% include play.html identifier="regular" start=10.11 stop=14.4 %} **Did Sarah finish her homework?**         
+*Sarah đã hoàn thành bài tập về nhà chưa?*   
+> **Yes, Sarah finished it.**   
+*Rồi, Sarah đã hoàn thành rồi.*     
 
-> {% include play.html identifier="regular" start=14.4 stop=19.98 %} **Did he love her?** - **Yes, he loved her but he didn't want to marry her.**     
-> *Anh ta có yêu cô ta không?* - *Có, anh ta có yêu cô ấy nhưng anh ta không muốn cưới cô ấy.*       > 
+> 3. {% include play.html identifier="regular" start=14.4 stop=19.98 %} **Did he love her?**        
+*Anh ta có yêu cô ta không?*    
+> **Yes, he loved her but he didn't want to marry her.**   
+*Có, anh ta có yêu cô ấy nhưng anh ta không muốn cưới cô ấy.*       
 
-> {% include play.html identifier="regular" start=19.98 stop=26.28 %} **Did James come to class yesterday?** - **Yes, he came to class yesterday.**     
-> *Hôm qua James có đến lớp không?* - *Có, anh ấy có đến lớp hôm qua.*      
+> 4. {% include play.html identifier="regular" start=19.98 stop=26.28 %} **Did James come to class yesterday?**        
+*Hôm qua James có đến lớp không?*   
+>**Yes, he came to class yesterday.**    
+*Có, anh ấy có đến lớp hôm qua.*      
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="regular"  init=false  start=27.18 stop=45.28
-	title="A. Regular verbs (Verb + ed)"
+	title="A. Regular verbs (verb + 'ed')"
 	translation="Động từ thường (Động từ + ed)"
 %}
 
-**~ed = t sound for verbs ending in k, p, s, ch, sh, f**  
-*~ed phát âm là "t" với những động từ kết thúc với k, p, s, ch, sh, f*
+**'~ed' = 't' sound for verbs ending in k, p, s, ch, sh, f**  
+*'~ed' phát âm là 't' với những động từ kết thúc với k, p, s, ch, sh, f*
 
- - {% include play.html identifier="regular" start=45.58 stop=47.28 %} **I looked at her.**     *Tôi đã nhìn cô ấy.*   
- - {% include play.html identifier="regular" start=47.28 stop=50.28 %} **She stopped staring at me.**   *Cô ta đã dừng nhìn chằm chằm vào tôi.*  
- - {% include play.html identifier="regular" start=50.28 stop=52.28 %} **You looked at me.**    *Bạn đã nhìn tôi.*   
+1. {% include play.html identifier="regular" start=45.58 stop=47.28 %} **I looked at her.**     
+*Tôi đã nhìn cô ấy.*   
+1. {% include play.html identifier="regular" start=47.28 stop=50.28 %} **She stopped staring at me.**   
+*Cô ta đã dừng nhìn chằm chằm vào tôi.*  
+1. {% include play.html identifier="regular" start=50.28 stop=52.28 %} **You looked at me.**    
+*Bạn đã nhìn tôi.*   
  
 {% if site.trialdeploy %}
 	{% include list_placeholder.html  attr=page.attr     start=4 stop=10 %}
 	{% else %}
 
- {% include play.html identifier="regular" start=52.28 stop=55.28 %} **She washed her hands.**      
+1. {% include play.html identifier="regular" start=52.28 stop=55.28 %} **She washed her hands.**      
  *Cô ta đã rửa tay.*   
- {% include play.html identifier="regular" start=55.28 stop=57.28 %} **He popped the balloon.**     
+1. {% include play.html identifier="regular" start=55.28 stop=57.28 %} **He popped the balloon.**     
  *Anh ta đã làm bể bong bóng.*   
- {% include play.html identifier="regular" start=57.28 stop=59.28 %} **I missed him.**     
+1. {% include play.html identifier="regular" start=57.28 stop=59.28 %} **I missed him.**     
  *Tôi đã nhớ anh ấy.*     
- {% include play.html identifier="regular" start=59.28 stop=63.28 %} **He watched TV all day yesterday.**    
+1. {% include play.html identifier="regular" start=59.28 stop=63.28 %} **He watched TV all day yesterday.**    
  *Anh ta đã xem TV cả ngày hôm qua.*       
- {% include play.html identifier="regular" start=63.28 stop=67.28 %} **We looked for the keys everywhere!**    
+1. {% include play.html identifier="regular" start=63.28 stop=67.28 %} **We looked for the keys everywhere!**    
  *Chúng tôi đã tìm chìa khóa khắp nơi!*        
- {% include play.html identifier="regular" start=67.28 stop=70.18 %} **He laughed at my dancing skills.**     
+1. {% include play.html identifier="regular" start=67.28 stop=70.18 %} **He laughed at my dancing skills.**     
  *Anh ta đã cười kĩ năng nhảy của tôi.*        
- {% include play.html identifier="regular" start=70.18 stop=73.28 %} **He stopped laughing after I slapped him.**    
- *Anh ta đã ngưng cười sau khi tôi tát anh ta.*
- {% include play.html identifier="regular" start=73.28 stop=76.28 %} **We watched a film together.**    
+1. {% include play.html identifier="regular" start=70.18 stop=73.28 %} **He stopped laughing after I slapped him.**    
+ *Anh ta đã ngưng cười sau khi tôi tát anh ta.*    
+1. {% include play.html identifier="regular" start=73.28 stop=76.28 %} **We watched a film together.**    
  *Chúng tôi đã xem phim cùng nhau.*        
- {% include play.html identifier="regular" start=76.28 stop=80.10 %} **John looked ridiculous last night.**     
+1. {% include play.html identifier="regular" start=76.28 stop=80.10 %} **John looked ridiculous last night.**     
  *Anh ta trông buồn cười đêm qua.*         
- {% include play.html identifier="regular" start=80.10 stop=82.28 %} **Sarah finished her homework.**    
+1. {% include play.html identifier="regular" start=80.10 stop=82.28 %} **Sarah finished her homework.**    
  *Sarah đã hoàn thành bài tập về nhà.*       
- {% include play.html identifier="regular" start=82.28 stop=84.28 %} **The dog sniffed his hand.**    
+1. {% include play.html identifier="regular" start=82.28 stop=84.28 %} **The dog sniffed his hand.**    
  *Con chó đã ngửi bàn tay anh ta.*     
- {% include play.html identifier="regular" start=84.28 stop=88.28 %} **I told Christina your joke and she laughed out loud.**    
+1. {% include play.html identifier="regular" start=84.28 stop=88.28 %} **I told Christina your joke and she laughed out loud.**    
  *Tôi đã kể cho Christina câu chuyện cười của bạn và cô ấy đã cười to.*         
- {% include play.html identifier="regular" start=88.28 stop=91.88 %} **I stopped to take a picture of his house.**   
+1. {% include play.html identifier="regular" start=88.28 stop=91.88 %} **I stopped to take a picture of his house.**   
  *Tôi dừng lại để chụp hình căn nhà của anh ấy.*       
- {% include play.html identifier="regular" start=91.88 stop=95.28 %} **They talked to the athlete an hour earlier.**    
+1. {% include play.html identifier="regular" start=91.88 stop=95.28 %} **They talked to the athlete an hour earlier.**    
  *Họ đã nói chuyện với người vận động viên một tiếng trước.*         
- {% include play.html identifier="regular" start=95.28 stop=97.28 %} **Who laughed behind my back?**      
+1. {% include play.html identifier="regular" start=95.28 stop=97.28 %} **Who laughed behind my back?**      
  *Ai đã cười sau lưng tôi?*    
- {% include play.html identifier="regular" start=97.28 stop=100.28 %} **The dog chased the cat again yesterday.**   
+1. {% include play.html identifier="regular" start=97.28 stop=100.28 %} **The dog chased the cat again yesterday.**   
  *Hôm qua con chó lại đuổi theo con mèo.*     
- {% include play.html identifier="regular" start=100.28 stop=104.28 %} **Joanne laughed when Chris asked her out.**   
+1. {% include play.html identifier="regular" start=100.28 stop=104.28 %} **Joanne laughed when Chris asked her out.**   
  *Joanne cười lớn khi Chris mời cô ta ra ngoài chơi.*      
 
 {% endif %}
 
-{% include play.html identifier="regular" start=104.28 stop=113.28 %} **| ed = ed sound for verbs ending with a t or d |**  
+{% include play.html identifier="regular" start=104.28 stop=113.28 %} **'~ed' = '~ed' sound for verbs ending with a, t or d**  
 *ed phát âm là "ed" với những động từ kết thúc là t hoặc d*
  
-{% include play.html identifier="regular" start=113.28 stop=116.28 %} **We visited our parents.**    
+1. {% include play.html identifier="regular" start=113.28 stop=116.28 %} **We visited our parents.**    
 *Chúng tôi đã đi thăm bố mẹ.*     
-{% include play.html identifier="regular" start=116.28 stop=118.28 %} **My sister finally graduated!**     
+1. {% include play.html identifier="regular" start=116.28 stop=118.28 %} **My sister finally graduated!**     
 *Chị gái tôi cuối cùng cũng đã tốt nghiệp.*    
-{% include play.html identifier="regular" start=118.28 stop=121.28 %} **I visited my old friend from school.**     
+1. {% include play.html identifier="regular" start=118.28 stop=121.28 %} **I visited my old friend from school.**     
 *Tôi đã đi thăm bạn học cũ.*      
-{% include play.html identifier="regular" start=121.28 stop=126.28 %} **My husband and I intended to travel to Australia last year.**     
+1. {% include play.html identifier="regular" start=121.28 stop=126.28 %} **My husband and I intended to travel to Australia last year.**     
 *Chồng tôi và tôi đã dự định đi du lịch Úc năm ngoái.*  
- 
 {% if site.trialdeploy %}
 	{% include list_placeholder.html  attr=page.attr     start=5 stop=10 %}
 	{% else %}
-  
-{% include play.html identifier="regular" start=126.28 stop=129.28 %} **Sarah and Michael dated for a week.**     
+1.{% include play.html identifier="regular" start=126.28 stop=129.28 %} **Sarah and Michael dated for a week.**     
 *Sarah và Michael đã hẹn hò trong một tuần.*   
-{% include play.html identifier="regular" start=129.28 stop=132.78 %} **I attended the event. It bored me.**    
-*Tôi đã tham gia sự kiện. Nó làm tôi thấy chán.* 
-{% include play.html identifier="regular" start=132.78 stop=135.28 %} **I needed some help last night.**     
+1. {% include play.html identifier="regular" start=129.28 stop=132.78 %} **I attended the event. It bored me.**    
+*Tôi đã tham gia sự kiện. Nó làm tôi thấy chán.*   
+1. {% include play.html identifier="regular" start=132.78 stop=135.28 %} **I needed some help last night.**     
 *Đêm qua tôi đã cần sự giúp đỡ.*          
-{% include play.html identifier="regular" start=135.28 stop=138.28 %} **My dog wanted to go outside.**     
+1. {% include play.html identifier="regular" start=135.28 stop=138.28 %} **My dog wanted to go outside.**     
 *Con chó của tôi muốn ra ngoài.*   
-{% include play.html identifier="regular" start=138.28 stop=142.28 %} **She invited us to her birthday party.**    
-*Cô ấy đã mời chúng tôi tới bữa tiệc sinh nhật của cô ấy.* 
+1. {% include play.html identifier="regular" start=138.28 stop=142.28 %} **She invited us to her birthday party.**    
+*Cô ấy đã mời chúng tôi tới bữa tiệc sinh nhật của cô ấy.*    
 
 {% endif %}
 
-{% include play.html identifier="regular" start=142.28 stop=147.28 %} **| ed = d for all other verbs |**  
+{% include play.html identifier="regular" start=142.28 stop=147.28 %} **'~ed' = '~d' for all other verbs**  
 *ed phát âm là "d" với những động từ còn lại*
 
-{% include play.html identifier="regular" start=147.28 stop=150.28 %} **The dog followed me home.**    
+1. {% include play.html identifier="regular" start=147.28 stop=150.28 %} **The dog followed me home.**    
 *Con chó đã đi theo tôi về nhà.*   
-{% include play.html identifier="regular" start=150.28 stop=154.58 %} **I cleaned the entire house by myself.**     
+1. {% include play.html identifier="regular" start=150.28 stop=154.58 %} **I cleaned the entire house by myself.**     
 *Tôi đã tự lau dọn cả căn nhà.*     
-{% include play.html identifier="regular" start=154.58 stop=158.58 %} **My sister played music until 3 AM.**     
+1. {% include play.html identifier="regular" start=154.58 stop=158.58 %} **My sister played music until 3 AM.**     
 *Em gái tôi đã mở nhạc tới 3 giờ sáng.*   
- 
 {% if site.trialdeploy %}
 	{% include list_placeholder.html  attr=page.attr     start=4 stop=9 %}
 	{% else %}
-	
-{% include play.html identifier="regular" start=158.58 stop=161.58 %} **Her hair smelled really bad.**     
+1. {% include play.html identifier="regular" start=158.58 stop=161.58 %} **Her hair smelled really bad.**     
 *Tóc cô ta có mùi rất ghê.*    
-{% include play.html identifier="regular" start=161.58 stop=164.58 %} **My neighbor moved to Chicago.**     
+1. {% include play.html identifier="regular" start=161.58 stop=164.58 %} **My neighbor moved to Chicago.**     
 *Hàng xóm của tôi đã chuyển tới Chicago.*   
-{% include play.html identifier="regular" start=164.58 stop=168.58 %} **I returned my library books in time.**     
-*Tôi đã trả lại mấy quyển sách thư viện vừa kịp lúc*
-{% include play.html identifier="regular" start=168.5 stop=171.28 %} **His aunt raised him.**     
+1. {% include play.html identifier="regular" start=164.58 stop=168.58 %} **I returned my library books in time.**     
+*Tôi đã trả lại mấy quyển sách thư viện vừa kịp lúc*    
+1. {% include play.html identifier="regular" start=168.5 stop=171.28 %} **His aunt raised him.**     
 *Cô của anh ấy đã nuôi nấng anh ấy.*   
-{% include play.html identifier="regular" start=171.28 stop=175.28 %} **I traveled all across Europe last year.**     
+1. {% include play.html identifier="regular" start=171.28 stop=175.28 %} **I traveled all across Europe last year.**     
 *Tôi đã đi du lịch khắp Châu Âu năm ngoái.*   
 
 {% endif %}

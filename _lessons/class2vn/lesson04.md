@@ -25,7 +25,7 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 	translation="Thể loại phim bạn yêu thích nhất là gì?"
     tag="h3" %}
 
-**My favorite kind of movie is ...**  *Thể loại phim mà tôi yêu thích nhất là ...*
+**My favorite kind of movie is a / an...**   *Thể loại phim mà tôi yêu thích nhất là ...*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -41,8 +41,7 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 	translation="Bộ phim như thế nào?"
     tag="h3" %}
 
-
-**The movie is...**  *Bộ phim thì ...*
+**The movie is...**   *Bộ phim thì ...*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -62,7 +61,7 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 > *Suất chiếu sớm của phim 'Dangerous City' đã bán hết vé rồi.*    
 > {% include play.html identifier="Native-Dialogue2" start=3.53 stop=5.50 %} Person 2: **What are we gonna do now?**   
 > *Chúng ta sẽ làm gì bây giờ?*   
-> {% include play.html identifier="Native-Dialogue2" start=5.50 stop=8.92 %} P1: **Well, let’s see .. maybe we should wait for the next show.**    
+> {% include play.html identifier="Native-Dialogue2" start=5.50 stop=8.92 %} P1: **Well, let’s see ... maybe we should wait for the next show.**    
 > *Ừ thì, để xem nào... có lẽ chúng ta nên đợi đến suất tiếp theo.*     
 > {% include play.html identifier="Native-Dialogue2" start=8.92 stop=13.73 %} P2: **I can’t. I am meeting Olivia tonight. We are going to a new restaurant together.**      
 > *Tôi không thể. Tôi sẽ gặp Olivia tối nay. Chúng tôi sẽ đi đến nhà hàng mới cùng nhau.*       
@@ -94,27 +93,25 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 	title="Explanation"        
 	translation="Giải thích"
     tag="h2" %}	
-
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=2.75 stop=13.41
 	title="1. The early show of 'Dangerous City' is sold out."        
 	translation="Suất chiếu sớm của 'Dangerous City' đã bán hết rồi."
     tag="h3" %}
 
-**Be sold out.**  *Đã bán hết*
+**Be sold out.**   *Đã bán hết*
 
 - **The movie is sold out.**  
 *Bộ phim đã bán hết vé rồi.*    
 - **The concert was sold out.**  
 *Buổi hòa nhạc đã bán hết vé rồi.*    
-
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=15.23 stop=29.56
 	title="2. What are we gonna do now?"        
 	translation="Chúng ta sẽ làm gì bây giờ?"
     tag="h3" %}
 
-**Be gonna = be going to**  *Sẽ...*
+**Be gonna = be going to**   *Sẽ...*
 
 - **I am gonna go.**  
 *Tôi sẽ đi.*   
@@ -122,14 +119,13 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 *Cô ấy sẽ khóc.*    
 - **What I am gonna say is … I like you.**  
 *Điều tôi sắp nói là … tôi thích bạn.*     
-
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=33.21 stop=45.95
 	title="3. Why don’t we see 'Beyond Everest'?"        
 	translation="Hay là chúng ta xem phim 'Beyond Everest'?"
     tag="h3" %}
 
-**Why don’t we…?**  *Hay là chúng ta... / Tại sao chúng ta không...?*
+**Why don’t we…?**   *Hay là chúng ta... / Tại sao chúng ta không...?*
 
 - **Why don’t we go to the beach?**  
 *Sao chúng ta không đi biển?*    
@@ -137,14 +133,13 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 *Hay là bạn cùng đi với chúng tôi nhé?*   
 - **Why don’t we take a lunch break?**  
 *Sao chúng ta không nghỉ trưa đi?*   
-
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=47.80 stop=62.19
 	title="4. It’s based on a true story."        
 	translation="Nó được dựa trên một câu chuyện có thật."
     tag="h3" %}
 
-**It’s based on…**  *Nó được dựa trên...*
+**It’s based on…**   *Nó được dựa trên...*
 
 - **It’s based on a book.**  
 *Nó được dựa trên một quyển sách.*
@@ -152,14 +147,13 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 *Nó được dựa trên một sự kiện có thật.*
 - **The movie is based on a real-life story.**  
 *Bộ phim được dựa trên một câu chuyện có thật ngoài đời.*
-
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=64.24 stop=79.98
 	title="5. I get tired of just looking at all that action."        
 	translation="Tôi mệt mỏi vì phải xem tất cả các pha hành động đó."
     tag="h3" %}
 
-**I get tired of…**  *Tôi mệt mỏi vì...*
+**I get tired of…**   *Tôi mệt mỏi vì...*
 
 - **I get tired of waiting for him.**  
 *Tôi mệt mỏi vì phải chờ đợi anh ấy.*    
@@ -167,14 +161,13 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 *Tôi mệt mỏi vì phải làm công việc giống nhau ngày này qua ngày khác.*    
 - **I get tired of arguing with her all the time.**  
 *Tôi mệt mỏi vì lúc nào cũng cãi nhau với cô ấy.*    
-
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=82.56 stop=95.58
 	title="6. What is 'Lost and Found in New York' about?"        
 	translation="Bộ phim 'Lost and Found in New York' nói về điều gì?"
     tag="h3" %}
 
-**What is it about?**  *Nó về cái gì?*
+**What is it about?**   *Nó về cái gì?*
 
 - **What is the movie about?**  
 *Bộ phim nói về điều gì?*   
@@ -182,14 +175,13 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 *Câu chuyện nói về điều gì?*   
 - **I want to know what the song is about.**  
 *Tôi muốn biết bài hát đó nói về điều gì.*   
-
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=97.69 stop=109.32
 	title="7. It’s kinda amusing."        
 	translation="Nó kiểu như cũng hài hước."
     tag="h3" %}
 
-**Kinda = kind of**  *Đại loại là, kiểu như là...*
+**Kinda = kind of**   *Đại loại là, kiểu như là...*
 
 - **I am kinda bored now.**  
 *Bây giờ tôi kiểu như cũng chán rồi.*
@@ -197,14 +189,13 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 *Nó đại loại cũng khó cho tôi để hiểu được.*
 - **She’s kinda hot.**  
 *Cô ta khá là nóng bỏng.*
-
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=111.08 stop=124.61
 	title="8. I can’t stand science-fiction movies."        
 	translation="Tôi không thể chịu đựng nổi những bộ phim khoa học viễn tưởng."
     tag="h3" %}
 
-**I can’t stand …**  *Tôi không thể chịu được...*
+**I can’t stand …**   *Tôi không thể chịu được...*
 
 - **I can’t stand her.**  
 *Tôi không thể chịu đựng được cô ta.*
@@ -213,4 +204,3 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 - **I can’t stand it anymore.**  
 *Tôi không thể chịu đựng nó được nữa.*
 
- 

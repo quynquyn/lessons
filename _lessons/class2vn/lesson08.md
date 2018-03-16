@@ -19,7 +19,7 @@ attr:
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Vocabulary"  init=false start=8 stop=53
-	title="Working Condition"        
+	title="Working condition"        
 	translation="Điều kiện làm việc"
     tag="h3" %}
 
@@ -71,7 +71,6 @@ attr:
 > {% include play.html identifier="Conversation" start=37.85 stop=40.63 %} P1: **If you feel miserable, you need to change your job.**  
 *Nếu bạn thấy khổ sở vậy thì bạn phải thay đổi công việc.*    
   
-
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=true
 	title="Explanation"        

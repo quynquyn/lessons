@@ -92,7 +92,7 @@ attr:
 	translation="Cô ấy thích ở nhà và một mình."
     tag="h3" %}
 
-**'prefer' can be followed either by Verb + ing *or* 'to' + Verb**   *'prefer' có thể đi cùng với Verb + ing hoặc 'to' + Verb*
+**'prefer' can be followed either by verb + 'ing' (or) 'to' + verb**   *'prefer' có thể đi cùng với verb + 'ing' hoặc 'to' + verb*
 
 - **He prefers staying at home and watching football to playing it.**  
 *Anh ấy thích ở nhà và xem đá bóng để chơi hơn.*    
@@ -115,7 +115,6 @@ attr:
 *Chỉ cần anh ấy nhìn cô, và cô ấy tan chảy.*    
 - **I tried to be chill but you're so hot I melted.**  
 *Tôi đã cố lạnh lùng nhưng bạn thật nóng bỏng tôi đã tan chảy.*   
-
 
 {% endif %}
 

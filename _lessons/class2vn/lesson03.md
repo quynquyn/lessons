@@ -12,7 +12,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue1"  init=true
-	title="Lesson 2.3: Daily Routine"        
+	title="Lesson 2.3: Daily routine"        
 	translation="Thói quen hằng ngày"
     tag="h1" %}
 
@@ -34,10 +34,10 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
     tag="h2" %}
 
 > {% include play.html identifier="Native-Dialogue2" start=1.67 stop=6.32 %} Kim, Person 2: **Hi John, tell me about how you spend your mornings.**  
-> *Chào John, nói cho tôi nghe bạn đã dành buổi sáng của bạn như thế nào?*
-> {% include play.html identifier="Native-Dialogue2" start=6.32 stop=12.48 %} John, Person 1: **Well, I get up around 7 and then I brush my teeth and wash my face. After that, I get dressed**   
-*Ừ thì, tôi thức dậy vào khoảng 7 giờ và sau đó tôi đánh răng và rửa mặt. Sau đó nữa thì tôi thay đồ.*   
-> {% include play.html identifier="Native-Dialogue2" start=12.48 stop=14.90 %} P2: **What time do you get ready for work?** 
+> *Chào John, nói cho tôi nghe bạn đã dành buổi sáng của bạn như thế nào?*   
+> {% include play.html identifier="Native-Dialogue2" start=6.32 stop=12.48 %} John, Person 1: **Well, I get up around 7 and then I brush my teeth and wash my face. After that, I get dressed.**   
+> *Ừ thì, tôi thức dậy vào khoảng 7 giờ và sau đó tôi đánh răng và rửa mặt. Sau đó nữa thì tôi thay đồ.*   
+> {% include play.html identifier="Native-Dialogue2" start=12.48 stop=14.90 %} P2: **What time do you get ready for work?**   
 > *Mấy giờ bạn chuẩn bị đi làm?*  
 > {% include play.html identifier="Native-Dialogue2" start=14.90 stop=20.63 %} P1: **I usually get ready around 8 AM. After the breakfast, I go to work at around 8:30.**  
 > *Tôi thường chuẩn bị vào khoảng 8 giờ sáng. Sau bữa sáng, tôi đi đến chỗ làm vào khoảng 8 giờ 30 phút.*   
@@ -51,7 +51,6 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 > *Không, tôi không phải một con cú đêm. Tôi là một con chim thức dậy vào lúc sáng sớm.*   
 > {% include play.html identifier="Native-Dialogue2" start=33.18 stop=57.05 %} P2: **John gets up around 7 and then he brushes his teeth and washes his face. After that, he gets dressed. He usually gets ready around 8 AM. After breakfast, he goes to work at around 8.30. It takes him about 20 minutes to go to work by bus. He doesn’t stay up late so he is not a night owl. He is an early bird because he gets up at 7 AM.**  
 > *John thức dậy lúc 7 giờ sáng và sau đó anh ấy đánh răng và rửa  mặt. Sau đó nữa, anh ấy thay đồ. Anh thường chuẩn bị xong lúc khoảng 8 giờ sáng. Sau bữa ăn sáng, anh đi làm vào khoảng 8 giờ 30 phút. Anh ta mất khoảng 20 phút để đi làm bằng xe buýt. Anh ấy không thức khuya vì anh không phải là cú đêm. Anh ấy là một con chim thức dậy lúc sáng sớm vì anh ngủ dậy lúc 7h sáng.*   
-
  
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=true
@@ -83,13 +82,11 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 > *Nghe tuyệt đấy!*     
 >{% include play.html identifier="Native-Dialogue3" start=28.36 stop=47.96 %} P2: **I want to meet Kurt on Saturday and he thinks that’s great idea. Kurt gets up at 7:30 AM and then he goes to his Taekwondo lesson at 9:00. At 11:00 he doesn’t have time because he starts school at that time and he finishes school at 5:30 PM. At 5:45 he meets me for dinner.**    
 > *Tôi muốn gặp Kurt vào thứ Bảy và anh ta nghĩ rằng đó là một ý hay. Kurt thức dậy lúc 7h30 và sau đó, anh ta học Taekwondo vào lúc 9h. Lúc 11h, anh ta không có thời gian rảnh vì anh ta bắt đầu giờ học lúc đó và anh ta học xong lúc 5h:30 chiều. Lúc 5h:45 anh ta gặp tôi cho bữa ăn tối.*  
-
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue4"  init=true
 	title="Exercise"        
 	translation="Bài tập thực hành"
     tag="h2" %} 
-
 {% include play.html identifier="Native-Dialogue4" start=0.95 stop=5.13 %} P1: **My name is Ted. There are a couple of things that I like to do in my daily routine**  
 *Tên tôi là Ted. Có một vài thứ tôi thích làm trong thói quen hằng ngày của tôi.*  
 1. {% include play.html identifier="Native-Dialogue4" start=5.55 stop=13.11 %} **I like to go to a coffee shop in district 3 after class. It’s nice and quiet there. I stay there for an hour or so.**   
@@ -100,7 +97,9 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 *Tôi thích khu mua sắm mới. Tôi thường đi chơi với những người bạn và đồng nghiệp của tôi ở đó. Chúng tôi chỉ đi bộ xung quanh và nói chuyện nhưng rất vui.*   
 4. {% include play.html identifier="Native-Dialogue4" start=31.55 stop=40.11 %} **I don’t cook at home because I like to go out and eat. There’s a new cafe in district 1 I want to try. But it’s busy all the time!**    
 *Tôi không nấu ăn ở nhà vì tôi thích đi ra ngoài và ăn ở ngoài. Có một quán cà phê mới ở quận 1 tôi rất muốn thử. Nhưng nó lúc nào cũng đông.*    
-5. {% include play.html identifier="Native-Dialogue4" start=40.55 stop=47.31 %} **I like to watch sports. My favorites are football and basketball. But I don’t play any sports**    
+5. {% include play.html identifier="Native-Dialogue4" start=40.55 stop=47.31 %} **I like to watch sports. My favorites are football and basketball. But I don’t play any sports.**    
 *Tôi thích xem thể thao. Môn yêu thích của tôi là bóng đá và bóng rổ. Nhưng tôi không chơi môn nào cả.*    
-{% include play.html identifier="Native-Dialogue4" start=47.13 stop=51.67 %} P2: **Can you say what Ted likes to do in his daily routine?**   
+{% include play.html identifier="Native-Dialogue4" start=47.13 stop=51.67 %}    
+
+P2: **Can you say what Ted likes to do in his daily routine?**   
 *Bạn có thể nói Ted thích gì trong thời gian biểu hằng ngày của anh ta không?*   

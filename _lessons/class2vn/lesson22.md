@@ -95,7 +95,7 @@ attr:
 *Tại vì bạn đâu có hỏi. Tôi đến từ New York.*    
 > {% include play.html identifier="conversation" start=7.89 stop=11.28 %} P1: **Oh, wow. That's a really big city. What's it like to live there?**   
 *Ồ, wow. Đó thật sự là một thành phố lớn. Sống ở đó thì như thế nào?*     
-> {% include player2.html identifier="conversation" start=11.28 stop=14.81 %} P2: **It's a bustling city, and there is always something to see there.**  
+> {% include play.html identifier="conversation" start=11.28 stop=14.81 %} P2: **It's a bustling city, and there is always something to see there.**  
 *Nó là một thành phố nhộn nhịp và luôn luôn có cái gì để xem ở đó.*      
 > {% include play.html identifier="conversation" start=14.81 stop=17.46 %} P1: **That's interesting. What is it famous for?**  
 *Thú vị vậy. Nó nổi tiếng vì cái gì?*     

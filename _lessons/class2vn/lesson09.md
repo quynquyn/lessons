@@ -125,7 +125,6 @@ attr:
 	translation="Giải thích"
     tag="h2" %}
 
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Explanation"  init=false start=1.50 stop=10.87 
 	title="1. Are you a shopaholic?"        
@@ -137,14 +136,13 @@ attr:
 - **He is a workaholic.**  
 *Anh ta là người nghiện công việc.*   
 
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Explanation"  init=false start=13.35 stop=31.14
 	title="2. How important is fashion to you?"
 	translation="Đối với bạn thời trang quan trọng như thế nào?"
     tag="h3" %}
 	
-**How + Adjective**   *How + tính từ*
+**How + adjective**   *How + tính từ*
 
 - **How important am I to you?**  
 *Tôi quan trọng với bạn như thế nào?*    
@@ -181,7 +179,6 @@ attr:
 - **Have you ever cheated on someone?**   
 *Bạn đã từng phản bội ai đó chưa?*   
 
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Explanation"  init=false start=61.49 stop=85.94 
 	title="5. I prefer my fashion style to be stylish and comfortable"
@@ -195,7 +192,6 @@ attr:
 - **It depends on the situation. If I hang out with my friends, I want to have a casual and comfortable fashion style. But on special occasions, I prefer it to be elegant and fashionable.**  
 *Nó còn phụ thuộc vào trường hợp. Nếu tôi đi chơi với bạn của tôi, tôi muốn có phong cách bình thường và thoải mái. Nhưng vào những dịp đặc biệt, tôi thích nó thanh lịch và hợp thời trang.*   
 
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Explanation"  init=false  start=88.30 stop=104.66
 	title="6. Does my shirt go well with the jeans?"
@@ -206,7 +202,6 @@ attr:
 *Cái đầm này có hợp với đôi giày của tôi không?*   
 - **Does this pair of glasses go well with the color of my lipstick?**  
 *Cặp mắt kiếng này có hợp với màu son của tôi không?*  
-
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Explanation"  init=false start=107.86 stop=122.76

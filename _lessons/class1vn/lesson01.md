@@ -53,7 +53,6 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 		trial=false %}
 
 
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="ThingsInClass"  init=true
 	title="Things in class"        
@@ -67,7 +66,6 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 		voiceover="ThingsInClass"
 		database=site.data.vocabulary 
 		trial=false %}
-
 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
@@ -85,7 +83,6 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 		trial=false %}
 
 
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="People"  init=true
 	title="Some common verbs"        
@@ -99,9 +96,6 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 		voiceover="People"
 		database=site.data.vocabulary 
 		trial=false %}
-
-
-
 
 ## Uncountable nouns   *Danh từ không đếm được*
 
@@ -118,8 +112,6 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 		voiceover="Important"
 		database=site.data.vocabulary 
 		trial=false %}
-
-
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Other"  init=true

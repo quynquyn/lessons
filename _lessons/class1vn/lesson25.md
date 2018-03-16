@@ -20,7 +20,7 @@ attr:
 *Đây là cái gì?*
 1. {% include play.html identifier="review" start=8.33 stop=11.35 %} **What are those?**  
 *Kia là những cái gì?*
-1. {% include play.html identifier="review" start=11.33 stop=18.35 %} **What makes you happy / sad / disappointed/ angry?**  
+1. {% include play.html identifier="review" start=11.33 stop=18.35 %} **What makes you happy / sad / disappointed / angry?**  
 *Cái gì làm bạn vui / buồn / thất vọng / tức giận?*
 1. {% include play.html identifier="review" start=18.33 stop=23.15 %} **What do you and your friend usually argue about?**  
 *Bạn và bạn của bạn thường tranh cãi về điều gì?*

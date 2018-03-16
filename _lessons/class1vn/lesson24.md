@@ -29,7 +29,7 @@ attr:
 
 {%  include voice.html attr=page.attr                    
 	identifier="vocabulary"  init=false start=68.1 stop=79.19 
-	title="Why do you want to study English?"
+	title="1. Why do you want to study English?"
 	translation="Vì sao bạn muốn học tiếng Anh?"
 	tag="h3"%}
 	
@@ -48,7 +48,7 @@ attr:
 
 {%  include voice.html attr=page.attr                    
 	identifier="vocabulary"  init=false start=79.1 stop=90.19 
-	title="Why do you love to travel?"
+	title="2. Why do you love to travel?"
 	translation="Vì sao bạn thích đi du lịch?"
 	tag="h3"%}
 
@@ -61,7 +61,7 @@ attr:
 
 {%  include voice.html attr=page.attr                    
 	identifier="vocabulary"  init=false start=90.1 stop=101.19 
-	title="Why do you feel stressed?"
+	title="3. Why do you feel stressed?"
 	translation="Tại sao bạn cảm thấy căng thẳng?"
 	tag="h3"%}   
 
@@ -74,7 +74,7 @@ attr:
 
 {%  include voice.html attr=page.attr                    
 	identifier="vocabulary"  init=false start=101.1 stop=112.19 
-	title="Why do people want to live in the city?"
+	title="4. Why do people want to live in the city?"
 	translation="Vì sao mọi người muốn sống trong thành phố?"
 	tag="h3"%}   
 
@@ -87,7 +87,7 @@ attr:
 
 {%  include voice.html attr=page.attr                    
 	identifier="vocabulary"  init=false start=112.1 stop=122.19
-	title="Why do people want to live in the countryside?"
+	title="5. Why do people want to live in the countryside?"
 	translation="Vì sao mọi người muốn sống ở vùng quê?"
 	tag="h3"%}  
 
@@ -100,7 +100,7 @@ attr:
 
 {%  include voice.html attr=page.attr                    
 	identifier="vocabulary"  init=false start=122.1 stop=134.19
-	title="Why did you break up with him?"
+	title="6. Why did you break up with him?"
 	translation="Tại sao bạn chia tay anh ấy?"
 	tag="h3"%}  
 
@@ -113,7 +113,7 @@ attr:
 
 {%  include voice.html attr=page.attr                    
 	identifier="vocabulary"  init=false start=134.1 stop=145.19
-	title="Why do you feel sad?"
+	title="7. Why do you feel sad?"
 	translation="Tại sao bạn cảm thấy buồn?"
 	tag="h3"%}  
 
@@ -126,7 +126,7 @@ attr:
 
 {%  include voice.html attr=page.attr                    
 	identifier="vocabulary"  init=false start=145.1 stop=155.59
-	title="Why are you in the hospital?"
+	title="8. Why are you in the hospital?"
 	translation="Tại sao bạn ở trong bệnh viện?"
 	tag="h3"%}  
 

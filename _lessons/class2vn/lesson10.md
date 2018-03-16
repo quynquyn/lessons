@@ -23,7 +23,7 @@ attr:
 	translation="Mục đích"
     tag="h3" %}
 
-#### For fun   *Để vui*
+### For fun   *Để vui*
 
 {% include wordgrid.html lang=page.lang  
 		class=page.class 
@@ -37,7 +37,7 @@ attr:
 	identifier="vocabulary"  init=false start=22 stop=32
 	title="For education"        
 	translation="Để học hỏi"
-    tag="h4" %}
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -51,7 +51,7 @@ attr:
 	identifier="vocabulary"  init=false start=32 stop=54
 	title="For other purposes"        
 	translation="Cho những mục đích khác"
-    tag="h4" %}
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -133,7 +133,7 @@ attr:
 	translation="Tôi thường sử dụng nó để chơi trò chơi."
     tag="h3" %}
 
-**'to' + Verb or 'in order to' + Verb** 
+**'to' + verb or 'in order to' + verb** 
 
 - **I go there to study English.**  
 *Tôi đi đến đó để học Tiếng Anh.*   
@@ -148,7 +148,7 @@ attr:
 	translation="Tôi thấy cái màn hình quá nhỏ."
     tag="h3" %}
 
-**I find someone or something + Adjective**   *Tôi thấy...*
+**I find someone or something + adjective**   *Tôi thấy...*
 
 - **I find superhero movies silly.**  
 *Tôi thấy những bộ phim anh hùng thật ngớ ngẩn.*  

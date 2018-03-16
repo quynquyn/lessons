@@ -59,16 +59,13 @@ attr:
 - **I can't focus on two things at the same time.**  
 *Tôi không thể tập trung hai thứ cùng một lúc.*   
 
-
-
-
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=26.32 stop=46.72
 	title="2. They always keep complaining."
 	translation="Họ luôn than vãn."
     tag="h3" %}
 
-**Keep + Verb + ing**   
+**'Keep' + verb + 'ing'**   
 
 - **I keep smiling.**  
 *Tôi luôn cười.*   
@@ -76,7 +73,6 @@ attr:
 *Tôi bước tiếp mặc dù người đàn ông bảo tôi dừng lại.*    
 - **I kept believing in what he told me until I met his wife.**  
 *Tôi cứ tin vào điều anh ta nói cho đến khi tôi gặp vợ anh ấy.*    
-
 
 {% if site.trialdeploy %}
 	{% include explanation_placeholder.html  attr=page.attr     start=3 stop=4 %}
@@ -88,14 +84,12 @@ attr:
 	translation="Tôi không muốn đi chơi với họ trừ khi họ trở nên lạc quan hơn."
     tag="h3" %}
 
-
 - **You can't get a job unless you have experience.**  
 *Bạn không thể có công việc trừ khi bạn có kinh nghiệm.*   
 - **You can't pass the exam unless you study harder.**  
 *Bạn không thể vượt qua bài kiểm tra trừ khi bạn học hành chăm chỉ hơn.*    
 - **The kid won't go to sleep unless you tell him a story.**  
 *Đứa trẻ không chịu ngủ trừ khi bạn kể cho nó một câu chuyện.*    
-
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=70.33 stop=88.75
@@ -110,8 +104,6 @@ attr:
 - **Why do some people get promoted and others don't?**  
 *Tại sao một vài người được thăng chức và những ngươi khác thì không?*    
   
-
-
 {% endif %}
 
 
