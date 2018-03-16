@@ -202,7 +202,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Dialogue"  init=false start=95 stop=102 
-	title="A. What do you choose?"        
+	title="1. What do you choose?"        
 	translation="Bạn chọn gì?"
     tag="h3" %}
 
@@ -215,7 +215,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Dialogue"  init=false start=103 stop=110
-	title="B. What do you like?"        
+	title="2. What do you like?"        
 	translation="Bạn thích gì?"
     tag="h3" %}
 
@@ -227,7 +227,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Dialogue"  init=false start=110 stop=116
-	title="C. What do you need?"        
+	title="3. What do you need?"        
 	translation="Bạn cần gì?"
     tag="h3" %}
 
@@ -238,7 +238,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Dialogue"  init=false start=116 stop=124
-	title="D. What do you have?"        
+	title="4. What do you have?"        
 	translation="Bạn có gì?"
     tag="h3" %}
 
@@ -252,7 +252,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Dialogue"  init=false start=124 stop=130
-	title="E. What do you want?"        
+	title="5. What do you want?"        
 	translation="Bạn muốn gì?"
     tag="h3" %}
 
@@ -264,7 +264,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Dialogue"  init=false start=130 stop=137 
-	title="F. What do you hate?"
+	title="6. What do you hate?"
 	translation="Bạn ghét gì?"
     tag="h3" %}
 
@@ -276,7 +276,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Dialogue"  init=false start=137 stop=143
-	title="G. What do you look for?"
+	title="7. What do you look for?"
 	translation="Bạn tìm gì?"
     tag="h3" %}
 
@@ -287,7 +287,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Dialogue"  init=false start=143 stop=150
-	title="H. What do you look at?"
+	title="8. What do you look at?"
 	translation="Bạn nhìn gì vậy?"
     tag="h3" %}
 
@@ -298,7 +298,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Dialogue"  init=false start=150 stop=158 
-	title="I. What do you observe?"
+	title="9. What do you observe?"
 	translation="Bạn quan sát gì?"
     tag="h3" %}
 
@@ -310,7 +310,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Dialogue"  init=false start=158 stop=666
-	title="J. What do you study?"
+	title="10. What do you study?"
 	translation="Bạn học gì?"
     tag="h3" %}
 

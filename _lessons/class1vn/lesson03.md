@@ -12,7 +12,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 
 {%  include voice.html attr=page.attr                     tag="h1"
 	identifier="Words"  init=true
-	title="Lesson 1.3: Noun + Verb (what + do)"        
+	title="Lesson 1.3: Noun + verb (what + do)"        
 	translation="Danh từ + động từ (cái gì + làm gì)"
 %}
 
@@ -57,7 +57,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 
 {%  include voice.html attr=page.attr                           tag="h3"
 	identifier="Native-Dialogue"              init=false start=6 stop=16
-	title="A1. What do you cover?"        
+	title="1. What do you cover?"        
 	translation="Bạn che phủ cái gì vậy?"
 %}
 
@@ -70,7 +70,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 
 {%  include voice.html attr=page.attr                           tag="h3"
 	identifier="Native-Dialogue"              init=false start=16 stop=24
-	title="A2. What do you wear?"        
+	title="2. What do you wear?"        
 	translation="Bạn mặc gì vậy?"
 %}
 
@@ -82,7 +82,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 
 {%  include voice.html attr=page.attr                           tag="h3"
 	identifier="Native-Dialogue"              init=false start=24 stop=34
-	title="A3. What do you decorate?"
+	title="3. What do you decorate?"
 	translation="Bạn trang trí gì?"
 %}
 
@@ -124,23 +124,20 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 
 {%  include voice.html attr=page.attr                           tag="h3"
 	identifier="Native-Dialogue"              init=false start=55 stop=71
-	title="B1. Do you sell cars?"
+	title="1. Do you sell cars?"
 	translation="Bạn có bán xe hơi không?"
 %}
 
 > **No, I don’t sell cars.**     
 > *Không, tôi không bán xe hơi.* 
-
 > **Do you sell trucks?**     
 > *Bạn có bán xe tải không?*    
 > **No, I don’t sell trucks.**     
 > *Không, tôi không bán xe tải.*   
-
 > **Do you sell motorbikes?**    
 > *Bạn có bán xe máy không?*   
 > **No, I don’t sell motorbikes.**     
 > *Không, tôi không bán xe máy.*   
-
 > **What do you sell?**     
 > *Vậy bạn bán gì?*   
 > **I sell bikes.**     
@@ -149,18 +146,16 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 
 {%  include voice.html attr=page.attr                           tag="h3"
 	identifier="Native-Dialogue"              init=false start=71 stop=666
-	title="B2.  Do you play the piano?"
+	title="2.  Do you play the piano?"
 	translation="Bạn có chơi piano không?"
 %}
 
 > **No, I don’t play the piano.**   
 > *Không, tôi không chơi đàn piano.*  
-
 > **Do you play the guitar?**     
 > *Bạn có chơi ghi-ta không?*   
 > **No, I don’t play the guitar.**    
 > *Không, tôi không chơi ghi-ta.*   
-
 > **What do you play?**     
 > *Vậy bạn chơi gì?*   
 > **I play the violin.**     

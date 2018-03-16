@@ -84,7 +84,7 @@ attr:
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="Explanation1"  init=true
-	title="1. Building sentences with one verb and verb to verb"        
+	title="1. Building sentences with one verb and verb + 'to' + verb"        
 	translation="Viết câu với một động từ và động từ cùng động từ"
 %}
 
