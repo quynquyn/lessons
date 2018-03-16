@@ -11,7 +11,7 @@ attr:
 
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=true
-	title="Lesson 1.10: Adjective + Preposition"        
+	title="Lesson 1.10: Adjective + preposition"        
 	translation="Tính từ + giới từ"
     tag="h1" %}
 

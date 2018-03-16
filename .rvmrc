@@ -1,1 +1,1 @@
-rvm ruby-2.3.1@jekyll --create
+rvm ruby-head@eljekyll --create

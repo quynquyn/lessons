@@ -17,7 +17,7 @@ attr:
 
 
 
-## 1. Yes / No questions   *Câu hỏi có / không*
+## 1. Yes / No Questions   *Câu hỏi có / không*
 
 1.  {% include play.html identifier="examples5" start=13.23 stop=15.14 %}**Do you need this pen?**     
 *Bạn có cần cây bút này không?*    
@@ -157,7 +157,7 @@ attr:
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="examples4"  init=true
-	title="5. Is it + Adjective + to Verb"
+	title="5. Is it + adjective + 'to' + verb"
 	translation="Có phải + tính từ + động từ to Verb"
 %}
 
