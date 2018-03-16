@@ -74,10 +74,10 @@ attr:
 	translation="Động từ chỉ hoạt động"
 %}
 
-> 1. {% include play.html identifier="regular" start=3.11 stop=9.98 %} **Did you sister help you do homework?**        
-*Chị của bạn có giúp bạn làm bài tập về nhà không?* - 
-> **No, My sister didn’t help me do anything.**    
-*Không, chị tôi đã không giúp tôi làm gì hết.*       > 
+> 1. {% include play.html identifier="regular" start=3.11 stop=9.98 %} **Did you sister help you do homework?**         
+*Chị của bạn có giúp bạn làm bài tập về nhà không?*     
+> **No, My sister didn’t help me do anything.**     
+*Không, chị tôi đã không giúp tôi làm gì hết.*      
 
 > 2. {% include play.html identifier="regular" start=10.11 stop=14.4 %} **Did Sarah finish her homework?**         
 *Sarah đã hoàn thành bài tập về nhà chưa?*   

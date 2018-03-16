@@ -86,9 +86,9 @@ attr:
 	translation="Ví dụ của Thì tương lai đơn"
     tag="h2" %}
 
-**'Will' - when making a decision = volunteer**   *Will - khi đưa ra quyết định = tình nguyện*
-**'Going to' - after the decision is made = plans***   *Going to - sau khi đã đưa ra quyết định*
-**'Will' (or) 'going to' = predictions**   *Will hoặc Going to = dự đoán*
+**'Will' - when making a decision = volunteer**   *Will - khi đưa ra quyết định = tình nguyện*      
+**'Going to' - after the decision is made = plans**   *Going to - sau khi đã đưa ra quyết định*      
+**'Will' (or) 'going to' = predictions**   *Will hoặc Going to = dự đoán*     
 
 1. {% include play.html identifier="examples1" start=23.16 stop=29.11 %} **Daniel is going to compete with his girlfriend in the singing contest.**      
  *Daniel sẽ cạnh tranh với bạn gái anh ấy trong cuộc thi hát.*      

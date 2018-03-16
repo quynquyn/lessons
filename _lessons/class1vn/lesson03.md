@@ -129,7 +129,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 %}
 
 > **No, I don’t sell cars.**     
-> *Không, tôi không bán xe hơi.* 
+> *Không, tôi không bán xe hơi.*     
 > **Do you sell trucks?**     
 > *Bạn có bán xe tải không?*    
 > **No, I don’t sell trucks.**     

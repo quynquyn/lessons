@@ -25,8 +25,7 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-## Explanation   *Giải thích*
-	
+## Explanation   *Giải thích*      
 {%  include voice.html attr=page.attr  
 	identifier="Explanation1"  init=true
 	title="1. It's easy to learn English."        
@@ -67,7 +66,6 @@ attr:
 14. {% include play.html identifier="Explanation1" start=71 stop=80 %} **It's smart of him to answer the question.**  
 *Anh ta thật thông minh khi trả lời câu hỏi đó.*
 {% endif %}
-
 {%  include voice.html attr=page.attr  
 	identifier="Explanation2"  init=true
 	title="2. Verb + 'ing' => it"        
@@ -104,7 +102,6 @@ attr:
 	title="3. So and Such"        
 	translation="Thật và Đúng là"
     tag="h3" %}
-
 1. {% include play.html identifier="Explanation3" start=3 stop=10 %} **That movie is so good. / It's such a good movie.**  
 *Bộ phim đó thật hay. /Nó đúng là một bộ phim hay.*
 2. {% include play.html identifier="Explanation3" start=11 stop=17 %} **The idea is so bad. / This is such a bad idea.**  
@@ -129,7 +126,6 @@ attr:
 	title="4. There is / There are"        
 	translation="Có..."
     tag="h3" %}
-
 1. {% include play.html identifier="Explanation4" start=5 stop=8 %} **There is a book on the chair.**  
 *Có một quyển sách trên ghế.*
 2. {% include play.html identifier="Explanation4" start=9 stop=14 %} **There are some cats on the grass.**  

@@ -123,11 +123,9 @@ attr:
 *Khi nào là ngày Quốc Khánh của Việt Nam?*   
 > **Vietnamese Independence Day is on September 2nd.**       
 *Ngày Quốc Khánh của Việt Nam là vào ngày 2 tháng 9.*       
-
 {% if site.trialdeploy %}
 	{% include list_placeholder.html  attr=page.attr     start=5 stop=10 %}
 	{% else %}
-
 > 5. {% include play.html identifier="examples1" start=40.38 stop=46.14 %} **When is Halloween?**         
 *Halloween là khi nào?*    
 > **Halloween is on the 31st of October.**    
@@ -152,7 +150,6 @@ attr:
 *Bây giờ là mấy giờ?*   
 > **It's a quarter to six.**     
 *Bây giờ là 6 giờ kém 15 phút.*     
-
 {% endif %}
 
 {%  include voice.html attr=page.attr  
@@ -160,7 +157,6 @@ attr:
 	title="More examples"        
 	translation="Ví dụ thêm"
     tag="h2" %}
-
 > 1. {% include play.html identifier="examples2" start=4.30 stop=10.21 %} **When do you do homework?**         
 *Khi nào bạn làm bài tập về nhà?*   
 > **I do homework whenever I have free time.**    
@@ -181,11 +177,9 @@ attr:
 *Bạn ăn trưa vào lúc nào?*   
 > **I have lunch at noon.**    
 *Tôi ăn trưa vào buổi trưa.*      
-
 {% if site.trialdeploy %}
 	{% include list_placeholder.html  attr=page.attr     start=6 stop=14 %}
 	{% else %}
-
 > 6. {% include play.html identifier="examples2" start=39.47 stop=44.32 %}**When does the sun rise?**        
 *Khi nào mặt trời mọc?*  
 > **The sun rises in the morning.**  
