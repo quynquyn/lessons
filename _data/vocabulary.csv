@@ -1,10 +1,10 @@
-class,lesson,section,word_en,word_vn,word_pt,image_name,image_url,ts_start,ts_stop,,FUCKING SORT,sorting ok?,is formula
+class,lesson,section,word_en,word_vn,word_pt,image_name,image_url,ts_start,ts_stop,error?,FUCKING SORT,sorting ok?,is formula
 1,05,pronoun,I,tôi,eu,c1l05-i.jpg,images/class1/c1l05-i.jpg,7.39,16.32,,"1,050,007.39",ok,TRUE
 1,05,pronoun,we,chúng tôi/ta,nós,c1l05-we.jpg,images/class1/c1l05-we.jpg,9.36,11.84,,"1,050,009.36",ok,FALSE
-1,05,pronoun,you,bạn,você,c1l05-you.jpg,images/class1/c1l05-you.jpg,11.84,28.72,,"1,050,011.84",ok,TRUE
-1,05,pronoun,they,họ,eles / elas,c1l05-they.jpg,images/class1/c1l05-they.jpg,13.97,11.84,ERROR,"1,050,013.97",ok,FALSE
-1,05,pronoun,he,anh/ông ấy,ele,c1l05-he.jpg,images/class1/c1l05-he.jpg,16.32,11.84,ERROR,"1,050,016.32",ok,FALSE
-1,05,pronoun,she,cô/bà ấy,ela,c1l05-she.jpg,images/class1/c1l05-she.jpg,18.9,28.72,,"1,050,018.90",ok,TRUE
+1,05,pronoun,you,bạn,você,c1l05-you.jpg,images/class1/c1l05-you.jpg,11.84,13.11,,"1,050,011.84",ok,FALSE
+1,05,pronoun,they,họ,eles / elas,c1l05-they.jpg,images/class1/c1l05-they.jpg,13.97,16.11,,"1,050,013.97",ok,FALSE
+1,05,pronoun,he,anh/ông ấy,ele,c1l05-he.jpg,images/class1/c1l05-he.jpg,16.32,18.11,,"1,050,016.32",ok,FALSE
+1,05,pronoun,she,cô/bà ấy,ela,c1l05-she.jpg,images/class1/c1l05-she.jpg,18.9,20.11,,"1,050,018.90",ok,FALSE
 1,05,pronoun,it,nó,ele / ela (neutrum),c1l05-it.jpg,images/class1/c1l05-it.jpg,21.04,23.44,,"1,050,021.04",ok,FALSE
 1,05,peopleinyourfamily,father,bố,pai,c1l05-father.jpg,images/class1/c1l05-father.jpg,26.72,28.72,,"1,050,026.72",ok,TRUE
 1,05,peopleinyourfamily,mother,mẹ,mãe,c1l05-mother.jpg,images/class1/c1l05-mother.jpg,28.72,31.59,,"1,050,028.72",ok,TRUE
@@ -18,7 +18,7 @@ class,lesson,section,word_en,word_vn,word_pt,image_name,image_url,ts_start,ts_st
 1,05,peopleinyourfamily,children,con cái/ trẻ em,filhos,c1l05-children.jpg,images/class1/c1l05-children.jpg,46.96,49.12,,"1,050,046.96",ok,TRUE
 1,05,peopleinyourfamily,aunt,dì,tia,c1l05-aunt.jpg,images/class1/c1l05-aunt.jpg,49.12,51.21,,"1,050,049.12",ok,TRUE
 1,05,peopleinyourfamily,uncle,chú,tio,c1l05-uncle.jpg,images/class1/c1l05-uncle.jpg,51.21,53.72,,"1,050,051.21",ok,TRUE
-1,05,peopleinyourfamily,wife,vợ,esposa,c1l05-wife.jpg,images/class1/c1l05-wife.jpg,53.72,63.51,,"1,050,053.72",ok,TRUE
+1,05,peopleinyourfamily,wife,vợ,esposa,c1l05-wife.jpg,images/class1/c1l05-wife.jpg,53.72,56.11,,"1,050,053.72",ok,FALSE
 1,05,peopleinyourfamily,husband,chồng,marido,c1l05-husband.jpg,images/class1/c1l05-husband.jpg,55.92,58.25,,"1,050,055.92",ok,FALSE
 1,05,jobs,waiter,phục vụ nam,garçom,c1l05-waiter.jpg,images/class1/c1l05-waiter.jpg,61.64,63.51,,"1,050,061.64",ok,TRUE
 1,05,jobs,waitress,phục vụ nữ,garçonete,c1l05-waitress.jpg,images/class1/c1l05-waitress.jpg,63.51,65.21,,"1,050,063.51",ok,TRUE
@@ -306,11 +306,11 @@ class,lesson,section,word_en,word_vn,word_pt,image_name,image_url,ts_start,ts_st
 1,15,simplepasttense,an hour earlier,một giờ trước đó,uma hora atrás,c1l15-an-hour-earlier.jpg,images/class1/c1l15-an-hour-earlier.jpg,24.1,26.2,,"1,150,024.10",ok,TRUE
 1,15,simplepasttense,last summer,hè năm ngoái,verão passado,c1l15-last-summer.jpg,images/class1/c1l15-last-summer.jpg,26.2,28.1,,"1,150,026.20",ok,TRUE
 1,15,simplepasttense,last christmas,giáng sinh năm ngoái,último Natal,c1l15-last-christmas.jpg,images/class1/c1l15-last-christmas.jpg,28.1,30,,"1,150,028.10",ok,FALSE
-1,15,tobe,I was,tôi đã,eu fui,c1l15-i-was.jpg,images/class1/c1l15-i-was.jpg,34.85,46.83,,"1,150,034.85",ok,TRUE
+1,15,tobe,I was,tôi đã,eu fui,c1l15-i-was.jpg,images/class1/c1l15-i-was.jpg,34.85,37.11,,"1,150,034.85",ok,FALSE
 1,15,tobe,you were,bạn đã,você foi,c1l15-you-were.jpg,images/class1/c1l15-you-were.jpg,37.36,42.6,,"1,150,037.36",ok,TRUE
-1,15,tobe,we were,chúng ta đã,nós fomos,c1l15-we-were.jpg,images/class1/c1l15-we-were.jpg,39.09,34.85,ERROR,"1,150,039.09",ok,FALSE
+1,15,tobe,we were,chúng ta đã,nós fomos,c1l15-we-were.jpg,images/class1/c1l15-we-were.jpg,39.09,40.55,,"1,150,039.09",ok,FALSE
 1,15,tobe,you were,bạn đã,vocês foram,c1l15-you-were.jpg,images/class1/c1l15-you-were.jpg,40.75,46.83,,"1,150,040.75",ok,TRUE
-1,15,tobe,he / she / it was,anh ấy/ cô ấy/ nó đã,Ele / ela / ele foi,c1l15-he-she-it-was.jpg,images/class1/c1l15-he-she-it-was.jpg,42.6,39.09,ERROR,"1,150,042.60",ok,FALSE
+1,15,tobe,he / she / it was,anh ấy/ cô ấy/ nó đã,Ele / ela / ele foi,c1l15-he-she-it-was.jpg,images/class1/c1l15-he-she-it-was.jpg,42.6,47.11,,"1,150,042.60",ok,FALSE
 1,15,tobe,they were,họ đã,Eles / elas foram,c1l15-they-were.jpg,images/class1/c1l15-they-were.jpg,46.83,48.46,,"1,150,046.83",ok,FALSE
 1,16,all,bite,cắn/chích,morder,c1l16-bite.jpg,images/class1/c1l16-bite.jpg,9.7,10.69,,"1,160,009.70",ok,FALSE
 1,16,all,feed,nuôi/cho ăn,alimentar,c1l16-feed.jpg,images/class1/c1l16-feed.jpg,11.65,12.23,,"1,160,011.65",ok,FALSE
@@ -399,7 +399,7 @@ class,lesson,section,word_en,word_vn,word_pt,image_name,image_url,ts_start,ts_st
 1,19,livingroom,rocking chair,ghế bập bênh,cadeira de balanço,c1l19-rocking-chair.jpg,images/class1/c1l19-rocking-chair.jpg,75.27,77.1,,"1,190,075.27",ok,FALSE
 1,19,livingroom,stool,ghế đẩu,tamborete,c1l19-stool.jpg,images/class1/c1l19-stool.jpg,77.06,78.7,,"1,190,077.06",ok,FALSE
 1,19,livingroom,book,sách,livro,c1l19-book.jpg,images/class1/c1l19-book.jpg,78.33,80.7,,"1,190,078.33",ok,FALSE
-1,19,livingroom,couch,ghế trường kỉ,sofá,c1l19-couch.jpg,images/class1/c1l19-couch.jpg,79.91,71.6,ERROR,"1,190,079.91",ok,FALSE
+1,19,livingroom,couch,ghế trường kỉ,sofá,c1l19-couch.jpg,images/class1/c1l19-couch.jpg,79.91,81.6,,"1,190,079.91",ok,FALSE
 1,19,livingroom,sofa,ghế xôpha,sofá,c1l19-sofa.jpg,images/class1/c1l19-sofa.jpg,81.55,83.5,,"1,190,081.55",ok,FALSE
 1,19,livingroom,cushion,nệm,almofada,c1l19-cushion.jpg,images/class1/c1l19-cushion.jpg,83.34,84.9,,"1,190,083.34",ok,FALSE
 1,19,livingroom,fireplace,lò sưởi,lareira,c1l19-fireplace.jpg,images/class1/c1l19-fireplace.jpg,85.01,87.2,,"1,190,085.01",ok,FALSE
@@ -409,7 +409,7 @@ class,lesson,section,word_en,word_vn,word_pt,image_name,image_url,ts_start,ts_st
 1,20,makesmile,drinking alcohol,uống rượu,beber álcool,c1l20-drinking-alcohol.jpg,images/class1/c1l20-drinking-alcohol.jpg,12.82,14.73,,"1,200,012.82",ok,TRUE
 1,20,makesmile,playing with pets,chơi với thú cưng,brincar com animais de estimação,c1l20-playing-with-pets.jpg,images/class1/c1l20-playing-with-pets.jpg,14.73,17.05,,"1,200,014.73",ok,TRUE
 1,20,makesmile,sleeping,ngủ,dormir,c1l20-sleeping.jpg,images/class1/c1l20-sleeping.jpg,17.05,18.68,,"1,200,017.05",ok,TRUE
-1,20,makesmile,sunshine,ánh nắng,luz do sol,c1l20-sunshine.jpg,images/class1/c1l20-sunshine.jpg,18.68,12.64,ERROR,"1,200,018.68",ok,FALSE
+1,20,makesmile,sunshine,ánh nắng,luz do sol,c1l20-sunshine.jpg,images/class1/c1l20-sunshine.jpg,18.68,20.5,,"1,200,018.68",ok,FALSE
 2,03,vocabulary,get up / wake up,thức dậy,levantar-se / acordar,c2l03-get-up-wake-up.jpg,images/class2/c2l03-get-up-wake-up.jpg,12.64,15.39,,"2,030,012.64",ok,FALSE
 2,03,vocabulary,make my bed,gấp chăn màn,fazer minha cama,c2l03-make-my-bed.jpg,images/class2/c2l03-make-my-bed.jpg,17,18.59,,"2,030,017.00",ok,FALSE
 2,03,vocabulary,brush my teeth,đánh răng,escovar meus dentes,c2l03-brush-my-teeth.jpg,images/class2/c2l03-brush-my-teeth.jpg,20.24,21.36,,"2,030,020.24",ok,FALSE
@@ -498,8 +498,8 @@ class,lesson,section,word_en,word_vn,word_pt,image_name,image_url,ts_start,ts_st
 2,05,parentsdo,feed the dog,cho chó ăn,alimentar o cachorro,c2l05-feed-the-dog.jpg,images/class2/c2l05-feed-the-dog.jpg,144.45,146.7,,"2,050,144.45",ok,FALSE
 2,05,parentsdo,make most of the decisions,đưa ra hầu hết các quyết định,tomar a maioria das decisões,c2l05-make-most-of-the-decisions.jpg,images/class2/c2l05-make-most-of-the-decisions.jpg,148.12,151.32,,"2,050,148.12",ok,FALSE
 2,05,parentsdo,argue with you,tranh cãi với bạn,brigar com você,c2l05-argue-with-you.jpg,images/class2/c2l05-argue-with-you.jpg,153.63,155.4,,"2,050,153.63",ok,FALSE
-2,05,parentsdo,call you when you go out late at night,bạn có thể ra khỏi nhà lúc đêm muộn không,ligar para você se sair tarde de noite,c2l05-call-you-when-you-go-out-late-at-night.jpg,images/class2/c2l05-call-you-when-you-go-out-late-at-night.jpg,157.35,159.97,,"2,050,157.35",ok,FALSE
-2,05,job,businessman,doanh nhân,empresário/a,c2l05-businessman.jpg,images/class2/c2l05-businessman.jpg,3115,33.23,ERROR,"2,053,115.00",ok,FALSE
+2,05,parentsdo,call you when you go out late at night,bạn có thể ra khỏi nhà lúc đêm muộn không,ligar para você se sair tarde de noite,c2l05-call-you-when-you-go-out-late-at-night.jpg,images/class2/c2l05-call-you-when-you-go-out-late-at-night.jpg,157.35,159.97,,"2,050,157.35",error,FALSE
+2,05,job,businessman,doanh nhân,empresário/a,c2l05-businessman.jpg,images/class2/c2l05-businessman.jpg,31.15,33.23,,"2,050,031.15",ok,FALSE
 2,06,whatcanyoudothere,go sightseeing,đi ngắm cảnh,ir ver pontos turísticos,c2l06-go-sightseeing.jpg,images/class2/c2l06-go-sightseeing.jpg,12,14.25,,"2,060,012.00",ok,TRUE
 2,06,whatcanyoudothere,enjoy the beauty of the landscape,tận hưởng vẻ đẹp của phong cảnh,aproveitar a beleza da paisagem,c2l06-enjoy-the-beauty-of-the-landscape.jpg,images/class2/c2l06-enjoy-the-beauty-of-the-landscape.jpg,14.25,17.06,,"2,060,014.25",ok,TRUE
 2,06,whatcanyoudothere,visit the museum,thăm viện bảo tàng,visitar o museu,c2l06-visit-the-museum.jpg,images/class2/c2l06-visit-the-museum.jpg,17.06,21.4,,"2,060,017.06",ok,TRUE
@@ -1015,7 +1015,7 @@ class,lesson,section,word_en,word_vn,word_pt,image_name,image_url,ts_start,ts_st
 2,22,describe,modern,hiện đại,moderno,c2l22-modern.jpg,images/class2/c2l22-modern.jpg,11.79,13.16,,"2,220,011.79",ok,FALSE
 2,22,describe,well-developed,phát triển mạnh,bem desenvolvido,c2l22-well-developed.jpg,images/class2/c2l22-well-developed.jpg,13.16,14.59,,"2,220,013.16",ok,FALSE
 2,22,describe,bustling,vội vàng,agitado,c2l22-bustling.jpg,images/class2/c2l22-bustling.jpg,14.59,15.81,,"2,220,014.59",ok,FALSE
-2,22,problems,homelessness,tình trạng vô gia cư,falta de abrigo,c2l22-homelessness.jpg,images/class2/c2l22-homelessness.jpg,15.81,63.18,,"2,220,015.81",ok,FALSE
+2,22,problems,homelessness,tình trạng vô gia cư,falta de abrigo,c2l22-homelessness.jpg,images/class2/c2l22-homelessness.jpg,15.81,18.18,,"2,220,015.81",ok,FALSE
 2,22,problems,beggars,ăn xin,mendigos,c2l22-beggars.jpg,images/class2/c2l22-beggars.jpg,63.18,65.04,,"2,220,063.18",ok,FALSE
 2,22,problems,traffic congestion,tắc nghẽn giao thông,congestionamento,c2l22-traffic-congestion.jpg,images/class2/c2l22-traffic-congestion.jpg,65.04,67.1,,"2,220,065.04",ok,FALSE
 2,22,problems,sub-standard housing,nhà xuống cấp,habitação inferior,c2l22-sub-standard-housing.jpg,images/class2/c2l22-sub-standard-housing.jpg,67.1,69.04,,"2,220,067.10",ok,FALSE
@@ -1361,7 +1361,7 @@ class,lesson,section,word_en,word_vn,word_pt,image_name,image_url,ts_start,ts_st
 2,02,vocabulary,slow internet connection,mạng internet chậm,conexão de internet lenta,c2l02-slow-internet-connection.jpg,images/class2/c2l02-slow-internet-connection.jpg,80.41,82.31,,"2,020,080.41",ok,FALSE
 2,02,vocabulary,being early to the airport,tới sân bay sớm,estar cedo no aeroporto,c2l02-being-early-to-the-airport.jpg,images/class2/c2l02-being-early-to-the-airport.jpg,84.88,86.84,,"2,020,084.88",ok,FALSE
 2,02,vocabulary,arriving at the destination and realizing that you forgot something,tới điểm đến và nhận ra rằng bạn quên gì đó,chegar ao destino e perceber que você esqueceu algo,c2l02-arriving-at-the-destination-and-realizing-that-you-forgot-something.jpg,images/class2/c2l02-arriving-at-the-destination-and-realizing-that-you-forgot-something.jpg,89.7,95.57,,"2,020,089.70",error,FALSE
-2,01,vocabulary,playing football,chơi thể thao,jogar futebol ,c2l01-playing-football.jpg,images/class2/c2l01-playing-football.jpg,8.6,21.92,,"2,010,008.60",ok,FALSE
+2,01,vocabulary,playing football,chơi thể thao,jogar futebol ,c2l01-playing-football.jpg,images/class2/c2l01-playing-football.jpg,8.6,11.92,,"2,010,008.60",ok,FALSE
 2,01,vocabulary,ping-pong,bóng bàn,pingue-pongue,c2l01-ping-pong.jpg,images/class2/c2l01-ping-pong.jpg,11.3,13.1,,"2,010,011.30",ok,FALSE
 2,01,vocabulary,badminton,cầu lông,badminton ,c2l01-badminton.jpg,images/class2/c2l01-badminton.jpg,13.5,15.9,,"2,010,013.50",ok,FALSE
 2,01,vocabulary,games,trò chơi,jogos ,c2l01-games.jpg,images/class2/c2l01-games.jpg,16.1,18.1,,"2,010,016.10",ok,FALSE
