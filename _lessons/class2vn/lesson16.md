@@ -16,7 +16,7 @@ attr:
 
 [comment]: <> NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
 
-## Vocabulary  *Từ vựng*
+## Vocabulary   *Từ vựng*
 
 
 {% include wordgrid.html lang=page.lang
@@ -98,7 +98,7 @@ attr:
 	translation="Tôi tưởng bạn cũng thích tôi."
     tag="h3" %}
 
-**I thought...**  *Tôi tưởng*
+**I thought...**   *Tôi tưởng*
 
 - **I thought he wanted to marry me.**  
 *Tôi tưởng anh ấy đã muốn cưới tôi.*    
@@ -126,7 +126,7 @@ attr:
 	translation="Tôi thích bên cạnh bạn. Tôi nghĩ lúc nào đó chúng ta nên đi chơi."
     tag="h3" %}
 
-**enjoy someone's company**  *thích bên cạnh ai đó*
+**enjoy someone's company**   *thích bên cạnh ai đó*
 
 - **He said he enjoys my company. I think that means he might like me the way I like him.**  
 *Anh nói anh thích bên cạnh tôi. Tôi nghĩ điều đó nghĩa là anh ta cũng thích tôi giống như tôi thích anh.*    

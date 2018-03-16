@@ -15,7 +15,7 @@ attr:
 	translation="Thì hiện tại tiếp diễn và Thì tương lai đơn"
     tag="h1" %}
 
-## Vocabulary *Từ vựng* 
+## Vocabulary   *Từ vựng* 
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -86,9 +86,9 @@ attr:
 	translation="Ví dụ của Thì tương lai đơn"
     tag="h2" %}
 
-##### Will - when making a decision / volunteer  *Will - khi đưa ra quyết định / tình nguyện*
-##### Going to - after the decision is made / plans  *Going to - sau khi đã đưa ra quyết định*
-##### Will (OR) Going to - for predictions  *Will hoặc Going to - dự đoán*
+##### Will - when making a decision / volunteer   *Will - khi đưa ra quyết định / tình nguyện*
+##### Going to - after the decision is made / plans   *Going to - sau khi đã đưa ra quyết định*
+##### Will (OR) Going to - for predictions   *Will hoặc Going to - dự đoán*
 1. {% include play.html identifier="examples1" start=23.16 stop=29.11 %} **Daniel is going to compete with his girlfriend in the singing contest.**      
  *Daniel sẽ cạnh tranh với bạn gái anh ấy trong cuộc thi hát.*      
 2. {% include play.html identifier="examples1" start=29.56 stop=33.11 %} **I'm not sure if I will attend class tomorrow.**       
@@ -123,7 +123,7 @@ attr:
 
 {% endif %}
 
-### Present Continuous for future *Thì hiện tại tiếp diễn dùng cho tương lai*
+### Present Continuous for Future   *Thì hiện tại tiếp diễn dùng cho tương lai*
 For fixed planned events in the future. Often used with a word for future events. 
 
 1. {% include play.html identifier="examples1" start=98.56 stop=101.11 %} **We are visiting my parents tomorrow.**      

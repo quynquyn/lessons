@@ -15,7 +15,7 @@ attr:
 	translation="Có / Không (làm / không làm)"
     tag="h1" %}
 
-## Vocabulary *Từ vựng*
+## Vocabulary   *Từ vựng*
 
 
 {% include wordgrid.html lang=page.lang

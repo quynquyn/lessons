@@ -16,7 +16,7 @@ attr:
 %}
 
 
-## Vocabulary *Từ vựng*
+## Vocabulary   *Từ vựng*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 

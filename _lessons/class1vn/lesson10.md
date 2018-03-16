@@ -15,7 +15,7 @@ attr:
 	translation="Tính từ + giới từ"
     tag="h1" %}
 
-## Vocabulary *Từ vựng*
+## Vocabulary   *Từ vựng*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 

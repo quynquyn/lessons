@@ -16,7 +16,7 @@ attr:
     tag="h1" %}
 
 
-## Vocabulary  *Từ vựng*
+## Vocabulary   *Từ vựng*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -50,7 +50,7 @@ attr:
 	translation="Tôi cố gắng tập trung vào mặt tích cực."
     tag="h3" %}
 
-**focus on**  *tập trung vào*    
+**focus on**   *tập trung vào*    
 
 - **I guess I prefer to be around people who also focus more on the positive side of things.**  
 *Tôi đoán tôi thích bên cạnh những người tập trung vào điều tích cực.*    
@@ -108,7 +108,7 @@ attr:
 - **Why do some people succeed and others don't?**  
 *Tại sao một vài người thành công và những người khác thì không?*   
 - **Why do some people get promoted and others don't?**  
-*Tại sao một vài người được thăng chức và những ngươi khác thì không?*   
+*Tại sao một vài người được thăng chức và những ngươi khác thì không?*    
   
 
 

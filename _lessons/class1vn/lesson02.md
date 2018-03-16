@@ -87,8 +87,10 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 	translation="Tôi đuổi theo một con chó."
     tag="h3" %}
 
-> **Do you chase a horse?**   *Có phải bạn đuổi theo một con ngựa không?*    
-> **No, I don’t chase a horse. I chase a dog.**   *Không. Tôi không đuổi theo một con ngựa. Tôi đuổi theo một con chó.*     
+> **Do you chase a horse?**   
+*Có phải bạn đuổi theo một con ngựa không?*    
+> **No, I don’t chase a horse. I chase a dog.**   
+*Không. Tôi không đuổi theo một con ngựa. Tôi đuổi theo một con chó.*     
 
 {%  include voice.html attr=page.attr
 	identifier="Native-Dialogue"  init=false start=12.55 stop=20.11
@@ -96,8 +98,10 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 	translation="Tôi nhìn một giáo viên."
     tag="h3" %}
 
-> **Do you look for a teacher?**   *Bạn tìm kiếm một giáo viên hả?*    
-> **No, I don’t look for a teacher, I look at a teacher.**   *Không, tôi không tìm kiếm một giáo viên. Tôi nhìn một giáo viên.*    
+> **Do you look for a teacher?**   
+*Bạn tìm kiếm một giáo viên hả?*    
+> **No, I don’t look for a teacher, I look at a teacher.**   
+*Không, tôi không tìm kiếm một giáo viên. Tôi nhìn một giáo viên.*    
  
 {%  include voice.html attr=page.attr
 	identifier="Native-Dialogue"  init=false start=20.11 stop=28.11
@@ -106,8 +110,10 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
     tag="h3" %}
 
 
-> **Do you like doors?**   *Bạn có thích những cái cửa không?*    
-> **No, I don’t like doors. I like dolls.**   *Không, tôi không thích cửa. Tôi thích búp bê.*    
+> **Do you like doors?**   
+*Bạn có thích những cái cửa không?*    
+> **No, I don’t like doors. I like dolls.**   
+*Không, tôi không thích cửa. Tôi thích búp bê.*    
 
 {%  include voice.html attr=page.attr
 	identifier="Native-Dialogue"  init=false start=28.11 stop=35.41
@@ -115,8 +121,10 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 	translation="Tôi đá một cái ghế"
     tag="h3" %}
 
-> **Do you kiss a chair?**   *Bạn hôn một cái ghế hả?*    
-> **No, I don’t kiss a chair. I kick it.**   *Không, tôi không hôn cái ghế. Tôi đá nó.*    
+> **Do you kiss a chair?**   
+*Bạn hôn một cái ghế hả?*    
+> **No, I don’t kiss a chair. I kick it.**   
+*Không, tôi không hôn cái ghế. Tôi đá nó.*    
 
 {%  include voice.html attr=page.attr
 	identifier="Native-Dialogue"  init=false start=35.41 stop=44.11
@@ -124,8 +132,10 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 	translation="Tôi phỏng vấn bác sĩ."
     tag="h3" %}
 
-> **Do you interview teachers?**   *Bạn phỏng vấn giáo viên hả?*    
-> **No. I don’t interview teachers. I interview doctors.**   *Không, tôi không phỏng vấn giáo viên. Tôi phỏng vấn bác sĩ.*    
+> **Do you interview teachers?**   
+*Bạn phỏng vấn giáo viên hả?*    
+> **No. I don’t interview teachers. I interview doctors.**  
+*Không, tôi không phỏng vấn giáo viên. Tôi phỏng vấn bác sĩ.*    
 
 {%  include voice.html attr=page.attr
 	identifier="Native-Dialogue"  init=false start=44.11 stop=52.91
@@ -133,8 +143,10 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 	translation="Tôi nói chuyện với những học sinh."
     tag="h3" %}
 
-> **Do you talk about students?**   *Có phải bạn nói chuyện về những học sinh không?*    
-> **No, I don’t talk about students? I talk to students.**   *Không. Tôi không nói về những người học sinh. Tôi nói chuyện với họ.*   
+> **Do you talk about students?**   
+*Có phải bạn nói chuyện về những học sinh không?*    
+> **No, I don’t talk about students? I talk to students.**   
+*Không. Tôi không nói về những người học sinh. Tôi nói chuyện với họ.*   
 
 {%  include voice.html attr=page.attr
 	identifier="Native-Dialogue"  init=false start=53.11 stop=60.31
@@ -142,8 +154,10 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 	translation="Tôi thấy những chiếc máy bay."
     tag="h3" %}
 
-> **Do you see some trains?**   *Có phải bạn thấy xe lửa?*    
-> **No,  don’t see any trains. I see some planes.**   *Không, tôi không thấy xe lửa. Tôi thấy những chiếc máy bay.*    
+> **Do you see some trains?**   
+*Có phải bạn thấy xe lửa?*    
+> **No,  don’t see any trains. I see some planes.**   
+*Không, tôi không thấy xe lửa. Tôi thấy những chiếc máy bay.*    
 
 {%  include voice.html attr=page.attr
 	identifier="Native-Dialogue"  init=false start=60.31 stop=67.41
@@ -151,8 +165,10 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 	translation="Tôi kéo một cái cửa."
     tag="h3" %}
 
-> **Do you push a door?**   *Bạn đẩy một cái cửa phải không?*    
-> **No, I don’t push a door. I pull a door.**   *Không. Tôi không đẩy cái cửa. Tôi kéo nó.*     
+> **Do you push a door?**   
+*Bạn đẩy một cái cửa phải không?*    
+> **No, I don’t push a door. I pull a door.**   
+*Không. Tôi không đẩy cái cửa. Tôi kéo nó.*     
 
 {%  include voice.html attr=page.attr
 	identifier="Native-Dialogue"  init=false start=67.41 stop=76.81 
@@ -160,8 +176,10 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 	translation="Tôi bài tập mỗi ngày."
     tag="h3" %}
 
-> **Do you do housework everyday?**   *Bạn làm việc nhà mỗi ngày hả?*    
-> **No. I don’t do housework everyday. I do homework everyday.**   *Không, tôi không làm việc nhà mỗi ngày. Tôi làm bài tập về nhà mỗi ngày.*   
+> **Do you do housework everyday?**   
+*Bạn làm việc nhà mỗi ngày hả?*    
+> **No. I don’t do housework everyday. I do homework everyday.**   
+*Không, tôi không làm việc nhà mỗi ngày. Tôi làm bài tập về nhà mỗi ngày.*   
 
 {%  include voice.html attr=page.attr
 	identifier="Native-Dialogue"  init=false start=77.11 stop=83.91
@@ -169,8 +187,10 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 	translation="Tôi nói dối anh ấy."
     tag="h3" %}
 
-> **Do you lie next to him?**   *Bạn nằm kế anh ta hả?*    
-> **No, I don’t lie next to to him. I lie to him.**   *Không, tôi không nằm kế anh ta. Tôi nói dối anh ta.*    
+> **Do you lie next to him?**   
+*Bạn nằm kế anh ta hả?*    
+> **No, I don’t lie next to to him. I lie to him.**   
+*Không, tôi không nằm kế anh ta. Tôi nói dối anh ta.*    
 
  
  

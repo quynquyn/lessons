@@ -17,7 +17,7 @@ attr:
     tag="h1" %}
 
 
-## Vocabulary  *Từ vựng*
+## Vocabulary   *Từ vựng*
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Vocabulary"  init=false start=7 stop=64
@@ -144,7 +144,7 @@ attr:
 	translation="Đối với bạn thời trang quan trọng như thế nào?"
     tag="h3" %}
 	
-**How + Adjective**  *How + tính từ*
+**How + Adjective**   *How + tính từ*
 
 - **How important am I to you?**  
 *Tôi quan trọng với bạn như thế nào?*    

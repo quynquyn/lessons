@@ -15,7 +15,7 @@ attr:
 	translation="Thêm về động từ 'to be'"
     tag="h1" %}
 
-## Vocabulary *Từ vựng*
+## Vocabulary   *Từ vựng*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -25,7 +25,7 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-## Explanation *Giải thích*
+## Explanation   *Giải thích*
 	
 {%  include voice.html attr=page.attr  
 	identifier="Explanation1"  init=true

@@ -15,7 +15,7 @@ attr:
 	translation="Tình bạn"
     tag="h1" %}
 
-## Vocabulary  *Từ vựng*
+## Vocabulary   *Từ vựng*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -26,7 +26,7 @@ attr:
 		trial=site.trialdeploy %}
 
 
-### Friends  *Bạn bè*
+### Friends   *Bạn bè*
 
 1. {% include play.html identifier="vocabulary" start=31 stop=34 %} **a best friend**  
 *Một người bạn thân*   
@@ -45,7 +45,7 @@ attr:
 8. {% include play.html identifier="vocabulary" start=53.5 stop=56 %} **a stranger**  
 *Một người lạ*   
 
-### Friendship  *Tình bạn*
+### Friendship   *Tình bạn*
 
 1. {% include play.html identifier="vocabulary" start=58 stop=62 %} **have a lot in common**  
 *Có nhiều điểm chung*   

@@ -16,7 +16,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 	translation="Danh từ + động từ (cái gì + làm gì)"
 %}
 
-## Vocabulary *Từ vựng*
+## Vocabulary   *Từ vựng*
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Words"  init=false start=7 stop=33
@@ -119,7 +119,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 > *Tôi chơi đàn piano và ghi-ta.*   
 
  
-## B. Do you…? *Bạn có...?*
+## B. Do you…?   *Bạn có...?*
 
 
 {%  include voice.html attr=page.attr                           tag="h3"

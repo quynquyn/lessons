@@ -15,7 +15,7 @@ attr:
 	translation="Tính cách"
     tag="h1" %}
 
-## Vocabulary  *Từ vựng*
+## Vocabulary   *Từ vựng*
 
 {% include wordgrid.html lang=page.lang
     class=page.class 
@@ -92,7 +92,7 @@ attr:
 	translation="Cô ấy thích ở nhà và một mình."
     tag="h3" %}
 
-**'prefer' can be followed either by Verb + ing *or* 'to' + Verb** *'prefer' có thể đi cùng với Verb + ing hoặc 'to' + Verb*
+**'prefer' can be followed either by Verb + ing *or* 'to' + Verb**   *'prefer' có thể đi cùng với Verb + ing hoặc 'to' + Verb*
 
 - **He prefers staying at home and watching football to playing it.**  
 *Anh ấy thích ở nhà và xem đá bóng để chơi hơn.*    
@@ -107,7 +107,7 @@ attr:
 	translation="Nghe giọng của cô ấy có thể khiến mọi căng thẳng và áp lực tan biến."
     tag="h3" %}
 
-**melt**  *tan*
+**melt**   *tan*
 
 - **My anger melted away when she said sorry to me.**  
 *Mọi cơn giận của tôi tan biến khi cô ấy nói xin lỗi tôi.*    

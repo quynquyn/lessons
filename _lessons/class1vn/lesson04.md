@@ -16,7 +16,7 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 	translation="Động từ cùng động từ"
     tag="h1" %}
 
-## Vocabulary *Từ vựng*
+## Vocabulary   *Từ vựng*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 

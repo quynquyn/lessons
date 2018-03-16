@@ -15,11 +15,11 @@ attr:
 	translation="Như thế nào 2"
 %}
 
-## Vocabulary *Từ vựng*
+## Vocabulary   *Từ vựng*
 
-**How do you get there?**  *Bạn đến đó bằng cách nào?*
+**How do you get there?**   *Bạn đến đó bằng cách nào?*
 		
-**I get there by…**  *Tôi đến đó bằng...*
+**I get there by…**   *Tôi đến đó bằng...*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -29,7 +29,7 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %} 
 
-**Make your mother smile by…**  *Làm cho mẹ của bạn mỉm cười bằng cách...*
+**Make your mother smile by…**   *Làm cho mẹ của bạn mỉm cười bằng cách...*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -41,7 +41,7 @@ attr:
 
 
 
-**Study English by…**  *Học tiếng Anh bằng cách...*
+**Study English by…**   *Học tiếng Anh bằng cách...*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -51,7 +51,7 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %} 
    
-**Help your friend by…**  *Giúp đỡ bạn của bạn bằng cách...*
+**Help your friend by…**   *Giúp đỡ bạn của bạn bằng cách...*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -61,7 +61,7 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %} 
 
-**Release stress by…**  *Giải tỏa căng thẳng bằng cách...*
+**Release stress by…**   *Giải tỏa căng thẳng bằng cách...*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -71,7 +71,7 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %} 
   
-**Apply for a job by…**  *Xin việc bằng cách...*  
+**Apply for a job by…**   *Xin việc bằng cách...*  
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -82,7 +82,7 @@ attr:
 		trial=site.trialdeploy %} 
    
 
-**Move on from a bad break-up by…**  *Bước tiếp sau cuộc chia tay đau khổ bằng cách...*
+**Move on from a bad break-up by…**   *Bước tiếp sau cuộc chia tay đau khổ bằng cách...*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -92,7 +92,7 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %} 
 
-**Lose weight by…**  *Giảm cân bằng cách...*
+**Lose weight by…**   *Giảm cân bằng cách...*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 

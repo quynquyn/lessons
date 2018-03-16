@@ -15,7 +15,7 @@ attr:
 	translation="Vì sao? / Tại sao?"
     tag="h1" %}
 
-## Vocabulary *Từ vựng*
+## Vocabulary   *Từ vựng*
 
 [comment]: <>  all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
 

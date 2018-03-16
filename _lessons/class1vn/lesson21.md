@@ -15,7 +15,7 @@ attr:
 	translation="Cái nào / Của ai"
 %}
 
-## Vocabulary *Từ vựng*
+## Vocabulary   *Từ vựng*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -84,7 +84,7 @@ attr:
 
 {% endif %}
 
-### Examples of Whose *Ví dụ của Whose*
+### Examples of Whose   *Ví dụ của Whose*
 1. {% include play.html identifier="explanation" start=102.81 stop=105.43 %}**Whose house do you want to buy?**  
 *Bạn muốn mua nhà của ai?*
 2. {% include play.html identifier="explanation" start=105.43 stop=107.64 %}**Whose cellphone is cheap?**  

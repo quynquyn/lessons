@@ -15,7 +15,7 @@ attr:
 	translation="Tình bạn"
     tag="h1" %}
 
-## Vocabulary  *Từ vựng*
+## Vocabulary   *Từ vựng*
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=false start=7 stop=22
@@ -23,7 +23,7 @@ attr:
 	translation="Mục đích"
     tag="h3" %}
 
-#### For fun  *Để vui*
+#### For fun   *Để vui*
 
 {% include wordgrid.html lang=page.lang  
 		class=page.class 
@@ -148,7 +148,7 @@ attr:
 	translation="Tôi thấy cái màn hình quá nhỏ."
     tag="h3" %}
 
-**I find someone or something + Adjective**  *Tôi thấy...*
+**I find someone or something + Adjective**   *Tôi thấy...*
 
 - **I find superhero movies silly.**  
 *Tôi thấy những bộ phim anh hùng thật ngớ ngẩn.*  
@@ -163,7 +163,7 @@ attr:
 	translation="Bạn chắc chắc là nghiện nó rồi."
     tag="h3" %}
 
-**Be addicted to...**  *nghiện...*
+**Be addicted to...**   *nghiện...*
 
 - **She is addicted to coffee.**  
 *Cô ta nghiện cà phê.*    
@@ -178,7 +178,7 @@ attr:
 	translation="Lần đầu bạn sử dụng Internet là khi nào?"
     tag="h3" %}
 
-**When did you first...?**  *Lần đầu bạn... là khi nào?*
+**When did you first...?**   *Lần đầu bạn... là khi nào?*
 
 - **When did you first meet her?**  
 *Lần đầu bạn gặp cô ấy là khi nào?*   
@@ -193,7 +193,7 @@ attr:
 	translation="Bạn luôn luôn tràn đầy năng lượng."
     tag="h3" %}
 	
-**Be full of...**  *đầy* 
+**Be full of...**   *đầy* 
 
 - **The shelf is full of books.**  
 *Kệ sách thì đầy sách.*   

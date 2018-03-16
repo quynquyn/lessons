@@ -15,7 +15,7 @@ attr:
 	translation="Cuộc sống làm việc"
     tag="h1" %}
 
-## Vocabulary  *Từ vựng*
+## Vocabulary   *Từ vựng*
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Vocabulary"  init=false start=8 stop=53
@@ -84,7 +84,7 @@ attr:
 	translation="Tôi hồi hộp một chút."
     tag="h3" %}
 
-**a bit**  *Một chút*
+**a bit**   *Một chút*
 
 - **I am a bit tired.**  
 *Tôi hơi mệt một chút.*   
@@ -110,7 +110,7 @@ attr:
 	translation="Có vẻ như nó là một công việc rất thỏa mãn."
     tag="h3" %}
 
-**seem**  *có vẻ như*
+**seem**   *có vẻ như*
 
 - **She's 22, but she seems older.**  
 *Cô ta 22 tuổi, nhưng trông già hơn.*  
@@ -138,7 +138,7 @@ attr:
 	translation="Nó là một công việc khá là chán và lặp đi lặp lại."
     tag="h3" %}
 
-**quite**  *khá*
+**quite**   *khá*
 
 - **I'm quite tired.**  
 *Tôi khá mệt.*  

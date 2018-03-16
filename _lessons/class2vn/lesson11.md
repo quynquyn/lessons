@@ -17,7 +17,7 @@ attr:
 
 
 
-## Vocabulary  *Từ vựng*
+## Vocabulary   *Từ vựng*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -28,7 +28,7 @@ attr:
 		trial=site.trialdeploy %}
 
 
-### Age  *Tuổi tác*
+### Age   *Tuổi tác*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -45,7 +45,7 @@ attr:
 3. **Middle-aged: She is in her mid forties.**  
 *Trung niên: Cô ấy đang ở khoảng giữa 40 tuổi.*    
 
-### Build  *Tầm vóc* 
+### Build   *Tầm vóc* 
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -57,7 +57,7 @@ attr:
 
 
 
-### Height  *Chiều cao*
+### Height   *Chiều cao*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -68,7 +68,7 @@ attr:
 		trial=site.trialdeploy %}
 
 
-### Face  *Gương mặt*
+### Face   *Gương mặt*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -79,7 +79,7 @@ attr:
 		trial=site.trialdeploy %}
 
 
-### Lips  *Môi*
+### Lips   *Môi*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -91,7 +91,7 @@ attr:
 
 
 
-### Skin  *Da*
+### Skin   *Da*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -103,7 +103,7 @@ attr:
 
 
 
-### Nose  *Mũi*
+### Nose   *Mũi*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -114,7 +114,7 @@ attr:
 		trial=site.trialdeploy %}
 
 
-### Eyebrows  *Chân mày*
+### Eyebrows   *Chân mày*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -208,7 +208,7 @@ attr:
 	translation="Tôi luôn nghĩ rằng anh ta giống ai đó trên tivi."
     tag="h3" %}
 
-**bear a striking resemblance**  *trông giống ai*
+**bear a striking resemblance**   *trông giống ai*
 
 - **I think that you bear a striking resemblance to my teacher.**  
 *Tôi nghĩ là bạn trông giống giáo viên của tôi.*   

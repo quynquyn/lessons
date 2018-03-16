@@ -15,7 +15,7 @@ attr:
 	translation="Cái gì"
 %}
 
-## Vocabulary *Từ vựng* 
+## Vocabulary   *Từ vựng* 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=false start=7 stop=23

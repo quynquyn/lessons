@@ -17,7 +17,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
     tag="h1" %}
 
 
-## Vocabulary *Từ vựng*
+## Vocabulary   *Từ vựng*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 

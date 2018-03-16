@@ -17,7 +17,7 @@ attr:
     tag="h1" %}
 
 
-## Vocabulary  *Từ vựng*
+## Vocabulary   *Từ vựng*
 
 
 {%  include voice.html attr=page.attr       HHHHHHHHHHHHHHHHHHHH=333333333333333333333
@@ -26,7 +26,7 @@ attr:
 	translation="Công ty"
     tag="h3" %}
 
-**I want to work for a _______ company** *Tôi muốn làm việc cho một công ty___.*
+**I want to work for a _______ company**   *Tôi muốn làm việc cho một công ty___.*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 

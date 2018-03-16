@@ -15,7 +15,7 @@ attr:
 	translation="Cảm xúc"
     tag="h1" %}
 
-## Vocabulary  *Từ vựng*
+## Vocabulary   *Từ vựng*
 
 [comment]: <>  all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
 
@@ -116,7 +116,7 @@ attr:
 	translation="Đọc những thứ không phải tiểu thuyết khiến tôi vui."
     tag="h3" %}
 
-**Verb + ing can be used in the same way as a noun**  *Verb + ing có thể sử dụng như một chủ ngữ.*
+**Verb + ing can be used in the same way as a noun.**   *Verb + ing có thể sử dụng như một chủ ngữ.*
 
 - **I don't want to hang out with Steven. Seeing him is the last thing I want to do.**  
 *Tôi không muốn đi chơi với Steven. Gặp anh ấy là điều cuối cùng tôi muốn làm.*    

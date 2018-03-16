@@ -16,9 +16,9 @@ attr:
     tag="h1" %}
 
 
-## Vocabulary  *Từ vựng*
+## Vocabulary   *Từ vựng*
 
-### What’s your favorite kind of job?  *Công việc yêu thích của bạn là gì?*
+### What’s your favorite kind of job?   *Công việc yêu thích của bạn là gì?*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -79,7 +79,7 @@ attr:
 	translation="Tôi có trách nhiệm/nhiệm vụ bán những sản phẩm và chăm sóc khách hàng."
     tag="h3" %}
  
-**Be sold out.**  *đã bán hết*
+**Be sold out.**   *đã bán hết*
 
 - **The movie is sold out.**  
 *Bộ phim đã bán hết vé rồi.*   
@@ -93,7 +93,7 @@ attr:
 	translation="Bạn thích điều gì nhất về công việc của bạn?"
     tag="h3" %}
 
-**What do you like most about…?**  *Bạn thích điều gì nhất về...?*
+**What do you like most about…?**   *Bạn thích điều gì nhất về...?*
 
 - **What do you like most about yourself?**  
 *Bạn thích gì nhất về bản thân?*  
@@ -112,7 +112,7 @@ attr:
 	translation="ó điều gì bạn không thích về công việc của bạn không?"
     tag="h3" %}
 
-**Is there anything that…?**  *Có điều gì mà...?*
+**Is there anything that…?**   *Có điều gì mà...?*
 
 - **Is there anything that you feel annoyed about your boyfriend?**  
 *Có điều gì bạn cảm thấy khó chịu về bạn trai không?*   
@@ -153,7 +153,7 @@ attr:
 	translation="Thật lòng / Thành thật mà nói,..."
     tag="h3" %}
 
-**Honestly / to be honest**  *Thật lòng / Thành thật mà nói*
+**Honestly / to be honest**   *Thật lòng / Thành thật mà nói*
 
 - **Honestly, I have no interest in him.**  
 *Thật lòng, tôi chẳng thích anh ta tí nào.*  
@@ -167,7 +167,7 @@ attr:
 	translation="Bạn có thể tận hưởng điều bạn làm."
     tag="h3" %}
 
-**be able to...**  *có thể...*  
+**be able to...**   *có thể...*  
 
 - **I am able to speak English fluently.**  
 *Tôi có thể nói Tiếng Anh thành thạo.*  

@@ -15,10 +15,7 @@ attr:
 	translation="Tính từ"
 %}
 
-# Lesson 1.7: Adjective
-
-
-## Vocabulary *Từ vựng*
+## Vocabulary   *Từ vựng*
 
 
 {% include wordgrid.html lang=page.lang
