@@ -56,7 +56,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 	translation="Sao trông bạn khó chịu thế?"
     tag="h3" %}
 	
-**Why do you look…?**   *Sao trông bạn...?*
+**Why do you look…?**     *Sao trông bạn...?*
 
 1. **Why do you look so sad today?**  
 *Sao hôm nay trông bạn buồn thế?*
@@ -87,9 +87,9 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 	title="3: Talking to unfriendly people drives me crazy."        
 	translation=""
     tag="h3" %}
-*Nói chuyện với những người không thân thiện khiến tôi phát điên lên.*
-
-**It drives me crazy / it gets on my nerves**   *Nó làm tôi phát điên / làm tôi phát cáu.*
+##### *Nói chuyện với những người không thân thiện khiến tôi phát điên lên.*
+**It drives me crazy / it gets on my nerves**   
+*Nó làm tôi phát điên / làm tôi phát cáu.*
 
 1. **Racism drives me crazy.**  
 *Nạn phân biệt chủng tộc khiến tôi nổi điên lên.*

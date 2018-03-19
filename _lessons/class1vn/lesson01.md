@@ -11,7 +11,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 ---
 
 
-{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZ
 	identifier="Animals"  init=true
 	title="Lesson 1.1: Noun (what)"        
 	translation="Danh từ (cái gì)"
@@ -190,14 +190,11 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 
 ## 3. More examples   *Ví dụ thêm*
-
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Dialogue"  init=false start=95 stop=102 
 	title="1. What do you choose?"        
 	translation="Bạn chọn gì?"
     tag="h3" %}
-
 
 > **I choose happiness. How about you?**   
 *Tôi chọn hạnh phúc. Còn bạn?*   

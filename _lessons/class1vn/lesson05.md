@@ -85,9 +85,9 @@ attr:
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="Explanation1"  init=true
 	title="1. Building sentences with one verb and verb + 'to' + verb"        
-	translation="Viết câu với một động từ và động từ cùng động từ"
+	translation=""
 %}
-
+##### *Viết câu với một động từ và động từ cùng động từ*
 
 1. {% include play.html identifier="Explanation1" start=6.11 stop=13.31 %} **Kim sees snakes. / Kim hates to see snakes.**  
 *Kim thấy rắn / Kim ghét thấy rắn.*  
@@ -118,7 +118,7 @@ attr:
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="Explanation2"  init=true
-	title="1. More examples"        
+	title="2. More examples"        
 	translation="Ví dụ thêm"
 %}
 

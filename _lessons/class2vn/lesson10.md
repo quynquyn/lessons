@@ -16,14 +16,12 @@ attr:
     tag="h1" %}
 
 ## Vocabulary   *Từ vựng*
-
+### Purpose   *Mục đích*
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=false start=7 stop=22
-	title="Purpose"        
-	translation="Mục đích"
+	title="For fun"        
+	translation="Để vui"
     tag="h3" %}
-
-### For fun   *Để vui*
 
 {% include wordgrid.html lang=page.lang  
 		class=page.class 
@@ -116,11 +114,11 @@ attr:
  
 **What...for?** 
 
-- **What do you study English for?**  
+1. **What do you study English for?**  
 *Bạn học Tiếng Anh để làm gì?*
-- **What did you do that for?**  
+2. **What did you do that for?**  
 *Bạn làm như vậy để làm gì?*
-- **What do you live for?**  
+3. **What do you live for?**  
 *Bạn sống để làm gì?*
 
 {% if site.trialdeploy %}
@@ -135,11 +133,11 @@ attr:
 
 **'to' + verb or 'in order to' + verb** 
 
-- **I go there to study English.**  
+1. **I go there to study English.**  
 *Tôi đi đến đó để học Tiếng Anh.*   
-- **I study English to find a well-paid job.**  
+2. **I study English to find a well-paid job.**  
 *Tôi học Tiếng Anh để tìm một công việc tốt.*   
-- **I just call to say I love you.**  
+3. **I just call to say I love you.**  
 *Tôi chỉ gọi điện để nói tôi yêu bạn.*    
 
 {%  include voice.html attr=page.attr  
@@ -148,13 +146,13 @@ attr:
 	translation="Tôi thấy cái màn hình quá nhỏ."
     tag="h3" %}
 
-**I find someone or something + adjective**   *Tôi thấy...*
+**I find someone or something + adjective**     *Tôi thấy...*
 
-- **I find superhero movies silly.**  
+1. **I find superhero movies silly.**  
 *Tôi thấy những bộ phim anh hùng thật ngớ ngẩn.*  
-- **I find this book difficult.**  
+2. **I find this book difficult.**  
 *Tôi thấy quyển sách này khó quá.*   
-- **I find him extremely handsome.**  
+3. **I find him extremely handsome.**  
 *Tôi thấy anh ta cực đẹp trai luôn.*   
 
 {%  include voice.html attr=page.attr  
@@ -163,13 +161,13 @@ attr:
 	translation="Bạn chắc chắc là nghiện nó rồi."
     tag="h3" %}
 
-**Be addicted to...**   *nghiện...*
+**Be addicted to...**     *nghiện...*
 
-- **She is addicted to coffee.**  
+1. **She is addicted to coffee.**  
 *Cô ta nghiện cà phê.*    
-- **A lot of people nowadays have become addicted to the internet.**  
+2. **A lot of people nowadays have become addicted to the internet.**  
 *Nhiều người ngày nay trở nên nghiện Internet.*   
-- **I'm addicted to chocolate.**  
+3. **I'm addicted to chocolate.**  
 *Tôi nghiện sô cô la.*   
 
 {%  include voice.html attr=page.attr  
@@ -178,13 +176,13 @@ attr:
 	translation="Lần đầu bạn sử dụng Internet là khi nào?"
     tag="h3" %}
 
-**When did you first...?**   *Lần đầu bạn... là khi nào?*
+**When did you first...?**     *Lần đầu bạn... là khi nào?*
 
-- **When did you first meet her?**  
+1. **When did you first meet her?**  
 *Lần đầu bạn gặp cô ấy là khi nào?*   
-- **When did you first get drunk?**  
+2. **When did you first get drunk?**  
 *Lần đầu bạn say là khi nào?*    
-- **When did you first do it?**  
+3. **When did you first do it?**  
 *Lần đầu bạn làm chuyện ấy là khi nào?*   
 
 {%  include voice.html attr=page.attr  
@@ -193,15 +191,15 @@ attr:
 	translation="Bạn luôn luôn tràn đầy năng lượng."
     tag="h3" %}
 	
-**Be full of...**   *đầy* 
+**Be full of...**     *đầy* 
 
-- **The shelf is full of books.**  
+1. **The shelf is full of books.**  
 *Kệ sách thì đầy sách.*   
-- **Her eyes are full of tears.**   
+2. **Her eyes are full of tears.**   
 *Mắt cô ấy đầy nước mắt.*   
-- **His essay was full of spelling mistakes.**  
+3. **His essay was full of spelling mistakes.**  
 *Bài luận của anh ta đầy lỗi chính tả.*   
-- **The stadium was only half full.**  
+4. **The stadium was only half full.**  
 *Sân vận động chỉ đẩy có một nửa.*   
 
 

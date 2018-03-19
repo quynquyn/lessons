@@ -90,27 +90,22 @@ attr:
 	translation="Giải thích"
     tag="h2" %}
 
-
-
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=3.17 stop=19.57
 	title="1. I have a runny nose and a bad headache."
 	translation="Tôi bị chảy nước mũi và nhức đầu nặng."
     tag="h3" %}
 
-- **I have a massive headache and my stomach hurts.**  
+1. **I have a massive headache and my stomach hurts.**  
 *Tôi bị nhức đầu nặng và đau bao tử.*   
-- **My right ear hurts and I feel a sharp pain in it every time I yawn.**  
+2. **My right ear hurts and I feel a sharp pain in it every time I yawn.**  
 *Tai phải của tôi đau và tôi cảm thấy một cơn đau nhức nhối trong tai mỗi khi tôi ngáp.*   
-- **I have a cold so bad, I threw up at least six times today.**  
+3. **I have a cold so bad, I threw up at least six times today.**  
 *Tôi bị cảm nặng quá, tôi ói ít nhất 6 lần hôm nay.*    
-
 
 {% if site.trialdeploy %}
   {% include list_placeholder.html  attr=page.attr     start=3 stop=6 %}
   {% else %}
-  
-
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=20.96 stop=37.39
@@ -118,27 +113,25 @@ attr:
 	translation="Thật là tệ quá. Bạn gặp gặp bác sĩ chưa?"
     tag="h3" %}
 
-- **I'm so sorry to hear that. Have you been to a doctor?**  
+1. **I'm so sorry to hear that. Have you been to a doctor?**  
 *Tôi rất làm tiếc khi nghe vậy. Bạn tới bác sĩ chưa?*   
-- **That is horrible! Call the ambulance ASAP!**  
+2. **That is horrible! Call the ambulance ASAP!**  
 *Thật là khinh khủng. Hãy gọi xe cứu thương ngay!*   
-- **I can't believe she is sick. She probably ate something spoiled.**  
+3. **I can't believe she is sick. She probably ate something spoiled.**  
 *Tôi không tên được là cô ta đang bịnh. Có lẽ cô ta đã ăn thứ gì đó hư.*    
-
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=38.69 stop=59.69
 	title="3. You have a fever. Take some vitamin C and drink lots of water!"
-	translation="Bạn bị sốt. Hãy uống vitamin c và uống nhiều nước vào nhé!"
+	translation=""
     tag="h3" %}
-
-- **You have a headache? Take a headache pill and try to get some rest!**  
+##### *Bạn bị sốt. Hãy uống vitamin c và uống nhiều nước vào nhé!*
+1. **You have a headache? Take a headache pill and try to get some rest!**  
 *Bạn bị nhức đầu. Hãy uống viên trị nhức đầu và cố gắng nghỉ ngơi!*    
-- **Jane said she has a toothache. I told her to go to a dentist immediately.**  
+2. **Jane said she has a toothache. I told her to go to a dentist immediately.**  
 *Jenny nói cô ta bị đau răng. Tôi bảo cô ta hãy đến nha sĩ liền đi.*    
-- **Her nosebleed won't stop. Take her to a doctor immediately!**   
+3. **Her nosebleed won't stop. Take her to a doctor immediately!**   
 *Máu mũi của cô ta không dừng. Hãy đưa cô ta đến bệnh viện ngay!*
-   
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=59.23 stop=73.37
@@ -146,25 +139,24 @@ attr:
 	translation="Tôi hi vọng bạn sẽ thấy tốt hơn."
     tag="h3" %}
 
-- **I hope your headache subsides and you feel a lot better.**  
+1. **I hope your headache subsides and you feel a lot better.**  
 *Tôi hi vọng bạn giảm đau đầu và cảm thấy tốt hơn.*   
-- **You'll feel better in no time. Trust me.**  
+2. **You'll feel better in no time. Trust me.**  
 *Bạn sẽ thấy tốt hơn ngay thôi. Tin tôi đi.*    
-- **Don't worry, the nausea will wear off in an hour or two.**  
+3. **Don't worry, the nausea will wear off in an hour or two.**  
 *Đừng lo, cơn buồn nôn sẽ biến mất trong vòng 1-2 giờ.*   
-
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=73.37 stop=90.30
 	title="5. Try not to eat anything oily or spicy for a few days!"
-	translation="Cố gắng không ăn đồ ăn dầu mỡ hoặc đồ ăn cay vài ngày!"
+	translation=""
     tag="h3" %}
-
-- **Avoid working if you don't feel well!**  
+##### *Cố gắng không ăn đồ ăn dầu mỡ hoặc đồ ăn cay vài ngày!*
+1. **Avoid working if you don't feel well!**  
 *Tránh làm việc nếu bạn thấy không khỏe.*    
-- **You shouldn't stop taking antibiotics just because you feel slight improvement.**  
+2. **You shouldn't stop taking antibiotics just because you feel slight improvement.**  
 *Bạn không nên ngưng dừng thuốc kháng sinh chỉ bởi vì bạn thấy nó cải thiện một chút.*   
-- **Try not to eat anything a day before your surgery!**  
+3. **Try not to eat anything a day before your surgery!**  
 *Cố đừng ăn gì trong 1 ngày trước cuộc phẫu thuật.*    
 
 

@@ -90,11 +90,11 @@ attr:
 	translation="Hôm qua bạn có tập thể dục nhiểu không?"
     tag="h3" %}
 
-- **You need to do more exercise.**   
+1. **You need to do more exercise.**   
 *Bạn cần tập thể dục nhiều hơn*   
-- **She told me she only works out once a month.**   
+2. **She told me she only works out once a month.**   
 *Cô ta nói với tôi rằng cô ta chỉ tập thể dục một tháng một lần.*   
-- **Get plenty of exercise every week if you want a healthy body.**   
+3. **Get plenty of exercise every week if you want a healthy body.**   
 *Hãy tập thể dục nhiều mỗi tuần nếu bạn muốn một cơ thể khỏe mạnh.*   
 
 {% if site.trialdeploy %}
@@ -104,14 +104,15 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=false start=17.57 stop=38.64
 	title="2. You should eat more vegetables and fruits if you want to stay healthy."        
-	translation="Bạn nên ăn nhiều rau và trái cây nếu bạn muốn khỏe mạnh."
+	translation=""
     tag="h3" %}
-
-- **Sherry should stop eating all that junk food. She's pregnant after all.**   
+	
+##### *Bạn nên ăn nhiều rau và trái cây nếu bạn muốn khỏe mạnh.*
+1. **Sherry should stop eating all that junk food. She's pregnant after all.**   
 *Sherry nên dừng việc ăn tất cả những thức ăn vặt đó. Cô ta đang mang bầu mà.*    
-- **You should sit straight. Your posture is really bad. You'll regret it when you're older.**   
+2. **You should sit straight. Your posture is really bad. You'll regret it when you're older.**   
 *Bạn nên ngồi thẳng. Tư thế của bạn đang rất là xấu. Bạn sẽ hối hận điều này khi bạn già đi.*      
-- **You should stop drinking so much. Instead, maybe you should drink a healthy juice.**   
+3. **You should stop drinking so much. Instead, maybe you should drink a healthy juice.**   
 *Bạn nên dừng uống bia nhiều như vậy. Thay vì vậy, bạn có thể hãy uống nước ép tốt cho sức khỏe.*   
 
 {%  include voice.html attr=page.attr  
@@ -120,24 +121,24 @@ attr:
 	translation="Tôi có hơn 8 tiếng để ngủ tối qua."
     tag="h3" %}
 
-- **I got only 4 hours of sleep last night because my sister kept snoring.**   
+1. **I got only 4 hours of sleep last night because my sister kept snoring.**   
 *Tôi chỉ có 4 tiếng để ngủ tối qua vì chị của tôi cứ ngáy.*    
-- **I slept for only 2 hours last night because it was too hot in the house.**   
+2. **I slept for only 2 hours last night because it was too hot in the house.**   
 *Tôi chỉ có 4 tiếng để ngủ tối qua vì trong nhà quá nóng.*    
-- **I slept for 8 hours and I feel really great! I heard that's a healthy amount of sleep.**   
+3. **I slept for 8 hours and I feel really great! I heard that's a healthy amount of sleep.**   
 *Tôi có hơn 8 tiếng để ngủ tối qua và tôi cảm thấy rất tuyệt. Tôi nghe nói đó là khoảng thời gian để ngủ lành mạnh.*   
 
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=false start=59.44 stop=79.19
 	title="4. So what? One or two bad decisions won't ruin my life."        
-	translation="Vậy thì làm sao? Một hay hai quyết định sai không hủy hoại cuộc đời tôi."
+	translation=""
     tag="h3" %}
-
-- **So what if I eat plenty of junk food? I exercise once a week!**   
+##### *Vậy thì làm sao? Một hay hai quyết định sai không hủy hoại cuộc đời tôi.*
+1. **So what if I eat plenty of junk food? I exercise once a week!**   
 *Vậy thì làm sao nếu tôi ăn nhiều thức ăn vặt. Tôi tập thể dục một tuần một lần cơ mà.*   
-- **I don't get enough sleep. So what? It's not the end of the world.**   
+2. **I don't get enough sleep. So what? It's not the end of the world.**   
 *Tôi không ngủ đủ. Vậy thì làm sao. Đâu phải tận thế.*    
-- **So what if I sometimes eat chocolate? It's nice to treat yourself every now and then.**   
+3. **So what if I sometimes eat chocolate? It's nice to treat yourself every now and then.**   
 *Vậy thì làm sao nếu tôi thỉnh thoảng ăn sô cô la. Thỉnh thoảng nuông chiều bản thân cũng tốt mà.*    
 
 {%  include voice.html attr=page.attr  
@@ -146,10 +147,10 @@ attr:
 	translation="Bạn có sao không? Trông bạn hơi mệt."
     tag="h3" %}
 
-- **Is Mary okay? She looks like she didn't sleep for two days.**   
+1. **Is Mary okay? She looks like she didn't sleep for two days.**   
 *Mary có ok ko? Cô ta trông như cô ta không ngủ hai ngày rồi.*    
-- **You look sad. Is everything okay with you and Christopher?**   
+2. **You look sad. Is everything okay with you and Christopher?**   
 *Bạn trông có vẻ buồn. Mọi thứ giữa bạn va Christopher có ổn không?*    
-- **Do you need help getting up the stairs? You look like you're about to faint.**   
+3. **Do you need help getting up the stairs? You look like you're about to faint.**   
 *Bạn có cần giúp đỡ lên cầu thang không? Trông bạn như bạn sắp xỉu.*    
   {% endif %}

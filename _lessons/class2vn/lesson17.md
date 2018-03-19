@@ -104,67 +104,62 @@ attr:
 	translation="Giải thích"
     tag="h2" %}
 
-
-
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=3.56 stop=18.19
 	title="1. Did you prepare for this week's exam?"
-	translation="Bạn đã chuẩn bị cho bài kiểm tra tuần này chưa?"
+	translation=""
     tag="h3" %}
-
-- **Did you practice mathematics?**  
+#### *Bạn đã chuẩn bị cho bài kiểm tra tuần này chưa?*
+1. **Did you practice mathematics?**  
 *Bạn có luyện tập môn toán chưa?*   
-- **Did you know the assignment the professor gave us last week?**   
+2. **Did you know the assignment the professor gave us last week?**   
 *Bạn có biết nhiệm vụ tuần trước thầy đã giao cho chúng ta chưa?*   
-- **Did you study for the exam in English? They say it's quite difficult.**  
+3. **Did you study for the exam in English? They say it's quite difficult.**  
 *Bạn đã học bài cho bài thi tiếng Anh chưa? Họ nói nó khá là khó đấy.*   
-
 
 {% if site.trialdeploy %}
   {% include list_placeholder.html  attr=page.attr     start=3 stop=5 %}
   {% else %}
 
-
-
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=18.50 stop=36.44 
 	title="2. Despite studying math for 3 years, I'm considering switching to English."
-	translation="Mặc dù đã học toán 3 năm, tôi đang cân nhắc việc chuyển qua tiếng Anh."
+	translation=""
     tag="h3" %}
-
-- **Despite the low salary, he enjoys his job!**  
+##### *Mặc dù đã học toán 3 năm, tôi đang cân nhắc việc chuyển qua tiếng Anh.*
+1. **Despite the low salary, he enjoys his job!**  
 *Mặc dù lương thấp, anh ấy vẫn tận hưởng công việc của anh ấy.*   
-- **Despite the alarm ringing at 6 AM, I still couldn't wake up in time.**  
+2. **Despite the alarm ringing at 6 AM, I still couldn't wake up in time.**  
 *Mặc dù chuông báo thức đã báo lúc 6 giờ sáng, tôi vẫn không thể thức dậy đúng giờ.*    
-- **Despite the time I spent studying, I don't remember a thing!**  
+3. **Despite the time I spent studying, I don't remember a thing!**  
 *Mặc dù thời gian tôi bỏ ra để học bài, tôi vẫn không nhớ cái gì cả!*   
 
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=36.60 stop=53.44
 	title="3. Although I really like our physics teacher, I don't like physics."
-	translation="Mặc dù tôi rất thích giáo viên môn Vật lý của chúng ta, tôi vẫn không thích môn Vật lý."
+	translation=""
     tag="h3" %}
-
-- **Although the class lasted three hours, I didn't learn a thing.**  
+##### *Mặc dù tôi rất thích giáo viên môn Vật lý của chúng ta, tôi vẫn không thích môn Vật lý.*
+1. **Although the class lasted three hours, I didn't learn a thing.**  
 *Mặc dù lớp học kéo dài đến 3 giờ, tôi vẫn không học được cái gì.*    
-- **Even though I had a really hard time during the exam, I passed!**  
+2. **Even though I had a really hard time during the exam, I passed!**  
 *Mặc dù tôi đã có khoảng thời gian khó khăn trong bài kiểm tra, tôi đã vượt qua!*    
-- **Although my hand hurt, I still finished the essay.**  
+3. **Although my hand hurt, I still finished the essay.**  
 *Mặc dù tay đau, tôi vẫn hoàn tất bài văn.*   
 
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=53.50 stop=72.14
 	title="4. Despite the fact that I am not a native English speaker, I speak English fluently."
-	translation="Mặc dù sự thật tôi không phải một người nói tiếng Anh bản ngữ, tôi vẫn nói tiếng Anh lưu loát."
+	translation=""
     tag="h3" %}
-
-- **In spite of the fact that my parents weren't supportive, I got a degree in English.**   
+##### *Mặc dù sự thật tôi không phải một người nói tiếng Anh bản ngữ, tôi vẫn nói tiếng Anh lưu loát.*
+1. **In spite of the fact that my parents weren't supportive, I got a degree in English.**   
 *Mặc dù sự thật là ba mẹ tôi không có khuyến khích ủng hộ,, tôi vẫn có bằng tiếng Anh.*    
-- **Despite the bad weather, he went outside to prepare for PE.**  
+2. **Despite the bad weather, he went outside to prepare for PE.**  
 *Mặc dù thời tiết xâu, anh ấy vẫn ra ngoài để chuẩn bị cho thể dục.*    
-- **In spite of the fact that I am tired, I will keep studying until I learn.**  
+3. **In spite of the fact that I am tired, I will keep studying until I learn.**  
 *Mặc dù sự thật là tôi mệt, tôi sẽ vẫn học hỏi cho đến khi tôi học được.*    
 
 
@@ -174,11 +169,11 @@ attr:
 	translation="Latin là môn học yêu thích của tôi."
     tag="h3" %}
 
-- **I love learning English. It's such an interesting language.**  
+1. **I love learning English. It's such an interesting language.**  
 *Tôi thích học tiếng Anh. Nó đúng là một ngôn ngữ thú vị.*    
-- **I hope I ace my psychology exam, even though I hate psychology.**  
+2. **I hope I ace my psychology exam, even though I hate psychology.**  
 *Tôi hy vọng tôi qua được bài kiểm tra tâm lí, mặc dù tôi ghét môn tâm lí.*   
-- **Sociology is such a boring subject, but the professor who teaches it is interesting.**  
+3. **Sociology is such a boring subject, but the professor who teaches it is interesting.**  
 *Xã hội học đúng là một môn học nhàm chán, nhưng giảng viên môn đó rất thú vị.*    
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp

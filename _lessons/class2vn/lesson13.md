@@ -15,7 +15,6 @@ attr:
 	translation="Tính cách 2"      
     tag="h1" %}
 
-
 ## Vocabulary   *Từ vựng*
 
 {% include wordgrid.html lang=page.lang
@@ -25,8 +24,6 @@ attr:
 		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
-
-
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="monologue"  init=true
@@ -47,16 +44,16 @@ attr:
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=4.39 stop=24.68
 	title="1. I try to focus on the positive side of things."
-	translation="Tôi cố gắng tập trung vào mặt tích cực."
+	translation=""
     tag="h3" %}
+##### *Tôi cố gắng tập trung vào mặt tích cực.*
+**focus on**     *tập trung vào*    
 
-**focus on**   *tập trung vào*    
-
-- **I guess I prefer to be around people who also focus more on the positive side of things.**  
+1. **I guess I prefer to be around people who also focus more on the positive side of things.**  
 *Tôi đoán tôi thích bên cạnh những người tập trung vào điều tích cực.*    
-- **You must focus on the details.**  
+2. **You must focus on the details.**  
 *Bạn phải tập trung vào chi tiết.*   
-- **I can't focus on two things at the same time.**  
+3. **I can't focus on two things at the same time.**  
 *Tôi không thể tập trung hai thứ cùng một lúc.*   
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
@@ -65,13 +62,13 @@ attr:
 	translation="Họ luôn than vãn."
     tag="h3" %}
 
-**'Keep' + verb + 'ing'**   
+**'keep' + verb + '~ing'**   
 
-- **I keep smiling.**  
+1. **I keep smiling.**  
 *Tôi luôn cười.*   
-- **I kept walking though the man told me to stop.**  
+2. **I kept walking though the man told me to stop.**  
 *Tôi bước tiếp mặc dù người đàn ông bảo tôi dừng lại.*    
-- **I kept believing in what he told me until I met his wife.**  
+3. **I kept believing in what he told me until I met his wife.**  
 *Tôi cứ tin vào điều anh ta nói cho đến khi tôi gặp vợ anh ấy.*    
 
 {% if site.trialdeploy %}
@@ -81,27 +78,27 @@ attr:
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=48.78 stop=68.50
 	title="3. I don't wanna hang out with them unless they get more positive."
-	translation="Tôi không muốn đi chơi với họ trừ khi họ trở nên lạc quan hơn."
+	translation=""
     tag="h3" %}
-
-- **You can't get a job unless you have experience.**  
+##### *Tôi không muốn đi chơi với họ trừ khi họ trở nên lạc quan hơn.*
+1. **You can't get a job unless you have experience.**  
 *Bạn không thể có công việc trừ khi bạn có kinh nghiệm.*   
-- **You can't pass the exam unless you study harder.**  
+2. **You can't pass the exam unless you study harder.**  
 *Bạn không thể vượt qua bài kiểm tra trừ khi bạn học hành chăm chỉ hơn.*    
-- **The kid won't go to sleep unless you tell him a story.**  
+3. **The kid won't go to sleep unless you tell him a story.**  
 *Đứa trẻ không chịu ngủ trừ khi bạn kể cho nó một câu chuyện.*    
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=70.33 stop=88.75
 	title="4.  Some people are introverted and others are extroverted."
-	translation="Một vài người thì hướng nội và những người khác thì hướng ngoại."
+	translation=""
     tag="h3" %}
-
-- **Some people are honest and others are liars.**  
+##### *Một vài người thì hướng nội và những người khác thì hướng ngoại.*
+1. **Some people are honest and others are liars.**  
 *Một vài người thì thành thật và những người còn lại là những kẻ nói dối.*   
-- **Why do some people succeed and others don't?**  
+2. **Why do some people succeed and others don't?**  
 *Tại sao một vài người thành công và những người khác thì không?*   
-- **Why do some people get promoted and others don't?**  
+3. **Why do some people get promoted and others don't?**  
 *Tại sao một vài người được thăng chức và những ngươi khác thì không?*    
   
 {% endif %}

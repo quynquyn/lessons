@@ -83,13 +83,13 @@ attr:
 	translation="Tôi hồi hộp một chút."
     tag="h3" %}
 
-**a bit**   *Một chút*
+**a bit**     *Một chút*
 
-- **I am a bit tired.**  
+1. **I am a bit tired.**  
 *Tôi hơi mệt một chút.*   
-- **She's a bit selfish.**  
+2. **She's a bit selfish.**  
 *Cô ta hơi ích kỉ một chút.*   
-- **I want to do something a bit different.**  
+3. **I want to do something a bit different.**  
 *Tôi muốn làm gì đó khác biệt một chút.*   
 
 {%  include voice.html attr=page.attr  
@@ -98,9 +98,9 @@ attr:
 	translation="Không may là / Xui là..."
     tag="h3" %}
 
-- **We tried to get tickets, but unfortunately they were already sold out.**  
+1. **We tried to get tickets, but unfortunately they were already sold out.**  
 *Chúng tôi đã cố gắng mua vé, thật không may là vé đã bán hết rồi.*   
-- **Unfortunately, there's nothing I can do about your problem.**  
+2. **Unfortunately, there's nothing I can do about your problem.**  
 *Thật không may là tôi không thể làm gì với vấn đề của bạn cả.*  
 
 {%  include voice.html attr=page.attr  
@@ -109,13 +109,13 @@ attr:
 	translation="Có vẻ như nó là một công việc rất thỏa mãn."
     tag="h3" %}
 
-**seem**   *có vẻ như*
+**seem**     *có vẻ như*
 
-- **She's 22, but she seems older.**  
+1. **She's 22, but she seems older.**  
 *Cô ta 22 tuổi, nhưng trông già hơn.*  
-- **She seemed happy this morning.**   
+2. **She seemed happy this morning.**   
 *Sáng nay cô ta trông có vẻ vui.*   
-- **It seems to me that he isn't the right person for the job.**  
+3. **It seems to me that he isn't the right person for the job.**  
 *Có vẻ với tôi anh ta không phải là người thích hợp cho công việc.*    
 
 {%  include voice.html attr=page.attr  
@@ -124,35 +124,35 @@ attr:
 	translation="Công việc của bạn như thế nào?"
     tag="h3" %}
 
-- **What's the weather like?**  
+1. **What's the weather like?**  
 *Thời tiết như thế nào?*  
-- **What's the office like?**  
+2. **What's the office like?**  
 *Văn phòng như thế nào?*  
-- **What's your boss like?**  
+3. **What's your boss like?**  
 *Sếp bạn là người như thế nào?*   
 
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=76.68 stop=94.48
 	title="5. It's a quite boring and repetitive job."        
-	translation="Nó là một công việc khá là chán và lặp đi lặp lại."
+	translation=""
     tag="h3" %}
+##### *Nó là một công việc khá là chán và lặp đi lặp lại.*
+**quite**     *khá*
 
-**quite**   *khá*
-
-- **I'm quite tired.**  
+1. **I'm quite tired.**  
 *Tôi khá mệt.*  
-- **My boss is quite attractive.**  
+2. **My boss is quite attractive.**  
 *Sếp của tôi khá là hấp dẫn.*  
-- **It was quite a difficult job.**  
+3. **It was quite a difficult job.**  
 *Nó là một công việc khá là khó.*  
 
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=96.07 stop=108.63
 	title="6. I find myself doing the same thing day in day out."        
-	translation="Tôi nhận thấy mình đang làm lại cùng một công việc ngày qua ngày."
+	translation=""
     tag="h3" %}
-
-- **I find myself crying under the table.**  
+##### *Tôi nhận thấy mình đang làm lại cùng một công việc ngày qua ngày.*
+1. **I find myself crying under the table.**  
 *Tôi nhận thấy mình đang khóc dưới gầm bàn.*   
-- **I find myself with no friends at all.**  
+2. **I find myself with no friends at all.**  
 *Tôi nhận ra mình không có bạn bè gì cả.*  

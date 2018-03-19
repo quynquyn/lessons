@@ -54,7 +54,6 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 	title="A. What...?"        
 	translation="Cái gì...?"
 %}
-
 {%  include voice.html attr=page.attr                           tag="h3"
 	identifier="Native-Dialogue"              init=false start=6 stop=16
 	title="1. What do you cover?"        
@@ -95,7 +94,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 
 {%  include voice.html attr=page.attr                           tag="h3"
 	identifier="Native-Dialogue"              init=false start=34 stop=46
-	title="A4. What do you touch?"
+	title="4. What do you touch?"
 	translation="Bạn chạm cái gì?"
 %}
 
@@ -108,7 +107,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 
 {%  include voice.html attr=page.attr                           tag="h3"
 	identifier="Native-Dialogue"              init=false start=46 stop=55
-	title="A5. What do you play?"
+	title="5. What do you play?"
 	translation="Bạn chơi gì?"
 %}
 
@@ -120,8 +119,6 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 
  
 ## B. Do you…?   *Bạn có...?*
-
-
 {%  include voice.html attr=page.attr                           tag="h3"
 	identifier="Native-Dialogue"              init=false start=55 stop=71
 	title="1. Do you sell cars?"

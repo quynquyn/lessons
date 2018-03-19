@@ -99,7 +99,5 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 *Tôi không nấu ăn ở nhà vì tôi thích đi ra ngoài và ăn ở ngoài. Có một quán cà phê mới ở quận 1 tôi rất muốn thử. Nhưng nó lúc nào cũng đông.*    
 5. {% include play.html identifier="Native-Dialogue4" start=40.55 stop=47.31 %} **I like to watch sports. My favorites are football and basketball. But I don’t play any sports.**    
 *Tôi thích xem thể thao. Môn yêu thích của tôi là bóng đá và bóng rổ. Nhưng tôi không chơi môn nào cả.*    
-{% include play.html identifier="Native-Dialogue4" start=47.13 stop=51.67 %}    
-
-P2: **Can you say what Ted likes to do in his daily routine?**   
+{% include play.html identifier="Native-Dialogue4" start=47.13 stop=51.67 %} P2: **Can you say what Ted likes to do in his daily routine?**   
 *Bạn có thể nói Ted thích gì trong thời gian biểu hằng ngày của anh ta không?*   

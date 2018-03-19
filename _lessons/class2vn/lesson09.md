@@ -131,24 +131,24 @@ attr:
 	translation="Bạn có phải là người nghiện mua sắm không?"
     tag="h3" %}
 
-- **Are you an alcoholic?**  
+1. **Are you an alcoholic?**  
 *Bạn có phải là ngưởi nghiện rượu không?*   
-- **He is a workaholic.**  
+2. **He is a workaholic.**  
 *Anh ta là người nghiện công việc.*   
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Explanation"  init=false start=13.35 stop=31.14
 	title="2. How important is fashion to you?"
-	translation="Đối với bạn thời trang quan trọng như thế nào?"
+	translation=""
     tag="h3" %}
-	
-**How + adjective**   *How + tính từ*
+##### +Đối với bạn thời trang quan trọng như thế nào?+
+**How + adjective**     *How + tính từ*
 
-- **How important am I to you?**  
+1. **How important am I to you?**  
 *Tôi quan trọng với bạn như thế nào?*    
-- **How rich is he?**  
+2. **How rich is he?**  
 *Anh ta giàu như thế nào?*    
-- **How tall are you?**  
+3. **How tall are you?**  
 *Bạn cao bao nhiêu?*    
 
 {% if site.trialdeploy %}
@@ -161,46 +161,46 @@ attr:
 	translation="Tôi hiểu rồi!"
     tag="h3" %}
 
-- **I didn't get it.**  
+1. **I didn't get it.**  
 *Tôi chưa hiểu.*   
-- **Did you get it?**  
+2. **Did you get it?**  
 *Bạn hiểu chưa?*   
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Explanation"  init=false start=43.36 stop=58.48
 	title="4. Have you ever bought second-hand clothes?"
-	translation="Bạn có bao giờ mua quần áo đã sử dụng rồi chưa?"
+	translation=""
     tag="h3" %}
-
-- **Have you ever thought about getting a tattoo?**  
+##### *Bạn có bao giờ mua quần áo đã sử dụng rồi chưa?*
+1. **Have you ever thought about getting a tattoo?**  
 *Bạn có bao giờ nghĩ về việc có hình xăm chưa?*   
-- **Have you ever wanted to study abroad?**  
+2. **Have you ever wanted to study abroad?**  
 *Bạn có bao giờ muốn đi du học không?*   
-- **Have you ever cheated on someone?**   
+3. **Have you ever cheated on someone?**   
 *Bạn đã từng phản bội ai đó chưa?*   
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Explanation"  init=false start=61.49 stop=85.94 
 	title="5. I prefer my fashion style to be stylish and comfortable"
-	translation="Tôi thích phong cách thời trang của mình phải thật đặc sắc và thoải mái."
+	translation=""
     tag="h3" %}
-
-- **I prefer it to be casual and sporty.**  
+##### *Tôi thích phong cách thời trang của mình phải thật đặc sắc và thoải mái.*
+1. **I prefer it to be casual and sporty.**  
 *Tôi thích nó thật bình thường và thể thao.*   
-- **My roommate has a provocative fashion style.**  
+2. **My roommate has a provocative fashion style.**  
 *Bạn cùng phòng của tôi có phong cách thời trang rất khêu gợi.*    
-- **It depends on the situation. If I hang out with my friends, I want to have a casual and comfortable fashion style. But on special occasions, I prefer it to be elegant and fashionable.**  
+3. **It depends on the situation. If I hang out with my friends, I want to have a casual and comfortable fashion style. But on special occasions, I prefer it to be elegant and fashionable.**  
 *Nó còn phụ thuộc vào trường hợp. Nếu tôi đi chơi với bạn của tôi, tôi muốn có phong cách bình thường và thoải mái. Nhưng vào những dịp đặc biệt, tôi thích nó thanh lịch và hợp thời trang.*   
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Explanation"  init=false  start=88.30 stop=104.66
 	title="6. Does my shirt go well with the jeans?"
-	translation="Cái áo sơ mi của tôi có hợp với cái quần jeans không?"
+	translation=""
     tag="h3" %}
-
-- **Does this dress go well with my shoes?**  
+##### *Cái áo sơ mi của tôi có hợp với cái quần jeans không?*
+1. **Does this dress go well with my shoes?**  
 *Cái đầm này có hợp với đôi giày của tôi không?*   
-- **Does this pair of glasses go well with the color of my lipstick?**  
+2. **Does this pair of glasses go well with the color of my lipstick?**  
 *Cặp mắt kiếng này có hợp với màu son của tôi không?*  
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
@@ -209,13 +209,13 @@ attr:
 	translation="Nó trông rất hợp với bạn."
     tag="h3" %}
 
-- **You look great in this dress.**  
+1. **You look great in this dress.**  
 *Bạn trông thật tuyệt trong cái đầm này.*   
-- **This dress looks great on you.**  
+2. **This dress looks great on you.**  
 *Cái đầm này trông rất tuyện với bạn.*   
-- **You really know how to mix and match.**  
+3. **You really know how to mix and match.**  
 *Bạn thật biết cách phối đồ.*    
-- **You have a good taste in fashion.**  
+4. **You have a good taste in fashion.**  
 *Bạn thật có gu thời trang.*    
 
 {% endif %}

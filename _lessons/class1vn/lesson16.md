@@ -12,9 +12,9 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=true
 	title="Lesson 1.16: Present continuous and simple future tense"        
-	translation="Thì hiện tại tiếp diễn và Thì tương lai đơn"
+	translation=""
     tag="h1" %}
-
+##### *Thì hiện tại tiếp diễn và Thì tương lai đơn*
 ## Vocabulary   *Từ vựng* 
 
 {% include wordgrid.html lang=page.lang
@@ -31,7 +31,7 @@ attr:
 	translation="Ví dụ của Thì hiện tại tiếp diễn"
     tag="h2" %}
 
-### 'Be' + verb + 'ing'   *'Be' + động từ thêm + 'ing'* 
+**'Be' + verb + '~ing'**     *'Be' + động từ thêm + '~ing'* 
 1. {% include play.html identifier="vocabulary" start=55.56 stop=59.11 %} **He is watering flowers.**      
 *Anh ta đang tưới hoa.*      
 2. {% include play.html identifier="vocabulary" start=59.56 stop=63.11 %} **Chris is feeding the cats.**     
@@ -81,14 +81,14 @@ attr:
 {% endif %}
 
 {%  include voice.html attr=page.attr  
-	identifier="examples1"  init=true
+	identifier="examples1"  init=false start=00.01 stop=86.11
 	title="Examples of future simple tense"        
 	translation="Ví dụ của Thì tương lai đơn"
     tag="h2" %}
 
-**'Will' - when making a decision = volunteer**   *Will - khi đưa ra quyết định = tình nguyện*      
-**'Going to' - after the decision is made = plans**   *Going to - sau khi đã đưa ra quyết định*      
-**'Will' (or) 'going to' = predictions**   *Will hoặc Going to = dự đoán*     
+**'Will' - when making a decision = volunteer**     *Will - khi đưa ra quyết định = tình nguyện*      
+**'Going to' - after the decision is made = plans**     *Going to - sau khi đã đưa ra quyết định*      
+**'Will' (or) 'going to' = predictions**     *Will hoặc Going to = dự đoán*     
 
 1. {% include play.html identifier="examples1" start=23.16 stop=29.11 %} **Daniel is going to compete with his girlfriend in the singing contest.**      
  *Daniel sẽ cạnh tranh với bạn gái anh ấy trong cuộc thi hát.*      
@@ -122,8 +122,15 @@ attr:
 13. {% include play.html identifier="examples1" start=81.56 stop=86.11 %} **In the future, people will drive flying cars!**        
 *Trong tương lai, người ta sẽ lái xe ô tô bay.*     
 {% endif %}
-### Present continuous for future   *Thì hiện tại tiếp diễn dùng cho tương lai*
-**For fixed planned events in the future. Often used with a word for future events.** 
+
+{%  include voice.html attr=page.attr  
+	identifier="examples1"  init=false start=86.12 stop=122.11
+	title="Present continuous for future"        
+	translation="Thì hiện tại tiếp diễn dùng cho tương lai"
+    tag="h2" %}
+
+**For fixed planned events in the future. Often used with a word for future events.**   
+*MISSING TRANSLATION VN* 
 
 1. {% include play.html identifier="examples1" start=98.56 stop=101.11 %} **We are visiting my parents tomorrow.**      
 *Chúng tôi sẽ thăm bố mẹ ngày mai.*      
@@ -139,8 +146,9 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="examples2"  init=true
 	title="Example of Yes / No questions with simple future tense and present continuous"        
-	translation="Ví dụ cho câu hỏi Có / Không của Thì tương lai đơn và Thì hiện tại tiếp diễn"
+	translation=""
     tag="h2" %}
+##### *Ví dụ cho câu hỏi Có / Không của Thì tương lai đơn và Thì hiện tại tiếp diễn*   
 
 1. {% include play.html identifier="examples2" start=5.66 stop=8.11 %} **Are you going to feed the dog?**       
 *Bạn sẽ cho chó ăn phải không?*      

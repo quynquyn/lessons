@@ -77,10 +77,9 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 
 {%  include voice.html attr=page.attr     ZZZZZZZZZZZZZZZZZZZZ=2222222222222222222222
 	identifier="Native-Dialogue"  init=true
-	title="Dialogue"        
+	title="Dialogues"        
 	translation="Hội thoại"
     tag="h2" %}
-
 {%  include voice.html attr=page.attr
 	identifier="Native-Dialogue"  init=false start=4.55 stop=12.55
 	title="A1. I chase a dog."        

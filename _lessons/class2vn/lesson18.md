@@ -69,14 +69,14 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=false start=3.17 stop=17.14
 	title="1. I hope I am not boring you with my life story."        
-	translation="Tôi hy vọng tôi không làm bạn chán với câu chuyện về cuộc đời tôi."
+	translation=""
     tag="h3" %}
-
-- **John thinks he's boring, but I find him to be interesting.**     
+##### *Tôi hy vọng tôi không làm bạn chán với câu chuyện về cuộc đời tôi.*
+1. **John thinks he's boring, but I find him to be interesting.**     
 *John nghĩ anh ấy đang chán, nhưng tôi thấy anh ấy thú vị.*   
-- **There is nothing more boring than a bad story.**  
+2. **There is nothing more boring than a bad story.**  
 *Không có cái gì chán hơn là câu chuyện dở.*    
-- **I can’t help the fact that I think Harry Potter is boring.**  
+3. **I can’t help the fact that I think Harry Potter is boring.**  
 *Tôi không thể phủ nhận sự thật là tôi nghĩ Harry Potter rất nhàm chán.*   
 
 
@@ -87,14 +87,14 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=false start=17.17 stop=34.54
 	title="2. I'm very bored by classical music. I prefer rock music instead."        
-	translation="Tôi rất chán với nhạc cổ điển. Tôi thích nhạc rock hơn."
+	translation=""
     tag="h3" %}
-
-- **Anne said she is bored of her job and that she is thinking about looking for a new one.**  
+##### *Tôi rất chán với nhạc cổ điển. Tôi thích nhạc rock hơn.*
+1. **Anne said she is bored of her job and that she is thinking about looking for a new one.**  
 *Anne nói cô ấy thấy chán công việc của cô ấy và cô ấy đang suy nghĩ về việc tìm việc mới.*    
-- **Christopher is bored with eating out all the time.**  
+2. **Christopher is bored with eating out all the time.**  
 *Christopher cảm thấy chán vì lúc nào cũng phải ra ngoài ăn.*    
-- **I am so bored of these songs on the radio. They make me angry.**  
+3. **I am so bored of these songs on the radio. They make me angry.**  
 *Tôi thấy chán với mấy bài hát trên đài radio. Chúng khiến tôi tức giận.*   
 
 {%  include voice.html attr=page.attr  
@@ -103,39 +103,40 @@ attr:
 	translation="Tôi cảm thấy được yêu bởi vợ và các con tôi."
     tag="h3" %}
 
-- **I feel appreciated and valued in my school.**  
+1. **I feel appreciated and valued in my school.**  
 *Tôi cảm thấy được cảm kích và có giá trị khi ở trường.*    
-- **I feel like I'm going to be sick.**  
+2. **I feel like I'm going to be sick.**  
 *Tôi có cảm giác tôi sắp ốm.*   
-- **I feel the warmth of the sun on my skin.**  
+3. **I feel the warmth of the sun on my skin.**  
 *Tôi cảm nhận được hơi ấm của mặt trời trên làn da tôi.*    
 
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=false start=46.35 stop=65.54
 	title="4. Reading non-fiction makes me happy."        
-	translation="Đọc những thứ không phải tiểu thuyết khiến tôi vui."
+	translation=""
     tag="h3" %}
+##### *Đọc những thứ không phải tiểu thuyết khiến tôi vui.*
+**Verb + '~ing' can be used in the same way as a noun.**     
+*Verb + '~ing' có thể sử dụng như một chủ ngữ.*
 
-**Verb + ing can be used in the same way as a noun.**   *Verb + ing có thể sử dụng như một chủ ngữ.*
-
-- **I don't want to hang out with Steven. Seeing him is the last thing I want to do.**  
+1. **I don't want to hang out with Steven. Seeing him is the last thing I want to do.**  
 *Tôi không muốn đi chơi với Steven. Gặp anh ấy là điều cuối cùng tôi muốn làm.*    
-- **Being single helped me learn more about myself.**  
+2. **Being single helped me learn more about myself.**  
 *Độc thân khiến tôi hiểu rõ hơn về bản thân mình.*    
-- **Thinking about Robert makes me smile.**   
+3. **Thinking about Robert makes me smile.**   
 *Nghĩ về Robert khiến tôi mỉm cười.*    
 
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=false start=65.65 stop=80.14
 	title=" 5. I hate it when people talk to me on the bus."        
-	translation="Tôi ghét khi người ta nói chuyện với tôi trên xe buýt."
+	translation=""
     tag="h3" %}
-
-- **I dislike being interrupted while I'm speaking.**   
+##### *Tôi ghét khi người ta nói chuyện với tôi trên xe buýt.*
+1. **I dislike being interrupted while I'm speaking.**   
 *Tôi không thích bị cắt ngang khi đang nói.*   
-- **I don't appreciate it when Robert takes my phone without asking first.**   
+2. **I don't appreciate it when Robert takes my phone without asking first.**   
 *Tôi không vui lắm khi Robert lấy điện thoại của tôi mà không xin phép.*   
-- **I despise people who cheat on exams because that is immoral.**  
+3. **I despise people who cheat on exams because that is immoral.**  
  *Tôi cho rằng người gian lận trong thi cử là không có đạo đức.*   
 
 {%  include voice.html attr=page.attr  

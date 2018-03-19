@@ -31,7 +31,6 @@ attr:
 	title="1. It's easy to learn English."        
 	translation="Học tiếng Anh thì dễ"
     tag="h3" %}
-
 1. {% include play.html identifier="Explanation1" start=5 stop=9 %} **It's hard to learn Japanese.**  
 *Học tiếng Nhật khó.*  
 2. {% include play.html identifier="Explanation1" start=9 stop=14 %} **It's necessary to do a good job.**  
@@ -68,7 +67,7 @@ attr:
 {% endif %}
 {%  include voice.html attr=page.attr  
 	identifier="Explanation2"  init=true
-	title="2. Verb + 'ing' => it"        
+	title="2. Verb + 'ing' = it"        
 	translation="Động từ + ing = chủ ngữ"
     tag="h3" %}
 

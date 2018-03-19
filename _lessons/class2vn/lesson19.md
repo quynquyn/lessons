@@ -79,35 +79,27 @@ attr:
 > {% include play.html identifier="conversation" start=58.15 stop=63.03 %} P2: **You're welcome. Let me know how it goes, and remember that I'm always here for you.**       
 *Không có chi. Cho tôi biết nó tiến triển như thế nào, và hãy nhớ là tôi luôn ở đây vì bạn.*  
 
-
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="explanation"  init=true
 	title="Explanation"        
 	translation="Giải thích"
     tag="h2" %}
-
-
-
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=3.01 stop=25.39
 	title="1. If I get hungry, will you bring me something to eat?"
-	translation="Nếu tôi đói thì bạn sẽ mang gì đó đến cho tôi ăn chứ?"
+	translation=""
     tag="h3" %}
-
-- **Today's lesson bores me to tears! If the bell doesn't ring soon, I will leave.**  
+##### *Nếu tôi đói thì bạn sẽ mang gì đó đến cho tôi ăn chứ?*
+1. **Today's lesson bores me to tears! If the bell doesn't ring soon, I will leave.**  
 *Bài học hôm nay khiến tôi chán đến rơi nước mắt! Nếu chuông không reo sớm thì tôi sẽ đi.*    
-- **If I buy Chris a new phone, he will start crying with joy.**  
+2. **If I buy Chris a new phone, he will start crying with joy.**  
 *Nếu tôi mua cho Chris một cái điện thoại mới, anh ấy sẽ bắt đầu khóc trong hạnh phúc.*    
-- **I am so fed up with my children fighting! If they don't stop, I will go crazy.**  
+3. **I am so fed up with my children fighting! If they don't stop, I will go crazy.**  
 *Tôi thật chán ngấy với mấy trò cãi nhau của mấy đứa con tôi rồi! Nếu tụi nó không dừng lại tôi sẽ phát điên lên mất.*    
-
 
 {% if site.trialdeploy %}
   {% include list_placeholder.html  attr=page.attr     start=3 stop=6 %}
   {% else %}
-
-
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=25.49 stop=41.19
@@ -115,62 +107,57 @@ attr:
 	translation="Chúc mừng! Bạn đã trúng số!"
     tag="h3" %}
 
-- **Good job for doing your homework in time. I never thought I'd see that happen.**  
+1. **Good job for doing your homework in time. I never thought I'd see that happen.**  
 *Thật tốt khi bạn làm bài tập về nhà kịp lúc. Tôi chưa bao giờ nghĩ nó sẽ xảy ra.*    
-- **If Bobby doesn't pass this exam, I'll feel very sorry for him.**  
+2. **If Bobby doesn't pass this exam, I'll feel very sorry for him.**  
 *Nếu Bobby không vượt qua được kì thi này thì tôi sẽ thấy rất tiếc cho anh ấy.*    
-- **If you keep your chin up, you will feel better.**  
+3. **If you keep your chin up, you will feel better.**  
 *Hãy cứ tiếp tục ngẩng cao đầu, bạn sẽ cảm thấy tốt hơn.*   
-
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=41.29 stop=58.19
 	title="3. I know you're disappointed, but remember that tomorrow is another day."
-	translation="Tôi biết là bạn thất vọng, nhưng hãy nhớ ngay mai là một ngày mới."
+	translation=""
     tag="h3" %}
-
-
-- **My mom is in a very foul mood. If I talk to her, she will yell at me.**  
+##### *Tôi biết là bạn thất vọng, nhưng hãy nhớ ngay mai là một ngày mới.*
+1. **My mom is in a very foul mood. If I talk to her, she will yell at me.**  
 *Mẹ tôi đang có tâm trạng rất cáu. Nếu tôi nói chuyện với bà ấy, bà ấy sẽ hét vào mặt tôi mất.*   
-- **If you ever feel sad, I will be there for you.**  
+2. **If you ever feel sad, I will be there for you.**  
 *Nếu có bao giờ bạn thấy buồn, tôi sẽ ở đó vì bạn.*    
-- **If you win the lottery, I will become green with envy.**  
+3. **If you win the lottery, I will become green with envy.**  
 *Nếu bạn trúng số, thì tôi sẽ ghen tị lắm.*    
-
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=58.29 stop=77.19
 	title="4. If the ball is in your court, you have to act carefully."
-	translation="Nếu trái banh ở trong sân của bạn, bạn phải cư xử thật cẩn thận."
+	translation=""
     tag="h3" %}
-
-- **I used to be poorer than my brother, but the tables have turned when I won the lottery.**  
+##### *Nếu trái banh ở trong sân của bạn, bạn phải cư xử thật cẩn thận.*
+1. **I used to be poorer than my brother, but the tables have turned when I won the lottery.**  
 *Tôi đã từng nghèo hơn của anh của tôi, nhưng tình thế đã thay đổi khi tôi trúng số.*     
-- **If you lose your wallet, that will be a real shame.**  
+2. **If you lose your wallet, that will be a real shame.**  
 *Nếu bạn để mất bóp, thì đó đúng là nỗi xấu hổ.*    
-- **Why are you building a house? If you win the lottery, you can just buy one.**  
+3. **Why are you building a house? If you win the lottery, you can just buy one.**  
 *Tại sao bạn phải xây nhà vậy? Nếu bạn trúng số, thì bạn chỉ cần mua 1 căn thôi mà.*     
-
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=77.29 stop=98.19
 	title="5. I'm still on the fence about John. If he visits, I will consider him a friend."
-	translation="Tôi vẫn đang lập hàng rào với John. Nếu anh ấy đến thăm, tôi sẽ chỉ xem anh ấy là bạn."
+	translation=""
     tag="h3" %}
-
-- **Joe's parents keep giving him money but he takes them for granted. He doesn't appreciate them.**  
+##### *Tôi vẫn đang lập hàng rào với John. Nếu anh ấy đến thăm, tôi sẽ chỉ xem anh ấy là bạn.*
+1. **Joe's parents keep giving him money but he takes them for granted. He doesn't appreciate them.**  
 *Ba mẹ của Joe cứ cho anh ấy tiền và anh ấy nghĩ đó là điều hiển nhiên. Anh ấy không cảm kích họ.*     
-- **If he doesn’t stop being so rude, I will give him a piece of my mind.**  
+2. **If he doesn’t stop being so rude, I will give him a piece of my mind.**  
 *Nếu anh ấy không ngừng thô lỗ, tôi sẽ cho anh ấy một chút bình tâm.*     
-- **I will be brokenhearted if he doesn't ask me out.**   
+3. **I will be brokenhearted if he doesn't ask me out.**   
 *Tôi sẽ đau khổ lắm nếu anh ấy không rủ tôi đi chơi.*    
-
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=3.01 stop=25.39
 	title="More Examples"
 	translation="Giải thích thêm"
-    tag="h3" %}
+    tag="h2" %}
 
 1. **I wasn't going to let her come to my party but I had a change of heart.**   
 *Tôi đã không định để cô ấy đến bữa tiệc nhưng tim tôi đã thay đổi.*    

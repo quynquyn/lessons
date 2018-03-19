@@ -28,7 +28,7 @@ attr:
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="explanation"  init=true
-	title="Example of which"
+	title="Examples of which"
 	translation="Ví dụ của which"
 %}
 
@@ -82,7 +82,12 @@ attr:
 22. {% include play.html identifier="explanation" start=97.53 stop=99.72 %} **Which room does the President sleep in?**  
 *Ngài Tổng thống ngủ trong phòng nào?*
 {% endif %}
-### Examples of whose   *Ví dụ của whose*
+
+{%  include voice.html attr=page.attr                     tag="h2"
+	identifier="explanation"  init=false start=99.73 stop=127.86
+	title="Examples of whose"
+	translation="Ví dụ của whose" %}
+
 1. {% include play.html identifier="explanation" start=102.81 stop=105.43 %} **Whose house do you want to buy?**  
 *Bạn muốn mua nhà của ai?*
 2. {% include play.html identifier="explanation" start=105.43 stop=107.64 %} **Whose cellphone is cheap?**  

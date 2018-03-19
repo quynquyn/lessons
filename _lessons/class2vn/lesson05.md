@@ -40,7 +40,7 @@ attr:
 	translation="Ba của bạn là người như thế nào?"
     tag="h3" %}
 
-**My father is...**   *Ba của tôi thì...*
+**My father is...**     *Ba của tôi thì...*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -111,9 +111,9 @@ attr:
 
 **He's going to...**
 
-- **He's going to propose to her.**  
+1. **He's going to propose to her.**  
 *Anh ta sẽ cầu hôn cô ấy.*   
-- **He's going to study abroad.**  
+2. **He's going to study abroad.**  
 *Anh ta sẽ đi du học.*   
 
 {% if site.trialdeploy %}
@@ -122,24 +122,24 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=false start=16.97 stop=26.73
 	title="2. What does your father do for a living?"        
-	translation="Ba bạn làm nghề gì để kiếm sống?"
+	translation=""
     tag="h3" %}
-
-- **What does your mother do for a living?**  
+##### *Ba bạn làm nghề gì để kiếm sống?"*
+1. **What does your mother do for a living?**  
 *Mẹ bạn làm nghề gì?*   
-- **What do you do for a living?**  
+2. **What do you do for a living?**  
 *Bạn làm nghề gì?*  
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=false start=29.23 stop=46.12
 	title="3. I have three older brothers and two sisters."        
-	translation="Tôi có 3 anh trai và 2 em gái."
+	translation=""
     tag="h3" %}
-
-- **I have an older brother and 2 younger sisters.**  
+##### *Tôi có 3 anh trai và 2 em gái.*
+1. **I have an older brother and 2 younger sisters.**  
 *Tôi có một anh trai và 2 em gái.*  
-- **I have an older sister, 2 older brothers and a younger sister.**  
+2. **I have an older sister, 2 older brothers and a younger sister.**  
 *Tôi có một chị gái, hai anh trai và một em gái.*  
-- **I am an only child.**  
+3. **I am an only child.**  
 *Tôi là con một.*   
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=false start=48.55 stop=60.16 
@@ -147,27 +147,26 @@ attr:
 	translation="Mẹ bạn là người như thế nào?"
     tag="h3" %}
 
- - **What is your sister like?**  
- *Chị/em gái của bạn là người như thế nào?*   
- - **What is your manager like?**  
- *Giám đốc của bạn là người như thế nào?*  
- - **What is the weather like?**  
- *Thời tiết như thế nào?*   
+1. **What is your sister like?**  
+*Chị/em gái của bạn là người như thế nào?*   
+2. **What is your manager like?**  
+*Giám đốc của bạn là người như thế nào?*  
+3. **What is the weather like?**  
+*Thời tiết như thế nào?*   
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=false start=62.55 stop=79.68 
 	title="5. Who makes most of the decisions in your family?"        
-	translation="Ai đưa ra hầu hết các quyết định trong gia đình bạn?"
+	translation=""
     tag="h3" %}
+##### *Ai đưa ra hầu hết các quyết định trong gia đình bạn?*
+**Who + verb ('~s' / '~es')**
 
-**Who + verb ('~s' /'~es')**
-
-- **Who feeds the dog in your family?**  
+1. **Who feeds the dog in your family?**  
 *Trong gia đình bạn, ai cho chó ăn?*   
-- **Who does the shopping in your family?**  
+2. **Who does the shopping in your family?**  
 *Trong gia đình bạn, ai lo chuyện mua sắm?*   
-- **Who gets up early in your family?**   
+3. **Who gets up early in your family?**   
 *Trong gia đình bạn, ai thức dậy sớm?*   
-
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=false start=29.23 stop=46.12
@@ -175,12 +174,11 @@ attr:
 	translation="Gia đình bạn có đông không?"
     tag="h3" %}
 
-
-- **Do you have a big family?**  
+1. **Do you have a big family?**  
 *Gia đình bạn có đông không?*  
-- **Do you have any siblings?**   
+2. **Do you have any siblings?**   
 *Bạn có anh chị em gì không?*  
-- **How many people are there in your family?**  
+3. **How many people are there in your family?**  
 *Gia đình bạn có bao nhiêu người?*
 
 {% endif %}

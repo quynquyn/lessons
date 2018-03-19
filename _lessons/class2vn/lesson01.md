@@ -60,9 +60,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 	title="1. I am interested in playing badminton with my friend."        
 	translation=""
     tag="h3" %}
-*Tôi thích chơi cầu lông với những người bạn của tôi.*
-
-**I am interested in…**  *Tôi thích...*
+##### *Tôi thích chơi cầu lông với những người bạn của tôi.*
+**I am interested in…**     *Tôi thích...*
 
 1. **I am interested in playing computer games.**  
 *Tôi thích chơi trò chơi điện tử.*
@@ -76,7 +75,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 	translation="Nghe tuyệt đấy!"
     tag="h3" %}
 
-**That sounds …**  *Nghe ...*
+**That sounds …**     *Nghe ...*
 
 1. **That sounds amazing.**  
 *Nghe thật tuyệt.*
@@ -87,10 +86,11 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=26.59 stop=40.04
 	title="3. Where do you usually go to play badminton?"        
-	translation="Bạn thường đi chơi cầu lông ở đâu?"
+	translation=""
     tag="h3" %}
+##### *Bạn thường đi chơi cầu lông ở đâu?*   
 
-**Where do you usually…?**  *Bạn thường ... ở đâu?*
+**Where do you usually…?**     *Bạn thường ... ở đâu?*
 
 1. **Where do you usually go shopping?**  
 *Bạn thường đi mua sắm ở đâu?*
@@ -101,9 +101,10 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=41.95 stop=55.22
 	title="4. How often do you play badminton?"        
-	translation="Bạn chơi cầu lông thường xuyên như thế nào?"
+	translation=""
     tag="h3" %}
-**How often do you…?**  *Bạn … thường xuyên như thế nào*
+##### *Bạn chơi cầu lông thường xuyên như thế nào?*   
+**How often do you…?**     *Bạn … thường xuyên như thế nào*
 1. **How often do you call your mother?**  
 *Bạn gọi điện cho mẹ thường xuyên như thế nào?*
 2. **How often do you play ping-pong?**  
@@ -128,8 +129,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 	title="6. It’s simply because it helps me recharge my batteries after a long day."        
 	translation=""
     tag="h3" %}
-*Đơn giản là vì nó giúp tôi nạp năng lượng sau một ngày dài.*  
-
+##### *Đơn giản là vì nó giúp tôi nạp năng lượng sau một ngày dài.*  
 1. **It’s probably because it helps me recharge my battery after a long day.**  
 *Có thể bởi vì nó giúp tôi nạp năng lượng sau một ngày dài.*
 2. **It’s maybe because it helps me recharge my batteries after a long day.**  
@@ -144,8 +144,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 	title="7. It helps me recharge my battery after a long working day."        
 	translation=""
     tag="h3" %}
-*Nó giúp tôi nạp năng lượng sau một ngày làm việc dài.*   
-
+##### *Nó giúp tôi nạp năng lượng sau một ngày làm việc dài.*   
 1. **It helps me relax and sleep at night.**  
 *Nó giúp tôi thư giãn và ngủ buối tối.*
 2. **It helps me release my stress and pressure from work.**  

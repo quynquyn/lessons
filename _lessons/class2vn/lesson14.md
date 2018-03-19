@@ -132,11 +132,11 @@ attr:
 	translation="Cô ta hơn tôi 1 tuổi."
     tag="h3" %}
 
-- **He is ten years older than me.**  
+1. **He is ten years older than me.**  
 *Anh ấy hơn tôi 10 tuổi*   
-- **She is two years younger than me.**  
+2. **She is two years younger than me.**  
 *Cô ấy thua tôi 2 tuổi*   
-- **She is the same age as me.**  
+3. **She is the same age as me.**  
 *Cô ấy bằng tuổi tôi*   
 
 {% if site.trialdeploy %}
@@ -149,52 +149,52 @@ attr:
 	translation="Các bạn là bạn bao lâu rồi?"
     tag="h3" %}
 
-- **How long have you been together?**  
+1. **How long have you been together?**  
 *Hai bạn bên nhau bao lâu rồi?*      
-- **How long have you been a teacher?**  
+2. **How long have you been a teacher?**  
 *Bạn là giáo viên được bao lâu rồi?*     
-- **How long have you been in Vietnam?**  
+3. **How long have you been in Vietnam?**  
 *Bạn ở Việt Nam bao lâu rồi?*      
 
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=false start=34 stop=56
 	title="3. She is the most hilarious person I’ve ever known."        
-	translation="Cô ta là người hài hước nhất mà tôi từng biết."
+	translation=""
     tag="h3" %}
-
-- **She is the friendliest person I've ever met.**  
+#### *Cô ta là người hài hước nhất mà tôi từng biết.*
+1. **She is the friendliest person I've ever met.**  
 *Cô ta là người thân thiện nhất mà tôi từng gặp.*   
-- **She is the most boring person I've ever talked to.**  
+2. **She is the most boring person I've ever talked to.**  
 *Cô ta là người chán chán mà tôi từng nói chuyện.*  
-- **My mother is the most awesome person on earth.**  
+3. **My mother is the most awesome person on earth.**  
 *Mẹ tôi là người tuyệt nhất trên đời.*  
-- **My father is the sweetest person in the world.**  
+4. **My father is the sweetest person in the world.**  
 *Bố tôi là người ngọt ngào nhất thế giới.*   
 
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=false start=56 stop=79
 	title="4. What do you think is the most important thing in friendship?"        
-	translation="Theo bạn nghĩ điều gì là quan trọng nhất trong tình bạn?"
+	translation=""
     tag="h3" %}
-
-- **What do you think is the most important thing in a job?**  
+#### *Theo bạn nghĩ điều gì là quan trọng nhất trong tình bạn?*
+1. **What do you think is the most important thing in a job?**  
 *Theo bạn nghĩ điều gì là quan trọng nhất trong công việc?*   
-- **What do you think is the most important thing in a marriage?**  
+2. **What do you think is the most important thing in a marriage?**  
 *Theo bạn nghĩ điều gì là quan trọng nhất trong hôn nhân?*   
-- **What do you think is the most essential factor of his success?**  
+3. **What do you think is the most essential factor of his success?**  
 *Theo bạn nghĩ điều gì là yếu tố quan trọng nhất trong sự thành công của anh ta?*   
 
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=false start=80 stop=106
 	title="5. Never telling lies, in my opinion, is the most important thing in friendship."        
-	translation="Không bao giờ nói dối, theo ý kiến của tôi, là điều quan trọng nhất trong tình bạn."
+	translation=""
     tag="h3" %}
-
-- **I guess having a lot in common is the most important thing in friendship.**  
+##### *Không bao giờ nói dối, theo ý kiến của tôi, là điều quan trọng nhất trong tình bạn.*
+1. **I guess having a lot in common is the most important thing in friendship.**  
 *Tôi đoán có nhiều điểm chung là điều quan trọng nhất trong tình bạn.*   
-- **In my point of view, trust is the most important thing in friendship.**  
+2. **In my point of view, trust is the most important thing in friendship.**  
 *Theo quan điểm của tôi, niềm tin là điều quan trọng nhất trong tình bạn.*   
-- **I believe the most essential factor of his success is his great sense of humor.**   
+3. **I believe the most essential factor of his success is his great sense of humor.**   
 *Tôi tin rằng yếu tố quan trọng nhất trong sự thành công của anh ấy là khiếu hài hước.*
 
 

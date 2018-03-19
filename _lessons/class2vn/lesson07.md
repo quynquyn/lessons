@@ -75,26 +75,26 @@ attr:
 	title="1. I am responsible for selling goods and looking after customers."        
 	translation=""
     tag="h3" %}
-*Tôi có trách nhiệm/nhiệm vụ bán những sản phẩm và chăm sóc khách hàng.*   
-**Be sold out.**   *đã bán hết*
+##### *Tôi có trách nhiệm/nhiệm vụ bán những sản phẩm và chăm sóc khách hàng.*   
+**Be sold out.**     *đã bán hết*
 
-- **The movie is sold out.**  
+1. **The movie is sold out.**  
 *Bộ phim đã bán hết vé rồi.*   
-- **The concert was sold out.**  
+2. **The concert was sold out.**  
 *Buổi hòa nhạc đã bán hết vé rồi.*   
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=false start=19.59 stop=40.18
 	title="2. What do you like most about your job?"        
-	translation="Bạn thích điều gì nhất về công việc của bạn?"
+	translation=""
     tag="h3" %}
+##### *Bạn thích điều gì nhất về công việc của bạn?*
+**What do you like most about…?**     *Bạn thích điều gì nhất về...?*
 
-**What do you like most about…?**   *Bạn thích điều gì nhất về...?*
-
-- **What do you like most about yourself?**  
+1. **What do you like most about yourself?**  
 *Bạn thích gì nhất về bản thân?*  
-- **What does he like most about his trip around Vietnam?**  
+2. **What does he like most about his trip around Vietnam?**  
 *Anh ta thích gì nhất từ chuyến đi Việt nam?*   
-- **What do you hate most about your job?**  
+3. **What do you hate most about your job?**  
 *Bạn ghét điều gì nhất về công việc của bạn?*   
 
 {% if site.trialdeploy %}
@@ -103,29 +103,29 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=false start=42.73 stop=61.76
 	title="3. Is there anything that you don't like about your job?"        
-	translation="ó điều gì bạn không thích về công việc của bạn không?"
+	translation=""
     tag="h3" %}
+##### *ó điều gì bạn không thích về công việc của bạn không?*
+**Is there anything that…?**     *Có điều gì mà...?*
 
-**Is there anything that…?**   *Có điều gì mà...?*
-
-- **Is there anything that you feel annoyed about your boyfriend?**  
+1. **Is there anything that you feel annoyed about your boyfriend?**  
 *Có điều gì bạn cảm thấy khó chịu về bạn trai không?*   
-- **Is there anything that you know that you should do but you don't?**  
+2. **Is there anything that you know that you should do but you don't?**  
 *Có điều gì bạn biết là bạn nên làm nhưng bạn không làm không?*   
-- **Is there anything that can make you smile immediately?**   
+3. **Is there anything that can make you smile immediately?**   
 *Có điều gì có thể khiến bạn cười ngay lập tức không?*  
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=false start=64.08 stop=77.47
 	title="4. The job can get really stressful at times."        
-	translation="Công việc có thể rất căng thẳng nhiều lúc."
+	translation=""
     tag="h3" %}
-
-- **I get stressed.**  
+##### *Công việc có thể rất căng thẳng nhiều lúc.*
+1. **I get stressed.**  
 *Tôi bị căng thẳng.*  
-- **The job is stressful.**  
+2. **The job is stressful.**  
 *Công vệc rất căng thẳng.*  
-- **It's a stressful job.**  
+3. **It's a stressful job.**  
 *Nó là một công việc căng thẳng.*
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
@@ -133,10 +133,10 @@ attr:
 	title="5. Do you think it is more important to make a lot of money or to enjoy your job?"        
 	translation=""
     tag="h3" %}
-*Bạn nghĩ rằng kiếm nhiều tiền hay tận hưởng công việc quan trọng hơn?*
-- **Do you think it's more important to be polite or to be honest?**  
+##### *Bạn nghĩ rằng kiếm nhiều tiền hay tận hưởng công việc quan trọng hơn?*
+1. **Do you think it's more important to be polite or to be honest?**  
 *Bạn nghĩ rằng lịch sự hay thành thật quan trọng hơn?*  
-- **Do yoi think it's more important to give or to take?**  
+2. **Do yoi think it's more important to give or to take?**  
 *Bạn nghĩ rằng cho đi hay nhận lại quan trọng hơn?* 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
@@ -145,11 +145,11 @@ attr:
 	translation="Thật lòng / Thành thật mà nói,..."
     tag="h3" %}
 
-**Honestly / to be honest**   *Thật lòng / Thành thật mà nói*
+**Honestly / to be honest**     *Thật lòng / Thành thật mà nói*
 
-- **Honestly, I have no interest in him.**  
+1. **Honestly, I have no interest in him.**  
 *Thật lòng, tôi chẳng thích anh ta tí nào.*  
-- **To be honest, I'll do it tomorrow.**  
+2. **To be honest, I'll do it tomorrow.**  
 *Thành thật mà nói, mai tôi sẽ làm.*   
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
@@ -158,11 +158,11 @@ attr:
 	translation="Bạn có thể tận hưởng điều bạn làm."
     tag="h3" %}
 
-**be able to...**   *có thể...*  
+**be able to...**     *có thể...*  
 
-- **I am able to speak English fluently.**  
+1. **I am able to speak English fluently.**  
 *Tôi có thể nói Tiếng Anh thành thạo.*  
-- **I'm sorry that I wasn't able to phone you yesterday.**   
+2. **I'm sorry that I wasn't able to phone you yesterday.**   
 *Xin lỗi hôm qua tôi không thể gọi cho bạn được.*  
 
 

@@ -65,14 +65,14 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=4.63 stop=24.71
 	title="1. After finding out about this, I realized that I need to talk to you straight away."        
-	translation="Sau khi phát hiện ra điều này, tôi nhận ra rằng tôi phải nói với bạn ngay."
+	translation=""
     tag="h3" %}
-
-- **After finding out that Jane likes me, too, I asked her out.**  
+##### *Sau khi phát hiện ra điều này, tôi nhận ra rằng tôi phải nói với bạn ngay.*
+1. **After finding out that Jane likes me, too, I asked her out.**  
 *Sau khi nhận ra rằng Jane cũng thích tôi, tôi rủ cô ấy ra ngoài hẹn hò.*     
-- **After finding out about how he feels, I became sad.**  
+2. **After finding out about how he feels, I became sad.**  
 *Sau khi nhận ra anh ấy cảm thấy như thế nào, tôi trở nên buồn.*    
-- **After realizing that I didn't love her anymore, I decided to break up with her.**  
+3. **After realizing that I didn't love her anymore, I decided to break up with her.**  
 *Sau khi nhận ra rằng tôi không yêu cô ấy nữa, tôi quyết định chia tay với cô ấy.*    
 
 {% if site.trialdeploy %}
@@ -82,14 +82,14 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=25.56 stop=41.11
 	title="2. I think that if you really like someone, you should say it."        
-	translation="Tôi nghĩ nếu bạn thật sự thích ai, bạn nên nói ra."
+	translation=""
     tag="h3" %}
-
-- **I think there is no reason to be ashamed of love.**  
+##### *Tôi nghĩ nếu bạn thật sự thích ai, bạn nên nói ra.*
+1. **I think there is no reason to be ashamed of love.**  
 *Tôi nghĩ chẳng có lí do gì phải xấu hổ về tình yêu.*    
-- **I think there is a reason she keeps smiling every time she sees him.**   
+2. **I think there is a reason she keeps smiling every time she sees him.**   
 *Tôi nghĩ phải có một lí do cô ta cứ cười mỗi lần cô ta gặp anh ấy.*   
-- **I think you need to stop being such a coward and tell the truth!**  
+3. **I think you need to stop being such a coward and tell the truth!**  
 *Tôi nghĩ bạn nên dừng làm kẻ nhút nhát và nói sự thật đi.*    
 
 {%  include voice.html attr=page.attr  
@@ -98,39 +98,39 @@ attr:
 	translation="Tôi tưởng bạn cũng thích tôi."
     tag="h3" %}
 
-**I thought...**   *Tôi tưởng*
+**I thought...**     *Tôi tưởng*
 
-- **I thought he wanted to marry me.**  
+1. **I thought he wanted to marry me.**  
 *Tôi tưởng anh ấy đã muốn cưới tôi.*    
-- **I thought we were friends.**  
+2. **I thought we were friends.**  
 *Tôi tưởng chúng ta là bạn.*   
-- **He thought he was going to be a dad.**  
+3. **He thought he was going to be a dad.**  
 *Anh ấy tưởng anh ấy sắp được làm bố.*   
 
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=51.66 stop=68.61
 	title="4. I didn't mean to upset you, but that's just how I feel."        
-	translation="Tôi không có ý làm bạn buồn, đó chỉ là cách tôi cảm nhận."
+	translation=""
     tag="h3" %}
-
-- **I didn't mean to make you sad, but I already have a girlfriend.**  
+##### *Tôi không có ý làm bạn buồn, đó chỉ là cách tôi cảm nhận.*
+1. **I didn't mean to make you sad, but I already have a girlfriend.**  
 *Tôi không có ý làm bạn buồn, nhưng tôi đã có bạn gái rồi.*   
-- **I didn't mean to make you sad, but I don't think we have good chemistry.**  
+2. **I didn't mean to make you sad, but I don't think we have good chemistry.**  
 *Tôi không có ý làm bạn buồn, nhưng tôi không nghĩ rằng chúng ta hợp nhau.*   
-- **Anne didn't mean to insult you, but she told me you're not her type.**  
+3. **Anne didn't mean to insult you, but she told me you're not her type.**  
 *Anna không có ý nhục mạ bạn, nhưng cô ấy nói với tôi rằng bạn không phải mẫu người của cô ấy.*   
 
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=68.76 stop=82.11
 	title="5. I enjoy your company. We should go out sometime."        
-	translation="Tôi thích bên cạnh bạn. Tôi nghĩ lúc nào đó chúng ta nên đi chơi."
+	translation=""
     tag="h3" %}
+##### *Tôi thích bên cạnh bạn. Tôi nghĩ lúc nào đó chúng ta nên đi chơi.*
+**enjoy someone's company**     *thích bên cạnh ai đó*
 
-**enjoy someone's company**   *thích bên cạnh ai đó*
-
-- **He said he enjoys my company. I think that means he might like me the way I like him.**  
+1. **He said he enjoys my company. I think that means he might like me the way I like him.**  
 *Anh nói anh thích bên cạnh tôi. Tôi nghĩ điều đó nghĩa là anh ta cũng thích tôi giống như tôi thích anh.*    
-- **I enjoy Dana's company, but she's nothing more than a friend to me.**  
+2. **I enjoy Dana's company, but she's nothing more than a friend to me.**  
 *Tôi thích bên cạnh Dana, nhưng có ấy không có gì hơn là một người bạn với tôi.*    
 
 {%  include voice.html attr=page.attr  
@@ -139,11 +139,11 @@ attr:
 	translation="Thật hả, bạn thật sự thích tôi hả?"
     tag="h3" %}
 
-- **Really? You really think I want to go out with you?**  
+1. **Really? You really think I want to go out with you?**  
 *Thật hả? Bạn thật sự nghĩ tôi muốn đi chơi với bạn hả?*    
-- **Really? Don't be ridiculous, there is nothing called 'love at first sight'!**  
+2. **Really? Don't be ridiculous, there is nothing called 'love at first sight'!**  
 *Thật á? Đừng nực cười như vậy, chằng có cái gì gọi là 'tình yêu sét đánh' cả.*
-- **Really? He told you that he wanted to settle down?**  
+3. **Really? He told you that he wanted to settle down?**  
 *Thật ư? Anh ấy nói rằng anh ấy muốn yên bề gia thất ư?*   
 
   {% endif %}

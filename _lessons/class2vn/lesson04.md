@@ -25,7 +25,7 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 	translation="Thể loại phim bạn yêu thích nhất là gì?"
     tag="h3" %}
 
-**My favorite kind of movie is a / an...**   *Thể loại phim mà tôi yêu thích nhất là ...*
+**My favorite kind of movie is a / an...**     *Thể loại phim mà tôi yêu thích nhất là ...*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -41,7 +41,7 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 	translation="Bộ phim như thế nào?"
     tag="h3" %}
 
-**The movie is...**   *Bộ phim thì ...*
+**The movie is...**     *Bộ phim thì ...*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -96,14 +96,14 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=2.75 stop=13.41
 	title="1. The early show of 'Dangerous City' is sold out."        
-	translation="Suất chiếu sớm của 'Dangerous City' đã bán hết rồi."
+	translation=""
     tag="h3" %}
+##### *Suất chiếu sớm của 'Dangerous City' đã bán hết rồi.*
+**Be sold out.**     *Đã bán hết*
 
-**Be sold out.**   *Đã bán hết*
-
-- **The movie is sold out.**  
+1. **The movie is sold out.**  
 *Bộ phim đã bán hết vé rồi.*    
-- **The concert was sold out.**  
+2. **The concert was sold out.**  
 *Buổi hòa nhạc đã bán hết vé rồi.*    
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=15.23 stop=29.56
@@ -111,27 +111,27 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 	translation="Chúng ta sẽ làm gì bây giờ?"
     tag="h3" %}
 
-**Be gonna = be going to**   *Sẽ...*
+**Be gonna = be going to**     *Sẽ...*
 
-- **I am gonna go.**  
+1. **I am gonna go.**  
 *Tôi sẽ đi.*   
-- **She’s gonna cry.**  
+2. **She’s gonna cry.**  
 *Cô ấy sẽ khóc.*    
-- **What I am gonna say is … I like you.**  
+3. **What I am gonna say is … I like you.**  
 *Điều tôi sắp nói là … tôi thích bạn.*     
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=33.21 stop=45.95
 	title="3. Why don’t we see 'Beyond Everest'?"        
-	translation="Hay là chúng ta xem phim 'Beyond Everest'?"
+	translation=""
     tag="h3" %}
+##### *Hay là chúng ta xem phim 'Beyond Everest'?*
+**Why don’t we…?**     *Hay là chúng ta... / Tại sao chúng ta không...?*
 
-**Why don’t we…?**   *Hay là chúng ta... / Tại sao chúng ta không...?*
-
-- **Why don’t we go to the beach?**  
+1. **Why don’t we go to the beach?**  
 *Sao chúng ta không đi biển?*    
-- **Why don’t you come with us?**  
+2. **Why don’t you come with us?**  
 *Hay là bạn cùng đi với chúng tôi nhé?*   
-- **Why don’t we take a lunch break?**  
+3. **Why don’t we take a lunch break?**  
 *Sao chúng ta không nghỉ trưa đi?*   
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=47.80 stop=62.19
@@ -139,41 +139,41 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 	translation="Nó được dựa trên một câu chuyện có thật."
     tag="h3" %}
 
-**It’s based on…**   *Nó được dựa trên...*
+**It’s based on…**     *Nó được dựa trên...*
 
-- **It’s based on a book.**  
+1. **It’s based on a book.**  
 *Nó được dựa trên một quyển sách.*
-- **It’s based on an actual event.**  
+2. **It’s based on an actual event.**  
 *Nó được dựa trên một sự kiện có thật.*
-- **The movie is based on a real-life story.**  
+3. **The movie is based on a real-life story.**  
 *Bộ phim được dựa trên một câu chuyện có thật ngoài đời.*
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=64.24 stop=79.98
 	title="5. I get tired of just looking at all that action."        
-	translation="Tôi mệt mỏi vì phải xem tất cả các pha hành động đó."
+	translation=""
     tag="h3" %}
+##### *Tôi mệt mỏi vì phải xem tất cả các pha hành động đó.*
+**I get tired of…**     *Tôi mệt mỏi vì...*
 
-**I get tired of…**   *Tôi mệt mỏi vì...*
-
-- **I get tired of waiting for him.**  
+1. **I get tired of waiting for him.**  
 *Tôi mệt mỏi vì phải chờ đợi anh ấy.*    
-- **I get tired of doing the same job, day after day.**  
+2. **I get tired of doing the same job, day after day.**  
 *Tôi mệt mỏi vì phải làm công việc giống nhau ngày này qua ngày khác.*    
-- **I get tired of arguing with her all the time.**  
+3. **I get tired of arguing with her all the time.**  
 *Tôi mệt mỏi vì lúc nào cũng cãi nhau với cô ấy.*    
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=82.56 stop=95.58
 	title="6. What is 'Lost and Found in New York' about?"        
-	translation="Bộ phim 'Lost and Found in New York' nói về điều gì?"
+	translation=""
     tag="h3" %}
+##### *Bộ phim 'Lost and Found in New York' nói về điều gì?*
+**What is it about?**     *Nó về cái gì?*
 
-**What is it about?**   *Nó về cái gì?*
-
-- **What is the movie about?**  
+1. **What is the movie about?**  
 *Bộ phim nói về điều gì?*   
-- **What is the story about?**  
+2. **What is the story about?**  
 *Câu chuyện nói về điều gì?*   
-- **I want to know what the song is about.**  
+3. **I want to know what the song is about.**  
 *Tôi muốn biết bài hát đó nói về điều gì.*   
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=97.69 stop=109.32
@@ -181,26 +181,26 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 	translation="Nó kiểu như cũng hài hước."
     tag="h3" %}
 
-**Kinda = kind of**   *Đại loại là, kiểu như là...*
+**Kinda = kind of**     *Đại loại là, kiểu như là...*
 
-- **I am kinda bored now.**  
+1. **I am kinda bored now.**  
 *Bây giờ tôi kiểu như cũng chán rồi.*
-- **It’s kinda hard for me to understand.**  
+2. **It’s kinda hard for me to understand.**  
 *Nó đại loại cũng khó cho tôi để hiểu được.*
-- **She’s kinda hot.**  
+3. **She’s kinda hot.**  
 *Cô ta khá là nóng bỏng.*
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=111.08 stop=124.61
 	title="8. I can’t stand science-fiction movies."        
-	translation="Tôi không thể chịu đựng nổi những bộ phim khoa học viễn tưởng."
+	translation=""
     tag="h3" %}
+##### *Tôi không thể chịu đựng nổi những bộ phim khoa học viễn tưởng.*
+**I can’t stand …**     *Tôi không thể chịu được...*
 
-**I can’t stand …**   *Tôi không thể chịu được...*
-
-- **I can’t stand her.**  
+1. **I can’t stand her.**  
 *Tôi không thể chịu đựng được cô ta.*
-- **I can’t stand working 8 hours a day.**  
+2. **I can’t stand working 8 hours a day.**  
 *Tôi không thể chịu đựng được làm việc 8 tiếng một ngày.*
-- **I can’t stand it anymore.**  
+3. **I can’t stand it anymore.**  
 *Tôi không thể chịu đựng nó được nữa.*
 

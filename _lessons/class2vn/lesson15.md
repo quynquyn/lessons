@@ -68,8 +68,6 @@ attr:
 > {% include play.html identifier="conversation" start=79.54 stop=81.74 %} P2: **I think it will go straight to his heart.**     
 *Tôi nghĩ nó sẽ đi thẳng đến trái tim anh ấy luôn.*  
 
-
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="explanation"  init=true
 	title="Explanation"        
@@ -79,16 +77,15 @@ attr:
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=3.44 stop=23.57
 	title="1. It is the first time I've fallen head over heels in love."
-	translation="Đây là lần đầu tiên tôi yêu say đắm như vậy."
+	translation=""
     tag="h3" %}
-
-- **This is the first time I've been to New York.**  
+##### *Đây là lần đầu tiên tôi yêu say đắm như vậy.*
+1. **This is the first time I've been to New York.**  
 *Đây là lần đầu tiên tôi đến New York.*  
-- **This is the first time someone told me that I can sing.**  
+2. **This is the first time someone told me that I can sing.**  
 *Đây là lần đầu tiên ai đó nói rằng tôi có thể hát.*    
-- **This is not my first time at the club.**  
+3. **This is not my first time at the club.**  
 *Đây không phải là lần đầu tôi đến câu lạc bộ.*  
-
 
 {% if site.trialdeploy %}
   {% include list_placeholder.html  attr=page.attr     start=3 stop=6 %}
@@ -100,13 +97,12 @@ attr:
 	translation="húng tôi có nhiều sở thích chung."
     tag="h3" %}
 
-- **My brother and sister share a room.**  
+1. **My brother and sister share a room.**  
 *Anh trai và em gái tôi chia sẻ một căn phòng.*   
-- **Dan and Mary share a sandwich every morning.**   
+2. **Dan and Mary share a sandwich every morning.**   
 *Dan và Mary chia sẻ bánh sandwich mỗi buổi sáng.*    
-- **They broke up because they don't have many common interests.**   
+3. **They broke up because they don't have many common interests.**   
 *Họ chia tay vì họ không có nhiều sự yêu thích chung.*   
-
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=42.10 stop=55.84
@@ -114,39 +110,36 @@ attr:
 	translation="Bạn yêu anh ấy bao lâu rồi?"
     tag="h3" %}
 
-- **How long have you been married?**  
+1. **How long have you been married?**  
 *Bạn kết hôn được bao lâu rồi?*   
-- **How long have you two known each other?**  
+2. **How long have you two known each other?**  
 *Hai bạn biết nhau được bao lâu rồi?*   
-- **How many times did you get married?**  
+3. **How many times did you get married?**  
 *Bạn kết hôn bao nhiêu lần rồi?*
-
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=55.10 stop=77.84
 	title="4. If you like him, you should ask him out."
-	translation="Nếu bạn thích ai đó, bạn nên rủ anh ấy ra ngoài hẹn hò."
+	translation=""
     tag="h3" %}
-
-- **Chris asked me out. I'm happy he did because I like him a lot.**  
+##### *Nếu bạn thích ai đó, bạn nên rủ anh ấy ra ngoài hẹn hò.*
+1. **Chris asked me out. I'm happy he did because I like him a lot.**  
 *Chris rủ tôi đi hẹn hò. Tôi rất vui anh ấy làm vậy vì tôi thích anh ấy rất nhiều.*   
-- **I will ask Anne out tomorrow. I hope she says yes.**  
+2. **I will ask Anne out tomorrow. I hope she says yes.**  
 *Tôi sẽ rủ Anna đi hẹn hò. Tôi hi vọng cô ấy đồng ý.*   
-- **I wish she would ask me out. I am too shy to make the first move.**  
+3. **I wish she would ask me out. I am too shy to make the first move.**  
 *Tôi ước gì cô ấy có thể rủ tôi ra ngoài hẹn hò. Tôi quá nhút nhát để chủ động.*    
-
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=77.10 stop=96.84
 	title="5. Put yourself in my shoes and you'll understand."
-	translation="Đặt vào tình huống của tôi và bạn sẽ hiểu."
+	translation=""
     tag="h3" %}
-
-- **I put myself in your shoes and I still don't understand why you did it.**  
+##### *Đặt vào tình huống của tôi và bạn sẽ hiểu.*
+1. **I put myself in your shoes and I still don't understand why you did it.**  
 *Đặt vào tình huống của bạn và tôi vẫn không hiểu tại sao bạn làm vậy.*   
-- **Before judging someone, you should always try to put yourself in their shoes.**  
+2. **Before judging someone, you should always try to put yourself in their shoes.**  
 *Trước khi phán xét ai đó, bạn hãy luôn cố gắng đặt mình vào tình huống họ.*   
-
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=96.10 stop=108.14 
@@ -154,11 +147,11 @@ attr:
 	translation="Thật là một ý tưởng lãng mạng."
     tag="h3" %}
 
-- **What an amazing kitchen!**  
+1. **What an amazing kitchen!**  
 *Thật là một căn bếp tuyệt vời.*   
-- **What a cute dog!**  
+2. **What a cute dog!**  
 *Thật là một con chó dễ thương.*   
-- **What a wonderful world!**  
+3. **What a wonderful world!**  
 *Thật là một thế giới tuyệt vời.*   
 
 

@@ -47,25 +47,22 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-> 1. {% include play.html identifier="vocabulary" start=51.10 stop=56.38 %} **I was tired last night. Were you?**      
-> *Đêm qua tôi mệt. Bạn có mệt không?*    
-> **Yes, I was tired last night.**        
-> *Có, đên qua tôi cũng mệt.*       
-
-> 2. {% include play.html identifier="vocabulary" start=57.30 stop=62.35 %} **Were you bored without me yesterday?**    
-> *Hôm qua không có tôi, bạn có chán không?*    
-> **No, I wasn’t bored without you yesterday.**      
-> *Không, hôm qua không có bạn, tôi không chán.*    
-
-> 3. {% include play.html identifier="vocabulary" start=63.35 stop=67.76 %} **Was she at home last week?**     
-> *Tuần trước cô ta có ở nhà không?*        
-> **No, she was not at home last week.**     
-*Không, cô ta không có nhà tuần trước.*      
-     
-> 4. {% include play.html identifier="vocabulary" start=68.86 stop=74 %} **Jane didn’t come to class yesterday. Was she sick?**     
-> *Jane không đến lớp hôm qua. Cô ấy ốm à?*      
-> **Yes, she was sick.**        
-> *Ừ, cô ấy ốm.* 
+1. {% include play.html identifier="vocabulary" start=51.10 stop=56.38 %} **I was tired last night. Were you?**      
+*Đêm qua tôi mệt. Bạn có mệt không?*    
+**Yes, I was tired last night.**        
+*Có, đên qua tôi cũng mệt.*       
+2. {% include play.html identifier="vocabulary" start=57.30 stop=62.35 %} **Were you bored without me yesterday?**    
+*Hôm qua không có tôi, bạn có chán không?*    
+**No, I wasn’t bored without you yesterday.**      
+*Không, hôm qua không có bạn, tôi không chán.*    
+3. {% include play.html identifier="vocabulary" start=63.35 stop=67.76 %} **Was she at home last week?**     
+*Tuần trước cô ta có ở nhà không?*        
+**No, she was not at home last week.**     
+*Không, cô ta không có nhà tuần trước.*           
+4. {% include play.html identifier="vocabulary" start=68.86 stop=74 %} **Jane didn’t come to class yesterday. Was she sick?**     
+*Jane không đến lớp hôm qua. Cô ấy ốm à?*      
+**Yes, she was sick.**        
+*Ừ, cô ấy ốm.* 
 
 
 {%  include voice.html attr=page.attr                     tag="h2"
@@ -74,30 +71,26 @@ attr:
 	translation="Động từ chỉ hoạt động"
 %}
 
-> 1. {% include play.html identifier="regular" start=3.11 stop=9.98 %} **Did you sister help you do homework?**         
+1. {% include play.html identifier="regular" start=3.11 stop=9.98 %} **Did you sister help you do homework?**         
 *Chị của bạn có giúp bạn làm bài tập về nhà không?*     
-> **No, My sister didn’t help me do anything.**     
+**No, My sister didn’t help me do anything.**     
 *Không, chị tôi đã không giúp tôi làm gì hết.*      
-
-> 2. {% include play.html identifier="regular" start=10.11 stop=14.4 %} **Did Sarah finish her homework?**         
+2. {% include play.html identifier="regular" start=10.11 stop=14.4 %} **Did Sarah finish her homework?**         
 *Sarah đã hoàn thành bài tập về nhà chưa?*   
-> **Yes, Sarah finished it.**   
+**Yes, Sarah finished it.**   
 *Rồi, Sarah đã hoàn thành rồi.*     
-
-> 3. {% include play.html identifier="regular" start=14.4 stop=19.98 %} **Did he love her?**        
+3. {% include play.html identifier="regular" start=14.4 stop=19.98 %} **Did he love her?**        
 *Anh ta có yêu cô ta không?*    
-> **Yes, he loved her but he didn't want to marry her.**   
+**Yes, he loved her but he didn't want to marry her.**   
 *Có, anh ta có yêu cô ấy nhưng anh ta không muốn cưới cô ấy.*       
-
-> 4. {% include play.html identifier="regular" start=19.98 stop=26.28 %} **Did James come to class yesterday?**        
+4. {% include play.html identifier="regular" start=19.98 stop=26.28 %} **Did James come to class yesterday?**        
 *Hôm qua James có đến lớp không?*   
->**Yes, he came to class yesterday.**    
+**Yes, he came to class yesterday.**    
 *Có, anh ấy có đến lớp hôm qua.*      
-
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="regular"  init=false  start=27.18 stop=45.28
-	title="A. Regular verbs (verb + 'ed')"
-	translation="Động từ thường (Động từ + ed)"
+	title="A. Regular verbs (verb + '~ed')"
+	translation="Động từ thường (Động từ + '~ed')"
 %}
 
 **'~ed' = 't' sound for verbs ending in k, p, s, ch, sh, f**  
@@ -151,8 +144,12 @@ attr:
 
 {% endif %}
 
-{% include play.html identifier="regular" start=104.28 stop=113.28 %} **'~ed' = '~ed' sound for verbs ending with a, t or d**  
+{% include play.html identifier="regular" start=104.28 stop=113.28 %} 
+**'~ed' = '~ed' sound for verbs ending with a, t or d**  
 *ed phát âm là "ed" với những động từ kết thúc là t hoặc d*
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=5 stop=10 %}
+	{% else %} 
  
 1. {% include play.html identifier="regular" start=113.28 stop=116.28 %} **We visited our parents.**    
 *Chúng tôi đã đi thăm bố mẹ.*     
@@ -162,10 +159,7 @@ attr:
 *Tôi đã đi thăm bạn học cũ.*      
 1. {% include play.html identifier="regular" start=121.28 stop=126.28 %} **My husband and I intended to travel to Australia last year.**     
 *Chồng tôi và tôi đã dự định đi du lịch Úc năm ngoái.*  
-{% if site.trialdeploy %}
-	{% include list_placeholder.html  attr=page.attr     start=5 stop=10 %}
-	{% else %}
-1.{% include play.html identifier="regular" start=126.28 stop=129.28 %} **Sarah and Michael dated for a week.**     
+1. {% include play.html identifier="regular" start=126.28 stop=129.28 %} **Sarah and Michael dated for a week.**     
 *Sarah và Michael đã hẹn hò trong một tuần.*   
 1. {% include play.html identifier="regular" start=129.28 stop=132.78 %} **I attended the event. It bored me.**    
 *Tôi đã tham gia sự kiện. Nó làm tôi thấy chán.*   
@@ -178,7 +172,8 @@ attr:
 
 {% endif %}
 
-{% include play.html identifier="regular" start=142.28 stop=147.28 %} **'~ed' = '~d' for all other verbs**  
+{% include play.html identifier="regular" start=142.28 stop=147.28 %} 
+**'~ed' = '~d' for all other verbs**  
 *ed phát âm là "d" với những động từ còn lại*
 
 1. {% include play.html identifier="regular" start=147.28 stop=150.28 %} **The dog followed me home.**    
@@ -206,9 +201,9 @@ attr:
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="irregular"  init=true
 	title="B. Irregular verbs (The second column of irregular verbs)"
-	translation="Động từ bất quy tắc (Cột thứ hai của bảng động từ bất quy tắc)"
+	translation=""
 %}
-
+##### *Động từ bất quy tắc (Cột thứ hai của bảng động từ bất quy tắc)*
 {% include play.html identifier="irregular" start=8.03 stop=10.68 %} **break / broke**  *đập vỡ, làm gãy*     
 {% include play.html identifier="irregular" start=10.28 stop=13.28 %} **speak / spoke**  *nói, phát biểu*   
 {% include play.html identifier="irregular" start=13.28 stop=16.28 %} **steal / stole**  *đánh cắp, lấy trộm*    

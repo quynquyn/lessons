@@ -11,7 +11,7 @@ attr:
 
 {%  include voice.html attr=page.attr                     tag="h1"
 	identifier="vocabulary"  init=true
-	title="Lesson 1.17: Who – Where - When"
+	title="Lesson 1.17: Who – Where – When"
 	translation="Ai - Ở đâu - Khi nào"
 %}
 
@@ -32,7 +32,7 @@ attr:
 	translation=""
 %}
 
-*Ví dụ của câu hỏi 'WH'- với Thì quá khứ đơn, Thì hiện tại đơn, Thì hiện tại tiếp diễn và Thì tương lai đơn* 
+##### *Ví dụ của câu hỏi 'WH'- với Thì quá khứ đơn, Thì hiện tại đơn, Thì hiện tại tiếp diễn và Thì tương lai đơn* 
 
 1. {% include play.html identifier="examples" start=12.27 stop=14.28 %} **Where are you going to go?**      
 *Bạn sẽ đi đâu?*
