@@ -81,7 +81,7 @@ attr:
 {% endif %}
 
 {%  include voice.html attr=page.attr  
-	identifier="examples1"  init=false start=00.01 stop=86.11
+	identifier="examples1"  init=true
 	title="Examples of future simple tense"        
 	translation="Ví dụ của Thì tương lai đơn"
     tag="h2" %}

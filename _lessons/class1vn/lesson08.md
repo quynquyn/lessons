@@ -67,8 +67,8 @@ attr:
 {% endif %}
 {%  include voice.html attr=page.attr  
 	identifier="Explanation2"  init=true
-	title="2. Verb + 'ing' = it"        
-	translation="Động từ + ing = chủ ngữ"
+	title="2. Verb + '~ing' = it"        
+	translation="Động từ + '~ing' = chủ ngữ"
     tag="h3" %}
 
 1. {% include play.html identifier="Explanation2" start=6 stop=11 %} **Learning how to cook is easy.**  

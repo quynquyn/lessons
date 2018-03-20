@@ -9,133 +9,199 @@ attr:
   lang: pt
 ---
 
-# Lesson 2.10: Friendship
+{%  include voice.html attr=page.attr  
+	identifier="vocabulary"  init=true
+	title="Lesson 2.10: Friendship"        
+	translation="TODO"
+    tag="h1" %}
 
-## Vocabulary
-{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %} 
+## Vocabulary   *Vocabulário*
 
-### Purpose
-
-#### For fun
-
+### Purpose   *TODO*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=7 stop=22
+	title="For fun"        
+	translation="Để vui"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang  
 		class=page.class 
 		lesson=page.lesson 
-		lang=page.lang
 		section="forfun"
 		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-#### For education
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=22 stop=32
+	title="For education"        
+	translation="TODO"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
-		lang=page.lang
 		section="foreducation"
 		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=32 stop=54
+	title="For other purposes"        
+	translation="TODO"
+    tag="h3" %}
 
-#### For other purposes
-		
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
-		lang=page.lang
 		section="forotherpurposes"
 		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
-		
 
-{% include player2.html identifier="conversation" class=page.class lesson=page.lesson %}
-## Conversation
+{%  include voice.html attr=page.attr  
+	identifier="conversation"  init=true
+	title="Conversation"        
+	translation="TODO"
+    tag="h2" %}		
 
-> Person1: **What are you doing? Are you busy?**  
-> Person2: **I’m just sending an e-mail.**  
-> Person1: **Do you always use your phone to send e-mails? All of my friends text these days.**  
-> Person2: **Some of my friends text, some don’t. That e-mail was to my dad. He sends me e-mails every day.**  
-> Person1: **What else do you use your phone for?**  
-> Person2: **I often use it to play games. A lot of my friends watch movies, but I find the screen too small.**  
-> Person1: **Do you use it for social networking?**  
-> Person2: **Sure, all the time. Say, I don’t think we’re friends online.**  
-> Person1: **How many hours a day do you use the internet?**  
-> Person2: **10 hours a day, I guess.**  
-> Person1: **Really? Then I think you are definitely addicted to it. When did you first use the internet?**  
-> Person2: **I’m not really sure. Maybe I first used it when I was 12.**  
-> Person1: **Do you lose sleep because of being online?**  
-> Person2: **I couldn’t put my phone down. I always lose sleep. How about you?**  
-> Person2: **I always go to sleep before 11 PM.**  
-> Person2: **That’s why you are always full of energy and you don’t have eye bags.**  
-> Person1: **Thank you. By the way, you should change your sleeping schedule.**  
+> {% include play.html identifier="conversation" start=3.80 stop=6.51 %} Person 1: **What are you doing? Are you busy?**  
+*TODO*    
+> {% include play.html identifier="conversation" start=7.79 stop=10.05 %} Person 2: **I’m just sending an e-mail.**  
+*TODO*  
+> {% include play.html identifier="conversation" start=11.20 stop=16.73 %} P1: **Do you always use your phone to send e-mails? All of my friends text these days.**  
+*TODO*      
+> {% include play.html identifier="conversation" start=18.11 stop=26.11 %} P2: **Some of my friends text, some don’t. That e-mail was to my dad. He sends me e-mails every day.**  
+*TODO*       
+> {% include play.html identifier="conversation" start=27.50 stop=30.06 %} P1: **So what else do you use your phone for?**  
+*TODO*       
+> {% include play.html identifier="conversation" start=31.20 stop=39.41 %} P2: **I often use it to play games. A lot of my friends watch movies, but I find the screen too small.**  
+*TODO*       
+> {% include play.html identifier="conversation" start=40.64 stop=43.06 %} P1: **Do you use it for social networking?**  
+*TODO*       
+> {% include play.html identifier="conversation" start=44.37 stop=50.07 %} P2: **Sure, all the time. Say, I don’t think we’re friends online.**  
+*TODO*      
+> {% include play.html identifier="conversation" start=51.07 stop=54.47 %} P1: **How many hours a day do you use the internet?**  
+*TODO*      
+> {% include play.html identifier="conversation" start=55.76 stop=58.08 %} P2: **10 hours a day, I guess.**  
+*TODO*    
+> {% include play.html identifier="conversation" start=59.52 stop=66.17 %} P1: **Really? Then I think you are definitely addicted to it. When did you first use the internet?**  
+*TODO*    
+> {% include play.html identifier="conversation" start=67.64 stop=72.67 %} P2: **I’m not really sure. Maybe I first used it when I was 12.**  
+*TODO*     
+> {% include play.html identifier="conversation" start=73.87 stop=76.73 %} P1: **Do you lose sleep because of being online?**  
+*TODO*    
+> {% include play.html identifier="conversation" start=78.39 stop=83.70 %} P2: **I couldn’t put my phone down. I always lose sleep. How about you?**  
+*Tôi không thể bỏ điện thoại xuống được. Tôi luôn luôn mất ngủ. Còn bạn thì sao?*     
+> {% include play.html identifier="conversation" start=85.25 stop=88.33 %} P2: **I always go to sleep before 11 PM.**  
+*TODO*     
+> {% include play.html identifier="conversation" start=89.67 stop=94.49 %} P2: **That’s why you are always full of energy and you don’t have eye bags.**  
+*TODO*     
+> {% include play.html identifier="conversation" start=95.81 stop=99.75 %} P1: **Thank you. By the way, you should change your sleeping schedule.**  
+*TODO*      
 
+{%  include voice.html attr=page.attr  
+	identifier="explanations"  init=true
+	title="Explanation"        
+	translation="TODO"
+    tag="h2" %}
 
-{% include player2.html identifier="explanations" class=page.class lesson=page.lesson %}
-
-
-## Explanations
-### 1. What do you use your phone for?
-
-Para o que você usa seu telefone?
-
+{%  include voice.html attr=page.attr  
+	identifier="explanations"  init=false start=1.65 stop=17.32
+	title="1. What do you use your phone for?"        
+	translation="Para o que você usa seu telefone?"
+    tag="h3" %}
+ 
 **What...for?** 
 
-- **What do you study English for?** *Para o que você estuda inglês?*
-- **What did you do that for?** *Por que você fez isso?*
-- **What do you live for?** *Para o que vôce viva?*
+1. **What do you study English for?**  
+*Para o que você estuda inglês?*
+2. **What did you do that for?**  
+*Por que você fez isso?*
+3. **What do you live for?**  
+*Para o que vôce viva?*
 
-### 2. I often use it to play games.
+{% if site.trialdeploy %}
+	{% include explanation_placeholder.html  attr=page.attr     start=2 stop=7 %}
+	{% else %}
 
-Eu costumo usá-lo para jogar jogos.
+{%  include voice.html attr=page.attr  
+	identifier="explanations"  init=false start=18.92 stop=40.35
+	title="2. I often use it to play games."        
+	translation="Eu costumo usá-lo para jogar jogos."
+    tag="h3" %}
 
-**to + Verb or in order to + Verb** 
+**'to' + verb or 'in order to' + verb** 
 
-- **I go there to study English.** *Eu vou lá para estudar inglês.*
-- **I study English to find a well-paid job.** *Eu estudo inglês para encontrar um trabalho bem remunerado.*
-- **I just call to say I love you.** *Eu solamente chamo para dizer que eu te amo.*
+1. **I go there to study English.**  
+*Eu vou lá para estudar inglês.*   
+2. **I study English to find a well-paid job.**  
+*Eu estudo inglês para encontrar um trabalho bem remunerado.*   
+3. **I just call to say I love you.**  
+*Eu solamente chamo para dizer que eu te amo.*    
 
-### 3. I find the screen too small.
+{%  include voice.html attr=page.attr  
+	identifier="explanations"  init=false start=42.57 stop=62.20
+	title="3. I find the screen too small."        
+	translation="Eu acho a tela muito pequena."
+    tag="h3" %}
 
-Eu acho a tela muito pequena.
+**I find someone or something + adjective**     *TODO*
 
-**I find someone or something + adjective**
+1. **I find superhero movies silly.**  
+*Eu acho tolos os filmes de super-heróis.*  
+2. **I find this book difficult.**  
+*Acho difícil esse livro*   
+3. **I find him extremely handsome.**  
+*Eu o acho extremamente bonito.*   
 
-- **I find superhero movies silly.** *Eu acho tolos os filmes de super-heróis.*
-- **I find this book difficult.** *Acho difícil esse livro*
-- **I find him extremely handsome.** *Eu o acho extremamente bonito.* 
+{%  include voice.html attr=page.attr  
+	identifier="explanations"  init=false start=65.17 stop=81.39
+	title="4. You are definitely addicted to it."        
+	translation="Você é definitivamente viciado."
+    tag="h3" %}
+
+**Be addicted to...**     *viciado*
+
+1. **She is addicted to coffee.**  
+*Ela é viciada em café.*    
+2. **A lot of people nowadays have become addicted to the internet.**  
+*Muitas pessoas hoje se tornaram viciadas na internet.*   
+3. **I'm addicted to chocolate.**  
+*Sou viciada em chocolate.*   
+
+{%  include voice.html attr=page.attr  
+	identifier="explanations"  init=false start=83.12 stop=97.23
+	title="5. When did you first use the internet?"        
+	translation="Quando você usou pela primeira vez a internet?"
+    tag="h3" %}
+
+**When did you first...?**     *TODO*
+
+1. **When did you first meet her?**  
+*Quando você a conheceu pela primeira vez?*   
+2. **When did you first get drunk?**  
+*Quando você ficou bêbado pela primeira vez?*    
+3. **When did you first do it?**  
+*Quando você o fez pela primeira vez?*   
+
+{%  include voice.html attr=page.attr  
+	identifier="explanations"  init=false start=99.60 stop=117.68
+	title=" 6. You are always full of energy."        
+	translation="Você está sempre cheio de energia."
+    tag="h3" %}
+	
+**Be full of...**     *TODO* 
+
+1. **The shelf is full of books.**  
+*O estante está cheio de livros.*   
+2. **Her eyes are full of tears.**   
+*Seus olhos estão cheios de lágrimas.*   
+3. **His essay was full of spelling mistakes.**  
+*Seu ensaio estava cheio de erros ortográficos.*   
+4. **The stadium was only half full.**  
+*O estádio apenas estava meio cheio.*   
 
 
-### 4. You are definitely addicted to it.
-
-Você é definitivamente viciado.
-
-**Be addicted to**
-
-- **She is addicted to coffee.** *Ela é viciada em café.*
-- **A lot of people nowadays have become addicted to the internet.** *Muitas pessoas hoje se tornaram viciadas na internet.*
-- **I'm addicted to chocolate.** *Sou viciada em chocolate.*
-
-### 5. When did you first use the internet?
-
-Quando você usou pela primeira vez a internet?
-
-**When did you first...?**
-
-- **When did you first meet her?** *Quando você a conheceu pela primeira vez?*
-- **When did you first get drunk?** *Quando você ficou bêbado pela primeira vez?*
-- **When did you first do it?** *Quando você o fez pela primeira vez?*
-
-### 6. You are always full of energy.
-
-Você está sempre cheio de energia.
-
-**Be full of...** 
-
-- **The shelf is full of books.** *O estante está cheio de livros.*
-- **Her eyes are full of tears.** *Seus olhos estão cheios de lágrimas.*
-- **His essay was full of spelling mistakes.** *Seu ensaio estava cheio de erros ortográficos.*
-- **The stadium was only half full.** *O estádio apenas estava meio cheio.*
+{% endif %}

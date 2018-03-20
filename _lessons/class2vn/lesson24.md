@@ -112,13 +112,12 @@ attr:
 	translation="Tôi ghét nhà hàng mà có nhạc to và ồn."
     tag="h3" %}
 
-- **I can't stand it when clubs play loud obnoxious music. It drives me nuts!**   
+1. **I can't stand it when clubs play loud obnoxious music. It drives me nuts!**   
 *Tôi không thể chịu nổi khi câu lạc bộ mở cái nhạc lớn khó chịu. Nó làm tôi bực.*   
-- **I absolutely hate it when there is a huge crowd at the bar.**   
+2. **I absolutely hate it when there is a huge crowd at the bar.**   
 *Tôi cực kì ghét khi có một đám đông ở quán bar.*    
-- **This restaurant's food is too expensive. Let's go.**   
+3. **This restaurant's food is too expensive. Let's go.**   
 *Đồ ăn của nhà hàng này quá đắt. Chúng ta đi thôi.*   
-
 
 {% if site.trialdeploy %}
   {% include list_placeholder.html  attr=page.attr     start=3 stop=6 %}
@@ -127,53 +126,53 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=false start=25.27 stop=50.42
 	title="2. This place has great food. I hear they have shrimp and octopus."        
-	translation="Nơi này có đồ ăn ngon. Tôi nghe nói họ có tôm hùm và bạch tuột."
+	translation=""
     tag="h3" %}
-
-- **The food they offer in this restaurant is amazing! They have three different menus.**   
+##### *Nơi này có đồ ăn ngon. Tôi nghe nói họ có tôm hùm và bạch tuột.*
+1. **The food they offer in this restaurant is amazing! They have three different menus.**   
 *Món ăn họ chọn trong nhà hàng thì tuyệt vời. Họ có 3 thực đơn khác nhau.*    
-- **I hear the bar down the street has awesome drinks. We should check it out.**   
+2. **I hear the bar down the street has awesome drinks. We should check it out.**   
 *Tôi nghe nói quán bar ở cuối đường có những thức uống tuyệt vời. Chúng ta nên xem thử.*    
-- **I thought I'd enjoy the seafood, but it tastes terrible. I guess I'll stick with chicken.**   
+3. **I thought I'd enjoy the seafood, but it tastes terrible. I guess I'll stick with chicken.**   
 *Tôi nghĩ tôi sẽ thích hải sản, nhưng nó có vị rất tệ. Tôi đoán là tôi sẽ tiếp tục với gà.*    
 
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=false start=52.20 stop=74.54
 	title="3. The food here is great, but the waitress is so rude."        
-	translation="Đồ ăn ở đây thì tuyệt, nhưng cô phục vụ thì thật là thô lỗ."
+	translation=""
     tag="h3" %}
-
-- **This steak tastes just right, but the wine tastes a bit off.**   
+##### *Đồ ăn ở đây thì tuyệt, nhưng cô phục vụ thì thật là thô lỗ.*
+1. **This steak tastes just right, but the wine tastes a bit off.**   
 *Món thịt này vị rất ngon, nhưng rượu thì vị hơi dở một chút.*    
-- **I really love pizza, but the one in this restaurant tastes horrible.**   
+2. **I really love pizza, but the one in this restaurant tastes horrible.**   
 *Tôi rất thích pizza, nhưng pizza ở nhà hàng này vị kinh khủng.*    
-- **Rob doesn't usually like to drink, but this bartender makes amazing cocktails.**   
+3. **Rob doesn't usually like to drink, but this bartender makes amazing cocktails.**   
 *Rob không thường đi uống, nhưng người phục vụ quầy rượu làm cooktails tuyệt vời.*    
 
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=false start=76.17 stop=98.73
 	title="4. I heard people say the restaurant is well-known for their seafood."        
-	translation="Tôi nghe nói nhà hàng này nổi tiếng vì hải sản của họ."
+	translation=""
     tag="h3" %}
-
-- **Someone told me the salad here tastes amazing. I'll try it.**   
+##### *Tôi nghe nói nhà hàng này nổi tiếng vì hải sản của họ.*
+1. **Someone told me the salad here tastes amazing. I'll try it.**   
 *Có người nói với tôi salad ở đây có vị rất tuyệt. Tôi sẽ thử nó.*   
-- **The fish here is really well cooked. It's crisp and tastes delicious.**   
+2. **The fish here is really well cooked. It's crisp and tastes delicious.**   
 *Cá ở đây nấu rất tốt. Nó rất giòn và vị rất ngon.*    
-- **My friends had lunch here once. They say it wasn't too bad so I decided to try it out.**   
+3. **My friends had lunch here once. They say it wasn't too bad so I decided to try it out.**   
 *Bạn của tôi đã ăn trưa ở đây một lần. Họ nói nó cũng không tệ nên tôi quyết định ăn thử.*   
 
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=false start=100.26 stop=118.58
 	title="5. The waitress doesn't speak English well. She couldn't answer many questions."        
-	translation="Cô phục vụ nói tiếng Anh không tốt lắm. Cô ấy đã không thể trả lời nhiều câu hỏi của tôi."
+	translation=""
     tag="h3" %}
-
-- **I asked the waitress for the wine menu and she ignored me.**   
+##### *Cô phục vụ nói tiếng Anh không tốt lắm. Cô ấy đã không thể trả lời nhiều câu hỏi của tôi.*
+1. **I asked the waitress for the wine menu and she ignored me.**   
 *Tôi hỏi xin cô ấy thực đơn rượu nhưng cô ấy đã lơ tôi.*   
-- **Excuse me, waitress. May I have the menu please?**   
+2. **Excuse me, waitress. May I have the menu please?**   
 *Xin lỗi, phục vụ ơi. Cho tôi xin cái thực đơn được không, làm ơn?*    
-- **Could you call the waiter for me? I am ready to order.**   
+3. **Could you call the waiter for me? I am ready to order.**   
 *Bạn gọi phục vụ giúp tôi được không? Tôi đã sẵn sàng gọi món.*    
 
   {% endif %}

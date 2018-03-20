@@ -103,7 +103,7 @@ attr:
 
 
 4. {% include play.html identifier="Explanation1" start=30.31 stop=41.11 %} **The student practices speaking English every day. / The student needs to practice speaking English every day.**  
- *Học sinh thực hành nói Tiếng Anh mỗi ngày / Học sinh cần thực hành nói Tiếng Anh mỗi ngày.*
+*Học sinh thực hành nói Tiếng Anh mỗi ngày / Học sinh cần thực hành nói Tiếng Anh mỗi ngày.*
 
 5. {% include play.html identifier="Explanation1" start=41.31 stop=51.11 %} **The engineer travels to Korea. / The engineer intends to travel to Korea when he has enough money.**   
 *Người kĩ sư đi du lịch Hàn Quốc / Người kĩ sư dự định đi du lịch Hàn Quốc khi anh ta có đủ tiền.*
@@ -134,10 +134,10 @@ attr:
 	{% else %}
 	
 3. {% include play.html identifier="Explanation2" start=17.11 stop=23.11 %} **His wife washes clothes and he watches TV.**  
- *Vợ anh ta giặt quần áo và anh ta xem tivi.*
+*Vợ anh ta giặt quần áo và anh ta xem tivi.*
 
 4. {% include play.html identifier="Explanation2" start=23.51 stop=28.11 %} **The dog chases cats.**  
- *Con chó đuổi theo những con mèo.*
+*Con chó đuổi theo những con mèo.*
 
 5. {% include play.html identifier="Explanation2" start=28.51 stop=34.11 %} **The dentist has to talk to the woman when he has free time.**   
 *Người nha sĩ phải nói chuyện với người phụ nữ khi ông ấy có thời gian rảnh.*

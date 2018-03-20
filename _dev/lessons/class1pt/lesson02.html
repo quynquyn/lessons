@@ -1,0 +1,1497 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/dev/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  <script src="http://0.0.0.0:35729/livereload.js"></script></head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+    
+  
+       
+    </nav>
+    
+
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                
+<h1>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L02-Verbs.mp3" id="audio_Verbs" preload="none"></audio>
+<span class="el-player-icon" id="play_Verbs" onclick="play('Verbs', '02', 'Verbs');">▶</span>
+
+Lesson 1.2: Verb (do)
+<em>Verbo (fazer)</em>
+<div class="audiofile-info"></div>
+</h1>
+
+<h2 id="vocabulary---vocabulário">Vocabulary   <em>Vocabulário</em></h2>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_Verbs" onclick="playat('Verbs', 
+    4, 31, 
+    'n/a', 'Verbs');">▷</strong>
+
+Eyes
+<em>Olhos</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-look-at.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>look at</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>olhar para</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-look-for.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>look for</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>procurar</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-watch.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>watch</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>assistir</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-see.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>see</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ver </em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-observe.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>observe</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>observar</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-study.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>study</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>estudar</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-learn.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>learn</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>aprender</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-review.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>review</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>revisar</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-check.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>check</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>verificar</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-cry.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>cry</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>chorar</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-sleep.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>sleep</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>dormir</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-dream.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>dream</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>sonhar</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_Verbs" onclick="playat('Verbs', 
+    32, 57, 
+    'n/a', 'Verbs');">▷</strong>
+
+Legs
+<em>Pernas</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-chase.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>chase</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>perseguir</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-kick.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>kick</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>bater</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-climb.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>climb</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>escalar</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-leave.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>leave</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>sair</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-move.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>move</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>mover</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-stand.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>stand</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ficar de pé</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-sit.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>sit</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>sentar</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-lie.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>lie</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>deitar-se / estar deitado</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-go.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>go</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ir</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-walk.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>walk</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>andar</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-run.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>run</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>correr</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-dance.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>dance</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>dançar</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_Verbs" onclick="playat('Verbs', 
+    57, 81, 
+    'n/a', 'Verbs');">▷</strong>
+
+Mouth
+<em>Boca</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-talk-to.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>talk to</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>falar com</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-talk-about.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>talk about</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>falar sobre</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-whisper.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>whisper</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>sussurrar</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-interview.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>interview</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>entrevistar</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-eat.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>eat</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>comer</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-drink.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>drink</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>beber</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-lie-to.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>lie to</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>mentir a</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-smile.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>smile</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>sorrir</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-laugh.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>laugh</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>rir</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-ask.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>ask</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>perguntar</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-answer.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>answer</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>responder</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_Verbs" onclick="playat('Verbs', 
+    82, 115, 
+    'n/a', 'Verbs');">▷</strong>
+
+Hand
+<em>Mão</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-make-do.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>make / do</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>fazer</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-paint-draw.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>paint / draw</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>pinturar / desenhar</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-hold-keep.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>hold / keep</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>segurar / manter</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-pull-push.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>pull / push</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>puxar / empurrar</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-use.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>use</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>usar</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-play.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>play</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tocar / jogar</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-throw.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>throw</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>lançar</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-clean.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>clean</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>limpar</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-ride-drive.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>ride / drive</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>montar / dirigir</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l02-swim.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>swim</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nadar</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l02-choose.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>choose</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>escolher</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l02-work.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>work</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>trabalhar</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L02-Native-Dialogue.mp3" id="audio_Native-Dialogue" preload="none"></audio>
+<span class="el-player-icon" id="play_Native-Dialogue" onclick="play('Native-Dialogue', '02', 'Native-Dialogue');">▶</span>
+
+Dialogues
+<em>Diálogos</em>
+<div class="audiofile-info"></div>
+</h2>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue', 
+    4.55, 12.55, 
+    'n/a', 'Native-Dialogue');">▷</strong>
+
+A1. I chase a dog.
+<em>Eu persigo um cachorro.</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<blockquote>
+  <p><strong>Do you chase a horse?</strong> <br />
+<em>Você persegue um cavalo?</em>  <br />
+<strong>No, I don’t chase a horse. I chase a dog.</strong> <br />
+<em>Não, eu não persigo um cavalo. Eu persigo um cachorro.</em></p>
+</blockquote>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue', 
+    12.55, 20.11, 
+    'n/a', 'Native-Dialogue');">▷</strong>
+
+A2. I look at a teacher.
+<em>Eu olho para um professor.</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<blockquote>
+  <p><strong>Do you look for a teacher?</strong> <br />
+<em>Você procura um professor?</em>  <br />
+<strong>No, I don’t look for a teacher, I look at a teacher.</strong> <br />
+<em>Não, eu não procuro um professor, eu olho para um professor.</em></p>
+</blockquote>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue', 
+    20.11, 28.11, 
+    'n/a', 'Native-Dialogue');">▷</strong>
+
+B1. I like dolls.
+<em>Eu gosto de bonecas.</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<blockquote>
+  <p><strong>Do you like doors?</strong> <br />
+<em>Você gosta de portas?</em>  <br />
+<strong>No, I don’t like doors. I like dolls.</strong> <br />
+<em>Não, não gosto de portas. Eu gosto de bonecas.</em></p>
+</blockquote>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue', 
+    28.11, 35.41, 
+    'n/a', 'Native-Dialogue');">▷</strong>
+
+B2. I kick a chair.
+<em>Eu bato uma cadeira.</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<blockquote>
+  <p><strong>Do you kiss a chair?</strong> <br />
+<em>Você beija uma cadeira?</em>  <br />
+<strong>No, I don’t kiss a chair. I kick it.</strong> <br />
+<em>Não, eu não beijo uma cadeira. Eu o bato.</em></p>
+</blockquote>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue', 
+    35.41, 44.11, 
+    'n/a', 'Native-Dialogue');">▷</strong>
+
+C1. I interview doctors.
+<em>Entrevisto médicos.</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<blockquote>
+  <p><strong>Do you interview teachers?</strong> <br />
+<em>Você entrevista professores?</em>  <br />
+<strong>No. I don’t interview teachers. I interview doctors.</strong><br />
+<em>Não. Não entrevisto professores. Entrevisto médicos.</em></p>
+</blockquote>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue', 
+    44.11, 52.91, 
+    'n/a', 'Native-Dialogue');">▷</strong>
+
+C2. I talk to students.
+<em>Eu falo com alunos.</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<blockquote>
+  <p><strong>Do you talk about students?</strong> <br />
+<em>Você fala sobre alunos?</em>  <br />
+<strong>No, I don’t talk about students? I talk to students.</strong> <br />
+<em>Não, não falo sobre alunos? Eu falo com alunos.</em></p>
+</blockquote>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue', 
+    53.11, 60.31, 
+    'n/a', 'Native-Dialogue');">▷</strong>
+
+D1. I see planes.
+<em>Eu vejo aviões.</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<blockquote>
+  <p><strong>Do you see some trains?</strong> <br />
+<em>Você vê alguns trens?</em>  <br />
+<strong>No, don’t see any trains. I see some planes.</strong> <br />
+<em>Não, não vejo trens. Eu vejo alguns aviões.</em></p>
+</blockquote>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue', 
+    60.31, 67.41, 
+    'n/a', 'Native-Dialogue');">▷</strong>
+
+D2. I pull a door.
+<em>Eu puxo uma porta.</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<blockquote>
+  <p><strong>Do you push a door?</strong> <br />
+<em>Você empurra uma porta?</em>  <br />
+<strong>No, I don’t push a door. I pull a door.</strong> <br />
+<em>Não, eu não empurro uma porta. Eu puxo uma porta.</em></p>
+</blockquote>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue', 
+    67.41, 76.81, 
+    'n/a', 'Native-Dialogue');">▷</strong>
+
+E1. I do homework everyday.
+<em>Eu faço o dever de casa todos os dias.</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<blockquote>
+  <p><strong>Do you do housework everyday?</strong> <br />
+<em>Você faz tarefas domésticas todos os dias?</em>  <br />
+<strong>No. I don’t do housework everyday. I do homework everyday.</strong> <br />
+<em>Não. Não faço tarefas domésticas todos os dias. Eu faço o dever de casa todos os dias.</em></p>
+</blockquote>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_Native-Dialogue" onclick="playat('Native-Dialogue', 
+    77.11, 83.91, 
+    'n/a', 'Native-Dialogue');">▷</strong>
+
+E2. I lie to him.
+<em>Eu minto para ele.</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<blockquote>
+  <p><strong>Do you lie next to him?</strong> <br />
+<em>Você está deitado ao lado dele?</em>  <br />
+<strong>No, I don’t lie next to to him. I lie to him.</strong> <br />
+<em>Não, não me estou deitado ao lado dele. Eu minto para ele.</em></p>
+</blockquote>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

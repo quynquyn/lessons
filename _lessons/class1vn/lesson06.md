@@ -28,7 +28,7 @@ attr:
 
 {%  include voice.html attr=page.attr  
 	identifier="Conversation"  init=true
-	title="Yes / No Questions"        
+	title="Yes / No questions"        
 	translation="Câu hỏi có / không"
     tag="h2" %}
 
@@ -53,7 +53,7 @@ attr:
 4. {% include play.html identifier="Conversation" start=22 stop=27 %} **Does the secretary need to borrow money from her manager?**    
 *Có phải cô thư kí cần mượn tiền từ người quản lí không?*    
 {% include play.html identifier="Conversation" start=27 stop=34 %} **No, the secretary doesn't need to borrow money from her manager. She needs to borrow money from her friend.**   
-*Không,cô thư kí không cần mượn tiền từ người quản lí. Cô ấy cần mượn tiền từ người bạn của cô ấy.*   
+*Không, cô thư kí không cần mượn tiền từ người quản lí. Cô ấy cần mượn tiền từ người bạn của cô ấy.*   
 
 5. {% include play.html identifier="Conversation" start=34 stop=39 %} **Does your grandmother give your a hug every time you visit her?**    
 *Có phải bà của bạn ôm bạn mỗi lần bạn về thăm bà?*    

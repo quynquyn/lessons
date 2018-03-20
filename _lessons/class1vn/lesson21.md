@@ -84,7 +84,7 @@ attr:
 {% endif %}
 
 {%  include voice.html attr=page.attr                     tag="h2"
-	identifier="explanation"  init=false start=99.73 stop=127.86
+	identifier="explanation"  init=false start=100.73 stop=127.86
 	title="Examples of whose"
 	translation="Ví dụ của whose" %}
 

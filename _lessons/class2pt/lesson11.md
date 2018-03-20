@@ -9,170 +9,196 @@ attr:
   lang: pt
 ---
 
-{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
-# Lesson 2.11: Appearance  
+{%  include voice.html attr=page.attr        ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=true
+	title="Lesson 2.11: Appearance"  
+	translation="TODO"      
+    tag="h1" %}
 
 
-## Vocabulary
+
+## Vocabulary   *Vocabulário*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
-		lang=page.lang
 		section="vocabulary"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
 
-### Age
+### Age   *TODO*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
-		lang=page.lang
 		section="age"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
+1. **Young: He is in his early twenties.**  
+*Trẻ: Anh ấy đang ở 20 tuổi đầu.*   
+2. **Old: She is in her late sixties.**  
+*Già: Bà ấy đang ở cuối tuổi 60.*   
+3. **Middle-aged: She is in her mid forties.**  
+*Trung niên: Cô ấy đang ở khoảng giữa 40 tuổi.*    
 
-1. **Young: He is in his early twenties.**
-2. **Old: She is in her late sixties.**
-3. **Middle-aged: She is in her mid forties.**
-
-### Build 
+### Build   *TODO* 
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
-		lang=page.lang
 		section="build"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-
-
-### Height 
+### Height   *TODO*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
-		lang=page.lang
 		section="height"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-
-### Face
+### Face   *TODO*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
-		lang=page.lang
 		section="face"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-
-### Lips 
+### Lips   *TODO*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
-		lang=page.lang
 		section="lips"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-
-
-### Skin 
+### Skin   *TODO*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
-		lang=page.lang
 		section="skin"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-
-
-### Nose 
+### Nose   *TODO*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
-		lang=page.lang
 		section="nose"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-
-### Eyebrows
+### Eyebrows   *TODO*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
-		lang=page.lang
 		section="eyebrows"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
-
-
-
  
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="monologue"  init=true
+	title="Describe someone's appearance"        
+	translation="TODO"
+    tag="h2" %}
+
+> **Let me introduce my ex-boyfriend. He is Daniel. He is a quite handsome man. He is in his mid–twenties, but he looks young for his age. He is of medium height and well–built. He has a square face with brown eyes, a straight nose and full lips. He has short black wavy hair. He looks even more attractive with his glasses. I've always thought he bears a striking resemblance to someone on TV. He cut himself climbing a tree when he was ten and he's got a scar just below his ear. Oh, I wish he were here. I miss him so much.**   
+*TODO*  
+
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="explanation"  init=true
+	title="Explanation"        
+	translation="TODO"
+    tag="h2" %}
+
+{%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
+	identifier="explanation"  init=false start=3.57 stop=17.65
+	title="1. He is in his mid–twenties."
+	translation="Ele tem vinte e poucos anos."
+    tag="h3" %}
+
+1. **He is in his early forties.**  
+*Ele tem quarenta e poucos anos.*   
+2. **My brother is in his late twenties.**   
+*Meu irmão está com seus vinte e poucos anos.*   
+3. **My sister is a lovely teenager.**   
+*Minha irmã mais nova é uma adorável adolescente.*   
+
+{%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
+	identifier="explanation"  init=false start=19.43 stop=30.36
+	title="2. He is of medium height and well–built."
+	translation="Ele é de altura média e de bom físico."
+    tag="h3" %}
+
+1. **He is tall and muscular.**  
+*Ele é alto e musculoso.*    
+2. **He's short and a little bit overweight.**   
+*Ele é bait e com excesso de peso.*   
+
+{% if site.trialdeploy %}
+	{% include explanation_placeholder.html  attr=page.attr     start=3 stop=5 %}
+	{% else %}
+
+{%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
+	identifier="explanation"  init=false start=31.95 stop=58.69
+	title="3. He has a square face with brown eyes, a straight nose and full lips."
+	translation=""
+    tag="h3" %}
+##### *Ele tem um rosto quadrado com olhos castanhos, um nariz reto e lábios cheios.*
+1. **He has an oval face with small eyes, a flat nose and thin lips.**  
+*le tem um rosto oval com olhos pequenos, nariz achatado e lábios finos.*   
+2. **She has a small face with a straight nose, high cheekbones and long wavy hair.**  
+*Ela tem um rosto pequeno com nariz reto, maçãs do rosto acima e cabelos ondulados longos.*    
+3. **The man has a big face with bushy eyebrows, a hooked nose and a pointed chin.**   
+*O homem tem um rosto grande com sobrancelhas espessas, um nariz ecurvo e um queixo apontado.*   
+
+{%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
+	identifier="explanation"  init=false  start=60.71 stop=78.60
+	title="4. He looks even more attractive with his glasses. "
+	translation=""
+    tag="h3" %}
+##### *Ele parece ainda mais atraente com seus óculos.*
+1. **She looks even sexier with her full lips.**  
+*Ela parece ainda mais sensual com os lábios cheios.*   
+2. **The girl looks even more stunning with her radiant smile.**  
+*A menina parece ainda mais impressionante com o seu sorriso radiante.*   
+3. **My brother looks even more handsome with a tattoo on his arm.**   
+*Meu irmão parece ainda mais bonito com uma tatuagem em seu braço.*   
 
 
-{% include player2.html identifier="monologue" class=page.class lesson=page.lesson %}
-## Describe someone's appearance 
+{%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
+	identifier="explanation"  init=false start=80.60 stop=102.89
+	title="5. I’ve always thought he bears a striking resemblance to someone on TV."
+	translation=""
+    tag="h3" %}
+##### *Eu sempre pensei que ele tivesse uma semelhança impressionante com alguém na TV.*
+**bear a striking resemblance**     *TODO*
 
-**Let me introduce my ex-boyfriend. He is Daniel. He is a quite handsome man. He is in his mid–twenties, but he looks young for his age. He is of medium height and well–built. He has a square face with brown eyes, a straight nose and full lips. He has short black wavy hair. He looks even more attractive with his glasses. I've always thought he bears a striking resemblance to someone on TV. He cut himself climbing a tree when he was ten and he's got a scar just below his ear. Oh, I wish he were here. I miss him so much.**
-
-
-
-{% include player2.html identifier="explanation" class=page.class lesson=page.lesson %}
-## Explanation
-
-
-### 1. He is in his mid–twenties.
-
-Ele tem vinte e poucos anos.
-
-- **He is in his early forties.** *Ele tem quarenta e poucos anos.*
-- **My brother is in his late twenties.** *Meu irmão está com seus vinte e poucos anos.*
-- **My younger sister is a lovely teenager.** *Minha irmã mais nova é uma adorável adolescente.*
-
-
-### 2. He is of medium height and well-built.
-
-Ele é de altura média e de bom físico.
-
-- **He is tall and muscular.** *Ele é alto e musculoso.*
-- **He's short and a little bit overweight.** *Ele é bait e com excesso de peso.*
-
-### 3. He has a square face with brown eyes, a straight nose and full lips.
-
-Ele tem um rosto quadrado com olhos castanhos, um nariz reto e lábios cheios.
-
-- **He has an oval face with small eyes, a flat nose and thin lips.** *le tem um rosto oval com olhos pequenos, nariz achatado e lábios finos.*
-- **She has a small face with a straight nose, high cheekbones and long wavy hair.** *Ela tem um rosto pequeno com nariz reto, maçãs do rosto acima e cabelos ondulados longos.*
-- **The man has a big face with bushy eyebrows, a hooked nose and a pointed chin.** *O homem tem um rosto grande com sobrancelhas espessas, um nariz ecurvo e um queixo apontado.*
-
-### 4. He looks even more attractive with his glasses. 
-
-Ele parece ainda mais atraente com seus óculos. 
-
-- **She looks even sexier with her full lips.** *Ela parece ainda mais sensual com os lábios cheios.*
-- **The girl looks even more stunning with her radiant smile.** *A menina parece ainda mais impressionante com o seu sorriso radiante.*
-- **My brother looks even more handsome with a tattoo on his arm.** *Meu irmão parece ainda mais bonito com uma tatuagem em seu braço.*
-
-### 5.  I’ve always thought he bears a striking resemblance to someone on TV.
-
-Eu sempre pensei que ele tivesse uma semelhança impressionante com alguém na TV.
-
-**bear a striking resemblance**
-
-- **I think that you bear a striking resemblance to my teacher.** *Eu acho que você tem uma semelhança impressionante com o meu professor.*
-- **My manager bears a striking resemblance to a celebrity.** *Meu gerente tem uma semelhança impressionante com uma celebridade.*
-- **The girl bears a striking resemblance to her mother.** *A menina tem uma semelhança impressionante com sua mãe.*
+1. **I think that you bear a striking resemblance to my teacher.**  
+*Eu acho que você tem uma semelhança impressionante com o meu professor.*   
+2. **My manager bears a striking resemblance to a celebrity.**  
+*Meu gerente tem uma semelhança impressionante com uma celebridade.*   
+3. **The girl bears a striking resemblance to her mother.**  
+*A menina tem uma semelhança impressionante com sua mãe.*  
  
+{% endif %}
+

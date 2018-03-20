@@ -1,0 +1,925 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/dev/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  <script src="http://0.0.0.0:35729/livereload.js"></script></head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+    
+  
+       
+    </nav>
+    
+
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                
+<h1>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L06-Vocabulary.mp3" id="audio_Vocabulary" preload="none"></audio>
+<span class="el-player-icon" id="play_Vocabulary" onclick="play('Vocabulary', '06', 'Vocabulary');">▶</span>
+
+Lesson 1.6: Yes / No (Do / Does)
+<em>Sim / Não (Faço / Faz)</em>
+<div class="audiofile-info"></div>
+</h1>
+
+<h2 id="vocabulary---vocabulário">Vocabulary   <em>Vocabulário</em></h2>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l06-know-how-to-make-a-cake.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 11.91, 15.16, 
+      '1-06', 'know how to make a cake');">▷ <strong>know how to make a cake</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>saber como assar um bolo</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l06-plant-a-tree.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 15.16, 18.2, 
+      '1-06', 'plant a tree');">▷ <strong>plant a tree</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>plantar uma árvore</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l06-lock-a-door.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 18.2, 20.33, 
+      '1-06', 'lock a door');">▷ <strong>lock a door</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>trancar uma porta</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l06-color-a-picture.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 20.33, 23.46, 
+      '1-06', 'color a picture');">▷ <strong>color a picture</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>colorir uma imagem</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l06-sneeze.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 23.46, 25.42, 
+      '1-06', 'sneeze');">▷ <strong>sneeze</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>espirrar</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l06-snore.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 25.42, 27.55, 
+      '1-06', 'snore');">▷ <strong>snore</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>roncar</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l06-yawn.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 27.55, 29.3, 
+      '1-06', 'yawn');">▷ <strong>yawn</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>bocejar</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l06-mop-the-floor.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 29.3, 32.29, 
+      '1-06', 'mop the floor');">▷ <strong>mop the floor</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>esfregar o chão</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l06-wash-my-clothes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 32.29, 35.08, 
+      '1-06', 'wash my clothes');">▷ <strong>wash my clothes</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>lavar minhas roupas</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l06-brush-my-teeth.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 35.08, 37.36, 
+      '1-06', 'brush my teeth');">▷ <strong>brush my teeth</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>escovar meus dentes</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l06-comb-my-hair.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 37.36, 39.76, 
+      '1-06', 'comb my hair');">▷ <strong>comb my hair</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>pentear meu cabelo</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l06-change-my-mind.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 39.76, 42.48, 
+      '1-06', 'change my mind');">▷ <strong>change my mind</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>mudar de ideia</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l06-follow-the-crowd.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 42.48, 45.99, 
+      '1-06', 'follow the crowd');">▷ <strong>follow the crowd</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Seguir a multidão</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l06-sing-a-song.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 45.99, 48.41, 
+      '1-06', 'sing a song');">▷ <strong>sing a song</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>Cantar uma canção</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l06-clap-one-s-hands.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 48.41, 51.26, 
+      '1-06', 'clap one’s hands');">▷ <strong>clap one’s hands</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>bater palmas</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row6"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l06-make-a-decision.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 51.26, 54.26, 
+      '1-06', 'make a decision');">▷ <strong>make a decision</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tomar uma decisão</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l06-give-someone-a-hug.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 54.26, 57.23, 
+      '1-06', 'give someone a hug');">▷ <strong>give someone a hug</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>dar um abraço a alguém</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l06-make-a-wish.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 57.23, 59.49, 
+      '1-06', 'make a wish');">▷ <strong>make a wish</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>desejar</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row7"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l06-borrow-money.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 59.49, 61.9, 
+      '1-06', 'borrow money');">▷ <strong>borrow money</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>emprestar dinheiro / pedir dinheiro emprestado</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l06-have-a-crush-on-someone.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 61.9, 64.79, 
+      '1-06', 'have a crush on someone');">▷ <strong>have a crush on someone</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>estar apaixonado/a por alguém</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l06-cheat-on-someone.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 64.79, 67.76, 
+      '1-06', 'cheat on someone');">▷ <strong>cheat on someone</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>trair alguém</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row8"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l06-yell-at-someone.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 69.79, 72.23, 
+      '1-06', 'yell at someone');">▷ <strong>yell at someone</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>gritar com alguém</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l06-always.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 72.23, 74.46, 
+      '1-06', 'always');">▷ <strong>always</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>sempre</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l06-usually.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 74.46, 77.03, 
+      '1-06', 'usually');">▷ <strong>usually</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>geralmente</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row9"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l06-often.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 77.03, 78.99, 
+      '1-06', 'often');">▷ <strong>often</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>frequentemente</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l06-sometimes.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 78.99, 81.26, 
+      '1-06', 'sometimes');">▷ <strong>sometimes</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>às vezes</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l06-rarely.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 81.26, 83.28, 
+      '1-06', 'rarely');">▷ <strong>rarely</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>raramente</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row10"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l06-never.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_Vocabulary" onclick="playat('Vocabulary', 83.28, 84.78, 
+      '1-06', 'never');">▷ <strong>never</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nunca</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L06-Conversation.mp3" id="audio_Conversation" preload="none"></audio>
+<span class="el-player-icon" id="play_Conversation" onclick="play('Conversation', '06', 'Conversation');">▶</span>
+
+Yes / No questions
+<em>Perguntas Sim / Não</em>
+<div class="audiofile-info"></div>
+</h2>
+
+<ol>
+  <li>
+    <p><strong class="el-vocab-play" id="playat_Conversation" onclick="playat('Conversation',   0, 3,   'n/a', 'Conversation');">▷</strong> <strong>Does the manager have to make a decision?</strong>  <br />
+<em>O gerente tem que tomar uma decisão?</em>     <br />
+<strong class="el-vocab-play" id="playat_Conversation" onclick="playat('Conversation',   3, 6,   'n/a', 'Conversation');">▷</strong> <strong>Yes, he has to make a decision.</strong>  <br />
+<em>Sim, ele tem que tomar uma decisão.</em></p>
+  </li>
+  <li>
+    <p><strong class="el-vocab-play" id="playat_Conversation" onclick="playat('Conversation',   6, 10,   'n/a', 'Conversation');">▷</strong> <strong>Does the man always want to follow the crowd?</strong>  <br />
+<em>O homem sempre quer seguir a multidão?</em>   <br />
+<strong class="el-vocab-play" id="playat_Conversation" onclick="playat('Conversation',   10, 14,   'n/a', 'Conversation');">▷</strong> <strong>No, the man doesn’t always want to follow the crowd.</strong>  <br />
+<em>O homem sempre quer seguir a multidão?</em></p>
+  </li>
+  <li>
+    <p><strong class="el-vocab-play" id="playat_Conversation" onclick="playat('Conversation',   14, 19,   'n/a', 'Conversation');">▷</strong> <strong>Do your parents yell at you when you come home late?</strong> <br />
+<em>Os seus pais gritam quando você chega em casa tarde?</em>      <br />
+<strong class="el-vocab-play" id="playat_Conversation" onclick="playat('Conversation',   19, 22,   'n/a', 'Conversation');">▷</strong> <strong>No, they don’t yell at me when I come home late.</strong>  <br />
+<em>Não, eles não gritam quando chego em casa tarde.</em></p>
+  </li>
+  <li>
+    <p><strong class="el-vocab-play" id="playat_Conversation" onclick="playat('Conversation',   22, 27,   'n/a', 'Conversation');">▷</strong> <strong>Does the secretary need to borrow money from her manager?</strong>  <br />
+<em>A secretária precisa pedir dinheiro emprestado ao gerente dela?</em>  <br />
+<strong class="el-vocab-play" id="playat_Conversation" onclick="playat('Conversation',   27, 34,   'n/a', 'Conversation');">▷</strong> <strong>No, the secretary doesn’t need to borrow money from her manager. She needs to borrow money from her friend.</strong> <br />
+<em>Não, a secretária não precisa pedir dinheiro emprestado ao gerente dela. Ela precisa pedir dinheiro emprestado a sua amiga.</em></p>
+  </li>
+  <li>
+    <p><strong class="el-vocab-play" id="playat_Conversation" onclick="playat('Conversation',   34, 39,   'n/a', 'Conversation');">▷</strong> <strong>Does your grandmother give your a hug every time you visit her?</strong>  <br />
+<em>Sua avó se dá um abraço cada vez que você a visita?</em>  <br />
+<strong class="el-vocab-play" id="playat_Conversation" onclick="playat('Conversation',   39, 43,   'n/a', 'Conversation');">▷</strong> <strong>Yes, she always gives me a hug every time I visit her.</strong>  <br />
+<em>Sim, ela sempre me dá um abraço cada vez que eu a via.</em></p>
+  </li>
+  <li>
+    <p><strong class="el-vocab-play" id="playat_Conversation" onclick="playat('Conversation',   43, 47,   'n/a', 'Conversation');">▷</strong> <strong>Does your boyfriend smoke cigarettes?</strong> <br />
+<em>Seu namorado fuma cigarros?</em>  <br />
+<strong class="el-vocab-play" id="playat_Conversation" onclick="playat('Conversation',   47, 51,   'n/a', 'Conversation');">▷</strong> <strong>No, my boyfriend doesn’t smoke cigarettes.</strong> <br />
+<em>Não, meu namorado não fuma cigarros.</em></p>
+  </li>
+  <li>
+    <p><strong class="el-vocab-play" id="playat_Conversation" onclick="playat('Conversation',   51, 55,   'n/a', 'Conversation');">▷</strong> <strong>Does your daughter know how to lock a door?</strong>  <br />
+<em>Sua filha sabe como trancar uma porta?</em>  <br />
+<strong class="el-vocab-play" id="playat_Conversation" onclick="playat('Conversation',   55, 60,   'n/a', 'Conversation');">▷</strong> <strong>Yes, she knows how to lock a door. She’s five years old but she’s smart.</strong> <br />
+<em>Sim, ela sabe como trancar uma porta. Ela tem cinco anos, mas ela é inteligente.</em></p>
+  </li>
+  <li>
+    <p><strong class="el-vocab-play" id="playat_Conversation" onclick="playat('Conversation',   60, 66,   'n/a', 'Conversation');">▷</strong> <strong>Do your friends live in Hanoi?</strong>  <br />
+<em>Seus amigos moram em Hanói?</em>  <br />
+<strong class="el-vocab-play" id="playat_Conversation" onclick="playat('Conversation',   66, 67,   'n/a', 'Conversation');">▷</strong> <strong>Yes, they live in Hanoi.</strong> <br />
+<em>Sim, eles moram em Hanói.</em></p>
+  </li>
+  <li>
+    <p><strong class="el-vocab-play" id="playat_Conversation" onclick="playat('Conversation',   67, 71,   'n/a', 'Conversation');">▷</strong> <strong>Does a three-year-old kid know how to brush his teeth?</strong>  <br />
+<em>Uma criança de três anos sabe como escovar seus dentes?</em>  <br />
+<strong class="el-vocab-play" id="playat_Conversation" onclick="playat('Conversation',   71, 78,   'n/a', 'Conversation');">▷</strong> <strong>No, a three-year-old kid doesn’t know how to brush his teeth. But a four-year-old kid knows how to to brush his teeth.</strong> <br />
+<em>Não, uma criança de três anos não sabe como escovar seus dentes. Mas uma criança de quatro anos sabe como escovar seus dentes.</em></p>
+  </li>
+  <li>
+    <p><strong class="el-vocab-play" id="playat_Conversation" onclick="playat('Conversation',  79, 82,  'n/a', 'Conversation');">▷</strong> <strong>Does your friend have a crush on me?</strong> <br />
+<em>O seu amigo está apaixonado por mim?</em> <br />
+<strong class="el-vocab-play" id="playat_Conversation" onclick="playat('Conversation',  82, 666,  'n/a', 'Conversation');">▷</strong> <strong>No, my friend doesn’t have a crush on you. I have a crush on you.</strong> <br />
+<em>Não, meu amigo não está apaixonado por você. Eu estou apaixonado por você.</em></p>
+  </li>
+</ol>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

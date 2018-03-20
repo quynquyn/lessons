@@ -50,7 +50,6 @@ attr:
 	translation="Các ngày trong tuần"
     tag="h3" %}
 
-
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 

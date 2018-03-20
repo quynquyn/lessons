@@ -22,50 +22,50 @@ attr:
 	translation="Câu hỏi có / không"
 %}
 
-1.  {% include play.html identifier="examples5" start=13.23 stop=15.14 %}**Do you need this pen?**     
+1. {% include play.html identifier="examples5" start=13.23 stop=15.14 %} **Do you need this pen?**     
 *Bạn có cần cây bút này không?*    
-2.  {% include play.html identifier="examples5" start=16.65 stop=19.69 %}**Is he the most talented person?**     
+2. {% include play.html identifier="examples5" start=16.65 stop=19.69 %} **Is he the most talented person?**     
 *Anh ta có phải là người tài năng nhất không?*     
-3.  {% include play.html identifier="examples5" start=21.19 stop=22.96 %}**Do you understand me?**      
+3. {% include play.html identifier="examples5" start=21.19 stop=22.96 %} **Do you understand me?**      
 *Bạn có hiểu tôi không?*     
-4.  {% include play.html identifier="examples5" start=24.54 stop=27.29 %}**Do you have a test tomorrow?**      
+4. {% include play.html identifier="examples5" start=24.54 stop=27.29 %} **Do you have a test tomorrow?**      
 *Bạn có bài kiểm tra ngày mai phải không?*     
-5.  {% include play.html identifier="examples5" start=28.92 stop=30.58 %}**Is she at home?**      
+5. {% include play.html identifier="examples5" start=28.92 stop=30.58 %} **Is she at home?**      
 *Cô ta có ở nhà không?*     
-6.  {% include play.html identifier="examples5" start=31.99 stop=35.67 %}**Does the actress intend to travel to Japan?**      
+6. {% include play.html identifier="examples5" start=31.99 stop=35.67 %} **Does the actress intend to travel to Japan?**      
 *Có phải người nữ diễn viên định đi du lịch Nhật Bản?*     
 
 {% if site.trialdeploy %}
 	{% include list_placeholder.html  attr=page.attr     start=7 stop=20 %}
 	{% else %}
 
-7.  {% include play.html identifier="examples5" start=37.67 stop=39.65 %}**Does he hate cats?**      
+7. {% include play.html identifier="examples5" start=37.67 stop=39.65 %} **Does he hate cats?**      
 *Anh ta ghét mèo phải không?*     
-8.  {% include play.html identifier="examples5" start=41.25 stop=43.80 %}**Do they like to eat sushi?**     
+8. {% include play.html identifier="examples5" start=41.25 stop=43.80 %} **Do they like to eat sushi?**     
 *Họ có thích ăn sushi không?*     
-9.  {% include play.html identifier="examples5" start=45.29 stop=47.10 %}**Does he love her?**     
+9. {% include play.html identifier="examples5" start=45.29 stop=47.10 %} **Does he love her?**     
 *Anh ta có yêu cô ta không?*     
-10. {% include play.html identifier="examples5" start=48.83 stop=50.58 %}**Are they friends?**     
+10. {% include play.html identifier="examples5" start=48.83 stop=50.58 %} **Are they friends?**     
 *Có phải họ là bạn bè không?*     
-11. {% include play.html identifier="examples5" start=52.03 stop=53.82 %}**Does she miss him?**    
+11. {% include play.html identifier="examples5" start=52.03 stop=53.82 %} **Does she miss him?**    
 *Cô ấy có nhớ anh ta không?*    
-12. {% include play.html identifier="examples5" start=55.26 stop=57.37 %}**Does his computer work?**     
+12. {% include play.html identifier="examples5" start=55.26 stop=57.37 %} **Does his computer work?**     
 *Cái máy tính của anh ấy có làm việc không?*     
-13. {% include play.html identifier="examples5" start=58.97 stop=62.18 %}**Does he try to understand what she is saying?**     
+13. {% include play.html identifier="examples5" start=58.97 stop=62.18 %} **Does he try to understand what she is saying?**     
 *Anh ấy có cố gắng hiểu những gì cô ta đang nói không?*     
-14. {% include play.html identifier="examples5" start=63.56 stop=65.95 %}**Are the nurses at the hospital?**      
+14. {% include play.html identifier="examples5" start=63.56 stop=65.95 %} **Are the nurses at the hospital?**      
 *Có phải những người y tá đang ở bệnh viện không?*     
-15. {% include play.html identifier="examples5" start=67.73 stop=70.12 %}**Does your teacher wear glasses?**      
+15. {% include play.html identifier="examples5" start=67.73 stop=70.12 %} **Does your teacher wear glasses?**      
 *Giáo viên của bạn có đeo mắt kính không?*     
-16. {% include play.html identifier="examples5" start=72.44 stop=75.07 %}**Do lions eat carrots?**      
+16. {% include play.html identifier="examples5" start=72.44 stop=75.07 %} **Do lions eat carrots?**      
 *Sư tử có ăn cà rốt không?*     
-17. {% include play.html identifier="examples5" start=76.95 stop=79.69 %}**Is New York a big city?**      
+17. {% include play.html identifier="examples5" start=76.95 stop=79.69 %} **Is New York a big city?**      
 *Có phải New York là một thành phố lớn không?*     
-18. {% include play.html identifier="examples5" start=81.85 stop=84.17 %}**Is it an easy question?**      
+18. {% include play.html identifier="examples5" start=81.85 stop=84.17 %} **Is it an easy question?**      
 *Đó có phải là một câu hỏi dễ không?*     
-19. {% include play.html identifier="examples5" start=86.23 stop=89.63 %}**Does your class finish at 7PM?**      
+19. {% include play.html identifier="examples5" start=86.23 stop=89.63 %} **Does your class finish at 7PM?**      
 *Có phải lớp học của bạn kết thúc lúc 7 giờ tối không?*     
-20. {% include play.html identifier="examples5" start=91.20 stop=94.62 %}**Do your parents live in HCMC?**      
+20. {% include play.html identifier="examples5" start=91.20 stop=94.62 %} **Do your parents live in HCMC?**      
 *Có phải bố mẹ bạn sống ở thành phố HCM không?*     
 {% endif %}
 
@@ -76,32 +76,32 @@ attr:
 %}
 
 
-1. {% include play.html identifier="examples1" start=6.15 stop=8.55 %}**You are such a good friend.**      
+1. {% include play.html identifier="examples1" start=6.15 stop=8.55 %} **You are such a good friend.**      
 *Bạn đúng là một người bạn tốt.*     
-2. {% include play.html identifier="examples1" start=10.13 stop=13.14 %}**Russia is such a big country.**     
+2. {% include play.html identifier="examples1" start=10.13 stop=13.14 %} **Russia is such a big country.**     
 *Nga đúng là một đất nước lớn.*     
-3. {% include play.html identifier="examples1" start=14.75 stop=17.04 %}**You are such a great artist.**     
+3. {% include play.html identifier="examples1" start=14.75 stop=17.04 %} **You are such a great artist.**     
 *Bạn đúng là một nghệ sĩ vĩ đại.*    
 
 {% if site.trialdeploy %}
 	{% include list_placeholder.html  attr=page.attr     start=4 stop=11 %}
 	{% else %}
 
-4. {% include play.html identifier="examples1" start=18.76 stop=20.57 %}**I am so amazing.**     
+4. {% include play.html identifier="examples1" start=18.76 stop=20.57 %} **I am so amazing.**     
 *Tôi thật là tuyệt.*     
-5. {% include play.html identifier="examples1" start=22.33 stop=25.71 %}**Iceland is such a cold country.**      
+5. {% include play.html identifier="examples1" start=22.33 stop=25.71 %} **Iceland is such a cold country.**      
 *Iceland đúng là một đất nước lạnh.*     
-6. {% include play.html identifier="examples1" start=28.13 stop=30.52 %}**It is such a great movie.**      
+6. {% include play.html identifier="examples1" start=28.13 stop=30.52 %} **It is such a great movie.**      
 *Đó đúng là một bộ phim hay.*     
-7. {% include play.html identifier="examples1" start=32.86 stop=34.77 %}**You are such a liar.**      
+7. {% include play.html identifier="examples1" start=32.86 stop=34.77 %} **You are such a liar.**      
 *Bạn đúng là một tên dối trá.*     
-8. {% include play.html identifier="examples1" start=36.74 stop=39.14 %}**The test is so hard.**     
+8. {% include play.html identifier="examples1" start=36.74 stop=39.14 %} **The test is so hard.**     
 *Bài kiểm tra thật là khó.*     
-9. {% include play.html identifier="examples1" start=41.30 stop=43.61 %}**She is so crazy.**     
+9. {% include play.html identifier="examples1" start=41.30 stop=43.61 %} **She is so crazy.**     
 *Cô ta thật là điên.*    
-10. {% include play.html identifier="examples1" start=45.80 stop=48.66 %}**She is so good at English.**      
+10. {% include play.html identifier="examples1" start=45.80 stop=48.66 %} **She is so good at English.**      
 *Cô ấy thật giỏi Tiếng Anh.*     
-11. {% include play.html identifier="examples1" start=51.05 stop=53.70 %}**The question is so easy.**     
+11. {% include play.html identifier="examples1" start=51.05 stop=53.70 %} **The question is so easy.**     
 *Câu hỏi thật dễ.*     
 {% endif %}
 
@@ -160,7 +160,7 @@ attr:
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="examples4"  init=true
-	title="5. Is it + adjective + 'to' + verb"
+	title="5. 'Is it' + adjective + 'to' + verb"
 	translation="Có phải + tính từ + động từ to Verb"
 %}
 
@@ -184,7 +184,8 @@ attr:
 *Có tệ khi phải kết hôn mà không có tình yêu không?*     
 7. {% include play.html identifier="examples4" start=34.60 stop=39.93 %} **Is it possible to speak English fluently when you don't practice every day?**      
 *Có thể nào nói Tiếng Anh lưu loát khi bạn không thực hành mỗi ngày không?*     
-8. {% include play.html identifier="examples4" start=41.52 stop=43.98 %} **Is it good to follow the crowd?** *Đi theo đám đông thì có tốt không?*    
+8. {% include play.html identifier="examples4" start=41.52 stop=43.98 %} **Is it good to follow the crowd?**  
+*Đi theo đám đông thì có tốt không?*    
 
 {% endif %}
 

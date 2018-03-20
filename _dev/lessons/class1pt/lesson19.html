@@ -1,0 +1,1380 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/dev/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  <script src="http://0.0.0.0:35729/livereload.js"></script></head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+    
+  
+       
+    </nav>
+    
+
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h1 id="lesson-119-what">Lesson 1.19: What</h1>
+
+<div>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L19-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '19', 'vocabulary');">▶</span>
+  </div>
+</div>
+<div class="audiofile-info">C1L19-vocabulary.mp3</div>
+</div>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<h3 id="in-the-bedroom">In the bedroom</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l19-bed.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 9.68, 10.11, 
+      '1-19', 'bed');">▷ <strong>bed</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>cama</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l19-picture.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 10.43, 11.97, 
+      '1-19', 'picture');">▷ <strong>picture</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>retrato</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l19-flower-vase.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 11.97, 13.11, 
+      '1-19', 'flower vase');">▷ <strong>flower vase</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>vaso de flores</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l19-shelf.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 13.1, 14.54, 
+      '1-19', 'shelf');">▷ <strong>shelf</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>estante</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l19-lamp.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 14.62, 16.11, 
+      '1-19', 'lamp');">▷ <strong>lamp</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>lâmpada</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l19-pillow.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 16.11, 17.11, 
+      '1-19', 'pillow');">▷ <strong>pillow</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>travesseiro</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l19-blanket.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 17.43, 18.8, 
+      '1-19', 'blanket');">▷ <strong>blanket</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>cobertor</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l19-alarm-clock.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 18.7, 20.11, 
+      '1-19', 'alarm clock');">▷ <strong>alarm clock</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>despertador</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l19-dresser.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 20.35, 21.11, 
+      '1-19', 'dresser');">▷ <strong>dresser</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>cômoda</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l19-teddy-bear.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 21.62, 23.16, 
+      '1-19', 'teddy bear');">▷ <strong>teddy bear</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>urso Teddy</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="in-the-bathroom">In the bathroom</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l19-curtain.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 25.43, 27.22, 
+      '1-19', 'curtain');">▷ <strong>curtain</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>cortina</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l19-window.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 27.47, 28.21, 
+      '1-19', 'window');">▷ <strong>window</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>janela</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l19-faucet.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 28.6, 30.11, 
+      '1-19', 'faucet');">▷ <strong>faucet</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>torneira</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l19-bathtub.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 29.96, 31.22, 
+      '1-19', 'bathtub');">▷ <strong>bathtub</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>banheira</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l19-sink.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 31.7, 33.1, 
+      '1-19', 'sink');">▷ <strong>sink</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>pia</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l19-towel.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 33.11, 34.74, 
+      '1-19', 'towel');">▷ <strong>towel</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>toalha</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l19-mirror.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 34.74, 36.2, 
+      '1-19', 'mirror');">▷ <strong>mirror</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>espelho</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l19-towel-rack.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 36.17, 37.9, 
+      '1-19', 'towel rack');">▷ <strong>towel rack</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>toalheiro</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l19-toilet.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 37.68, 39.66, 
+      '1-19', 'toilet');">▷ <strong>toilet</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>toalete</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l19-toilet-paper.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 39.66, 41.4, 
+      '1-19', 'toilet paper');">▷ <strong>toilet paper</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>papel higiênico</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l19-shampoo.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 41.4, 43.1, 
+      '1-19', 'shampoo');">▷ <strong>shampoo</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>xampu</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l19-soap.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 43.12, 44.3, 
+      '1-19', 'soap');">▷ <strong>soap</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>sabonete</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l19-toothbrush.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 44.64, 46.43, 
+      '1-19', 'toothbrush');">▷ <strong>toothbrush</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>escova de dentes</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l19-toothpaste.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 46.43, 48.05, 
+      '1-19', 'toothpaste');">▷ <strong>toothpaste</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>pasta de dentes</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="in-the-kitchen">In the kitchen</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l19-pan.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 50.27, 51.6, 
+      '1-19', 'pan');">▷ <strong>pan</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>sertã</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l19-pot.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 52.04, 53.1, 
+      '1-19', 'pot');">▷ <strong>pot</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>panela</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l19-cooker.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 53, 54.1, 
+      '1-19', 'cooker');">▷ <strong>cooker</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>fogareiro</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l19-cupboard.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 54.39, 55.6, 
+      '1-19', 'cupboard');">▷ <strong>cupboard</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>armário</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l19-cutting-board.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 55.6, 57.7, 
+      '1-19', 'cutting board');">▷ <strong>cutting board</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tábua de cortar</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l19-knife.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 57.49, 59.3, 
+      '1-19', 'knife');">▷ <strong>knife</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>faca</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l19-blender.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 58.85, 60.5, 
+      '1-19', 'blender');">▷ <strong>blender</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>liquidificador</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l19-sink.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 60.44, 62.8, 
+      '1-19', 'sink');">▷ <strong>sink</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>pia</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l19-dishwasher.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 61.97, 63.8, 
+      '1-19', 'dishwasher');">▷ <strong>dishwasher</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>lava-louças</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l19-freezer.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 63.62, 65.03, 
+      '1-19', 'freezer');">▷ <strong>freezer</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>congelador</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l19-fridge.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 65.03, 66.7, 
+      '1-19', 'fridge');">▷ <strong>fridge</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>geladeira</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l19-microwave.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 66.8, 68.4, 
+      '1-19', 'microwave');">▷ <strong>microwave</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>microondas</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l19-oven.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 68.41, 70.02, 
+      '1-19', 'oven');">▷ <strong>oven</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>forno</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h3 id="in-the-living-room">In the living-room</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l19-chair.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 71.97, 73.6, 
+      '1-19', 'chair');">▷ <strong>chair</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>cadeira</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l19-armchair.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 73.41, 75.3, 
+      '1-19', 'armchair');">▷ <strong>armchair</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>poltrona</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l19-rocking-chair.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 75.27, 77.1, 
+      '1-19', 'rocking chair');">▷ <strong>rocking chair</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>cadeira de balanço</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l19-stool.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 77.06, 78.7, 
+      '1-19', 'stool');">▷ <strong>stool</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tamborete</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l19-book.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 78.33, 80.7, 
+      '1-19', 'book');">▷ <strong>book</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>livro</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l19-couch.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 79.91, 81.6, 
+      '1-19', 'couch');">▷ <strong>couch</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>sofá</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l19-sofa.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 81.55, 83.5, 
+      '1-19', 'sofa');">▷ <strong>sofa</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>sofá</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l19-cushion.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 83.34, 84.9, 
+      '1-19', 'cushion');">▷ <strong>cushion</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>almofada</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l19-fireplace.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 85.01, 87.2, 
+      '1-19', 'fireplace');">▷ <strong>fireplace</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>lareira</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l19-coffee-table.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 87.12, 88.6, 
+      '1-19', 'coffee table');">▷ <strong>coffee table</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>mesa de centro</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l19-rug.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 88.77, 90.39, 
+      '1-19', 'rug');">▷ <strong>rug</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tapete</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<div>
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L19-examples.mp3" id="audio_examples" preload="none"></audio>
+<div class="row">
+  <div class="col-1">
+    <span class="el-player-icon" id="play_examples" onclick="play('examples', '19', 'examples');">▶</span>
+  </div>
+</div>
+<div class="audiofile-info">C1L19-examples.mp3</div>
+</div>
+
+<h2 id="example">Example</h2>
+<ol>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   4.43, 5.8,   'n/a', 'examples');">▷</strong><strong>What is this?</strong> <em>O que é isto?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   7.2, 8.87,   'n/a', 'examples');">▷</strong><strong>What is that?</strong> <em>O que é isso?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   10.43, 12.26,   'n/a', 'examples');">▷</strong><strong>What are those?</strong> <em>O que são aqueles?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   13.27, 14.89,   'n/a', 'examples');">▷</strong><strong>What are these?</strong> <em>O que são esses?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   16.17, 18.5,   'n/a', 'examples');">▷</strong><strong>What is under the table?</strong> <em>O que está debaixo da mesa?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   19.85, 21.83,   'n/a', 'examples');">▷</strong><strong>What is on the floor?</strong> <em>O que está no chão?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   23.19, 25.3,   'n/a', 'examples');">▷</strong><strong>What is on top of the tree?</strong> <em>O que está em cima da árvore?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   26.3, 28.47,   'n/a', 'examples');">▷</strong><strong>What is your favorite animal?</strong> <em>Qual é o seu animal favorito?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',   29.73, 32.43,   'n/a', 'examples');">▷</strong><strong>What is your favorite coffee shop?</strong> <em>Qual é o seu café favorito?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',  33.96, 36.12,  'n/a', 'examples');">▷</strong><strong>What is your favorite movie?</strong> <em>Qual é o seu filme favorito?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',  37.81, 39.41,  'n/a', 'examples');">▷</strong><strong>What are you doing?</strong> <em>O que você está fazendo?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',  41.07, 43.0,  'n/a', 'examples');">▷</strong><strong>What is Peter doing?</strong> <em>O que Peter está fazendo?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',  44.88, 47.51,  'n/a', 'examples');">▷</strong><strong>What do you want for your birthday?</strong> <em>O que você quer para o seu aniversário?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',  49.34, 51.55,  'n/a', 'examples');">▷</strong><strong>What does your friend hate?</strong> <em>O que o seu amigo odeia?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',  53.18, 56.01,  'n/a', 'examples');">▷</strong><strong>What does the nurse want to buy?</strong> <em>O que a enfermeira quer comprar?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',  57.51, 59.56,  'n/a', 'examples');">▷</strong><strong>What does your wife look like?</strong> <em>Como parece a sua esposa?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',  61.59, 63.48,  'n/a', 'examples');">▷</strong><strong>What does your mother look like?</strong> <em>Como parece a sua mãe?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',  65.43, 68.99,  'n/a', 'examples');">▷</strong><strong>What does the news reporter intend to talk about?</strong>  <em>Sobre o que o repórter de notícias pretende falar?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',  70.29, 72.79,  'n/a', 'examples');">▷</strong><strong>What did the businessman tell you?</strong> <em>O que o empresário te disse?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',  74.42, 76.59,  'n/a', 'examples');">▷</strong><strong>What did you do yesterday?</strong> <em>O que você fez ontem?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',  78.2, 79.88,  'n/a', 'examples');">▷</strong><strong>What did you say?</strong> <em>O que você disse?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples" onclick="playat('examples',  81.59, 84.49,  'n/a', 'examples');">▷</strong><strong>What did the smart student pay attention to?</strong> <em>Para o que o aluno inteligente prestou atenção?</em></li>
+</ol>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

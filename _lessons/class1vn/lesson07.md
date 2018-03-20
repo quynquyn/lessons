@@ -29,7 +29,7 @@ attr:
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="Conversation"  init=true
-	title="1. Yes / No Questions"
+	title="1. Yes / No questions"
 	translation="Câu hỏi có / không"
 %}
 

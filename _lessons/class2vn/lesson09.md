@@ -7,7 +7,6 @@ attr:
   class: "2"
   lesson: "09"
   lang: vn
-
 ---
 
 {%  include voice.html attr=page.attr        ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
@@ -141,7 +140,7 @@ attr:
 	title="2. How important is fashion to you?"
 	translation=""
     tag="h3" %}
-##### +Đối với bạn thời trang quan trọng như thế nào?+
+##### *Đối với bạn thời trang quan trọng như thế nào?*
 **How + adjective**     *How + tính từ*
 
 1. **How important am I to you?**  

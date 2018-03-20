@@ -26,7 +26,7 @@ attr:
 	translation="Công ty"
     tag="h3" %}
 
-**I want to work for a _______ company**   *Tôi muốn làm việc cho một công ty___.*
+**I want to work for a _______ company**     *Tôi muốn làm việc cho một công ty___.*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -90,15 +90,11 @@ attr:
 > {% include play.html identifier="conversation" start=61.09 stop=62.60 %} P2: **Thank you very much, Sir.**  
 *Cảm ơn ngài rất nhiều.*  
 
-
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="explanation"  init=true
 	title="Explanation"        
 	translation="Giải thích"
     tag="h2" %}
-
-
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=4.17 stop=17.86
@@ -106,11 +102,11 @@ attr:
 	translation="Công việc trước của bạn là gì?"
     tag="h3" %}
 
-- **Where did you work before you decided to apply for this position?**  
+1. **Where did you work before you decided to apply for this position?**  
 *Bạn đã làm việc ở đâu trước khi bạn quyết định nộp đơn cho vị trí này?*    
-- **What company did you work for?**  
+2. **What company did you work for?**  
 *Bạn đã làm việc cho công ty nào?*   
-- **Did you work in a pharmaceutical company prior to applying here?**   
+3. **Did you work in a pharmaceutical company prior to applying here?**   
 *Có phải bạn đã làm việc cho một công ty dược trước khi bạn nộp đơn vào đây?*   
 
 {% if site.trialdeploy %}
@@ -120,31 +116,28 @@ attr:
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=19.09 stop=33.36
 	title="2. Your previous job sounds great. Why did you quit?"
-	translation="Công việc trước của bạn nghe rất tuyện. Tại sao bạn từ bỏ?"
+	translation=""
     tag="h3" %}
-
-- **Why did you resign your previous position?**  
+##### *Công việc trước của bạn nghe rất tuyện. Tại sao bạn từ bỏ?*
+1. **Why did you resign your previous position?**  
 *Tại sao bạn từ bỏ công việc trước của bạn?*    
-- **Were you fired or did you quit?**  
+2. **Were you fired or did you quit?**  
 *Bạn bị sa thải hay là bạn nghỉ việc?*    
-- **Why have you decided to apply for a job in our company?**  
+3. **Why have you decided to apply for a job in our company?**  
 *Vì sao bạn quyết định nộp đơn xin việc ở công ty chúng tôi?*   
-
-
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=34.40 stop=51.60
 	title="3. If I'm not in a happy work environment, I get very lazy."
-	translation="Nếu tôi ở trong một môi trường làm việc không mấy vui vẻ, tôi sẽ lười biếng."
+	translation=""
     tag="h3" %}
-
-- **My greatest flaw is that I pay too much attention to detail.**  
+##### *Nếu tôi ở trong một môi trường làm việc không mấy vui vẻ, tôi sẽ lười biếng.*
+1. **My greatest flaw is that I pay too much attention to detail.**  
 *Thói xấu của tôi là tôi tập trung quá nhiều vào tiểu tiết.*    
-- **I'm a workaholic and sometimes that can be a problem for me.**  
+2. **I'm a workaholic and sometimes that can be a problem for me.**  
 *Tôi là người nghiện làm việc và thỉnh thoảng đó là vấn đề của tôi.*    
-- **I don't function well in a group, I prefer working alone.**  
+3. **I don't function well in a group, I prefer working alone.**  
 *Tôi không hợp tác tốt trong nhóm, tôi thích làm việc một mình hơn.*    
-
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=53.14 stop=68.10
@@ -152,27 +145,24 @@ attr:
 	translation="Tôi đáng tin, linh hoạt và dễ thích nghi."
     tag="h3" %}
 
-- **I work really well with people and I'm a great team player.**  
+1. **I work really well with people and I'm a great team player.**  
 *Tôi làm việc với mọi người rất tốt và là một người làm việc nhóm rất tuyệt.*    
-- **I think I'm a great person to work with because I'm very adaptive.**  
+2. **I think I'm a great person to work with because I'm very adaptive.**  
 *Tôi nghĩ tôi là một người tuyệt vời để làm việc chung vì tôi rất dễ thích nghi.*    
-- **Delivering work on time is one of my main strengths.**  
+3. **Delivering work on time is one of my main strengths.**  
 *Hoàn thành nhiệm vụ kịp lúc là 1 trong những thế mạnh của tôi.*     
-
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=69.95 stop=86.14
 	title="5. I would like to officially welcome you to the company. You're hired!"
-	translation="Tôi muốn chính thức chào mừng bạn đến với công ty. Bạn đã được nhận!"
+	translation=""
     tag="h3" %}
-
-- **Welcome to the company! I'm sure you'll enjoy working here.**  
+##### *Tôi muốn chính thức chào mừng bạn đến với công ty. Bạn đã được nhận!*
+1. **Welcome to the company! I'm sure you'll enjoy working here.**  
 *Chào mừng đến với công ty. Tôi chắc là bạn sẽ thích làm việc ở đây.*    
-- **We are pleased to have you in our company.**  
+2. **We are pleased to have you in our company.**  
 *Chúng tôi rất vui vì có bạn trong công ty này.*    
-- **I am so happy they hired you! You wanted this job for a year.**  
+3. **I am so happy they hired you! You wanted this job for a year.**  
 *Tôi rất vui khi họ nhận bạn! Bạn đã muốn công việc này cả năm rồi.*    
-
-
 
 {% endif %}

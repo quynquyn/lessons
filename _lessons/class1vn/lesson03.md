@@ -138,12 +138,12 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 > **What do you sell?**     
 > *Vậy bạn bán gì?*   
 > **I sell bikes.**     
-  *Tôi bán xe đạp.*   
+> *Tôi bán xe đạp.*   
 
 
 {%  include voice.html attr=page.attr                           tag="h3"
 	identifier="Native-Dialogue"              init=false start=71 stop=666
-	title="2.  Do you play the piano?"
+	title="2. Do you play the piano?"
 	translation="Bạn có chơi piano không?"
 %}
 

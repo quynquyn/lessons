@@ -12,7 +12,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Verbs"  init=true
-	title="Lesson 1.2: Verb (what)"        
+	title="Lesson 1.2: Verb (do)"        
 	translation="Động từ"
     tag="h1" %}
 
@@ -74,7 +74,6 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 		database=site.data.vocabulary 
 		trial=false %}
 
-
 {%  include voice.html attr=page.attr     ZZZZZZZZZZZZZZZZZZZZ=2222222222222222222222
 	identifier="Native-Dialogue"  init=true
 	title="Dialogues"        
@@ -107,7 +106,6 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 	title="B1. I like dolls."
 	translation="Tôi thích búp bê."
     tag="h3" %}
-
 
 > **Do you like doors?**   
 *Bạn có thích những cái cửa không?*    
@@ -155,7 +153,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 
 > **Do you see some trains?**   
 *Có phải bạn thấy xe lửa?*    
-> **No,  don’t see any trains. I see some planes.**   
+> **No, don’t see any trains. I see some planes.**   
 *Không, tôi không thấy xe lửa. Tôi thấy những chiếc máy bay.*    
 
 {%  include voice.html attr=page.attr

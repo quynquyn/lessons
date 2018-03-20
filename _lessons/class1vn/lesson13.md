@@ -33,15 +33,15 @@ attr:
 %}
 
 
->{% include play.html identifier="examples1" start=2.1 stop=5.19 %} **Who is she?**     
->*Bà ấy là ai?*   
+> {% include play.html identifier="examples1" start=2.1 stop=5.19 %} **Who is she?**     
+> *Bà ấy là ai?*   
 > {% include play.html identifier="examples1" start=6.80 stop=8.78 %} **She is my mother.**    
 > *Bà ấy là mẹ của tôi.*    
 
->{% include play.html identifier="examples1" start=9.95 stop=11.53 %} **Who is he?**     
+> {% include play.html identifier="examples1" start=9.95 stop=11.53 %} **Who is he?**     
 > *Anh ấy là ai?*     
->{% include play.html identifier="examples1" start=12.51 stop=14.61 %} **He is my mechanic.**      
->*Anh ấy là thợ máy của tôi.*     
+> {% include play.html identifier="examples1" start=12.51 stop=14.61 %} **He is my mechanic.**      
+> *Anh ấy là thợ máy của tôi.*     
 
 
 {% if site.trialdeploy %}

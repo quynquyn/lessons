@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/dev/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  <script src="http://0.0.0.0:35729/livereload.js"></script></head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+    
+  
+       
+    </nav>
+    
+
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                
+<h1>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L08-Vocabulary.mp3" id="audio_Vocabulary" preload="none"></audio>
+<span class="el-player-icon" id="play_Vocabulary" onclick="play('Vocabulary', '08', 'Vocabulary');">▶</span>
+
+Lesson 1.8: More of 'to be' (Do / Does)
+<em>Mais de 'to be' (Faço / Faz)</em>
+<div class="audiofile-info"></div>
+</h1>
+
+<h2 id="vocabulary---vocabulário">Vocabulary   <em>Vocabulário</em></h2>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l08-safe.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>safe</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>seguro</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l08-dangerous.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>dangerous</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>perigoso</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l08-simple.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>simple</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>simples</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l08-complicated.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>complicated</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>complicado</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l08-boring.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>boring</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>chato</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l08-interesting.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>interesting</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>interessante</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l08-possible.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>possible</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>possível</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l08-impossible.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>impossible</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>impossível</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l08-polite.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>polite</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>educado</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l08-rude.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>rude</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>grosseiro</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l08-hard.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>hard</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>difícil</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l08-easy.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>easy</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>fácil</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2 id="explanation---explicação">Explanation   <em>Explicação</em></h2>
+
+<h3>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L08-Explanation1.mp3" id="audio_Explanation1" preload="none"></audio>
+<span class="el-player-icon" id="play_Explanation1" onclick="play('Explanation1', '08', 'Explanation1');">▶</span>
+
+1. It's easy to learn English.
+<em>É fácil aprender inglês.</em>
+<div class="audiofile-info"></div>
+</h3>
+<ol>
+  <li><strong class="el-vocab-play" id="playat_Explanation1" onclick="playat('Explanation1',   5, 9,   'n/a', 'Explanation1');">▷</strong> <strong>It’s hard to learn Japanese.</strong><br />
+<em>É difícil aprender japonês.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation1" onclick="playat('Explanation1',   9, 14,   'n/a', 'Explanation1');">▷</strong> <strong>It’s necessary to do a good job.</strong><br />
+<em>É necessário fazer um bom trabalho.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation1" onclick="playat('Explanation1',   14, 19,   'n/a', 'Explanation1');">▷</strong> <strong>It isn’t good to be lazy.</strong><br />
+<em>Não é bom ser preguiçoso.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation1" onclick="playat('Explanation1',   19, 23,   'n/a', 'Explanation1');">▷</strong> <strong>It is wrong to go that way.</strong><br />
+<em>É errado seguir assim.</em></li>
+  <li>
+    <p><strong class="el-vocab-play" id="playat_Explanation1" onclick="playat('Explanation1',   23, 28,   'n/a', 'Explanation1');">▷</strong> <strong>It’s important to have friends.</strong><br />
+<em>É importante ter amigos.</em></p>
+  </li>
+  <li><strong class="el-vocab-play" id="playat_Explanation1" onclick="playat('Explanation1',   28, 34,   'n/a', 'Explanation1');">▷</strong> <strong>It’s good for you to get up early in the morning.</strong><br />
+<em>É bom para você levantar-se cedo pela manhã.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation1" onclick="playat('Explanation1',   34, 40,   'n/a', 'Explanation1');">▷</strong> <strong>It’s bad to smoke cigarettes.</strong><br />
+<em>É ruim fumar cigarros.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation1" onclick="playat('Explanation1',   40, 45,   'n/a', 'Explanation1');">▷</strong> <strong>It’s not easy to answer that question.</strong><br />
+<em>*Não é fácil responder a essa pergunta.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation1" onclick="playat('Explanation1',   45, 50,   'n/a', 'Explanation1');">▷</strong> <strong>It’s amazing to travel around the world.</strong><br />
+<em>É incrível viajar ao redor do mundo.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation1" onclick="playat('Explanation1',  50, 55,  'n/a', 'Explanation1');">▷</strong> <strong>It’s terrible to stay up late at night.</strong><br />
+<em>É terrível ficar acordado até tarde da noite.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation1" onclick="playat('Explanation1',  55, 61,  'n/a', 'Explanation1');">▷</strong> <strong>It’s hard to believe they could think about such a thing.</strong><br />
+<em>É difícil acreditar que eles poderiam pensar sobre tal coisa.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation1" onclick="playat('Explanation1',  61, 66,  'n/a', 'Explanation1');">▷</strong> <strong>It’s impossible to do it.</strong><br />
+<em>É impossível fazê-lo.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation1" onclick="playat('Explanation1',  66, 71,  'n/a', 'Explanation1');">▷</strong> <strong>It’s easy for him to answer the question.</strong><br />
+<em>É fácil para ele responder a pergunta.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation1" onclick="playat('Explanation1',  71, 80,  'n/a', 'Explanation1');">▷</strong> <strong>It’s smart of him to answer the question.</strong><br />
+<em>É esperto dele responder a pergunta.</em></li>
+</ol>
+
+<h3>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L08-Explanation2.mp3" id="audio_Explanation2" preload="none"></audio>
+<span class="el-player-icon" id="play_Explanation2" onclick="play('Explanation2', '08', 'Explanation2');">▶</span>
+
+2. Verb + '~ing' = it
+<em>Verbo + '~ing' = it</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<ol>
+  <li><strong class="el-vocab-play" id="playat_Explanation2" onclick="playat('Explanation2',   6, 11,   'n/a', 'Explanation2');">▷</strong> <strong>Learning how to cook is easy.</strong><br />
+<em>Aprender a cozinhar é fácil.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation2" onclick="playat('Explanation2',   11, 17,   'n/a', 'Explanation2');">▷</strong> <strong>Saving money for the future is necessary.</strong><br />
+<em>Poupar dinheiro para o futuro é necessário.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation2" onclick="playat('Explanation2',   17, 21,   'n/a', 'Explanation2');">▷</strong> <strong>Listening to music is fun.</strong> <br />
+<em>Ouvir música é divertido.</em></li>
+  <li>
+    <p><strong class="el-vocab-play" id="playat_Explanation2" onclick="playat('Explanation2',   21, 26,   'n/a', 'Explanation2');">▷</strong> <strong>Loving you is easy because you are beautiful.</strong><br />
+<em>Amar você é fácil porque você é linda.</em></p>
+  </li>
+  <li><strong class="el-vocab-play" id="playat_Explanation2" onclick="playat('Explanation2',   26, 32,   'n/a', 'Explanation2');">▷</strong> <strong>Staying up late makes me feel tired.</strong><br />
+<em>Ficar acordado até tarde me faz sentir cansado.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation2" onclick="playat('Explanation2',   32, 38,   'n/a', 'Explanation2');">▷</strong> <strong>Talking to him helps me understand the problem.</strong><br />
+<em>Falar com ele me ajuda a entender o problema.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation2" onclick="playat('Explanation2',   38, 43,   'n/a', 'Explanation2');">▷</strong> <strong>Breaking up with him is the right thing to do.</strong><br />
+<em>Separar dele é a coisa correta a fazer.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation2" onclick="playat('Explanation2',   44, 48,   'n/a', 'Explanation2');">▷</strong> <strong>Talking to her is interesting.</strong><br />
+<em>Falar com ela é interessante.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation2" onclick="playat('Explanation2',   48, 53,   'n/a', 'Explanation2');">▷</strong> <strong>Crying doesn’t help solve the problem.</strong><br />
+<em>Chorar não ajuda a resolver o problema.</em></li>
+</ol>
+
+<h3>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L08-Explanation3.mp3" id="audio_Explanation3" preload="none"></audio>
+<span class="el-player-icon" id="play_Explanation3" onclick="play('Explanation3', '08', 'Explanation3');">▶</span>
+
+3. So and Such
+<em>Variações de Tão </em>
+<div class="audiofile-info"></div>
+</h3>
+<ol>
+  <li><strong class="el-vocab-play" id="playat_Explanation3" onclick="playat('Explanation3',   3, 10,   'n/a', 'Explanation3');">▷</strong> <strong>That movie is so good. / It’s such a good movie.</strong><br />
+<em>Esse filme é tão bom. / É um filme tão bom.</em></li>
+  <li>
+    <p><strong class="el-vocab-play" id="playat_Explanation3" onclick="playat('Explanation3',   11, 17,   'n/a', 'Explanation3');">▷</strong> <strong>The idea is so bad. / This is such a bad idea.</strong><br />
+<em>A idéia é tão ruim. / É uma idéia tão ruim.</em></p>
+  </li>
+  <li><strong class="el-vocab-play" id="playat_Explanation3" onclick="playat('Explanation3',   17, 28,   'n/a', 'Explanation3');">▷</strong> <strong>The teacher is so patient with his students. / He’s such a patient teacher with his students.</strong><br />
+<em>O profesor é tão paciente com seus alunos. / Ele é um profesor tão paciente para seus alunos.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation3" onclick="playat('Explanation3',   28, 35,   'n/a', 'Explanation3');">▷</strong> <strong>You are so good. / You are such a good friend.</strong><br />
+<em>Você é tão bom. / Você é um amigo tão bom.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation3" onclick="playat('Explanation3',   35, 42,   'n/a', 'Explanation3');">▷</strong> <strong>The crocodile is so big. / It’s such a big crocodile.</strong><br />
+<em>O crocodilo é tão grande. / É um crocodilo tão grande.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation3" onclick="playat('Explanation3',   42, 50,   'n/a', 'Explanation3');">▷</strong> <strong>The baby is so cute. / He’s such a cute baby.</strong><br />
+<em>O bebê é tão fofo. / Ele é um bebê tão fofo.</em></li>
+</ol>
+
+<h3>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L08-Explanation4.mp3" id="audio_Explanation4" preload="none"></audio>
+<span class="el-player-icon" id="play_Explanation4" onclick="play('Explanation4', '08', 'Explanation4');">▶</span>
+
+4. There is / There are
+<em>Há</em>
+<div class="audiofile-info"></div>
+</h3>
+<ol>
+  <li><strong class="el-vocab-play" id="playat_Explanation4" onclick="playat('Explanation4',   5, 8,   'n/a', 'Explanation4');">▷</strong> <strong>There is a book on the chair.</strong><br />
+<em>Há um livro na cadeira.</em></li>
+  <li>
+    <p><strong class="el-vocab-play" id="playat_Explanation4" onclick="playat('Explanation4',   9, 14,   'n/a', 'Explanation4');">▷</strong> <strong>There are some cats on the grass.</strong><br />
+<em>Há alguns gatos na grama.</em></p>
+  </li>
+  <li><strong class="el-vocab-play" id="playat_Explanation4" onclick="playat('Explanation4',   14, 19,   'n/a', 'Explanation4');">▷</strong> <strong>There is a man on the phone.</strong><br />
+<em>Há um homem no telefone.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation4" onclick="playat('Explanation4',   19, 23,   'n/a', 'Explanation4');">▷</strong> <strong>There are four weeks in a month.</strong><br />
+<em>Há quatro semanas em um mês.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation4" onclick="playat('Explanation4',   24, 28,   'n/a', 'Explanation4');">▷</strong> <strong>There is a blue car in the garage.</strong><br />
+<em>Há um carro azul na garagem.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation4" onclick="playat('Explanation4',   28, 33,   'n/a', 'Explanation4');">▷</strong> <strong>There are ten books in a box.</strong><br />
+<em>Há dez livros em uma caixa.</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation4" onclick="playat('Explanation4',   34, 37,   'n/a', 'Explanation4');">▷</strong> <strong>Is there a museum in your hometown?</strong><br />
+<em>Existe um museu na sua cidade natal?</em></li>
+  <li><strong class="el-vocab-play" id="playat_Explanation4" onclick="playat('Explanation4',   38, 41,   'n/a', 'Explanation4');">▷</strong> <strong>Are there any birds in the garden?</strong><br />
+<em>Há algum pássaro no jardim?</em></li>
+</ol>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

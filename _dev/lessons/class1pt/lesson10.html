@@ -1,0 +1,757 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/dev/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  <script src="http://0.0.0.0:35729/livereload.js"></script></head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics
+      </span>
+    
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="/pages/about.html">About</a>
+        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
+      </div>
+
+    
+    
+  
+       
+    </nav>
+    
+
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                
+<h1>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L10-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+<span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '10', 'vocabulary');">▶</span>
+
+Lesson 1.10: Adjective + preposition
+<em>Adjetivo + preposição</em>
+<div class="audiofile-info"></div>
+</h1>
+<h2 id="vocabulary---vocabulário">Vocabulary   <em>Vocabulário</em></h2>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l10-excited-about.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>excited about</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>entusiasmado com</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l10-interested-in.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>interested in</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>interessado em</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l10-bored-with.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>bored with</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>entediado por</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l10-happy-with.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>happy with</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>feliz com</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l10-disappointed-with.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>disappointed with</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>decepcionado por</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l10-satisfied-with.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>satisfied with</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>satisfeito com</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l10-impressed-with.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>impressed with</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>impressionado por</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l10-addicted-to.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>addicted to</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>viciado em</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l10-worried-about.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>worried about</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>preocupado com</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l10-nervous-about.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>nervous about</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nervoso com</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l10-good-at.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>good at</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>bom em</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l10-bad-at.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>bad at</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ruim em</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l10-angry-about-something-angry-with-someone.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>angry about something / angry with someone</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>irritado com algo / zangado com ele</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l10-tired-of-sick-of.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>tired of / sick of</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>cansado de / cansado de</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l10-afraid-of.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>afraid of</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ter medo de</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row6"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l10-full-of.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>full of</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>cheio de</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l10-responsible-for.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>responsible for</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>responsável por</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l10-known-for.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>known for</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>conhecido por</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row7"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l10-discouraged-by.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>discouraged by</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>desanimado por</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class1/c1l10-used-to.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>used to</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>acostumado com</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class1/c1l10-sorry-for.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>sorry for</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>sinto por</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row8"><td class="col1">
+  
+    <img src="/dev/lessons/images/class1/c1l10-thankful-for.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <strong>thankful for</strong> 
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>agradecido por</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L10-examples1.mp3" id="audio_examples1" preload="none"></audio>
+<span class="el-player-icon" id="play_examples1" onclick="play('examples1', '10', 'examples1');">▶</span>
+
+1. Examples
+<em>Exemplos</em>
+<div class="audiofile-info"></div>
+</h2>
+
+<ol>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   5.1, 10.3,   'n/a', 'examples1');">▷</strong> <strong>I am sorry for hurting your feelings.</strong>   <br />
+<em>Sinto por machucar seus sentimentos.</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   10.3, 15.1,   'n/a', 'examples1');">▷</strong> <strong>I am used to loneliness.</strong>   <br />
+<em>Eu estou acostumado com a solidão.</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   15.1, 21.3,   'n/a', 'examples1');">▷</strong> <strong>The accountant is not responsible for taking care of customers.</strong>   <br />
+<em>O contador não é responsável por cuidar dos clientes.</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   21.4, 27.3,   'n/a', 'examples1');">▷</strong> <strong>I am tired of waiting for him.</strong>   <br />
+<em>Estou cansado de esperá-lo.</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   27.3, 33.3,   'n/a', 'examples1');">▷</strong> <strong>I am afraid of speaking in public.</strong>   <br />
+<em>Tenho medo de falar em público.</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   33.4, 38.3,   'n/a', 'examples1');">▷</strong> <strong>I am discouraged by what he said.</strong>    <br />
+<em>Estou desanimado pelo que ele disse.</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   38.4, 43.3,   'n/a', 'examples1');">▷</strong> <strong>I am sick of doing homework every day.</strong>    <br />
+<em>Estou cansado de fazer o dever de casa todos os dias.</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   43.3, 47.3,   'n/a', 'examples1');">▷</strong> <strong>The restaurant is full of customers.</strong>    <br />
+<em>O restaurante está cheio de clientes.</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',   47.4, 55.3,   'n/a', 'examples1');">▷</strong> <strong>Claudia is known for being the most beautiful woman in town.</strong>    <br />
+<em>Claudia é conhecida por ser a mulher mais bonita da cidade.</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples1" onclick="playat('examples1',  55.4, 62.3,  'n/a', 'examples1');">▷</strong> <strong>I am quite nervous about the presentation tomorrow.</strong>   <br />
+<em>Estou bastante nervoso sobre a apresentação, amanhã.</em></li>
+</ol>
+
+<h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C1L10-examples2.mp3" id="audio_examples2" preload="none"></audio>
+<span class="el-player-icon" id="play_examples2" onclick="play('examples2', '10', 'examples2');">▶</span>
+
+2. Examples
+<em>Exemplos</em>
+<div class="audiofile-info"></div>
+</h2>
+
+<ol>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',   5.4, 8.3,   'n/a', 'examples2');">▷</strong> <strong>Are you angry with me?</strong><br />
+<em>Você está zangado comigo?</em></li>
+  <li>
+    <p><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',   8.4, 14.3,   'n/a', 'examples2');">▷</strong> <strong>Is the manager responsible for contacting customers?</strong><br />
+<em>O gerente é responsável por entrar em contato com os clientes?</em></p>
+  </li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',   14.3, 19.3,   'n/a', 'examples2');">▷</strong> <strong>Is the student good at learning languages?</strong><br />
+<em>O aluno é bom em aprender línguas?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',   19.4, 24.3,   'n/a', 'examples2');">▷</strong> <strong>Are you disappointed with the result of the exam?</strong> <br />
+<em>Você está desapontado com o resultado da prova?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',   25.4, 30.3,   'n/a', 'examples2');">▷</strong> <strong>Are you interested in becoming a singer?</strong>  <br />
+<em>Você está interessado em se tornar cantor?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',   30.4, 37.3,   'n/a', 'examples2');">▷</strong> <strong>Is the secretary excited about the upcoming holiday?</strong>  <br />
+<em>A secretária está entusiasmada com o próximo feriado?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',   37.4, 44.3,   'n/a', 'examples2');">▷</strong> <strong>Are the man and the woman satisfied with the service at the hotel?</strong>  <br />
+<em>O homem e a mulher estão satisfeitos com o serviço no hotel?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',   44.4, 50.3,   'n/a', 'examples2');">▷</strong> <strong>Are you bored with doing the same job again and again?</strong>   <br />
+<em>Você está entediado por fazer o mesmo trabalho outra e outra vez?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',   50.4, 55.3,   'n/a', 'examples2');">▷</strong> <strong>Is she good at solving problems?</strong>   <br />
+<em>Ela é boa em resolver problemas?</em></li>
+  <li><strong class="el-vocab-play" id="playat_examples2" onclick="playat('examples2',  55.4, 61.3,  'n/a', 'examples2');">▷</strong> <strong>Are you used to the terrible traffic jam in Saigon?</strong>   <br />
+<em>Você está acostumado com o engarrafamento terrível em Saigon</em></li>
+</ol>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

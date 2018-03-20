@@ -52,6 +52,14 @@ section.el-lesson {
 		font-size: 120%;
 		margin-bottom: 15px;
 	}
+	p {
+		strong {
+			margin-right: 20px;
+		}
+		strong.el-vocab-play {
+			margin-right: 0;
+		}
+	}
 	blockquote {
 		padding-left: 20px;
 		border-left: 4px solid #DDD;
@@ -68,10 +76,9 @@ section.el-lesson {
 		}
 		
 	}
-	img {
-	}
+
 	table {
-	table-layout: fixed;
+		table-layout: fixed;
 	
 		width: 100%;
 		margin-top: 10px;

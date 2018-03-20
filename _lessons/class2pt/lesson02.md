@@ -1,3 +1,4 @@
+---
 layout: lesson
 lang: pt
 class: "2"
@@ -9,92 +10,108 @@ attr:
 salestext: "Versão Premium Gratuita (2 dias mais)"
 ---
 
-# Lesson 2: What I hate 
+{%  include voice.html attr=page.attr      ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Native-Dialogue1"  init=true
+	title="Lesson 2.2: What I hate"        
+	translation="TODO"
+    tag="h1" %}
 
 
-## Vocabulary
-{% include player.html identifier="File1-Vocab" lesson="C2L01" file="C2L02-Native-Dialogue1.mp3" %}
+## Vocabulary   *Vocabulário*
+
+{% include wordgrid.html lang=page.lang
+		class=page.class 
+		lesson=page.lesson 
+		section="vocabulary"
+		voiceover="Native-Dialogue1"
+		database=site.data.vocabulary 
+		trial=false %}
 
 
-1. **Talking to unfriendly people** *conversar com pessoas hostis*
-2. **Arguing with overly emotional people** *brigar com pessoas excessivamente emocionais* 
-3. **Getting up early in the morning** *levantar-se cedo pela manhã*
-4. **Doing homework** *fazer deveres de casa*
-5. **Doing housework** *fazer trabalhos domésticos*
-	- **Washing dishes** *lavar pratos*
-	- **Washing clothes** *lavar roupas*
-	- **Doing laundry** *lavar roupas*
-	- **Cleaning the house** *Limpar a casa*
-6. **Being alone/ hungry/ sick** *estar sozinho / ter fome / estar doente*
-7. **Being told "you are short"** *ser dito “você é baixo”*
-8. **Thinking about my ex** *pensar no meu ex*
-9. **Riding my motorbike in the traffic jam** *andar de moto no engarrafamento*
-10. **Loneliness** *solidão*
-11. **Hot weather** *clima quente*
-12. **Dogs / cats / snakes** *cães / gatos / cobras*
-13. **Racism** *racismo*
-14. **Sexism** *sexismo*
-15. **Slow Internet Connection** *conexão de internet lenta*
-16. **Being early to the airport** *estar cedo no aeroporto*
-17. **Arriving at the destination and realizing that you forgot something** *chegar ao destino e perceber que você esqueceu algo*
+{%  include voice.html attr=page.attr       ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Native-Dialogue2"  init=true
+	title="Dialogue"        
+	translation="Diálogo"
+    tag="h2" %}
 
 
-## Dialogue
-{% include player.html identifier="File1-Dialogue" lesson="C2L01" file="C2L02-Native-Dialogue2.mp3" %}
+> {% include play.html identifier="Native-Dialogue1" start=0.54 stop=2.58 %} Person 1: **Why do you look so annoyed?**    
+> *TODO*    
+> {% include play.html identifier="Native-Dialogue1" start=2.58 stop=5.96 %} Person 2: **I am cleaning the house now and I hate doing housework.**    
+> *TODO*     
+> {% include play.html identifier="Native-Dialogue1" start=5.96 stop=7.33 %} P1: **What else do you hate?**    
+> *TODO*    
+> {% include play.html identifier="Native-Dialogue1" start=7.33 stop=10.47 %} P2: **Talking to unfriendly people drives me crazy.**    
+> *TODO*    
+> {% include play.html identifier="Native-Dialogue1" start=10.47 stop=12.89 %} P1: **Do you hate getting up early in the morning?**    
+> *TODO*    
+> {% include play.html identifier="Native-Dialogue1" start=12.89 stop=16.41 %} P2: **No, I don’t hate getting up early in the morning. How about you?**    
+> *TODO*    
+> {% include play.html identifier="Native-Dialogue1" start=16.41 stop=20.76 %} P1: **Definitely. Getting up early in the morning really gets on my nerves.**    
+> *TODO*    
 
-> Person 1: **Why do you look so annoyed?**
-> 
-> Person 2: **I am cleaning the house now and I hate doing housework.**
-> 
-> Person 1: **What else do you hate?**
-> 
-> Person 2: **Talking to unfriendly people drives me crazy.**
-> 
-> Person 1: **Do you hate getting up early in the morning?**
-> 
-> Person 2: **No, I don’t hate getting up early in the morning. How about you?**
-> 
-> Person 1: **Definitely. Getting up early in the morning really gets on my nerves.**
+{%  include voice.html attr=page.attr       ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="explanation"  init=true
+	title="1: Why do you look so annoyed?"        
+	translation="TODO"
+    tag="h3" %}
+	
+**Why do you look…?**     *Por que você parece?*
 
+1. **Why do you look so sad today?**  
+*Por que você parece tão triste hoje?*
+2. **Why do you look so angry?**  
+*Por que você parece tão bravo?*
+3. **Why do you look so happy today?**  
+*Por que você parece tão feliz hoje?*
 
-{% include player.html identifier="File1-Explain" lesson="C2L01" file="C2L02-Native-Dialogue2.mp3" %}
+{%  include voice.html attr=page.attr       ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="explanation"  init=false start=13.79 stop=39.60
+	title="2: I hate doing housework."        
+	translation="Eu odeio fazer trabalhos domésticos."
+    tag="h3" %}
+**I hate / I am sick of / I am tired of / I can’t stand it**   
+*TODO*
 
-### Person 1: Why do you look so annoyed?
+1. **I hate arguing with overly emotional people.**  
+*Odeio discutir com pessoas excessivamente emocionais.*
+2. **I am sick of listening to the song "Despacito" again and again.**  
+*Estou cansado de ouvir a música "Despacito" outra e outra vez.*
+3. **I am tired of being told that I am short.**  
+*Estou cansado de ser dito de que eu sou baixo.*
+4. **I can’t stand sexism.**  
+*Não suporto o sexismo.*
 
-**Why do you look…?** *Por que você parece?*
+{%  include voice.html attr=page.attr       ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="explanation"  init=false start=41.64 stop=65.22
+	title="3: Talking to unfriendly people drives me crazy."        
+	translation=""
+    tag="h3" %}
+##### *Falar com pessoas hostis me deixa louco.
+**It drives me crazy / it gets on my nerves**   
+*TODO*
 
-- **Why do you look so sad today?**  *Por que você parece tão triste hoje?*
-- **Why do you look so angry?**  *Por que você parece tão bravo?*
-- **Why do you look so happy today?**  *Por que você parece tão feliz hoje?*
+1. **Racism drives me crazy.**  
+*O racismo me deixa louco.*
+2. **Getting stuck in the traffic jam drives me crazy.**  
+*Estar preso no engarrafamento me deixa louco.*
+3. **Doing homework every day drives me crazy.**  
+*Fazer o dever de casa todos os dias me deixa louco.*
+4. **Being told that I am fat gets on my nerves.**  
+*Ser dito que eu sou gordo me irrita.*
+5. **Slow internet connection drives me crazy.**  
+*Conexão de internet lento me deixa louco.*
 
-### Person 2: I hate doing housework.
+{%  include voice.html attr=page.attr       ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="explanation"  init=false start=66.88 stop=73.75 
+	title="4: Definitely"        
+	translation="Definitivamente"
+    tag="h3" %}
 
-*Eu odeio fazer trabalhos domésticos.*
-
-**I hate / I am sick of / I am tired of / I can’t stand it**
-
-- **I hate arguing with overly emotional people.** *Odeio discutir com pessoas excessivamente emocionais.*
-- **I am sick of listening to the song "Despacito" again and again.** *Estou cansado de ouvir a música "Despacito" outra e outra vez.*
-- **I am tired of being told that I am short.** *Estou cansado de ser dito de que eu sou baixo.*
-- **I can’t stand sexism.** *Não suporto o sexismo.*
-
-### Person 1: Talking to unfriendly people drives me crazy.
-
-*Falar com pessoas hostis me deixa louco.*
-
-**It drives me crazy / it gets on my nerves**
-
--  **Racism drives me crazy.** *O racismo me deixa louco.*
--  **Getting stuck in the traffic jam drives me crazy.** *Estar preso no engarrafamento me deixa louco.*
--  **Doing homework every day drives me crazy.** *Fazer o dever de casa todos os dias me deixa louco.*
--  **Being told that I am fat gets on my nerves.** *Ser dito que eu sou gordo me irrita.*
--  **Slow internet connection drives me crazy.** *Conexão de internet lento me deixa louco.*
-
-### Person 2: Definitely
-
-*Definitivamente*
-
-- **absolutely** *absolutamente*
-- **of course** *claro / naturalmente*
-- **sure** *certo*
+1. **Absolutely.**  
+*Absolutamente*
+2. **Of course.**  
+*Claro / naturalmente*
+3. **Sure.**  
+*Certo*
 

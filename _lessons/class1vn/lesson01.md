@@ -10,15 +10,12 @@ attr:
 salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 ---
 
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZ
 	identifier="Animals"  init=true
 	title="Lesson 1.1: Noun (what)"        
 	translation="Danh từ (cái gì)"
     tag="h1" %}
  
-
-
 ## Vocabulary   *Từ vựng*
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
@@ -36,8 +33,6 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 		database=site.data.vocabulary 
 		trial=false %}
 
-
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Fruits"  init=true
 	title="Fruits"        
@@ -51,7 +46,6 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 		voiceover="Fruits"
 		database=site.data.vocabulary 
 		trial=false %}
-
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="ThingsInClass"  init=true

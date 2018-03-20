@@ -9,122 +9,162 @@ attr:
   lang: pt
 ---
 
-{% include player.html identifier="lesson-vocabulary" lesson="C2L06" file="C2L06-Vocabulary.mp3" %}
-# Lesson 2.6: Travel 
+{%  include voice.html attr=page.attr  
+	identifier="Vocabulary"  init=true
+	title="Lesson 2.6: Travel"        
+	translation="TODO"
+    tag="h1" %}
 
+## Vocabulary   *Vocabulário*
 
-## Vocabulary
-### What can you do there?
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Vocabulary"  init=false start=7 stop=70
+	title="What can you do there?"        
+	translation="TODO"
+    tag="h3" %}
+
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
-		lang=page.lang
 		section="whatcanyoudothere"
+		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="Vocabulary"  init=false start=70 stop=123
+	title="Purpose"        
+	translation="TODO"
+    tag="h3" %}
 
-
-
-### Purpose 
-
-**I travel there to...**
+**I travel there to...**     *TODO*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
-		lang=page.lang
 		section="purpose"
+		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
+{%  include voice.html attr=page.attr  
+	identifier="Conversation"  init=true
+	title="Conversation"        
+	translation="TODO"
+    tag="h2" %}
 
+> {% include play.html identifier="Conversation" start=0.01 stop=2.01 %} Person 1: **Did you pack everything you need?**   
+*TODO*   
+> {% include play.html identifier="Conversation" start=2.01  stop=5.35 %} Person 2: **Uh-huh. I just need to buy a travel pillow at the airport.**   
+*TODO*   
+> {% include play.html identifier="Conversation" start=5.35 stop=11.36 %} P1: **So, this is your first overseas trip and your first flight! Are you nervous?**   
+*TODO*  
+> {% include play.html identifier="Conversation" start=11.36 stop=12.48 %} P2: **Not at all.**  
+*TODO.*   
+> {% include play.html identifier="Conversation" start=12.48 stop=16 %} P1: **Remember, you’re not allowed to take liquids on the plane.**    
+*TODO*    
+> {% include play.html identifier="Conversation" start=16 stop=19.38 %} P2: **Really? OK. I hope I didn’t forget anything.**   
+*TODO*   
+> {% include play.html identifier="Conversation" start=19.38 stop=21.28 %} P1: **You must take your passport!**    
+*TODO*   
+> {% include play.html identifier="Conversationn" start=21.28 stop=24.28 %} P2: **Oh, of course. Thank you.**    
+*TODO*   
+> {% include play.html identifier="Conversation" start=24.28 stop=28.53 %} P1: **You travel a lot. Why do you love traveling so much?**    
+*TODO*   
+> {% include play.html identifier="Conversation" start=28.53 stop=40.09 %} P2: **It’s an interesting way to know more about new cultures and explore new places. I love to go sightseeing and enjoy the beauty of the landscape. It’s also the best way to find a quiet place to avoid the noise of the city.**     
+*TODO*   
+> {% include play.html identifier="Conversation" start=40.09 stop=44.41 %} P1: **That sounds amazing. I hope you have a nice flight.**   
+*TODO*    
 
+{%  include voice.html attr=page.attr  
+	identifier="Explanation"  init=true
+	title="Explanation"        
+	translation="TODO"
+    tag="h2" %}
+{%  include voice.html attr=page.attr  
+	identifier="Explanation"  init=false start=1.10 stop=20.28
+	title="1. I just need to buy a travel pillow at the airport."        
+	translation=""
+    tag="h3" %}
+##### *Eu só preciso comprar um travesseiro de viagem no aeroporto.*
+**Verb + 'to' + verb**     *TODO*
 
-{% include player.html identifier="lesson-conversation" lesson="C2L06" file="C2L06-Conversation.mp3" %}
-## Conversation
-
-
-> Person 1: **Did you pack everything you need?**  
-> Person 2: **Uh-huh. I just need to buy a travel pillow at the airport.**  
-> P1: **So, this is your first overseas trip and your first flight! Are you nervous?**  
-> P2: **Not at all**  
-> P1: **Remember, you’re not allowed to take liquids on the plane.**  
-> P2: **Really? OK. I hope I didn’t forget anything**  
-> P1: **You must take your passport!**  
-> P2: **Oh, of course. Thank you**  
-> P1: **You travel a lot. Why do you love traveling so much?**  
-> P2: **It’s an interesting way to know more about new cultures and explore new places. I love to go sightseeing and enjoy the beauty of the landscape. It’s also the best way to find a quiet place to avoid the noise of the city**  
-> P1: **That sounds amazing. I hope you have a nice flight**  
-
-
-{% include player.html identifier="lesson-explanation" lesson="C2L06" file="C2L06-Explanation.mp3" %}
-## Explanation
-
-
-### 1. I just need to buy a travel pillow at the airport.
-
-Eu só preciso comprar um travesseiro de viagem no aeroporto.
-**Verb to verb**
-
-- **He needs to go to the museum.** *Ele precisa ir ao museu.*
-- **I want to buy new shoes.** *Eu quero comprar sapatos novos.*
-- **My mother tries to call me.** **A minha mãe tenta me chamar.*
+- **He needs to go to the museum.**  
+*Ele precisa ir ao museu.*   
+- **I want to buy new shoes.**  
+*Eu quero comprar sapatos novos.*   
+- **My mother tries to call me.**  
+*A minha mãe tenta me chamar.*  
 
 {% if site.trialdeploy %}
-	{% include explanation_placeholder.html start=2 stop=6 %}
+	{% include explanation_placeholder.html  attr=page.attr     start=2 stop=6 %}
 	{% else %}
+{%  include voice.html attr=page.attr  
+	identifier="Explanation"  init=false start=22.87 stop=37.85
+	title="2. This is your first overseas trip."        
+	translation=""
+    tag="h3" %}
+##### *Esta é a sua primeira viagem no exterior.*
+**One's first...**     *TODO*
 
+- **This is my first kiss.**  
+*Este é o meu primeiro beijo.*   
+- **That is her first tattoo.**  
+*Essa é a sua primeira tatuagem.*   
+{%  include voice.html attr=page.attr  
+	identifier="Explanation"  init=false start=40.07 stop=61.55
+	title="3. You’re not allowed to take liquids on the plane."        
+	translation=""
+    tag="h3" %}
+##### *Não é permitido levar liquidos no avião.*
+**You are not allowed to...**     *TODO*
 
+- **You are not allowed to smoke in the building.**  
+*Não é permitido fumar no prédio.*  
+- **You are not allowed to park your car here.**  
+*Não é permitido estacionar seu carro aqui.*   
+- **You are not allowed to talk during the exam.**  
+*Não é permitido estacionar seu carro aqui.*   
+{%  include voice.html attr=page.attr  
+	identifier="Explanation"  init=false start=63.87 stop=75.27
+	title="4. You travel a lot."        
+	translation="Você viaja muito. "
+    tag="h3" %}
 
-### 2. This is your first overseas trip.
+- **I cried a lot.**  
+*Eu chorei muito.*   
+- **I eat a lot.**  
+*Eu como muito.*   
+- **She talks a lot.**  
+*Ela fala muito.*   
+{%  include voice.html attr=page.attr  
+	identifier="Explanation"  init=false start=77.86 stop=103.76
+	title="5. It’s an interesting way to know more about new cultures and explore new places."        
+	translation=""
+    tag="h3" %}
+##### *É uma maneira interessante de conhecer mais sobre novas culturas e explorar novos lugares.*
+**It's an interesting way to...**     *TODO*
 
-Esta é a sua primeira viagem no exterior.
+- **It's an interesting way to get to know someone.**  
+*É uma maneira interessante de conhecer alguém.*   
+- **It's an interesting way to impress someone.**  
+*É uma maneira interessante de impressionar alguém.*  
+- **It's a simple way to solve the problem.**  
+*É uma maneira simples de resolver o problema.*   
+{%  include voice.html attr=page.attr  
+	identifier="Explanation"  init=false start=106.47 stop=124.85
+	title="6. It’s also the best way to find a quiet place."        
+	translation=""
+    tag="h3" %}
+##### *É também a melhor maneira de encontrar um lugar calmo.*
+**It's the best way to...**     *TODO*
 
-**one's first...**
-
-- **This is my first kiss.** *Este é o meu primeiro beijo.*
-- **That is her first tattoo.** *Essa é a sua primeira tatuagem.*
-
-
-### 3.  You’re not allowed to take liquids on the plane.
-
-Não é permitido levar liquidos no avião. 
-
-**You are not allowed to...**
-
-- **You are not allowed to smoke in the buildin.g** *Não é permitido fumar no prédio.*
-- **You are not allowed to park your car here.** *Não é permitido estacionar seu carro aqui.*
-- **You are not allowed to talk during the exam.** *Não é permitido conversar durante o exame.*
-
-
-### 4.  You travel a lot.
-
-Você viaja muito.  
-
-**I cried a lot.** *Eu chorei muito.*
-**I eat a lot.** *Eu como muito.*
-**She talks a lot.** *Ela fala muito.*
-
-### 5.  It’s an interesting way to know more about new cultures and explore new places.
-
-É uma maneira interessante de conhecer mais sobre novas culturas e explorar novos lugares.
-
-**It's an interesting way to...**
-
-- **It's an interesting way to get to know someone.** *É uma maneira interessante de conhecer alguém.*
-- **It's an interesting way to impress someone.** *É uma maneira interessante de impressionar alguém.*
-- **It's a simple way to solve the problem.** *É uma maneira simples de resolver o problema.*
-
-### 6.   It’s also the best way to find a quiet place.
-
-É também a melhor maneira de encontrar um lugar calmo.
-
-**It's the best way to...**
-
-- **It's the best way to ask him.** *É a melhor maneira de perguntar a ele.*
-- **It's the best way to get success.** *É a melhor maneira de obter sucesso.*
-- **It's the worst way to break up with someone.** *É a pior maneira de separer-se de alguém.*
+- **It's the best way to ask him.**  
+*É a melhor maneira de perguntar a ele.*   
+- **It's the best way to get success.**  
+*É a melhor maneira de obter sucesso.*    
+- **It's the worst way to break up with someone.**  
+*É a melhor maneira de obter sucesso.*  
 
 
 {% endif %}

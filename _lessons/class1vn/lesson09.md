@@ -11,7 +11,7 @@ attr:
 
 {%  include voice.html attr=page.attr                     tag="h1"
 	identifier="Vocabulary"  init=true
-	title="Lesson 9: Comparison"        
+	title="Lesson 1.9: Comparison"        
 	translation="So sánh"
 %}
 
