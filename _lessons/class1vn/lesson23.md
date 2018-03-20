@@ -29,7 +29,7 @@ attr:
 		trial=site.trialdeploy %} 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="vocabulary"  init=false start=23 stop=35
+	identifier="vocabulary"  init=false start=24 stop=35
 	title="Make your mother smile by…"        
 	translation="Làm cho mẹ của bạn mỉm cười bằng cách..."
     tag="h3" %}
@@ -85,7 +85,7 @@ attr:
 		trial=site.trialdeploy %} 
   
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="vocabulary"  init=false start=76 stop=104
+	identifier="vocabulary"  init=false start=77 stop=104
 	title="Apply for a job by…"        
 	translation="Xin việc bằng cách..."
     tag="h3" %}
@@ -113,7 +113,7 @@ attr:
 		trial=site.trialdeploy %} 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="vocabulary"  init=false start=121 stop=135
+	identifier="vocabulary"  init=false start=122 stop=135
 	title="Lose weight by…"        
 	translation="Giảm cân bằng cách..."
     tag="h3" %}

@@ -27,8 +27,12 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=30 stop=54
+	title="Age"        
+	translation="Tuổi tác"
+    tag="h3" %}
 
-### Age   *Tuổi tác*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -45,7 +49,11 @@ attr:
 3. **Middle-aged: She is in her mid forties.**  
 *Trung niên: Cô ấy đang ở khoảng giữa 40 tuổi.*    
 
-### Build   *Tầm vóc* 
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=54 stop=77
+	title="Build"        
+	translation="Tầm vóc"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -55,7 +63,11 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Height   *Chiều cao*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=77 stop=88
+	title="Height"        
+	translation="Chiều cao"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -65,7 +77,11 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Face   *Gương mặt*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=88 stop=102
+	title="Face"        
+	translation="Gương mặt"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -75,7 +91,11 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Lips   *Môi*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=102 stop=119
+	title="Lips"        
+	translation="Môi"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -85,7 +105,11 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Skin   *Da*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=119 stop=151
+	title="Skin"        
+	translation="Da"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -95,7 +119,11 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Nose   *Mũi*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=151 stop=168
+	title="Nose"        
+	translation="Mũi"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -105,7 +133,11 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Eyebrows   *Chân mày*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=168 stop=180
+	title="Eyebrows"        
+	translation="Chân mày"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 

@@ -21,10 +21,10 @@ salestext: "Versão Premium Gratuita (último dia)"
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Dialogue1"  init=false start=7 stop=45
 	title="What’s your favorite kind of movie?"        
-	translation="TODO"
+	translation="Qual é o seu tipo de filme favorito?"
     tag="h3" %}
 
-**My favorite kind of movie is a / an...**     *TODO*
+**My favorite kind of movie is a / an...**     *Meu tipo de filme favorito é um / uma...*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -37,10 +37,10 @@ salestext: "Versão Premium Gratuita (último dia)"
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Dialogue1"  init=false start=45 stop=120
 	title="What is the movie like?"        
-	translation="TODO"
+	translation="Como é o filme?"
     tag="h3" %}
 
-**The movie is...**     *TODO*
+**The movie is...**     *O filme é...*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -57,9 +57,9 @@ salestext: "Versão Premium Gratuita (último dia)"
     tag="h2" %}	
 
 > {% include play.html identifier="Native-Dialogue2" start=0.01 stop=3.53 %} Person 1: **The early show of 'Dangerous City' is sold out.**   
-> *TODO*    
+> *O primeiro show de "Cidade Perigosa" está esgotado.*    
 > {% include play.html identifier="Native-Dialogue2" start=3.53 stop=5.50 %} Person 2: **What are we gonna do now?**   
-> *TODO*   
+> *O que vamos fazer agora?*   
 > {% include play.html identifier="Native-Dialogue2" start=5.50 stop=8.92 %} P1: **Well, let’s see ... maybe we should wait for the next show.**    
 > *TODO*     
 > {% include play.html identifier="Native-Dialogue2" start=8.92 stop=13.73 %} P2: **I can’t. I am meeting Olivia tonight. We are going to a new restaurant together.**      
@@ -111,7 +111,7 @@ salestext: "Versão Premium Gratuita (último dia)"
     tag="h3" %}
 ##### *O que vamos fazer agora?
 
-**Be gonna = be going to**     *TODO*
+**Be gonna = be going to**     *ir fazer*
 
 1. **I am gonna go.**  
 *Eu vou ir.*   
@@ -125,7 +125,7 @@ salestext: "Versão Premium Gratuita (último dia)"
 	translation=""
     tag="h3" %}
 ##### *Por que não vamos assistir "Beyond Everest"?*
-**Why don’t we…?**     *TODO*
+**Why don’t we…?**     *Por que não vamos fazer...?*
 
 1. **Why don’t we go to the beach?**  
 *Por que não vamos à praia?*    

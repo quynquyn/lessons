@@ -129,8 +129,8 @@ attr:
 	translation="Thì hiện tại tiếp diễn dùng cho tương lai"
     tag="h2" %}
 
-**For fixed planned events in the future. Often used with a word for future events.**   
-
+**For fixed planned events in the future. Often used with a word for future events.**     
+*Dùng cho những sự kiện trong tương lai đã được lên kế hoạch chắc chắn/cố định. Thường được sử dụng với từ ngữ cho sự kiện ở tương lai.*
 
 1. {% include play.html identifier="examples1" start=98.56 stop=101.11 %} **We are visiting my parents tomorrow.**      
 *Chúng tôi sẽ thăm bố mẹ ngày mai.*      
