@@ -18,7 +18,7 @@ attr:
 ## Vocabulary   *Từ vựng*
 
 {% include play.html identifier="vocabulary" start=7.12 stop=8.71 %} **How do you get there?**   *Bạn đến đó bằng cách nào?*        
-{% include play.html identifier="vocabulary" start=8.71 stop=14.71 %} **I get there by / on…**   *Tôi đến đó bằng...*
+{% include play.html identifier="vocabulary" start=8.71 stop=14.11 %} **I get there by / on…**   *Tôi đến đó bằng...*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -29,7 +29,7 @@ attr:
 		trial=site.trialdeploy %} 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="vocabulary"  init=false start=22 stop=33
+	identifier="vocabulary"  init=false start=23 stop=35
 	title="Make your mother smile by…"        
 	translation="Làm cho mẹ của bạn mỉm cười bằng cách..."
     tag="h3" %}
@@ -43,7 +43,7 @@ attr:
 		trial=site.trialdeploy %}  
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="vocabulary"  init=false start=33 stop=49
+	identifier="vocabulary"  init=false start=35 stop=52
 	title="Study English by…"        
 	translation="Học tiếng Anh bằng cách..."
     tag="h3" %}
@@ -57,7 +57,7 @@ attr:
 		trial=site.trialdeploy %} 
    
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="vocabulary"  init=false start=49 stop=61
+	identifier="vocabulary"  init=false start=52 stop=64
 	title="Help your friend by…"        
 	translation="Giúp đỡ bạn của bạn bằng cách..."
     tag="h3" %}
@@ -71,7 +71,7 @@ attr:
 		trial=site.trialdeploy %} 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="vocabulary"  init=false start=61 stop=71
+	identifier="vocabulary"  init=false start=64 stop=76
 	title="Release stress by…"        
 	translation="Giải tỏa căng thẳng bằng cách..."
     tag="h3" %}
@@ -85,7 +85,7 @@ attr:
 		trial=site.trialdeploy %} 
   
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="vocabulary"  init=false start=71 stop=95
+	identifier="vocabulary"  init=false start=76 stop=104
 	title="Apply for a job by…"        
 	translation="Xin việc bằng cách..."
     tag="h3" %}
@@ -99,7 +99,7 @@ attr:
 		trial=site.trialdeploy %} 
    
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="vocabulary"  init=false start=95 stop=95
+	identifier="vocabulary"  init=false start=104 stop=121
 	title="Move on from a bad break-up by…"        
 	translation="Bước tiếp sau cuộc chia tay đau khổ bằng cách..."
     tag="h3" %}
@@ -113,7 +113,7 @@ attr:
 		trial=site.trialdeploy %} 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="vocabulary"  init=false start=95 stop=95
+	identifier="vocabulary"  init=false start=121 stop=135
 	title="Lose weight by…"        
 	translation="Giảm cân bằng cách..."
     tag="h3" %}

@@ -8,13 +8,12 @@ attr:
   lesson: "25"
   lang: vn
 ---
+
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=true
 	title="Lesson 2.25: Phrasal verbs"        
 	translation="Cụm động từ"
     tag="h1" %}
-
-[comment]: <> NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
 
 ## Vocabulary   *Từ vựng*
 
@@ -87,7 +86,7 @@ attr:
 	title="2. Don't beat yourself up about it. She'll get over it."        
 	translation=""
     tag="h3" %}
-##### *Đừng giận mình nữa. Cô ta sẽ vượt qua được điều đó thôi.'
+##### *Đừng giận mình nữa. Cô ta sẽ vượt qua được điều đó thôi.*
 1. **I'm so tired of hearing him cry about his ex girlfriend. Tell him to get over it!**   
 *Tôi quá mệt mỏi vì phải ngh anh ta khóc lóc về bạn gái cũ. Hãy nói anh ta vượt qua chuyện đó đi.*    
 2. **Once I got over my break-up, I found a new girlfriend and I'm getting along with her just fine.**   
@@ -134,4 +133,6 @@ attr:
 3. **I'm going to the supermarket. I really hope I don't run into my math teacher like I did last week.**   
 *Tôi sẽ đi siêu thị. Tôi thật sự hi vọng tôi không vô tình gặp giáo viên dạy toán như lần trước tuần vừa rồi.*    
 
-  {% endif %}
+
+{% endif %}
+

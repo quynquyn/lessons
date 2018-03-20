@@ -14,7 +14,7 @@ salestext: "Versão Premium Gratuita (3 dias mais)"
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue1"  init=true
 	title="Lesson 2.1: Hobbies"        
-	translation="TODO"
+	translation="Passatempos"
     tag="h1" %}
 
 ## Vocabulary   *Vocabulário*
@@ -27,7 +27,6 @@ salestext: "Versão Premium Gratuita (3 dias mais)"
 		database=site.data.vocabulary 
 		trial=false %}
 
-
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue2"  init=true
 	title="Dialogue"        
@@ -35,26 +34,26 @@ salestext: "Versão Premium Gratuita (3 dias mais)"
     tag="h2" %}
              
 > {% include play.html identifier="Native-Dialogue2" start=3.07 stop=4.86 %} Person 1: **Do you have any hobbies?**     
-> *TODO*       
+> *Você tem algum hobby?*       
 > {% include play.html identifier="Native-Dialogue2" start=4.86 stop=8.03 %} Person 2: **Yes, I am interested in playing badminton with my friends.**     
-> *TODO*       
+> *Sim, estou interessado em jogar badminton com meus amigos.*       
 > {% include play.html identifier="Native-Dialogue2" start=8.03 stop=11.71 %} P1: **That sounds great! Where do you usually go to play badminton?**     
-> *TODO*      
+> *Isso parece ótimo! Onde você costuma jogar badminton?*      
 > {% include play.html identifier="Native-Dialogue2" start=11.71  stop=14.87 %} P2: **I usually go to a badminton court in district 2.**     
-> *TODO*      
+> *Eu costumo ir a um campo de badminton no distrito 2.*      
 > {% include play.html identifier="Native-Dialogue2" start=14.87 stop=17.09 %} P1: **How often do you play badminton?**     
-> *TODO*          
+> *Com que frequência você joga badminton?*          
 > {% include play.html identifier="Native-Dialogue2" start=17.09 stop=19.68 %} P2: **Quite often, I guess, about twice a week.**     
-> *TODO*       
+> *Bastante frequente, eu acho, cerca de duas vezes por semana.*       
 > {% include play.html identifier="Native-Dialogue2" start=19.68  stop=22.60 %} P1: **Why do you choose playing badminton as a hobby?**     
-> *TODO*      
+> *Por que você escolhe jogar badminton como hobby?*      
 > {% include play.html identifier="Native-Dialogue2" start=22.60 stop=26.76 %} P2: **It’s simply because it helps me recharge my battery after a long day.**      
-> *TODO*       
+> *É simplesmente porque isso me ajuda a recarregar minhas baterias depois de um longo dia.*       
 
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=true
 	title="Explanation"        
-	translation="TODO"
+	translation="Explicação"
     tag="h2" %}
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=0.69 stop=14.02
@@ -62,7 +61,7 @@ salestext: "Versão Premium Gratuita (3 dias mais)"
 	translation=""
     tag="h3" %}
 ##### *Estou interessado em jogar badminton com meu amigo.*
-**I am interested in…**     *estou interessado em…*
+**I am interested in…**     *Estou interessado em…*
 
 1. **I am interested in playing computer games.**  
 *Estou interessado em jogar jogos de computador*
@@ -76,7 +75,7 @@ salestext: "Versão Premium Gratuita (3 dias mais)"
 	translation="Isso parece ótimo!"
     tag="h3" %}
 
-**That sounds …**     *Isso parece…*
+**That sounds…**     *Isso parece…*
 
 1. **That sounds amazing.**  
 *Isso parece bárbaro.*
@@ -91,7 +90,7 @@ salestext: "Versão Premium Gratuita (3 dias mais)"
     tag="h3" %}
 ##### *Onde você costuma jogar badminton?*   
 
-**Where do you usually…?**     *TODO*
+**Where do you usually…?**     *Onde você costuma fazer...?*
 
 1. **Where do you usually go shopping?**  
 *Onde você costuma fazer compras?*
@@ -105,26 +104,29 @@ salestext: "Versão Premium Gratuita (3 dias mais)"
 	translation=""
     tag="h3" %}
 ##### *Com que frequência você joga badminton?*   
-**How often do you…?**     *TODO*
+
+**How often do you…?**     *Com que frequência você faz...?*
+
 1. **How often do you call your mother?**  
 *Com que frequência você chama sua mãe?*
 2. **How often do you play ping-pong?**  
 *Com que frequência você joga pingue-pongue?*
 3. **How often do you brush your teeth?**  
 *Com que frequência você escova seus dentes?*
+
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=59.04 stop=69.28
 	title="5. Twice a week"        
 	translation="Duas vezes por semana"
     tag="h3" %}
 1. **Once a year.**  
-*Uma vez por ano*
+*Uma vez por ano.*
 2. **Twice a month.**  
-*Duas vezes por mês*
+*Duas vezes por mês.*
 3. **3 times a week.**  
-*Três vezes por semana*
+*Três vezes por semana.*
 3. **Many times a day.**  
-*Várias vezes por dia*
+*Várias vezes por dia.*
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=70.88 stop=92.02
 	title="6. It’s simply because it helps me recharge my batteries after a long day."        
@@ -134,7 +136,7 @@ salestext: "Versão Premium Gratuita (3 dias mais)"
 1. **It’s probably because it helps me recharge my battery after a long day.**  
 *É provavelmente porque isso me ajuda a recarregar minhas baterias depois de um longo dia.*
 2. **It’s maybe because it helps me recharge my batteries after a long day.**  
-*É talvez porque isso me ajuda a recarregar minha bateria depois de um longo dia.*
+*É talvez porque isso me ajuda a recarregar minhas baterias depois de um longo dia.*
 3. **It’s definitely because I love it.**  
 *É definitivamente porque eu amo isso.*
 4. **It’s absolutely because it makes me feel better about myself.**  

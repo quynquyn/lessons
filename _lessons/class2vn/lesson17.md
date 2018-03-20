@@ -156,7 +156,7 @@ attr:
     tag="h3" %}
 ##### *Mặc dù sự thật tôi không phải một người nói tiếng Anh bản ngữ, tôi vẫn nói tiếng Anh lưu loát.*
 1. **In spite of the fact that my parents weren't supportive, I got a degree in English.**   
-*Mặc dù sự thật là ba mẹ tôi không có khuyến khích ủng hộ,, tôi vẫn có bằng tiếng Anh.*    
+*Mặc dù sự thật là ba mẹ tôi không có khuyến khích ủng hộ, tôi vẫn có bằng tiếng Anh.*    
 2. **Despite the bad weather, he went outside to prepare for PE.**  
 *Mặc dù thời tiết xâu, anh ấy vẫn ra ngoài để chuẩn bị cho thể dục.*    
 3. **In spite of the fact that I am tired, I will keep studying until I learn.**  

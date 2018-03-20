@@ -68,7 +68,7 @@ attr:
 15. {% include play.html identifier="vocabulary" start=112.56 stop=116.61 %} **Please be silent, I am trying to listen!**       
 *Làm ơn im lặng, tôi đang cố gắng nghe.*     
 16. {% include play.html identifier="vocabulary" start=116.56 stop=122.11 %} **Don't disturb Phillip, he is working.**       
-*Đừng làm phiền Phillp, anh ta đang làm việc.*      
+*Đừng làm phiền Phillip, anh ta đang làm việc.*      
 17. {% include play.html identifier="vocabulary" start=122.56 stop=126.81 %} **Stop interrupting me!**       
 *Ngưng ngắt lời tôi!*      
 18. {% include play.html identifier="vocabulary" start=126.56 stop=130.11 %} **Are you thinking what I'm thinking?**       
@@ -130,7 +130,7 @@ attr:
     tag="h2" %}
 
 **For fixed planned events in the future. Often used with a word for future events.**   
-*MISSING TRANSLATION VN* 
+
 
 1. {% include play.html identifier="examples1" start=98.56 stop=101.11 %} **We are visiting my parents tomorrow.**      
 *Chúng tôi sẽ thăm bố mẹ ngày mai.*      

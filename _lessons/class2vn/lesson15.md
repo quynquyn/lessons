@@ -94,7 +94,7 @@ attr:
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=23.10 stop=42.84
 	title="2. We share so many common interests."
-	translation="húng tôi có nhiều sở thích chung."
+	translation="Chúng tôi có nhiều sở thích chung."
     tag="h3" %}
 
 1. **My brother and sister share a room.**  

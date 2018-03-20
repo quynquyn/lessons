@@ -15,7 +15,6 @@ attr:
 	translation="Quê nhà"
     tag="h1" %}
 
-[comment]: <> NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
 
 ## Vocabulary   *Từ vựng*
 
@@ -146,7 +145,7 @@ attr:
 	title="2. New York is mostly known for the Statue of Liberty."        
 	translation=""
     tag="h3" %}
-##### *"New York được biết đến nhiều nhất vì tượng Nữ thần Tự do.*
+##### *New York được biết đến nhiều nhất vì tượng Nữ thần Tự do.*
 1. **Paris is known for the Eiffel Tower.**   
 *Paris được biết đến vì tháp Eiffel.*   
 2. **London is known for being the home of Big Ben.**     

@@ -8,13 +8,12 @@ attr:
   lesson: "16"
   lang: vn
 ---
+
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=true
 	title="Lesson 2.16: Love 2"        
 	translation="Tình yêu 2"
     tag="h1" %}
-
-[comment]: <> NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
 
 ## Vocabulary   *Từ vựng*
 

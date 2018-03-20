@@ -75,8 +75,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
 
 1. **I hate arguing with overly emotional people.**  
 *Tôi ghét cãi nhau với người cảm xúc thái quá.*
-2. **I am sick of listening to the song "Despacito" again and again.**  
-*Tôi phát bệnh với việc nghe đi nghe lại cái bài hát "Despacito".*
+2. **I am sick of listening to the song 'Despacito' again and again.**  
+*Tôi phát bệnh với việc nghe đi nghe lại cái bài hát 'Despacito'.*
 3. **I am tired of being told that I am short.**  
 *Tôi mệt mỏi với việc bị nói là tôi lùn.*
 4. **I can’t stand sexism.**  

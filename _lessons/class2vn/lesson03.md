@@ -47,7 +47,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 > *Khoảng 20 phút bằng xe buýt.*   
 > {% include play.html identifier="Native-Dialogue2" start=25.71 stop=29.64 %} P2: **What time do you usually go to bed? Do you stay up late?**  
 > *Bạn thường đi ngủ lúc mấy giờ? Bạn có thức khuya không?*   
-> {% include play.html identifier="Native-Dialogue2" start=29.64 stop=33.18 %} P1: **No, I am not a night owl. I am an early bird**   
+> {% include play.html identifier="Native-Dialogue2" start=29.64 stop=33.18 %} P1: **No, I am not a night owl. I am an early bird.**   
 > *Không, tôi không phải một con cú đêm. Tôi là một con chim thức dậy vào lúc sáng sớm.*   
 > {% include play.html identifier="Native-Dialogue2" start=33.18 stop=57.05 %} P2: **John gets up around 7 and then he brushes his teeth and washes his face. After that, he gets dressed. He usually gets ready around 8 AM. After breakfast, he goes to work at around 8.30. It takes him about 20 minutes to go to work by bus. He doesn’t stay up late so he is not a night owl. He is an early bird because he gets up at 7 AM.**  
 > *John thức dậy lúc 7 giờ sáng và sau đó anh ấy đánh răng và rửa  mặt. Sau đó nữa, anh ấy thay đồ. Anh thường chuẩn bị xong lúc khoảng 8 giờ sáng. Sau bữa ăn sáng, anh đi làm vào khoảng 8 giờ 30 phút. Anh ta mất khoảng 20 phút để đi làm bằng xe buýt. Anh ấy không thức khuya vì anh không phải là cú đêm. Anh ấy là một con chim thức dậy lúc sáng sớm vì anh ngủ dậy lúc 7h sáng.*   
@@ -87,11 +87,11 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 	title="Exercise"        
 	translation="Bài tập thực hành"
     tag="h2" %} 
-{% include play.html identifier="Native-Dialogue4" start=0.95 stop=5.13 %} P1: **My name is Ted. There are a couple of things that I like to do in my daily routine**  
+{% include play.html identifier="Native-Dialogue4" start=0.95 stop=5.13 %} P1: **My name is Ted. There are a couple of things that I like to do in my daily routine.**  
 *Tên tôi là Ted. Có một vài thứ tôi thích làm trong thói quen hằng ngày của tôi.*  
 1. {% include play.html identifier="Native-Dialogue4" start=5.55 stop=13.11 %} **I like to go to a coffee shop in district 3 after class. It’s nice and quiet there. I stay there for an hour or so.**   
 *Tôi thích đi đến quán cà phê ở quận 3 sau giờ học. Nó rất đẹp và yên tĩnh ở đó. Tôi ở đó khoảng 1 tiếng hoặc hơn.*   
-2. {% include play.html identifier="Native-Dialogue4" start=13.55 stop=22.11 %} **I love to go for long walks. I go for a walk almost every night. I like to walk and think about my plans for the future**   
+2. {% include play.html identifier="Native-Dialogue4" start=13.55 stop=22.11 %} **I love to go for long walks. I go for a walk almost every night. I like to walk and think about my plans for the future.**   
 *Tôi thích đi bộ dài. Tôi đi bộ hầu như mỗi đêm. Tôi thích đi bộ và suy nghĩ về những kế hoạch cho tương lai của tôi.*   
 3. {% include play.html identifier="Native-Dialogue4" start=22.55 stop=31.11 %} **I love the new mall. I usually hang out with my friends and colleagues there. We just walk around and talk, but it’s fun.**   
 *Tôi thích khu mua sắm mới. Tôi thường đi chơi với những người bạn và đồng nghiệp của tôi ở đó. Chúng tôi chỉ đi bộ xung quanh và nói chuyện nhưng rất vui.*   

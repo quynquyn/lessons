@@ -15,7 +15,6 @@ attr:
 	translation="Một lối sống lành mạnh"
     tag="h1" %}
 
-[comment]: <> NOTE: all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
 
 ## Vocabulary   *Từ vựng*
 

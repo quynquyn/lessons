@@ -203,64 +203,86 @@ attr:
 %}
 ##### *Verbos irregulares (A segunda coluna dos verbos irregulares)*
 {% include play.html identifier="irregular" start=8.03 stop=10.68 %} **break / broke**     *quebrar / quebrou*     
-{% include play.html identifier="irregular" start=10.28 stop=13.28 %} **speak / spoke**     *nói, phát biểu*   
-{% include play.html identifier="irregular" start=13.28 stop=16.28 %} **steal / stole**     *đánh cắp, lấy trộm*    
-{% include play.html identifier="irregular" start=16.28 stop=19.28 %} **wake / woke**     *đánh thức, thức giấc*        
-{% include play.html identifier="irregular" start=19.28 stop=22.28 %} **drive / drove**     *lái xe*    
-{% include play.html identifier="irregular" start=22.28 stop=24.28 %} **ride / rode**     *cưỡi, lái xe máy*  
-{% include play.html identifier="irregular" start=24.28 stop=27.68 %} **rise / rose**     *mọc, đứng dậy*  
-{% include play.html identifier="irregular" start=27.28 stop=30.28 %} **write / wrote**     *viết*    
-{% include play.html identifier="irregular" start=30.28 stop=33.28 %} **sell / sold**     *bán*  
-{% include play.html identifier="irregular" start=33.28 stop=36.28 %} **tell / told**     *bảo, kế*     
-{% include play.html identifier="irregular" start=39.28 stop=42.28 %} **blow / blew**     *thổi*  
-{% include play.html identifier="irregular" start=42.28 stop=45.28 %} **draw / drew**     *vẽ*  
-{% include play.html identifier="irregular" start=45.28 stop=48.28 %} **fly / flew**      *bay*  
-{% include play.html identifier="irregular" start=48.28 stop=51.28 %} **grow / grew**     *mọc, trồng, lớn lên*  
-{% include play.html identifier="irregular" start=51.28 stop=53.28 %} **know / knew**     *biết*   
-{% include play.html identifier="irregular" start=53.28 stop=56.28 %} **throw / threw**     *quăng, ném*     
-{% include play.html identifier="irregular" start=56.28 stop=59.28 %} **bring / brought**     *đem lại, mang đến*        
-{% include play.html identifier="irregular" start=59.28 stop=62.28 %} **buy / bought**      *mua*     
-{% include play.html identifier="irregular" start=62.28 stop=65.28 %} **fight / fought**     *chiến đấu, cãi nhau*  
-{% include play.html identifier="irregular" start=65.28 stop=68.28 %} **think / thought**     *suy nghĩ*   
-{% include play.html identifier="irregular" start=68.28 stop=71.28 %} **teach / taught**     *dạy, chỉ bảo*  
-{% include play.html identifier="irregular" start=71.28 stop=73.28 %} **begin / began**     *bắt đầu*     
-{% include play.html identifier="irregular" start=73.28 stop=76.28 %} **drink / drank**     *uống*    
-{% include play.html identifier="irregular" start=76.28 stop=79.28 %} **ring / rang**     *rung chuông*  
-{% include play.html identifier="irregular" start=79.28 stop=82.28 %} **sing / sang**     *hát*  
-{% include play.html identifier="irregular" start=82.28 stop=85.28 %} **swim / swam**     *bơi*  
+{% include play.html identifier="irregular" start=10.28 stop=13.28 %} **speak / spoke**     *falar / falou*   
+{% include play.html identifier="irregular" start=13.28 stop=16.28 %} **steal / stole**     *roubar / roubou*    
+{% include play.html identifier="irregular" start=16.28 stop=19.28 %} **wake / woke**     *acordar / acordou*        
+{% include play.html identifier="irregular" start=19.28 stop=22.28 %} **drive / drove**     *dirigir / dirigiu*    
+{% include play.html identifier="irregular" start=22.28 stop=24.28 %} **ride / rode**     *andar / andou ou montar / montou*  
+{% include play.html identifier="irregular" start=24.28 stop=27.68 %} **rise / rose**     *subir / subiu*  
+{% include play.html identifier="irregular" start=27.28 stop=30.28 %} **write / wrote**     *escrever / escreveu*    
+{% include play.html identifier="irregular" start=30.28 stop=33.28 %} **sell / sold**     *vender / vendeu*  
+{% include play.html identifier="irregular" start=33.28 stop=36.28 %} **tell / told**     *contar / contou*     
+{% include play.html identifier="irregular" start=39.28 stop=42.28 %} **blow / blew**     *soprar / sorpou*  
+{% include play.html identifier="irregular" start=42.28 stop=45.28 %} **draw / drew**     *desenhar / desenhou*  
+{% include play.html identifier="irregular" start=45.28 stop=48.28 %} **fly / flew**      *voar / voou*  
+{% include play.html identifier="irregular" start=48.28 stop=51.28 %} **grow / grew**     *crescer / cresceu*  
+{% include play.html identifier="irregular" start=51.28 stop=53.28 %} **know / knew**     *saber / soube*   
+{% include play.html identifier="irregular" start=53.28 stop=56.28 %} **throw / threw**     *lançar / lançou*     
+{% include play.html identifier="irregular" start=56.28 stop=59.28 %} **bring / brought**     *trazer / trouxe*        
+{% include play.html identifier="irregular" start=59.28 stop=62.28 %} **buy / bought**      *comprar / comprou*     
+{% include play.html identifier="irregular" start=62.28 stop=65.28 %} **fight / fought**     *combater / combateu*  
+{% include play.html identifier="irregular" start=65.28 stop=68.28 %} **think / thought**     *pensar / pensou*   
+{% include play.html identifier="irregular" start=68.28 stop=71.28 %} **teach / taught**     *ensinar / ensinou*  
+{% include play.html identifier="irregular" start=71.28 stop=73.28 %} **begin / began**     *começar / começou*     
+{% include play.html identifier="irregular" start=73.28 stop=76.28 %} **drink / drank**     *beber / bebeu*    
+{% include play.html identifier="irregular" start=76.28 stop=79.28 %} **ring / rang**     *soar / soou*  
+{% include play.html identifier="irregular" start=79.28 stop=82.28 %} **sing / sang**     *cantar / cantou*  
+{% include play.html identifier="irregular" start=82.28 stop=85.28 %} **swim / swam**     *nadar / nadou*  
 
+ {%  include voice.html attr=page.attr                     tag="h2"
+ 	identifier="irregular2"  init=true
+ 	title="More..."
+ 	translation="Mais..."
+ %}
+ {% include play.html identifier="irregular2" start=01.18 stop=3.58 %} **feed / fed**     *alimentar / alimentou*  
+ {% include play.html identifier="irregular2" start=3.28 stop=6.28 %} **feel / felt**     *sentir / sentiu*  
+ {% include play.html identifier="irregular2" start=6.28 stop=8.28 %} **keep / kept**     *guardar / guardou*  
+ {% include play.html identifier="irregular2" start=8.28 stop=10.58 %} **fall / fell**     *cair / caiu*  
+ {% include play.html identifier="irregular2" start=10.28 stop=13.28 %} **mean / meant**     *significar / significou*   
+ {% include play.html identifier="irregular2" start=13.28 stop=15.28 %} **meet / met**     *encontrar / encontrou*  
+ {% include play.html identifier="irregular2" start=15.28 stop=18.28 %} **sleep / slept**     *dormir / dormiu*   
+ {% include play.html identifier="irregular2" start=18.28 stop=20.28 %} **sweep / swept**     *varrer / varreu*    
+ {% include play.html identifier="irregular2" start=20.28 stop=23.28 %} **see / saw**     *ver / viu*      
+ {% include play.html identifier="irregular2" start=23.28 stop=25.58 %} **eat / ate**     *comer / comeu*   
+ {% include play.html identifier="irregular2" start=25.28 stop=28.28 %} **find / found**     *achar / achou*     
+ {% include play.html identifier="irregular2" start=28.28 stop=31.28 %} **go / went**     *ir / foi*  
+ {% include play.html identifier="irregular2" start=31.28 stop=33.58 %} **get / got**     *obter / obteve*  
+ {% include play.html identifier="irregular2" start=33.58 stop=36.28 %} **read / read**     *ler / leu*
+
+{%  include voice.html attr=page.attr                     tag="h2"
+	identifier="irregular2"  init=false   start=36.28 stop=68.28 
+	title="Examples"
+	translation="Exemplos"
+%}
   
+     
+1. {% include play.html identifier="irregular2" start=36.18 stop=39.58 %} **Your son broke my window!**     
+*Seu filho quebrou minha janela!*   
 
-{% include player2.html identifier="irregular2" class=page.class lesson=page.lesson %}
-{% include play.html identifier="irregular2" start=00.28 stop=20.28 %}
-**feed / fed**     
-**feel / felt**      
-**keep / kept**      
-**fall / fell**     
-**mean / meant**      
-**meet / met**      
-**sleep / slept**     
-**sweep / swept**     
-     
-{% include play.html identifier="irregular2" start=20.28 stop=36.28 %}
-**see / saw**          
-**eat / ate**  
-**find / found**    
-**go / went**     
-**get / got**     
-**read / read**      
-     
-{% include play.html identifier="irregular2" start=36.28 stop=68.28 %}
-**Your son broke my window!**     *Seu filho quebrou minha janela!*   
-**She stole my wallet.**   *Ela roubou minha carteira.*        
-**I drove my daughter to school.**          *Eu levou minha filha para a escola.*   
-**Sarah wrote a book.**   *Sarah escreveu um livro.*     
-**John sold his house.**     *John vendeu sua casa.*  
-**She threw her bag at me.**     *Ela jogou sua bolsa para mim.*   
-**I thought about it.**     *Eu pensei sobre isso.*   
-**My mother taught me a lot.**     *Minha mãe me ensinou muito.*   
-**She swept the dirt under the rug.**     *Ela varreu a sujeira debaixo do tapete.*   
-**Who forgot to close the door?** *Quem esqueceu de fechar a porta?* 
+{% if site.trialdeploy %}
+	{% include list_placeholder.html  attr=page.attr     start=2 stop=11 %}
+	{% else %}
+
+2. {% include play.html identifier="irregular2" start=39.58 stop=43.58 %} **She stole my wallet.**   
+*Ela roubou minha carteira.*        
+3. {% include play.html identifier="irregular2" start=43.58 stop=46.58 %} **I drove my daughter to school.**    
+*Eu levou minha filha para a escola.*   
+4. {% include play.html identifier="irregular2" start=46.58 stop=49.58 %} **Sarah wrote a book.**   
+*Sarah escreveu um livro.*     
+5. {% include play.html identifier="irregular2" start=49.58 stop=52.58 %} **John sold his house.**     
+*John vendeu sua casa.*  
+6. {% include play.html identifier="irregular2" start=52.58 stop=55.58 %} **She threw her bag at me.**     
+*Ela jogou sua bolsa para mim.*   
+7. {% include play.html identifier="irregular2" start=55.58 stop=58.58 %} **I thought about it.**     
+*Eu pensei sobre isso.*   
+8. {% include play.html identifier="irregular2" start=58.58 stop=61.58 %} **My mother taught me a lot.**     
+*Minha mãe me ensinou muito.*   
+9. {% include play.html identifier="irregular2" start=61.58 stop=65.58 %} **She swept the dirt under the rug.**     
+*Ela varreu a sujeira debaixo do tapete.*   
+10. {% include play.html identifier="irregular2" start=65.58 stop=68.58 %} **Who forgot to close the door?**   
+*Quem esqueceu de fechar a porta?* 
+
+{% endif %}
 
      
    

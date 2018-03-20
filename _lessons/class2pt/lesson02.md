@@ -13,7 +13,7 @@ salestext: "Versão Premium Gratuita (2 dias mais)"
 {%  include voice.html attr=page.attr      ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Dialogue1"  init=true
 	title="Lesson 2.2: What I hate"        
-	translation="TODO"
+	translation="O que eu odeio"
     tag="h1" %}
 
 
@@ -34,29 +34,28 @@ salestext: "Versão Premium Gratuita (2 dias mais)"
 	translation="Diálogo"
     tag="h2" %}
 
-
 > {% include play.html identifier="Native-Dialogue1" start=0.54 stop=2.58 %} Person 1: **Why do you look so annoyed?**    
-> *TODO*    
+> *Por que você parece tão irritado?*    
 > {% include play.html identifier="Native-Dialogue1" start=2.58 stop=5.96 %} Person 2: **I am cleaning the house now and I hate doing housework.**    
-> *TODO*     
+> *Estou limpando a casa agora e odeio fazer trabalhos domésticos.*     
 > {% include play.html identifier="Native-Dialogue1" start=5.96 stop=7.33 %} P1: **What else do you hate?**    
-> *TODO*    
+> *O que mais você odeia?*    
 > {% include play.html identifier="Native-Dialogue1" start=7.33 stop=10.47 %} P2: **Talking to unfriendly people drives me crazy.**    
-> *TODO*    
+> *Falar com pessoas hostis me deixa louco.*    
 > {% include play.html identifier="Native-Dialogue1" start=10.47 stop=12.89 %} P1: **Do you hate getting up early in the morning?**    
-> *TODO*    
+> *Você odeia acordar cedo de manhã?*    
 > {% include play.html identifier="Native-Dialogue1" start=12.89 stop=16.41 %} P2: **No, I don’t hate getting up early in the morning. How about you?**    
-> *TODO*    
+> *Não, eu não odeio acordar cedo de manhã. E quanto a você?*    
 > {% include play.html identifier="Native-Dialogue1" start=16.41 stop=20.76 %} P1: **Definitely. Getting up early in the morning really gets on my nerves.**    
-> *TODO*    
+> *Definitivamente. Levantar cedo de manhã realmente me dá nos nervos.*    
 
 {%  include voice.html attr=page.attr       ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="explanation"  init=true
 	title="1: Why do you look so annoyed?"        
-	translation="TODO"
+	translation="Por que você parece tão irritado?"
     tag="h3" %}
 	
-**Why do you look…?**     *Por que você parece?*
+**Why do you look…?**     *Por que você parece...?*
 
 1. **Why do you look so sad today?**  
 *Por que você parece tão triste hoje?*
@@ -70,13 +69,14 @@ salestext: "Versão Premium Gratuita (2 dias mais)"
 	title="2: I hate doing housework."        
 	translation="Eu odeio fazer trabalhos domésticos."
     tag="h3" %}
+
 **I hate / I am sick of / I am tired of / I can’t stand it**   
-*TODO*
+*Eu odeio / Estou cansado de / Estou cansado de / Eu não suporto isso*
 
 1. **I hate arguing with overly emotional people.**  
 *Odeio discutir com pessoas excessivamente emocionais.*
-2. **I am sick of listening to the song "Despacito" again and again.**  
-*Estou cansado de ouvir a música "Despacito" outra e outra vez.*
+2. **I am sick of listening to the song 'Despacito' again and again.**  
+*Estou cansado de ouvir a música 'Despacito' outra e outra vez.*
 3. **I am tired of being told that I am short.**  
 *Estou cansado de ser dito de que eu sou baixo.*
 4. **I can’t stand sexism.**  
@@ -87,9 +87,10 @@ salestext: "Versão Premium Gratuita (2 dias mais)"
 	title="3: Talking to unfriendly people drives me crazy."        
 	translation=""
     tag="h3" %}
-##### *Falar com pessoas hostis me deixa louco.
+##### *Falar com pessoas hostis me deixa louco.*
+
 **It drives me crazy / it gets on my nerves**   
-*TODO*
+*Isso me deixa louco / me dá nos nervos*
 
 1. **Racism drives me crazy.**  
 *O racismo me deixa louco.*
@@ -109,9 +110,9 @@ salestext: "Versão Premium Gratuita (2 dias mais)"
     tag="h3" %}
 
 1. **Absolutely.**  
-*Absolutamente*
+*Absolutamente.*
 2. **Of course.**  
-*Claro / naturalmente*
+*Claro / naturalmente.*
 3. **Sure.**  
-*Certo*
+*Certo.*
 
