@@ -30,3 +30,5 @@ This is the general overview about everything.
 [comment]: <> step1: match all ** to __
 [comment]: <> step2: remove all VN text:  \040\*(.+?)\*[\040|\n]
 
+[comment]: <> or: match all italic:  \*.*\*
+

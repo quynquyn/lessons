@@ -71,17 +71,17 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 > *Thôi, tôi mệt mỏi phải xem tất cả mấy pha hành động đó rồi.*         
 > {% include play.html identifier="Native-Dialogue2" start=23.21 stop=25.81 %} P1: **What is 'Lost and Found in New York' about?**   
 > *Phim 'Lost and Found in New York' nói về cái gì vậy?*       
-> {% include play.html identifier="Native-Dialogue2" start=25.81 stop=31.28 %} P2: **That’s a comedy. I saw it last week. It’s kinda of amusing. But I am not seeing it again**      
+> {% include play.html identifier="Native-Dialogue2" start=25.81 stop=31.28 %} P2: **That’s a comedy. I saw it last week. It’s kinda of amusing. But I am not seeing it again.**      
 > *Đó là phim hài. Tôi đã xem nó tuần trước rồi. Nó đại loại là cũng hài hước nhưng tôi sẽ không xem lại đâu.*      
-> {% include play.html identifier="Native-Dialogue2" start=31.28 stop=35.09 %} P1: **"Ok, how about 'Aliens from Planet X'?**     
+> {% include play.html identifier="Native-Dialogue2" start=31.28 stop=35.09 %} P1: **Ok, how about 'Aliens from Planet X'?**     
 > *Ok, vậy còn 'Aliens from Planet X' thì sao?*      
-> {% include play.html identifier="Native-Dialogue2" start=35.09 stop=38.79 %} P2: **No, I can’t stand science - fiction movies.**    
+> {% include play.html identifier="Native-Dialogue2" start=35.09 stop=38.79 %} P2: **No, I can’t stand science-fiction movies.**    
 > *Không, tôi không thể chịu nổi mấy bộ phim khoa học viễn tưởng.*      
 > {% include play.html identifier="Native-Dialogue2" start=38.79 stop=42.64 %} P1: **Really? I think they are exciting. I really like the special effects.**     
 > *Thật à? Tôi nghĩ nó rất thú vị mà. Tôi thật sự thích những cái hiệu ứng đặc biệt.*  
 > {% include play.html identifier="Native-Dialogue2" start=42.64 stop=48.51 %} P2: **Not for me, too. I’ll get bored. I will fall asleep by the end of the movie.**      
 > *Cũng không dành cho tôi. Tôi sẽ thấy chán. Tôi sẽ ngủ khi gần cuối phim đó.*  
-> {% include play.html identifier="Native-Dialogue2" start=48.51 stop=58.13 %} P1: **Come on. It’s only a movie. Let’s find one we all agree, ok? ok, how about 'Screaming Monsters Want Blood Part2'?**      
+> {% include play.html identifier="Native-Dialogue2" start=48.51 stop=58.13 %} P1: **Come on. It’s only a movie. Let’s find one we all agree, ok? Ok, how about 'Screaming Monsters Want Blood Part2'?**      
 > *Thôi mà. Nó chỉ là một bộ phim thôi. Vậy hãy tìm một bộ phim mà tất cả chúng ta đều đồng ý, ok? Ok, vậy còn 'Screaming Monsters Want Blood Part2' thì sao?*    
 > {% include play.html identifier="Native-Dialogue2" start=58.13 stop=62.08 %} P2: **No, not another disgusting horror movie.**   
 > *Không, không phải một bộ phim kinh dị kinh tởm nữa chứ.*      

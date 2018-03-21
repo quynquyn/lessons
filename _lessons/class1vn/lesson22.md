@@ -17,8 +17,6 @@ attr:
 
 ## Vocabulary   *Từ vựng*
 
-[comment]: <>  all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
-
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 

@@ -10,15 +10,20 @@ attr:
 ---
 
 
-# Lesson 1.19: What
+{%  include voice.html attr=page.attr                     tag="h1"
+	identifier="vocabulary"  init=true
+	title="Lesson 1.19: What"
+	translation="TODO"
+%}
 
+## Vocabulary   *Vocabulário*
 
-{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
-## Vocabulary 
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=7 stop=23
+	title="In the bedroom"        
+	translation="TODO"
+    tag="h3" %}
 
-[comment]: <>  all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
-
-### In the bedroom
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
@@ -27,7 +32,12 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### In the bathroom 
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=23 stop=48
+	title="In the bathroom"        
+	translation="TODO"
+    tag="h3" %}
+
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
@@ -36,7 +46,12 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 		
-### In the kitchen 
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=48 stop=72
+	title="In the kitchen"        
+	translation="TODO"
+    tag="h3" %}
+
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
@@ -45,7 +60,12 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 		
-### In the living-room 
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=72 stop=90
+	title="In the living-room"        
+	translation="TODO"
+    tag="h3" %}
+
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
@@ -55,9 +75,13 @@ attr:
 		trial=site.trialdeploy %}
 
 
-{% include player2.html identifier="examples" class=page.class lesson=page.lesson %}
+{%  include voice.html attr=page.attr                     tag="h2"
+	identifier="examples"  init=true
+	title="Example"
+	translation="TODO"
+%}
 
-## Example
+
 1. {% include play.html identifier="examples" start=4.43 stop=5.80 %}**What is this?** *O que é isto?*
 2. {% include play.html identifier="examples" start=7.20 stop=8.87 %}**What is that?** *O que é isso?*
 3. {% include play.html identifier="examples" start=10.43 stop=12.26 %}**What are those?** *O que são aqueles?*

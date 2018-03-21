@@ -10,12 +10,13 @@ attr:
 ---
 
 
-# Lesson 1.22: How
+{%  include voice.html attr=page.attr  
+	identifier="vocabulary"  init=true
+	title="Lesson 1.22: How"        
+	translation="TODO"
+    tag="h1" %}
 
-{% include player2.html identifier="vocabulary" class=page.class lesson=page.lesson %}
-## Vocabulary 
-
-[comment]: <>  all the words go in there: https://docs.google.com/spreadsheets/d/1eR2dAVnsdWWox6CqvY4HZwZd3VhYF9IME_EfQQAfXTs/edit#gid=0
+## Vocabulary   *Vocabulário*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -26,11 +27,13 @@ attr:
 		trial=site.trialdeploy %}
 		
 
+{%  include voice.html attr=page.attr  
+	identifier="examples"  init=true
+	title="Example"        
+	translation="TODO"
+    tag="h2" %}
 
 
-{% include player2.html identifier="examples" class=page.class lesson=page.lesson %}
-
-## Example
 1. {% include play.html identifier="examples" start=3.93 stop=5.30 %}**How are you?** *Como vai?*
 2. {% include play.html identifier="examples" start=6.67 stop=8.35 %}**How is your brother?** *Como está seu irmão?*
 3. {% include play.html identifier="examples" start=9.74 stop=11.46 %}**How is your job?** *Como é seu trabalho?*

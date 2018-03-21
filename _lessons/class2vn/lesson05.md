@@ -109,7 +109,7 @@ attr:
 	translation="Anh ấy sẽ cho tôi quá giang về nhà."
     tag="h3" %}
 
-**He's going to...**
+**He's going to...**     *TODO*
 
 1. **He's going to propose to her.**  
 *Anh ta sẽ cầu hôn cô ấy.*   
@@ -159,7 +159,7 @@ attr:
 	translation=""
     tag="h3" %}
 ##### *Ai đưa ra hầu hết các quyết định trong gia đình bạn?*
-**Who + verb ('~s' / '~es')**
+**Who + verb ('~s' / '~es')**     *TODO*
 
 1. **Who feeds the dog in your family?**  
 *Trong gia đình bạn, ai cho chó ăn?*   

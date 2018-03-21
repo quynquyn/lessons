@@ -24,7 +24,7 @@ attr:
     tag="h3" %}
 
 
-{% include wordgrid.html lang=page.lang
+{% include wordgrid.html lang=page.lang	
 		class=page.class 
 		lesson=page.lesson 
 		section="makesmile"
