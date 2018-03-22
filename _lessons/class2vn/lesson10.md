@@ -93,7 +93,7 @@ attr:
 *Bạn có mất ngủ vì online không?*    
 > {% include play.html identifier="conversation" start=78.39 stop=83.70 %} P2: **I couldn’t put my phone down. I always lose sleep. How about you?**  
 *Tôi không thể bỏ điện thoại xuống được. Tôi luôn luôn mất ngủ. Còn bạn thì sao?*     
-> {% include play.html identifier="conversation" start=85.25 stop=88.33 %} P2: **I always go to sleep before 11 PM.**  
+> {% include play.html identifier="conversation" start=85.25 stop=88.33 %} P1: **I always go to sleep before 11 PM.**  
 *Tôi luôn đi ngủ trước 11 giờ tối.*     
 > {% include play.html identifier="conversation" start=89.67 stop=94.49 %} P2: **That’s why you are always full of energy and you don’t have eye bags.**  
 *Đó là lí do tại sao bạn luôn tràn đầy năng lượng và không có quầng thâm mắt.*     

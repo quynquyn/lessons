@@ -12,7 +12,7 @@ attr:
 {%  include voice.html attr=page.attr        ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=true
 	title="Lesson 2.11: Appearance"  
-	translation="TODO"      
+	translation="Aparência"      
     tag="h1" %}
 
 
@@ -28,7 +28,7 @@ attr:
 		trial=site.trialdeploy %}
 
 
-### Age   *TODO*
+### Age   *Idade*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -39,13 +39,13 @@ attr:
 		trial=site.trialdeploy %}
 
 1. **Young: He is in his early twenties.**  
-*Trẻ: Anh ấy đang ở 20 tuổi đầu.*   
+*Jovem: Ele está tem vinte e pouquinhos anos.*   
 2. **Old: She is in her late sixties.**  
-*Già: Bà ấy đang ở cuối tuổi 60.*   
+*Velhoa: Ela tem sessenta e alguns anos.*   
 3. **Middle-aged: She is in her mid forties.**  
-*Trung niên: Cô ấy đang ở khoảng giữa 40 tuổi.*    
+*De meia-idade: Ela tem quarenta e poucos anos.*    
 
-### Build   *TODO* 
+### Build   *Forma* 
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -55,7 +55,7 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Height   *TODO*
+### Height   *Altura*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -65,7 +65,7 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Face   *TODO*
+### Face   *Rostro*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -75,7 +75,7 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Lips   *TODO*
+### Lips   *Labios*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -85,7 +85,7 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Skin   *TODO*
+### Skin   *Pele*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -95,7 +95,7 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Nose   *TODO*
+### Nose   *Nariz*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -105,7 +105,7 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Eyebrows   *TODO*
+### Eyebrows   *Sobrancelhas*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -118,16 +118,16 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="monologue"  init=true
 	title="Describe someone's appearance"        
-	translation="TODO"
+	translation="Descrever a aparência de alguém"
     tag="h2" %}
 
 > **Let me introduce my ex-boyfriend. He is Daniel. He is a quite handsome man. He is in his mid–twenties, but he looks young for his age. He is of medium height and well–built. He has a square face with brown eyes, a straight nose and full lips. He has short black wavy hair. He looks even more attractive with his glasses. I've always thought he bears a striking resemblance to someone on TV. He cut himself climbing a tree when he was ten and he's got a scar just below his ear. Oh, I wish he were here. I miss him so much.**   
-*TODO*  
+*Deixe-me apresentar meu ex-namorado. Ele é o Daniel. Ele é um homem bastante bonito. Ele tem vinte e poucos anos, mas parece jovem para a sua idade. Ele é de altura média e de bom físico. Ele tem um rosto quadrado com olhos castanhos, um nariz reto e lábios cheios. Ele tem cabelo ondulado preto curto. Ele parece ainda mais atraente com seus óculos. Eu sempre pensei que ele tivesse uma semelhança impressionante com alguém na TV. Ele se cortou escalando uma árvore quando tinha dez anos e por isso tem uma cicatriz logo abaixo da orelha. Oh, eu queria que ele estivesse aqui. Sinto muita saudade dele.*  
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="explanation"  init=true
 	title="Explanation"        
-	translation="TODO"
+	translation="Explicação"
     tag="h2" %}
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
@@ -139,7 +139,7 @@ attr:
 1. **He is in his early forties.**  
 *Ele tem quarenta e poucos anos.*   
 2. **My brother is in his late twenties.**   
-*Meu irmão está com seus vinte e poucos anos.*   
+*Meu irmão tem vinte e alguns anos.*   
 3. **My sister is a lovely teenager.**   
 *Minha irmã mais nova é uma adorável adolescente.*   
 
@@ -173,7 +173,7 @@ attr:
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false  start=60.71 stop=78.60
-	title="4. He looks even more attractive with his glasses. "
+	title="4. He looks even more attractive with his glasses."
 	translation=""
     tag="h3" %}
 ##### *Ele parece ainda mais atraente com seus óculos.*
@@ -191,7 +191,7 @@ attr:
 	translation=""
     tag="h3" %}
 ##### *Eu sempre pensei que ele tivesse uma semelhança impressionante com alguém na TV.*
-**bear a striking resemblance**     *TODO*
+**bear a striking resemblance**     *ter uma semelhança impressionante*
 
 1. **I think that you bear a striking resemblance to my teacher.**  
 *Eu acho que você tem uma semelhança impressionante com o meu professor.*   

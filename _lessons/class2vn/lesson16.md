@@ -62,7 +62,7 @@ attr:
     tag="h2" %}
 
 {%  include voice.html attr=page.attr  
-	identifier="Explanation"  init=false start=4.63 stop=24.71
+	identifier="explanation"  init=false start=4.63 stop=24.71
 	title="1. After finding out about this, I realized that I need to talk to you straight away."        
 	translation=""
     tag="h3" %}
@@ -79,7 +79,7 @@ attr:
   {% else %}
 
 {%  include voice.html attr=page.attr  
-	identifier="Explanation"  init=false start=25.56 stop=41.11
+	identifier="explanation"  init=false start=25.56 stop=41.11
 	title="2. I think that if you really like someone, you should say it."        
 	translation=""
     tag="h3" %}
@@ -92,7 +92,7 @@ attr:
 *Tôi nghĩ bạn nên dừng làm kẻ nhút nhát và nói sự thật đi.*    
 
 {%  include voice.html attr=page.attr  
-	identifier="Explanation"  init=false start=41.16 stop=51.61
+	identifier="explanation"  init=false start=41.16 stop=51.61
 	title="3. I thought you felt an interest for me."        
 	translation="Tôi tưởng bạn cũng thích tôi."
     tag="h3" %}
@@ -107,7 +107,7 @@ attr:
 *Anh ấy tưởng anh ấy sắp được làm bố.*   
 
 {%  include voice.html attr=page.attr  
-	identifier="Explanation"  init=false start=51.66 stop=68.61
+	identifier="explanation"  init=false start=51.66 stop=68.61
 	title="4. I didn't mean to upset you, but that's just how I feel."        
 	translation=""
     tag="h3" %}
@@ -120,7 +120,7 @@ attr:
 *Anna không có ý nhục mạ bạn, nhưng cô ấy nói với tôi rằng bạn không phải mẫu người của cô ấy.*   
 
 {%  include voice.html attr=page.attr  
-	identifier="Explanation"  init=false start=68.76 stop=82.11
+	identifier="explanation"  init=false start=68.76 stop=82.11
 	title="5. I enjoy your company. We should go out sometime."        
 	translation=""
     tag="h3" %}
@@ -133,7 +133,7 @@ attr:
 *Tôi thích bên cạnh Dana, nhưng có ấy không có gì hơn là một người bạn với tôi.*    
 
 {%  include voice.html attr=page.attr  
-	identifier="Explanation"  init=false start=82.16 stop=98.11
+	identifier="explanation"  init=false start=82.16 stop=98.11
 	title="6. Really? You really like me?"        
 	translation="Thật hả, bạn thật sự thích tôi hả?"
     tag="h3" %}

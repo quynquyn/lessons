@@ -13,7 +13,7 @@ attr:
 {%  include voice.html attr=page.attr                     tag="h1"
 	identifier="vocabulary"  init=true
 	title="Lesson 1.17: Who – Where – When"
-	translation="TODO"
+	translation="Quem - Onde - Quando"
 %}
 
 
@@ -33,7 +33,7 @@ attr:
 	translation=""
 %}
 
-##### *TODO* 
+##### *Exemplo de perguntas 'WH' com passado simples, presente simples, presente contínuo e futuro simples* 
 
 1. {% include play.html identifier="examples" start=12.27 stop=14.28 %} **Where are you going to go?**      
 *Pra onde você vai ir?*
@@ -106,7 +106,7 @@ attr:
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="conversation"  init=true
 	title="Conversation"
-	translation="TODO"
+	translation="Conversação"
 %}
 
 {% if site.trialdeploy %}
@@ -115,29 +115,29 @@ attr:
 
 
 > {% include play.html identifier="conversation" start=1.99 stop=5.82 %} Person 1: **Jamie, I told you to go to school. Why are you home so early?**  
-> *TODO*    
+> *Jamie, eu te disse para ir para a escola. Por que você está em casa tão cedo?*    
 > {% include play.html identifier="conversation" start=5.82 stop=8.25 %} Person 2: **Hi Mom. We didn't have class today.**  
-> *TODO*    
+> *Oi Mamãe. Nós não tivemos aula hoje.*    
 > {% include play.html identifier="conversation" start=8.25 stop=10.85 %} P1: **What? Who told you to go home so early?**  
-> *TODO*    
+> *O que? Quem te disse para ir para casa tão cedo?*    
 > {% include play.html identifier="conversation" start=10.85 stop=15.10 %} P2: **Miss Jenkins. She said that the other teachers aren't at school today.**  
-> *TODO*    
+> *Srta. Jenkins. Ela disse que os outros professores não estão na escola hoje.*    
 > {% include play.html identifier="conversation" start=15.10 stop=16.70 %} P1: **Oh? Where are they?**  
-> *TODO*    
+> *Ah? Onde eles estão?*    
 > {% include play.html identifier="conversation" start=16.70 stop=18.63 %} P2: **Miss Jenkins said they all went home.**  
-> *TODO*    
+> *Srta. Jenkins disse que todos foram para casa.*    
 > {% include play.html identifier="conversation" start=18.63 stop=21.12 %} P1: **That's strange. When did they all go home?**  
-> *TODO*    
+> *Isso é estranho. Quando todos eles foram para casa?*    
 > {% include play.html identifier="conversation" start=21.12 stop=23.16 %} P2: **She said they went home yesterday.**  
-> *TODO*    
+> *Ela disse que eles foram para casa ontem.*    
 > {% include play.html identifier="conversation" start=23.16 stop=24.79 %} P1: **When are they coming back?**  
-> *TODO*    
+> *Quando eles voltarão?*    
 > {% include play.html identifier="conversation" start=24.79 stop=27.97 %} P2: **They're coming back on Monday, Mom. Today is Saturday.**  
-> *TODO*   
+> *Eles voltarão na segunda-feira, Mamãe. Hoje é sábado.*   
 > {% include play.html identifier="conversation" start=27.97 stop=32.95 %} P1: **Oh. I see. But if it's Saturday, what is Miss Jenkins doing at school?**    
-> *TODO*    
+> *Oh. Entendo. Mas se é sábado, o que a Srta. Jenkins está fazendo na escola?*    
 > {% include play.html identifier="conversation" start=32.95 stop=34.71 %} P2: **She's the janitor, Mom.**  
-> *TODO*    
+> *Ela é a zeladora, Mamãe.*    
 
 {% endif %}
 

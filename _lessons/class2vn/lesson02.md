@@ -35,19 +35,19 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 2 ngày)"
     tag="h2" %}
 
 
-> {% include play.html identifier="Native-Dialogue1" start=0.54 stop=2.58 %} Person 1: **Why do you look so annoyed?**    
+> {% include play.html identifier="Native-Dialogue2" start=0.54 stop=2.58 %} Person 1: **Why do you look so annoyed?**    
 > *Sao trông bạn khó chịu thế?*    
-> {% include play.html identifier="Native-Dialogue1" start=2.58 stop=5.96 %} Person 2: **I am cleaning the house now and I hate doing housework.**    
+> {% include play.html identifier="Native-Dialogue2" start=2.58 stop=5.96 %} Person 2: **I am cleaning the house now and I hate doing housework.**    
 > *Bây giờ tôi đang quét dọn nhà cửa và tôi ghét làm việc nhà.*     
-> {% include play.html identifier="Native-Dialogue1" start=5.96 stop=7.33 %} P1: **What else do you hate?**    
+> {% include play.html identifier="Native-Dialogue2" start=5.96 stop=7.33 %} P1: **What else do you hate?**    
 > *Bạn còn ghét cái gì khác không?*    
-> {% include play.html identifier="Native-Dialogue1" start=7.33 stop=10.47 %} P2: **Talking to unfriendly people drives me crazy.**    
+> {% include play.html identifier="Native-Dialogue2" start=7.33 stop=10.47 %} P2: **Talking to unfriendly people drives me crazy.**    
 > *Nói chuyện với những người không thân thiện khiến tôi phát điên.*    
-> {% include play.html identifier="Native-Dialogue1" start=10.47 stop=12.89 %} P1: **Do you hate getting up early in the morning?**    
+> {% include play.html identifier="Native-Dialogue2" start=10.47 stop=12.89 %} P1: **Do you hate getting up early in the morning?**    
 > *Bạn có ghét phải dậy sớm vào buổi sáng không?*    
-> {% include play.html identifier="Native-Dialogue1" start=12.89 stop=16.41 %} P2: **No, I don’t hate getting up early in the morning. How about you?**    
+> {% include play.html identifier="Native-Dialogue2" start=12.89 stop=16.41 %} P2: **No, I don’t hate getting up early in the morning. How about you?**    
 > *Không, tôi không ghét dậy sớm vào buổi sáng. Bạn thì sao?*    
-> {% include play.html identifier="Native-Dialogue1" start=16.41 stop=20.76 %} P1: **Definitely. Getting up early in the morning really gets on my nerves.**    
+> {% include play.html identifier="Native-Dialogue2" start=16.41 stop=20.76 %} P1: **Definitely. Getting up early in the morning really gets on my nerves.**    
 > *Hoàn toàn ghét. Dậy sớm vào buổi sáng thật sự làm tôi phát cáu.*    
 
 {%  include voice.html attr=page.attr       ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ

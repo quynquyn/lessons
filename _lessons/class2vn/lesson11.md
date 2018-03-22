@@ -28,7 +28,7 @@ attr:
 		trial=site.trialdeploy %}
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="vocabulary"  init=false start=30 stop=54
+	identifier="vocabulary"  init=false start=36 stop=54
 	title="Age"        
 	translation="Tuổi tác"
     tag="h3" %}
@@ -42,11 +42,11 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-1. **Young: He is in his early twenties.**  
+1. {% include play.html identifier="vocabulary" start=40.07 stop=44.26 %} **Young: He is in his early twenties.**  
 *Trẻ: Anh ấy đang ở 20 tuổi đầu.*   
-2. **Old: She is in her late sixties.**  
+2. {% include play.html identifier="vocabulary" start=44.87 stop=48.56 %} **Old: She is in her late sixties.**  
 *Già: Bà ấy đang ở cuối tuổi 60.*   
-3. **Middle-aged: She is in her mid forties.**  
+3. {% include play.html identifier="vocabulary" start=49.57 stop=54.55 %} **Middle-aged: She is in her mid forties.**  
 *Trung niên: Cô ấy đang ở khoảng giữa 40 tuổi.*    
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ

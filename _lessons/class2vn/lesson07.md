@@ -39,20 +39,20 @@ attr:
 > {% include play.html identifier="Conversation" start=0.01 stop=1.87 %} Person 1: **What is your job?**   
 *Công việc của bạn là gì?*   
 > {% include play.html identifier="Conversation" start=1.87 stop=3.74 %} Person 2: **I am a sales assistant.**    
-*Tôi là trợ lí bán hàng.*   
+*Tôi là nhân viên bán hàng.*   
 > {% include play.html identifier="Conversation" start=3.74 stop=5.91 %} P1: **Is it your dream job?**   
 *Đó có phải là công việc mơ ước của bạn không?*   
 > {% include play.html identifier="Conversation" start=5.91 stop=7.86 %} P2: **Not really.**   
 *Không hẳn vậy.*   
 > {% include play.html identifier="Conversation" start=7.86 stop=10.43 %} P1: **What do you do as a sales assistant?**    
-*Bạn làm gì với việc trợ lí bán hàng?*   
+*Bạn làm gì với việc nhân viên bán hàng?*   
 > {% include play.html identifier="Conversation" start=10.43 stop=13.95 %} P2: **I am responsible for selling goods and looking after customers.**    
 *Tôi có trách nhiệm bán những sản phẩm và chăm sóc khách hàng.*    
 > {% include play.html identifier="Conversation" start=13.95 stop=15.39 %} P1: **Where do you work?**   
 *Bạn làm việc ở đâu?*  
 > {% include play.html identifier="Conversation" start=15.39 stop=17.20 %} P2: **I work in a shoe shop.**   
 *Tôi làm trong một cửa hàng giày.*    
-> {% include play.html identifier="Conversation" start=17.20 stop=20.44 %} P1: **"What do you like most about your job?**  
+> {% include play.html identifier="Conversation" start=17.20 stop=20.44 %} P1: **What do you like most about your job?**  
 *Điều gì bạn thích nhất về công việc của bạn?*    
 > {% include play.html identifier="Conversation" start=20.44 stop=27.06 %} P2: **What I like most about my job is that the atmosphere is really nice there, and I’m working with a great group of people.**    
 *Điều tôi thích nhất về công việc của tôi là môi trường ở đó thật sự tốt và tôi đang làm việc với một nhớm người tuyệt vời.*    
@@ -66,17 +66,20 @@ attr:
 *Thành thật mà nói, tôi tin là điều quan trọng nhất trọng nhất trong một công việc là bạn có thể tận hưởng điều mà bạn làm.*  
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="Native-Explanation"  init=true
+	identifier="Explanation"  init=true
 	title="Explanation"        
 	translation="Giải thích"
     tag="h2" %}
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="Native-Explanation"  init=false start=3.12 stop=17.37
+	identifier="Explanation"  init=false start=3.12 stop=17.37
 	title="1. I am responsible for selling goods and looking after customers."        
 	translation=""
     tag="h3" %}
 ##### *Tôi có trách nhiệm/nhiệm vụ bán những sản phẩm và chăm sóc khách hàng.*   
-**Be sold out.**     *đã bán hết*
+1. **I'm responsible for taking care of my sister.**   *Tôi có trách nhiệm chăm sóc em gái tôi.*    
+2. **John is responsible for keeping the customers happy.**   *John có trách nhiệm làm cho các khách hàng vui vẻ.*
+3. **You are responsible for this mess! Now clean it up!**   *Bạn chịu trách nhiệm cho cái đống lộn xộn này! Bây giờ dọn dẹp đi!*
+
 
 1. **The movie is sold out.**  
 *Bộ phim đã bán hết vé rồi.*   
@@ -101,11 +104,11 @@ attr:
 	{% include explanation_placeholder.html  attr=page.attr     start=3 stop=7 %}
 	{% else %}
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="Native-Explanation"  init=false start=42.73 stop=61.76
+	identifier="Explanation"  init=false start=42.73 stop=61.76
 	title="3. Is there anything that you don't like about your job?"        
 	translation=""
     tag="h3" %}
-##### *ó điều gì bạn không thích về công việc của bạn không?*
+##### *Có điều gì bạn không thích về công việc của bạn không?*
 **Is there anything that…?**     *Có điều gì mà...?*
 
 1. **Is there anything that you feel annoyed about your boyfriend?**  
@@ -116,7 +119,7 @@ attr:
 *Có điều gì có thể khiến bạn cười ngay lập tức không?*  
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="Native-Explanation"  init=false start=64.08 stop=77.47
+	identifier="Explanation"  init=false start=64.08 stop=77.47
 	title="4. The job can get really stressful at times."        
 	translation=""
     tag="h3" %}
@@ -129,18 +132,18 @@ attr:
 *Nó là một công việc căng thẳng.*
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="Native-Explanation"  init=false start=79.55 stop=95.88
+	identifier="Explanation"  init=false start=79.55 stop=95.88
 	title="5. Do you think it is more important to make a lot of money or to enjoy your job?"        
 	translation=""
     tag="h3" %}
 ##### *Bạn nghĩ rằng kiếm nhiều tiền hay tận hưởng công việc quan trọng hơn?*
 1. **Do you think it's more important to be polite or to be honest?**  
 *Bạn nghĩ rằng lịch sự hay thành thật quan trọng hơn?*  
-2. **Do yoi think it's more important to give or to take?**  
+2. **Do you think it's more important to give or to take?**  
 *Bạn nghĩ rằng cho đi hay nhận lại quan trọng hơn?* 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="Native-Explanation"  init=false start=98.12 stop=111.00 
+	identifier="Explanation"  init=false start=98.12 stop=111.00 
 	title="6. Honestly,..."        
 	translation="Thật lòng / Thành thật mà nói,..."
     tag="h3" %}
@@ -153,7 +156,7 @@ attr:
 *Thành thật mà nói, mai tôi sẽ làm.*   
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="Native-Explanation"  init=false start=113.62 stop=128.19 
+	identifier="Explanation"  init=false start=113.62 stop=128.19 
 	title="7. You are able to enjoy what you do."        
 	translation="Bạn có thể tận hưởng điều bạn làm."
     tag="h3" %}

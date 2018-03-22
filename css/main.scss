@@ -119,3 +119,21 @@ section.el-lesson {
 }
 
 
+.premium_optinbox {
+	background-color: #2D84ED !important;
+	border-color: #2D84ED !important;
+	color: #FBFFFA;
+	.btn {
+		background-color: #95C1F6;
+		border-color: #95C1F6;
+		color: #FDFFFE;
+		margin-top: 16px;
+	}
+	a.explain {
+		text-align: center;
+		color: #FDFFFE;
+		text-decoration: underline;
+	}
+}
+
+

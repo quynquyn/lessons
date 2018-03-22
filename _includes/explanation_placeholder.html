@@ -1,37 +1,51 @@
-{% for i in (include.start..include.stop) %}
+
 
 {% if include.attr.lang == "vn" %}
 
-  <h3>{{i}}. This content is available in the premium version.</h3>
+
+  **{{ include.stop - include.start }} more sentences hidden...** *{{ include.stop - include.start }} thêm câu ẩn...*
   
-  *Nội dung này có sẵn trong phiên bản cao cấp*
+  {%  include upgrade_box.html
+      attr=include.attr
+      text_main="<h4>Premium</h4> Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ. 22 USD, khoảng 500k VND"
+      text_button="Được truy cập ở đây"
+      url_button=site.texts.en.upgrade_url
+      text_explanation="xem chi tiết"
+      url_explanation=site.texts.en.salespage_url 
+  %}
   
-  - **Purchase the full version and get access right now.** *Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ.*
-  - **[Get access here]({{site.upgrade_vn}})** *[Được truy cập ở đây]({{site.upgrade_vn}})*
+  
 
 {% elsif include.attr.lang == "pt" %}
 
-  <h3>{{i}}. This content is available in the premium version.</h3>
+  **{{ include.stop - include.start }} more sentences hidden...** *... *
   
-  *Este conteúdo está disponível na versão premium.*
+  {%  include upgrade_box.html
+      attr=include.attr
+      text_main="<h4>Premium</h4> Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ. 22 USD, khoảng 500k VND"
+      text_button="Được truy cập ở đây"
+      url_button=site.texts.pt.upgrade_url
+      text_explanation="xem chi tiết"
+      url_explanation=site.texts.pt.salespage_url 
+  %}
   
-  - **Purchase the full version and get access right now.** *Compre a versão completa e obtenha acesso agora.*
-  - **[Get access here]({{site.upgrade_pt}})** *[Acesse aqui]({{site.upgrade_pt}})*
-
 
 {% else %}
 
-  <h3>{{i}}. This content is available in the premium version.</h3>
-  
-  - **Purchase the full version and get access right now.**
-  - **[Get access here]({{site.upgrade_en}})**
 
+  **{{ include.stop - include.start }} more sentences hidden...**
+  
+  {%  include upgrade_box.html
+      attr=include.attr
+      text_main="<h4>Premium</h4> Purchase the premium version and get access right now. Only 22 USD."
+      text_button="Được truy cập ở đây"
+      url_button=site.texts.pt.upgrade_url
+      text_explanation="xem chi tiết"
+      url_explanation=site.texts.pt.salespage_url 
+  %}
+  
 {% endif %}
 
 
 
-
-{% endfor %}
-
-  
   

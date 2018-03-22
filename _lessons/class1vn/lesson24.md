@@ -143,5 +143,3 @@ attr:
 *Vì sao mọi người muốn sống trong thành phố?*
 9. {% include play.html identifier="examples" start=33.92 stop=35.80 %} **Why do you feel sad?**  
 *Tại sao bạn cảm thấy buồn?*
-10. {% include play.html identifier="examples" start=37.75 stop=39.30%} **Why are you here?**  
-*Tại sao bạn ở đây?*

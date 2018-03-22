@@ -89,11 +89,11 @@ attr:
 ##### *Tôi chỉ cần mua cái gối du lịch ở sân bay nữa thôi.*
 **Verb + 'to' + verb**     *Động từ cùng động từ*
 
-- **He needs to go to the museum.**  
+1. **He needs to go to the museum.**  
 *Anh ta cần đi tới viện bảo tàng.*   
-- **I want to buy new shoes.**  
+2. **I want to buy new shoes.**  
 *Tôi cần mua đôi giày mới.*   
-- **My mother tries to call me.**  
+3. **My mother tries to call me.**  
 *Mẹ tôi cố gắng gọi điện cho tôi.*  
 
 {% if site.trialdeploy %}
@@ -107,9 +107,9 @@ attr:
 ##### *Đây là chuyến đi nước ngoài đầu tiên của bạn.*
 **One's first...**     *Cái gì đó đầu tiên của ai đó*
 
-- **This is my first kiss.**  
+1. **This is my first kiss.**  
 *Đây là nụ hôn đầu của tôi.*   
-- **That is her first tattoo.**  
+2. **That is her first tattoo.**  
 *Đó là cái hình xăm đầu tiên của cô ấy.*   
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=40.07 stop=61.55
@@ -119,11 +119,11 @@ attr:
 ##### *Bạn không được phép mang chất lỏng lên máy bay.*
 **You are not allowed to...**     *Bạn không được phép ...*
 
-- **You are not allowed to smoke in the building.**  
+1. **You are not allowed to smoke in the building.**  
 *Bạn không được phép hút thuốc trong tòa nhà này.*  
-- **You are not allowed to park your car here.**  
+2. **You are not allowed to park your car here.**  
 *Bạn không được phép đậu xe hơi ở đây.*   
-- **You are not allowed to talk during the exam.**  
+3. **You are not allowed to talk during the exam.**  
 *Bạn không được phép nói chuyện trong giờ kiểm tra.*   
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=63.87 stop=75.27
@@ -131,11 +131,11 @@ attr:
 	translation="Bạn du lịch rất nhiều."
     tag="h3" %}
 
-- **I cried a lot.**  
+1. **I cried a lot.**  
 *Tôi đã khóc rất nhiều.*   
-- **I eat a lot.**  
+2. **I eat a lot.**  
 *Tôi ăn rất nhiều.*   
-- **She talks a lot.**  
+3. **She talks a lot.**  
 *Cô ta nói rất nhiều.*   
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=77.86 stop=103.76
@@ -145,11 +145,11 @@ attr:
 ##### *Nó là một cách thú vị để biết hơn về văn hóa mới và khám phá nơi mới.*
 **It's an interesting way to...**     *Nó là một cách thú vị để...*
 
-- **It's an interesting way to get to know someone.**  
+1. **It's an interesting way to get to know someone.**  
 *Nó là một cách thú vị để tìm hiểu ai đó.*   
-- **It's an interesting way to impress someone.**  
+2. **It's an interesting way to impress someone.**  
 *Nó là một cách thú vị để gây ấn tượng với ai đó.*  
-- **It's a simple way to solve the problem.**  
+3. **It's a simple way to solve the problem.**  
 *Nó là một cách đơn giản để giải quyết vấn đề.*   
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=106.47 stop=124.85
@@ -159,11 +159,11 @@ attr:
 ##### *Nó còn là cách tốt nhất để tìm một nơi yên tĩnh.*
 **It's the best way to...**     *Nó là cách tốt nhất để...*
 
-- **It's the best way to ask him.**  
+1. **It's the best way to ask him.**  
 *Nó là cách tốt nhất để hỏi anh ấy.*   
-- **It's the best way to get success.**  
+2. **It's the best way to get success.**  
 *Nó là cách tốt nhất để đạt thành công.*    
-- **It's the worst way to break up with someone.**  
+3. **It's the worst way to break up with someone.**  
 *Nó là cách tệ nhất để chia tay ai đó.*  
 
 

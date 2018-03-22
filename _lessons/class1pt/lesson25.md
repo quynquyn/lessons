@@ -13,7 +13,7 @@ attr:
 {%  include voice.html attr=page.attr                     tag="h1"
 	identifier="review"  init=true
 	title="Lesson 1.25: Review"
-	translation="TODO"
+	translation="Revisão"
 %}
 
 

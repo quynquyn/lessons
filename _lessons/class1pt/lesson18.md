@@ -13,10 +13,10 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="who"  init=true
 	title="Lesson 1.18: Review 2"        
-	translation="TODO"
+	translation="Revisão 2"
     tag="h1" %}
 
-## Who   *Ai*
+## Who   *Quem*
 1. {% include play.html identifier="who" start=6.27 stop=9.58 %} **Who is tall in your class?**   
 *Quem é alto em sua classe?*
 2. {% include play.html identifier="who" start=9.27 stop=12.28 %} **Who is important in a company?**  
@@ -74,7 +74,7 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="where"  init=true
 	title="Where"        
-	translation="Ở đâu"
+	translation="Onde"
     tag="h2" %}
 
 1. {% include play.html identifier="where" start=2.27 stop=5.28 %} **Where is your teacher?**  
@@ -124,7 +124,7 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="when"  init=true
 	title="When"        
-	translation="TODO"
+	translation="Quando"
     tag="h2" %}
  
 1. {% include play.html identifier="when" start=2.41 stop=5.28 %} **When is Valentine’s Day?**  
@@ -160,122 +160,122 @@ attr:
 	translation=""
     tag="h2" %}
 
-##### *TODO*    
+##### *Perguntas Sim / Não com passado simples e presente simples*    
 
 1. {% include play.html identifier="yesnoquestions" start=9.27 stop=12.58 %} **Did your mother get sick yesterday?**   
-*TODO*
+*Sua mãe ficou doente ontem?*
 2. {% include play.html identifier="yesnoquestions" start=12.27 stop=16.28 %} **Did you forget to bring the glasses?**   
-*TODO*
+*Você esqueceu de levar os óculos?*
 3. {% include play.html identifier="yesnoquestions" start=16.27 stop=19.28 %} **Was your first day of school fun?**  
-*TODO*
+*O seu primeiro dia de escola foi divertido?*
 4. {% include play.html identifier="yesnoquestions" start=19.27 stop=22.28 %} **Did Jonathan get home last night?**  
-*TODO*
+*Jonathan chegou em casa ontem à noite?*
 5. {% include play.html identifier="yesnoquestions" start=22.27 stop=26.28 %} **Were you tired yesterday?**  
-*TODO*
+*Você estava cansado ontem?*
 6. {% include play.html identifier="yesnoquestions" start=26.27 stop=29.28 %} **Did you spend your holidays with family?**  
-*TODO*
+*Você passou suas férias com a família?*
 7. {% include play.html identifier="yesnoquestions" start=29.27 stop=34.28 %} **Were you happy when you heard your sister won the lottery?**  
-*TODO*
+*Você ficou feliz quando percebeu que sua irmã ganhou a loteria?*
 
 {% if site.trialdeploy %}
 	{% include explanation_placeholder.html  attr=page.attr     start=8 stop=40 %}
 	{% else %}
 
 8. {% include play.html identifier="yesnoquestions" start=34.27 stop=38.28 %} **Do your dogs bite strangers?**  
-*TODO*
+*Seus cães mordem estranhos?*
 9. {% include play.html identifier="yesnoquestions" start=38.27 stop=42.28 %} **Does your wife like red wine?**  
-*TODO*
+*Sua esposa gosta de vinho tinto?*
 10. {% include play.html identifier="yesnoquestions" start=42.27 stop=45.28 %} **Do your parents allow you to smoke?**  
-*TODO*
+*Seus pais permitem que você fume?*
 11. {% include play.html identifier="yesnoquestions" start=45.27 stop=51.28 %} **Does the moon reflect the light of the sun?**  
-*TODO*
+*A lua reflete a luz do sol?*
 12. {% include play.html identifier="yesnoquestions" start=51.27 stop=54.28 %} **Is she your friend?**  
-*TODO*
+*Ela é sua amiga?*
 13. {% include play.html identifier="yesnoquestions" start=54.27 stop=57.28 %} **Are you going to the airport?**  
-*TODO*
+*Você está indo para o aeroporto?*
 14. {% include play.html identifier="yesnoquestions" start=57.27 stop=60.28 %} **Do you like this cinema?**  
-*TODO*
+*Você gosta deste cinema?*
 15. {% include play.html identifier="yesnoquestions" start=60.27 stop=64.28 %} **Do you want to become a baker?**  
-*TODO*
+*Você quer se tornar um padeiro?*
 16. {% include play.html identifier="yesnoquestions" start=64.27 stop=68.28 %} **Will you go to this school when you're older?**  
-*TODO*
+*Você vai para esta escola quando for mais velha?*
 17. {% include play.html identifier="yesnoquestions" start=68.27 stop=72.28 %} **Do you think this restaurant has good food?**  
-*TODO*
+*Você acha que este restaurante tem comida boa?*
 18. {% include play.html identifier="yesnoquestions" start=72.27 stop=76.28 %} **Are we going to sit down in the park?**  
-*TODO*
+*Vamos nos sentar no parque?*
 19. {% include play.html identifier="yesnoquestions" start=76.27 stop=79.58 %} **May I lean against this wall?**  
-*TODO*
+*Posso me encostar em essa parede?*
 20. {% include play.html identifier="yesnoquestions" start=79.27 stop=85.28 %} **Are you walking to the drugstore? Can you buy me some headache pills?**  
-*TODO*
+*Você vai para a farmácia? Você pode me comprar algumas pastilhas de dor de cabeça?*
 21. {% include play.html identifier="yesnoquestions" start=85.27 stop=89.28 %} **Is Mary going to go to the supermarket?**  
-*TODO*
+*Mary vai ao supermercado?*
 22. {% include play.html identifier="yesnoquestions" start=89.27 stop=93.28 %} **Will she stop looking at me?**  
-*TODO*
+*Ela vai parar de me olhar?*
 23. {% include play.html identifier="yesnoquestions" start=93.27 stop=97.28 %} **Are you working at the factory this weekend?**  
-*TODO*
+*Você está trabalhando na fábrica neste fim de semana?*
 24. {% include play.html identifier="yesnoquestions" start=97.27 stop=102.28 %} **Is Melody looking for milk in a bookstore?**  
-*TODO*
+*Melody está procurando leite em uma livraria?*
 25. {% include play.html identifier="yesnoquestions" start=102.27 stop=106.28 %} **Will she realize that she is wrong?**  
-*TODO*
+*Ela vai perceber que ela está errada?*
 26. {% include play.html identifier="yesnoquestions" start=106.27 stop=110.28 %} **Do you want to be a farmer when you grow up?**  
-*TODO*
+*Você quer ser fazendeiro quando adulto?*
 27. {% include play.html identifier="yesnoquestions" start=110.27 stop=114.28 %} **Does that singer sound good to you?**  
-*TODO*
+*Esse cantor parece bom a você?*
 28. {% include play.html identifier="yesnoquestions" start=114.27 stop=117.28 %} **Did the mechanic fix your car?**  
-*TODO*
+*O mecânico reparou o seu carro?*
 29. {% include play.html identifier="yesnoquestions" start=117.27 stop=122.28 %} **Did your favorite athlete win the gold medal?**  
-*TODO*
+*Seu atleta favorito ganhou a medalha de ouro?*
 30. {% include play.html identifier="yesnoquestions" start=122.27 stop=126.28 %} **Are you going to get married in July?**  
-*TODO*
+*Você vai se casar em julho?*
 31. {% include play.html identifier="yesnoquestions" start=126.27 stop=130.28 %} **Does the hairdresser work on Sundays?**  
-*TODO*
+*O cabeleireiro trabalho os domingos?*
 32. {% include play.html identifier="yesnoquestions" start=130.27 stop=135.28 %} **Will you pilot the airplane if Mary can't?**  
-*TODO*
+*Você pilotará o avião se Mary não puder?*
 33. {% include play.html identifier="yesnoquestions" start=135.27 stop=139.28 %} **Is the waitress bringing our drinks?**  
-*TODO*
+*A garçonete está trazendo nossas bebidas?*
 34. {% include play.html identifier="yesnoquestions" start=139.27 stop=142.28 %} **Did he wish you a good morning?**  
-*TODO* 
+*Ele te desejou um bom dia?* 
 35. {% include play.html identifier="yesnoquestions" start=142.27 stop=146.28 %} **Do you hate Mondays as much as I do?**  
-*TODO*
+*Você odeia as segundas-feiras tanto como eu?*
 36. {% include play.html identifier="yesnoquestions" start=146.27 stop=152.28 %} **Will they bring us the menu or do we need to ask for it?**  
-*TODO*
+*Eles nos trarão o cardápio ou precisamos pedir?*
 37. {% include play.html identifier="yesnoquestions" start=152.27 stop=155.28 %} **Is my hair messy?**  
-*TODO*
+*Meu cabelo está bagunçado?*
 38. {% include play.html identifier="yesnoquestions" start=155.27 stop=159.28 %} **Are the students going to plan the party?**  
-*TODO*
+*Os alunos vão planejar a festa?*
 39. {% include play.html identifier="yesnoquestions" start=159.27 stop=163.28 %} **Are the teachers bothering the students?**  
-*TODO*
+*Os professores estão aborrecendo os alunos?*
 40. {% include play.html identifier="yesnoquestions" start=163.27 stop=167.28 %} **Is there an easy way to learn a language?**  
-*TODO*
+*Existe uma maneira fácil de aprender um idioma?*
 
 {% endif %}
 
 {%  include voice.html attr=page.attr  
 	identifier="conversation"  init=true
 	title="Conversation"        
-	translation="Đối thoại"
+	translation="Conversação"
     tag="h2" %}
 
 > {% include play.html identifier="conversation" start=2.67 stop=6.58 %} Person 1: **Does the cinema in the centre of the city play good movies?**       
-*TODO*         
-> {% include play.html identifier="conversation" start=6.27 stop=11.28 %} Person 2: **I think so. We went there last week and they had over 5 movies playing at once!**       
-*TODO*         
+*O cinema no centro da cidade mostra bons filmes?*         
+> {% include play.html identifier="conversation" start=6.27 stop=11.28 %} Person 2: **I think so. We went there last week and they had over five movies playing at once!**       
+*Eu acho que sim. Nós fomos lá na semana passada e eles mostraram mais de cinco filmes ao mesmo tempo!*         
 > {% include play.html identifier="conversation" start=11.27 stop=15.78 %} P1: **That sounds cool. My cousin is visiting us this weekend and I don't know where to take her.**       
-*TODO*         
+*Isso parece legal. Minha prima está nos visitando neste fim de semana e não sei por onde levá-la.*         
 > {% include play.html identifier="conversation" start=15.27 stop=20.28 %} P2: **I'm going to play a game of paintball this weekend. Would you and your cousin like to join?**       
-*TODO*         
+*Eu vou jogar um jogo de paintball neste fim de semana. Você e sua prima gostariam de se juntar?*         
 > {% include play.html identifier="conversation" start=20.27 stop=23.88 %} P1: **That sounds really cool! But I think she probably won't like it.**       
-*TODO*         
+*Parece muito legal! Mas acho que ela provavelmente não vai gostar.*         
 > {% include play.html identifier="conversation" start=23.27 stop=25.58 %} P2: **That's a shame. Will you ask her?**       
-*TODO*         
+*Que pena. Você vai perguntar a ela?*         
 > {% include play.html identifier="conversation" start=25.27 stop=28.88 %} P1: **Of course. I will let you know what she says.**       
-*TODO*         
+*Claro. Eu vou deixar saber o que ela diz.*         
 > {% include play.html identifier="conversation" start=28.27 stop=32.28 %} P2: **Cool. I have to go now. I'm teaching German to a friend.**       
-*TODO*         
+*Legal. Eu tenho que ir embora agora. Eu ensino alemão a um amigo.*         
 > {% include play.html identifier="conversation" start=32.27 stop=34.18 %} P1: **Alright. Good luck!**       
-*TODO*         
+*Bem. Boa sorte!*         
 > {% include play.html identifier="conversation" start=34.27 stop=36.28 %} P2: **Thanks! I think I'll need it...**       
-*TODO*         
+*Obrigada! Eu acho que vou precisar disso ...*         
 
 
 

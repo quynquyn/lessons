@@ -1,6 +1,6 @@
-baseurl: /premium
-port: 4000
-destination: ./_site
+baseurl: /daily
+port: 4040
+destination: ./_trial
 github: [metadata]
 encoding: UTF-8
 kramdown:
@@ -16,8 +16,19 @@ collections:
     output: true
 include: ['.htaccess']
 exclude: [not-in-git, node_modules, gulpfile.js,  artwork, csv_to_html]
-trialdeploy: false
-upgrade_pt: https://get.englishletics.com/
-upgrade_vn: https://get.englishletics.com/nguoi-su-dung-phien-ban-cao-cap-hoc-tieng-anh-nhanh-va-hieu-qua-hon/?lang=vi
-upgrade_en: https://get.englishletics.com/people-going-premium-learn-english-faster-and-better/
+trialdeploy: true
+
+texts:
+  vn:
+    upgrade_url: https://get.englishletics.com/?add-to-cart=71
+    salespage_url: https://get.englishletics.com/en/people-going-premium-learn-english-faster-and-better/
+  pt:
+    upgrade_url: https://get.englishletics.com/pt-br/?add-to-cart=70
+    salespage_url: https://get.englishletics.com/en/people-going-premium-learn-english-faster-and-better/
+  en:
+    upgrade_url: https://get.englishletics.com/en/?add-to-cart=8
+    salespage_url: https://get.englishletics.com/en/people-going-premium-learn-english-faster-and-better/
+
+
+
 

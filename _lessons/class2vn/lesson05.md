@@ -53,7 +53,7 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Vocabulary"  init=false start=112 stop=160
 	title="Other things parents do"        
-	translation="Những thức khác mà ba mẹ làm"
+	translation="Những thứ khác mà ba mẹ làm"
     tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
@@ -109,7 +109,7 @@ attr:
 	translation="Anh ấy sẽ cho tôi quá giang về nhà."
     tag="h3" %}
 
-**He's going to...**     *TODO*
+**He's going to...**     *Anh ấy sẽ...*
 
 1. **He's going to propose to her.**  
 *Anh ta sẽ cầu hôn cô ấy.*   
@@ -159,7 +159,7 @@ attr:
 	translation=""
     tag="h3" %}
 ##### *Ai đưa ra hầu hết các quyết định trong gia đình bạn?*
-**Who + verb ('~s' / '~es')**     *TODO*
+**Who + verb ('~s' / '~es')**     * Ai / Ai đã ...?*
 
 1. **Who feeds the dog in your family?**  
 *Trong gia đình bạn, ai cho chó ăn?*   

@@ -180,7 +180,7 @@ attr:
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Explanation"  init=false start=61.49 stop=85.94 
-	title="5. I prefer my fashion style to be stylish and comfortable"
+	title="5. I prefer my fashion style to be stylish and comfortable."
 	translation=""
     tag="h3" %}
 ##### *Tôi thích phong cách thời trang của mình phải thật đặc sắc và thoải mái.*

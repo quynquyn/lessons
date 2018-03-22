@@ -12,7 +12,7 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=true
 	title="Lesson 2.12: Personality"        
-	translation="TODO"
+	translation="Personalidade"
     tag="h1" %}
 
 ## Vocabulary   *Vocabulário*
@@ -28,16 +28,17 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="monologue"  init=true
 	title="Monologue"        
-	translation="TODO"
+	translation="Monólogo"
     tag="h2" %}
 
 > **I’m the type of person who tries to avoid dramas. I also have a good sense of humor. That's why I have a lot of friends and we have a lot of fun together. My girlfriend is just the opposite. She is a quite helpful person. That's definitely the reason why I love her. She always helps people without expecting anything in return. But I guess she prefers staying at home and being on her own. Listening to her voice can make all of my stresses and pressure melt away.**   
-*TODO*     
+*Eu sou o tipo de pessoa que tenta evitar drama. Eu também tenho um bom senso de humor. É por isso que eu tenho muitos amigos e juntos nos divertimos muito. 
+Minha namorada é exatamente invés. Ela é uma pessoa muito prestativa. Essa é definitivamente a razão pela qual eu a amo. Ela sempre ajuda as pessoas sem esperar nada a troca. Mas acho que ela prefere ficar em casa e estar sozinha. Ouvir sua voz pode fazer todo meu estresse e pressão desaparecer.*     
  
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=true
 	title="Explanation"        
-	translation="Giải thích"
+	translation="Explicação"
     tag="h2" %} 
 
 {%  include voice.html attr=page.attr  
@@ -92,7 +93,7 @@ attr:
     tag="h3" %}
 ##### *Ela prefere ficar em casa e estar sozinha.*
 **'prefer' can be followed either by verb + '~ing' (or) 'to' + verb**     
-*TOOD*
+*'prefer' pode ser seguido ou por verbo + '~ing' (ou) por 'to' + verbo*
 
 1. **He prefers staying at home and watching football to playing it.**  
 *Ele prefere ficar em casa e assistir futebol em vez de jogar mesmo.*    

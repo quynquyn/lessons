@@ -1,7 +1,6 @@
-baseurl: /dev
-incremental: true
-port: 4044
-destination: ./_dev
+baseurl: /premium
+port: 4000
+destination: ./_site
 github: [metadata]
 encoding: UTF-8
 kramdown:
@@ -16,15 +15,9 @@ collections:
   pages:
     output: true
 include: ['.htaccess']
-exclude: [not-in-git, node_modules, gulpfile.js, artwork, csv_to_html, 
-        "_lessons/class1en/*",
-        "_lessons/class2en",
-        "_lessons/class1pt/",
-        "_lessons/class2pt",
-        "_lessons/class1vn/lesson2*",
-        "_lessons/class2vn/"
-        ]
-trialdeploy: true
+exclude: [not-in-git, node_modules, gulpfile.js,  artwork, csv_to_html]
+trialdeploy: false
+
 
 texts:
   vn:
@@ -36,5 +29,7 @@ texts:
   en:
     upgrade_url: https://get.englishletics.com/en/?add-to-cart=8
     salespage_url: https://get.englishletics.com/en/people-going-premium-learn-english-faster-and-better/
+
+
 
 

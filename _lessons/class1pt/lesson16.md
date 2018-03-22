@@ -16,7 +16,7 @@ attr:
 	translation=""
     tag="h1" %}
 
-##### *TODO*
+##### *Presente contínuo e futuro simples*
 
 ## Vocabulary   *Vocabulário* 
 
@@ -31,10 +31,10 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=false start=46.56 stop=55.11
 	title="Examples of present continuous tense"        
-	translation="TODO"
+	translation="Exemplos de presente contínuo"
     tag="h2" %}
 
-**'Be' + verb + '~ing'**     *'Be' + động từ thêm + '~ing'* 
+**'Be' + verb + '~ing'**     *'Be' +verbo + '~ing'* 
 1. {% include play.html identifier="vocabulary" start=55.56 stop=59.11 %} **He is watering flowers.**      
 *Ele está regando flores.*      
 2. {% include play.html identifier="vocabulary" start=59.56 stop=63.11 %} **Chris is feeding the cats.**     
@@ -86,12 +86,12 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="examples1"  init=true
 	title="Examples of future simple tense"        
-	translation="TODO"
+	translation="Exemplos de futuro semples"
     tag="h2" %}
 
-**'Will' - when making a decision = volunteer**     *TODO*      
-**'Going to' - after the decision is made = plans**     *TODO*      
-**'Will' (or) 'going to' = predictions**     *TODO*     
+**'Will' - when making a decision = volunteer**     *'Will' - tomando uma decisão = fazer voluntariamente*      
+**'Going to' - after the decision is made = plans**     *'Going to' - depois de tomar uma decisão = planos*      
+**'Will' (or) 'going to' = predictions**     *'Will' (ou) 'going to' = previsões*     
 
 1. {% include play.html identifier="examples1" start=23.16 stop=29.11 %} **Daniel is going to compete with his girlfriend in the singing contest.**      
  *Daniel vai competir com sua namorada no concurso de canto.*      
@@ -129,11 +129,11 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="examples1"  init=false start=86.12 stop=122.11
 	title="Present continuous for future"        
-	translation="Thì hiện tại tiếp diễn dùng cho tương lai"
+	translation="Presente contínuo para futuro"
     tag="h2" %}
 
 **For fixed planned events in the future. Often used with a word for future events.**   
-*TODO* 
+*Para eventos planejados fixos no futuro. Muitas vezes usado com uma palavra indicando futuro.* 
 
 1. {% include play.html identifier="examples1" start=98.56 stop=101.11 %} **We are visiting my parents tomorrow.**      
 *Estamos visitando meus pais amanhã.*      
@@ -151,7 +151,7 @@ attr:
 	title="Example of Yes / No questions with simple future tense and present continuous"        
 	translation=""
     tag="h2" %}
-##### *TODO*   
+##### *Exemplos de perguntas Sim / Não com futuro simples e presente contínuo*   
 
 1. {% include play.html identifier="examples2" start=5.66 stop=8.11 %} **Are you going to feed the dog?**       
 *Você vai alimentar o cachorro?*      
@@ -204,7 +204,7 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="conversation"  init=true
 	title="Conversation"        
-	translation="TODO"
+	translation="Conversação"
     tag="h2" %}
 
 > {% include play.html identifier="conversation" start=04.56 stop=07.41 %} Person 1: **Will you be a guest at our wedding next month?**      

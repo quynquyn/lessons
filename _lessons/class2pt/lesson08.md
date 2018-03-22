@@ -13,7 +13,7 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="Vocabulary"  init=true
 	title="Lesson 2.8: Working life"        
-	translation="TODO"
+	translation="Vida de trabalho"
     tag="h1" %}
 
 ## Vocabulary   *Vocabulário*
@@ -21,7 +21,7 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Vocabulary"  init=false start=8 stop=53
 	title="Working condition"        
-	translation="TODO"
+	translation="Condição de trabalho"
     tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
@@ -36,7 +36,7 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Vocabulary"  init=false start=53 stop=72
 	title="Describing your job"        
-	translation="TODO"
+	translation="Descrevendo seu trabalho"
     tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
@@ -50,32 +50,32 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="Conversation"  init=true
 	title="Conversation"        
-	translation="TODO"
+	translation="Conversação"
     tag="h2" %}
 
 > {% include play.html identifier="Conversation" start=0.01 stop=3.78 %} Person 1: **I am a bit nervous. I am starting a new job next week.**  
-*TODO*    
+*Estou um pouco nervoso. Vou começar um novo trabalho na próxima semana.*    
 > {% include play.html identifier="Conversation" start=3.78 stop=5.34 %} Person 2: **Is it a well-paid job?**  
-*TODO*    
+*É um trabalho bem remunerado?*    
 > {% include play.html identifier="Conversation" start=5.34 stop=12.08 %} P1: **Oh yes. I am on a pretty good salary. One of the perks of the job is that I also get a company car.**  
-*TODO*    
+*Sim. Eu tenho um bom salário. Uma das vantagens do trabalho é que também consigo um carro da empresa.*    
 > {% include play.html identifier="Conversation" start=12.08 stop=15.19 %} P2: **That sounds great. Do you get a regular pay rise?**  
-*TODO*     
+*Isso parece ótimo. Você recebe um aumento salarial regular?*     
 > {% include play.html identifier="Conversation" start=15.19 stop=22.85 %} P1: **Unfortunately, I don't. But they run a system of flexi-time and I don't have to get stuck in traffic jam during rush hours.**   
-*TODO*     
+*Infelizmente, não recebo. Mas estou num sistema de horário de trabalho flexível e eu não tenho que ficar preso no engarrafamento durante as horas de pico.*     
 > {% include play.html identifier="Conversation" start=22.85 stop=25.26 %} P2: **It seems to be a very satisfying job.**  
-*TODO*     
+*Parece ser um trabalho muito satisfatório.*     
 > {% include play.html identifier="Conversation" start=25.26 stop=28.08 %} P1: **Definitely. What is your job like?**  
-*TODO*    
+*Definitivamente. Como é seu trabalho?*    
 > {% include play.html identifier="Conversation" start=28.08 stop=37.85 %} P2: **It's a quite boring and repetitive job. I have to be stuck behind a desk all day with so much boring paperwork and I find myself doing the same thing day in day out.**  
-*TODO*     
+*É um trabalho bastante chato e repetitivo. Eu tenho que ficar presa detrás de uma mesa o dia todo com tanta papelada chata e me vejo fazendo a mesma coisa dia após dia.*     
 > {% include play.html identifier="Conversation" start=37.85 stop=40.63 %} P1: **If you feel miserable, you need to change your job.**  
-*TODO*    
+*Se você se sentir miserável, você precisa mudar seu emprego.*    
   
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=true
 	title="Explanation"        
-	translation="TODO"
+	translation="Explicação"
     tag="h2" %}
 
 {%  include voice.html attr=page.attr  
@@ -96,7 +96,7 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=20.22 stop=34.25
 	title="2. Unfortunately, ..."        
-	translation="Infelizmente"
+	translation="Infelizmente, ..."
     tag="h3" %}
 
 1. **We tried to get tickets, but unfortunately they were already sold out.**  
@@ -122,7 +122,7 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=61.29 stop=74.22
 	title="4. What's your job like?"        
-	translation="Công việc của bạn như thế nào?"
+	translation="Como é seu trabalho?"
     tag="h3" %}
 
 1. **What's the weather like?**  
@@ -138,7 +138,7 @@ attr:
 	translation=""
     tag="h3" %}
 ##### *É um trabalho bastante chato e repetitivo.*
-**quite**     *khá*
+**quite**     *bastante*
 
 1. **I'm quite tired.**  
 *Estou bastante cansado.*  

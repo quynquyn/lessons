@@ -12,7 +12,7 @@ attr:
 {%  include voice.html attr=page.attr        ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Vocabulary"  init=true
 	title="Lesson 2.9: Shopping"  
-	translation="TODO"      
+	translation="Compras"      
     tag="h1" %}
 
 
@@ -21,7 +21,7 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Vocabulary"  init=false start=7 stop=64
 	title="Shopping items"        
-	translation="TODO"
+	translation="Itens para comprar"
     tag="h3" %}
 
 
@@ -36,7 +36,7 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Vocabulary"  init=false start=64 stop=100
 	title="Styles"        
-	translation="TODO"
+	translation="Estilos"
     tag="h3" %}
 
 
@@ -52,7 +52,7 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Vocabulary"  init=false start=100 stop=116
 	title="Shopping places"        
-	translation="TODO"
+	translation="Locais de compras"
     tag="h3" %}
 
 
@@ -67,7 +67,7 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Vocabulary"  init=false start=116 stop=152
 	title="Have you ever...?"        
-	translation="TODO"
+	translation="Você já...?"
     tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
@@ -82,46 +82,46 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Conversation"  init=true
 	title="Conversation"        
-	translation="TODO"
+	translation="Conversação"
     tag="h2" %}
 
 
 > {% include play.html identifier="Conversation" start=0.01 stop=1.97 %} Stuart: **Hey, great shoes!**  
-*TODO*   
+*Ei, ótimos sapatos!*   
 > {% include play.html identifier="Conversation" start=1.97 stop=4.27 %} Kim: **Thanks. I bought it yesterday.**   
-*TODO*    
+*Obrigada. Comprei ontem.*    
 > {% include play.html identifier="Conversation" start=4.27 stop=6.10 %} Stuart: **Are you a shopaholic?**   
-*TODO*   
+*Você é viciada em compras?*   
 > {% include play.html identifier="Conversation" start=6.10 stop=7.22 %} Kim: **No, I am not.**   
-*TODO*   
+*Não, não sou.*   
 > {% include play.html identifier="Conversation" start=7.22 stop=10.45 %} Stuart: **Are you sure? So, how important is fashion to you?**   
-*TODO*    
+*Tem certeza? Então, quão importante é a moda para você?*    
 > {% include play.html identifier="Conversation" start=10.45 stop=14.22 %} Kim: **It means nothing to me. I want to spend my money on travelling.**   
-*TODO*    
+*Não significa nada para mim. Eu quero gastar meu dinheiro em viajar.*    
 > {% include play.html identifier="Conversation" start=14.22 stop=19.30 %} Stuart: **Ah, I got it. But could you tell me where do you usually go shopping?**    
-*TODO*    
+*Entendi. Mas poderia me dizer onde costuma ir às compras?*    
 > {% include play.html identifier="Conversation" start=19.30 stop=26 %} Kim: **I usually buy clothes in Lotte supermarket with my friend. She always tells me it is a shopper’s paradise.**    
-*TODO*    
+*Eu costumo comprar roupas no supermercado Lotte com minha amiga. Ela sempre me conta que é um paraíso de compras.*    
 > {% include play.html identifier="Conversation" start=26 stop=31.95 %} Stuart: **Really? I will go shopping there some day. Have you ever bought second-hand clothes?**    
-*TODO*    
+*Mesmo? Eu vou fazer compras lá algum dia. Você já comprou roupas de segunda mão?*    
 > {% include play.html identifier="Conversation" start=31.95 stop=38.22 %} Kim: **Yes, once before. But my mother told me that I shouldn’t wear them, so it was my first time and my last.**    
-*TODO*    
+*Sim, uma vez antes. Mas minha mãe me disse que eu não deveria usá-los, então foi minha primeira vez e minha última.*    
 > {% include play.html identifier="Conversation" start=38.22 stop=41.52 %} Stuart: **Aha. Have you ever wanted to have a tattoo?**    
-*TODO*    
+*Aha, rsrs. Você já pensou em se tatuar?*    
 > {% include play.html identifier="Conversation" start=41.52 stop=45.75 %} Kim: **Never ever. I don’t like it and I will never ever want to have it.**   
-*TODO*    
+*Jamais. Eu não gosto disso e nunca vou querer tê-lo.*    
 > {% include play.html identifier="Conversation" start=45.75 stop=48.89 %} Stuart: **Neither do I. What is your fashion style?**    
-*TODO*    
+*Nem eu. Qual é o seu estilo de moda?*    
 > {% include play.html identifier="Conversation" start=48.89 stop=54.71 %} Kim: **I prefer it to be stylish and comfortable. By the way, does my shirt go well with the jeans?**    
-*TODO*    
+*Prefiro que meu estilo de moda seja à moda e cómodo. A propósito, minha camisa está bem com o jeans?*    
 > {% include play.html identifier="Conversation" start=54.71 stop=56.58 %} Stuart: **Yes, it looks great on you.**  
-*TODO*   
+*Sim, parece ótimo em você.*   
 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Explanation"  init=true
 	title="Explanation"        
-	translation="TODO"
+	translation="Explicação"
     tag="h2" %}
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
@@ -140,8 +140,8 @@ attr:
 	title="2. How important is fashion to you?"
 	translation=""
     tag="h3" %}
-##### Quão importante é a moda para você?
-**How + adjective**     *TODO*
+##### *Quão importante é a moda para você?*
+**How + adjective**     *How (como) + adjetivo*
 
 1. **How important am I to you?**  
 *Quão importante sou para você?*    
@@ -163,7 +163,7 @@ attr:
 1. **I didn't get it.**  
 *Não entendi.*   
 2. **Did you get it?**  
-*Não entendi.*   
+*Entendeu.*   
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Explanation"  init=false start=43.36 stop=58.48
@@ -180,7 +180,7 @@ attr:
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Explanation"  init=false start=61.49 stop=85.94 
-	title="5. I prefer my fashion style to be stylish and comfortable"
+	title="5. I prefer my fashion style to be stylish and comfortable."
 	translation=""
     tag="h3" %}
 ##### *Prefiro que meu estilo de moda seja à moda e cómodo.*
@@ -205,7 +205,7 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Explanation"  init=false start=107.86 stop=122.76
 	title="7. It looks great on you."
-	translation="Parece ótimo em você. "
+	translation="Parece ótimo em você."
     tag="h3" %}
 
 1. **You look great in this dress.**  

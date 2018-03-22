@@ -257,7 +257,7 @@ attr:
 
 > {% include play.html identifier="conversation" start=2.67 stop=6.58 %} Person 1: **Does the cinema in the centre of the city play good movies?**       
 *Rạp phim ở trung tâm thành phố có chiếu phim hay không?*         
-> {% include play.html identifier="conversation" start=6.27 stop=11.28 %} Person 2: **I think so. We went there last week and they had over 5 movies playing at once!**       
+> {% include play.html identifier="conversation" start=6.27 stop=11.28 %} Person 2: **I think so. We went there last week and they had over five movies playing at once!**       
 *Tôi nghĩ vậy. Chúng tôi đã ở đó tuần trước and họ có hơn 5 bộ phim chiếu cùng một lúc!*         
 > {% include play.html identifier="conversation" start=11.27 stop=15.78 %} P1: **That sounds cool. My cousin is visiting us this weekend and I don't know where to take her.**       
 *Nghe hay đấy. Em họ của tôi sẽ đến thăm chúng tôi vào cuối tuần này và tôi không biết phải dẫn em ấy đi đâu.*         
@@ -273,7 +273,7 @@ attr:
 *Tuyệt. Bây giờ tôi phải đi rồi. Tôi đang dạy tiếng Đức cho bạn tôi.*         
 > {% include play.html identifier="conversation" start=32.27 stop=34.18 %} P1: **Alright. Good luck!**       
 *Ừ. Chúc may mắn!*         
-> {% include play.html identifier="conversation" start=34.27 stop=36.28 %} P2: **Thanks! I think I'll need it...**       
+> {% include play.html identifier="conversation" start=33.47 stop=36.28 %} P2: **Thanks! I think I'll need it...**       
 *Cảm ơn! Tôi nghĩ là tôi sẽ cần nó...*         
 
 
