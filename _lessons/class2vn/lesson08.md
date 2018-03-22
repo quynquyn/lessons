@@ -103,6 +103,10 @@ attr:
 2. **Unfortunately, there's nothing I can do about your problem.**  
 *Thật không may là tôi không thể làm gì với vấn đề của bạn cả.*  
 
+{% if site.trialdeploy %}
+  {% include list_placeholder.html  attr=page.attr     start=3 stop=6 %}
+  {% else %}
+
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=36.97 stop=57.45
 	title="3. It seems to be very satisfying job."        
@@ -156,3 +160,6 @@ attr:
 *Tôi nhận thấy mình đang khóc dưới gầm bàn.*   
 2. **I find myself with no friends at all.**  
 *Tôi nhận ra mình không có bạn bè gì cả.*  
+
+{% endif %}
+

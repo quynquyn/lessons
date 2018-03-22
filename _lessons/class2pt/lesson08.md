@@ -104,6 +104,11 @@ attr:
 2. **Unfortunately, there's nothing I can do about your problem.**  
 *Infelizmente, não há nada que eu possa fazer sobre o seu problema.*  
 
+{% if site.trialdeploy %}
+  {% include list_placeholder.html  attr=page.attr     start=3 stop=6 %}
+  {% else %}
+
+
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=36.97 stop=57.45
 	title="3. It seems to be very satisfying job."        
@@ -159,4 +164,4 @@ attr:
 *Eu me encontro see nenhum amigo.*  
 
 
-
+{% endif %}

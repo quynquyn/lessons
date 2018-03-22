@@ -109,7 +109,7 @@ attr:
 *Chúng tôi là bạn bè 7 năm từ đó*      
 > {% include play.html identifier="conversation" start=35.7 stop=40.1 %} P1: **Nice. What does your friend look like?**   
 *Rất tốt. Bạn ấy trông như thế nào?*         
-> {% include play.html identifier="conversation" start=40.3 stop=64.3 %} P2: **I have to say that she bears a strong resemblance to one of my cousins. She is not really   good-looking. She is not really tall and a little underweight. She’s got a face with big eyes, a flat nose and some acne on her face. The most attractive thing on her face are her full lips.**   
+> {% include play.html identifier="conversation" start=40.3 stop=64.3 %} P2: **I have to say that she bears a strong resemblance to one of my cousins. She is not really good-looking. She is not really tall and a little underweight. She’s got a face with big eyes, a flat nose and some acne on her face. The most attractive thing on her face are her full lips.**   
 *Tôi phải nói là cô ấy trông giống một người em họ của tôi lắm. Cô ấy không đẹp lắm. Cô ấy cũng không cao lắm và hơi gầy. Cố ấy có khuôn mặt với mắt to, mũi thấp và có mụn trên mặt. Đặc điểm thu hút nhất là đôi môi đầy đặn*   
 > {% include play.html identifier="conversation" start=64.5 stop=68.1 %} P1: **What is the best thing about her?**   
 *Điều gì là tốt nhất của cô ấy?*   

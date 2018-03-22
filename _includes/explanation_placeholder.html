@@ -18,14 +18,14 @@
 
 {% elsif include.attr.lang == "pt" %}
 
-  **{{ include.stop - include.start }} more sentences hidden...** *... *
+  **{{ include.stop - include.start }} more sentences hidden...** *{{ include.stop - include.start }} mais frases escondidas ...*
   
   {%  include upgrade_box.html
       attr=include.attr
-      text_main="<h4>Premium</h4> Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ. 22 USD, khoảng 500k VND"
-      text_button="Được truy cập ở đây"
+      text_main="<h4>Premium</h4> Compre a versão premium e obtenha acesso agora. Por apenas US$22."
+      text_button="Faça upgrade agora"
       url_button=site.texts.pt.upgrade_url
-      text_explanation="xem chi tiết"
+      text_explanation="veja detalhes"
       url_explanation=site.texts.pt.salespage_url 
   %}
   
@@ -40,7 +40,7 @@
       text_main="<h4>Premium</h4> Purchase the premium version and get access right now. Only 22 USD."
       text_button="Được truy cập ở đây"
       url_button=site.texts.pt.upgrade_url
-      text_explanation="xem chi tiết"
+      text_explanation="see details"
       url_explanation=site.texts.pt.salespage_url 
   %}
   
