@@ -91,33 +91,33 @@ attr:
 	translation="Đối thoại"
     tag="h2" %}
 
-> {% include play.html identifier="conversation" start=2 stop=6.2 %} Person 1: **Do you have a best friend?**   
+> {% include play.html identifier="conversation" start=4 stop=6.2 %} Person 1: **Do you have a best friend?**   
 *Bạn có bạn thân không?*     
-> {% include play.html identifier="conversation" start=6.2 stop=9.2 %} Person 2: **My best friends is Anna.**   
+> {% include play.html identifier="conversation" start=7.1 stop=9.2 %} Person 2: **My best friends is Anna.**   
 *Bạn thân của tôi là Anna*   
-> {% include play.html identifier="conversation" start=9.4 stop=12.2 %} P1: **How old is she?**   
+> {% include play.html identifier="conversation" start=10.4 stop=12.2 %} P1: **How old is she?**   
 *Cô ấy bao nhiêu tuổi?*   
-> {% include play.html identifier="conversation" start=12.8 stop=16.9 %} P2: **She is one year older than me.**   
+> {% include play.html identifier="conversation" start=13.8 stop=16.9 %} P2: **She is one year older than me.**   
 *Cô ấy hơn tôi 1 tuổi*   
-> {% include play.html identifier="conversation" start=17.1 stop=20.5 %} P1: **When did you first meet her?**   
+> {% include play.html identifier="conversation" start=18.1 stop=20.5 %} P1: **When did you first meet her?**   
 *Bạn gặp cô ấy làn đầu khi nào?*      
-> {% include play.html identifier="conversation" start=20.7 stop=27.1 %} P2: **I first met her when I was 18 years old at our university.**   
+> {% include play.html identifier="conversation" start=21.8 stop=27.1 %} P2: **I first met her when I was 18 years old at our university.**   
 *Tôi gặp cô ấy làn đầu năm tôi 18 tuổi tại trường đại học*      
-> {% include play.html identifier="conversation" start=27.3 stop=31.1 %} P1: **How long have you been friends?**   
+> {% include play.html identifier="conversation" start=28.5 stop=31.1 %} P1: **How long have you been friends?**   
 *Hai người là bạn bao lâu rồi?*    
-> {% include play.html identifier="conversation" start=31.1 stop=35.7 %} P2: **We’ve been friends for seven years since then.**   
+> {% include play.html identifier="conversation" start=32.1 stop=35.7 %} P2: **We’ve been friends for seven years since then.**   
 *Chúng tôi là bạn bè 7 năm từ đó*      
-> {% include play.html identifier="conversation" start=35.7 stop=40.1 %} P1: **Nice. What does your friend look like?**   
+> {% include play.html identifier="conversation" start=37.1 stop=40.1 %} P1: **Nice. What does your friend look like?**   
 *Rất tốt. Bạn ấy trông như thế nào?*         
-> {% include play.html identifier="conversation" start=40.3 stop=64.3 %} P2: **I have to say that she bears a strong resemblance to one of my cousins. She is not really good-looking. She is not really tall and a little underweight. She’s got a face with big eyes, a flat nose and some acne on her face. The most attractive thing on her face are her full lips.**   
+> {% include play.html identifier="conversation" start=41.5 stop=64.3 %} P2: **I have to say that she bears a strong resemblance to one of my cousins. She is not really good-looking. She is not really tall and a little underweight. She’s got a face with big eyes, a flat nose and some acne on her face. The most attractive thing on her face are her full lips.**   
 *Tôi phải nói là cô ấy trông giống một người em họ của tôi lắm. Cô ấy không đẹp lắm. Cô ấy cũng không cao lắm và hơi gầy. Cố ấy có khuôn mặt với mắt to, mũi thấp và có mụn trên mặt. Đặc điểm thu hút nhất là đôi môi đầy đặn*   
-> {% include play.html identifier="conversation" start=64.5 stop=68.1 %} P1: **What is the best thing about her?**   
+> {% include play.html identifier="conversation" start=65.1 stop=68.1 %} P1: **What is the best thing about her?**   
 *Điều gì là tốt nhất của cô ấy?*   
-> {% include play.html identifier="conversation" start=68.2 stop=86.4 %} P2: **She is humble. She rarely talks about herself or what she has and she doesn’t look down on people. She’s also hilarious. I never feel bored when she’s around. To be honest, she is the most hilarious person I’ve ever known.**   
+> {% include play.html identifier="conversation" start=69.8 stop=86.4 %} P2: **She is humble. She rarely talks about herself or what she has and she doesn’t look down on people. She’s also hilarious. I never feel bored when she’s around. To be honest, she is the most hilarious person I’ve ever known.**   
 *Cô ấy rất khiêm nhường. Cô ấy ít khi nào nói về bản thân hoặc những gì cô ấy có và cô ấy không xem thường người khác. Cô ấy rất là hài hước. Tôi không bao giờ cảm thấy chán khi cô ấy bên cạnh. Thật sự, cô ấy là người hài hước nhất mà tôi biết.*     
-> {% include play.html identifier="conversation" start=86.5 stop=93.3 %} P1: **What do you think is the most important thing in friendship?**   
+> {% include play.html identifier="conversation" start=88.1 stop=93.3 %} P1: **What do you think is the most important thing in friendship?**   
 *Bạn nghĩ điều gì là quan trọng nhất trong tình bạn?*   
-> {% include play.html identifier="conversation" start=93.3 stop=101.5 %} P2: **Well, never telling lies, in my opinion, is the most important thing in friendship.**   
+> {% include play.html identifier="conversation" start=94.6 stop=101.5 %} P2: **Well, never telling lies, in my opinion, is the most important thing in friendship.**   
 *Ahm, Không bao giờ nói dối, theo quan điểm của tôi, là quan trọng nhất trong tình bạn.*    
 
 {%  include voice.html attr=page.attr  

@@ -73,7 +73,7 @@ attr:
 
 
 
-> {% include play.html identifier="Conversation" start=0.4 stop=2.88 %} Person 1: **Are you waiting for someone? Where are you going?**  
+> {% include play.html identifier="Conversation" start=0.1 stop=2.88 %} Person 1: **Are you waiting for someone? Where are you going?**  
 *Bạn đang đợi ai à? Bạn đang đi đâu thế?*  
 > {% include play.html identifier="Conversation" start=2.88 stop=11.65 %} Person 2: **Yeah, my brother. He’s going to give me a ride home. We’re having a party for my grandmother. It’s her 80th birthday. Everyone will be there.**   
 *Ừ, anh trai tôi. Anh ấy sẽ chở tôi về nhà. Chúng tôi sẽ có một bữa tiệc cho bà của tôi. Đó là sinh nhật lần thứ 80 của bà. Mọi người đều sẽ ở đó.*   

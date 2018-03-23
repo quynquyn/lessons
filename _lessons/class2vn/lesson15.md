@@ -47,7 +47,7 @@ attr:
 *Theo ý kiến của tôi thì tôi nghĩ anh ta tuyệt.*     
 > {% include play.html identifier="conversation" start=14.17 stop=16.85 %} P2: **Oooh, what’s this I am hearing? You might be in love.**          
 *Ồ, tôi đang nghe cái gì đây? Chắc là bạn đang yêu rồi.*     
-> {% include play.html identifier="conversation" start=16.85 stop=35.71 %} P1: **Yes, it is the first time I’ve fallen head over heels in love. So much in love… but he doesn’t even notice me. We share so many common interests and we see things in the same way, we can talk for hours. But that’s it. He   just looks at me as a good friend, nothing less, nothing more.**   
+> {% include play.html identifier="conversation" start=16.85 stop=35.71 %} P1: **Yes, it is the first time I’ve fallen head over heels in love. So much in love… but he doesn’t even notice me. We share so many common interests and we see things in the same way, we can talk for hours. But that’s it. He just looks at me as a good friend, nothing less, nothing more.**   
 *Ừ, đây là lần đầu tiên tôi yêu say đắm vậy. Rất là yêu. Nhưng anh ấy thậm chí còn không chú ý đến tôi. Chúng tôi chia sẻ nhiều sở thích chung và suy nghĩ như nhau, chúng tôi có thể nói chuyện cả giờ đồng hồ. Nhưng mà đấy, anh ấy chỉ xem tôi như một người bạn tốt không hơn không kém.*  
 > {% include play.html identifier="conversation" start=35.71 stop=39.74 %} P2: **How long have you been in love with him? Have you asked him how he feels about you?**       
 *Bạn đã yêu anh ta bao lâu rồi? Bạn có hỏi anh ấy thấy sao về bạn chưa?*  

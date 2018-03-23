@@ -12,7 +12,7 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=true
 	title="Lesson 2.16: Love 2"        
-	translation="TODO"
+	translation="Amor 2"
     tag="h1" %}
 
 ## Vocabulary   *Vocabulário*
@@ -29,36 +29,36 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="examples1"  init=true
 	title="Conversation"        
-	translation="Đối thoại"
+	translation="Conversação"
     tag="h2" %}
 
 > {% include play.html identifier="examples1" start=1.84 stop=7.23 %} Person 1 (female): **Listen, I want to clear up a few things with you right away. You know what I mean, right?**   
-*TODO*    
+*Olha, quero esclarecer algumas coisas com você imediatamente. Você sabe o que quero dizer, sim?*    
 > {% include play.html identifier="examples1" start=7.23 stop=8.08 %} Person 2 (male): **Of course.**   
-*TODO*   
+*Pois não!*   
 > {% include play.html identifier="examples1" start=8.08 stop=21.72 %} P1: **After finding out about this, I realized that I need to talk to you straight away, but I didn’t have the courage. We’ve known each other for a long time. I’ve always thought a lot about you. Oh god, I don’t know how to tell you this...**   
-*TODO*    
+*Depois de descobrir isso, percebi que precisava falar com você imediatamente, mas não tive coragem. Nós nos conhecemos há muito tempo. Eu sempre pensei muito em você. Oh deus, eu não sei como te dizer isso ...*    
 > {% include play.html identifier="examples1" start=21.72 stop=30.83 %} P2: **Come on, don’t be shy. Actually, you don’t need to tell me this, we don’t need words anymore. You are my true friend, only a true friend, nothing more.**   
-*TODO*  
+*Não seja tímida. Na verdade, você não precisa me dizer, não precisamos mais de palavras. Você é minha verdadeira amiga, mas apenas uma amiga, nada mais.*  
 > {% include play.html identifier="examples1" start=30.83 stop=42.24 %} P1: **Really? What an idiot I am. I thought you felt an interest for me. I thought there was more between us than just a simple friendship. Is it because tennis is the only passion in your life?**   
-*TODO*   
+*Mesmo? Que idiota eu sou. Eu pensei que você tinha um interesse em mim. Eu pensei que havia mais entre nós do que apenas uma simples amizade. É porque o tênis é a única paixão em sua vida?*   
 > {% include play.html identifier="examples1" start=42.24 stop=47.21 %} P2: **Sorry. I didn’t mean to upset you. The truth is that there is someone else in my heart.**    
-*TODO*    
+*Desculpa, não queria te incomodar, mas é assim que me sinto. A verdade é que há outra pessoa no meu coração.*    
 > {% include play.html identifier="examples1" start=47.21 stop=53.38 %} P1: **Oh. Ok, it’s better the true reason for your refusal was because of another woman, and not tennis.**    
-*TODO*   
+*Oh. Está bem, é melhor que a verdadeira razão para a sua recusa é por causa de outra mulher e não do tênis.*   
 > {% include play.html identifier="examples1" start=53.38 stop=55.51 %} P2: **I think of you more than sports, you know.**  
-*TODO*    
+*Eu penso em você mais do que em esportes, você sabe.*    
 > {% include play.html identifier="examples1" start=55.51 stop=60.96 %} P1: **Don’t worry. Let’s pretend none of this happened. Let bygones be bygones. Ok?**    
-*TODO*    
+*Não se preocupe. Vamos fingir que nada disso aconteceu. Esquecer o passado. Está bem?*    
 > {% include play.html identifier="examples1" start=60.96 stop=63.30 %} P2: **Of course, and no hard feelings.**   
-*TODO*     
+*Claro, e sem ressentimentos.*     
 > {% include play.html identifier="examples1" start=63.30 stop=65.31 %} P1: **Sure. See you in a bit.**    
-*TODO*    
+*Combinado. Te vejo daqui a pouco.*    
 
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=true
 	title="Explanation"        
-	translation="TODO"
+	translation="Explicação"
     tag="h2" %}
 
 {%  include voice.html attr=page.attr  
@@ -94,10 +94,10 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=41.16 stop=51.61
 	title="3. I thought you felt an interest for me."        
-	translation="Eu pensei que você sentia um interesse para mim."
+	translation="Eu pensei que você tinha interesse em mim."
     tag="h3" %}
 
-**I thought...**     *eu pensei*
+**I thought...**     *eu pensei...*
 
 1. **I thought he wanted to marry me.**  
 *Eu pensei que ele queria se casar comigo.*    

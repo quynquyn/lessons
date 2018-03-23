@@ -13,7 +13,7 @@ attr:
 {%  include voice.html attr=page.attr        ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=true
 	title="Lesson 2.21: Sickness"
-	translation="TODO"      
+	translation="Doença"      
     tag="h1" %}
 
 ## Vocabulary   *Vocabulário*
@@ -21,7 +21,7 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=false start=5 stop=37
 	title="Sickness"        
-	translation="TODO"
+	translation="Doença"
     tag="h3" %}
 
 
@@ -36,7 +36,7 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=false start=37 stop=77
 	title="Advice"        
-	translation="TODO"
+	translation="Recomendação"
     tag="h3" %}
 
 
@@ -53,47 +53,47 @@ attr:
 {%  include voice.html attr=page.attr    HHHHHHHHHHHHHHHHHHHH=2222222222222222222
 	identifier="conversation"  init=true
 	title="Conversation"        
-	translation="TODO"
+	translation="Conversação"
     tag="h2" %}
 
 > {% include play.html identifier="conversation" start=2.01 stop=4.43 %} Person 1: **Hi, I’m not feeling too well.**    
-*TODO*  
+*Oi, não estou me sentindo muito bem.*  
 > {% include play.html identifier="conversation" start=4.43 stop=7.22 %} Person 2: **Yes, you look tired. What’s the matter?**    
-*TODO*    
+*sim, você parece cansado. O que tem?*    
 > {% include play.html identifier="conversation" start=7.22 stop=8.65 %} P1: **I have a sore throat.**     
-*TODO*  
+*Estou com dor de garganta.*  
 > {% include play.html identifier="conversation" start=8.65 stop=9.82 %} P2: **Do you have a cough?**    
-*TODO*  
+*Você tem tosse?*  
 > {% include play.html identifier="conversation" start=11.09 stop=11.34 %} P1: **No, I don’t.**    
-*TODO*  
+*Não tenho.*  
 > {% include play.html identifier="conversation" start=11.34 stop=12.62 %} P2: **Do you have an earache?**    
-*TODO*  
+*Você tem dor de ouvido?*  
 > {% include play.html identifier="conversation" start=12.62 stop=17.64 %} P1: **Kind of, my right ear hurts a little and I have a runny nose and a bad headache.**      
-*TODO*  
+*Mais ou menos, meu ouvido direito dói um pouco e tenho uma coriza e uma dor de cabeça forte.*  
 > {% include play.html identifier="conversation" start=17.64 stop=19.95 %} P2: **That’s too bad. Have you seen a doctor?**      
-*TODO*  
+*Isso é ruim. Você já viu um médico?*  
 > {% include play.html identifier="conversation" start=19.95 stop=23.89 %} P1: **No. I’m fine, really. I think I just have a cold.**  
-*TODO*      
+*Não, estou bem, na verdade. Eu acho que só tenho um resfriado.*      
 > {% include play.html identifier="conversation" start=23.89 stop=34.08 %} P2: **You have a fever. Take some vitamin C and drink lots of water! Relax, don’t work too hard or you are gonna get worse. Why don’t you go home and have a rest now?**    
-*TODO*  
+*ocê tem febre. Pegue um pouco de vitamina C e beba muita água! Relaxe, não trabalhe demais ou vai piorar. Por que você não vai para casa e descansa agora?*  
 > {% include play.html identifier="conversation" start=34.08 stop=36.98 %} P1: **Good idea. Can you take notes for me in class?**    
-*TODO*  
+*Boa ideia. Você pode tomar notas para mim na aula?*  
 > {% include play.html identifier="conversation" start=36.98 stop=39.18 %} P2: **Sure. I hope you feel better soon.**    
-*TODO*  
+*Claro. Espero que te sintas melhor em breve.*  
 > {% include play.html identifier="conversation" start=39.18 stop=40.00 %} P1: **Thanks.**  
-*TODO*  
+*Obrigado.*  
 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="explanation"  init=true
 	title="Explanation"        
-	translation="TODO"
+	translation="Explicação"
     tag="h2" %}
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=3.17 stop=19.57
 	title="1. I have a runny nose and a bad headache."
-	translation="Eu tenho uma coriza e uma dor de cabeça ruim."
+	translation="Eu tenho uma coriza e uma dor de cabeça forte."
     tag="h3" %}
 
 1. **I have a massive headache and my stomach hurts.**  
@@ -135,8 +135,8 @@ attr:
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=59.23 stop=73.37
-	title="4. I hope you feel better soon. "
-	translation="Tôi hi vọng bạn sẽ thấy tốt hơn."
+	title="4. I hope you feel better soon."
+	translation="Espero que te sintas melhor em breve."
     tag="h3" %}
 
 1. **I hope your headache subsides and you feel a lot better.**  

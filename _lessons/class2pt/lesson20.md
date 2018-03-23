@@ -13,7 +13,7 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=true
 	title="Lesson 2.20: A healthy lifestyle"        
-	translation="TODO"
+	translation="Um estilo de vida saudável"
     tag="h1" %}
 
 
@@ -22,7 +22,7 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=false start=7 stop=54
 	title="Healthy lifestyle"        
-	translation="TODO"
+	translation="Estilo de vida saudável"
     tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
@@ -36,7 +36,7 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=false start=54 stop=81
 	title="Unhealthy lifestyle"        
-	translation="TODO"
+	translation="Estilo de vida não saudável"
     tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
@@ -50,38 +50,38 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="conversation"  init=true
 	title="Conversation"        
-	translation="TODO"
+	translation="Conversação"
     tag="h2" %}
 
 > {% include play.html identifier="conversation" start=2.85 stop=5.65 %} Person 1: **Are you alright? You look a bit tired.**  
-*TODO*     
+*Você está bem? Você parece um pouco cansada.*     
 > {% include play.html identifier="conversation" start=5.65 stop=10.05 %} Person 2: **I am. No idea why. I got more than 8 hours of sleep last night.**  
-*TODO*        
+*Estou. Não sei do porquê. Eu obtive mais de 8 horas de sono na noite passada.*        
 > {% include play.html identifier="conversation" start=10.05 stop=14.21 %} P1: **Did you do a lot of physical activity yesterday? Maybe you worked too much.**  
-*TODO*       
+*Você fez muitas atividades físicas ontem? Talvez trabalhou demais.*       
 > {% include play.html identifier="conversation" start=14.21 stop=18.30 %} P2: **No, that's not the case. I don't do too much physical activity.**  
-*TODO*       
+*Não, não é o caso. Eu não faço muita atividade física.*       
 > {% include play.html identifier="conversation" start=18.30 stop=25.61 %} P1: **Hmm, maybe you should do some exercise when you get home. Your body probably slowed down because of so little activity.**  
-*TODO*       
+*Hmm, talvez deva fazer algum exercício quando chegar em casa. Seu corpo provavelmente desacelerou por causa de tão pouca atividade.*       
 > {% include play.html identifier="conversation" start=25.61 stop=29.25 %} P2: **Does walking count? I was thinking of getting some pizza for lunch.**  
-*TODO*        
+*Conta caminhar? Eu estava pensando em pegar uma pizza para o almoço.*        
 > {% include play.html identifier="conversation" start=29.25 stop=37.07 %} P1: **Walking is a great exercise, but I think you should eat healthier. You should eat more vegetables and fruits if you want to stay healthy.**  
-*TODO*       
+*Caminhar é um ótimo exercício, mas acho que você deve comer mais saudável. Você deve comer mais legumes e frutas se quiser ficar saudável..*       
 > {% include play.html identifier="conversation" start=37.07 stop=39.00 %} P2: **Ugh, I don't like fruits.**  
-*TODO*      
+*Eu não gosto de frutas.*      
 > {% include play.html identifier="conversation" start=39.00 stop=42.26 %} P1: **They're healthy! You eat too much junk food.**  
-*TODO*       
+*Eles são saudáveis! Você come muita comida lixo.*       
 > {% include play.html identifier="conversation" start=42.26 stop=45.57 %} P2: **So what? One or two bad decisions won't ruin my life.**  
-*TODO*       
+*E daí? Uma ou duas decisões ruins não vão arruinar minha vida.*       
 > {% include play.html identifier="conversation" start=45.57 stop=54.73 %} P1: **One or two?! You have bad posture. You drink too much alcohol. You eat too much sugar. Your breath smells like a dirty sock and you sleep too much.**   
-*TODO*       
+*Um ou dois?! Sua postura é realmente ruim. Você bebe muito álcool. Você come muito açúcar. Seu hálito cheira a uma meia suja e você dorme demais.*       
 > {% include play.html identifier="conversation" start=54.73 stop=57.23 %} P2: **Yeah. Okay. I need to change.**  
-*TODO*    
+*Sim. Está bem. Eu preciso mudar.*    
 
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=true
 	title="Explanation"        
-	translation="TODO"
+	translation="Explicação"
     tag="h2" %}
 
 {%  include voice.html attr=page.attr  
@@ -118,7 +118,7 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=false start=40.52 stop=58.52
 	title="3. I got more than 8 hours of sleep last night."        
-	translation="Eu obtive mais de 8 horas de sono na noite passada. "
+	translation="Eu obtive mais de 8 horas de sono na noite passada."
     tag="h3" %}
 
 1. **I got only 4 hours of sleep last night because my sister kept snoring.**   
@@ -144,7 +144,7 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=false start=80.51 stop=97.24
 	title="5. Are you alright? You look a bit tired."        
-	translation="Você está bem? Você parece um pouco cansado."
+	translation="Você está bem? Você parece um pouco cansada."
     tag="h3" %}
 
 1. **Is Mary okay? She looks like she didn't sleep for two days.**   

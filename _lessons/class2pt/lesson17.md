@@ -13,7 +13,7 @@ attr:
 {%  include voice.html attr=page.attr        ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=true
 	title="Lesson 2.17: University life"  
-	translation="TODO"      
+	translation="Vida universitária"      
     tag="h1" %}
 
 
@@ -22,7 +22,7 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=false start=6 stop=41
 	title="Subject"        
-	translation="TODO"
+	translation="Matéria"
     tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
@@ -36,7 +36,7 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=false start=41 stop=59
 	title="Major"        
-	translation="TODO"
+	translation="Disciplina principal"
     tag="h3" %}
 
 	
@@ -51,7 +51,7 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=false start=59 stop=66
 	title="Exams"        
-	translation="TODO"
+	translation="Exames"
     tag="h3" %}
 
 
@@ -67,42 +67,42 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="conversation"  init=true
 	title="Conversation"        
-	translation="TODO"
+	translation="Conversação"
     tag="h2" %}
 
 
 > {% include play.html identifier="conversation" start=2.77 stop=5.29 %} Person 1: **Did you study for today's exam?**    
-*TODO*   
+*Você estudou para o exame de hoje?*   
 > {% include play.html identifier="conversation" start=5.29 stop=7.09 %} Person 2: **What?! What exam?**       
-*TODO*  
+O que?! Que exame?*  
 > {% include play.html identifier="conversation" start=7.09 stop=10.37 %} P1: **The English exam. It is today. Didn't you know?**     
-*TODO*   
+*O exame de inglês. É hoje. Você não sabia?*   
 > {% include play.html identifier="conversation" start=10.37 stop=12.70 %} P2: **Are you kidding? I had no idea!**    
-*TODO*  
+*Você está brincando? Eu não tinha ideia!*  
 > {% include play.html identifier="conversation" start=12.70 stop=16.17 %} P1: **Really? Even though the professor said it multiple times last week?**    
-*TODO*  
+*Mesmo? Mesmo que o professor disse várias vezes na semana passada?*  
 > {% include play.html identifier="conversation" start=16.17 stop=21.39 %} P2: **Although I wanted to, I wasn't able to come to class last week. I was sick.**   
-*TODO*   
+*Embora eu tinha querido, não pude ir à aula na semana passada. Estive doente.*   
 > {% include play.html identifier="conversation" start=21.39 stop=25.14 %} P1: **Oh, I didn't know. That's why I didn't hear you talking in class.**  
-*TODO*    
+*Eu não sabia. É por isso que eu não ouvi você falando na aula*    
 > {% include play.html identifier="conversation" start=25.14 stop=31.47 %} P2: **Yes, it was quiet because I wasn't there. Despite my will to learn, I always get bored in class.**     
-*TODO*   
+*Sim, estava quieto porque eu não estava lá. Apesar de vontade de aprender, sempre fico entediado na aula.*   
 > {% include play.html identifier="conversation" start=31.47 stop=37.21 %} P1: **What are you going to do now? Although I want to, I can't help you learn the entire exam in one hour.**      
-*TODO*   
+*O que você vai fazer agora? Embora eu queira, não posso ajudá-la a aprender o exame inteiro em uma hora.*   
 > {% include play.html identifier="conversation" start=37.21 stop=42.09 %} P2: **I don't know. Maybe I can ask the professor to let me take the exam next week.**         
-*TODO*  
+*Não sei. Talvez posso pedir ao professor me deixar tomar o exame na próxima semana.*  
 > {% include play.html identifier="conversation" start=42.09 stop=45.87 %} P1: **Are you sure? You know he has a rule about taking exams.**    
-*TODO*    
+*Tem certeza? Você sabe que ele tem uma regra sobre tomar exames.*    
 > {% include play.html identifier="conversation" start=45.87 stop=49.85 %} P2: **Yes, I know. But despite his rule, I have to ask!**    
-*TODO*  
+*Sei. Mas apesar da sua regra, eu tenho que perguntar!*  
 > {% include play.html identifier="conversation" start=49.85 stop=55.02 %} P1: **Good luck! Although I doubt he will do so, I hope he lets you take the exam next week.**    
-*TODO*  
+*Boa sorte! Embora duvide, espero que ele deixa tomar o exame na próxima semana.*  
 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="explanation"  init=true
 	title="Explanation"        
-	translation="TODO"
+	translation="Explicação"
     tag="h2" %}
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
@@ -147,7 +147,7 @@ attr:
 2. **Even though I had a really hard time during the exam, I passed!**  
 *Mesmo que eu tivesse um tempo muito difícil durante o exame, eu passei!*    
 3. **Although my hand hurt, I still finished the essay.**  
-*Embora minha mão doeu, eu ainda terminei o ensaio.*   
+*Embora minha mão tenha doado, eu ainda terminei o ensaio.*   
 
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
@@ -180,7 +180,7 @@ attr:
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=90.10 stop=131.10
 	title="More examples"
-	translation="Ví dụ thêm"
+	translation="Mais exemplos"
     tag="h3" %}
 
 1. **I love literature. There are so many different stories out there.**  

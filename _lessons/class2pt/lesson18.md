@@ -13,7 +13,7 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=true
 	title="Lesson 2.18: Feelings"        
-	translation="TODO"
+	translation="Sentimentos"
     tag="h1" %}
 
 ## Vocabulary   *Vocabulário*
@@ -28,41 +28,41 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="conversation"  init=true
 	title="Conversation"        
-	translation="Đối thoại"
+	translation="Conversação"
     tag="h2" %}
 
 > {% include play.html identifier="conversation" start=2.12 stop=4.64 %} Person 1: **Oh my god, I am so bored!**  
-*TODO*  
+*Oh meu deus, estou tão entediado!*  
 > {% include play.html identifier="conversation" start=4.64 stop=8.26 %} Person 2: **Turn on the TV! I'm sure there is something on that isn't boring.**   
-*TODO*       
+*Ligar a TV! Com certeza terá algo não chato.*       
 > {% include play.html identifier="conversation" start=8.26 stop=12.21 %} P1: **I already checked. There are only reruns of the shows I saw yesterday.**  
-*TODO*     
+*Já averiguei. Há apenas reprises dos programas que vi ontem.*     
 > {% include play.html identifier="conversation" start=12.21 stop=15.68 %} P2: **Why don't you read a nice book then? I'm sure you won't be bored then.**    
-*TODO*    
+*Por que não lê um bom livro? Com certeza não vai ficar entediado então.*    
 > {% include play.html identifier="conversation" start=15.68 stop=17.66 %} P1: **Which book did you have in mind?**     
-*TODO*    
+*Qual livro você tem em mente?*    
 > {% include play.html identifier="conversation" start=17.66 stop=19.33 %} P2: **How about Harry Potter?**    
-*TODO*    
+*Que tal Harry Potter?*    
 > {% include play.html identifier="conversation" start=19.33 stop=21.75 %} P1: **I started reading it, but then I got bored.**     
-*TODO*    
+*Comecei a ler, mas depois fiquei entediado.*    
 > {% include play.html identifier="conversation" start=21.75 stop=23.78 %} P2: **You think Harry Potter is boring?**     
-*TODO*    
+*Você acha que Harry Potter é chato?*    
 > {% include play.html identifier="conversation" start=23.78 stop=30.18 %} P1: **It's not that the book is boring, it's just that I am bored by fantasy. However, reading non-fiction makes me happy.**     
-*TODO*    
+*Não é que o livro seja aborrecido, é só que estou entediado com o gênero fantasia. No entanto, a leitura de não-ficção me faz feliz.*    
 > {% include play.html identifier="conversation" start=30.18 stop=35.68 %} P2: **If that's the case, you should visit the library. There are plenty of interesting non-fiction books there.**     
-*TODO*    
+*Se for esse o caso, você deve visitar a biblioteca. Há muitos livros interessantes de não-ficção lá.*    
 > {% include play.html identifier="conversation" start=35.68 stop=38.51 %} P1: **I'm not interested in visiting the library.**     
-*TODO*    
+*Não quero visitar a biblioteca.*    
 > {% include play.html identifier="conversation" start=38.51 stop=40.56 %} P2: **Why aren't you interested to do it?**     
-*TODO*    
+*Por que não quer?*    
 > {% include play.html identifier="conversation" start=40.56 stop=42.03 %} P1: **Because I'm too lazy.**  
-*TODO*    
+*Porque tenho preguiça demais.*    
 
 
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=true
 	title="Explanation"        
-	translation="TODO"
+	translation="Explicação"
     tag="h2" %}
 
 {%  include voice.html attr=page.attr  
@@ -116,7 +116,7 @@ attr:
     tag="h3" %}
 ##### *A leitura de não-ficção me faz feliz.*
 **Verb + '~ing' can be used in the same way as a noun.**     
-*TODO.*
+*Verbo + '~ing' 'pode ser usado da mesma maneira que um substantivo.*
 
 1. **I don't want to hang out with Steven. Seeing him is the last thing I want to do.**  
 *Eu não quero sair com Steven. Vê-lo é a última coisa que quero fazer.*    
@@ -141,7 +141,7 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=false start=80.65 stop=135.14
 	title="More explanations"        
-	translation="Giải thích thêm"
+	translation="Mais explicações"
     tag="h2" %}
 
 1. **I fear it is too late for you to start preparing for the exam.**   
@@ -153,8 +153,7 @@ attr:
 4. **I trust that everything will go according to plan.**   
 *Acredito que tudo irá de acordo com o plano.*   
 5. **I anticipate good results from my doctor. I've really been watching my diet.**   
-*
-Prevejo bons resultados do meu médico. Eu realmente estava atento à minha dieta.*    
+*Prevejo bons resultados do meu médico. Eu realmente estava atento à minha dieta.*    
 6. **I am very joyful about the fact that my son is getting married.**   
 *Estou muito feliz com o fato de meu filho se casar.*    
 7. **I'm ashamed that I didn't teach my daughter how to tie her shoelaces before she was five.**   

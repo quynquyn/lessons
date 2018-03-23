@@ -62,7 +62,7 @@ attr:
 *Ngành công nghiệp nặng*   
 5. **agricultural products**   
 *Sản phẩm nông nghiệp*   
-6. **places of interest / The tourist industry**  
+6. **places of interest / the tourist industry**  
 *Nhiều nơi hấp dẫn/ Ngành du lịch*   
 7. **tea plantation**   
 *Đồn điền trà*   

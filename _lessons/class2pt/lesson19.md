@@ -12,7 +12,7 @@ attr:
 {%  include voice.html attr=page.attr        ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=true
 	title="Lesson 2.19: Feelings 2"  
-	translation="TODO"      
+	translation="Sentimentos 2"      
     tag="h1" %}
 
 
@@ -21,7 +21,7 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=false start=7 stop=60
 	title="Expressing your feelings"        
-	translation="TODO"
+	translation="Expressando seus sentimentos"
     tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
@@ -35,7 +35,7 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=false start=60 stop=107
 	title="Supporting someone"        
-	translation="TODO"
+	translation="Apoiando alguém"
     tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
@@ -50,38 +50,38 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="conversation"  init=true
 	title="Conversation"        
-	translation="TODO"
+	translation="Conversação"
     tag="h2" %}
 
 > {% include play.html identifier="conversation" start=2.05 stop=5.74 %} Person 1: **I am so under the weather, I have no idea what I'm going to do.**  
-*TODO*     
+*Me sinto tão mal, não tenho ideia do que vou fazer.*     
 > {% include play.html identifier="conversation" start=5.75 stop=7.18 %} Person 2: **Why? What happened?**    
-*TODO*    
+*Por quê? O que aconteceu?*    
 > {% include play.html identifier="conversation" start=7.18 stop=11.80 %} P1: **My daughter Anna doesn't want to go to preschool. She says she's scared.**   
-*TODO*      
+*Minha filha Anna não quer ir à pré-escola. Ela diz que é apavorada.*      
 > {% include play.html identifier="conversation" start=11.80 stop=18.61 %} P2: **Oh I know exactly how you feel. My son Jamie burst into tears the first time I left him at preschool.**    
-*TODO*   
+*Eu sei exatamente como você se sente. Meu filho Jamie começou a chorar na primeira vez que o deixei na pré-escola.*   
 > {% include play.html identifier="conversation" start=18.61 stop=21.87 %} P1: **Really? I thought I was the only parent with that problem.**    
-*TODO*    
+*Mesmo? Eu pensei que eu era a única mãe com esse problema.*    
 > {% include play.html identifier="conversation" start=21.87 stop=26.35 %} P2: **Oh trust me, you're not alone. Just keep your chin up and be patient.**    
-*TODO*  
+*Oh confie em mim, você não está sozinha. Apenas permaneça alegre nessa circunstância difícil e seja paciente.*  
 > {% include play.html identifier="conversation" start=26.35 stop=32.57 %} P1: **But how do I make her like preschool? As soon as I mention it, she starts crying and I feel like I'm breaking her heart.**    
-*TODO*   
+*Mas como eu faço ela gostar da pré-escola? Imediatamente quando menciono, ela começa a chorar e eu sinto ela arrebatando com tristeza por mim.*   
 > {% include play.html identifier="conversation" start=32.57 stop=40.94 %} P2: **Talk to her about it and tell her to look on the bright side. She's afraid of the unknown. She'll enjoy herself when she gets used to preschool.**     
-*TODO*    
+*Fale com ela sobre isso e diga a olhar ao lado positivo. Ela tem medo do desconhecido. Ela vai se divertir quando ela se acostumar com a pré-escola.*    
 > {% include play.html identifier="conversation" start=40.94 stop=49.43 %} P1: **Hmm, I'll try. I get carried away with trying to make her feel happy, I forget about the bigger picture. Preschool will teach her and prepare her for life.**     
-*TODO*   
+*Hmm, vou tentar. Eu me empolgo tentando que ela se sinta feliz, esqueço o quadro maior. A pré-escola vai ensiná-la e prepará-la para a vida.*   
 > {% include play.html identifier="conversation" start=49.43 stop=54.25 %} P2: **Absolutely! Tell her to be strong and get ahold of herself. She's a big girl!**   
-*TODO*     
+*Absolutamente! Diga a ela a ser forte e se controlar. Ela é uma menina grande!*     
 > {% include play.html identifier="conversation" start=54.25 stop=58.15 %} P1: **I will do that. Thank you for helping me look on the bright side.**  
-*TODO*    
+*Eu vou fazer isso. Obrigada por me ajudar a olhar ao lado positivo.*    
 > {% include play.html identifier="conversation" start=58.15 stop=63.03 %} P2: **You're welcome. Let me know how it goes, and remember that I'm always here for you.**       
-*TODO*  
+*De nada. Deixe-me saber como vai e lembre-se de que estou sempre aqui para você.*  
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="explanation"  init=true
 	title="Explanation"        
-	translation="TODO"
+	translation="Explicação"
     tag="h2" %}
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=3.01 stop=25.39
@@ -155,7 +155,7 @@ attr:
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
 	identifier="explanation"  init=false start=3.01 stop=25.39
 	title="More Examples"
-	translation="Giải thích thêm"
+	translation="Mais exemplos"
     tag="h2" %}
 
 1. **I wasn't going to let her come to my party but I had a change of heart.**   

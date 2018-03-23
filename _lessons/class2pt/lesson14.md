@@ -12,7 +12,7 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=true
 	title="Lesson 2.14: Friendship"        
-	translation="TODO"
+	translation="Amizade"
     tag="h1" %}
 
 ## Vocabulary   *Vocabulário*
@@ -88,42 +88,42 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="conversation"  init=true
 	title="Conversation"        
-	translation="TODO"
+	translation="Conversação"
     tag="h2" %}
 
 > {% include play.html identifier="conversation" start=2 stop=6.2 %} Person 1: **Do you have a best friend?**   
-*TODO*     
+*Você tem uma melhor amiga ou um melhor amigo?*     
 > {% include play.html identifier="conversation" start=6.2 stop=9.2 %} Person 2: **My best friends is Anna.**   
-*TODO*   
+*Minha melhor amiga é Anna.*   
 > {% include play.html identifier="conversation" start=9.4 stop=12.2 %} P1: **How old is she?**   
-*TODO*   
+*Quantos anos tem?*   
 > {% include play.html identifier="conversation" start=12.8 stop=16.9 %} P2: **She is one year older than me.**   
-*TODO*   
+*Ela é um ano mais velha do que eu.*   
 > {% include play.html identifier="conversation" start=17.1 stop=20.5 %} P1: **When did you first meet her?**   
-*TODO*      
+*Quando você conheceu ela?*      
 > {% include play.html identifier="conversation" start=20.7 stop=27.1 %} P2: **I first met her when I was 18 years old at our university.**   
-*TODO*      
+*A conheci pela primeira vez quando tinha 18 anos na nossa universidade.*      
 > {% include play.html identifier="conversation" start=27.3 stop=31.1 %} P1: **How long have you been friends?**   
-*TODO*    
+*Há quanto tempo vocês são amigas?*    
 > {% include play.html identifier="conversation" start=31.1 stop=35.7 %} P2: **We’ve been friends for seven years since then.**   
-*TODO*      
+*Nós somos amigas há sete anos desde então.*      
 > {% include play.html identifier="conversation" start=35.7 stop=40.1 %} P1: **Nice. What does your friend look like?**   
-*TODO*         
-> {% include play.html identifier="conversation" start=40.3 stop=64.3 %} P2: **I have to say that she bears a strong resemblance to one of my cousins. She is not really   good-looking. She is not really tall and a little underweight. She’s got a face with big eyes, a flat nose and some acne on her face. The most attractive thing on her face are her full lips.**   
-*TODO*   
+*Ótimo. Como é a sua amiga?*         
+> {% include play.html identifier="conversation" start=40.3 stop=64.3 %} P2: **I have to say that she bears a strong resemblance to one of my cousins. She is not really good-looking. She is not really tall and a little underweight. She’s got a face with big eyes, a flat nose and some acne on her face. The most attractive thing on her face are her full lips.**   
+*Tenho que dizer que ela tem uma semelhança impressionante com uma das minhas primas. Ela não é realmente bonita. Ela não é muito alta e um pouco abaixo do peso. A cara dela e com olhos grandes, nariz achatado e um pouco de acne no rosto. A coisa mais atraente no rosto dela são os lábios cheio.*   
 > {% include play.html identifier="conversation" start=64.5 stop=68.1 %} P1: **What is the best thing about her?**   
-*Điều gì là tốt nhất của cô ấy?*   
+*Qual é o melhor nela?*   
 > {% include play.html identifier="conversation" start=68.2 stop=86.4 %} P2: **She is humble. She rarely talks about herself or what she has and she doesn’t look down on people. She’s also hilarious. I never feel bored when she’s around. To be honest, she is the most hilarious person I’ve ever known.**   
-*TODO*     
+*Ela é humilde. Ela raramente fala sobre si mesma ou sobre o que tem e não menospreza as pessoas. Ela também é hilária. Eu nunca me sinto entediada quando ela está por perto. Honestamente, ela é a pessoa mais hilária que já conheci.*     
 > {% include play.html identifier="conversation" start=86.5 stop=93.3 %} P1: **What do you think is the most important thing in friendship?**   
-*TODO*   
+*O que você acha que é o mais importante na amizade?*   
 > {% include play.html identifier="conversation" start=93.3 stop=101.5 %} P2: **Well, never telling lies, in my opinion, is the most important thing in friendship.**   
-*TODO*    
+*Bem, nunca dizer mentiras, na minha opinião, é a coisa mais importante na amizade.*    
 
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=true
 	title="Explanation"        
-	translation="TODO"
+	translation="Explicação"
     tag="h2" %}
 
 {%  include voice.html attr=page.attr  

@@ -11,8 +11,8 @@ attr:
 
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=true
-	title="Lesson 2.10: Friendship"        
-	translation="Tình bạn"
+	title="Lesson 2.10: Friendship 2"        
+	translation="Tình bạn 2"
     tag="h1" %}
 
 ## Vocabulary   *Từ vựng*

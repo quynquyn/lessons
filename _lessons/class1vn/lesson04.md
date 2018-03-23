@@ -74,7 +74,7 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 > *Ừ, tôi chỉ giả vờ thích cô ta thôi.*  
 
 {%  include voice.html attr=page.attr  
-	identifier="Native-Dialogue"  init=true
+	identifier="Native-Dialogue"  init=false start=70.11 stop=109.81
 	title="Dialogue B"        
 	translation="Hội thoại B"
     tag="h2" %}
