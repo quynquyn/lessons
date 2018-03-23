@@ -12,7 +12,7 @@ attr:
 {%  include voice.html attr=page.attr        ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=true
 	title="Lesson 2.23: Employment"
-	translation="TODO"      
+	translation="Emprego"      
     tag="h1" %}
 
 
@@ -22,10 +22,10 @@ attr:
 {%  include voice.html attr=page.attr       HHHHHHHHHHHHHHHHHHHH=333333333333333333333
 	identifier="vocabulary"  init=false start=8.39 stop=25.51
 	title="Company"        
-	translation="TODO"
+	translation="Empresa"
     tag="h3" %}
 
-**I want to work for a _______ company**     *TODO*
+**I want to work for a _______ company**     *Eu quero trabalhar para uma empresa _______.*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -38,7 +38,7 @@ attr:
 {%  include voice.html attr=page.attr       HHHHHHHHHHHHHHHHHHHH=333333333333333333333
 	identifier="vocabulary"  init=false start=25.39 stop=47.51
 	title="Qualities"        
-	translation="TODO"
+	translation="Qualidades"
     tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
@@ -53,46 +53,46 @@ attr:
 {%  include voice.html attr=page.attr    HHHHHHHHHHHHHHHHHHHH=2222222222222222222
 	identifier="conversation"  init=true
 	title="Conversation"        
-	translation="TODO"
+	translation="Conversação"
     tag="h2" %}
 
 > {% include play.html identifier="conversation" start=1.95 stop=6.96 %} Person 1: **So you'd like to be an employee at our TV company. Tell me why?**   
-*TODO*    
+*Então você gostaria de ser um funcionário da nossa empresa de televisão. Diga-me por quê?*    
 > {% include play.html identifier="conversation" start=6.96  stop=11.41 %} Person 2: **I have loved television ever since I was a child, and I would like to be a news reporter.**     
-*TODO*   
+*Eu amo televisão desde criança, e gostaria de ser repórter.*   
 > {% include play.html identifier="conversation" start=11.41  stop=14.53 %} P1: **I'm pleased to hear that. What was your previous job?**      
-*TODO*  
+*Tenho o prazer de ouvir isso. Qual foi o seu trabalho anterior?*  
 > {% include play.html identifier="conversation" start=14.53 stop=18.00 %} P2: **I worked for an insurance company, working with customers mainly.**  
-*TODO*  
+*Trabalhei para uma companhia de seguros, trabalhando principalmente com clientes.*  
 > {% include play.html identifier="conversation" start=18.00  stop=21.01 %} P1: **Sounds like a promising profession. Why did you quit?**     
-*TODO*   
+*Soa como uma profissão prometedor. Por que você pediu demissão?*   
 > {% include play.html identifier="conversation" start=21.01 stop=24.60 %} P2: **I earned enough money for a few years, and now I want to pursue my dream.**    
-*TODO*  
+*Ganhei dinheiro suficiente por alguns anos e agora quero seguir meu sonho.*  
 > {% include play.html identifier="conversation" start=24.60 stop=27.84 %} P1: **Ambitious. Tell me, what are some of your strengths?**      
-*TODO*  
+*Ambiciosa. Diga-me, quais são alguns das suas qualidades?*  
 > {% include play.html identifier="conversation" start=27.84 stop=33.35 %} P2: **I'm reliable, flexible and adaptive. I am also very punctual and confident in my work.**    
-*TODO*  
+*Sou confiável, flexível e adaptativa. Eu também sou muito pontual e confiante no meu trabalho.*  
 > {% include play.html identifier="conversation" start=33.35 stop=36.27 %} P1: **And what would you say are your greatest flaws?**    
-*TODO*  
+*E o que você diria que são seus maiores defeitos?*  
 > {% include play.html identifier="conversation" start=36.27 stop=40.63 %} P2: **Well, I find that if I'm not in a happy work environment, I get very lazy.**   
-*TODO*    
+*Bem, se acho que não estou em um ambiente de trabalho feliz, fico muito preguiçosa.*    
 > {% include play.html identifier="conversation" start=40.63 stop=43.74 %} P1: **Oh, is that so? Give me an example.**    
-*TODO*  
+*Oh, é assim? Me dê um exemplo.*  
 > {% include play.html identifier="conversation" start=43.74 stop=51.56 %} P2: **Well, I dislike it when employers are too aggressive or demanding. I also don't like it when they want to form personal relationships with employees.**    
-*TODO*  
+*Bem, eu não gosto quando os patrões são muito agressivos ou exigentes. Eu também não gosto quando eles querem formar relacionamentos pessoais com os funcionários.*  
 > {% include play.html identifier="conversation" start=51.56 stop=54.86 %} P1: **Trust me, Mr. Robinson, that is not going to be a problem.**    
-*TODO*  
+*Confie em mim, Sra. Robinson, isso não vai ser um problema.*  
 > {% include play.html identifier="conversation" start=54.86 stop=56.21 %} P2: **I'm pleased to hear that.**  
-*TODO*  
+*Tenho o prazer de ouvir isso.*  
 > {% include play.html identifier="conversation" start=56.21 stop=61.09 %} P1: **I'm pleased that you're pleased, and I would like to officially welcome you to the company. You're hired.**    
-*TODO*  
+*Estou satisfeito que você está satisfeita e gostaria de recebê-la oficialmente na empresa. Você é contratada.*  
 > {% include play.html identifier="conversation" start=61.09 stop=62.60 %} P2: **Thank you very much, Sir.**  
-*TODO*  
+*Muito obrigada, senhor.*  
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="explanation"  init=true
 	title="Explanation"        
-	translation="TODO"
+	translation="Explicação"
     tag="h2" %}
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
@@ -156,7 +156,7 @@ attr:
 	title="5. I would like to officially welcome you to the company. You're hired!"
 	translation=""
     tag="h3" %}
-##### *Gostaria de recebê-lo oficialmente na empresa. Você está contratado!*
+##### *Gostaria de recebê-la oficialmente na empresa. Você é contratada!*
 1. **Welcome to the company! I'm sure you'll enjoy working here.**  
 *Bem-vindo à empresa! Tenho certeza de que você vai gostar de trabalhar aqui.*    
 2. **We are pleased to have you in our company.**  

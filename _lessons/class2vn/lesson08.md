@@ -73,8 +73,8 @@ attr:
   
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=true
-	title="Explanation"        
-	translation="Giải thích"
+	title="Examples"        
+	translation="Ví dụ"
     tag="h2" %}
 
 {%  include voice.html attr=page.attr  

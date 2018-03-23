@@ -34,7 +34,7 @@ attr:
 		trial=site.trialdeploy %}
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="vocabulary"  init=false start=37 stop=77
+	identifier="vocabulary"  init=false start=38 stop=77
 	title="Advice"        
 	translation="Lời khuyên"
     tag="h3" %}

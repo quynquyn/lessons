@@ -48,7 +48,7 @@ attr:
 
 {%  include voice.html attr=page.attr  
 	identifier="examples"  init=true
-	title="Example"        
+	title="Examples"        
 	translation="Ví dụ"
     tag="h2" %}
 

@@ -34,9 +34,9 @@ attr:
 %}
 
 
-1. {% include play.html identifier="Conversation" start=4 stop=5.5 %} **Are your hands clean?**   
+1. {% include play.html identifier="Conversation" start=4 stop=7.5 %} **Are your hands clean?**   
 *Tay bạn có sạch không?*       
-{% include play.html identifier="Conversation" start=5.5 stop=9 %} **Yes, they are clean.**    
+{% include play.html identifier="Conversation" start=7.5 stop=9 %} **Yes, they are clean.**    
 *Có, tay tôi sạch.*   
 
 2. {% include play.html identifier="Conversation" start=9 stop=12 %} **Is Jane a manager?**   

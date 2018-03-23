@@ -29,7 +29,7 @@ attr:
 		class=page.class 
 		lesson=page.lesson 
 		section="job"
-		voiceover="vocabulary"
+		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -46,7 +46,7 @@ attr:
 		class=page.class 
 		lesson=page.lesson 
 		section="father"
-		voiceover="vocabulary"
+		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -60,7 +60,7 @@ attr:
 		class=page.class 
 		lesson=page.lesson 
 		section="parentsdo"
-		voiceover="vocabulary"
+		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -100,8 +100,8 @@ attr:
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=true
-	title="Explanation"        
-	translation="Giải thích"
+	title="Examples"        
+	translation="Ví dụ"
     tag="h2" %}
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=false start=2.82 stop=14.93

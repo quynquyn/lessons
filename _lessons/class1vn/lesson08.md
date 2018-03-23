@@ -25,7 +25,7 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-## Explanation   *Giải thích*      
+## Examples   *Ví dụ*      
 {%  include voice.html attr=page.attr  
 	identifier="Explanation1"  init=true
 	title="1. It's easy to learn English."        

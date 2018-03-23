@@ -67,11 +67,11 @@ attr:
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Explanation"  init=true
-	title="Explanation"        
-	translation="Giải thích"
+	title="Examples"        
+	translation="Ví dụ"
     tag="h2" %}
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="Explanation"  init=false start=3.12 stop=17.37
+	identifier="Explanation"  init=false start=1 stop=17.37
 	title="1. I am responsible for selling goods and looking after customers."        
 	translation=""
     tag="h3" %}
@@ -79,14 +79,9 @@ attr:
 1. **I'm responsible for taking care of my sister.**   *Tôi có trách nhiệm chăm sóc em gái tôi.*    
 2. **John is responsible for keeping the customers happy.**   *John có trách nhiệm làm cho các khách hàng vui vẻ.*
 3. **You are responsible for this mess! Now clean it up!**   *Bạn chịu trách nhiệm cho cái đống lộn xộn này! Bây giờ dọn dẹp đi!*
-
-
-1. **The movie is sold out.**  
-*Bộ phim đã bán hết vé rồi.*   
-2. **The concert was sold out.**  
-*Buổi hòa nhạc đã bán hết vé rồi.*   
+  
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="Native-Explanation"  init=false start=19.59 stop=40.18
+	identifier="Explanation"  init=false start=19.59 stop=40.18
 	title="2. What do you like most about your job?"        
 	translation=""
     tag="h3" %}
@@ -144,8 +139,8 @@ attr:
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Explanation"  init=false start=98.12 stop=111.00 
-	title="6. Honestly,..."        
-	translation="Thật lòng / Thành thật mà nói,..."
+	title="6. Honesty..."        
+	translation="Tính trung thực, sự thật thà"
     tag="h3" %}
 
 **Honestly / to be honest**     *Thật lòng / Thành thật mà nói*

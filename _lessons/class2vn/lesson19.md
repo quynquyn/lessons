@@ -34,7 +34,7 @@ attr:
 		trial=site.trialdeploy %}
 		
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="vocabulary"  init=false start=60 stop=107
+	identifier="vocabulary"  init=false start=61 stop=107
 	title="Supporting someone"        
 	translation="Động viên ai đó"
     tag="h3" %}
@@ -154,30 +154,30 @@ attr:
 *Tôi sẽ đau khổ lắm nếu anh ấy không rủ tôi đi chơi.*    
 
 {%  include voice.html attr=page.attr    pppppppppppppppppppp=pppppppppppppppppppp
-	identifier="explanation"  init=false start=3.01 stop=25.39
+	identifier="explanation"  init=false start=98.11 stop=160.19
 	title="More Examples"
 	translation="Giải thích thêm"
     tag="h2" %}
 
-1. **I wasn't going to let her come to my party but I had a change of heart.**   
+1. {% include play.html identifier="explanation" start=99.17 stop=104.83 %} **I wasn't going to let her come to my party but I had a change of heart.**   
 *Tôi đã không định để cô ấy đến bữa tiệc nhưng tim tôi đã thay đổi.*    
-2. **If something bores you to tears, leave!**  
+2. {% include play.html identifier="explanation" start=104.87 stop=108.13 %} **If something bores you to tears, leave!**  
 *Nếu cái gì làm bạn chán phát khóc thì hãy bỏ đi!*    
-3. **If I see a spider in this house, it will make my skin crawl.**  
+3. {% include play.html identifier="explanation" start=108.13 stop=112.73 %} **If I see a spider in this house, it will make my skin crawl.**  
 *Nếu tôi thấy con nhện trong phòng, nó sẽ khiến tôi nổi da gà.*    
-4. **When I saw my daughter perform, my heart swelled with pride.**  
+4. {% include play.html identifier="explanation" start=112.73 stop=117.53 %} **When I saw my daughter perform, my heart swelled with pride.**  
 *Khi tôi thấy con gái tôi với bộ đồng phục, con tim tôi rộn lên niềm tự hào.*    
-5. **I'm so hungry, I could eat a horse! If we don't eat soon, I will starve.**  
+5. {% include play.html identifier="explanation" start=117.53 stop=123.13 %} **I'm so hungry, I could eat a horse! If we don't eat soon, I will starve.**  
 *Tôi đói quá tôi ăn cả con ngựa còn được! Nếu chúg ta khônga ăn sớm, tôi sẽ chết đói mất.*    
-6. **I feel like I need to let off some steam after talking to that annoying woman.**  
+6. {% include play.html identifier="explanation" start=123.13 stop=128.53 %} **I feel like I need to let off some steam after talking to that annoying woman.**  
 *Tôi thấy tôi cần phải nghĩ ngơi sau khi nói chuyện với người phụ nữ phiền phức đó.*    
-7. **I'm so sorry to hear that. If there is any way I can help you, let me know.**  
+7. {% include play.html identifier="explanation" start=128.53 stop=134.23 %} **I'm so sorry to hear that. If there is any way I can help you, let me know.**  
 *Tôi rất tiếc khi nghe điều đó. Nếu tôi có thể giúp gì được cho bạn, cứ nói cho tôi biết.*    
-8. **It will be such a pity if you miss the movie.**  
+8. {% include play.html identifier="explanation" start=134.23 stop=139.13 %} **It will be such a pity if you miss the movie.**  
 *Sẽ thật là tiếc nếu bạn bỏ lỡ bộ phim.*    
-9. **If you don't get ahold of yourself, I will slap you!**  
+9. {% include play.html identifier="explanation" start=139.13 stop=143.83 %} **If you don't get ahold of yourself, I will slap you!**  
 *Nếu bạn không tự kiềm chế, tôi sẽ tát bạn đó!*    
-10. **I'm so happy, I feel like I'm walking on air.**  
+10. {% include play.html identifier="explanation" start=143.87 stop=149.73 %} **I'm so happy, I feel like I'm walking on air.**  
 *Tôi hạnh phúc quá, tôi cảm thấy như tôi đang đi trong không khí vậy.*   
 
 

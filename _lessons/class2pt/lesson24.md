@@ -12,7 +12,7 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=true
 	title="Lesson 2.24: Food and drinks"        
-	translation="TODO"
+	translation="Alimentos e bebidas"
     tag="h1" %}
 
 ## Vocabulary   *Vocabulário*
@@ -20,7 +20,7 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=false start=7 stop=15
 	title="Menu"        
-	translation="TODO"
+	translation="Cardápio"
     tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
@@ -34,7 +34,7 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=false start=15 stop=42
 	title="Food"        
-	translation="TODO"
+	translation="Alimentos"
     tag="h3" %}
 
 
@@ -49,7 +49,7 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=false start=42 stop=62
 	title="Tastes"        
-	translation="TODO"
+	translation="Sabores"
     tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
@@ -63,46 +63,46 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="conversation"  init=true
 	title="Conversation"        
-	translation="TODO"
+	translation="Conversação"
     tag="h2" %}
 
 > {% include play.html identifier="conversation" start=1.81 stop=6.08 %} Person 1: **I like this restaurant, especially its decoration style.**  
-*TODO*    
+*Eu gosto deste restaurante, especialmente o estilo de decoração.*    
 > {% include play.html identifier="conversation" start=6.08 stop=7.93 %} Person 2: **I like the seating arrangements.**  
-*TODO*   
+*Eu gosto do arranjo de assentos.*   
 > {% include play.html identifier="conversation" start=7.93 stop=16.47 %} P1: **So do I. And the music is good. It’s not too loud. I hate restaurants with loud, noisy music. This place feels really relaxed.**  
-*TODO*     
+*Eu também. E a música é boa. Não é barulhento demais. Odeio restaurantes com música ruidosa e barulhenta. Este lugar parece muito descontraído.*     
 > {% include play.html identifier="conversation" start=16.47 stop=19.01 %} P2: **But it’s too bad it’s so far from the city.**  
-*TODO*    
+*Mas é uma pena que está tão longe da cidade.*    
 > {% include play.html identifier="conversation" start=19.01 stop=25.98 %} P1: **I agree. It takes too long to get here. Hey, the menu looks really good. It makes my mouth water just looking at it.**  
-*TODO*     
+*Concordo. Demora muito para chegar aqui. Olha, o cardápio parece muito bom. Isso faz minha boca ficar com gosto só lendo.*     
 > {% include play.html identifier="conversation" start=25.98 stop=28.83 %} P2: **Where do we start? Some of the dishes look nice.**  
-*TODO*      
+*Por onde começamos? Vários pratos parecem saborosos.*      
 > {% include play.html identifier="conversation" start=28.83 stop=32.12 %} P1: **I heard people say the restaurant is well-known for their seafood.**  
-*TODO*    
+*Ouvi falar que esse restaurante é bem conhecido por seus frutos do mar.*    
 > {% include play.html identifier="conversation" start=32.12 stop=34.52 %} P2: **Really? I see they have shrimp and octopus.**   
-*TODO*    
+*Mesmo? Eu vejo que têm camarão e polvo.*    
 > {% include play.html identifier="conversation" start=34.52 stop=38.17 %} P1: **I’ve never tried that. But I think they need to hire more people.**  
-*TODO*    
+*Eu nunca provei. Mas acho que eles precisam contratar mais pessoas.*    
 > {% include play.html identifier="conversation" start=38.17 stop=42.26 %} P2: **I agree. The servers are really busy. They need one or two more.**   
-*TODO*      
+*Concordo. Os garçons estão muito ocupados. Precisam de um ou dois mais.*      
 > {% include play.html identifier="conversation" start=42.26 stop=47.97 %} P1: **And the waitress is not really friendly. She ignored me 5 minutes earlier. That’s not good.**  
-*TODO*       
+*E a garçonete não é muito amigável. Antes, ela me ignorou durante 5 minutos. Isso não é bom.*       
 > {% include play.html identifier="conversation" start=47.97 stop=49.98 %} P2: **She doesn't speak English very well.**    
-*TODO*      
+*Ela não fala muito bem o inglês.*      
 > {% include play.html identifier="conversation" start=49.98 stop=52.38 %} P1: **Yeah, she couldn’t answer many questions.**  
-*TODO*     
+*Sim, ela não podia responder a muitas perguntas.*     
 > {% include play.html identifier="conversation" start=52.38 stop=54.96 %} P2: **Wow! Our bill is only $24.**  
-*TODO*     
+*Uau! A conta é de apenas US$ 24.*     
 > {% include play.html identifier="conversation" start=54.96 stop=56.28 %} P1: **That’s very cheap.**  
-*TODO*       
+*sso é muito barato.*       
 > {% include play.html identifier="conversation" start=56.28 stop=59.10 %} P2: **There is no service charge. I think we should leave a tip.**  
-*TODO*      
+*Não tem serviço incluido. Eu acho que devemos deixar algo de gorjeta.*      
  
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=true
 	title="Explanation"        
-	translation="TODO"
+	translation="Explicação"
     tag="h2" %}
 
 {%  include voice.html attr=page.attr  
@@ -127,7 +127,7 @@ attr:
 	title="2. This place has great food. I hear they have shrimp and octopus."        
 	translation=""
     tag="h3" %}
-##### *Este lugar tem ótima comida. Ouvi dizer que eles têm camarão e polvo.*
+##### *Este lugar tem ótima comida. Ouvi falar que eles têm camarão e polvo.*
 1. **The food they offer in this restaurant is amazing! They have three different menus.**   
 *A comida que eles oferecem neste restaurante é incrível! Eles têm três cardápios diferentes.*    
 2. **I hear the bar down the street has awesome drinks. We should check it out.**   

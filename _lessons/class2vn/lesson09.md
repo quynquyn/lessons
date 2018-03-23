@@ -51,8 +51,8 @@ attr:
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Vocabulary"  init=false start=100 stop=116
-	title="Shopping places"        
-	translation="Những nơi mua sắm"
+	title="Shopping place"        
+	translation="Nơi mua sắm"
     tag="h3" %}
 
 
@@ -120,8 +120,8 @@ attr:
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Explanation"  init=true
-	title="Explanation"        
-	translation="Giải thích"
+	title="Examples"        
+	translation="Ví dụ"
     tag="h2" %}
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ

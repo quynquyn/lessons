@@ -90,8 +90,8 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=true
-	title="Explanation"        
-	translation="Giải thích"
+	title="Examples"        
+	translation="Ví dụ"
     tag="h2" %}	
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=2.75 stop=13.41

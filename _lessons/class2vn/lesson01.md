@@ -52,8 +52,8 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 3 ngày)"
 
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=true
-	title="Explanation"        
-	translation="Giải thích"
+	title="Examples"        
+	translation="Ví dụ"
     tag="h2" %}
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=0.69 stop=14.02

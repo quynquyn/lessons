@@ -81,8 +81,8 @@ attr:
 *Ồ, vậy hả? Cho tôi một ví dụ đi.*  
 > {% include play.html identifier="conversation" start=43.74 stop=51.56 %} P2: **Well, I dislike it when employers are too aggressive or demanding. I also don't like it when they want to form personal relationships with employees.**    
 *Ừ, tôi không thích khi mà chủ của tôi quá nóng tính hoặc ra lệnh. Tôi cũng không thích khi họ muốn mối quan hệ riêng tư với nhân viên.*  
-> {% include play.html identifier="conversation" start=51.56 stop=54.86 %} P1: **Trust me, Mr. Robinson, that is not going to be a problem.**    
-*Tin tôi đi anh Robinson, đó sẽ không phải là vấn đề đâu.*  
+> {% include play.html identifier="conversation" start=53.01 stop=54.86 %} P1: **That is not going to be a problem.**      
+*Cái đó sẽ không thành vấn đề.*    
 > {% include play.html identifier="conversation" start=54.86 stop=56.21 %} P2: **I'm pleased to hear that.**  
 *Tôi vui vì nghe điều đó.*  
 > {% include play.html identifier="conversation" start=56.21 stop=61.09 %} P1: **I'm pleased that you're pleased, and I would like to officially welcome you to the company. You're hired.**    

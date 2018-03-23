@@ -23,7 +23,7 @@ salestext: "Phiên bản đầy đủ miễn phí (còn 1 ngày)"
 		class=page.class 
 		lesson=page.lesson 
 		section="vocabulary"
-		voiceover="vocabulary"
+		voiceover="Native-Dialogue1"
 		database=site.data.vocabulary 
 		trial=false %}
 

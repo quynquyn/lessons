@@ -13,7 +13,7 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=true
 	title="Lesson 2.22: Hometown"        
-	translation="TODO"
+	translation="Cidade natal"
     tag="h1" %}
 
 
@@ -22,7 +22,7 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=false start=5 stop=40
 	title="Describe your hometown"        
-	translation="TODO"
+	translation="Descrever sua cidade natal"
     tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
@@ -35,43 +35,43 @@ attr:
 
 
 1. **It’s a lovely place to live in.**  
-*TODO*     
+*É um lindo lugar para morar.*     
 2. **It’s a popular tourist destination.**  
-*TODO*    
+*É um destino turístico popular.*    
 3. **It’s a quiet place and it’s small enough that you can get to know your neighbour and has a great sense of community.**  
-*TODO*      
+*É um lugar tranquilo e pequeno o suficiente para conhecer seu vizinho e ter um ótimo senso de comunidade.*      
 4. **It has fresh air which is beneficial to your health.**  
-*TODO*       
+*Tem ar fresco que é benéfico para a sua saúde.*       
 5. **It’s a real 24-hour city and you can meet people from all around the world.**  
-*TODO*        
+*É uma verdadeira cidade de 24 horas e você pode conhecer pessoas de todo o mundo.*        
 6. **It’s got such a rich culture and there’s always something interesting going on.**  
-*TODO*       
+*Tem uma cultura tão rica e sempre há algo interessante acontecendo.*       
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=false start=40 stop=59
 	title="What is your hometown famous for?"        
-	translation="TODO"
+	translation="Por que é famosa a sua cidade natal?"
     tag="h3" %}
   
 1. **pottery making**   
-*TODO*     
+*fabricação de cerâmica*     
 2. **famous landmarks such as …**   
-*TODO*   
+*pontos de referência famosos tal como …*   
 3. **delicious food**   
-*TODO*   
+*comida deliciosa*   
 4. **heavy industry**    
-*TODO*   
+*industria pesada*   
 5. **agricultural products**   
-*TODO*   
-6. **places of interest / The tourist industry**  
-*TODO*   
+*produtos agrícolas*   
+6. **places of interest / the tourist industry**  
+*lugares interessantes / a indústria do turismo*   
 7. **tea plantation**   
-*TODO*   
+*plantação de chá*   
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=false start=59 stop=82
-	title="Problems:"        
-	translation="TODO"
+	title="Problems"        
+	translation="Problemas"
     tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
@@ -86,42 +86,42 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="conversation"  init=true
 	title="Conversation"        
-	translation="TODO"
+	translation="Conversação"
     tag="h2" %}
 
 > {% include play.html identifier="conversation" start=1.74 stop=4.67 %} Person 1: **Hey Tom, you never told me where you were from.**  
-*TODO*     
+*Oi Tom, você nunca me disse de onde você era.*     
 > {% include play.html identifier="conversation" start=4.67 stop=7.89 %} Person 2: **That's because you didn't ask. I'm from New York.**  
-*TODO*    
+*É porque você não perguntou. Eu sou de Nova Iorque.*    
 > {% include play.html identifier="conversation" start=7.89 stop=11.28 %} P1: **Oh, wow. That's a really big city. What's it like to live there?**   
-*TODO*     
+*Oh, uau. Essa é uma cidade muito grande. Como é morar lá?*     
 > {% include play.html identifier="conversation" start=11.28 stop=14.81 %} P2: **It's a bustling city, and there is always something to see there.**  
-*TODO*      
+*É uma cidade agitada, e sempre há algo a ver lá.*      
 > {% include play.html identifier="conversation" start=14.81 stop=17.46 %} P1: **That's interesting. What is it famous for?**  
-*TODO*     
+*Que interessante. Por que é famosa?*     
 > {% include play.html identifier="conversation" start=17.46 stop=21.06 %} P2: **It's mostly known for being the home of a very famous landmark.**    
-*TODO*     
+*É mais conhecida por ser lugar de um ponto de referência famoso.*     
 > {% include play.html identifier="conversation" start=21.06 stop=22.55 %} P1: **Which landmark is that?**  
-*TODO*    
+*Qual ponto de referência é?*    
 > {% include play.html identifier="conversation" start=22.55 stop=23.95 %} P2: **The Statue of Liberty.**  
-*TODO*     
+*A Estátua da Liberdade.*     
 > {% include play.html identifier="conversation" start=23.95 stop=29.41 %} P1: **Oh, I heard of it. I also heard it was a gift to America from France in the 19th century.**  
-*TODO*      
+*Conheço. Também ouvi que foi um presente para a América da França no século XIX.*      
 > {% include play.html identifier="conversation" start=29.41 stop=33.63 %} P2: **Indeed! Hmm, wonder what it's like to live in Paris.**  
-*TODO*     
+*Certamente! Hmm, pergunto-me como é morar em Paris.*     
 > {% include play.html identifier="conversation" start=33.63 stop=37.90 %} P1: **I was born in Paris. You could say it's my hometown. It's stunning!**  
-*TODO*     
+*Eu nasci em Paris. Você poderia dizer que é minha cidade natal. É impressionante!*     
 > {% include play.html identifier="conversation" start=37.90 stop=40.64 %} P2: **That is cool. Did you climb the Eiffel Tower?**  
-*TODO*     
+*Que legal. Você escalou a Torre Eiffel?*     
 > {% include play.html identifier="conversation" start=40.64 stop=47.22 %} P1: **Of course! You can't go to Paris and not climb the Eiffel Tower. I also know where the best places to eat are.**  
-*TODO*     
+*Claro! Você não pode ir a Paris e não subir a Torre Eiffel. Eu também sei onde os melhores lugares estão em Paris para comer.*    
 > {% include play.html identifier="conversation" start=47.22 stop=49.55 %} P2: **Oh, that's the most important thing to know!**  
-*TODO*    
+*Essa é a coisa mais importante a saber!*    
 
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=true
 	title="Explanation"        
-	translation="TODO"
+	translation="Explicação"
     tag="h2" %}
 
 {%  include voice.html attr=page.attr  

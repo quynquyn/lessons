@@ -29,7 +29,7 @@ attr:
 		trial=site.trialdeploy %} 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="vocabulary"  init=false start=24 stop=35
+	identifier="vocabulary"  init=false start=22 stop=32
 	title="Make your mother smile by…"        
 	translation="Làm cho mẹ của bạn mỉm cười bằng cách..."
     tag="h3" %}
@@ -43,7 +43,7 @@ attr:
 		trial=site.trialdeploy %}  
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="vocabulary"  init=false start=35 stop=52
+	identifier="vocabulary"  init=false start=32 stop=49
 	title="Study English by…"        
 	translation="Học tiếng Anh bằng cách..."
     tag="h3" %}
@@ -57,7 +57,7 @@ attr:
 		trial=site.trialdeploy %} 
    
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="vocabulary"  init=false start=52 stop=64
+	identifier="vocabulary"  init=false start=49 stop=61
 	title="Help your friend by…"        
 	translation="Giúp đỡ bạn của bạn bằng cách..."
     tag="h3" %}
@@ -71,7 +71,7 @@ attr:
 		trial=site.trialdeploy %} 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="vocabulary"  init=false start=64 stop=76
+	identifier="vocabulary"  init=false start=61 stop=72
 	title="Release stress by…"        
 	translation="Giải tỏa căng thẳng bằng cách..."
     tag="h3" %}
@@ -85,7 +85,7 @@ attr:
 		trial=site.trialdeploy %} 
   
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="vocabulary"  init=false start=77 stop=104
+	identifier="vocabulary"  init=false start=72 stop=94
 	title="Apply for a job by…"        
 	translation="Xin việc bằng cách..."
     tag="h3" %}
@@ -99,7 +99,7 @@ attr:
 		trial=site.trialdeploy %} 
    
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="vocabulary"  init=false start=104 stop=121
+	identifier="vocabulary"  init=false start=95 stop=110
 	title="Move on from a bad break-up by…"        
 	translation="Bước tiếp sau cuộc chia tay đau khổ bằng cách..."
     tag="h3" %}
@@ -113,7 +113,7 @@ attr:
 		trial=site.trialdeploy %} 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="vocabulary"  init=false start=122 stop=135
+	identifier="vocabulary"  init=false start=110 stop=122
 	title="Lose weight by…"        
 	translation="Giảm cân bằng cách..."
     tag="h3" %}
@@ -129,7 +129,7 @@ attr:
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="examples"  init=true
-	title="Example"
+	title="Examples"
 	translation="Ví dụ"
 %}
 
