@@ -1,3 +1,4 @@
+---
 layout: lesson
 lang: pt
 class: "2"
@@ -15,13 +16,14 @@ salestext: "Versão Premium Gratuita (1 dia mais)"
 	translation="Rotina diária"
     tag="h1" %}
 
+
 ## Vocabulary   *Vocabulário*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
 		section="vocabulary"
-		voiceover="vocabulary"
+		voiceover="Native-Dialogue1"
 		database=site.data.vocabulary 
 		trial=false %}
 
@@ -79,9 +81,7 @@ salestext: "Versão Premium Gratuita (1 dia mais)"
 > {% include play.html identifier="Native-Dialogue3" start=27.11 stop=28.36 %} P2: **Sounds great!**   
 > *Parece ótimo!*     
 >{% include play.html identifier="Native-Dialogue3" start=28.36 stop=47.96 %} P2: **I want to meet Kurt on Saturday and he thinks that’s great idea. Kurt gets up at 7:30 AM and then he goes to his Taekwondo lesson at 9:00. At 11:00 he doesn’t have time because he starts school at that time and he finishes school at 5:30 PM. At 5:45 he meets me for dinner.**    
-> *Quero encontrar Kurt no sábado e ele acha que é uma ótima idéia. Kurt se levanta às 7h30 da manhã e então ele vai para sua aula de Taekwondo às 9. Às 11, ele não tem tempo porque começa a escola naquela hora e ele termina a escola às 17h30 da tarde. Às 17h45 ele se encontra comigo para jantar.*  
-
-
+> *Quero encontrar Kurt no sábado e ele acha que é uma ótima idéia. Kurt se levanta às 7h30 da manhã e então ele vai para sua aula de Taekwondo às 9. Às 11, ele não tem tempo porque começa a escola naquela hora e ele termina a escola às 17h30 da tarde. Às 17h45 ele se encontra comigo para jantar.*    
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue4"  init=true
 	title="Exercise"        

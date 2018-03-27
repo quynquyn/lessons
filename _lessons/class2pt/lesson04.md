@@ -1,3 +1,4 @@
+---
 layout: lesson
 lang: pt
 class: "2"
@@ -12,7 +13,7 @@ salestext: "Versão Premium Gratuita (último dia)"
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue1"  init=true
 	title="Lesson 2.4: Movies"        
-	translation="TODO"
+	translation="Filmes"
     tag="h1" %}
 
 
@@ -89,8 +90,8 @@ salestext: "Versão Premium Gratuita (último dia)"
 
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=true
-	title="Explanation"        
-	translation="Explicação"
+	title="Examples"        
+	translation="Exemplos"
     tag="h2" %}	
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=2.75 stop=13.41
@@ -109,7 +110,7 @@ salestext: "Versão Premium Gratuita (último dia)"
 	title="2. What are we gonna do now?"        
 	translation=""
     tag="h3" %}
-##### *O que vamos fazer agora?
+##### O que vamos fazer agora?
 
 **Be gonna = be going to**     *ir fazer*
 
@@ -124,6 +125,7 @@ salestext: "Versão Premium Gratuita (último dia)"
 	title="3. Why don’t we see 'Beyond Everest'?"        
 	translation=""
     tag="h3" %}
+    
 ##### *Por que não vamos assistir 'Beyond Everest'?*
 **Why don’t we…?**     *Por que não vamos fazer...?*
 

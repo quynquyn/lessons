@@ -9,7 +9,6 @@ attr:
   lang: pt
 ---
 
-
 {%  include voice.html attr=page.attr                     tag="h1"
 	identifier="review"  init=true
 	title="Lesson 1.25: Review"
@@ -25,7 +24,6 @@ attr:
 *CO que faz você triste / decepcionado / irritado?*
 1. {% include play.html identifier="review" start=18.33 stop=23.15 %} **What do you and your friend usually argue about?**  
 *Sobre o que você e seu amigo costumam brigar?*
-
 1. {% include play.html identifier="review" start=23.33 stop=28.15 %} **What did the man find in his room this morning?**  
 *O que o homem encontrou em seu quarto esta manhã?*
 1. {% include play.html identifier="review" start=28.33 stop=32.35 %} **What does the woman sell in the market?**  
@@ -36,7 +34,6 @@ attr:
 *Qual é o seu livro favorito?*
 1. {% include play.html identifier="review" start=40.33 stop=44.35 %} **Which teacher do you like?**  
 *De Qual mestre você costa?*
-
 
 {% if site.trialdeploy %}
 	{% include explanation_placeholder.html  attr=page.attr     start=9 stop=47 %}

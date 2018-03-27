@@ -9,8 +9,6 @@ attr:
   lang: pt
 ---
 
-
-
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=true
 	title="Lesson 1.24: Why"        
@@ -127,26 +125,24 @@ attr:
 	translation="Exemplos"
     tag="h2" %}
 
-1. {% include play.html identifier="examples" start=3.72 stop=5.62 %}**Why do you study English?**  
+1. {% include play.html identifier="examples" start=3.72 stop=5.62 %} **Why do you study English?**  
 *Por que você estuda inglês?*  
-2. {% include play.html identifier="examples" start=6.85 stop=9.00 %}**Why do people love to travel?**  
+2. {% include play.html identifier="examples" start=6.85 stop=9.00 %} **Why do people love to travel?**  
 *Por que as pessoas adoram viajar?*   
-3.  {% include play.html identifier="examples" start=10.33 stop=12.30 %}**Why do people get stressed?**  
+3. {% include play.html identifier="examples" start=10.33 stop=12.30 %} **Why do people get stressed?**  
 *Por que as pessoas ficam estressadas?*   
-4.  {% include play.html identifier="examples" start=13.71 stop=15.46 %}**Why are you here?**  
+4. {% include play.html identifier="examples" start=13.71 stop=15.46 %} **Why are you here?**  
 *Por quê você está aqui?*   
-5. {% include play.html identifier="examples" start=17.04 stop=19.06 %}**Why is money important?**  
+5. {% include play.html identifier="examples" start=17.04 stop=19.06 %} **Why is money important?**  
 *Por que o dinheiro é importante?*  
-6.  {% include play.html identifier="examples" start=20.80 stop=23.28 %}**Why do people tell white lies?**  
+6. {% include play.html identifier="examples" start=20.80 stop=23.28 %} **Why do people tell white lies?**  
 *Por que as pessoas contam mentiras bobas?*  
-7.  {% include play.html identifier="examples" start=25.02 stop=28.37 %}**Why do people want to live in the countryside?**  
+7. {% include play.html identifier="examples" start=25.02 stop=28.37 %} **Why do people want to live in the countryside?**  
 *Por que as pessoas querem morar no campo?*   
-8.  {% include play.html identifier="examples" start=29.72 stop=32.54 %}**Why do people want to live in the city?**  
+8. {% include play.html identifier="examples" start=29.72 stop=32.54 %} **Why do people want to live in the city?**  
 *Por que as pessoas querem morar na cidade?*   
-9. {% include play.html identifier="examples" start=33.92 stop=35.80 %}**Why do you feel sad?**  
+9. {% include play.html identifier="examples" start=33.92 stop=35.80 %} **Why do you feel sad?**  
 *Por que você se sente triste?*   
-10. {% include play.html identifier="examples" start=37.75 stop=39.30%}**Why are you here?**  
-*Por quê você está aqui?*   
 
 
 

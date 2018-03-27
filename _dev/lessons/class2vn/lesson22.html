@@ -1,0 +1,728 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/dev/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  <script src="http://0.0.0.0:35729/livereload.js"></script></head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics</span>
+        
+      <span class="navbar-brand">
+        
+          <a class="nav-item nav-link help" href="https://get.englishletics.com/vi/giup/?chatfuelid=MYCHATFUELID">Ủng hộ</a>
+        
+      </span>
+    
+    
+      <span class="navbar-text offer">
+        
+        
+          Phiên bản miễn phí
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/vi/?add-to-cart=71&chatfuelid=MYCHATFUELID">Nâng cấp!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { border-top: 2px solid #0000ff;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                
+<h1>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L22-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+<span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '22', 'vocabulary');">▶</span>
+
+Lesson 2.22: Hometown
+<em>Quê nhà</em>
+<div class="audiofile-info"></div>
+</h1>
+
+<h2 id="vocabulary---từ-vựng">Vocabulary   <em>Từ vựng</em></h2>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary', 
+    5, 40, 
+    'n/a', 'vocabulary');">▷</strong>
+
+Describe your hometown
+<em>Miêu tả quê nhà của bạn</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l22-small.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 8.2, 9.55, 
+      '2-22', 'small');">▷ <strong>small</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nhỏ</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l22-quiet.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 9.55, 10.63, 
+      '2-22', 'quiet');">▷ <strong>quiet</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>yên lặng</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l22-big.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 10.63, 11.79, 
+      '2-22', 'big');">▷ <strong>big</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>lớn</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l22-modern.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 11.79, 13.16, 
+      '2-22', 'modern');">▷ <strong>modern</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>hiện đại</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l22-well-developed.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 13.16, 14.59, 
+      '2-22', 'well-developed');">▷ <strong>well-developed</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>phát triển mạnh</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l22-bustling.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 14.59, 15.81, 
+      '2-22', 'bustling');">▷ <strong>bustling</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>vội vàng</em>
+    
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<ol>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   15.13, 17.57,   'n/a', 'vocabulary');">▷</strong> <strong>It’s a lovely place to live in.</strong><br />
+<em>Nó là một nơi dễ thương để sống.</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   17.57, 20.17,   'n/a', 'vocabulary');">▷</strong> <strong>It’s a popular tourist destination.</strong><br />
+<em>Nó là một nơi hút khách du lịch nổi tiếng.</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   20.17, 28.17,   'n/a', 'vocabulary');">▷</strong> <strong>It’s a quiet place and it’s small enough that you can get to know your neighbour and has a great sense of community.</strong><br />
+<em>Nó là một nơi yên tĩnh và đủ nhỏ để để bạn có thể làm quen với hàng xóm và có thể có một cộng đồng tốt.</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   28.17, 31.57,   'n/a', 'vocabulary');">▷</strong> <strong>It has fresh air which is beneficial to your health.</strong><br />
+<em>Nó có không khí trong lành rất có lợi cho sức khỏe của bạn.</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   31.57, 36.17,   'n/a', 'vocabulary');">▷</strong> <strong>It’s a real 24-hour city and you can meet people from all around the world.</strong><br />
+<em>Nó thực sự là một thành phố 24 giờ và bạn có thể gặp mọi người từ khắp thế giới.</em></li>
+  <li><strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary',   36.17, 41.17,   'n/a', 'vocabulary');">▷</strong> <strong>It’s got such a rich culture and there’s always something interesting going on.</strong><br />
+<em>Nó có một nền văn hóa giàu có và luôn luôn những điều thú vị diễn ra.</em></li>
+</ol>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary', 
+    41, 60, 
+    'n/a', 'vocabulary');">▷</strong>
+
+What is your hometown famous for?
+<em>Quê của bạn nổi tiếng vì cái gì?</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<ol>
+  <li><strong>pottery making</strong> <br />
+<em>Nghề làm gốm</em></li>
+  <li><strong>famous landmarks such as …</strong> <br />
+<em>Mốc nổi tiếng như là…</em></li>
+  <li><strong>delicious food</strong> <br />
+<em>Thức ăn ngon</em></li>
+  <li><strong>heavy industry</strong>  <br />
+<em>Ngành công nghiệp nặng</em></li>
+  <li><strong>agricultural products</strong> <br />
+<em>Sản phẩm nông nghiệp</em></li>
+  <li><strong>places of interest / the tourist industry</strong><br />
+<em>Nhiều nơi hấp dẫn/ Ngành du lịch</em></li>
+  <li><strong>tea plantation</strong> <br />
+<em>Đồn điền trà</em></li>
+</ol>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_vocabulary" onclick="playat('vocabulary', 
+    60, 82, 
+    'n/a', 'vocabulary');">▷</strong>
+
+Problems
+<em>Vấn đề</em>
+<div class="audiofile-info"></div>
+</h3>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l22-homelessness.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 15.81, 18.18, 
+      '2-22', 'homelessness');">▷ <strong>homelessness</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tình trạng vô gia cư</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l22-beggars.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 63.18, 65.04, 
+      '2-22', 'beggars');">▷ <strong>beggars</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ăn xin</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l22-traffic-congestion.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 65.04, 67.1, 
+      '2-22', 'traffic congestion');">▷ <strong>traffic congestion</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tắc nghẽn giao thông</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l22-sub-standard-housing.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 67.1, 69.04, 
+      '2-22', 'sub-standard housing');">▷ <strong>sub-standard housing</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nhà xuống cấp</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l22-prostitution.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 69.04, 70.93, 
+      '2-22', 'prostitution');">▷ <strong>prostitution</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>nạn mại dâm</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l22-pollution.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 70.93, 72.48, 
+      '2-22', 'pollution');">▷ <strong>pollution</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>sụ ô nhiễm</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l22-a-high-crime-rate.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 72.48, 74.46, 
+      '2-22', 'a high crime rate');">▷ <strong>a high crime rate</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tỷ lệ tội phạm cao</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l22-high-unemployment.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 74.46, 76.35, 
+      '2-22', 'high unemployment');">▷ <strong>high unemployment</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tỷ lệ thất nghiệp cao</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 76.35, 78.05, 
+      '2-22', 'overcrowding');">▷ <strong>overcrowding</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 78.05, 79.92, 
+      '2-22', 'unsafe areas');">▷ <strong>unsafe areas</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L22-conversation.mp3" id="audio_conversation" preload="none"></audio>
+<span class="el-player-icon" id="play_conversation" onclick="play('conversation', '22', 'conversation');">▶</span>
+
+Conversation
+<em>Đối thoại</em>
+<div class="audiofile-info"></div>
+</h2>
+
+<blockquote>
+  <p><strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      1.74, 4.67,      'n/a', 'conversation');">▷</strong> Person 1: <strong>Hey Tom, you never told me where you were from.</strong><br />
+<em>Ê Tom, bạn chưa bao giờ nói cho tôi biết bạn từ đâu đến.</em>   <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      4.67, 7.89,      'n/a', 'conversation');">▷</strong> Person 2: <strong>That’s because you didn’t ask. I’m from New York.</strong><br />
+<em>Tại vì bạn đâu có hỏi. Tôi đến từ New York.</em>  <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      7.89, 11.28,      'n/a', 'conversation');">▷</strong> P1: <strong>Oh, wow. That’s a really big city. What’s it like to live there?</strong> <br />
+<em>Ồ, wow. Đó thật sự là một thành phố lớn. Sống ở đó thì như thế nào?</em>   <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      11.28, 14.81,      'n/a', 'conversation');">▷</strong> P2: <strong>It’s a bustling city, and there is always something to see there.</strong><br />
+<em>Nó là một thành phố nhộn nhịp và luôn luôn có cái gì để xem ở đó.</em>    <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      14.81, 17.46,      'n/a', 'conversation');">▷</strong> P1: <strong>That’s interesting. What is it famous for?</strong><br />
+<em>Thú vị vậy. Nó nổi tiếng vì cái gì?</em>   <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      17.46, 21.06,      'n/a', 'conversation');">▷</strong> P2: <strong>It’s mostly known for being the home of a very famous landmark.</strong>  <br />
+<em>Nó được biết đến nhiều vì là nơi nhà của những mốc nổi tiếng?</em>   <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      21.06, 22.55,      'n/a', 'conversation');">▷</strong> P1: <strong>Which landmark is that?</strong><br />
+<em>Mốc gì thế?</em>  <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      22.55, 23.95,      'n/a', 'conversation');">▷</strong> P2: <strong>The Statue of Liberty.</strong><br />
+<em>Tượng Nữ thần Tự do.</em>   <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      23.95, 29.41,      'n/a', 'conversation');">▷</strong> P1: <strong>Oh, I heard of it. I also heard it was a gift to America from France in the 19th century.</strong><br />
+<em>Ồ, tôi có nghe đến cái này. Tôi cũng có nghe nói nó là món quà mà Mỹ dành cho Pháp vào thế kỉ 19.</em>    <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      29.41, 33.63,      'n/a', 'conversation');">▷</strong> P2: <strong>Indeed! Hmm, wonder what it’s like to live in Paris.</strong><br />
+<em>Thật vậy! Hmm, không biết sống ở Paris thì như thế nào nhỉ.</em>   <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      33.63, 37.9,      'n/a', 'conversation');">▷</strong> P1: <strong>I was born in Paris. You could say it’s my hometown. It’s stunning!</strong><br />
+<em>Tôi được sinh ra ở Paris. Bạn có thể nói nó là quê nhà của tôi. Nó rất là lộng lẫy!</em>   <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      37.9, 40.64,      'n/a', 'conversation');">▷</strong> P2: <strong>That is cool. Did you climb the Eiffel Tower?</strong><br />
+<em>Tuyệt đấy. Bạn có leo lên tháp Eiffel chưa?</em>   <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      40.64, 47.22,      'n/a', 'conversation');">▷</strong> P1: <strong>Of course! You can’t go to Paris and not climb the Eiffel Tower. I also know where the best places to eat are.</strong><br />
+<em>Tất nhiên rồi. Bạn không thể đến Paris mà không leo lên tháp Eiffel. Tôi còn biết những nơi tốt nhất để ăn nữa cơ.</em>   <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      47.22, 49.55,      'n/a', 'conversation');">▷</strong> P2: <strong>Oh, that’s the most important thing to know!</strong><br />
+<em>Ồ, đó là điều quan trọng nhất cần phải biết.</em></p>
+</blockquote>
+
+<h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L22-explanation.mp3" id="audio_explanation" preload="none"></audio>
+<span class="el-player-icon" id="play_explanation" onclick="play('explanation', '22', 'explanation');">▶</span>
+
+Explanation
+<em>Giải thích</em>
+<div class="audiofile-info"></div>
+</h2>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation', 
+    2.72, 23.53, 
+    'n/a', 'explanation');">▷</strong>
+
+1. It's a bustling city, and there is always something to see there.
+<em></em>
+<div class="audiofile-info"></div>
+</h3>
+<h5 id="nó-là-một-thành-phố-nhộn-nhịp-và-luôn-có-điều-gì-đó-để-xem"><em>Nó là một thành phố nhộn nhịp và luôn có điều gì đó để xem.</em></h5>
+<ol>
+  <li><strong>My hometown is a small but modern and full of great people.</strong> <br />
+<em>Quê nhà của tôi thì nhỏ nhưng rất hiện đại và có đầy người tuyệt vời.</em></li>
+  <li><strong>Until the age of 17, I lived in the quiet and small town of Stowe, Vermont.</strong>  <br />
+<em>Cho đến khi tôi 17 tuổi, tôi sống trong thị trấn Stowe, Vermont rất yêu tĩnh và nhỏ.</em></li>
+  <li><strong>My hometown is nothing to brag about, but I love it. It’s small and charming.</strong> <br />
+<em>Quê của tôi thì không có gì để khoe. Nó nhỏ và rất hấp dẫn.</em></li>
+</ol>
+
+<p><strong>6 more sentences hidden…</strong> <em>6 thêm câu ẩn…</em></p>
+
+<div class="card card-body bg-light premium_optinbox">
+     <h4>Premium</h4> Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ. 22 USD, khoảng 500k VND
+     <a class="btn btn-info" href="https://get.englishletics.com/en/?add-to-cart=8&amp;chatfuelid=MYCHATFUELID">Được truy cập ở đây</a>
+     <a class="explain" href="https://get.englishletics.com/en/people-going-premium-learn-english-faster-and-better/?chatfuelid=MYCHATFUELID">xem chi tiết</a>
+</div>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>

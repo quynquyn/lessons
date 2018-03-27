@@ -10,7 +10,6 @@ attr:
 salestext: "Versão Premium Gratuita (3 dias mais)"
 ---
 
-
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue1"  init=true
 	title="Lesson 2.1: Hobbies"        
@@ -52,8 +51,8 @@ salestext: "Versão Premium Gratuita (3 dias mais)"
 
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=true
-	title="Explanation"        
-	translation="Explicação"
+	title="Examples"        
+	translation="Exemplos"
     tag="h2" %}
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=0.69 stop=14.02
@@ -104,16 +103,13 @@ salestext: "Versão Premium Gratuita (3 dias mais)"
 	translation=""
     tag="h3" %}
 ##### *Com que frequência você joga badminton?*   
-
 **How often do you…?**     *Com que frequência você faz...?*
-
 1. **How often do you call your mother?**  
 *Com que frequência você chama sua mãe?*
 2. **How often do you play ping-pong?**  
 *Com que frequência você joga pingue-pongue?*
 3. **How often do you brush your teeth?**  
 *Com que frequência você escova seus dentes?*
-
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=59.04 stop=69.28
 	title="5. Twice a week"        

@@ -34,19 +34,20 @@ salestext: "Versão Premium Gratuita (2 dias mais)"
 	translation="Diálogo"
     tag="h2" %}
 
-> {% include play.html identifier="Native-Dialogue1" start=0.54 stop=2.58 %} Person 1: **Why do you look so annoyed?**    
+
+> {% include play.html identifier="Native-Dialogue2" start=0.54 stop=2.58 %} Person 1: **Why do you look so annoyed?**    
 > *Por que você parece tão irritado?*    
-> {% include play.html identifier="Native-Dialogue1" start=2.58 stop=5.96 %} Person 2: **I am cleaning the house now and I hate doing housework.**    
+> {% include play.html identifier="Native-Dialogue2" start=2.58 stop=5.96 %} Person 2: **I am cleaning the house now and I hate doing housework.**    
 > *Estou limpando a casa agora e odeio fazer trabalhos domésticos.*     
-> {% include play.html identifier="Native-Dialogue1" start=5.96 stop=7.33 %} P1: **What else do you hate?**    
+> {% include play.html identifier="Native-Dialogue2" start=5.96 stop=7.33 %} P1: **What else do you hate?**    
 > *O que mais você odeia?*    
-> {% include play.html identifier="Native-Dialogue1" start=7.33 stop=10.47 %} P2: **Talking to unfriendly people drives me crazy.**    
+> {% include play.html identifier="Native-Dialogue2" start=7.33 stop=10.47 %} P2: **Talking to unfriendly people drives me crazy.**    
 > *Falar com pessoas hostis me deixa louco.*    
-> {% include play.html identifier="Native-Dialogue1" start=10.47 stop=12.89 %} P1: **Do you hate getting up early in the morning?**    
+> {% include play.html identifier="Native-Dialogue2" start=10.47 stop=12.89 %} P1: **Do you hate getting up early in the morning?**    
 > *Você odeia acordar cedo de manhã?*    
-> {% include play.html identifier="Native-Dialogue1" start=12.89 stop=16.41 %} P2: **No, I don’t hate getting up early in the morning. How about you?**    
+> {% include play.html identifier="Native-Dialogue2" start=12.89 stop=16.41 %} P2: **No, I don’t hate getting up early in the morning. How about you?**    
 > *Não, eu não odeio acordar cedo de manhã. E quanto a você?*    
-> {% include play.html identifier="Native-Dialogue1" start=16.41 stop=20.76 %} P1: **Definitely. Getting up early in the morning really gets on my nerves.**    
+> {% include play.html identifier="Native-Dialogue2" start=16.41 stop=20.76 %} P1: **Definitely. Getting up early in the morning really gets on my nerves.**    
 > *Definitivamente. Levantar cedo de manhã realmente me dá nos nervos.*    
 
 {%  include voice.html attr=page.attr       ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
@@ -69,7 +70,6 @@ salestext: "Versão Premium Gratuita (2 dias mais)"
 	title="2: I hate doing housework."        
 	translation="Eu odeio fazer trabalhos domésticos."
     tag="h3" %}
-
 **I hate / I am sick of / I am tired of / I can’t stand it**   
 *Eu odeio / Estou cansado de / Estou cansado de / Eu não suporto isso*
 
@@ -87,8 +87,7 @@ salestext: "Versão Premium Gratuita (2 dias mais)"
 	title="3: Talking to unfriendly people drives me crazy."        
 	translation=""
     tag="h3" %}
-##### *Falar com pessoas hostis me deixa louco.*
-
+##### *Falar com pessoas hostis me deixa louco.*    
 **It drives me crazy / it gets on my nerves**   
 *Isso me deixa louco / me dá nos nervos*
 

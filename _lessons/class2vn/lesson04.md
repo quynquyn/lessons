@@ -108,8 +108,9 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=15.23 stop=29.56
 	title="2. What are we gonna do now?"        
-	translation="Chúng ta sẽ làm gì bây giờ?"
+	translation=""
     tag="h3" %}
+##### Chúng ta sẽ làm gì bây giờ?    
 
 **Be gonna = be going to**     *Sẽ...*
 
@@ -124,7 +125,8 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 	title="3. Why don’t we see 'Beyond Everest'?"        
 	translation=""
     tag="h3" %}
-##### *Hay là chúng ta xem phim 'Beyond Everest'?*
+
+##### *Hay là chúng ta xem phim 'Beyond Everest'?*    
 **Why don’t we…?**     *Hay là chúng ta... / Tại sao chúng ta không...?*
 
 1. **Why don’t we go to the beach?**  
@@ -136,9 +138,10 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=47.80 stop=62.19
 	title="4. It’s based on a true story."        
-	translation="Nó được dựa trên một câu chuyện có thật."
+	translation=""
     tag="h3" %}
 
+##### Nó được dựa trên một câu chuyện có thật.   
 **It’s based on…**     *Nó được dựa trên...*
 
 1. **It’s based on a book.**  
@@ -152,6 +155,7 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 	title="5. I get tired of just looking at all that action."        
 	translation=""
     tag="h3" %}
+
 ##### *Tôi mệt mỏi vì phải xem tất cả các pha hành động đó.*
 **I get tired of…**     *Tôi mệt mỏi vì...*
 
@@ -166,6 +170,7 @@ salestext: "Phiên bản đầy đủ miễn phí (ngày cuối)"
 	title="6. What is 'Lost and Found in New York' about?"        
 	translation=""
     tag="h3" %}
+    
 ##### *Bộ phim 'Lost and Found in New York' nói về điều gì?*
 **What is it about?**     *Nó về cái gì?*
 

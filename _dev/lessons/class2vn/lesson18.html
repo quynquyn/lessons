@@ -1,0 +1,1166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EnglishLetics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/dev/css/main.css" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110472761-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110472761-2');
+    </script>
+    
+    
+    <script>
+      
+        function playreset(audio_id) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = 0;
+        }
+        function play(audio_id, lesson, word) {
+            var audio = document.getElementById("audio_"+ audio_id);
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word,
+                });
+                
+            }else{
+                audio.pause();
+                //audio.currentTime = 0
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+        function playat(audio_id, astart, astop, lesson, word) {
+      // TODO
+      // stop all other players
+      // start at timestamp, stop at timestamp
+      
+      
+            var audio = document.getElementById("audio_"+ audio_id);
+            audio.currentTime = astart;
+            if (audio.paused) {
+                audio.play();
+                document.getElementById('play_'+ audio_id).innerHTML = '❚❚';
+                
+                gtag('event', 'playsound', {
+                  'event_category': 'useraction',
+                  'event_label': lesson,
+                  'value': word, 
+                });
+                
+                setTimeout(function(){
+                       audio.pause();
+                       document.getElementById('play_'+ audio_id).innerHTML = '▶';
+                   }, (astop-astart)*1000 );
+                
+            }else{
+                audio.pause();
+                document.getElementById('play_'+ audio_id).innerHTML = '▶';
+            }
+        }
+
+    </script>
+        
+        
+
+    
+    <script>       
+        if(window.location.hash && window.location.hash == "#count") {
+          
+
+            javascript:(function(e,s){e.src=s;e.onload=function(){jQuery.noConflict();console.log('jQuery injected')};document.head.appendChild(e);})(document.createElement('script'),'//code.jquery.com/jquery-latest.min.js')
+	
+        	setTimeout(function(){
+            jQuery(".navbar-brand:first").append(". Current lesson has <em>" + countEnglishWords() + '</em> words.');
+            jQuery(".audiofile-info").show();
+            
+        	    //alert("Counting all headlines and bold words... " + countEnglishWords() );
+        	}, 1000);
+	
+        	function countEnglishWords() {
+        		var arr = 
+        		    jQuery('*') /*look at all elements*/
+        		        .filter(function () { /*filter these elements*/
+        					 /*only keep the ....*/
+        		            return jQuery(this).is('strong')
+        						|| jQuery(this).is('h1')
+        						|| jQuery(this).is('h2')
+        						|| jQuery(this).is('h3')
+        						|| jQuery(this).is('h4')
+        						|| jQuery(this).is('h5')
+        						;
+        		        })
+        		        .map(function () { /*create a new object using these elements*/
+        		            return jQuery(this); /*store the text of each selected element*/
+        		        })
+        		        .get(); /*convert this to an array*/
+        		arr;
+
+        		//alert ("English words found: " + countwords);
+
+
+
+
+        	    var countwords = 0;
+        		jQuery.each(arr, function( index, value ) {
+        		    countwords = countwords + jQuery(value).text().split(" ").length;
+        		    jQuery(value).css("color", "red");
+        		});
+
+        		return countwords;
+        	};
+          
+          
+          
+        } else {
+          // Fragment doesn't exist
+        }
+    </script>      
+        
+ 
+ 
+
+        
+  <script src="http://0.0.0.0:35729/livereload.js"></script></head>
+
+  <body>
+        <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
+      <span class="navbar-brand">EnglishLetics</span>
+        
+      <span class="navbar-brand">
+        
+          <a class="nav-item nav-link help" href="https://get.englishletics.com/vi/giup/?chatfuelid=MYCHATFUELID">Ủng hộ</a>
+        
+      </span>
+    
+    
+      <span class="navbar-text offer">
+        
+        
+          Phiên bản miễn phí
+          <a class="nav-link btn btn-info" href="https://get.englishletics.com/vi/?add-to-cart=71&chatfuelid=MYCHATFUELID">Nâng cấp!</a>
+        
+        
+      </span>
+    
+    
+  
+       
+    </nav>
+    
+
+    
+      <style>
+    	  body { border-top: 2px solid #0000ff;}
+      </style>
+    
+    
+    <div class="container">
+
+      <section class="el-lesson">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                
+<h1>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L18-vocabulary.mp3" id="audio_vocabulary" preload="none"></audio>
+<span class="el-player-icon" id="play_vocabulary" onclick="play('vocabulary', '18', 'vocabulary');">▶</span>
+
+Lesson 2.18: Feelings
+<em>Cảm xúc</em>
+<div class="audiofile-info"></div>
+</h1>
+
+<h2 id="vocabulary---từ-vựng">Vocabulary   <em>Từ vựng</em></h2>
+
+<table>
+<tr class="row1">
+<td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l18-jealous.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 7.17, 8.24, 
+      '2-18', 'jealous');">▷ <strong>jealous</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ghen tuông</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l18-confident.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 8.24, 9.36, 
+      '2-18', 'confident');">▷ <strong>confident</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>tự tin</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l18-curious.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 9.36, 10.51, 
+      '2-18', 'curious');">▷ <strong>curious</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>hiếu kì</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row2"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l18-happy.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 10.51, 11.85, 
+      '2-18', 'happy');">▷ <strong>happy</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>vui vẻ</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l18-blessed.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 11.85, 13.36, 
+      '2-18', 'blessed');">▷ <strong>blessed</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>may mắn</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/images/class2/c2l18-glad.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 13.36, 14.58, 
+      '2-18', 'glad');">▷ <strong>glad</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>vui mừng</em>
+    
+  
+  
+  
+  
+</td></tr>
+<tr class="row3"><td class="col1">
+  
+    <img src="/dev/lessons/images/class2/c2l18-tired.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 14.58, 16.1, 
+      '2-18', 'tired');">▷ <strong>tired</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>mệt mỏi</em>
+    
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/images/class2/c2l18-surprised.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 16.1, 17.74, 
+      '2-18', 'surprised');">▷ <strong>surprised</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+    
+      <em>ngạc nhiên</em>
+    
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 17.74, 19.31, 
+      '2-18', 'depressed');">▷ <strong>depressed</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row4"><td class="col1">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 19.31, 21.02, 
+      '2-18', 'hopeful');">▷ <strong>hopeful</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 21.02, 22.52, 
+      '2-18', 'cheerful');">▷ <strong>cheerful</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 22.52, 24.24, 
+      '2-18', 'peaceful');">▷ <strong>peaceful</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row5"><td class="col1">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 24.24, 26.15, 
+      '2-18', 'calm');">▷ <strong>calm</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 26.15, 27.69, 
+      '2-18', 'angry');">▷ <strong>angry</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 27.69, 29.34, 
+      '2-18', 'bored');">▷ <strong>bored</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row6"><td class="col1">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 29.34, 31.08, 
+      '2-18', 'cautious');">▷ <strong>cautious</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 31.08, 32.94, 
+      '2-18', 'frustrated');">▷ <strong>frustrated</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 32.94, 34.46, 
+      '2-18', 'shocked');">▷ <strong>shocked</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row7"><td class="col1">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 34.46, 36.37, 
+      '2-18', 'disappointed');">▷ <strong>disappointed</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 36.37, 38.05, 
+      '2-18', 'annoyed');">▷ <strong>annoyed</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 38.05, 39.69, 
+      '2-18', 'pissed off');">▷ <strong>pissed off</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row8"><td class="col1">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 39.69, 41.28, 
+      '2-18', 'lonely');">▷ <strong>lonely</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 41.28, 42.98, 
+      '2-18', 'neutral');">▷ <strong>neutral</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 42.98, 44.64, 
+      '2-18', 'frightened');">▷ <strong>frightened</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row9"><td class="col1">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 44.64, 46.98, 
+      '2-18', 'guilty');">▷ <strong>guilty</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 46.98, 48.62, 
+      '2-18', 'ashamed');">▷ <strong>ashamed</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 48.62, 50.04, 
+      '2-18', 'hysterical');">▷ <strong>hysterical</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row10"><td class="col1">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 50.04, 52.41, 
+      '2-18', 'sad - downhearted');">▷ <strong>sad - downhearted</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 52.41, 54.17, 
+      '2-18', 'scared');">▷ <strong>scared</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 54.17, 55.76, 
+      '2-18', 'satisfied');">▷ <strong>satisfied</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row11"><td class="col1">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 55.76, 57.58, 
+      '2-18', 'excited');">▷ <strong>excited</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 57.58, 59.52, 
+      '2-18', 'embarrassed');">▷ <strong>embarrassed</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 59.52, 61.29, 
+      '2-18', 'mad');">▷ <strong>mad</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row12"><td class="col1">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 61.29, 63.2, 
+      '2-18', 'worried');">▷ <strong>worried</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 63.2, 64.86, 
+      '2-18', 'exhausted');">▷ <strong>exhausted</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 64.86, 66.82, 
+      '2-18', 'confused');">▷ <strong>confused</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row13"><td class="col1">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 66.82, 68.59, 
+      '2-18', 'shy');">▷ <strong>shy</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 68.59, 70.39, 
+      '2-18', 'disgusted');">▷ <strong>disgusted</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 70.39, 72.59, 
+      '2-18', 'anxious');">▷ <strong>anxious</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+<tr class="row14"><td class="col1">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 72.59, 74.08, 
+      '2-18', 'empty');">▷ <strong>empty</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col2">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 74.08, 75.71, 
+      '2-18', 'lost');">▷ <strong>lost</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td><td class="col3">
+  
+    <img src="/dev/lessons/trial_placeholder.jpg" class="img-fluid img-thumbnail mx-auto d-block" />
+  
+  
+  
+  
+    <a class="el-vocab-play" id="play_vocabulary" onclick="playat('vocabulary', 75.71, 77.47, 
+      '2-18', 'relieved');">▷ <strong>relieved</strong></a>
+  
+  
+  
+  
+  <br />
+  
+  
+  
+  
+  
+  
+</td></tr>
+
+</table>
+
+<h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L18-conversation.mp3" id="audio_conversation" preload="none"></audio>
+<span class="el-player-icon" id="play_conversation" onclick="play('conversation', '18', 'conversation');">▶</span>
+
+Conversation
+<em>Đối thoại</em>
+<div class="audiofile-info"></div>
+</h2>
+
+<blockquote>
+  <p><strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      2.12, 4.64,      'n/a', 'conversation');">▷</strong> Person 1: <strong>Oh my god, I am so bored!</strong><br />
+<em>Trời ơi, tôi chán quá!</em><br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      4.64, 8.26,      'n/a', 'conversation');">▷</strong> Person 2: <strong>Turn on the TV! I’m sure there is something on that isn’t boring.</strong> <br />
+<em>Mở tivi lên đi! Tôi chắc là sẽ có cái gì đó trên tivi mà không hề chán.</em>     <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      8.26, 12.21,      'n/a', 'conversation');">▷</strong> P1: <strong>I already checked. There are only reruns of the shows I saw yesterday.</strong><br />
+<em>Tôi đã xem rồi. Chỉ toàn là chiếu lại những chương trình tôi đã xem hôm qua.</em>   <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      12.21, 15.68,      'n/a', 'conversation');">▷</strong> P2: <strong>Why don’t you read a nice book then? I’m sure you won’t be bored then.</strong>  <br />
+<em>Vậy sao bạn không đọc quyển sách nào hay hay đi? Tôi chắc bạn sẽ không thấy chán đâu.</em>  <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      15.68, 17.66,      'n/a', 'conversation');">▷</strong> P1: <strong>Which book did you have in mind?</strong>   <br />
+<em>Bạn đang nghĩ đến sách gì trong đầu?</em>  <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      17.66, 19.33,      'n/a', 'conversation');">▷</strong> P2: <strong>How about Harry Potter?</strong>  <br />
+<em>Harry Potter thì sao?</em>  <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      19.33, 21.75,      'n/a', 'conversation');">▷</strong> P1: <strong>I started reading it, but then I got bored.</strong>   <br />
+<em>Tôi đã bắt đầu đọc nó, nhưng sau đó tôi thấy chán.</em>  <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      21.75, 23.78,      'n/a', 'conversation');">▷</strong> P2: <strong>You think Harry Potter is boring?</strong>   <br />
+<em>Bạn nghĩ Harry Potter chán ư?</em>  <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      23.78, 30.18,      'n/a', 'conversation');">▷</strong> P1: <strong>It’s not that the book is boring, it’s just that I am bored by fantasy. However, reading non-fiction makes me happy.</strong>   <br />
+<em>Không phải là quyển sách chán, mà là tại vì tôi thấy chán với sự tưởng tượng. Tuy nhiên, đọc những thứ không phải tiểu thuyết khiến tôi vui.</em>  <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      30.18, 35.68,      'n/a', 'conversation');">▷</strong> P2: <strong>If that’s the case, you should visit the library. There are plenty of interesting non-fiction books there.</strong>   <br />
+<em>Nếu là trường hợp đó thì bạn nên đến thư viện. Có rất nhiều sách hay không phải tiểu thuyết ở đó.</em>  <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      35.68, 38.51,      'n/a', 'conversation');">▷</strong> P1: <strong>I’m not interested in visiting the library.</strong>   <br />
+<em>Tôi không có hứng đi tới thư viện.</em>  <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      38.51, 40.56,      'n/a', 'conversation');">▷</strong> P2: <strong>Why aren’t you interested to do it?</strong>   <br />
+<em>Sao bạn không có hứng làm vậy?</em>  <br />
+<strong class="el-vocab-play" id="playat_conversation" onclick="playat('conversation',      40.56, 42.03,      'n/a', 'conversation');">▷</strong> P1: <strong>Because I’m too lazy.</strong><br />
+<em>Bởi vì tôi quá lười.</em></p>
+</blockquote>
+
+<h2>
+
+<audio src="https://englishletics.s3.amazonaws.com/audio/C2L18-explanation.mp3" id="audio_explanation" preload="none"></audio>
+<span class="el-player-icon" id="play_explanation" onclick="play('explanation', '18', 'explanation');">▶</span>
+
+Explanations
+<em>Sự giải thích</em>
+<div class="audiofile-info"></div>
+</h2>
+
+<h3>
+
+<strong class="el-vocab-play" id="playat_explanation" onclick="playat('explanation', 
+    3.17, 17.14, 
+    'n/a', 'explanation');">▷</strong>
+
+1. I hope I am not boring you with my life story.
+<em></em>
+<div class="audiofile-info"></div>
+</h3>
+<h5 id="tôi-hy-vọng-tôi-không-làm-bạn-chán-với-câu-chuyện-về-cuộc-đời-tôi"><em>Tôi hy vọng tôi không làm bạn chán với câu chuyện về cuộc đời tôi.</em></h5>
+<ol>
+  <li><strong>John thinks he’s boring, but I find him to be interesting.</strong>   <br />
+<em>John nghĩ anh ấy đang chán, nhưng tôi thấy anh ấy thú vị.</em></li>
+  <li><strong>There is nothing more boring than a bad story.</strong><br />
+<em>Không có cái gì chán hơn là câu chuyện dở.</em></li>
+  <li><strong>I can’t help the fact that I think Harry Potter is boring.</strong><br />
+<em>Tôi không thể phủ nhận sự thật là tôi nghĩ Harry Potter rất nhàm chán.</em></li>
+</ol>
+
+<p><strong>6 more sentences hidden…</strong> <em>6 thêm câu ẩn…</em></p>
+
+<div class="card card-body bg-light premium_optinbox">
+     <h4>Premium</h4> Mua phiên bản đầy đủ và nhận quyền truy cập ngay bây giờ. 22 USD, khoảng 500k VND
+     <a class="btn btn-info" href="https://get.englishletics.com/en/?add-to-cart=8&amp;chatfuelid=MYCHATFUELID">Được truy cập ở đây</a>
+     <a class="explain" href="https://get.englishletics.com/en/people-going-premium-learn-english-faster-and-better/?chatfuelid=MYCHATFUELID">xem chi tiết</a>
+</div>
+
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div> <!-- /container -->
+    
+    
+
+  </body>
+</html>
