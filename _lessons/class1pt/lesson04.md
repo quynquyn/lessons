@@ -17,12 +17,12 @@ salestext: "Versão Premium Gratuita (último dia)"
     tag="h1" %} 
 
 ## Vocabulary   *Vocabulário*
-{% include player.html identifier="vocab-Words" lesson="C1L04" file="C1L04-Words.mp3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
 		section="vocabulary"
+		voiceover="Words"
 		database=site.data.vocabulary 
 		trial=false %}
 

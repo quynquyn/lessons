@@ -9,7 +9,6 @@ attr:
   lang: pt
 ---
 
-
 {%  include voice.html attr=page.attr  
 	identifier="Vocabulary"  init=true
 	title="Lesson 1.8: More of 'to be' (Do / Does)"        
@@ -22,10 +21,11 @@ attr:
 		class=page.class 
 		lesson=page.lesson 
 		section="vocabulary"
+		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-## Explanation   *Explicação*      
+## Examples   *Exemplos*      
 {%  include voice.html attr=page.attr  
 	identifier="Explanation1"  init=true
 	title="1. It's easy to learn English."        
@@ -41,6 +41,7 @@ attr:
 *É errado seguir assim.*
 5. {% include play.html identifier="Explanation1" start=23 stop=28 %} **It's important to have friends.**  
 *É importante ter amigos.*
+
 {% if site.trialdeploy %}
 	{% include list_placeholder.html  attr=page.attr     start=6 stop=14 %}
 	{% else %}
@@ -64,7 +65,6 @@ attr:
 14. {% include play.html identifier="Explanation1" start=71 stop=80 %} **It's smart of him to answer the question.**  
 *É esperto dele responder a pergunta.*
 {% endif %}
-
 {%  include voice.html attr=page.attr  
 	identifier="Explanation2"  init=true
 	title="2. Verb + '~ing' = it"        
@@ -79,6 +79,7 @@ attr:
 *Ouvir música é divertido.*
 4. {% include play.html identifier="Explanation2" start=21 stop=26 %} **Loving you is easy because you are beautiful.**  
 *Amar você é fácil porque você é linda.*
+
 {% if site.trialdeploy %}
 	{% include list_placeholder.html  attr=page.attr     start=5 stop=9 %}
 	{% else %}
@@ -108,6 +109,7 @@ attr:
 {% if site.trialdeploy %}
 	{% include list_placeholder.html  attr=page.attr     start=3 stop=6 %}
 	{% else %}
+	
 3. {% include play.html identifier="Explanation3" start=17 stop=28 %} **The teacher is so patient with his students. / He's such a patient teacher with his students.**  
 *O profesor é tão paciente com seus alunos. / Ele é um profesor tão paciente para seus alunos.*
 4. {% include play.html identifier="Explanation3" start=28 stop=35 %} **You are so good. / You are such a good friend.**  

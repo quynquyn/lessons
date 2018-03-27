@@ -22,8 +22,9 @@ attr:
 	title="Periods in the past"        
 	translation="Períodos no passado"
     tag="h3" %}
+
 	
-{% include wordgrid.html 
+{% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
 		section="simplepasttense"
@@ -37,7 +38,8 @@ attr:
 	translation="O verbo 'to be'"
     tag="h2" %}
 	
-{% include wordgrid.html 
+
+{% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
 		section="tobe"
@@ -62,11 +64,12 @@ attr:
 **Yes, she was sick.**        
 *Sim, estava doente.* 
 
+
 {%  include voice.html attr=page.attr                     tag="h2"
   	identifier="regular"  init=true
   	title="Action verbs"
   	translation="Verbos de ação"
-  %}  
+%}  
    
 1. {% include play.html identifier="regular" start=3.11 stop=9.98 %} **Did you sister help you do homework?**         
 *A sua irmã ajudou você a fazer o dever de casa?*     
@@ -84,7 +87,6 @@ attr:
 *James veio à aula ontem?*   
 **Yes, he came to class yesterday.**    
 *Sim, ele veio à aula ontem.*    
-    
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="regular"  init=false  start=27.18 stop=175.28
 	title="A. Regular verbs (verb + '~ed')"

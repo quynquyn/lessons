@@ -28,9 +28,10 @@ attr:
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="examples1"  init=true
-	title="Example"
-	translation="Exemplo"
+	title="Examples"
+	translation="Exemplos"
 %}
+
 
 > {% include play.html identifier="examples1" start=2.1 stop=5.19 %} **Who is she?**     
 > *Quem é ela?*   
@@ -41,6 +42,7 @@ attr:
 > *Quem é ele?*     
 > {% include play.html identifier="examples1" start=12.51 stop=14.61 %} **He is my mechanic.**      
 > *Ele é meu mecânico.*   
+
 
 {% if site.trialdeploy %}
 	{% include list_placeholder.html  attr=page.attr     start=5 stop=10 %}
@@ -100,8 +102,8 @@ attr:
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="examples2"  init=true
-	title="Example"
-	translation="Exemplo"
+	title="Examples"
+	translation="Exemplos"
 %}
 
 
@@ -132,7 +134,7 @@ attr:
 > {% include play.html identifier="examples2" start=35.30 stop=38.61 %} **Who does the engineer have a crush on?**      
 > *Por quem o engenheiro está apaixonado?*    
 > {% include play.html identifier="examples2" start=39.55 stop=42.94 %} **He has a crush on an office worker.**       
-> **Ele está apaixonado for uma funcionária de escritório.*         
+> *Ele está apaixonado for uma funcionária de escritório.*         
 
 > {% include play.html identifier="examples2" start=43.95 stop=47.52 %} **Who does the policeman try to chase?**      
 > *Quem o policial tenta perseguir?*       

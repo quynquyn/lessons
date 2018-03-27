@@ -24,10 +24,12 @@ salestext: "Versão Premium Gratuita (1 dia mais)"
 	translation="Verbos"
     tag="h3" %}
 
+
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
 		section="verbs"
+		voiceover="Words"
 		database=site.data.vocabulary 
 		trial=false %}
 
@@ -37,12 +39,15 @@ salestext: "Versão Premium Gratuita (1 dia mais)"
 	translation="Substantivo"
     tag="h3" %}
 
+
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
 		section="nouns"
+		voiceover="Words"
 		database=site.data.vocabulary 
 		trial=false %}
+
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="Native-Dialogue"  init=true
@@ -54,10 +59,13 @@ salestext: "Versão Premium Gratuita (1 dia mais)"
 	title="1. What do you cover?"        
 	translation="O que você cobre?"
 %}
+
 > **I cover a table, a chair and a board. What do you cover?**   
 > *Cobro uma mesa, uma cadeira e uma tábua. O que você cobre?*   
 > **I cover a book, a pen and a marker.**   
 > *Cobro um livro, uma caneta e um marcador.*
+
+
 
 {%  include voice.html attr=page.attr                           tag="h3"
 	identifier="Native-Dialogue"              init=false start=16 stop=24
@@ -70,16 +78,19 @@ salestext: "Versão Premium Gratuita (1 dia mais)"
 > **I wear a shirt and trousers.**   
 > *Eu visto uma camisa e uma calça.* 
 
+
 {%  include voice.html attr=page.attr                           tag="h3"
 	identifier="Native-Dialogue"              init=false start=24 stop=34
 	title="3. What do you decorate?"
 	translation="O que você decora?"
 %}
 
+
 > **I decorate a room, a house and two classrooms. What do you decorate?**    
 > *Decoro uma sala, uma casa e duas salas de aula. O que você decora?*   
 > **I decorate a cake.**     
 > *Eu decoro um bolo.*  
+
 
 {%  include voice.html attr=page.attr                           tag="h3"
 	identifier="Native-Dialogue"              init=false start=34 stop=46
@@ -87,10 +98,12 @@ salestext: "Versão Premium Gratuita (1 dia mais)"
 	translation="O que você toca?"
 %}
 
+
 > **I touch a crocodile, a giraffe and a monkey. What do you touch?**    
 > *Toco um crocodilo, uma girafa e um macaco. O que você toca?*    
 > **I touch a wall, a picture and an air-conditioner.**    
 > *Toco uma parede, um retrato e um ar condicionado.*   
+
 
 {%  include voice.html attr=page.attr                           tag="h3"
 	identifier="Native-Dialogue"              init=false start=46 stop=55
@@ -98,10 +111,12 @@ salestext: "Versão Premium Gratuita (1 dia mais)"
 	translation="O que você toca ou joga?"
 %}
 
+
 > **I play football and tennis. What do you play?**    
 > *Eu jogo futebol e tênis. O que você toca ou joga?*   
 > **I play the piano and the guitar.**     
 > *Toco piano e violão.* 
+
 
 ## B. Do you…?   *Você faz...?*
 {%  include voice.html attr=page.attr                           tag="h3"
@@ -124,6 +139,7 @@ salestext: "Versão Premium Gratuita (1 dia mais)"
 > *O que você vende?*   
 > **I sell bikes.**     
 > *Eu vendo bicicletas.*   
+
 
 {%  include voice.html attr=page.attr                           tag="h3"
 	identifier="Native-Dialogue"              init=false start=71 stop=666

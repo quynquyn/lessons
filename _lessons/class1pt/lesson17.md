@@ -9,7 +9,6 @@ attr:
   lang: pt
 ---
 
-
 {%  include voice.html attr=page.attr                     tag="h1"
 	identifier="vocabulary"  init=true
 	title="Lesson 1.17: Who – Where – When"

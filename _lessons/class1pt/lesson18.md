@@ -9,7 +9,6 @@ attr:
   lang: pt
 ---
 
-
 {%  include voice.html attr=page.attr  
 	identifier="who"  init=true
 	title="Lesson 1.18: Review 2"        
@@ -274,7 +273,7 @@ attr:
 *Legal. Eu tenho que ir embora agora. Eu ensino alemão a um amigo.*         
 > {% include play.html identifier="conversation" start=32.27 stop=34.18 %} P1: **Alright. Good luck!**       
 *Bem. Boa sorte!*         
-> {% include play.html identifier="conversation" start=34.27 stop=36.28 %} P2: **Thanks! I think I'll need it...**       
+> {% include play.html identifier="conversation" start=33.47 stop=36.28 %} P2: **Thanks! I think I'll need it...**       
 *Obrigada! Eu acho que vou precisar disso ...*         
 
 

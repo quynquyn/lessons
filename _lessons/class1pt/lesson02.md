@@ -28,6 +28,7 @@ salestext: "Versão Premium Gratuita (2 dias mais)"
 		class=page.class 
 		lesson=page.lesson 
 		section="eyes"
+		voiceover="Verbs"
 		database=site.data.vocabulary 
 		trial=false %}
 
@@ -41,6 +42,7 @@ salestext: "Versão Premium Gratuita (2 dias mais)"
 		class=page.class 
 		lesson=page.lesson 
 		section="leg"
+		voiceover="Verbs"
 		database=site.data.vocabulary 
 		trial=false %}
 
@@ -54,6 +56,7 @@ salestext: "Versão Premium Gratuita (2 dias mais)"
 		class=page.class 
 		lesson=page.lesson 
 		section="mouth"
+		voiceover="Verbs"
 		database=site.data.vocabulary 
 		trial=false %}
 
@@ -67,6 +70,7 @@ salestext: "Versão Premium Gratuita (2 dias mais)"
 		class=page.class 
 		lesson=page.lesson 
 		section="hand"
+		voiceover="Verbs"
 		database=site.data.vocabulary 
 		trial=false %}
 		

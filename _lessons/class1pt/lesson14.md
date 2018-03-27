@@ -8,12 +8,12 @@ attr:
   lesson: "14"
   lang: pt
 ---
-
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=true
 	title="Lesson 1.14: When"        
 	translation="Quando"
     tag="h1" %}
+
 ## Vocabulary   *Vocabulário*
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
@@ -102,8 +102,8 @@ attr:
 
 {%  include voice.html attr=page.attr  
 	identifier="examples1"  init=true
-	title="Example"        
-	translation="Examplo"
+	title="Examples"        
+	translation="Exemplos"
     tag="h2" %}
 
 1. {% include play.html identifier="examples1" start=5.11 stop=9.98 %} **When is your birthday?**           
@@ -154,7 +154,7 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="examples2"  init=true
 	title="More examples"        
-	translation="Mais examplos"
+	translation="Mais exemplos"
     tag="h2" %}
 1. {% include play.html identifier="examples2" start=4.30 stop=6.31 %} **When do you do homework?**         
 *Quando você faz o dever de casa?*   
@@ -180,7 +180,7 @@ attr:
 	{% include list_placeholder.html  attr=page.attr     start=6 stop=14 %}
 	{% else %}
 6. {% include play.html identifier="examples2" start=39.57 stop=41.46 %} **When does the sun rise?**        
-*Quando o sol nasce?**  
+*Quando o sol nasce?*      
 {% include play.html identifier="examples2" start=41.57 stop=44.46 %} **The sun rises in the morning.**  
 *O sol nasce de manhã.*     
 7. {% include play.html identifier="examples2" start=45.51 stop=49.92 %} **When do flowers bloom?**        

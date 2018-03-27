@@ -9,12 +9,12 @@ attr:
   lang: pt
 ---
 
-
 {%  include voice.html attr=page.attr                     tag="h1"
 	identifier="Vocabulary"  init=true
 	title="Lesson 1.9: Comparison"        
 	translation="Comparação"
 %}
+
 
 ## Vocabulary   *Vocabulário*
 
@@ -22,15 +22,18 @@ attr:
 		class=page.class 
 		lesson=page.lesson 
 		section="comparison"
-		voiceover="lesson-vocabulary"
+		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
+
+
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="Explanation1"  init=true
 	title="1. Comparative"
 	translation="Comparativo"
 %}
+
 
 1. {% include play.html identifier="Explanation1" start=5.4 stop=8.3 %} **She is older than I am.**    
 *Ela é mais velha do que eu.*    
@@ -64,6 +67,7 @@ attr:
 	title="2. Superlative"
 	translation="Superlativo"
 %}
+
 
 1. {% include play.html identifier="Explanation2" start=5 stop=10.2 %}  **This is the most expensive car I have every owned.**       
 *Este é o carro mais caro que já possuí.*      

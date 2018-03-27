@@ -14,12 +14,14 @@ attr:
 	title="Lesson 1.10: Adjective + preposition"        
 	translation="Adjetivo + preposição"
     tag="h1" %}
+
 ## Vocabulary   *Vocabulário*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
 		section="vocabulary"
+		voiceover="vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 

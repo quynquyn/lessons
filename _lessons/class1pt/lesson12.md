@@ -1,4 +1,5 @@
 ---
+layout: lesson
 class: "1"
 lesson: "12"
 lang: pt

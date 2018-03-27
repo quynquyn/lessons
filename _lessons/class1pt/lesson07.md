@@ -17,12 +17,15 @@ attr:
 
 ## Vocabulary   *Vocabulário*
 
+
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
 		section="vocabulary"
+		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
+
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="Conversation"  init=true
@@ -30,9 +33,10 @@ attr:
 	translation="perguntas Sim / Não"
 %}
 
-1. {% include play.html identifier="Conversation" start=4 stop=5.5 %} **Are your hands clean?**   
+
+1. {% include play.html identifier="Conversation" start=4 stop=7.5 %} **Are your hands clean?**   
 *Suas mãos estão limpas?*       
-{% include play.html identifier="Conversation" start=5.5 stop=9 %} **Yes, they are clean.**    
+{% include play.html identifier="Conversation" start=7.5 stop=9 %} **Yes, they are clean.**    
 *Sim, estão limpas.*   
 
 2. {% include play.html identifier="Conversation" start=9 stop=12 %} **Is Jane a manager?**   
@@ -88,5 +92,6 @@ attr:
 *O seu gerente é da Alemanha?*    
 {% include play.html identifier="Conversation" start=74 stop=666 %} **Yes, he is from Germany.**   
 *Sim, ele é da Alemanha.*   
+
 
 {% endif %}

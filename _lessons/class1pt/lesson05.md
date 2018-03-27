@@ -15,6 +15,7 @@ attr:
 	translation="Pronome"
 %}
 
+
 ## Vocabulary   *Vocabulário* 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
@@ -23,12 +24,15 @@ attr:
 	translation="Pronome"
     tag="h3" %} 
 
+
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
 		section="pronoun"
+		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
+
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Vocabulary"  init=false start=23 stop=59
@@ -36,10 +40,12 @@ attr:
 	translation="Pessoas na sua família"
     tag="h3" %}
 
+
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
 		section="peopleinyourfamily"
+		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -49,12 +55,15 @@ attr:
 	translation="Empregos"
     tag="h3" %}
 
+
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
 		section="jobs"
+		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
+
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Vocabulary"  init=false start=84 stop=130
@@ -62,12 +71,15 @@ attr:
 	translation="Verbos"
     tag="h3" %}
 
+
 {% include wordgrid.html lang=page.lang
 		class=page.class 
 		lesson=page.lesson 
 		section="verbs"
+		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
+
 
 
 {%  include voice.html attr=page.attr                     tag="h2"
@@ -89,6 +101,7 @@ attr:
 3. {% include play.html identifier="Explanation1" start=21.11 stop=30.31 %} **The engineer reserves a room. / The engineer wants to reserve a room at a hotel.**   
 *O engenheiro reserva um quarto. / O engenheiro quer reservar um quarto em um hotel.*
 
+
 4. {% include play.html identifier="Explanation1" start=30.31 stop=41.11 %} **The student practices speaking English every day. / The student needs to practice speaking English every day.**  
 *O aluno pratica falar inglês todos os dias. / O aluno precisa praticar falar inglês todos os dias.*
 
@@ -101,6 +114,7 @@ attr:
 7. {% include play.html identifier="Explanation1" start=60.31 stop=69.11 %} **The accountant dances in her room. / The accountant likes to dance in her room.**   
 *A contadora dança em seu quarto. / A contadora gosta de dançar em seu quarto.*  
 {% endif %}
+
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="Explanation2"  init=true

@@ -9,7 +9,6 @@ attr:
   lang: pt
 ---
 
-
 {%  include voice.html attr=page.attr                     tag="h1"
 	identifier="vocabulary"  init=true
 	title="Lesson 1.19: What"
@@ -77,8 +76,8 @@ attr:
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="examples"  init=true
-	title="Example"
-	translation="Exemplo"
+	title="Examples"
+	translation="Exemplos"
 %}
 
 

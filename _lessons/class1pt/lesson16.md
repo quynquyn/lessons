@@ -9,15 +9,12 @@ attr:
   lang: pt
 ---
 
-
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=true
 	title="Lesson 1.16: Present continuous and simple future tense"        
 	translation=""
     tag="h1" %}
-
 ##### *Presente contínuo e futuro simples*
-
 ## Vocabulary   *Vocabulário* 
 
 {% include wordgrid.html lang=page.lang

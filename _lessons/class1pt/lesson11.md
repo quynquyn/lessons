@@ -86,6 +86,7 @@ attr:
 {% if site.trialdeploy %}
 	{% include list_placeholder.html  attr=page.attr     start=4 stop=11 %}
 	{% else %}
+
 4. {% include play.html identifier="examples1" start=18.76 stop=20.57 %} **I am so amazing.**     
 *Eu sou tão incrível.*     
 5. {% include play.html identifier="examples1" start=22.33 stop=25.71 %} **Iceland is such a cold country.**      
@@ -110,6 +111,7 @@ attr:
 	translation="Comparação"
 %}
 
+
 1. {% include play.html identifier="examples2" start=6.04 stop=8.93 %} **My house is bigger than yours.**      
 *Minha casa é maior que a sua.*     
 2. {% include play.html identifier="examples2" start=10.35 stop=13.64 %} **This flower is more beautiful than that one.**     
@@ -120,6 +122,7 @@ attr:
 {% if site.trialdeploy %}
 	{% include list_placeholder.html  attr=page.attr     start=4 stop=10 %}
 	{% else %}
+
 4. {% include play.html identifier="examples2" start=19.99 stop=24.18 %} **Non-smokers usually live longer than smokers.**      
 *Os não fumantes geralmente vivem mais do que os fumantes.*    
 5. {% include play.html identifier="examples2" start=25.56 stop=29.68 %} **Which is the the most dangerous animal in the world?**      
@@ -133,7 +136,7 @@ attr:
 9. {% include play.html identifier="examples2" start=50.60 stop=54.92 %} **The weather this summer is even worse than last summer.**      
 *O tempo neste verão é ainda pior do que no verão passado.*     
 10. {% include play.html identifier="examples2" start=56.47 stop=59.37 %} **He was the smartest thief of all.**      
-**Ele era o ladrão mais inteligente de todos.*      
+*Ele era o ladrão mais inteligente de todos.*      
 {% endif %}
 
 {%  include voice.html attr=page.attr                     tag="h2"
@@ -141,6 +144,7 @@ attr:
 	title="4. There is / There are"
 	translation="Há"
 %}
+
 
 1. {% include play.html identifier="examples3" start=10.13 stop=13.21 %} **Are there any crocodiles in the lake?**      
 *Há algum crocodilo no lago?*     
@@ -152,6 +156,7 @@ attr:
 *Há dinheiro na carteira?*     
 5. {% include play.html identifier="examples3" start=29.26 stop=31.84 %} **Is there any water in the bottle?**     
 *Tem água na garrafa?*     
+
 
 {%  include voice.html attr=page.attr                     tag="h2"
 	identifier="examples4"  init=true
