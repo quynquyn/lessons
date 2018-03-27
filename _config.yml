@@ -1,6 +1,6 @@
-baseurl: /daily
-port: 4040
-destination: ./_trial
+baseurl: /premium
+port: 4000
+destination: ./_site
 github: [metadata]
 encoding: UTF-8
 kramdown:
@@ -16,7 +16,8 @@ collections:
     output: true
 include: ['.htaccess']
 exclude: [not-in-git, node_modules, gulpfile.js,  artwork, csv_to_html]
-trialdeploy: true
+trialdeploy: false
+
 
 texts:
   vn:
@@ -31,3 +32,7 @@ texts:
     upgrade_url: https://get.englishletics.com/en/?add-to-cart=8&chatfuelid=MYCHATFUELID
     salespage_url: https://get.englishletics.com/en/people-going-premium-learn-english-faster-and-better/?chatfuelid=MYCHATFUELID
     help_url: https://get.englishletics.com/en/help/?chatfuelid=MYCHATFUELID
+
+
+
+
