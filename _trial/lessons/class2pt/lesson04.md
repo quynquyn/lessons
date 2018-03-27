@@ -21,10 +21,10 @@ salestext: "Versão Premium Gratuita (último dia)"
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Dialogue1"  init=false start=7 stop=45
 	title="What’s your favorite kind of movie?"        
-	translation="TODO"
+	translation="Qual é o seu tipo de filme favorito?"
     tag="h3" %}
 
-**My favorite kind of movie is a / an...**     *TODO*
+**My favorite kind of movie is a / an...**     *Meu tipo de filme favorito é um / uma...*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -37,10 +37,10 @@ salestext: "Versão Premium Gratuita (último dia)"
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Dialogue1"  init=false start=45 stop=120
 	title="What is the movie like?"        
-	translation="TODO"
+	translation="Como é o filme?"
     tag="h3" %}
 
-**The movie is...**     *TODO*
+**The movie is...**     *O filme é...*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -57,35 +57,35 @@ salestext: "Versão Premium Gratuita (último dia)"
     tag="h2" %}	
 
 > {% include play.html identifier="Native-Dialogue2" start=0.01 stop=3.53 %} Person 1: **The early show of 'Dangerous City' is sold out.**   
-> *TODO*    
+> *O primeiro show de "Dangerous City" está esgotado.*    
 > {% include play.html identifier="Native-Dialogue2" start=3.53 stop=5.50 %} Person 2: **What are we gonna do now?**   
-> *TODO*   
+> *O que vamos fazer agora?*   
 > {% include play.html identifier="Native-Dialogue2" start=5.50 stop=8.92 %} P1: **Well, let’s see ... maybe we should wait for the next show.**    
-> *TODO*     
+> *Bem, vamos ver ... talvez devemos esperar pelo próximo show.*     
 > {% include play.html identifier="Native-Dialogue2" start=8.92 stop=13.73 %} P2: **I can’t. I am meeting Olivia tonight. We are going to a new restaurant together.**      
-> *TODO*       
+> *Não posso. Tenho encontro com Olivia esta noite. Vamos ir juntos a um novo restaurante.*       
 > {% include play.html identifier="Native-Dialogue2" start=13.73 stop=19.64 %} P1: **Ok, why don’t we see 'Beyond Everest'? It’s a new action adventure movie. It’s based on a true story.**       
-> *TODO*        
+> *Ok, porque não vemos "Beyond Everest"? É um novo filme de aventura de ação. É baseado em uma história verdadeira.*        
 > {% include play.html identifier="Native-Dialogue2" start=19.64 stop=23.21 %} P2: **Nah, I get tired of just looking at all that action.**   
-> *TODO*         
+> *Não, eu fico cansado de apenas olhar para toda aquela ação.*         
 > {% include play.html identifier="Native-Dialogue2" start=23.21 stop=25.81 %} P1: **What is 'Lost and Found in New York' about?**   
-> *TODO*       
-> {% include play.html identifier="Native-Dialogue2" start=25.81 stop=31.28 %} P2: **That’s a comedy. I saw it last week. It’s kinda of amusing. But I am not seeing it again**      
-> *TODO*      
-> {% include play.html identifier="Native-Dialogue2" start=31.28 stop=35.09 %} P1: **"Ok, how about 'Aliens from Planet X'?**     
-> *TODO*      
-> {% include play.html identifier="Native-Dialogue2" start=35.09 stop=38.79 %} P2: **No, I can’t stand science - fiction movies.**    
-> *TODO*      
+> *Sobre o que é 'Lost and Found in New York'?*       
+> {% include play.html identifier="Native-Dialogue2" start=25.81 stop=31.28 %} P2: **That’s a comedy. I saw it last week. It’s kinda of amusing. But I am not seeing it again.**      
+> *É uma comédia. Eu vi na semana passada. É meio amusante. Mas eu não estou vendo isso de novo.*      
+> {% include play.html identifier="Native-Dialogue2" start=31.28 stop=35.09 %} P1: **Ok, how about 'Aliens from Planet X'?**     
+> *Ok, e que é de 'Aliens from Planet X'?*      
+> {% include play.html identifier="Native-Dialogue2" start=35.09 stop=38.79 %} P2: **No, I can’t stand science-fiction movies.**    
+> *Não, eu não suporto filmes de ficção científica.*      
 > {% include play.html identifier="Native-Dialogue2" start=38.79 stop=42.64 %} P1: **Really? I think they are exciting. I really like the special effects.**     
-> *TODO*  
+> *Mesmo? Eu acho que eles são excitantes. Eu realmente gosto dos efeitos especiais.*  
 > {% include play.html identifier="Native-Dialogue2" start=42.64 stop=48.51 %} P2: **Not for me, too. I’ll get bored. I will fall asleep by the end of the movie.**      
-> *TODO*  
-> {% include play.html identifier="Native-Dialogue2" start=48.51 stop=58.13 %} P1: **Come on. It’s only a movie. Let’s find one we all agree, ok? ok, how about 'Screaming Monsters Want Blood Part2'?**      
-> *TODO*    
+> *Não é para mim. Eu ficarei entediado. Eu vou dormir no final do filme.*  
+> {% include play.html identifier="Native-Dialogue2" start=48.51 stop=58.13 %} P1: **Come on. It’s only a movie. Let’s find one we all agree, ok? Ok, how about 'Screaming Monsters Want Blood Part2'?**      
+> *Vamos. É apenas um filme. Vamos encontrar um que todos concordemos, ok? Ok, que é de 'Screaming Monsters Want Blood Part2'?*    
 > {% include play.html identifier="Native-Dialogue2" start=58.13 stop=62.08 %} P2: **No, not another disgusting horror movie.**   
-> *TODO*      
+> *Não, não outro filme repugnante de terror.*      
 > {% include play.html identifier="Native-Dialogue2" start=62.08 stop=69.38 %} P1: **Why not? My friends liked it. They said it’s very scary. You are so picky, Jessica. What’s your favorite kind of movie?**     
-> *TODO*      
+> *Por que não? Meus amigos gostaram. Eles disseram que é muito assustador. Você é tão exigente, Jessica. Qual é o seu tipo de filme favorito?*      
 
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=true
@@ -97,8 +97,8 @@ salestext: "Versão Premium Gratuita (último dia)"
 	title="1. The early show of 'Dangerous City' is sold out."        
 	translation=""
     tag="h3" %}
-##### *O primeiro show de "Cidade Perigosa" está esgotado.*
-**Be sold out.**     *TODO*
+##### *O primeiro show de 'Dangerous City' está esgotado.*
+**Be sold out.**     *Estar esgotado.*
 
 1. **The movie is sold out.**  
 *O filme está esgotado.*    
@@ -111,7 +111,7 @@ salestext: "Versão Premium Gratuita (último dia)"
     tag="h3" %}
 ##### *O que vamos fazer agora?
 
-**Be gonna = be going to**     *TODO*
+**Be gonna = be going to**     *ir fazer*
 
 1. **I am gonna go.**  
 *Eu vou ir.*   
@@ -124,8 +124,8 @@ salestext: "Versão Premium Gratuita (último dia)"
 	title="3. Why don’t we see 'Beyond Everest'?"        
 	translation=""
     tag="h3" %}
-##### *Por que não vamos assistir "Beyond Everest"?*
-**Why don’t we…?**     *TODO*
+##### *Por que não vamos assistir 'Beyond Everest'?*
+**Why don’t we…?**     *Por que não vamos fazer...?*
 
 1. **Why don’t we go to the beach?**  
 *Por que não vamos à praia?*    
@@ -140,7 +140,7 @@ salestext: "Versão Premium Gratuita (último dia)"
     tag="h3" %}
 
 ##### *É baseado em uma história verdadeira.*
-**It’s based on…**     *TODO*
+**It’s based on…**     *É baseado em...*
 
 1. **It’s based on a book.**  
 *É baseado em um livro.*
@@ -155,7 +155,7 @@ salestext: "Versão Premium Gratuita (último dia)"
     tag="h3" %}
 
 ##### *Eu fico cansado de apenas olhar para toda aquela ação.*
-**I get tired of…**     *TODO*
+**I get tired of…**     *Eu fico cansado de...*
 
 1. **I get tired of waiting for him.**  
 *Eu fico cansado de esperá-lo.*    
@@ -169,8 +169,8 @@ salestext: "Versão Premium Gratuita (último dia)"
 	translation=""
     tag="h3" %}
 
-##### *Sobre o que é “Achados e Perdidos em Nueva Iorque”?*
-**What is it about?**     *TODO*
+##### *Sobre o que é 'Lost and Found in New York'?*
+**What is it about?**     *Sobre o que é?*
 
 1. **What is the movie about?**  
 *Sobre o que é o filme?*   
@@ -181,12 +181,10 @@ salestext: "Versão Premium Gratuita (último dia)"
 {%  include voice.html attr=page.attr  
 	identifier="Native-Dialogue3"  init=false start=97.69 stop=109.32
 	title="7. It’s kinda amusing."        
-	translation="Nó kiểu như cũng hài hước."
+	translation="É meio amusante."
     tag="h3" %}
 
-##### *É meio amusante.*
-
-**Kinda = kind of**     *TODO*
+**Kinda = kind of**     *meio*
 
 1. **I am kinda bored now.**  
 *Estou um pouco entediado agora.*
@@ -200,7 +198,7 @@ salestext: "Versão Premium Gratuita (último dia)"
 	translation=""
     tag="h3" %}
 ##### *Eu não suporto filmes de ficção científica.*
-**I can’t stand …**     *TODO*
+**I can’t stand …**     *Eu não suporto...*
 
 1. **I can’t stand her.**  
 *Eu não suporto ela.*

@@ -28,13 +28,16 @@ trialdeploy: true
 
 texts:
   vn:
-    upgrade_url: https://get.englishletics.com/?add-to-cart=71&chatfuelid=MYCHATFUELID
+    upgrade_url: https://get.englishletics.com/vi/?add-to-cart=71&chatfuelid=MYCHATFUELID
     salespage_url: https://get.englishletics.com/en/people-going-premium-learn-english-faster-and-better/?chatfuelid=MYCHATFUELID
+    help_url: https://get.englishletics.com/?add-to-cart=71&chatfuelid=MYCHATFUELID
   pt:
     upgrade_url: https://get.englishletics.com/pt-br/?add-to-cart=70&chatfuelid=MYCHATFUELID
     salespage_url: https://get.englishletics.com/en/people-going-premium-learn-english-faster-and-better/?chatfuelid=MYCHATFUELID
+    help_url: 
   en:
     upgrade_url: https://get.englishletics.com/en/?add-to-cart=8&chatfuelid=MYCHATFUELID
     salespage_url: https://get.englishletics.com/en/people-going-premium-learn-english-faster-and-better/?chatfuelid=MYCHATFUELID
+    help_url: https://get.englishletics.com/en/help/?chatfuelid=MYCHATFUELID
 
 

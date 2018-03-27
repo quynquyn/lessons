@@ -1,6 +1,6 @@
-baseurl: /premium
-port: 4000
-destination: ./_site
+baseurl: /daily
+port: 4040
+destination: ./_trial
 github: [metadata]
 encoding: UTF-8
 kramdown:
@@ -16,20 +16,18 @@ collections:
     output: true
 include: ['.htaccess']
 exclude: [not-in-git, node_modules, gulpfile.js,  artwork, csv_to_html]
-trialdeploy: false
-
+trialdeploy: true
 
 texts:
   vn:
-    upgrade_url: https://get.englishletics.com/?add-to-cart=71&chatfuelid=MYCHATFUELID
+    upgrade_url: https://get.englishletics.com/vi/?add-to-cart=71&chatfuelid=MYCHATFUELID
     salespage_url: https://get.englishletics.com/en/people-going-premium-learn-english-faster-and-better/?chatfuelid=MYCHATFUELID
+    help_url: https://get.englishletics.com/?add-to-cart=71&chatfuelid=MYCHATFUELID
   pt:
     upgrade_url: https://get.englishletics.com/pt-br/?add-to-cart=70&chatfuelid=MYCHATFUELID
     salespage_url: https://get.englishletics.com/en/people-going-premium-learn-english-faster-and-better/?chatfuelid=MYCHATFUELID
+    help_url: 
   en:
     upgrade_url: https://get.englishletics.com/en/?add-to-cart=8&chatfuelid=MYCHATFUELID
     salespage_url: https://get.englishletics.com/en/people-going-premium-learn-english-faster-and-better/?chatfuelid=MYCHATFUELID
-
-
-
-
+    help_url: https://get.englishletics.com/en/help/?chatfuelid=MYCHATFUELID

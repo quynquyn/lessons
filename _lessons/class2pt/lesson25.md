@@ -12,7 +12,7 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=true
 	title="Lesson 2.25: Phrasal verbs"        
-	translation="TODO"
+	translation="Verbos frasais"
     tag="h1" %}
 
 ## Vocabulary   *Vocabulário*
@@ -28,40 +28,40 @@ attr:
 {%  include voice.html attr=page.attr  
 	identifier="conversation"  init=true
 	title="Conversation"        
-	translation="TODO"
+	translation="Conversação"
     tag="h2" %}
 
 > {% include play.html identifier="conversation" start=1.55 stop=4.15 %} Person 1: **Jake? What's the matter? You look upset.**    
-*TODO*    
+*Jake? Qual é o problema? Você parece irritado.*    
 > {% include play.html identifier="conversation" start=4.25 stop=8.55 %} Person 2: **I broke up with Janice. I just had to, I couldnt be with her anymore.**    
-*TODO*     
+*Me separei de Janice. Simplesmente não teve outra maneira, não podia mais estar com ela.*     
 > {% include play.html identifier="conversation" start=8.55 stop=11.45 %} P1: **Oh. I'm sorry to hear that. I'm sure it was for the best.**     
-*TODO*   
+*Oh. Sinto muito por ouvir isso. Com certeza foi para o melhor.*   
 > {% include play.html identifier="conversation" start=11.55 stop=15.75 %} P2: **I think so. But I feel bad because she started crying as soon as I told her.**    
-*TODO*    
+*Eu acho que sim. Mas me sinto ruim porque ela começou a chorar tão logo que eu disse a ela.*    
 > {% include play.html identifier="conversation" start=16.15 stop=17.55 %} P1: **Why did you break up with her?**   
-*TODO*    
+*Por que você se separou dela?*    
 > {% include play.html identifier="conversation" start=17.75 stop=22.25 %} P2: **She has anger issues. I finally figured out she isn't going to change.**   
-*TODO*   
+*Ela tem problemas com raiva. Finalmente percebi que ela não mudaria.*   
 > {% include play.html identifier="conversation" start=22.35 stop=25.10 %} P1: **I see. In that case it's probably for the best.**   
-*TODO*    
+*Entendo. Nesse caso, é provavelmente para o melhor.*    
 > {% include play.html identifier="conversation" start=25.15 stop=29.15 %} P2: **I know. I just feel bad. I feel guilty for making her cry.**    
-*TODO*     
+*Eu sei. Mesmo assim me sinto ruim. Me sinto culpado por fazê-la chorar.*     
 > {% include play.html identifier="conversation" start=29.25 stop=33.15 %} P1: **Don't beat yourself up about it. You need someone better to settle down with. She'll get over it.**   
-*TODO*    
+*Não se critique excessivamente sobre isso. Você precisa de alguém melhor para estabelecer-se. Ela vai restabelecer-se disso.*    
 > {% include play.html identifier="conversation" start=33.65 stop=38.15 %} P2: **Yeah. I'll get over it in a week or so. It takes time to move on, I guess.**    
-*TODO*     
+*É. Eu superarei isto em uma semana ou mais. Demora tempo para seguir em frente, eu acho.*     
 > {% include play.html identifier="conversation" start=38.35 stop=42.45 %} P1: **It does. Listen, if you need someone to talk to, you can count on me.**     
-*TODO*    
+*Verdade. Olha, se você precisar de alguém para conversar, pode contar comigo.*    
 > {% include play.html identifier="conversation" start=42.75 stop=46.55 %} P2: **Thanks. If I end up feeling worse, I'll give you a call.**     
-*TODO*   
+*Obrigado. Se eu me sentirei pior, vou te ligar.*   
 > {% include play.html identifier="conversation" start=46.55 stop=49.95 %} P1: **Of course. Just try not to run into her anytime soon.**      
-*TODO*    
+*Pois não. Simplesmente tenta não topar com ela nesse momento.*    
 
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=true
 	title="Explanation"        
-	translation="TODO"
+	translation="Explicação"
     tag="h2" %}
 
 {%  include voice.html attr=page.attr  
@@ -69,7 +69,7 @@ attr:
 	title="1. I broke up with Janice. I couldn't be with her anymore."        
 	translation=""
     tag="h3" %}
-##### *Eu me separei de Janice. Eu não poderia mais estar com ela.*
+##### *Eu me separei de Janice. Eu não podia mais estar com ela.*
 1. **Emily and Alex broke up when she caught him breaking into her house.**   
 *Emily e Alex se separaram quando ela encontrou ele arrombar sua casa.*   
 2. **When she left me, I felt broken. She broke my heart.**   
@@ -86,7 +86,7 @@ attr:
 	title="2. Don't beat yourself up about it. She'll get over it."        
 	translation=""
     tag="h3" %}
-##### *Não te critique excessivamente sobre isso. Ela vai restabelecer-se disso.*
+##### *Não se critique excessivamente sobre isso. Ela vai restabelecer-se disso.*
 1. **I'm so tired of hearing him cry about his ex girlfriend. Tell him to get over it!**   
 *Estou tão cansada de ouvi-lo chorar sobre sua ex-namorada. Diga-lhe de restabelecer-se isso!*    
 2. **Once I got over my break-up, I found a new girlfriend and I'm getting along with her just fine.**   
@@ -112,7 +112,7 @@ attr:
 	title="4. I finally figured out she isn't going to change."        
 	translation=""
     tag="h3" %}
-##### *Finalmente perceber que ela não mudaria.*
+##### *Finalmente percebi que ela não mudaria.*
 1. **Listening to my parents helped me figure out I have a lot to learn.**   
 *Escutar meus pais me ajudou a perceber que tenho muito a aprender.*   
 2. **My brother helped me figure out this math assignment. I was really stuck.**   

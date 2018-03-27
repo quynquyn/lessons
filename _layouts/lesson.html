@@ -4,25 +4,29 @@ body_classes:
 ---
 
     <nav class="navbar fixed-bottom navbar-light bg-light el-offer-bar">
-      <span class="navbar-brand">EnglishLetics
+      <span class="navbar-brand">EnglishLetics</span>
+        
+      <span class="navbar-brand">
+        {% if page.lang == "vn" %}
+          <a class="nav-item nav-link help" href="{{ site.texts.vn.help_url }}">Ủng hộ</a>
+        {% elsif page.lang == "pt" %}
+          <a class="nav-item nav-link help" href="{{ site.texts.pt.help_url }}">Ajuda</a>
+        {% else %}
+          <a class="nav-item nav-link help" href="{{ site.texts.en.help_url }}">Help</a>
+        {% endif %}
       </span>
     
-      <div class="navbar-nav">
-        <a class="nav-item nav-link" href="/pages/about.html">About</a>
-        <a class="nav-item nav-link" href="/pages/support.html">Support</a>
-      </div>
-
     {% if site.trialdeploy %}
       <span class="navbar-text offer">
         
         {% if page.lang == "vn" %}
-          {{page.salestext | default:"Phiên bản dùng thử"}}
+          {{page.salestext | default:"Phiên bản miễn phí"}}
           <a class="nav-link btn btn-info" href="{{ site.texts.vn.upgrade_url }}">Nâng cấp!</a>
         {% elsif page.lang == "pt" %}
-          {{page.salestext | default:"Limited Trial version"}}
+          {{page.salestext | default:"Versão Gratuita"}}
           <a class="nav-link btn btn-info" href="{{ site.texts.pt.upgrade_url }}">Atualizar!</a>
         {% else %}
-          {{page.salestext | default:"Limited Trial version"}}
+          {{page.salestext | default:"Free version"}}
           <a class="nav-link btn btn-info" href="{{ site.texts.en.upgrade_url }}">Upgrade me!</a>
         {% endif %}
         

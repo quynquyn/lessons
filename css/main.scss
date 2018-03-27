@@ -20,6 +20,9 @@ nav.el-offer-bar{
 	.navbar-brand {
 		color: white;
 	}
+	.help {
+		text-decoration: underline;
+	}
 	
 	.nav-item, .nav-link, .navbar-text  {
 		&, &:visited, &:hover, &:active { 
