@@ -32,8 +32,7 @@ attr:
     tag="h2" %}
 
 > **I’m the type of person who tries to avoid dramas. I also have a good sense of humor. That's why I have a lot of friends and we have a lot of fun together. My girlfriend is just the opposite. She is a quite helpful person. That's definitely the reason why I love her. She always helps people without expecting anything in return. But I guess she prefers staying at home and being on her own. Listening to her voice can make all of my stresses and pressure melt away.**   
-*Eu sou o tipo de pessoa que tenta evitar drama. Eu também tenho um bom senso de humor. É por isso que eu tenho muitos amigos e juntos nos divertimos muito. 
-Minha namorada é exatamente o oposto. Ela é uma pessoa muito prestativa. Essa é definitivamente a razão pela qual eu a amo. Ela sempre ajuda as pessoas sem esperar nada a troca. Mas acho que ela prefere ficar em casa e estar sozinha. Ouvir sua voz pode fazer todo meu estresse e pressão desaparecer.*     
+*Eu sou o tipo de pessoa que tenta evitar drama. Eu também tenho um bom senso de humor. É por isso que eu tenho muitos amigos e juntos nos divertimos muito. 1Minha namorada é exatamente o oposto. Ela é uma pessoa muito prestativa. Essa é definitivamente a razão pela qual eu a amo. Ela sempre ajuda as pessoas sem esperar nada a troca. Mas acho que ela prefere ficar em casa e estar sozinha. Ouvir sua voz pode fazer todo meu estresse e pressão desaparecer.*     
  
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=true

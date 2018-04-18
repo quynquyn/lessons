@@ -29,7 +29,7 @@ attr:
 		class=page.class 
 		lesson=page.lesson 
 		section="job"
-		voiceover="vocabulary"
+		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -37,7 +37,7 @@ attr:
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Vocabulary"  init=false start=62 stop=112
 	title="What is your father like?"        
-	translation="TODO"
+	translation="Como é seu pai?"
     tag="h3" %}
 
 **My father is...**     *Meu pai é...*
@@ -46,7 +46,7 @@ attr:
 		class=page.class 
 		lesson=page.lesson 
 		section="father"
-		voiceover="vocabulary"
+		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -60,7 +60,7 @@ attr:
 		class=page.class 
 		lesson=page.lesson 
 		section="parentsdo"
-		voiceover="vocabulary"
+		voiceover="Vocabulary"
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
@@ -73,7 +73,7 @@ attr:
 
 
 
-> {% include play.html identifier="Conversation" start=0.4 stop=2.88 %} Person 1: **Are you waiting for someone? Where are you going?**  
+> {% include play.html identifier="Conversation" start=0.1 stop=2.88 %} Person 1: **Are you waiting for someone? Where are you going?**  
 *Você está esperando por alguem? Onde você vai?*  
 > {% include play.html identifier="Conversation" start=2.88 stop=11.65 %} Person 2: **Yeah, my brother. He’s going to give me a ride home. We’re having a party for my grandmother. It’s her 80th birthday. Everyone will be there.**   
 *Sim, meu irmão. Ele vai me dar uma carona para casa. Estamos fazendo uma festa para minha avó. É o 80º aniversário dela. Todos estarão lá.*   
@@ -98,11 +98,10 @@ attr:
 > {% include play.html identifier="Conversation" start=58.52 stop=61.83 %} P2: **Really? Sometimes, I want to be alone!**    
 *Mesmo? Às vezes, quero ficar sozinho!*  
 
-
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=true
-	title="Explanation"        
-	translation="TODO"
+	title="Examples"        
+	translation="Exemplos"
     tag="h2" %}
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=false start=2.82 stop=14.93
@@ -125,8 +124,7 @@ attr:
 	title="2. What does your father do for a living?"        
 	translation=""
     tag="h3" %}
-##### *O que seu pai faz para ganhar a vida?*
-
+##### *O que seu pai faz para ganhar a vida?*    
 1. **What does your mother do for a living?**  
 *O que sua mãe faz para ganhar a vida?*   
 2. **What do you do for a living?**  
@@ -136,8 +134,8 @@ attr:
 	title="3. I have three older brothers and two sisters."        
 	translation=""
     tag="h3" %}
-##### *Eu tenho três irmãos mais velhos e duas irmãs.*
 
+##### *Eu tenho três irmãos mais velhos e duas irmãs.*
 1. **I have an older brother and 2 younger sisters.**  
 *Eu tenho um irmão mais velho e duas irmãs mais novas.*  
 2. **I have an older sister, 2 older brothers and a younger sister.**  
@@ -161,6 +159,7 @@ attr:
 	title="5. Who makes most of the decisions in your family?"        
 	translation=""
     tag="h3" %}
+    
 ##### *Quem toma a maioria das decisões em sua família?*
 **Who + verb ('~s' / '~es')**     *Who (quem) + verbo ('~s' / '~es')*
 

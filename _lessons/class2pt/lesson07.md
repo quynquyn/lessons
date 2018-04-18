@@ -67,23 +67,21 @@ attr:
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Native-Explanation"  init=true
-	title="Explanation"        
-	translation="Explicação"
+	title="Examples"        
+	translation="Exemplos"
     tag="h2" %}
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="Native-Explanation"  init=false start=3.12 stop=17.37
-	title="1. I am responsible for selling goods and looking after customers"        
+	identifier="Explanation"  init=false start=1 stop=17.37
+	title="1. I am responsible for selling goods and looking after customers."        
 	translation=""
     tag="h3" %}
 ##### *Eu sou responsável por vender bens e cuidar de clientes.*   
-**Be sold out.**     *Estar esgotado.*
-
-1. **The movie is sold out.**  
-*O filme está esgotado.*   
-2. **The concert was sold out.**  
-*O concerto foi esgotado.*   
+1. **I'm responsible for taking care of my sister.**   *Tôi có trách nhiệm chăm sóc em gái tôi.*    
+2. **John is responsible for keeping the customers happy.**   *John có trách nhiệm làm cho các khách hàng vui vẻ.*
+3. **You are responsible for this mess! Now clean it up!**   *Bạn chịu trách nhiệm cho cái đống lộn xộn này! Bây giờ dọn dẹp đi!*
+  
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="Native-Explanation"  init=false start=19.59 stop=40.18
+	identifier="Explanation"  init=false start=19.59 stop=40.18
 	title="2. What do you like most about your job?"        
 	translation=""
     tag="h3" %}
@@ -101,7 +99,7 @@ attr:
 	{% include explanation_placeholder.html  attr=page.attr     start=3 stop=7 %}
 	{% else %}
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="Native-Explanation"  init=false start=42.73 stop=61.76
+	identifier="Explanation"  init=false start=42.73 stop=61.76
 	title="3. Is there anything that you don't like about your job?"        
 	translation=""
     tag="h3" %}
@@ -116,12 +114,11 @@ attr:
 *Existe algo que possa fazer você sorrir imediatamente?*  
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="Native-Explanation"  init=false start=64.08 stop=77.47
+	identifier="Explanation"  init=false start=64.08 stop=77.47
 	title="4. The job can get really stressful at times."        
 	translation=""
     tag="h3" %}
 ##### *O trabalho pode ficar realmente estressante às vezes.*
-
 1. **I get stressed.**  
 *Eu fico estressado.*  
 2. **The job is stressful.**  
@@ -130,7 +127,7 @@ attr:
 *É um trabalho estressante.*
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="Native-Explanation"  init=false start=79.55 stop=95.88
+	identifier="Explanation"  init=false start=79.55 stop=95.88
 	title="5. Do you think it is more important to make a lot of money or to enjoy your job?"        
 	translation=""
     tag="h3" %}
@@ -141,9 +138,9 @@ attr:
 *Você acha que é mais importante dar ou receber?* 
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="Native-Explanation"  init=false start=98.12 stop=111.00 
-	title="6. Honestly,..."        
-	translation="Honestamente"
+	identifier="Explanation"  init=false start=98.12 stop=111.00 
+	title="6. Honesty..."        
+	translation="Sinceridade"
     tag="h3" %}
 
 **Honestly / to be honest**     *Honestamente*
@@ -154,7 +151,7 @@ attr:
 *Para ser sincero, vou fazer isso amanhã.*   
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="Native-Explanation"  init=false start=113.62 stop=128.19 
+	identifier="Explanation"  init=false start=113.62 stop=128.19 
 	title="7. You are able to enjoy what you do."        
 	translation="Você pode curtir o que faz."
     tag="h3" %}

@@ -27,8 +27,12 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=36 stop=54
+	title="Age"        
+	translation="Idade"
+    tag="h3" %}
 
-### Age   *Idade*
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -38,14 +42,18 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-1. **Young: He is in his early twenties.**  
+1. {% include play.html identifier="vocabulary" start=40.07 stop=44.26 %} **Young: He is in his early twenties.**  
 *Jovem: Ele está tem vinte e pouquinhos anos.*   
-2. **Old: She is in her late sixties.**  
+2. {% include play.html identifier="vocabulary" start=44.87 stop=48.56 %} **Old: She is in her late sixties.**  
 *Velhoa: Ela tem sessenta e alguns anos.*   
-3. **Middle-aged: She is in her mid forties.**  
+3. {% include play.html identifier="vocabulary" start=49.57 stop=54.55 %} **Middle-aged: She is in her mid forties.**  
 *De meia-idade: Ela tem quarenta e poucos anos.*    
 
-### Build   *Forma* 
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=54 stop=77
+	title="Build"        
+	translation="Forma"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -55,7 +63,11 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Height   *Altura*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=77 stop=88
+	title="Height"        
+	translation="Altura"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -65,7 +77,11 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Face   *Rostro*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=88 stop=102
+	title="Face"        
+	translation="Rostro"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -75,7 +91,11 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Lips   *Labios*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=102 stop=119
+	title="Lips"        
+	translation="Labios"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -85,7 +105,11 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Skin   *Pele*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=119 stop=151
+	title="Skin"        
+	translation="Pele"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -95,7 +119,11 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Nose   *Nariz*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=151 stop=168
+	title="Nose"        
+	translation="Nariz"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 
@@ -105,7 +133,11 @@ attr:
 		database=site.data.vocabulary 
 		trial=site.trialdeploy %}
 
-### Eyebrows   *Sobrancelhas*
+{%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
+	identifier="vocabulary"  init=false start=168 stop=180
+	title="Eyebrows"        
+	translation="Sobrancelhas"
+    tag="h3" %}
 
 {% include wordgrid.html lang=page.lang
 		class=page.class 

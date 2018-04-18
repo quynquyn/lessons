@@ -9,7 +9,6 @@ attr:
   lang: pt
 ---
 
-
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=true
 	title="Lesson 2.22: Hometown"        
@@ -34,21 +33,21 @@ attr:
 		trial=site.trialdeploy %}
 
 
-1. **It’s a lovely place to live in.**  
+1. {% include play.html identifier="vocabulary" start=15.13 stop=17.57 %} **It’s a lovely place to live in.**  
 *É um lindo lugar para morar.*     
-2. **It’s a popular tourist destination.**  
+2. {% include play.html identifier="vocabulary" start=17.57 stop=20.17 %} **It’s a popular tourist destination.**  
 *É um destino turístico popular.*    
-3. **It’s a quiet place and it’s small enough that you can get to know your neighbour and has a great sense of community.**  
+3. {% include play.html identifier="vocabulary" start=20.17 stop=28.17 %} **It’s a quiet place and it’s small enough that you can get to know your neighbour and has a great sense of community.**  
 *É um lugar tranquilo e pequeno o suficiente para conhecer seu vizinho e ter um ótimo senso de comunidade.*      
-4. **It has fresh air which is beneficial to your health.**  
+4. {% include play.html identifier="vocabulary" start=28.17 stop=31.57 %} **It has fresh air which is beneficial to your health.**  
 *Tem ar fresco que é benéfico para a sua saúde.*       
-5. **It’s a real 24-hour city and you can meet people from all around the world.**  
+5. {% include play.html identifier="vocabulary" start=31.57 stop=36.17 %} **It’s a real 24-hour city and you can meet people from all around the world.**  
 *É uma verdadeira cidade de 24 horas e você pode conhecer pessoas de todo o mundo.*        
-6. **It’s got such a rich culture and there’s always something interesting going on.**  
+6. {% include play.html identifier="vocabulary" start=36.17 stop=41.17 %} **It’s got such a rich culture and there’s always something interesting going on.**  
 *Tem uma cultura tão rica e sempre há algo interessante acontecendo.*       
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="vocabulary"  init=false start=40 stop=59
+	identifier="vocabulary"  init=false start=4 stop=60
 	title="What is your hometown famous for?"        
 	translation="Por que é famosa a sua cidade natal?"
     tag="h3" %}
@@ -69,7 +68,7 @@ attr:
 *plantação de chá*   
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
-	identifier="vocabulary"  init=false start=59 stop=82
+	identifier="vocabulary"  init=false start=60 stop=82
 	title="Problems"        
 	translation="Problemas"
     tag="h3" %}

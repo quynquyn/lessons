@@ -9,7 +9,6 @@ attr:
   lang: pt
 ---
 
-
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=true
 	title="Lesson 2.18: Feelings"        
@@ -61,8 +60,8 @@ attr:
 
 {%  include voice.html attr=page.attr  
 	identifier="explanation"  init=true
-	title="Explanation"        
-	translation="Explicação"
+	title="Explanations"        
+	translation="Explicações"
     tag="h2" %}
 
 {%  include voice.html attr=page.attr  

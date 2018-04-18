@@ -120,8 +120,8 @@ attr:
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="Explanation"  init=true
-	title="Explanation"        
-	translation="Explicação"
+	title="Examples"        
+	translation="Exemplos"
     tag="h2" %}
 
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ

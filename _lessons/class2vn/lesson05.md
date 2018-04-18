@@ -134,6 +134,7 @@ attr:
 	title="3. I have three older brothers and two sisters."        
 	translation=""
     tag="h3" %}
+
 ##### *Tôi có 3 anh trai và 2 em gái.*
 1. **I have an older brother and 2 younger sisters.**  
 *Tôi có một anh trai và 2 em gái.*  
@@ -158,8 +159,9 @@ attr:
 	title="5. Who makes most of the decisions in your family?"        
 	translation=""
     tag="h3" %}
+
 ##### *Ai đưa ra hầu hết các quyết định trong gia đình bạn?*
-**Who + verb ('~s' / '~es')**     * Ai / Ai đã ...?*
+**Who + verb ('~s' / '~es')**     *Ai / Ai đã ...?*
 
 1. **Who feeds the dog in your family?**  
 *Trong gia đình bạn, ai cho chó ăn?*   

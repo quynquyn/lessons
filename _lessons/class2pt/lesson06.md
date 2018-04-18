@@ -78,8 +78,8 @@ attr:
 
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=true
-	title="Explanation"        
-	translation="TODO"
+	title="Examples"        
+	translation="Exemplos"
     tag="h2" %}
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=1.10 stop=20.28

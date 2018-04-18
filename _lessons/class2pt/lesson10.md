@@ -11,12 +11,11 @@ attr:
 
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=true
-	title="Lesson 2.10: Friendship"        
-	translation="Amizade"
+	title="Lesson 2.10: Friendship 2"        
+	translation="Amizade 2"
     tag="h1" %}
 
 ## Vocabulary   *Vocabulário*
-
 ### Purpose   *Objetivo*
 {%  include voice.html attr=page.attr    ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=false start=7 stop=22
@@ -103,8 +102,8 @@ attr:
 
 {%  include voice.html attr=page.attr  
 	identifier="explanations"  init=true
-	title="Explanation"        
-	translation="Explicação"
+	title="Examples"        
+	translation="Exemplos"
     tag="h2" %}
 
 {%  include voice.html attr=page.attr  
@@ -147,7 +146,7 @@ attr:
 	translation="Eu acho a tela muito pequena."
     tag="h3" %}
 
-**I find someone or something + adjective**     **Eu acho alguém o algo + adjetivo*
+**I find someone or something + adjective**     *Eu acho alguém o algo + adjetivo*
 
 1. **I find superhero movies silly.**  
 *Eu acho tolos os filmes de super-heróis.*  

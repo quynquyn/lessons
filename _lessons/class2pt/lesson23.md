@@ -9,6 +9,7 @@ attr:
   lang: pt
 ---
 
+
 {%  include voice.html attr=page.attr        ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=true
 	title="Lesson 2.23: Employment"

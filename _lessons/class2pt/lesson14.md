@@ -91,33 +91,33 @@ attr:
 	translation="Conversação"
     tag="h2" %}
 
-> {% include play.html identifier="conversation" start=2 stop=6.2 %} Person 1: **Do you have a best friend?**   
+> {% include play.html identifier="conversation" start=4 stop=6.2 %} Person 1: **Do you have a best friend?**   
 *Você tem uma melhor amiga ou um melhor amigo?*     
-> {% include play.html identifier="conversation" start=6.2 stop=9.2 %} Person 2: **My best friends is Anna.**   
+> {% include play.html identifier="conversation" start=7.1 stop=9.2 %} Person 2: **My best friends is Anna.**   
 *Minha melhor amiga é Anna.*   
-> {% include play.html identifier="conversation" start=9.4 stop=12.2 %} P1: **How old is she?**   
+> {% include play.html identifier="conversation" start=10.4 stop=12.2 %} P1: **How old is she?**   
 *Quantos anos tem?*   
-> {% include play.html identifier="conversation" start=12.8 stop=16.9 %} P2: **She is one year older than me.**   
+> {% include play.html identifier="conversation" start=13.8 stop=16.9 %} P2: **She is one year older than me.**   
 *Ela é um ano mais velha do que eu.*   
-> {% include play.html identifier="conversation" start=17.1 stop=20.5 %} P1: **When did you first meet her?**   
+> {% include play.html identifier="conversation" start=18.1 stop=20.5 %} P1: **When did you first meet her?**   
 *Quando você conheceu ela?*      
-> {% include play.html identifier="conversation" start=20.7 stop=27.1 %} P2: **I first met her when I was 18 years old at our university.**   
+> {% include play.html identifier="conversation" start=21.8 stop=27.1 %} P2: **I first met her when I was 18 years old at our university.**   
 *A conheci pela primeira vez quando tinha 18 anos na nossa universidade.*      
-> {% include play.html identifier="conversation" start=27.3 stop=31.1 %} P1: **How long have you been friends?**   
+> {% include play.html identifier="conversation" start=28.5 stop=31.1 %} P1: **How long have you been friends?**   
 *Há quanto tempo vocês são amigas?*    
-> {% include play.html identifier="conversation" start=31.1 stop=35.7 %} P2: **We’ve been friends for seven years since then.**   
+> {% include play.html identifier="conversation" start=32.1 stop=35.7 %} P2: **We’ve been friends for seven years since then.**   
 *Nós somos amigas há sete anos desde então.*      
-> {% include play.html identifier="conversation" start=35.7 stop=40.1 %} P1: **Nice. What does your friend look like?**   
+> {% include play.html identifier="conversation" start=37.1 stop=40.1 %} P1: **Nice. What does your friend look like?**   
 *Ótimo. Como é a sua amiga?*         
-> {% include play.html identifier="conversation" start=40.3 stop=64.3 %} P2: **I have to say that she bears a strong resemblance to one of my cousins. She is not really good-looking. She is not really tall and a little underweight. She’s got a face with big eyes, a flat nose and some acne on her face. The most attractive thing on her face are her full lips.**   
+> {% include play.html identifier="conversation" start=41.5 stop=64.3 %} P2: **I have to say that she bears a strong resemblance to one of my cousins. She is not really good-looking. She is not really tall and a little underweight. She’s got a face with big eyes, a flat nose and some acne on her face. The most attractive thing on her face are her full lips.**   
 *Tenho que dizer que ela tem uma semelhança impressionante com uma das minhas primas. Ela não é realmente bonita. Ela não é muito alta e um pouco abaixo do peso. A cara dela e com olhos grandes, nariz achatado e um pouco de acne no rosto. A coisa mais atraente no rosto dela são os lábios cheio.*   
-> {% include play.html identifier="conversation" start=64.5 stop=68.1 %} P1: **What is the best thing about her?**   
+> {% include play.html identifier="conversation" start=65.1 stop=68.1 %} P1: **What is the best thing about her?**   
 *Qual é o melhor nela?*   
-> {% include play.html identifier="conversation" start=68.2 stop=86.4 %} P2: **She is humble. She rarely talks about herself or what she has and she doesn’t look down on people. She’s also hilarious. I never feel bored when she’s around. To be honest, she is the most hilarious person I’ve ever known.**   
+> {% include play.html identifier="conversation" start=69.8 stop=86.4 %} P2: **She is humble. She rarely talks about herself or what she has and she doesn’t look down on people. She’s also hilarious. I never feel bored when she’s around. To be honest, she is the most hilarious person I’ve ever known.**   
 *Ela é humilde. Ela raramente fala sobre si mesma ou sobre o que tem e não menospreza as pessoas. Ela também é hilária. Eu nunca me sinto entediada quando ela está por perto. Honestamente, ela é a pessoa mais hilária que já conheci.*     
-> {% include play.html identifier="conversation" start=86.5 stop=93.3 %} P1: **What do you think is the most important thing in friendship?**   
+> {% include play.html identifier="conversation" start=88.1 stop=93.3 %} P1: **What do you think is the most important thing in friendship?**   
 *O que você acha que é o mais importante na amizade?*   
-> {% include play.html identifier="conversation" start=93.3 stop=101.5 %} P2: **Well, never telling lies, in my opinion, is the most important thing in friendship.**   
+> {% include play.html identifier="conversation" start=94.6 stop=101.5 %} P2: **Well, never telling lies, in my opinion, is the most important thing in friendship.**   
 *Bem, nunca dizer mentiras, na minha opinião, é a coisa mais importante na amizade.*    
 
 {%  include voice.html attr=page.attr  

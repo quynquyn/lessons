@@ -62,7 +62,7 @@ attr:
     tag="h2" %}
 
 {%  include voice.html attr=page.attr  
-	identifier="Explanation"  init=false start=4.63 stop=24.71
+	identifier="explanation"  init=false start=4.63 stop=24.71
 	title="1. After finding out about this, I realized that I need to talk to you straight away."        
 	translation=""
     tag="h3" %}
@@ -79,7 +79,7 @@ attr:
   {% else %}
 
 {%  include voice.html attr=page.attr  
-	identifier="Explanation"  init=false start=25.56 stop=41.11
+	identifier="explanation"  init=false start=25.56 stop=41.11
 	title="2. I think that if you really like someone, you should say it."        
 	translation=""
     tag="h3" %}
@@ -92,7 +92,7 @@ attr:
 *Eu acho que você precisa parar de ser tão covarde e dizer a verdade!*    
 
 {%  include voice.html attr=page.attr  
-	identifier="Explanation"  init=false start=41.16 stop=51.61
+	identifier="explanation"  init=false start=41.16 stop=51.61
 	title="3. I thought you felt an interest for me."        
 	translation="Eu pensei que você tinha interesse em mim."
     tag="h3" %}
@@ -107,7 +107,7 @@ attr:
 *Ele pensou que ele seria um pai.*   
 
 {%  include voice.html attr=page.attr  
-	identifier="Explanation"  init=false start=51.66 stop=68.61
+	identifier="explanation"  init=false start=51.66 stop=68.61
 	title="4. I didn't mean to upset you, but that's just how I feel."        
 	translation=""
     tag="h3" %}
@@ -120,7 +120,7 @@ attr:
 *Anne não quis te insultar, mas ela me disse que você não é seu tipo.*   
 
 {%  include voice.html attr=page.attr  
-	identifier="Explanation"  init=false start=68.76 stop=82.11
+	identifier="explanation"  init=false start=68.76 stop=82.11
 	title="5. I enjoy your company. We should go out sometime."        
 	translation=""
     tag="h3" %}
@@ -133,7 +133,7 @@ attr:
 *Eu gosto da companhia de Dana, mas ela não é mais do que uma amiga para mim.*    
 
 {%  include voice.html attr=page.attr  
-	identifier="Explanation"  init=false start=82.16 stop=98.11
+	identifier="explanation"  init=false start=82.16 stop=98.11
 	title="6. Really? You really like me?"        
 	translation="Mesmo? Voce realmente gosta de mim?"
     tag="h3" %}

@@ -9,7 +9,6 @@ attr:
   lang: pt
 ---
 
-
 {%  include voice.html attr=page.attr  
 	identifier="vocabulary"  init=true
 	title="Lesson 2.20: A healthy lifestyle"        

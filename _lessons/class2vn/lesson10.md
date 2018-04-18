@@ -112,7 +112,7 @@ attr:
 	translation="Bạn sử dụng điện thoại để làm gì?"
     tag="h3" %}
  
-**What...for?** 
+**What...for?**    *... để làm gì?* 
 
 1. **What do you study English for?**  
 *Bạn học Tiếng Anh để làm gì?*

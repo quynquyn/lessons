@@ -9,6 +9,7 @@ attr:
   lang: pt
 ---
 
+
 {%  include voice.html attr=page.attr        ZZZZZZZZZZZZZZZZZZZZ=ZZZZZZZZZZZZZZZZZZZZ
 	identifier="vocabulary"  init=true
 	title="Lesson 2.19: Feelings 2"  
@@ -158,25 +159,25 @@ attr:
 	translation="Mais exemplos"
     tag="h2" %}
 
-1. **I wasn't going to let her come to my party but I had a change of heart.**   
+1. {% include play.html identifier="explanation" start=99.17 stop=104.83 %} **I wasn't going to let her come to my party but I had a change of heart.**   
 *Eu não a deixaria vir a minha festa, mas alterei a minha opinião.*    
-2. **If something bores you to tears, leave!**  
+2. {% include play.html identifier="explanation" start=104.87 stop=108.13 %} **If something bores you to tears, leave!**  
 *Se algo te matar de tédio, saia!*    
-3. **If I see a spider in this house, it will make my skin crawl.**  
+3. {% include play.html identifier="explanation" start=108.13 stop=112.73 %} **If I see a spider in this house, it will make my skin crawl.**  
 *Se eu vejo uma aranha nesta casa, terei uma sensação desagradável.*    
-4. **When I saw my daughter perform, my heart swelled with pride.**  
+4. {% include play.html identifier="explanation" start=112.73 stop=117.53 %} **When I saw my daughter perform, my heart swelled with pride.**  
 *Quando eu vi minha filha actuar, eu estava muito orgulhoso.*    
-5. **I'm so hungry, I could eat a horse! If we don't eat soon, I will starve.**  
+5. {% include play.html identifier="explanation" start=117.53 stop=123.13 %} **I'm so hungry, I could eat a horse! If we don't eat soon, I will starve.**  
 *Estou com muita fome, eu poderia comer um boi! Se não comermos em breve, vou morrer de fome.*    
-6. **I feel like I need to let off some steam after talking to that annoying woman.**  
+6. {% include play.html identifier="explanation" start=123.13 stop=128.53 %} **I feel like I need to let off some steam after talking to that annoying woman.**  
 *Sinto que preciso aliviar a pressão depois de falar com aquela mulher irritante.*    
-7. **I'm so sorry to hear that. If there is any way I can help you, let me know.**  
+7. {% include play.html identifier="explanation" start=128.53 stop=134.23 %} **I'm so sorry to hear that. If there is any way I can help you, let me know.**  
 *Eu sinto muito por ouvir isso. Se houver alguma maneira de ajudá-lo, avise-me.*    
-8. **It will be such a pity if you miss the movie.**  
+8. {% include play.html identifier="explanation" start=134.23 stop=139.13 %} **It will be such a pity if you miss the movie.**  
 *Vai ser uma pena se você perder o filme.*    
-9. **If you don't get ahold of yourself, I will slap you!**  
+9. {% include play.html identifier="explanation" start=139.13 stop=143.83 %} **If you don't get ahold of yourself, I will slap you!**  
 *Se você não se controlar, eu vou te dar uma bofetada*    
-10. **I'm so happy, I feel like I'm walking on air.**  
+10. {% include play.html identifier="explanation" start=143.87 stop=149.73 %} **I'm so happy, I feel like I'm walking on air.**  
 *Estou tão feliz, eu sinto que estou andando nas nuvens.*   
 
 

@@ -9,7 +9,6 @@ attr:
   lang: pt
 ---
 
-
 {%  include voice.html attr=page.attr  
 	identifier="Vocabulary"  init=true
 	title="Lesson 2.8: Working life"        
@@ -74,8 +73,8 @@ attr:
   
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=true
-	title="Explanation"        
-	translation="Explicação"
+	title="Examples"        
+	translation="Exemplos"
     tag="h2" %}
 
 {%  include voice.html attr=page.attr  
@@ -107,7 +106,6 @@ attr:
 {% if site.trialdeploy %}
   {% include list_placeholder.html  attr=page.attr     start=3 stop=6 %}
   {% else %}
-
 
 {%  include voice.html attr=page.attr  
 	identifier="Explanation"  init=false start=36.97 stop=57.45
