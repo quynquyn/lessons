@@ -21,13 +21,13 @@ body_classes:
         
         {% if page.lang == "vn" %}
           {{page.salestext | default:"Phiên bản miễn phí"}}
-          <a class="nav-link btn btn-info" href="{{ site.texts.vn.upgrade_url }}">Nâng cấp!</a>
+          <a class="nav-link btn btn-info" href="{{ site.texts.vn.help_url }}">Nâng cấp!</a>
         {% elsif page.lang == "pt" %}
           {{page.salestext | default:"Versão Gratuita"}}
-          <a class="nav-link btn btn-info" href="{{ site.texts.pt.upgrade_url }}">Atualizar!</a>
+          <a class="nav-link btn btn-info" href="{{ site.texts.pt.help_url }}">Atualizar!</a>
         {% else %}
           {{page.salestext | default:"Free version"}}
-          <a class="nav-link btn btn-info" href="{{ site.texts.en.upgrade_url }}">Upgrade me!</a>
+          <a class="nav-link btn btn-info" href="{{ site.texts.en.help_url }}">Upgrade me!</a>
         {% endif %}
         
       </span>
